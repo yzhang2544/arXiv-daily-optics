@@ -91,13 +91,13 @@ for dl in soup.find_all("dl"):
 
         tag = False
 
-        keywords = ['neural', 'network', 'graph', 'robustness', 'attack',
-                    'defense', 'defence', 'adversarial', 'robust', 'networks',
-                    'graphs', 'attacks', 'detection', 'representation', 'embedding',
-                    'convolutional', 'complex', 'link', 'prediction', 'heterogeneous',
-                    'social', 'vulnerability', 'evolutionary', 'augmentation',
-                    'self-supervised', 'self-supervise', 'causal', 'causality', 'privacy',
-                    'attacking', 'poisoning', 'evasion', 'community', 'backdoor', 'code', 'mining']
+        keywords = ['lithium niobate', 'modulator', 'electro-optic', 'silicon', 'silica',
+                    'frequency comb', 'photonic', 'kerr', 'acoustic', 'optomechanics',
+                    'WDM', 'microwave', 'millimeter', 'MMW', 'sensor','sensors',
+                    'quantum', 'soliton', 'LNOI', 'integrated', 'THz','acoustic','acousto',
+                    'terahertz', 'SiN', 'PT', 'inverse',
+                    'MZI', 'MIM', 'laser', 'Hermitian', 'quantum',
+                    'Optoelectronic', 'optical','metasurface','wireless']
         if len([i for i in title_words if i in keywords]) >= 1:
             print(title)
             tag = True
