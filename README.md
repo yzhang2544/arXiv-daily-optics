@@ -1,4 +1,4 @@
-# arXiv-daily-graphMining
+# arXiv-daily-optics
 
 Managed and maintained by github action.
 
