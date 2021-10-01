@@ -1,0 +1,110 @@
+[
+  {
+    "id": "arXiv:2109.15169",
+    "title": "Variational learning of quantum ground states on spiking neuromorphic  hardware",
+    "abstract": "We train a neuromorphic hardware chip to approximate the ground states of quantum spin models by variational energy minimization. Compared to variational artificial neural networks using Markov chain Monte Carlo for sample generation, this approach has the advantage that the neuromorphic device generates samples in a fast and inherently parallel fashion. We develop a training algorithm and apply it to the transverse field Ising model, showing good performance at moderate system sizes ($N\\leq 10$). A systematic hyperparameter study shows that scalability to larger system sizes mainly depends on sample quality which is limited by parameter drifts on the analog neuromorphic chip. The learning performance shows a threshold behavior as a function of the number of variational parameters of the ansatz, with approximately $50$ hidden neurons being sufficient for representing critical ground states up to $N=10$. The 6+1-bit resolution of the network parameters does not limit the reachable approximation quality in the current setup. Our work provides an important step towards harnessing the capabilities of neuromorphic hardware for tackling the curse of dimensionality in quantum many-body problems. ",
+    "url": "https://arxiv.org/abs/2109.15169",
+    "authors": [
+      "Robert Klassert",
+      "Andreas Baumbach",
+      "Mihai A. Petrovici",
+      "Martin G\u00e4rtner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Emerging Technologies (cs.ET)",
+      "Neural and Evolutionary Computing (cs.NE)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.15262",
+    "title": "Non-Hermitian physics and engineering in silicon photonics",
+    "abstract": "Silicon photonics has been studied as an integratable optical platform where numerous applicable devices and systems are created based on modern physics and state-of-the-art nanotechnologies. The implementation of quantum mechanics has been the driving force of the most intriguing design of photonic structures, since the optical systems are found of great capability and potential in realizing the analogues of quantum concepts and phenomena. Non-Hermitian physics, which breaks the conventional scope of quantum mechanics based on Hermitian Hamiltonian, has been widely explored in the platform of silicon photonics, with promising design of optical refractive index, modal coupling and gain-loss distribution. As we will discuss in this chapter, the unconventional properties of exceptional points and parity-time symmetry realized in silicon photonics have created new opportunities for ultrasensitive sensors, laser engineering, control of light propagation, topological mode conversion, etc. The marriage between the quantum non-Hermiticity and classical silicon platforms not only spurs numerous studies on the fundamental physics, but also enriches the potential functionalities of the integrated photonic systems. ",
+    "url": "https://arxiv.org/abs/2109.15262",
+    "authors": [
+      "Changqing Wang",
+      "Zhoutian Fu",
+      "Lan Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Systems and Control (eess.SY)",
+      "Applied Physics (physics.app-ph)",
+      "Classical Physics (physics.class-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.15282",
+    "title": "Improved quantum lower and upper bounds for matrix scaling",
+    "abstract": "Matrix scaling is a simple to state, yet widely applicable linear-algebraic problem: the goal is to scale the rows and columns of a given non-negative matrix such that the rescaled matrix has prescribed row and column sums. Motivated by recent results on first-order quantum algorithms for matrix scaling, we investigate the possibilities for quantum speedups for classical second-order algorithms, which comprise the state-of-the-art in the classical setting. We first show that there can be essentially no quantum speedup in terms of the input size in the high-precision regime: any quantum algorithm that solves the matrix scaling problem for $n \\times n$ matrices with at most $m$ non-zero entries and with $\\ell_2$-error $\\varepsilon=\\widetilde\\Theta(1/m)$ must make $\\widetilde\\Omega(m)$ queries to the matrix, even when the success probability is exponentially small in $n$. Additionally, we show that for $\\varepsilon\\in[1/n,1/2]$, any quantum algorithm capable of producing $\\frac{\\varepsilon}{100}$-$\\ell_1$-approximations of the row-sum vector of a (dense) normalized matrix uses $\\Omega(n/\\varepsilon)$ queries, and that there exists a constant $\\varepsilon_0>0$ for which this problem takes $\\Omega(n^{1.5})$ queries. To complement these results we give improved quantum algorithms in the low-precision regime: with quantum graph sparsification and amplitude estimation, a box-constrained Newton method can be sped up in the large-$\\varepsilon$ regime, and outperforms previous quantum algorithms. For entrywise-positive matrices, we find an $\\varepsilon$-$\\ell_1$-scaling in time $\\widetilde O(n^{1.5}/\\varepsilon^2)$, whereas the best previously known bounds were $\\widetilde O(n^2\\mathrm{polylog}(1/\\varepsilon))$ (classical) and $\\widetilde O(n^{1.5}/\\varepsilon^3)$ (quantum). ",
+    "url": "https://arxiv.org/abs/2109.15282",
+    "authors": [
+      "Sander Gribling",
+      "Harold Nieuwboer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Structures and Algorithms (cs.DS)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2006.12125",
+    "title": "Hardness of efficiently generating ground states in postselected quantum  computation",
+    "abstract": " Comments: 8 pages, 4 figures, close to published version ",
+    "url": "https://arxiv.org/abs/2006.12125",
+    "authors": [
+      "Yuki Takeuchi",
+      "Yasuhiro Takahashi",
+      "Seiichiro Tani"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)"
+    ]
+  },
+  {
+    "id": "arXiv:2012.11295",
+    "title": "Sim-to-real for high-resolution optical tactile sensing: From images to  3D contact force distributions",
+    "abstract": " Comments: Accompanying video: this https URL ",
+    "url": "https://arxiv.org/abs/2012.11295",
+    "authors": [
+      "Carmelo Sferrazza",
+      "Raffaello D'Andrea"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2105.03249",
+    "title": "The complexity of a quantum system and the accuracy of its description",
+    "abstract": " Comments: Latex, 20 pages, 3 figures, some minor corrections were done ",
+    "url": "https://arxiv.org/abs/2105.03249",
+    "authors": [
+      "Yuri I. Ozhigov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.08826",
+    "title": "A discrete optimisation approach for target path planning whilst evading  sensors",
+    "abstract": " Title: A discrete optimisation approach for target path planning whilst evading  sensors ",
+    "url": "https://arxiv.org/abs/2106.08826",
+    "authors": [
+      "J.E. Beasley"
+    ],
+    "subjectives": [
+      "Optimization and Control (math.OC)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  }
+]
