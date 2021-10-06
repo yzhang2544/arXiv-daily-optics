@@ -1,0 +1,45 @@
+[
+  {
+    "id": "arXiv:2110.01708",
+    "title": "A DEIM driven reduced basis method for the diffuse Stokes/Darcy model,  applied to inverse subsurface characterization of in-situ leach mining",
+    "abstract": "In this article, we develop a reduced basis method for efficiently solving the coupled Stokes/Darcy equations with parametric internal geometry. To accommodate the change in topology, we define the Stokes and Darcy domains implicitly via a phase-field indicator function. In our reduced order model, we approximate the parameter-dependent phase-field function with a discrete empirical interpolation method (DEIM) that enables affine decomposition of the associated linear and bilinear forms. In addition, we introduce a modification of DEIM that leads to positivity-preserving approximations, thus guaranteeing positive-definiteness of the system matrix. We also present a strategy for determining the required number of DEIM modes for a given number of reduced basis functions. We couple reduced basis functions on neighboring patches to enable the efficient simulation of large-scale problems that consist of repetitive subdomains. We apply our reduced basis framework to efficiently solve the inverse problem of characterizing the subsurface damage state of a complete in-situ leach mining site. ",
+    "url": "https://arxiv.org/abs/2110.01708",
+    "authors": [
+      "Stein K.F. Stoter",
+      "Etienne Jessen",
+      "Viktor Niedens",
+      "Dominik Schillinger"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.01822",
+    "title": "Verified eigenvalue and eigenvector computations using complex moments  and the Rayleigh-Ritz procedure for generalized Hermitian eigenvalue problems",
+    "abstract": "We propose a verified computation method for eigenvalues in a region and the corresponding eigenvectors of generalized Hermitian eigenvalue problems. The proposed method uses complex moments to extract the eigencomponents of interest from a random matrix and uses the Rayleigh--Ritz procedure to project a given eigenvalue problem into a reduced eigenvalue problem. The complex moment is given by contour integral and approximated by using numerical quadrature. We split the error in the complex moment into the truncation error of the quadrature and rounding errors and evaluate each. This idea for error evaluation inherits our previous Hankel matrix approach, whereas the proposed method requires half the number of quadrature points for the previous approach to reduce the truncation error to the same order. Moreover, the Rayleigh--Ritz procedure approach forms a transformation matrix that enables verification of the eigenvectors. Numerical experiments show that the proposed method is faster than previous methods while maintaining verification performance. ",
+    "url": "https://arxiv.org/abs/2110.01822",
+    "authors": [
+      "Akira Imakura",
+      "Keiichi Morikuni",
+      "Akitoshi Takayasu"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.13421",
+    "title": "Recent advances for quantum classifiers",
+    "abstract": " Comments: invited review, 24 pages, 11 figures ",
+    "url": "https://arxiv.org/abs/2108.13421",
+    "authors": [
+      "Weikang Li",
+      "Dong-Ling Deng"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  }
+]
