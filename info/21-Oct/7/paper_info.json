@@ -1,0 +1,104 @@
+[
+  {
+    "id": "arXiv:2110.02375",
+    "title": "Interpreting intermediate convolutional layers in unsupervised acoustic  word classification",
+    "abstract": "Understanding how deep convolutional neural networks classify data has been subject to extensive research. This paper proposes a technique to visualize and interpret intermediate layers of unsupervised deep convolutional neural networks by averaging over individual feature maps in each convolutional layer and inferring underlying distributions of words with non-linear regression techniques. A GAN-based architecture (ciwGAN arXiv:2006.02951) that includes three convolutional networks (a Generator, a Discriminator, and a classifier) was trained on unlabeled sliced lexical items from TIMIT. The training results in a deep convolutional network that learns to classify words into discrete classes only from the requirement of the Generator to output informative data. The classifier network has no access to the training data -- only to the generated data -- which means lexical learning needs to emerge in a fully unsupervised manner. We propose a technique to visualize individual convolutional layers in the classifier that yields highly informative time-series data for each convolutional layer and apply it to unobserved test data. Using non-linear regression, we infer underlying distributions for each word which allows us to analyze both absolute values and shapes of individual words at different convolutional layers as well as perform hypothesis testing on their acoustic properties. The technique also allows us to tests individual phone contrasts and how they are represented at each layer. ",
+    "url": "https://arxiv.org/abs/2110.02375",
+    "authors": [
+      "Ga\u0161per Begu\u0161",
+      "Alan Zhou"
+    ],
+    "subjectives": [
+      "Sound (cs.SD)",
+      "Computation and Language (cs.CL)",
+      "Audio and Speech Processing (eess.AS)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.02886",
+    "title": "Modifying and optimizing the inverse of the frequency response circulant  matrix as an iterative learning control compensator",
+    "abstract": "Feedback control systems do not do what you ask. The concept of bandwidth is defined to tell what components of a command are reasonably well handled. Iterative Learning Control (ILC) seeks to converge to zero error following any given finite time desired trajectory as iterations progress. The approach can be used to achieve high precision tracking in spacecraft sensors performing repeated highly accurate sensor scanning. ILC asks for zero error for a finite time tracking maneuver, containing initial transients each iteration. The purpose of this paper is to create a method of designing ILC compensators based on steady state frequency response, and have the ILC converge to zero error in spite of transients and bandwidth. In this work the inverse of the circulant matrix of Markov parameters is used as a learning gain matrix. One can show that this matrix gives the steady state frequency response of the system at the finite number of frequencies observable in the finite data sequence of an iteration or run. Methods are used to adjust the steady state frequency response gains to address the transient part of the error signal. Numerical simulations compare the design approach to common time domain ILC design approaches, and one observes much faster convergence. ",
+    "url": "https://arxiv.org/abs/2110.02886",
+    "authors": [
+      "Shuo Liu",
+      "Richard W. Longman"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.02836",
+    "title": "Beyond quadratic speedups in quantum attacks on symmetric schemes",
+    "abstract": "In this paper, we report the first quantum key-recovery attack on a symmetric block cipher design, using classical queries only, with a more than quadratic time speedup compared to the best classical attack. We study the 2XOR-Cascade construction of Ga\\v{z}i and Tessaro (EUROCRYPT~2012). It is a key length extension technique which provides an n-bit block cipher with 5n/2 bits of security out of an n-bit block cipher with 2n bits of key, with a security proof in the ideal model. We show that the offline-Simon algorithm of Bonnetain et al. (ASIACRYPT~2019) can be extended to, in particular, attack this construction in quantum time \\~O($2^n$), providing a 2.5 quantum speedup over the best classical attack. Regarding post-quantum security of symmetric ciphers, it is commonly assumed that doubling the key sizes is a sufficient precaution. This is because Grover's quantum search algorithm, and its derivatives, can only reach a quadratic speedup at most. Our attack shows that the structure of some symmetric constructions can be exploited to overcome this limit. In particular, the 2XOR-Cascade cannot be used to generically strengthen block ciphers against quantum adversaries, as it would offer only the same security as the block cipher itself. ",
+    "url": "https://arxiv.org/abs/2110.02836",
+    "authors": [
+      "Xavier Bonnetain",
+      "Andr\u00e9 Schrottenloher",
+      "Ferdinand Sibleyras"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  },
+  {
+    "id": "arXiv:2101.08448",
+    "title": "Noisy intermediate-scale quantum (NISQ) algorithms",
+    "abstract": " Comments: Added new content, Modified certain parts and the paper structure ",
+    "url": "https://arxiv.org/abs/2101.08448",
+    "authors": [
+      "Kishor Bharti",
+      "Alba Cervera-Lierta",
+      "Thi Ha Kyaw",
+      "Tobias Haug",
+      "Sumner Alperin-Lea",
+      "Abhinav Anand",
+      "Matthias Degroote",
+      "Hermanni Heimonen",
+      "Jakob S. Kottmann",
+      "Tim Menke",
+      "Wai-Keong Mok",
+      "Sukin Sim",
+      "Leong-Chuan Kwek",
+      "Al\u00e1n Aspuru-Guzik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.03498",
+    "title": "Identifiability in inverse reinforcement learning",
+    "abstract": " Title: Identifiability in inverse reinforcement learning ",
+    "url": "https://arxiv.org/abs/2106.03498",
+    "authors": [
+      "Haoyang Cao",
+      "Samuel N. Cohen",
+      "Lukasz Szpruch"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.12827",
+    "title": "Experimental symmetric private information retrieval with  measurement-device-independent quantum network",
+    "abstract": " Title: Experimental symmetric private information retrieval with  measurement-device-independent quantum network ",
+    "url": "https://arxiv.org/abs/2109.12827",
+    "authors": [
+      "Chao Wang",
+      "Wen Yu Kon",
+      "Hong Jie Ng",
+      "Charles C.-W. Lim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  }
+]
