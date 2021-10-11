@@ -1,0 +1,47 @@
+[
+  {
+    "id": "arXiv:2110.03814",
+    "title": "StyleGAN-induced data-driven regularization for inverse problems",
+    "abstract": "Recent advances in generative adversarial networks (GANs) have opened up the possibility of generating high-resolution photo-realistic images that were impossible to produce previously. The ability of GANs to sample from high-dimensional distributions has naturally motivated researchers to leverage their power for modeling the image prior in inverse problems. We extend this line of research by developing a Bayesian image reconstruction framework that utilizes the full potential of a pre-trained StyleGAN2 generator, which is the currently dominant GAN architecture, for constructing the prior distribution on the underlying image. Our proposed approach, which we refer to as learned Bayesian reconstruction with generative models (L-BRGM), entails joint optimization over the style-code and the input latent code, and enhances the expressive power of a pre-trained StyleGAN2 generator by allowing the style-codes to be different for different generator layers. Considering the inverse problems of image inpainting and super-resolution, we demonstrate that the proposed approach is competitive with, and sometimes superior to, state-of-the-art GAN-based image reconstruction methods. ",
+    "url": "https://arxiv.org/abs/2110.03814",
+    "authors": [
+      "Arthur Conmy",
+      "Subhadip Mukherjee",
+      "Carola-Bibiane Sch\u00f6nlieb"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.03903",
+    "title": "Kinematically consistent recurrent neural networks for learning inverse  problems in wave propagation",
+    "abstract": "Although machine learning (ML) is increasingly employed recently for mechanistic problems, the black-box nature of conventional ML architectures lacks the physical knowledge to infer unforeseen input conditions. This implies both severe overfitting during a dearth of training data and inadequate physical interpretability, which motivates us to propose a new kinematically consistent, physics-based ML model. In particular, we attempt to perform physically interpretable learning of inverse problems in wave propagation without suffering overfitting restrictions. Towards this goal, we employ long short-term memory (LSTM) networks endowed with a physical, hyperparameter-driven regularizer, performing penalty-based enforcement of the characteristic geometries. Since these characteristics are the kinematical invariances of wave propagation phenomena, maintaining their structure provides kinematical consistency to the network. Even with modest training data, the kinematically consistent network can reduce the $L_1$ and $L_\\infty$ error norms of the plain LSTM predictions by about 45% and 55%, respectively. It can also increase the horizon of the plain LSTM's forecasting by almost two times. To achieve this, an optimal range of the physical hyperparameter, analogous to an artificial bulk modulus, has been established through numerical experiments. The efficacy of the proposed method in alleviating overfitting, and the physical interpretability of the learning mechanism, are also discussed. Such an application of kinematically consistent LSTM networks for wave propagation learning is presented here for the first time. ",
+    "url": "https://arxiv.org/abs/2110.03903",
+    "authors": [
+      "Wrik Mallik",
+      "Rajeev K. Jaiman",
+      "Jasmin Jelovica"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:1907.02367",
+    "title": "Tent pitching and Trefftz-DG method for the acoustic wave equation",
+    "abstract": " Comments: 18 pages, 11 figures ",
+    "url": "https://arxiv.org/abs/1907.02367",
+    "authors": [
+      "Ilaria Perugia",
+      "Joachim Sch\u00f6berl",
+      "Paul Stocker",
+      "Christoph Wintersteiger"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  }
+]
