@@ -1,0 +1,77 @@
+[
+  {
+    "id": "arXiv:2110.04485",
+    "title": "Application of quantum computing to a linear non-Gaussian acyclic model  for novel medical knowledge discovery",
+    "abstract": "Recently, with the digitalization of medicine, the utilization of real-world medical data collected from clinical sites has been attracting attention. In this study, quantum computing was applied to a linear non-Gaussian acyclic model to discover causal relationships from real-world medical data alone. Specifically, the independence measure of DirectLiNGAM, a causal discovery algorithm, was calculated using the quantum kernel and its accuracy on real-world medical data was verified. When DirectLiNGAM with the quantum kernel (qLiNGAM) was applied to real-world medical data, a case was confirmed in which the causal structure could be correctly estimated when the amount of data was small, which was not possible with existing methods. It is suggested that qLiNGAM may be able to discover new medical knowledge and contribute to the solution of medical problems, even when only a small amount of data is available. ",
+    "url": "https://arxiv.org/abs/2110.04485",
+    "authors": [
+      "Hideaki Kawaguchi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.04782",
+    "title": "Hard instance learning for quantum adiabatic prime factorization",
+    "abstract": "Prime factorization is a difficult problem with classical computing, whose exponential hardness is the foundation of Rivest-Shamir-Adleman (RSA) cryptography. With programmable quantum devices, adiabatic quantum computing has been proposed as a plausible approach to solve prime factorization, having promising advantage over classical computing. Here, we find there are certain hard instances that are consistently intractable for both classical simulated annealing and un-configured adiabatic quantum computing (AQC). Aiming at an automated architecture for optimal configuration of quantum adiabatic factorization, we apply a deep reinforcement learning (RL) method to configure the AQC algorithm. By setting the success probability of the worst-case problem instances as the reward to RL, we show the AQC performance on the hard instances is dramatically improved by RL configuration. The success probability also becomes more evenly distributed over different problem instances, meaning the configured AQC is more stable as compared to the un-configured case. Through a technique of transfer learning, we find prominent evidence that the framework of AQC configuration is scalable -- the configured AQC as trained on five qubits remains working efficiently on nine qubits with a minimal amount of additional training cost. ",
+    "url": "https://arxiv.org/abs/2110.04782",
+    "authors": [
+      "Jian Lin",
+      "Zhengfeng Zhang",
+      "Junping Zhang",
+      "Xiaopeng Li"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.04993",
+    "title": "On the energy landscape of symmetric quantum signal processing",
+    "abstract": "Symmetric quantum signal processing provides a parameterized representation of a real polynomial, which can be translated into an efficient quantum circuit for performing a wide range of computational tasks on quantum computers. For a given polynomial, the parameters (called phase factors) can be obtained by solving an optimization problem. However, the cost function is non-convex, and has a very complex energy landscape with numerous global and local minima. It is therefore surprising that the solution can be robustly obtained in practice, starting from a fixed initial guess $\\Phi^0$ that contains no information of the input polynomial. To investigate this phenomenon, we first explicitly characterize all the global minima of the cost function. We then prove that one particular global minimum (called the maximal solution) belongs to a neighborhood of $\\Phi^0$, on which the cost function is strongly convex under suitable conditions. This explains the aforementioned success of optimization algorithms, and solves the open problem of finding phase factors using only standard double precision arithmetic operations. ",
+    "url": "https://arxiv.org/abs/2110.04993",
+    "authors": [
+      "Jiasu Wang",
+      "Yulong Dong",
+      "Lin Lin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.10180",
+    "title": "Determining when a truncated generalised Reed-Solomon code is Hermitian  self-orthogonal",
+    "abstract": " Title: Determining when a truncated generalised Reed-Solomon code is Hermitian  self-orthogonal ",
+    "url": "https://arxiv.org/abs/2106.10180",
+    "authors": [
+      "Simeon Ball",
+      "Ricard Vilar"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Combinatorics (math.CO)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.03242",
+    "title": "On the asymptotical regularization with convex constraints for inverse  problems",
+    "abstract": " Comments: 11 pages ",
+    "url": "https://arxiv.org/abs/2110.03242",
+    "authors": [
+      "Min Zhong",
+      "Wei Wang"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  }
+]
