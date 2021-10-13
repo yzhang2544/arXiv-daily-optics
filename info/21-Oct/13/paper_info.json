@@ -1,0 +1,72 @@
+[
+  {
+    "id": "arXiv:2110.05517",
+    "title": "Learnability of the output distributions of local quantum circuits",
+    "abstract": "There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective. ",
+    "url": "https://arxiv.org/abs/2110.05517",
+    "authors": [
+      "Marcel Hinsche",
+      "Marios Ioannou",
+      "Alexander Nietner",
+      "Jonas Haferkamp",
+      "Yihui Quek",
+      "Dominik Hangleiter",
+      "Jean-Pierre Seifert",
+      "Jens Eisert",
+      "Ryan Sweke"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.05893",
+    "title": "Hide and seek with quantum resources: New and modified protocols for  quantum steganography",
+    "abstract": "Steganography is the science of hiding and communicating a secret message by embedding it in an innocent looking text such that the eavesdropper is unaware of its existence. Previously, attempts were made to establish steganography using quantum key distribution (QKD). Recently, it has been shown that such protocols are vulnerable to a certain steganalysis attack that can detect the presence of the hidden message and suppress the entire communication. In this work, we elaborate on the vulnerabilities of the original protocol which make it insecure against this detection attack. Further, we propose a novel steganography protocol using discrete modulation continuous variable QKD that eliminates the threat of this detection-based attack. Deriving from the properties of our protocol, we also propose modifications in the original protocol to dispose of its vulnerabilities and make it insusceptible to steganalysis. ",
+    "url": "https://arxiv.org/abs/2110.05893",
+    "authors": [
+      "Rohan Joshi",
+      "Akhil Gupta",
+      "Kishore Thapliyal",
+      "R Srikanth",
+      "Anirban Pathak"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.06139",
+    "title": "Classification of anomalous gait using Machine Learning techniques and  embedded sensors",
+    "abstract": "Human gait can be a predictive factor for detecting pathologies that affect human locomotion according to studies. In addition, it is known that a high investment is demanded in order to raise a traditional clinical infrastructure able to provide human gait examinations, making them unaffordable for economically vulnerable patients. In face of this scenario, this work proposes an accessible and modern solution composed of a wearable device, to acquire 3D-accelerometer and 3D-gyroscope measurements, and machine learning techniques to classify between distinct categories of induced gait disorders. In order to develop the proposed research, it was created a dataset with the target label being 4 distinct and balanced categories of anomalous gait. The machine learning techniques that achieved the best performances (in terms of accuracy) in this dataset were through the application of Principal Component Analysis algorithm following of a Support Vector Machines classifier (94 \\%). Further, an architecture based on a Feedforward Neural Network yielded even better results (96 \\%). Finally, it is also presented computational performance comparison between the models implemented. ",
+    "url": "https://arxiv.org/abs/2110.06139",
+    "authors": [
+      "T. R. D. Sa",
+      "C. M. S. Figueiredo"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2009.12919",
+    "title": "Benchmarking deep inverse models over time, and the neural-adjoint  method",
+    "abstract": " Comments: Preprint. For camera-ready version please visit this https URL ",
+    "url": "https://arxiv.org/abs/2009.12919",
+    "authors": [
+      "Simiao Ren",
+      "Willie Padilla",
+      "Jordan Malof"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)",
+      "Machine Learning (stat.ML)"
+    ]
+  }
+]
