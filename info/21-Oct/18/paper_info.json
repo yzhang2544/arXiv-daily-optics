@@ -1,0 +1,31 @@
+[
+  {
+    "id": "arXiv:2110.07676",
+    "title": "A data-driven model reduction method for parabolic inverse source  problems and its convergence analysis",
+    "abstract": "In this paper, we propose a data-driven model reduction method to solve parabolic inverse source problems efficiently. Our method consists of offline and online stages. In the off-line stage, we explore the low-dimensional structures in the solution space of the parabolic partial differential equations (PDEs) in the forward problem with a given class of source functions and construct a small number of proper orthogonal decomposition (POD) basis functions to achieve significant dimension reduction. Equipped with the POD basis functions, we can solve the forward problem extremely fast in the online stage. Thus, we develop a fast algorithm to solve the optimization problem in the parabolic inverse source problems, which is referred to as the POD algorithm in this paper. Under a weak regularity assumption on the solution of the parabolic PDEs, we prove the convergence of the POD algorithm in solving the forward parabolic PDEs. In addition, we obtain the error estimate of the POD algorithm for parabolic inverse source problems. Finally, we present numerical examples to demonstrate the accuracy and efficiency of the proposed method. Our numerical results show that the POD algorithm provides considerable computational savings over the finite element method. ",
+    "url": "https://arxiv.org/abs/2110.07676",
+    "authors": [
+      "Zhongjian Wang",
+      "Wenlong Zhang",
+      "Zhiwen Zhang"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.07649",
+    "title": "Federated learning and next generation wireless communications: A survey  on bidirectional relationship",
+    "abstract": "In order to meet the extremely heterogeneous requirements of the next generation wireless communication networks, research community is increasingly dependent on using machine learning solutions for real-time decision-making and radio resource management. Traditional machine learning employs fully centralized architecture in which the entire training data is collected at one node e.g., cloud server, that significantly increases the communication overheads and also raises severe privacy concerns. Towards this end, a distributed machine learning paradigm termed as Federated learning (FL) has been proposed recently. In FL, each participating edge device trains its local model by using its own training data. Then, via the wireless channels the weights or parameters of the locally trained models are sent to the central PS, that aggregates them and updates the global model. On one hand, FL plays an important role for optimizing the resources of wireless communication networks, on the other hand, wireless communications is crucial for FL. Thus, a `bidirectional' relationship exists between FL and wireless communications. Although FL is an emerging concept, many publications have already been published in the domain of FL and its applications for next generation wireless networks. Nevertheless, we noticed that none of the works have highlighted the bidirectional relationship between FL and wireless communications. Therefore, the purpose of this survey paper is to bridge this gap in literature by providing a timely and comprehensive discussion on the interdependency between FL and wireless communications. ",
+    "url": "https://arxiv.org/abs/2110.07649",
+    "authors": [
+      "Debaditya Shome",
+      "Omer Waqar",
+      "Wali Ullah Khan"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Machine Learning (cs.LG)"
+    ]
+  }
+]
