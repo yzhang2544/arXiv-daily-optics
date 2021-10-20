@@ -1,0 +1,66 @@
+[
+  {
+    "id": "arXiv:2110.10069",
+    "title": "Soliton propagation in lossy optical fibers",
+    "abstract": "In this work, we study the propagation of solitons in lossy optical fibers. The main objective of this work is to study the loss of energy of the soliton wave during propagation and then to evaluate the impact of this loss on the transmission of the soliton signal. In this context, a numerical scheme was developed to solve a system of complex partial differential equations (CPDE) that describes the propagation of solitons in optical fibers with loss and nonlinear amplification mechanisms. The numerical procedure is based on the mathematical theory of Taylor series of complex functions. We adapted the Finite Difference Method (FDM) to approximate derivatives of complex functions. Then, we solve the algebraic system resulting from the discretization, implicitly, through the relaxation Gauss-Seidel method (RGSM). The numerical study of CPDE system with linear and cubic attenuation showed that soliton waves undergo attenuation, dispersion, and oscillation effects. On the other hand, we find that by considering the nonlinear term (cubic term) as an optical amplification, it is possible to partially compensate for the attenuation of the optical signal. Finally, we show that a gain of 9% triples the propagation distance of the fundamental soliton wave, when the dissipation rate is 1%. ",
+    "url": "https://arxiv.org/abs/2110.10069",
+    "authors": [
+      "Caroline Dal\u013eAgnol",
+      "Paulo Laerte Natti",
+      "Eliandro Rodrigues Cirilo",
+      "Neyva Maria Lopes Romeiro",
+      "\u00c9rica Regina Takano Natti"
+    ],
+    "subjectives": [
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.10080",
+    "title": "Surrogate and inverse modeling for two-phase flow in porous media via  theory-guided convolutional neural network",
+    "abstract": "The theory-guided convolutional neural network (TgCNN) framework, which can incorporate discretized governing equation residuals into the training of convolutional neural networks (CNNs), is extended to two-phase porous media flow problems in this work. The two principal variables of the considered problem, pressure and saturation, are approximated simultaneously with two CNNs, respectively. Pressure and saturation are coupled with each other in the governing equations, and thus the two networks are also mutually conditioned in the training process by the discretized governing equations, which also increases the difficulty of model training. The coupled and discretized equations can provide valuable information in the training process. With the assistance of theory-guidance, the TgCNN surrogates can achieve better accuracy than ordinary CNN surrogates in two-phase flow problems. Moreover, a piecewise training strategy is proposed for the scenario with varying well controls, in which the TgCNN surrogates are constructed for different segments on the time dimension and stacked together to predict solutions for the whole time-span. For scenarios with larger variance of the formation property field, the TgCNN surrogates can also achieve satisfactory performance. The constructed TgCNN surrogates are further used for inversion of permeability fields by combining them with the iterative ensemble smoother (IES) algorithm, and sufficient inversion accuracy is obtained with improved efficiency. ",
+    "url": "https://arxiv.org/abs/2110.10080",
+    "authors": [
+      "Nanzhe Wang",
+      "Haibin Chang",
+      "Dongxiao Zhang"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2007.06968",
+    "title": "Deep composition of tensor-trains using squared inverse Rosenblatt  transports",
+    "abstract": " Comments: Found Comput Math (2021) ",
+    "url": "https://arxiv.org/abs/2007.06968",
+    "authors": [
+      "Tiangang Cui",
+      "Sergey Dolgov"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)",
+      "Computation (stat.CO)"
+    ]
+  },
+  {
+    "id": "arXiv:2010.15027",
+    "title": "Solving generalized eigenvalue problems by ordinary differential  equations on a quantum computer",
+    "abstract": " Comments: 26 pages ",
+    "url": "https://arxiv.org/abs/2010.15027",
+    "authors": [
+      "Changpeng Shao",
+      "Jin-Peng Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Numerical Analysis (math.NA)"
+    ]
+  }
+]
