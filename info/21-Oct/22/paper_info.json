@@ -1,0 +1,129 @@
+[
+  {
+    "id": "arXiv:2110.10429",
+    "title": "Knowledge distillation from language model to acoustic model: a  hierarchical multi-task learning approach",
+    "abstract": "The remarkable performance of the pre-trained language model (LM) using self-supervised learning has led to a major paradigm shift in the study of natural language processing. In line with these changes, leveraging the performance of speech recognition systems with massive deep learning-based LMs is a major topic of speech recognition research. Among the various methods of applying LMs to speech recognition systems, in this paper, we focus on a cross-modal knowledge distillation method that transfers knowledge between two types of deep neural networks with different modalities. We propose an acoustic model structure with multiple auxiliary output layers for cross-modal distillation and demonstrate that the proposed method effectively compensates for the shortcomings of the existing label-interpolation-based distillation method. In addition, we extend the proposed method to a hierarchical distillation method using LMs trained in different units (senones, monophones, and subwords) and reveal the effectiveness of the hierarchical distillation method through an ablation study. ",
+    "url": "https://arxiv.org/abs/2110.10429",
+    "authors": [
+      "Mun-Hak Lee",
+      "Joon-Hyuk Chang"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Computation and Language (cs.CL)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.10765",
+    "title": "Accelerating quantum many-body configuration interaction with directives",
+    "abstract": "Many-Fermion Dynamics-nuclear, or MFDn, is a configuration interaction (CI) code for nuclear structure calculations. It is a platform-independent Fortran 90 code using a hybrid MPI+X programming model. For CPU platforms the application has a robust and optimized OpenMP implementation for shared memory parallelism. As part of the NESAP application readiness program for NERSC's latest Perlmutter system, MFDn has been updated to take advantage of accelerators. The current mainline GPU port is based on OpenACC. In this work we describe some of the key challenges of creating an efficient GPU implementation. Additionally, we compare the support of OpenMP and OpenACC on AMD and NVIDIA GPUs. ",
+    "url": "https://arxiv.org/abs/2110.10765",
+    "authors": [
+      "Brandon Cook",
+      "Patrick J. Fasano",
+      "Pieter Maris",
+      "Chao Yang",
+      "Dossay Oryspayev"
+    ],
+    "subjectives": [
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Mathematical Software (cs.MS)",
+      "Performance (cs.PF)",
+      "Nuclear Theory (nucl-th)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.10805",
+    "title": "DVIO: Depth aided visual inertial odometry for RGBD sensors",
+    "abstract": "In past few years we have observed an increase in the usage of RGBD sensors in mobile devices. These sensors provide a good estimate of the depth map for the camera frame, which can be used in numerous augmented reality applications. This paper presents a new visual inertial odometry (VIO) system, which uses measurements from a RGBD sensor and an inertial measurement unit (IMU) sensor for estimating the motion state of the mobile device. The resulting system is called the depth-aided VIO (DVIO) system. In this system we add the depth measurement as part of the nonlinear optimization process. Specifically, we propose methods to use the depth measurement using one-dimensional (1D) feature parameterization as well as three-dimensional (3D) feature parameterization. In addition, we propose to utilize the depth measurement for estimating time offset between the unsynchronized IMU and the RGBD sensors. Last but not least, we propose a novel block-based marginalization approach to speed up the marginalization processes and maintain the real-time performance of the overall system. Experimental results validate that the proposed DVIO system outperforms the other state-of-the-art VIO systems in terms of trajectory accuracy as well as processing time. ",
+    "url": "https://arxiv.org/abs/2110.10805",
+    "authors": [
+      "Abhishek Tyagi",
+      "Yangwen Liang",
+      "Shuangquan Wang",
+      "Dongwoon Bai"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.10721",
+    "title": "Learning quantum dynamics with latent neural ODEs",
+    "abstract": "The core objective of machine-assisted scientific discovery is to learn physical laws from experimental data without prior knowledge of the systems in question. In the area of quantum physics, making progress towards these goals is significantly more challenging due to the curse of dimensionality as well as the counter-intuitive nature of quantum mechanics. Here, we present the QNODE, a latent neural ODE trained on dynamics from closed and open quantum systems. The QNODE can learn to generate quantum dynamics and extrapolate outside of its training region that satisfy the von Neumann and time-local Lindblad master equations for closed and open quantum systems. Furthermore the QNODE rediscovers quantum mechanical laws such as Heisenberg's uncertainty principle in a totally data-driven way, without constraints or guidance. Additionally, we show that trajectories that are generated from the QNODE and are close in its latent space have similar quantum dynamics while preserving the physics of the training system. ",
+    "url": "https://arxiv.org/abs/2110.10721",
+    "authors": [
+      "Matthew Choi",
+      "Daniel Flam-Shepherd",
+      "Thi Ha Kyaw",
+      "Al\u00e1n Aspuru-Guzik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2006.13201",
+    "title": "A stabilized finite element method for inverse problems subject to the  convection-diffusion equation. II: convection-dominated regime",
+    "abstract": " Comments: 25 pages, 16 figures; in v2 we made some minor corrections and updated the first 3 figures ",
+    "url": "https://arxiv.org/abs/2006.13201",
+    "authors": [
+      "Erik Burman",
+      "Mihai Nechita",
+      "Lauri Oksanen"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.05566",
+    "title": "Matrix pencils with coefficients that have positive semidefinite  Hermitian part",
+    "abstract": " Title: Matrix pencils with coefficients that have positive semidefinite  Hermitian part ",
+    "url": "https://arxiv.org/abs/2108.05566",
+    "authors": [
+      "Christian Mehl",
+      "Volker Mehrmann",
+      "Michal Wojtylak"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Dynamical Systems (math.DS)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.01402",
+    "title": "Illustrating quantum information with quantum candies",
+    "abstract": " Comments: This is the journal version of: Lin, J. and Mor, T., 2020, December. Quantum Candies and Quantum Cryptography. In International Conference on the Theory and Practice of Natural Computing (pp. 69-81). Springer, Cham., arXiv preprint arXiv:2011.02837. Changes in this version: corrected typos, added references and author affiliations ",
+    "url": "https://arxiv.org/abs/2110.01402",
+    "authors": [
+      "Junan Lin",
+      "Tal Mor",
+      "Roman Shapira"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Cryptography and Security (cs.CR)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.08964",
+    "title": "Affine Hermitian Grassmann Codes",
+    "abstract": " Title: Affine Hermitian Grassmann Codes ",
+    "url": "https://arxiv.org/abs/2110.08964",
+    "authors": [
+      "Fernando Pi\u00f1ero Gonz\u00e1lez",
+      "Doel Rivera Laboy"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Algebraic Geometry (math.AG)"
+    ]
+  }
+]
