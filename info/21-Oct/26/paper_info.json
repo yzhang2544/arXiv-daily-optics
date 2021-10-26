@@ -1,0 +1,149 @@
+[
+  {
+    "id": "arXiv:2110.12437",
+    "title": "WARPd: A linearly convergent first-order method for inverse problems  with approximate sharpness conditions",
+    "abstract": "Reconstruction of signals from undersampled and noisy measurements is a topic of considerable interest. Sharpness conditions directly control the recovery performance of restart schemes for first-order methods without the need for restrictive assumptions such as strong convexity. However, they are challenging to apply in the presence of noise or approximate model classes (e.g., approximate sparsity). We provide a first-order method: Weighted, Accelerated and Restarted Primal-dual (WARPd), based on primal-dual iterations and a novel restart-reweight scheme. Under a generic approximate sharpness condition, WARPd achieves stable linear convergence to the desired vector. Many problems of interest fit into this framework. For example, we analyze sparse recovery in compressed sensing, low-rank matrix recovery, matrix completion, TV regularization, minimization of $\\|Bx\\|_{l^1}$ under constraints ($l^1$-analysis problems for general $B$), and mixed regularization problems. We show how several quantities controlling recovery performance also provide explicit approximate sharpness constants. Numerical experiments show that WARPd compares favorably with specialized state-of-the-art methods and is ideally suited for solving large-scale problems. We also present a noise-blind variant based on the Square-Root LASSO decoder. Finally, we show how to unroll WARPd as neural networks. This approximation theory result provides lower bounds for stable and accurate neural networks for inverse problems and sheds light on architecture choices. Code and a gallery of examples are made available online as a MATLAB package. ",
+    "url": "https://arxiv.org/abs/2110.12437",
+    "authors": [
+      "Matthew J. Colbrook"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Information Retrieval (cs.IR)",
+      "Optimization and Control (math.OC)",
+      "Machine Learning (stat.ML)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12520",
+    "title": "Learning convex regularizers satisfying the variational source condition  for inverse problems",
+    "abstract": "Variational regularization has remained one of the most successful approaches for reconstruction in imaging inverse problems for several decades. With the emergence and astonishing success of deep learning in recent years, a considerable amount of research has gone into data-driven modeling of the regularizer in the variational setting. Our work extends a recently proposed method, referred to as adversarial convex regularization (ACR), that seeks to learn data-driven convex regularizers via adversarial training in an attempt to combine the power of data with the classical convex regularization theory. Specifically, we leverage the variational source condition (SC) during training to enforce that the ground-truth images minimize the variational loss corresponding to the learned convex regularizer. This is achieved by adding an appropriate penalty term to the ACR training objective. The resulting regularizer (abbreviated as ACR-SC) performs on par with the ACR, but unlike ACR, comes with a quantitative convergence rate estimate. ",
+    "url": "https://arxiv.org/abs/2110.12520",
+    "authors": [
+      "Subhadip Mukherjee",
+      "Carola-Bibiane Sch\u00f6nlieb",
+      "Martin Burger"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12539",
+    "title": "Discrete acoustic space for an efficient sampling in neural  text-to-speech",
+    "abstract": "We present an SVQ-VAE architecture using a split vector quantizer for NTTS, as an enhancement to the well-known VAE and VQ-VAE architectures. Compared to these previous architectures, our proposed model retains the benefits of using an utterance-level bottleneck, while reducing the associated loss of representation power. We train the model on recordings in the highly expressive task-oriented dialogues domain and show that SVQ-VAE achieves a statistically significant improvement in naturalness over the VAE and VQ-VAE models. Furthermore, we demonstrate that the SVQ-VAE acoustic space is predictable from text, reducing the gap between the standard constant vector synthesis and vocoded recordings by 32%. ",
+    "url": "https://arxiv.org/abs/2110.12539",
+    "authors": [
+      "Marek Strelec",
+      "Jonas Rohnke",
+      "Antonio Bonafonte",
+      "Mateusz \u0141ajszczak",
+      "Trevor Wood"
+    ],
+    "subjectives": [
+      "Sound (cs.SD)",
+      "Machine Learning (cs.LG)",
+      "Audio and Speech Processing (eess.AS)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12071",
+    "title": "A randomized quantum algorithm for statistical phase estimation",
+    "abstract": "Phase estimation is a quantum algorithm for measuring the eigenvalues of a Hamiltonian. We propose and rigorously analyse a randomized phase estimation algorithm with two distinctive features. First, our algorithm has complexity independent of the number of terms L in the Hamiltonian. Second, unlike previous L-independent approaches, such as those based on qDRIFT, all sources of error in our algorithm can be suppressed by collecting more data samples, without increasing the circuit depth. ",
+    "url": "https://arxiv.org/abs/2110.12071",
+    "authors": [
+      "Kianna Wan",
+      "Mario Berta",
+      "Earl T. Campbell"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Structures and Algorithms (cs.DS)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12379",
+    "title": "Boson sampling discrete solitons by quantum machine learning",
+    "abstract": "We use a neural network variational ansatz to compute Gaussian quantum discrete solitons in an array of waveguides described by the quantum discrete nonlinear Schroedinger equation. By training the quantum machine learning model in the phase space, we find different quantum soliton solutions varying the number of particles and interaction strength. The use of Gaussian states enables measuring the degree of entanglement and the boson sampling patterns. We compute the probability of generating different particle pairs when varying the soliton features and unveil that bound states of discrete solitons emit correlated pairs of photons. These results may have a role in boson sampling experiments with nonlinear systems and in developing quantum processors to generate entangled many-photon nonlinear states. ",
+    "url": "https://arxiv.org/abs/2110.12379",
+    "authors": [
+      "Claudio Conti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12616",
+    "title": "Lower bounds on quantum query complexity for symmetric functions",
+    "abstract": "One of the main reasons for query model's prominence in quantum complexity is the presence of concrete lower bounding techniques: polynomial method and adversary method. There have been considerable efforts to not just give lower bounds using these methods but even to compare and relate them. We explore the value of these bounds on quantum query complexity for the class of symmetric functions, arguably one of the most natural and basic set of Boolean functions. We show (using the recently introduced spectral sensitivity) that both these bounds (positive adversary and approximate degree) give the same value for every total symmetric Boolean function. We also look at the quantum query complexity of Gap Majority, a partial symmetric function. It has gained importance recently in regard to understanding the composition of randomized query complexity. We characterize the quantum query complexity of Gap Majority and show a lower bound on noisy randomized query complexity (Ben-David and Blais, FOCS 2020) in terms of quantum query complexity. In addition, we study how large certificate complexity and block sensitivity can be as compared to sensitivity (even up to constant factors) for symmetric functions. We show tight separations, i.e., give upper bound on possible separations and construct functions achieving the same. ",
+    "url": "https://arxiv.org/abs/2110.12616",
+    "authors": [
+      "Rajat Mittal",
+      "Sanjay S Nair",
+      "Sunayana Patro"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)"
+    ]
+  },
+  {
+    "id": "arXiv:1912.00931",
+    "title": "Pursuing the fundamental limits for quantum communication",
+    "abstract": " Comments: 14 pages, v3 close to the published version ",
+    "url": "https://arxiv.org/abs/1912.00931",
+    "authors": [
+      "Xin Wang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2008.01039",
+    "title": "Spiking neuromorphic chip learns entangled quantum states",
+    "abstract": " Comments: 9+13 pages, 4+2 figures; Submission to SciPost ",
+    "url": "https://arxiv.org/abs/2008.01039",
+    "authors": [
+      "Stefanie Czischek",
+      "Andreas Baumbach",
+      "Sebastian Billaudelle",
+      "Benjamin Cramer",
+      "Lukas Kades",
+      "Jan M. Pawlowski",
+      "Markus K. Oberthaler",
+      "Johannes Schemmel",
+      "Mihai A. Petrovici",
+      "Thomas Gasenzer",
+      "Martin G\u00e4rttner"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2011.10530",
+    "title": "On barren plateaus and cost function locality in variational quantum  algorithms",
+    "abstract": " Comments: 26 pages, RevTeX ",
+    "url": "https://arxiv.org/abs/2011.10530",
+    "authors": [
+      "Alexey Uvarov",
+      "Jacob Biamonte"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Machine Learning (cs.LG)"
+    ]
+  }
+]
