@@ -1,0 +1,53 @@
+[
+  {
+    "id": "arXiv:2110.13228",
+    "title": "Variational framework for partially-measured physical system control:  examples of vision neuroscience and optical random media",
+    "abstract": "To characterize a physical system to behave as desired, either its underlying governing rules must be known a priori or the system itself be accurately measured. The complexity of full measurements of the system scales with its size. When exposed to real-world conditions, such as perturbations or time-varying settings, the system calibrated for a fixed working condition might require non-trivial re-calibration, a process that could be prohibitively expensive, inefficient and impractical for real-world use cases. In this work, we propose a learning procedure to obtain a desired target output from a physical system. We use Variational Auto-Encoders (VAE) to provide a generative model of the system function and use this model to obtain the required input of the system that produces the target output. We showcase the applicability of our method for two datasets in optical physics and neuroscience. ",
+    "url": "https://arxiv.org/abs/2110.13228",
+    "authors": [
+      "Babak Rahmani",
+      "Demetri Psaltis",
+      "Christophe Moser"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.13418",
+    "title": "Research on the inverse kinematics prediction of a soft actuator via BP  neural network",
+    "abstract": "In this work we address the inverse kinetics problem of motion planning of the soft actuators driven by three chambers. Although the mathematical model describing inverse dynamics of this kind of actuator can been employed, this model is still a complex system. On the one hand, the differential equations are nonlinear, therefore, it is very difficult and time consuming to get the analytical solutions. Since the exact solutions of the mechanical model are not available, the elements of the Jacobian matrix cannot be calculated. On the other hand, material model is a complicated system with significant nonlinearity, non-stationarity, and uncertainty, making it challenging to develop an appropriate system model. To overcome these intrinsic problems, we propose a back-propagation (BP) neural network learning the inverse kinetics of the soft manipulator moving in three-dimensional space. After the training, the BP neural network model can represent the relation between the manipulator tip position and the pressures applied to the chambers. The proposed algorithm is very precise, and computationally efficient. The results show that a desired terminal position can be achieved with a degree of accuracy of 2.59% relative average error with respect to the total actuator length, demonstrate the ability of the model to realize inverse kinematic control. ",
+    "url": "https://arxiv.org/abs/2110.13418",
+    "authors": [
+      "Huichen Ma",
+      "Junjie Zhou",
+      "Jian Zhang",
+      "Lingyu Zhang"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Neural and Evolutionary Computing (cs.NE)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.13142",
+    "title": "Light-Field Microscopy for optical imaging of neuronal activity: when  model-based methods meet data-driven approaches",
+    "abstract": "Understanding how networks of neurons process information is one of the key challenges in modern neuroscience. A necessary step to achieve this goal is to be able to observe the dynamics of large populations of neurons over a large area of the brain. Light-field microscopy (LFM), a type of scanless microscope, is a particularly attractive candidate for high-speed three-dimensional (3D) imaging. It captures volumetric information in a single snapshot, allowing volumetric imaging at video frame-rates. Specific features of imaging neuronal activity using LFM call for the development of novel machine learning approaches that fully exploit priors embedded in physics and optics models. Signal processing theory and wave-optics theory could play a key role in filling this gap, and contribute to novel computational methods with enhanced interpretability and generalization by integrating model-driven and data-driven approaches. This paper is devoted to a comprehensive survey to state-of-the-art of computational methods for LFM, with a focus on model-based and data-driven approaches. ",
+    "url": "https://arxiv.org/abs/2110.13142",
+    "authors": [
+      "Pingfan Song",
+      "Herman Verinaz Jadan",
+      "Carmel L. Howe",
+      "Amanda J. Foust",
+      "Pier Luigi Dragotti"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
