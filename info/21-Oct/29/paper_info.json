@@ -1,0 +1,33 @@
+[
+  {
+    "id": "arXiv:2110.14833",
+    "title": "Modeling 3D geometry using 1D laser distance measurements with  application to cylinder for visualization and evaluating surface quality",
+    "abstract": "Geometric metrology includes one or two-dimensional (1D or 2D) distance or plane measurements, as well as the three-dimensional (3D) scanning. The 1D or 2D measuring system is unable to obtain advanced 3D feature, while the 3D scanning system is relatively costly and time-consuming. Accordingly, in this study I developed a 3D geometry and surface prediction method by using 1D laser distance measurements to achieve 3D features while saving cost and time. The model is based on the natural neighbor function for data interpolation and linear model for extrapolation. I implemented the model to the cylinder body for evaluating 3D circularity and surface quality. Results show that the model could achieve reasonable accuracy in constructing the 3D geometry and surface deviation using limited distance measurement (e.g. only 100 data points). It accurately predicts the shape of a curved dent (30.48 mm) and identified minor dents (less than 0.18mm in depth) which are unable to be detected by eyes and finger touch. It also detects the surface corrugation (1.59 mm) and small local features (6.35 mm) using a measurement resolution of 21.34 mm by 15.49 mm. The predicted 3D circularity is higher than the measured 2D circularity as expected. The 3D model may be extended to other continuous geometry shapes for the future study. ",
+    "url": "https://arxiv.org/abs/2110.14833",
+    "authors": [
+      "Qinwu Xu"
+    ],
+    "subjectives": [
+      "Graphics (cs.GR)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.14753",
+    "title": "Subtleties in the trainability of quantum machine learning models",
+    "abstract": "A new paradigm for data science has emerged, with quantum data, quantum models, and quantum computational devices. This field, called Quantum Machine Learning (QML), aims to achieve a speedup over traditional machine learning for data analysis. However, its success usually hinges on efficiently training the parameters in quantum neural networks, and the field of QML is still lacking theoretical scaling results for their trainability. Some trainability results have been proven for a closely related field called Variational Quantum Algorithms (VQAs). While both fields involve training a parametrized quantum circuit, there are crucial differences that make the results for one setting not readily applicable to the other. In this work we bridge the two frameworks and show that gradient scaling results for VQAs can also be applied to study the gradient scaling of QML models. Our results indicate that features deemed detrimental for VQA trainability can also lead to issues such as barren plateaus in QML. Consequently, our work has implications for several QML proposals in the literature. In addition, we provide theoretical and numerical evidence that QML models exhibit further trainability issues not present in VQAs, arising from the use of a training dataset. We refer to these as dataset-induced barren plateaus. These results are most relevant when dealing with classical data, as here the choice of embedding scheme (i.e., the map between classical data and quantum states) can greatly affect the gradient scaling. ",
+    "url": "https://arxiv.org/abs/2110.14753",
+    "authors": [
+      "Supanut Thanasilp",
+      "Samson Wang",
+      "Nhat A. Nghiem",
+      "Patrick J. Coles",
+      "M. Cerezo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
+    ]
+  }
+]
