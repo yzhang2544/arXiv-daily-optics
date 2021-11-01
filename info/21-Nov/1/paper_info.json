@@ -1,0 +1,112 @@
+[
+  {
+    "id": "arXiv:2110.15768",
+    "title": "Intelligent Reflecting Surface-Aided Wideband THz Communications:  Modeling and Analysis",
+    "abstract": "In this paper, we study the performance of wideband terahertz (THz) communications assisted by an intelligent reflecting surface (IRS). Specifically, we first introduce a generalized channel model that is suitable for electrically large THz IRSs operating in the near-field. Unlike prior works, our channel model takes into account the spherical wavefront of the emitted electromagnetic waves and the spatial-wideband effect. We next show that conventional frequency-flat beamfocusing significantly reduces the power gain due to beam squint, and hence is highly suboptimal. More importantly, we analytically characterize this reduction when the spacing between adjacent reflecting elements is negligible, i.e., holographic reflecting surfaces. Numerical results corroborate our analysis and provide important insights into the design of future IRS-aided THz systems. ",
+    "url": "https://arxiv.org/abs/2110.15768",
+    "authors": [
+      "Konstantinos Dovelos",
+      "Stylianos D. Assimonis",
+      "Hien Quoc Ngo",
+      "Boris Bellalta",
+      "Michail Matthaiou"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15815",
+    "title": "Real-time multiview data fusion for object tracking with RGBD sensors",
+    "abstract": "This paper presents a new approach to accurately track a moving vehicle with a multiview setup of red-green-blue depth (RGBD) cameras. We first propose a correction method to eliminate a shift, which occurs in depth sensors when they become worn. This issue could not be otherwise corrected with the ordinary calibration procedure. Next, we present a sensor-wise filtering system to correct for an unknown vehicle motion. A data fusion algorithm is then used to optimally merge the sensor-wise estimated trajectories. We implement most parts of our solution in the graphic processor. Hence, the whole system is able to operate at up to 25 frames per second with a configuration of five cameras. Test results show the accuracy we achieved and the robustness of our solution to overcome uncertainties in the measurements and the modelling. ",
+    "url": "https://arxiv.org/abs/2110.15815",
+    "authors": [
+      "Abdenour Amamra",
+      "Nabil Aouf"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Robotics (cs.RO)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15919",
+    "title": "Performance Analysis of Dual-Hop THz Wireless Transmission for Backhaul  Applications",
+    "abstract": "THz transmissions suffer from pointing errors due to antenna misalignment and incur higher path loss because of molecular absorption at such a high frequency. In this paper, we employ an amplify-and-forward (AF) dual-hop relay to mitigate the effect of pointing errors and extend the range of a wireless backhaul network. We provide statistical analysis on the performance of the considered system by deriving analytical expressions for the outage probability, average bit-error-rate (BER), average signal-to-noise ratio (SNR), and a lower bound on the ergodic capacity over independent and identical (i.i.d) $\\alpha$-$\\mu$ fading model and statistical pointing errors. Using computer simulations, we validate the derived analysis of the relay-assisted system. We demonstrate the effect of the system parameters on outage probability and average BER with the help of diversity order. We show that data rates up to several \\mbox{Gbps} can be achieved using THz transmissions, which is desirable for next-generation wireless systems, especially for backhaul applications. ",
+    "url": "https://arxiv.org/abs/2110.15919",
+    "authors": [
+      "Vinay U. Pai",
+      "Pranay Bhardwaj",
+      "S. M. Zafaruddin"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15952",
+    "title": "On the Performance of Multihop THz Wireless System Over Mixed Channel  Fading with Shadowing and Antenna Misalignment",
+    "abstract": "The existing relay-assisted terahertz (THz) wireless system is limited to dual-hop transmission with pointing errors and short-term fading without considering the shadowing effect. This paper analyzes the performance of a multihop-assisted backhaul communication mixed with an access link under the shadowed fading with antenna misalignment errors. We derive statistical results of the signal-to-noise ratio (SNR) of the multihop link by considering independent but not identically distributed (i.ni.d) $\\alpha$-$\\mu$ fading channel with pointing errors employing channel-assisted (CA) and fixed-gain (FG) amplify-and-forward (AF) relaying for each hop. We analyze the outage probability, average BER, and ergodic capacity performance of the mixed system considering the generalized-$K$ shadowed fading model with AF and decode-and-forward (DF) protocols employed for the access link. We derive exact expressions of the performance metrics for the CA-multihop system with the DF relaying for the last hop and upper bound of the performance for the FG-multihop system using FG and DF relaying at the last relay. We also develop asymptotic analysis in the high SNR to derive the diversity order of the system and use computer simulations to provide design and deployment aspects of multiple relays in the backhaul link to extend the communication range for THz wireless transmissions. ",
+    "url": "https://arxiv.org/abs/2110.15952",
+    "authors": [
+      "Pranay Bhardwaj",
+      "S. M. Zafaruddin"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15466",
+    "title": "On the complexity of quantum partition functions",
+    "abstract": "The partition function and free energy of a quantum many-body system determine its physical properties in thermal equilibrium. Here we study the computational complexity of approximating these quantities for $n$-qubit local Hamiltonians. First, we report a classical algorithm with $\\mathrm{poly}(n)$ runtime which approximates the free energy of a given $2$-local Hamiltonian provided that it satisfies a certain denseness condition. Our algorithm combines the variational characterization of the free energy and convex relaxation methods. It contributes to a body of work on efficient approximation algorithms for dense instances of optimization problems which are hard in the general case, and can be viewed as simultaneously extending existing algorithms for (a) the ground energy of dense $2$-local Hamiltonians, and (b) the free energy of dense classical Ising models. Secondly, we establish polynomial-time equivalence between the problem of approximating the free energy of local Hamiltonians and three other natural quantum approximate counting problems, including the problem of approximating the number of witness states accepted by a QMA verifier. These results suggest that simulation of quantum many-body systems in thermal equilibrium may precisely capture the complexity of a broad family of computational problems that has yet to be defined or characterized in terms of known complexity classes. Finally, we summarize state-of-the-art classical and quantum algorithms for approximating the free energy and show how to improve their runtime and memory footprint. ",
+    "url": "https://arxiv.org/abs/2110.15466",
+    "authors": [
+      "Sergey Bravyi",
+      "Anirban Chowdhury",
+      "David Gosset",
+      "Pawel Wocjan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15587",
+    "title": "A sublinear time quantum algorithm for s-t minimum cut on dense simple  graphs",
+    "abstract": "An $s{\\operatorname{-}}t$ minimum cut in a graph corresponds to a minimum weight subset of edges whose removal disconnects vertices $s$ and $t$. Finding such a cut is a classic problem that is dual to that of finding a maximum flow from $s$ to $t$. In this work we describe a quantum algorithm for the minimum $s{\\operatorname{-}}t$ cut problem on undirected graphs. For an undirected graph with $n$ vertices, $m$ edges, and integral edge weights bounded by $W$, the algorithm computes with high probability the weight of a minimum $s{\\operatorname{-}}t$ cut in time $\\widetilde O(\\sqrt{m} n^{5/6} W^{1/3} + n^{5/3} W^{2/3})$, given adjacency list access to $G$. For simple graphs this bound is always $\\widetilde O(n^{11/6})$, even in the dense case when $m = \\Omega(n^2)$. In contrast, a randomized algorithm must make $\\Omega(m)$ queries to the adjacency list of a simple graph $G$ even to decide whether $s$ and $t$ are connected. ",
+    "url": "https://arxiv.org/abs/2110.15587",
+    "authors": [
+      "Simon Apers",
+      "Arinta Auza",
+      "Troy Lee"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Data Structures and Algorithms (cs.DS)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.03880",
+    "title": "Encoding-dependent generalization bounds for parametrized quantum  circuits",
+    "abstract": " Comments: 34 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2106.03880",
+    "authors": [
+      "Matthias C. Caro",
+      "Elies Gil-Fuster",
+      "Johannes Jakob Meyer",
+      "Jens Eisert",
+      "Ryan Sweke"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)",
+      "Machine Learning (stat.ML)"
+    ]
+  }
+]
