@@ -1,0 +1,116 @@
+[
+  {
+    "id": "arXiv:2111.00903",
+    "title": "Towards a theory of quantum gravity from neural networks",
+    "abstract": "Neural network is a dynamical system described by two different types of degrees of freedom: fast-changing non-trainable variables (e.g. state of neurons) and slow-changing trainable variables (e.g. weights and biases). We show that the non-equilibrium dynamics of trainable variables can be described by the Madelung equations, if the number of neurons is fixed, and by the Schrodinger equation, if the learning system is capable of adjusting its own parameters such as the number of neurons, step size and mini-batch size. We argue that the Lorentz symmetries and curved space-time can emerge from the interplay between stochastic entropy production and entropy destruction due to learning. We show that the non-equilibrium dynamics of non-trainable variables can be described by the geodesic equation (in the emergent space-time) for localized states of neurons, and by the Einstein equations (with cosmological constant) for the entire network. We conclude that the quantum description of trainable variables and the gravitational description of non-trainable variables are dual in the sense that they provide alternative macroscopic descriptions of the same learning system, defined microscopically as a neural network. ",
+    "url": "https://arxiv.org/abs/2111.00903",
+    "authors": [
+      "Vitaly Vanchurin"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Theory (hep-th)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.00009",
+    "title": "Revisiting joint decoding based multi-talker speech recognition with DNN  acoustic model",
+    "abstract": "In typical multi-talker speech recognition systems, a neural network-based acoustic model predicts senone state posteriors for each speaker. These are later used by a single-talker decoder which is applied on each speaker-specific output stream separately. In this work, we argue that such a scheme is sub-optimal and propose a principled solution that decodes all speakers jointly. We modify the acoustic model to predict joint state posteriors for all speakers, enabling the network to express uncertainty about the attribution of parts of the speech signal to the speakers. We employ a joint decoder that can make use of this uncertainty together with higher-level language information. For this, we revisit decoding algorithms used in factorial generative models in early multi-talker speech recognition systems. In contrast with these early works, we replace the GMM acoustic model with DNN, which provides greater modeling power and simplifies part of the inference. We demonstrate the advantage of joint decoding in proof of concept experiments on a mixed-TIDIGITS dataset. ",
+    "url": "https://arxiv.org/abs/2111.00009",
+    "authors": [
+      "Martin Kocour",
+      "Kate\u0159ina \u017dmol\u00edkov\u00e1",
+      "Lucas Ondel",
+      "J\u00e1n \u0160vec",
+      "Marc Delcroix",
+      "Tsubasa Ochiai",
+      "Luk\u00e1\u0161 Burget",
+      "Jan \u010cernock\u00fd"
+    ],
+    "subjectives": [
+      "Audio and Speech Processing (eess.AS)",
+      "Machine Learning (cs.LG)",
+      "Sound (cs.SD)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.00320",
+    "title": "Speaker conditioning of acoustic models using affine transformation for  multi-speaker speech recognition",
+    "abstract": "This study addresses the problem of single-channel Automatic Speech Recognition of a target speaker within an overlap speech scenario. In the proposed method, the hidden representations in the acoustic model are modulated by speaker auxiliary information to recognize only the desired speaker. Affine transformation layers are inserted into the acoustic model network to integrate speaker information with the acoustic features. The speaker conditioning process allows the acoustic model to perform computation in the context of target-speaker auxiliary information. The proposed speaker conditioning method is a general approach and can be applied to any acoustic model architecture. Here, we employ speaker conditioning on a ResNet acoustic model. Experiments on the WSJ corpus show that the proposed speaker conditioning method is an effective solution to fuse speaker auxiliary information with acoustic features for multi-speaker speech recognition, achieving +9% and +20% relative WER reduction for clean and overlap speech scenarios, respectively, compared to the original ResNet acoustic model baseline. ",
+    "url": "https://arxiv.org/abs/2111.00320",
+    "authors": [
+      "Midia Yousefi",
+      "John H.L. Hanse"
+    ],
+    "subjectives": [
+      "Audio and Speech Processing (eess.AS)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)",
+      "Sound (cs.SD)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.00812",
+    "title": "Topology identification of autonomous quantum dynamical networks",
+    "abstract": "Topology identification comprises reconstructing the interaction Hamiltonian of a quantum network by properly processing measurements of its density operator within a fixed time interval. It finds application in several quantum technology contexts, ranging from quantum communication to quantum computing or sensing. In this paper, we provide analytical conditions for the solvability of the topology identification problem of autonomous quantum dynamical networks. The analytical results are then converted in an algorithm for quantum network reconstruction that is able to efficiently determine the topology of large-scale networks and is easily implementable on standard computer facilities. The obtained algorithm is tested on numerical examples based on the quantum walks formalism. ",
+    "url": "https://arxiv.org/abs/2111.00812",
+    "authors": [
+      "Stefano Gherardini",
+      "Henk J. van Waarde",
+      "Pietro Tesi",
+      "Filippo Caruso"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2010.03603",
+    "title": "Solving stochastic inverse problems for property-structure linkages  using data-consistent inversion and machine learning",
+    "abstract": " Title: Solving stochastic inverse problems for property-structure linkages  using data-consistent inversion and machine learning ",
+    "url": "https://arxiv.org/abs/2010.03603",
+    "authors": [
+      "Anh Tran",
+      "Tim Wildey"
+    ],
+    "subjectives": [
+      "Computational Engineering, Finance, and Science (cs.CE)"
+    ]
+  },
+  {
+    "id": "arXiv:2102.09526",
+    "title": "Convex regularization in statistical inverse learning problems",
+    "abstract": " Comments: 35 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2102.09526",
+    "authors": [
+      "Tatiana A. Bubba",
+      "Martin Burger",
+      "Tapio Helin",
+      "Luca Ratti"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Statistics Theory (math.ST)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.08964",
+    "title": "Affine Hermitian Grassmann Codes",
+    "abstract": " Title: Affine Hermitian Grassmann Codes ",
+    "url": "https://arxiv.org/abs/2110.08964",
+    "authors": [
+      "Fernando Pi\u00f1ero Gonz\u00e1lez",
+      "Doel Rivera Laboy"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Algebraic Geometry (math.AG)"
+    ]
+  }
+]
