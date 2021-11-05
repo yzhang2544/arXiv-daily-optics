@@ -1,0 +1,143 @@
+[
+  {
+    "id": "arXiv:2111.02459",
+    "title": "Smart sensors network for accurate indirect heat accounting in apartment  buildings",
+    "abstract": "A new method for accurate indirect heat accounting in apartment buildings has been recently developed by the Centre Suisse d'Electronique et de Microtechnique (CSEM). It is based on a data driven approach aimed to the smart networking of any type of indirect heat allocation devices, which can provide, for each heat delivery point of an apartment building, measurements or estimations of the temperature difference between the heat transfer fluid and the indoor environment. The analysis of the data gathered from the devices installed on the heating bodies, together with the measurements of the overall building heat consumption provided by direct heat metering, allows the evaluation of the characteristic thermal model parameters of heating bodies at actual installation and working conditions. Thus overcoming the negative impact on accuracy of conventional indirect heat accounting due to off-design operation, in which these measurement systems normally operate. The method has been tested on conventional heat cost allocators (HCA), and on innovative smart radiator thermostatic valves developed by CSEM. The evaluations were carried out at the centralized heating system mock-up of the Istituto Nazionale di Ricerca Metrologica (INRIM), and also in a real building in Neuchatel, Switzerland. The method has proven to be an effective tool to improve the accuracy of indirect heat metering systems; compared to conventional HCA systems, the error on the individual heating bill is reduced by 20% to 50%. ",
+    "url": "https://arxiv.org/abs/2111.02459",
+    "authors": [
+      "Yves Stauffer",
+      "Fabio Saba",
+      "Rafael E. Carrillo",
+      "Max Boegli",
+      "Andrea Malengo",
+      "Andreas Hutter"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02546",
+    "title": "Isogeometric simulation of acoustic radiation",
+    "abstract": "In this paper we discuss the numerical solution on a simple 2D domain of the Helmoltz equation with mixed boundary conditions. The so called radiation problem depends on the wavenumber constant parameter k and it is inspired here by medical applications, where a transducer emits a pulse at a given frequency. This problem has been successfully solved in the past with the classical Finite Element Method (FEM) for relative small values of k. But in modern applications the values of k can be of order of thousands and FEM faces up several numerical difficulties. To overcome these difficulties we solve the radiation problem using the Isogeometric Analysis (IgA), a kind of generalization of FEM. Starting with the variational formulation of the radiation problem, we show with details how to apply the isogeometric approach in order to compute the coefficients of the approximated solution of radiation problem in terms of the B-spline basis functions. Our implementation of IgA using GeoPDEs software shows that isogeometric approach is superior than FEM, since it is able to reduce substantially the pollution error, especially for high values of k, producing additionally smoother solutions which depend on less degrees of freedom. ",
+    "url": "https://arxiv.org/abs/2111.02546",
+    "authors": [
+      "Victoria Hern\u00e1ndez Mederos",
+      "Eduardo Moreno Hern\u00e1ndez",
+      "Jorge Estrada Sarlabous",
+      "Isidro A. Abell\u00f3 Ugalde",
+      "Domenico Lahaye"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02797",
+    "title": "A general fractional total variation-Gaussian (GFTG) prior for Bayesian  inverse problems",
+    "abstract": "In this paper, we investigate the imaging inverse problem by employing an infinite-dimensional Bayesian inference method with a general fractional total variation-Gaussian (GFTG) prior. This novel hybrid prior is a development for the total variation-Gaussian (TG) prior and the non-local total variation-Gaussian (NLTG) prior, which is a combination of the Gaussian prior and a general fractional total variation regularization term, which contains a wide class of fractional derivative. Compared to the TG prior, the GFTG prior can effectively reduce the staircase effect, enhance the texture details of the images and also provide a complete theoretical analysis in the infinite-dimensional limit similarly to TG prior. The separability of the state space in Bayesian inference is essential for developments of probability and integration theory in infinite-dimensional setting, thus we first introduce the corresponding general fractional Sobolev space and prove that the space is a separable Banach space. Thereafter, we give the well-posedness and finite-dimensional approximation of the posterior measure of the Bayesian inverse problem based on the GFTG prior, and then the samples are extracted from the posterior distribution by using the preconditioned Crank-Nicolson (pCN) algorithm. Finally, we give several numerical examples of image reconstruction under liner and nonlinear models to illustrate the advantages of the proposed improved prior. ",
+    "url": "https://arxiv.org/abs/2111.02797",
+    "authors": [
+      "Li-Li Wang",
+      "Ming-Hui Ding",
+      "Guang-Hui Zheng"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02801",
+    "title": "Gradient-enhanced physics-informed neural networks for forward and  inverse PDE problems",
+    "abstract": "Deep learning has been shown to be an effective tool in solving partial differential equations (PDEs) through physics-informed neural networks (PINNs). PINNs embed the PDE residual into the loss function of the neural network, and have been successfully employed to solve diverse forward and inverse PDE problems. However, one disadvantage of the first generation of PINNs is that they usually have limited accuracy even with many training points. Here, we propose a new method, gradient-enhanced physics-informed neural networks (gPINNs), for improving the accuracy and training efficiency of PINNs. gPINNs leverage gradient information of the PDE residual and embed the gradient into the loss function. We tested gPINNs extensively and demonstrated the effectiveness of gPINNs in both forward and inverse PDE problems. Our numerical results show that gPINN performs better than PINN with fewer training points. Furthermore, we combined gPINN with the method of residual-based adaptive refinement (RAR), a method for improving the distribution of training points adaptively during training, to further improve the performance of gPINN, especially in PDEs with solutions that have steep gradients. ",
+    "url": "https://arxiv.org/abs/2111.02801",
+    "authors": [
+      "Jeremy Yu",
+      "Lu Lu",
+      "Xuhui Meng",
+      "George Em Karniadakis"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02921",
+    "title": "Map-Assisted Power Allocation and Constellation Design for mmWave WDM  with OAM in Short-Range LOS Environment",
+    "abstract": "Consider a system that integrates positioning and single-user millimeter wave (mmWave) communication, where the communication part adopts wavelength division multiplexing (WDM) and orbital angular momentum (OAM). This paper addresses the power allocation and high dimensional constellation design in short-range line-of-sight (LOS) environment, where the communication links are relatively stable. We propose a map-assisted method to replace online estimation, feedback and computation with the look-up table searching. We explore the possibility of using a few patterns in the maps, and investigate the performance loss of using the optimal solution of one position for other positions. For power allocation, we first characterize the performance loss outside the OAM beam regions, where we only use plane waves, and figure out that the loss is always small. However, in OAM beam regions, the performance loss has similar characteristics only at some specific positions. Combining with numerical results, we illustrate that a few patterns can be adopted for all receiver locations in the map. We also investigate the high dimensional constellation design and prove that the positions where the channel matrices are sufficiently close to be proportional can employ a fixed constellation. Then, we figure out that the constellation design for all receiver locations can be represented by a few constellation sets. ",
+    "url": "https://arxiv.org/abs/2111.02921",
+    "authors": [
+      "Yuan Wang",
+      "Chen Gong",
+      "Zhengyuan Xu"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02467",
+    "title": "Fundamental limitations on device-independent quantum conference key  agreement",
+    "abstract": "We provide several general upper bounds on device-independent conference key agreement (DI-CKA) against the quantum adversary. They include bounds by reduced entanglement measures and those based on multipartite secrecy monotones such as reduced cc-squashed entanglement. We compare the latter bound with the known lower bound for the protocol of conference key distillation based on the parity-CHSH game. We also show that the gap between DI-CKA rate and the rate of device-dependent is inherited from the bipartite gap between device-independent and device-dependent key rates, giving examples that exhibit the strict gap. ",
+    "url": "https://arxiv.org/abs/2111.02467",
+    "authors": [
+      "Karol Horodecki",
+      "Marek Winczewski",
+      "Siddhartha Das"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.03016",
+    "title": "Graph neural network initialisation of quantum approximate optimisation",
+    "abstract": "Approximate combinatorial optimisation has emerged as one of the most promising application areas for quantum computers, particularly those in the near term. In this work, we focus on the quantum approximate optimisation algorithm (QAOA) for solving the Max-Cut problem. Specifically, we address two problems in the QAOA, how to select initial parameters, and how to subsequently train the parameters to find an optimal solution. For the former, we propose graph neural networks (GNNs) as an initialisation routine for the QAOA parameters, adding to the literature on warm-starting techniques. We show the GNN approach generalises across not only graph instances, but also to increasing graph sizes, a feature not available to other warm-starting techniques. For training the QAOA, we test several optimisers for the MaxCut problem. These include quantum aware/agnostic optimisers proposed in literature and we also incorporate machine learning techniques such as reinforcement and meta-learning. With the incorporation of these initialisation and optimisation toolkits, we demonstrate how the QAOA can be trained as an end-to-end differentiable pipeline. ",
+    "url": "https://arxiv.org/abs/2111.03016",
+    "authors": [
+      "Nishant Jain",
+      "Brian Coyle",
+      "Elham Kashefi",
+      "Niraj Kumar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2011.03141",
+    "title": "Quantum randomized encoding, verification of quantum computing,  no-cloning, and blind quantum computing",
+    "abstract": " Comments: 31 pages. New result (Theorem 3) on the impossibility of computationally secure case is added ",
+    "url": "https://arxiv.org/abs/2011.03141",
+    "authors": [
+      "Tomoyuki Morimae"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  },
+  {
+    "id": "arXiv:2103.06720",
+    "title": "Variational inference with a quantum computer",
+    "abstract": " Comments: 17 pages, 9 figures, 1 table; As published in Phys. Rev. Applied ",
+    "url": "https://arxiv.org/abs/2103.06720",
+    "authors": [
+      "Marcello Benedetti",
+      "Brian Coyle",
+      "Mattia Fiorentini",
+      "Michael Lubasch",
+      "Matthias Rosenkranz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  }
+]
