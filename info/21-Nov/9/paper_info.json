@@ -1,0 +1,185 @@
+[
+  {
+    "id": "arXiv:2111.03777",
+    "title": "Privacy attacks for automatic speech recognition acoustic models in a  federated learning framework",
+    "abstract": "This paper investigates methods to effectively retrieve speaker information from the personalized speaker adapted neural network acoustic models (AMs) in automatic speech recognition (ASR). This problem is especially important in the context of federated learning of ASR acoustic models where a global model is learnt on the server based on the updates received from multiple clients. We propose an approach to analyze information in neural network AMs based on a neural network footprint on the so-called Indicator dataset. Using this method, we develop two attack models that aim to infer speaker identity from the updated personalized models without access to the actual users' speech data. Experiments on the TED-LIUM 3 corpus demonstrate that the proposed approaches are very effective and can provide equal error rate (EER) of 1-2%. ",
+    "url": "https://arxiv.org/abs/2111.03777",
+    "authors": [
+      "Natalia Tomashenko",
+      "Salima Mdhaffar",
+      "Marc Tommasi",
+      "Yannick Est\u00e8ve",
+      "Jean-Fran\u00e7ois Bonastre"
+    ],
+    "subjectives": [
+      "Computation and Language (cs.CL)",
+      "Cryptography and Security (cs.CR)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.04242",
+    "title": "A globally convergent numerical method for a 3D coefficient inverse  problem for a wave-like equation",
+    "abstract": "A version of the convexification globally convergent numerical method is constructed for a coefficient inverse problem for a wave-like partial differential equation. The presence of the Carleman Weight Function in the corresponding Tikhonov-like cost functional ensures the global strict convexity of this functional. Numerical results are presented to illustrate the effectiveness and efficiency of the proposed method. ",
+    "url": "https://arxiv.org/abs/2111.04242",
+    "authors": [
+      "Michael V. Klibanov",
+      "Jingzhi Li",
+      "Wenlong Zhang"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.03775",
+    "title": "Long-distance twin-field quantum key distribution with entangled sources",
+    "abstract": "Twin-field quantum key distribution (TFQKD), using single-photon-type interference, offers a way to exceed the rate-distance limit without quantum repeaters. However, it still suffers from the photon losses and dark counts, which impose an ultimate limit on its transmission distance. In this letter, we propose a scheme to implement TFQKD with an entangled coherent state source in the middle to increase its range, as well as comparing its performance under coherent attacks with that of TFQKD variants. Simulations show that our protocol has a theoretical distance advantage of 400 kilometers. Moreover, the scheme has great robustness against the misalignment error and finite-size effects. Our work is a promising step toward long-distance secure communication and is greatly compatible with future global quantum network. ",
+    "url": "https://arxiv.org/abs/2111.03775",
+    "authors": [
+      "Bing-Hong Li",
+      "Yuan-Mei Xie",
+      "Zhao Li",
+      "Chen-Xun Weng",
+      "Chen-Long Li",
+      "Hua-Lei Yin",
+      "Zeng-Bing Chen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.04090",
+    "title": "Learn-Morph-Infer: a new way of solving the inverse problem for brain  tumor modeling",
+    "abstract": "Current treatment planning of patients diagnosed with brain tumor could significantly benefit by accessing the spatial distribution of tumor cell concentration. Existing diagnostic modalities, such as magnetic-resonance imaging (MRI), contrast sufficiently well areas of high cell density. However, they do not portray areas of low concentration, which can often serve as a source for the secondary appearance of the tumor after treatment. Numerical simulations of tumor growth could complement imaging information by providing estimates of full spatial distributions of tumor cells. Over recent years a corpus of literature on medical image-based tumor modeling was published. It includes different mathematical formalisms describing the forward tumor growth model. Alongside, various parametric inference schemes were developed to perform an efficient tumor model personalization, i.e. solving the inverse problem. However, the unifying drawback of all existing approaches is the time complexity of the model personalization that prohibits a potential integration of the modeling into clinical settings. In this work, we introduce a methodology for inferring patient-specific spatial distribution of brain tumor from T1Gd and FLAIR MRI medical scans. Coined as \\textit{Learn-Morph-Infer} the method achieves real-time performance in the order of minutes on widely available hardware and the compute time is stable across tumor models of different complexity, such as reaction-diffusion and reaction-advection-diffusion models. We believe the proposed inverse solution approach not only bridges the way for clinical translation of brain tumor personalization but can also be adopted to other scientific and engineering domains. ",
+    "url": "https://arxiv.org/abs/2111.04090",
+    "authors": [
+      "Ivan Ezhov",
+      "Kevin Scibilia",
+      "Katharina Franitza",
+      "Felix Steinbauer",
+      "Suprosanna Shit",
+      "Lucas Zimmer",
+      "Jana Lipkova",
+      "Florian Kofler",
+      "Johannes Paetzold",
+      "Luca Canalini",
+      "Diana Waldmannstetter",
+      "Martin Menten",
+      "Marie Metz",
+      "Benedikt Wiestler",
+      "Bjoern Menze"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:1911.00661",
+    "title": "Niederreiter cryptosystems using quasi-cyclic codes that resist quantum  Fourier sampling",
+    "abstract": " Title: Niederreiter cryptosystems using quasi-cyclic codes that resist quantum  Fourier sampling ",
+    "url": "https://arxiv.org/abs/1911.00661",
+    "authors": [
+      "Upendra Kapshikar",
+      "Ayan Mahalanobis"
+    ],
+    "subjectives": [
+      "Cryptography and Security (cs.CR)",
+      "Group Theory (math.GR)"
+    ]
+  },
+  {
+    "id": "arXiv:2103.05734",
+    "title": "Dependence of integrated, instantaneous, and fluctuating entropy  production on the initial state in quantum and classical processes",
+    "abstract": " Title: Dependence of integrated, instantaneous, and fluctuating entropy  production on the initial state in quantum and classical processes ",
+    "url": "https://arxiv.org/abs/2103.05734",
+    "authors": [
+      "Artemy Kolchinsky",
+      "David H. Wolpert"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Information Theory (cs.IT)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.00259",
+    "title": "Neuron segmentation using 3D wavelet integrated encoder-decoder network",
+    "abstract": " Comments: Bioinformatics accepted paper ",
+    "url": "https://arxiv.org/abs/2106.00259",
+    "authors": [
+      "Qiufu Li",
+      "Linlin Shen"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.03498",
+    "title": "Identifiability in inverse reinforcement learning",
+    "abstract": " Title: Identifiability in inverse reinforcement learning ",
+    "url": "https://arxiv.org/abs/2106.03498",
+    "authors": [
+      "Haoyang Cao",
+      "Samuel N. Cohen",
+      "Lukasz Szpruch"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.15909",
+    "title": "Effect of acoustic scene complexity and visual scene representation on  auditory perception in virtual audio-visual environments",
+    "abstract": " Comments: Accepted publication in Proceedings of 3DA 2021 International Conference on Immersive and 3D Audio ",
+    "url": "https://arxiv.org/abs/2106.15909",
+    "authors": [
+      "Stefan Fichna",
+      "Thomas Biberger",
+      "Bernhard U. Seeber",
+      "Stephan D. Ewert"
+    ],
+    "subjectives": [
+      "Audio and Speech Processing (eess.AS)",
+      "Sound (cs.SD)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.02099",
+    "title": "2QAN: A quantum compiler for 2-local qubit Hamiltonian simulation  algorithms",
+    "abstract": " Comments: Add comparison with application-specific compilers. Comments are welcome ",
+    "url": "https://arxiv.org/abs/2108.02099",
+    "authors": [
+      "Lingling Lao",
+      "Dan E. Browne"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.11788",
+    "title": "An analysis on metric-driven multi-target sensor management: GOSPA  versus OSPA",
+    "abstract": " Comments: This paper received the 2nd best paper award at the 24th International Conference on Information Fusion. A presentation on the GOSPA metric can be found at this https URL ",
+    "url": "https://arxiv.org/abs/2110.11788",
+    "authors": [
+      "\u00c1ngel F. Garc\u00eda-Fern\u00e1ndez",
+      "Marcel Hernandez",
+      "Simon Maskell"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)"
+    ]
+  }
+]
