@@ -1,0 +1,79 @@
+[
+  {
+    "id": "arXiv:2111.05212",
+    "title": "Resilient expansion planning of virtual energy plant with an integrated  energy system -- reliability criteria of lines and towers",
+    "abstract": "Virtual power plants, while being virtual, rely on a physical network for operations. The portfolio of the virtual power plants is flexible in facilitating a wide range of resources including the local heat pumps. The power transmission network has the responsibility to ensure the security of supply, reliability of operation, planning, and expansion. The power transmission network and apparatus including lines and towers are also aging with time. Furthermore, the transmission network covers a large geographical area which is expensive to maintain. The objective of this paper is to investigate the effect of power network conditions on power network expansion planning. The condition of the power network is determined by the maintenance cost of lines and a health index and a risk factor associated with the tower. The investigation begins with answering how the inclusion of heat pump impacts the decisions on network interventions. Thereafter, the condition network is factored into the decision-making by better understanding the impact of the network condition on the overall expansion planning. Furthermore, many sensitivity analyses are conducted to evaluate the trade-offs between decision variables such as cost of heat pump, coefficient of performance of heat pump, risk factors, and line and tower costs. ",
+    "url": "https://arxiv.org/abs/2111.05212",
+    "authors": [
+      "Sambeet Mishra",
+      "Henri Manninen",
+      "Qiuwei Wu",
+      "Chiara Bordin"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.05292",
+    "title": "Generalization in quantum machine learning from few training data",
+    "abstract": "Modern quantum machine learning (QML) methods involve variationally optimizing a parameterized quantum circuit on a training data set, and subsequently making predictions on a testing data set (i.e., generalizing). In this work, we provide a comprehensive study of generalization performance in QML after training on a limited number $N$ of training data points. We show that the generalization error of a quantum machine learning model with $T$ trainable gates scales at worst as $\\sqrt{T/N}$. When only $K \\ll T$ gates have undergone substantial change in the optimization process, we prove that the generalization error improves to $\\sqrt{K / N}$. Our results imply that the compiling of unitaries into a polynomial number of native gates, a crucial application for the quantum computing industry that typically uses exponential-size training data, can be sped up significantly. We also show that classification of quantum states across a phase transition with a quantum convolutional neural network requires only a very small training data set. Other potential applications include learning quantum error correcting codes or quantum dynamical simulation. Our work injects new hope into the field of QML, as good generalization is guaranteed from few training data. ",
+    "url": "https://arxiv.org/abs/2111.05292",
+    "authors": [
+      "Matthias C. Caro",
+      "Hsin-Yuan Huang",
+      "M. Cerezo",
+      "Kunal Sharma",
+      "Andrew Sornborger",
+      "Lukasz Cincio",
+      "Patrick J. Coles"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.05311",
+    "title": "Mode connectivity in the loss landscape of parameterized quantum  circuits",
+    "abstract": "Variational training of parameterized quantum circuits (PQCs) underpins many workflows employed on near-term noisy intermediate scale quantum (NISQ) devices. It is a hybrid quantum-classical approach that minimizes an associated cost function in order to train a parameterized ansatz. In this paper we adapt the qualitative loss landscape characterization for neural networks introduced in \\cite{goodfellow2014qualitatively,li2017visualizing} and tests for connectivity used in \\cite{draxler2018essentially} to study the loss landscape features in PQC training. We present results for PQCs trained on a simple regression task, using the bilayer circuit ansatz, which consists of alternating layers of parameterized rotation gates and entangling gates. Multiple circuits are trained with $3$ different batch gradient optimizers: stochastic gradient descent, the quantum natural gradient, and Adam. We identify large features in the landscape that can lead to faster convergence in training workflows. ",
+    "url": "https://arxiv.org/abs/2111.05311",
+    "authors": [
+      "Kathleen E. Hamilton",
+      "Emily Lynn",
+      "Raphael C. Pooser"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.04299",
+    "title": "A direct product theorem for quantum communication complexity with  applications to device-independent QKD",
+    "abstract": " Comments: Version 2: lemma statement generalized, proof of a fact added ",
+    "url": "https://arxiv.org/abs/2106.04299",
+    "authors": [
+      "Rahul Jain",
+      "Srijita Kundu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.06084",
+    "title": "The inverse of Ackermann function is computable in linear time",
+    "abstract": " Comments: 20 pages ",
+    "url": "https://arxiv.org/abs/2109.06084",
+    "authors": [
+      "Claude Sureson"
+    ],
+    "subjectives": [
+      "Computational Complexity (cs.CC)"
+    ]
+  }
+]
