@@ -1,0 +1,54 @@
+[
+  {
+    "id": "arXiv:2111.06544",
+    "title": "A lightweight blockchain-based access control scheme for integrated edge  computing in the internet of things",
+    "abstract": "In view of the security issues of the Internet of Things (IoT), considered better combining edge computing and blockchain with the IoT, integrating attribute-based encryption (ABE) and attribute-based access control (ABAC) models with attributes as the entry point, an attribute-based encryption and access control scheme (ABE-ACS) has been proposed. Facing Edge-Iot, which is a heterogeneous network composed of most resource-limited IoT devices and some nodes with higher computing power. For the problems of high resource consumption and difficult deployment of existing blockchain platforms, we design a lightweight blockchain (LBC) with improvement of the proof-of-work consensus. For the access control policies, the threshold tree and LSSS are used for conversion and assignment, stored in the blockchain to protect the privacy of the policy. For device and data, six smart contracts are designed to realize the ABAC and penalty mechanism, with which ABE is outsourced to edge nodes for privacy and integrity. Thus, our scheme realizing Edge-Iot privacy protection, data and device controlled access. The security analysis shows that the proposed scheme is secure and the experimental results show that our LBC has higher throughput and lower resources consumption, the cost of encryption and decryption of our scheme is desirable. ",
+    "url": "https://arxiv.org/abs/2111.06544",
+    "authors": [
+      "Jie Zhang",
+      "Lingyun Yuan",
+      "Shanshan Xu"
+    ],
+    "subjectives": [
+      "Cryptography and Security (cs.CR)",
+      "Computers and Society (cs.CY)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.06682",
+    "title": "A Bayesian Nash equilibrium-based moving target defense against stealthy  sensor attacks",
+    "abstract": "We present a moving target defense strategy to reduce the impact of stealthy sensor attacks on feedback systems. The defender periodically and randomly switches between thresholds from a discrete set to increase the uncertainty for the attacker and make stealthy attacks detectable. However, the defender does not know the exact goal of the attacker but only the prior of the possible attacker goals. Here, we model one period with a constant threshold as a Bayesian game and use the Bayesian Nash equilibrium to find the distribution for the choice of the threshold in that period, which takes the defender's uncertainty about the attacker into account. To obtain the equilibrium distribution, the defender minimizes its cost consisting of the cost for false alarms and the cost induced by the attack. We present a necessary and sufficient condition for the existence of a moving target defense and formulate a linear program to determine the moving target defense. Furthermore, we present a closed-form solution for the special case when the defender knows the attacker's goals. The results are numerically evaluated on a four-tank process. ",
+    "url": "https://arxiv.org/abs/2111.06682",
+    "authors": [
+      "David Umsonst",
+      "Serkan Sar\u0131ta\u015f",
+      "Gy\u00f6rgy D\u00e1n",
+      "Henrik Sandberg"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.06705",
+    "title": "Silicon photonic subspace neural chip for hardware-efficient deep  learning",
+    "abstract": "As deep learning has shown revolutionary performance in many artificial intelligence applications, its escalating computation demand requires hardware accelerators for massive parallelism and improved throughput. The optical neural network (ONN) is a promising candidate for next-generation neurocomputing due to its high parallelism, low latency, and low energy consumption. Here, we devise a hardware-efficient photonic subspace neural network (PSNN) architecture, which targets lower optical component usage, area cost, and energy consumption than previous ONN architectures with comparable task performance. Additionally, a hardware-aware training framework is provided to minimize the required device programming precision, lessen the chip area, and boost the noise robustness. We experimentally demonstrate our PSNN on a butterfly-style programmable silicon photonic integrated circuit and show its utility in practical image recognition tasks. ",
+    "url": "https://arxiv.org/abs/2111.06705",
+    "authors": [
+      "Chenghao Feng",
+      "Jiaqi Gu",
+      "Hanqing Zhu",
+      "Zhoufeng Ying",
+      "Zheng Zhao",
+      "David Z. Pan",
+      "Ray T. Chen"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
