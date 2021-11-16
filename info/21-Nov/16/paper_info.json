@@ -1,0 +1,72 @@
+[
+  {
+    "id": "arXiv:2111.07249",
+    "title": "Simultaneous estimation of parameters and the state of an optical  parametric oscillator system",
+    "abstract": "In this paper, we consider the filtering problem of an optical parametric oscillator (OPO). The OPO pump power may fluctuate due to environmental disturbances, resulting in uncertainty in the system modeling. Thus, both the state and the unknown parameter may need to be estimated simultaneously. We formulate this problem using a state-space representation of the OPO dynamics. Under the assumption of Gaussianity and proper constraints, the dual Kalman filter method and the joint extended Kalman filter method are employed to simultaneously estimate the system state and the pump power. Numerical examples demonstrate the effectiveness of the proposed algorithms. ",
+    "url": "https://arxiv.org/abs/2111.07249",
+    "authors": [
+      "Qi Yu",
+      "Shota Yokoyama",
+      "Daoyi Dong",
+      "David McManus",
+      "Hidehiro Yonezawa"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.07436",
+    "title": "Chemistry Across Multiple Phases (CAMP) version 1.0: An integrated  multi-phase chemistry model",
+    "abstract": "A flexible treatment for gas- and aerosol-phase chemical processes has been developed for models of diverse scale, from box models up to global models. At the core of this novel framework is an \"abstracted aerosol representation\" that allows a given chemical mechanism to be solved in atmospheric models with different aerosol representations (e.g., sectional, modal, or particle-resolved). This is accomplished by treating aerosols as a collection of condensed phases that are implemented according to the aerosol representation of the host model. The framework also allows multiple chemical processes (e.g., gas- and aerosol-phase chemical reactions, emissions, deposition, photolysis, and mass-transfer) to be solved simultaneously as a single system. The flexibility of the model is achieved by (1) using an object-oriented design that facilitates extensibility to new types of chemical processes and to new ways of representing aerosol systems; (2) runtime model configuration using JSON input files that permits making changes to any part of the chemical mechanism without recompiling the model; this widely used, human-readable format allows entire gas- and aerosol-phase chemical mechanisms to be described with as much complexity as necessary; and (3) automated comprehensive testing that ensures stability of the code as new functionality is introduced. Together, these design choices enable users to build a customized multiphase mechanism, without having to handle pre-processors, solvers or compilers. This new treatment compiles as a stand-alone library and has been deployed in the particle-resolved PartMC model and in the MONARCH chemical weather prediction system for use at regional and global scales. Results from the initial deployment will be discussed, along with future extension to more complex gas-aerosol systems, and the integration of GPU-based solvers. ",
+    "url": "https://arxiv.org/abs/2111.07436",
+    "authors": [
+      "Matthew L. Dawson",
+      "Christian Guzman",
+      "Jeffrey H. Curtis",
+      "Mario Acosta",
+      "Shupeng Zhu",
+      "Donald Dabdub",
+      "Andrew Conley",
+      "Matthew West",
+      "Nicole Riemer",
+      "Oriol Jorba"
+    ],
+    "subjectives": [
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.07059",
+    "title": "Classical and quantum dynamic programming for Subset-Sum and variants",
+    "abstract": "Subset-Sum is an NP-complete problem where one must decide if a multiset of $n$ integers contains a subset whose elements sum to a target value $m$. The best known classical and quantum algorithms run in time $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{n/3})$, respectively, based on the well-known meet-in-the-middle technique. Here we introduce a novel dynamic programming data structure with applications to Subset-Sum and a number of variants, including Equal-Sums (where one seeks two disjoint subsets with the same sum), 2-Subset-Sum (a relaxed version of Subset-Sum where each item in the input set can be used twice in the summation), and Shifted-Sums, a generalization of both of these variants, where one seeks two disjoint subsets whose sums differ by some specified value. Given any modulus $p$, our data structure can be constructed in time $O(np)$, after which queries can be made in time $O(n)$ to the lists of subsets summing to a same value modulo $p$. We use this data structure to give new $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{n/3})$ classical and quantum algorithms for Subset-Sum, not based on the meet-in-the-middle method. We then use the data structure in combination with variable time amplitude amplification and a quantum pair finding algorithm, extending quantum element distinctness and claw finding algorithms to the multiple solutions case, to give an $O(2^{0.504n})$ quantum algorithm for Shifted-Sums, an improvement on the best known $O(2^{0.773n})$ classical running time. We also study Pigeonhole Equal-Sums and Pigeonhole Modular Equal-Sums, where the existence of a solution is guaranteed by the pigeonhole principle. For the former problem we give classical and quantum algorithms with running time $\\tilde{O}(2^{n/2})$ and $\\tilde{O}(2^{2n/5})$, respectively. For the more general modular problem we give a classical algorithm which also runs in time $\\tilde{O}(2^{n/2})$. ",
+    "url": "https://arxiv.org/abs/2111.07059",
+    "authors": [
+      "Jonathan Allcock",
+      "Yassine Hamoudi",
+      "Antoine Joux",
+      "Felix Klingelh\u00f6fer",
+      "Miklos Santha"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Cryptography and Security (cs.CR)",
+      "Data Structures and Algorithms (cs.DS)"
+    ]
+  },
+  {
+    "id": "arXiv:2011.03627",
+    "title": "Discretization of learned NETT regularization for solving inverse  problems",
+    "abstract": " Title: Discretization of learned NETT regularization for solving inverse  problems ",
+    "url": "https://arxiv.org/abs/2011.03627",
+    "authors": [
+      "Stephan Antholzer",
+      "Markus Haltmeier"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  }
+]
