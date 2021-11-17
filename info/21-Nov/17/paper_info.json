@@ -1,0 +1,113 @@
+[
+  {
+    "id": "arXiv:2111.08227",
+    "title": "Phase function estimation from a diffuse optical image via deep learning",
+    "abstract": "The phase function is a key element of a light propagation model for Monte Carlo (MC) simulation, which is usually fitted with an analytic function with associated parameters. In recent years, machine learning methods were reported to estimate the parameters of the phase function of a particular form such as the Henyey-Greenstein phase function but, to our knowledge, no studies have been performed to determine the form of the phase function. Here we design a convolutional neural network to estimate the phase function from a diffuse optical image without any explicit assumption on the form of the phase function. Specifically, we use a Gaussian mixture model as an example to represent the phase function generally and learn the model parameters accurately. The Gaussian mixture model is selected because it provides the analytic expression of phase function to facilitate deflection angle sampling in MC simulation, and does not significantly increase the number of free parameters. Our proposed method is validated on MC-simulated reflectance images of typical biological tissues using the Henyey-Greenstein phase function with different anisotropy factors. The effects of field of view (FOV) and spatial resolution on the errors are analyzed to optimize the estimation method. The mean squared error of the phase function is 0.01 and the relative error of the anisotropy factor is 3.28%. ",
+    "url": "https://arxiv.org/abs/2111.08227",
+    "authors": [
+      "Yuxuan Liang",
+      "Chuang Niu",
+      "Chen Wei",
+      "Shenghan Ren",
+      "Wenxiang Cong",
+      "Ge Wang"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.08327",
+    "title": "Detecting acoustic reflectors using a robot's ego-noise",
+    "abstract": "In this paper, we propose a method to estimate the proximity of an acoustic reflector, e.g., a wall, using ego-noise, i.e., the noise produced by the moving parts of a listening robot. This is achieved by estimating the times of arrival of acoustic echoes reflected from the surface. Simulated experiments show that the proposed nonintrusive approach is capable of accurately estimating the distance of a reflector up to 1 meter and outperforms a previously proposed intrusive approach under loud ego-noise conditions. The proposed method is helped by a probabilistic echo detector that estimates whether or not an acoustic reflector is within a short range of the robotic platform. This preliminary investigation paves the way towards a new kind of collision avoidance system that would purely rely on audio sensors rather than conventional proximity sensors. ",
+    "url": "https://arxiv.org/abs/2111.08327",
+    "authors": [
+      "Usama Saqib",
+      "Antoine Deleforge",
+      "Jesper Jensen"
+    ],
+    "subjectives": [
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.08691",
+    "title": "Uncertainty quantification and inverse modeling for subsurface flow in  3D heterogeneous formations using a theory-guided convolutional  encoder-decoder network",
+    "abstract": "We build surrogate models for dynamic 3D subsurface single-phase flow problems with multiple vertical producing wells. The surrogate model provides efficient pressure estimation of the entire formation at any timestep given a stochastic permeability field, arbitrary well locations and penetration lengths, and a timestep matrix as inputs. The well production rate or bottom hole pressure can then be determined based on Peaceman's formula. The original surrogate modeling task is transformed into an image-to-image regression problem using a convolutional encoder-decoder neural network architecture. The residual of the governing flow equation in its discretized form is incorporated into the loss function to impose theoretical guidance on the model training process. As a result, the accuracy and generalization ability of the trained surrogate models are significantly improved compared to fully data-driven models. They are also shown to have flexible extrapolation ability to permeability fields with different statistics. The surrogate models are used to conduct uncertainty quantification considering a stochastic permeability field, as well as to infer unknown permeability information based on limited well production data and observation data of formation properties. Results are shown to be in good agreement with traditional numerical simulation tools, but computational efficiency is dramatically improved. ",
+    "url": "https://arxiv.org/abs/2111.08691",
+    "authors": [
+      "Rui Xu",
+      "Dongxiao Zhang",
+      "Nanzhe Wang"
+    ],
+    "subjectives": [
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Machine Learning (cs.LG)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2104.08122",
+    "title": "Benchmarking Machine Learning Techniques for THz Channel Estimation  Problems",
+    "abstract": " Comments: This paper is uploaded here for research community, thus it is for non-commercial purposes ",
+    "url": "https://arxiv.org/abs/2104.08122",
+    "authors": [
+      "Mounir Bensalem",
+      "Admela Jukan"
+    ],
+    "subjectives": [
+      "Networking and Internet Architecture (cs.NI)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.04457",
+    "title": "Aligning an optical interferometer with beam divergence control and  continuous action space",
+    "abstract": " Comments: 12 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2107.04457",
+    "authors": [
+      "Stepan Makarenko",
+      "Dmitry Sorokin",
+      "Alexander Ulanov",
+      "A. I. Lvovsky"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.07263",
+    "title": "Performance Analysis of MDPC and RS codes in Two-channel THz  Communication Systems",
+    "abstract": " Comments: This paper is uploaded here for research community, thus it is for non-commercial purposes ",
+    "url": "https://arxiv.org/abs/2107.07263",
+    "authors": [
+      "Cao Vien Phung",
+      "Christoph Herold",
+      "David Humphreys",
+      "Thomas Kurner",
+      "Admela Jukan"
+    ],
+    "subjectives": [
+      "Networking and Internet Architecture (cs.NI)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.02921",
+    "title": "Map-Assisted Power Allocation and Constellation Design for mmWave WDM  with OAM in Short-Range LOS Environment",
+    "abstract": " Title: Map-Assisted Power Allocation and Constellation Design for mmWave WDM  with OAM in Short-Range LOS Environment ",
+    "url": "https://arxiv.org/abs/2111.02921",
+    "authors": [
+      "Yuan Wang",
+      "Chen Gong",
+      "Zhengyuan Xu"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  }
+]
