@@ -1,0 +1,44 @@
+[
+  {
+    "id": "arXiv:2111.09117",
+    "title": "Image-based monitoring of bolt loosening through deep-learning-based  integrated detection and tracking",
+    "abstract": "Structural bolts are critical components used in different structural elements, such as beam-column connections and friction damping devices. The clamping force in structural bolts is highly influenced by the bolt rotation. Much of the existing vision-based research about bolt rotation estimation relies on traditional computer vision algorithms such as Hough Transform to assess static images of bolts. This requires careful image preprocessing, and it may not perform well in the situation of complicated bolt assemblies, or in the presence of surrounding objects and background noise, thus hindering their real-world applications. In this study, an integrated real-time detect-track method, namely RTDT-Bolt, is proposed to monitor the bolt rotation angle. First, a real-time convolutional-neural-networks-based object detector, named YOLOv3-tiny, is established and trained to localize structural bolts. Then, the target-free object tracking algorithm based on optical flow is implemented, to continuously monitor and quantify the rotation of structural bolts. In order to enhance the tracking performance against background noise and potential illumination changes during tracking, the YOLOv3-tiny is integrated with the optical flow tracking algorithm to re-detect the bolts when the tracking gets lost. Extensive parameter studies were conducted to identify optimal tracking performance and examine the potential limitations. The results indicate the RTDT-Bolt method can greatly enhance the tracking performance of bolt rotation, which can achieve over 90% accuracy using the recommended range for the parameters. ",
+    "url": "https://arxiv.org/abs/2111.09117",
+    "authors": [
+      "Xiao Pan",
+      "T.Y. Yang"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Computers and Society (cs.CY)"
+    ]
+  },
+  {
+    "id": "arXiv:1908.01317",
+    "title": "Computing the inverse geodesic length in planar graphs and graphs of  bounded treewidth",
+    "abstract": " Comments: With respect v1, corrected the model of computation and explained better the algebraic operations ",
+    "url": "https://arxiv.org/abs/1908.01317",
+    "authors": [
+      "Sergio Cabello"
+    ],
+    "subjectives": [
+      "Data Structures and Algorithms (cs.DS)",
+      "Computational Geometry (cs.CG)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.06544",
+    "title": "A lightweight blockchain-based access control scheme for integrated edge  computing in the internet of things",
+    "abstract": " Comments: 35 pages with 8 figures and 5 tables ",
+    "url": "https://arxiv.org/abs/2111.06544",
+    "authors": [
+      "Jie Zhang",
+      "Lingyun Yuan",
+      "Shanshan Xu"
+    ],
+    "subjectives": [
+      "Cryptography and Security (cs.CR)",
+      "Computers and Society (cs.CY)"
+    ]
+  }
+]
