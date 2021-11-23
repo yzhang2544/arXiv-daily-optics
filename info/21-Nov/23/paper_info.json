@@ -1,0 +1,198 @@
+[
+  {
+    "id": "arXiv:2111.10649",
+    "title": "A robust monolithic solver for phase-field fracture integrated with  fracture energy based arc-length method and under-relaxation",
+    "abstract": "The phase-field fracture free-energy functional is non-convex with respect to the displacement and the phase field. This results in a poor performance of the conventional monolithic solvers like the Newton-Raphson method. In order to circumvent this issue, researchers opt for the alternate minimization (staggered) solvers. Staggered solvers are robust for the phase-field based fracture simulations as the displacement and the phase-field sub-problems are convex in nature. Nevertheless, the staggered solver requires very large number of iterations (of the order of thousands) to converge. In this work, a robust monolithic solver is presented for the phase-field fracture problem. The solver adopts a fracture energy-based arc-length method and an adaptive under-relaxation scheme. The arc-length method enables the simulation to overcome critical points (snap-back, snap-through instabilities) during the loading of a specimen. The use of an under-relaxation scheme stabilizes the solver by preventing the divergence due to an ill-behaving stiffness matrix. The efficiency of the proposed solver is further amplified with an adaptive mesh refinement scheme based on PHT-splines within the framework of isogeometric analysis. The numerical examples presented in the manuscript demonstrates the efficacy of the solver. All the codes and data-sets accompanying this work will be made available on GitHub (https://github.com/rbharali/IGAFrac). ",
+    "url": "https://arxiv.org/abs/2111.10649",
+    "authors": [
+      "Ritukesh Bharali",
+      "Somdatta Goswami",
+      "Cosmin Anitescu",
+      "Timon Rabczuk"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Analysis of PDEs (math.AP)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.10830",
+    "title": "Simple circuit simulations of classical and quantum Turing machines",
+    "abstract": "We construct reversible Boolean circuits efficiently simulating reversible Turing machines. Both the circuits and the simulation proof are rather simple. Then we give a fairly straightforward generalization of the circuits and the simulation proof to the quantum case. ",
+    "url": "https://arxiv.org/abs/2111.10830",
+    "authors": [
+      "Yuri Gurevich",
+      "Andreas Blass"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Logic in Computer Science (cs.LO)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.10940",
+    "title": "How do kernel-based sensor fusion algorithms behave under high  dimensional noise?",
+    "abstract": "We study the behavior of two kernel based sensor fusion algorithms, nonparametric canonical correlation analysis (NCCA) and alternating diffusion (AD), under the nonnull setting that the clean datasets collected from two sensors are modeled by a common low dimensional manifold embedded in a high dimensional Euclidean space and the datasets are corrupted by high dimensional noise. We establish the asymptotic limits and convergence rates for the eigenvalues of the associated kernel matrices assuming that the sample dimension and sample size are comparably large, where NCCA and AD are conducted using the Gaussian kernel. It turns out that both the asymptotic limits and convergence rates depend on the signal-to-noise ratio (SNR) of each sensor and selected bandwidths. On one hand, we show that if NCCA and AD are directly applied to the noisy point clouds without any sanity check, it may generate artificial information that misleads scientists' interpretation. On the other hand, we prove that if the bandwidths are selected adequately, both NCCA and AD can be made robust to high dimensional noise when the SNRs are relatively large. ",
+    "url": "https://arxiv.org/abs/2111.10940",
+    "authors": [
+      "Xiucai Ding",
+      "Hau-Tieng Wu"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.11139",
+    "title": "Sublinear quantum algorithms for estimating von Neumann entropy",
+    "abstract": "Entropy is a fundamental property of both classical and quantum systems, spanning myriad theoretical and practical applications in physics and computer science. We study the problem of obtaining estimates to within a multiplicative factor $\\gamma>1$ of the Shannon entropy of probability distributions and the von Neumann entropy of mixed quantum states. Our main results are: $\\quad\\bullet$ an $\\widetilde{\\mathcal{O}}\\left( n^{\\frac{1+\\eta}{2\\gamma^2}}\\right)$-query quantum algorithm that outputs a $\\gamma$-multiplicative approximation of the Shannon entropy $H(\\mathbf{p})$ of a classical probability distribution $\\mathbf{p} = (p_1,\\ldots,p_n)$; $\\quad\\bullet$ an $\\widetilde{\\mathcal{O}}\\left( n^{\\frac12+\\frac{1+\\eta}{2\\gamma^2}}\\right)$-query quantum algorithm that outputs a $\\gamma$-multiplicative approximation of the von Neumann entropy $S(\\rho)$ of a density matrix $\\rho\\in\\mathbb{C}^{n\\times n}$. In both cases, the input is assumed to have entropy bounded away from zero by a quantity determined by the parameter $\\eta>0$, since, as we prove, no polynomial query algorithm can multiplicatively approximate the entropy of distributions with arbitrarily low entropy. In addition, we provide $\\Omega\\left(n^{\\frac{1}{3\\gamma^2}}\\right)$ lower bounds on the query complexity of $\\gamma$-multiplicative estimation of Shannon and von Neumann entropies. We work with the quantum purified query access model, which can handle both classical probability distributions and mixed quantum states, and is the most general input model considered in the literature. ",
+    "url": "https://arxiv.org/abs/2111.11139",
+    "authors": [
+      "Tom Gur",
+      "Min-Hsiu Hsieh",
+      "Sathyawageeswar Subramanian"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.11285",
+    "title": "Bridging the reality gap in quantum devices with physics-aware machine  learning",
+    "abstract": "The discrepancies between reality and simulation impede the optimisation and scalability of solid-state quantum devices. Disorder induced by the unpredictable distribution of material defects is one of the major contributions to the reality gap. We bridge this gap using physics-aware machine learning, in particular, using an approach combining a physical model, deep learning, Gaussian random field, and Bayesian inference. This approach has enabled us to infer the disorder potential of a nanoscale electronic device from electron transport data. This inference is validated by verifying the algorithm's predictions about the gate voltage values required for a laterally-defined quantum dot device in AlGaAs/GaAs to produce current features corresponding to a double quantum dot regime. ",
+    "url": "https://arxiv.org/abs/2111.11285",
+    "authors": [
+      "D.L. Craig",
+      "H. Moon",
+      "F. Fedele",
+      "D.T. Lennon",
+      "B. Van Straaten",
+      "F. Vigneau",
+      "L.C. Camenzind",
+      "D.M. Zumb\u00fchl",
+      "G.A.D. Briggs",
+      "M.A. Osborne",
+      "D. Sejdinovic",
+      "N. Ares"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.11332",
+    "title": "Experimental demonstration of entanglement delivery using a quantum  network stack",
+    "abstract": "Scaling current quantum communication demonstrations to a large-scale quantum network will require not only advancements in quantum hardware capabilities, but also robust control of such devices to bridge the gap to user demand. Moreover, the abstraction of tasks and services offered by the quantum network should enable platform-independent applications to be executed without knowledge of the underlying physical implementation. Here we experimentally demonstrate, using remote solid-state quantum network nodes, a link layer and a physical layer protocol for entanglement-based quantum networks. The link layer abstracts the physical-layer entanglement attempts into a robust, platform-independent entanglement delivery service. The system is used to run full state tomography of the delivered entangled states, as well as preparation of a remote qubit state on a server by its client. Our results mark a clear transition from physics experiments to quantum communication systems, which will enable the development and testing of components of future quantum networks. ",
+    "url": "https://arxiv.org/abs/2111.11332",
+    "authors": [
+      "Matteo Pompili",
+      "Carlo Delle Donne",
+      "Ingmar te Raa",
+      "Bart van der Vecht",
+      "Matthew Skrzypczyk",
+      "Guilherme Ferreira",
+      "Lisa de Kluijver",
+      "Arian J. Stolk",
+      "Sophie L. N. Hermans",
+      "Przemys\u0142aw Pawe\u0142czak",
+      "Wojciech Kozlowski",
+      "Ronald Hanson",
+      "Stephanie Wehner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Networking and Internet Architecture (cs.NI)"
+    ]
+  },
+  {
+    "id": "arXiv:2005.08797",
+    "title": "Variational quantum Gibbs state preparation with a truncated Taylor  series",
+    "abstract": " Comments: v2 accepted in Phys. Rev. Applied ",
+    "url": "https://arxiv.org/abs/2005.08797",
+    "authors": [
+      "Youle Wang",
+      "Guangxi Li",
+      "Xin Wang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Information Theory (cs.IT)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.06513",
+    "title": "Learning the optimal Tikhonov regularizer for inverse problems",
+    "abstract": " Title: Learning the optimal Tikhonov regularizer for inverse problems ",
+    "url": "https://arxiv.org/abs/2106.06513",
+    "authors": [
+      "Giovanni S. Alberti",
+      "Ernesto De Vito",
+      "Matti Lassas",
+      "Luca Ratti",
+      "Matteo Santacesaria"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Statistics Theory (math.ST)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.08622",
+    "title": "Harnessing Optoelectronic Noises in a Photonic Generative Network",
+    "abstract": " Comments: 19 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2109.08622",
+    "authors": [
+      "Changming Wu",
+      "Xiaoxuan Yang",
+      "Heshan Yu",
+      "Ruoming Peng",
+      "Ichiro Takeuchi",
+      "Yiran Chen",
+      "Mo Li"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.01402",
+    "title": "Quantum information and beyond -- with quantum candies",
+    "abstract": " Comments: This is the journal version of: Lin, J. and Mor, T., 2020, December. Quantum Candies and Quantum Cryptography. In International Conference on the Theory and Practice of Natural Computing (pp. 69-81). Springer, Cham., arXiv preprint arXiv:2011.02837. Changes in this version: changed title and abstract, added sections on NLB, quaternionic computing and mixed states ",
+    "url": "https://arxiv.org/abs/2110.01402",
+    "authors": [
+      "Junan Lin",
+      "Tal Mor",
+      "Roman Shapira"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Cryptography and Security (cs.CR)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15919",
+    "title": "Performance Analysis of Dual-Hop THz Wireless Transmission for Backhaul  Applications",
+    "abstract": " Comments: This paper has been accepted for presentation in 2021 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS), Hyderabad, India ",
+    "url": "https://arxiv.org/abs/2110.15919",
+    "authors": [
+      "Vinay U. Pai",
+      "Pranay Bhardwaj",
+      "S. M. Zafaruddin"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  }
+]
