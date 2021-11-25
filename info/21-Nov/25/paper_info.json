@@ -1,0 +1,78 @@
+[
+  {
+    "id": "arXiv:2111.12443",
+    "title": "A topology optimisation of acoustic devices based on the frequency  response estimation with the Pad\u00e9 approximation",
+    "abstract": "We propose a topology optimisation of acoustic devices that work in a certain bandwidth. To achieve this, we define the objective function as the frequency-averaged sound intensity at given observation points, which is represented by a frequency integral over a given frequency band. It is, however, prohibitively expensive to evaluate such an integral naively by a quadrature. We thus estimate the frequency response by the Pad\\'{e} approximation and integrate the approximated function to obtain the objective function. The corresponding topological derivative is derived with the help of the adjoint variable method and chain rule. It is shown that the objective and its sensitivity can be evaluated semi-analytically. We present efficient numerical procedures to compute them and incorporate them into a topology optimisation based on the level-set method. We confirm the validity and effectiveness of the present method through some numerical examples. ",
+    "url": "https://arxiv.org/abs/2111.12443",
+    "authors": [
+      "Yuta Honshuku",
+      "Hiroshi Isakari"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Computational Engineering, Finance, and Science (cs.CE)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.12537",
+    "title": "Processing of optical signals by \"surgical\" methods for the  Gelfand-Levitan-Marchenko equation",
+    "abstract": "We propose a new method for solving the Gelfand-Levitan-Marchenko equation (GLME) based on the block version of the Toeplitz Inner-Bordering (TIB) with an arbitrary point to start the calculation. This makes it possible to find solutions of the GLME at an arbitrary point with a cutoff of the matrix coefficient, which allows to avoid the occurrence of numerical instability and to perform calculations for soliton solutions spaced apart in the time domain. Using an example of two solitons, we demonstrate our method and its range of applicability. An example of eight solitons shows how the method can be applied to a more complex signal configuration. ",
+    "url": "https://arxiv.org/abs/2111.12537",
+    "authors": [
+      "Sergey Medvedev",
+      "Irina Vaseva",
+      "Mikhail Fedoruk"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.12541",
+    "title": "Rethinking the modeling of the instrumental response of telescopes with  a differentiable optical model",
+    "abstract": "We propose a paradigm shift in the data-driven modeling of the instrumental response field of telescopes. By adding a differentiable optical forward model into the modeling framework, we change the data-driven modeling space from the pixels to the wavefront. This allows to transfer a great deal of complexity from the instrumental response into the forward model while being able to adapt to the observations, remaining data-driven. Our framework allows a way forward to building powerful models that are physically motivated, interpretable, and that do not require special calibration data. We show that for a simplified setting of a space telescope, this framework represents a real performance breakthrough compared to existing data-driven approaches with reconstruction errors decreasing 5 fold at observation resolution and more than 10 fold for a 3x super-resolution. We successfully model chromatic variations of the instrument's response only using noisy broad-band in-focus observations. ",
+    "url": "https://arxiv.org/abs/2111.12541",
+    "authors": [
+      "Tobias Liaudat",
+      "Jean-Luc Starck",
+      "Martin Kilbinger",
+      "Pierre-Antoine Frugier"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:1607.03943",
+    "title": "Generalized hybrid iterative methods for large-scale Bayesian inverse  problems",
+    "abstract": " Title: Generalized hybrid iterative methods for large-scale Bayesian inverse  problems ",
+    "url": "https://arxiv.org/abs/1607.03943",
+    "authors": [
+      "Julianne Chung",
+      "Arvind K. Saibaba"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.15169",
+    "title": "Variational learning of quantum ground states on spiking neuromorphic  hardware",
+    "abstract": " Comments: 14 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2109.15169",
+    "authors": [
+      "Robert Klassert",
+      "Andreas Baumbach",
+      "Mihai A. Petrovici",
+      "Martin G\u00e4rttner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Emerging Technologies (cs.ET)",
+      "Neural and Evolutionary Computing (cs.NE)"
+    ]
+  }
+]
