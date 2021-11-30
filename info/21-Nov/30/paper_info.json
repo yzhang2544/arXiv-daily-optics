@@ -1,0 +1,83 @@
+[
+  {
+    "id": "arXiv:2111.14044",
+    "title": "Joint Sensing and Communication for Situational Awareness in Wireless  THz Systems",
+    "abstract": "Next-generation wireless systems are rapidly evolving from communication-only systems to multi-modal systems with integrated sensing and communications. In this paper a novel joint sensing and communication framework is proposed for enabling wireless extended reality (XR) at terahertz (THz) bands. To gather rich sensing information and a higher line-of-sight (LoS) availability, THz-operated reconfigurable intelligent surfaces (RISs) acting as base stations are deployed. The sensing parameters are extracted by leveraging THz's quasi-opticality and opportunistically utilizing uplink communication waveforms. This enables the use of the same waveform, spectrum, and hardware for both sensing and communication purposes. The environmental sensing parameters are then derived by exploiting the sparsity of THz channels via tensor decomposition. Hence, a high-resolution indoor mapping is derived so as to characterize the spatial availability of communications and the mobility of users. Simulation results show that in the proposed framework, the resolution and data rate of the overall system are positively correlated, thus allowing a joint optimization between these metrics with no tradeoffs. Results also show that the proposed framework improves the system reliability in static and mobile systems. In particular, the highest reliability gains of 10% in reliability are achieved in a walking speed mobile environment compared to communication only systems with beam tracking. ",
+    "url": "https://arxiv.org/abs/2111.14044",
+    "authors": [
+      "Christina Chaccour",
+      "Walid Saad",
+      "Omid Semiari",
+      "Mehdi Bennis",
+      "Petar Popovski"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Networking and Internet Architecture (cs.NI)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.14125",
+    "title": "AirSPEC: An IoT-empowered Air Quality Monitoring System integrated with  a Machine Learning Framework to Detect and Predict defined Air Quality  parameters",
+    "abstract": "The air that surrounds us is the cardinal source of respiration of all life-forms. Therefore, it is undoubtedly vital to highlight that balanced air quality is utmost important to the respiratory health of all living beings, environmental homeostasis, and even economical equilibrium. Nevertheless, a gradual deterioration of air quality has been observed in the last few decades, due to the continuous increment of polluted emissions from automobiles and industries into the atmosphere. Even though many people have scarcely acknowledged the depth of the problem, the persistent efforts of determined parties, including the World Health Organization, have consistently pushed the boundaries for a qualitatively better global air homeostasis, by facilitating technology-driven initiatives to timely detect and predict air quality in regional and global scales. However, the existing frameworks for air quality monitoring lack the capability of real-time responsiveness and flexible semantic distribution. In this paper, a novel Internet of Things framework is proposed which is easily implementable, semantically distributive, and empowered by a machine learning model. The proposed system is equipped with a NodeRED dashboard which processes, visualizes, and stores the primary sensor data that are acquired through a public air quality sensor network, and further, the dashboard is integrated with a machine-learning model to obtain temporal and geo-spatial air quality predictions. ESP8266 NodeMCU is incorporated as a subscriber to the NodeRED dashboard via a message queuing telemetry transport broker to communicate quantitative air quality data or alarming emails to the end-users through the developed web and mobile applications. Therefore, the proposed system could become highly beneficial in empowering public engagement in air quality through an unoppressive, data-driven, and semantic framework. ",
+    "url": "https://arxiv.org/abs/2111.14125",
+    "authors": [
+      "Nuwan Bandara",
+      "Sahan Hettiarachchi",
+      "Phabhani Athukorala"
+    ],
+    "subjectives": [
+      "Networking and Internet Architecture (cs.NI)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.14666",
+    "title": "An in-depth experimental study of sensor usage and visual reasoning of  robots navigating in real environments",
+    "abstract": "Visual navigation by mobile robots is classically tackled through SLAM plus optimal planning, and more recently through end-to-end training of policies implemented as deep networks. While the former are often limited to waypoint planning, but have proven their efficiency even on real physical environments, the latter solutions are most frequently employed in simulation, but have been shown to be able learn more complex visual reasoning, involving complex semantical regularities. Navigation by real robots in physical environments is still an open problem. End-to-end training approaches have been thoroughly tested in simulation only, with experiments involving real robots being restricted to rare performance evaluations in simplified laboratory conditions. In this work we present an in-depth study of the performance and reasoning capacities of real physical agents, trained in simulation and deployed to two different physical environments. Beyond benchmarking, we provide insights into the generalization capabilities of different agents training in different conditions. We visualize sensor usage and the importance of the different types of signals. We show, that for the PointGoal task, an agent pre-trained on wide variety of tasks and fine-tuned on a simulated version of the target environment can reach competitive performance without modelling any sim2real transfer, i.e. by deploying the trained agent directly from simulation to a real physical robot. ",
+    "url": "https://arxiv.org/abs/2111.14666",
+    "authors": [
+      "Assem Sadek",
+      "Guillaume Bono",
+      "Boris Chidlovskii",
+      "Christian Wolf"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Robotics (cs.RO)"
+    ]
+  },
+  {
+    "id": "arXiv:2010.07902",
+    "title": "Entropic proofs of Singleton bounds for quantum error-correcting codes",
+    "abstract": " Comments: 14 pages, 5 figures. Theorem 7 and Corollaries 8 and 9 added ",
+    "url": "https://arxiv.org/abs/2010.07902",
+    "authors": [
+      "Markus Grassl",
+      "Felix Huber",
+      "Andreas Winter"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.04597",
+    "title": "\u0393-convergence of Onsager-Machlup functionals. Part I: With  applications to maximum a posteriori estimation in Bayesian inverse problems",
+    "abstract": " Comments: 30 pages ",
+    "url": "https://arxiv.org/abs/2108.04597",
+    "authors": [
+      "Birzhan Ayanbayev",
+      "Ilja Klebanov",
+      "Han Cheng Lie",
+      "T. J. Sullivan"
+    ],
+    "subjectives": [
+      "Statistics Theory (math.ST)",
+      "Numerical Analysis (math.NA)",
+      "Probability (math.PR)"
+    ]
+  }
+]
