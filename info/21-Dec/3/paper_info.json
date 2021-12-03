@@ -1,0 +1,81 @@
+[
+  {
+    "id": "arXiv:2112.00903",
+    "title": "Modeling human intention inference in continuous 3D domains by inverse  planning and body kinematics",
+    "abstract": "How to build AI that understands human intentions, and uses this knowledge to collaborate with people? We describe a computational framework for evaluating models of goal inference in the domain of 3D motor actions, which receives as input the 3D coordinates of an agent's body, and of possible targets, to produce a continuously updated inference of the intended target. We evaluate our framework in three behavioural experiments using a novel Target Reaching Task, in which human observers infer intentions of actors reaching for targets among distracts. We describe Generative Body Kinematics model, which predicts human intention inference in this domain using Bayesian inverse planning and inverse body kinematics. We compare our model to three heuristics, which formalize the principle of least effort using simple assumptions about the actor's constraints, without the use of inverse planning. Despite being more computationally costly, the Generative Body Kinematics model outperforms the heuristics in certain scenarios, such as environments with obstacles, and at the beginning of reaching actions while the actor is relatively far from the intended target. The heuristics make increasingly accurate predictions during later stages of reaching actions, such as, when the intended target is close, and can be inferred by extrapolating the wrist trajectory. Our results identify contexts in which inverse body kinematics is useful for intention inference. We show that human observers indeed rely on inverse body kinematics in such scenarios, suggesting that modeling body kinematic can improve performance of inference algorithms. ",
+    "url": "https://arxiv.org/abs/2112.00903",
+    "authors": [
+      "Yingdong Qian",
+      "Marta Kryven",
+      "Tao Gao",
+      "Hanbyul Joo",
+      "Josh Tenenbaum"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Robotics (cs.RO)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.00760",
+    "title": "Biology and medicine in the landscape of quantum advantages",
+    "abstract": "Quantum computing holds significant potential for applications in biology and medicine, spanning from the simulation of biomolecules to machine learning approaches for subtyping cancers on the basis of clinical features. This potential is encapsulated by the concept of a quantum advantage, which is typically contingent on a reduction in the consumption of a computational resource, such as time, space, or data. Here, we distill the concept of a quantum advantage into a simple framework that we hope will aid researchers in biology and medicine pursuing the development of quantum applications. We then apply this framework to a wide variety of computational problems relevant to these domains in an effort to i) assess the potential of quantum advantages in specific application areas and ii) identify gaps that may be addressed with novel quantum approaches. Bearing in mind the rapid pace of change in the fields of quantum computing and classical algorithms, we aim to provide an extensive survey of applications in biology and medicine that may lead to practical quantum advantages. ",
+    "url": "https://arxiv.org/abs/2112.00760",
+    "authors": [
+      "Benjamin A. Cordier",
+      "Nicolas P. D. Sawaya",
+      "Gian G. Guerreschi",
+      "Shannon K. McWeeney"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Emerging Technologies (cs.ET)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.00811",
+    "title": "Revisiting dequantization and quantum advantage in learning tasks",
+    "abstract": "It has been shown that the apparent advantage of some quantum machine learning algorithms may be efficiently replicated using classical algorithms with suitable data access -- a process known as dequantization. Existing works on dequantization compare quantum algorithms which take copies of an n-qubit quantum state $|x\\rangle = \\sum_{i} x_i |i\\rangle$ as input to classical algorithms which have sample and query (SQ) access to the vector $x$. In this note, we prove that classical algorithms with SQ access can accomplish some learning tasks exponentially faster than quantum algorithms with quantum state inputs. Because classical algorithms are a subset of quantum algorithms, this demonstrates that SQ access can sometimes be significantly more powerful than quantum state inputs. Our findings suggest that the absence of exponential quantum advantage in some learning tasks may be due to SQ access being too powerful relative to quantum state inputs. If we compare quantum algorithms with quantum state inputs to classical algorithms with access to measurement data on quantum states, the landscape of quantum advantage can be dramatically different. ",
+    "url": "https://arxiv.org/abs/2112.00811",
+    "authors": [
+      "Jordan Cotler",
+      "Hsin-Yuan Huang",
+      "Jarrod R. McClean"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.01023",
+    "title": "A higher order Minkowski loss for improved prediction ability of  acoustic model in ASR",
+    "abstract": "Conventional automatic speech recognition (ASR) system uses second-order minkowski loss during inference time which is suboptimal as it incorporates only first order statistics in posterior estimation [2]. In this paper we have proposed higher order minkowski loss (4th Order and 6th Order) during inference time, without any changes during training time. The main contribution of the paper is to show that higher order loss uses higher order statistics in posterior estimation, which improves the prediction ability of acoustic model in ASR system. We have shown mathematically that posterior probability obtained due to higher order loss is function of second order posterior and thus the method can be incorporated in standard ASR system in an easy manner. It is to be noted that all changes are proposed during test(inference) time, we do not make any change in any training pipeline. Multiple baseline systems namely, TDNN1, TDNN2, DNN and LSTM are developed to verify the improvement incurred due to higher order minkowski loss. All experiments are conducted on LibriSpeech dataset and performance metrics are word error rate (WER) on \"dev-clean\", \"test-clean\", \"dev-other\" and \"test-other\" datasets. ",
+    "url": "https://arxiv.org/abs/2112.01023",
+    "authors": [
+      "Vishwanath Pratap Singh",
+      "Shakti P. Rath",
+      "Abhishek Pandey"
+    ],
+    "subjectives": [
+      "Audio and Speech Processing (eess.AS)",
+      "Sound (cs.SD)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.01386",
+    "title": "Relativistic zero-knowledge protocol for NP over the internet  unconditionally secure against quantum adversaries",
+    "abstract": "Relativistic cryptography is a proposal for achieving unconditional security that exploits the fact that no information carrier can travel faster than the speed of light. It is based on space-time constraints but doesn't require quantum hardware. Nevertheless, it was unclear whether this proposal is realistic or not. Recently, Alikhani et al. [ABC+21] performed an implementation of a relativistic zero-knowledge for NP. Their implemented scheme shows the feasibility of relativistic cryptography but it is only secure against classical adversaries. In this work, we present a new relativistic protocol for NP which is secure against quantum adversaries and which is efficient enough so that it can be implemented on everyday laptops and internet connections. We use Stern's zero-knowledge scheme for the Syndrome Decoding problem, which was used before in post-quantum cryptography. The main technical contribution is a generalization of the consecutive measurement framework of [CL17] to prove the security of our scheme against quantum adversaries, and we perform an implementation that demonstrates the feasibility and efficiency of our proposed scheme. ",
+    "url": "https://arxiv.org/abs/2112.01386",
+    "authors": [
+      "Andr\u00e9 Chailloux",
+      "Yann Barsamian"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cryptography and Security (cs.CR)"
+    ]
+  }
+]
