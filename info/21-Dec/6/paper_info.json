@@ -1,0 +1,53 @@
+[
+  {
+    "id": "arXiv:2112.01692",
+    "title": "An inverse averaging finite element method for solving the size-modified  Poisson-Nernst-Planck equations in ion channel simulations",
+    "abstract": "In this work, we introduce an inverse averaging finite element method (IAFEM) for solving the size-modified Poisson-Nernst-Planck (SMPNP) equations. Comparing with the classical Poisson-Nernst-Planck (PNP) equations, the SMPNP equations add a nonlinear term to each of the Nernst-Planck (NP) fluxes to describe the steric repulsion which can treat multiple nonuniform particle sizes in simulations. Since the new terms include sums and gradients of ion concentrations, the nonlinear coupling of SMPNP equations is much stronger than that of PNP equations. By introducing a generalized Slotboom transform, each of the size-modified NP equation is transformed into a self-adjoint equation with exponentially behaved coefficient, which has similar simple form to the standard NP equation with the Slotboom transformation. This treatment enables employing our recently developed inverse averaging technique to deal with the exponential coefficients of the reformulated formulations, featured with advantages of numerical stability and flux conservation especially in strong nonlinear and convection-dominated cases. Comparing with previous stabilization methods, the IAFEM proposed in this paper can still possess the numerical stability when dealing with convection-dominated problems. And it is more concise and easier to be numerically implemented. Numerical experiments about a model problem with analytic solutions are presented to verify the accuracy and order of IAFEM for SMPNP equations. Studies about the size-effects of a sphere model and an ion channel system are presented to show that our IAFEM is more effective and robust than the traditional finite element method (FEM) when solving SMPNP equations in simulations of biological systems. ",
+    "url": "https://arxiv.org/abs/2112.01692",
+    "authors": [
+      "Ruigang Shen",
+      "Qianru Zhang",
+      "ang Benzhuo Lu"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.01921",
+    "title": "In situ process quality monitoring and defect detection for direct metal  laser melting",
+    "abstract": "Quality control and quality assurance are challenges in Direct Metal Laser Melting (DMLM). Intermittent machine diagnostics and downstream part inspections catch problems after undue cost has been incurred processing defective parts. In this paper we demonstrate two methodologies for in-process fault detection and part quality prediction that can be readily deployed on existing commercial DMLM systems with minimal hardware modification. Novel features were derived from the time series of common photodiode sensors along with standard machine control signals. A Bayesian approach attributes measurements to one of multiple process states and a least squares regression model predicts severity of certain material defects. ",
+    "url": "https://arxiv.org/abs/2112.01921",
+    "authors": [
+      "Sarah Felix",
+      "Saikat Ray Majumder",
+      "H. Kirk Mathews",
+      "Michael Lexa",
+      "Gabriel Lipsa",
+      "Xiaohu Ping",
+      "Subhrajit Roychowdhury",
+      "Thomas Spears"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Systems and Control (eess.SY)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.01666",
+    "title": "Classical computation of quantum guesswork",
+    "abstract": "The guesswork quantifies the minimum number of queries needed to guess the state of a quantum ensemble if one is allowed to query only one state at a time. Previous approaches to the computation of the guesswork were based on standard semi-definite programming techniques and therefore lead to approximated results. In contrast, our main result is an algorithm that, upon the input of any qubit ensemble over a discrete ring and with uniform probability distribution, after finitely many steps outputs the exact closed-form analytic expression of its guesswork. The complexity of our guesswork-computing algorithm is factorial in the number of states, with a more-than-quadratic speedup for symmetric ensembles. To find such symmetries, we provide an algorithm that, upon the input of any point set over a discrete ring, after finitely many steps outputs its exact symmetries. The complexity of our symmetries-finding algorithm is polynomial in the number of points. As examples, we compute the guesswork of regular and quasi-regular sets of qubit states. ",
+    "url": "https://arxiv.org/abs/2112.01666",
+    "authors": [
+      "Michele Dall'Arno",
+      "Francesco Buscemi",
+      "Takeshi Koshiba"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)"
+    ]
+  }
+]
