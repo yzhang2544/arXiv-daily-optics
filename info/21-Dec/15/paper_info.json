@@ -1,0 +1,59 @@
+[
+  {
+    "id": "arXiv:2112.07054",
+    "title": "Graph network for simultaneous learning of forward and inverse physics",
+    "abstract": "In this work, we propose an end-to-end graph network that learns forward and inverse models of particle-based physics using interpretable inductive biases. Physics-informed neural networks are often engineered to solve specific problems through problem-specific regularization and loss functions. Such explicit learning biases the network to learn data specific patterns and may require a change in the loss function or neural network architecture hereby limiting their generalizabiliy. While recent studies have proposed graph networks to study forward dynamics, they rely on particle specific parameters such as mass, etc. to approximate the dynamics of the system. Our graph network is implicitly biased by learning to solve several tasks, thereby sharing representations between tasks in order to learn the forward dynamics as well as infer the probability distribution of unknown particle specific properties. We evaluate our approach on one-step next state prediction tasks across diverse datasets that feature different particle interactions. Our comparison against related data-driven physics learning approaches reveals that our model is able to predict the forward dynamics with at least an order of magnitude higher accuracy. We also show that our approach is able to recover multi-modal probability distributions of unknown physical parameters using orders of magnitude fewer samples. ",
+    "url": "https://arxiv.org/abs/2112.07054",
+    "authors": [
+      "Sakthi Kumar Arul Prakash",
+      "Conrad Tucker"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.07167",
+    "title": "Moderate deviation expansion for fully quantum tasks",
+    "abstract": "The moderate deviation regime is concerned with the finite block length trade-off between communication cost and error for information processing tasks in the asymptotic regime, where the communication cost approaches a capacity-like quantity and the error vanishes at the same time. We find exact characterisations of these trade-offs for a variety of fully quantum communication tasks, including quantum source coding, quantum state splitting, entanglement-assisted quantum channel coding, and entanglement-assisted quantum channel simulation. The main technical tool we derive is a tight relation between the partially smoothed max-information and the hypothesis testing relative entropy. This allows us to obtain the expansion of the partially smoothed max-information for i.i.d. states in the moderate deviation regime. ",
+    "url": "https://arxiv.org/abs/2112.07167",
+    "authors": [
+      "Navneeth Ramakrishnan",
+      "Marco Tomamichel",
+      "Mario Berta"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.05648",
+    "title": "Minimax detection of localized signals in statistical inverse problems",
+    "abstract": " Title: Minimax detection of localized signals in statistical inverse problems ",
+    "url": "https://arxiv.org/abs/2112.05648",
+    "authors": [
+      "Markus Pohlmann",
+      "Frank Werner",
+      "Axel Munk"
+    ],
+    "subjectives": [
+      "Statistics Theory (math.ST)",
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.06316",
+    "title": "IFGF-accelerated integral equation solvers for acoustic scattering",
+    "abstract": " Title: IFGF-accelerated integral equation solvers for acoustic scattering ",
+    "url": "https://arxiv.org/abs/2112.06316",
+    "authors": [
+      "Edwin Jimenez",
+      "Christoph Bauinger",
+      "Oscar P. Bruno"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  }
+]
