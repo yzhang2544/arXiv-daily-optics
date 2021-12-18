@@ -1,0 +1,36 @@
+[
+  {
+    "id": "arXiv:2112.08947",
+    "title": "Computational metrics and parameters of an injection-locked large area  semiconductor laser for neural network computing",
+    "abstract": "Artificial neural networks have become a staple computing technique in many fields. Yet, they present fundamental differences with classical computing hardware in the way they process information. Photonic implementations of neural network architectures potentially offer fundamental advantages over their electronic counterparts in terms of speed, processing parallelism, scalability and energy efficiency. Scalable and high performance photonic neural networks (PNNs) have been demonstrated, yet they remain scarce. In this work, we study the performance of such a scalable, fully parallel and autonomous PNN based on a large area vertical-cavity surface-emitting laser (LA-VCSEL). We show how the performance varies with different physical parameters, namely, injection wavelength, injection power, and bias current. Furthermore, we link these physical parameters to the general computational measures of consistency and dimensionality. We present a general method of gauging dimensionality in high dimensional nonlinear systems subject to noise, which could be applied to many systems in the context of neuromorphic computing. Our work will inform future implementations of spatially multiplexed VCSEL PNNs. ",
+    "url": "https://arxiv.org/abs/2112.08947",
+    "authors": [
+      "Anas Skalli",
+      "Xavier Porte",
+      "Nasibeh Haghighi",
+      "Stephan Reitzenstein",
+      "James A. Lott",
+      "D. Brunner"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.08409",
+    "title": "Quantum Model Learning Agent: characterisation of quantum systems  through machine learning",
+    "abstract": "Accurate models of real quantum systems are important for investigating their behaviour, yet are difficult to distill empirically. Here, we report an algorithm -- the Quantum Model Learning Agent (QMLA) -- to reverse engineer Hamiltonian descriptions of a target system. We test the performance of QMLA on a number of simulated experiments, demonstrating several mechanisms for the design of candidate Hamiltonian models and simultaneously entertaining numerous hypotheses about the nature of the physical interactions governing the system under study. QMLA is shown to identify the true model in the majority of instances, when provided with limited a priori information, and control of the experimental setup. Our protocol can explore Ising, Heisenberg and Hubbard families of models in parallel, reliably identifying the family which best describes the system dynamics. We demonstrate QMLA operating on large model spaces by incorporating a genetic algorithm to formulate new hypothetical models. The selection of models whose features propagate to the next generation is based upon an objective function inspired by the Elo rating scheme, typically used to rate competitors in games such as chess and football. In all instances, our protocol finds models that exhibit $F_1$-score $\\geq 0.88$ when compared with the true model, and it precisely identifies the true model in 72% of cases, whilst exploring a space of over $250,000$ potential models. By testing which interactions actually occur in the target system, QMLA is a viable tool for both the exploration of fundamental physics and the characterisation and calibration of quantum devices. ",
+    "url": "https://arxiv.org/abs/2112.08409",
+    "authors": [
+      "Brian Flynn",
+      "Antonio Andreas Gentile",
+      "Nathan Wiebe",
+      "Raffaele Santagati",
+      "Anthony Laing"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  }
+]
