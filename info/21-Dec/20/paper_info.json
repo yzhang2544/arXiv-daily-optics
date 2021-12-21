@@ -1,0 +1,79 @@
+[
+  {
+    "id": "arXiv:2112.09634",
+    "title": "On extension of the data driven ROM inverse scattering framework to  partially nonreciprocal arrays",
+    "abstract": "Data-driven reduced order models (ROMs) recently emerged as powerful tool for the solution of inverse scattering problems. The main drawback of this approach is that it was limited to the measurement arrays with reciprocally collocated transmitters and receivers, that is, square symmetric matrix (data) transfer functions. To relax this limitation, we use our previous work [14], where the ROMs were combined with the Lippmann-Schwinger integral equation to produce a direct nonlinear inversion method. In this work we extend this approach to more general transfer functions, including those that are non-symmetric, e.g., obtained by adding only receivers or sources. The ROM is constructed based on the symmetric subset of the data and is used to construct all internal solutions. Remaining receivers are then used directly in the Lippmann-Schwinger equation. We demonstrate the new approach on a number of 1D and 2D examples with non-reciprocal arrays, including a single input/multiple outputs (SIMO) inverse problem, where the data is given by just a single-row matrix transfer function. ",
+    "url": "https://arxiv.org/abs/2112.09634",
+    "authors": [
+      "Vladimir Druskin",
+      "Shari Moskow",
+      "Mikhail Zaslavsky"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.09345",
+    "title": "A prototypical model of universal quantum computer system",
+    "abstract": "A modern computer system, based on the von Neumann architecture, is a complicated system with several interactive modular parts. Quantum computing, as the most generic usage of quantum information, follows a hybrid architecture so far, namely, quantum algorithms are stored and controlled classically, and mainly the executions of them are quantum, leading to the so-called quantum processing units. Such a quantum-classical hybrid is constrained by its classical ingredients, and cannot reveal the computational power of a fully quantum computer system as conceived from the beginning of the field. Recently, the nature of quantum information has been further recognized, such as the no-programming and no-control theorems, and the unifying understandings of quantum algorithms and computing models. As a result, in this work we propose a model of universal quantum computer system, the quantum version of the von Neumann architecture. It uses ebits (i.e., Bell states) as elements of the quantum memory unit, and qubits as elements of the quantum control unit and processing unit. As a digital quantum system, its global configurations can be viewed as tensor-network states. Its universality is proved by the capability to execute quantum algorithms based on a program composition scheme via a universal quantum gate teleportation. It is also protected by the uncertainty principle, the fundamental law of quantum information, making it quantum-secure distinct from the classical case. In particular, we introduce a few variants of quantum circuits, including the tailed, nested, and topological ones, to characterize the roles of quantum memory and control, which could also be of independent interest in other contexts. In all, our primary study demonstrates the manifold power of quantum information and paves the way for the creation of quantum computer systems in the near future. ",
+    "url": "https://arxiv.org/abs/2112.09345",
+    "authors": [
+      "D.-S. Wang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Information Theory (cs.IT)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.09362",
+    "title": "Colloquium: Advances in automation of quantum dot devices control",
+    "abstract": "Arrays of quantum dots (QDs) are a promising candidate system to realize scalable, coupled qubits systems and serve as a fundamental building block for quantum computers. In such semiconductor quantum systems, devices now have tens of individual electrostatic and dynamical voltages that must be carefully set to localize the system into the single-electron regime and to realize good qubit operational performance. The mapping of requisite dot locations and charges to gate voltages presents a challenging classical control problem. With an increasing number of QD qubits, the relevant parameter space grows sufficiently to make heuristic control unfeasible. In recent years, there has been a considerable effort to automate device control that combines script-based algorithms with machine learning (ML) techniques. In this Colloquium, we present a comprehensive overview of the recent progress in the automation of QD device control, with a particular emphasis on silicon- and GaAs-based QDs formed in two-dimensional electron gases. Combining physics-based modeling with modern numerical optimization and ML has proven quite effective in yielding efficient, scalable control. Further integration of theoretical, computational, and experimental efforts with computer science and ML holds tremendous potential in advancing semiconductor and other platforms for quantum computing. ",
+    "url": "https://arxiv.org/abs/2112.09362",
+    "authors": [
+      "Justyna P. Zwolak",
+      "Jacob M. Taylor"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2105.05566",
+    "title": "Structural risk minimization for quantum linear classifiers",
+    "abstract": " Comments: 28 pages, 3 figures; new results added and corrected minor errors ",
+    "url": "https://arxiv.org/abs/2105.05566",
+    "authors": [
+      "Casper Gyurik",
+      "Dyon van Vreumingen",
+      "Vedran Dunjko"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.00760",
+    "title": "Biology and medicine in the landscape of quantum advantages",
+    "abstract": " Comments: 40 pages, 2 figures, 3 tables, 1 box ",
+    "url": "https://arxiv.org/abs/2112.00760",
+    "authors": [
+      "Benjamin A. Cordier",
+      "Nicolas P. D. Sawaya",
+      "Gian G. Guerreschi",
+      "Shannon K. McWeeney"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Emerging Technologies (cs.ET)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  }
+]
