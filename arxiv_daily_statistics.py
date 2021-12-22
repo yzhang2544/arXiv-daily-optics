@@ -91,13 +91,13 @@ for dl in soup.find_all("dl"):
 
         tag = False
 
-        keywords = ['lithium niobate', 'modulator', 'electro-optic', 'silicon', 'silica',
-                    'frequency comb', 'photonic', 'kerr', 'acoustic', 'optomechanics',
+        keywords = ['lithium', 'niobate', 'modulator', 'electro-optic', 'silicon', 'silica',
+                    'frequency', 'comb', 'photonic', 'kerr', 'acoustic', 'optomechanics',
                     'WDM', 'microwave', 'millimeter', 'MMW', 'sensor','sensors',
                     'quantum', 'soliton', 'LNOI', 'integrated', 'THz','acoustic','acousto',
                     'terahertz', 'SiN', 'PT', 'inverse','comb','upconversion',
                     'MZI', 'MIM', 'laser', 'Hermitian', 'quantum','circuit','resonant',
-                    'optoelectronic', 'optical','metasurface','cavity','resonance']
+                    'optoelectronic', 'optical','metasurface','cavity','resonance','integrated']
         if len([i for i in title_words if i in keywords]) >= 1:
             print(title)
             tag = True
