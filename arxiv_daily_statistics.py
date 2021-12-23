@@ -13,7 +13,7 @@ os.makedirs(cache_folder, exist_ok=True)
 
 if not os.path.exists(cache_file):
     import requests
-    url = "https://arxiv.org/list/physics/recent"
+    url = "https://arxiv.org/list/physics/new"
     r = requests.get(url)
     html = r.text
     with open(cache_file, "w") as fp:
