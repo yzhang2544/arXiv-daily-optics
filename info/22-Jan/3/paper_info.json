@@ -1,0 +1,433 @@
+[
+  {
+    "id": "arXiv:2112.14807",
+    "title": "On Analog Silicon Photomultipliers in Standard 55-nm BCD Technology for  LiDAR Applications",
+    "abstract": "We present an analog silicon photomultiplier (SiPM) based on a standard 55 nm Bipolar-CMOS-DMOS (BCD) technology. The SiPM is composed of 16$\\times$16 single-photon avalanche diodes (SPADs) and measures 0.29$\\times$0.32 mm$^2$. Each SPAD cell is passively quenched by a monolithically integrated 3.3 V thick oxide transistor. The measured gain is 3.4$\\times$ 10$^5$ at 5 V excess bias voltage. The single-photon timing resolution (SPTR) is 185 ps and the multiple-photon timing resolution (MPTR) is 120 ps at 3.3 V excess bias voltage. We integrate the SiPM into a co-axial light detection and ranging (LiDAR) system with a time-correlated single-photon counting (TCSPC) module in FPGA. The depth measurement up to 25 m achieves an accuracy of 2 cm and precision of 2 mm under the room ambient light condition. With co-axial scanning, the intensity and depth images of complex scenes with resolutions of 128$\\times$256 and 256$\\times$512 are demonstrated. The presented SiPM enables the development of cost-effective LiDAR system-on-chip (SoC) in the advanced technology. ",
+    "url": "https://arxiv.org/abs/2112.14807",
+    "authors": [
+      "Jiuxuan Zhao",
+      "Tommaso Milanese",
+      "Francesco Gramuglia",
+      "Pouyan Keshavarzian",
+      "Shyue Seng Tan",
+      "Michelle Tng",
+      "Louis Lim",
+      "Vinit Dhulla",
+      "Elgin Quek",
+      "Myung-Jae Lee",
+      "Edoardo Charbon"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.14907",
+    "title": "Whispering-gallery modes promote enhanced optical backflow in a  perforated dielectric microsphere",
+    "abstract": "Optical energy flow inside a dielectric microsphere is usually codirected with the optical wavevector. At the same time, if the optical field in a microsphere is in resonance with one of the high-quality spatial eigenmodes (whispering-gallery modes - WGMs), a region of reverse energy flow emerges in the shadow hemisphere. This area is of considerable practical interest due to increased optical trapping potential. In this Letter, we consider a perforated microsphere with an air-filled single pinhole fabricated along the particle diameter and numerically analyze the peculiarities of WGM excitation in a nanostructured microsphere. A pinhole isolates the energy backflow region of a resonant mode and changes a perforated microsphere into an efficient optical tweezer. For the first time to our knowledge, we reveal the multiple enhancement of backflow intensity in the pinhole at a WGM resonance and discuss the way for its manipulation. ",
+    "url": "https://arxiv.org/abs/2112.14907",
+    "authors": [
+      "Yury E. Geints",
+      "Igor V. Minin",
+      "Oleg V. Minin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15120",
+    "title": "Conditional Generative Adversarial Networks for Inverse Design of  Multi-functional Microwave Metasurfaces",
+    "abstract": "Electromagnetic (EM) metasurfaces can present a versatile platform for realization of multiple diverse EM functionalities with incident wave frequency, polarization, propagation direction, or power intensity through appropriate choice of unit cells structures. However, the inverse design of multi-functional metasurfaces relies on massive full-wave EM numerical simulations to obtain an optimized solution. This article proposes a step-by-step procedure based on conditional Generative Adversarial Networks (cGANs) integrated with Gramian Angular Fields (GAFs) to reduce the computational time required for the EM simulations in the inverse design of multifunctional microwave metasurfaces. The proposed procedure initially implements GAFs to encode the desired multi-objective scattering parameters to images and then passes them through the cGAN model to map them to three-layer metasurfaces. The present study uses a robust dataset with a wide range of values and designs, including 54,000 metasurface structures and corresponding scattering parameters to train and validate the cGAN model. This article also presents a case study example using a multi-functional metasurface with three independent functionalities and full-space coverage to justify the performance of the proposed procedure in the inverse design of multi-functional microwave metasurfaces. The results demonstrate that the performance of the proposed model is promising, and the proposed procedure can be used to efficiently and accurately design multi-functional metasurfaces. ",
+    "url": "https://arxiv.org/abs/2112.15120",
+    "authors": [
+      "Mehdi Kiani",
+      "Jalal Kiani"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15171",
+    "title": "Piloting a full-year, optics-based high school course on quantum  computing",
+    "abstract": "Quantum computing was once regarded as a mere theoretical possibility, but recent advances in engineering and materials science have brought practical quantum computers closer to reality. Currently, representatives from industry, academia, and governments across the world are working to build the educational structures needed to produce the quantum workforce of the future. Less attention has been paid to growing quantum computing capacity at the high school level. This article details work at The University of Texas at Austin to develop and pilot the first full-year high school quantum computing class. Over the course of two years, researchers and practitioners involved with the project learned several pedagogical and practical lessons that can be helpful for quantum computing course design and implementation at the secondary level. In particular, we find that the use of classical optics provides a clear and accessible avenue for representing quantum states and gate operators and facilitates both learning and the transfer of knowledge to other Science, Technology, and Engineering (STEM) skills. Furthermore, students found that exploring quantum optical phenomena prior to the introduction of mathematical models helped in the understanding and mastery of the material. ",
+    "url": "https://arxiv.org/abs/2112.15171",
+    "authors": [
+      "Joel A. Walsh",
+      "Mic Fenech",
+      "Derrick L. Tucker",
+      "Catherine Riegle-Crumb",
+      "Brian R. La Cour"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15186",
+    "title": "Geometric quantum adiabatic methods for quantum chemistry",
+    "abstract": "Existing quantum algorithms for quantum chemistry work well near the equilibrium geometry of molecules, but the results can become unstable when the chemical bonds are broken at large atomic distances. For any adiabatic approach, this usually leads to serious problems, such as level crossing and/or energy gap closing along the adiabatic evolution path. In this work, we propose a quantum algorithm based on adiabatic evolution to obtain molecular eigenstates and eigenenergies in quantum chemistry, which exploits a smooth geometric deformation by changing bond lengths and bond angles. Even with a simple uniform stretching of chemical bonds, this algorithm performs more stably and achieves better accuracy than our previous adiabatic method [Phys. Rev. Research 3, 013104 (2021)]. It solves the problems related to energy gap closing and level crossing along the adiabatic evolution path at large atomic distances. We demonstrate its utility in several examples, including H${}_2$O, CH${}_2$, and a chemical reaction of H${}_2$+D${}_2\\rightarrow$ 2HD. Furthermore, our fidelity analysis demonstrates that even with finite bond length changes, our algorithm still achieves high fidelity with the ground state. ",
+    "url": "https://arxiv.org/abs/2112.15186",
+    "authors": [
+      "Hongye Yu",
+      "Deyu Lu",
+      "Qin Wu",
+      "Tzu-Chieh Wei"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15195",
+    "title": "Length-gauge optical matrix elements in WIEN2k",
+    "abstract": "Hybrid exchange-correlation functionals provide superior electronic structure and optical properties of semiconductors or insulators as compared to semilocal exchange-correlation potentials due to admixing a portion of the non-local exact exchange potential from a Hartree-Fock theory. Since the non-local potential does not commute with the position operator, the momentum matrix elements do not fully capture the oscillator strength, while the length-gauge velocity matrix elements do. So far, length-gauge velocity matrix elements were not accessible in the all-electron full-potential WIEN2k package. We demonstrate the feasibility of computing length-gauge matrix elements in WIEN2k for a hybrid exchange-correlation functional based on a finite difference approach. To illustrate the implementation we determined matrix elements for optical transitions between the conduction and valence bands in GaAs, GaN, (CH$_3$NH$_3$)PbI$_3$ and a monolayer MoS$_2$. The non-locality of the Hartree-Fock exact exchange potential leads to a strong enhancement of the oscillator strength as noticed recently in calculations employing pseudopotentials [Laurien and Rubel: arXiv:2111.14772 (2021)]. We obtained an analytical expression for the enhancement factor in terms of the difference in eigenvalues not captured by the kinetic energy. It is expected that these results can also be extended to other non-local potentials, e.g., a many-body $GW$ approximation. ",
+    "url": "https://arxiv.org/abs/2112.15195",
+    "authors": [
+      "Oleg Rubel",
+      "Peter Blaha"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15224",
+    "title": "One-Way Acoustic Guiding under transverse mean flow",
+    "abstract": "In a moving acoustic medium, sound waves travel differently with and against the fluid flow. This well-established acoustic effect is backed by the intuition that the fluid velocity bias imparts momentum on the propagating acoustic waves, thus violating reciprocity. Based on this conception, fluid flow that is transverse to the wave direction of propagation will not break reciprocity. In this letter we contrast this common wisdom and theoretically show that the interplay between transverse mean flow and transverse structural gliding-asymmetry can yield strong nonreciprocity and even, surprisingly, one-way waveguiding which is rare in acoustics. ",
+    "url": "https://arxiv.org/abs/2112.15224",
+    "authors": [
+      "Ohad Silbiger",
+      "Yakir Hadad"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15244",
+    "title": "Multifunctional chalcogenide (${As}_{2}S_{3}$, ${As}_{2}{Se}_{3}$)  dual-core PCF design for mid-IR optical communications",
+    "abstract": "This work presents an integrated design of a multifunctional hexagonal lattice dual-core photonic crystal fiber (DC-PCF) with elliptical air-hole surrounding the cores, using two different chalcogenides (${As}_{2}S_{3}$-Arsenic sulfide and ${As}_{2}{Se}_{3}$-Arsenic selenide) for mid-infrared (mid-IR) optical communications. Numerical study of both chalcogenide DC-PCF structures exhibits that the DC-PCFs are highly birefringent and single-moded in the mid-IR wavelength region (5 $\\mu m$ to 13 $\\mu m$) of optical communications. Results show that both DC-PCFs can be operated as polarization splitters at 9 $\\mu m$ wavelength for two orthogonal modes and they can also be used as WDM MUX-DeMUX for both X- and Y-polarization fundamental supermodes separating 9 $\\mu m$/10 $\\mu m$ wavelengths (${As}_{2}S_{3}$ DC-PCF) and 8 $\\mu m$/9 $\\mu m$ wavelengths (${As}_{2}{Se}_{3}$ DC-PCF). Moreover, the proposed chalcogenide DC-PCFs, with much lower splice loss at 8-10 $\\mu m$ wavelength region, are appropriate enough for the practical applications in integrated optics and photonics. ",
+    "url": "https://arxiv.org/abs/2112.15244",
+    "authors": [
+      "A K M Sharoar Jahan Choyon",
+      "Ruhin Chowdhury"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15407",
+    "title": "Beyond Lambertian light trapping for large-area silicon solar cells:  fabrication methods",
+    "abstract": "Light trapping photonic crystal (PhC) patterns on the surface of Si solar cells provides a novel opportunity to approach the theoretical efficiency limit of 32.3%, for light-to-electrical power conversion with a single junction cell. This is beyond the efficiency limit implied by the Lambertian limit of ray trapping 29%. The interference and slow light effects are harnessed for collecting light even at the long wavelengths near the Si band-gap. We compare two different methods for surface patterning, that can be extended to large area surface patterning: 1) laser direct write and 2) step-&-repeat 5-times reduction projection lithography. Large area throughput limitations of these methods are compared with the established electron beam lithography (EBL) route, which is conventionally utilised but much slower than the presented methods. Spectral characterisation of the PhC light trapping is compared for samples fabricated by different methods. Reflectance of Si etched via laser patterned mask was 7% at visible wavelengths and was comparable with Si patterned via EBL made mask. The later pattern showed a stronger absorbance than the Lambertian limit (M.-L. Hsieh et al., Sci. Rep. 10, 11857 (2020)). ",
+    "url": "https://arxiv.org/abs/2112.15407",
+    "authors": [
+      "Jovan Maksimovic",
+      "Jingwen Hu",
+      "Soon Hock Ng",
+      "Tomas Katkus",
+      "Gediminas Seniutinas",
+      "Tatiana Pinedo Rivera",
+      "Michael Stuiber",
+      "Yoshiaki Nishijima",
+      "Sajeev John",
+      "Saulius Juodkazis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15420",
+    "title": "Realistic parameters of a continuous superradiant laser based on Sr-88",
+    "abstract": "The prospects of superradiant lasing on the 7.5 kHz wide $^1$S$_0$-$^3$P$_1$ transition in $^{88}$Sr is explored by using numerical simulations of two systems based on realistic experimental numbers [C. B. Silva et al, Towards a continuous superradiant laser on the strontium $^1$S$_0$-$^3$P$_0$ transition. Bulletin of the APS (2021)] [C.-C. Chen et al, Phys. Rev. Applied 12, 044014 (2019)]. One system uses the idea of demonstrating continuous superradiance in a simple, hot atom beam with high flux [H. Liu et al, Phys. Rev. Lett. 125, 253602 (2020)], and the other system is based on using ultra-cold atoms in a dipole guide. We find that the hot beam system achieves lasing above 3 $\\cdot$ 10$^{12}$ atoms/s. It is capable of outputting hundreds of nW and suppressing cavity noise by a factor of 20-30. The second order Doppler shift causes a shift in the lasing frequency on the order of 500 Hz. For the cold atom beam we find that the output power is on the order of hundreds of pW, however the second order Doppler shift can be neglected, and cavity noise can be suppressed on the order of a factor 600. ",
+    "url": "https://arxiv.org/abs/2112.15420",
+    "authors": [
+      "Mikkel Tang",
+      "Stefan A. Sch\u00e4ffer",
+      "J\u00f6rg H. M\u00fcller"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15503",
+    "title": "On the strangeness of quantum mechanics",
+    "abstract": "The extravagances of quantum mechanics never fail to enrich daily the debate around natural philosophy. Entanglement, non-locality, collapse, many worlds, many minds, and subjectivism have challenged generations of thinkers. Its approach can perhaps be placed in the stream of quantum logic, in which the \"strangeness\" of quantum mechanics is \"measured\" through the violation of Bell's inequalities and, from there, attempts an interpretative path that preserves realism yet ends up overturning it, restating the fundamental mechanisms of QM as a logical necessity for a strong realism. ",
+    "url": "https://arxiv.org/abs/2112.15503",
+    "authors": [
+      "Marcello Poletti"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15583",
+    "title": "Nonlinear adiabatic electron plasma waves. I. General theory and  nonlinear frequency shift",
+    "abstract": "This paper provides a complete self-consistent nonlinear theory for electron plasma waves, within the framework of the adiabatic approximation. The theory applies whatever the variations of the wave amplitude, provided that they are slow enough, and it is also valid when the plasma is inhomogeneous and non stationary. Moreover, it accounts for: (i) the geometrical jump in action resulting from separatrix crossing; (ii) the continuous change in phase velocity making the wave frame non-inertial; (iii) the harmonic content of the scalar potential ; (iv) a non-zero vector potential ; (v) the transition probabilities from one region of phase space to the other when an orbit crosses the separatrix ; (vi) the possible change in direction of the wavenumber. The relative importance of each of the aforementioned effects is discussed in detail, based on the derivation of the nonlinear frequency shift. This allows to specify how the general formalism may be simplified, depending on the value of the wavenumber normalized to the Debye length. Specific applications of our theory are reported on the companion paper. ",
+    "url": "https://arxiv.org/abs/2112.15583",
+    "authors": [
+      "M. Tacu",
+      "D. B\u00e9nisti"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.14882",
+    "title": "Proposal for the search for new spin interactions at the micrometer  scale using diamond quantum sensors",
+    "abstract": "For decades, searches for exotic spin interactions have used increasingly-precise laboratory measurements to test various theoretical models of particle physics. However, most searches have focused on interaction length scales greater than 1 mm, corresponding to hypothetical boson masses less than 0.2 meV. Recently, quantum sensors based on Nitrogen-Vacancy (NV) centers in diamond have emerged as a promising platform to probe spin interactions at the micrometer scale, opening the door to explore new physics at this length scale. Here, we propose experiments to search for several hypothetical interactions between NV electron spins and moving masses. We focus on potential interactions involving the coupling of NV spin ensembles to both spin-polarized and unpolarized masses attached to vibrating mechanical oscillators. For each interaction, we estimate the sensitivity, identify optimal experimental conditions, and analyze potential systematic errors. Using multi-pulse quantum sensing protocols with NV spin ensembles to improve sensitivity, we project new constraints that are ~5 orders-of-magnitude improvement over previous constraints at the micrometer scale. We also identify a spin-polarized test mass, based on hyperpolarized 13C nuclear spins in a thin diamond membrane, which offers a favorable combination of high spin density and low stray magnetic fields. Our analysis is timely in light of a recent preprint (arXiv:2010.15667) reporting a surprising non-zero result of micrometer-scale spin-velocity interactions. ",
+    "url": "https://arxiv.org/abs/2112.14882",
+    "authors": [
+      "P.-H. Chu",
+      "N. Ristoff",
+      "J. Smits",
+      "N. Jackson",
+      "Y. J. Kim",
+      "I. Savukov",
+      "V. M. Acosta"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15245",
+    "title": "Optomechanical parametric oscillation of a quantum light-fluid lattice",
+    "abstract": "Two-photon coherent states are one of the main building pillars of non-linear and quantum optics. It is the basis for the generation of minimum-uncertainty quantum states and entangled photon pairs, applications not obtainable from standard coherent states or one-photon lasers. Here we describe a fully-resonant optomechanical parametric amplifier involving a polariton condensate in a trap lattice quadratically coupled to mechanical modes. The quadratic coupling derives from non-resonant virtual transitions to extended discrete excited states induced by the optomechanical coupling. Non-resonant continuous wave (cw) laser excitation leads to striking experimental consequences, including the emergence of optomechanically induced inter-site parametric oscillations and inter-site tunneling of polaritons at discrete inter-trap detunings corresponding to sums of energies of the two involved mechanical oscillations (20 and 60 GHz confined vibrations). We show that the coherent mechanical oscillations correspond to parametric resonances with threshold condition different to that of standard linear optomechanical self-oscillation. The associated Arnold tongues display a complex scenario of states within the instability region. The observed new phenomena can have applications for the generation of entangled phonon pairs, squeezed mechanical states relevant in sensing and quantum computation, and for the bidirectional frequency conversion of signals in a technologically relevant range. ",
+    "url": "https://arxiv.org/abs/2112.15245",
+    "authors": [
+      "A. A. Reynoso",
+      "G. Usaj",
+      "D. L. Chafatinos",
+      "F. Mangussi",
+      "A. E. Bruchhausen",
+      "A. S. Kuznetsov",
+      "K. Biermann",
+      "P. V. Santos",
+      "A. Fainstein"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15302",
+    "title": "Systematic dispersion compensation for spectral domain optical coherence  tomography using time-frequency analysis and iterative optimization for  iridocorneal angle imaging",
+    "abstract": "Dispersion is a common phenomenon in optics due to the frequency dependence of the refractive index in polychromatic light. This issue, if left untreated in optical coherence tomography (OCT) imaging, leads to signal broadening of the coherence length and deterioration of the axial resolution. We report a new numeric method for the systematic dispersion compensation in a spectral-domain (SD) OCT for imaging the iridocorneal angle of human cadaver eyes. The dispersion compensation for our OCT system is calculated by an automated iterative process that minimizes the wavenumber-dependent variance of the ridge extracted from the energy distribution of a mirror's spectral interferogram using Short-Time Fourier Transform (STFT) Time-Frequency Analysis (TFA). The average axial resolution of 2.7 um in air was achieved at a range of depths up to 2 mm. Compensated OCT images of the iridocorneal angle in human cadaver eyes were much clearer than non-compensated images. We demonstrate the feasibility, effectiveness, and robustness of the proposed method for dispersion compensation in an SD-OCT by evaluating both the mirror and human cadaver eye measurements. We also verified that our imaging system is able to visualize the iridocorneal angle details, such as trabecular meshwork (TM), Schlemm's canal (SC), and collector channels (CCs), which are important ocular outflow structures and play a crucial role in glaucoma managements. ",
+    "url": "https://arxiv.org/abs/2112.15302",
+    "authors": [
+      "Shangbang Luo",
+      "Guy Holland",
+      "Eric Mikula",
+      "Samantha Bradford",
+      "Reza Khazaeinezhad",
+      "James V Jester",
+      "Tibor Juhasz"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15416",
+    "title": "Quantum defect analysis of interacting collisional resonances",
+    "abstract": "We use a laser-based collider to study the interplay between a magnetic Feshbach resonance and a shape resonance in cold collisions of ultracold Rb atoms. By exerting control over a parameter space spanned by both collision energy and magnetic field, we can tune the width of a Feshbach resonance over several orders of magnitude. We develop a quantum defect theory specialized for ultracold atomic collisions, and provide a full description and analysis of the experimental observations. ",
+    "url": "https://arxiv.org/abs/2112.15416",
+    "authors": [
+      "Matthew Chilcott",
+      "James F. E. Croft",
+      "Ryan Thomas",
+      "Niels Kj\u00e6rgaard"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15465",
+    "title": "Non-local triple quantum dot thermometer based on Coulomb-coupled  systems",
+    "abstract": "Recent proposals towards non-local thermoelectric voltage-based thermometry, in the conventional dual quantum dot set-up, demand an asymmetric step-like system-to-reservoir coupling around the ground states for optimal operation (Physica E, 114, 113635, 2019). In addition to such demand for unrealistic coupling, the sensitivity in such a strategy also depends on the average measurement terminal temperature, which may result in erroneous temperature assessment. In this paper, I propose non-local current based thermometry in the dual dot set-up as a practical alternative and demonstrate that in the regime of high bias, the sensitivity remains robust against fluctuations of the measurement terminal temperature. Proceeding further, I propose a non-local triple quantum dot thermometer, that provides an enhanced sensitivity while bypassing the demand for unrealistic step-like system-to-reservoir coupling and being robust against fabrication induced variability in Coulomb coupling. In addition, I show that the heat extracted from (to) the target reservoir, in the triple dot design, can also be suppressed drastically by appropriate fabrication strategy, to prevent thermometry induced drift in reservoir temperature. The proposed triple dot setup thus offers a multitude of benefits and could potentially pave the path towards the practical realization and deployment of high-performance non-local ``sub-Kelvin range\" thermometers. ",
+    "url": "https://arxiv.org/abs/2112.15465",
+    "authors": [
+      "Aniket Singha"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15469",
+    "title": "All-Photonic Quantum Simulators with Spectrally Disordered Emitters",
+    "abstract": "Integrated photonics has been a promising platform for analog quantum simulation of condensed matter phenomena in strongly correlated systems. To that end, we explore the implementation of all-photonic quantum simulators in coupled cavity arrays with integrated ensembles of spectrally disordered emitters. Our model is reflective of color center ensembles integrated into photonic crystal cavity arrays. Using the Quantum Master Equation and the Effective Hamiltonian approaches, we study energy band formation and wavefunction properties in the open quantum Tavis-Cummings-Hubbard framework. We find conditions for polariton creation and (de)localization under spectral disorder and for variable ratios of emitter-cavity and cavity-cavity interactions. To quantify these properties, we introduce two metrics, the polaritonic and the nodal participation ratio, that characterize the light-matter hybridization and the node delocalization of the wavefunction, respectively. These new metrics prove to be useful tools for cavity quantum electrodynamical engineering of solid-state systems. ",
+    "url": "https://arxiv.org/abs/2112.15469",
+    "authors": [
+      "Jesse Patton",
+      "Victoria A. Norman",
+      "Richard T. Scalettar",
+      "Marina Radulaski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.15584",
+    "title": "Demystifying magnetic resonance measurements of the true diffusion  propagator",
+    "abstract": "In a recent work, a method for the magnetic resonance (MR) measurement of the true diffusion propagator was introduced, which was subsequently implemented and validated for free diffusion on a benchtop MR scanner. Here, we provide a brief theoretical description of the method and discuss various experimental regimes. ",
+    "url": "https://arxiv.org/abs/2112.15584",
+    "authors": [
+      "Evren \u00d6zarslan",
+      "Magnus Herberthson"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:1605.01525",
+    "title": "Single-Beam Optical Conveyor Belt for Chiral Particles",
+    "abstract": " Comments: 23 pages, 7 figures, preprint ",
+    "url": "https://arxiv.org/abs/1605.01525",
+    "authors": [
+      "David E. Fernandes",
+      "M\u00e1rio G. Silveirinha"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:1907.00187",
+    "title": "Centimeter-scale propagation of optical surface waves at visible  wavelengths",
+    "abstract": " Comments: 11 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/1907.00187",
+    "authors": [
+      "Babak Vosoughi Lahijani",
+      "Nicolas Descharmes",
+      "Raphael Barbey",
+      "Gael D. Osowiecki",
+      "Valentin J. Wittwer",
+      "Olga Razskazovskaya",
+      "Thomas S\u00fcdmeyer",
+      "Hans Peter Herzig"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2001.01120",
+    "title": "Quantum Chemistry Simulations of Dominant Products in Lithium-Sulfur  Batteries",
+    "abstract": " Comments: 7 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2001.01120",
+    "authors": [
+      "Julia E. Rice",
+      "Tanvi P. Gujarati",
+      "Tyler Y. Takeshita",
+      "Joe Latone",
+      "Mario Motta",
+      "Andreas Hintennach",
+      "Jeannette M. Garcia"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2006.02488",
+    "title": "Quantum simulation of electronic structure with a transcorrelated  Hamiltonian: improved accuracy with a smaller footprint on the quantum  computer",
+    "abstract": " Comments: 13 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2006.02488",
+    "authors": [
+      "Mario Motta",
+      "Tanvi P. Gujarati",
+      "Julia E. Rice",
+      "Ashutosh Kumar",
+      "Conner Masteran",
+      "Joseph A. Latone",
+      "Eunseok Lee",
+      "Edward F. Valeev",
+      "Tyler Y. Takeshita"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.00260",
+    "title": "Amendment of the numerical dispersion in particle-in-cell methods for  evaluation of charges of self-injected electron bunches in the laser  wakefield acceleration",
+    "abstract": " Comments: The title of the publication is changed along with the content of the manuscript ",
+    "url": "https://arxiv.org/abs/2107.00260",
+    "authors": [
+      "N. Pathak",
+      "A. Zhidkov",
+      "T. Hosokai"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.12117",
+    "title": "Analytical formulation of a high-power Yb-doped radiation balanced fiber  laser",
+    "abstract": " Title: Analytical formulation of a high-power Yb-doped radiation balanced fiber  laser ",
+    "url": "https://arxiv.org/abs/2110.12117",
+    "authors": [
+      "Mostafa Peysokhan",
+      "Brian Topper",
+      "Esmaeil Mobini",
+      "Arash Mafi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.10484",
+    "title": "Epistemological and ontological aspects of quantum theory",
+    "abstract": " Comments: 19 pages ",
+    "url": "https://arxiv.org/abs/2112.10484",
+    "authors": [
+      "Inge S. Helland"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  }
+]
