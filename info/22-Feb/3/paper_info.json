@@ -1,0 +1,270 @@
+[
+  {
+    "id": "arXiv:2202.00724",
+    "title": "FlakeOut: A Geometric Approach to Remove Wind-Blown Snow from  Terrestrial Laser Scans",
+    "abstract": "Wind-blown snow particles often contaminate Terrestrial Laser Scanning (TLS) data of snow covered terrain. However, common filtering techniques fail to filter wind-blown snow and incorrectly filter data from the true surface due to the spatial distribution of wind-blown snow and the TLS scanning geometry. We present FlakeOut, a filter designed specifically to filter wind-blown snowflakes from TLS data. A key aspect of FlakeOut is a low false positive rate of \\num{2.8e-4} -- an order of magnitude lower than standard filtering techniques -- which greatly reduces the number of true ground points that are incorrectly removed. This low false positive rate makes FlakeOut appropriate for applications requiring quantitative measurements of the snow surface in light to moderate blowing snow conditions. Additionally, we provide mathematical and software tools to efficiently estimate the false positive rate of filters applied for the purpose of removing erroneous data points that occur very infrequently in a dataset. ",
+    "url": "https://arxiv.org/abs/2202.00724",
+    "authors": [
+      "David Clemens-Sewall",
+      "Matthew Parno",
+      "Don Perovich",
+      "Chris Polashenski",
+      "Ian A. Raphael"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00784",
+    "title": "Analysis of performance and robustness against jitter of various search  methods for acquiring optical links in space",
+    "abstract": "We discuss various methods for acquiring optical links in space using a dedicated acquisition sensor. Statistical models are developed and simple analytical equations derived that compare the performance between a single and dual spiral scan approach as well as between sequential and parallel acquisition of link chains. Simple derived analytical equations allow relating essential search parameters such as track width, variance of the uncertainty distribution, capture radius and scan speed to the probabilities of acquiring the links within a specific time. We also assess the probability of failing to acquire a link due to beam jitter and derive a simple analytical model that allows determining the maximum tolerable jitter for a given beam overlap and required probability of success. All results are validated by Monte Carlo simulations and applied to the concrete example of the GRACE FO mission. ",
+    "url": "https://arxiv.org/abs/2202.00784",
+    "authors": [
+      "Gerald Hechenblaikner"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00832",
+    "title": "A Localized-Orbital Energy Evaluation for Auxiliary-Field Quantum Monte  Carlo",
+    "abstract": "Phaseless Auxiliary-Field Quantum Monte Carlo (ph-AFQMC) has recently emerged as a promising method for the production of benchmark-level simulations of medium to large-sized molecules, due to its accuracy and favorable polynomial scaling with system size. Unfortunately the memory footprint of standard energy evaluation algorithms are non-trivial, which can significantly impact timings on graphical processing units (GPUs) where memory is limited. Previous attempts to reduce scaling by taking advantage of the low rank structure of the Coulombic integrals have been successful, but are significantly limited by high prefactors, rendering the utility limited to very large systems. Here, we present a complementary, cubic scaling route to reduce memory and computational scaling based on the low rank of the Coulombic interactions between localized orbitals, focusing on the application to phaseless AFQMC. We show that the error due to this approximation, which we term Localized Orbital AFQMC (LO-AFQMC), is systematic and controllable via a single variable, and is computationally favorable even for small systems. We present results demonstrating a robust retention of accuracy versus both experiment and full ph-AFQMC for a variety of test cases chosen for their potential difficulty for localized orbital based methods, including the singlet-triplet gaps of polyacenes benzene through pentacene, the heats of formation for a set of platonic hydrocarbon cages, and the total energy of ferrocene (Fe(Cp)$_2$). Finally, we reproduce our previous result of the gas phase ionization energy of Ni(Cp)$_2$, agreeing with full ph-AFQMC to within statistical error while using less than a fifteenth of the computer time. ",
+    "url": "https://arxiv.org/abs/2202.00832",
+    "authors": [
+      "John L. Weber",
+      "Hung Vuong",
+      "Pierre A. Devlaminck",
+      "James Shee",
+      "Joonho Lee",
+      "David R. Reichman",
+      "Richard A. Friesner"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00921",
+    "title": "Sensing enhancement of a Fabry-Perot THz cavity using switchable VO2  mirrors",
+    "abstract": "We experimentally investigate the sensing properties of an open cavity operating in the THz regime and realized by employing as mirrors two thin vanadium dioxide (VO2) films grown on silicon parallel plates and separated by a variable length. The phase transition of VO2 is used to control the behavior of the system between two different responses: a high transmission mode to the incident radiation (VO2 in the insulating state) and a high sensitivity to tiny changes in the cavity refractive index (VO2 in the conducting state). In the first state, the low loss regime enables to adjust the cavity length and easily optimize the resonances due to the Fabry-Perot (FP) effect in the Si plates and in the cavity volume. The activation of the metallic-like state instead, by damping the FP oscillations in the plates, promotes the onset of a comb-like spectrum that can be exploited as a versatile tool for accurate sensing applications. Using both an analytical model and full-wave simulations, we estimate the device response to variation in the refractive index of the cavity volume, showing that the proposed structure can achieve sensitivity values among the highest reported for THz sensors. ",
+    "url": "https://arxiv.org/abs/2202.00921",
+    "authors": [
+      "Gian Paolo Papari",
+      "Anna Lucia Pellegrino",
+      "Graziella Malandrino",
+      "Antonello Andreone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00976",
+    "title": "On-axis Optical Bench for Laser Ranging Instruments in future geodesy  and gravity missions",
+    "abstract": "The Laser Ranging Interferometer onboard the Gravity Recovery and Climate Experiment Follow-On mission proved the feasibility of an interferometric sensor for inter-satellite length tracking with sub-nanometer precision, establishing an important milestone for space laser interferometry and the general expectation that future geodesy and gravity missions will employ heterodyne laser interferometry for satellite-to-satellite ranging. In this paper we present the design of an on-axis optical bench for next-generation laser ranging which enhances the received optical power and the transmit beam divergence, enabling longer interferometer arms and relaxing the optical power requirement of the laser assembly. All design functionalities and requirements are verified by means of computer simulations. A thermal analysis is carried out to investigate the robustness of the proposed optical bench to the temperature fluctuations found in orbit. ",
+    "url": "https://arxiv.org/abs/2202.00976",
+    "authors": [
+      "Yichao Yang",
+      "Kohei Yamamoto",
+      "Miguel Dovale \u00c1lvarez",
+      "Juan Jose Esteban Delgado",
+      "Vitali M\u00fcller",
+      "Jianjun Jia",
+      "Gerhard Heinzel"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00984",
+    "title": "Optical force between two coupled identical parallel optical nanofibers",
+    "abstract": "We study the optical force between two coupled parallel identical nanofibers using the rigorous array mode theory. We show that the forces of the even array modes are attractive, while the forces of the odd array modes are repulsive. We examine the dependencies of the optical forces on the array mode type, the fiber radius, the light wavelength, and the fiber separation distance. We show that, for a given power and a given separation distance, the absolute value of the force achieves a peak when the fiber radius and the light wavelength are appropriate. ",
+    "url": "https://arxiv.org/abs/2202.00984",
+    "authors": [
+      "Fam Le Kien",
+      "Sile Nic Chormaic",
+      "Thomas Busch"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.01175",
+    "title": "Surface acoustic waves inside polystyrene microparticles through  photoacoustic microscopy",
+    "abstract": "We demonstrate surface acoustic waves inside polystyrene microspheres of different sizes experimentally through photoacoustic microscopy and validate the experimental result with simulation. A novel method for sample preparation of a lifted sample is also presented where the microparticles are suspended in agarose above the surface of the petridish. Another objective of this study was to investigate the results with different laser focus hitting on the microparticles and their impact on photoacoustic images and photoacoustic signals. An absorbing microsphere is excited with a pulsed laser of wavelength 532 nm and the photoacoustic signal is detected using a 40 MHz transducer. On analyzing the photoacoustic signals from microspheres, we find the signature of surface acoustic waves. ",
+    "url": "https://arxiv.org/abs/2202.01175",
+    "authors": [
+      "Abhishek Ranjan",
+      "Anowarul Habib",
+      "Azeem Ahmad",
+      "Balpreet Singh Ahluwalia",
+      "Frank Melands\u00f8"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00692",
+    "title": "Crosstalk in image plane beam combination for optical interferometers",
+    "abstract": "Image plane beam combination in optical interferometers multiplexes the interference fringes from multiple baselines onto a single detector. The beams of starlight are arranged in a non-redundant pattern at the entrance of the combiner so that the signal from each baseline can be separated from one another in the frequency domain. If the signals from different baselines overlap in the frequency domain, this can give rise to a systematic error in the fringe measurements known as baseline crosstalk. In this paper we quantify crosstalk arising from the combination of atmospheric seeing and beam propagation over distances of order hundreds of metres. We find that in idealised conditions atmospheric wavefront errors and beam propagation do not contribute to crosstalk. However, when aperture stops are included in the optical beam train we observe that wavefront errors can result in squared visibility errors arising from crosstalk as high as $\\Delta V^{2} = 6.6\\times10^{-3}$ under realistic observing conditions. ",
+    "url": "https://arxiv.org/abs/2202.00692",
+    "authors": [
+      "Daniel J. Mortimer",
+      "David F. Buscher"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00757",
+    "title": "Near Resonant Approximation of the Boussinesq system on a  Three-dimensional Torus",
+    "abstract": "We introduce a new approximation for the rotating stratified Boussinesq system on a three-dimensional torus with anisotropic horizontal periods, based on the study of near resonant interactions. We obtain global existence for the proposed approximate system for arbitrary initial data in the Sobolev space $H^\\ell$ with $\\ell\\geq1$. This approximation presents novel regularity properties and is sufficiently accurate, with an important feature of coupling effects between slow and fast modes. The restricted convolution estimates, which are key to global existence, essentially hinge on a sharp counting of the relevant number of interactions. An additional regularity advantage arises from a careful examination of some mixed type interaction coefficients. In a wider context, the near resonant approach allows finding a balance between the inclusion of more interacting modes and the improvement of regularity properties, compared to the well-studied singular limit approach based on exact resonance. ",
+    "url": "https://arxiv.org/abs/2202.00757",
+    "authors": [
+      "Bin Cheng",
+      "Zisis N. Sakellaris"
+    ],
+    "subjectives": [
+      "Analysis of PDEs (math.AP)",
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.01054",
+    "title": "Improved quantum algorithms for linear and nonlinear differential  equations",
+    "abstract": "We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality. ",
+    "url": "https://arxiv.org/abs/2202.01054",
+    "authors": [
+      "Hari Krovi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Structures and Algorithms (cs.DS)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.01204",
+    "title": "Tweezer-programmable 2D quantum walks in a Hubbard-regime lattice",
+    "abstract": "Quantum walks provide a framework for understanding and designing quantum algorithms that is both intuitive and universal. To leverage the computational power of these walks, it is important to be able to programmably modify the graph a walker traverses while maintaining coherence. Here, we do this by combining the fast, programmable control provided by optical tweezer arrays with the scalable, homogeneous environment of an optical lattice. Using this new combination of tools we study continuous-time quantum walks of single atoms on a 2D square lattice, and perform proof-of-principle demonstrations of spatial search using these walks. When scaled to more particles, the capabilities demonstrated here can be extended to study a variety of problems in quantum information science and quantum simulation, including the deterministic assembly of ground and excited states in Hubbard models with tunable interactions, and performing versions of spatial search in a larger graph with increased connectivity, where search by quantum walk can be more effective. ",
+    "url": "https://arxiv.org/abs/2202.01204",
+    "authors": [
+      "Aaron W. Young",
+      "William J. Eckner",
+      "Nathan Schine",
+      "Andrew M. Childs",
+      "Adam M. Kaufman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:0910.2724",
+    "title": "Four-dimensional understanding of quantum mechanics and Bell violation",
+    "abstract": " Comments: 14 pages, 20 figures ",
+    "url": "https://arxiv.org/abs/0910.2724",
+    "authors": [
+      "Jarek Duda"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2103.12650",
+    "title": "Deep Learning for fully automatic detection, segmentation, and Gleason  Grade estimation of prostate cancer in multiparametric Magnetic Resonance  Images",
+    "abstract": " Title: Deep Learning for fully automatic detection, segmentation, and Gleason  Grade estimation of prostate cancer in multiparametric Magnetic Resonance  Images ",
+    "url": "https://arxiv.org/abs/2103.12650",
+    "authors": [
+      "Oscar J. Pellicer-Valero",
+      "Jos\u00e9 L. Marenco Jim\u00e9nez",
+      "Victor Gonzalez-Perez",
+      "Juan Luis Casanova Ram\u00f3n-Borja",
+      "Isabel Mart\u00edn Garc\u00eda",
+      "Mar\u00eda Barrios Benito",
+      "Paula Pelechano G\u00f3mez",
+      "Jos\u00e9 Rubio-Briones",
+      "Mar\u00eda Jos\u00e9 Rup\u00e9rez",
+      "Jos\u00e9 D. Mart\u00edn-Guerrero"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.07026",
+    "title": "Varying the medium surrounding an optical resonator: An efficient and  rigorous way to calculate its spectral changes",
+    "abstract": " Title: Varying the medium surrounding an optical resonator: An efficient and  rigorous way to calculate its spectral changes ",
+    "url": "https://arxiv.org/abs/2109.07026",
+    "authors": [
+      "S. F. Almousa",
+      "E. A. Muljarov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.01334",
+    "title": "Enhanced TEMPO algorithm for quantum path integrals with off-diagonal  system-bath coupling: applications to photonic quantum networks",
+    "abstract": " Comments: 12 pages, 7 Figures ",
+    "url": "https://arxiv.org/abs/2110.01334",
+    "authors": [
+      "Marten Richter",
+      "Stephen Hughes"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.00438",
+    "title": "Pulse induced resonance with angular dependent total enhancement of  multi-dimensional solid-state NMR correlation spectra",
+    "abstract": " Comments: 27 page, 12 figures, supporting information included ",
+    "url": "https://arxiv.org/abs/2112.00438",
+    "authors": [
+      "Orr Simon Lusky",
+      "Amir Goldbourt"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.00346",
+    "title": "High-performance, additively-manufactured atomic spectroscopy apparatus  for portable quantum technologies",
+    "abstract": " Title: High-performance, additively-manufactured atomic spectroscopy apparatus  for portable quantum technologies ",
+    "url": "https://arxiv.org/abs/2202.00346",
+    "authors": [
+      "Somya H Madkhaly",
+      "Nathan Cooper",
+      "Laurence Coles",
+      "Lucia Hackerm\u00fcller"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
