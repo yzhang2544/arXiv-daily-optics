@@ -1,0 +1,736 @@
+[
+  {
+    "id": "arXiv:2202.09410",
+    "title": "Power-efficient soliton microcombs",
+    "abstract": "Laser frequency combs are enabling some of the most exciting scientific endeavours in the 21st century, ranging from the development of optical clocks to the calibration of the astronomical spectrographs used for searching Earth-like exoplanets. Today, dissipative Kerr solitons generated in microresonators offer the prospect of attaining frequency combs in miniaturized systems by capitalizing on advances in photonic integration. Most of the applications based on soliton microcombs rely on tuning a continuous-wave laser into a longitudinal mode of a microresonator whose dimensions are engineered to display anomalous dispersion at the pump laser frequency. In this configuration, however, nonlinear physics precludes from attaining dissipative Kerr solitons with high power conversion efficiency, with typical comb powers amounting to ~1% of the available laser power. Here, we demonstrate that this fundamental limitation can be overcome by inducing a controllable frequency shift to a selected cavity resonance. Experimentally, we realize this shift using two linearly coupled anomalous-dispersion microresonators (a photonic molecule), resulting in a coherent dissipative Kerr soliton with a conversion efficiency exceeding 50% and excellent line spacing stability. We describe the physical soliton dynamics in this configuration, and discover the system displays unusual characteristics, such as the possibility to backwards initiate solitons and stable operation with a blue detuned pump laser. By optimizing the microcomb power available on chip, these results facilitate the practical implementation of a scalable integrated photonic architecture for energy-efficient applications. ",
+    "url": "https://arxiv.org/abs/2202.09410",
+    "authors": [
+      "\u00d3skar B. Helgason",
+      "Marcello Girardi",
+      "Zhichao Ye",
+      "Fuchuan Lei",
+      "Jochen Schr\u00f6der",
+      "Victor Torres Company"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09414",
+    "title": "Functional Optical Coherence Tomography for Intrinsic Signal  Optoretinography: Recent Developments and Deployment Challenges",
+    "abstract": "Intrinsic optical signal (IOS) imaging of the retina, also termed as optoretinography (ORG), promises a noninvasive method for objective assessment of retinal function. By providing unparalleled capability to differentiate individual layers of the retina, functional optical coherence tomography (OCT) has been actively investigated for intrinsic signal ORG measurements. However, clinical deployment of functional OCT for quantitative ORG is still challenging due to the lack of a standardized imaging protocol and the complication of IOS sources and mechanisms. This article aims to summarize recent developments of functional OCT for ORG measurement, OCT intensity- and phase-based IOS processing. Technical challenges and perspectives of quantitative IOS analysis and ORG interpretations are discussed. ",
+    "url": "https://arxiv.org/abs/2202.09414",
+    "authors": [
+      "Tae-Hoon Kim",
+      "Guangying Ma",
+      "Taeyoon Son",
+      "Xincheng Yao"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Image and Video Processing (eess.IV)",
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09421",
+    "title": "Parallel inverse-problem solver for time-domain optical tomography with  perfect parallel scaling",
+    "abstract": "This paper presents an efficient parallel radiative transfer-based inverse-problem solver for time-domain optical tomography. The radiative transfer equation provides a physically accurate model for the transport of photons in biological tissue, but the high computational cost associated with its solution has hindered its use in time-domain optical-tomography and other areas. In this paper this problem is tackled by means of a number of computational and modeling innovations, including 1) A spatial parallel-decomposition strategy with perfect parallel scaling for the forward and inverse problems of optical tomography on parallel computer systems; and, 2) A Multiple Staggered Source method (MSS) that solves the inverse transport problem at a computational cost that is independent of the number of sources employed, and which significantly accelerates the reconstruction of the optical parameters: a six-fold MSS acceleration factor is demonstrated in this paper. Finally, this contribution presents 3) An intuitive derivation of the adjoint-based formulation for evaluation of functional gradients, including the highly-relevant general Fresnel boundary conditions -- thus, in particular, generalizing results previously available for vacuum boundary conditions. Solutions of large and realistic 2D inverse problems are presented in this paper, which were produced on a 256-core computer system. The combined parallel/MSS acceleration approach reduced the required computing times by several orders of magnitude, from months to a few hours. ",
+    "url": "https://arxiv.org/abs/2202.09421",
+    "authors": [
+      "E. L. Gaggioli",
+      "O. P. Bruno"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09490",
+    "title": "Gradient-Based Optimization of Optical Vortex Beam Emitters",
+    "abstract": "Vortex beams are stable solutions of Maxwell's equations that carry phase singularities and orbital angular momentum, unique properties that give rise to many applications in the basic sciences, optical communications, and quantum technologies. Scalable integration and fabrication of vortex beam emitters will allow these applications to flourish and enable new applications not possible with traditional optics. Here we present a general framework to generate integrated vortex beam emitters using photonic inverse design. We experimentally demonstrate generation of vortex beams with angular momentum spanning -3$\\hbar$ to 3$\\hbar$. We show the generality of this design procedure by designing a vortex beam multiplexer capable of exciting a custom vortex beam fiber. Finally, we produce foundry-fabricated beam emitters with wide-bandwidths and high-efficiencies that take advantage of a multi-layer heterogeneous integration. ",
+    "url": "https://arxiv.org/abs/2202.09490",
+    "authors": [
+      "Alexander D. White",
+      "Logan Su",
+      "Daniel I. Shahar",
+      "Ki Youl Yang",
+      "Geun Ho Ahn",
+      "Jinhie Skarda",
+      "Siddharth Ramachandran",
+      "Jelena Vu\u010dkovi\u0107"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09521",
+    "title": "On the tunability of energetic highly-elliptical higher harmonics  generated by intense two-color counter rotating laser fields",
+    "abstract": "Tunability of energetic highly-elliptical high-harmonics is demonstrated. Harmonics are generated in Ar gas, driven by intense two-color counter rotating laser electric fields, namely of the fundamental and second harmonic frequency. For the experiment a MAZEL-TOV-like device is used, combined with loose focusing geometry. By properly tuning the central frequency of the second harmonic, the central frequency of the extreme ultraviolet (XUV) high harmonic radiation is continuously tuned. ",
+    "url": "https://arxiv.org/abs/2202.09521",
+    "authors": [
+      "E. Vassakis",
+      "L. Spachis",
+      "I. Orfanos",
+      "P. Tzallas",
+      "D. Charalambidis",
+      "E. Skantzakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09577",
+    "title": "A simple and low-cost setup for part per billion level frequency  stabilization and characterization of red He-Ne laser",
+    "abstract": "This work describes the frequency stabilization of a dual longitudinal mode, red (632.8 nm) He-Ne laser, implemented using a low-cost microcontroller and its performance characterization using a simple interferometric method. Our studies demonstrate that frequency stability up to 3.0 MHz (3$\\sigma$, 16 hours) can be achieved using this set up. This simple and low-cost system can serve as an excellent part per billion level frequency reference for several high resolution spectroscopy based applications. ",
+    "url": "https://arxiv.org/abs/2202.09577",
+    "authors": [
+      "Saurabh Kumar Singh",
+      "Avinash Kumar",
+      "Pranav R. Shirhatti"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09592",
+    "title": "Nuclear quantum effects on the vibrational dynamics of the water-air  interface",
+    "abstract": "We have applied path integral molecular dynamics simulations to investigate nuclear quantum effects on the vibrational dynamics of water molecules at the water-air interface. The instantaneous fluctuations in the frequencies of the O-H stretch modes are calculated using the wavelet method of time series analysis, while the time scales of vibrational spectral diffusion are determined from frequency-time correlation functions and joint probability distributions, as well as the hydrogen bond number correlation functions. We find that the inclusion of nuclear quantum effects leads not only to a redshift in the vibrational frequency distribution by about 120~cm$^{-1}$ for both the bulk and interfacial water molecules, but also to an acceleration of the vibrational dynamics on the water-air interface by as much as 60$\\%$. In addition, a blueshift of about 30 ~cm$^{-1}$ is seen in the vibrational frequency distribution of interfacial water molecules compared to that of the bulk. Furthermore, the dynamics of water molecules beyond the topmost two molecular layers was found to be essentially similar to that of bulk water. ",
+    "url": "https://arxiv.org/abs/2202.09592",
+    "authors": [
+      "Deepak Ojha",
+      "Andr\u00e9s Henao",
+      "Frederik Zysk",
+      "Thomas D. K\u00fchne"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09614",
+    "title": "Nonlinear optical heating of all-dielectric super-cavity: efficient  light-to-heat conversion through giant thermorefractive bistability",
+    "abstract": "Optical heating of resonant nanostructures is one of the key issues in modern nanophotonics, being either harmful or desirable effect depending on the applications. Despite a linear regime of light-to-heat conversion is well-studied both for metal and semiconductor resonant systems generalized as critical coupling condition, the clear strategy to optimize optical heating upon high-intensity light irradiation is still missing. In this work, we propose a simple analytical model for such problem taking into account material properties changes caused by the heating. It allows us to derive a new general critical coupling condition for the nonlinear case, requiring counterintuitive initial spectral mismatch between the pumping light frequency and resonant one. Basing on the suggested strategy, we develop an optimized design for efficient nonlinear optical heating, which employs a cylindrical nanoparticle supporting quasi bound state in the continuum mode (quasi-BIC or so-called `super-cavity mode') excited by the incident azimuthal vector beam. Our approach provides a background for various nonlinear experiments related to optical heating and bistability, where self-action of the intense laser beam can change resonant properties of the irradiated nanostructure. ",
+    "url": "https://arxiv.org/abs/2202.09614",
+    "authors": [
+      "Daniil Ryabov",
+      "Olesiya Pashina",
+      "George Zograf",
+      "Sergey Makarov",
+      "Mihail Petrov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09620",
+    "title": "Synchronization of frequency combs by optical injection",
+    "abstract": "Optical frequency combs based on semiconductor lasers are a promising technology for monolithic integration of dual-comb spectrometers. However, the stabilization of the offset frequency fceo remains a challenging feat due the lack of octave-spanning spectra. In a dual-comb configuration, the uncorrelated jitter of the offset frequencies leads to a non-periodic signal resulting in broadened beatnotes with a limited signal-to-noise ratio (SNR). Hence, expensive data acquisition schemes and complex signal processing are currently required. Here, we show that the offset frequencies of two frequency combs can be synchronized by optical injection locking, which allows full phase-stabilization when combined with electrical injection. A single comb line isolated via an optical Vernier filter serves as Master oscillator for injection locking. The resulting dual-comb signal is periodic and stable over thousands of periods. This enables coherent averaging using analog electronics, which increases the SNR and reduces the data size by one and three orders of magnitude, respectively. The presented method will enable fully phase-stabilized dual-comb spectrometers by leveraging on integrated optical filters and provides access for measuring and stabilizing fceo. ",
+    "url": "https://arxiv.org/abs/2202.09620",
+    "authors": [
+      "Johannes Hillbrand",
+      "Mathieu Bertrand",
+      "Valentin Wittwer",
+      "Nikola Opacak",
+      "Filippos Kapsalidis",
+      "Michele Gianella",
+      "Lukas Emmenegger",
+      "Benedikt Schwarz",
+      "Thomas S\u00fcdmeyer",
+      "Mattias Beck",
+      "J\u00e9r\u00f4me Faist"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09622",
+    "title": "Time-correlated Photons from a In$_{0.5}$Ga$_{0.5}$P Photonic Crystal  Cavity on a Silicon Chip",
+    "abstract": "Time-correlated photon pairs are generated by triply-resonant Four-Wave-Mixing in a In$_{0.5}$Ga$_{0.5}$P Photonic Crystal cavitiy. Maximal efficiency is reached by actively compensating the residual spectral misalignment of the cavity modes. The generation rate reaches 5 MHz in cavities with Q-factor $\\approx 4\\times 10^4$, more than one order of magnitude larger than what is measured using ring resonators with similar Q factors fabricated on the same chip. The Photonic Crystal source is integrated on a Si photonic circuit, an important asset for applications in quantum technologies. ",
+    "url": "https://arxiv.org/abs/2202.09622",
+    "authors": [
+      "Alexandre Chopin",
+      "In\u00e8s Ghorbel",
+      "Sylvain Combri\u00e9",
+      "Gabriel Marty",
+      "Fabrice Raineri",
+      "Alfredo De Rossi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09711",
+    "title": "Compact polarized X-ray source based on all-optical inverse Compton  scattering",
+    "abstract": "Polarized X-ray source is an important probe for many fields such as fluorescence imaging, magnetic microscopy, and nuclear physics research. All-optical inverse Compton scattering source (AOCS) based on laser wakefield accelerator (LWFA) has drawn great attention in recent years due to its compact scale and high performance, especially its potential to generate polarized X-rays. Here, polarization-tunable X-rays are generated by a plasma-mirror-based AOCS scheme. The linearly and circularly polarized AOCS pulses are achieved with the mean photon energy of 60($\\pm$5)/64($\\pm$3) keV and the single-shot photon yield of $\\sim$1.1/1.3$\\times10^7$. A Compton polarimeter is designed to diagnose the photon polarization states, demonstrating AOCS's polarization-tunable property, and indicating the average polarization degree of the linearly polarized AOCS is 75($\\pm$3)%. ",
+    "url": "https://arxiv.org/abs/2202.09711",
+    "authors": [
+      "Yue Ma",
+      "Jianfei Hua",
+      "Dexiang Liu",
+      "Yunxiao He",
+      "Tianliang Zhang",
+      "Jiucheng Chen",
+      "Fan Yang",
+      "Xiaonan Ning",
+      "Hongze Zhang",
+      "Yingchao Du",
+      "Wei Lu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09731",
+    "title": "Slow light with fractional optical angular momentum in a photonic  crystal ring",
+    "abstract": "Whispering gallery modes (WGMs) in circularly symmetric optical microresonators exhibit integer quantized angular momentum numbers due to the boundary condition imposed by the geometry. Here, we show that incorporating a photonic crystal pattern in an integrated microring can result in WGMs with fractional optical angular momentum. By choosing the photonic crystal periodicity to open a photonic bandgap with a band-edge momentum lying between that of two WGMs of the unperturbed ring, we observe hybridized WGMs with half-integer quantized angular momentum numbers ($m \\in \\mathbb{Z}$ + 1/2). Moreover, we show that these modes with fractional angular momenta exhibit high optical quality factors with good cavity-waveguide coupling, an order of magnitude reduced group velocity, and also can co-exist with more localized states when a defect is introduced in the photonic crystal lattice. Our work unveils WGMs with fractional angular momentum, which can be used in sensing/metrology, nonlinear optics, and cavity quantum electrodynamics. ",
+    "url": "https://arxiv.org/abs/2202.09731",
+    "authors": [
+      "Mingkang Wang",
+      "Feng Zhou",
+      "Andrew McClung",
+      "Xiyuan Lu",
+      "Vladimir A. Aksyuk",
+      "Kartik Srinivasan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09786",
+    "title": "Dual-mode microresonators as straightforward access to octave-spanning  dissipative Kerr solitons",
+    "abstract": "The Kerr soliton frequency comb is a revolutionary compact ruler of coherent light that allows applications, from precision metrology to quantum information technology. The universal, reliable, and low-cost soliton microcomb source is key to these applications. In this work, we thoroughly present an innovative design strategy for realizing optical microresonators with two adjacent modes, separated by approximately 10 GHz, which stabilizes soliton formation without using additional auxiliary laser or RF components. We demonstrate the deterministic generation of the single-solitons that span 1.5-octaves, i.e., near 200 THz, via adiabatic pump wavelength tuning. The ultra-wide soliton existence ranges up to 17 GHz not only suggests the robustness of the system but will also extend the applications of soliton combs. Moreover, the proposed scheme is found to easily give rise to multi-solitons as well as the soliton crystals featuring enhanced repetition rate (2 and 3 THz) and conversion efficiency greater than 10%. We also show the effective thermal tuning of mode separation for stably accessing single-soliton. Our results are crucial for the chip-scale self-referenced frequency combs with a simplified configuration. ",
+    "url": "https://arxiv.org/abs/2202.09786",
+    "authors": [
+      "Haizhong Weng",
+      "Adnan Ali Afridi",
+      "Jing Li",
+      "Michael McDermott",
+      "Huilan Tu",
+      "Liam P. Barry",
+      "Qiaoyin Lu",
+      "Weihua Guo",
+      "John F. Donegan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09823",
+    "title": "Direct reconstruction of the band structure of a 1D optical lattice with  thermal atoms",
+    "abstract": "We report on a simple method to reconstruct the band structure of a 1D optical lattice using a thermal cloud with a momentum spread of about two-photon recoils. We image the momentum distribution of a thermal cloud exposed to a standing wave potential using time-of-flight absorption images and observe unique features. With the support of numerical calculations, we explain their appearance and show how they can be used to reconstruct the full band-structure directly. While this can serve as a precise lattice depth calibration tool, we additionally propose a method to estimate the lattice depth in a single-shot manner. ",
+    "url": "https://arxiv.org/abs/2202.09823",
+    "authors": [
+      "Arnaud Courvoisier",
+      "Amruta Gadge",
+      "Nir Davidson"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09843",
+    "title": "Multimode soliton collisions in graded-index optical fibers",
+    "abstract": "In this work, we unveil the unique complex dynamics of multimode soliton interactions in graded-index optical fibers through simulations and experiments. By generating two multimode solitons from the fission of an input femtosecond pulse, we examine the evolution of their Raman-induced red-shift when the input pulse energy grows larger. Remarkably, we find that the output red-shift of the trailing multimode soliton may be reduced, so that it accelerates until it collides with the leading multimode soliton. As a result of the inelastic collision, a significant energy transfer occurs between the two multimode solitons: the trailing soliton captures energy from the leading soliton, which ultimately enhances its red-shift, thus increasing temporal separation between the two multimode solitons. ",
+    "url": "https://arxiv.org/abs/2202.09843",
+    "authors": [
+      "Yifan Sun",
+      "Mario Zitelli",
+      "Mario Ferraro",
+      "Fabio Mangini",
+      "Pedro Parra-Rivas",
+      "Stefan Wabnitz"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09862",
+    "title": "Optical Null Medium Experimental Verification of Super Scatterer in  Broadband Continues Frequencies",
+    "abstract": "We experimentally show the results of the super scatterer designed by the transformation optics (TO) technique. The coordinate transformation maps a finite region in physical space to a zero thickness in virtual space, yielding extreme material properties called optical null media (ONM). As a result, an object placed inside the core media will look larger from an outside observer. ONM media is realized using metal-dielectric layered structures in cylindrical coordinates. Closed form solutions for the scattering field from a cylindrical object is given in detail. ONM media is realized using air and iron layers in cylindrical layers using effective medium theory. We experimentally fabricate the ONM and show the super scattering effect using the ONM. For achieving super scattering validation, a metal pipe has been inserted into the center of the core medium made of Plexiglas and surrounded by ONM. ",
+    "url": "https://arxiv.org/abs/2202.09862",
+    "authors": [
+      "Mohammad Mehdi Sadeghi",
+      "Hayrettin Odabasi"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09949",
+    "title": "Quantum Information Scrambling in Molecules",
+    "abstract": "Out-of-time-order correlators (OTOCs) can be used to probe how quickly a quantum system scrambles information when the initial conditions of the dynamics are changed. In sufficiently large quantum systems, one can extract from the OTOC the quantum analog of the Lyapunov coefficient that describes the time scale on which a classical chaotic system becomes scrambled. OTOCs have been applied only to a very limited number of toy models, such as the SYK model connected with black hole information scrambling, but they could find much wider applicability for information scrambling in quantum systems that allow comparison with experiments. The vibrations of polyatomic molecules are known to undergo a transition from regular dynamics at low energy to facile energy flow at sufficiently high energy. Molecules therefore represent ideal quantum systems to study scrambling in many-body systems of moderate size (here 6 to 36 degrees of freedom). By computing quantum OTOCs and their classical counterparts we quantify how information becomes 'scrambled' quantum mechanically in molecular systems. Between early 'ballistic' dynamics, and late 'saturation' of the OTOC when the full density of states is explored, there is indeed a regime where a quantum Lyapunov coefficient can be defined for all molecules in this study. Comparison with experimental rate data shows that slow scrambling as measured by the OTOC can reach the time scale of molecular reaction dynamics. Even for the smallest molecules we discuss, the Maldacena bound remains satisfied by regularized OTOCs, but not by unregularized OTOCs, highlighting that the former are more useful for discussing information scrambling in this type of moderate-size quantum system. ",
+    "url": "https://arxiv.org/abs/2202.09949",
+    "authors": [
+      "Chenghao Zhang",
+      "Peter G. Wolynes",
+      "Martin Gruebele"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "High Energy Physics - Theory (hep-th)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09980",
+    "title": "Quantum Multi-Parameter Adaptive Bayesian Estimation and Application to  Super-Resolution Imaging",
+    "abstract": "In Bayesian estimation theory, the estimator ${\\hat \\theta} = E[\\theta|l]$ attains the minimum mean squared error (MMSE) for estimating a scalar parameter of interest $\\theta$ from the observation of $l$ through a noisy channel $P_{l|\\theta}$, given a prior $P_\\theta$ on $\\theta$. In quantum sensing tasks, the user gets $\\rho_\\theta$, the quantum state that encodes $\\theta$. They choose a measurement, a positive-operator valued measure (POVM) $\\Pi_l$, which induces the channel $P_{l|\\theta} = {\\rm Tr}(\\rho_\\theta \\Pi_l)$ to the measurement outcome $l$, on which the aforesaid classical MMSE estimator is employed. Personick found the optimum POVM $\\Pi_l$ that minimizes the MMSE over all possible measurements, and that MMSE. This result from 1971 is less-widely known than the quantum Fisher information (QFI), which lower bounds the variance of an unbiased estimator over all measurements, when $P_\\theta$ is unavailable. For multi-parameter estimation, i.e., when $\\theta$ is a vector, in Fisher quantum estimation theory, the inverse of the QFI matrix provides an operator lower bound to the covariance of an unbiased estimator. However, there has been little work on quantifying quantum limits and measurement designs, for multi-parameter quantum estimation in the {\\em Bayesian} setting. In this paper, we build upon Personick's result to construct a Bayesian adaptive measurement scheme for multi-parameter estimation when $N$ copies of $\\rho_\\theta$ are available. We illustrate an application to localizing a cluster of point emitters in a highly sub-Rayleigh angular field-of-view, an important problem in fluorescence microscopy and astronomy. Our algorithm translates to a multi-spatial-mode transformation prior to a photon-detection array, with electro-optic feedback to adapt the mode sorter. We show that this receiver performs far superior to quantum-noise-limited focal-plane direct imaging. ",
+    "url": "https://arxiv.org/abs/2202.09980",
+    "authors": [
+      "Kwan Kit Lee",
+      "Christos Gagatsos",
+      "Saikat Guha",
+      "Amit Ashok"
+    ],
+    "subjectives": [
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10023",
+    "title": "Optical characterization of deuterated silicon-rich nitride waveguides",
+    "abstract": "Chemical vapor deposition-based growth techniques allow flexible design of CMOS-compatible materials. Here, we report the deuterated silicon-rich nitride films grown using plasma-enhanced chemical vapor deposition. The linear and nonlinear properties of the films are characterized. We compare the absorption at 1550nm wavelength region for films grown with $SiH_4$ and $SiD_4$, and experimentally confirm that the silicon-rich nitride films grown with $SiD_4$ eliminates Si-H related absorption. Waveguides fabricated on the films are further shown to possess a linear and nonlinear refractive index of 2.46 and $9.8$ X $10^{-18} m^2 W^{-1}$ respectively. ",
+    "url": "https://arxiv.org/abs/2202.10023",
+    "authors": [
+      "Xavier X. Chia",
+      "George F. R. Chen",
+      "Yanmei Cao",
+      "Peng Xing",
+      "Doris K. T. Ng",
+      "Dawn T. H. Tan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10112",
+    "title": "Accurate Single-Ended Measurement of Propagation Delay in Fiber Using  Correlation Optical Time Domain Reflectometry",
+    "abstract": "A correlation optical time-domain reflectometry (COTDR) method is presented, which measures the propagation delay with an accuracy of a few picoseconds. This accuracy is achieved using a test signal data rate of 10 Gbit/s and employing cross-correlation and pulse fitting techniques. In this paper we introduce and evaluate the basic signal processing steps, investigate the measurement accuracy, and discuss applications for monitoring link delay and chromatic dispersion of long fiber spans as well as temperature sensing applications. ",
+    "url": "https://arxiv.org/abs/2202.10112",
+    "authors": [
+      "Florian Azendorf",
+      "Annika Dochhan",
+      "Michael H. Eiselt"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10140",
+    "title": "Vibronic Resonance Along Effective Modes Mediates Selective Energy  Transfer in Excitonically Coupled Aggregates",
+    "abstract": "We recently proposed effective normal modes for excitonically coupled aggregates which exactly transform the energy transfer Hamiltonian into a sum of one-dimensional Hamiltonians along the effective normal modes. Identifying physically meaningful vibrational motions which maximally promote vibronic mixing suggested an interesting possibility of leveraging vibrational-electronic resonance for mediating selective energy transfer. Here we expand on the effective mode approach elucidating its iterative nature for successively larger aggregates, and extend the idea of mediated energy transfer to larger aggregates. We show that energy transfer between electronically uncoupled but vibronically resonant donor-acceptor sites does not depend on the intermediate site energy or the number of intermediate sites. The intermediate sites simply mediate electronic coupling such that vibronic coupling along specific promoter modes leads to direct donor-acceptor energy transfer bypassing any intermediate uphill energy transfer steps. We show that interplay between the electronic Hamiltonian and the effective mode transformation partitions the linear vibronic coupling along specific promoter modes to dictate the selectivity of mediated energy transfer, with a vital role of interference between vibronic couplings and multi-particle basis states. Our results suggest a general design principle for enhancing energy transfer through synergistic effects of vibronic resonance and weak mediated electronic coupling, where both effects individually do not promote efficient energy transfer. The effective mode approach proposed here paves a facile route towards four-wavemixing spectroscopy simulations of larger aggregates without severely approximating resonant vibronic coupling. ",
+    "url": "https://arxiv.org/abs/2202.10140",
+    "authors": [
+      "Sanjoy Patra",
+      "Vivek Tiwari"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10173",
+    "title": "On-chip piezo-optomechanical dynamic single photon routing and rotation  of a photonic qubit",
+    "abstract": "Integrated photonic circuits are key components for photonic quantum technologies and for the implementation of practical chip-based quantum devices. Future applications demand flexible architectures which overcome common limitations of many current devices, for instance the lack of tuneabilty or built-in quantum light sources. Here, we report on a dynamically reconfigurable integrated photonic circuit comprising integrated quantum dots (QDs), a Mach-Zehnder interferometer (MZI) and surface acoustic wave (SAW) transducers fabricated on a monolithic semiconductor platform. We demonstrate on-chip single photon generation by the QD, initializing a photonic qubit. Two independently applied SAWs piezo-optomechanically rotates the single photon in the MZI or spectrally modulated the QD emission wavelength. In the MZI, SAWs imprint a time-dependent optical phase and modulate the qubit rotation to the output superposition state. This enables dynamic single photon routing with frequencies exceeding one gigahertz. Finally, the combination of the dynamic single photon control and spectral tuning of the QD realizes wavelength multiplexing of the input state and demultiplexing at the output. Our approach is scalable to multi-component integrated quantum photonic circuits and is compatible with hybrid photonic architectures and other key components for instance photonic resonators or on-chip detectors. ",
+    "url": "https://arxiv.org/abs/2202.10173",
+    "authors": [
+      "Dominik D. B\u00fchler",
+      "Matthias Wei\u00df",
+      "Antonio Crespo-Poveda",
+      "Emeline D. S. Nysten",
+      "Jonathan J. Finley",
+      "Kai M\u00fcller",
+      "Paulo V. Santos",
+      "Mauricio M. de Lima Jr.",
+      "Hubert J. Krenner"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10193",
+    "title": "Decoupled phase modulation for circularly polarized lights via chiral  metasurface",
+    "abstract": "Metasurfaces are believed as one of the best candidates in nano-optical devices, attributed to the key feasible modulation features of phase, polarization, and local field enhancement by structural designing. However, current methods of propagation- and geometric-phase modulation are interrelated between two eigen spin-states. This means that when the left-handed component phase of a beam is modulated by metasurfaces, its right-handed component phase will change accordingly, which limits the versatility of spin-decoupled applications. In this paper, we experimentally and numerically demonstrate a new phase modulation pathway based on chiral V-shaped holes, which enable fully decoupled one-handed phase modulation of the two eigen spin-states. Two enantiomers are proposed to realize decoupled functions for the two eign-states, e.g., the enantiomer can manipulate the left-handed component phase of a laser beam without changes of the right-handed component. This proposed method has significant meaning in metasurfaces, which can expand the methods of phase engineering. ",
+    "url": "https://arxiv.org/abs/2202.10193",
+    "authors": [
+      "Renchao Jin",
+      "Lin Deng",
+      "Lili Tang",
+      "Yue Cao",
+      "Yongmin Liu",
+      "Zheng-Gao Dong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10224",
+    "title": "Explicit Predictor-Corrector Method for Nonlinear Acoustic Waves Excited  by a Moving Wave Emitting Boundary",
+    "abstract": "We present an explicit finite difference time domain method to solve the lossless Westervelt equation for a moving wave emitting boundary in one dimension and in spherical symmetry. The approach is based on a coordinate transformation between a moving physical domain and a fixed computational domain. This allows to simulate the combined effects of wave profile distortion due to the constitutive nonlinearity of the medium and the nonlinear Doppler modulation of a pressure wave due to the acceleration of the wave emitting boundary. A predictor-corrector method is employed to enhance the numerical stability of the method in the presence of shocks and grid motion. It is demonstrated that the method can accurately predict the Doppler shift of nonlinear wave distortion and the amplitude modulation caused by an oscillating motion of the wave emitting boundary. The novelty of the presented methodology lies in its capability to reflect the Doppler shift of the rate of nonlinear wave profile distortion and shock attenuation for finite amplitude acoustic waves emitted from an accelerating boundary. ",
+    "url": "https://arxiv.org/abs/2202.10224",
+    "authors": [
+      "S\u00f6ren Schenke",
+      "Fabian Sewerin",
+      "Berend van Wachem",
+      "Fabian Denner"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10271",
+    "title": "Radiation Hard 3D Silicon Pixel Sensors for use in the ATLAS Detector at  the HL-LHC",
+    "abstract": "The High Luminosity LHC (HL-LHC) upgrade requires the planned Inner Tracker (ITk) of the ATLAS detector to tolerate extremely high radiation doses. Specifically, the innermost parts of the pixel system will have to withstand radiation fluences above $1\\times10^{16}$ $n_{eq}cm^{-2}$. Novel 3D silicon pixel sensors offer a superior radiation tolerance compared to conventional planar pixel sensors, and are thus excellent candidates for the innermost parts of the ITk. This paper presents studies of 3D pixel sensors with pixel size $50 \\times 50$ $\\mu m^2$ mounted on the RD53A prototype readout chip. Following a description of the design and fabrication steps, Test Beam results are presented for unirradiated as well as heavily irradiated sensors. For particles passing at perpendicular incidence, it is shown that average efficiencies above 96% are reached for sensors exposed to fluences of $1\\times10^{16}$ $n_{eq}cm^{-2}$ when biased to 80 $V$. ",
+    "url": "https://arxiv.org/abs/2202.10271",
+    "authors": [
+      "Andreas L\u00f8kken Heggelund",
+      "Simon Huiberts",
+      "Ole Dorholt",
+      "Alexander Lincoln Read",
+      "Ole R\u00f8hne",
+      "Heidi Sandaker",
+      "Magne Lauritzen",
+      "Bjarne Stugu",
+      "Angela Kok",
+      "Ozhan Koybasi",
+      "Marco Povoli",
+      "Marco Bomben",
+      "J\u00f6rn Lange",
+      "Andre Rummler"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10319",
+    "title": "Metasurface Magnetless Specular Isolator",
+    "abstract": "We present a (nongyrotropic) metasurface magnetless specular isolator. This device reflects as a mirror a wave incident under a specified angle in one direction and absorbs it in the opposite direction. The metasurface is synthesized in terms of bianisotropic susceptibility tensors, whose nonreciprocity resides in normal components and exhibits a hybrid electric, magneto-electric nature. The metaparticle is implemented in the form of a U-shaped conducting structure loaded by a transistor. The operation principle of the specular isolator is demonstrated by both full-wave simulation and experiment, with isolation levels reaching 41 and 38 dB respectively. This system represents the first realization of a metasurface involving nonreciprocal normal susceptibilities and features a previously unreported type of nonreciprocity. ",
+    "url": "https://arxiv.org/abs/2202.10319",
+    "authors": [
+      "Guillaume Lavigne",
+      "Toshiro Kodera",
+      "Christophe Caloz"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10368",
+    "title": "Optically resonant all-dielectric diabolo nanodisks",
+    "abstract": "Optically resonant all-dielectric nanostructures attractively exhibit reduced losses compared to their plasmonic counterparts; however, achieving strong field enhancements at the nanoscale, especially within solid-state media, has remained a significant challenge. In this work, we demonstrate how subwavelength modifications to a conventional silicon nanodisk enable strong sub-diffractive and polarization dependent field enhancements in devices supporting anapole-like modes. We examine the electromagnetic properties of both individual and arrayed diabolo nanodisks, which are found to exhibit |E|$^2$/|E$_0$|$^2$ enhancements in the range ~10$^2$-10$^4$, in the high index medium, depending on geometrical considerations. In addition to supporting a localized electric field hot-spot similar to those predicted in diabolo nanostructured photonic crystal cavities and waveguide designs, we identify an anti-diabolo effect leading to a broadband cold-spot for the orthogonal polarization. These findings offer the prospect of enhancing or manipulating light-matter interactions at the nanoscale within an all-dielectric (metal free) platform for potential applications ranging from nonlinear optics to quantum light sources, nano-sensing, nanoparticle-manipulation and active/tunable metasurfaces. ",
+    "url": "https://arxiv.org/abs/2202.10368",
+    "authors": [
+      "Saddam Gafsi",
+      "Farhan Bin Tarik",
+      "Cody T. Nelson",
+      "Judson D. Ryckman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09372",
+    "title": "Quantum Optimization of Maximum Independent Set using Rydberg Atom  Arrays",
+    "abstract": "Realizing quantum speedup for practically relevant, computationally hard problems is a central challenge in quantum information science. Using Rydberg atom arrays with up to 289 qubits in two spatial dimensions, we experimentally investigate quantum algorithms for solving the Maximum Independent Set problem. We use a hardware-efficient encoding associated with Rydberg blockade, realize closed-loop optimization to test several variational algorithms, and subsequently apply them to systematically explore a class of graphs with programmable connectivity. We find the problem hardness is controlled by the solution degeneracy and number of local minima, and experimentally benchmark the quantum algorithm's performance against classical simulated annealing. On the hardest graphs, we observe a superlinear quantum speedup in finding exact solutions in the deep circuit regime and analyze its origins. ",
+    "url": "https://arxiv.org/abs/2202.09372",
+    "authors": [
+      "Sepehr Ebadi",
+      "Alexander Keesling",
+      "Madelyn Cain",
+      "Tout T. Wang",
+      "Harry Levine",
+      "Dolev Bluvstein",
+      "Giulia Semeghini",
+      "Ahmed Omran",
+      "Jinguo Liu",
+      "Rhine Samajdar",
+      "Xiu-Zhe Luo",
+      "Beatrice Nash",
+      "Xun Gao",
+      "Boaz Barak",
+      "Edward Farhi",
+      "Subir Sachdev",
+      "Nathan Gemelke",
+      "Leo Zhou",
+      "Soonwon Choi",
+      "Hannes Pichler",
+      "Shengtao Wang",
+      "Markus Greiner",
+      "Vladan Vuletic",
+      "Mikhail D. Lukin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09406",
+    "title": "Optical quantum super-resolution imaging and hypothesis testing",
+    "abstract": "Estimating the angular separation between two incoherent thermal sources is a challenging task for direct imaging, especially when it is smaller than or comparable to the Rayleigh length. In addition, the task of discriminating whether there are one or two sources followed by detecting the faint emission of a secondary source in the proximity of a much brighter one is in itself a severe challenge for direct imaging. Here, we experimentally demonstrate two tasks for superresolution imaging based on quantum state discrimination and quantum imaging techniques. We show that one can significantly reduce the probability of error for detecting the presence of a weak secondary source, especially when the two sources have small angular separations. In this work, we reduce the experimental complexity down to a single two-mode interferometer: we show that (1) this simple set-up is sufficient for the state discrimination task, and (2) if the two sources are of equal brightness, then this measurement can super-resolve their angular separation, saturating the quantum Cram\\'er-Rao bound. By using a collection baseline of 5.3~mm, we resolve the angular separation of two sources that are placed 15~$\\mu$m apart at a distance of 1.0~m with an accuracy of $1.7\\%$--this is between 2 to 3 orders of magnitudes more accurate than shot-noise limited direct imaging. ",
+    "url": "https://arxiv.org/abs/2202.09406",
+    "authors": [
+      "Ugo Zanforlin",
+      "Cosmo Lupo",
+      "Peter W. R. Connolly",
+      "Pieter Kok",
+      "Gerald S. Buller",
+      "Zixin Huang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09898",
+    "title": "Quantum imaging and metrology with undetected photons: a tutorial",
+    "abstract": "We present a tutorial on the phenomenon of induced coherence without induced emission, and specifically its application to imaging and metrology. It is based on a striking effect where two nonlinear crystals, by sharing a coherent pump and one of two output beams each, can induce correlations between the other two individual, non-interacting beams. This can be thought of as a type of quantum-erasure effect, where the ``welcher-weg'' (which-way), or in this case ``which-source'' information is erased when the shared beams are aligned. With the correct geometry this effect can allow an object to be imaged using only photons which have never interacted with the object -- in other words the image is formed using undetected photons. Interest in this and related setups has been accelerating in recent years due to a number of desirable properties, mostly centered around the fact that the fields for detection and imaging (since separate) may have different optical properties, entailing significant advantages to various applications. The purpose of this tutorial is to introduce researchers to this area of research, to provide practical tools for setting up experiments as well as understanding the underlying theory, and to also provide a comprehensive overview of the sub-field as a whole. ",
+    "url": "https://arxiv.org/abs/2202.09898",
+    "authors": [
+      "Gabriela Barreto Lemos",
+      "Mayukh Lahiri",
+      "Sven Ramelow",
+      "Radek Lapkiewicz",
+      "William Plick"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09925",
+    "title": "Tuning the entanglement growth in matrix-product-state evolution of  quantum systems by nonunitary similarity transformations",
+    "abstract": "The possibility of using similarity transformations to alter dynamical entanglement growth in matrix-product-state simulations of quantum systems is explored. By appropriately choosing the similarity transformation, the entanglement growth rate is suppressed, improving the efficiency of numerical simulations of quantum systems. The transformation can be applied to general quantum-many-body systems. ",
+    "url": "https://arxiv.org/abs/2202.09925",
+    "authors": [
+      "Kai T. Liu",
+      "Feng-feng Song",
+      "Peng Zhang",
+      "David N. Beratan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10138",
+    "title": "Driven anti-Bragg subradiant states in waveguide quantum electrodynamics",
+    "abstract": "We study theoretically driven quantum dynamics in periodic arrays of two-level qubits coupled to the waveguide. We demonstrate, that strongly subradiant eigenstates of the master equation for the density matrix emerge under strong coherent driving for arrays with the anti-Bragg periods $d=\\lambda/4,3\\lambda/4$... This happens even though are no such states at low driving powers. Thus, our findings show that in the quantum nonlinear regime the domain of existence of subradiant states expands beyond conventional subwavelength structures. These driven states are directly manifested in long-living quantum correlations between the qubit excitations. ",
+    "url": "https://arxiv.org/abs/2202.10138",
+    "authors": [
+      "Alexander N. Poddubny"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10345",
+    "title": "Core Electron Heating By Triggered Ion Acoustic Waves In The Solar Wind",
+    "abstract": "Perihelion passes on Parker Solar Probe orbits six through nine have been studied to show that solar wind core electrons emerged from 15 solar radii with a temperature of 55 plus or minus 5 eV, independent of the solar wind speed which varied from 300 to 800 km/sec. After leaving 15 solar radii and in the absence of triggered ion acoustic waves at greater distances, the core electron temperature varied with radial distance, R, in solar radii, as 1900R-4/3 electron volts because of cooling produced by the adiabatic expansion. The coefficient, 1900, reproduces the minimum core electron perpendicular temperature observed during the 25 days of observation. In the presence of triggered ion acoustic waves, the core electrons were isotropically heated as much as a factor of two above the minimum temperature, 1900R-4/3 eV. Triggered ion acoustic waves were the only waves observed in coincidence with the electron core heating. They are the dominant wave mode at frequencies greater than 100 Hz at solar distances between 15 and 30 solar radii. ",
+    "url": "https://arxiv.org/abs/2202.10345",
+    "authors": [
+      "Forrest Mozer",
+      "Stuart Bale",
+      "Cynthia Cattell",
+      "Jasper Halekas",
+      "Ivan Vasko",
+      "Jae Verniero",
+      "Paul Kellogg"
+    ],
+    "subjectives": [
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Plasma Physics (physics.plasm-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10358",
+    "title": "Efimov resonance position near a narrow Feshbach resonance in  $^6$Li-$^{133}$Cs mixture",
+    "abstract": "In the vicinity of a narrow Feshbach resonances Efimov features are expected to be characterized by the resonance's properties rather than the van der Waals length of the interatomic potential. Although this theoretical prediction is well-established by now, it still lacks experimental confirmation. Here, we apply our recently developed three-channel model [Yudkin and Khaykovich, Phys. Rev. A 103, 063303 (2021)] to the experimental result obtained in a mass-imbalanced $^6$Li-$^{133}$Cs mixture in the vicinity of the narrowest resonance explored to date [Johansen at. al. Nat. Phys. 13, 731 (2017)]. We confirm that the observed position of the Efimov resonance is dictated mainly by the resonance physics while the influence of the van der Waals tail of the interatomic potential is minor. We show that the resonance position is strongly influenced by the presence of another Feshbach resonance which significantly alters the effective background scattering length at the narrow resonance position. ",
+    "url": "https://arxiv.org/abs/2202.10358",
+    "authors": [
+      "Ang Li",
+      "Yaakov Yudkin",
+      "Paul S. Julienne",
+      "Lev Khaykovich"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2009.09421",
+    "title": "Quantum Information Transfer between a Two-Level and a Four-Level  Quantum System",
+    "abstract": " Comments: 12 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2009.09421",
+    "authors": [
+      "Tianfeng Feng",
+      "Qiao Xu",
+      "Linxiang Zhou",
+      "Maolin Luo",
+      "Wuhong Zhang",
+      "Xiaoqi Zhou"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2104.00852",
+    "title": "Disordered ensembles of strongly coupled single-molecule plasmonic  picocavities as nonlinear optical metamaterials",
+    "abstract": " Comments: 13 pages, 7 figs, 3 appendices ",
+    "url": "https://arxiv.org/abs/2104.00852",
+    "authors": [
+      "Felipe Herrera",
+      "Marina Litinskaya"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.00149",
+    "title": "Measurement of a helium tune-out frequency: an independent test of  quantum electrodynamics",
+    "abstract": " Comments: Main text 6 pages, 4 figures, SI 21 pages 11 figures. Changed title from \"Precision Measurement of the Helium $2^{3\\!}S_1- 2^{3\\!}P/3^{3\\!}P$ Tune-Out Frequency as a Test of QED\" ",
+    "url": "https://arxiv.org/abs/2107.00149",
+    "authors": [
+      "B. M. Henson",
+      "J. A. Ross",
+      "K. F. Thomas",
+      "C. N. Kuhn",
+      "D. K. Shin",
+      "S. S. Hodgman",
+      "Yong-Hui Zhang",
+      "Li-Yan Tang",
+      "G. W. F. Drake",
+      "A. T. Bondy",
+      "A. G. Truscott",
+      "K. G. H. Baldwin"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.03311",
+    "title": "Neural network approaches for solving Schr\u00f6dinger equation in  arbitrary quantum wells",
+    "abstract": " Comments: 20 pages ",
+    "url": "https://arxiv.org/abs/2109.03311",
+    "authors": [
+      "Adrian Radu",
+      "Carlos A. Duque"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.10003",
+    "title": "Analytical Estimations of the Chromaticity and Corrections to the Spin  Precession Frequency in Weak Focusing Magnetic Storage Rings",
+    "abstract": " Comments: 16 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2110.10003",
+    "authors": [
+      "On Kim",
+      "Yannis K. Semertzidis"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.03203",
+    "title": "A possible solution to the which-way problem of quantum interference",
+    "abstract": " Comments: 5 pages, including 1 figure; added discussion of the experimentally observable evidence for conditional uncertainties ",
+    "url": "https://arxiv.org/abs/2111.03203",
+    "authors": [
+      "Holger F. Hofmann",
+      "Tomonori Matsushita",
+      "Shunichi Kuroki",
+      "Masataka Iinuma"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Popular Physics (physics.pop-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.06519",
+    "title": "Modified Poisson-Nernst-Planck theory for low-to-mid frequency  immittance of electric double-layer capacitors",
+    "abstract": " Comments: 9 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2202.06519",
+    "authors": [
+      "Anis Allagui",
+      "Hachemi Benaoum",
+      "Hichem Eleuch",
+      "Chunlei Wang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
