@@ -1,0 +1,638 @@
+[
+  {
+    "id": "arXiv:2202.12925",
+    "title": "NQCDynamics.jl: A Julia Package for Nonadiabatic Quantum Classical  Molecular Dynamics in the Condensed Phase",
+    "abstract": "Accurate and efficient methods to simulate nonadiabatic and quantum nuclear effects in high-dimensional and dissipative systems are crucial for the prediction of chemical dynamics in condensed phase. To facilitate effective development, code sharing and uptake of newly developed dynamics methods, it is important that software implementations can be easily accessed and built upon. Using the Julia programming language, we have developed the NQCDynamics.jl package which provides a framework for established and emerging methods for performing semiclassical and mixed quantum-classical dynamics in condensed phase. The code provides several interfaces to existing atomistic simulation frameworks, electronic structure codes, and machine learning representations. In addition to the existing methods, the package provides infrastructure for developing and deploying new dynamics methods which we hope will benefit reproducibility and code sharing in the field of condensed phase quantum dynamics. Herein, we present our code design choices and the specific Julia programming features from which they benefit. We further demonstrate the capabilities of the package on two examples of chemical dynamics in condensed phase: the population dynamics of the spin-boson model as described by a wide variety of semi-classical and mixed quantum-classical nonadiabatic methods and the reactive scattering of H2 on Ag(111) using the Molecular Dynamics with Electronic Friction method. Together, they exemplify the broad scope of the package to study effective model Hamiltonians and realistic atomistic systems. ",
+    "url": "https://arxiv.org/abs/2202.12925",
+    "authors": [
+      "James Gardner",
+      "Oscar A. Douglas-Gallardo",
+      "Wojciech G. Stark",
+      "Julia Westermayr",
+      "Svenja M. Janke",
+      "Scott Habershon",
+      "Reinhard J. Maurer"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13002",
+    "title": "N-electron valence perturbation theory with reference wavefunctions from  quantum computing: application to the relative stability of hydroxide anion  and hydroxyl radical",
+    "abstract": "Quantum simulations of the hydroxide anion and hydroxyl radical are reported, employing variational quantum algorithms for near-term quantum devices. The energy of each species is calculated along the dissociation curve, to obtain information about the stability of the molecular species being investigated. It is shown that simulations restricted to valence spaces incorrectly predict the hydroxyl radical to be more stable than the hydroxide anion. Inclusion of dynamical electron correlation from non-valence orbitals is demonstrated, through the integration of the variational quantum eigensolver and quantum subspace expansion methods in the workflow of N-electron valence perturbation theory, and shown to correctly predict the hydroxide anion to be more stable than the hydroxyl radical, provided that basis sets with diffuse orbitals are also employed. ",
+    "url": "https://arxiv.org/abs/2202.13002",
+    "authors": [
+      "Alessandro Tammaro",
+      "Davide E. Galli",
+      "Julia E. Rice",
+      "Mario Motta"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13154",
+    "title": "On-chip mechanical exceptional points based on an optomechanical zipper  cavity",
+    "abstract": "Exceptional points (EPs) represent a distinct type of spectral singularity in non-Hermitian systems, and intriguing physics concepts have been studied with optical EPs recently. As a system beyond photonics, the mechanical oscillators coupling with many physical systems are expected to be further exploited EPs for mechanical sensing, topology energy transfer, nonreciprocal dynamics etc. In this study, we demonstrated on-chip mechanical EPs with a silicon optomechanical zipper cavity, wherein two near-degenerate mechanical breathing modes are coupled via a single co-localized optical mode. By tailoring the dissipative and coherent couplings between two mechanical oscillators, the spectral splitting with 1/2 order response, a distinctive feature of EP, was observed successfully. Our work provides an integrated platform for investigating the physics related to mechanical EPs on silicon chips and suggests their possible applications for ultrasensitive measurements. ",
+    "url": "https://arxiv.org/abs/2202.13154",
+    "authors": [
+      "Ning Wu",
+      "Kaiyu Cui",
+      "Qiancheng Xu",
+      "Xue Feng",
+      "Fang Liu",
+      "Wei Zhang",
+      "Yidong Huang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13206",
+    "title": "Quantum tunneling isotope exchange reaction H2 + D- -> HD + H-",
+    "abstract": "The tunneling reaction H$_2$ + D$^-$ $\\rightarrow$ HD + H$^-$ was studied in a recent experimental work at low temperatures (10, 19, and 23~K) by Endres {\\it et al.}, Phys. Rev. A {\\bf 95}, 022706 (2017). An upper limit of the rate coefficient was found to be about 10$^{-18}$ cm$^3$/s. In the present study, reaction probabilities are determined using the ABC program developed by Skouteris {\\it et al.}, Comput. Phys. Commun. {\\bf 133}, 128 (2000). The probabilities for ortho-H$_2$ and para-H$_2$ in their ground rovibrational states are obtained numerically at collision energies above 50~meV with the total angular momentum $J$ = 0 - 15 and extrapolated below 50~meV using a WKB approach. Thermally averaged rate coefficients for ortho- and para-H$_2$ are obtained; the largest one, for ortho-H$_2$ is about $3.1\\times10^{-20}$ cm$^3$/s, which agrees with the experimental results. ",
+    "url": "https://arxiv.org/abs/2202.13206",
+    "authors": [
+      "Chi Hong Yuen",
+      "Mehdi Ayouz",
+      "Eric S. Endres",
+      "Olga Lakhmanskaya",
+      "Roland Wester",
+      "Viatcheslav Kokoouline"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13323",
+    "title": "High Modulation Efficiency and Large Bandwidth Thin-Film Lithium Niobate  Modulator for Visible Light",
+    "abstract": "We experimentally demonstrate a visible light thin-film lithium niobate modulator at 532 nm. The waveguides feature a propagation loss of 2.2 dB/mm while a grating for fiber interface has a coupling loss of 5 dB. Our demonstrated modulator represents a low voltage-length product of 1.1 V*cm and a large bandwidth beyond 30 GHz. ",
+    "url": "https://arxiv.org/abs/2202.13323",
+    "authors": [
+      "Chijun Li",
+      "Bin Chen",
+      "Ziliang Ruan",
+      "Pengxin Chen",
+      "Kaixuan Chen",
+      "Changjian Guo",
+      "Liu Liu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13383",
+    "title": "Versatile optical frequency combs based on multi-seeded femtosecond  optical parametric generation",
+    "abstract": "This study proposes and demonstrates a versatile method for near and mid-infrared optical frequency comb generation using multi-seeded femtosecond optical parametric generation. The method allows one to divide the repetition rate by an arbitrarily large integer factor, freely tune the offset frequency, and adjust the common phase offset of the comb modes. Since all possible degrees of freedom are adjustable, the proposed method manifests itself as versatile optical frequency synthesis. ",
+    "url": "https://arxiv.org/abs/2202.13383",
+    "authors": [
+      "Mikhail Roiz",
+      "Markku Vainio"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13516",
+    "title": "Topological band structure via twisted photons in a degenerate cavity",
+    "abstract": "Synthetic dimensions based on particles' internal degrees of freedom, such as frequency, spatial modes and arrival time, have attracted significant attention. They offer ideal large-scale lattices to simulate nontrivial topological phenomena. Exploring more synthetic dimensions is one of the paths toward higher dimensional physics. In this work, we design and experimentally control the coupling among synthetic dimensions consisting of the intrinsic photonic orbital angular momentum and spin angular momentum degrees of freedom in a degenerate optical resonant cavity, which generates a periodically driven spin-orbital coupling system. We directly characterize the system's properties, including the density of states, energy band structures and topological windings, through the transmission intensity measurements. Our work demonstrates a novel mechanism for exploring the spatial modes of twisted photons as the synthetic dimension, which paves the way to design rich topological physics in a highly compact platform. ",
+    "url": "https://arxiv.org/abs/2202.13516",
+    "authors": [
+      "Mu Yang",
+      "Hao-Qing Zhang",
+      "Yu-Wei Liao",
+      "Zheng-Hao Liu",
+      "Zheng-Wei Zhou",
+      "Xing-Xiang Zhou",
+      "Jin-Shi Xu",
+      "Yong-Jian Han",
+      "Chuan-Feng Li",
+      "Guang-Can Guo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13531",
+    "title": "Demonstration of Parametric Instability suppression through optical  feedback",
+    "abstract": "We demonstrate the suppression of parametric instability using through optical actuation in an electro-optical feedback loop, stabilising the high order optical mode content in an 80 metre long Fabry-Perot cavity. The loop suppression of the high order mode is achieved by injecting a high order mode with the same frequency and opposite phase. Frequency matching is achieved by measuring the beat note signal between the fundamental and high order mode in transmission of the cavity and applying that signal to an electro-optical modulator to create the required frequency sideband. Spatial mode matching of the sideband to the high order mode is accomplished through the inherent mode overlap between the input injected beam and the high order mode of the cavity. The paper presents the theoretical analysis and experimental demonstration of parametric instability suppression, for an instability which would normally ring up with a parametric gain of approximately 2.5. ",
+    "url": "https://arxiv.org/abs/2202.13531",
+    "authors": [
+      "Vladimir Bossilkov",
+      "Jian Liu",
+      "Carl Blair",
+      "Chunnong Zhao",
+      "Li Ju"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13580",
+    "title": "Femtosecond laser-shockwave induced densification in fused silica",
+    "abstract": "Tightly focused femtosecond laser-beam in the non-ablative regime can induce a shock-wave enough to reach locally pressures in the giga-Pascal range or more. In a single beam configuration, the location of the highest-pressure zone is nested within the laser-focus zone, making it difficult to differentiate the effect of the shock-wave pressure from photo-induced and plasma relaxation effect. To circumvent this difficulty, we consider two spatially separated focused beams that individually act as quasi-simultaneous pressure-wave emitters. The zone where both shock-waves interfere constructively forms a region of extreme pressure range, physically separated from the regions under direct laser exposure. Here, we present evidences of pressured-induced densification in fused silica in between the foci of the two beams, which can be exclusively attributed to the superposition of the pressure waves emitted by each focused laser-beam. Specifically, we show how the beams gap and pulses time-delay affect the structural properties of fused silica using Raman characterization, beam deflection technique, and selective etching techniques. The method is generic and can be implemented in a variety of transparent substrates for high-pressure physics studies and, unlike classical methods, such as the use of diamond anvils, offers a means to create arbitrary-shaped laser-induced high-pressure impacted zones by scanning the two beams across the specimen volume ",
+    "url": "https://arxiv.org/abs/2202.13580",
+    "authors": [
+      "Arunkrishnan Radhakrishnan",
+      "Julien Gateau",
+      "Pieter Vlugter",
+      "Yves Bellouard"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13594",
+    "title": "Second-harmonic optical circular dichroism of plasmonic chiral  helicoid-III nanoparticles",
+    "abstract": "While plasmonic particles can provide optical resonances in a wide spectral range from the lower visible up to the near-infrared, often symmetry effects are utilized to obtain particular optical responses. By breaking certain spatial symmetries, chiral structures arise and provide robust chiroptical responses to these plasmonic resonances. Here, we observe strong chiroptical responses in the linear and nonlinear optical regime for chiral L-handed helicoid III nanoparticles and quantify them by means of an asymmetric factor, the so-called g-factor. We calculate the linear-optical g-factors for two distinct chiroptical resonances to -0.12 and -0.43 and the nonlinear optical g-factors to -1.45 and -1.63. The results demonstrate that the chirality of the helicoid-III nanoparticles is strongly enhanced in the nonlinear regime. ",
+    "url": "https://arxiv.org/abs/2202.13594",
+    "authors": [
+      "Florian Spreyer",
+      "Jungho Mun",
+      "Hyeohn Kim",
+      "Ryeong Myeong Kim",
+      "Ki Tae Nam",
+      "Junsuk Rho",
+      "Thomas Zentgraf"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13602",
+    "title": "A versatile metasurface enabling superwettability for self-cleaning and  dynamic color response",
+    "abstract": "Metasurfaces provide applications for a variety of flat elements and devices due to the ability to modulate light with subwavelength structures. The working principle meanwhile gives rise to the crucial problem and challenge to protect the metasurface from dust or clean the unavoidable contaminants during daily usage. Here, taking advantage of the intelligent bioinspired surfaces which exhibit self-cleaning properties, we show a versatile dielectric metasurface benefiting from the obtained superhydrophilic or quasi-superhydrophobic states. The design is realized by embedding the metasurface inside a large area of wettability supporting structures, which is highly efficient in fabrication, and achieves both optical and wettability functionality at the same time. The superhydrophilic state enables an enhanced optical response with water, while the quasi-superhydrophobic state imparts the fragile antennas an ability to self-clean dust contamination. Furthermore, the metasurface can be easily switched and repeated between these two wettability or functional states by appropriate treatments in a repeatable way, without degrading the optical performance. The proposed design strategy will bring new opportunities to smart metasurfaces with improved optical performance, versatility and physical stability. ",
+    "url": "https://arxiv.org/abs/2202.13602",
+    "authors": [
+      "Jinlong Lu",
+      "Basudeb Sain",
+      "Philip Georgi",
+      "Maximilian Protte",
+      "Tim Bartley",
+      "Thomas Zentgraf"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13622",
+    "title": "Tunable two-dimensional laser arrays with zero-phase locking",
+    "abstract": "Two-dimensional (2D) laser arrays are shown to be achievable at a large scale by exploiting the interplay of higher-order topological insulator (HOTI) physics and the so-called non-Hermitian skin effect (NHSE). The higher-order topology allows for the amplification and hence lasing of a single-mode protected by a band gap; whereas the NHSE, widely known to accumulate population in a biased direction in non-Hermitian systems, is introduced to compete with the topological localization of corner modes. By tuning the system parameters appropriately and pumping at one site only, a single topologically protected lasing mode delocalized across over two dimensions emerges, with its power widely tunable by adjusting the pump strength. Computational studies clearly indicate that the lasing mode thus engineered is stable, and the phase difference between nearest lasing sites is locked at zero, even after the disorder is accounted for. The total power of the lasing mode forming a 2D topological laser array is proportional to the area of the 2D lattice accommodating a HOTI phase. Based on existing experiments, we further propose to use coupled optical ring resonators as a promising platform to realize large-scale 2D laser arrays. ",
+    "url": "https://arxiv.org/abs/2202.13622",
+    "authors": [
+      "Wei Xin Teo",
+      "Weiwei Zhu",
+      "Jiangbin Gong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13668",
+    "title": "Reflection-mode optical diffraction tomography for label-free imaging of  thick biological specimens",
+    "abstract": "Optical diffraction tomography (ODT) has emerged as a powerful label-free three-dimensional (3D) bioimaging techniques for observing living cells and thin tissue layers. We report a new reflection-mode ODT (rODT) method for imaging thick biological specimens with 500 nm lateral resolution and 1 {\\mu}m axial resolution. In rODT, multiple scattering background is rejected through spatio-temporal gating provided by dynamic speckle-field interferometry, while depth-resolved refractive index maps are reconstructed by developing a comprehensive inverse scattering model that also considers specimen-induced aberration. Benefiting from the high-resolution and full-field quantitative imaging capabilities of rODT, we succeeded in imaging red blood cells and quantifying their membrane fluctuations behind a turbid sample with a thickness of 2.8 scattering mean-free-paths. We further realized volumetric imaging of cornea inside an ex vivo rat eye and quantified its optical properties, including mapping the topography of Dua's and Descemet's membrane surfaces on the nanometer scale. ",
+    "url": "https://arxiv.org/abs/2202.13668",
+    "authors": [
+      "Sungsam Kang",
+      "Renjie Zhou",
+      "Marten Brelen",
+      "Heather K. Mak",
+      "Peter T. C. So",
+      "Zahid Yaqoob"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13704",
+    "title": "Time-resolved chiral X-Ray photoelectron spectroscopy with transiently  enhanced atomic site-selectivity: a Free Electron Laser investigation of  electronically excited fenchone enantiomers",
+    "abstract": "Chiral molecules are widespread in nature, playing a fundamental role in bio-chemical processes and in the origin of life itself. The observation of dynamics in chiral molecules is crucial for the understanding and control of the chiral activity of photo-excited states. One of the most promising techniques for the study of photo-excited chiral systems is time-resolved photoelectron circular dichroism (TR-PECD), which offers an intense and sensitive probe for vibronic and geometric molecular structure as well as electronic structures, and their evolution on a femtosecond timescale. However, the non-local character of the PECD effect, which is imprinted during the electron scattering off the molecule, makes the interpretation of TR-PECD experiments challenging. In this respect, core-photoionization is known to allow site- and chemical-sensitivity to photelectron spectroscopy. Here we demonstrate that TR-PECD utilising core-level photoemission enables probing the chiral electronic structure and its relaxation dynamics with atomic site sensitivity. Following UV pumped excitation to a 3s Rydberg state, fenchone enantiomers (C 10 H 16 O) were probed on a femtosecond scale using circularly polarized soft X-ray light pulses provided by the free-electron laser FERMI. C 1s binding energy shifts caused by the redistribution of valence electron density in this 3s-valence-Rydberg excitation allowed us to measure transient PECD chiral responses with an enhanced C-atom site-selectivity compared to that achievable in the ground state molecule. These results represent the first chemical-specific and site-specific, enantio-sensitive observations on the electronic structure of a photo-excited chiral molecule and pave the way towards chiral femtochemistry probed by core-level photoemission. ",
+    "url": "https://arxiv.org/abs/2202.13704",
+    "authors": [
+      "D. Faccial\u00e0",
+      "M. Devetta",
+      "S. Beauvarlet",
+      "N. Besley",
+      "F. Calegari",
+      "C. Callegari",
+      "D. Catone",
+      "E. Cinquanta",
+      "A. G. Ciriolo",
+      "L. Colaizzi",
+      "M. Coreno",
+      "G. Crippa",
+      "G. De Ninno",
+      "M. Di Fraia",
+      "M. Galli",
+      "G. A. Garcia",
+      "Y. Mairesse",
+      "M. Negro",
+      "O. Plekan",
+      "P. Prasannan Geetha",
+      "K. C. Prince",
+      "A. Pusala",
+      "S. Stagira",
+      "S. Turchini",
+      "K. Ueda",
+      "D. You",
+      "N. Zema",
+      "V. Blanchet",
+      "L. Nahon",
+      "I. Powis",
+      "C. Vozzi"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13942",
+    "title": "Reviewing local and integrated energy system models: insights into  flexibility and robustness challenges",
+    "abstract": "The electrification of heating, cooling, and transportation to reach decarbonization targets calls for a rapid expansion of renewable technologies. Due to their decentral and intermittent nature, these technologies require robust planning that considers non-technical constraints and flexibility options to be integrated effectively. Energy system models (ESMs) are frequently used to support decision-makers in this planning process. In this study, 116 case studies of local, integrated ESMs are systematically reviewed to identify best-practice approaches to model flexibility and to address non-technical constraints. Within the sample, storage systems and sector coupling are the most common types of flexibility. Sector coupling with the transportation sector, specifically with electric vehicles that could be used for smart charging or vehicle-to-grid operation, is rarely considered. Social aspects are generally either completely neglected or modeled exogenously. Lacking actor heterogeneity, which can lead to unstable results in optimization models, can be addressed through building-level information. A strong emphasis on cost is found and while emissions are also frequently reported, additional metrics such as imports or the share of renewable generation are nearly absent. To guide future modeling, the paper concludes with a roadmap highlighting flexibility and robustness options that either represent low-hanging fruit or have a large impact on results. ",
+    "url": "https://arxiv.org/abs/2202.13942",
+    "authors": [
+      "Febin Kachirayil",
+      "Jann Michael Weinand",
+      "Fabian Scheller",
+      "Russell McKenna"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.12896",
+    "title": "Photonic reinforcement learning based on optoelectronic reservoir  computing",
+    "abstract": "Reinforcement learning has been intensively investigated and developed in artificial intelligence in the absence of training data, such as autonomous driving vehicles, robot control, internet advertising, and elastic optical networks. However, the computational cost of reinforcement learning with deep neural networks is extremely high and reducing the learning cost is a challenging issue. We propose a photonic on-line implementation of reinforcement learning using optoelectronic delay-based reservoir computing, both experimentally and numerically. In the proposed scheme, we accelerate reinforcement learning at a rate of several megahertz because there is no required learning process for the internal connection weights in reservoir computing. We perform two benchmark tasks, CartPole-v0 and MountanCar-v0 tasks, to evaluate the proposed scheme. Our results represent the first hardware implementation of reinforcement learning based on photonic reservoir computing and pave the way for fast and efficient reinforcement learning as a novel photonic accelerator. ",
+    "url": "https://arxiv.org/abs/2202.12896",
+    "authors": [
+      "Kazutaka Kanno",
+      "Atsushi Uchida"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.12940",
+    "title": "Fully-integrated multipurpose microwave frequency identification system  on a single chip",
+    "abstract": "We demonstrate a fully-integrated multipurpose microwave frequency identification system on silicon-on-insulator platform. Thanks to its multipurpose features, the chip is able to identify different types of microwave signals, including single-frequency, multiple-frequency, chirped and frequency-hopping microwave signals, as well as discriminate instantaneous frequency variation among the frequency-modulated signals. This demonstration exhibits fully integrated solution and fully functional microwave frequency identification, which can meet the requirements in reduction of size, weight and power for future advanced microwave photonic processor. ",
+    "url": "https://arxiv.org/abs/2202.12940",
+    "authors": [
+      "Yuhan Yao",
+      "Yuhe Zhao",
+      "Yanxian Wei",
+      "Feng Zhou",
+      "Daigao Chen",
+      "Yuguang Zhang",
+      "Xi Xiao",
+      "Ming Li",
+      "Jianji Dong",
+      "Shaohua Yu",
+      "Xinliang Zhang"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.12990",
+    "title": "Role of Zirconium Conversion Coating in Corrosion Performance of  Aluminum Alloys: An Integrated First-Principles and Multiphysics Modeling  Approach",
+    "abstract": "A variety of chromate-free conversion coatings are being actively investigated to improve the corrosion performance of light-weight alloys for aerospace and defense applications. Advancing conversion coating, however, requires an in-depth understanding of the underlying corrosion mechanisms in order to rationally design sustainable coatings. Here, we present a multiscale modeling approach to predict corrosion performance of metallic materials, with a focus on localized corrosion of Cu-containing aluminum alloys coated with ZrO2 layer. First-principles and transition-state theory are used to implement the kinetics model, which includes electrolyte-metal interfacial reactions. The modeling framework systematically characterizes and couples multiple electrochemical and physical (e.g., transport) phenomena to explore interrelationships between pit morphology, surface chemistry, and local environment. This multiscale model can quantitatively link the corrosion rate of ZrO2-coated aluminum alloys with the evolution of interfacial reactions during immersion, which is very difficult to establish using in situ experiments. We have evaluated the presented multiscale model using available experimental data. The rate of corrosion and pit stability were quantitatively assessed for various environmental parameters and applied potentials. Results show that Zr-based conversion coating strongly enhances the corrosion performance of aluminum alloys due to zirconium involvement in interfacial kinetics. ",
+    "url": "https://arxiv.org/abs/2202.12990",
+    "authors": [
+      "Arash Samaei",
+      "Santanu Chaudhuri"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13127",
+    "title": "Plug-and-play quantum devices with efficient fiber-quantum dot interface",
+    "abstract": "Incorporating solid-state quantum emitters into optical fiber networks enables the long-distance transmission of quantum information and the remote connection of distributed quantum nodes. However, interfacing quantum emitters with fiber optics encounters several challenges, including low coupling efficiency and stability. Here, we demonstrate a highly efficient fiber-interfacing photonic device that directly launches single photons from quantum dots into a standard FC/PC-connectorized single-mode fiber (SMF28). Optimally designed photonic structures based on hole gratings produce an ultra-narrow directional beam that matches the small numerical aperture of a single-mode fiber. A pick-and-place technique selectively integrates a single miniaturized device into the core of the fiber. Our approach realizes a plug-and-play single-photon device that does not require any optical alignment and thus guarantees long-term stability. The results thus represent a major step toward practical and reliable quantum lights across a fiber network. ",
+    "url": "https://arxiv.org/abs/2202.13127",
+    "authors": [
+      "Woong Bae Jeon",
+      "Jong Sung Moon",
+      "Kyu-Young Kim",
+      "Young-Ho Ko",
+      "Christopher J. K. Richardson",
+      "Edo Waks",
+      "Je-Hyung Kim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13172",
+    "title": "Fixing the rotating-wave approximation for strongly-detuned quantum  oscillators",
+    "abstract": "Periodically-driven oscillators are commonly described in a frame co-rotating with the drive and using the rotating-wave approximation (RWA). This description, however, is known to induce errors for off-resonant driving. Here we show that the standard quantum description, using creation and annihilation of particles with the oscillator's natural frequency, necessarily leads to incorrect results when combined with the RWA. We demonstrate this on the simple harmonic oscillator and present an alternative operator basis which reconciles the RWA with off-resonant driving. The approach is also applicable to more complex models, where it accounts for known discrepancies. As an example, we demonstrate the advantage of our scheme on the driven quantum Duffing oscillator. ",
+    "url": "https://arxiv.org/abs/2202.13172",
+    "authors": [
+      "Jan Ko\u0161ata",
+      "Anina Leuch",
+      "Tobias K\u00e4stli",
+      "Oded Zilberberg"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13322",
+    "title": "Influence of spherical anisotropy on optical mass sensing in a  molecular-plasmonic optomechanical system",
+    "abstract": "We use an all-optical pump-probe method to develop a mass sensing mechanism in a molecular plasmonic system at room temperature. The system consists of a double-clamped graphene nanoribbon that parametrically interacts with two types of isotropic and anisotropic spherical plasmonic cavities in the presence of a strong pump field and a weak probe pulse. Based on the mode-selective quantization scheme and analogy with the canonical model of the cavity optomechanics, we formulate the Hamiltonian of the system in terms of the electromagnetic Greens tensor. In this manner, we derive an explicit form of size-dependent optomechanical coupling function and plasmonic damping rate, which include the modal, geometrical, and material features of the plasmonic structure. Engineering material features of the plasmonic nanostructure, we find that the intensity of the probe field transmission spectrum for radially anisotropic spherical nanocavity enhances significantly compared to the silver sphere nanocavity due to the mode volume reduction. This scheme can provide to achieve the minimum measurable mass at room temperature. ",
+    "url": "https://arxiv.org/abs/2202.13322",
+    "authors": [
+      "Elnaz AleEbrahim",
+      "Malek Bagheri Harouni",
+      "Ehsan Amooghorban"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13346",
+    "title": "Vortex shedding frequency of a moving obstacle in a Bose-Einstein  condensate",
+    "abstract": "We experimentally investigate the periodic vortex shedding dynamics in a highly oblate Bose-Einstein condensate using a moving penetrable Gaussian obstacle. The shedding frequency $f_v$ is measured as a function of the obstacle velocity $v$ and characterized by a linear relationship of $f_v=a(v-v_c)$ with $v_c$ being the critical velocity. The proportionality constant $a$ is linearly decreased with a decrease in the obstacle strength, whereas $v_c$ approaches the speed of sound. When the obstacle size increases, both $a$ and $v_c$ are decreased. The critical vortex shedding is further investigated for an oscillating obstacle and found to be consistent with the measured $f_v$. When the obstacle's maximum velocity exceeds $v_c$ but its oscillation amplitude is not large enough to create a vortex dipole, we observe that vortices are generated in the low-density boundary region of the trapped condensate, which is attributed to the phonon emission from the oscillating obstacle. Finally, we discuss a possible asymptotic association of $a$ with the Strouhal number in the context of universal shedding dynamics of a superfluid. ",
+    "url": "https://arxiv.org/abs/2202.13346",
+    "authors": [
+      "Younghoon Lim",
+      "Yangheon Lee",
+      "Junhong Goo",
+      "Dalmin Bae",
+      "Yong-il Shin"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13617",
+    "title": "Deep learning enhanced Rydberg multifrequency microwave recognition",
+    "abstract": "Recognition of multifrequency microwave (MW) electric fields is challenging because of the complex interference of multifrequency fields in practical applications. Rydberg atom-based measurements for multifrequency MW electric fields is promising in MW radar and MW communications. However, Rydberg atoms are sensitive not only to the MW signal but also to noise from atomic collisions and the environment, meaning that solution of the governing Lindblad master equation of light-atom interactions is complicated by the inclusion of noise and high-order terms. Here, we solve these problems by combining Rydberg atoms with deep learning model, demonstrating that this model uses the sensitivity of the Rydberg atoms while also reducing the impact of noise without solving the master equation. As a proof-of-principle demonstration, the deep learning enhanced Rydberg receiver allows direct decoding of the frequency-division multiplexed (FDM) signal. This type of sensing technology is expected to benefit Rydberg-based MW fields sensing and communication. ",
+    "url": "https://arxiv.org/abs/2202.13617",
+    "authors": [
+      "Zong-Kai Liu",
+      "Li-Hua Zhang",
+      "Bang Liu",
+      "Zheng-Yuan Zhang",
+      "Guang-Can Guo",
+      "Dong-Sheng Ding",
+      "Bao-Sen Shi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13681",
+    "title": "The Effect of Micromotion and Local Stress in Quantum simulation with  Trapped Ions in Optical Tweezers",
+    "abstract": "The ability to program and control interactions provides the key to implementing large-scale quantum simulation and computation in trapped ion systems. Adding optical tweezers, which can tune the phonon spectrum and thus modify the phonon-mediated spin-spin interaction, was recently proposed as a way of programming quantum simulators for a broader range of spin models [Arias Espinoza et al., Phys. Rev. A {\\bf 103}, 052437]. In this work we study the robustness of our findings in the presence of experimental imperfections: micromotion, local stress, and intensity noise. We show that the effects of micromotion can be easily circumvented when designing and optimizing tweezer patterns to generate a target interaction. Furthermore, while local stress, whereby the tweezers apply small forces on individual ions, may appear to enable further tuning of the spin-spin interactions, any additional flexibility is negligible. We conclude that optical tweezers are a useful method for controlling interactions in trapped ion quantum simulators in the presence of micromotion and imperfections in the tweezer alignment, but require intensity stabilization on the sub-percent level. ",
+    "url": "https://arxiv.org/abs/2202.13681",
+    "authors": [
+      "Liam Bond",
+      "Lisa Lenstra",
+      "Rene Gerritsma",
+      "Arghavan Safavi-Naini"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13761",
+    "title": "Global Correlation and Local Information Flows in Controllable  Non-Markovian Open Quantum Dynamics",
+    "abstract": "In a fully-controllable experiment platform for studying non-Markovian open quantum dynamics, we show that the non-Markovianity could be investigated from the global and local aspects. By mixing random unitary dynamics, we demonstrate non-Markovian and Markovian open quantum dynamics. From the global point of view, by tuning the base frequency we demonstrate the transition from the Markovianity to the non-Markovianity as measured by the quantum mutual information (QMI). In a Markovian open quantum process, the QMI decays monotonically, while it may rise temporarily in a non-Markovian process. However, under some circumstances, it is not sufficient to globally investigate the non-Markovianity of the open quantum dynamics. As an essential supplement, we further utilize the quantum Fisher information (QFI) flow to locally characterize the non-Markovianity in different channels. We demonstrate that the QMI in combination with the QFI flow are capable of measuring the non-Markovianity for a multi-channel open quantum dynamics. ",
+    "url": "https://arxiv.org/abs/2202.13761",
+    "authors": [
+      "Xin-Yu Chen",
+      "Na-Na Zhang",
+      "Wan-Ting He",
+      "Xiang-Yu Kong",
+      "Ming-Jie Tao",
+      "Fu-Guo Deng",
+      "Qing Ai",
+      "Gui-Lu Long"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13982",
+    "title": "Combinatorial logic devices based on a multi-path active ring circuit",
+    "abstract": "In this work, we describe a logic device in which an act of computation is associated with finding a path connecting input and output ports. The device is based on an active ring circuit comprising electric and magnetic parts. The electric part includes an amplifier, a phase shifter, and an attenuator. The magnetic part is a multi-port magnetic matrix comprising delay lines and frequency filters. Signals propagating on different paths may accumulate different phase shifts. Auto-oscillations occur in the circuit when the magnetic and electric parts match each other to meet the resonance amplitude and phase conditions. The system naturally searches for a resonance path that depends on the position of the electric phase shifter and amplification level. The path is detected by the set of power sensors. The proposed logic device can be used for solving a variety of computational problems. We present the results of numerical modeling illustrating prime factorization and finding the shortest path connected selected points on the mesh. ",
+    "url": "https://arxiv.org/abs/2202.13982",
+    "authors": [
+      "Alexander Khitun",
+      "Michael Balinskiy"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2007.05805",
+    "title": "Intercalation Leads to Inverse Layer Dependence of Friction on  Chemically Doped MoS_{2}",
+    "abstract": " Comments: 26 pages incl. Supplemental Material, 5 figures ",
+    "url": "https://arxiv.org/abs/2007.05805",
+    "authors": [
+      "Ogulcan Acikgoz",
+      "Enrique Guerrero",
+      "Alper Yanilmaz",
+      "Omur E. Dagdeviren",
+      "Cem \u00c7elebi",
+      "David A. Strubbe",
+      "Mehmet Z. Baykara"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2102.01781",
+    "title": "Optimization of the Variational Quantum Eigensolver for Quantum  Chemistry Applications",
+    "abstract": " Comments: 13 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2102.01781",
+    "authors": [
+      "R.J.P.T. de Keijzer",
+      "V.E. Colussi",
+      "B. \u0160kori\u0107",
+      "S.J.J.M.F. Kokkelmans"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.03520",
+    "title": "Gravitational analogue of Faraday rotation in the magnetized Kerr and  Reissner-Nordstr\u00f6m spacetimes",
+    "abstract": " Comments: 18 pages, no figures, significantly revised version, new references and appendix added ",
+    "url": "https://arxiv.org/abs/2106.03520",
+    "authors": [
+      "Chandrachur Chakraborty"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "High Energy Physics - Theory (hep-th)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.00004",
+    "title": "Long-Range Optical Wireless Information and Power Transfer",
+    "abstract": " Title: Long-Range Optical Wireless Information and Power Transfer ",
+    "url": "https://arxiv.org/abs/2108.00004",
+    "authors": [
+      "Yunfeng Bai",
+      "Qingwen Liu",
+      "Riqing Chen",
+      "Qingqing Zhang",
+      "Wei Wang"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.07476",
+    "title": "Integrated ultra-high-performance graphene optical modulator",
+    "abstract": " Comments: 8 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2109.07476",
+    "authors": [
+      "Elham Heidari",
+      "Hamed Dalir",
+      "Farzad Mokhtari-Koushyar",
+      "Behrouz Movahhed Nouri",
+      "Chandraman Patil",
+      "Mario Miscuglio",
+      "Deji Akinwande",
+      "Volker Sorger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.08025",
+    "title": "Scaling Up Silicon Photonic-based Accelerators: Challenges and  Opportunities",
+    "abstract": " Comments: This article may be downloaded for personal use only. Any other use requires prior permission of the author and AIP Publishing. This article appeared in \"M. A. Al-Qadasi, L. Chrostowski, B. J. Shastri, and S. Shekhar , \"Scaling up silicon photonic-based accelerators: Challenges and opportunities\", APL Photonics 7, 020902 (2022)\", and may be found at this https URL ",
+    "url": "https://arxiv.org/abs/2109.08025",
+    "authors": [
+      "M. A. Al-Qadasi",
+      "L. Chrostowski",
+      "B. J. Shastri",
+      "S. Shekhar"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.14860",
+    "title": "Physics and Equality Constrained Artificial Neural Networks: Application  to Forward and Inverse Problems with Multi-fidelity Data Fusion",
+    "abstract": " Comments: Under review ",
+    "url": "https://arxiv.org/abs/2109.14860",
+    "authors": [
+      "Shamsulhaq Basir",
+      "Inanc Senocak"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.08494",
+    "title": "Retinal blood flow imaging with combined full-field swept-source optical  coherence tomography and laser Doppler holography",
+    "abstract": " Title: Retinal blood flow imaging with combined full-field swept-source optical  coherence tomography and laser Doppler holography ",
+    "url": "https://arxiv.org/abs/2112.08494",
+    "authors": [
+      "L\u00e9o Puyo",
+      "Hendrik Spahr",
+      "Clara Pf\u00e4ffle",
+      "Gereon H\u00fcttmann",
+      "Dierck Hillmann"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.05376",
+    "title": "Development of a Scalable Quantum Memory Platform -- Materials Science  of Erbium-Doped TiO$_2$ Thin Films on Silicon",
+    "abstract": " Comments: 13 pages, 6 figures; corrects the units for spectral diffusion values (MHz throughout the manuscript instead of GHz(typo) in some places) ",
+    "url": "https://arxiv.org/abs/2202.05376",
+    "authors": [
+      "Manish Kumar Singh",
+      "Gary Wolfowicz",
+      "Jianguo Wen",
+      "Sean E. Sullivan",
+      "Abhinav Prakash",
+      "Alan M. Dibos",
+      "David D. Awschalom",
+      "F. Joseph Heremans",
+      "Supratik Guha"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
