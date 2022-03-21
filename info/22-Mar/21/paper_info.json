@@ -1,0 +1,310 @@
+[
+  {
+    "id": "arXiv:2203.09546",
+    "title": "Parity-time symmetric optical neural networks",
+    "abstract": "Optical neural networks (ONNs), implemented on an array of cascaded Mach-Zehnder interferometers (MZIs), have recently been proposed as a possible replacement for conventional deep learning hardware. They potentially offer higher energy efficiency and computational speed when compared to their electronic counterparts. By utilizing tunable phase shifters, one can adjust the output of each of MZIs in order to enable emulation of arbitrary matrix-vector multiplication. These phase shifters are central to the programmability of ONNs, but they require large footprint and are relatively slow. Here we propose an ONN architecture that utilizes parity-time (PT) symmetric couplers as its building blocks. Instead of modulating phase, gain/loss contrasts across the array are adjusted as a means to train the network. We demonstrate that PT symmetric optical neural networks (PT-ONN) are adequately expressive by performing the digit-recognition task on the modified national institute of standard and technology (MNIST) dataset. Compared to conventional ONNs, the PT-ONN achieves a comparable accuracy (67% vs. 71%) while circumventing the problems associated with changing phase. Our approach may lead to new and alternative avenues for fast training in chip-scale optical neural networks. ",
+    "url": "https://arxiv.org/abs/2203.09546",
+    "authors": [
+      "Haoqin Deng",
+      "Mercedeh Khajavikhan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09621",
+    "title": "Quantum perturbation theory using Tensor cores and a deep neural network",
+    "abstract": "Time-independent quantum response calculations are performed using Tensor cores. This is achieved by mapping density matrix perturbation theory onto the computational structure of a deep neural network. The main computational cost of each deep layer is dominated by tensor contractions, i.e. dense matrix-matrix multiplications, in mixed precision arithmetics which achieves close to peak performance. Quantum response calculations are demonstrated and analyzed using self-consistent charge density-functional tight-binding theory as well as coupled-perturbed Hartree-Fock theory. For linear response calculations, a novel parameter-free convergence criterion is presented that is well-suited for numerically noisy low precision floating point operations and we demonstrate a peak performance of almost 200 Tflops using the Tensor cores of two Nvidia A100 GPUs. ",
+    "url": "https://arxiv.org/abs/2203.09621",
+    "authors": [
+      "Joshua Finkelstein",
+      "Emanuel H. Rubensson",
+      "Susan M. Mniszewski",
+      "Christian F. A. Negre",
+      "Anders M. N. Niklasson"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09654",
+    "title": "Conditional Quantum Plasmonic Sensing",
+    "abstract": "The possibility of using weak optical signals to perform sensing of delicate samples constitutes one of the main goals of quantum photonic sensing. Furthermore, the nanoscale confinement of electromagnetic near fields in photonic platforms through surface plasmon polaritons has motivated the development of highly sensitive quantum plasmonic sensors. Despite the enormous potential of plasmonic platforms for sensing, this class of sensors is ultimately limited by the quantum statistical fluctuations of surface plasmons. Indeed, the fluctuations of the electromagnetic field severely limit the performance of quantum plasmonic sensing platforms in which delicate samples are characterized using weak near-field signals. Furthermore, the inherent losses associated with plasmonic fields levy additional constraints that challenge the realization of sensitivities beyond the shot-noise limit. Here, we introduce a protocol for quantum plasmonic sensing based on the conditional detection of plasmons. We demonstrate that the conditional detection of plasmonic fields, via plasmon subtraction, provides a new degree of freedom to control quantum fluctuations of plasmonic fields. This mechanism enables improvement of the signal-to-noise ratio of photonic sensors relying on plasmonic signals that are comparable to their associated field fluctuations. Consequently, the possibility of using weak plasmonic signals to sense delicate samples, while preserving the sample properties, has important implications for molecule sensing, and chemical detection . ",
+    "url": "https://arxiv.org/abs/2203.09654",
+    "authors": [
+      "Fatemeh Mostafavi",
+      "Zeinab Jafari",
+      "Michelle L. J. Lollie",
+      "Chenglong You",
+      "Israel De Leon",
+      "Omar S. Maga\u00f1a-Loaiza"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09676",
+    "title": "In-situ probing and stabilizing the power ratio of  electro-optic-modulated laser pairs based on VIPA etalon for quantum sensing",
+    "abstract": "Monitoring and stabilizing the power ratio of laser pairs is significant to high-precision atom interferometers, especially as the compact electro-optic modulated all-fiber laser system prevails. In this Letter, we demonstrate a novel method to in-situ probe the relative power of laser pairs and to stabilize the power ratio of two Raman lasers using a high-dispersion virtually imaged phased array (VIPA) etalon. Sub-microsecond resolution on probing laser power transformation during atom interferometer sequence is achieved and the power ratio of two Raman lasers (PRTR) is tightly locked with high bandwidth despite of environmental disturbances, showing an Allan deviation of $4.39\\times 10^{-5}$ at 1000 s averaging time. This method provides a novel way to stabilize the PRTR and diagnose the multi-frequency laser systems for atom interferometers and could find potential application in broad quantum sensing scenarios. ",
+    "url": "https://arxiv.org/abs/2203.09676",
+    "authors": [
+      "Guochao Wang",
+      "Mingyue Yang",
+      "Enlong Wang",
+      "Xu Zhang",
+      "Aiai Jia",
+      "Lingxiao Zhu",
+      "Shuhua Yan",
+      "Jun Yang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09752",
+    "title": "Chaotic resonance modes in dielectric cavities: Product of conditionally  invariant measure and universal fluctuations",
+    "abstract": "We conjecture that chaotic resonance modes in scattering systems are a product of a conditionally invariant measure from classical dynamics and universal fluctuations. The first factor depends strongly on the lifetime of the mode. Its multifractal structure describes the average of modes with similar lifetime. The conjecture is supported for a dielectric cavity with chaotic ray dynamics at small wavelengths, in particular for experimentally relevant supersharp modes. We explain scarring of the vast majority of modes along segments of rays based on multifractality and universal fluctuations. ",
+    "url": "https://arxiv.org/abs/2203.09752",
+    "authors": [
+      "Roland Ketzmerick",
+      "Konstantin Clau\u00df",
+      "Felix Fritzsch",
+      "Arnd B\u00e4cker"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chaotic Dynamics (nlin.CD)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09766",
+    "title": "Dual optical frequency combs with ultra-low relative phase jitters from  550 nm to 1020 nm for precision spectroscopy",
+    "abstract": "Here, ultra-low relative phase jitters over a wide optical spectrum were achieved for dual Ti:Sapphire optical frequency combs. The two optical frequency combs were independently phase-locked to a Sr optical lattice clock laser delivered through a commercial optical fiber network. We confirmed that the relative phase jitters between the two combs integrated from 8.3 mHz to 200 kHz were below 1 rad, corresponding to a relative linewidth of below 8.3 mHz, over the entire wavelength of the optical frequency combs ranging from 550 nm to 1020 nm. Our work paves the way for ultrahigh-precision dual-comb spectroscopy covering a wide optical spectral range with a simple setup, and provides an absolute optical frequency reference with great stability over a wide range of wavelengths. ",
+    "url": "https://arxiv.org/abs/2203.09766",
+    "authors": [
+      "Eunmi Chae",
+      "Kota Nakashima",
+      "Kosuke Yoshioka"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09883",
+    "title": "Topological properties of two-dimensional photonic square lattice  without $C_4$ and $M_{x(y)}$ symmetries",
+    "abstract": "Rich topological phenomena, edge states and two types of corner states, are unveiled in a two-dimensional square-lattice dielectric photonic crystal without both $C_4$ and $M_{x(y)}$ symmetries. Specifically, non-trivial type-I corner states, which do not exist in systems with $C_4$ and $M_{x(y)}$ since the degeneracy, are protected by non-zero quadrupole moment, no longer quantized to but less than $0.5$. Excellent properties, e.g. sub-wavelength localization and air-concentrated field distribution, are presented. Type-II corner states, induced by long-range interactions, are easier realized due to asymmetry. This work broadens the topological physics for the symmetries-broken systems and provides potential applications. ",
+    "url": "https://arxiv.org/abs/2203.09883",
+    "authors": [
+      "Langlang Xiong",
+      "Yufu Liu",
+      "Yu Zhang",
+      "Yaoxian Zheng",
+      "Xunya Jiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09941",
+    "title": "Photomultipliers as High Rate Radiation-Resistant In-Situ Sensors in  Future Experiments",
+    "abstract": "In the Energy Frontier we suggest developing high rate (100 MHz) finely segmented forward calorimetry preradiators with time resolution <50 ps which will survive the first 1-2 Lint of incident high radiation doses, protecting forward calorimeters 3<y<6; less than 5 degrees to the beam behind them from radiation damage, with high granularity, high rate capability and 30ps time resolution (4D calorimetry) providing lepton and photon ID and measurement. In the Intensity Frontier beam particle selection, such as tagged neutrino and kaon beams, and lepton violation experiments with muons require very high rates. Cosmic Frontiers requiring low power, non-cooled calorimetry or optical detection that can keep track of particles or photons arriving at 100 MHz, and survivable for years in space radiation may also benefit. The basic research is to use compact channelized PMTs with quartz or other radiation resistant windows with metal envelopes as an in-situ sensor, directly coupled to Cerenkov (or radiation-resistant scintillator) tiles, utilizing the dynode signals as a potentially compensating 2nd signal, and with no active electronics. If successful, directions include proposals for high SE yield mesh dynode activator materials such as GaP or B doped diamond films with 25 SEe at 300 eV electron energies, and possibly for compact low cost tile SE sensors with no photocathode, far easier to fabricate than PMTs with all metal final assembly in air, brazed seals; bakeout 900 C; pump out with tipoff - vacuum 100x higher than PMTs. Such sensors have many applications beyond HEP, in research, medicine, industry and defense. ",
+    "url": "https://arxiv.org/abs/2203.09941",
+    "authors": [
+      "David R Winn",
+      "Yasar Onel"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09583",
+    "title": "Observation of emergent Dirac physics at the surfaces of acoustic  higher-order topological insulators",
+    "abstract": "Using three-dimensional (3D) sonic crystals as acoustic higher-order topological insulators (HOTIs), we discover two-dimensional (2D) surface states described by spin-1 Dirac equations at the interfaces between the two sonic crystals with distinct topology but the same crystalline symmetry. We find that the Dirac mass can be tuned by the geometry of the two sonic crystals. The sign reversal of the Dirac mass reveals a surface topological transition where the surface states exhibit zero refractive index behavior. When the surface states are gapped, one-dimensional (1D) hinge states emerge due to the topology of the gapped surface states. We confirm experimentally the zero refractive index behavior and the emergent topological hinge states. Our study reveals a multidimensional Wannier orbital control that leads to extraordinary properties of surface states and unveils an interesting topological mechanism for the control of surface waves. ",
+    "url": "https://arxiv.org/abs/2203.09583",
+    "authors": [
+      "Fei Meng",
+      "Zhi-Kang Lin",
+      "Weibai Li",
+      "Peiguang Yan",
+      "Yun Zheng",
+      "Jian-Hua Jiang",
+      "Baohua Jia",
+      "Xiaodong Huang"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09794",
+    "title": "Sensor fusion in ptychography",
+    "abstract": "Ptychography is a lensless, computational imaging method that utilises diffraction patterns to determine the amplitude and phase of an object. In transmission ptychography, the diffraction patterns are recorded by a detector positioned along the optical axis downstream of the object. The light scattered at the highest diffraction angle carries information about the finest structures of the object. We present a setup to simultaneously capture a signal near the optical axis and a signal scattered at high diffraction angles. Moreover, we present an algorithm based on a shifted angular spectrum method and automatic differentiation that utilises this recorded signal. By jointly reconstructing the object from the resulting low and high diffraction angle images, the resolution of the reconstructed image is improved remarkably. The effective numerical aperture of the compound sensor is determined by the maximum diffraction angle captured by the off axis sensor. ",
+    "url": "https://arxiv.org/abs/2203.09794",
+    "authors": [
+      "Kira A. M. Maathuis",
+      "Jacob Seifert",
+      "Allard P. Mosk"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09896",
+    "title": "Experimental observation of a dissipative phase transition in a  multi-mode many-body quantum system",
+    "abstract": "We characterize the dissipative phase transition in a driven dissipative Bose-Einstein condensate of neutral atoms. Our results generalize the work on dissipative nonlinear Kerr resonators towards many modes and stronger interactions. We measure the effective Liouvillian gap and analyze the microscopic system dynamics, where we identify a non-equilibrium condensation process. ",
+    "url": "https://arxiv.org/abs/2203.09896",
+    "authors": [
+      "Jens Benary",
+      "Christian Baals",
+      "Erik Bernhart",
+      "Jian Jiang",
+      "Marvin R\u00f6hrle",
+      "Herwig Ott"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.10048",
+    "title": "The KM3NeT multi-PMT optical module",
+    "abstract": "The optical module of the KM3NeT neutrino telescope is an innovative, multi-faceted large area photodetection module. It contains 31 three-inch photomultiplier tubes in a single 0.44 m diameter pressure-resistant glass sphere. The module is a sensory device also comprising calibration instruments and electronics for power, readout and data acquisition. It is capped with a breakout-box with electronics for connection to an electro-optical cable for power and long-distance communication to the onshore control station. The design of the module was qualified for the first time in the deep sea in 2013. Since then, the technology has been further improved to meet requirements of scalability, cost-effectiveness and high reliability. The module features a sub-nanosecond timing accuracy and a dynamic range allowing the measurement of a single photon up to a cascade of thousands of photons, suited for the measurement of the Cherenkov radiation induced in water by secondary particles from interactions of neutrinos with energies in the range of GeV to PeV. A distributed production model has been implemented for the delivery of more than 6000 modules in the coming few years with an average production rate of more than 100 modules per month. In this paper a review is presented of the design of the multi-PMT KM3NeT optical module with a proven effective background suppression and signal recognition and sensitivity to the incoming direction of photons. ",
+    "url": "https://arxiv.org/abs/2203.10048",
+    "authors": [
+      "KM3NeT Collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.13509",
+    "title": "The Silicon Vertex Detector of the Belle II Experiment",
+    "abstract": " Comments: 7 pages, 5 figures, proceedings contribution at the 12th International Conference on Position Sensitive Detectors ",
+    "url": "https://arxiv.org/abs/2111.13509",
+    "authors": [
+      "G. Dujany",
+      "K. Adamczyk",
+      "L. Aggarwal",
+      "H. Aihara",
+      "T. Aziz",
+      "S. Bacher",
+      "S. Bahinipati",
+      "G. Batignani",
+      "J. Baudot",
+      "P. K. Behera",
+      "S. Bettarini",
+      "T. Bilka",
+      "A. Bozek",
+      "F. Buchsteiner",
+      "G. Casarosa",
+      "L. Corona",
+      "T. Czank",
+      "S. B. Das",
+      "C. Finck",
+      "F. Forti",
+      "M. Friedl",
+      "A. Gabrielli",
+      "E. Ganiev",
+      "B. Gobbo",
+      "S. Halder",
+      "K. Hara",
+      "S. Hazra",
+      "T. Higuchi",
+      "C. Irmler",
+      "A. Ishikawa",
+      "H. B. Jeon",
+      "Y. Jin",
+      "C. Joo",
+      "M. Kaleta",
+      "A. B. Kaliyar",
+      "J. Kandra",
+      "K. H. Kang",
+      "P. Kapusta",
+      "P. Kody\u0161",
+      "T. Kohriki",
+      "M. Kumar",
+      "R. Kumar",
+      "C. La Licata",
+      "K. Lalwani",
+      "R. Leboucher",
+      "S. C. Lee",
+      "J. Libby",
+      "L. Martel",
+      "L. Massaccesi",
+      "S. N. Mayekar",
+      "G. B. Mohanty",
+      "T. Morii",
+      "K. R. Nakamura",
+      "Z. Natkaniec",
+      "Y. Onuki",
+      "W. Ostrowicz",
+      "A. Paladino",
+      "E. Paoloni",
+      "H. Park",
+      "L. Polat",
+      "K. K. Rao",
+      "I. Ripp-Baudot",
+      "G. Rizzo",
+      "D. Sahoo",
+      "C. Schwanda",
+      "J. Serrano",
+      "J. Suzuki",
+      "S. Tanaka"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2201.12012",
+    "title": "High-frequency structure design and RF stability analysis of a 4-vane  radio frequency quadrupole with pi-mode stabilizer loops",
+    "abstract": " Title: High-frequency structure design and RF stability analysis of a 4-vane  radio frequency quadrupole with pi-mode stabilizer loops ",
+    "url": "https://arxiv.org/abs/2201.12012",
+    "authors": [
+      "Xiaowen Zhu",
+      "Claude Marchand",
+      "Olivier Piquet",
+      "Michel Desmons"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09245",
+    "title": "Deterministic relation between optical polarization and lattice symmetry  revealed in ion-doped single microcrystals",
+    "abstract": " Comments: 40 pages, 15 figures, 4 tables ",
+    "url": "https://arxiv.org/abs/2203.09245",
+    "authors": [
+      "Peng Li",
+      "Yaxin Guo",
+      "Ao Liu",
+      "Xin Yue",
+      "Taoli Yuan",
+      "Jingping Zhu",
+      "Yanpeng Zhang",
+      "Feng Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  }
+]
