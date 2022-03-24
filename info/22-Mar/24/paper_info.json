@@ -1,0 +1,397 @@
+[
+  {
+    "id": "arXiv:2203.12148",
+    "title": "Efficient modeling of laser wakefield accelerators using the  ponderomotive guiding center algorithm in an azimuthal mode decomposition  based quasi-static particle-in-cell code",
+    "abstract": "High-fidelity modeling of plasma-based acceleration (PBA) requires the use of 3D fully nonlinear and kinetic descriptions based on the particle-in-cell (PIC) method. Three-dimensional PIC algorithms based on the quasi-static approximation (QSA) have been successfully applied to efficiently model the beam-plasma interaction. In a QSA-PIC algorithm, the plasma response to a charged particle beam or laser driver is calculated based on self-consistent forces from the QSA form of Maxwell's equations. These fields are then used to advance the charged particle beam or laser forward by a large time step. Since the time step is not limited by the regular Courant-Friedrichs-Lewy condition that constrains a standard 3D fully electromagnetic PIC code, a 3D QSA-PIC code can achieve orders of magnitude speedup in performance. Recently, a new hybrid QSA-PIC algorithm that combines another speedup technique known as azimuthal Fourier decomposition has been proposed and implemented. This hybrid algorithm decomposes the electromagnetic fields, charge and current density into azimuthal harmonics and only the Fourier coefficients need to be updated, which can significantly reduce the algorithmic complexity. Modeling the laser-plasma interaction in a full 3D PIC algorithm is very computationally expensive due to the enormous disparity of physical scales to be resolved. In the QSA the laser is modeled using the ponderomotive guiding center (PGC) approach. We describe how to implement a PGC algorithm compatible with the QSA PIC algorithms based on the azimuthal mode expansion. This algorithm permits time steps orders of magnitude larger than the cell size and it can be asynchronously parallelized. Details on how this is implemented into the QSA PIC code that utilizes an azimuthal mode expansion, QPAD, are also described. ",
+    "url": "https://arxiv.org/abs/2203.12148",
+    "authors": [
+      "Fei Li",
+      "Weiming An",
+      "Frank S. Tsung",
+      "Viktor K. Decyk",
+      "Warren B. Mori"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12202",
+    "title": "Hybrid integration of deterministic quantum dots-based single-photon  sources with CMOS-compatible silicon carbide photonics",
+    "abstract": "Thin film 4H-silicon carbide (4H-SiC) is emerging as a contender for realizing large-scale optical quantum circuits due to its high CMOS technology compatibility and large optical nonlinearities. Though, challenges remain in producing wafer-scale 4H-SiC thin film on insulator (4H-SiCOI) for dense integration of photonic circuits, and in efficient coupling of deterministic quantum emitters that are essential for scalable quantum photonics. Here we demonstrate hybrid integration of self-assembled InGaAs quantum dots (QDs) based single-photon sources (SPSs) with wafer-scale 4H-SiC photonic chips prepared by ion slicing technique. By designing a bilayer vertical coupler, we realize generation and highly efficient routing of single-photon emission in the hybrid quantum photonic chip. Furthermore, we realize a chip-integrated beamsplitter operation for triggered single photons through fabricating a 1x2 multi-mode interferometer (MMI) with a symmetric power splitting ratio of 50:50. The successful demonstration of heterogeneously integrating QDs-based SPSs on 4H-SiC photonic chip prepared by ion slicing technique constitutes an important step toward CMOS-compatible, fast reconfigurable quantum photonic circuits with deterministic SPSs. ",
+    "url": "https://arxiv.org/abs/2203.12202",
+    "authors": [
+      "Yifan Zhu",
+      "Wenqi Wei",
+      "Ailun Yi",
+      "Tingting Jin",
+      "Chen Shen",
+      "Xudong Wang",
+      "Liping Zhou",
+      "Chengli Wang",
+      "Weiwen Ou",
+      "Sannian Song",
+      "Ting Wang",
+      "Jianjun Zhang",
+      "Xin Ou",
+      "Jiaxiang Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12209",
+    "title": "Dynamics of fast ions produced from laser produced aluminum plasma",
+    "abstract": "In this work, dynamics of multi-charged ions emitted from an aluminum plasma produced by Q switched Nd: Yag laser is studied using time of flight (TOF) measurements from Langmuir Probe (LP) and spectroscopy (STOF) under Ar ambient of 0.02 mbar. The temporal evolution of multi-charged ions, background neutrals and ions is systematically studied for varying laser intensities. The temporal evolution shows all the species have dual peak structure for all the laser energies considered in the study. The fast peak is sharp whereas the slow peak is broad similar to that observed in previous studies. Moreover, higher charged ions have higher velocity, indicating acceleration from the transient electric field produced at the very initial temporal stages of expansion. Interestingly, the fast peak gets delayed, whereas the slow peak advances in time with increased laser intensity, which has not been reported in earlier studies. The observations point towards the possible role of ambipolar electric fields in the unexpected observed behavior of the TOF profiles. ",
+    "url": "https://arxiv.org/abs/2203.12209",
+    "authors": [
+      "Garima Arora",
+      "Jinto Thomas",
+      "Hem Chandra Joshi"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12240",
+    "title": "Nonlinear Fano resonance without a continuum",
+    "abstract": "A new mechanism of Fano resonance induced by distant discrete levels in atoms or molecules is proposed and experimentally verified by Doppler-free Lamb-dip spectroscopy of vibration-rotational transitions of CO$_2$. The observed spectrum has an asymmetric profile and its amplitude increases quadratically with the probe laser power. Our results appeal to further investigations of Fano resonances and facilitate a broad range of topics based on narrow transitions. ",
+    "url": "https://arxiv.org/abs/2203.12240",
+    "authors": [
+      "Y.-N. Lv",
+      "A.-W. Liu",
+      "Y. Tan",
+      "C.-L. Hu",
+      "T.-P. Hua",
+      "X.-B. Zou",
+      "Y. R. Sun",
+      "C.-L. Zou",
+      "G.-C. Guo",
+      "S.-M. Hu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12242",
+    "title": "Particle-In-Cell observations of Brillouin scattering for laser  interacting with magnetized overdense plasma",
+    "abstract": "One dimensional Particle-in-cell simulations using OSIRIS-4.0 has been conducted to study the interaction of a laser electromagnetic pulse with an overdense magnetized plasma target. The external magnetic field has been chosen to be directed along the laser propagation direction. This geometry supports the propagation of right (R) and left (L) circularly polarised electromagnetic waves in the plasma. The laser pulse is allowed to propagate inside the plasma when its frequency falls in the pass band of the dispersion curves of L and/or R waves. The strength of the applied external magnetic field is chosen as a parameter to ensure that the laser frequency lies in the appropriate pass band. It is demonstrated that for all possible polarization of the incident laser, parametric process involving a scattered Electromagnetic wave and an electrostatic mode occur. The parametric process has been identified as that due to the Brillouin back scattering process. ",
+    "url": "https://arxiv.org/abs/2203.12242",
+    "authors": [
+      "Laxman Prasad Goswami",
+      "Rohit Juneja",
+      "Dhalia Trishul",
+      "Srimanta Maity",
+      "Sathi Das",
+      "Amita Das"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12388",
+    "title": "Laser ablation and fragmentation of Boron in liquids",
+    "abstract": "Nanoparticles of elemental Boron are generated for the first time by laser ablation of a sintered Boron target in liquid isopropanol and subsequent laser fragmentation of the suspension. For this purpose an ytterbium doped fiber laser was used at wavelength of 1060-1070 nm, pulse repetition rate of 20 kHz, and pulse duration of 200 ns. The size of Boron nanoparticles after ablation and fragmentation of the suspension is around 30 nm. Nanoparticles are made mostly of Boron and carbon, some particles have carbon shell. Allotropic composition of nanoparticles differs from that of the initial Boron target. Possible applications are discussed. ",
+    "url": "https://arxiv.org/abs/2203.12388",
+    "authors": [
+      "K.O. Aiyyzhy",
+      "E.V. Barmina",
+      "V.V. Voronov",
+      "G.A. Shafeev",
+      "G. G. Novikov",
+      "O.V. Uvarov"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12493",
+    "title": "Reassessing the potential of TlCl for laser cooling experiments via  four-component correlated electronic structure calculations",
+    "abstract": "The TlCl molecule has previously been investigated theoretically and proposed as promising candidates for laser cooling searches [X. Yuan et. al. J. Chem. Phys., 149, 094306, 2018]. From these results, the cooling process, which would proceed by transitions between a\\sup{3}{\\Pi}\\sup{+}\\sub{0} and X\\sup{1}{\\Sigma}\\sup{+}\\sub{0} states, had as potential bottleneck the long lifetime (6.04 {\\mu}s) of the excited state a\\sup{3}{\\Pi}\\sup{+}\\sub{0} , that would prohibit experimentally control the slowing region. Here, we revisit this system by employing four-component Multireference Configuration Interaction (MRCI) calculations, and investigate the effect of such approaches on the calculated transition moments between a\\sup{3}{\\Pi}\\sup{+}\\sub{0} and a\\sup{3}{\\Pi}\\sub{1} excited states of TlCl as well as TlF, the latter serving as a benchmark between theory and experiment. Wherever possible, MRCI results have been cross-validated by, and turned out to be consistent with, four-component equation of motion coupled-cluster (EOM-CC) and polarization propagator (PP) calculations. We find that the results of TlF are very closed to experiment values, while for TlCl the lifetime of the a3{\\Pi}+0 state is now estimated to be 175 ns, which is much shorter than previous calculations indicated, thus yielding a different, more favorable cooling dynamics. By solving the rate-equation numerically, we provide evidence that TlCl could have cooling properties similar to those of TlF. Our investigations also point to the potential benefits of enhancing the stimulated radiation in optical cycle to improve cooling efficiency. ",
+    "url": "https://arxiv.org/abs/2203.12493",
+    "authors": [
+      "Xiang Yuan",
+      "Andr\u00e9 Severo Pereira Gomes"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12535",
+    "title": "LASED: A Laser-Atom Interaction Simulator using Quantum Electrodynamics",
+    "abstract": "A laser-atom interaction simulator using quantum electrodynamics (LASED) is presented, which has been developed in the python programming language. LASED allows a user to calculate the time evolution of a laser-excited atomic system. The model allows for any laser polarization, a Gaussian laser beam profile, a rotation of the reference frame chosen to define the states, and an averaging over the Doppler profile of an atomic beam. Examples of simulations using LASED are presented for excitation of calcium from the 4$^1$S$_0$ state to the 4$^1$P$_1$ state, for laser excitation from a D-state excited by electron impact to a P-state, and for laser excitation of caesium via the D$_2$ line. ",
+    "url": "https://arxiv.org/abs/2203.12535",
+    "authors": [
+      "Manish Patel",
+      "Matthew Harvey",
+      "Andrew James Murray"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12544",
+    "title": "Highly sensitive and high throughput magnetic resonance thermometry  using superparamagnetic nanoparticles",
+    "abstract": "Magnetic resonance imaging (MRI) enables non-invasive 3D thermometry during thermal ablation of cancerous tumors. While T1 or T2 contrast MRI are relatively insensitive to temperature, techniques with greater temperature sensitivity such as chemical shift or diffusion imaging suffer from motional artifacts and long scan times. We describe an approach for highly sensitive and high throughput MR thermometry that is not susceptible to motional artifacts. We use superparamagnetic iron oxide nanoparticles (SPIONs) to spoil T2 of water protons. Motional narrowing results in proportionality between T2 and the diffusion constant, dependent only on the temperature in a specific environment. Our results show, for pure water, the nuclear magnetic resonance (NMR) linewidth and T2 follow the same temperature dependence as the self-diffusion constant of water. Thus, a T2 mapping is a diffusion mapping in the presence of SPIONs, and T2 is a thermometer. For pure water, a T2 mapping of a 32 x 32 image (voxel size = 1 mm x 1 mm x 3 mm) in a 9.4 T MRI scanner resulted in a temperature resolution of 0.5 K for a scan time of 2 minutes. This indicates a highly sensitive and high throughput MR thermometry technique potentially useful for monitoring of biological tissues during thermal therapies or for diagnosis. ",
+    "url": "https://arxiv.org/abs/2203.12544",
+    "authors": [
+      "Darshan Chalise",
+      "David G. Cahill"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12115",
+    "title": "Imaging current paths in silicon photovoltaic devices with a quantum  diamond microscope",
+    "abstract": "Magnetic imaging with nitrogen-vacancy centers in diamond, also known as quantum diamond microscopy, has emerged as a useful technique for the spatial mapping of charge currents in solid-state devices. In this work, we investigate an application to photovoltaic (PV) devices, where the currents are induced by light. We develop a widefield nitrogen-vacancy microscope that allows independent stimulus and measurement of the PV device, and test our system on a range of prototype crystalline silicon PV devices. We first demonstrate micrometer-scale vector magnetic field imaging of custom PV devices illuminated by a focused laser spot, revealing the internal current paths in both short-circuit and open-circuit conditions. We then demonstrate time-resolved imaging of photocurrents in an interdigitated back-contact solar cell, detecting current build-up and subsequent decay near the illumination point with microsecond resolution. This work presents a versatile and accessible analysis platform that may find distinct application in research on emerging PV technologies. ",
+    "url": "https://arxiv.org/abs/2203.12115",
+    "authors": [
+      "S. C. Scholten",
+      "G. J. Abrahams",
+      "B. C. Johnson",
+      "A. J. Healey",
+      "I. O. Robertson",
+      "D. A. Simpson",
+      "A. Stacey",
+      "S. Onoda",
+      "T. Ohshima",
+      "T. C. Kho",
+      "J. Ibarra Michel",
+      "J. Bullock",
+      "L. C. L. Hollenberg",
+      "J.-P. Tetienne"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12146",
+    "title": "Role of Functionalized Graphene Quantum Dots in Hydrogen Evolution  Reaction: A Density Functional Theory Study",
+    "abstract": "Density functional theory (DFT) can be quite advantageous in advancing the field of catalysis because of the microscopic insights it provides, and thus can guide experimental searches of novel catalysts. Several recent works have demonstrated that low-dimensional materials can be very efficient catalysts. Graphene quantum dots (GQDs) have gained much attention in past years due to their unique properties like low toxicity, chemical inertness, biocompatibility, crystallinity, etc. These properties of GQDs which are due to quantum confinement and edge effects facilitate their applications in various fields like sensing, photoelectronics, catalysis, and many more. Furthermore, the properties of GQDs can be enhanced by doping and functionalization. In order to understand the effects of functionalization by oxygen and boron based groups on the catalytic properties relevant to the hydrogen-evolution reaction (HER), we perform a systematic study of GQDs functionalized with the oxygen (O), borinic acid (BC$_2$O), and boronic acid (BCO$_2$ ). All calculations that included geometry optimization, electronic and adsorption mechanism, were carried out using the Gaussian16 package, employing the hybrid functional B3LYP, and the basis set 6-31G(d,p). With the variation in functionalization groups in GQDs, we observe significant changes in their electronic properties. The adsorption energy E$_{ads}$ of hydrogen over O-GQD, BC$_2$O-GQD, and BCO$_2$-GQD is -0.059 eV, -0.031 eV and -0.032 eV respectively. Accordingly, Gibbs free energy ($\\Delta G$) of hydrogen adsorption is extraordinarily near the ideal value (0 eV) for all the three types of functionalized GQDs. Thus, the present work suggests pathways for experimental realization of low-cost and multifunctional GQDs based catalysts for clean and renewable hydrogen energy production. ",
+    "url": "https://arxiv.org/abs/2203.12146",
+    "authors": [
+      "Vaishali Sharma",
+      "Basant Roondhe",
+      "Sumit Saxena",
+      "Alok Shukla"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12215",
+    "title": "Physics-Driven Deep Learning for Computational Magnetic Resonance  Imaging",
+    "abstract": "Physics-driven deep learning methods have emerged as a powerful tool for computational magnetic resonance imaging (MRI) problems, pushing reconstruction performance to new limits. This article provides an overview of the recent developments in incorporating physics information into learning-based MRI reconstruction. We consider inverse problems with both linear and non-linear forward models for computational MRI, and review the classical approaches for solving these. We then focus on physics-driven deep learning approaches, covering physics-driven loss functions, plug-and-play methods, generative models, and unrolled networks. We highlight domain-specific challenges such as real- and complex-valued building blocks of neural networks, and translational applications in MRI with linear and non-linear forward models. Finally, we discuss common issues and open challenges, and draw connections to the importance of physics-driven learning when combined with other downstream tasks in the medical imaging pipeline. ",
+    "url": "https://arxiv.org/abs/2203.12215",
+    "authors": [
+      "Kerstin Hammernik",
+      "Thomas K\u00fcstner",
+      "Burhaneddin Yaman",
+      "Zhengnan Huang",
+      "Daniel Rueckert",
+      "Florian Knoll",
+      "Mehmet Ak\u00e7akaya"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12501",
+    "title": "Quantum Logic Enhanced Sensing in Solid-State Spin Ensembles",
+    "abstract": "We demonstrate quantum logic enhanced sensitivity for a macroscopic ensemble of solid-state, hybrid two-qubit sensors. We achieve a factor of 30 improvement in signal-to-noise ratio, translating to a sensitivity enhancement exceeding an order of magnitude. Using the electronic spins of nitrogen vacancy (NV) centers in diamond as sensors, we leverage the on-site nitrogen nuclear spins of the NV centers as memory qubits, in combination with homogeneous bias and control fields, ensuring that all of the ${\\sim}10^9$ two-qubit sensors are sufficiently identical to permit global control of the NV ensemble spin states. We find quantum logic sensitivity enhancement for multiple measurement protocols with varying optimal sensing intervals, including XY8 dynamical decoupling and correlation spectroscopy, using a synthetic AC magnetic field. The results are independent of the nature of the target signal and broadly applicable to metrology using NV centers and other solid-state ensembles. This work provides a benchmark for macroscopic ensembles of quantum sensors that employ quantum logic or quantum error correction algorithms for enhanced sensitivity. ",
+    "url": "https://arxiv.org/abs/2203.12501",
+    "authors": [
+      "Nithya Arunkumar",
+      "Kevin S. Olsson",
+      "Jner Tzern Oon",
+      "Connor Hart",
+      "Dominik B. Bucher",
+      "David Glenn",
+      "Mikhail D. Lukin",
+      "Hongkun Park",
+      "Donhee Ham",
+      "Ronald L. Walsworth"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.12608",
+    "title": "Inverse Reynolds-dominance approach to transient fluid dynamics",
+    "abstract": "We consider the evolution equations for the bulk viscous pressure, diffusion current and shear tensor derived within the second order relativistic dissipative hydrodynamics from kinetic theory. By matching the higher order moments directly to the dissipative quantities, all terms which are of second order in the Knudsen number $\\Kn$ vanish, leaving only terms of order $\\mathcal{O}(\\Re \\, \\Kn)$ and $\\mathcal{O}({\\rm Re}^{-2})$ in the relaxation equations, where $\\Re$ is the inverse Reynolds number. We therefore refer to this scheme as the Inverse Reynolds Dominance (IReD) approach. The remaining (non-vanishing) transport coefficients can be obtained exclusively in terms of the inverse of the collision matrix. This procedure fixes unambiguously the relaxation times of the dissipative quantities, which are no longer related to the eigenvalues of the inverse of the collision matrix. In particular, we find that the relaxation times corresponding to higher order moments grow as their order increases, thereby contradicting the \\textit{separation of scales} paradigm. The formal (up to second order) equivalence with the standard DNMR approach is proven and the connection between the IReD transport coefficients and the usual DNMR ones is established. ",
+    "url": "https://arxiv.org/abs/2203.12608",
+    "authors": [
+      "David Wagner",
+      "Andrea Palermo",
+      "Victor E. Ambru\u015f"
+    ],
+    "subjectives": [
+      "Nuclear Theory (nucl-th)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2104.11731",
+    "title": "Spatio-temporal dissipative Kerr solitons and regularized wave-collapses  in chains of nonlinear microresonators",
+    "abstract": " Comments: Main text: 6 pages, 3 figures Supplementary Materials: 6 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2104.11731",
+    "authors": [
+      "Aleksandr K. Tusnin",
+      "Alexey M. Tikan",
+      "Kenichi Komagata",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.00485",
+    "title": "Tunable directional emission and collective dissipation with quantum  metasurfaces",
+    "abstract": " Comments: Closed to published version ",
+    "url": "https://arxiv.org/abs/2107.00485",
+    "authors": [
+      "David Fern\u00e1ndez-Fern\u00e1ndez",
+      "Alejandro Gonz\u00e1lez-Tudela"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15022",
+    "title": "Space-squeezing optics in the microwave spectral region",
+    "abstract": " Comments: 23 pages ",
+    "url": "https://arxiv.org/abs/2110.15022",
+    "authors": [
+      "Michal Mrnka",
+      "Euan Hendry",
+      "Jaroslav L\u00e1\u010d\u00edk",
+      "Rachel A. Lennon",
+      "Lauren E. Barr",
+      "Ian R. Hooper",
+      "David B. Phillips"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.15775",
+    "title": "Breakdown of light transport models in photonic scattering slabs with  strong absorption and anisotropy",
+    "abstract": " Title: Breakdown of light transport models in photonic scattering slabs with  strong absorption and anisotropy ",
+    "url": "https://arxiv.org/abs/2110.15775",
+    "authors": [
+      "Ozan Akdemir",
+      "Ad Lagendijk",
+      "Willem L. Vos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.04799",
+    "title": "Towards an integrated platform for characterizing laser-driven,  isochorically-heated plasmas with 1-$\u03bc$m spatial resolution",
+    "abstract": " Comments: 9 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2111.04799",
+    "authors": [
+      "Cameron H Allen",
+      "Matthew Oliver",
+      "Laurent Divol",
+      "Otto L Landen",
+      "Yuan Ping",
+      "Markus Schoelmerich",
+      "Russell Wallace",
+      "Robert Earley",
+      "Wolfgang Theobald",
+      "Thomas G White",
+      "Tilo Doeppner"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.06321",
+    "title": "Carbon nanotubes for the optical far-field readout of processes that are  mediated by plasmonic near-fields",
+    "abstract": " Title: Carbon nanotubes for the optical far-field readout of processes that are  mediated by plasmonic near-fields ",
+    "url": "https://arxiv.org/abs/2111.06321",
+    "authors": [
+      "Mareen Glaeske",
+      "Patryk Kusch",
+      "Niclas Sven Mueller",
+      "Antonio Setaro"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.14241",
+    "title": "Quantum magnonics: when magnon spintronics meets quantum information  science",
+    "abstract": " Comments: 93 pages, 35 figures, Physics Reports (in press) ",
+    "url": "https://arxiv.org/abs/2111.14241",
+    "authors": [
+      "H. Y. Yuan",
+      "Yunshan Cao",
+      "Akashdeep Kamra",
+      "Rembert A. Duine",
+      "Peng Yan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2201.07497",
+    "title": "On the delayed emission from laser produced aluminum plasma under argon  environment",
+    "abstract": " Comments: 7 pages, 9 figure ",
+    "url": "https://arxiv.org/abs/2201.07497",
+    "authors": [
+      "Garima Arora",
+      "Jinto Thomas",
+      "Hem Chandra Joshi"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  }
+]
