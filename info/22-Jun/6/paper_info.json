@@ -1,0 +1,275 @@
+[
+  {
+    "id": "arXiv:2206.01211",
+    "title": "Electrically pumped quantum-dot lasers grown on 300 mm patterned Si  photonic wafers",
+    "abstract": "Monolithic integration of quantum dot (QD) gain materials onto Si photonic platforms via direct epitaxial growth is a promising solution for on-chip light sources. Recent developments have demonstrated superior device reliability in blanket hetero-epitaxy of III-V devices on Si at elevated temperatures. Yet, thick, defect management epi designs prevent vertical light coupling from the gain region to the Si-on-Insulator (SOI) waveguides. Here, we demonstrate the first electrically pumped QD lasers grown on a 300 mm patterned (001) Si wafer with a butt-coupled configuration by molecular beam epitaxy (MBE). Unique growth and fabrication challenges imposed by the template architecture have been resolved, contributing to continuous wave lasing to 60 {\\deg}C and a maximum double-side output power of 126.6 mW at 20 {\\deg}C with a double-side wall plug efficiency of 8.6%. The potential for robust on-chip laser operation and efficient low-loss light coupling to Si photonic circuits makes this heteroepitaxial integration platform on Si promising for scalable and low-cost mass production. ",
+    "url": "https://arxiv.org/abs/2206.01211",
+    "authors": [
+      "Chen Shang",
+      "Kaiyin Feng",
+      "Eamonn T. Hughes",
+      "Andrew Clark",
+      "Mukul Debnath",
+      "Rosalyn Koscica",
+      "Gerald Leake",
+      "Joshua Herman",
+      "David Harame",
+      "Peter Ludewig",
+      "Yating Wan",
+      "John E. Bowers"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01238",
+    "title": "Pulsed laser ablation in liquid of sp-carbon chains: status and recent  advances",
+    "abstract": "This review provides a discussion of the current state of research on sp-carbon chains synthesized by pulsed laser ablation in liquid. In recent years, pulsed laser ablation in liquid (PLAL) has been widely employed for polyynes synthesis thanks to its flexibility with varying laser parameters, solvents, and targets. This allows the control of sp-carbon chains properties as yield, length, termination and stability. Although many reviews related to PLAL have been published, a comprehensive work reporting the current status and advances related to the synthesis of sp-carbon chains by PLAL is still missing. Here we first review the principle of PLAL and the mechanisms of formation of sp-carbon chains. Then we discuss the role of laser fluence (i.e. energy density), solvent, and target for sp-carbon chains synthesis. Lastly, we report the progress related to the prolonged stability of sp-carbon chains by PLAL encapsulated in polymeric matrices. This review will be a helpful guide for researchers interested in synthesizing sp-carbon chains by PLAL. ",
+    "url": "https://arxiv.org/abs/2206.01238",
+    "authors": [
+      "Pietro Marabotti",
+      "Sonia Peggiani",
+      "Alessandro Vidale",
+      "Carlo Spartaco Casari"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01263",
+    "title": "Deep Learning Architecture Based Approach For 2D-Simulation of Microwave  Plasma Interaction",
+    "abstract": "This paper presents a convolutional neural network (CNN)-based deep learning model, inspired from UNet with series of encoder and decoder units with skip connections, for the simulation of microwave-plasma interaction. The microwave propagation characteristics in complex plasma medium pertaining to transmission, absorption and reflection primarily depends on the ratio of electromagnetic (EM) wave frequency and electron plasma frequency, and the plasma density profile. The scattering of a plane EM wave with fixed frequency (1 GHz) and amplitude incident on a plasma medium with different gaussian density profiles (in the range of $1\\times 10^{17}-1\\times 10^{22}{m^{-3}}$) have been considered. The training data associated with microwave-plasma interaction has been generated using 2D-FDTD (Finite Difference Time Domain) based simulations. The trained deep learning model is then used to reproduce the scattered electric field values for the 1GHz incident microwave on different plasma profiles with error margin of less than 2\\%. We propose a complete deep learning (DL) based pipeline to train, validate and evaluate the model. We compare the results of the network, using various metrics like SSIM index, average percent error and mean square error, with the physical data obtained from well-established FDTD based EM solvers. To the best of our knowledge, this is the first effort towards exploring a DL based approach for the simulation of complex microwave plasma interaction. The deep learning technique proposed in this work is significantly fast as compared to the existing computational techniques, and can be used as a new, prospective and alternative computational approach for investigating microwave-plasma interaction in a real time scenario. ",
+    "url": "https://arxiv.org/abs/2206.01263",
+    "authors": [
+      "Mihir Desai",
+      "Pratik Ghosh",
+      "Ahlad Kumar",
+      "Bhaskar Chaudhury"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01267",
+    "title": "Self assembly of upconversion nanoparticles and its luminescence",
+    "abstract": "We report on the in situ formation of 2D and 3D self assembled superlattices of upconverting nanoparticles. These as synthesized self assembled nanophosphors can emit sharp and intence luminescence and fluorescence using tunable wavelength femtosecond laser interaction and NIR 980 nm CW laser source, respectively. The relative up conversion luminescence intensities and the number of absorbed photons per photon emitted under the fs laser excitation power corresponds to each of the luminescence have been evaluated. The internal and external quantum yield of the self-assembled nanoparticles have also been expounded with different laser irradiations. All these results directed that a huge possible potential applications of these upconverting self-assembly materials that can make them significant in the electronic industry, such as for device making and for biomedical applications. ",
+    "url": "https://arxiv.org/abs/2206.01267",
+    "authors": [
+      "Monami Das Modak",
+      "Anil Kumar Chaudhary",
+      "Pradip Paik"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01300",
+    "title": "Optimizing the chiral Purcell factor for unidirectional single photon  emitters in topological photonic crystal waveguides using inverse design",
+    "abstract": "We present an inverse design approach to significantly improve the figures-of-merit for chiral photon elements and quantum emitters in topological photonic crystal slab waveguides. Beginning with a topological waveguide mode with a group index of approximately 10 and a maximum forwards or backwards Purcell factor at a chiral point of less than 0.5, we perform optimizations of the directional Purcell factor. We use a fully three dimensional guided-mode expansion method to efficiently calculate waveguide band dispersion properties and modes, while automatic differentiation is employed to calculate the gradient of objective functions. We present two example improved designs: (i) a topological mode with an accessible group index of approximately 30 and a maximum unidirectional Purcell factor at a chiral point greater then 4.5 representing a nearly 10-fold improvement to the Purcell factor, and (ii) a slow light mode, well away from the Brillouin zone edge with a group index greater then 350 and a maximum unidirectional Purcell factor at a chiral point greater than 45. ",
+    "url": "https://arxiv.org/abs/2206.01300",
+    "authors": [
+      "Eric Nussbaum",
+      "Nir Rotenberg",
+      "Stephen Hughes"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01375",
+    "title": "Exploiting dynamic nonlinearity in upconversion nanoparticles for  super-resolution imaging",
+    "abstract": "Single-beam super-resolution microscopy, also known as superlinear microscopy, exploits the nonlinear response of fluorescent probes in confocal microscopy. The technique requires no complex purpose-built system, light field modulation, or beam shaping. Here, we present a strategy to enhance spatial resolution of superlinear microscopy by modulating excitation intensity during image acquisition. This modulation induces dynamic optical nonlinearity in upconversion nanoparticles (UCNPs), resulting in variations of higher spatial-frequency information in the obtained images. The high-order information can be extracted with a proposed weighted finite difference imaging algorithm from raw fluorescence images, to generate an image with a higher resolution than superlinear microscopy images. We apply this approach to resolve two adjacent nanoparticles within a diffraction-limited area, improving the resolution to 130 nm. This work suggests a new scope for developing dynamic nonlinear fluorescent probes in super-resolution nanoscopy. ",
+    "url": "https://arxiv.org/abs/2206.01375",
+    "authors": [
+      "Chaohao Chen",
+      "Lei Ding",
+      "Baolei Liu",
+      "Ziqin Du",
+      "Yongtao Liu",
+      "Xiangjun Di",
+      "Xuchen Shan",
+      "Chenxiao Lin",
+      "Min Zhang",
+      "Xiaoxue Xu",
+      "Xiaolan Zhong",
+      "Jianfeng Wang",
+      "Lingqian Chang",
+      "Ben J. Halkon",
+      "Xin Chen",
+      "Faliang Cheng",
+      "Fan Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01470",
+    "title": "Can vibrational sum frequency scattering spectra be measured from the  surface of 40-100 nm aerosols in a cloud containing 10$^{6}$ particles/mL?",
+    "abstract": "Understanding the interfacial properties of aerosol particles is important for science and medicine, crucial for air quality, human health, and environmental chemistry. Qian et al. presented vibrational sum frequency scattering (SFS) measurements of organic molecules on aerosol particles.$^{1}$ Relating a 10$^{6}$ particle/mL 40-100 nm size distribution to vibrational sum frequency scattering spectra, it was concluded that the vibrational spectra reported on the surface structure of 40-100 nm aerosol particles. We show that the SF scattering power of such small particles at the given density is $\\sim$ 10$^{7}$ smaller than the detection limit of the presented SFS experiment. Using bulk water as a standard of calibration, we bench-mark the SFS experiment. We present an analysis of the detectable number density of particles for a given size to demonstrate the limits of the SFS method and propose possible origins of the measured data. ",
+    "url": "https://arxiv.org/abs/2206.01470",
+    "authors": [
+      "Arianna Marchioro",
+      "Thaddeus W. Golbek",
+      "Tobias Weidner",
+      "Sylvie Roke"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01485",
+    "title": "Capacitively-coupled resonators for terahertz planar-Goubau-line filters",
+    "abstract": "Low-loss planar Goubau lines show promising potential for terahertz applications. However, a single-wire waveguide exhibits less design freedom than standard multi-conductor lines, which is a significant constraint for realizing standard components. Existing filters for planar Goubau line lack clear design procedures preventing the synthesis of an arbitrary filter response. In this work, we present a design for a bandpass/bandstop filter for planar Goubau line by periodically loading the line with capacitively coupled {\\lambda}/2 resonators, which can be easily tuned by changing their electrical length. The filter's working principle is explained by a proposed transmission-line model. We designed and fabricated a passband filter centered at 0.9 THz on a 10-{\\mu}m silicon-membrane substrate and compared measurement results between 0.5 THz and 1.1 THz to electromagnetic simulations, showing excellent agreement in both S11 and S21. The measured passband has an insertion loss of 7 dB and a 3-dB bandwidth of 31 %. Overall, the proposed filter design has good performance while having a simple design procedure. ",
+    "url": "https://arxiv.org/abs/2206.01485",
+    "authors": [
+      "Juan Cabello-S\u00e1nchez",
+      "Vladimir Drakinskiy",
+      "Jan Stake",
+      "Helena Rodilla"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01487",
+    "title": "Coupled Cavity Model: Correctness and Limitations",
+    "abstract": "Results of analysis of correctness and limitations of the classical Coupled Cavity Model are presented in the paper. It is shown that in the case of an infinite chain of resonators, there are spurious solutions of the characteristic equation. These spurious solutions do not violate the correctness of direct numerical calculations, but their existence makes it difficult (or even impossible) to use approximate WKB methods for analyzing chains with slowly varying parameters. ",
+    "url": "https://arxiv.org/abs/2206.01487",
+    "authors": [
+      "M. I. Ayzatsky"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01522",
+    "title": "Functional acoustic metamaterial using shortcut to adiabatic passage in  acoustic waveguide couplers",
+    "abstract": "Shortcut to adiabatic passage (STAP), initially proposed to accelerate adiabatic quantum state transfer, has been widely explored and applied in quantum optics and integrated optics. Here we bring STAP into the field of acoustics to design compact couplers and functional metamaterial. The space-varying coupling strengths of acoustic waveguides (WGs) are tailored by means of dressed states in a three-level system, accounting for the desirable acoustic energy transfer among three WGs with short length. We show that the acoustic coupler has one-way feature when loss is introduced into the intermediate WG. More uniquely, when the propagation of acoustic wave is designed to mimic a Hadamard transformation, an acoustic metamaterial can be constructed by arraying several couplers, possessing the beam-splitting function and unidirectional, broadband performances. Our work bridges STAP and the acoustic coupler as well as metamaterial, which may have profound impacts on exploring quantum technologies for promoting advanced acoustic devices. ",
+    "url": "https://arxiv.org/abs/2206.01522",
+    "authors": [
+      "Shuai Tang",
+      "Jin-Lei Wu",
+      "Cheng L\u00fc",
+      "Jie Song",
+      "Yongyuan Jiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01580",
+    "title": "GPU-Accelerated Approximate Kernel Method for Quantum Machine Learning",
+    "abstract": "Conventional kernel-based machine learning models for ab initio potential energy surfaces, while accurate and convenient in small data regimes, suffer immense computational cost as training set sizes increase. We introduce QML-Lightning, a PyTorch package containing GPU-accelerated approximate kernel models, which reduces the training time by several orders of magnitude, yielding trained models within seconds. QML-Lightning includes a cost-efficient GPU implementation of FCHL19, which together can yield energy and force predictions with competitive accuracy on a microsecond-per-atom timescale. Using modern GPU hardware, we report learning curves of energies and forces as well as timings as numerical evidence for select legacy benchmarks from atomisitic simulation including QM9, MD-17, and 3BPA. ",
+    "url": "https://arxiv.org/abs/2206.01580",
+    "authors": [
+      "Nicholas J. Browning",
+      "Felix A. Faber",
+      "O. Anatole von Lilienfeld"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01676",
+    "title": "Ultrafast laser pulse characterization by THG d-scan using optically  enhanced graphene coatings",
+    "abstract": "We have successfully functionalized 5 layers of TCVD-grown graphene by photoassisted transfer hydrogenation reaction with formic acid, in order to increase its nonlinear optical response and laser-induced damage resilience. Using the functionalized graphene samples, we were able to fully characterize sub-10 fs ultrashort laser pulses using THG dispersion-scan, with results that are in excellent agreement with the ones obtained with pristine graphene samples. ",
+    "url": "https://arxiv.org/abs/2206.01676",
+    "authors": [
+      "Tiago Gomes",
+      "Miguel Canhota",
+      "Bohdan Kulyk",
+      "Alexandre Carvalho",
+      "Bruno Jarrais",
+      "Ant\u00f3nio Jos\u00e9 Fernandes",
+      "Cristina Freire",
+      "Florinda Costa",
+      "Helder Crespo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01719",
+    "title": "Tilting light's polarization plane to spatially separate the ultrafast  optical response of chiral molecules via nonlinear inteferometry",
+    "abstract": "Distinguishing between the left- and right-handed versions of a chiral molecule (enantiomers) is vital, but also inherently difficult. Traditional optical methods using elliptically or circularly polarized light rely on weak linear effects which arise beyond the electric-dipole approximation, posing major limitations for time resolving ultrafast chiral molecular dynamics. Here we show how, by tilting the plane of polarization of an ultrashort burst of intense elliptically polarized light, towards its propagation direction, we can turn the waveform into a highly efficient chiro-optical tool. This \"forward tilting\" can be achieved by focusing the beam tightly, creating structured light which exhibits a nontrivial polarization pattern in space. We demonstrate that our structured field allows us to realize an interferometer for efficient chiral recognition that separates the nonlinear optical response of left- and right-handed molecules in space. Our work provides a simple, yet highly efficient, way of spatially structuring the polarization of light to image molecular chirality, with extreme enantio-efficiency and on ultrafast time scales. ",
+    "url": "https://arxiv.org/abs/2206.01719",
+    "authors": [
+      "Laura Rego",
+      "David Ayuso"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01229",
+    "title": "On Some Properties of the Beta Inverse Rayleigh Distribution",
+    "abstract": "We study with some details a lifetime model of the class of beta generalized models, called the beta inverse Rayleigh distribution, which is a special case of the Beta Fr\\'echet distribution. We provide a better foundation for some properties including quantile function, moments, mean deviations, Bonferroni and Lorenz curves, R\\'enyi and Shannon entropies and order statistics. We fit the proposed model using maximum likelihood estimation to a real data set to illustrate its flexibility and potentiality. ",
+    "url": "https://arxiv.org/abs/2206.01229",
+    "authors": [
+      "J. Le\u00e3o",
+      "H. Saulo",
+      "M. Bourguignon",
+      "R. J. Cintra",
+      "L. C. R\u00eago",
+      "G. M. Cordeiro"
+    ],
+    "subjectives": [
+      "Statistics Theory (math.ST)",
+      "Probability (math.PR)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.14538",
+    "title": "Sub-optimal Approaches to Heteroscedasticity in Silicon Strip Detectors:  the Lucky Model and the Super-Lucky Model",
+    "abstract": " Comments: 15 pages, 11 figures; completion of arXiv:1808.06708 with appropriate demonstration of the lucky model (latexpdf) ",
+    "url": "https://arxiv.org/abs/2205.14538",
+    "authors": [
+      "Gregorio Landi",
+      "Giovanni E. Landi"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.15482",
+    "title": "Boosted second-harmonic generation in the LiNbO$\\mathrm{_3}$ metasurface  governed by high-Q guided resonances and bound states in the continuum",
+    "abstract": " Comments: 11 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2205.15482",
+    "authors": [
+      "Ze Zheng",
+      "Lei Xu",
+      "Lujun Huang",
+      "Daria Smirnova",
+      "Peilong Hong",
+      "Cuifeng Ying",
+      "Mohsen Rahman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  }
+]
