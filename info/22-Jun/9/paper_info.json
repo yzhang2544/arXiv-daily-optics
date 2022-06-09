@@ -1,0 +1,280 @@
+[
+  {
+    "id": "arXiv:2206.03637",
+    "title": "Exploring accurate potential energy surfaces via integrating variational  quantum eigensovler with machine learning",
+    "abstract": "The potential energy surface (PES) is crucial for interpreting a variety of chemical reaction processes. However, predicting accurate PESs with high-level electronic structure methods is a challenging task due to the high computational cost. As an appealing application of quantum computing, we show in this work that variational quantum algorithms can be integrated with machine learning (ML) techniques as a promising scheme for exploring accurate PESs. Different from using a ML model to represent the potential energy, we encode the molecular geometry information into a deep neural network (DNN) for representing parameters of the variational quantum eigensolver (VQE), leaving the PES to the wave function ansatz. Once the DNN model is trained, the variational optimization procedure that hinders the application of the VQE to complex systems is avoided and thus the evaluation of PESs is significantly accelerated. Numerical results demonstrate that a simple DNN model is able to reproduce accurate PESs for small molecules. ",
+    "url": "https://arxiv.org/abs/2206.03637",
+    "authors": [
+      "Yanxian Tao",
+      "Xiongzhi Zeng",
+      "Yi Fan",
+      "Jie Liu",
+      "Zhenyu Li",
+      "Jinlong Yang"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.03969",
+    "title": "Lithium Ion Battery Electrode Manufacturing Model Accounting for 3D  Realistic Shapes of Active Material Particles",
+    "abstract": "The demand for lithium ion batteries (LIBs) on the market has gradually risen, with production increasing every year. To meet industrial needs, the development of digital twins designed to optimize LIB manufacturing processes is essential. Here, by using LiNi0.33Co0.33Mn0.33O2 (NMC111) material as an example, we introduce the realistic particles shapes of the active material obtained from X-ray micro-computed tomography into a Coarse-Grained Molecular Dynamic physical model to simulate the slurry and its drying, and into a Discrete Element Method model able to simulate the calendering of the resulting electrode. This model enables to link the manufacturing parameters with the microstructure of the electrodes and to better observe the effect of the former on the heterogeneity of the electrodes. The results of the simulations allow us, among others, to observe the alteration of the electrode heterogeneity during the manufacturing process and the slight deformation of the secondary particles of active material. ",
+    "url": "https://arxiv.org/abs/2206.03969",
+    "authors": [
+      "Jiahui Xu",
+      "Alain C. Ngandjong",
+      "Chaoyue Liu",
+      "Franco M. Zanotto",
+      "Oier Arcelus",
+      "Arnaud Demortiere",
+      "Alejandro A. Franco"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.03998",
+    "title": "Temperature-independent non-linear terahertz transmission by liquid  water",
+    "abstract": "Liquid water is one of the most studied substances, yet many of its properties are difficult to rationalize. The uniqueness of water is rooted in the dynamic network of hydrogen-bonded molecules that rearranges within about one picosecond. Terahertz fields oscillate on a picosecond timescale and are inherently suited to study water. Recent advances in non-linear terahertz spectroscopy have revealed large signals from liquid water, which have been interpreted with different, sometimes competing, theoretical models. Here we show that the non-linear response of liquid water at ~1 THz is similar at 21 {\\deg}C and 4 {\\deg}C, thus suggesting that the most appropriate microscopic models should depend weakly on temperature. ",
+    "url": "https://arxiv.org/abs/2206.03998",
+    "authors": [
+      "Fabio Novelli",
+      "C\u00e9lia Millon",
+      "Johannes Schmidt",
+      "Sashary Ramos",
+      "Eliane P. van Dam",
+      "Adrian Buchmann",
+      "Clara Saraceno",
+      "Martina Havenith"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.04018",
+    "title": "Nonadiabatic transition paths from quantum jump trajectories",
+    "abstract": "We present a means of studying rare reactive pathways in open quantum systems using Transition Path Theory and ensembles of quantum jump trajectories. This approach allows for elucidation of reactive paths for dissipative, nonadiabatic dynamics when the system is embedded in a Markovian environment. We detail the dominant pathways and rates of thermally activated processes, as well as the relaxation pathways and photoyields following vertical excitation in a minimal model of a conical intersection. We find that the geometry of the conical intersection affects the electronic character of the transition state, as defined through a generalization of a committor function for a thermal barrier crossing event. Similarly, the geometry changes the mechanism of relaxation following a vertical excitation. Relaxation in models resulting from small diabatic coupling proceed through pathways dominated by pure dephasing, while those with large diabatic coupling proceed through pathways limited by dissipation. The perspective introduced here for the nonadiabatic dynamics of open quantum systems generalizes classical notions of reactive paths to fundamentally quantum mechanical processes. ",
+    "url": "https://arxiv.org/abs/2206.04018",
+    "authors": [
+      "Michelle C. Anderson",
+      "Addison J. Schile",
+      "David T. Limmer"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.03660",
+    "title": "Provably-secure quantum randomness expansion with uncharacterised  homodyne detection",
+    "abstract": "Quantum random number generators (QRNGs) are able to generate numbers that are certifiably random, even to an agent who holds some side-information. Such systems typically require that the elements being used are precisely calibrated and validly certified for a credible security analysis. However, this can be experimentally challenging and result in potential side-channels which could compromise the security of the QRNG. In this work, we propose, design and experimentally demonstrate a QRNG protocol that completely removes the calibration requirement for the measurement device. Moreover, our protocol is secure against quantum side-information. We also take into account the finite-size effects and remove the independent and identically distributed requirement for the measurement side. More importantly, our QRNG scheme features a simple implementation which uses only standard optical components and are readily implementable on integrated-photonic platforms. To validate the feasibility and practicability of the protocol, we set up a fibre-optical experimental system with a home-made homodyne detector with an effective efficiency of 91.7% at 1550nm. The system works at a rate of 2.5MHz, and obtains a net randomness expansion rate of 4.98kbits/s at 1E10 rounds. Our results pave the way for an integrated QRNG with self-testing feature and provable security. ",
+    "url": "https://arxiv.org/abs/2206.03660",
+    "authors": [
+      "Chao Wang",
+      "Ignatius William Primaatmaja",
+      "Hong Jie Ng",
+      "Jing Yan Haw",
+      "Raymond Ho",
+      "Jianran Zhang",
+      "Gong Zhang",
+      "Charles Ci-Wen Lim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.04023",
+    "title": "Engineering transistor-like optical gain in two-dimensional materials  with Berry curvature dipoles",
+    "abstract": "Semiconductor transistors are essential elements of electronic circuits as they enable, for example, the isolation or amplification of voltage signals. While conventional transistors are point-type (lumped-element) devices, it may be highly interesting to realize a distributed transistor-type optical response in a bulk material. Here, we show that low-symmetry two-dimensional metallic systems may be the ideal solution to implement such a distributed-transistor response. To this end, using the semiclassical Boltzmann equation approach, we characterize the optical conductivity of a two-dimensional material under a static electric bias. It is found that similar to the nonlinear Hall effect, the electron transport depends on the Berry curvature dipole. Our analysis reveals that the electro-optic effect modifies the optical conductivity of the material, breaking the electromagnetic reciprocity and yielding a dynamical response that imitates that of a transistor but in a distributed volume. Furthermore, the effective conductivity tensor can be non-Hermitian, opening the possibility of optical gain. To maximize the non-Hermitian response, we explore the specific case of strained twisted bilayer graphene. Our analysis reveals that the optical gain for incident light transmitted through the biased system depends on the light polarization, and can be quite large, especially for multilayer configurations. ",
+    "url": "https://arxiv.org/abs/2206.04023",
+    "authors": [
+      "Tatiana G. Rappoport",
+      "Tiago A. Morgado",
+      "Sylvain Lanneb\u00e8re",
+      "M\u00e1rio G. Silveirinha"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2107.09526",
+    "title": "Anomalous statistics of laser-cooled atoms in dissipative optical  lattices",
+    "abstract": " Title: Anomalous statistics of laser-cooled atoms in dissipative optical  lattices ",
+    "url": "https://arxiv.org/abs/2107.09526",
+    "authors": [
+      "Gadi Afek",
+      "Nir Davidson",
+      "David A. Kessler",
+      "Eli Barkai"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.07299",
+    "title": "Dirac type relativistic quantum mechanics for massive photons",
+    "abstract": " Comments: 10 pages, references added, publication version ",
+    "url": "https://arxiv.org/abs/2108.07299",
+    "authors": [
+      "Soon-Tae Hong"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.09133",
+    "title": "Superconducting circuit optomechanics in topological lattices",
+    "abstract": " Comments: Updated version with a comprehensive discussion on strained graphene model ",
+    "url": "https://arxiv.org/abs/2111.09133",
+    "authors": [
+      "Amir Youssefi",
+      "Shingo Kono",
+      "Andrea Bancora",
+      "Mahdi Chegnizadeh",
+      "Jiahe Pan",
+      "Tatiana Vovk",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.07557",
+    "title": "Advantage of Coherent States in Ring Resonators over Any Quantum Probe  Single-Pass Absorption Estimation Strategy",
+    "abstract": " Comments: 7 pages, 4 figures, typos corrected, expanded section 3 and conclusion ",
+    "url": "https://arxiv.org/abs/2112.07557",
+    "authors": [
+      "Alexandre Belsley",
+      "Euan J. Allen",
+      "Animesh Datta",
+      "Jonathan C. F. Matthews"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.12661",
+    "title": "One-shot trajectory learning of open quantum systems dynamics",
+    "abstract": " Title: One-shot trajectory learning of open quantum systems dynamics ",
+    "url": "https://arxiv.org/abs/2204.12661",
+    "authors": [
+      "Arif Ullah",
+      "Pavlo O. Dral"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.05046",
+    "title": "Broadband physical layer cognitive radio with an integrated photonic  processor for blind source separation",
+    "abstract": " Title: Broadband physical layer cognitive radio with an integrated photonic  processor for blind source separation ",
+    "url": "https://arxiv.org/abs/2205.05046",
+    "authors": [
+      "Weipeng Zhang",
+      "Alexander Tait",
+      "Chaoran Huang",
+      "Thomas Ferreira de Lima",
+      "Simon Bilodeau",
+      "Eric Blow",
+      "Aashu Jha",
+      "Bhavin J. Shastri",
+      "Paul Prucnal"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.11665",
+    "title": "The laws of thermodynamics for quantum dissipative systems: A  quasi-equilibrium Helmholtz energy approach",
+    "abstract": " Comments: 11 pages 2 figures. arXiv admin note: text overlap with arXiv:2205.09487 ",
+    "url": "https://arxiv.org/abs/2205.11665",
+    "authors": [
+      "Shoki Koyanagi",
+      "Yoshitaka Tanimura"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.12048",
+    "title": "Fully Automatic In-Situ Reconfiguration of RF Photonic Filters in a  CMOS-Compatible Silicon Photonic Process",
+    "abstract": " Comments: 10 pages, 8 figures, 3 tables; Added 2 plots, few references and discussions ",
+    "url": "https://arxiv.org/abs/2205.12048",
+    "authors": [
+      "Md Jubayer Shawon",
+      "Vishal Saxena"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.02965",
+    "title": "Towards a compact all optical terahertz-driven electron source at  Tsinghua University",
+    "abstract": " Comments: 13 pages, 15 figures ",
+    "url": "https://arxiv.org/abs/2206.02965",
+    "authors": [
+      "Hanxun Xu",
+      "Renkai Li",
+      "Lixin Yan",
+      "Yingchao Du",
+      "Qili Tian",
+      "Wenhui Huang",
+      "Chuanxiang Tang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.03379",
+    "title": "Semiconductor ring laser frequency combs with active directional  couplers",
+    "abstract": " Title: Semiconductor ring laser frequency combs with active directional  couplers ",
+    "url": "https://arxiv.org/abs/2206.03379",
+    "authors": [
+      "Dmitry Kazakov",
+      "Theodore P. Letsou",
+      "Maximilian Beiser",
+      "Yiyang Zhi",
+      "Nikola Opa\u010dak",
+      "Marco Piccardo",
+      "Benedikt Schwarz",
+      "Federico Capasso"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  }
+]
