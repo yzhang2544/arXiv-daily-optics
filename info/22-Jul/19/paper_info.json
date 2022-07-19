@@ -1,0 +1,443 @@
+[
+  {
+    "id": "arXiv:2207.07750",
+    "title": "Exceeding octave tunable Terahertz waves with zepto-second level timing  noise",
+    "abstract": "Spectral purity of any millimeter wave (mmW) source is of the utmost interest in low-noise applications. Optical synthesis via photomixing is an attractive source for such mmWs, which usually involves expensive spectrally pure lasers with narrow linewidths approaching monochromaticity due to their inherent fabrication costs or specifications. Here, we report an alternative option for enhancing the spectral purity of inexpensive semiconductor diode lasers via a self-injection locking technique through corresponding Stokes waves from a fiber Brillouin cavity exhibiting greatly improved phase noise levels and large wavelength tunability of ~1.8 nm. We implement a system with two self-injected diode lasers on a common Brillouin cavity aimed at difference frequency generation in the mmW and THz region. We generate tunable sub-mmW (0.3 and 0.5 THz) waves by beating the self-injected two wavelength Stokes light on a uni-travelling carrier photodiode and characterize the noise performance. The sub-mmW features miniscule timing noise levels in the zepto-second (zs.Hz^-0.5) scale outperforming the state of the art dissipative Kerr soliton based micro-resonator setups while offering broader frequency tunability. These results suggest a viable inexpensive alternative for mmW sources aimed at low-noise applications featuring lab-scale footprints and rack-mounted portability while paving the way for chip-scale photonic integration. ",
+    "url": "https://arxiv.org/abs/2207.07750",
+    "authors": [
+      "Rubab Amin",
+      "James Greenberg",
+      "Brendan Heffernan",
+      "Tadao Nagatsuma",
+      "Antoine Rolland"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07754",
+    "title": "Lab-on-a-Chip Optical Biosensor Platform: Micro Ring Resonator  Integrated with Near-Infrared Fourier Transform Spectrometer",
+    "abstract": "A micro-ring-resonator (MRR) optical biosensor based on the evanescent field sensing mechanism has been extensively studied due to its high sensitivity and compact device size. However, a suitable on-chip integrated spectrometer device has to be demonstrated for the lab-on-a-chip applications, which can read the resonance wavelength shift from MRR biosensors based on minuscule changes in refractive index. In this paper, we demonstrated the design and experimental results of the near-infrared lab-on-a-chip optical biosensor platform that monolithically integrates the MRR and the on-chip spectrometer on the silicon-on-insulator (SOI) wafer, which can eliminate the external optical spectrum analyzer for scanning the wavelength spectrum. The symmetric add-drop MRR biosensor is designed to have a free spectral range (FSR) of ~19 nm, and a bulk sensitivity of ~73 nm/RIU; then the drop-port output resonance peaks are reconstructed from the integrated spatial-heterodyne Fourier transform spectrometer (SHFTS) with the spectral resolution of ~3.1 nm and bandwidth of ~50 nm, which results in the limit of detection of 0.042 RIU. The MRR output spectrum with air- and water-claddings are measured and reconstructed from the MRR-SHFTS integrated device experimentally to validate the wavelength shifting measurement. ",
+    "url": "https://arxiv.org/abs/2207.07754",
+    "authors": [
+      "Kyoung Min Yoo",
+      "May Hlaing",
+      "Sourabh Jain",
+      "James Fan",
+      "Yue An",
+      "Ray T. Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07810",
+    "title": "Interatomic force from neural network based variational quantum Monte  Carlo",
+    "abstract": "Accurate ab initio calculations are of fundamental importance in physics, chemistry, biology, and materials science, which have witnessed rapid development in the last couple of years with the help of machine learning computational techniques such as neural networks. Most of the recent efforts applying neural networks to ab initio calculation have been focusing on the energy of the system. In this study, we take a step forward and look at the interatomic force obtained with neural network wavefunction methods by implementing and testing several commonly used force estimators in variational quantum Monte Carlo (VMC). Our results show that neural network ansatz can improve the calculation of interatomic force upon traditional VMC. The relation between the force error and the quality of neural network, the contribution of different force terms, and the computational cost of each term are also discussed to provide guidelines for future applications. Our work paves the way for applying neural network wavefunction methods in simulating structures/dynamics of molecules/materials and providing training data for developing accurate force fields. ",
+    "url": "https://arxiv.org/abs/2207.07810",
+    "authors": [
+      "Yubing Qian",
+      "Weizhong Fu",
+      "Weiluo Ren",
+      "Ji Chen"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08016",
+    "title": "An Integrated Biological Optimization framework for proton SBRT FLASH  treatment planning allows dose, dose rate, and LET optimization using  patient-specific ridge filters",
+    "abstract": "Purpose: Patient-specific ridge filters can modulate proton energy to obtain a conformal dose. We describe a new framework for optimization of filter design and spot maps to meet the unique demands of FLASH radiotherapy. We demonstrate an Integrated Biological Optimization IMPT (IBO-IMPT) approach for optimization of dose, dose-averaged dose rate (DADR), and dose-averaged LET (LETd). Methods: We developed inverse planning software to design patient-specific ridge filters that spread the Bragg peak from a fixed-energy, 250 MeV beam to a proximal beam-specific planning target volume. The software optimizes patient-specific ridge filter and uses a Monte Carlo calculation engine, based on Geant4, to provide dose and LET influence matrices. Plan optimization, using matRAD, accommodates the IBO-IMPT objective function considering dose, dose rate, and LET simultaneously with minimum MU constraints. The framework enables design of both regularly spaced and sparse-optimized ridge filters, which allow faster delivery and selective LET optimization. Volume distributions and histograms for dose, DADR, and LETd are compared using evaluation structures specific to the heart and lung. Results: We used IBO-IMPT to design ridge filters for a central lung tumor patient. The IBO-IMPT framework selectively spared heart and lung by reducing LET and increasing dose rate, relative to IMPT planning. Sparse-optimized ridge filters were superior to regularly spaced ridge filters in dose rate. Together, these innovations substantially increased the DADR in the heart and lung while maintaining good target coverage. The volume that received a FLASH dose rate of higher 40 Gy/second increased by 31% for heart and 50% for lung. Conclusion: This proof-of-concept study demonstrates the feasibility of using an IBO-IMPT framework to accomplish proton FLASH SBPT, accounting for dose, DADR, and LETd simultaneously. ",
+    "url": "https://arxiv.org/abs/2207.08016",
+    "authors": [
+      "Ruirui Liu",
+      "Serdar Charyyev",
+      "Niklas Wahl",
+      "Wei Liu",
+      "Minglei Kang",
+      "Jun Zhou",
+      "Xiaofeng Yang",
+      "Filipa Baltazar",
+      "Martina Palkowitsch",
+      "Kristin Higgins",
+      "William Dynan",
+      "Jeffrey Bradley",
+      "Liyong Lin"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08140",
+    "title": "Measurement of the Electric Dipole Moment of $^{171}$Yb Atoms in an  Optical Dipole Trap",
+    "abstract": "The permanent electric dipole moment (EDM) of the $^{171}$Yb $(I=1/2)$ atom is measured with atoms held in an optical dipole trap (ODT). By enabling a cycling transition that is simultaneously spin-selective and spin-preserving, a quantum non-demolition measurement with a spin-detection efficiency of 50$\\%$ is realized. A systematic effect due to parity mixing induced by a static E field is observed, and is suppressed by averaging between measurements with ODTs in opposite directions. The coherent spin precession time is found to be much longer than 300 s. The EDM is determined to be $d({\\rm^{171}Yb})={\\color{black}(-6.8\\pm5.1_{\\rm stat}\\pm1.2_{\\rm syst})\\times10^{-27}\\ e\\ \\rm cm}$, leading to an upper limit of $|d({\\rm^{171}Yb})|<{\\color{black}1.5\\times10^{-26}\\ e\\ \\rm cm}$ ($95\\%$ C.L.). These measurement techniques can be adapted to search for the EDM of $^{225}$Ra. ",
+    "url": "https://arxiv.org/abs/2207.08140",
+    "authors": [
+      "T. A. Zheng",
+      "Y. A. Yang",
+      "S.-Z. Wang",
+      "J. T. Singh",
+      "Z.-X. Xiong",
+      "T. Xia",
+      "Z.-T. Lu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Nuclear Experiment (nucl-ex)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08295",
+    "title": "Many-body Chemical Reactions in a Quantum Degenerate Gas",
+    "abstract": "Chemical reactions in the quantum degenerate regime are described by mixing of matterwave fields. Quantum coherence and bosonic enhancement are two unique features of many-body reactions involving bosonic reactants and products. Such collective reactions of chemicals, dubbed \"super-chemistry\", is an elusive goal in quantum chemistry research. Here we report the observation of coherent and collective reactive coupling between Bose condensed atoms and molecules near a Feshbach resonance. Starting from an atomic condensate, the reaction begins with a rapid formation of molecules, followed by oscillations of their populations in the equilibration process. Faster oscillations are observed in samples with higher densities, indicating bosonic enhancement. We present a quantum field model which describes the dynamics well and identifies three-body recombination as the dominant reaction process. Our findings exemplify the highly sought-after quantum many-body chemistry and offer a new paradigm for the control of quantum chemical reactions. ",
+    "url": "https://arxiv.org/abs/2207.08295",
+    "authors": [
+      "Zhendong Zhang",
+      "Shu Nagata",
+      "Kaixuan Yao",
+      "Cheng Chin"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08444",
+    "title": "Radiation of Optical Angular Momentum by a Dipole Source inside a  Magneto-optical Environment",
+    "abstract": "Radiation of electromagnetic energy by electric or magnetic multipole sources can be modified by their local environment. In this work we demonstrate that a magneto-optical environment of an unpolarized dipole source induces the radiation of angular momentum into space. This radiation benefits from Purcell-enhancement. ",
+    "url": "https://arxiv.org/abs/2207.08444",
+    "authors": [
+      "B.A. van Tiggelen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08679",
+    "title": "A transportable clock laser system with an instability of $1.6 \\times  10^{-16}$",
+    "abstract": "We present a transportable ultra-stable clock laser system based on a Fabry-P\\'erot cavity with crystalline Al$_{0.92}$Ga$_{0.08}$As/GaAs mirror coatings, fused silica (FS) mirror substrates and a 20~cm-long ultra-low expansion (ULE\\textsuperscript{\\textregistered}) glass spacer with a predicted thermal noise floor of $\\mathrm{mod}\\,\\sigma_\\mathrm{y} = 7 \\times 10^{-17}$ in modified Allan deviation at one second averaging time. The cavity has a cylindrical shape and is mounted at ten points. Its measured sensitivity of the fractional frequency to acceleration for the three Cartesian directions are $2(1) \\times 10^{-12}$/(ms$^{-2}$), $3(3) \\times 10^{-12}$/(ms$^{-2}$) and $3(1) \\times 10^{-12}$/(ms$^{-2}$), which belong to the lowest acceleration sensitivities published for transportable systems. The laser system's instability reaches down to $\\mathrm{mod}\\,\\sigma_\\mathrm{y} = 1.6 \\times 10^{-16}$ ",
+    "url": "https://arxiv.org/abs/2207.08679",
+    "authors": [
+      "Sofia Herbers",
+      "Sebastian H\u00e4fner",
+      "S\u00f6ren D\u00f6rscher",
+      "Tim L\u00fccke",
+      "Uwe Sterr",
+      "Christian Lisdat"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08680",
+    "title": "Interplay of thermalization and strong disorder: Wave turbulence theory,  numerical simulations, and experiments in multimode optical fibers",
+    "abstract": "We address the problem of thermalization in the presence of a time-dependent disorder in the framework of the nonlinear Schr\\\"odinger (or Gross-Pitaevskii) equation with a random potential. The thermalization to the Rayleigh-Jeans distribution is driven by the nonlinearity. On the other hand, the structural disorder is responsible for a relaxation toward the homogeneous equilibrium distribution (particle equipartition), which thus inhibits thermalization (energy equipartition). On the basis of the wave turbulence theory, we derive a kinetic equation that accounts for the presence of strong disorder. The theory unveils the interplay of disorder and nonlinearity. It unexpectedly reveals that a non-equilibrium process of condensation and thermalization can take place in the regime where disorder effects dominate over nonlinear effects. We validate the theory by numerical simulations of the nonlinear Schr\\\"odinger equation and the derived kinetic equation, which are found in quantitative agreement without using adjustable parameters. Experiments realized in multimode optical fibers with an applied external stress evidence the process of thermalization in the presence of strong disorder. ",
+    "url": "https://arxiv.org/abs/2207.08680",
+    "authors": [
+      "Nicolas Berti",
+      "Kilian Baudin",
+      "Adrien Fusaro",
+      "Guy Millot",
+      "Antonio Picozzi",
+      "Josselin Garnier"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08702",
+    "title": "Quantum noise may limit the mechanosensory sensitivity of the left-right  organizer of the vertebrate bodyplan",
+    "abstract": "Could nature be harnessing quantum mechanics in cilia to optimize the sensitivity of the mechanism of left-right symmetry breaking during development in vertebrates? I evaluate whether mechanosensing might be functioning in the left-right organizer of the vertebrate bodyplan through quantum mechanics. I conclude that there is a possible role for quantum biology in mechanosensing in cilia. ",
+    "url": "https://arxiv.org/abs/2207.08702",
+    "authors": [
+      "Julyan H. E. Cartwright"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Subcellular Processes (q-bio.SC)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08728",
+    "title": "Creation and direct laser acceleration of positrons in a single stage",
+    "abstract": "Relativistic positron beams are required for fundamental research in nonlinear strong field QED, plasma physics, and laboratory astrophysics. Positrons are difficult to create and manipulate due to their short lifetime, and their energy gain is limited by the accelerator size in conventional facilities. Alternative compact accelerator concepts in plasmas are becoming more and more mature for electrons, but positron generation and acceleration remain an outstanding challenge. Here we propose a new setup where we can generate, inject and accelerate them in a single stage during the propagation of an intense laser in a plasma channel. The positrons are created from a laser-electron collision at 90 degrees, where the injection and guiding are made possible by an 800 nC electron beam loading which reverses the sign of the background electrostatic field. We obtain a 20 fC positron beam, with GeV-level central energy within 0.5 mm of plasma. ",
+    "url": "https://arxiv.org/abs/2207.08728",
+    "authors": [
+      "B. Martinez",
+      "B. Barbosa",
+      "M. Vranic"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08758",
+    "title": "A dual color, frequency, pulse duration and shape agile laser system for  particle spectroscopy and manipulation",
+    "abstract": "A dual color, frequency and pulse duration agile laser system, capable of delivering laser pulses in arbitrary temporal profiles with ~1 ns to ~1 us pulse duration, chirping rates of ~27 MHz/ns with an achievable chirping range of several GHz across the pulse duration, and with energies ranging from a few nJ to hundreds of mJ per pulse has been developed. The flexibility and capability of this laser system provide a wide range of laser parameters that can be exploited to optimize operational conditions in various experiments ranging from laser diagnostics to spectroscopy and optical manipulation of matter. The developed system is successfully demonstrated to obtain coherent Rayleigh-Brillouin scattering (CRBS) in both single and dual color configuration, in an effort to expand the non-intrusive accessibility towards lower pressure regime for neutral gas and plasma diagnostics. ",
+    "url": "https://arxiv.org/abs/2207.08758",
+    "authors": [
+      "Junhwi Bak",
+      "Robert Randolph",
+      "Alexandros Gerakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07651",
+    "title": "Quantum Origin of (Newtonian) Mass and Galilean Relativity Symmetry",
+    "abstract": "The Galilei group has been taken as the fundamental symmetry for 'nonrelativistic' physics, quantum or classical. Our fully group theoretical formulation approach to the quantum theory asks for some adjustments. We present a sketch of the full picture here, emphasizing aspects that are different from the more familiar picture. The analysis involves a more careful treatment of the relation between the exact mathematics and its physical application in the dynamical theories, and a more serious full implementation of the mathematical logic than what is usually available in the physics literature. The article summarizes our earlier presented formulation while focusing on the part beyond, with an adjusted, or corrected, identification of the basic representations having the (Newtonian) mass as a Casimir invariant and the notion of center of mass as dictated by the symmetry. Another result is the necessary exclusion of the time translational symmetry, that otherwise bans interactions between particles. ",
+    "url": "https://arxiv.org/abs/2207.07651",
+    "authors": [
+      "Otto C.W. Kong"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07924",
+    "title": "Quantum Noise-Induced Reservoir Computing",
+    "abstract": "Quantum computing has been moving from a theoretical phase to practical one, presenting daunting challenges in implementing physical qubits, which are subjected to noises from the surrounding environment. These quantum noises are ubiquitous in quantum devices and generate adverse effects in the quantum computational model, leading to extensive research on their correction and mitigation techniques. But do these quantum noises always provide disadvantages? We tackle this issue by proposing a framework called quantum noise-induced reservoir computing and show that some abstract quantum noise models can induce useful information processing capabilities for temporal input data. We demonstrate this ability in several typical benchmarks and investigate the information processing capacity to clarify the framework's processing mechanism and memory profile. We verified our perspective by implementing the framework in a number of IBM quantum processors and obtained similar characteristic memory profiles with model analyses. As a surprising result, information processing capacity increased with quantum devices' higher noise levels and error rates. Our study opens up a novel path for diverting useful information from quantum computer noises into a more sophisticated information processor. ",
+    "url": "https://arxiv.org/abs/2207.07924",
+    "authors": [
+      "Tomoyuki Kubota",
+      "Yudai Suzuki",
+      "Shumpei Kobayashi",
+      "Quoc Hoan Tran",
+      "Naoki Yamamoto",
+      "Kohei Nakajima"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08255",
+    "title": "Calculation of the moscovium ground-state energy by quantum algorithms",
+    "abstract": "We investigate the possibility to calculate the ground-state energy of the atomic systems on a quantum computer. For this purpose we evaluate the lowest binding energy of the moscovium atom with the use of the iterative phase estimation and variational quantum eigensolver. The calculations by the variational quantum eigensolver are performed with a disentangled unitary coupled cluster ansatz and with various types of hardware-efficient ansatze. The optimization is performed with the use of the Adam and Quantum Natural Gradients procedures. The scalability of the ansatze and optimizers is tested by increasing the size of the basis set and the number of active electrons. The number of gates required for the iterative phase estimation and variational quantum eigensolver is also estimated. ",
+    "url": "https://arxiv.org/abs/2207.08255",
+    "authors": [
+      "V. A. Zaytsev",
+      "M. E. Groshev",
+      "I. A. Maltsev",
+      "A. V. Durova",
+      "V. M. Shabaev"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08506",
+    "title": "Tailoring the Emission Wavelength of Color Centers in Hexagonal Boron  Nitride for Quantum Applications",
+    "abstract": "Optical quantum technologies promise to revolutionize today's information processing and sensors. Crucial to many quantum applications are efficient sources of pure single photons. For a quantum emitter to be used in such application, or for different quantum systems to be coupled to each other, the optical emission wavelength of the quantum emitter needs to be tailored. Here, we use density functional theory to calculate and manipulate the transition energy of fluorescent defects in the two-dimensional material hexagonal boron nitride. Our calculations feature the HSE06 functional which allows us to accurately predict the electronic band structures of 267 different defects. Moreover, using strain-tuning we can tailor the optical transition energy of suitable quantum emitters to match precisely that of quantum technology applications. We therefore not only provide a guide to make emitters for a specific application, but also have a promising pathway of tailoring quantum emitters that can couple to other solid-state qubit systems such as color centers in diamond. ",
+    "url": "https://arxiv.org/abs/2207.08506",
+    "authors": [
+      "Chanaprom Cholsuk",
+      "Sujin Suwanna",
+      "Tobias Vogl"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.08781",
+    "title": "Density Functional Theory Study of the Hydrogen Evolution Reaction in  Haeckelite Boron Nitride Quantum Dots",
+    "abstract": "To satisfy rising energy needs and to handle the forthcoming worldwide climate transformation, major research attention has been drawn to environmentally friendly, renewable, and abundant energy resources. Hydrogen plays an ideal and significant role is such resources, due to its non-carbon-based energy and production through clean energy. In this work, we have explored the catalytic activity of a newly predicted haeckelite boron nitride quantum dot (haeck-BNQD), constructed from the infinite BN sheet, for its utilization in hydrogen production. Density functional theory calculations are employed to investigate geometry optimization, electronic and adsorption mechanism of haeck-BNQD using Gaussian16 package, employing the hybrid B3LYP and wB97XD functionals, along with 6- 31G(d,p) basis set. A number of physical quantities such as HOMO/LUMO energies, the density of states, hydrogen atom adsorption energies, Mulliken populations, Gibbs free energy, work functions, overpotentials, etc., have been computed and analyzed in the context of the catalytic performance of haeck-BNQD for the hydrogen-evolution reaction (HER). Based on our calculations, we predict that the best catalytic performance will be obtained for H adsorption on top of the squares or the octagons of haeck-BNQD. We hope that our prediction of the most active catalytic sites on haeck-BNQD for HER will be put to test in future experiments. ",
+    "url": "https://arxiv.org/abs/2207.08781",
+    "authors": [
+      "Rupali Jindal",
+      "Vaishali Sharma",
+      "Alok Shukla"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.04090",
+    "title": "Learn-Morph-Infer: a new way of solving the inverse problem for brain  tumor modeling",
+    "abstract": " Title: Learn-Morph-Infer: a new way of solving the inverse problem for brain  tumor modeling ",
+    "url": "https://arxiv.org/abs/2111.04090",
+    "authors": [
+      "Ivan Ezhov",
+      "Kevin Scibilia",
+      "Katharina Franitza",
+      "Felix Steinbauer",
+      "Suprosanna Shit",
+      "Lucas Zimmer",
+      "Jana Lipkova",
+      "Florian Kofler",
+      "Johannes Paetzold",
+      "Luca Canalini",
+      "Diana Waldmannstetter",
+      "Martin Menten",
+      "Marie Metz",
+      "Benedikt Wiestler",
+      "Bjoern Menze"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.06705",
+    "title": "A compact butterfly-style silicon photonic-electronic neural chip for  hardware-efficient deep learning",
+    "abstract": " Comments: 17 pages,5 figures ",
+    "url": "https://arxiv.org/abs/2111.06705",
+    "authors": [
+      "Chenghao Feng",
+      "Jiaqi Gu",
+      "Hanqing Zhu",
+      "Zhoufeng Ying",
+      "Zheng Zhao",
+      "David Z. Pan",
+      "Ray T. Chen"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.07972",
+    "title": "Hints of the Quantum Nature of the Universe in Classical Electrodynamics  and Their Connection to the Electronic Charge and Dark Energy",
+    "abstract": " Comments: 19 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2112.07972",
+    "authors": [
+      "Vernon Cooray",
+      "Gerald Cooray",
+      "Marcos Rubinstein",
+      "Farhad Rachidi"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.10317",
+    "title": "Topologically-protected single-photon sources with topological slow  light photonic crystal waveguides",
+    "abstract": " Title: Topologically-protected single-photon sources with topological slow  light photonic crystal waveguides ",
+    "url": "https://arxiv.org/abs/2112.10317",
+    "authors": [
+      "Kazuhiro Kuruma",
+      "Hironobu Yoshimi",
+      "Yasutomo Ota",
+      "Ryota Katsumi",
+      "Masahiro Kakuda",
+      "Yasuhiko Arakawa",
+      "Satoshi Iwamoto"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.11230",
+    "title": "Mode mapping Q > 500 000 photonic crystal nanocavities using free  carrier absorption",
+    "abstract": " Title: Mode mapping Q > 500 000 photonic crystal nanocavities using free  carrier absorption ",
+    "url": "https://arxiv.org/abs/2202.11230",
+    "authors": [
+      "Karindra Perrier",
+      "Jerom Baas",
+      "Sebastiaan Greveling",
+      "Ga\u00eblle Lehoucq",
+      "Sylvain Combri\u00e9",
+      "Alfredo de Rossi",
+      "Sanli Faez",
+      "Allard P. Mosk"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.04770",
+    "title": "Optical and thermal analysis of the light-heat conversion process  employing an antenna-based hybrid plasmonic waveguide for HAMR",
+    "abstract": " Comments: 14 pages, 7 figures, and 3 tables. Published version: see this https URL Related works: see this https URL, this https URL, and this https URL Keywords: Integrated Optics; Components; Integrated Optics Devices; Surface Plasmons; Plasmonics ",
+    "url": "https://arxiv.org/abs/2205.04770",
+    "authors": [
+      "Nicol\u00e1s Abad\u00eda",
+      "Frank Bello",
+      "Chuan Zhong",
+      "Patrick Flanigan",
+      "David M. McCloskey",
+      "Christopher Wolf",
+      "Alexander Krichevsky",
+      "Daniel Wolf",
+      "Fenghua Zong",
+      "Alireza Samani",
+      "David V. Plant",
+      "John F. Donegan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.00146",
+    "title": "Algebraic quantum field theory for particles with internal structure",
+    "abstract": " Title: Algebraic quantum field theory for particles with internal structure ",
+    "url": "https://arxiv.org/abs/2206.00146",
+    "authors": [
+      "A. D. Alhaidari"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07112",
+    "title": "Quantum Simulation of Open Quantum Systems Using Density-Matrix  Purification",
+    "abstract": " Title: Quantum Simulation of Open Quantum Systems Using Density-Matrix  Purification ",
+    "url": "https://arxiv.org/abs/2207.07112",
+    "authors": [
+      "Anthony W. Schlimgen",
+      "Kade Head-Marsden",
+      "LeeAnn M. Sager-Smith",
+      "Prineha Narang",
+      "David A. Mazziotti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
