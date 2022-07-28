@@ -1,0 +1,365 @@
+[
+  {
+    "id": "arXiv:2207.13118",
+    "title": "Analytical solutions for Bloch waves in resonant phononic crystals: Deep  subwavelength energy splitting and mode steering between topologically  protected interfacial and edge states",
+    "abstract": "We derive analytical solutions, based on singular Green's functions, either for finite or infinite arrays of elastic beams - with circular cross section - atop an elastic plate. Our methodology is versatile and allows us to efficiently solve a range of problems regarding arrangements of multiple beams per primitive cell, over Bragg to deep-subwavelength scales; we cross-verify against finite element numerical simulations to gain further confidence in our approach which relies upon the hypothesis of Euler-Bernoulli beam theory considerably simplifying continuity conditions, such that each beam can be replaced by point forces and moments applied to the neutral plane of the plate. The representations of Green's functions by Fourier series or Fourier transforms readily follows, yielding efficient and accurate analytical schemes. The accuracy and flexibility of our solutions are demonstrated by engineering topologically non-trivial states, from primitive cells with broken spatial symmetries, following the phononic analogue of the Quantum Valley Hall effect. Topologically protected states are produced and coexist along: interfaces between adjoining chiral-mirrored bulk media and edges between one such chiral bulk and the bare elastic plate, allowing topological circuits to be designed with robust waveguiding; these topologically non-trivial states exist within near flexural resonances of the constituent beams of the phononic crystal, and hence can be tuned into a deep-subwavelength regime. ",
+    "url": "https://arxiv.org/abs/2207.13118",
+    "authors": [
+      "Richard Wiltshaw",
+      "Jacopo Maria De Ponti",
+      "Richard Vaughan Craster"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13187",
+    "title": "Superiorization as a novel strategy for linearly constrained inverse  radiotherapy treatment planning",
+    "abstract": "We apply the superiorization methodology to the intensity-modulated radiation therapy (IMRT) treatment planning problem. In superiorization, linear voxel dose inequality constraints are the fundamental modeling tool within which a feasibility-seeking projection algorithm will seek a feasible point. This algorithm is then perturbed with gradient descent steps to reduce a nonlinear objective function. Within the open-source inverse planning toolkit matRad, we implement a prototypical algorithmic framework for superiorization using the well-established Agmon, Motzkin, and Schoenberg (AMS) feasibility-seeking projection algorithm and common nonlinear dose optimization objective functions. Based on this prototype, we apply superiorization to intensity-modulated radiation therapy treatment planning and compare its performance with feasibility-seeking and nonlinear constrained optimization. For these comparisons, we use the TG119 water phantom and a head-and-neck patient of the CORT dataset. Bare feasibility-seeking with AMS confirms previous studies, showing it can find solutions that are nearly equivalent to those found by the established piece-wise least-squares optimization approach. The superiorization prototype solved the linearly constrained planning problem with similar performance to that of a general-purpose nonlinear constrained optimizer while showing smooth convergence in both constraint proximity and objective function reduction. Superiorization is a useful alternative to constrained optimization in radiotherapy inverse treatment planning. Future extensions with other approaches to feasibility-seeking, e.g., with dose-volume constraints and more sophisticated perturbations, may unlock its full potential for high-performant inverse treatment planning. ",
+    "url": "https://arxiv.org/abs/2207.13187",
+    "authors": [
+      "Florian Barkmann",
+      "Yair Censor",
+      "Niklas Wahl"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13215",
+    "title": "Ultrafast quantum dynamics driven by the strong space charge field of a  relativistic electron beam",
+    "abstract": "In this article, we illustrate how the Coulomb field of a highly relativistic electron beam can be shaped into a broadband pulse suitable for driving ultrafast and strong-field physics. In contrast to a solid-state laser, the Coulomb field creates a pulse which can be intrinsically synchronized with an x-ray free electron laser (XFEL), can have a cutoff frequency which is broadly tunable from THz to EUV, and which acts on target systems as a \"half-cycle\" impulse. Explicit examples are presented to emphasize how the unique features of this excitation can be a tool for novel science at XFEL facilities like the LCLS. ",
+    "url": "https://arxiv.org/abs/2207.13215",
+    "authors": [
+      "D.Cesar",
+      "A.Acharya",
+      "J.P.Cryan",
+      "A.Kartsev",
+      "M.F.Kling",
+      "A.M.Lindenberg",
+      "C.D.Pemmaraju",
+      "A.D.Poletayev",
+      "V.S.Yakovlev",
+      "A.Marinelli"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13322",
+    "title": "Chaotic time-delay signature suppression in lasers using  phase-controlled dual optical feedback",
+    "abstract": "We experimentally study a semiconductor laser subject to two optical feedbacks in a free space setup. We show that the time delay signature, manifesting itself in the chaotic output intensity, can be better suppressed than in a laser with single feedback. We demonstrate that the control of the feedback phase is essential to suppress the time delay signature, in contrast to the one-delay case, and that the feedback phase also impacts the chaotic bandwidth. By optimizing the feedback phase the time delay signature can be reduced by a factor of 2 while maintaining a large chaotic bandwidth. ",
+    "url": "https://arxiv.org/abs/2207.13322",
+    "authors": [
+      "Robbe de Mey",
+      "Spencer W. Jolly",
+      "Alexandre Locquet",
+      "Martin Virte"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13334",
+    "title": "Fast optical refocusing through multimode fiber bend using Cake-Cutting  Hadamard encoding algorithm to improve robustness",
+    "abstract": "Multimode fibres offer the advantages of high resolution and miniaturization over single mode fibers in the field of optical imaging. However, multimode fibre's imaging is susceptible to perturbations of MMF that can lead to secondary spatial distortions in the transmitted image. Perturbations include random disturbances in the fiber as well as environmental noise. Here, we exploit the fast focusing capability of the Cake-Cutting Hadamard coding algorithm to counteract the effects of perturbations and improve the system's robustness. Simulation shows that it can approach the theoretical enhancement at 2000 measurements. Experimental results show that the algorithm can help the system to refocus in a short time when MMFs are perturbed. This research will further contribute to using multimode fibres in medicine, communication, and detection. ",
+    "url": "https://arxiv.org/abs/2207.13334",
+    "authors": [
+      "Chuncheng Zhang",
+      "Zheyi Yao",
+      "Zhengyue Qin",
+      "Guohua Gu",
+      "Qian Chen",
+      "Zhihua Xie",
+      "Guodong Liu",
+      "Xiubao Sui"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13383",
+    "title": "Colorful Optical Vortices with White Light Illumination",
+    "abstract": "The orbital angular momentum (OAM) of light holds great promise for applications in optical communication, super-resolution imaging, and high-dimensional quantum computing. However, the spatio-temporal coherence of the light source has been essential for generating OAM beams, as incoherent ambient light would result in polychromatic and obscured OAM beams in the visible spectrum. Here, we extend the applications of OAM to ambient lighting conditions. By miniaturizing spiral phase plates and integrating them with structural color filters, we achieve spatio-temporal coherence using only an incoherent white light source. These optical elements act as building blocks that encode both color and OAM information in the form of colorful optical vortices. Thus, pairs of transparent substrates that contain matching positions of these vortices constitute a reciprocal optical lock and key system. Due to the multiple helical eigenstates of OAM, the pairwise coupling can be further extended to form a one-to-many matching and validation scheme. Generating and decoding colorful optical vortices with broadband white light could find potential applications in anti-counterfeiting, optical metrology, high-capacity optical encryption, and on-chip 3D photonic devices. ",
+    "url": "https://arxiv.org/abs/2207.13383",
+    "authors": [
+      "Hongtao Wang",
+      "Hao Wang",
+      "Qifeng Ruan",
+      "John You En Chan",
+      "Wang Zhang",
+      "Hailong Liu",
+      "Soroosh Daqiqeh Rezaei",
+      "Jonathan Trisno",
+      "Cheng-Wei Qiu",
+      "Min Gu",
+      "Joel K. W. Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13407",
+    "title": "High-accuracy optical clocks based on group 16-like highly charged ions",
+    "abstract": "We identify laser-accessible transitions in group 16-like highly charged ions as candidates for high-accuracy optical clocks, including S-, Se-, and Te-like systems. For this class of ions, the ground $^{3}P_{J}$ fine structure manifold exhibits irregular (nonmonotonic in $J$) energy ordering for large enough ionization degree. We consider the $|^3P_2\\rangle \\longleftrightarrow |^3P_0\\rangle$ (ground to first-excited state) electric quadrupole transition, performing relativistic many-body calculations of several atomic properties important for optical clock development. All ions discussed are suitable for production in small-scale ion sources and lend themselves to sympathetic cooling and quantum-logic readout with singly charged ions. ",
+    "url": "https://arxiv.org/abs/2207.13407",
+    "authors": [
+      "Saleh O. Allehabi",
+      "S. M. Brewer",
+      "V. A. Dzuba",
+      "V. V. Flambaum",
+      "K. Beloy"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13425",
+    "title": "Zero-threshold optical gain in electrochemically doped nanoplatelets and  the physics behind it",
+    "abstract": "Colloidal nanoplatelets (NPLs) are promising materials for lasing applications. The properties are usually discussed in the framework of 2D materials, where strong excitonic effects dominate the optical properties near the band edge. At the same time, NPLs have finite lateral dimensions such that NPLs are not true extended 2D structures. Here we study the photophysics and gain properties of CdSe/CdS/ZnS core-shell-shell NPLs upon electrochemical n doping and optical excitation. Steady-state absorption and PL spectroscopy show that excitonic effects are weaker in core-shell-shell nanoplatelets due to the reduced exciton binding energy. Transient absorption studies reveal a gain threshold of only one excitation per nanoplatelet. Using electrochemical n doping we observe the complete bleaching of the band edge exciton transitions. Combining electrochemical doping with transient absorption spectroscopy we demonstrate that the gain threshold is fully removed over a broad spectral range and gain coefficients of several thousand cm-1 are obtained. These doped NPLs are the best performing colloidal nanomaterial gain medium reported to date. The low exciton binding energy due to the CdS and ZnS shells, in combination with the relatively small lateral size of the NPLs, result in excited states that are effectively delocalised over the entire platelet. Core-shell NPLs are thus on the border between strong confinement in QDs and dominant Coulombic effects in 2D materials. We demonstrate that this limit is in effect ideal for optical gain, and that it results in an optimal lateral size of the platelets where the gain threshold per nm2 is minimal. ",
+    "url": "https://arxiv.org/abs/2207.13425",
+    "authors": [
+      "Jaco J. Geuchies",
+      "Robbert Dijkhuizen",
+      "Marijn Koel",
+      "Gianluca Grimaldi",
+      "Indy du Foss\u00e9",
+      "Wiel H. Evers",
+      "Zeger Hens",
+      "Arjan J. Houtepen"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13503",
+    "title": "Microcavities integrated in metal halide perovskite light-emitting  field-effect transistors",
+    "abstract": "Metal halide perovskites are materials that show unique characteristics for photovoltaics and light emission. Amplified spontaneous emission and stimulated emission has been shown with these materials, together with electroluminescence in light-emitting diodes and light-emitting transistors. An important achievement that combine stimulated emission and electroluminescence could be the fabrication of electrically driven metal halide perovskite lasers. In this work, the integration of metal halide perovskite light-emitting field-effect transistors with photonic microcavities is proposed. This can lead to the engineering of electrically driven lasers. The microcavities have been designed in order to have the cavity mode at 750 nm, which is the peak wavelength of the electroluminescent spectrum of recently reported MaPbI3-based electroluminescent devices. The optical properties of the photonic microcavities have been simulated by means of the transfer matrix method, considering the wavelength dependent refractive indexes of all the materials involved. The material for the gate is indium tin oxide, while different materials, either inorganic or organic, have been considered for the microcavity architectures. ",
+    "url": "https://arxiv.org/abs/2207.13503",
+    "authors": [
+      "Francesco Scotognella"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13578",
+    "title": "NLOS Transmission Analysis for Mobile SLIPT Using Resonant Beam",
+    "abstract": "Simultaneous lightwave information and power transfer (SLIPT) is a potential way to meet the demands of sustainable power supply and high-rate data transfer in next-generation networks. Although resonant beam-based SLIPT (RB-SLIPT) can realize high-power energy transfer, high-rate data transfer, human safety, and self-alignment simultaneously, mobile transmission channel (MTC) analysis under non-line-of-sight (NLOS) propagation has not been investigated. In this paper, we propose analytical models and simulation tools for reflector-assisted NLOS transmission of RB-SLIPT, where transmission loss and accurate beam field profile of NLOS MTC can be obtained with a receiver at arbitrary positions and attitude angles. We establish analytical models relying on full diffraction theory for beam propagation between tilted or off-axis planes. Then, we provide three numerical methods (i.e., NUFFT-based, cubic interpolation-based, and linear interpolation-based methods) in simulations. Moreover, to deal with the contradiction between limited computing memory and high sampling requirements for long-range transmission analysis, we propose a multi-hop sliding window approach, which can reduce the sampling number by a factor of thousands. Finally, numerical results demonstrate that RB-SLIPT can achieve $4$W charging power and $12$bit/s/Hz data rate over $2$m distance in NLOS scenarios. ",
+    "url": "https://arxiv.org/abs/2207.13578",
+    "authors": [
+      "Mingqing Liu",
+      "Shuaifan Xia",
+      "Mingliang Xiong",
+      "Mengyuan Xu",
+      "Qingwen Liu",
+      "Hao Deng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13601",
+    "title": "High-order harmonic generation by sub-cycle laser pulses and associated  scaling laws",
+    "abstract": "We studied the high-harmonic generation by the interaction of sub-cycle laser pulses with the He atom. The sub-cycle pulses are modeled using the complex source vector beam model, which is an exact solution to Maxwell's equations and accurately models the sub-cycle field profiles. We observed that the harmonic cutoff could be extended with the variation of the sub-cycle pulse duration, mainly because of the inherent blueshift associated with shorter pulses. The scaling laws for the harmonic yield and harmonic cutoff energy with pulse duration and fundamental driver wavelengths are also deduced. Furthermore, a detailed wavelet analysis of harmonic generation by sub-cycle pulses is carried out. The appropriate filtering and superposition of the harmonics gave rise to a single attosecond pulse of duration ~ 100 as. ",
+    "url": "https://arxiv.org/abs/2207.13601",
+    "authors": [
+      "Amol R. Holkundkar",
+      "Rambabu Rajpoot",
+      "Jayendra N. Bandyopadhyay"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13668",
+    "title": "Kerr optical parametric oscillation in a photonic crystal microring for  accessing the infrared",
+    "abstract": "Continuous wave optical parametric oscillation (OPO) provides a flexible approach for accessing mid-infrared wavelengths between 2 $\\mu$m to 5 $\\mu$m, but has not yet been integrated into silicon nanophotonics. Typically, Kerr OPO uses a single transverse mode family for pump, signal, and idler modes, and relies on a delicate balance to achieve normal (but close-to-zero) dispersion near the pump and the requisite higher-order dispersion needed for phase- and frequency-matching. Within integrated photonics platforms, this approach results in two major problems. First, the dispersion is very sensitive to geometry, so that small fabrication errors can have a large impact. Second, the device is susceptible to competing nonlinear processes near the pump. In this letter, we propose a flexible solution to infrared OPO that addresses these two problems, by using a silicon nitride photonic crystal microring (PhCR). The frequency shifts created by the PhCR bandgap enable OPO that would otherwise be forbidden. We report an intrinsic optical quality factor up to (1.2 $\\pm$ 0.1)$\\times$10$^6$ in the 2 $\\mu$m band, and use a PhCR ring to demonstrate an OPO with threshold power of (90 $\\pm$ 20) mW dropped into the cavity, with the pump wavelength at 1998~nm, and the signal and idler wavelengths at 1937 nm and 2063 nm, respectively. We further discuss how to extend OPO spectral coverage in the mid-infrared. These results establish the PhCR OPO as a promising route for integrated laser sources in the infrared. ",
+    "url": "https://arxiv.org/abs/2207.13668",
+    "authors": [
+      "Xiyuan Lu",
+      "Ashish Chanana",
+      "Feng Zhou",
+      "Marcelo Davanco",
+      "Kartik Srinivasan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13144",
+    "title": "Efficient Quantum Analytic Nuclear Gradients with Double Factorization",
+    "abstract": "Efficient representations of the Hamiltonian such as double factorization drastically reduce circuit depth or number of repetitions in error corrected and noisy intermediate scale quantum (NISQ) algorithms for chemistry. We report a Lagrangian-based approach for evaluating relaxed one- and two-particle reduced density matrices from double factorized Hamiltonians, unlocking efficiency improvements in computing the nuclear gradient and related derivative properties. We demonstrate the accuracy and feasibility of our Lagrangian-based approach to recover all off-diagonal density matrix elements in classically-simulated examples with up to 327 quantum and 18470 total atoms in QM/MM simulations, with modest-sized quantum active spaces. We show this in the context of the variational quantum eigensolver (VQE) in case studies such as transition state optimization, ab initio molecular dynamics simulation and energy minimization of large molecular systems. ",
+    "url": "https://arxiv.org/abs/2207.13144",
+    "authors": [
+      "Edward G. Hohenstein",
+      "Oumarou Oumarou",
+      "Rachael Al-Saadon",
+      "Gian-Luca R. Anselmetti",
+      "Maximilian Scheurer",
+      "Christian Gogolin",
+      "Robert M. Parrish"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13204",
+    "title": "Review of Radio Frequency Interference and Potential Impacts on the  CMB-S4 Cosmic Microwave Background Survey",
+    "abstract": "CMB-S4 will map the cosmic microwave background to unprecedented precision, while simultaneously surveying the millimeter-wave time-domain sky, in order to advance our understanding of cosmology and the universe. CMB-S4 will observe from two sites, the South Pole and the Atacama Desert of Chile. A combination of small- and large-aperture telescopes with hundreds of thousands of polarization-sensitive detectors will observe in several frequency bands from 20-300 GHz, surveying more than 50 percent of the sky to arcminute resolution with unprecedented sensitivity. CMB-S4 seeks to make a dramatic leap in sensitivity while observing across a broad range of largely unprotected spectrum which is increasingly being utilized for terrestrial and satellite transmissions. Fundamental aspects of CMB instrument technology leave them vulnerable to radio frequency interference (RFI) across a wide range of frequencies, including frequencies outside of their observing bands. Ground-based CMB instruments achieve their extraordinary sensitivities by deploying large focal planes of superconducting bolometers to extremely dry, high-altitude sites, with large fractional bandwidths, wide fields of view, and years of integration time. Suitable observing sites have historically offered significant protection from RFI, both naturally through their extremely remote locations as well as through restrictions on local emissions. Since the coupling mechanisms are complex, safe levels or frequencies of emission that would not interfere with CMB measurements cannot always be determined through straightforward calculations. We discuss models of interference for various types of RFI relevant to CMB-S4, mitigation strategies, and the potential impacts on survey sensitivity. ",
+    "url": "https://arxiv.org/abs/2207.13204",
+    "authors": [
+      "Darcy R. Barron",
+      "Amy N. Bender",
+      "Ian E. Birdwell",
+      "John E. Carlstrom",
+      "Jacques Delabrouille",
+      "Sam Guns",
+      "John Kovac",
+      "Charles R. Lawrence",
+      "Scott Paine",
+      "Nathan Whitehorn"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13225",
+    "title": "Quantum Simulation of Quantum Phase Transitions Using the Convex  Geometry of Reduced Density Matrices",
+    "abstract": "Transitions of many-particle quantum systems between distinct phases at absolute-zero temperature, known as quantum phase transitions, require an exacting treatment of particle correlations. In this work, we present a general quantum-computing approach to quantum phase transitions that exploits the geometric structure of reduced density matrices. While typical approaches to quantum phase transitions examine discontinuities in the order parameters, the origin of phase transitions -- their order parameters and symmetry breaking -- can be understood geometrically in terms of the set of two-particle reduced density matrices (2-RDMs). The convex set of 2-RDMs provides a comprehensive map of the quantum system including its distinct phases as well as the transitions connecting these phases. Because 2-RDMs can potentially be computed on quantum computers at non-exponential cost, even when the quantum system is strongly correlated, they are ideally suited for a quantum-computing approach to quantum phase transitions. We compute the convex set of 2-RDMs for a Lipkin-Meshkov-Glick spin model on IBM superconducting-qubit quantum processors. Even though computations are limited to few-particle models due to device noise, comparisons with a classically solvable 1000-particle model reveal that the finite-particle quantum solutions capture the key features of the phase transitions including the strong correlation and the symmetry breaking. ",
+    "url": "https://arxiv.org/abs/2207.13225",
+    "authors": [
+      "Samuel Warren",
+      "LeeAnn M. Sager-Smith",
+      "David A. Mazziotti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13387",
+    "title": "Surface quantum dots with pure, coherent, and blinking-free single  photon emission",
+    "abstract": "The surface of semiconductor nanostructures has a major impact on their electronic and optical properties. Disorder and defects in the surface layer typically cause degradation of charge carrier transport and radiative recombination dynamics. However, surface vicinity is inevitable for many scalable nano-optical applications. Epitaxially grown quantum dots are the best candidate for high-performance single photon emission and show great potential for quantum technologies. Yet, these emitters only reveal their excellent properties if they are deeply embedded in a semiconductor host. Until today, quantum dots close to surfaces yield weak, broad, and unstable emissions. Here, we show the complete restoration of optical properties from quantum dots grown directly on a semiconductor surface. The vanishing luminescence from the as-grown sample turns into bright, ultra-stable, coherent and blinking-free single photon emission after sulphur passivation. Under quasi-resonant excitation, single photons are generated with 98.8% purity, 77% indistinguishability, linewidths down to 4 $\\mu$eV and 99.69% persistency across 11 orders of magnitude in time. The emission is stable even after two years and when being subjected to nanomanufacturing processes. Some long-standing stumbling blocks for surface-dominated quantum dots are thereby removed, unveiling new possibilities for hybrid nano-devices and applications in quantum communication or sensing. ",
+    "url": "https://arxiv.org/abs/2207.13387",
+    "authors": [
+      "Xin Cao",
+      "Jingzhong Yang",
+      "Pengji Li",
+      "Tom Fandrich",
+      "Eddy P. Rugeramigabo",
+      "Vlastimil K\u0159\u00e1pek",
+      "Chenxi Ma",
+      "Frederik Benthin",
+      "Robert Keil",
+      "Benedikt Brechtken",
+      "Rolf J. Haug",
+      "Michael Oestreich",
+      "Yiteng Zhang",
+      "Constantin Schmidt",
+      "Zhao An",
+      "Michael Zopf",
+      "Fei Ding"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13653",
+    "title": "Programmable quantum simulations of bosonic systems with trapped ions",
+    "abstract": "Trapped atomic ion crystals are a leading platform for quantum simulations of spin systems, with programmable and long-range spin-spin interactions mediated by excitations of phonons in the crystal. We describe a complementary approach for quantum simulations of bosonic systems using phonons in trapped-ion crystals, here mediated by excitations of the trapped ion spins. The scheme features a high degree of programability over a dense graph of bosonic couplings and is suitable for hard problems such as boson sampling and simulations of long range bosonic and spin-boson Hamiltonians. ",
+    "url": "https://arxiv.org/abs/2207.13653",
+    "authors": [
+      "Or Katz",
+      "Christopher Monroe"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13680",
+    "title": "Entanglement between a trapped ion qubit and a 780-nm photon via quantum  frequency conversion",
+    "abstract": "Future quantum networks will require the ability to produce matter-photon entanglement at photon frequencies not naturally emitted from the matter qubit. This allows for a hybrid network architecture, where these photons can couple to other tools and quantum technologies useful for tasks such as multiplexing, routing, and storage, but which operate at wavelengths different from that of the matter qubit source, while also reducing network losses. Here, we demonstrate entanglement between a trapped ion and a 780 nm photon, a wavelength which can interact with neutral-Rb-based quantum networking devices. A single barium ion is used to produce 493 nm photons, entangled with the ion, which are then frequency converted to 780 nm while preserving the entanglement. We generate ion-photon entanglement with fidelities $\\geq$ 0.93(2) and $\\geq$ 0.84(2) for 493 nm and 780 nm photons respectively with the fidelity drop arising predominantly from a reduction in the signal-noise of our detectors at 780 nm compared with at 493 nm. ",
+    "url": "https://arxiv.org/abs/2207.13680",
+    "authors": [
+      "John Hannegan",
+      "James D. Siverns",
+      "Qudsia Quraishi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:1912.06772",
+    "title": "Twisting Optomechanical Cavity",
+    "abstract": " Title: Twisting Optomechanical Cavity ",
+    "url": "https://arxiv.org/abs/1912.06772",
+    "authors": [
+      "Daigo Oue",
+      "Mamoru Matsuo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2011.14709",
+    "title": "Monadic Pavlovian associative learning in a backpropagation-free  photonic network",
+    "abstract": " Comments: 24 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2011.14709",
+    "authors": [
+      "James Y. S. Tan",
+      "Zengguang Cheng",
+      "Xuan Li",
+      "Nathan Youngblood",
+      "Utku E. Ali",
+      "C. David Wright",
+      "Wolfram H. P. Pernice",
+      "Harish Bhaskaran"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
