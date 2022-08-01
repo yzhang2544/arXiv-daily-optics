@@ -1,0 +1,339 @@
+[
+  {
+    "id": "arXiv:2207.14293",
+    "title": "Image sensing with multilayer, nonlinear optical neural networks",
+    "abstract": "Optical imaging is commonly used for both scientific and technological applications across industry and academia. In image sensing, a measurement, such as of an object's position, is performed by computational analysis of a digitized image. An emerging image-sensing paradigm breaks this delineation between data collection and analysis by designing optical components to perform not imaging, but encoding. By optically encoding images into a compressed, low-dimensional latent space suitable for efficient post-analysis, these image sensors can operate with fewer pixels and fewer photons, allowing higher-throughput, lower-latency operation. Optical neural networks (ONNs) offer a platform for processing data in the analog, optical domain. ONN-based sensors have however been limited to linear processing, but nonlinearity is a prerequisite for depth, and multilayer NNs significantly outperform shallow NNs on many tasks. Here, we realize a multilayer ONN pre-processor for image sensing, using a commercial image intensifier as a parallel optoelectronic, optical-to-optical nonlinear activation function. We demonstrate that the nonlinear ONN pre-processor can achieve compression ratios of up to 800:1 while still enabling high accuracy across several representative computer-vision tasks, including machine-vision benchmarks, flow-cytometry image classification, and identification of objects in real scenes. In all cases we find that the ONN's nonlinearity and depth allowed it to outperform a purely linear ONN encoder. Although our experiments are specialized to ONN sensors for incoherent-light images, alternative ONN platforms should facilitate a range of ONN sensors. These ONN sensors may surpass conventional sensors by pre-processing optical information in spatial, temporal, and/or spectral dimensions, potentially with coherent and quantum qualities, all natively in the optical domain. ",
+    "url": "https://arxiv.org/abs/2207.14293",
+    "authors": [
+      "Tianyu Wang",
+      "Mandar M. Sohoni",
+      "Logan G. Wright",
+      "Martin M. Stein",
+      "Shi-Yuan Ma",
+      "Tatsuhiro Onodera",
+      "Maxwell G. Anderson",
+      "Peter L. McMahon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14424",
+    "title": "Phase retrieval of programmable photonic integrated circuits based on an  on-chip fractional-delay reference path",
+    "abstract": "Programmable photonic integrated circuits (PICs), offering diverse signal processing functions within a single chip, are promising solutions for applications ranging from optical communications to artificial intelligence. While the scale and complexity of programmable PICs is increasing, the characterization, and thus calibration, of them becomes increasingly challenging. Here we demonstrate a phase retrieval method for programmable PICs using an on-chip fractional-delay reference path. The impulse response of the chip can be uniquely and precisely identified from only the insertion loss using a standard complex Fourier transform. We demonstrate our approach experimentally with a 4-tap finite-impulse-response chip. The results match well with expectations and verifies our approach as effective for individually determining the taps' weights without the need for additional ports and photodiodes. ",
+    "url": "https://arxiv.org/abs/2207.14424",
+    "authors": [
+      "Xingyuan Xu",
+      "Guanghui Ren",
+      "Aditya Dubey",
+      "Tim Feleppa",
+      "Xumeng Liu",
+      "Andreas Boes",
+      "Arnan Mitchell",
+      "Arthur J. Lowery"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14426",
+    "title": "Recirculating Light Phase Modulator",
+    "abstract": "High efficiency and a compact footprint are desired properties for electro-optic modulators. In this paper, we propose, theoretically investigate and experimentally demonstrate a recirculating phase modulator, which increases the modulation efficiency by modulating the optical field several times in a non-resonant waveguide structure. The 'recycling' of light is achieved by looping the optical path that exits the phase modulator back and coupling it to a higher order waveguide mode, which then repeats its passage through the phase modulator. By looping the light back twice, we were able to demonstrate a recirculating phase modulator that requires nine times lower power to generate the same modulation index of a single pass phase modulator. This approach of modulation efficiency enhancement is promising for the design of advanced tunable electro optical frequency comb generators and other electro-optical devices with defined operational frequency bandwidths. ",
+    "url": "https://arxiv.org/abs/2207.14426",
+    "authors": [
+      "Haijin Huang",
+      "Xu Han",
+      "Armandas Bal\u010dytis",
+      "Aditya Dubey",
+      "Andreas Boes",
+      "Thach G. Nguyen",
+      "Guanghui Ren",
+      "Mengxi Tan",
+      "Yonghui Tian",
+      "Arnan Mitchell"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14453",
+    "title": "Coherent resonant transmission",
+    "abstract": "The reflectionless coherent light transport in the coupled resonator array is investigated in the presence of intra-resonator intermodal coupling between the clockwise and counterclockwise modes, which plays a constructive role for modulating the light flow rather than inducing the unwanted backscattering. The interplay between the intra-resonator intermodal coupling and the inter-resonator couplings enables the coherent resonant transmission (CRT) of the properly superposed injection constituted by the clockwise and counterclockwise modes. The superposition coefficients of the initial excitation determine the mode chirality of the resonant transmission. Sequentially experiencing the time-reversal process of CRT and the CRT realizes the perfect mode conversion that the mode chirality of the injection wave switches into the opposite after resonant transmission. Our findings on the coherent light transport provide insights for the control and manipulation of light field in the integrated photonics, nanophotonics, chiral optics, and beyond. ",
+    "url": "https://arxiv.org/abs/2207.14453",
+    "authors": [
+      "H. S. Xu",
+      "L. Jin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14512",
+    "title": "Acoustic radiation force and torque on red blood cells in viscous and  viscoelastic fluids",
+    "abstract": "A blood vessel can be considered as a microfluidic system where the red blood cells (RBCs) are floating inside it. While an ultrasound wave is stablished, all microparticles are enforced by acoustophoretic forces. In this contribution, the acoustic radiation force and torque applied to each particle in one and two-particle systems including spheres and also RBCs are studied. The surrounding fluid in microfluidic devices is often water, while in our study is viscous and then viscoelastic fluid. In one-particle systems, we obtain that the radiation force on a sphere is greater than on an RBC of the same size. Furthermore, for both viscous and viscoelastic fluids the force increases (decreases) by fluid's viscosity (relaxation time). In two-particle systems, the total radiation force applied to each particle consists of primary and interaction forces. The acoustic interaction forces between two spheres and also two RBCs in viscous fluids with various viscosities are examined. The force is a decreasing exponential function of the inter-particle distance. In the following, for a definite inter-particle distance, we obtain the functionality of the force between two RBCs in terms of viscosity and angle of rotation in a viscous fluid. The obtained equaton indicates that the acoustic interaction force decreases linearly by the rotation angle. Then, the interaction force in viscoelastic fluids is obtained as a function of interparticle distance, rotation angle and rheological parameters such as viscosity and relaxation time. Our findings represent that the force is a power-law function of interparticle distance and an exponential function of rotation angle. Finally, the acoustic interaction torque on each RBC in viscous and viscoelastic fluids is obtained as a sinusoidal function of rotation angle. ",
+    "url": "https://arxiv.org/abs/2207.14512",
+    "authors": [
+      "Fateme Eslami",
+      "Hossein Hamzehpour",
+      "Sanaz Derikvandi",
+      "S. Amir Bahrani"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14528",
+    "title": "The electronic and thermal response of low electron density Drude  materials to ultrafast optical illumination",
+    "abstract": "Many low electron density Drude (LEDD) materials such as transparent conductive oxide or nitrides have recently attracted interest as alternative plasmonic materials and future nonlinear optical materials. However, the rapidly growing number of experimental studies has so far not been supported by a systematic theory of the electronic, thermal and optical response of these materials. Here, we use the techniques previously derived in the context of noble metals to go beyond a simple electromagnetic modelling of low electron density Drude materials and provide an electron dynamics model for their electronic and thermal response. We find that the low electron density makes momentum conservation in electron-phonon interactions more important, more complex and more sensitive to the temperatures compared with noble metals; moreover, we find that electron-electron interactions are becoming more effective due to the weaker screening. Most importantly, we show that the low electron density makes the electron heat capacity much smaller than in noble metals, such that the electrons in LEDD materials tend to heat up much more and cool down faster compared to noble metals. While here we focus on indium tin oxide (ITO), our analytic results can be easily applied to any LEDD materials. ",
+    "url": "https://arxiv.org/abs/2207.14528",
+    "authors": [
+      "Subhajit Sarkar",
+      "Ieng Wai Un",
+      "Yonatan Sivan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14547",
+    "title": "Linearization of a dual-parallel Mach-Zehnder modulator using optical  carrier band processing",
+    "abstract": "The linearization of a microwave photonic link based on a dual-parallel Mach-Zehnder modulator is theoretically described and experimentally demonstrated. Up to four different radio frequency tones are considered in the study, which allow us to provide a complete mathematical description of all third-order distortion terms that arise at the photodetector. Simulations show that a complete linearization is obtained by properly tuning the DC bias voltages and processing the optical carrier and. As a result, a suppression of 17 dBm is experimentally obtained for the third-order distortion terms, as well as a SDFR improvement of 3 dB. The proposed linearization method enables the simultaneous modulation of four different signals without the need of additional radio frequency components, which is desirable to its implementation in integrated optics and makes it suitable for several applications in microwave photonics. ",
+    "url": "https://arxiv.org/abs/2207.14547",
+    "authors": [
+      "Luis Torrijos-Mor\u00e1n",
+      "Cristina Catal\u00e1-Lahoz",
+      "Daniel P\u00e9rez-L\u00f3pez",
+      "Li Xu",
+      "Wang Tianxiang",
+      "Diego P\u00e9rez-Galacho"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14715",
+    "title": "The Valence-Bond Quantum Monte Carlo Method",
+    "abstract": "The VB-QMC method is presented in this chapter. It consists of using in quantum Monte Carlo (QMC) approaches with a wave function expressed as a usually short expansion of classical Valence-Bond (VB) structures supplemented by a Jastrow factor to account for dynamical correlation. Two variants exist: the VB-VMC (using variational Monte Carlo) and VB-DMC (using diffusion Monte Carlo) methods. QMC algorithms circumvent the notorious non-orthogonality issue of classical VB approaches, and allow highly efficient calculations on massively parallel machines. Calculation of VB weights and resonance energies are possible at the VB-VMC level, which makes VB-VMC a correlated method retaining all the interpretative capabilities of classical VB methods. Several recent applications are shown to illustrate the potential of this method as a modern alternative to classical VB methods to study ground and excited states of molecules. ",
+    "url": "https://arxiv.org/abs/2207.14715",
+    "authors": [
+      "Slavko Radenkovi\u0107",
+      "Dominik Domin",
+      "Julien Toulouse",
+      "Beno\u00eet Bra\u00efda"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14731",
+    "title": "Room Temperature DNP of Diamond Powder Using Frequency Modulation",
+    "abstract": "Dynamic nuclear polarization (DNP) is a method of enhancing NMR signals via the transfer of polarization from electron spins to nuclear spins using on-resonance microwave (MW) irradiation. In most cases, monochromatic continuous-wave (MCW) MW irradiation is used. Recently, several groups have shown that the use of frequency modulation of the MW irradiation can result in an additional increase in DNP enhancement above that obtained with MCW. The effect of frequency modulation on the solid effect (SE) and the cross effect (CE) has previously been studied using the stable organic radical 4-hydroxy TEMPO (TEMPOL) at temperatures under 20 K. Here, in addition to the SE and CE, we discuss the effect of frequency modulation on the Overhauser effect (OE) and the truncated CE (tCE) in the room-temperature $^{13}$C-DNP of diamond powders. We recently showed that diamond powders can exhibit multiple DNP mechanisms simultaneously due to the heterogeneity of P1 (substitutional nitrogen) environments within diamond crystallites. We explore the enhancement obtained via the two most important parameters for frequency modulation 1) Modulation frequency, $f_{m}$ (how fast the modulation frequency is varied) and 2) Modulation amplitude, $\\Delta\\omega$ (the magnitude of the change in microwave frequency) influence the enhancement obtained via each mechanism. Frequency modulation during DNP not only allows us to improve DNP enhancement, but also gives us a way to control which DNP mechanism is most active. By choosing the appropriate modulation parameters, we can selectively enhance some mechanisms while simultaneously suppressing others. ",
+    "url": "https://arxiv.org/abs/2207.14731",
+    "authors": [
+      "Daphna Shimon",
+      "Kelly A. Cantwell",
+      "Linta Joseph",
+      "Chandrasekhar Ramanathan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14749",
+    "title": "Tail-wave-assisted Positron Acceleration in Nonlinear Laser Plasma  Wakefields",
+    "abstract": "Relativistic laser wakefield acceleration is characterized by an unsurpassed accelerating gradient, which is very suitable for electron acceleration over short distances and could be a promising candidate for next-generation compact accelerators. However, using this technique for positron acceleration is still challenging because positively charged particles are naturally defocused in nonlinear wakefields. Here we propose and numerically demonstrate a scheme to accelerate an externally injected positron beam in a nonlinear laser wakefield in a regime where a tail wave is formed behind density cusps of the wakefield. This tail wave can provide a focusing force in addition to longitudinal acceleration for the positrons. Three-dimensional particle-in-cell simulations demonstrate that a trapping efficiency of positrons of nearly 100% in the nonlinear wakefield is possible. This scheme may open a simple way for compact positron acceleration to multi-100 MeV with terawatt-class laser systems at high repetition rates without the need for special laser modes and plasma structures. ",
+    "url": "https://arxiv.org/abs/2207.14749",
+    "authors": [
+      "Wei-Yuan Liu",
+      "Xing-Long Zhu",
+      "Min Chen",
+      "Su-Ming Weng",
+      "Feng He",
+      "Zheng-Ming Sheng",
+      "Jie Zhang"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14763",
+    "title": "Mitigation of the onset of hosing in the linear regime through plasma  frequency detuning",
+    "abstract": "The hosing instability poses a feasibility risk for plasma-based accelerator concepts. We show that the growth rate for beam hosing in the linear regime (which is relevant for concepts that use a long driver) is a function of the centroid perturbation wavelength. We demonstrate how this property can be used to damp centroid oscillations by detuning the plasma response sufficiently early in the development of the instability. We also develop a new theoretical model for the early evolution of hosing. These findings have implications for the general control of an instability's growth rate. ",
+    "url": "https://arxiv.org/abs/2207.14763",
+    "authors": [
+      "Mariana Moreira",
+      "Patric Muggli",
+      "Jorge Vieira"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14780",
+    "title": "D-Flat: A Differentiable Flat-Optics Framework for End-to-End  Metasurface Visual Sensor Design",
+    "abstract": "Optical metasurfaces are planar substrates with custom-designed, nanoscale features that selectively modulate incident light with respect to direction, wavelength, and polarization. When coupled with photodetectors and appropriate post-capture processing, they provide a means to create computational imagers and sensors that are exceptionally small and have distinctive capabilities. We introduce D-Flat, a framework in TensorFlow that renders physically-accurate images induced by metasurface optical systems. This framework is fully differentiable with respect to metasurface shape and post-capture computational parameters and allows simultaneous optimization with respect to almost any measure of sensor performance. D-Flat enables simulation of millimeter to centimeter diameter metasurfaces on commodity computers, and it is modular in the sense of accommodating a variety of wave optics models for scattering at the metasurface and for propagation to photosensors. We validate D-Flat against symbolic calculations and previous experimental measurements, and we provide simulations that demonstrate its ability to discover novel computational sensor designs for two applications: single-shot depth sensing and single-shot spatial frequency filtering. ",
+    "url": "https://arxiv.org/abs/2207.14780",
+    "authors": [
+      "Dean S. Hazineh",
+      "Soon Wei Daniel Lim",
+      "Zhujun Shi",
+      "Federico Capasso",
+      "Todd Zickler",
+      "Qi Guo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14322",
+    "title": "Simulation of interaction-induced chiral topological dynamics on a  digital quantum computer",
+    "abstract": "Chiral edge states are highly sought-after as paradigmatic topological states relevant to both quantum information processing and dissipationless electron transport. Using superconducting transmon-based quantum computers, we demonstrate chiral topological propagation that is induced by suitably designed interactions, instead of flux or spin-orbit coupling. Also different from conventional 2D realizations, our effective Chern lattice is implemented on a much smaller equivalent 1D spin chain, with sequences of entangling gates encapsulating the required time-reversal breaking. By taking advantage of the quantum nature of the platform, we circumvented difficulties from the limited qubit number and gate fidelity in present-day noisy intermediate-scale quantum (NISQ)-era quantum computers, paving the way for the quantum simulation of more sophisticated topological states on very rapidly developing quantum hardware. ",
+    "url": "https://arxiv.org/abs/2207.14322",
+    "authors": [
+      "Jin Ming Koh",
+      "Tommy Tai",
+      "Ching Hua Lee"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14354",
+    "title": "Protecting information in a parametrically driven hybrid quantum system",
+    "abstract": "The transfer and storage of quantum information in a hybrid quantum system, consisting of an ensemble of atoms or spins interacting with a cavity, is adversely affected by the inhomogeneity of the spins, which negates the coherent exchange of excitations between the physical components. Using a full quantum treatment based on variational renormalization group, we show how quantum information encoded in the states of a parametrically driven hybrid system is strongly protected against any decoherence that may arise due to the inhomogeneity in the spin-ensemble. ",
+    "url": "https://arxiv.org/abs/2207.14354",
+    "authors": [
+      "Siddharth Tiwary",
+      "Himadri Shekhar Dhar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14610",
+    "title": "Low-frequency Phonon at Perovskite Oxide Interface Studied by  Surface-specific Nonlinear Terahertz Spectroscopy",
+    "abstract": "The low-frequency collective excitations, which often occur in the terahertz or multi-terahertz spectral region, play an essential role in many novel emergent phenomena. Despite numerous studies in the bulk, detection of such excitations at interfaces remains challenging owing to the lack of feasible experimental techniques. Here, we show that interfacial low-frequency modes can be characterized using surface-specific nonlinear terahertz spectroscopy. This technique uses intra-pulse difference frequency mixing (DFM) process that can extend the second-order optical spectroscopy to the terahertz range. As a demonstration, the surface phonon of SrTiO3(001) at 2.8 THz was successfully measured. This surface polarization originates from the excess of oxygen vacancies or charge transfer at the interface. We have also developed an analytical procedure for remote measurement of the interfacial potential of complex oxides in a practical environment. Our method offers new opportunities for in situ studies of the low-frequency excitations at interfaces in broad disciplines. ",
+    "url": "https://arxiv.org/abs/2207.14610",
+    "authors": [
+      "Jiaming Le",
+      "Yudan Su",
+      "Junying Ma",
+      "Long Cheng",
+      "Yuen Ron Shen",
+      "Xiaofang Zhai",
+      "Chuanshan Tian"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14706",
+    "title": "Ultratunable quantum frequency conversion in photonic crystal fiber",
+    "abstract": "Quantum frequency conversion of single photons between wavelength bands is a key enabler to realizing widespread quantum networks. We demonstrate the quantum frequency conversion of a heralded 1551 nm photon to any wavelength within an ultrabroad (1226 - 1408 nm) range in a group-velocity-symmetric photonic crystal fiber (PCF), covering over 150 independent frequency bins. The target wavelength is controlled by tuning only a single pump laser wavelength. We find internal, and total, conversion efficiencies of 12(1)% and 1.4(2)%, respectively. For the case of converting 1551 nm to 1300 nm we measure a heralded $g^{(2)}(0) = 0.25(6)$ for converted light from an input with $g^{(2)}(0) = 0.034(8)$. We expect that this PCF can be used for a myriad of quantum networking tasks. ",
+    "url": "https://arxiv.org/abs/2207.14706",
+    "authors": [
+      "K. A. G. Bonsma-Fisher",
+      "P. J. Bustard",
+      "C. Parry",
+      "T. A. Wright",
+      "D. G. England",
+      "B. J. Sussman",
+      "P. J. Mosley"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.07834",
+    "title": "Applying Intelligent Reflector Surfaces for Detecting Violent Expiratory  Aerosol Cloud using Terahertz Signals",
+    "abstract": " Comments: 7 pages, 6 figures. This work has been submitted to the IEEE for possible publication ",
+    "url": "https://arxiv.org/abs/2108.07834",
+    "authors": [
+      "Harun \u0160iljak",
+      "Michael Taynnan Barros",
+      "Nathan D'Arcy",
+      "Daniel Perez Martins",
+      "Nicola Marchetti",
+      "Sasitharan Balasubramaniam"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Emerging Technologies (cs.ET)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.01462",
+    "title": "Demonstration of room-temperature continuous-wave operation of  InGaAs/AlGaAs quantum well lasers directly grown on on-axis silicon (001)",
+    "abstract": " Comments: 9 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2204.01462",
+    "authors": [
+      "Chen Jiang",
+      "Hao Liu",
+      "Jun Wang",
+      "Xiaomin Ren",
+      "Qi Wang",
+      "Zhuoliang Liu",
+      "Bojie Ma",
+      "Kai Liu",
+      "Ren Ren",
+      "Yidong Zhang",
+      "Shiwei Cai",
+      "Yongqing Huang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.04274",
+    "title": "Effectiveness of an online homework tutorial about changing basis in  quantum mechanics",
+    "abstract": " Title: Effectiveness of an online homework tutorial about changing basis in  quantum mechanics ",
+    "url": "https://arxiv.org/abs/2206.04274",
+    "authors": [
+      "Giaco Corsiglia",
+      "Steven Pollock",
+      "Bethany Wilcox"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  }
+]
