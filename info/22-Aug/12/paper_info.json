@@ -1,0 +1,368 @@
+[
+  {
+    "id": "arXiv:2208.05480",
+    "title": "NIDN: Neural Inverse Design of Nanostructures",
+    "abstract": "In the recent decade, computational tools have become central in material design, allowing rapid development cycles at reduced costs. Machine learning tools are especially on the rise in photonics. However, the inversion of the Maxwell equations needed for the design is particularly challenging from an optimization standpoint, requiring sophisticated software. We present an innovative, open-source software tool called Neural Inverse Design of Nanostructures (NIDN) that allows designing complex, stacked material nanostructures using a physics-based deep learning approach. Instead of a derivative-free or data-driven optimization or learning method, we perform a gradient-based neural network training where we directly optimize the material and its structure based on its spectral characteristics. NIDN supports two different solvers, rigorous coupled-wave analysis and a finite-difference time-domain method. The utility and validity of NIDN are demonstrated on several synthetic examples as well as the design of a 1550 nm filter and anti-reflection coating. Results match experimental baselines, other simulation tools, and the desired spectral characteristics. Given its full modularity in regard to network architectures and Maxwell solvers as well as open-source, permissive availability, NIDN will be able to support computational material design processes in a broad range of applications. ",
+    "url": "https://arxiv.org/abs/2208.05480",
+    "authors": [
+      "Pablo G\u00f3mez",
+      "H\u00e5vard Hem Toftevaag",
+      "Torbj\u00f8rn Bogen-St\u00f8ro",
+      "Derek Aranguren van Egmond",
+      "Jos\u00e9 M. Llorens"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05533",
+    "title": "How Thin and Efficient Can a Metasurface Reflector Be? Universal Bounds  on Reflection for Any Direction and Polarization",
+    "abstract": "Light reflection plays a crucial role in a number of modern technologies. In this paper, analytical expressions for maximal reflected power in any direction and for any polarization are given for generic planar structures made of a single material represented by a complex scalar susceptibility. The problem of optimal light-matter interactions to maximize reflections is formulated as the solution of an optimization problem in terms of the induced currents, subject to energy conservation and passivity, which admits a global upper bound by using Lagrangian duality. The derived upper bounds apply to a broad range of planar structures, including metasurfaces, gratings, homogenized films, photonic crystal slabs, and more generally, any inhomogeneous planar structure irrespective of its geometrical details. These bounds also set the limit on the minimum possible thickness, for a given lossy material, to achieve a desired reflectance. Moreover, our results allow discovering parameter regions where large improvements in the efficiency of a reflective structure are possible compared to existing designs. Examples are given of the implications of these findings for the design of superior and compact reflective components made of real, imperfect (i.e., lossy) materials, such as ultra-thin and efficient gratings, polarization converters, and light-weight mirrors for solar/laser sails. ",
+    "url": "https://arxiv.org/abs/2208.05533",
+    "authors": [
+      "Mohamed Ismail Abdelrahman",
+      "Francesco Monticone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05556",
+    "title": "Tightly confining lithium niobate photonic integrated circuits and  lasers",
+    "abstract": "Photonic integrated circuits are indispensible for data transmission within modern datacenters and pervade into multiple application spheres traditionally limited for bulk optics, such as LiDAR and biosensing. Of particular interest are ferroelectrics such as Lithium Niobate, which exhibit a large electro-optical Pockels effect enabling ultrafast and efficient modulation, but are difficult to process via dry etching . For this reason, etching tightly confining waveguides - routinely achieved in silicon or silicon nitride - has not been possible. Diamond-like carbon (DLC) was discovered in the 1950s and is a material that exhibits an amorphous phase, excellent hardness, and the ability to be deposited in nano-metric thin films. It has excellent thermal, mechanical, and electrical properties, making it an ideal protective coating. Here we demonstrate that DLC is also a superior material for the manufacturing of next-generation photonic integrated circuits based on ferroelectrics, specifically Lithium Niobate on insulator (LNOI). Using DLC as a hard mask, we demonstrate the fabrication of deeply etched, tightly confining, low loss photonic integrated circuits with losses as low as 5.6 dB/m. In contrast to widely employed ridge waveguides, this approach benefits from a more than 1 order of magnitude higher area integration density while maintaining efficient electro-optical modulation, low loss, and offering a route for efficient optical fiber interfaces. As a proof of concept, we demonstrate a frequency agile hybrid integrated III-V Lithium Niobate based laser with kHz linewidth and tuning rate of 0.7 Peta-Hertz per second with excellent linearity and CMOS-compatible driving voltage. Our approach can herald a new generation of tightly confining ferroelectric photonic integrated circuits. ",
+    "url": "https://arxiv.org/abs/2208.05556",
+    "authors": [
+      "Zihan Li",
+      "Rui Ning Wang",
+      "Grigorii Lihachev",
+      "Zelin Tan",
+      "Viacheslav Snigirev",
+      "Mikhail Churaev",
+      "Nikolai Kuznetsov",
+      "Anat Siddharth",
+      "Mohammad J. Bereyhi",
+      "Johann Riemensberger",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05566",
+    "title": "Remote non-invasive Fabry-Perot cavity spectroscopy for label-free  biosensing",
+    "abstract": "Label-free photonic bio-sensors utilise highly-sensitive properties of optical devices to monitor target molecule concentrations. Compared to label-based sensors, they are often faster and much easier to operate. Especially interesting are Fabry-Perot cavity sensors, whose transmission and reflection rates can be strongly affected by the presence of target molecules. Up to now, intrinsic and extrinsic Fabry-Perot cavity sensors have been considered with analytes either being placed inside the resonator or coupled to evanescent fields on the outside. In this paper we show that Fabry-Perot cavities can also be used to measure molecule concentrations non-invasively, i.e. over some distances, by exploring the frequency-dependent reflection rates of atomic particles with optical transitions. Since the target molecules and the resonator do not have to be in direct contact, we refer to this type of sensing as remote Fabry-Perot cavity spectroscopy. ",
+    "url": "https://arxiv.org/abs/2208.05566",
+    "authors": [
+      "Abeer Al Ghamdi",
+      "Benjamin Dawson",
+      "Gin Jose",
+      "Almut Beige"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05569",
+    "title": "Triangular Quantum Photonic Devices with Integrated Detectors in Silicon  Carbide",
+    "abstract": "Triangular cross-section SiC photonic devices have been studied as an efficient and scalable route for integration of color centers into quantum hardware. In this work, we explore efficient collection and detection of color center emission in a triangular cross-section SiC waveguide by introducing a photonic crystal mirror on its one side and a superconducting nanowire single photon detector (SNSPD) on the other. Our modeled triangular cross-section devices with a randomly positioned emitter have a maximum coupling efficiency of 89 % into the desired optical mode and a high coupling efficiency (> 75 %) in more than half of the configurations. For the first time, NbTiN thin films were sputtered on 4H-SiC and the electrical and optical properties of the thin films were measured. We found that the transport properties are similar to the case of NbTiN on SiO2 substrates, while the extinction coefficient is up to 50 % higher for 1680 nm wavelength. Finally, we performed Finite-Difference Time-Domain simulations of triangular cross-section waveguide integrated with an SNSPD to identify optimal nanowire geometries for efficient detection of light from TE and TM polarized modes. ",
+    "url": "https://arxiv.org/abs/2208.05569",
+    "authors": [
+      "Sridhar Majety",
+      "Stefan Strohauer",
+      "Pranta Saha",
+      "Fabian Wietschorke",
+      "Jonathan J. Finley",
+      "Kai M\u00fcller",
+      "Marina Radulaski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05637",
+    "title": "Scalable neural quantum states architecture for quantum chemistry",
+    "abstract": "Variational optimization of neural-network representations of quantum states has been successfully applied to solve interacting fermionic problems. Despite rapid developments, significant scalability challenges arise when considering molecules of large scale, which correspond to non-locally interacting quantum spin Hamiltonians consisting of sums of thousands or even millions of Pauli operators. In this work, we introduce scalable parallelization strategies to improve neural-network-based variational quantum Monte Carlo calculations for ab-initio quantum chemistry applications. We establish GPU-supported local energy parallelism to compute the optimization objective for Hamiltonians of potentially complex molecules. Using autoregressive sampling techniques, we demonstrate systematic improvement in wall-clock timings required to achieve CCSD baseline target energies. The performance is further enhanced by accommodating the structure of resultant spin Hamiltonians into the autoregressive sampling ordering. The algorithm achieves promising performance in comparison with the classical approximate methods and exhibits both running time and scalability advantages over existing neural-network based methods. ",
+    "url": "https://arxiv.org/abs/2208.05637",
+    "authors": [
+      "Tianchen Zhao",
+      "James Stokes",
+      "Shravan Veerapaneni"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05717",
+    "title": "Beam test results of 25 $\u03bc$m and 35 $\u03bc$m thick FBK UFSD]{Beam test  results of 25 $\u03bc$m and 35 $\u03bc$m thick FBK ultra fast silicon detectors",
+    "abstract": "This paper presents the measurements on first very thin Ultra Fast Silicon Detectors (UFSDs) produced by Fondazione Bruno Kessler; the data have been collected in a beam test setup at the CERN PS, using beam with a momentum of 12 GeV/c. UFSDs with a nominal thickness of 25 $\\mu$m and 35 $\\mu$m and an area of 1 $\\times$ 1 $\\text{mm}^2$ have been considered, together with an additional HPK 50-$\\mu$m thick sensor, taken as reference. Their timing performances have been studied as a function of the applied voltage and gain. A time resolution of about 25 ps and of 22 ps at a voltage of 120 V and 240 V has been obtained for the 25 and 35 $\\mu$m thick UFSDs, respectively. ",
+    "url": "https://arxiv.org/abs/2208.05717",
+    "authors": [
+      "F. Carnesecchi",
+      "S. Strazzi",
+      "A. Alici",
+      "R. Arcidiacono",
+      "G. Borghi",
+      "M. Boscardin",
+      "N. Cartiglia",
+      "M. Centis Vignali",
+      "D. Cavazza",
+      "G.-F. Dalla Betta",
+      "S. Durando",
+      "M. Ferrero",
+      "F. Ficorella",
+      "O. Hammad Ali",
+      "M. Mandurrino",
+      "A. Margotti",
+      "L. Menzio",
+      "R. Nania",
+      "L. Pancheri",
+      "G. Paternoster",
+      "G. Scioli",
+      "F. Siviero",
+      "V. Sola",
+      "M. Tornago",
+      "G. Vignola"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05793",
+    "title": "Predicting nonlinear optical scattering with physics-driven neural  networks",
+    "abstract": "Deep neural networks trained on physical losses are emerging as promising surrogates of nonlinear numerical solvers. These tools can predict solutions of Maxwell's equations and compute gradients of output fields with respect to the material and geometrical properties in millisecond times which makes them attractive for inverse design or inverse scattering applications. Here we develop a tunable version of MaxwellNet, a physics driven neural network able to compute light scattering from inhomogenous media with a size comparable with the incident wavelength in the presence of the optical Kerr effect. The weights of the network are dynamically adjusted to take into account the intensity-dependent refractive index of the material. ",
+    "url": "https://arxiv.org/abs/2208.05793",
+    "authors": [
+      "Carlo Gigli Amirhossein Saba Ahmed Bassam Ayoub Demetri Psaltis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05841",
+    "title": "Optical Non-Reciprocity in Coupled Resonators Inspired by Photosynthetic  Energy Transfer",
+    "abstract": "Inspired by the photosynthetic energy transfer process, we theoretically propose a method to realize non-reciprocal optical transmission in an array of coupled resonators. The optical non-reciprocity of the coupled resonators arises from the frequency gradient between adjacent cavities and the interaction with the environment, which is similar to photosynthetic energy transfer. An increase in the frequency gradient or the number of the cavities can lead to better non-reciprocity. However, although a higher environment temperature will increase the total photon number in the coupled cavities, non-reciprocity will be weakened. All these findings can be well described by the detailed balance. Our discovery reveals the similarity between the noise-induced optical non-reciprocity and exciton energy transfer in natural photosynthesis. ",
+    "url": "https://arxiv.org/abs/2208.05841",
+    "authors": [
+      "Yi-Xuan Yao",
+      "Qing Ai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05961",
+    "title": "Photonic p-orbital higher-order topological insulators",
+    "abstract": "The orbital degrees of freedom play a pivotal role in understanding fundamental phenomena in solid-state materials as well as exotic quantum states of matter including orbital superfluidity and topological semimetals. Despite tremendous efforts in engineering synthetic cold-atom, electronic and photonic lattices to explore orbital physics, thus far high orbitals in an important class of materials, namely, the higher-order topological insulators (HOTIs), have not been realized. Here, we demonstrate p-orbital corner states in a photonic HOTI, unveiling their underlying topological invariant, symmetry protection, and nonlinearity-induced dynamical rotation. In a Kagome-type HOTI, we find that topological protection of the p-orbital corner states demands an orbital-hopping symmetry, in addition to the generalized chiral symmetry. Due to orbital hybridization, the nontrivial topology of the p-orbital HOTI is hidden if bulk polarization is used as the topological invariant, but well manifested by the generalized winding number. Our work opens a pathway for the exploration of intriguing orbital phenomena mediated by higher band topology applicable to a broad spectrum of systems. ",
+    "url": "https://arxiv.org/abs/2208.05961",
+    "authors": [
+      "Yahui Zhang",
+      "Domenico Bongiovanni",
+      "Ziteng Wang",
+      "Xiangdong Wang",
+      "Shiqi Xia",
+      "Zhichan Hu",
+      "Daohong Song",
+      "Dario Juki\u0107",
+      "Jingjun Xu",
+      "Roberto Morandotti",
+      "Hrvoje Buljan",
+      "Zhigang Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05557",
+    "title": "A Feshbach resonance in collisions between ultracold ground state  molecules",
+    "abstract": "Collisional resonances are an important tool which has been used to modify interactions in ultracold gases, for realizing novel Hamiltonians in quantum simulations, for creating molecules from atomic gases and for controlling chemical reactions. So far, such resonances have been observed for atom-atom collisions, atom-molecule collisions and collisions between Feshbach molecules which are very weakly bound. Whether such resonances exist for ultracold ground state molecules has been debated due to the possibly high density of states and/or rapid decay of the resonant complex. Here we report a very pronounced and narrow (25 mG) Feshbach resonance in collisions between two ground state NaLi molecules. This molecular Feshbach resonance has two special characteristics. First, the collisional loss rate is enhanced by more than two orders of magnitude above the background loss rate which is saturated at the $p$-wave universal value, due to strong chemical reactivity. Second, the resonance is located at a magnetic field where two open channels become nearly degenerate. This implies the intermediate complex predominantly decays to the second open channel. We describe the resonant loss feature using a model with coupled modes which is analogous to a Fabry-P\\'erot cavity. Our observations prove the existence of long-lived coherent intermediate complexes even in systems without reaction barriers and open up the possibility of coherent control of chemical reactions. ",
+    "url": "https://arxiv.org/abs/2208.05557",
+    "authors": [
+      "Juliana J. Park",
+      "Yu-Kun Lu",
+      "Alan O. Jamison",
+      "Timur Tscherbul",
+      "Wolfgang Ketterle"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05794",
+    "title": "Quantum computational intelligence for traveltime seismic inversion",
+    "abstract": "Quantum computing is in its early stage of implementation. Its capacity has been growing in the last years but its application in several fields of sciences is still restricted to oversimplified problems. In this stage, it is important to identify the situations where quantum computing presents the most promising results to be prepared when the technology is ready to be deployed. The geophysics field has several areas which are limited by the current computation capability, among them the so-called seismic inversion is one of the most important ones, which are strong candidates to benefit from quantum computing. In this work, we implement an approach for traveltime seismic inversion through a near-term quantum algorithm based on gradient-free quantum circuit learning. We demonstrate that a quantum computer with thousands of qubits, even if noisy, can solve geophysical problems. In addition, we compared the convergence of the method with the variational quantum algorithms. ",
+    "url": "https://arxiv.org/abs/2208.05794",
+    "authors": [
+      "Anton Albino",
+      "Otto Pires",
+      "Peterson Nogueira",
+      "Renato de Souza",
+      "Erick Sperandio Nascimento"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optimization and Control (math.OC)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05805",
+    "title": "Solving partial differential equations on near-term quantum computers",
+    "abstract": "In this work, we obtain the numerical temperature field to a thermally developing fluid flow inside parallel plates problem with a quantum computing method. The physical problem deals with the heat transfer of a steady state, hydrodinamically developed and thermally developing fluid flow inside two parallel plates channel subjected to a prescribed constant heat flux. Its solution is formulated numerically with Finite Differences method, where a sequence of linear systems must be solved in order to determine the complete temperature field. Such linear systems are written as discrete unconstrained optimization problems with floating points being approximated using binary variables and solved using near-term quantum heuristics. Due to the exponential cost of simulating quantum algorithms, a reduced number of qubits had to be used in the simulations, causing a loss of precision in the results. However, this work advances the state of the art of solutions of differential equations with noisy quantum devices and could be used for useful applications when quantum computers with thousands of qubits become available. ",
+    "url": "https://arxiv.org/abs/2208.05805",
+    "authors": [
+      "Anton Simen Albino",
+      "Lucas Correia Jardim",
+      "Diego Campos Knupp",
+      "Antonio Jose Silva Neto",
+      "Otto Menegasso Pires",
+      "Erick Giovani Sperandio Nascimento"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Analysis of PDEs (math.AP)",
+      "Optimization and Control (math.OC)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05847",
+    "title": "Entanglement-Enhanced Quantum Metrology in Colored Noise by Quantum Zeno  Effect",
+    "abstract": "In open quantum systems, the precision of metrology inevitably suffers from the noise. {In Markovian open quantum dynamics, the precision can not be improved by using entangled probes although the measurement time is effectively shortened.} However, it was predicted over one decade ago that in a non-Markovian one, the error can be significantly reduced by the quantum Zeno effect (QZE) [Chin, Huelga, and Plenio, Phys. Rev. Lett. \\textbf{109}, 233601 (2012)]. In this work, we apply a recently-developed quantum simulation approach to experimentally verify that entangled probes can improve the precision of metrology by the QZE. Up to $n=7$ qubits, we demonstrate that the precision has been improved by a factor of $n^{1/4}$, which is consistent with the theoretical prediction. Our quantum simulation approach may provide an intriguing platform for experimental verification of various quantum metrology schemes. ",
+    "url": "https://arxiv.org/abs/2208.05847",
+    "authors": [
+      "Xinyue Long",
+      "Wan-Ting He",
+      "Na-Na Zhang",
+      "Kai Tang",
+      "Zidong Lin",
+      "Hongfeng Liu",
+      "Xinfang Nie",
+      "Guanru Feng",
+      "Jun Li",
+      "Tao Xin",
+      "Qing Ai",
+      "Dawei Lu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05932",
+    "title": "Critical slowing down of fermions near a magnetic quantum phase  transition",
+    "abstract": "A universal phenomenon in phase transitions is critical slowing down (CSD) - systems, after an initial perturbation, take an exceptionally long time to return to equilibrium. It is universally observed in the dynamics of bosonic excitations, like order-parameter collective modes, but it is not generally expected to occur for fermionic excitations because of the half-integer nature of the fermionic spin. Direct observation of CSD in fermionic excitations or quasiparticles would therefore be of fundamental significance. Here, we observe fermionic CSD in the heavy-fermion (HF) compound YbRh$_2$Si$_2$ by terahertz time-domain spectroscopy. HFs are compound objects with a strongly enhanced effective mass, composed of itinerant and localized electronic states. We see that near the quantum phase transition in YbRh$_2$Si$_2$ the build-up of spectral weight of the HFs towards the Kondo temperature $T_K\\approx 25$ K is followed by a logarithmic rise of the quasiparticle excitation rate on the heavy-Fermi-liquid side of the quantum phase transition below $10$ K. A critical two-band HF liquid theory shows that this is indicative of fermionic CSD. This CSD is a clear indication that the HF quasiparticles experience a breakdown near the quantum phase transition, and the critical exponent of this breakdown introduces a classification of fermionic quantum phase transitions analogous to thermodynamic phase transitions - solution to a long-standing problem. ",
+    "url": "https://arxiv.org/abs/2208.05932",
+    "authors": [
+      "Chia-Jung Yang",
+      "Kristin Kliemt",
+      "Cornelius Krellner",
+      "Johann Kroha",
+      "Manfred Fiebig",
+      "Shovon Pal"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2106.07466",
+    "title": "An open-source automated magnetic optical density meter for analysis of  suspensions of magnetic cells and particles",
+    "abstract": " Title: An open-source automated magnetic optical density meter for analysis of  suspensions of magnetic cells and particles ",
+    "url": "https://arxiv.org/abs/2106.07466",
+    "authors": [
+      "Marcel K. Welleweerd",
+      "Tijmen Hageman",
+      "Marc Pichel",
+      "Dave van As",
+      "Hans Keizer",
+      "Jordi Hendrix",
+      "Mina M. Micheal",
+      "Islam S.M. Khalil",
+      "Alveena Mir",
+      "Nuriye Korkmaz",
+      "Robbert Kr\u00e4winkel",
+      "Daniel Chevrier",
+      "Damien Faivre",
+      "Alfred Fernandez-Castane",
+      "Daniel Pfeiffer",
+      "Leon Abelmann"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.02036",
+    "title": "Ultrafast tunable lasers using lithium niobate integrated photonics",
+    "abstract": " Comments: Funding information corrections (2nd turn) ",
+    "url": "https://arxiv.org/abs/2112.02036",
+    "authors": [
+      "Viacheslav Snigirev",
+      "Annina Riedhauser",
+      "Grigory Lihachev",
+      "Johann Riemensberger",
+      "Rui Ning Wang",
+      "Charles Moehl",
+      "Mikhail Churaev",
+      "Anat Siddharth",
+      "Guanhao Huang",
+      "Youri Popoff",
+      "Ute Drechsler",
+      "Daniele Caimi",
+      "Simon Hoenl",
+      "Junqiu Liu",
+      "Paul Seidler",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.02417",
+    "title": "Parallel Quantum Chemistry on Noisy Intermediate-Scale Quantum Computers",
+    "abstract": " Comments: 17 pages, 13 figures, 1 table ",
+    "url": "https://arxiv.org/abs/2202.02417",
+    "authors": [
+      "Robert Schade",
+      "Carsten Bauer",
+      "Konstantin Tamoev",
+      "Lukas Mazur",
+      "Christian Plessl",
+      "Thomas D. K\u00fchne"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
