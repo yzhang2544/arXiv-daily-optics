@@ -1,0 +1,224 @@
+[
+  {
+    "id": "arXiv:2209.04015",
+    "title": "ipie: A Python-based Auxiliary-Field Quantum Monte Carlo Program with  Flexibility and Efficiency on CPUs and GPUs",
+    "abstract": "We report the development of a python-based auxiliary-field quantum Monte Carlo (AFQMC) program, ipie, with preliminary timing benchmarks and new AFQMC results on the isomerization of [Cu$_2$O$_2$$]^{2+}$. We demonstrate how implementations for both central and graphical processing units (CPUs and GPUs) are achieved in ipie. We show an interface of ipie with PySCF as well as a straightforward template for adding new estimators to ipie. Our timing benchmarks against other C++ codes, QMCPACK and Dice, suggest that ipie is faster or similarly performing for all chemical systems considered on both CPUs and GPUs. Our results on [Cu$_2$O$_2$$]^{2+}$ using selected configuration interaction trials show that it is possible to converge the ph-AFQMC isomerization energy between bis($\\mu$-oxo) and $\\mu$-$\\eta^2$:$\\eta^2$ peroxo configurations to the exact known results for small basis sets with $10^5$ to $10^6$ determinants. We also report the isomerization energy with a quadruple-zeta basis set with an estimated error less than a kcal/mol, which involved 52 electrons and 290 orbitals with $10^6$ determinants in the trial wavefunction. These results highlight the utility of ph-AFQMC and ipie for systems with modest strong correlation and large-scale dynamic correlation. ",
+    "url": "https://arxiv.org/abs/2209.04015",
+    "authors": [
+      "Fionn D. Malone",
+      "Ankit Mahajan",
+      "James S. Spencer",
+      "Joonho Lee"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04032",
+    "title": "Faster and more accurate geometrical-optics optical force calculation  using neural networks",
+    "abstract": "Optical forces are often calculated by discretizing the trapping light beam into a set of rays and using geometrical optics to compute the exchange of momentum. However, the number of rays sets a trade-off between calculation speed and accuracy. Here, we show that using neural networks permits one to overcome this limitation, obtaining not only faster but also more accurate simulations. We demonstrate this using an optically trapped spherical particle for which we obtain an analytical solution to use as ground truth. Then, we take advantage of the acceleration provided by neural networks to study the dynamics of an ellipsoidal particle in a double trap, which would be computationally impossible otherwise. ",
+    "url": "https://arxiv.org/abs/2209.04032",
+    "authors": [
+      "David Bronte Ciriza",
+      "Alessandro Magazz\u00f9",
+      "Agnese Callegari",
+      "Gunther Barbosa",
+      "Antonio A. R. Neves",
+      "Maria A. Iat\u00ec",
+      "Giovanni Volpe",
+      "Onofrio M. Marag\u00f2"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04248",
+    "title": "Enhanced Current Density and Asymmetry of Metal-Insulator-Metal Diodes  Based on the Self-Assembly of Pt Nanoparticles for Optical Rectennas",
+    "abstract": "Optical rectennas consist of nano-antennas and nano-scale rectifying diodes, providing extensive prospects for thermal radiation energy harvesting applications. To achieve this, high current density and high asymmetry must be simultaneously obtained in rectifying diodes with ultra-high-speed responses to optical frequencies. In this study, we report a metal-insulator-metal (MIM) diode with a strongly enhanced electric field achieved via the self-assembly of uniform Pt nanoparticles (NPs) using atomic layer deposition. An enhancement of several orders of magnitude in the current density and asymmetry of this system in comparison to conventional MIM diodes was realized by shaping the tunneling barrier. The diode efficiency of the proposed MIM diodes experimentally confirmed that significantly exceeds the MIM diode without NPs by 231 times. Furthermore, the proposed strategy can be integrated with various advanced tunnel diodes to achieve high-performance optical rectennas. ",
+    "url": "https://arxiv.org/abs/2209.04248",
+    "authors": [
+      "Zhen Liu",
+      "Shunsuke Abe",
+      "Makoto Shimizu",
+      "Hiroo Yugami"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04267",
+    "title": "Radiation build-up and dissipation in random fiber laser",
+    "abstract": "Random fiber laser (RFL) is a complex physical system that arises from the distributed amplification and the intrinsic stochasticity of the fiber scattering. There has been widespread interest in analyzing the underlying lightwave kinetics at steady state. However, the transient state, such as the RFL build-up and dissipation, is also particularly important for unfolding lightwave interaction process. Here, we investigate for the first time the RFL dynamics at transient state, and track the RFL temporal and spectral evolution theoretically and experimentally. Particularly, with the contribution of randomly distributed feedback, the build-up of RFL shows continuous Verhulst logistic growth curves without cavity-related features, which is significantly different from the step-like growth curve of conventional fiber lasers. Furthermore, the radiation build-up duration is inversely related to the pump power, and the spectral evolution of RFL undergoes two phases from spectral density increase to spectral broadening. From steady-state to pump switch-off state, the RFL output power dissipates immediately, and the remaining Stokes lightwave from the Rayleigh scattering will gradually disappear after one round-trip. This work provides new insights into the transient dynamics features of the RFL. ",
+    "url": "https://arxiv.org/abs/2209.04267",
+    "authors": [
+      "Shengtao Lin",
+      "Zinan Wang",
+      "Jiaojiao Zhang",
+      "Pan Wang",
+      "Han Wu",
+      "Yifei Qi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.03965",
+    "title": "Quantum optimization with arbitrary connectivity using Rydberg atom  arrays",
+    "abstract": "Programmable quantum systems based on Rydberg atom arrays have recently been used for hardware-efficient tests of quantum optimization algorithms [Ebadi et al., Science, 376, 1209 (2022)] with hundreds of qubits. In particular, the maximum independent set problem on the so-called unit-disk graphs, was shown to be efficiently encodable in such a quantum system. Here, we extend the classes of problems that can be efficiently encoded in Rydberg arrays by constructing explicit mappings from the original computation problems to maximum weighted independent set problems on unit-disk graphs, with at most a quadratic overhead in the number of qubits. We analyze several examples, including: maximum weighted independent set on graphs with arbitrary connectivity, quadratic unconstrained binary optimization problems with arbitrary or restricted connectivity, and integer factorization. Numerical simulations on small system sizes indicate that the adiabatic time scale for solving the mapped problems is strongly correlated with that of the original problems. Our work provides a blueprint for using Rydberg atom arrays to solve a wide range of combinatorial optimization problems with arbitrary connectivity, beyond the restrictions imposed by the hardware geometry. ",
+    "url": "https://arxiv.org/abs/2209.03965",
+    "authors": [
+      "Minh-Thi Nguyen",
+      "Jin-Guo Liu",
+      "Jonathan Wurtz",
+      "Mikhail D. Lukin",
+      "Sheng-Tao Wang",
+      "Hannes Pichler"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Computational Complexity (cs.CC)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04059",
+    "title": "Size and quality of quantum mechanical data-set for training Neural  Network Force Fields for liquid water",
+    "abstract": "Molecular dynamics simulations have been used in different scientific fields to investigate a broad range of physical systems. However, the accuracy of calculation is based on the model considered to describe the atomic interactions. In particular, ab initio molecular dynamics (AIMD) has the accuracy of density functional theory (DFT), and thus is limited to small systems and relatively short simulation time. In this scenario, Neural Network Force Fields (NNFF) have an important role, since it provides a way to circumvent these caveats. In this work we investigate NNFF designed at the level of DFT to describe liquid water, focusing on the size and quality of the training data-set considered. We show that structural properties are less dependent on the size of the training data-set compared to dynamical ones (such as the diffusion coefficient), and a good sampling (selecting data reference for training process) can lead to a small sample with good precision. ",
+    "url": "https://arxiv.org/abs/2209.04059",
+    "authors": [
+      "M\u00e1rcio S. Gomes-Filho",
+      "Alberto Torres",
+      "Alexandre Reily Rocha",
+      "Luana S. Pedroza"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04099",
+    "title": "Regulating effect of biaxial strain on electronic, optical and  photocatalytic properties in promising X2PAs (X = Si, Ge and Sn) monolayers",
+    "abstract": "Photocatalytic water splitting is an effective way to obtain renewable clean energy. The challenge is to design tunable photocatalyst to meet the needs in different environments. At the same time, the oxygen and hydrogen evolution reactions (OER and HER) on the photocatalyst should be separated, which will be conducive to the separation of products. The electronic, optical and photocatalytic properties of Janus X2PAs (X = Si, Ge and Sn) monolayers are explored by first-principles calculation. All the strain-free X2PAs monolayers exhibit excellent photocatalytic properties with suitable band edge positions straddling the standard redox potential of water and large visible light absorption coefficients (up to 105 cm-1). Interestingly, the intrinsic internal electric field is favorable for separating photogenerated carriers to different surfaces of the monolayer. It contributes to realize the OER and HER separated on different sides of the monolayer. In particular, the energy band edge positions of X2PAs monolayers can be well adjusted by biaxial strain. Then it can effectively modulate photocatalytic reactions, suggesting X2PAs monolayers can be a piezo-photocatalytic switch between the OER, HER and full-reaction of redox for water splitting. This investigation not only highlights that the photocatalyst X2PAs monolayers with the separated OER and HER can be effectively tuned by the mechanical strain, but also provides a new strategy for designing highly adaptable and tunable piezo-photocatalysts. ",
+    "url": "https://arxiv.org/abs/2209.04099",
+    "authors": [
+      "Qi-Wen He",
+      "Yang Wu",
+      "Chun-Hua Yang",
+      "He-Na Zhang",
+      "Dai-Song Tang",
+      "Cailong Liu",
+      "Xiao-Chun Wang"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04228",
+    "title": "Parity-Time Symmetry-Enhanced Simultaneous Magnon and Photon Blockade in  Cavity Magnonic System",
+    "abstract": "The main challenge in the recent demonstration of conventional magnon blockade is to increase the nonlinearity of the system especially in comparison with the dissipation channels. One can consider the Kerr nonlinearity through which magnon blockade in a cavity magnonic system is possible provided that the Kerr nonlinearity is much stronger than the cavity and magnonic mode dissipation rates. In the present contribution, we consider a PT-symmetric cavity magnonic system and study the effect of PT-symmetric phase on the magnon statistics and hence magnon blockade. We show that the PT-symmetric phase, which is achievable by properly selecting the system parameters, can relax the requirement of large Kerr nonlinearity such that a perfect magnon blockade can be easily obtained even under a small value of Kerr nonlinearity. Surprisingly, although there is no photonic Kerr nonlinearity in the scheme, photon blockade can also occur simultaneously with magnon blockade. This result is arising from the PT-symmetric phase which can generate an effective photonic Kerr nonlinearity. ",
+    "url": "https://arxiv.org/abs/2209.04228",
+    "authors": [
+      "M. S. Ebrahimi",
+      "M. Bagheri Harouni"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04358",
+    "title": "The Laser Interferometer Space Antenna mission in Greece White Paper",
+    "abstract": "The Laser Interferometer Space Antenna (LISA) mission, scheduled for launch in the mid-2030s, is a gravitational wave observatory in space designed to detect sources emitting in the millihertz band. LISA is an ESA flagship mission, currently entering the Phase B development phase. It is expected to help us improve our understanding about our Universe by measuring gravitational wave sources of different types, with some of the sources being at very high redshifts $z\\sim 20$. On the 23rd of February 2022 we organized the 1$^\\mathrm{st}$ {\\it LISA in Greece Workshop}. This workshop aimed to inform the Greek scientific and tech industry community about the possibilities of participating in LISA science and LISA mission, with the support of the Hellenic Space Center (HSC). In this white paper, we summarize the outcome of the workshop, the most important aspect of it being the inclusion of $15$ Greek researchers to the LISA Consortium, raising our total number to $22$. At the same time, we present a road-map with the future steps and actions of the Greek Gravitational Wave community with respect to the future LISA mission. ",
+    "url": "https://arxiv.org/abs/2209.04358",
+    "authors": [
+      "Nikolaos Karnesis",
+      "Nikolaos Stergioulas",
+      "Georgios Pappas",
+      "Spyros Basilakos",
+      "Manolis Plionis",
+      "Emmanuel N. Saridakis",
+      "Georgios Lukes-Gerakopoulos",
+      "Konstantinos N. Gourgouliatos",
+      "Charis Anastopoulos",
+      "Leandros Perivolaropoulos",
+      "Theodoros Papanikolaou",
+      "Theocharis Apostolatos",
+      "Areti Eleni",
+      "Antoniadis John",
+      "Elias C. Vagenas",
+      "George Kottaras",
+      "Theodoros Sarris"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "Astrophysics of Galaxies (astro-ph.GA)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2008.00909",
+    "title": "Generating highly entangled states via discrete-time quantum walks with  Parrondo sequences",
+    "abstract": " Comments: 12 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2008.00909",
+    "authors": [
+      "Dinesh Kumar Panda",
+      "B. Varun Govind",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Algebra (math.QA)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.15525",
+    "title": "Quantum Machine Learning Corrects Classical Force Fields: Stretching DNA  Base Pairs in Explicit Solvent",
+    "abstract": " Comments: Publisher postprint (with minor corrections) is open access at J Chem Phys this https URL ",
+    "url": "https://arxiv.org/abs/2203.15525",
+    "authors": [
+      "Joshua T. Berryman",
+      "Amirhossein Taghavi",
+      "Florian Mazur",
+      "Alexandre Tkatchenko"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01485",
+    "title": "Capacitively-coupled resonators for terahertz planar-Goubau-line filters",
+    "abstract": " Title: Capacitively-coupled resonators for terahertz planar-Goubau-line filters ",
+    "url": "https://arxiv.org/abs/2206.01485",
+    "authors": [
+      "Juan Cabello-S\u00e1nchez",
+      "Vladimir Drakinskiy",
+      "Jan Stake",
+      "Helena Rodilla"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
