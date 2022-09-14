@@ -98,7 +98,7 @@ for dl in soup.find_all("dl"):
                     'quantum', 'soliton', 'LNOI', 'integrated', 'THz','acoustic','acousto',
                     'terahertz', 'SiN', 'PT', 'inverse','comb','upconversion',
                     'MZI', 'MIM', 'laser', 'Hermitian', 'quantum','circuit','resonant',
-                    'optoelectronic', 'optical','metasurface','cavity','resonance','integrated']
+                    'optoelectronic', 'optical','metasurface','cavity','resonance','integrated','antenna','ring']
         if len([i for i in title_words if i in keywords]) >= 1:
             print(title)
             tag = True
