@@ -1,0 +1,449 @@
+[
+  {
+    "id": "arXiv:2209.08093",
+    "title": "Towards photophoretically levitating macroscopic sensors in the  stratosphere",
+    "abstract": "Photophoretic forces could levitate thin 10 centimeter-scale structures in Earth$'$s stratosphere indefinitely. We develop models of the thermal transpiration lofting force on a bilayer sandwich structure under stratospheric conditions driven by radiative fluxes in the thermal-infrared and solar-band. Similar structures have been levitated in the laboratory. Lofting is maximized when the layers are separated by an air gap equal to the mean free path (MFP), when about half of the layers$'$ surface area consists of holes with radii < MFP, and when the top layer is solar-transmissive and infrared-emissive while the bottom layer is solar-absorptive and infrared-transmissive. We describe a preliminary design of a 10 cm diameter device that combines a levitating structure made of two membranes 2 $\\mu$m apart with the support structure required for stiffness and orientation control. We limit the design to components that could be fabricated with available methods. Structural analysis suggests that the device would have sufficient strength to withstand forces that might be encountered in transport, deployment, and flight. Our models predict a payload capacity of about 300 mg at 25 km altitude and our analysis suggests it could support bidirectional radio communication at over 10 Mb/s and could have limited navigational abilities. Such devices could be useful for atmospheric science or telecommunications, and similar devices might be useful on Mars. Structures a few times larger might have payloads of a few grams. ",
+    "url": "https://arxiv.org/abs/2209.08093",
+    "authors": [
+      "Benjamin C. Schafer",
+      "Jong-hyoung Kim",
+      "Joost J. Vlassak",
+      "David W. Keith"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08113",
+    "title": "Exact quantum dynamics developments for floppy molecular systems and  complexes",
+    "abstract": "Molecular rotation, vibration, internal rotation, isomerization, tunneling, intermolecular dynamics of weakly and strongly interacting systems, intra-to-inter-molecular energy transfer, hindered rotation and hindered translation over surfaces are important types of molecular motions. Their fundamentally correct and detailed description can be obtained by solving the nuclear Schr\\\"odinger equation on a potential energy surface. Many of the chemically interesting processes involve quantum nuclear motions which are `delocalized' over multiple potential energy wells. These `large-amplitude' motions in addition to the high dimensionality of the vibrational problem represent challenges to the current (ro)vibrational methodology. A review of the quantum nuclear motion methodology is provided, current bottlenecks of solving the nuclear Schr\\\"odinger equation are identified, and solution strategies are reviewed. Technical details, computational results, and analysis of these results in terms of limiting models and spectroscopically relevant concepts are highlighted for selected numerical examples. ",
+    "url": "https://arxiv.org/abs/2209.08113",
+    "authors": [
+      "Edit M\u00e1tyus",
+      "Alberto Mart\u00edn Santa Dar\u00eda",
+      "Gustavo Avila"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08143",
+    "title": "Undersampling reconstruction in parallel and single coil imaging with  COMPaS -- COnvolutional Magnetic Resonance Image Prior with Sparsity  regularization",
+    "abstract": "Purpose: To propose COMPaS, a learning-free Convolutional Network, that combines Deep Image Prior (DIP) with transform-domain sparsity constraints to reconstruct undersampled Magnetic Resonance Imaging (MRI) data without previous training of the network. Methods: COMPaS uses a U-Net as DIP for undersampledMRdata in the image domain. Reconstruction is constrained by data fidelity to k-space measurements and transform-domain sparsity, such as Total Variation (TV) or Wavelet transform sparsity. Two-dimensional MRI data from the public FastMRI dataset with Cartesian undersampling in phase-encoding direction were reconstructed for different acceleration rates (R) from R = 2 to R = 8 for single coil and multicoil data. Performance of the proposed architecture was compared to Parallel Imaging with Compressed Sensing (PICS). Results: COMPaS outperforms standard PICS algorithms by reducing ghosting artifacts and yielding higher quantitative reconstruction quality metrics in multicoil imaging settings and especially in single coil k-space reconstruction. Furthermore, COMPaS can reconstruct multicoil data without explicit knowledge of coil sensitivity profiles. Conclusion: COMPaS utilizes a training-free convolutional network as a DIP in MRI reconstruction and transforms it with transform-domain sparsity regularization. It is a competitive algorithm for parallel imaging and a novel tool for accelerating single coil MRI. ",
+    "url": "https://arxiv.org/abs/2209.08143",
+    "authors": [
+      "Thomas M. Siedler",
+      "Peter M. Jakob",
+      "Volker Herold"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08218",
+    "title": "Quantum Non-Demolition Measurement on the Spin Precession of  Laser-Trapped $^{171}$Yb Atoms",
+    "abstract": "Quantum non-demolition (QND) measurement enhances the detection efficiency and measurement fidelity, and is highly desired for its applications in precision measurements and quantum information processing. We propose and demonstrate a QND measurement scheme for the spin states of laser-trapped atoms. On $^{171}$Yb atoms held in an optical dipole trap, a transition that is simultaneously cycling, spin-state selective, and spin-state preserving is created by introducing a circularly polarized beam of control laser to optically dress the spin states in the excited level, while leaving the spin states in the ground level unperturbed. We measure the phase of spin precession of $5\\times10^{4}$ atoms in a bias magnetic field of 20 mG. This QND approach reduces the optical absorption detection noise by $\\sim$19 dB, to a level of 2.3 dB below the atomic quantum projection noise. In addition to providing a general approach for efficient spin-state readout, this all-optical technique allows quick switching and real-time programming for quantum sensing and quantum information processing. ",
+    "url": "https://arxiv.org/abs/2209.08218",
+    "authors": [
+      "Y. A. Yang",
+      "T. A. Zheng",
+      "S.-Z. Wang",
+      "W.-K. Hu",
+      "Chang-Ling Zou",
+      "T. Xia",
+      "Z.-T. Lu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08332",
+    "title": "2D material platform for overcoming the amplitude-phase tradeoff in ring  modulators",
+    "abstract": "Compact, high-speed electro-optic phase modulators play a vital role in various large-scale applications including phased arrays, quantum and neural networks, and optical communication links. Conventional phase modulators suffer from a fundamental tradeoff between device length and optical loss that limits their scaling capabilities. High-finesse ring resonators have been traditionally used as compact intensity modulators, but their use for phase modulation have been limited due to the high insertion loss associated with the phase change. Here, we show that high-finesse resonators can achieve a strong phase change with low insertion loss by simultaneous modulation of the real and imaginary parts of the refractive index, to the same extent i.e. $\\frac{\\Delta n}{\\Delta k} \\sim 1$. To implement this strategy, we utilize a hybrid platform that combines a low-loss SiN ring resonator with electro-absorptive graphene (Gr) and electro-refractive WSe$_2$. We achieve a phase modulation efficiency ($V_{\\frac{\\pi}{2}} \\cdot L_{\\frac{\\pi}{2}}$) of 0.045 V $\\cdot$ cm with an insertion loss (IL$_{\\frac{\\pi}{2}}$) of 4.7 dB for a phase change of $\\frac{\\pi}{2}$ radians, in a 25 $\\mu$m long Gr-Al$_2$O$_3$-WSe$_2$ capacitor embedded on a SiN ring of 50 $\\mu$m radius. We find that our Gr-Al$_2$O$_3$-WSe$_2$ capacitor can support an electro-optic bandwidth of 14.9 $\\pm$ 0.1 GHz. We further show that the $V_{\\frac{\\pi}{2}} \\cdot L_{\\frac{\\pi}{2}}$ of our SiN-2D platform is at least an order of magnitude lower than that of electro-optic phase modulators based on silicon, III-V on silicon, graphene on silicon and lithium niobate. This SiN-2D hybrid platform provides the impetus to design compact and high-speed reconfigurable circuits with graphene and transition metal dichalcogenide (TMD) monolayers that can enable large-scale photonic systems. ",
+    "url": "https://arxiv.org/abs/2209.08332",
+    "authors": [
+      "Ipshita Datta",
+      "Andres Gil-Molina",
+      "Sang Hoon Chae",
+      "James Hone",
+      "Michal Lipson"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08358",
+    "title": "High-performance chiral all-optical logic gate based on topological edge  states of valley photonic crystal",
+    "abstract": "For all-optical communication and information processing, it is necessary to develop all-optical logic gates based on photonic structures that can directly perform logic operations. All-optical logic gates have been demonstrated based on conventional waveguides and interferometry, as well as photonic crystal structures. Nonetheless, any defects in those structures will introduce high scattering loss, which compromises the fidelity and contrast ratio of the information process. Based on the spin-valley locking effect that can achieve defect-immune unidirectional transmission of topological edge states in valley photonic crystals (VPCs), we propose a high-performance all-optical logic OR gate based on a VPC structure. By tuning the working bandwidth of the two input channels, we prevent interference between the two channels to achieve a stable and high-fidelity output. The transmittance of both channels is higher than 0.8, and a high contrast ratio of 28.8 dB is achieved. Moreover, the chirality of the logic gate originated from the spin-valley locking effect allows using different circularly polarized light as inputs, representing \"1\" or \"0\", which is highly desired in quantum computing. The device's footprint is small, allowing high-density on-chip integration. In addition, this design can be experimentally fabricated using current nanofabrication techniques and will have potential applications in optical communication, information processing, and quantum computing. ",
+    "url": "https://arxiv.org/abs/2209.08358",
+    "authors": [
+      "Xiaorong Wang",
+      "Hongming Fei",
+      "Han Lin",
+      "Min Wu",
+      "Lijuan Kang",
+      "Mingda Zhang",
+      "Xin Liu",
+      "Yibiao Yang",
+      "Liantuan Xiao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08454",
+    "title": "High-efficient optical frequency mixing in all-dielectric metasurface  empowered by multiple bound states in the continuum",
+    "abstract": "We present nonlinear optical four-wave mixing in a silicon nanodisk dimer metasurface. Under the oblique incident plane waves, the designed metasurface exhibits a multi-resonant feature with simultaneous excitations of three quasi-bound states in the continuum (BIC). Through employing these quasi-BIC with maximizing electric field energy at the input bump wavelengths, significant enhancements of third-order nonlinear processes including third-harmonic generation, degenerate and non-degenerate four-wave mixing are demonstrated, giving rise to ten new frequencies in the visible wavelengths. This work may lead to a new frontier of ultracompact optical mixer for applications in optical circuitry, ultrasensitive sensing, and quantum nanophotonics. ",
+    "url": "https://arxiv.org/abs/2209.08454",
+    "authors": [
+      "Tingting Liu",
+      "Meibao Qin",
+      "Feng Wu",
+      "Shuyuan Xiao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08620",
+    "title": "Ultra-broadband integrated optical filters based on adiabatic  optimization of coupled waveguides",
+    "abstract": "Broadband spectral filters are highly sought-after in many integrated photonics applications such as ultra-broadband wavelength division multiplexing, multi-band spectroscopy, and broadband sensing. In this study, we present the design, simulation, and experimental demonstration of compact and ultra-broadband silicon photonic filters with adiabatic waveguides. We first develop an optimization algorithm for coupled adiabatic waveguide structures, and use it to design individual, single-cutoff spectral filters. These single-cutoff filters are 1x2 port devices that optimally separate a broadband signal into short-pass and long-pass outputs, within a specified device length. We control the power roll-off and extinction ratio in these filters using the adiabaticity parameter. Both outputs of the filters operate in transmission, making it possible to cascade multiple filters in different configurations. Taking advantage of this flexibility, we cascade two filters with different cutoff wavelengths on-chip, and experimentally demonstrate band-pass operation. The independent and flexible design of these band edges enables filters with bandwidths well over 100 nm. Experimentally, we demonstrate band-pass filters with passbands ranging from 6.4 nm up to 96.6 nm. Our devices achieve flat-band transmission in all three of the short-pass, band-pass, and long-pass outputs with less than 1.5 dB insertion loss and extinction ratios of over 15 dB. These ultra-broadband filters can enable new capabilities for multi-band integrated photonics in communications, spectroscopy, and sensing applications. ",
+    "url": "https://arxiv.org/abs/2209.08620",
+    "authors": [
+      "Kazim Gorgulu",
+      "Emir Salih Magden"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08628",
+    "title": "Transverse instability of concentric soliton waves",
+    "abstract": "Should it be a pebble hitting water surface or an explosion taking place underwater, concentric surface waves inevitably propagate. Except for possibly early times of the impact, finite amplitude concentric water waves emerge from a balance between dispersion or nonlinearity resulting in solitary waves. While stability of plane solitary waves on deep and shallow water has been extensively studied, there are no analogous analyses for concentric solitary waves. On shallow water, the equation governing soliton formation -- the nearly concentric Korteweg-de Vries -- has been deduced before without surface tension, so we extend the derivation onto the surface tension case. On deep water, the envelope equation is traditionally thought to be the nonlinear Schr\\\"{o}dinger type originally derived in the Cartesian coordinates. However, with a systematic derivation in cylindrical coordinates suitable for studying concentric waves we demonstrate that the appropriate envelope equation must be amended with an inverse-square potential, thus leading to a Gross-Pitaevskii equation instead. Properties of both models for deep and shallow water cases are studied in detail, including conservation laws and the base states corresponding to axisymmetric solitary waves. Stability analyses of the latter lead to singular eigenvalue problems, which dictate the use of analytical tools. We identify the conditions resulting in the transverse instability of the concentric solitons revealing crucial differences from their plane counterparts. Of particular interest here are the effects of surface tension and cylindrical geometry on the occurrence of transverse instability. ",
+    "url": "https://arxiv.org/abs/2209.08628",
+    "authors": [
+      "R. Krechetnikov"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08931",
+    "title": "High-performance, adiabatically nanotapered fibre-chip couplers in  silicon at 2 microns wavelength",
+    "abstract": "Fibre optic technology connects the world through the Internet, enables remote sensing, and connects disparate functional optical devices. Highly confined silicon photonics promises extreme scale and functional integration. However, the optical modes of silicon nanowire waveguides and optical fibres are very different, making efficient fibre-chip coupling a challenge. Vertical grating couplers, the dominant coupling method today, have limited optical bandwidth and are naturally out-of-plane. Here we demonstrate a new method that is low-loss, broadband, easily manufacturable, and naturally planar. We adiabatically couple a tapering silicon nanowire waveguide to a conic nanotapered optical fibre, measuring transmission between 2.0 and 2.2 micron wavelength. The silicon chip is fabricated at a commercial foundry and then post-processed to release the tapering nanowires. We estimate an optimal per-coupler transmission of -0.48 dB (maximum; 95% confidence interval [+0.46, -1.68] dB) and a 1-dB bandwidth of 295 nm . With automated measurements, we quantify the device tolerance to lateral misalignment, measuring a flat response within +/- 0.968 micron. This design can enable low-loss modular systems of integrated photonics irrespective of material and waveband. ",
+    "url": "https://arxiv.org/abs/2209.08931",
+    "authors": [
+      "Dominic A. Sulway",
+      "Yuya Yonezu",
+      "Lawrence M. Rosenfeld",
+      "Pisu Jiang",
+      "Takao Aoki",
+      "Joshua W. Silverstone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.09046",
+    "title": "Non-adiabatic Dynamics in a Continuous Circularly Polarized Laser Field  with Floquet Phase-space Surface Hopping",
+    "abstract": "Non-adiabatic chemical reactions involving continuous circularly polarized light (cw CPL) have not attracted as much attention as dynamics in unpolarized/linearly polarized light. However, including circularly (in contrast to linearly) polarized light allows one to effectively introduce a complex-valued time-dependent Hamiltonian, which offers a new path for control or exploration through the introduction of Berry forces. Here, we investigate several inexpensive semiclassical approaches for modeling such nonadiabatic dynamics in the presence of a time-dependent complex-valued Hamiltonian, beginning with a straightforward instantaneous adiabatic fewest-switches surface hopping (IA-FSSH) approach (where the electronic states depend on position and time), continuing to a standard Floquet fewest switches surface hopping (F-FSSH) approach (where the electronic states depend on position and frequency), and ending with an exotic Floquet phase-space surface hopping (F-PSSH) approach (where the electronic states depend on position, frequency, and momentum). Using a set of model systems with time-dependent complex-valued Hamiltonians, we show that the Floquet phase-space adiabats are the optimal choice of basis as far as accounting for Berry phase effects and delivering accuracy. Thus, the F-PSSH algorithm sets the stage for modeling nonadiabatic dynamics under strong externally pumped circular polarization in the future. ",
+    "url": "https://arxiv.org/abs/2209.09046",
+    "authors": [
+      "Zeyu Zhou",
+      "Yanze Wu",
+      "Xuezhi Bian",
+      "Joseph Eli Subotnik"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08187",
+    "title": "Modeling Quantum Enhanced Sensing on a Quantum Computer",
+    "abstract": "Quantum computers allow for direct simulation of the quantum interference and entanglement used in modern interferometry experiments with applications ranging from biological sensing to gravitational wave detection. Inspired by recent developments in quantum sensing at the Laser Interferometer Gravitational-wave Observatory (LIGO), here we present two quantum circuit models that demonstrate the role of quantum mechanics and entanglement in modern precision sensors. We implemented these quantum circuits on IBM quantum processors, using a single qubit to represent independent photons traveling through the LIGO interferometer and two entangled qubits to illustrate the improved sensitivity that LIGO has achieved by using non-classical states of light. The one-qubit interferometer illustrates how projection noise in the measurement of independent photons corresponds to phase sensitivity at the standard quantum limit. In the presence of technical noise on a real quantum computer, this interferometer achieves the sensitivity of 11\\% above the standard quantum limit. The two-qubit interferometer demonstrates how entanglement circumvents the limits imposed by the quantum shot noise, achieving the phase sensitivity 17\\% below the standard quantum limit. These experiments illustrate the role that quantum mechanics plays in setting new records for precision measurements on platforms like LIGO. The experiments are broadly accessible, remotely executable activities that are well suited for introducing undergraduate students to quantum computation, error propagation, and quantum sensing on real quantum hardware. ",
+    "url": "https://arxiv.org/abs/2209.08187",
+    "authors": [
+      "Cindy Tran",
+      "Tanaporn Na Narong",
+      "Eric S. Cooper"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08306",
+    "title": "Variational quantum circuit learning of entanglement purification in  multi-degree-of-freedom",
+    "abstract": "Quantum entanglement purification (EP) is a crucial technique for promising the effective function of entanglement channel in noisy large-scale quantum network. The previous EP protocols lack of a general circuit framework and become complicated to design in high-dimensional cases. In this paper, we propose a variational quantum circuit framework and demonstrate its feasibility of learning optimal protocols of EP in multi-degree-of-freedom (DoF). By innovatively introducing the additional circuit lines for representing the ancillary DoFs, e.g. space and time, the parameterized quantum circuit can effectively simulate the scalable EP process. As examples, well-known protocols in linear optics including PSBZ, HHSZ+ and etc., are learnt successfully with high fidelities and the alternative equivalent operations are discovered in low-depth quantum circuit. Our work pays the way for exploring the EP protocols with multi-DoF by quantum machine learning. ",
+    "url": "https://arxiv.org/abs/2209.08306",
+    "authors": [
+      "Hao Zhang",
+      "Xusheng Xu",
+      "Chen Zhang",
+      "Man-Hong Yung",
+      "Tao Huang",
+      "Yunjie Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08324",
+    "title": "Experimental Multi-state Quantum Discrimination in the Frequency Domain  with Quantum Dot Light",
+    "abstract": "The quest for the realization of effective quantum state discrimination strategies is of great interest for quantum information technology, as well as for fundamental studies. Therefore, it is crucial to develop new and more efficient methods to implement discrimination protocols for quantum states. Among the others, single photon implementations are more advisable, because of their inherent security advantage in quantum communication scenarios. In this work, we present the experimental realization of a protocol employing a time-multiplexing strategy to optimally discriminate among eight non-orthogonal states, encoded in the four-dimensional Hilbert space spanning both the polarization degree of freedom and photon energy. The experiment, built on a custom-designed bulk optics analyser setup and single photons generated by a nearly deterministic solid-state source, represents a benchmarking example of minimum error discrimination with actual quantum states, requiring only linear optics and two photodetectors to be realized. Our work paves the way for more complex applications and delivers a novel approach towards high-dimensional quantum encoding and decoding operations. ",
+    "url": "https://arxiv.org/abs/2209.08324",
+    "authors": [
+      "Alessandro Laneve",
+      "Michele B. Rota",
+      "Francesco Basso Basset",
+      "Nicola P. Fiorente",
+      "Tobias M. Krieger",
+      "Saimon F. Covre da Silva",
+      "Quirin Buchinger",
+      "Sandra Stroj",
+      "Sven Hoefling",
+      "Tobias Huber-Loyola",
+      "Armando Rastelli",
+      "Rinaldo Trotta",
+      "Paolo Mataloni"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08484",
+    "title": "Quantum frequency conversion and single-photon detection with lithium  niobate nanophotonic chips",
+    "abstract": "In the past few years, the lithium niobate on insulator (LNOI) platform has revolutionized lithium niobate materials, and a series of quantum photonic chips based on LNOI have shown unprecedented performances. Quantum frequency conversion (QFC) photonic chips, which enable quantum state preservation during frequency tuning, are crucial in quantum technology. In this work, we demonstrate a low-noise QFC process on an LNOI nanophotonic platform designed to connect telecom and near-visible bands with sum-frequency generation by long-wavelength pumping. An internal conversion efficiency of 73% and an on-chip noise count rate of 900 counts per second (cps) are achieved. Moreover, the on-chip preservation of quantum statistical properties is verified, showing that the QFC chip is promising for extensive applications of LNOI integrated circuits in quantum information. Based on the QFC chip, we construct an upconversion single-photon detector with the sum-frequency output spectrally filtered and detected by a silicon single-photon avalanche photodiode, demonstrating the feasibility of an upconversion single-photon detector on-chip with a detection efficiency of 8.7% and a noise count rate of 300 cps. The realization of a low-noise QFC device paves the way for practical chip-scale QFC-based quantum systems in heterogeneous configurations. ",
+    "url": "https://arxiv.org/abs/2209.08484",
+    "authors": [
+      "Xina Wang",
+      "Xufeng Jiao",
+      "Bin Wang",
+      "Yang Liu",
+      "Xiu-Ping Xie",
+      "Ming-Yang Zheng",
+      "Qiang Zhang",
+      "Jian-Wei Pan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08506",
+    "title": "Polarization analysis of the terahertz emission from Bi-2212  cross-whisker intrinsic Josephson junction and its refractive index",
+    "abstract": "Polarization analyses of the THz emission from Bi$_{2}$Sr$_{2}$CaCu$_{2}$O$_{8+\\delta}$ (Bi-2212) whisker crystals as a new material for superconducting THz emitters were conducted. The THz emission mode was estimated by a simple polarization measurement, and a simulation study was conducted to examine the validity of the polarization analysis. The refractive index of whisker crystals revealed through the polarization analysis is greater than that of bulk single crystals, and agrees well with our previous THz emission report. The simulation study suggests the complexed plasma excitation mode of the THz emission, then an interpretation of the refractive index obtained in this study is given. ",
+    "url": "https://arxiv.org/abs/2209.08506",
+    "authors": [
+      "Yoshito Saito",
+      "Istuhiro Kakeya",
+      "Yoshihiko Takano"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08623",
+    "title": "Counting 3d-spaces: classicality and probability in standard and  many-worlds quantum mechanics from quantum-gravitational background-freedom",
+    "abstract": "I explain that background freedom in quantum gravity automatically leads to a dissociation of the quantum state into states having a classical 3d-space. That is, interference is not completely well-defined for states with different 3d-space geometries, even if their linear combination is. The dissociation into 3d-space geometries still allows for interference at small scales, but precludes it at macro scales. It grants the possibility of classical-looking macroscopic objects, including measuring devices. Counting the 3d-space geometries automatically gives the Born rule. But the wavefunction collapse turns out to be even more ad-hoc. Fortunately, the dissociation entails a kind of absolute decoherence, making the wavefunction collapse unnecessary. This naturally leads to a new version of the many-worlds interpretation, while solving its major problems: 1) the classical-3d-space states form an absolute preferred basis, 2) at any instant, the resulting branches look like classical worlds, with objects in the 3d-space, 3) the 3d-space geometries converge at the Big-Bang, favoring branching towards the future, 4) macro-branches stop interfering, even though micro-branches can interfere, 5) the coefficients $\\Psi[\\gamma,\\phi]$ become real by absorbing the complex phases in the global U(1) gauge, 6) the ontology is a state vector uniquely dissociable into many gauged classical-3d-space states, each of them counting as a world by having local beables (the classical fields), 7) the density of the classical-3d-space states automatically obeys the Born rule. ",
+    "url": "https://arxiv.org/abs/2209.08623",
+    "authors": [
+      "Ovidiu Cristinel Stoica"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08972",
+    "title": "Collective Excitation of Spatio-Spectrally Distinct Quantum Dots Enabled  by Chirped Pulses",
+    "abstract": "For a scalable photonic device producing entangled photons, it is desirable to have multiple quantum emitters in an ensemble that can be collectively excited, despite their spectral variability. For quantum dots, Rabi rotation, the most popular method for resonant excitation, cannot assure a universal, highly efficient excited state preparation, because of its sensitivity to the excitation parameters. In contrast, Adiabatic Rapid Passage (ARP), relying on chirped optical pulses, is immune to quantum dot spectral inhomogeneity. Here, we advocate the robustness of ARP for simultaneous excitation of the biexciton states of multiple quantum dots. For positive chirps, we find that there is also regime of phonon advantage that widens the tolerance range of spectral detunings. Using the same laser pulse we demonstrate the simultaneous excitation of energetically and spatially distinct quantum dots. Being able to generate spatially multiplexed entangled photon pairs is a big step towards the scalability of photonic devices. ",
+    "url": "https://arxiv.org/abs/2209.08972",
+    "authors": [
+      "Florian Kappe",
+      "Yusuf Karli",
+      "Thomas K. Bracht",
+      "Saimon Covre da Silva",
+      "Tim Seidelmann",
+      "Vollrath Martin Axt",
+      "Armando Rastelli",
+      "Gregor Weihs",
+      "Doris E. Reiter",
+      "Vikas Remesh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.09113",
+    "title": "Strong effects of fast collisions between pulsed optical beams in a  linear medium with weak cubic loss",
+    "abstract": "We investigate fast collisions between pulsed optical beams in a linear medium with weak cubic loss that arises due to nondegenerate two-photon absorption. We introduce a perturbation method with two small parameters and use it to obtain general formulas for the collision-induced changes in the pulsed-beam's shape and amplitude. Moreover, we use the method to design and characterize collision setups that lead to strong localized and nonlocalized intensity reduction effects. The values of the collision-induced changes in the pulsed-beam's shape in both setups are larger by one to two orders of magnitude compared with the values obtained in previous studies of fast two-pulse collisions. Furthermore, we show that for nonlocalized setups, the graph of the collision-induced amplitude shift vs the difference between the first-order dispersion coefficients for the two pulsed-beams has two local minima. This finding represents the first observation of a deviation of the graph from the common funnel shape that was obtained in all previous studies of fast two-pulse collisions in the presence of weak nonlinear loss. The predictions of our perturbation theory are in good agreement with results of numerical simulations with the perturbed linear propagation model, despite the strong collision-induced effects. Our results can be useful for multisequence optical communication links and for reshaping of pulsed optical beams. ",
+    "url": "https://arxiv.org/abs/2209.09113",
+    "authors": [
+      "Avner Peleg",
+      "Toan T. Huynh"
+    ],
+    "subjectives": [
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.12602",
+    "title": "Artifacts in optical projection tomography due to refractive index  mismatch: model and correction",
+    "abstract": " Title: Artifacts in optical projection tomography due to refractive index  mismatch: model and correction ",
+    "url": "https://arxiv.org/abs/2112.12602",
+    "authors": [
+      "Yan Liu",
+      "Jonathan Dong",
+      "C\u00e9dric Schmidt",
+      "Aleix Boquet-Pujadas",
+      "J\u00e9r\u00f4me Extermann",
+      "Michael Unser"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Image and Video Processing (eess.IV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.10854",
+    "title": "Ab initio quantum theory of mass defect and time dilation in trapped-ion  optical clocks",
+    "abstract": " Title: Ab initio quantum theory of mass defect and time dilation in trapped-ion  optical clocks ",
+    "url": "https://arxiv.org/abs/2202.10854",
+    "authors": [
+      "V. J. Mart\u00ednez-Lahuerta",
+      "S. Eilers",
+      "T. E. Mehlst\u00e4ubler",
+      "P. O. Schmidt",
+      "K. Hammerer"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.08826",
+    "title": "Quantum simulation with just-in-time compilation",
+    "abstract": " Comments: 10 pages, 11 figures, accepted in Quantum, code available in this https URL ",
+    "url": "https://arxiv.org/abs/2203.08826",
+    "authors": [
+      "Stavros Efthymiou",
+      "Marco Lazzarin",
+      "Andrea Pasquale",
+      "Stefano Carrazza"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.13188",
+    "title": "Derivation of an Inverse Spatial Autoregressive Model for Estimating  Moran's Index",
+    "abstract": " Comments: 25 pages, 2 figures, 2 tables ",
+    "url": "https://arxiv.org/abs/2203.13188",
+    "authors": [
+      "Yanguang Chen"
+    ],
+    "subjectives": [
+      "Methodology (stat.ME)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.13407",
+    "title": "High-accuracy optical clocks based on group 16-like highly charged ions",
+    "abstract": " Comments: 9 pages, 1 figure ",
+    "url": "https://arxiv.org/abs/2207.13407",
+    "authors": [
+      "Saleh O. Allehabi",
+      "S. M. Brewer",
+      "V. A. Dzuba",
+      "V. V. Flambaum",
+      "K. Beloy"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.10179",
+    "title": "On parametric resonance in the laser action",
+    "abstract": " Comments: 29 pages ",
+    "url": "https://arxiv.org/abs/2208.10179",
+    "authors": [
+      "Alexander Komech"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.02918",
+    "title": "High-throughput optical absorption spectra for inorganic semiconductors",
+    "abstract": " Title: High-throughput optical absorption spectra for inorganic semiconductors ",
+    "url": "https://arxiv.org/abs/2209.02918",
+    "authors": [
+      "Ruo Xi Yang",
+      "Matthew K. Horton",
+      "Jason Munro",
+      "Kristin A. Persson"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.06071",
+    "title": "Microscopic Hamiltonian and Chaotic Behavior for Barium Titanate  Nanoparticles Revealed by Photonic Tunneling Model",
+    "abstract": " Comments: 9 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2209.06071",
+    "authors": [
+      "Emile Godwe",
+      "Olivia Florea",
+      "Rabab Jarrar",
+      "Mibaile Justin",
+      "Jihad Asad"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  }
+]
