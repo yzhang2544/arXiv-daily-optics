@@ -1,0 +1,398 @@
+[
+  {
+    "id": "arXiv:2209.09935",
+    "title": "Fully saturated hydrocarbons as hosts of optical cycling centers",
+    "abstract": "Designing closed, laser-induced optical cycling transitions in trapped atoms or molecules is useful for quantum information processing, precision measurement, and quantum sensing. Larger molecules that feature such closed transitions are particularly desirable, as they extend the scope of applicability of such systems. The search for molecules with robust optically cycling centers has been a challenge, and requires design principles beyond trial-and-error. Here, two design principles are proposed for the particular architecture of M-O-R, where M is an alkaline earth metal radical, and R is a ligand: 1) Fairly large saturated hydrocarbons can serve as ligands, R, due to a substantial HOMO-LUMO gap that encloses the cycling transition, so long as the R group is rigid. 2) Electron-withdrawing groups, via induction, can enhance Franck-Condon factors (FCFs) of the optical cycling transition, as long as they do not disturb the locally linear structure in the M-O-R motif. With these tools in mind, larger molecules can be trapped and used as optical cycling centers, sometimes with higher FCFs than smaller molecules. ",
+    "url": "https://arxiv.org/abs/2209.09935",
+    "authors": [
+      "Claire E. Dickerson",
+      "Cecilia Chang",
+      "Han Guo",
+      "Anastassia N. Alexandrova"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.09959",
+    "title": "Towards ML-based diagnostics of focused laser pulse",
+    "abstract": "Currently, machine learning (ML) methods are widely used to process the results of physical experiments. In some cases, due to the limited amount of experimental data, ML-models can be pre-trained on synthetic data simulated based on the analytical theory and then fine-tuned using experimental data. A limitation of this approach is the presence of the latent parameters of the analytical model, which values are difficult or impossible to estimate. Setting these parameters incorrectly may induce a dataset shift even when applied to synthetic data. To overcome this problem, we train the ML-model on a dataset with randomly varied latent parameters of the analythical model to force the ML-model to concentrate on more general patterns that depend weakly on the latent parameters. We applied this approach to the problem of tight focusing of a laser pulse with the complex structure of the wavefront. We observed good accuracy of reconstructing of the tilt parameters when training and testing the ML-model on datasets generated for different values of the latent parameters. This confirms that the ML-model was able to select relevant information without over-fitting for specific features inherent in certain values of the latent parameters. We believe that this approach will enrich possible applications of ML-methods to an experimental diagnostics of laser pulses. ",
+    "url": "https://arxiv.org/abs/2209.09959",
+    "authors": [
+      "Y.R. Rodimkov",
+      "V.D. Volokitin",
+      "I.B. Meyerov",
+      "E.S. Efimenko"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10037",
+    "title": "Determining single nanoparticle morphology by laser induced optical  alignment and Rayleigh scattering",
+    "abstract": "We demonstrate the measurement of nanoparticle shape by angularly resolved Rayleigh scattering of single optical levitated particles that are oriented in space via the trapping light in vacuum. This technique is applied to a range of particle geometries, from perfect spherical nanodroplets to octahedral nanocrystals. We show that this method can resolve shape differences down to a few nanometers and be applied in both low-damping environments, as demonstrated here, and in traditional overdamped fluids used in optical tweezers. ",
+    "url": "https://arxiv.org/abs/2209.10037",
+    "authors": [
+      "Markus Rademacher",
+      "Jonathan Gosling",
+      "Antonio Pontin",
+      "Marko Toro\u0161",
+      "Jence T. Mulder",
+      "Arjan J. Houtepen",
+      "Peter F. Barker"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10038",
+    "title": "Quantum Fluid Dynamics on the Hypersphere",
+    "abstract": "It is known from quantum mechanics that particles are associated with wave functions whose time evolution is governed by a wave equation, and that the probability of observing the particle at some future location is proportional to the amplitude of the wave function. Although this statistical relationship is well quantified, the interpretations have remained controversial, with many split between the classical Copenhagen interpretation and some variation of de Broglie-Bohmian pilot wave models. Recent experiments with Hydrodynamic Quantum Analogs have demonstrated that many quantum effects can be modeled as emergent phenomenon from fluid dynamics, suggesting there may be a potential underlying fluid dynamics explanations for the de Broglie-Bohm pilot wave models. However, no theory has ever been presented that successfully unifies these quantum mechanical observations with the cosmic scale observations of general relativity and inflation. In this paper, we propose a novel Quantum Fluid Dynamics model of quantum mechanics, from which the concepts of particles, waves, rest mass, inertia, momentum, general relativity, mass-energy equivalence, the uncertainty principle and the appearance of a time-like dimension can all be described as emergent phenomenon from fluid dynamics. ",
+    "url": "https://arxiv.org/abs/2209.10038",
+    "authors": [
+      "Stuart Heinrich"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10144",
+    "title": "Enabling direct kinetic simulation of dense plasma plume expansion for  laser ablation plasma thrusters",
+    "abstract": "Laser ablation plasma thrusters are an emerging space propulsion concept that provides promise for lightweight payload delivery. Predicting the lifetime and performance of these thrusters hinges on a comprehensive characterization of the expansion dynamics of the ablated plasma plume. While state-of-the-art techniques for simulating plasmas are often particle-based, a grid-based direct kinetic solver confers advantages in such a transient and inhomogeneous problem by eliminating statistical noise. A direct kinetic solver including interparticle collisions is employed on a plume expansion model problem spanning one dimension each in configuration and velocity space. The high degree of thermodynamic nonequilibrium inherent in plume expansion is characterized, justifying the need for a kinetic rather than a hybrid or fluid solver. Thruster-relevant metrics such as the momentum flux are also computed. The plume dynamics are observed to be highly inhomogeneous in space with insufficient time for thermalization in the region preceding the expansion front, and the theoretical possibility of reducing the local grid resolution by up to two orders of magnitude at the far end of the domain is established. These grid-point requirements are verified via the employment of nonuniform grids of various expansion ratios, several of which also employ coarsening in velocity space. Longer domain lengths are explored to characterize thruster-scale phenomena and larger ambient pressures are simulated as a testbed to probe facility effects due to collisions with background particles. ",
+    "url": "https://arxiv.org/abs/2209.10144",
+    "authors": [
+      "Wai Hong Ronald Chan",
+      "Iain D. Boyd"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10159",
+    "title": "Neutron Irradiation and Electrical Characterisation of the First 8\"  Silicon Pad Sensor Prototypes for the CMS Calorimeter Endcap Upgrade",
+    "abstract": "As part of its HL-LHC upgrade program, the CMS collaboration is replacing its existing endcap calorimeters with a high-granularity calorimeter (CE). The new calorimeter is a sampling calorimeter with unprecedented transverse and longitudinal readout for both electromagnetic and hadronic compartments. Due to its compactness, intrinsic time resolution, and radiation hardness, silicon has been chosen as active material for the regions exposed to higher radiation levels. The silicon sensors are fabricated as 20 cm (8\") wide hexagonal wafers and are segmented into several hundred pads which are read out individually. As part of the sensor qualification strategy, 8\" sensor irradiation with neutrons has been conducted at the Rhode Island Nuclear Science Center (RINSC) and followed by their electrical characterisation in 2020-21. The completion of this important milestone in the CE's R&D program is documented in this paper and it provides detailed account of the associated infrastructure and procedures. The results on the electrical properties of the irradiated CE silicon sensors are presented. ",
+    "url": "https://arxiv.org/abs/2209.10159",
+    "authors": [
+      "CMS HGCAL Collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10204",
+    "title": "Ultrashort pulse generation from a graphene-coupled passively  mode-locked terahertz laser",
+    "abstract": "The generation of stable trains of ultra-short (fs-ps), terahertz (THz)-frequency radiation pulses, with large instantaneous intensities, is an underpinning requirement for the investigation of light-matter interactions, for metrology and for ultra-high-speed communications. In solid-state electrically-pumped lasers, the primary route for generating short pulses is through passive mode-locking. However, this has not yet been achieved in the THz range, defining one of the longest standing goals over the last two decades. In fact, the realization of passive mode-locking has long been assumed to be inherently hindered by the fast recovery times associated with the intersubband gain of THz lasers. Here, we demonstrate a self-starting miniaturized ultra-short pulse THz laser, exploiting an original device architecture that includes the surface patterning of multilayer-graphene saturable absorbers distributed along the entire cavity of a double-metal semiconductor 2.30-3.55 THz wire laser. Self-starting pulsed emission with 4.0-ps-long pulses in a compact, all-electronic, all-passive and inexpensive configuration is demonstrated. ",
+    "url": "https://arxiv.org/abs/2209.10204",
+    "authors": [
+      "Elisa Riccardi",
+      "Valentino Pistore",
+      "Seonggil Kang",
+      "Lukas Seitner",
+      "Anna De Vetter",
+      "Christian Jirauschek",
+      "Juliette Mangeney",
+      "Lianhe Li",
+      "A. Giles Davies",
+      "Edmund H. Linfield",
+      "Andrea C. Ferrari",
+      "Sukhdeep S. Dhillon",
+      "Miriam S. Vitiello"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10234",
+    "title": "Cold-atom sources for the Matter-wave laser Interferometric Gravitation  Antenna (MIGA)",
+    "abstract": "The Matter-wave laser Interferometric Gravitation Antenna (MIGA) is an underground instrument using cold-atom interferometry to perform precision measurements of gravity gradients and strains. Following its installation at the low noise underground laboratory LSBB in the South-East of France, it will serve as a prototype for gravitational wave detectors with a horizontal baseline of 150 meters. Three spatially separated cold-atom interferometers will be driven by two common counter-propagating lasers to perform a measurement of the gravity gradient along this baseline. This article presents the cold-atom sources of MIGA, focusing on the design choices, the realization of the systems, the performances and the integration within the MIGA instrument. ",
+    "url": "https://arxiv.org/abs/2209.10234",
+    "authors": [
+      "Quentin Beaufils",
+      "Leonid A. Sidorenkov",
+      "Pierre Lebegue",
+      "Bertrand Venon",
+      "David Holleville",
+      "Laurent Volodimer",
+      "Michel Lours",
+      "Joseph Junca",
+      "Xinhao Zou",
+      "Andrea Bertoldi",
+      "Marco Prevedelli",
+      "Dylan O. Sabulsky",
+      "Philippe Bouyer",
+      "Arnaud Landragin",
+      "Benjamin Canuel",
+      "Remi Geiger"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10296",
+    "title": "Free electron laser seeded by betatron radiation",
+    "abstract": "In this paper the use of betatron radiation as a seed for the Free Electron Laser (FEL) is presented. The scheme shown can be adopted from all FEL driven by plasma accelerated electron beams via Particle or Laser Wake Field Acceleration. Intense radiation in the region of X ray characterized by a broad spectrum, the betatron radiation, is indeed produced in the plasma acceleration process from the electron passing through the ionized gas. It is proposed to use this radiation, suitably selected in wavelength and properly synchronized, to stimulate the emission of the Free Electron Laser. ",
+    "url": "https://arxiv.org/abs/2209.10296",
+    "authors": [
+      "A.Ghigo",
+      "M. Galletti",
+      "V. Shpakov",
+      "A. Curcio",
+      "V. Petrillo"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10472",
+    "title": "PHz scale spectral broadening and few-cycle compression of Yb:KGW laser  pulses in a pressurized, gas-filled hollow-core fiber",
+    "abstract": "We demonstrate efficient generation of coherent super-octave pulses via a single-stage spectral broadening of a Yb:KGW laser in a single, pressurized, Ne-filled, hollow-core fiber capillary. Emerging pulses spectrally spanning over more than $\\sim$1 PHz (250 nm- 1600 nm) at a dynamic range of $\\sim$60 dB, and an excellent beam quality open the door to combining Yb:KGW lasers with modern light field synthesis techniques. Compression of a fraction of the generated supercontinuum to intense (8 fs, $\\sim$2.4 cycle, $\\sim$650 $\\mu$J) pulses allows convenient use of these novel laser sources in strong-field physics and attosecond science. ",
+    "url": "https://arxiv.org/abs/2209.10472",
+    "authors": [
+      "Z. Pi",
+      "H. Y. Kim",
+      "E. Goulielmakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10098",
+    "title": "NeurOLight: A Physics-Agnostic Neural Operator Enabling Parametric  Photonic Device Simulation",
+    "abstract": "Optical computing is an emerging technology for next-generation efficient artificial intelligence (AI) due to its ultra-high speed and efficiency. Electromagnetic field simulation is critical to the design, optimization, and validation of photonic devices and circuits. However, costly numerical simulation significantly hinders the scalability and turn-around time in the photonic circuit design loop. Recently, physics-informed neural networks have been proposed to predict the optical field solution of a single instance of a partial differential equation (PDE) with predefined parameters. Their complicated PDE formulation and lack of efficient parametrization mechanisms limit their flexibility and generalization in practical simulation scenarios. In this work, for the first time, a physics-agnostic neural operator-based framework, dubbed NeurOLight, is proposed to learn a family of frequency-domain Maxwell PDEs for ultra-fast parametric photonic device simulation. We balance the efficiency and generalization of NeurOLight via several novel techniques. Specifically, we discretize different devices into a unified domain, represent parametric PDEs with a compact wave prior, and encode the incident light via masked source modeling. We design our model with parameter-efficient cross-shaped NeurOLight blocks and adopt superposition-based augmentation for data-efficient learning. With these synergistic approaches, NeurOLight generalizes to a large space of unseen simulation settings, demonstrates 2-orders-of-magnitude faster simulation speed than numerical solvers, and outperforms prior neural network models by ~54% lower prediction error with ~44% fewer parameters. Our code is available at https://github.com/JeremieMelo/NeurOLight. ",
+    "url": "https://arxiv.org/abs/2209.10098",
+    "authors": [
+      "Jiaqi Gu",
+      "Zhengqi Gao",
+      "Chenghao Feng",
+      "Hanqing Zhu",
+      "Ray T. Chen",
+      "Duane S. Boning",
+      "David Z. Pan"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10138",
+    "title": "Observation of the Surface Layer of Lithium Metal using In Situ  Spectroscopy",
+    "abstract": "We have investigated the surface of lithium metal using x-ray photoemission spectroscopy and optical spectroscopic ellipsometry. Even if we prepare the surface of lithium metal rigorously by chemical cleaning and mechanical polishing inside a glovebox, both spectroscopic investigations show the existence of a few tens of nanometer-thick surface layers, consisting of lithium oxides and lithium carbonates. When lithium metal is exposed to room air (~50% moisture), in situ real-time monitoring of optical spectra indicates that the surface layer grows at a rate of approximately 24 nm/min, presumably driven by an interface-controlled process. Our results hint that surface-layer-free lithium metals are formidable to achieve by a simple cleaning/polishing method, suggesting that the initial interface between lithium metal electrodes and solid-state electrolytes in fabricated lithium metal batteries can differ from an ideal lithium/electrolyte contact. ",
+    "url": "https://arxiv.org/abs/2209.10138",
+    "authors": [
+      "Ambrose Seo",
+      "Andrew Meyer",
+      "Sujan Shrestha",
+      "Ming Wang",
+      "Xingcheng Xiao",
+      "Yang-Tse Cheng"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10251",
+    "title": "Multiple Coulomb Scattering of muons in Lithium Hydride",
+    "abstract": "Multiple Coulomb Scattering (MCS) is a well known phenomenon occurring when charged particles traverse materials. Measurements of muons traversing low $Z$ materials made in the MuScat experiment showed that theoretical models and simulation codes, such as GEANT4 (v7.0), over-estimated the scattering. The Muon Ionization Cooling Experiment (MICE) measured the cooling of a muon beam traversing a liquid hydrogen or lithium hydride (LiH) energy absorber as part of a programme to develop muon accelerator facilities, such as a Neutrino Factory or a Muon Collider. The energy loss and MCS that occur in the absorber material are competing effects that alter the performance of the cooling channel. Therefore measurements of MCS are required in order to validate the simulations used to predict the cooling performance in future accelerator facilities. We report measurements made in the MICE apparatus of MCS using a LiH absorber and muons within the momentum range 160 to 245 MeV/c. The measured RMS scattering width is about 9% smaller than that predicted by the approximate formula proposed by the Particle Data Group. Data at 172, 200 and 240 MeV/c are compared to the GEANT4 (v9.6) default scattering model. These measurements show agreement with this more recent GEANT4 (v9.6) version over the range of incident muon momenta. ",
+    "url": "https://arxiv.org/abs/2209.10251",
+    "authors": [
+      "M. Bogomilov",
+      "R. Tsenov",
+      "G. Vankova-Kirilova",
+      "Y. P. Song",
+      "J. Y. Tang",
+      "Z. H. Li",
+      "R. Bertoni",
+      "M. Bonesini",
+      "F. Chignoli",
+      "R. Mazza",
+      "V. Palladino",
+      "A. de Bari",
+      "D. Orestano",
+      "L. Tortora",
+      "Y. Kuno",
+      "H. Sakamoto",
+      "A. Sato",
+      "S. Ishimoto",
+      "M. Chung",
+      "C. K. Sung",
+      "F. Filthaut",
+      "M. Fedorov",
+      "D. Jokovic",
+      "D. Maletic",
+      "M. Savic",
+      "N. Jovancevic",
+      "J. Nikolov",
+      "M. Vretenar",
+      "S. Ramberger",
+      "R. Asfandiyarov",
+      "A. Blondel",
+      "F. Drielsma",
+      "Y. Karadzhov",
+      "G. Charnley",
+      "N. Collomb",
+      "K. Dumbell",
+      "A. Gallagher",
+      "A. Grant",
+      "S. Griffiths",
+      "T. Hartnett",
+      "B. Martlew",
+      "A. Moss",
+      "A. Muir",
+      "I. Mullacrane",
+      "A. Oates",
+      "P. Owens",
+      "G. Stokes",
+      "P. Warburton",
+      "C. White",
+      "D. Adams",
+      "V. Bayliss",
+      "J. Boehm",
+      "T. W. Bradshaw",
+      "C. Brown",
+      "M. Courthold",
+      "J. Govans",
+      "M. Hills",
+      "J.-B. Lagrange",
+      "C. Macwaters",
+      "A. Nichols",
+      "R. Preece",
+      "S. Ricciardi",
+      "C. Rogers",
+      "T. Stanley",
+      "J. Tarrant",
+      "M. Tucker"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.09272",
+    "title": "Coherent Qubit Measurement in Cavity-Transmon Quantum Systems",
+    "abstract": " Comments: 42 pages, 1 figure. Motivations and goals clarified in the Introduction and Conclusions. Several misprints have been corrected ",
+    "url": "https://arxiv.org/abs/2112.09272",
+    "authors": [
+      "Massimo Porrati",
+      "Seth Putterman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.11775",
+    "title": "Monolithically integrated, broadband, high-efficiency silicon  nitride-on-silicon waveguide photodetectors in a visible-light integrated  photonics platform",
+    "abstract": " Comments: 20 pages, 21 figures ",
+    "url": "https://arxiv.org/abs/2203.11775",
+    "authors": [
+      "Yiding Lin",
+      "Zheng Yong",
+      "Xianshu Luo",
+      "Saeed Sharif Azadeh",
+      "Jared Mikkelsen",
+      "Ankita Sharma",
+      "Hong Chen",
+      "Jason C. C. Mak",
+      "Patrick G.-Q. Lo",
+      "Wesley D. Sacher",
+      "Joyce K. S. Poon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.03733",
+    "title": "Demonstration of a Quantum Gate using Electromagnetically Induced  Transparency",
+    "abstract": " Comments: 6 pages, 5 figures plus Supplementary Material ",
+    "url": "https://arxiv.org/abs/2204.03733",
+    "authors": [
+      "K. McDonnell",
+      "L. F. Keary",
+      "J. D. Pritchard"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.14322",
+    "title": "Simulation of interaction-induced chiral topological dynamics on a  digital quantum computer",
+    "abstract": " Comments: 10 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2207.14322",
+    "authors": [
+      "Jin Ming Koh",
+      "Tommy Tai",
+      "Ching Hua Lee"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.13310",
+    "title": "Report of the Topical Group on Quantum Sensors for Snowmass 2021",
+    "abstract": " Comments: 13 pages, 0 figures, contribution to Snowmass 2021, updated title, abstract, and added list of community contributors ",
+    "url": "https://arxiv.org/abs/2208.13310",
+    "authors": [
+      "Thomas Cecil",
+      "Kent Irwin",
+      "Reina Maruyama",
+      "Matt Pyle",
+      "Silvia Zorzetti"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.14396",
+    "title": "Evaporation of a sessile colloidal water-glycerol droplet: Marangoni  ring formation",
+    "abstract": " Title: Evaporation of a sessile colloidal water-glycerol droplet: Marangoni  ring formation ",
+    "url": "https://arxiv.org/abs/2208.14396",
+    "authors": [
+      "Lijun Thayyil Raju",
+      "Christian Diddens",
+      "Yaxing Li",
+      "Alvaro Marin",
+      "Marjolein N. van der Linden",
+      "Xuehua Zhang",
+      "Detlef Lohse"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  }
+]
