@@ -1,0 +1,425 @@
+[
+  {
+    "id": "arXiv:2209.12991",
+    "title": "Quality Control (QC) of FBK Preproduction 3D Si Sensors for ATLAS HL-LHC  Upgrades",
+    "abstract": "The challenging demands of the ATLAS High Luminosity (HL-LHC) Upgrade aim for a complete swap of new generation sensors that should cope with the ultimate radiation hardness. FBK has been one of the prime foundries to develop and fabricate such radiation-hard 3D silicon (Si) sensors. These sensors are chosen to be deployed into the innermost layer of the ATLAS Inner Tracker (ITk). Recently, a pre-production batch of 3D Si sensors of 50x50 um2 pixel geometry, compatible with the full-size ITKPix1v1.1 (RD53B) readout chip, was fabricated. Two wafers holding temporary metal were diced at IZM, Germany, and a systematic QC test campaign was carried out at the University of Trento electronics laboratory. The paper briefly describes the 3D Si sensor design for ATLAS ITk and the required QC characterization setups. It comprises electrical tests (i.e., I-V, C-V, and I-T) of non-irradiated RD53B sensors. In addition, the study of several parametric analyses, i.e., oxide charge density, oxide thickness, inter-pixel resistance, inter-pixel capacitance, etc., are reported with the aid of Process Control Monitor (PCM) structures. ",
+    "url": "https://arxiv.org/abs/2209.12991",
+    "authors": [
+      "D M S Sultan",
+      "Md Arif Abdulla Samy",
+      "J.X. Ye",
+      "M. Boscardin",
+      "F. Ficorella",
+      "S. Ronchin",
+      "G.-F. Dalla Betta"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13025",
+    "title": "Laser spectroscopy of aromatic molecules with optical cycling centers:  strontium (I) phenoxides",
+    "abstract": "We report the production and spectroscopic characterization of strontium (I) phenoxide ($\\mathrm{SrOC}_6\\mathrm{H}_5$, or SrOPh) and variants featuring electron-withdrawing groups designed to suppress vibrational excitation during spontaneous emission from the electronically excited state. Optical cycling closure of these species, which is the decoupling of vibrational state changes from spontaneous optical decay, is found by dispersed laser-induced fluorescence spectroscopy to be high, in accordance with theoretical predictions. A high-resolution, rotationally-resolved laser excitation spectrum is recorded for SrOPh, allowing the estimation of spectroscopic constants and identification of candidate optical cycling transitions for future work. The results confirm the promise of strontium phenoxides for laser cooling and quantum state detection at the single-molecule level. ",
+    "url": "https://arxiv.org/abs/2209.13025",
+    "authors": [
+      "Guanming Lao",
+      "Guo-Zhu Zhu",
+      "Claire E. Dickerson",
+      "Benjamin L. Augenbraun",
+      "Anastassia N. Alexandrova",
+      "Justin R. Caram",
+      "Eric R. Hudson",
+      "Wesley C. Campbell"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13033",
+    "title": "Efficient thermo-optic micro-ring phase shifter made of PECVD  silicon-rich amorphous silicon carbide",
+    "abstract": "In this work, the thermo-optic coefficient (TOC) of the silicon-rich amorphous silicon carbide (a-SiC) thin film deposited by plasma-enhanced chemical vapor deposition is characterized. We found that the TOC of the film increases as its silicon content increases. A more than three-fold improvement in the TOC is measured, reaching a TOC as high as $1.88 \\times 10^{-4} K^{-1}$, which is comparable to that of crystalline silicon. An efficient thermo-optic phase shifter has also been demonstrated by integrating the silicon-rich a-SiC micro-ring structure with a NiCr heater. Its tuning efficiency $P_{\\pi}$ as low as 4.4 mW has been measured at an optical wavelength of 1550 nm. These findings make silicon-rich a-SiC a good material candidate for thermo-optic applications in photonic integrated circuits. ",
+    "url": "https://arxiv.org/abs/2209.13033",
+    "authors": [
+      "Li-Yang Sunny Chang",
+      "Steve Pappert",
+      "Paul K. L. Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13035",
+    "title": "Tunable Directional Filter for Mid-Infrared Optical Transmission  Switching",
+    "abstract": "Controlling the spectral and angular response of infrared (IR) radiation is a challenging task of paramount importance to various emerging photonic applications. Here, we overcome these problems by proposing and analyzing a new design of a tunable narrowband directional optical transmission filter. The presented thermally controlled multilayer filter leverages the temperature dependent phase change properties of vanadium dioxide (VO2) to enable efficient and reversible fast optical switching by using a pump-probe laser excitation setup. More specifically, transmission is blocked for high intensity probe lasers due to the VO2 metallic properties induced at elevated temperatures while at low probe laser intensities high transmission through the filter occurs only for a narrowband IR range confined to near normal incident angles. The proposed multilayer composite dielectric filter is expected to have applications in optical communications, where it can act as dual functional infrared filter and optical switch. ",
+    "url": "https://arxiv.org/abs/2209.13035",
+    "authors": [
+      "Andrew Butler",
+      "Jack Schulz",
+      "Christos Argyropoulos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13121",
+    "title": "CyRSoXS: A GPU-accelerated virtual instrument for Polarized Resonant  Soft X-ray Scattering (P-RSoXS)",
+    "abstract": "Polarized Resonant Soft X-ray scattering (P-RSoXS) has emerged as a powerful synchrotron-based tool that combines principles of X-ray scattering and X-ray spectroscopy. P-RSoXS provides unique sensitivity to molecular orientation and chemical heterogeneity in soft materials such as polymers and biomaterials. Quantitative extraction of orientation information from P-RSoXS pattern data is challenging because the scattering processes originate from sample properties that must be represented as energy-dependent three-dimensional tensors with heterogeneities at nanometer to sub-nanometer length scales. We overcome this challenge by developing an open-source virtual instrument that uses GPUs to simulate P-RSoXS patterns from real-space material representations with nanoscale resolution. Our computational framework CyRSoXS (https://github.com/usnistgov/cyrsoxs) is designed to maximize GPU performance. We demonstrate the accuracy and robustness of our approach by validating against an extensive set of test cases, which include both analytical solutions and numerical comparisons, demonstrating a speedup of over three orders relative to the current state-of-the-art simulation software. Such fast simulations open up a variety of applications that were previously computationally infeasible, including (a) pattern fitting, (b) co-simulation with the physical instrument for operando analytics, data exploration, and decision support, (c) data creation and integration into machine learning workflows, and (d) utilization in multi-modal data assimilation approaches. Finally, we abstract away the complexity of the computational framework from the end-user by exposing CyRSoXS to Python using Pybind. This eliminates I/O requirements for large-scale parameter exploration and inverse design, and democratizes usage by enabling seamless integration with a Python ecosystem (https://github.com/usnistgov/nrss). ",
+    "url": "https://arxiv.org/abs/2209.13121",
+    "authors": [
+      "Kumar Saurabh",
+      "Peter J. Dudenas",
+      "Eliot Gann",
+      "Veronica G. Reynolds",
+      "Subhrangsu Mukherjee",
+      "Daniel Sunday",
+      "Tyler B. Martin",
+      "Peter A. Beaucage",
+      "Michael L. Chabinyc",
+      "Dean M. DeLongchamp",
+      "Adarsh Krishnamurthy",
+      "Baskar Ganapathysubramanian"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Mathematical Software (cs.MS)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13162",
+    "title": "Single-Shot Quantitative X-ray Imaging Using a Primary Modulator and  Dual-Layer Detector",
+    "abstract": "Purpose: Conventional x-ray imaging and fluoroscopy have limitations in quantitation due to several challenges, including scatter, beam hardening, and overlapping tissues. In this work, we propose single-shot quantitative imaging (SSQI) by combining the use of a primary modulator (PM) and dual-layer (DL) detector, which enables motion-free dual-energy (DE) imaging with scatter correction in a single shot. Methods: The SSQI algorithm allows simultaneous recovery of two material-specific images and two scatter images using four sub-measurements from the PM encoding. For validation, we set up SSQI on our tabletop system and imaged acrylic and copper slabs with known thicknesses, estimated scatter with our SSQI algorithm, and compared the material decomposition (MD) for different combinations of the two materials with ground truth. Second, we imaged an anthropomorphic chest phantom containing contrast in the coronary arteries and compared the MD with and without SSQI. Lastly, to evaluate SSQI in dynamic applications, we constructed a flow phantom that enabled dynamic imaging of iodine contrast. Results: The root mean squared error (RMSE) of SSQI estimation was 0.13 cm for acrylic and 0.04 mm for copper. For the anthropomorphic phantom, direct MD resulted in incorrect interpretation of contrast and soft tissue, while SSQI successfully distinguished them and reduced RMSE in material-specific images by 38% to 92%. For the flow phantom, SSQI was able to perform accurate dynamic quantitative imaging, separating contrast from the background. Conclusions: We demonstrated the potential of SSQI for robust quantitative x-ray imaging. The simplicity of SSQI may enable its widespread adoption, including radiography and dynamic imaging such as real-time image guidance and cone-beam CT. ",
+    "url": "https://arxiv.org/abs/2209.13162",
+    "authors": [
+      "Linxi Shi",
+      "N. Robert Bennett",
+      "Alexander Vezeridis",
+      "Nishita Kothary",
+      "Adam Wang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13209",
+    "title": "Tracking the Vector Acceleration with a Hybrid Quantum Accelerometer  Triad",
+    "abstract": "Robust and accurate acceleration tracking remains a challenge in many fields. For geophysics and economic geology, precise gravity mapping requires onboard sensors combined with accurate positioning and navigation systems. Cold-atom-based quantum inertial sensors can potentially provide such high-precision instruments. However, current scalar instruments require precise alignment with vector quantities. Here, we present the first hybrid three-axis accelerometer exploiting the quantum advantage to measure the full acceleration vector by combining three orthogonal atom interferometer measurements with a classical navigation-grade accelerometer triad. Its ultra-low bias permits tracking the acceleration vector over long timescales -- yielding a 50-fold improvement in stability ($6 \\times 10^{-8}~g$) over our classical accelerometers. We record the acceleration vector at a high data rate (1 kHz), with absolute magnitude accuracy below 10 $\\mu g$, and pointing accuracy of 4 $\\mu$rad. This paves the way toward future strapdown applications with quantum sensors and highlights their potential as future inertial navigation units. ",
+    "url": "https://arxiv.org/abs/2209.13209",
+    "authors": [
+      "Simon Templier",
+      "Pierrick Cheiney",
+      "Quentin d'Armagnac de Castanet",
+      "Baptiste Gouraud",
+      "Henri Porte",
+      "Fabien Napolitano",
+      "Philippe Bouyer",
+      "Baptiste Battelier",
+      "Brynle Barrett"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13212",
+    "title": "Nonlinear optical study of hierarchical 3D Al doped ZnO nanosheet arrays  deposited by successive ionic adsorption and reaction metod",
+    "abstract": "Successive ionic layer adsorption and reaction (SILAR) method is based on the adsorption and reaction of the ions in the cationic solution and the ionic solution, respectively. This method is simple, inexpensive, large-scale deposition, effective way for deposition on 3D substrates, low-temperature process and represents an easy way for the preparation of doped, composite and heterojunction materials. To take advantage of this method and the ZnO nanostructures, various parameters have been optimized. Undoped and Aluminum (Al) doped ZnO nanostructures were prepared by the SILAR technique. The characterization of the nanostructures prepared was carried out using X-ray diffraction (XRD), scanning elektron microscopy (SEM), energy dispersive spectroscopy (EDS), X ray photoemission spectroscopy (XPS), UV Vis spectrometry and nonlinear optical analysis (NLO). The structural, compositional and optical properties confirm the introduction of Al3+ ions into the ZnO matrix. As a result, an enhancement of the crystallinity, enhancement of the light absorption and a change in the morphology of the nanostructures were observed. The laser stimulated nonlinear optical effects of the second and third harmonic generation were done using a fundamental laser beam. The laser stimulated NLO values obtained are at least 10% higher than the doped ZnO nanomaterials synthesized by other methods using the same set up. ",
+    "url": "https://arxiv.org/abs/2209.13212",
+    "authors": [
+      "Ilyass Jellal",
+      "Khalid Nouneh",
+      "Jaroslaw Jedryka",
+      "Denis Chaumont",
+      "Jamal Naja"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13214",
+    "title": "Optoelectronic and nonlinear optical properties of Lu doped AgGaGe3Se8  crystallites",
+    "abstract": "A complex studies of optoelectronics, non-linear optical and laser stimulated piezoelectric features of chalcogenide powder-like chalcogenide crystals pure and rare earth doped AgGaGe3 Se8 crystallites are presented. It is shown principal role of the morphology for the titled materials. The contribution to nonlinear optical, photoconductivity and laser stimulated piezoelectricity are comparable. The temperature dependences are explored. The possibilityity to operate by the features of the titled crystallites in the optically reflected regime is shown. This may be important for laser operated triggers, modulators, photo detectors etc. The relaxation processes are studied. Among the NLO features main attention is devoted to second harmonic generation efficiencies in the reflected regime where principal role is played by morphology. Additionally the laser stimulated piezoelectric for the near the surface states with different morphology of grains is explored. It is demonstrated that contribution of the near-the surface states for such kind of effects will be commensurable to the bulk-like contribution. ",
+    "url": "https://arxiv.org/abs/2209.13214",
+    "authors": [
+      "I. V. Kityk",
+      "G. L. Myronchuk",
+      "M. Lelonek",
+      "P. Goring",
+      "L. Piskach",
+      "B. Vidrynsky",
+      "A. Ryzhuk",
+      "A. O. Fedorchuk",
+      "J. Jedryka"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13229",
+    "title": "Realization of a wide steering end-fire facet optical phased array using  silicon rich silicon nitride",
+    "abstract": "The design, fabrication, and characterization of a 16-element optical phased array (OPA) using a high index (n = 3.1) silicon rich silicon nitride (SRN) is demonstrated. We present one-dimensional beam steering with end-fire facet antennas over a wide steering range of >115{\\deg} at a fixed wavelength of 1525 nm. A spot size of 0.11{\\deg} has been measured at boresight, consistent with theory. We demonstrate SRN as a viable material choice for chip-scale OPA applications due to its high thermo-optic coefficient, high optical power handling capacity due to negligible two-photon absorption (TPA), wide transparency window, low propagation loss, and CMOS compatibility. ",
+    "url": "https://arxiv.org/abs/2209.13229",
+    "authors": [
+      "Hani Nejadriahi",
+      "Prabhav Gaur",
+      "Karl Johnson",
+      "Steve Pappert",
+      "Yeshaiahu Fainman",
+      "Paul Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13295",
+    "title": "Atomically Thin Yellow Pearl: An Impetus for Thermal Nonlinear Optical  Effect Assisted Continuous Wave Random Lasing",
+    "abstract": "Above cryogenic temperatures, random laser (RL) emission under continuous wave (CW) optical pumping is often challenging for materials having plenty of lattice defects. Thus, intensive care is required while fabricating the RL device. Synthesis of 2D materials having unique functionality at the atomic limit is necessary for use in such devices. In this work, defects-free 2D yellow pearl (2D-YP) has been synthesized from bulk south sea pearl using liquid-phase exfoliation (LPE) technique. Thereafter, 2D-YP has been employed as passive scatterer to achieve CW pumped RL emission from a conventional gain molecule, i.e., Rhodamine B (RhB). Compared to other semiconductor (TiO2) and 2D (Graphene and h-BN) passive scatterers, ~25 times improvement in gain volume is observed for the disordered system consisting of RhB and 2D-YP, i.e., 2D-YP@RhB, which is found to be due to the formation of a large refractive index gradient, as induced by the thermal nonlinear optical (NLO) interaction. Hence, incoherent RL (ic-RL) emission ~591 nm is reported for 2D-YP@RhB at a lowest threshold input pump power and a linewidth of 65 mW and 3 nm, respectively. Additionaly, a clear transition from ic-RL to mode tunable coherent RL (c-RL) emission is also possible by altering the configuration of the 2D-YP@RhB container. Therefore, the newly designed Van der Waals heterostructure, i.e., 2D-YP with intrinsic photon trapping capability may pave an avenue towards developing future exciting optoelectronic devices. ",
+    "url": "https://arxiv.org/abs/2209.13295",
+    "authors": [
+      "N. Mandal",
+      "A. Pramanik",
+      "A. Dey",
+      "P. Kumbhakar",
+      "V. Kochat",
+      "A. R. S. Gautam",
+      "N. Glavin",
+      "A. K. Roy",
+      "P. M. Ajayan",
+      "C. S. Tiwary"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13365",
+    "title": "Solving the thoracic inverse problem in the fruit fly",
+    "abstract": "In many insect species, the thoracic structure plays a crucial role in enabling flight. In the dipteran indirect flight mechanism, the thorax acts as a transmission link between the flight muscles and the wings, and it is often thought to act as an elastic modulator: improving flight motor efficiency thorough linear or nonlinear resonance. But as peering closely into the drivetrain of tiny insects is experimentally difficult, the nature of this elastic modulation, and any associated resonant effects, are unclear. Here, we present a new inverse-problem methodology to surmount this difficulty. In a data synthesis process, we integrate experimentally-observable aerodynamic and musculoskeletal data for the fruit fly D. melanogaster, and identify several surprising properties of the fly's thorax. We find that fruit flies have an energetic need for flight motor resonance: energy savings due to flight motor elasticity can be up be to 30%. However, the elasticity of the flight muscles themselves is sufficient - and sometimes more than sufficient - to ensure flight motor resonance. In fruit flies, the role of the thorax as an elastic modulator is likely to be insignificant. We discover also a fundamental link between the fruit fly wingbeat kinematics and musculature dynamics: wingbeat kinematics show key adaptions, including in wing elevation angle, that ensure that wingbeat load requirements match musculature load output capability. Together, these newly-identified properties lead to novel conceptual model of the fruit fly's flight motor: a strongly-nonlinear structure, resonant due to muscular elasticity, and intensely concerned with ensuring that the primary flight muscles are operating efficiently. Our inverse-problem methodology sheds new light on the complex behavior of these tiny flight motors, and provides avenues for further studies in a range of other insects. ",
+    "url": "https://arxiv.org/abs/2209.13365",
+    "authors": [
+      "Arion Pons",
+      "Illy Perl",
+      "Omri Ben-Dov",
+      "Roni Maya",
+      "Tsevi Beatus"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13494",
+    "title": "Open quantum dynamics for plant motions",
+    "abstract": "Stochastic Schr\\\"odinger equations that govern the dynamics of open quantum systems are given by the equations for signal processing. In particular, the Brownian motion that drives the wave function of the system does not represent noise, but provides purely the arrival of new information. Thus the wave function is guided by the optimal signal detection about the conditions of the environments under noisy observations. This behaviour is similar to biological systems that detect environmental cues, process this information, and adapt to them optimally by minimising uncertainties about the conditions of their environments. It is postulated that information-processing capability is a fundamental law of nature, and hence that models describing open quantum systems can equally be applied to biological systems to model their dynamics. For illustration, simple stochastic models are considered to capture heliotropic and gravitropic motions of plants. The advantage of such dynamical models is that it allows for the quantification of information processed by the plants. By considering the consequence of information erasure, it is argued that biological systems can process environmental signals relatively close to the Landauer limit of computation, and that loss of information must lie at the heart of ageing in biological systems. ",
+    "url": "https://arxiv.org/abs/2209.13494",
+    "authors": [
+      "Dorje C. Brody"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.12898",
+    "title": "Optical Neural Ordinary Differential Equations",
+    "abstract": "Increasing the layer number of on-chip photonic neural networks (PNNs) is essential to improve its model performance. However, the successively cascading of network hidden layers results in larger integrated photonic chip areas. To address this issue, we propose the optical neural ordinary differential equations (ON-ODE) architecture that parameterizes the continuous dynamics of hidden layers with optical ODE solvers. The ON-ODE comprises the PNNs followed by the photonic integrator and optical feedback loop, which can be configured to represent residual neural networks (ResNet) and recurrent neural networks with effectively reduced chip area occupancy. For the interference-based optoelectronic nonlinear hidden layer, the numerical experiments demonstrate that the single hidden layer ON-ODE can achieve approximately the same accuracy as the two-layer optical ResNet in image classification tasks. Besides, the ONODE improves the model classification accuracy for the diffraction-based all-optical linear hidden layer. The time-dependent dynamics property of ON-ODE is further applied for trajectory prediction with high accuracy. ",
+    "url": "https://arxiv.org/abs/2209.12898",
+    "authors": [
+      "Yun Zhao",
+      "Hang Chen",
+      "Min Lin",
+      "Haiou Zhang",
+      "Tao Yan",
+      "Xing Lin",
+      "Ruqi Huang",
+      "Qionghai Dai"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13060",
+    "title": "Overcoming I/O bottleneck in superconducting quantum computing:  multiplexed qubit control with ultra-low-power, base-temperature cryo-CMOS  multiplexer",
+    "abstract": "Large-scale superconducting quantum computing systems entail high-fidelity control and readout of large numbers of qubits at millikelvin temperatures, resulting in a massive input-output bottleneck. Cryo-electronics, based on complementary metal-oxide-semiconductor (CMOS) technology, may offer a scalable and versatile solution to overcome this bottleneck. However, detrimental effects due to cross-coupling between the electronic and thermal noise generated during cryo-electronics operation and the qubits need to be avoided. Here we present an ultra-low power radio-frequency (RF) multiplexing cryo-electronics solution operating below 15 mK that allows for control and interfacing of superconducting qubits with minimal cross-coupling. We benchmark its performance by interfacing it with a superconducting qubit and observe that the qubit's relaxation times ($T_1$) are unaffected, while the coherence times ($T_2$) are only minimally affected in both static and dynamic operation. Using the multiplexer, single qubit gate fidelities above 99.9%, i.e., well above the threshold for surface-code based quantum error-correction, can be achieved with appropriate thermal filtering. In addition, we demonstrate the capability of time-division-multiplexed qubit control by dynamically windowing calibrated qubit control pulses. Our results show that cryo-CMOS multiplexers could be used to significantly reduce the wiring resources for large-scale qubit device characterization, large-scale quantum processor control and quantum error correction protocols. ",
+    "url": "https://arxiv.org/abs/2209.13060",
+    "authors": [
+      "Rohith Acharya",
+      "Steven Brebels",
+      "Alexander Grill",
+      "Jeroen Verjauw",
+      "Tsvetan Ivanov",
+      "Daniel Perez Lozano",
+      "Danny Wan",
+      "Jacques van Damme",
+      "A. M. Vadiraj",
+      "Massimo Mongillo",
+      "Bogdan Govoreanu",
+      "Jan Craninckx",
+      "I. P. Radu",
+      "Kristiaan de Greve",
+      "Georges Gielen",
+      "Francky Catthoor",
+      "Anton Poto\u010dnik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13173",
+    "title": "Optimal microwave control pulse for nuclear spin polarization and  readout in dense nitrogen-vacancy ensembles in diamond",
+    "abstract": "Nitrogen-vacancy centers possessing nuclear spins are promising candidates for a novel nuclear spin gyroscope. Preparation of a nuclear spin state is a crucial step to implement a sensor that utilizes a nuclear spin. In a low magnetic field, such a preparation utilizes population transfer, from polarized electronic spin to nuclear spin, using microwave pulses. The use of the narrowband microwave pulse proposed earlier is inefficient when magnetic transitions are not well resolved, particularly when applied to diamond with a natural abundance of carbon atoms or dense ensembles of nitrogen-vacancy centers. In this study, the authors performed optimization of the pulse shape for 3 relatively easily accessible pulse shapes. The optimization was done for a range of magnetic transition linewidths, corresponding to the practically important range of nitrogen concentrations (5-50 ppm). It was found that, while at low nitrogen concentrations, optimized pulse added very little to simple square shape pulse, and in the case of dense nitrogen-vacancy ensembles, with a rather wide magnetic transition width of 1.5 MHz optimal pulses, a factor of 15% improvement in the population of the target state was observed. ",
+    "url": "https://arxiv.org/abs/2209.13173",
+    "authors": [
+      "V.V. Soshenko",
+      "I.S. Cojocaru",
+      "S.V. Bolshedvorskii",
+      "O.R. Rubinas",
+      "V.N. Sorokin",
+      "A.N. Smolyaninov",
+      "A.V. Akimov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13275",
+    "title": "Quantum mechanics requires \"conspiracy\"",
+    "abstract": "Quantum states containing records of incompatible outcomes of quantum measurements are valid states in the tensor product Hilbert space. Since they contain false records, they conflict with the Born rule and with our observations. I show that excluding them requires a fine-tuning to a zero-measure subspace of the Hilbert space that seems \"conspiratorial\", in the sense that $\\bullet$ it depends on future events, in particular of future choices of the measurement settings, $\\bullet$ it depends on the evolution law (normally thought to be independent of the initial conditions), $\\bullet$ it violates statistical independence (even in interpretations that satisfy it in the context of Bell's theorem, like standard quantum mechanics, pilot-wave theories, collapse theories, many-worlds etc.). Even the innocent assumption that there are measuring devices requires this kind of fine tuning. These results are independent of the interpretation of quantum mechanics. To explain away this apparent fine-tuning, I propose that an yet unknown law or superselection rule may restrict the full tensor product Hilbert space to this very special subspace. ",
+    "url": "https://arxiv.org/abs/2209.13275",
+    "authors": [
+      "Ovidiu Cristinel Stoica"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13377",
+    "title": "Quantum and classical correlations in open quantum-spin lattices via  truncated-cumulant trajectories",
+    "abstract": "The study of quantum many-body physics in Liouvillian open quantum systems becomes increasingly important with the recent progress in experimental control on dissipative systems and their technological exploitation . A central question in open quantum systems concerns the fate of quantum correlations, and the possibility of controlling them by engineering the competition between the Hamiltonian dynamics and the coupling to a bath. Such a question is challenging from a theoretical point of view, as numerical methods faithfully accounting for quantum correlations are either relying on exact diagonalization, limiting drastically the sizes that can be treated; or on approximations on the range or strength of quantum correlations, associated to the choice of a specific Ansatz for the density matrix. In this work we propose a new method to treat open quantum-spin lattices, based on stochastic quantum trajectories for the solution of the open-system dynamics. Along each trajectory, the hierarchy of equations of motion for many-point spin-spin correlators is truncated to a given finite order, assuming that multivariate $k$-th order cumulants vanish for $k$ exceeding a cutoff $k_c$. This allows tracking the evolution of quantum spin-spin correlations up to order $k_c$ for all length scales. We validate this approach in the paradigmatic case of the phase transitions of the dissipative 2D XYZ lattice, subject to spontaneous decay. We convincingly assess the existence of steady-state phase transitions from paramagnetic to ferromagnetic, and back to paramagnetic, upon increasing one of the Hamiltonian couplings; as well as their classical Ising nature. Moreover, the approach allows us to show the presence of significant quantum correlations in the vicinity of the dissipative critical point, and to unveil the presence of spin squeezing, a tight lower bound to the quantum Fisher information. ",
+    "url": "https://arxiv.org/abs/2209.13377",
+    "authors": [
+      "Wouter Verstraelen",
+      "Dolf Huybrechts",
+      "Tommaso Roscilde",
+      "Michiel Wouters"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2201.02426",
+    "title": "Variational Quantum Computation of Molecular Linear Response Properties  on a Superconducting Quantum Processor",
+    "abstract": " Comments: 22 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2201.02426",
+    "authors": [
+      "Kaixuan Huang",
+      "Xiaoxia Cai",
+      "Hao Li",
+      "Zi-Yong Ge",
+      "Ruijuan Hou",
+      "Hekang Li",
+      "Tong Liu",
+      "Yunhao Shi",
+      "Chitong Chen",
+      "Dongning Zheng",
+      "Kai Xu",
+      "Zhi-Bo Liu",
+      "Zhendong Li",
+      "Heng Fan",
+      "Wei-Hai Fang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.06763",
+    "title": "Non-commutative phase-space Lotka-Volterra dynamics: the quantum  analogue",
+    "abstract": " Comments: 25 pages, 5 figures. In the preliminar version, expressions like a &gt; 0, a &lt; 0 and a = 0 , should be read as a &gt; 1, a &lt; 1 and a = 1, now corrected in this final version. Figure colors were changed in order to match the PRE publication ",
+    "url": "https://arxiv.org/abs/2206.06763",
+    "authors": [
+      "Alex E. Bernardini",
+      "Orfeu Bertolami"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.01280",
+    "title": "Twenty Years of Auxiliary-Field Quantum Monte Carlo in Quantum  Chemistry: An Overview and Assessment on Main Group Chemistry and  Bond-Breaking",
+    "abstract": " Title: Twenty Years of Auxiliary-Field Quantum Monte Carlo in Quantum  Chemistry: An Overview and Assessment on Main Group Chemistry and  Bond-Breaking ",
+    "url": "https://arxiv.org/abs/2208.01280",
+    "authors": [
+      "Joonho Lee",
+      "Hung Q. Pham",
+      "David R. Reichman"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.09248",
+    "title": "Topological valley crystals in a photonic Su-Schrieffer-Heeger (SSH)  variant",
+    "abstract": " Title: Topological valley crystals in a photonic Su-Schrieffer-Heeger (SSH)  variant ",
+    "url": "https://arxiv.org/abs/2208.09248",
+    "authors": [
+      "Z. Yu",
+      "H. Lin",
+      "R. Zhou",
+      "Z. Li",
+      "Z. Mao",
+      "K. Peng",
+      "Y. Liu",
+      "X. Shi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10038",
+    "title": "Quantum Fluid Dynamics on the Hypersphere",
+    "abstract": " Title: Quantum Fluid Dynamics on the Hypersphere ",
+    "url": "https://arxiv.org/abs/2209.10038",
+    "authors": [
+      "Stuart Heinrich"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  }
+]
