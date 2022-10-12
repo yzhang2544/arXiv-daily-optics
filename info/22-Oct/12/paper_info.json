@@ -1,0 +1,539 @@
+[
+  {
+    "id": "arXiv:2210.04938",
+    "title": "Decreasing ultrafast X-ray pulse durations with saturable absorption and  resonant transitions",
+    "abstract": "Saturable absorption is a nonlinear effect where a material's ability to absorb light is frustrated due to a high influx of photons and the creation of electron vacancies. Experimentally induced saturable absorption in copper revealed a reduction in the temporal duration of transmitted X-ray laser pulses, but a complete understanding of this process is still missing. In this computational work, we employ non-local thermodynamic equilibrium plasma simulations to study the interaction of femtosecond X-rays and copper. Following the onset of frustrated absorption, we find that a $K\\text{--}M$ resonant transition occurring at highly charged states turns copper opaque again. The changes in absorption generate a transient transparent window responsible for the shortened transmission signal. We also propose using fluorescence induced by the incident beam as an alternative source to achieve shorter X-ray pulses. Intense femtosecond X-ray pulses are valuable to probe the structure and dynamics of biological samples or to reach extreme states of matter. Shortened pulses could be relevant for emerging imaging techniques. ",
+    "url": "https://arxiv.org/abs/2210.04938",
+    "authors": [
+      "Sebastian Cardoch",
+      "Fabian Trost",
+      "Howard A. Scott",
+      "Henry N. Chapman",
+      "Carl Caleman",
+      "Nicusor Timneanu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.04945",
+    "title": "Spectroscopic Observation and Modeling of Photonic Modes in CeO2  Nanocubes",
+    "abstract": "Photonic modes in dielectric nanostructures, e.g., wide gap semiconductor like CeO2 (ceria), has potential for various applications such as light harvesting and information transmission. To fully understand the properties of such phenomenon in nanoscale, we applied electron energy-loss spectroscopy (EELS) in scanning transmission electron microscope (STEM) to detect such modes in a well-defined ceria nanocube. Through spectra and mapping, we demonstrated a geometrical difference of mode excitation. By comparing various spectra taken at different location relative to the cube, we also showed the transmission properties of the mode. To confirm our observation, we performed EELS simulation with finite-element dielectric calculations in COMSOL Multiphysics. We also revealed the origin of the modes through the calculation. We purposed a simple analytical model to estimate the energy of photonic modes as well. In all, this work gave a fine description of the photonic modes' properties in nanostructures, while demonstrating the advantage of EELS in characterizing optical phenomena in nanoscale. ",
+    "url": "https://arxiv.org/abs/2210.04945",
+    "authors": [
+      "Yifan Wang",
+      "Shize Yang",
+      "Peter A. Crozier"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.04991",
+    "title": "Enhanced diastereocontrol via strong light-matter interactions in an  optical cavity",
+    "abstract": "The enantiopurification of racemic mixtures of chiral molecules is important for a range of applications. Recent work has shown that chiral group-directed photoisomerization is a promising approach to enantioenrich racemic mixtures of BINOL, but increased control of the diasteriomeric excess (de) is necessary for its broad utility. Here we develop a cavity quantum electrodynamics (QED) generalization of time-dependent density functional theory and demonstrate computationally that strong light-matter coupling can alter the de of chiral group-directed photoisomerization of BINOL. The relative orientation of the cavity mode polarization and the molecules in the cavity dictates the nature of the cavity interactions, which either enhance the de of the (R)-BINOL diasteriomer (from 17% to $\\approx$ 40%) or invert the favorability to the (S)-BINOL derivative (to $\\approx$ 34% de). The latter outcome is particularly remarkable because it indicates that the preference in diasteriomer can be influenced via orientational control, without changing the chirality of the directing group. We demonstrate that the observed effect stems from cavity-induced changes to the Kohn-Sham orbitals of the ground state. ",
+    "url": "https://arxiv.org/abs/2210.04991",
+    "authors": [
+      "Nam Vu",
+      "Grace M. McLeod",
+      "Kenneth Hanson",
+      "A. Eugene DePrince III"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05095",
+    "title": "Digital Low-Level RF control system for Accumulator Ring at Advanced  Light Source Upgrade Project",
+    "abstract": "Currently ALS is undergoing an upgrade to ALSU to produce 100 times brighter soft X-ray light. The LLRF system for Accumulator Ring (AR) is composed of two identical LLRF stations, for driving RF amplifiers. The closed loop RF amplitude and phase stability is measured as $< 0.1\\%$ and $< 0.1^\\circ$ respectively, using the non-IQ digital down conversion together with analog up/down conversion, under a system-on-chip architecture. Realtime interlock system is implemented with $< 2 \\mu$s latency, for machine protection against arc flash and unexpected RF power. Control interfaces are developed to enable PLC-FPGA-EPICS communication to support operation, timing, cavity tuning, and interlock systems. The LLRF system handles alignment of buckets to swap beams between AR and Storage Ring by synchronous phase loop ramping between the two cavities. The system also includes an optimization routine to characterize the loop dynamics and determine optimal operating point using a built-in network analyzer feature. A cavity emulator of 31 kHz bandwidth is integrated with the LLRF system to validate the performance of the overall system being developed. ",
+    "url": "https://arxiv.org/abs/2210.05095",
+    "authors": [
+      "Qiang Du",
+      "Shreeharshini Murthy",
+      "Michael Betz",
+      "Kevin Bender",
+      "Wayne Lewis",
+      "Najm Us Saqib",
+      "Sergio Paiagua",
+      "Lawrence Doolittle",
+      "Carlos Serrano",
+      "Benjamin Flugstad",
+      "Kenneth Baptiste"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05309",
+    "title": "Optimization of laser stabilization via self-injection locking to a  whispering-gallery-mode microresonator: experimental study",
+    "abstract": "Self-injection locking of a diode laser to a high-quality-factor microresonator is widely used for frequency stabilization and linewidth narrowing. We constructed several microresonator-based laser sources with measured instantaneous linewidths of 1 Hz and used them for investigation and implementation of the self-injection locking effect. We studied analytically and experimentally the dependence of the stabilization coefficient on tunable parameters such as locking phase and coupling rate. It was shown that precise control of the locking phase allows fine tuning of the generated frequency from the stabilized laser diode. We also showed that it is possible for such laser sources to realize fast continuous and linear frequency modulation by injection current tuning inside the self-injection locking regime. We conceptually demonstrate coherent frequency-modulated continuous wave LIDAR over a distance of 10 km using such a microresonator-stabilized laser diode in the frequency-chirping regime and measure velocities as low as sub-micrometer per second in the unmodulated case. These results could be of interest for cutting-edge technology applications such as space debris monitoring and long-range object classification, high resolution spectroscopy and others. ",
+    "url": "https://arxiv.org/abs/2210.05309",
+    "authors": [
+      "Artem E. Shitikov",
+      "Ilya I. Lykov",
+      "Oleg V. Benderov",
+      "Dmitry A. Chermoshentsev",
+      "Ilya K. Gorelov",
+      "Andrey N. Danilin",
+      "Ramzil R. Galiev",
+      "Nikita M. Kondratiev",
+      "Steevy J. Cordette",
+      "Alexander V. Rodin",
+      "Anatoly V. Masalov",
+      "Valery E. Lobanov",
+      "Igor A. Bilenko"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05339",
+    "title": "Unlocking the out-of-plane dimension for photonic bound states in the  continuum to achieve maximum optical chirality",
+    "abstract": "The realization of lossless metasurfaces with true chirality crucially requires the fabrication of three-dimensional structures, constraining their feasibility for experiments and hampering practical implementations. Even though the three-dimensional assembly of metallic nanostructures has been demonstrated previously, the resulting plasmonic resonances suffer from high intrinsic and radiative losses. The concept of photonic bound states in the continuum (BICs) is instrumental for tailoring radiative losses in diverse geometries, especially when implemented using lossless dielectrics, but applications have so far been limited to planar and intrinsically achiral structures. Here, we introduce a novel nanofabrication approach to unlock the height of generally flat all-dielectric metasurfaces as an accessible parameter for efficient resonance and functionality control. In particular, we realize out-of-plane symmetry breaking in quasi-BIC metasurfaces and leverage this design degree of freedom to demonstrate, for the first time, an optical all-dielectric quasi-BIC metasurface with maximum intrinsic chirality that responds selectively to light of a particular circular polarization depending on the structural handedness. Our experimental results not only open a new paradigm for all-dielectric BICs and chiral nanophotonics but also promise advances in the realization of efficient generation of optical angular momentum, holographic metasurfaces, and parity-time symmetry-broken optical systems. ",
+    "url": "https://arxiv.org/abs/2210.05339",
+    "authors": [
+      "Lucca K\u00fchner",
+      "Fedja J. Wendisch",
+      "Alexander A. Antonov",
+      "Johannes B\u00fcrger",
+      "Ludwig H\u00fcttenhofer",
+      "Leonardo de S. Menezes",
+      "Stefan A. Maier",
+      "Maxim V. Gorkunov",
+      "Yuri Kivshar",
+      "Andreas Tittl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05369",
+    "title": "Linear and Nonlinear Optical Properties of Iridium Nanoparticles by  Atomic Layer deposition",
+    "abstract": "Nonlinear optical phenomena enable novel photonic and optoelectronic applications. Especially metallic nanoparticles and thin films with nonlinear optical properties offer the potential for micro-optical system integration. For this purpose, new nonlinear materials need to be continuously identified, investigated, and utilized for nonlinear optical applications. While noble metal nanoparticles, nanostructures, and thin films of Ag and Au were widely studied, iridium (Ir) nanoparticles and ultra-thin films have not been investigated yet. Here, we present a combined theoretical and experimental study on the linear and nonlinear optical properties of Ir nanoparticles deposited by atomic layer deposition (ALD). Linear optical constants, i.e., the effective refractive index n and extinction coefficient k, were evaluated at different growth stages of nanoparticle formation. Both linear and nonlinear optical properties of these Ir ALD coatings were calculated theoretically using Bruggeman and Maxwell-Garnett theories. The third-order susceptibility of Ir nanoparticle samples was experimentally investigated using the Z-scan technique. Overall, our studies demonstrate the potential of ultrathin Ir NPs as an alternative nonlinear optical material at an atomic scale. ",
+    "url": "https://arxiv.org/abs/2210.05369",
+    "authors": [
+      "Paul Schmitt",
+      "Pallabi Paul",
+      "Weiwei Li",
+      "Zilong Wang",
+      "Christin David",
+      "Navid Daryakar",
+      "Kevin Hanemann",
+      "Nadja Felde",
+      "Anne-Sophie Munser",
+      "Matthias F. Kling",
+      "Sven Schroeder",
+      "Andreas Tuennermann",
+      "Adriana Szeghalmi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05430",
+    "title": "Analog Cavity Emulators to Support LLRF Development",
+    "abstract": "The goal of a LLRF system is to control an actual RF cavity with beam. While digital simulations have a place, having an analog circuit to stand in for the cavity can be tremendously helpful in validating hardware+firmware+software under development. A wide range of cavity emulators have been developed in collaboration with SLAC, and LBNL. Cavity emulators are typically based on quartz crystals and frequency conversion hardware. The choice of crystal frequency and coupling mechanism depends in part on the bandwidth and coupling of the cavity it's intended to emulate. Examples of bandwidth range from 800 Hz (SLAC) as a stand-in for a SRF cavity, to 31 kHz (LBNL) for a room-temperature accumulator ring cavity. An external LO is used to tune the emulated cavity frequency. The coupling properties are also of interest if the scope includes emulating reverse power waveforms. LLRF system checks such as closed-loop bandwidth, and determining cavity detuning can be performed interactively and as part of a Continuous Integration (CI) process. This paper describes the design, implementation, and performance of the cavity emulators. ",
+    "url": "https://arxiv.org/abs/2210.05430",
+    "authors": [
+      "Shreeharshini Dharanesh Murthy",
+      "Lawrence Doolittle",
+      "Andrew Benwell"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05435",
+    "title": "Cross-Filament Stochastic Acceleration of Electrons in Kilojoule  Picosecond Laser Interactions with Near Critical Density Plasmas",
+    "abstract": "Understanding the interaction of kilojoule, picosecond laser pulse with long-scale length preplasma or homogeneous near critical density (NCD) plasma is crucial for guiding experiments at national short-pulse laser facilities. Using full three-dimensional particle-in-cell simulations, we demonstrate that in this regime, cross-filament stochastic acceleration is an important mechanism that contributes to the production of superponderomotive, high-flux electron beams. Since the laser power significantly exceeds the threshold of the relativistic self-focusing, multiple filaments are generated and can propagate independently over a long distance. Electrons jump across the filaments during the acceleration, and their motion becomes stochastic. We find that the effective temperature of electrons increases with the total interaction time following a scaling like $T_{\\rm eff}\\propto\\tau_{i}^{0.65}$. By irradiating a submillimeter thick NCD target, the space charge of electrons with energy above 2.5 MeV reaches tens of $\\mu$C. Such high-flux electrons with superponderomotive energies significantly facilitate applications in high-energy-density science, nuclear science, secondary sources and diagnostic techniques. ",
+    "url": "https://arxiv.org/abs/2210.05435",
+    "authors": [
+      "X. F. Shen",
+      "A. Pukhov",
+      "O. N. Rosmej",
+      "N. E. Andreev"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05466",
+    "title": "SRF Cavity Emulator for PIP-II LLRF Lab and Field Testing",
+    "abstract": "There are many stages in the LLRF and RF system development process for any new accelerator that can take advantage of hardware emulation of the high-power RF system and RF cavities. LLRF development, bench testing, control system development and testing of installed systems must happen well before SRF cavities are available for test. The PIP-II Linac has three frequencies of SRF cavities, 162.5 MHz, 325 MHz and 650 MHz and a simple analog emulator design has been chosen that can meet the cavity bandwidth requirements, provide tuning errors to emulate Lorentz force detuning and microphonics for all cavity types. This emulator design utilizes a quartz crystal with a bandwidth of 65Hz at an IF of ~ 4 MHz, providing a Q of ~ 1.3 x 10^7 at 650MHz. This paper will discuss the design and test results of this emulator. ",
+    "url": "https://arxiv.org/abs/2210.05466",
+    "authors": [
+      "Ahmed Syed",
+      "Brian Chase",
+      "Philip Varghese",
+      "Sana Begum"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05514",
+    "title": "Scanning cavity microscopy of a single-crystal diamond membrane",
+    "abstract": "Spin-bearing color centers in the solid state are promising candidates for the realization of quantum networks and distributed quantum computing. A remaining key challenge is their efficient and reliable interfacing to photons. Incorporating minimally processed membranes into open-access microcavities represents a promising route for Purcellenhanced spin-photon interfaces: it enables significant emission enhancement and efficient photon collection, minimizes deteriorating influence on the quantum emitter, and allows for full spatial and spectral tunability, key for controllably addressing suitable emitters with desired optical and spin properties. Here, we study the properties of a high-finesse fiber Fabry-P\\'erot microcavity with integrated single-crystal diamond membranes by scanning cavity microscopy. We observe spatially resolved the effects of the diamond-air interface on the cavity mode structure: a strong correlation of the cavity finesse and mode structure with the diamond thickness and surface topography, significant transverse-mode mixing under diamond-like conditions, and mode-character-dependent polarization-mode splitting. Our results reveal the influence of the diamond surface on the achievable Purcell enhancement, which helps to clarify the route towards optimized spin-photon interfaces. ",
+    "url": "https://arxiv.org/abs/2210.05514",
+    "authors": [
+      "Jonathan K\u00f6rber",
+      "Maximilian Pallmann",
+      "Julia Heupel",
+      "Rainer St\u00f6hr",
+      "Evgenij Vasilenko",
+      "Thomas H\u00fcmmer",
+      "Larissa Kohler",
+      "Cyril Popov",
+      "David Hunger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05603",
+    "title": "A new physical mechanism for the onset of atomic ionization in an  optical field with jolts of phase",
+    "abstract": "A theoretical model that describes a new mechanism of atomic and molecular ionization in a low intensity electro-magnetic wave (light or laser beam) with the energy of quanta that is lower than required for a single photon ionization is presented. The essence of the proposed physical mechanism is the step-like gain of energy of a bound electron that occurs every time the phase of the electro-magnetic field jolts. Providing there is sufficiently large number of the phase jolts, the summation of the step increases of the electron oscillation energy can render the total energy of the bound electron such that it exceeds the ionization potential. ",
+    "url": "https://arxiv.org/abs/2210.05603",
+    "authors": [
+      "M.N. Shneider",
+      "V.V. Semak"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05630",
+    "title": "EllipsoNet: Deep-learning-enabled optical ellipsometry for complex thin  films",
+    "abstract": "Optical spectroscopy is indispensable for research and development in nanoscience and nanotechnology, microelectronics, energy, and advanced manufacturing. Advanced optical spectroscopy tools often require both specifically designed high-end instrumentation and intricate data analysis techniques. Beyond the common analytical tools, deep learning methods are well suited for interpreting high-dimensional and complicated spectroscopy data. They offer great opportunities to extract subtle and deep information about optical properties of materials with simpler optical setups, which would otherwise require sophisticated instrumentation. In this work, we propose a computational ellipsometry approach based on a conventional tabletop optical microscope and a deep learning model called EllipsoNet. Without any prior knowledge about the multilayer substrates, EllipsoNet can predict the complex refractive indices of thin films on top of these nontrivial substrates from experimentally measured optical reflectance spectra with high accuracies. This task was not feasible previously with traditional reflectometry or ellipsometry methods. Fundamental physical principles, such as the Kramers-Kronig relations, are spontaneously learned by the model without any further training. This approach enables in-operando optical characterization of functional materials within complex photonic structures or optoelectronic devices. ",
+    "url": "https://arxiv.org/abs/2210.05630",
+    "authors": [
+      "Ziyang Wang",
+      "Yuxuan Cosmi Lin",
+      "Kunyan Zhang",
+      "Wenjing Wu",
+      "Shengxi Huang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05049",
+    "title": "Single Event Tolerance of X-ray SOI Pixel Sensors",
+    "abstract": "We evaluate the single event tolerance of the X-ray silicon-on-insulator (SOI) pixel sensor named XRPIX, developed for the future X-ray astronomical satellite FORCE. In this work, we measure the cross-section of single event upset (SEU) of the shift register on XRPIX by irradiating heavy ion beams with linear energy transfer (LET) ranging from 0.022 MeV/(mg/cm2) to 68 MeV/(mg/cm2). From the SEU cross-section curve, the saturation cross-section and threshold LET are successfully obtained to be $3.4^{+2.9}_{-0.9}\\times 10^{-10}~{\\rm cm^2/bit}$ and $7.3^{+1.9}_{-3.5}~{\\rm MeV/(mg/cm^2)}$, respectively. Using these values, the SEU rate in orbit is estimated to be $\\lesssim$ 0.1 event/year primarily due to the secondary particles induced by cosmic-ray protons. This SEU rate of the shift register on XRPIX is negligible in the FORCE orbit. ",
+    "url": "https://arxiv.org/abs/2210.05049",
+    "authors": [
+      "Kouichi Hagino",
+      "Mitsuki Hayashida",
+      "Takayoshi Kohmura",
+      "Toshiki Doi",
+      "Shun Tsunomachi",
+      "Masatoshi Kitajima",
+      "Takeshi G. Tsuru",
+      "Hiroyuki Uchida",
+      "Kazuho Kayama",
+      "Koji Mori",
+      "Ayaki Takeda",
+      "Yusuke Nishioka",
+      "Masataka Yukumoto",
+      "Kira Mieda",
+      "Syuto Yonemura",
+      "Tatsunori Ishida",
+      "Takaaki Tanaka",
+      "Yasuo Arai",
+      "Ikuo Kurachi",
+      "Hisashi Kitamura",
+      "Shoji Kawahito",
+      "Keita Yasutomi"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05070",
+    "title": "Realizing tight-binding Hamiltonians using site-controlled coupled  cavity arrays",
+    "abstract": "Analog quantum simulators rely on programmable quantum devices to emulate Hamiltonians describing various physical phenomenon. Photonic coupled cavity arrays are a promising platform for realizing such devices. Using a silicon photonic coupled cavity array made up of 8 high quality-factor resonators and equipped with specially designed thermo-optic island heaters for independent control of cavities, we demonstrate a programmable device implementing tight-binding Hamiltonians with access to the full eigen-energy spectrum. We report a ~50% reduction in the thermal crosstalk between neighboring sites of the cavity array compared to traditional heaters, and then present a control scheme to program the cavity array to a given tight-binding Hamiltonian. ",
+    "url": "https://arxiv.org/abs/2210.05070",
+    "authors": [
+      "Abhi Saxena",
+      "Arnab Manna",
+      "Rahul Trivedi",
+      "Arka Majumdar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05418",
+    "title": "A telecom-wavelength quantum repeater node based on a trapped-ion  processor",
+    "abstract": "A quantum repeater node is presented based on trapped ions that act as single photon emitters, quantum memories and an elementary quantum processor. The node's ability to establish entanglement across two 25 km-long optical fibers independently, then to swap that entanglement efficiently to extend it over both fibers, is demonstrated. The resultant entanglement is established between telecom-wavelength photons at either end of the 50 km channel. The system improvements to allow for repeater-node chains to establish stored entanglement over 800 km at Hertz rates are identified, revealing a near-term path to distributed networks of entangled sensors, atomic clocks and quantum processors. ",
+    "url": "https://arxiv.org/abs/2210.05418",
+    "authors": [
+      "Victor Krutyanskiy",
+      "Marco Canteri",
+      "Martin Meraner",
+      "James Bate",
+      "Vojtech Krcmarsky",
+      "Josef Schupp",
+      "Nicolas Sangouard",
+      "Ben P. Lanyon"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05464",
+    "title": "Correlations and linewidth of the atomic beam continuous superradiant  laser",
+    "abstract": "We propose a minimalistic model to account for the main properties of a continuous superradiant laser, in which a beam of atoms crosses the mode of a high-finesse Fabry-Perot cavity, and collectively emits light into the cavity mode. We focus on the case of weak single atom - cavity cooperativity, and highlight the relevant regime where decoherence due to the finite transit time dominates over spontaneous emission. We propose an original approach where the dynamics of atoms entering and leaving the cavity is described by a Hamiltonian process. This allows deriving the main dynamical equations for the superradiant laser, without the need for a stochastic approach. We derive analytical conditions for a sustained emission and show that the ultimate linewidth is set by the fundamental quantum fluctuations of the collective atomic dipole. We calculate steady-state values of the two-body correlators and show that the continuous superradiant regime is tied to the growth of atom-atom correlations, although these correlations only have a small impact on the laser linewidth. ",
+    "url": "https://arxiv.org/abs/2210.05464",
+    "authors": [
+      "Bruno Laburthe-Tolra",
+      "Ziyad Amodjee",
+      "Benjamin Pasquiou",
+      "Martin Robert-de-Saint-Vincent"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05530",
+    "title": "Variance-Based Sensitivity Analysis of $\u039b$-type Quantum Memory",
+    "abstract": "The storage and retrieval of photonic quantum states, quantum memory, is a key resource for a wide range of quantum applications. Here we investigate the sensitivity of $\\Lambda$-type quantum memory to experimental fluctuations and drift. We use a variance-based approach, focusing on the effects of fluctuations and drift on memory efficiency. We consider shot-to-shot fluctuations of the memory parameters, and separately we consider longer timescale drift of the control field parameters. We find the parameters that a quantum memory is most sensitive to depend on the quantum memory protocol being employed, where the observed sensitivity agrees with physical interpretation of the protocols. We also present a general framework that is applicable to other figures of merit beyond memory efficiency. These results have practical ramifications for quantum memory experiments. ",
+    "url": "https://arxiv.org/abs/2210.05530",
+    "authors": [
+      "Kai Shinbrough",
+      "Virginia O. Lorenz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05550",
+    "title": "Quantum Dynamics of Vibrational Polariton Chemistry",
+    "abstract": "We employ an exact quantum mechanical simulation technique to investigate a model of cavity-modified chemical reactions in the condensed phase. The model contains the coupling of the reaction coordinate to a generic solvent, cavity coupling to either the reaction coordinate or a non-reactive mode, and the coupling of the cavity to lossy modes. Thus, many of the most important features needed for realistic modeling of the cavity modification of chemical reactions are included. We find that when a molecule is coupled to an optical cavity it is essential to treat the problem quantum mechanically in order to obtain a quantitative account of alterations to reactivity. We find sizable and sharp changes in the rate constant that are associated with quantum mechanical state splittings and resonances. The features that emerge from our simulations are closer to those observed in experiments than are previous calculations, even for realistically small values of coupling and cavity loss. This work highlights the importance of a fully quantum treatment of vibrational polariton chemistry. ",
+    "url": "https://arxiv.org/abs/2210.05550",
+    "authors": [
+      "Lachlan P. Lindoy",
+      "Arkajit Mandal",
+      "David R. Reichman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05576",
+    "title": "Quantum metrology of low frequency electromagnetic modes with frequency  upconverters",
+    "abstract": "We describe the RF Quantum Upconverter (RQU) and describe its application to quantum metrology of electromagnetic modes between dc and the Very High Frequency band (VHF) ($\\lesssim$300MHz). The RQU uses a Josephson interferometer made up of superconducting loops and Josephson junctions to implement a parametric interaction between a low-frequency electromagnetic mode (between dc and VHF) and a mode in the microwave C Band ($\\sim$ 5GHz), analogous to the radiation pressure interaction between electromagnetic and mechanical modes in cavity optomechanics. The RQU can operate as a quantum-limited op-amp, or use protocols from optomechanics to implement non-classical measurement protocols equivalent to those used in cavity optomechanics, including back-action evading (BAE) measurements, sideband cooling, and two-mode squeezing. These protocols enable experiments using dc-VHF electromagnetic modes as quantum sensors. ",
+    "url": "https://arxiv.org/abs/2210.05576",
+    "authors": [
+      "Stephen E. Kuenstner",
+      "Elizabeth C. van Assendelft",
+      "Saptarshi Chaudhuri",
+      "Hsiao-Mei Cho",
+      "Jason Corbin",
+      "Shawn W. Henderson",
+      "Fedja Kadribasic",
+      "Dale Li",
+      "Arran Phipps",
+      "Nicholas M. Rapidis",
+      "Maria Simanovskaia",
+      "Jyotirmai Singh",
+      "Cyndia Yu",
+      "Kent D. Irwin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05644",
+    "title": "Simulating single-photon detector array sensors for depth imaging",
+    "abstract": "Single-Photon Avalanche Detector (SPAD) arrays are a rapidly emerging technology. These multi-pixel sensors have single-photon sensitivities and pico-second temporal resolutions thus they can rapidly generate depth images with millimeter precision. Such sensors are a key enabling technology for future autonomous systems as they provide guidance and situational awareness. However, to fully exploit the capabilities of SPAD array sensors, it is crucial to establish the quality of depth images they are able to generate in a wide range of scenarios. Given a particular optical system and a finite image acquisition time, what is the best-case depth resolution and what are realistic images generated by SPAD arrays? In this work, we establish a robust yet simple numerical procedure that rapidly establishes the fundamental limits to depth imaging with SPAD arrays under real world conditions. Our approach accurately generates realistic depth images in a wide range of scenarios, allowing the performance of an optical depth imaging system to be established without the need for costly and laborious field testing. This procedure has applications in object detection and tracking for autonomous systems and could be easily extended to systems for underwater imaging or for imaging around corners. ",
+    "url": "https://arxiv.org/abs/2210.05644",
+    "authors": [
+      "Stirling Scholes",
+      "Germ\u00e1n Mora-Mart\u00edn",
+      "Feng Zhu",
+      "Istvan Gyongy",
+      "Phil Soan",
+      "Jonathan Leach"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13924",
+    "title": "Bounds on quantum evolution complexity via lattice cryptography",
+    "abstract": " Comments: v3: minor changes, figure and references added; The MATLAB code and data to reproduce numerical results are available at this https URL ",
+    "url": "https://arxiv.org/abs/2202.13924",
+    "authors": [
+      "Ben Craps",
+      "Marine De Clerck",
+      "Oleg Evnin",
+      "Philip Hacker",
+      "Maxim Pavlov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Structures and Algorithms (cs.DS)",
+      "High Energy Physics - Theory (hep-th)",
+      "Optimization and Control (math.OC)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.06250",
+    "title": "Van Der Waals Heteroepitaxy of GaSe and InSe, Quantum Wells and  Superlattices",
+    "abstract": " Comments: 16 Pages, 5 figures. Supplementary Information included in the end (+10 pages, +10 Figures, + 2 Tables). Partially presented at 21st ICMBE - September 2021 ",
+    "url": "https://arxiv.org/abs/2206.06250",
+    "authors": [
+      "Marcel S. Claro",
+      "Juan P. Mart\u00ednez-Pastor",
+      "Alejandro Molina-S\u00e1nchez",
+      "Khalil El Hajraoui",
+      "Justyna Grzonka",
+      "Hamid Pashaei Adl",
+      "David Fuertes Marr\u00f3n",
+      "Paulo J. Ferreira",
+      "Alex Bondarchuk",
+      "Sascha Sadewasser"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.12374",
+    "title": "Microcantilever-integrated photonic circuits for broadband laser beam  scanning",
+    "abstract": " Title: Microcantilever-integrated photonic circuits for broadband laser beam  scanning ",
+    "url": "https://arxiv.org/abs/2207.12374",
+    "authors": [
+      "Saeed Sharif Azadeh",
+      "Jason C. C. Mak",
+      "Hong Chen",
+      "Xianshu Luo",
+      "Fu-Der Chen",
+      "Hongyao Chua",
+      "Frank Weiss",
+      "Christopher Alexiev",
+      "Andrei Stalmashonak",
+      "Youngho Jung",
+      "John N. Straguzzi",
+      "Guo-Qiang Lo",
+      "Wesley D. Sacher",
+      "Joyce K. S. Poon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.06559",
+    "title": "Seismic noise characterisation at Gingin high optical gravitational wave  test facility",
+    "abstract": " Comments: The results have been presented at LVK conference, September 2022. 20 pages, 9 figures ",
+    "url": "https://arxiv.org/abs/2209.06559",
+    "authors": [
+      "Hamid Satari",
+      "Carl Blair",
+      "Li Ju",
+      "David Blair",
+      "Chunnong Zhao",
+      "Erdinc Saygin",
+      "Patrick Meyers",
+      "David Lumley"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.13377",
+    "title": "Quantum and classical correlations in open quantum-spin lattices via  truncated-cumulant trajectories",
+    "abstract": " Title: Quantum and classical correlations in open quantum-spin lattices via  truncated-cumulant trajectories ",
+    "url": "https://arxiv.org/abs/2209.13377",
+    "authors": [
+      "Wouter Verstraelen",
+      "Dolf Huybrechts",
+      "Tommaso Roscilde",
+      "Michiel Wouters"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.14874",
+    "title": "Effect of temperature anisotropy on the dynamics of geodesic acoustic  modes",
+    "abstract": " Title: Effect of temperature anisotropy on the dynamics of geodesic acoustic  modes ",
+    "url": "https://arxiv.org/abs/2209.14874",
+    "authors": [
+      "J.N. Sama",
+      "A. Biancalani",
+      "A. Bottino",
+      "I. Chavdarovski",
+      "D. Del Sarto",
+      "A. Ghizzo",
+      "T. Hayward-Schneider",
+      "P. Lauber",
+      "B. Rettino",
+      "F. Vannini"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.03531",
+    "title": "Thermal and quantum fluctuations of harmonic oscillator",
+    "abstract": " Comments: 4 pages, no figure ",
+    "url": "https://arxiv.org/abs/2210.03531",
+    "authors": [
+      "Shigenori Tanaka",
+      "Yuto Komeiji"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  }
+]
