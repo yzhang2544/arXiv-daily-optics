@@ -1,0 +1,675 @@
+[
+  {
+    "id": "arXiv:2210.08004",
+    "title": "Misaligned orientations of 4f optical neural network for image  classification accuracy on various datasets",
+    "abstract": "In recent years, the optical 4f system has drawn much attention in building high-speed and ultra-low-power optical neural networks (ONNs). Most optical systems suffer from the misalignment of the optical devices during installment. The performance of ONN based on the optical 4f system (4f-ONN) is considered sensitive to the misalignment in the optical path introduced. In order to comprehensively investigate the influence caused by the misalignment, we proposed a method for estimating the performance of a 4f-ONN in response to various misalignment in the context of the image classification task.The misalignment in numerical simulation is estimated by manipulating the optical intensity distributions in the fourth focus plane in the 4f system. Followed by a series of physical experiments to validate the simulation results. Using our method to test the impact of misalignment of 4f system on the classification accuracy of two popular image classification datasets, MNIST and Quickdraw16. On both datasets, we found that the performances of 4f-ONN generally degraded dramatically as the positioning error increased. Different positioning error tolerance in the misalignment orientations was observed over the two datasets. Classification performance could be preserved by positioning errors up to 200 microns in a specific direction. ",
+    "url": "https://arxiv.org/abs/2210.08004",
+    "authors": [
+      "Yanbing Liu",
+      "Wei Li",
+      "Kun Cheng",
+      "Xun Liu",
+      "Wei Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08369",
+    "title": "Metasurface Smart Glass for Object Recognition",
+    "abstract": "Recent years have seen a considerable surge of research on developing heuristic approaches to realize analog computing using physical waves. Among these, neuromorphic computing using light waves is envisioned to feature performance metrics such as computational speed and energy efficiency exceeding those of conventional digital techniques by many orders of magnitude. Yet, neuromorphic computing based on photonics remains a challenge due to the difficulty of training and manufacturing sophisticated photonic structures to support neural networks with adequate expressive power. Here, we realize a diffractive optical neural network (ONN) based on metasurfaces that can recognize objects by directly processing light waves scattered from the objects. Metasurfaces composed of a two-dimensional array of millions of meta-units can realize precise control of optical wavefront with subwavelength resolution; thus, when used as constitutive layers of an ONN, they can provide exceptionally high expressive power. We experimentally demonstrate ONNs based on single-layered metasurfaces that modulate the phase and polarization over optical wavefront for recognizing optically coherent binary objects, including hand-written digits and English alphabetic letters. We further demonstrate, in simulation, ONNs based on metasurface doublets for human facial verification. The advantageous traits of metasurface-based ONNs, including ultra-compact form factors, zero power consumption, ultra-fast and parallel data processing capabilities, and physics-guaranteed data security, make them suitable as \"edge\" perception devices that can transform the future of image collection and analysis. ",
+    "url": "https://arxiv.org/abs/2210.08369",
+    "authors": [
+      "Cheng-Chia Tsai",
+      "Xiaoyan Huang",
+      "Zhicheng Wu",
+      "Zongfu Yu",
+      "Nanfang Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08381",
+    "title": "Study on electro-optic noise in crystalline coatings toward future  gravitational wave detectors",
+    "abstract": "Thermal noise in high-reflectivity mirror coatings is a limiting factor in ground-based gravitational wave detectors. Reducing this coating thermal noise improves the sensitivity of detectors and enriches the scientific outcome of observing runs. Crystalline gallium arsenide and aluminum-alloyed gallium arsenide (referred to as AlGaAs) coatings are promising coating candidates for future upgrades of gravitational wave detectors because of their low coating thermal noise. However, AlGaAs-based crystalline coatings may be susceptible to an electro-optic noise induced by fluctuations in an electric field. We investigated the electro-optic effect in an AlGaAs coating by using a Fabry-Perot cavity, and concluded that the noise level is well below the sensitivity of current and planned gravitational-wave detectors. ",
+    "url": "https://arxiv.org/abs/2210.08381",
+    "authors": [
+      "Satoshi Tanioka",
+      "Daniel Vander-Hyde",
+      "Garrett D. Cole",
+      "Steven D. Penn",
+      "Stefan W. Ballmer"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08504",
+    "title": "An electronic-based model of the optical nonlinearity of low-density  Drude materials",
+    "abstract": "Low electron density Drude (LEDD) materials such as indium tin oxide (ITO) are receiving considerable attention because of their combination of CMOS compatibility, unique epsilon-near-zero (ENZ) behavior, and giant ultrafast nonlinear thermo-optic response. However, the understanding of the electronic and optical response of LEDD materials is so far based on simplistic extensions of known models of noble metals, frequently without the inclusion of the interplay among the lower electron density, relatively high Debye energy, and the non-parabolic band structure. To bridge this knowledge gap, this work provides a complete understanding of the nonlinear electronic-thermal-optical response of LEDD materials. In particular, we rely on state-of-the-art electron dynamics modeling, as well as the newly derived time-dependent permittivity model for LEDD materials under optical pumping within the adiabatic approximation. We find that unlike noble metals, the electron temperatures can reach the Fermi temperature, in which case the effective chemical potential dramatically decreases and even becomes negative, thus, transiently converting the Drude metal into a semiconductor. We further show that the nonlinear optical response of LEDD materials originating from the changes to the real part of the permittivity is due to the generation of non-thermal electrons. This resolves the argument about the rise time of the permittivity and shows that it is instantaneous. In this vein, we show that referring to the LEDD permittivity as having a ``saturable'' nonlinearity is unsuitable since its permittivity dynamics does not originate from population inversion. Finally, we analyze the probe pulse dynamics and unlike previous work, we obtain a quantitative agreement with the results of recent experiments. ",
+    "url": "https://arxiv.org/abs/2210.08504",
+    "authors": [
+      "Ieng Wai Un",
+      "Subhajit Sarkar",
+      "Yonatan Sivan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08630",
+    "title": "3D Printing via material extrusion on an acoustic air bed",
+    "abstract": "Additive manufacturing, such as 3D printing, offers unparalleled opportunities for rapid prototyping of complex three-dimensional objects, but typically requires simultaneous building of solid supports to minimize deformation and ensure contact with the printing surface. Here, we theoretically and experimentally investigate the concept of material extrusion on an \"air bed\", a judiciously engineered acoustic field that supports the material by contactless radiation force. We study the dynamics of polylactic acid filament (PLA), a commonly used material in 3D printing, as it interacts with the acoustic potential during extrusion. We develop numerical models to determine optimal transducer arrangements and printing conditions, and we build and demonstrate a concept prototype that integrates a commercial 3D printer and open-source control code. Our results point towards alternative, contactless support mechanisms with potential benefits such as fewer surface defects, less material waste, lower cost, and reduced manufacturing time. These features could become crucial as additive manufacturing continues to evolve into a foundational tool in engineering and beyond. ",
+    "url": "https://arxiv.org/abs/2210.08630",
+    "authors": [
+      "Sam Keller",
+      "Matthew Stein",
+      "Ognjen Ilic"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08810",
+    "title": "Scrambled and Unscrambled Optical Speckle with Multiple Scattering  Layers: Applications to Optical Wireless Communication",
+    "abstract": "When a beam of incident light waves is sent onto a scattering material, the waves are scattered within the material and the output is a scrambled speckle pattern. By placing a slab near a receiver, relevant properties arise for applications in encryption or as physically unclonable functions and keys, that take advantage of the randomness and complexity of the speckle pattern. Here, we extend this light-scattering system to a situation with \\textit{two} scattering slabs, one near a sending device and the second near a receiving device, and address the question: does the intermediate speckle pattern observed in between the slabs have correlations with the pattern observed at the receiver, after two slabs? To this end, we send spatially shaped wavefronts from the sender that are designed to arrive at the receiver in one of two spatial regions of interest, considered to be states 0 or 1. We then collect the intermediate speckle patterns corresponding to either of the two states and study their properties. We characterize the correlation distribution between speckles using the Kolmogorov-Smirnov (K-S) test, and unsupervised classification algorithms. We found no correlation between the intermediate speckle and the message. Thus, if data are sent as binary 0s and 1s into the final speckle pattern, an observer is not able to infer it from the intermediate speckle pattern. Consequently, we propose a communication link for optical wireless communication (OWC) with a new encoding scheme based on our findings. ",
+    "url": "https://arxiv.org/abs/2210.08810",
+    "authors": [
+      "Alfredo Rates",
+      "Joris Vrehen",
+      "Bert L. Mulder",
+      "Wilbert L. IJzerman",
+      "Willem L. Vos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09036",
+    "title": "Synthetic Frequency Lattices from an Integrated Dispersive Multi-Color  Soliton",
+    "abstract": "Dissipative Kerr solitons (DKSs) in optical microresonators have been intensely studied from the perspective of both fundamental nonlinear physics and portable and low power technological applications in communications, sensing, and metrology. In parallel, synthetic dimensions offer the promise of studying physical phenomena with a dimensionality beyond that imposed by geometry, and have been implemented in optics. The interplay of DKS physics with synthetic dimensions promises to unveil numerous new physical and technological insights, yet many fundamental challenges remain. In particular, DKSs intrinsically rely on dispersion to exist while the creation of synthetic frequency lattices typically needs a dispersion-less system. We present a change of paradigm with the creation of a synthetic frequency lattice in the eigenfrequency space of a dispersive multi-color soliton through all-optical nonlinear coupling -- compatible with octave spanning microcombs -- harnessing the interplay between the cavity dispersion and the dispersion-less nature of the DKS. We examine theoretically and experimentally the nonlinear coupling mechanism in a 1~THz repetition rate resonator and demonstrate four-wave mixing Bragg scattering between the different wavepackets forming the multi-color soliton, with the microcomb ranging over 150~THz, yielding a complex all-optical and integrated synthetic frequency lattice. ",
+    "url": "https://arxiv.org/abs/2210.09036",
+    "authors": [
+      "Gregory Moille",
+      "Curtis Menyuk",
+      "Yanne K. Chembo",
+      "Avik Dutt",
+      "Kartik Srinivasan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09061",
+    "title": "Sound Waveguiding by Spinning: An Avenue towards Unidirectional Acoustic  Spinning Fibers",
+    "abstract": "Waveguiding in general and acoustic waveguiding in particular are possible at the condition of having a transverse \"discontinuity\" or modulation of the refractive index. We propose here a radically different approach that relies on imposing spinning on a column of air, leading to high modified acoustic refractive indices for specific azimuthal modes. Such discovery may be leveraged to realize not only the airborne acoustic counterpart of the optical fiber, i.e., the acoustic spinning fiber (ASF), but also nonreciprocal unidirectional waveguiding mechanism, reminiscent of the ''acoustic Zeeman effect''. The concept is demonstrated in the realm of acoustics, yet it can be applicable to other wave systems, e.g., photonics or elastodynamics. ",
+    "url": "https://arxiv.org/abs/2210.09061",
+    "authors": [
+      "Mohamed Farhat",
+      "Pai-Yen Chen",
+      "Ying Wu"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09069",
+    "title": "Surface acoustic wave transduction of single nanomechanical pillar  resonators",
+    "abstract": "Nano- and micromechanical pillar resonators are used in a wide range of fields, such as optomechanics, acoustic metamaterials, and nanomechanical sensing. However, effective transduction of the motion of nanomechanical pillar resonators is challenging due their vertical structure and small size. Here, we demonstrate an electromechanical transduction method for single nanomechanical pillar resonators. The method is based on surface acoustic waves (SAWs) that are launched and detected by interdigital transducers distanced hundreds of micrometers away from the pillar resonator. This approach enables a transduction of freestanding pillars, which cannot be done by any other electrical transduction method. The principle of the SAW transduction is based on Rayleigh scattering of a SAW. Hence, the SAW transduction is not limited to pillar-shaped geometries but represents a general approach to transduce mechanical resonators on the nanoscale. ",
+    "url": "https://arxiv.org/abs/2210.09069",
+    "authors": [
+      "Hendrik K\u00e4hler",
+      "Holger Arthaber",
+      "Robert Winkler",
+      "Robert G. West",
+      "Ioan Ignat",
+      "Harald Plank",
+      "Silvan Schmid"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09113",
+    "title": "Surface Acoustic Waves Equip Materials with Active Deicing  Functionality: Unraveled Deicing Mechanisms and Application to Centimeter  Scale Transparent Surfaces",
+    "abstract": "Migrating active deicing capabilities to transparent materials with low thermal conductivity has a high potential to improve the operations of several seminal industries in the automotive, robotic, energy, and aerospace sectors. However, the development of efficient and environmentally friendly deicing methods is yet in its infancy regarding their compatibility with end-user surfaces at relevant scales and real-world operations. Herein, we approach deicing through nanoscale surface activation enabled by surface acoustic waves (SAWs), allowing efficient on-demand deicing of surface areas spanning several square centimeters covered with thick layers of glace ice. We contemplate SAW-based deicing from a twofold perspective: First, we demonstrate its functionality both with a bulk piezoelectric material (LiNbO3) and a piezo-electric film (ZnO), the latter proving its versatile applicability to a large variety of functional materials with practical importance; second, we gain fundamental knowledge of the mechanisms responsible for efficient deicing using SAWs. In particular, we show that SAW vibrational modes easily transport energy over greater distances outside the electrode areas and efficiently melt large ice aggregates covering the materials' surfaces. In addition, the essential physics of SAW-based deicing is inferred from a carefully designed experimental and numerical study. We support our findings by providing macroscopic camera snapshots captured in situ inside a climate chamber during deicing and highly resolved laser-doppler vibrometer scans of the undisturbed wavefields at room temperature. Great care was taken to deposit the interdigital transducers (IDTs) used for SAW excitation only on ice-free areas close to the chip edges, leaving most of the substrate used for deicing unaltered and, as a matter of fact, demonstrating transparent deicing solutions. ",
+    "url": "https://arxiv.org/abs/2210.09113",
+    "authors": [
+      "Stefan Jacob",
+      "Shilpi Pandey",
+      "Jaime Del Moral",
+      "Atefeh Karimzadeh",
+      "Jorge Gil-Rostra",
+      "Agust\u00edn R. Gonz\u00e1lez-Elipe",
+      "Ana Borr\u00e1s",
+      "Andreas Winkler"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09122",
+    "title": "Oblique scattering from non-Hermitian optical waveguides",
+    "abstract": "A judicious design of gain and loss leads to counterintuitive wave phenomena that are inaccessible by conservative systems. Notably, such designs can give rise to laser-absorber modes and anisotropic transmission resonances. Here, we analyze the emergence of these phenomena in an optical scatterer with sinusoid gain-loss modulation that is subjected to monochromatic oblique waves. We derive an analytical solution to the problem, with which we show how the scatterer parameters, and specifically the modulation phase and incident angle, constitute a real design space to access these phenomena. ",
+    "url": "https://arxiv.org/abs/2210.09122",
+    "authors": [
+      "Tal Goldstein",
+      "Gal Shmuel"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09165",
+    "title": "Expected geoneutrino signal at JUNO using local integrated 3-D refined  crustal model",
+    "abstract": "Geoneutrinos are a unique tool that brings to the surface information about our planet, in particular, its radiogenic power, insights formation and chemical composition. To date, only the KamLAND and Borexino experiments observed geoneutrino, with the former characterized by low concentration of heat-producing elements in the Earth in contrast to the latter that sets tight upper limits on the power of a georeactor hypothesized. With respect to the results yielded therefrom, a small discrepancy has been identified. On this account, next generation experiments like JUNO are needed if it is to provide definitive results with respect to the Earth's radiogenic power, and to fully exploit geoneutrinos to better understand deep Earth. An accurate a priori prediction of the crustal contribution plays an important role in enabling the translation of a particle physics measurement into geo-scientific questions. The existing GIGJ model of JUNO only focused on constructing a geophysical model of the local crust, without local geochemical data. Another existing JULOC includes both data, but only able to be achieved for the top layer of the upper crust, not in deep vertical. This paper reports on the development of JUNO's first 3-D integrated model, JULOC-I, which combines seismic, gravity, rock sample and thermal flow data with new building method, solved the problem in vertical depth. JULOC-I results show higher than expected geoneutrino signals are mainly attributable to higher U and Th in southern China than that found elsewhere on Earth. Moreover, the high level of accuracy of the JULOC-I model, complemented by 10 years of experimental data, indicates that JUNO has an opportunity to test different mantle models. Predictions by JULOC-I can be tested after JUNO goes online and higher accuracy local crustal model continue to play an important role to improve mantle measurements precision. ",
+    "url": "https://arxiv.org/abs/2210.09165",
+    "authors": [
+      "Ran Han",
+      "ZhiWei Li",
+      "Ruohan Gao",
+      "Yao Sun",
+      "Ya Xu",
+      "Yaping Cheng",
+      "Guangzheng Jiang",
+      "Jie Pang",
+      "Fengcheng Liu",
+      "Andong Wang",
+      "Yufei Xi",
+      "Liangjian Wen",
+      "Jun Cao",
+      "Yu-Feng Li"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09214",
+    "title": "Strong-Field QED Experiments using the BELLA PW Laser Dual Beamlines",
+    "abstract": "The Petawatt (PW) laser facility of the Berkeley Lab Laser Accelerator (BELLA) Center has recently commissioned its second laser pulse transport line. This new beamline can be operated in parallel with the first beamline and enables strong-field quantum electrodynamics (SF-QED) experiments at BELLA. In this paper, we present an overview of the upgraded BELLA PW facility with a SF-QED experimental layout in which intense laser pulses collide with GeV-class laser-wakefield-accelerated electron beams. We present simulation results showing that experiments will allow the study of laser-particle interactions from the classical to the SF-QED regime with a nonlinear quantum parameter of up to $\\chi\\sim$2. In addition, we show that experiments will enable the study and production of GeV-class, mrad-divergence positron beams via the Breit-Wheeler process. ",
+    "url": "https://arxiv.org/abs/2210.09214",
+    "authors": [
+      "M. Turner",
+      "S. S. Bulanov",
+      "C. Benedetti",
+      "A. J. Gonsalves",
+      "W. P. Leemans",
+      "K. Nakamura",
+      "J. van Tilborg",
+      "C. B. Schroeder",
+      "C. G. R. Geddes",
+      "E. Esarey"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08124",
+    "title": "A quantum phase transition in the one-dimensional water chain",
+    "abstract": "The concept of quantum phase transitions (QPT) plays a central role in the description of condensed matter systems. In this contribution, we perform high-quality wavefunction-based simulations to demonstrate the existence of a quantum phase transition in a crucially relevant molecular system, namely water, forming linear chains of rotating molecules. We determine various critical exponents and reveal the water chain QPT to belong to the (1+1) dimensional Ising universality class. Furthermore, the effect of breaking symmetries is examined and it is shown that by breaking the inversion symmetry, the ground state degeneracy of the ordered quantum phase is lifted to yield two many-body states with opposite polarization. The possibility of forming ferroelectric phases together with a thermal stability of the quantum critical regime up to ~10 K makes the linear water chain a promising candidate as a platform for quantum devices. ",
+    "url": "https://arxiv.org/abs/2210.08124",
+    "authors": [
+      "Tobias Serwatka",
+      "Roger G. Melko",
+      "Anton Burkov",
+      "Pierre-Nicholas Roy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08166",
+    "title": "Tensor network efficiently representing Schmidt decomposition of quantum  many-body states",
+    "abstract": "Efficient methods to achieve the entanglement of a quantum many-body state, whose complexity generally scales exponentially with the system size $N$, have been long concerned. Here we propose the Schmidt tensor network state (Schmidt-TNS) that efficiently represents the Schmidt decomposition of finite- and even infinite-size quantum states with non-trivial bipartition boundary. The key idea is to represent the Schmidt coefficients (i.e., entanglement spectrum) and transformations in the decomposition to tensor networks (TN's) with linearly-scaled complexity versus $N$. Specifically, the transformations are written as the TN's formed by local unitaries, and the Schmidt coefficients are encoded in a positive-definite matrix product state (MPS). Translational invariance can be imposed on the TN's and MPS for the infinite-size cases. The validity of Schmidt-TNS is demonstrated by simulating the ground state of the quasi-one-dimensional spin model with geometrical frustration. Our results show that the MPS encoding the Schmidt coefficients is weakly entangled even when the entanglement entropy of the decomposed state is strong. This justifies the efficiency of using MPS to encode the Schmidt coefficients, and promises an exponential speedup on the full-state sampling tasks. ",
+    "url": "https://arxiv.org/abs/2210.08166",
+    "authors": [
+      "Peng-Fei Zhou",
+      "Ying Lu",
+      "Jia-Hao Wang",
+      "Shi-Ju Ran"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08553",
+    "title": "Gate-tunable quantum pathways of high harmonic generation in graphene",
+    "abstract": "Under strong laser fields, electrons in solids radiate high-harmonic fields by travelling through quantum pathways in Bloch bands in the sub-laser-cycle timescales. Understanding these pathways in the momentum space through the high-harmonic radiation can enable an all-optical ultrafast probe to observe coherent lightwave-driven processes and measure electronic structures as recently demonstrated for semiconductors. However, such demonstration has been largely limited for semimetals because the absence of the bandgap hinders an experimental characterization of the exact pathways. In this study, by combining electrostatic control of chemical potentials with HHG measurement, we resolve quantum pathways of massless Dirac fermions in graphene under strong laser fields. Electrical modulation of HHG reveals quantum interference between the multi-photon interband excitation channels. As the light-matter interaction deviates beyond the perturbative regime, elliptically polarized laser fields efficiently drive massless Dirac fermions via an intricate coupling between the interband and intraband transitions, which is corroborated by our theoretical calculations. Our findings pave the way for strong-laser-field tomography of Dirac electrons in various quantum semimetals and their ultrafast electronics with a gate control. ",
+    "url": "https://arxiv.org/abs/2210.08553",
+    "authors": [
+      "Soonyoung Cha",
+      "Minjeong Kim",
+      "Youngjae Kim",
+      "Shinyoung Choi",
+      "Sejong Kang",
+      "Hoon Kim",
+      "Sangho Yoon",
+      "Gunho Moon",
+      "Taeho Kim",
+      "Ye Won Lee",
+      "Gil Young Cho",
+      "Moon Jeong Park",
+      "Cheol-Joo Kim",
+      "B. J. Kim",
+      "JaeDong Lee",
+      "Moon-Ho Jo",
+      "Jonghwan Kim"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08594",
+    "title": "Kinetic models of Quantum Size Effect-directed nanocluster self-assembly  in atomic corrals",
+    "abstract": "Two simple kinetic models of Quantum Size Effect-directed nanocluster self-assembly in circular atomic corrals are discussed. The models correspond to an adsorption (either a physisorption or a chemisorption) and an adsorption-diffusion regimes that are typical at low and high temperatures, respectively. Small magnitudes of a variation of the electronic local density of states is shown to be the prime factor that impedes self-assembly in the latter regime. ",
+    "url": "https://arxiv.org/abs/2210.08594",
+    "authors": [
+      "Mikhail Khenner"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09073",
+    "title": "Probing and harnessing photonic Fermi arc surface states using  light-matter interactions",
+    "abstract": "Fermi arcs, i.e., surface states connecting topologically-distinct Weyl points, represent a paradigmatic manifestation of the topological aspects of Weyl physics. Here, we investigate a light-matter interface based on the photonic counterpart of these states and we prove that it can lead to phenomena with no analogue in other setups. First, we show how to image the Fermi arcs by studying the spontaneous decay of one or many emitters coupled to the system's border. Second, we demonstrate that the Fermi arc surface states can act as a robust quantum link. To do that we exploit the negative refraction experienced by these modes at the hinges of the system. Thanks to this mechanism a circulatory photonic current is created which, depending on the occurrence of revivals, yields two distinct regimes. In the absence of revivals, the surface states behave as a dissipative chiral quantum channel enabling, e.g., perfect quantum state transfer. In the presence of revivals, an effective off-resonant cavity is induced, which leads to coherent emitter couplings that can entangle them maximally. In addition to their fundamental interest, our findings evidence the potential offered by the photonic Fermi arc light-matter interfaces for the design of more robust quantum technologies. ",
+    "url": "https://arxiv.org/abs/2210.09073",
+    "authors": [
+      "I\u00f1aki Garc\u00eda-Elcano",
+      "Jaime Merino",
+      "Jorge Bravo-Abad",
+      "Alejandro Gonz\u00e1lez-Tudela"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09171",
+    "title": "Data-driven Modeling of Mach-Zehnder Interferometer-based Optical Matrix  Multipliers",
+    "abstract": "Photonic integrated circuits are facilitating the development of optical neural networks, which have the potential to be both faster and more energy efficient than their electronic counterparts since optical signals are especially well-suited for implementing matrix multiplications. However, accurate programming of photonic chips for optical matrix multiplication remains a difficult challenge. Here, we describe both simple analytical models and data-driven models for offline training of optical matrix multipliers. We train and evaluate the models using experimental data obtained from a fabricated chip featuring a Mach-Zehnder interferometer mesh implementing 3-by-3 matrix multiplication. The neural network-based models outperform the simple physics-based models in terms of prediction error. Furthermore, the neural network models are also able to predict the spectral variations in the matrix weights for up to 100 frequency channels covering the C-band. The use of neural network models for programming the chip for optical matrix multiplication yields increased performance on multiple machine learning tasks. ",
+    "url": "https://arxiv.org/abs/2210.09171",
+    "authors": [
+      "Ali Cem",
+      "Siqi Yan",
+      "Yunhong Ding",
+      "Darko Zibar",
+      "Francesco Da Ros"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:1912.06772",
+    "title": "Twisting Optomechanical Cavity",
+    "abstract": " Comments: accepted in Physical Review A ",
+    "url": "https://arxiv.org/abs/1912.06772",
+    "authors": [
+      "Daigo Oue",
+      "Mamoru Matsuo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2008.00909",
+    "title": "Generating highly entangled states via discrete-time quantum walks with  Parrondo sequences",
+    "abstract": " Comments: 12 pages, 6 figures, accepted for publication in Physica A ",
+    "url": "https://arxiv.org/abs/2008.00909",
+    "authors": [
+      "Dinesh Kumar Panda",
+      "B. Varun Govind",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Algebra (math.QA)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2103.08388",
+    "title": "Scanning X-ray Diffraction Microscopy for Diamond Quantum Sensing",
+    "abstract": " Title: Scanning X-ray Diffraction Microscopy for Diamond Quantum Sensing ",
+    "url": "https://arxiv.org/abs/2103.08388",
+    "authors": [
+      "Mason C. Marshall",
+      "David F. Phillips",
+      "Matthew J. Turner",
+      "Mark J.H. Ku",
+      "Tao Zhou",
+      "Nazar Delegan",
+      "F. Joseph Heremans",
+      "Martin V. Holt",
+      "Ronald L. Walsworth"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.07457",
+    "title": "Long-lived quantum coherent dynamics of a $\u039b$-system driven by a  thermal environment",
+    "abstract": " Title: Long-lived quantum coherent dynamics of a $\u039b$-system driven by a  thermal environment ",
+    "url": "https://arxiv.org/abs/2108.07457",
+    "authors": [
+      "Suyesh Koyu",
+      "Timur V. Tscherbul"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2109.14027",
+    "title": "Tuned bipolar oscillating gradients for mapping frequency dispersion of  diffusion kurtosis in the human brain",
+    "abstract": " Title: Tuned bipolar oscillating gradients for mapping frequency dispersion of  diffusion kurtosis in the human brain ",
+    "url": "https://arxiv.org/abs/2109.14027",
+    "authors": [
+      "Kevin B. Borsos",
+      "Desmond H.Y. Tse",
+      "Paul I. Dubovan",
+      "Corey A. Baron"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.12013",
+    "title": "Decay of acoustic turbulence in two dimensions and implications for  cosmological gravitational waves",
+    "abstract": " Comments: 23 pages, 22 figures ",
+    "url": "https://arxiv.org/abs/2112.12013",
+    "authors": [
+      "Jani Dahl",
+      "Mark Hindmarsh",
+      "Kari Rummukainen",
+      "David Weir"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.12291",
+    "title": "Parametric Amplification of an Optomechanical Quantum Interconnect",
+    "abstract": " Comments: 18 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2202.12291",
+    "authors": [
+      "Huo Chen",
+      "Marti Vives",
+      "Mekena Metcalf"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13002",
+    "title": "N-electron valence perturbation theory with reference wavefunctions from  quantum computing: application to the relative stability of hydroxide anion  and hydroxyl radical",
+    "abstract": " Comments: 12 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2202.13002",
+    "authors": [
+      "Alessandro Tammaro",
+      "Davide E. Galli",
+      "Julia E. Rice",
+      "Mario Motta"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.13210",
+    "title": "Coupled quantum vortex kinematics and Berry curvature in real space",
+    "abstract": " Comments: 11 pages, 4 figures, 2 videos ",
+    "url": "https://arxiv.org/abs/2202.13210",
+    "authors": [
+      "Lorenzo Dominici",
+      "Nina Voronova",
+      "Amir Rahmani",
+      "David Colas",
+      "Dario Ballarini",
+      "Milena De Giorgi",
+      "Giuseppe Gigli",
+      "Fabrice P. Laussy",
+      "Daniele Sanvitto"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.02745",
+    "title": "New Nonrelativistic Quantum Theory of Cold Dark Matter",
+    "abstract": " Title: New Nonrelativistic Quantum Theory of Cold Dark Matter ",
+    "url": "https://arxiv.org/abs/2205.02745",
+    "authors": [
+      "Z. E. Musielak"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.04942",
+    "title": "A high sensitivity tool for geophysical applications: A geometrically  locked Ring Laser Gyroscope",
+    "abstract": " Comments: 9 pages, 4 figures, 25 references ",
+    "url": "https://arxiv.org/abs/2207.04942",
+    "authors": [
+      "E. Maccioni",
+      "N. Beverini",
+      "G. Carelli",
+      "G. Di Somma",
+      "A. Di Virgilio",
+      "P. Marsili"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.10701",
+    "title": "Efficient inverse design of large-area metasurfaces for incoherent light",
+    "abstract": " Title: Efficient inverse design of large-area metasurfaces for incoherent light ",
+    "url": "https://arxiv.org/abs/2207.10701",
+    "authors": [
+      "Rapha\u00ebl Pestourie",
+      "Wenjie Yao",
+      "Boubacar Kant\u00e9",
+      "Steven G. Johnson"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.12849",
+    "title": "Bessel Equivariant Networks for Inversion of Transmission Effects in  Multi-Mode Optical Fibres",
+    "abstract": " Comments: NeurIPS 2022 ",
+    "url": "https://arxiv.org/abs/2207.12849",
+    "authors": [
+      "Joshua Mitton",
+      "Simon Peter Mekhail",
+      "Miles Padgett",
+      "Daniele Faccio",
+      "Marco Aversa",
+      "Roderick Murray-Smith"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.12243",
+    "title": "Evidence of Kardar-Parisi-Zhang scaling on a digital quantum simulator",
+    "abstract": " Comments: 7 pages, 6 Figures ",
+    "url": "https://arxiv.org/abs/2208.12243",
+    "authors": [
+      "Nathan Keenan",
+      "Niall Robertson",
+      "Tara Murphy",
+      "Sergiy Zhuk",
+      "John Goold"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.03004",
+    "title": "Comparing Instrument Spectral Sensitivity of Dissimilar Electromagnetic  Haloscopes to Axion Dark Matter and High Frequency Gravitational Waves",
+    "abstract": " Comments: Accepted version: This article belongs to the Special Issue The Dark Universe: The Harbinger of a Major Discovery ",
+    "url": "https://arxiv.org/abs/2209.03004",
+    "authors": [
+      "Michael E. Tobar",
+      "Catriona A. Thomson",
+      "William M. Campbell",
+      "Aaron Quiskamp",
+      "Jeremy F. Bourhill",
+      "Benjamin T. McAllister",
+      "Eugene N. Ivanov",
+      "Maxim Goryachev"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.06558",
+    "title": "Predicting molecular vibronic spectra using time-domain analog quantum  simulation",
+    "abstract": " Comments: 11 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2209.06558",
+    "authors": [
+      "Ryan J. MacDonell",
+      "Tomas Navickas",
+      "Tim F. Wohlers-Reichel",
+      "Christophe H. Valahu",
+      "Arjun D. Rao",
+      "Maverick J. Millican",
+      "Michael A. Currington",
+      "Michael J. Biercuk",
+      "Ting Rei Tan",
+      "Cornelius Hempel",
+      "Ivan Kassal"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.10728",
+    "title": "Fully packed quantum loop model on the square lattice: phase diagram and  application for Rydberg atoms",
+    "abstract": " Comments: 6+3 pages, 5+3 figures ",
+    "url": "https://arxiv.org/abs/2209.10728",
+    "authors": [
+      "Xiaoxue Ran",
+      "Zheng Yan",
+      "Yan-Cheng Wang",
+      "Junchen Rong",
+      "Yang Qi",
+      "Zi Yang Meng"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "High Energy Physics - Theory (hep-th)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05430",
+    "title": "Analog Cavity Emulators to Support LLRF Development",
+    "abstract": " Comments: Poster presented at LLRF Workshop 2022 (LLRF2022, arXiv:2208.13680) ",
+    "url": "https://arxiv.org/abs/2210.05430",
+    "authors": [
+      "Shreeharshini Dharanesh Murthy",
+      "Lawrence Doolittle",
+      "Andrew Benwell"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.07390",
+    "title": "Constraint Inequalities from Hilbert Space Geometry & Efficient Quantum  Computation",
+    "abstract": " Comments: 6 pages, 1 figure ",
+    "url": "https://arxiv.org/abs/2210.07390",
+    "authors": [
+      "Chinonso Onah"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Lattice (hep-lat)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
