@@ -1,0 +1,258 @@
+[
+  {
+    "id": "arXiv:2210.14525",
+    "title": "Linearized frequency domain Landau-Lifshitz-Gilbert equation formulation",
+    "abstract": "We present a general finite element linearized Landau-Lifshitz-Gilbert equation (LLGE) solver for magnetic systems under weak time-harmonic excitation field. The linearized LLGE is obtained by assuming a small deviation around the equilibrium state of the magnetic system. Inserting such expansion into LLGE and keeping only first order terms gives the linearized LLGE, which gives a frequency domain solution for the complex magnetization amplitudes under an external time-harmonic applied field of a given frequency. We solve the linear system with an iterative solver using generalized minimal residual method. We construct a preconditioner matrix to effectively solve the linear system. The validity, effectiveness, speed, and scalability of the linear solver are demonstrated via numerical examples. ",
+    "url": "https://arxiv.org/abs/2210.14525",
+    "authors": [
+      "Zhuonan Lin",
+      "Vitaliy Lomakin"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14669",
+    "title": "Monte Carlo simulation method of polarization effects in Laser Compton  Scattering on relativistic electrons",
+    "abstract": "Quasi-monochromatic, high energy and highly polarized $\\gamma$-ray beam sources based on Compton scattering of laser photons (LCS) on relativistic electrons have developed for the last few decades as established instruments for nuclear physics studies. Following an extensive photoneutron experimental campaign at the LCS $\\gamma$-ray beam line of the NewSUBARU synchrotron radiation facility at SPring8, Japan, a dedicated simulation code was developed for characterizing the incident $\\gamma$-ray beams. The eliLaBr code is implemented using Geant4 and is available on the GitHub repository, at https://github.com/dan-mihai-filipescu/eliLaBr . The present work describes step-by-step the Monte Carlo algorithm with focus on modeling the polarization properties of the scattered photon. The polarization is treated independently both in the Stokes parameters and in the polarization vector formalisms. An intervalidation between the two methods is given. Based on polarization state description requirements of different Geant4 physics classes, user recommendations are given on which of the two methods to be employed. The spatial and energy distributions for the LCS $\\gamma$-ray beam and its Stokes parameters are obtained for head-on laser - relativistic electron collisions, where several incident laser polarization states were considered: linear, unpolarized, circular and mixed linear and circular polarization. The influence of variable incident angle between photon and electron beam was also investigated. We show that the degree of polarization transfer from the incident photon to the scattered photon increases with the collision angle. However, we show that, for $\\gamma$-ray sources based on Compton scattering of laser photons on relativistic electrons, the polarization degree of the incident photon is almost completely transferred to the scattered photon for any incident angle. ",
+    "url": "https://arxiv.org/abs/2210.14669",
+    "authors": [
+      "Dan Filipescu"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14701",
+    "title": "Machine Learning Assisted Design and Optimization of Transition  Metal-Incorporated Carbon Quantum Dot Catalysts for Hydrogen Evolution  Reaction",
+    "abstract": "Development of cost-effective hydrogen evolution reaction (HER) catalysts with outstanding catalytic activity, replacing cost-prohibitive noble metal-based catalysts, is critical for practical green hydrogen production. A popular strategy for promoting the catalytic performance of noble metal-free catalysts is to incorporate earth-abundant transition metal (TM) atoms into nanocarbon platforms such as carbon quantum dots (CQDs). Although data-driven catalyst design methods can significantly accelerate the rational design of TM element-doped CQD (M@CQD) catalysts, they suffer from either a simplified theoretical model or the prohibitive cost and complexity of experimental data generation. In this study, we propose an effective and facile HER catalyst design strategy based on machine learning (ML) and ML model verification using electrochemical methods accompanied with density functional theory (DFT) simulations. Based on a Bayesian genetic algorithm (BGA) ML model, the Ni@CQD catalyst on a three-dimensional reduced graphene oxide (3D rGO) conductor is proposed as the best HER catalyst under the optimal conditions of catalyst loading, electrode type, and temperature and pH of electrolyte. We validate the ML results with electrochemical experiments, where the Ni@CQD catalyst exhibited superior HER activity, requiring an overpotential of 189 mV to achieve 10 mA cm-2 with a Tafel slope of 52 mV dec-1 and impressive durability in acidic media. We expect that this methodology and the excellent performance of the Ni@CQD catalyst provide an effective route for the rational design of highly active electrocatalysts for commercial applications. ",
+    "url": "https://arxiv.org/abs/2210.14701",
+    "authors": [
+      "Duong Nguyen Nguyen",
+      "Min-Cheol Kim",
+      "Unbeom Baeck",
+      "Jaehyoung Lim",
+      "Namsoo Shin",
+      "Jaekook Kim",
+      "Heechae Choi",
+      "Ho Seok Park",
+      "Uk Sim",
+      "Jung Kyu Kim"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14779",
+    "title": "Inverse modeling of circular lattices via orbit response measurements in  the presence of degeneracy",
+    "abstract": "The number and relative placement of BPMs and steerers with respect to the quadrupoles in a circular lattice can lead to degeneracy in the context of inverse modeling of accelerator optics. Further, the measurement uncertainties introduced by beam position monitors can propagate by the inverse modeling process in ways that prohibit the successful estimation of model errors. In this contribution, the influence of BPM and steerer placement on the conditioning of the inverse problem is studied. An analytical version of the Jacobian, linking the quadrupole gradient errors along with BPM and steerer gain errors with the orbit response matrix, is derived. It is demonstrated that this analytical version of the Jacobian can be used in place of the numerically obtained Jacobian during the fitting procedure. The approach is first tested with simulations and the findings are verified by measurement data taken on SIS18 synchrotron at GSI. The results are crosschecked with the standard numerical Jacobian approach. The quadrupole errors causing tune discrepancies observed at SIS18 are identified. ",
+    "url": "https://arxiv.org/abs/2210.14779",
+    "authors": [
+      "Dominik Vilsmeier",
+      "Rahul Singh",
+      "Mei Bai"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14785",
+    "title": "110 GHz, 110 mW Hybrid Silicon-Lithium Niobate Mach-Zehnder Modulator",
+    "abstract": "High bandwidth, low voltage electro-optic modulators with high optical power handling capability are important for improving the performance of analog optical communications and RF photonic links. Here we designed and fabricated a thin-film lithium niobate (LN) Mach-Zehnder modulator (MZM) which can handle high optical power of 110 mW, while having 3-dB bandwidth greater than 110 GHz at 1550 nm. The design does not require etching of thin-film LN, and uses hybrid optical modes formed by bonding LN to planarized silicon photonic waveguide circuits. A high optical power handling capability in the MZM was achieved by carefully tapering the underlying Si waveguide to reduce the impact of optically-generated carriers, while retaining a high modulation efficiency. The MZM has a $V_\\pi L$ product of 3.1 V.cm and an on-chip optical insertion loss of 1.8 dB. ",
+    "url": "https://arxiv.org/abs/2210.14785",
+    "authors": [
+      "Forrest Valdez",
+      "Viphretuo Mere",
+      "Xiaoxi Wang",
+      "Nicholas Boynton",
+      "Thomas A. Friedmann",
+      "Shawn Arterburn",
+      "Christina Dallo",
+      "Andrew T. Pomerene",
+      "Andrew L. Starbuck",
+      "Douglas C. Trotter",
+      "Anthony L. Lentine",
+      "Shayan Mookherjea"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14881",
+    "title": "Frequency stability of cryogenic silicon cavities with semiconductor  crystalline coatings",
+    "abstract": "State-of-the-art optical oscillators employing cryogenic reference cavities are limited in performance by the Brownian thermal noise associated with the mechanical dissipation of the mirror coatings. Recently, crystalline Al$_{1-x}$Ga$_{x}$As/GaAs coatings have emerged as a promising candidate for improved coating thermal noise. We present measurements of the frequency noise of two fully crystalline cryogenic reference cavities with Al$_{0.92}$Ga$_{0.08}$As/GaAs optical coatings. We report on previously unmeasured birefringent noise associated with anti-correlated frequency fluctuations between the polarization modes of the crystalline coatings, and identify variables that affect its magnitude. Comparing the birefringent noise between the two cryogenic reference cavities reveals a phenomenological set of scalings with intracavity power and mode area. We implement an interrogation scheme that cancels this noise by simultaneous probing of both polarization modes. The residual noise remaining after this cancellation is larger than both cavities thermal noise limits, but still lower than the instabilities previously measured on equivalent resonators with dielectric coatings. Though the source of these novel noise mechanisms is unclear, we demonstrate that crystalline coatings can provide stability and sensitivity competitive with resonators employing dielectric coatings. ",
+    "url": "https://arxiv.org/abs/2210.14881",
+    "authors": [
+      "Dhruv Kedar",
+      "Jialiang Yu",
+      "Eric Oelker",
+      "Alexander Staron",
+      "William R. Milner",
+      "John M. Robinson",
+      "Thomas Legero",
+      "Fritz Riehle",
+      "Uwe Sterr",
+      "Jun Ye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14561",
+    "title": "On the effective reconstruction of expectation values from ab initio  quantum embedding",
+    "abstract": "Quantum embedding is an appealing route to fragment a large interacting quantum system into several smaller auxiliary `cluster' problems to exploit the locality of the correlated physics. In this work we critically review approaches to recombine these fragmented solutions in order to compute non-local expectation values, including the total energy. Starting from the democratic partitioning of expectation values used in density matrix embedding theory, we motivate and develop a number of alternative approaches, numerically demonstrating their efficiency and improved accuracy as a function of increasing cluster size for both energetics and non-local two-body observables in molecular and solid state systems. These approaches consider the $N$-representability of the resulting expectation values via an implicit global wave~function across the clusters, as well as the importance of including contributions to expectation values spanning multiple fragments simultaneously, thereby alleviating the fundamental locality approximation of the embedding. We clearly demonstrate the value of these introduced functionals for reliable extraction of observables and robust and systematic convergence as the cluster size increases, allowing for significantly smaller clusters to be used for a desired accuracy compared to traditional approaches in ab initio wave~function quantum embedding. ",
+    "url": "https://arxiv.org/abs/2210.14561",
+    "authors": [
+      "Max Nusspickel",
+      "Basil Ibrahim",
+      "George H. Booth"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.14895",
+    "title": "Quantum gas microscopy of a geometrically frustrated Hubbard system",
+    "abstract": "Geometrically frustrated many-particle quantum systems are notoriously hard to study numerically but are of profound interest because of their unusual properties and emergent phenomena. In these systems energetic constraints cannot be minimized simultaneously, leading to large ground-state degeneracy and a variety of exotic quantum phases. Here, we present a platform that enables unprecedentedly detailed experimental exploration of geometrically frustrated electronic systems on lattices with triangular geometry. We demonstrate the first realization of triangular atomic Hubbard systems, directly image Mott insulators in the triangular geometry with single-atom and single-site resolution, and measure antiferromagnetic spin-spin correlations for all nearest neighbors allowing for thermometry. This platform provides a powerful new approach for studying exotic quantum magnetism and direct detection of quantum spin liquid signatures in Hubbard systems. ",
+    "url": "https://arxiv.org/abs/2210.14895",
+    "authors": [
+      "Jirayu Mongkolkiattichai",
+      "Liyu Liu",
+      "Davis Garwood",
+      "Jin Yang",
+      "Peter Schauss"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.07810",
+    "title": "Interatomic force from neural network based variational quantum Monte  Carlo",
+    "abstract": " Title: Interatomic force from neural network based variational quantum Monte  Carlo ",
+    "url": "https://arxiv.org/abs/2207.07810",
+    "authors": [
+      "Yubing Qian",
+      "Weizhong Fu",
+      "Weiluo Ren",
+      "Ji Chen"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.10990",
+    "title": "The measuring systems of the wire tension for the MEG II Drift Chamber  by means of the resonant frequency technique",
+    "abstract": " Comments: Nineteen pages, thirteen figures, published on Nuclear Instruments and Methods A ",
+    "url": "https://arxiv.org/abs/2207.10990",
+    "authors": [
+      "A. M. Baldini",
+      "H. Benmansour",
+      "G. Cavoto",
+      "F. Cei",
+      "M. Chiappini",
+      "G. Chiarello",
+      "C. Chiri",
+      "G. Cocciolo",
+      "A. Corvaglia",
+      "F. Cuna",
+      "M. Francesconi",
+      "L. Galli",
+      "F. Grancagnolo",
+      "M. Grassi",
+      "M. Meucci",
+      "A. Miccoli",
+      "D. Nicolo'",
+      "M. Panareo",
+      "A. Papa",
+      "C. Pinto",
+      "F. Raffaelli",
+      "F. Renga",
+      "G. Signorelli",
+      "G.F. Tassielli",
+      "A. Venturini",
+      "B. Vitali",
+      "C. Voena"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.11387",
+    "title": "Witnessing Entangled Two-Photon Absorption via Quantum Interferometry",
+    "abstract": " Comments: 10 pages, 4 figures. Updated References ",
+    "url": "https://arxiv.org/abs/2208.11387",
+    "authors": [
+      "\u00c1ulide Mart\u00ednez-Tapia",
+      "Samuel Corona-Aquino",
+      "Chenglong You",
+      "Rui-Bo Jin",
+      "Omar S. Maga\u00f1a-Loaiza",
+      "Shi-Hai Dong",
+      "Alfred B. U'Ren",
+      "Roberto de J. Le\u00f3n-Montiel"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.06643",
+    "title": "Fast-response hot-wire flow sensors for wind and gust estimation on UAVs",
+    "abstract": " Comments: 23 pages, 11+2 figures, under review ",
+    "url": "https://arxiv.org/abs/2209.06643",
+    "authors": [
+      "Nathaniel Simon",
+      "Alexander Piqu\u00e9",
+      "David Snyder",
+      "Kyle Ikuma",
+      "Anirudha Majumdar",
+      "Marcus Hultmark"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.13713",
+    "title": "Intensified Tpx3Cam, a fast data-driven optical camera with nanosecond  timing resolution for single photon detection in quantum applications",
+    "abstract": " Comments: prepared for submission to JINST for IWORID2022 proceedings ",
+    "url": "https://arxiv.org/abs/2210.13713",
+    "authors": [
+      "Andrei Nomerotski",
+      "Matthew Chekhlov",
+      "Denis Dolzhenko",
+      "Rene Glazenborg",
+      "Brianna Farella",
+      "Michael Keach",
+      "Ryan Mahon",
+      "Dmitry Orlov",
+      "Peter Svihra"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
