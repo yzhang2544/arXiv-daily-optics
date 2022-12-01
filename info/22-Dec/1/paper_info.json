@@ -1,0 +1,645 @@
+[
+  {
+    "id": "arXiv:2211.16543",
+    "title": "Study of impact ionization coefficients in silicon with Low Gain  Avalanche Diodes",
+    "abstract": "Impact ionization in silicon devices has been extensively studied and several models for a quantitative description of the impact ionization coefficients have been proposed. We evaluate those models against gain measurements on Low Gain Avalanche diodes (LGADs) and derive new parameterizations for the impact ionization coefficients optimized to describe a large set of experimental data. We present pulsed IR-laser based gain measurements on 5 different types of $50\\mu m$-thick LGADs from two different producers (CNM and HPK) performed in a temperature range from $-15^oC$ to $40^oC$. Detailed TCAD device models are conceived based on SIMS doping profiles measurements and tuning of the device models to measured C-V characteristics. Electric field profiles are extracted from the TCAD simulations and used as input to an optimization procedure (least squares fit) of the impact ionization model parameters to the experimental data. It is demonstrated that the new parameterizations give a good agreement between all measured data and TCAD simulations which is not achieved with the existing models. Finally, we provide an error analysis and compare the obtained values for the electron and hole impact ionization coefficients against existing models. ",
+    "url": "https://arxiv.org/abs/2211.16543",
+    "authors": [
+      "Esteban Curras Rivera",
+      "Michael Moll"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16560",
+    "title": "Automated Discovery and Optimization of 3D Topological Photonic Crystals",
+    "abstract": "Topological photonic crystals have received considerable attention for their ability to manipulate and guide light in unique ways. They are typically designed by hand based on careful analysis of their bands and mode profiles, but recent theoretical advances have revealed new and powerful insights into the connection between band symmetry, connectivity, and topology. Here we propose a combined global and local optimization framework that integrates a flexible symmetry-constrained level-set parameterization with standard gradient-free optimization algorithms to optimize topological photonic crystals, a problem setting where the objective function may be highly non-convex and non-continuous. Our framework can be applied to any symmetry-identifiable band topology, and we demonstrate its applicability to several prominent kinds of three-dimensional band topology, namely $\\Gamma$-enforced nodal lines, Weyl points, and Chern insulators. Requiring no prior examples of topological photonic crystals or prior knowledge on the connection between structure and band topology, our approach indicates a path towards the automated discovery of novel topological photonic crystal designs. ",
+    "url": "https://arxiv.org/abs/2211.16560",
+    "authors": [
+      "Samuel Kim",
+      "Thomas Christensen",
+      "Steven G. Johnson",
+      "Marin Solja\u010di\u0107"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16567",
+    "title": "Inverse cascade of gravity waves in the presence of condensate:  numerical simulation",
+    "abstract": "During the set of direct numerical simulations of the forced isotropic turbulence of surface gravity waves in the framework of primordial dynamical equations, the universal inverse cascade spectrum was observed. The slope of the spectrum is the same (in the margin of error) for different levels of pumping and nonlinearity as well as dissipation present in the system. In all simulation runs formation of the inverse cascade spectrum was accompanied by appearance of strong long wave background (condensate). The observed slope of the spectrum $\\sim k^{-3.07}$ is different from the constant wave action flux solution predicted by the Theory of Wave Turbulence $\\sim k^{-23/6}$. ",
+    "url": "https://arxiv.org/abs/2211.16567",
+    "authors": [
+      "Alexander O. Korotkevich"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16575",
+    "title": "Resonant diffusion of a gravitactic circle swimmer",
+    "abstract": "We investigate the dynamics of a single chiral active particle subject to an external torque due to the presence of a gravitational field. Our computer simulations reveal an arbitrarily strong increase of the long-time diffusivity of the gravitactic agent when the external torque approaches the intrinsic angular drift. We provide analytic expressions for the mean-square displacement in terms of eigenfunctions and eigenvalues of the noisy-driven-pendulum problem. The pronounced maximum in the diffusivity is then rationalized by the vanishing of the lowest eigenvalues of the Fokker-Planck equation for the angular motion as the rotational diffusion decreases and the underlying classical bifurcation is approached. A simple harmonic-oscillator picture for the barrier-dominated motion provides a quantitative description for the onset of the resonance while its range of validity is determined by the crossover to a critical-fluctuation-dominated regime. ",
+    "url": "https://arxiv.org/abs/2211.16575",
+    "authors": [
+      "Oleksandr Chepizhko",
+      "Thomas Franosch"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16613",
+    "title": "UV/vis-to-IR Photonic Down Conversion Mediated by Excited State  Vibrational Polaritons",
+    "abstract": "This work proposes a new photophysical phenomenon whereby UV/vis excitation of a molecule involving a Franck-Condon (FC) active vibration yields infrared (IR) emission by strong coupling to an optical cavity. The resulting UV/vis-to-IR photonic down conversion process is mediated by vibrational polaritons in the electronic excited state potential. It is shown that the formation of such excited state vibrational polaritons (ESVP) via UV/vis excitation only occurs with molecules having vibrational modes with both a non-zero FC activity and IR activity in the excited state. Density functional theory calculations are shown to effectively identify a candidate molecule, 1-Pyreneacetic acid (PAA), with this property and the dynamics of ESVP are modeled using the truncated Wigner approximation. Overall, this work presents a new avenue of polariton chemistry where excited state dynamics, driven by photoexcitation, are influenced by the formation of vibrational polaritons. Along with this, the photonic down conversion is potentially useful in both the sensing of excited state vibrations and in quantum transduction schemes. ",
+    "url": "https://arxiv.org/abs/2211.16613",
+    "authors": [
+      "Connor K. Terry Weatherly",
+      "Justin Provazza",
+      "Emily A. Weiss",
+      "Roel Tempelaar"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16763",
+    "title": "Inverse molecular design and parameter optimization with H\u00fcckel theory  using automatic differentiation",
+    "abstract": "Semi-empirical quantum chemistry has recently seen a renaissance with applications in high-throughput virtual screening and machine learning. The simplest semi-empirical model still in widespread use in chemistry is H\\\"uckel's $\\pi$-electron molecular orbital theory. In this work, we implemented a H\\\"uckel program using differentiable programming with the JAX framework, based on limited modifications of a pre-existing NumPy version. The auto-differentiable H\\\"uckel code enabled efficient gradient-based optimization of model parameters tuned for excitation energies and molecular polarizabilities, respectively, based on as few as 100 data points from density functional theory simulations. In particular, the facile computation of the polarizability, a second-order derivative, via auto-differentiation shows the potential of differentiable programming to bypass the need for numeric differentiation or derivation of analytical expressions. Finally, we employ gradient-based optimization of atom identity for inverse design of organic electronic materials with targeted orbital energy gaps and polarizabilities. Optimized structures are obtained after as little as 15 iterations, using standard gradient-based optimization algorithms. ",
+    "url": "https://arxiv.org/abs/2211.16763",
+    "authors": [
+      "R. A. Vargas-Hern\u00e1ndez",
+      "K. Jorner",
+      "R. Pollice",
+      "A. Aspuru-Guzik"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16811",
+    "title": "Loss-induced high-density multi-mode integrated waveguides array",
+    "abstract": "The integration density of photonic integrated circuits has been limited by light coupling between waveguides. Traditional approaches to layout the waveguide with high density are based on refractive index engineering to suppress the light coupling between waveguides. However, these methods mostly require sophisticated and sensitive structure design, thus lack universality. Herein, we propose high-density multi-mode-multi-core integrated photonic waveguides by inserting high-loss metal strips between waveguides. We have achieved a 10-spatial-channel multi-mode-multi-core waveguide with total occupying spacing of 6.6 um. The multi-mode waveguides have a close spacing of 400 nm. The proposed scheme has high fabrication tolerance, ultra-large bandwidth and good compatibility to the complementary metal-oxide-semiconductor technology. It can be applied to any integration platform, any working waveband and any operating mode, providing a universal solution for high-density photonic circuits. ",
+    "url": "https://arxiv.org/abs/2211.16811",
+    "authors": [
+      "Yanxian Wei",
+      "Hailong Zhou",
+      "Yunhong Ding",
+      "Zihao Cheng",
+      "Dongmei Huang",
+      "P. K. A. Wai",
+      "Jianji Dong",
+      "Xinliang Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16864",
+    "title": "Increasing the Accuracy of Sound Velocity Measurement in a Vector  Single-Beam Acoustic Current Velocity Meter",
+    "abstract": "Acoustic flow velocity and direction meters from the IST series, which can be integrated into various measuring systems, are considered. The simulation of the flow profile in the measuring tube was carried out depending on the free flow velocity. A measurement method has been developed that uses the transit time of repeated acoustic signals reflected from the transducers, which makes it possible to take into account time hardware delays and a change in the length of the measuring base, which affect the determination of the speed of sound and flow, while increasing the accuracy of measuring the sound speed parameters with simultaneous measuring the flow velocity and temperatures for liquid media of different densities. ",
+    "url": "https://arxiv.org/abs/2211.16864",
+    "authors": [
+      "Aleksandr N. Grekov",
+      "Nikolay A. Grekov",
+      "Sergei S. Peliushenko"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Signal Processing (eess.SP)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16868",
+    "title": "Heating in Multi-Layer Targets at ultra-high Intensity Laser Irradiation  and the Impact of Density Oscillation",
+    "abstract": "We present a computational study of isochoric heating in multi-layered targets at ultra-high intensity laser irradiation (approx. 10**20 W/cm**2). Previous studies have shown enhanced ion heating at interfaces, but at the cost of large temperature gradients. Here, we study multi-layered targets to spread this enhanced interface heating to the entirety of the target and find heating parameters at which the temperature distribution is more homogeneous than at a single interface while still exceeding the mean temperature of a non-layered target. Further, we identify a pressure oscillation that causes the layers to alternate between expanding and being compressed with non beneficial effect on the heating. Based on that, we derive an analytical model estimating the oscillation period to find target conditions that optimize heating and temperature homogeneity. This model can also be used to infer the plasma temperature from the oscillation period which can be measured e.g. by XFEL probing. ",
+    "url": "https://arxiv.org/abs/2211.16868",
+    "authors": [
+      "Franziska-Luise Paschke-Bruehl Mohammad Banjafar",
+      "Marco Garten",
+      "Lingen Huang",
+      "Brian Edward Marr\u00e9",
+      "Motoaki Nakatsutsumi",
+      "Lisa Randolph",
+      "Thomas E. Cowan",
+      "Ulrich Schramm",
+      "Thomas Kluge"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16901",
+    "title": "X-ray Performance of a Small Pixel Size sCMOS Sensor and the Effect of  Depletion Depth",
+    "abstract": "In recent years, scientific Complementary Metal Oxide Semiconductor (sCMOS) devices have been increasingly applied in X-ray detection, thanks to their attributes such as high frame rate, low dark current, high radiation tolerance and low readout noise. We tested the basic performance of a backside-illuminated (BSI) sCMOS sensor, which has a small pixel size of 6.5 um * 6.5 um. At a temperature of -20C, The readout noise is 1.6 e, the dark current is 0.5 e/pixel/s, and the energy resolution reaches 204.6 eV for single-pixel events. The effect of depletion depth on the sensor's performance was also examined, using three versions of the sensors with different deletion depths. We found that the sensor with a deeper depletion region can achieve a better energy resolution for events of all types of pixel splitting patterns, and has a higher efficiency in collecting photoelectrons produced by X-ray photons. We further study the effect of depletion depth on charge diffusion with a center-of-gravity (CG) model. Based on this work, a highly depleted sCMOS is recommended for applications of soft X-ray spectroscop. ",
+    "url": "https://arxiv.org/abs/2211.16901",
+    "authors": [
+      "Yu Hsiao",
+      "Zhixing Ling",
+      "Chen Zhang",
+      "Wenxin Wang",
+      "Quan Zhou",
+      "Xinyang Wang",
+      "Shuang-Nan Zhang",
+      "Weimin Yuan"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17007",
+    "title": "Boundary effects in Radiative Transfer of acoustic waves in a randomly  fluctuating half-space",
+    "abstract": "This paper concerns the derivation of radiative transfer equations for acoustic waves propagating in a randomly fluctuating half-space in the weak-scattering regime, and the study of boundary effects through an asymptotic analysis of the Wigner transform of the wave solution. These radiative transfer equations allow to model the transport of wave energy density, taking into account the scattering by random heterogeneities. The approach builds on the method of images, where the half-space problem is extended to a full-space, with two symmetric sources and an even map of mechanical properties. Two contributions to the total energy density are then identified: one similar to the energy density propagation in a full-space, for which the resulting lack of statistical stationarity of the medium properties has no leading-order effect; and one supported within one wavelength of the boundary, which describes interference effects between the waves produced by the two symmetric sources. In the case of a homogeneous Neumann boundary conditions, this boundary effect yields a doubling of the intensity, and in the case of homogeneous Dirichlet boundary conditions, a canceling of that intensity. ",
+    "url": "https://arxiv.org/abs/2211.17007",
+    "authors": [
+      "Adel Messaoudi",
+      "Regis Cottereau",
+      "Christophe Gomez"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17089",
+    "title": "Quantum Cryptography: Quantum Key Distribution, a Non-technical Approach",
+    "abstract": "With the rapid development of quantum computers the currently secure cryptographic protocols may not stay that way. Quantum mechanics provides means to create an inherently secure communication channel that is protected by the laws of physics and not by the computational hardness of certain mathematical problems. This paper is a non-technical overview of quantum key distribution, one of the most well-known application of quantum cryptography, a type of cryptography poised to exploit the laws of quantum mechanics directly. ",
+    "url": "https://arxiv.org/abs/2211.17089",
+    "authors": [
+      "Andrew Frigyik"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Information Theory (cs.IT)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17101",
+    "title": "Centenary of Alexander Friedmann's Prediction of the Universe Expansion  and the Quantum Vacuum",
+    "abstract": "We review the main scientific pictures of the universe developed from ancient times to Albert Einstein and underline that all of them treated the universe as a stationary system with unchanged physical properties. In contrast to this, 100 years ago Alexander Friedmann predicted that the universe expands starting from the point of infinitely large energy density. We briefly discuss the physical meaning of this prediction and its experimental confirmation consisting of the discovery of redshift in the spectra of remote galaxies and relic radiation. After mentioning the horizon problem in the theory of the hot universe, the inflationary model is considered in connection with the concept of quantum vacuum as an alternative to the inflaton field. The accelerated expansion of the universe is discussed as powered by the cosmological constant originating from the quantum vacuum. The conclusion is made that since Alexander Friedmann's prediction of the universe expansion radically altered our picture of the world in comparison with the previous epochs, his name should be put on a par with the names of Ptolemy and Copernicus. ",
+    "url": "https://arxiv.org/abs/2211.17101",
+    "authors": [
+      "Galina L. Klimchitskaya",
+      "Vladimir M. Mostepanenko"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Theory (hep-th)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17114",
+    "title": "Development of thin hydrogenated amorphous silicon detectors on a  flexible substrate",
+    "abstract": "The HASPIDE (Hydrogenated Amorphous Silicon PIxels DEtectors) project aims at the development of thin hydrogenated amorphous silicon (a-Si:H) detectors on flexible substrates (mostly Polyimide) for beam monitoring, neutron detection and space applications. Since a-Si:H is a material with superior radiation hardness, the benefit for the above-mentioned applications can be appreciated mostly in radiation harsh environments. Furthermore, the possibility to deposit this material on flexible substrates like Polyimide (PI), polyethylene naphthalate (PEN) or polyethylene terephthalate (PET) facilitates the usage of these detectors in medical dosimetry, beam flux and beam profile measurements. Particularly interesting is its use when positioned directly on the flange of the vacuum-to-air separation interface in a beam line, as well as other applications where a thin self-standing radiation flux detector is envisaged. In this paper, the HASPIDE project will be described and some preliminary results on PI and glass substrates will be reported. ",
+    "url": "https://arxiv.org/abs/2211.17114",
+    "authors": [
+      "M. Menichelli",
+      "M.Bizzarri",
+      "L.Calcagnile",
+      "M. Caprai",
+      "A.P. Caricato",
+      "R. Catalano",
+      "G.A.P. Cirrone",
+      "T.Croci",
+      "G. Cuttone",
+      "S.Dunand",
+      "M.Fabi",
+      "L.Frontini",
+      "B.Gianfelici",
+      "C.Grimani",
+      "M. Ionica",
+      "K. Kanxheri",
+      "M. Large",
+      "V.Liberali",
+      "M.Martino",
+      "G. Maruccio",
+      "G.Mazza",
+      "A. G. Monteduro",
+      "A. Morozzi",
+      "F. Moscatelli",
+      "S. Pallotta",
+      "A. Papi",
+      "D. Passeri",
+      "M.Pedio",
+      "M. Petasecca",
+      "G.Petringa",
+      "F.Peverini",
+      "L.Piccolo",
+      "P.Placidi",
+      "G.Quarta",
+      "S. Rizzato",
+      "G. Rossi",
+      "F.Sabbatini",
+      "A. Stabile",
+      "L. Servoli",
+      "C. Talamonti",
+      "M.Villani",
+      "R.J. Wheadon",
+      "N. Wyrsch"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17145",
+    "title": "Photoacoustic Image Quality Improvement from a Single Cell Low Frequency  PMUT",
+    "abstract": "Photoacoustic image (PAI) quality improvement using a low frequency piezoelectric micromachined ultrasound transducer (PMUT) having the fundamental resonant frequency 1 MHz is being reported. Specifically, three different methods are implemented such as the frame averaging, mathematically improved algorithms, and a hardware position accurate arrangement in order to obtain unparallel PAI image quality. Validation study has been conducted in both agar phantom and ex-vivo tissue samples. Measurable image quantifiers in the form of full width at half maximum (FWHM), signal to noise ratio (SNR), and contrast ratio (CR) are used to evaluate the improvement in the image quality. It is found that the FWHM increases by 34%, SNR by 23% and CR by 25%, suggesting the efficacy of the methods to achieve better photoacoustic images employing PMUT-based detector. The study demonstrates that the suggested methods of improvement could play a key role in a promising cost-effective PMUT-PAI system in future. ",
+    "url": "https://arxiv.org/abs/2211.17145",
+    "authors": [
+      "Kaustav Roy",
+      "Arijit Paramanik",
+      "Souradip Paul",
+      "Akshay Kalyan",
+      "Eshani Sarkar",
+      "Anuj Ashok",
+      "Rudra Pratap",
+      "M Suheshkumar Singh"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17151",
+    "title": "Multi-contrast Jones-matrix optical coherence tomography - the concept,  principle, implementation, and applications",
+    "abstract": "Jones-matrix optical coherence tomography (JM-OCT) is an extension of OCT that provides multiple types of optical contrasts of biological and clinical samples. JM-OCT measures the spatial distribution of the Jones matrix of the sample and also its time sequence. All contrasts (i.e., multi-contrast OCT images) are then computed from the Jones matrix. The contrasts obtained from the Jones matrix include the conventional and polarization-insensitive OCT intensity, cumulative and local phase retardation (birefringence), degree-of-polarization uniformity quantifying the polarization randomness of the sample, signal attenuation coefficient, sample scatterer density, Doppler OCT, OCT angiography, and dynamic OCT. JM-OCT is a generalized version of OCT because it measures the generalized form of the sample information; i.e., the Jones matrix sequence. This review summarizes the basic conception, mathematical principle, hardware implementation, signal and image processing, and biological and clinical applications of JM-OCT. Advanced technical topics, including JM-OCT-specific noise correction and quantity estimation and JM-OCT's self-calibration nature, are also described. ",
+    "url": "https://arxiv.org/abs/2211.17151",
+    "authors": [
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16658",
+    "title": "Quantum light from lossy semiconductor Rydberg excitons",
+    "abstract": "The emergence of photonic quantum correlations is typically associated with emitters strongly coupled to a photonic mode. Here, we show that semiconductor Rydberg excitons, which are only weakly coupled to a free-space light mode can produce strongly antibunched fields, i.e. quantum light. This effect is fueled by micron-scale excitation blockade between Rydberg excitons inducing pair-wise polariton scattering events. Photons incident on an exciton resonance are scatted into blue- and red-detuned pairs, which enjoy relative protection from absorption and thus dominate the transmitted light. We demonstrate that this effect persists in the presence of additional phonon coupling, strong non-radiative decay and across a wide range of experimental parameters. Our results pave the way for the observation of quantum statistics from weakly coupled semiconductor excitons. ",
+    "url": "https://arxiv.org/abs/2211.16658",
+    "authors": [
+      "Valentin Walther",
+      "Anders S. S\u00f8rensen"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16692",
+    "title": "ACFlow: An open source toolkit for analytical continuation of quantum  Monte Carlo data",
+    "abstract": "The purpose of analytical continuation is to establish a real frequency spectral representation of single-particle or two-particle correlation function (such as Green's function, self-energy function, and dynamical susceptibilities) from noisy data generated in finite temperature quantum Monte Carlo simulations. It requires numerical solutions of a family of Fredholm integral equations of the first kind, which is indeed a challenging task. In this paper, an open source toolkit (dubbed ACFlow) for analytical continuation of quantum Monte Carlo data is presented. We at first give a short introduction to the analytical continuation problem. Next, three primary analytical continuation algorithms, including maximum entropy method, stochastic analytical continuation, and stochastic optimization method, as implemented in this toolkit are reviewed. And then we elaborate major features, implementation details, and basic usage of this toolkit. Finally, four representative examples are shown to demonstrate usefulness and flexibility of the ACFlow toolkit. ",
+    "url": "https://arxiv.org/abs/2211.16692",
+    "authors": [
+      "Li Huang"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16783",
+    "title": "Modelling of Spintronic Terahertz Emitters as a function of spin  generation and diffusion geometry",
+    "abstract": "Spintronic THz emitters (STE) are efficient THz sources constructed using thin heavy-metal (HM) and ferromagnetic-metal (FM) layers. To improve the performance of the STE, different structuring methods (trilayers, stacked bilayers) have been experimentally applied. A theoretical description of the overall THz emission process is necessary to optimize the efficiency of STE. In particular, geometry, composition, pump laser frequency, and spin diffusion will be significant in understanding the pathways for further research developments. This work will apply a generalized model based on a modified Transfer Matrix Method (TMM). We will consider the spin generation and diffusion in the FM and HM layers and explain the spintronic THz emission process. This model is suitable for calculating emitted THz signal as a function of FM and HM thicknesses for different geometrical configurations. We will investigate a bilayer geometry as a test case, but the extension to a multi-layer configuration is straightforward. We will show how the different configurations of the sample will influence the THz emission amplitude. ",
+    "url": "https://arxiv.org/abs/2211.16783",
+    "authors": [
+      "Yingshu Yang",
+      "Stefano Dal Forno",
+      "Marco Battiato"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.16862",
+    "title": "Satellite-to-Ground Discrete Modulated Continuous Variable Quantum Key  Distribution: The M-PSK and M-QAM Protocols in Low Earth Orbit",
+    "abstract": "The Gaussian modulated continuous variable quantum key distribution (GM-CVQKD) protocol is known to maximise the mutual information between two parties during quantum key distribution (QKD). However, the reconciliation efficiency significantly decreases in low signal-to-noise ratio (SNR) regimes. In contrast, the more resilient discrete modulated continuous variable quantum key distribution (DM-CVQKD) protocol has better reconciliation efficiencies in low SNR regimes. In this paper, we study the Phase Shift Keying (M-PSK) and Quadrature Amplitude Modulation (M-QAM) DM-CVQKD protocols along with the GM-CVQKD protocol over a satellite-to-ground link in the low signal-to-noise-ratio (SNR) regime. We make use of a satellite-to-ground link model which takes into account geometric, scintillation, and scattering losses due to the link distance, atmospheric turbulence, and atmospheric aerosols, respectively. In addition, recent multidimensional (MD) and multilevel coding and multistage decoding (MLC-MSD) reconciliation method models in combination with multiedge-type low-density parity-check (MET-LDPC) code models have been used to determine the reconciliation efficiency for DM-CVQKD and GM-CVQKD, respectively. The results show that the 4-PSK and 8-PSK protocols outperform GM-CVQKD in both the asymptotic and finite size limit. This is achieved by producing positive key rates at larger link distances and lower elevation angles when the SNR is low, and when collective attacks from an eavesdropper are considered. In addition, the M-QAM protocol produces larger positive secret key rates compared to M-PSK in the asymptotic limit. ",
+    "url": "https://arxiv.org/abs/2211.16862",
+    "authors": [
+      "Mikhael Sayat",
+      "Biveen Shajilal",
+      "Sebastian P. Kish",
+      "Syed M. Assad",
+      "Ping Koy Lam",
+      "Nicholas Rattenbury",
+      "John Cater"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17140",
+    "title": "Partial crystallization in a Zr-based bulk metallic glass in selective  laser melting",
+    "abstract": "Metals in amorphous state are promising for the use as structural materials due to their superior properties related to the absence of grain boundaries and dislocations.Obtaining the amorphous state requires quenching with a high cooling rate.In conventional technologies,this is the reason for a considerable size limitation hindering application of amorphous alloys.Additive manufacturing (AM) is free of the size limitation.The so-called bulk metallic glass (BMG) alloys have extremely low critical cooling rates and can be used in AM. Recent studies on AM from Zr-based BMGs by selective laser melting(SLM)has proved the possibility of attaining the amorphous state and revealed partial crystallization to be the principal drawback of this process.The present work aims to analyze the conditions for partial crystallization and try to control it by optimizing the process parameters.A comprehensive parametric analysis is accomplished in single-track SLM experiments with Zr-based BMG alloy Vit 106.The observed microstructures are related to the temperature fields and thermal cycles estimated by an analytic heat-transfer model in the laser-impact zone.In the cross section of a laser track,a central bright domain is identified as the remelted zone.An annular darker crystallization zone encircles the remelted zone.The model fits the experimentally obtained dependencies of the remelted zone size versus laser power and scanning speed.It seems that primary crystalline inclusions existing in the substrate before laser processing dissolve at the laser melting.The mean cooling rate in the remelted zone is much greater than the critical cooling rate.Therefore,homogeneous nucleation isn't expected.Nevertheless,the theoretically estimated crystallization times are sufficient for a considerable crystal growth in the heat-affected zone where primary crystalline inclusions and nuclei are not completely dissolved ",
+    "url": "https://arxiv.org/abs/2211.17140",
+    "authors": [
+      "R.S. Khmyrov",
+      "P.A. Podrabinnik",
+      "T.V. Tarasova",
+      "M.A. Gridnev",
+      "A.D. Korotkov",
+      "S.N. Grigoriev",
+      "A.Yu. Kurmysheva",
+      "O.B. Kovalev",
+      "A.V. Gusarov"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17167",
+    "title": "Carrier Recombination in Highly Uniform and Phase-Pure GaAs/(Al,Ga)As  Core/Shell Nanowire Arrays on Si(111): Mott Transition and Internal Quantum  Efficiency",
+    "abstract": "GaAs-based nanowires are among the most promising candidates for realizing a monolithical integration of III-V optoelectronics on the Si platform. To realize their full potential for applications as light absorbers and emitters, it is crucial to understand their interaction with light governing the absorption and extraction efficiency, as well as the carrier recombination dynamics determining the radiative efficiency. Here, we study the spontaneous emission of zincblende GaAs/(Al,Ga)As core/shell nanowire arrays by $\\mu$-photoluminescence spectroscopy. These ordered arrays are synthesized on patterned Si(111) substrates using molecular beam epitaxy, and exhibit an exceptionally low degree of polytypism for interwire separations exceeding a critical value. We record emission spectra over more than five orders of excitation density for both steady-state and pulsed excitation to identify the nature of the recombination channels. An abrupt Mott transition from excitonic to electron-hole-plasma recombination is observed, and the corresponding Mott density is derived. Combining these experiments with simulations and additional direct measurements of the external quantum efficiency using a perfect diffuse reflector as reference, we are able to extract the internal quantum efficiency as a function of carrier density and temperature as well as the extraction efficiency of the nanowire array. The results vividly document the high potential of GaAs/(Al,Ga)As core/shell nanowires for efficient light emitters integrated on the Si platform. Furthermore, the methodology established in this work can be applied to nanowires of any other materials system of interest for optoelectronic applications. ",
+    "url": "https://arxiv.org/abs/2211.17167",
+    "authors": [
+      "Miriam Oliva",
+      "Timur Flissikowski",
+      "Micha\u0142 G\u00f3ra",
+      "Jonas L\u00e4hnemann",
+      "Jes\u00fas Herranz",
+      "Ryan B. Lewis",
+      "Oliver Marquardt",
+      "Manfred Ramsteiner",
+      "Lutz Geelhaar",
+      "Oliver Brandt"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2009.10662",
+    "title": "Implications of gauge freedom for nonrelativistic quantum  electrodynamics",
+    "abstract": " Comments: Review article, including supplementary material ",
+    "url": "https://arxiv.org/abs/2009.10662",
+    "authors": [
+      "Adam Stokes",
+      "Ahsan Nazir"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2108.04078",
+    "title": "Chemo-Mechanical Model of SEI Growth on Silicon Electrode Particles",
+    "abstract": " Comments: 15 pages, 13 figures ",
+    "url": "https://arxiv.org/abs/2108.04078",
+    "authors": [
+      "Lars von Kolzenberg",
+      "Arnulf Latz",
+      "Birger Horstmann"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.01466",
+    "title": "Physics-informed compressed sensing for PC-MRI: an inverse Navier-Stokes  problem",
+    "abstract": " Title: Physics-informed compressed sensing for PC-MRI: an inverse Navier-Stokes  problem ",
+    "url": "https://arxiv.org/abs/2207.01466",
+    "authors": [
+      "Alexandros Kontogiannis",
+      "Matthew P. Juniper"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Optimization and Control (math.OC)",
+      "Computational Physics (physics.comp-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.03368",
+    "title": "Democratization of Quantum Technologies",
+    "abstract": " Comments: 27 pages, 4 tables ",
+    "url": "https://arxiv.org/abs/2208.03368",
+    "authors": [
+      "Zeki C. Seskir",
+      "Steven Umbrello",
+      "Christopher Coenen",
+      "Pieter E. Vermaas"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.08235",
+    "title": "Levitated Optomechanics with Meta-Atoms",
+    "abstract": " Comments: 10pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2211.08235",
+    "authors": [
+      "Sergei Lepeshov",
+      "Nadine Meyer",
+      "Patrick Maurer",
+      "Oriol Romero-Isart",
+      "Romain Quidant"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.11969",
+    "title": "EOS: a demonstrator of hybrid optical detector technology",
+    "abstract": " Title: EOS: a demonstrator of hybrid optical detector technology ",
+    "url": "https://arxiv.org/abs/2211.11969",
+    "authors": [
+      "T. Anderson",
+      "E. Anderssen",
+      "M. Askins",
+      "A. J. Bacon",
+      "Z. Bagdasarian",
+      "A. Baldoni",
+      "N. Barros",
+      "L. Bartoszek",
+      "M. Bergevin",
+      "A. Bernstein",
+      "E. Blucher",
+      "J. Boissevain",
+      "R. Bonventre",
+      "D. Brown",
+      "E. J. Callaghan",
+      "D. F. Cowen",
+      "S. Dazeley",
+      "M. Diwan",
+      "M. Duce",
+      "D. Fleming",
+      "K. Frankiewicz",
+      "D.M. Gooding",
+      "C. Grant",
+      "J. Juechter",
+      "T. Kaptanoglu",
+      "T. Kim",
+      "J.R. Klein",
+      "C. Kraus",
+      "T. Kroupov\u00e1",
+      "B. Land",
+      "L. Lebanowski",
+      "V. Lozza",
+      "A. Marino",
+      "A. Mastbaum",
+      "C. Mauger",
+      "G. Mayers",
+      "J. Minock",
+      "S. Naugle",
+      "M. Newcomer",
+      "A. Nikolica",
+      "G. D. Orebi Gann",
+      "L. Pickard",
+      "L. Ren",
+      "A. Rincon",
+      "N. Rowe",
+      "J. Saba",
+      "S. Schoppmann",
+      "J. Sensenig",
+      "M. Smiley",
+      "H. Song",
+      "H. Steiger",
+      "R. Svoboda",
+      "E. Tiras",
+      "W. H. To",
+      "W. H. Trzaska",
+      "R. Van Berg",
+      "V. Veeraraghavan",
+      "J. Wallig",
+      "G. Wendel",
+      "M. Wetstein",
+      "M. Wurm",
+      "G. Yang",
+      "M. Yeh",
+      "E.D. Zimmerman"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.15132",
+    "title": "Design and test results of different aluminum coating layers on the  sCMOS sensors for soft X-ray detection",
+    "abstract": " Comments: Accept for publication in JInst ",
+    "url": "https://arxiv.org/abs/2211.15132",
+    "authors": [
+      "W.X. Wang",
+      "Z.X. Ling",
+      "C. Zhang",
+      "W.M. Yuan",
+      "S.N. Zhang"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.15412",
+    "title": "STE-QUEST: Space Time Explorer and QUantum Equivalence principle Space  Test",
+    "abstract": " Comments: As submitted to the M7 call in July 2022, except updated for the recent (Sept. 2022) MICROSCOPE results, and new section 2.5 summarizing the information provided to ESA during the September 2022 audition ",
+    "url": "https://arxiv.org/abs/2211.15412",
+    "authors": [
+      "Holger Ahlers",
+      "Leonardo Badurina",
+      "Angelo Bassi",
+      "Baptiste Battelier",
+      "Quentin Beaufils",
+      "Kai Bongs",
+      "Philippe Bouyer",
+      "Claus Braxmaier",
+      "Oliver Buchmueller",
+      "Matteo Carlesso",
+      "Eric Charron",
+      "Maria Luisa Chiofalo",
+      "Robin Corgier",
+      "Sandro Donadi",
+      "Fabien Droz",
+      "Robert Ecoffet",
+      "John Ellis",
+      "Fr\u00e9d\u00e9ric Est\u00e8ve",
+      "Naceur Gaaloul",
+      "Domenico Gerardi",
+      "Enno Giese",
+      "Jens Grosse",
+      "Aur\u00e9lien Hees",
+      "Thomas Hensel",
+      "Waldemar Herr",
+      "Philippe Jetzer",
+      "Gina Kleinsteinberg",
+      "Carsten Klempt",
+      "Steve Lecomte",
+      "Louise Lopes",
+      "Sina Loriani",
+      "Gilles M\u00e9tris",
+      "Thierry Martin",
+      "Victor Mart\u00edn",
+      "Gabriel M\u00fcller",
+      "Miquel Nofrarias",
+      "Franck Pereira Dos Santos",
+      "Ernst M. Rasel",
+      "Alain Robert",
+      "Noah Saks",
+      "Mike Salter",
+      "Dennis Schlippert",
+      "Christian Schubert",
+      "Thilo Schuldt",
+      "Carlos F. Sopuerta",
+      "Christian Struckmann",
+      "Guglielmo M. Tino"
+    ],
+    "subjectives": [
+      "Space Physics (physics.space-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
