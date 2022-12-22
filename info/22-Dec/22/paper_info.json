@@ -1,0 +1,453 @@
+[
+  {
+    "id": "arXiv:2212.10591",
+    "title": "A Tabletop X-Ray Tomography Instrument for Nanometer-Scale Imaging:  Integration of a Scanning Electron Microscope with a Transition-Edge Sensor  Spectrometer",
+    "abstract": "X-ray nanotomography has proven to be a powerful tool for the characterization of nanoscale materials and structures, such as energy storage devices and next-generation integrated circuits (ICs). In a nanotomography measurement the X-ray spot size must be kept at the nanoscale, which significantly limits the total amount of X-ray flux achievable. Due to this photon limit, nanotomography has been generally restricted to synchrotron facilities, where higher flux can be maintained even at nanoscale spot sizes. Here, we present a laboratory-scale nanotomography instrument, deemed TOMCAT (TOMographic Circuit Analysis Tool). TOMCAT combines the electron beam of a scanning electron microscope (SEM) with the precise, broadband X-ray detection of a superconducting transition-edge sensor (TES) spectrometer. The electron beam generates a highly focused X-ray spot in a metal target, while the TES spectrometer isolates target photons with high signal-to-noise. TOMCAT design is discussed, including target optimization, system geometry, and scan procedures. Features which are 160 nm wide are resolved in three-dimensional images on a Cu-SiO$_2$ IC sample, demonstrating the capabilities of laboratory-scale nanotomography based on a focused electron beam and TES spectrometer. ",
+    "url": "https://arxiv.org/abs/2212.10591",
+    "authors": [
+      "Nathan Nakamura",
+      "Paul Szypryt",
+      "Amber L. Dagel",
+      "Bradley K. Alpert",
+      "Douglas A. Bennett",
+      "W. Bertrand Doriese",
+      "Malcolm Durkin",
+      "Joseph W. Fowler",
+      "Dylan T. Fox",
+      "Johnathon D. Gard",
+      "Ryan N. Goodner",
+      "J. Zachariah Harris",
+      "Gene C. Hilton",
+      "Edward S. Jimenez",
+      "Burke L. Kernen",
+      "Kurt W. Larson",
+      "Zachary H. Levine",
+      "Daniel McArthur",
+      "Kelsey M. Morgan",
+      "Galen C. O'Neil",
+      "Nathan J. Ortiz",
+      "Christine G. Pappas",
+      "Carl D. Reintsema",
+      "Daniel R. Schmidt",
+      "Peter A. Schulz",
+      "Kyle R. Thompson",
+      "Joel N. Ullom",
+      "Leila Vale",
+      "Courtenay T. Vaughan",
+      "Christopher Walker",
+      "Joel C. Weber",
+      "Jason W. Wheeler",
+      "Daniel S. Swetz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10803",
+    "title": "Unsupervised Full-color Cellular Image Reconstruction through Disordered  Optical Fiber",
+    "abstract": "Recent years have witnessed the tremendous development of fusing fiber-optic imaging with supervised deep learning to enable high-quality imaging of hard-to-reach areas. Nevertheless, the supervised deep learning method imposes strict constraints on fiber-optic imaging systems, where the input objects and the fiber outputs have to be collected in pairs. To unleash the full potential of fiber-optic imaging, unsupervised image reconstruction is in demand. Unfortunately, neither optical fiber bundles nor multimode fibers can achieve a point-to-point transmission of the object with a high sampling density, as is a prerequisite for unsupervised image reconstruction. The recently proposed disordered fibers offer a new solution based on the transverse Anderson localization. Here, we demonstrate unsupervised full-color imaging with a cellular resolution through a meter-long disordered fiber in both transmission and reflection modes. The unsupervised image reconstruction consists of two stages. In the first stage, we perform a pixel-wise standardization on the fiber outputs using the statistics of the objects. In the second stage, we recover the fine details of the reconstructions through a generative adversarial network. Unsupervised image reconstruction does not need paired images, enabling a much more flexible calibration under various conditions. Our new solution achieves full-color high-fidelity cell imaging within a working distance of at least 4 mm by only collecting the fiber outputs after an initial calibration. High imaging robustness is also demonstrated when the disordered fiber is bent with a central angle of 60{\\deg}. Moreover, the cross-domain generality on unseen objects is shown to be enhanced with a diversified object set. ",
+    "url": "https://arxiv.org/abs/2212.10803",
+    "authors": [
+      "Xiaowen Hu",
+      "Jian Zhao",
+      "Jose Enrique Antonio-Lopez",
+      "Rodrigo Amezcua Correa",
+      "Axel Schulzgen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10892",
+    "title": "Monolithically integrated high-power narrow-bandwidth microdisk laser",
+    "abstract": "Integrated on-chip microdisk lasers have attracted great attention as a light source of compact size, low lasing threshold and narrow bandwidth. However, challenges remain unresolved in terms of single mode operation at high output power while maintaining the ultra-narrow bandwidth. In this work, we demonstrate monolithically integrated on-chip single-frequency microdisk lasers coupled with bus-waveguides fabricated by photolithography assisted chemo-mechanical etching. Owing to the high-Q factor of a polygon whispering gallery mode formed in the microdisk and long cavity lengths (e.g., 409 um and 1 mm), a microdisk laser with a narrow linewidth of 0.11 MHz and a maximum output power of 62.1 uW has been achieved at room temperature. ",
+    "url": "https://arxiv.org/abs/2212.10892",
+    "authors": [
+      "Jianglin Guan",
+      "Chuntao Li",
+      "Renhong Gao",
+      "Haisu Zhang",
+      "Jiantian Lin",
+      "Minghui Li",
+      "Min Wang",
+      "Lingling Qiao",
+      "Ya Cheng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10916",
+    "title": "Integrated membrane-free thermal flow sensor for silicon-on-glass  microfluidics",
+    "abstract": "Lab-on-a-chip (LOC) forms the basis of the new-generation portable analytical systems. LOC allows the manipulation of ultralow flows of liquid reagents and multistep reactions on a microfluidic chip, which requires a robust and precise instrument to control the flow of liquids on a chip. However, commercially available flow meters appear to be a standalone option adding a significant dead volume of tubes for connection to the chip. Furthermore, most of them cannot be fabricated within the same technological cycle as microfluidic channels. Here, we report on a membrane-free microfluidic thermal flow sensor (MTFS) that can be integrated into a silicon-glass microfluidic chip with a microchannel topology. We propose a membrane-free design with thin-film thermo-resistive sensitive elements isolated from microfluidic channels and 100 mm wafers silicon-glass fabrication route. It ensures MTFS compatibility with corrosive liquids, which is critically important for biological applications. MTFS design rules for the best sensitivity and measurement range are proposed. A method for automated thermo-resistive sensitive elements calibration is described. The device parameters are experimentally tested for hundreds of hours with a reference Coriolis flow sensor demonstrating a relative flow error of less than 5% within the range of 2-30 uL/min along with a sub-second time response. ",
+    "url": "https://arxiv.org/abs/2212.10916",
+    "authors": [
+      "Vitaly V. Ryzhkov",
+      "Vladimir V. Echeistov",
+      "Aleksandr V. Zverev",
+      "Dmitry A. Baklykov",
+      "Tatyana Konstantinova",
+      "Evgeny S. Lotkov",
+      "Pavel G. Ryazantcev",
+      "Ruslan Sh. Alibekov",
+      "Aleksey K. Kuguk",
+      "Andrey R. Aleksandrov",
+      "Elisey S. Krasko",
+      "Anastasiya A. Barbasheva",
+      "Ilya A. Ryzhikov",
+      "Ilya A. Rodionov"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10978",
+    "title": "A generalized algorithm to compute tight focusing of collimated laser  beams near planar inrerfaces",
+    "abstract": "In the present investigation, we developed an algorithm to calculate tight focusing of an arbitrary collimated continuous-wave laser beam into a planar microcavity, using single integration instead of double one. First, we exploit the fact that light field of any collimated beam can be decomposed into a linear superposition of cylindrical solutions to Maxwell's equations, thanks to which one has an opportunity to represent an arbitrary field in a definite generalized form. Second, circular polarization basis is used as a linear superposition of both Cartesian unit vectors and cylindrical unit vectors to represent both entrance laser beam and focal light fields. Finally, we show that one can decompose light field of any entrance beam into a superposition of vortex beams with circular polarizations and then convert each term of such a superposition into a focused field via single integration, obtaining focal field as a superposition of the single-integration converted terms. ",
+    "url": "https://arxiv.org/abs/2212.10978",
+    "authors": [
+      "Stepan Boichenko"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10984",
+    "title": "Atomic scale modeling of water and ice behavior on vibrating surfaces:  towards design of Surface Acoustic Wave anti-icing and de-icing systems",
+    "abstract": "Within these studies, atomic scale molecular dynamics simulations have been performed to analyze the behavior of water droplets and ice clusters on hydrophilic and hydrophobic surfaces subjected to high-frequency vibrations. The methodology applied herewith aimed at understanding the phenomena governing the anti-icing and de-icing process enabled by Surface Acoustic Waves (SAWs). The complex wave propagation was simplified by in-plane and out-of-plane substrate vibrations, which are relevant to individual longitudinal and transverse components of SAWs. Since the efficiency of such an active system depends on the energy transfer from the vibrating substrate to water or ice, the agents influencing such transfer as well as the accompanied phenomena were studied in detail. Apart from the polarization of the substrate vibrations (in-plane/out-of-plane), the amplitude and frequency of these vibrations were analyzed through atomic scale modeling. Further, the surface wettability effect was introduced as a critical factor within the simulation of water or ice sitting on the vibrating substrate. The results of these studies allow identifying the different phenomena responsible for water and ice removal from vibrating surfaces depending on the wave amplitude and frequency. The importance of substrate wetting for the ant-icing and de-icing has also been analyzed and discussed concerning the future design and optimization of SAW-based systems. ",
+    "url": "https://arxiv.org/abs/2212.10984",
+    "authors": [
+      "Tomasz Wejrzanowski",
+      "Stefan Jacob",
+      "Andreas Winkler",
+      "Agust\u00edn R. Gonz\u00e1lez-Elipe",
+      "Ana Borr\u00e1s"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11033",
+    "title": "Transverse Magnetic Mode Laser in Photonic Crystal Nanobeam Cavity",
+    "abstract": "We first experimentally demonstrated a transverse magnetic (TM) mode laser in a Photonic crystal (PhC) slab structure at room temperature. This study proposes a PhC nanobeam (NB) cavity to support a high-quality-factor (Q-factor) TM mode. For a large and complete photonic bandgap, the PhC NB structures consist of large air holes in a thick dielectric slab. The PhC NB cavity was optimized numerically for a high-Q-factor TM mode of over 1,000,000 by reducing the radii of the air holes quadratically from the center to the edge of the PhC NB. A single TM mode lasing action was observed in an InGaAsP quantum-well (QW)-embedded optimized PhC NB cavity structure at room temperature via optical pulse pumping, where the QW layer was lightly etched. We believe that the TM mode lasers in PhC NB cavities with a lightly etched QW can be good candidates for a surface plasmon excitation source or a highly sensitive optical sensor. ",
+    "url": "https://arxiv.org/abs/2212.11033",
+    "authors": [
+      "Taesu Ryu",
+      "Hwi-Min Kim",
+      "Sang-Woo Ki",
+      "Yong-Hee Lee",
+      "Jin-Kyu Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11056",
+    "title": "Effective description of a suspended mirror coupled to cavity light  -Limitations of Q-enhancement due to normal mode splitting by an optical  spring-",
+    "abstract": "Pendulums have long been used as force sensors due to their ultimately low dissipation (high-quality factor) characteristic. They are widely used in the measurement of the gravitational constant, detection of gravitational waves, and determination of the ultralight dark matter. Furthermore, it is expected to demonstrate the quantum nature of gravity by performing quantum control for macroscopic pendulums. Recently, we have demonstrated that quantum entanglement between two pendulums can be generated using an optical spring [arXiv:2210.13169]; however, we have ignored that an optical spring can reduce the quality factor (Q-factor) by applying normal mode splitting between the pendulum and rotational modes possessing relatively high dissipation. Herein, we analyze a system comprising a cylinder suspended using a beam (a suspended mirror, i.e., a pendulum) and an optical spring to consider normal mode splitting. The reduction in Q-factor is determined only by the beam parameters: the ratio of the radius of the mirror to the length of the beam, and the ratio of the frequency of the rotational mode to the pendulum mode in the absence of cavity photon. In our analysis, we find that the reduction factor 4.38 is reproduced, which is consistent with the experimental result in [Phys. Rev. Lett. 122, 071101 (2019)]. Our analysis shows that low dissipation (high quality) can be reached using an optical spring for the realistic pendulum system considering the rotational degree of freedom. ",
+    "url": "https://arxiv.org/abs/2212.11056",
+    "authors": [
+      "Yuuki Sugiyama",
+      "Tomoya Shichijo",
+      "Nobuyuki Matsumoto",
+      "Akira Matsumura",
+      "Daisuke Miki",
+      "Kazuhiro Yamamoto"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11074",
+    "title": "Decoherence and turbulence sources in a long laser",
+    "abstract": "We investigate the turn-on process in a laser cavity where the roundtrip time is several orders of magnitude greater than the active medium timescales. In this long delay limit the electromagnetic field build-up can be mapped experimentally roundtrip after roundtrip. We show how coherence settles down starting from a stochastic initial condition. In the early stages of the turn-on, we show that power drop-outs emerge, persist for several round-trips and seed dark solitons. These latter structures exhibit a chaotic dynamics and emit radiation that can lead to an overall turbulent dynamics depending on the cavity dispersion. ",
+    "url": "https://arxiv.org/abs/2212.11074",
+    "authors": [
+      "Amy Roche",
+      "Svetlana Slepneva",
+      "Anton Kovalev",
+      "Alexander Pimenov",
+      "Andrei G. Vladimirov",
+      "Mathias Marconi",
+      "Massimo Giudici",
+      "Guillaume Huyet"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11117",
+    "title": "Resonance expansion of quadratic quantities with regularized quasinormal  modes",
+    "abstract": "Resonance expansions are an intuitive approach to capture the interaction of an optical resonator with light. Here, we present a quasinormal mode expansion approach for quadratic observables exploiting the rigorous Riesz projection method. We demonstrate the approach by a numerical implementation of a state-of-the-art quantum light source and emphasize the ability of the approach to provide modal expansions outside the underlying nanophotonic resonator. ",
+    "url": "https://arxiv.org/abs/2212.11117",
+    "authors": [
+      "Fridtjof Betz",
+      "Felix Binkowski",
+      "Martin Hammerschmidt",
+      "Lin Zschiedrich",
+      "Sven Burger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11150",
+    "title": "Frequency stability and phase noise measurements of a 5,860 km-long  intercontinental seafloor optical fibre cable",
+    "abstract": "Optical clock comparison via optical fibre links has been achieved over continental scales, but has not yet been demonstrated intercontinentally. The transfer of ultra-stable optical frequencies over transoceanic distances is a challenging task, as the seafloor cable architecture prevents the use of environmental noise suppression techniques currently employed on land-based metrological links. As a fundamental first step towards devising suitable frequency transfer techniques to enable future clock comparison on a global scale, here we show the free-running frequency stability and phase noise measurements of a transatlantic seafloor optical link between the UK and Canada. To the best of our knowledge, these are the first ever measurements of an intercontinental optical fibre link. ",
+    "url": "https://arxiv.org/abs/2212.11150",
+    "authors": [
+      "Giuseppe Marra",
+      "Paul Gaynor",
+      "Mattia Cantono",
+      "Valey Kamalov",
+      "Sean Mulholland",
+      "Ian Hill",
+      "Marco Schioppo",
+      "Jacques-Olivier Gaudron",
+      "Irene-Barbeito Edreira",
+      "Cecilia Clivati",
+      "Davide Calonico"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11218",
+    "title": "Stochastic switching and squeeze of hysteresis window in nonlinear  responses of silicon nitride membrane nanoelectromechanical resonators",
+    "abstract": "In this work, we present the effects of stochastic force generated by white noise on the nonlinear dynamics of a circular silicon nitride membrane. By tuning the membrane to the Duffing nonlinear region, detected signals switching between low- and high- amplitudes have been observed. They are generated by noise-assisted random jumps between bistable states at room temperature and exhibit high sensitivity to the driving frequency. Through artificially heating different mechanical vibration modes by external input of white noise, the switching rate exhibits exponential dependence on the effective temperature and follows with Kramer's law. Furthermore, both the measured switching rate and activation energy exhibit sensitivity to the width of the hysteresis window in nonlinear response and the driving force, which is in qualitative agreement with the theoretical descriptions. Besides, white noise-induced hysteresis window squeezing and bifurcation point shifting have also been observed, which are attributed to the stochastic force modulation of the spring constant of the membrane. These studies are essential for the generation and manipulation of stochastic switching effects, paving the way to explore new functions based on probability distributions in nanomechanical resonators. ",
+    "url": "https://arxiv.org/abs/2212.11218",
+    "authors": [
+      "Srisaran Venkatachalam",
+      "Xin Zhou"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11256",
+    "title": "Substrate Curvature Curbs the Coffee Ring Effect",
+    "abstract": "\"When the liquid phase of a particle-laden droplet evaporates, a ring of solute is typically formed - what has become known as the \"coffee ring effect\". A key focus of recent work has been the suppression of the coffee-ring effect to leave behind more spatially-uniform particle coatings instead. Efforts to suppress the coffee ring effect often focus on physical effects such as Marangoni flows. Here we focus on a purely geometric effect - the effect of substrate curvature - by evaporating suspension droplets on spherical surfaces of different radius of curvature. We find that stains formed on more highly curved substrates are more uniform. To understand this, we propose a model of the evaporation-induced flow, combined with a detailed calculation of how curvature modifies the local evaporation rate. This model shows that evaporation in the centre of the droplet is enhanced, leading to increased concentration of solute there and a reduction in the propensity for ring-formation. ",
+    "url": "https://arxiv.org/abs/2212.11256",
+    "authors": [
+      "John McCarthy",
+      "Alfonso Castrej\u00f3n-Pita",
+      "Mokhtar Adda-Bedia",
+      "Dominic Vella"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10655",
+    "title": "Bayesian Quantum State Tomography with Python's PyMC",
+    "abstract": "Quantum state tomography (QST) is typically performed from a frequentist viewpoint using maximum likelihood estimation (MLE) which seeks to find the best plausible state consistent with the data by maximizing a likelihood function / distribution. The likelihood function holds an implicit assumption that there is suitable data to infer frequency. In data-starved experiments, this may or may not be a feasible assumption. Moreover, MLE returns no error estimates on the final solution and users are forced to rely on alternative approaches involving either additional measurements or simulated data. Alternatively, Bayesian methods can return a solution with error estimates consistent with the data's uncertainty, but at the expense of a difficult integration over the likelihood distribution. The integration usually requires computational methods with appropriately chosen step sizes in a somewhat complicated problem formulation. This additional complexity serves as a strong deterrent from using Bayesian methods despite the advantages. Probabilistic programming is becoming a common alternative with growing computational power and the development of robust automated integration techniques such as Markov-Chain Monte Carlo (MCMC). Here, we show how to use Python-3's open source PyMC probabilistic programming package to transform an otherwise complicated QST optimization problem into a simple form that can be quickly optimized with efficient under-the-hood MCMC samplers. ",
+    "url": "https://arxiv.org/abs/2212.10655",
+    "authors": [
+      "Daniel J. Lum",
+      "Yaakov Weinstein"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10749",
+    "title": "Coherent control of a high-orbital hole in a semiconductor quantum dot  with near-unity fidelity",
+    "abstract": "Coherently driven semiconductor quantum dots are one of the most promising platforms for non-classical light sources and quantum logic gates which form the foundation of photonic quantum technologies. However, to date, coherent manipulation of quantum dots is limited mainly to their lowest orbital states. Ultrafast coherent control of high-orbital states is obstructed by the demand for tunable terahertz pulses. To break this constraint, we demonstrate an all-optical method to control high-orbital states of a hole via stimulated Auger process. The coherent nature of the Auger process is revealed by Rabi oscillation and Ramsey interference with a fidelity of 95.8%. Harnessing this coherence further enables the investigation of single-hole relaxation mechanism. A surprisingly long relaxation time (156(2) ps) is observed and explained by phonon bottleneck effect. Our work opens new possibilities for understanding the fundamental properties of high-orbital states in quantum emitters and developing new types of orbital-based quantum photonic devices. ",
+    "url": "https://arxiv.org/abs/2212.10749",
+    "authors": [
+      "Junyong Yan",
+      "Chen Chen",
+      "Xiao-Dong Zhang",
+      "Yu-Tong Wang",
+      "Hans-Georg Babin",
+      "Andreas D. Wieck",
+      "Arne Ludwig",
+      "Yun Meng",
+      "Xiaolong Hu",
+      "Huali Duan",
+      "Wenchao Chen",
+      "Wei Fang",
+      "Moritz Cygorek",
+      "Xing Lin",
+      "Da-Wei Wang",
+      "Chao-Yuan Jin",
+      "Feng Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.10863",
+    "title": "Quantum simulation of two-dimensional $\\mathrm{U(1)}$ gauge theory in  Rydberg atom arrays",
+    "abstract": "Simulating $\\mathrm{U(1)}$ quantum gauge theories with spatial dimension greater than one is of great physical significance yet has not been achieved experimentally. Here we propose a simple realization of $\\mathrm{U(1)}$ gauge theory on triangular lattice Rydberg atom arrays. Within experimentally accessible range, we find that the effective model well simulates various aspects of the $\\mathrm{U(1)}$ gauge theory, such as emergence of topological sectors, incommensurability, and the deconfined Rokhsar-Kivelson point. Our proposal is easy to implement experimentally and exhibits pronounced quantum dynamics compared with previous proposals realizing $\\mathrm{U(1)}$ and $\\mathbb Z_2$ gauge theories. ",
+    "url": "https://arxiv.org/abs/2212.10863",
+    "authors": [
+      "Zheng Zhou",
+      "Zheng Yan",
+      "Changle Liu",
+      "Yan Chen",
+      "Xue-Feng Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11195",
+    "title": "Analytical solutions in the modeling of the endovenous laser ablation",
+    "abstract": "We model the operative treatment of incompetent truncal veins using endovenous laser ablation (EVLA). Three differential equations, namely the diffusion, the heat and the bioheat equations, are considered in the endovenous-perivenous multidomain, describing the lumen, the vein wall, the tissue pad and the skin. Exact solutions are provided. Our main concern is to accurate the heat source by taking the Beer--Lambert law into account in the irradiance of the incident beam. To accurate the heat transfer at the skin boundary, the Newton law of cooling is considered as a Robin boundary condition. Open problems are presented. ",
+    "url": "https://arxiv.org/abs/2212.11195",
+    "authors": [
+      "Luisa Consiglieri"
+    ],
+    "subjectives": [
+      "Analysis of PDEs (math.AP)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11198",
+    "title": "Synergetic quantum error mitigation by randomized compiling and  zero-noise extrapolation for the variational quantum eigensolver",
+    "abstract": "We propose a quantum error mitigation strategy for the variational quantum eigensolver (VQE) algorithm. We find, via numerical simulation, that very small amounts of coherent noise in VQE can cause substantially large errors that are difficult to suppress by conventional mitigation methods, and yet our proposed mitigation strategy is able to significantly reduce these errors. The proposed strategy is a combination of previously reported techniques, namely randomized compiling (RC) and zero-noise extrapolation (ZNE). Intuitively, randomized compiling turns coherent errors in the circuit into stochastic Pauli errors, which facilitates extrapolation to the zero-noise limit when evaluating the cost function. Our numerical simulation of VQE for small molecules shows that the proposed strategy can mitigate energy errors induced by various types of coherent noise by up to two orders of magnitude. ",
+    "url": "https://arxiv.org/abs/2212.11198",
+    "authors": [
+      "Tomochika Kurita",
+      "Hammam Qassim",
+      "Masatoshi Ishii",
+      "Hirotaka Oshima",
+      "Shintaro Sato",
+      "Joseph Emerson"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11258",
+    "title": "Field-free molecular alignment by the optimized two-color laser fields",
+    "abstract": "We have theoretically investigated the molecular orientation by a asymmetric potential created by the superposition of two-color laser fields. The time-dependent Schrodinger equation is solved numerically for different field parameters. We have shown how enhancement or suppression of the molecular orientation can be manipulated by the laser field parameters, such as time between laser pulses, the different intensity of the pulses, etc. ",
+    "url": "https://arxiv.org/abs/2212.11258",
+    "authors": [
+      "E.A. Koval"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.01883",
+    "title": "Spatially resolved mass flux measurements with dual comb spectroscopy",
+    "abstract": " Title: Spatially resolved mass flux measurements with dual comb spectroscopy ",
+    "url": "https://arxiv.org/abs/2204.01883",
+    "authors": [
+      "David Yun",
+      "Ryan K. Cole",
+      "Nathan A. Malarich",
+      "Sean C. Coburn",
+      "Nazanin Hoghooghi",
+      "Jiwen Liu",
+      "Jacob J. France",
+      "Mark A. Hagenmaier",
+      "Kristin M. Rice",
+      "Jeffrey M. Donbar",
+      "Gregory B. Rieker"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.06521",
+    "title": "Ultra-High-Precision Detection of Single Microwave Photons based on a  Hybrid System between Majorana Zero Mode and a Quantum Dot",
+    "abstract": " Comments: 19 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2206.06521",
+    "authors": [
+      "Eric Chatterjee",
+      "Wei Pan",
+      "Daniel Soh"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.11283",
+    "title": "The occurrence of internal gravity waves and volumetric acoustic  oscillations in the atmosphere",
+    "abstract": " Comments: 13 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2210.11283",
+    "authors": [
+      "Alexander Kochin"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.02691",
+    "title": "Optimised Trotter Decompositions for Classical and Quantum Computing",
+    "abstract": " Comments: 24 + 3 pages, 5 figures; code and data available (DOI: 10.5281/zenodo.7303905); v2: added references; v3: added appendix ",
+    "url": "https://arxiv.org/abs/2211.02691",
+    "authors": [
+      "Johann Ostmeyer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "High Energy Physics - Lattice (hep-lat)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.10824",
+    "title": "Hybrid Auxiliary Field Quantum Monte Carlo for Molecular Systems",
+    "abstract": " Title: Hybrid Auxiliary Field Quantum Monte Carlo for Molecular Systems ",
+    "url": "https://arxiv.org/abs/2211.10824",
+    "authors": [
+      "Yixiao Chen",
+      "Linfeng Zhang",
+      "Weinan E",
+      "Roberto Car"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
