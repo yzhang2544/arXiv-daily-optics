@@ -1,0 +1,451 @@
+[
+  {
+    "id": "arXiv:2212.12047",
+    "title": "Deep learning for size-agnostic inverse design of random-network 3D  printed mechanical metamaterials",
+    "abstract": "Practical applications of mechanical metamaterials often involve solving inverse problems where the objective is to find the (multiple) microarchitectures that give rise to a given set of properties. The limited resolution of additive manufacturing techniques often requires solving such inverse problems for specific sizes. One should, therefore, find multiple microarchitectural designs that exhibit the desired properties for a specimen with given dimensions. Moreover, the candidate microarchitectures should be resistant to fatigue and fracture, meaning that peak stresses should be minimized as well. Such a multi-objective inverse design problem is formidably difficult to solve but its solution is the key to real-world applications of mechanical metamaterials. Here, we propose a modular approach titled 'Deep-DRAM' that combines four decoupled models, including two deep learning models (DLM), a deep generative model (DGM) based on conditional variational autoencoders (CVAE), and direct finite element (FE) simulations. Deep-DRAM (deep learning for the design of random-network metamaterials) integrates these models into a unified framework capable of finding many solutions to the multi-objective inverse design problem posed here. The integrated framework first introduces the desired elastic properties to the DGM, which returns a set of candidate designs. The candidate designs, together with the target specimen dimensions are then passed to the DLM which predicts their actual elastic properties considering the specimen size. After a filtering step based on the closeness of the actual properties to the desired ones, the last step uses direct FE simulations to identify the designs with the minimum peak stresses. ",
+    "url": "https://arxiv.org/abs/2212.12047",
+    "authors": [
+      "Helda Pahlavani",
+      "Kostas Tsifoutis-Kazolis",
+      "Prerak Mody",
+      "Jie Zhou",
+      "Mohammad J. Mirzaali",
+      "Amir A. Zadpoor"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12059",
+    "title": "High-Q guided-mode resonance of a crossed grating with near-flat  dispersion",
+    "abstract": "Guided-mode resonances in diffraction gratings are manifested as peaks (dips) in reflection (transmission) spectra. Smaller resonance line widths (higher Q-factors) ensure stronger light-matter interactions and are beneficial for field-dependent physical processes. However, strong angular and spectral dispersion are inherent to such high-Q resonances. We demonstrate that a class of high-Q resonant modes (Q-factor >1000) exhibiting extraordinarily weak dispersion can be excited in crossed gratings simultaneously with the modes with well-known nearly linear dispersion. Furthermore, we show that the polarization of the incoming light can be adjusted to engineer the dispersion of these modes, and strong to near-flat dispersion or vice-versa can be achieved by switching between two mutually orthogonal linear polarization states. We introduce a semi-analytical model to explain the underlying physics behind these observations and perform full-wave numerical simulations and experiments to support our theoretical conjecture. The results presented here will benefit all applications that rely on resonances in free-space-coupled geometries. ",
+    "url": "https://arxiv.org/abs/2212.12059",
+    "authors": [
+      "Reuben Amedalor",
+      "Petri Karvinen",
+      "Henri Pesonen",
+      "Jari Turunen",
+      "Tapio Niemi",
+      "Subhajit Bej"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12060",
+    "title": "emIAM v1.0: an emulator for Integrated Assessment Models using marginal  abatement cost curves",
+    "abstract": "We developed an emulator for Integrated Assessment Models (emIAM) based on a marginal abatement cost (MAC) curve approach. Using the output of IAMs in the ENGAGE Scenario Explorer and the GET model, we derived a large set of MAC curves: ten IAMs; global and eleven regions; three gases CO2, CH4, and N2O; eight portfolios of available mitigation technologies; and two emission sources. We tested the performance of emIAM by coupling it with a simple climate model ACC2. We found that the optimizing climate-economy model emIAM-ACC2 adequately reproduced a majority of original IAM emission outcomes under similar conditions, allowing systematic explorations of IAMs with small computational resources. emIAM can expand the capability of simple climate models as a tool to calculate cost-effective pathways linked directly to a temperature target. ",
+    "url": "https://arxiv.org/abs/2212.12060",
+    "authors": [
+      "Weiwei Xiong",
+      "Katsumasa Tanaka",
+      "Philippe Ciais",
+      "Daniel J. A. Johansson",
+      "Mariliis Lehtveer"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "General Economics (econ.GN)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12073",
+    "title": "A tabletop x-ray tomography instrument for nanometer-scale imaging:  demonstration of the 1,000-element transition-edge sensor subarray",
+    "abstract": "We report on the 1,000-element transition-edge sensor (TES) x-ray spectrometer implementation of the TOMographic Circuit Analysis Tool (TOMCAT). TOMCAT combines a high spatial resolution scanning electron microscope (SEM) with a highly efficient and pixelated TES spectrometer to reconstruct three-dimensional maps of nanoscale integrated circuits (ICs). A 240-pixel prototype spectrometer was recently used to reconstruct ICs at the 130 nm technology node, but to increase imaging speed to more practical levels, the detector efficiency needs to be improved. For this reason, we are building a spectrometer that will eventually contain 3,000 TES microcalorimeters read out with microwave superconducting quantum interference device (SQUID) multiplexing, and we currently have commissioned a 1,000 TES subarray. This still represents a significant improvement from the 240-pixel system and allows us to begin characterizing the full spectrometer performance. Of the 992 maximimum available readout channels, we have yielded 818 devices, representing the largest number of TES x-ray microcalorimeters simultaneously read out to date. These microcalorimeters have been optimized for pulse speed rather than purely energy resolution, and we measure a FWHM energy resolution of 14 eV at the 8.0 keV Cu K$\\alpha$ line. ",
+    "url": "https://arxiv.org/abs/2212.12073",
+    "authors": [
+      "Paul Szypryt",
+      "Nathan Nakamura",
+      "Daniel T. Becker",
+      "Douglas A. Bennett",
+      "Amber L. Dagel",
+      "W. Bertrand Doriese",
+      "Joseph W. Fowler",
+      "Johnathon D. Gard",
+      "J. Zachariah Harris",
+      "Gene C. Hilton",
+      "Jozsef Imrek",
+      "Edward S. Jimenez",
+      "Kurt W. Larson",
+      "Zachary H. Levine",
+      "John A. B. Mates",
+      "D. McArthur",
+      "Luis Miaja-Avila",
+      "Kelsey M. Morgan",
+      "Galen C. O'Neil",
+      "Nathan J. Ortiz",
+      "Christine G. Pappas",
+      "Daniel R. Schmidt",
+      "Kyle R. Thompson",
+      "Joel N. Ullom",
+      "Leila Vale",
+      "Michael R. Vissers",
+      "Christopher Walker",
+      "Joel C. Weber",
+      "Abigail L. Wessels",
+      "Jason W. Wheeler",
+      "Daniel S. Swetz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12127",
+    "title": "Mapping and manipulation of topological singularities: from photonic  graphene to T-graphene",
+    "abstract": "Topological singularities (TSs) in momentum space give rise to intriguing fundamental phenomena as well as unusual material properties, attracting a great deal of interest in the past decade. Recently, we have demonstrated universal momentum-to-real-space mapping of TSs and pseudospin angular momentum conversion using photonic honeycomb (graphene-like) and Lieb lattices. Such mapping arises from the Berry phase encircling the Dirac or Dirac-like cones, and is thus of topological origin. In this paper, we briefly present previous observations of topological charge conversion, and then we present our first theoretical analysis and experimental demonstration of TS mapping in a new T-graphene lattice. Unlike other lattices, there are two coexisting but distinct TSs located at different high-symmetry points in the first Brillouin zone of T-graphene, which enables controlled topological charge conversion in the same lattice. We show active manipulation of the TS mapping, turning the two TSs into vortices of different helicities, or one into a high-order vortex but the other into a quadrupole. Such TS manipulation and pseudospin-to-orbital conversion may find applications in optical communications and quantum information, and may bring insight into the study of other Dirac-like structures with multiple TSs beyond the 2D photonic platform. ",
+    "url": "https://arxiv.org/abs/2212.12127",
+    "authors": [
+      "Sihong Lei",
+      "Shiqi Xia",
+      "Junqian Wang",
+      "Xiuying Liu",
+      "Liqin Tang",
+      "Daohong Song",
+      "Jingjun Xu",
+      "Hrvoje Buljan",
+      "Zhigang Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12148",
+    "title": "Phononically shielded photonic-crystal mirror membranes for cavity  quantum optomechanics",
+    "abstract": "We present a highly reflective, sub-wavelength-thick membrane resonator featuring high mechanical quality factor and discuss its applicability for cavity optomechanics. The $88.5~\\text{nm}$ thin stoichiometric silicon-nitride membrane, designed and fabricated to combine 2D-photonic and phononic crystal patterns, reaches reflectivities up to $99.89~\\%$ and a mechanical quality factor of $2.9 \\times 10^7$ at room temperature. We construct a Fabry-Perot-type optical cavity, with the membrane forming one terminating mirror. The optical beam shape in cavity transmission shows a stark deviation from a simple Gaussian mode-shape, consistent with theoretical predictions. We demonstrate optomechanical sideband cooling to mK-mode temperatures, starting from room temperature. At higher intracavity powers we observe an optomechanically induced optical bistability. The demonstrated device has potential to reach high cooperativities at low light levels desirable for e.g. optomechanical sensing and squeezing applications or fundamental studies in cavity quantum optomechanics, and meets the requirements for cooling to the quantum ground state of mechanical motion from room temperature. ",
+    "url": "https://arxiv.org/abs/2212.12148",
+    "authors": [
+      "Georg Enzian",
+      "Zihua Wang",
+      "Anders Simonsen",
+      "Jonas Mathiassen",
+      "Toke Vibel",
+      "Yeghishe Tsaturyan",
+      "Alexander Tagantsev",
+      "Albert Schliesser",
+      "Eugene S. Polzik"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12177",
+    "title": "Multiplexing quantum tunneling diodes for random number generation",
+    "abstract": "Random numbers are indispensable resources for application in modern science and technology. Therefore, a dedicate entropy source is essential, particularly cryptographic tasks and modern applications. In this work, we experimentally demonstrated a scheme to generate random numbers by multiplexing eight tunnel diodes onto a single circuit. As a result, the data rate of random number generation was significantly enhanced to eight folds. In comparison to the original scheme that employed one diode, this multiplexing scheme produced data with higher entropy. These data were then post-processed with the Toeplitz-hashing extractor, yielding final outputs that achieved almost full entropy and satisfied the U.S. National Institute of Standards and Technology (NIST) Special Publication 800-90B validation. These data also passed the NIST Special Publication 800-22 statistical randomness examination and had no sign of patterns detected from an autocorrelation analysis. ",
+    "url": "https://arxiv.org/abs/2212.12177",
+    "authors": [
+      "Kanin Aungskunsiri",
+      "Ratthasart Amarit",
+      "Sakdinan Jantarachote",
+      "Kruawan Wongpanya",
+      "Pongpun Punpetch",
+      "Sarun Sumriddetchkajorn"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12246",
+    "title": "Experimental analysis of heat and mass transfer in non-isothermal  sloshing using a model-based inverse method",
+    "abstract": "Nonisothermal liquid sloshing in partially filled reservoirs can significantly enhance heat and mass transfer between liquid and ullage gasses. This can result in large temperature and pressure fluctuations, producing thrust oscillations in spacecraft and challenging thermal management control systems. This work presents an experimental characterization of the thermodynamic evolution of a cylindrical reservoir undergoing sloshing-induced thermal de-stratification. We use a 0D model-based inverse method to retrieve the heat and mass transfer coefficients in planar and swirl sloshing conditions from the temperature and pressure measurements in the liquid and the ullage gas. The experiments were carried out in the SHAKESPEARE shaking table of the von Karman Institute in a cuboid quartz cell with a cylindrical cut-out of 80 mm diameter in the centre, filled up to 60mm with the cryogenic replacement fluid HFE-7200. A thermal stratification with 25 K difference between the ullage gas and liquid was set as the initial conditions. A pressure drop of 90% in the ullage gas was documented in swirling conditions. Despite its simplicity, the model could predict the system's thermodynamic evolution once the proper transfer coefficients were derived. ",
+    "url": "https://arxiv.org/abs/2212.12246",
+    "authors": [
+      "Pedro Marques",
+      "Alessia Simonini",
+      "Laura Peveroni",
+      "Miguel Alfonso Mendez"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12274",
+    "title": "Multi-Frequency Acoustic Steering in Rationally Pruned Disordered  Networks",
+    "abstract": "The frequency of a wave is a crucial parameter to understanding its propagation to a structured medium. While metamaterials can be designed to focus or steer deformations or waves toward a specific location, wave steering toward multiple targeted locations at different frequencies remains challenging. Here we show that pruning of random elastic networks allows realizing such multi-objective, multi-frequency acoustic steering. Our study opens up a viable route to the rational design of multi-frequency acoustic metamaterials. ",
+    "url": "https://arxiv.org/abs/2212.12274",
+    "authors": [
+      "Anastasiia O. Krushynska",
+      "Martin van Hecke"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12359",
+    "title": "A novel harmonic klystron configuration for high power microwave  frequency conversion",
+    "abstract": "A frequency converter operating at significantly higher power and efficiency than previous devices is proposed. It responds to the needs of high power output and efficiency demanded by frequency converter operating at high power levels. The proposed device is a Megawatt class frequency multiplier implemented as a klystron structure. The proposed solution can be suitable for telecommunications and non-lethal weapon, scientific and medical particle accelerators while the most interested exploitations are in the field of high gradient particle acceleration and FEL devices for which no performant sources exist. The advanced klystron multiplier can replace all the low level circuitry for frequency multiplication as a less expensive alternative. Efficiencies in the range of 60% in the K-band range with power levels of 30 MW are possible without phase noise, sideband generation, jitter or chirp effects. ",
+    "url": "https://arxiv.org/abs/2212.12359",
+    "authors": [
+      "Alberto Leggieri",
+      "Mostafa Behtouei",
+      "Graeme Burt",
+      "Franco Di Paolo",
+      "Bruno Spataro"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11993",
+    "title": "Nonlinear optical waveguide lattices: Asymptotic analysis, solitons, and  topological insulators",
+    "abstract": "In recent years, there has been considerable interest in the study of wave propagation in nonlinear photonic lattices. The interplay between nonlinearity and periodicity has led researchers to manipulate light and discover new and interesting phenomena such as new classes of localized modes, usually referred to as solitons, and novel surface states that propagate robustly. A field where both nonlinearity and periodicity arises naturally is nonlinear optics. But there are other areas where waves propagating on background lattices play an important role, including photonic crystal fibers and Bose-Einstein condensation. In this review article the propagation of wave envelopes in one and two-dimensional periodic lattices associated with additional potential in the nonlinear Schrodinger (NLS) equation, termed lattice NLS equations, are studied. A discrete reduction, known as the tight-binding approximation, is employed to find the linear dispersion relation and the equations governing nonlinear discrete envelopes for two-dimensional simple periodic lattices and two-dimensional non-simple honeycomb lattices. In the limit under which the envelopes vary slowly, continuous envelope equations are derived from the discrete system. The coefficients of the linear evolution system are related to the dispersion relation in both the discrete and continuous cases. For simple lattices, the continuous systems are NLS type equations. In honeycomb lattices, in certain cases, the continuous system is found to be nonlinear Dirac equations. Finally, it is possible to realize so-called topological insulator systems in an optical waveguide setting. The modes supported by these systems are associated with spectral topological invariants and, remarkably, can propagate without backscatter from lattice defects. ",
+    "url": "https://arxiv.org/abs/2212.11993",
+    "authors": [
+      "Mark J. Ablowitz",
+      "Justin T. Cole"
+    ],
+    "subjectives": [
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12083",
+    "title": "Quantum Kernel Evaluation via Hong-Ou-Mandel Interference",
+    "abstract": "One of the fastest growing areas of interest in quantum computing is its application to, and unification with machine learning methods. One of the most popular applications in quantum machine learning methods are quantum kernels methods. Evaluating quantum kernels can be experimentally difficult as it requires measuring the overlap of two quantum states. In this article we propose an experimentally realisable application of kernel evaluation using temporally encoded photons and Hong-Ou-Mandel (HOM) interference. We present a complete description of this method and show that it can be combined with kernel mean embedding and maximum mean discrepancy to efficiently classify encoded data. ",
+    "url": "https://arxiv.org/abs/2212.12083",
+    "authors": [
+      "Cassandra Bowie",
+      "Sally Shrapnel",
+      "Michael Kewming"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12085",
+    "title": "Parity-dependent unidirectional and chiral photon transfer in  reversed-dissipation cavity optomechanics",
+    "abstract": "Nonreciprocal elements, such as isolators and circulators, play an important role in classical and quantum information processing. Recently, strong nonreciprocal effects have been experimentally demonstrated in cavity optomechanical systems. In these approaches, the bandwidth of the nonreciprocal photon transmission is limited by the mechanical resonator linewidth, which is arguably much smaller than the linewidths of the cavity modes in most electromechanical or optomechanical devices. In this work, we demonstrate broadband nonreciprocal photon transmission in the \\emph{reversed-dissipation} regime, where the mechanical mode with a large decay rate can be adiabatically eliminated while mediating anti-$\\mathcal{PT}$-symmetric dissipative coupling with two kinds of phase factors. Adjusting the relative phases allows the observation of \\emph{periodic} Riemann-sheet structures with distributed exceptional points (Eps). At the Eps, destructive quantum interference breaks both the $\\mathcal{T}$- and $\\mathcal{P}$-inversion symmetry, resulting in unidirectional and chiral photon transmissions. In the reversed-dissipation regime, the nonreciprocal bandwidth is no longer limited by the mechanical mode linewidth but is improved to the linewidth of the cavity resonance. Furthermore, we find that the direction of the unidirectional and chiral energy transfer could be reversed by changing the \\emph{parity} of the Eps. Extending non-Hermitian couplings to a three-cavity model, the broken anti-$\\mathcal{PT}$-symmetry allows us to observe high-order Eps, at which a parity-dependent chiral circulator is demonstrated. The driving-phase controlled periodical Riemann sheets allow observation of the parity-dependent unidirectional and chiral energy transfer and thus provide a useful cell for building up nonreciprocal array and realizing topological, e.g., isolators, circulators, or amplifiers. ",
+    "url": "https://arxiv.org/abs/2212.12085",
+    "authors": [
+      "Zhen Chen",
+      "Qichun Liu",
+      "Jingwei Zhou",
+      "Peng Zhao",
+      "Haifeng Yu",
+      "Tiefu Li",
+      "Yulong Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12172",
+    "title": "Resonant amplification of a relativistic electron bremsstrahlung on an  atom in the undulator field",
+    "abstract": "It is shown that the influence of the undulator field on the motion of a relativistic electron leads to a significant increase of the bremsstrahlung cross section on an atom near the end of the spectrum of undulator radiation. Observation of this effect is quite a realistic task. ",
+    "url": "https://arxiv.org/abs/2212.12172",
+    "authors": [
+      "P. A. Krachkov",
+      "A. I. Milstein",
+      "N. Yu. Muchnoi"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12175",
+    "title": "Beyond the Born rule in quantum gravity",
+    "abstract": "We have recently developed a new understanding of probability in quantum gravity. In this paper we provide an overview of this new approach and its implications. Adopting the de Broglie-Bohm pilot-wave formulation of quantum physics, we argue that there is no Born rule at the fundamental level of quantum gravity with a non-normalisable Wheeler-DeWitt wave functional $\\Psi$. Instead the universe is in a perpetual state of quantum nonequilibrium with a probability density $P\\neq\\left\\vert \\Psi\\right\\vert ^{2}$. Dynamical relaxation to the Born rule can occur only after the early universe has emerged into a semiclassical or Schr\\\"{o}dinger approximation, with a time-dependent and normalisable wave functional $\\psi$, for non-gravitational systems on a classical spacetime background. In that regime the probability density $\\rho$ can relax towards $\\left\\vert \\psi\\right\\vert ^{2}$ (on a coarse-grained level). Thus the pilot-wave theory of gravitation supports the hypothesis of primordial quantum nonequilibrium, with relaxation to the Born rule taking place soon after the big bang. We also show that quantum-gravitational corrections to the Schr\\\"{o}dinger approximation allow quantum nonequilibrium $\\rho\\neq\\left\\vert \\psi\\right\\vert ^{2}$ to be created from a prior equilibrium ($\\rho=\\left\\vert \\psi\\right\\vert ^{2}$) state. Such effects are very tiny and difficult to observe in practice. ",
+    "url": "https://arxiv.org/abs/2212.12175",
+    "authors": [
+      "Antony Valentini"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "High Energy Physics - Theory (hep-th)",
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12220",
+    "title": "Quantum Computing for Molecular Biology",
+    "abstract": "Molecular biology and biochemistry interpret microscopic processes in the living world in terms of molecular structures and their interactions, which are quantum mechanical by their very nature. Whereas the theoretical foundations of these interactions are very well established, the computational solution of the relevant quantum mechanical equations is very hard. However, much of molecular function in biology can be understood in terms of classical mechanics, where the interactions of electrons and nuclei have been mapped onto effective classical surrogate potentials that model the interaction of atoms or even larger entities. The simple mathematical structure of these potentials offers huge computational advantages; however, this comes at the cost that all quantum correlations and the rigorous many-particle nature of the interactions are omitted. In this work, we discuss how quantum computation may advance the practical usefulness of the quantum foundations of molecular biology by offering computational advantages for simulations of biomolecules. We not only discuss typical quantum mechanical problems of the electronic structure of biomolecules in this context, but also consider the dominating classical problems (such as protein folding and drug design) as well as data-driven approaches of bioinformatics and the degree to which they might become amenable to quantum simulation and quantum computation. ",
+    "url": "https://arxiv.org/abs/2212.12220",
+    "authors": [
+      "Alberto Baiardi",
+      "Matthias Christandl",
+      "Markus Reiher"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Biological Physics (physics.bio-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12250",
+    "title": "Direct visualization of the quantum vortex density law in rotating 4He",
+    "abstract": "The study of quantum vortex dynamics in He II holds great promise to refine quantum-fluid models. Bose-Einstein condensates, neutron stars or even superconductors exhibit quantum vortices, whose interactions are a key element of dissipation in these systems. These quantum objects have their velocity circulation around their core quantized and, in He II, a core as thin as a helium atom. They have been observed experimentally by indirect means, such as second sound attenuation or electron bubble imprints on photo sensitive material, and for the last twenty years, decorating cryogenic flows with particles has proved to be a powerful method to study these vortices. However, in these recent particle visualization observations, experimental stability, initial condition, stationarity and reproducibility are elusive or fragmented and 2d dynamical analysis are performed although most of the considered flows are inherently 3d. Here we show that we are able to visualize these vortices in the canonical and higher symmetry case of a stationary rotating superfluid bucket. Using direct visualization, we quantitatively verify Feynman's rule linking the resulting quantum vortex density to the imposed rotational speed. Our statistically meaningful results demonstrate that decorated quantum vortices behave as Feynman predicted. It follows that hydrogen flakes are good tracers of quantum vortices for stationary cases in He II. The observed vortex lattices are analogous to Abrikosov lattices found in superconductors and Bose-Einstein condensates. Moreover, these lattices aligned with the rotation axis can play the role of a well-defined and controlled initial condition for dynamical cases. We make the most of this stable configuration by observing collective wave mode propagation along quantum vortices and quantum vortex interactions in rotating He II. These results provide a new experimental baseline for models to evolve towards a better description of all quantum-fluids. ",
+    "url": "https://arxiv.org/abs/2212.12250",
+    "authors": [
+      "Mathieu Gibert",
+      "Charles Peretti",
+      "Jeremy Vessaire",
+      "Emeric Durozoy"
+    ],
+    "subjectives": [
+      "Other Condensed Matter (cond-mat.other)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Classical Physics (physics.class-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12304",
+    "title": "On the strangeness of quantum probabilities",
+    "abstract": "Here we continue with the ideas expressed in \"On the strangeness of quantum mechanics\" aiming to demonstrate more concretely how this philosophical outlook might be used as a key for resolving the measurement problem. We will address in detail the problem of determining how the concept of undecidability leads to substantial changes to classical theory of probability by showing how such changes produce a theory that coincides with the principles underlying quantum mechanics. ",
+    "url": "https://arxiv.org/abs/2212.12304",
+    "authors": [
+      "Marcello Poletti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12369",
+    "title": "A compact and versatile cryogenic probe station for quantum device  testing",
+    "abstract": "Fast feedback from cryogenic electrical characterization measurements is key for the development of scalable quantum computing technology. At room temperature, high-throughput device testing is accomplished with a probe-based solution, where electrical probes are repeatedly positioned onto devices for acquiring statistical data. In this work we present a probe station that can be operated from room temperature down to below 2$\\,$K. Its small size makes it compatible with standard cryogenic measurement setups with a magnet. A large variety of electronic devices can be tested. Here, we demonstrate the performance of the prober by characterizing silicon fin field-effect transistors as a host for quantum dot spin qubits. Such a tool can massively accelerate the design-fabrication-measurement cycle and provide important feedback for process optimization towards building scalable quantum circuits. ",
+    "url": "https://arxiv.org/abs/2212.12369",
+    "authors": [
+      "Mathieu de Kruijf",
+      "Simon Geyer",
+      "Toni Berger",
+      "Matthias Mergenthaler",
+      "Floris Braakman",
+      "Richard J. Warburton",
+      "Andreas V. Kuhlmann"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12428",
+    "title": "Multi-scale architecture for fast optical addressing and control of  large scale qubit arrays",
+    "abstract": "We present a technique for rapid site-selective control of the quantum state of particles in a large array using a combination of a fast deflector (e.g. an acousto-optic deflector) and a relatively slow spatial light modulator. The use of spatial light modulators for site-selective quantum state manipulation has been limited due to slow transition times preventing rapid, consecutive quantum gates. By partitioning the spatial light modulator into multiple segments, and using a fast deflector to transition between them, it is possible to substantially reduce the average time increment between scanner transitions by increasing the number of gates that can be performed for a single spatial light modulator full frame setting. We analyze the performance of this device in two different configurations: in configuration 1, each segment of the spatial light modulator addresses the full qubit array; in configuration 2, each segment of the spatial light modulator addresses a sub-array and an additional fast deflector positions that sub-array with respect to the full qubit array. With these hybrid scanners we calculate qubit addressing rates that are tens to hundreds of times faster than using an SLM alone. ",
+    "url": "https://arxiv.org/abs/2212.12428",
+    "authors": [
+      "T. M. Graham",
+      "E. Oh",
+      "M. Saffman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.12495",
+    "title": "Clones of the Unclonable: Nanoduplicating Optical PUFs and Applications",
+    "abstract": "Physical unclonable functions (PUFs), physical objects that are practically unclonable because of their andom and uncontrollable manufacturing variations, are becoming increasingly popular as security primitives and unique identifiers in a fully digitized world. One of the central PUF premises states that both friends and foes, both legitimate manufacturers and external attackers alike, cannot clone a PUF, producing two instances that are the same. Using the latest nanofabrication techniques, we show that this premise is not always met: We demonstrate the possibility of effective PUF duplication through sophisticated manufacturers by producing 63 copies of a non-trivial optical scattering structure which exhibit essentially the same scattering behavior. The remaining minuscule differences are close to or below noise levels, whence the duplicates have to be considered fully equivalent from a PUF perspective. The possibility for manufacturer-based optical PUF duplication has positive and negative consequences at the same time: While fully breaking the security of certain schemes, it enables new applications, too. For example, it facilitates unforgeable labels for valuable items; the first key-free group identification schemes over digital networks; or new types of encryption/decryption devices that do not contain secret keys. ",
+    "url": "https://arxiv.org/abs/2212.12495",
+    "authors": [
+      "E. Marakis",
+      "U. R\u00fchrmair",
+      "M. Lachner",
+      "R. Uppu",
+      "B. \u0160kori\u0107",
+      "P.W.H. Pinkse"
+    ],
+    "subjectives": [
+      "Cryptography and Security (cs.CR)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.01906",
+    "title": "To mask or not to mask? Investigating the impact of accounting for  spatial frequency distributions and susceptibility sources on QSM quality",
+    "abstract": " Comments: 21 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2208.01906",
+    "authors": [
+      "Anders Dyhr Sandgaard",
+      "Noam Shemesh",
+      "Sune N\u00f8rh\u00f8j Jespersen",
+      "Valerij G. Kiselev"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.05569",
+    "title": "Triangular Quantum Photonic Devices with Integrated Detectors in Silicon  Carbide",
+    "abstract": " Comments: 31 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2208.05569",
+    "authors": [
+      "Sridhar Majety",
+      "Stefan Strohauer",
+      "Pranta Saha",
+      "Fabian Wietschorke",
+      "Jonathan J. Finley",
+      "Kai M\u00fcller",
+      "Marina Radulaski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.03726",
+    "title": "Investigating students' strengths and difficulties in quantum computing",
+    "abstract": " Title: Investigating students' strengths and difficulties in quantum computing ",
+    "url": "https://arxiv.org/abs/2212.03726",
+    "authors": [
+      "Tunde Kushimo",
+      "Beth Thacker"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11496",
+    "title": "Transient chirp reconstruction of electron beam via tightly focused  chirped laser pulse",
+    "abstract": " Comments: 13 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2212.11496",
+    "authors": [
+      "Zhijun Zhang",
+      "Shiyi Zhou",
+      "Jiansheng Liu",
+      "Changhai Yu",
+      "Zhiyong Qin",
+      "Jianshuo Wang",
+      "Yuteng Cao",
+      "Liran Hao",
+      "Xuan Ye",
+      "Yan Lv"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  }
+]
