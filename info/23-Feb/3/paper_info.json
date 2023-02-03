@@ -1,0 +1,344 @@
+[
+  {
+    "id": "arXiv:2302.00756",
+    "title": "Quantum Decay of an Optical Soliton",
+    "abstract": "Optical solitons are known to be classically stable objects which are robust to perturbations. In this work, we show that due to quantum mechanical effects, an optical soliton that is initially in a classical soliton coherent state will shed photons into the continuum and hence decay. The standard formulation of the quantized soliton uses the linearized version of the quantum nonlinear Schrodinger equation in the background of the classical soliton, and the quantized soliton remains stable in this approximation. We show that if higher-order interaction terms are taken into account, the soliton is no longer stable, and its photon number decreases quadratically as a function of the number of soliton cycles. We compute the power spectrum for the continuum radiation and find a narrow band that is localized about the initial soliton momentum with a cut-off that is inversely proportional to the initial soliton width. ",
+    "url": "https://arxiv.org/abs/2302.00756",
+    "authors": [
+      "Stuart Ward",
+      "Rouzbeh Allahverdi",
+      "Arash Mafi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.00793",
+    "title": "Inverse-designed low-index-contrast structures on silicon photonics  platform for vector-matrix multiplication",
+    "abstract": "Inverse-designed Silicon photonic metastructures offer an efficient platform to perform analog computations with electromagnetic waves. However, due to computational difficulties, scaling up these metastructures to handle a large number of data channels is not trivial. Furthermore, a typical inverse-design procedure utilizes a small computational domain and therefore tends to employ resonant features to achieve its objectives. This results in structures that are narrow-bandwidth and highly sensitive to fabrication errors. Here, we employ a 2D inverse-design method based on the effective index approximation with a low-index contrast constraint. This results in compact amorphous lens systems which are generally feed-forward and low-resonance. We designed and experimentally demonstrated a vector-matrix product for a 2 x 2 and a 3 x 3 matrix. We also designed a 10 x 10 matrix using the proposed 2D computational method. These examples demonstrate that these techniques have the potential to enable larger-scale wave-based analog computing platforms. ",
+    "url": "https://arxiv.org/abs/2302.00793",
+    "authors": [
+      "Vahid Nikkhah",
+      "Ali Pirmoradi",
+      "Farshid Ashtiani",
+      "Brian Edwards",
+      "Firooz Aflatouni",
+      "Nader Engheta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.00921",
+    "title": "Ring Artifact Correction in Photon-Counting Spectral CT Using a  Convolutional Neural Network With Spectral Loss",
+    "abstract": "Photon-counting spectral computed tomography is now clinically available. These new detectors come with the promise of higher contrast-to-noise ratio and spatial resolution and improved low-dose imaging. However, one important design consideration is to build detector elements that are sufficiently homogeneous. In practice, there will always be a degree of inhomogeneity in the detector elements, which will materialize as variations in the energy bin thresholds. Without proper detector calibration, this will lead to streak artifacts in the sinograms and corresponding ring artifacts in the reconstructed images, which limit their clinical usefulness. Since detector calibration is a time-consuming process, having access to a fast ring correction technique may greatly improve workflow. In this paper, we propose a deep learning-based post-processing technique for ring artifact correction in photon-counting spectral CT. We train a UNet with a custom loss to correct for ring artifacts in the material basis images. Our proposed loss is made ``task-aware'' by explicitly incorporating the fact that we are working with spectral CT by combining a L1-loss operating on the material basis images with a perceptual loss, using VGG16 as feature extractor, operating on 70 keV virtual monoenergetic images. Our results indicate that using this novel loss greatly improves performance. We demonstrate that our proposed method can successfully produce ring corrected 40, 70, and 100 keV virtual monoenergetic images. ",
+    "url": "https://arxiv.org/abs/2302.00921",
+    "authors": [
+      "Dennis Hein",
+      "Konstantinos Liappis",
+      "Fredrik Gr\u00f6nberg",
+      "Alma Eguizabal",
+      "Mats Persson"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01108",
+    "title": "The Infinity-loop microresonator: a new integrated photonic structure  working at an exceptional point",
+    "abstract": "Exceptional points, where eigenvalues and eigenvectors coalesce, impact the behavior of different photonics components which show, e.g., enhanced sensing, coherent perfect absorption, unidirectional lasing, and chirality. However, only a few passive geometries have been developed that work on these points. Here, we introduce a novel non-Hermitian structure based on an infinity-shaped microresonator twice coupled to a bus waveguide: the Infinity-Loop Microresonator. Unlike other structures working at an exceptional point, such as a taiji microresonator, the infinity-loop microresonator can achieve either high-contrast or low-contrast unidirectional reflection with a negligible or identical reflection for counterpropagating light. It allows an easy walking through the Riemann sheet by simply controlling the phase of the light propagating in the bus waveguide which makes it a tunable component to build more complex topological structures. Furthermore, the infinity-loop microresonator allows sensors which show the features of both an exceptional point device and a diabolic point device simultaneously. ",
+    "url": "https://arxiv.org/abs/2302.01108",
+    "authors": [
+      "Riccardo Franchi",
+      "Stefano Biasi",
+      "Diego Piciocchi",
+      "Lorenzo Pavesi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01113",
+    "title": "Dispersion-tuning of nonlinear optical pulse dynamics in gas-filled  hollow capillary fibres",
+    "abstract": "We experimentally investigate the nonlinear dynamics of ultrashort laser pulses propagating in gas-filled hollow capillary fibres in different dispersion regimes, which are achieved by tuning the gas pressure. When the pulse propagates in the anomalous dispersion regime we observe soliton dynamics accompanied with soliton-plasma effects, such as self-compression, resonant dispersive-wave emission in the fundamental as well as in higher-order modes, soliton blue-shifting and ionisation-induced pulse splitting. Propagation of the pulse in the vicinity of the zero-dispersion wavelength results in pulse splitting and subsequent cross-phase modulation leading to the generation of an additional frequency-shifted band and a 3-octave broad supercontinuum. In the case of pulses propagating in normal dispersion we observe the generation of a broad and flat supercontinuum. In this regime, the experimental results are less well described by simulations that consider only the propagation dynamics inside the fibre. Free-space simulations of the beam propagation in the bulk gas, before the capillary entrance, suggest that this discrepancy is caused by self-focusing and ionisation altering the pulse spatial and temporal shape, affecting both the coupling efficiency and the subsequent propagation inside the capillary. ",
+    "url": "https://arxiv.org/abs/2302.01113",
+    "authors": [
+      "Teodora Grigorova",
+      "Christian Brahms",
+      "Federico Belli",
+      "John C. Travers"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01266",
+    "title": "A room-temperature moir\u00e9 interlayer exciton laser",
+    "abstract": "Moir\\'e superlattices in van der Waals heterostructures offer highly tunable quantum systems with emergent electronic and excitonic properties such as superconductivity, topological edge states, and moir\\'e-trapped excitons. Theoretical calculations predicted the existence of the moir\\'e potential at elevated temperatures; however, its impact on the optical properties of interlayer excitons (IXs) at room temperature is lacking, and the benefits of the moir\\'e effects for lasing applications remain unexplored. We report that the moir\\'e potential in a molybdenum disulfide/tungsten diselenide (MoS2/WSe2) heterobilayer system can significantly enhance light emission, elongate the IX lifetime, and modulate the IX emission energy at room temperature. By integrating a moir\\'e superlattice with a silicon topological nanocavity, we achieve ultra-low-threshold lasing at the technologically important telecommunication O-band thanks to the significant moir\\'e modulation. Moreover, the high-quality topological nanocavities facilitate the highest spectral coherence of < 0.1 nm linewidth among all reported two-dimensional material-based laser systems. Our findings not only open a new avenue for studying correlated states at elevated temperatures, but also enable novel architectures for integrated on-chip photonics and optoelectronics. ",
+    "url": "https://arxiv.org/abs/2302.01266",
+    "authors": [
+      "Qiaoling Lin",
+      "Hanlin Fang",
+      "Yuanda Liu",
+      "Yi Zhang",
+      "Moritz Fischer",
+      "Juntao Li",
+      "Joakim Hagel",
+      "Samuel Brem",
+      "Ermin Malic",
+      "Nicolas Stenger",
+      "Zhipei Sun",
+      "Martijn Wubs",
+      "Sanshui Xiao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01309",
+    "title": "High-Resolution Short-Circuit Fault Localization in a Multi-Layer  Integrated Circuit using a Quantum Diamond Microscope",
+    "abstract": "As integrated circuit (IC) geometry and packaging become more sophisticated with ongoing fabrication and design innovations, the electrical engineering community needs increasingly-powerful failure analysis (FA) methods to meet the growing troubleshooting challenges of multi-layer (with multiple metal layers) and multi-chip components. In this work, we investigate a new electronics FA method using a quantum diamond microscope (QDM) to image the magnetic fields from short-circuit faults. After quantifying the performance by detecting short-circuit faults in a multi-layer silicon die, we assess how a QDM would detect faults in a heterogeneously integrated (HI) die stack. This work establishes QDM-based magnetic imaging as a competitive technique for electronics FA, offering high spatial resolution, high sensitivity, and robust instrumentation. We anticipate these advantages to be especially useful for finding faults deep within chip-stack ICs with many metal layers, optically-opaque layers, or optically-scattering layers. ",
+    "url": "https://arxiv.org/abs/2302.01309",
+    "authors": [
+      "P. Kehayias",
+      "J. Walraven",
+      "A. L. Rodarte",
+      "A. M. Mounce"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01321",
+    "title": "Signatures for strong-field QED physics in the quantum limit of  beamstrahlung",
+    "abstract": "Collisions between round ultrarelativistic leptonic beams are proposed to probe strong-field quantum electrodynamics (SF-QED) in the quantum limit of beamstrahlung. The collective radiation spectrum from a leptonic collision is derived. A characteristic spectral peak close to the beam energy is identified, as a signature predicted by SF-QED theory. The dependences of the spectral peak and beamstrahlung on the collision parameters are determined, paving the way to experimentally verify SF-QED. Ultrashort, ultrabright, and high-luminosity colliding gamma-ray beams are generated. The theoretical results are confirmed by self-consistent 3-dimensional QED particle-in-cell simulations. ",
+    "url": "https://arxiv.org/abs/2302.01321",
+    "authors": [
+      "W. L. Zhang",
+      "T. Grismayer",
+      "L. O. Silva"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Theory (hep-th)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01323",
+    "title": "The impact of frame quantization on the dynamic range of a one-bit image  sensor",
+    "abstract": "For a one-bit image sensor, the number of frames captured determines the quantization step size of the binary rate measurement. The discrete values of the binary rate set a maximum measurable intensity. In this note, we consider how this frame quantization impacts the high-end of the dynamic range of a one-bit image sensor. ",
+    "url": "https://arxiv.org/abs/2302.01323",
+    "authors": [
+      "Lucas J. Koerner"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.11140",
+    "title": "Space quantum vacuum radiation in a laser-particle collision",
+    "abstract": "The probability of photon emission of a charged particle traversing a strong field becomes modified if vacuum polarization is considered. This feature is important for fundamental quantum electrodynamics processes present in extreme astrophysical environments, such as magnetars and black holes, and can be studied in a collision of a charged particle with a strong laser field. We show that for today's available 700~GeV (6.5~TeV) protons and the field provided by the next generation of lasers, the emission spectra peak is enhanced due to vacuum polarization effect by 30\\% (suppressed by 65\\%) in comparison to the traditionally considered Compton process in which vacuum polarization is neglected. This striking phenomenon offers a novel path to the laboratory-based manifestation of vacuum polarization. ",
+    "url": "https://arxiv.org/abs/2301.11140",
+    "authors": [
+      "M. Jirka",
+      "P. Sasorov S. V. Bulanov"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "High Energy Physics - Theory (hep-th)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.00829",
+    "title": "Stochastic discrete dynamical model for the hydrodynamic analog of a  quantum mirage",
+    "abstract": "Recently discrete dynamical models of walking droplet dynamics have allowed for fast numerical simulations of their horizontal chaotic motion and consequently the long-time statistical distribution of the droplet position. We develop a discrete model for walkers on an elliptical corral with two dominant eigenmodes. These eigenmodes are excited periodically with each having random, but correlated, weights. At each iteration the model computes the horizontal propulsion of the droplet due to impacts with the fluid bath. The propulsion is calculated based on the interaction of the droplet with the wavefield produced by the eigenmode excitations. We record the long-time statistics, and incredibly for such a simple model, they are qualitatively similar to that of experiments. ",
+    "url": "https://arxiv.org/abs/2302.00829",
+    "authors": [
+      "Gonzalo Ferrandez Quinto",
+      "Aminur Rahman"
+    ],
+    "subjectives": [
+      "Dynamical Systems (math.DS)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Classical Physics (physics.class-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.00940",
+    "title": "Unconditional and robust quantum metrological advantage beyond NOON  states",
+    "abstract": "Quantum metrology employs quantum resources to enhance the measurement sensitivity beyond that can be achieved classically. While multi-photon entangled NOON states can in principle beat the shot-noise limit and reach the Heisenberg limit, high NOON states are difficult to prepare and fragile to photon loss which hinders it from reaching unconditional quantum metrological advantages. Here, we combine the idea of unconventional nonlinear interferometers and stimulated emission of squeezed light, previously developed for photonic quantum computer Jiuzhang, to propose and realize a new scheme that achieves a scalable, unconditional, and robust quantum metrological advantage. We observe a 5.8(1)-fold enhancement above the shot-noise limit in the Fisher information extracted per photon, without discounting for photon loss and imperfections, which outperforms ideal 5-NOON states. The Heisenberg-limited scaling, the robustness to external photon loss, and the ease-to-use of our method make it applicable in practical quantum metrology at low photon flux regime. ",
+    "url": "https://arxiv.org/abs/2302.00940",
+    "authors": [
+      "Jian Qin",
+      "Yu-Hao Deng",
+      "Han-Sen Zhong",
+      "Li-Chao Peng",
+      "Hao Su",
+      "Yi-Han Luo",
+      "Jia-Min Xu",
+      "Dian Wu",
+      "Si-Qiu Gong",
+      "Hua-Liang Liu",
+      "Hui Wang",
+      "Ming-Cheng Chen",
+      "Li Li",
+      "Nai-Le Liu",
+      "Chao-Yang Lu",
+      "Jian-Wei Pan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01232",
+    "title": "The Design Strain Sensitivity of the Schenberg Spherical Resonant  Antenna for Gravitational Waves",
+    "abstract": "The main purpose of this study is to review the Schenberg resonant antenna transfer function and to recalculate the antenna design strain sensitivity for gravitational waves. We consider the spherical antenna with six transducers in the semi dodecahedral configuration. When coupled to the antenna, the transducer-sphere system will work as a mass-spring system with three masses. The first one is the antenna effective mass for each quadrupole mode, the second one is the mass of the mechanical structure of the transducer first mechanical mode and the third one is the effective mass of the transducer membrane that makes one of the transducer microwave cavity walls. All the calculations are done for the degenerate (all the sphere quadrupole mode frequencies equal) and non-degenerate sphere cases. We have come to the conclusion that the 'ultimate' sensitivity of an advanced version of Schenberg antenna (aSchenberg) is around the standard quantum limit (although the parametric transducers used could, in principle, surpass this limit). However, this sensitivity, in the frequency range where Schenberg operates, has already been achieved by the two aLIGOs in the O3 run, therefore, the only reasonable justification for remounting the Schenberg antenna and trying to place it in the sensitivity of the standard quantum limit would be to detect gravitational waves with another physical principle, different from the one used by laser interferometers. This other physical principle would be the absorption of the gravitational wave energy by a resonant mass like Schenberg. ",
+    "url": "https://arxiv.org/abs/2302.01232",
+    "authors": [
+      "V. Liccardo",
+      "C. H. Lenzi",
+      "R. M. Marinho Jr.",
+      "O. D. Aguiar",
+      "C. Frajuca",
+      "F. S. Bortoli",
+      "C. A. Costa"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01286",
+    "title": "Comparison of two photonic sampling mixer architectures based on SOA-MZI  for all-optical frequency up-conversion",
+    "abstract": "An experimental comparison of the conversion gain and harmonic distortion performance between Switching and Modulation architectures of an all-optical photonic sampler mixer up-converter using a Semiconductor Optical Amplifier-based Mach-Zehnder Interferometer (SOA-MZI) is presented. The process of frequency up-conversion from 1 GHz to 9 GHz is evaluated. Because of their different principle of operation, the Switching architecture demonstrates higher positive conversion gain by approximately 6 dB and 8 dB for standard and differential configuration, respectively, while the Modulation architecture achieves lower harmonic distortion up to 8 dB, depending on the modulation index of the 1 GHz signal. ",
+    "url": "https://arxiv.org/abs/2302.01286",
+    "authors": [
+      "Dimitrios Kastritsis",
+      "Thierry Rampone",
+      "Kyriakos Zoiros",
+      "Ammar Sharaiha"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01290",
+    "title": "Modulation and Switching Architecture Performances for Frequency  Up-conversion of Complex-Modulated Data Signals based on a SOA-MZI Photonic  Sampling Mixer",
+    "abstract": "A theoretical and experimental performance analysis of a Semiconductor Optical Amplifier - Mach-Zehnder Interferometer (SOA-MZI) photonic sampling mixer used as a frequency up-converter is presented employing Switching and Modulation architectures. An active mode-locked laser, generating 2 ps-width pulses at a repetition rate equal to 10 GHz, is used as a sampling source. An optical carrier intensity modulated by a sinusoidal signal at 1 GHz is up-converted to 9 GHz and 39 GHz. High Conversion Gains (CGs) of about 15 dB are demonstrated for the frequency conversion to 9 GHz using both architectures, whereas up to 4 dB and 9 dB for the conversion to 39 GHz employing Switching and Modulation architectures, respectively. Small-signal equations for the up-converted signal in both architectures are formulated and developed, which permit to quantify the CG from closed-form expressions. The numerically calculated CG values are in very good agreement with those obtained experimentally. The validated equations are subsequently employed to explain the performance differences between the two architectures in terms of the CG. Furthermore, signals modulated by QPSK and 16-QAM complex modulation formats at different baud rates are up-converted from 750 MHz to 9.25 GHz and 39.75 GHz and their Error Vector Magnitude is evaluated and compared. The maximum bit rate that meets the Forward Error Correction (FEC) limit is achieved using the Modulation architecture. It is 1 Gbps and 512 Mbps for QPSK and 16-QAM modulations, respectively. ",
+    "url": "https://arxiv.org/abs/2302.01290",
+    "authors": [
+      "Dimitrios Kastritsis",
+      "Thierry Rampone",
+      "Kyriakos E. Zoiros",
+      "Ammar Sharaiha"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2201.10584",
+    "title": "Topological supermodes in photonic crystal fiber",
+    "abstract": " Comments: 18 pages, including 12 figures. See this https URL for Supplementary Videos ",
+    "url": "https://arxiv.org/abs/2201.10584",
+    "authors": [
+      "Nathan Roberts",
+      "Guido Baardink",
+      "Josh Nunn",
+      "Peter J. Mosley",
+      "Anton Souslov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.03980",
+    "title": "Vortex solitons in quasi-phase-matched photonic crystals",
+    "abstract": " Comments: 6 pages, 6 figures, 55 references ",
+    "url": "https://arxiv.org/abs/2211.03980",
+    "authors": [
+      "Feiyan Zhao",
+      "Xiaoxi Xu",
+      "Hexiang He",
+      "Li Zhang",
+      "Yangui Zhou",
+      "Zhaopin Chen",
+      "Boris A. Malomed",
+      "Yongyao Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.00563",
+    "title": "A high-resolution pixel silicon Vertex Detector for open charm  measurements with the \\NASixtyOne spectrometer at the CERN SPS",
+    "abstract": " Comments: 13 pages, 21 figures ",
+    "url": "https://arxiv.org/abs/2302.00563",
+    "authors": [
+      "A. Aduszkiewicz",
+      "M. Bajda",
+      "M. Baszczyk",
+      "W. Bryli\u0144ski",
+      "J. Brzychczyk",
+      "M. Deveaux",
+      "P. Dorosz",
+      "S. Di Luise",
+      "G. Feofilov",
+      "M. Gazdzicki",
+      "S. Igolkin",
+      "M. Jab\u0142o\u0144ski",
+      "V. Kovalenko",
+      "M. Koziel",
+      "W. Kucewicz",
+      "D. Larsen",
+      "T. Lazareva",
+      "K. \u0141ojek",
+      "Z. Majka",
+      "P. Martinengo",
+      "A. Merzlaya",
+      "L. Mik",
+      "R. P\u0142aneta",
+      "P. Staszel",
+      "M. Suljic",
+      "D. Tefelski",
+      "V. Vechernin"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  }
+]
