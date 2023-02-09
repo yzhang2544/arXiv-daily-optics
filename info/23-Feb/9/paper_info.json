@@ -1,0 +1,280 @@
+[
+  {
+    "id": "arXiv:2302.03727",
+    "title": "A Cryogenic Readout IC with 100 KSPS in-Pixel ADC for Skipper  CCD-in-CMOS Sensors",
+    "abstract": "The Skipper CCD-in-CMOS Parallel Read-Out Circuit (SPROCKET) is a mixed-signal front-end design for the readout of Skipper CCD-in-CMOS image sensors. SPROCKET is fabricated in a 65 nm CMOS process and each pixel occupies a 50$\\mu$m $\\times$ 50$\\mu$m footprint. SPROCKET is intended to be heterogeneously integrated with a Skipper-in-CMOS sensor array, such that one readout pixel is connected to a multiplexed array of nine Skipper-in-CMOS pixels to enable massively parallel readout. The front-end includes a variable gain preamplifier, a correlated double sampling circuit, and a 10-bit serial successive approximation register (SAR) ADC. The circuit achieves a sample rate of 100 ksps with 0.48 $\\mathrm{e^-_{rms}}$ equivalent noise at the input to the ADC. SPROCKET achieves a maximum dynamic range of 9,000 $e^-$ at the lowest gain setting (or 900 $e^-$ at the lowest noise setting). The circuit operates at 100 Kelvin with a power consumption of 40 $\\mu W$ per pixel. A SPROCKET test chip was submitted in September 2022, and test results will be presented at the conference. ",
+    "url": "https://arxiv.org/abs/2302.03727",
+    "authors": [
+      "Adam Quinn",
+      "Manuel B. Valentin",
+      "Thomas Zimmerman",
+      "Davide Braga",
+      "Seda Memik",
+      "Farah Fahim"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03823",
+    "title": "A Disposable Soft Magnetic Ribbon Based Sensor for Corrosion Monitoring",
+    "abstract": "We present a new approach for real-time monitoring of chemical corrosion based on the radio-frequency (RF) impedance technology and soft ferromagnetic ribbons. The impedance (Z) of a commercial magnetic ribbon was measured in real time for 5 mul of drop-casted HNO3 of various concentrations. Variations in the concentration of the drop-casted acid were assessed by considering the difference in Z with and without the acid treatment. We found a large and linear increase in deltaZ and a large linear decrease in measurement time with the acid concentration, which are ideal for developing disposable chemical sensors for strength estimation of corrosive chemicals and for monitoring of a time-dependent chemical corrosion process. Since the ribbon used is commercially available at low cost and the measurement system is quick and low power consuming, the proposed sensor can be used as an easy, quick, and low-cost chemical probe in industries and environmental hazard management purposes. ",
+    "url": "https://arxiv.org/abs/2302.03823",
+    "authors": [
+      "Izabella Berman",
+      "Jagannath Devkota",
+      "Kee Young Hwang",
+      "Manh-Huong Phan"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03824",
+    "title": "VIBFREQ1295: A New Database for Vibrational Frequency Calculations",
+    "abstract": "High-throughput approaches for producing approximate vibrational spectral data for molecules of astrochemistry interest rely on scaled harmonic frequency calculations. However, level of theory and basis set pair recommendations for these calculations are not yet available and thus benchmarking against comprehensive benchmark databases is needed. Here, we present a new database for vibrational frequency calculations (VIBFREQ1295) storing 1,295 experimental fundamental frequencies and CCSD(T)(F12*)/cc-pVDZ-F12 ab initio harmonic frequencies from 141 molecules. VIBFREQ1295's experimental data was complied through a comprehensive review of contemporary experimental data while the ab initio data was computed here. The chemical space spanned by the molecules chosen is considered in depth and shown to have good representation of common organic functional groups and vibrational modes. Scaling factors are routinely used to approximate the effect of anharmonicity and convert computed harmonic frequencies to predicted fundamental frequencies. With our experimental and high-level ab initio data, we find that a global scaling factor of 0.9617 results in median errors of 15.9 cm-1. Far superior performance with a median error of 7.5 cm-1 can be obtained, however, by using separate scaling factors for three regions: frequencies less than 1000 cm-1 (0.987), between 1000 and 2000 cm-1 (0.9727) and above 2000 cm-1 (0.9564). This sets a lower bound for the performance of level of theory and basis set pairs in scaled harmonic frequency calculations. VIBFREQ1295's most important purpose is to provide a robust benchmarking database for vibrational frequency calculations. The database can be found as part of the supplemental material for this paper, or in the Harvard DataVerse at https://doi.org/10.7910/DVN/VLVNU7. ",
+    "url": "https://arxiv.org/abs/2302.03824",
+    "authors": [
+      "Juan C. Zapata Trujillo",
+      "Laura K. McKemmish"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03890",
+    "title": "Stimulated Brillouin scattering by surface acoustic waves in lithium  niobate waveguides",
+    "abstract": "We numerically demonstrate that Lithium Niobate on Insulator (LNOI) waveguides may support confined short-wavelength surface acoustic waves that interact strongly with optical fields through backward stimulated Brillouin scattering in both $Z$ and $X$-cut orientation. We conduct fully anisotropic simulations that consider not only moving boundary and photoelastic forces, but also roto-optic forces for the Brillouin interaction. Our results indicate that photoelasticity dominates the Brillouin gain and can reach as high as $G_{B}/Q_{m}$ = 0.43 W$^{-1}$m$^{-1}$ in standard ridge waveguides ",
+    "url": "https://arxiv.org/abs/2302.03890",
+    "authors": [
+      "Caique C. Rodrigues",
+      "Roberto O. Zurita",
+      "Thiago P. M. Alegre",
+      "Gustavo S. Wiederhecker"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03898",
+    "title": "Inverse asymptotic treatment: capturing discontinuities in fluid flows  via equation modification",
+    "abstract": "A major challenge in developing accurate and robust numerical solutions to multi-physics problems is to deal with evolving discontinuities in field quantities. The problem-specific nature of such discontinuities has led to a plethora of bespoke discretization schemes and platform-dependent implementations using targeted numerical treatments near discontinuities. Developing such schemes and implementations takes decades of research, tens of millions of dollars, and significant level of effort (LoE) by computational and domain experts in their respective communities. We introduce the paradigm of \"inverse asymptotic treatment\" (IAT) of discontinuities in fluid flows through modification of the governing partial differential equations (PDEs). These modifications, applied at a semantic and platform-independent level, enable using standard numerical schemes to discretize and integrate the modified PDEs, making them more directly computable and yielding orders of magnitude reduction in cost and LoE via automation. We outline IAT for phase-field modeling of two-phase incompressible flows, but to showcase its generality, we deploy it for single-phase compressible flows, involving shock and contact discontinuities, as localized artificial diffusivity (LAD) methods. Using canonical problems, we show that traditional LAD allows standard non-dissipative schemes but requires free-parameter tuning. Nevertheless, its application to a laminar hypersonic compression corner shows IAT's ability to, within just a few months, rapidly prototype solvers whose performance and predictive capacity comes close to state-of-the-art bespoke schemes developed and optimized over years or even decades. Finally, we propose a novel LAD approach via \"reverse-engineered\", TVD-inspired PDE modifications that, when combined with second-order central differencing, is robust, accurate, and free of problem-dependent tuning. ",
+    "url": "https://arxiv.org/abs/2302.03898",
+    "authors": [
+      "Shahab Mirjalili",
+      "S\u00f8ren Taverniers",
+      "Henry Collis",
+      "Morad Behandish",
+      "Ali Mani"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03910",
+    "title": "Regulated Polarization Degree of Upconversion Luminescence and Multiple  Anti-Counterfeit Applications",
+    "abstract": "Polarized upconversion luminescence (PUCL) of lanthanide (Ln3+) ions has been widely used in single particle tracking, microfluidics detection, three-dimensional displays, and so on. However, no effective strategy has been developed for modulating PUCL. Here, we report a strategy to regulate PUCL in Ho3+-doped NaYF4 single nanorods based on the number of upconversion photons. By constructing a multiphoton upconversion system for Ho3+, we regulate the degree of polarization (DOP) of PUCL from 0.6 for two-photon luminescence to 0.929 for three-photon upconversion luminescence (UCL). Furthermore, our strategy is verified by cross-relaxation between Ho3+ and Yb3+, excitation wavelength, excitation power density, and local site symmetry. And this regulation strategy of PUCL has also been achieved in Tm3+, where DOP is ranged from 0.233 for two-photon luminescence to 0.925 for four-photon UCL. Besides, multi-dimensional anti-counterfeiting display has been explored with PUCL. This work provides an effective strategy for the regulation of PUCL and also provides more opportunities for the development of polarization display, optical encoding, anti-counterfeiting, and integrated optical devices. ",
+    "url": "https://arxiv.org/abs/2302.03910",
+    "authors": [
+      "Dongping Wen",
+      "Yi Liang",
+      "Xiaoming Mo",
+      "Caofeng Pan",
+      "Ping Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03938",
+    "title": "Observation of a Pinched-Loop in a Current-Excited Inductive Circuit",
+    "abstract": "In this work, we show that a pinched-loop can be observed in the voltage-current plane when a series R-L circuit is current excited. Specifically, the resistance (R) in this circuit is variable and is voltage-controlled by the voltage developed across the inductor due to the exciting current. In this context, we confirm our previous results that the pinched-loop is not a characteristic of memrsitors or memrsitive systems and that it can be observed in many other nonlinear systems. Numerical simulations, circuit simulations and experimental results validate the theory. ",
+    "url": "https://arxiv.org/abs/2302.03938",
+    "authors": [
+      "Ahmed S. Elwakil",
+      "Costas Psychalinos",
+      "Brent J. Maundy",
+      "Anis Allagui"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03940",
+    "title": "Motional ground-state cooling of single atoms in state-dependent optical  tweezers",
+    "abstract": "Laser cooling of single atoms in optical tweezers is a prerequisite for neutral atom quantum computing and simulation. Resolved sideband cooling comprises a well-established method for efficient motional ground-state preparation, but typically requires careful cancellation of light shifts in so-called magic traps. Here, we study a novel laser cooling scheme which overcomes such constraints, and applies when the ground-state of a narrow cooling transition is trapped stronger than the excited state. We demonstrate our scheme, which exploits sequential addressing of red sideband transitions via frequency chirping of the cooling light, at the example of $^{88}$Sr atoms, and report ground-state populations compatible with recent experiments in magic tweezers. The scheme also induces light-assisted collisions, which are key to the assembly of large atom arrays. Our work enriches the toolbox for tweezer-based quantum technology, also enabling applications for tweezer-trapped molecules and ions that are incompatible with resolved sideband cooling conditions. ",
+    "url": "https://arxiv.org/abs/2302.03940",
+    "authors": [
+      "Christian H\u00f6lzl",
+      "Aaron G\u00f6tzelmann",
+      "Moritz Wirth",
+      "Marianna S. Safronova",
+      "Sebastian Weber",
+      "Florian Meinert"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03972",
+    "title": "A FPGA-based architecture for real-time cluster finding in the LHCb  silicon pixel detector",
+    "abstract": "This article describes a custom VHDL firmware implementation of a two-dimensional cluster-finder architecture for reconstructing hit positions in the new vertex pixel detector (VELO) that is part of the LHCb Upgrade. This firmware has been deployed to the existing FPGA cards that perform the readout of the VELO, as a further enhancement of the DAQ system, and will run in real time during physics data taking, reconstructing VELO hits coordinates on-the-fly at the LHC collision rate. This pre-processing allows the first level of the software trigger to accept a 11% higher rate of events, as the ready-made hits coordinates accelerate the track reconstruction and consumes significantly less electrical power. It additionally allows the raw pixel data to be dropped at the readout level, thus saving approximately 14% of the DAQ bandwidth. Detailed simulation studies have shown that the use of this real-time cluster finding does not introduce any appreciable degradation in the tracking performance in comparison to a full-fledged software implementation. This work is part of a wider effort aimed at boosting the real-time processing capability of HEP experiments by delegating intensive tasks to dedicated computing accelerators deployed at the earliest stages of the data acquisition chain. ",
+    "url": "https://arxiv.org/abs/2302.03972",
+    "authors": [
+      "G. Bassi",
+      "L. Giambastiani",
+      "K. Hennessy",
+      "F. Lazzari",
+      "M. J. Morello",
+      "T. Pajero",
+      "A. Fernandez Prieto",
+      "G. Punzi"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Hardware Architecture (cs.AR)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04085",
+    "title": "Ultrafast optical control of polariton energy in an organic  semiconductor microcavity",
+    "abstract": "The manipulation of exciton-polaritons and their condensates is of great interest due to their applications in polariton simulators and high-speed, all-optical logic devices. Until now, methods of trapping and manipulating such condensates are not dynamically reconfigurable or result in an undesirable reduction in the exciton-photon coupling strength. Here, we present a new strategy for the ultrafast control of polariton resonances via transient modification of an optical cavity mode. We have constructed multilayer organic semiconductor microcavities that contain two absorbers: one strongly- and one weakly-coupled to the cavity photon mode. By selectively exciting the weakly-coupled absorber with ultrashort laser pulses, we modulate the cavity refractive index and generate fully-reversible blueshifts of the lower polariton branch by up to 8 meV in sub-ps timescales with no corresponding reduction in the exciton-photon coupling strength. Our work demonstrates the ability to manipulate polariton energy landscapes over ultrafast timescales with important applications in emerging computing technologies. ",
+    "url": "https://arxiv.org/abs/2302.04085",
+    "authors": [
+      "Kirsty E. McGhee",
+      "Michele Guizzardi",
+      "Rahul Jayaprakash",
+      "Kyriacos Georgiou",
+      "Till Jessewitsch",
+      "Ullrich Scherf",
+      "Giulio Cerullo",
+      "Anton Zasedatelev",
+      "Tersilla Virgili",
+      "Pavlos G. Lagoudakis",
+      "David G. Lidzey"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04240",
+    "title": "Reduction of Autocorrelation Times in Lattice Path Integral Quantum  Monte Carlo via Direct Sampling of the Truncated Exponential Distribution",
+    "abstract": "In Monte Carlo simulations, proposed configurations are accepted or rejected according to an acceptance ratio, which depends on an underlying probability distribution and an a priori sampling probability. By carefully selecting the probability distribution from which random variates are sampled, simulations can be made more efficient, by virtue of an autocorrelation time reduction. In this paper, we illustrate how to directly sample random variates from a two dimensional truncated exponential distribution. We show that our direct sampling approach converges faster to the target distribution compared to rejection sampling. The direct sampling of one and two dimensional truncated exponential distributions is then applied to a recent Path Integral Monte Carlo (PIMC) algorithm for the simulation of Bose-Hubbard lattice models at zero temperature. The new sampling method results in improved acceptance ratios and reduced autocorrelation times of estimators, providing an effective speed up of the simulation. ",
+    "url": "https://arxiv.org/abs/2302.04240",
+    "authors": [
+      "Emanuel Casiano-Diaz",
+      "Kipton Barros",
+      "Ying Wai Li",
+      "Adrian Del Maestro"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04000",
+    "title": "Quantum Electronics for Fundamental Physics",
+    "abstract": "The emerging field of quantum sensors and electronics for fundamental physics is introduced, emphasising the role of thin-film superconducting devices. Although the next generation of ground-based and space-based experiments requires the development of advanced technology across the whole of the electromagnetic spectrum, this article focuses on ultra-low-noise techniques for radio to far-infrared wavelengths, where existing devices fall short of theoretical limits. Passive circuits, detectors and amplifiers are described from classical and quantum perspectives, and the sensitivities of detector-based and amplifier-based instruments discussed. Advances will be achieved through refinements in existing technology, but innovation is essential. The needed developments go beyond engineering and relate to theoretical studies that bring together concepts from quantum information theory, quantum field theory, classical circuit theory, and device physics. This article has been written to introduce graduate-level scientists to quantum sensor physics, rather than as a formal review. ",
+    "url": "https://arxiv.org/abs/2302.04000",
+    "authors": [
+      "Stafford Withington"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04059",
+    "title": "Entanglement in Resonance Fluorescence",
+    "abstract": "Particle entanglement is a fundamental resource upon which are based many quantum technologies. However, the up-to-now best sources of entangled photons rely on parametric down-conversion processes, which are optimal only at certain frequencies, which rarely match the energies of condensed-matter systems that can benefit from entanglement. In this Letter, we show a way to circumvent this issue, and we introduce a new source of entangled photons based on resonance fluorescence delivering photon pairs as a superposition of vacuum and the Bell state $\\left| \\Phi^-\\right\\rangle$. Our proposal relies on the emission of the satellite peaks of a two-level system driven by a strong off-resonant laser, whose intensity controls the frequencies of the entangled photons. Furthermore, entanglement can be optimized for every pair of frequencies, thus demonstrating a clear advantage over existing technologies. Finally, we illustrate the power of resonance fluorescence as a source of entangled photons by exciting a system of polaritons and showing that our source leaves them in a maximally entangled steady state. ",
+    "url": "https://arxiv.org/abs/2302.04059",
+    "authors": [
+      "Juan Camilo L\u00f3pez Carre\u00f1o",
+      "Santiago Berm\u00fadez Feijoo",
+      "Magdalena Stobi\u0144ska"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04090",
+    "title": "Laser-assisted Fano resonance: attosecond quantum control and dynamical  imaging",
+    "abstract": "A Fano resonance arises from the pathway interference between discrete and continuum states, playing a fundamental role in many branches of physics, chemistry and material science. Here, we introduce the concept of a laser-assisted Fano resonance, created from two interferometric pathways that are coupled together by an additional laser field, which introduces a controllable phase delay between them and results in a generalized Fano lineshape that can be actively controlled on the {\\it attosecond} time scale. Based on our experimental results of unprecedented resolution, we dynamically image a resonant electron wave packet during its evolution directly in the time domain, extracting both the amplitude and the phase, which allows for the measurement of the {\\it resonant} photoionization time delay. Ab-initio calculations and simulations employing a physically transparent two-level model agree with our experimental results, laying the groundwork for extending our concepts into attosecond quantum control of complex systems. ",
+    "url": "https://arxiv.org/abs/2302.04090",
+    "authors": [
+      "Meng Han",
+      "Hao Liang",
+      "Jia-bao Ji",
+      "Leung Chung Sum",
+      "Kiyoshi Ueda",
+      "Jan Michael Rost",
+      "Hans Jakob W\u00f6rner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:1201.4234",
+    "title": "An Introduction to Quantum Mechanics ... for those who dwell in the  macroscopic world",
+    "abstract": " Comments: 33 pages, 5 figures Lecture notes of an introductory course on quantum mechanics for engineering PhD students, held at the PhD School of Mechanics and Advanced Engineering Sciences, Alma Mater Studiorum Universit\\`a di Bologna, Bologna, Italy (February 2023) ",
+    "url": "https://arxiv.org/abs/1201.4234",
+    "authors": [
+      "Antonio Barletta"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.07177",
+    "title": "Quantum simulation of weak-field light-matter interactions",
+    "abstract": " Title: Quantum simulation of weak-field light-matter interactions ",
+    "url": "https://arxiv.org/abs/2112.07177",
+    "authors": [
+      "Steve M. Young",
+      "Hartmut H\u00e4ffner",
+      "Mohan Sarovar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.02639",
+    "title": "Personal Identity and Uncertainty in the Everett Interpretation of  Quantum Mechanics",
+    "abstract": " Title: Personal Identity and Uncertainty in the Everett Interpretation of  Quantum Mechanics ",
+    "url": "https://arxiv.org/abs/2209.02639",
+    "authors": [
+      "Zhonghao Lu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  }
+]
