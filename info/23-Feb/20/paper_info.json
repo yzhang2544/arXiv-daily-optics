@@ -1,0 +1,288 @@
+[
+  {
+    "id": "arXiv:2302.08721",
+    "title": "Interpolated inverse discrete wavelet transforms in additive and  non-additive spectral background correction",
+    "abstract": "We demonstrate the applicability of using interpolated inverse discrete wavelet transforms as a general tool for modeling additive or multiplicative background or error signals in spectra. Additionally, we propose an unsupervised way of estimating the optimal wavelet basis along with the model parameters. We apply the method to experimental Raman spectra of phthalocyanine blue, aniline black, naphthol red, pigment yellow 150, and pigment red 264 pigments to remove their additive background and to CARS spectra of adenosine phosphate, fructose, glucose, and sucrose to remove their multiplicative background signals. ",
+    "url": "https://arxiv.org/abs/2302.08721",
+    "authors": [
+      "Teemu H\u00e4rk\u00f6nen",
+      "Erik Vartiainen"
+    ],
+    "subjectives": [
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08747",
+    "title": "Seismic Arrival-time Picking on Distributed Acoustic Sensing Data using  Semi-supervised Learning",
+    "abstract": "Distributed Acoustic Sensing (DAS) is an emerging technology for earthquake monitoring and subsurface imaging. The recorded seismic signals by DAS have several distinct characteristics, such as unknown coupling effects, strong anthropogenic noise, and ultra-dense spatial sampling. These aspects differ from conventional seismic data recorded by seismic networks, making it challenging to utilize DAS at present for seismic monitoring. New data analysis algorithms are needed to extract useful information from DAS data. Previous studies on conventional seismic data demonstrated that deep learning models could achieve performance close to human analysts in picking seismic phases. However, phase picking on DAS data is still a difficult problem due to the lack of manual labels. Further, the differences in mathematical structure between these two data formats, i.e., ultra-dense DAS arrays and sparse seismic networks, make model fine-tuning or transfer learning difficult to implement on DAS data. In this work, we design a new approach using semi-supervised learning to solve the phase-picking task on DAS arrays. We use a pre-trained PhaseNet model as a teacher network to generate noisy labels of P and S arrivals on DAS data and apply the Gaussian mixture model phase association (GaMMA) method to refine these noisy labels to build training datasets. We develop a new deep learning model, PhaseNet-DAS, to process the 2D spatial-temporal data of DAS arrays and train the model on DAS data. The new deep learning model achieves high picking accuracy and good earthquake detection performance. We then apply the model to process continuous data and build earthquake catalogs directly from DAS recording. Our approach using semi-supervised learning provides a way to build effective deep learning models for DAS, which have the potential to improve earthquake monitoring using large-scale fiber networks. ",
+    "url": "https://arxiv.org/abs/2302.08747",
+    "authors": [
+      "Weiqiang Zhu",
+      "Ettore Biondi",
+      "Jiaxuan Li",
+      "Jiuxun Yin",
+      "Zachary E. Ross",
+      "Zhongwen Zhan"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08824",
+    "title": "Coherence build up and laser thresholds from nanolasers to macroscopic  lasers",
+    "abstract": "We detail the derivation of nanolaser models that include coherent and incoherent variables and predict the existence of a laser threshold, irrespective of cavity size and emitter number, for both single- and multi-electron systems. The growth in photon number in the lasing mode is driven by an increase in correlation between absorption and emission processes, leading to the onset of self-sustained stimulated emission (laser threshold), followed, in turn, by a correlation decrease and ending with the dominance of coherent emission. The first-order coherence $g^{(1)}$ steadily increases, as the pump grows towards the laser threshold value, and reaches unity at or beyond threshold. The transition toward coherent emission becomes increasingly sharp as the number of emitters and of the coupled electromagnetic cavity modes increase, continuously connecting, in the thermodynamic limit, the physics of nano- and macroscopic lasers at threshold. Our predictions are in remarkable agreement with experiments whose first-order coherence measurements have so far been explained only phenomenologically. A consistent evaluation of different threshold indicators provides a tool for a correct interpretation of experimental measurements at the onset of laser action. ",
+    "url": "https://arxiv.org/abs/2302.08824",
+    "authors": [
+      "Mark Anthony Carroll",
+      "Giampaolo D'Alessandro",
+      "Gian Luca Lippi",
+      "Gian-Luca Oppo",
+      "Francesco Papoff"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08839",
+    "title": "Interface Self-Referenced Dynamic Full-Field Optical Coherence  Tomography",
+    "abstract": "Dynamic full-field optical coherence tomography (D-FFOCT) has recently emerged as an invaluable live label-free and non-invasive imaging modality able to image subcellular biological structures and their metabolic activity within complex 3D samples. However, D-FFOCT suffers from fringe artefacts when imaging nearby reflective surfaces and is highly sensitive to vibrations. Here, we present interface Self-Referenced (iSR) D-FFOCT, an alternative configuration to D-FFOCT that takes advantage of the presence of the sample coverslip in between the sample and the objective by using it as a defocused reference arm, thus avoiding the aforementioned artefacts. We demonstrate the ability of iSR D-FFOCT to image 2D fibroblast cell cultures, which are among the flattest mammalian cells. ",
+    "url": "https://arxiv.org/abs/2302.08839",
+    "authors": [
+      "Tual Monfort",
+      "Salvatore Azzollini",
+      "Tasnim Ben Yacoub",
+      "Isabelle Audo",
+      "Sacha Reichman",
+      "Kate Grieve",
+      "Olivier Thouvenin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)",
+      "Subcellular Processes (q-bio.SC)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08843",
+    "title": "magnum.np -- A PyTorch based GPU enhanced Finite Difference  Micromagnetic Simulation Framework for High Level Development and Inverse  Design",
+    "abstract": "magnum.np is a micromagnetic finite-difference library completely based on the tensor library PyTorch. The use of such a high level library leads to a highly maintainable and extensible code base which is the ideal candidate for the investigation of novel algorithms and modeling approaches. On the other hand magnum.np benefits from the devices abstraction and optimizations of PyTorch enabling the efficient execution of micromagnetic simulations on a number of computational platforms including GPU and potentially TPU systems. We demonstrate a competitive performance to state-of-the art micromagnetic codes such a mumax3 and show how our code enables the rapid implementation of new functionality. Furthermore, handling inverse problems becomes possible by using PyTorch's autograd feature. ",
+    "url": "https://arxiv.org/abs/2302.08843",
+    "authors": [
+      "Florian Bruckner",
+      "Sabri Koraltan",
+      "Claas Abert",
+      "Dieter Suess"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08864",
+    "title": "Ultra-compact attosecond X-ray free-electron lasers utilizing unique  beams from plasma-based acceleration and an optical undulator",
+    "abstract": "Accelerator-based X-ray free-electron lasers (XFELs) are the latest addition to the revolutionary tools of discovery for the 21st century. The two major components of an XFEL are an accelerator-produced electron beam and a magnetic undulator which tend to be kilometer-scale long and expensive. Here, we present an ultra-compact scheme to produce 10s of attosecond X-ray pulses with several GW peak power utilizing a novel aspect of the FEL instability using a highly chirped, pre-bunched and ultra-bright electron beam from a plasma-based accelerator interacting with an optical undulator. The self-selection of electrons from the combination of a highly chirped and pre-bunched beam leads to the stable generation of attosecond X-ray pulses. Furthermore, two-color attosecond pulses with sub-femtosecond separation can be produced by adjusting the energy distribution of the electron beam so that multiple FEL resonances occur at different locations within the beam. Such a tunable coherent attosecond X-ray sources may open up a new area of attosecond science enabled by X-ray attosecond pump/probe techniques. ",
+    "url": "https://arxiv.org/abs/2302.08864",
+    "authors": [
+      "Xinlu Xu",
+      "Jiaxin Liu",
+      "Thamine Dalichaouch",
+      "Frank S. Tsung",
+      "Zhen Zhang",
+      "Zhirong Huang",
+      "Mark J. Hogan",
+      "Xueqing Yan",
+      "Chan Joshi",
+      "Warren B. Mori"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08970",
+    "title": "Ge coated silicon nanowires as human respiratory sensing device",
+    "abstract": "We report on Ge coated silicon nanowires (SiNWs) sensors synthesized with metal assisted chemical etching and qualify their functionality as human respiratory sensor. The sensors were made from p-type single-crystalline (100) silicon wafers using a silver catalysed top-down etching, afterwards coated by 50 nm Ge thin layer using a magnetron sputtering. The Ge post-treatment were performed by rapid thermal annealing (RTA) at 450 and 700 C degrees. The sensors were characterized by X-ray diffraction diffractogram and scanning electron microscopy. It is demonstrated that the sensors are highly sensitive as human breath detectors, with rapid response and frequency detect-ability. They are also shown to be a good candidate for human respiratory diseases diagnoses. ",
+    "url": "https://arxiv.org/abs/2302.08970",
+    "authors": [
+      "E. Fakhri",
+      "M. T. Sultan",
+      "A. Manolescu",
+      "S. Ingvarsson",
+      "H. G. Svavarsson"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08528",
+    "title": "Cavity-renormalized quantum criticality in a honeycomb bilayer  antiferromagnet",
+    "abstract": "Strong light-matter interactions as realized in an optical cavity provide a tantalizing opportunity to control the properties of condensed matter systems. Inspired by experimental advances in cavity quantum electrodynamics and the fabrication and control of two-dimensional magnets, we investigate the fate of a quantum critical antiferromagnet coupled to an optical cavity field. Using unbiased quantum Monte Carlo simulations, we compute the scaling behavior of the magnetic structure factor and other observables. While the position and universality class are not changed by a single cavity mode, the critical fluctuations themselves obtain a sizable enhancement, scaling with a fractional exponent that defies expectations based on simple perturbation theory. The scaling exponent can be understood using a generic scaling argument, based on which we predict that the effect may be even stronger in other universality classes. Our microscopic model is based on realistic parameters for two-dimensional magnetic quantum materials and the effect may be within the range of experimental detection. ",
+    "url": "https://arxiv.org/abs/2302.08528",
+    "authors": [
+      "Lukas Weber",
+      "Emil Vi\u00f1as Bostr\u00f6m",
+      "Martin Claassen",
+      "Angel Rubio",
+      "Dante M. Kennes"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08665",
+    "title": "Control of the magnon-polariton hybridization with a microwave pump",
+    "abstract": "Pump-induced magnon modes (PIMs) are recently discovered elementary excitations in ferrimagnets that offer significant tunability to spin dynamics. Here, we investigate the strong interaction between a PIM and cavity magnon polaritons (CMPs) by driving a cavity magnonic system away from equilibrium with a microwave pump. In our experiment, the Walker mode simultaneously couples with the PIM and cavity photons and thus combines two strongly coherent coupling processes in a single cavity structure. Such a PIM-CMP hybridization system acquires complementary properties from both the PIM and CMPs, allowing it to be freely manipulated by the magnetic field, the pump power and the pump frequency. These coherent manipulations exhibit unique behaviors beyond the intrinsic properties limited by the material nature and electromagnetic boundary conditions, thereby creating opportunities for extending the control of hybrid devices. ",
+    "url": "https://arxiv.org/abs/2302.08665",
+    "authors": [
+      "C. Zhang",
+      "Jinwei Rao",
+      "C. Y. Wang",
+      "Z. J. Chen",
+      "K. X. Zhao",
+      "Bimu Yao",
+      "Xu-Guang Xu",
+      "Wei Lu"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08904",
+    "title": "Coherent Microwave Emission of a Gain-Driven Polariton",
+    "abstract": "By developing a gain-embedded cavity magnonics platform, we create gain-driven polariton (GDP) that is activated by an amplified electromagnetic field. Distinct effects of gain-driven light-matter interaction, such as polariton auto-oscillations, polariton phase singularity, self-selection of a polariton bright mode, and gain-induced magnon-photon synchronization, are theoretically studied and experimentally manifested. Utilizing the gain-sustained photon coherence of the GDP, we demonstrate polariton-based coherent microwave amplication (~ 40 dB) and achieve high-quality coherent microwave emission (Q > 10^9). ",
+    "url": "https://arxiv.org/abs/2302.08904",
+    "authors": [
+      "Bimu Yao",
+      "Y.S. Gui",
+      "J.W. Rao",
+      "Y.H. Zhang",
+      "Wei Lu",
+      "C.-M. Hu"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.08966",
+    "title": "Photon pumping, photodissociation and dissipation at interplay for the  fluorescence of a molecule in a cavity",
+    "abstract": "We introduce a model description of a diatomic molecule in an optical cavity, with pump and fluorescent fields, and electron and nuclear motion are treated on equal footing and exactly. The model accounts for several optical response temporal scenarios: a Mollow spectrum hindered by electron correlations, a competition of harmonic generation and molecular dissociation, a dependence of fluorescence on photon pumping rate and dissipation. It is thus a general and flexible template for insight into experiments where quantum photon confinement, leakage, nuclear motion and electronic correlations are at interplay. ",
+    "url": "https://arxiv.org/abs/2302.08966",
+    "authors": [
+      "Megha Gopalakrishna",
+      "Emil Vi\u00f1as Bostr\u00f6m",
+      "Claudio Verdozzi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.01738",
+    "title": "Implementing commercial inverse design tools for compact, phase-encoded,  plasmonic digital logic devices",
+    "abstract": " Title: Implementing commercial inverse design tools for compact, phase-encoded,  plasmonic digital logic devices ",
+    "url": "https://arxiv.org/abs/2110.01738",
+    "authors": [
+      "Michael Efseaff",
+      "Kyle Wynne",
+      "Krishna Narayan",
+      "Mark C. Harrison"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.08027",
+    "title": "Quantitative Magnetic Resonance Imaging by Nonlinear Inversion of the  Bloch Equations",
+    "abstract": " Comments: 42 pages, 12 Figures, 4 Tables, Research Paper ",
+    "url": "https://arxiv.org/abs/2209.08027",
+    "authors": [
+      "Nick Scholand",
+      "Xiaoqing Wang",
+      "Volkert Roeloffs",
+      "Sebastian Rosenzweig",
+      "Martin Uecker"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.01490",
+    "title": "Gain and phase calibration of sensor arrays from ambient noise by  cross-spectral measurements fitting",
+    "abstract": " Comments: Accepted in the Journal of the Acoustical Society of America ",
+    "url": "https://arxiv.org/abs/2210.01490",
+    "authors": [
+      "Charles Vanwynsberghe",
+      "Simon Bouley",
+      "J\u00e9r\u00f4me Antoni"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.15315",
+    "title": "TCT investigation of the one-sided depletion of low-temperature  covalently bonded silicon sensor P-N diodes",
+    "abstract": " Comments: To be submitted to JINST, 16 pages, 10 figures, 2 tables ",
+    "url": "https://arxiv.org/abs/2211.15315",
+    "authors": [
+      "Johannes W\u00fcthrich",
+      "Christoph Alt",
+      "Andr\u00e9 Rubbia"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.00502",
+    "title": "Quantum Haecceity",
+    "abstract": " Comments: Invited contribution to Proceedings of the Workshop \"Identity, Individuality and Indistinguishability in Physics and Mathematics,\" Philosophical Transactions A ",
+    "url": "https://arxiv.org/abs/2301.00502",
+    "authors": [
+      "Ruth E. Kastner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.03538",
+    "title": "Amplification of the phosphorescent emission guided by a pulsed laser  stripe",
+    "abstract": " Comments: The manuscript suffered a profound reediting, including the title, what made it unrecognizable to the shown on arxiv. We seek for a new resubmission in the near future ",
+    "url": "https://arxiv.org/abs/2302.03538",
+    "authors": [
+      "Weder J\u00fanior Elias de Paula",
+      "Gustavo de Almeida Magalh\u00e3es S\u00e1far",
+      "Eufr\u00e2nio N. da Silva J\u00fanior",
+      "Luiz A. Cury"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
