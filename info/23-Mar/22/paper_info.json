@@ -1,0 +1,316 @@
+[
+  {
+    "id": "arXiv:2303.11409",
+    "title": "Supercomputing tensor networks for U(1) symmetric quantum many-body  systems",
+    "abstract": "Simulation of many-body systems is extremely computationally intensive, and tensor network schemes have long been used to make these tasks more tractable via approximation. Recently, tensor network algorithms that can exploit the inherent symmetries of the underlying quantum systems have been proposed to further reduce computational complexity. One class of systems, namely those exhibiting a global U(1) symmetry, is especially interesting. We provide a state-of-the-art, graphical processing unit-accelerated, and highly parallel supercomputer implementation of the tensor network algorithm that takes advantage of U(1) symmetry, opening up the possibility of a wide range of quantum systems for future numerical investigations. ",
+    "url": "https://arxiv.org/abs/2303.11409",
+    "authors": [
+      "Minzhao Liu",
+      "Changhun Oh",
+      "Junyu Liu",
+      "Liang Jiang",
+      "Yuri Alexeev"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11519",
+    "title": "Efficient generation of axial magnetic field by multiple laser beams  with twisted pointing directions",
+    "abstract": "Strong laser-driven magnetic fields are crucial for high-energy-density physics and laboratory astrophysics research, but generation of axial multi-kT fields remains a challenge. The difficulty comes from the inability of a conventional linearly polarized laser beam to induce the required azimuthal current or, equivalently, angular momentum (AM). We show that several laser beams can overcome this difficulty. Our three-dimensional kinetic simulations demonstrate that a twist in their pointing directions {enables them to carry orbital AM and transfer it to the plasma, thus generating a hot electron population carrying AM needed to sustain the magnetic field.} The resulting multi-kT field occupies a volume that is tens of thousands of cubic microns and it persists on a ps time scale. The mechanism can be realized for a wide range of laser intensities and pulse durations. Our scheme is well-suited for implementation using {multi-kJ PW-class lasers, because, by design, they have multiple beamlets and because the scheme requires only linear-polarization. ",
+    "url": "https://arxiv.org/abs/2303.11519",
+    "authors": [
+      "Yin Shi",
+      "Alexey Arefiev",
+      "Jue Xuan Hao",
+      "Jian Zheng"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11523",
+    "title": "20 GHz fiber-integrated femtosecond pulse and supercontinuum generation  with a resonant electro-optic frequency comb",
+    "abstract": "Frequency combs with mode spacing in the range of 10 to 20 gigahertz (GHz) are critical for increasingly important applications such as astronomical spectrograph calibration, high-speed dual-comb spectroscopy, and low-noise microwave generation. While electro-optic modulators and microresonators can provide narrowband comb sources at this repetition rate, a significant remaining challenge is a means to produce pulses with sufficient peak power to initiate nonlinear supercontinuum generation spanning hundreds of terahertz (THz) as required for self-referencing in these applications. Here, we provide a simple, robust, and universal solution to this problem using off-the-shelf polarization-maintaining (PM) amplification and nonlinear fiber components. This fiber-integrated approach for nonlinear temporal compression and supercontinuum generation is demonstrated with a resonant electro-optic frequency comb at 1550 nm. We show how to readily achieve pulses shorter than 60 fs at a repetition rate of 20 GHz and with peak powers in excess of 2 kW. The same technique can be applied to picosecond pulses at 10 GHz to demonstrate temporal compression by a factor of 9x yielding 50 fs pulses with peak power of 5.5 kW. These compressed pulses enable flat supercontinuum generation spanning more than 600 nm after propagation through multi-segment dispersion-tailored anomalous-dispersion highly nonlinear fiber (HNLF) or tantala waveguides. The same 10 GHz source can readily achieve an octave-spanning spectrum for self-referencing in dispersion-engineered silicon nitride waveguides. This simple all-fiber approach to nonlinear spectral broadening fills a critical gap for transforming any narrowband 10 to 20 GHz frequency comb into a broadband spectrum for a wide range of applications that benefit from the high pulse rate and require access to the individual comb modes. ",
+    "url": "https://arxiv.org/abs/2303.11523",
+    "authors": [
+      "Pooja Sekhar",
+      "Connor Fredrick",
+      "David R. Carlson",
+      "Zachary Newman",
+      "Scott A. Diddams"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11558",
+    "title": "Experimental observation of sub-radiant longitudinal mode and anomalous  optical transmission in metallic wire meshes",
+    "abstract": "In conventional plasmonic media and plasmonic metamaterials, such as metallic wire mesh, longitudinal mode of electromagnetic wave manifests itself in frequency overlapping transverse modes, which impedes clear observation of longitudinal-mode-specific physical effects. Through interlacing two sets of wire meshes, an ideal band for longitudinal mode is achieved ranging from zero frequency to plasma frequency where transverse modes are completely forbidden. The unique spectral separation of modes facilitates the observation of pure longitudinal mode and related plasmonic effects in bulk medium. We report the first experiment of anomalous optical transmission, induced solely by electromagnetic longitudinal mode resonance, below plasma frequency in the wire mesh medium. ",
+    "url": "https://arxiv.org/abs/2303.11558",
+    "authors": [
+      "Weijie Dong",
+      "Xiaoxi Zhou",
+      "Xinyang Pan",
+      "Haitao Li",
+      "Gang Wang",
+      "Yadong Xu",
+      "Bo Hou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11565",
+    "title": "Wavelength-division multiplexing optical Ising simulator enabling fully  programmable spin couplings and external magnetic fields",
+    "abstract": "Recently, spatial photonic Ising machines (SPIMs) have demonstrated the abilities to compute the Ising Hamiltonian of large-scale spin systems, with the advantages of ultrafast speed and high power efficiency. However, such optical computations have been limited to specific Ising models with fully connected couplings. Here we develop a wavelength-division multiplexing SPIM to enable programmable spin couplings and external magnetic fields as well for general Ising models. We experimentally demonstrate such a wavelength-division multiplexing SPIM with a single spatial light modulator, where the gauge transformation is implemented to eliminate the impact of pixel alignment. To show the programmable capability of general spin coupling interactions, we explore three spin systems: $\\pm J$ models, Sherrington-Kirkpatrick models, and only locally connected ${{J}_{1}}\\texttt{-}{{J}_{2}}$ models and observe the phase transitions between the spin-glass, ferromagnetic and paramagnetic phases. These results show that the wavelength-division multiplexing approach has great programmable flexibility of spin couplings and external magnetic fields, which provides the opportunities to solve general combinatorial optimization problems with large-scale and on-demand SPIM. ",
+    "url": "https://arxiv.org/abs/2303.11565",
+    "authors": [
+      "Li Luo",
+      "Zhiyi Mi",
+      "Junyi Huang",
+      "Zhichao Ruan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Emerging Technologies (cs.ET)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11569",
+    "title": "Electro optic effect measurements for waveguide inscribed in X-cut  LiNbO3 substrate using femtosecond laser direct writing process",
+    "abstract": "This work represents a particular application of waveguide fabricated by femtosecond laser micromachining technology. More specifically, we report the development of an optical modulator based on the fabrication of single-mode optical waveguide structures buried in X-cut lithium niobate crystal with the femtosecond laser direct writing method. Here, change in refractive index profile is measured using near field intensity profile measurement method at optimized writing conditions. It has been observed that the change refractive index ({\\Delta}n) is in the range of 10-4. Finally, the behavior of femtosecond written waveguides as an intensity modulator at 632.8 nm and 1550 nm under the influence of an external electric field is analyzed by pattering electrode structures on the substrate respectively. ",
+    "url": "https://arxiv.org/abs/2303.11569",
+    "authors": [
+      "Amar Ghar",
+      "Sanyogita",
+      "Utpal Das",
+      "P. K. Panigrahi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11608",
+    "title": "Correlated polarization dependences between surface-enhanced resonant  Raman scattering and plasmon resonance elastic scattering showing spectral  uncorrelation to each other",
+    "abstract": "We investigated the origin of the identical polarization angle dependences between surface-enhanced resonant Raman scattering (SERRS) and plasmon resonance for two types of single silver nanoparticle aggregates. The first type (Type I), in which the SERRS spectral envelopes are similar to the plasmon resonance elastic scattering spectra, shows the identical polarization dependence between the SERRS and plasmon resonance. The second type (Type II), in which the SERRS envelopes largely deviate from the plasmon resonance, also exhibits identical polarization dependence. Scanning electron microscopy (SEM) observations indicated that these aggregates were dimers. Thus, this unintuitive result was examined by calculating the electromagnetic (EM) enhancement by changing the morphology of the dimers. The calculation revealed that Type I of dimer generates SERRS directly by superradiant plasmons. The Type II of dimer generates SERRS indirectly by subradiant plasmons, which receive light energy from the superradiant plasmons. This indirect SERRS process clarifies that the interaction between the superradiant and subradiant plasmons results in an identical polarization dependence between SERRS and plasmon resonance for Type II of dimers. ",
+    "url": "https://arxiv.org/abs/2303.11608",
+    "authors": [
+      "Tamitake Itoh",
+      "Yuko S. Yamamoto"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11737",
+    "title": "Uncertainty estimation on frequency shift of Brillouin light scattering",
+    "abstract": "Better knowing the precision on the measured value of the Brillouin peak frequencies is essen-tial in order to use it to deduce parameters related to studied materials. Modern methods for evaluating uncertainties are based on the recommendations of the Guide to the expression of uncertainty in measurement. After checking the agreement between the measured 15.7 GHz shift on a Brillouin signal on Poly-(methyl methacrylate) and the expected value, the elementary un-certainty terms are evaluated in two groups, by statistical methods and by other means. We de-scribe the general principle of operation of Brillouin light scattering setup with a high power laser and evaluate the elementary terms of uncertainty, according to international standards en-acted for metrology. The global uncertainty on frequency shift is then calculated and we find +-1.20x10-2 at 2 {\\sigma}. ",
+    "url": "https://arxiv.org/abs/2303.11737",
+    "authors": [
+      "Patrice Salzenstein"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11814",
+    "title": "Ultrasound sensing with optical microcavities",
+    "abstract": "Nowadays, ultrasound sensors are playing an irreplaceable role in the fields of biomedical imaging and industrial nondestructive inspection. Currently, piezoelectric transducers are the most widely used ultrasound sensors, but their sensitivities drop quickly when the size becomes smaller, leading to a typical sensor size at the millimeter to centimeter scale. In order to realize both high sensitivity and spatial resolution, various optical ultrasound sensors have been developed. Among them, ultrasound sensors using high-$Q$ optical microcavities have realized unprecedented sensitivities and broad bandwidth and can be mass-produced on a silicon chip. In this review, we introduce ultrasound sensors using three types of optical microcavities, including Fabry-Perot cavities, $\\pi$-phase-shifted Bragg gratings, and whispering gallery mode microcavities. We introduce the sensing mechanisms using optical microcavities and discuss several key parameters for ultrasound sensors. We then review the recent work on ultrasound sensing using these three types of microcavities and their applications in practical detection scenarios, such as photoacoustic imaging, ranging, and particle detection. ",
+    "url": "https://arxiv.org/abs/2303.11814",
+    "authors": [
+      "Xuening Cao",
+      "Hao Yang",
+      "Bei-Bei Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11904",
+    "title": "Two-beam laser photon merging",
+    "abstract": "Quasi-elastic scattering processes have long been thought of providing the most promising signal for a first experimental detection of quantum vacuum nonlinearity. A prominent example of such a process is vacuum birefringence. However, these signals are typically strongly background dominated. This problem can be circumvented by inelastic scattering processes. In this study, we investigate the inelastic process of laser photon merging in the collision of just two laser pulses under a finite angle, which provides signal photons of a distinct frequency outside the frequency spectrum of the background. As a key result, for the example of two laser beams of the same oscillation frequency we demonstrate that by using high-intensity optical lasers and choosing an optimal collision angle, photon merging should become accessible in experiment with state-of-the-art technology. In this case three frequency $\\omega$ laser photons are merged to a single $3\\omega$ photon. ",
+    "url": "https://arxiv.org/abs/2303.11904",
+    "authors": [
+      "Chantal Sundqvist",
+      "Felix Karbstein"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "High Energy Physics - Phenomenology (hep-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.12035",
+    "title": "Quantum gas-enabled direct mapping of active current density in  percolating networks of nanowires",
+    "abstract": "Electrically percolating networks made of nanowires are amongst the most promising candidates for next generation transparent electrodes. The inherent heterogeneity of the spatial distribution of current in these materials is at the centre of interest for development as it leads to phenomena like re-routing of the percolation pathways or localized self-heating, which may result in irreversible damage. In the absence of an experimental technique that can spatially resolve the current distribution and a nonlinear percolation model suitable to interpret it, one relies on empirical rules and safety factors to engineer these materials. In this paper, we introduce a novel quantum sensing technology as a solution to the long standing problem of imaging active current flow in 2D electrically conductive materials. We report on Bose-Einstein condensate microscopy (BEC-M) achieving the performance and technology levels where investigating the dynamic re-distribution of current pathways in electrically percolating networks becomes feasible. Better measurement and understanding of the networks can have far reaching consequences. We show that the current density characterization, combined with existing thermal imaging methods, will for the first time avoid intermediate assumptions on the link between thermal and conductive properties in these nonlinear networks. This will enable testing and modeling individual junction behaviour and hot spot formation over the network. Investigating reversible and irreversible mechanisms will aid the development of devices with better macroscopic performance and higher stability and reliability. ",
+    "url": "https://arxiv.org/abs/2303.12035",
+    "authors": [
+      "J. Fekete",
+      "T. M. James",
+      "R. Shah",
+      "A. Gadge",
+      "S. Bhumbra",
+      "F. Oru\u010devi\u0107",
+      "P. Kr\u00fcger"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11375",
+    "title": "Towards Mixed Quantum-Classical Dynamics on Quantum Computers",
+    "abstract": "Mixed quantum-classical dynamics is a set of methods often used to understand systems too complex to treat fully quantum mechanically. Many techniques exist for full quantum mechanical evolution on quantum computers, but mixed quantum-classical dynamics are less explored. We present a modular algorithm for general mixed quantum-classical dynamics where the quantum subsystem is coupled with the classical subsystem. We test it on a modified Shin-Metiu model in the first quantization through Ehrenfest propagation. We find that the Time-Dependent Variational Time Propagation algorithm performs well for short-time evolutions and retains qualitative results for longer-time evolutions. ",
+    "url": "https://arxiv.org/abs/2303.11375",
+    "authors": [
+      "Daniel Bultrini",
+      "Oriol Vendrell"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11781",
+    "title": "QuantumDynamics.jl: A modular approach to simulations of dynamics of  open quantum systems",
+    "abstract": "Simulation of non-adiabatic dynamics of a quantum system coupled to dissipative environments poses significant challenges. New sophisticated methods are regularly being developed with an eye towards moving to larger systems and more complicated description of solvents. Many of these methods, however, are quite difficult to implement and debug. Furthermore, trying to make the individual algorithms work together through a modular application programming interface (API) can be quite difficult. We present a new, open-source software framework, QuantumDynamics.jl, designed to address these challenges. It provides implementations of a variety of perturbative and non-perturbative methods for simulating the dynamics of these sytems. Most prominently, QuantumDynamics.jl supports hierarchical equations of motion and the family of methods based on path integrals. Effort has been made to ensure maximum compatibility of interface between the various methods. Additionally, QuantumDynamics.jl, being built on a high-level programming language, brings a host of modern features to explorations of systems such as usage of Jupyter notebooks and high level plotting for exploration of systems, possibility of leveraging high-performance machine learning libraries for further development. Thus, while the built-in methods can be used as end-points in themselves, the package provides an integrated platform for experimentation, exploration, and method development. ",
+    "url": "https://arxiv.org/abs/2303.11781",
+    "authors": [
+      "Amartya Bose"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11810",
+    "title": "Quantum memories for fundamental science in space",
+    "abstract": "Investigating and verifying the connections between the foundations of quantum mechanics and general relativity will require extremely sensitive quantum experiments. To provide ultimate insight into this fascinating area of physics, the realization of dedicated experiments in space will sooner or later become a necessity. Quantum technologies, and among them quantum memories in particular, are providing novel approaches to reach conclusive experimental results due to their advanced state of development backed by decades of progress. Storing quantum states for prolonged time will make it possible to study Bell tests on astronomical baselines, to increase measurement precision for investigations of gravitational effects on quantum systems, or enable distributed networks of quantum sensors and clocks. We here promote the case of exploiting quantum memories for fundamental physics in space, and discuss both distinct experiments as well as potential quantum memory platforms and their performance. ",
+    "url": "https://arxiv.org/abs/2303.11810",
+    "authors": [
+      "Jan-Michael Mol",
+      "Luisa Esguerra",
+      "Matthias Meister",
+      "David Edward Bruschi",
+      "Andreas Wolfgang Schell",
+      "Janik Wolters",
+      "Lisa W\u00f6rner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11875",
+    "title": "Recommending Low-Cost Compact Space Environment and Space Weather  Effects Sensor Suites for NASA Missions",
+    "abstract": "As miniaturized spacecraft (e.g., cubesats and smallsats) and instrumentation become an increasingly indispensable part of space exploration and scientific investigations, it is important to understand their potential susceptibility to space weather impacts resulting from the sometimes volatile space environment. There are multitude of complexities involved in how space environment interacts with different space hardware/electronics. Measurements of such impacts, however, have been lacking. Therefore, we recommend developing and/or procuring low-cost, low-power consumption, and compact sensor suites (mainly for space weather and impact purposes) and flying them on all future NASA (and U.S in general) missions in order to measure and quantify space weather impacts, in addition to the main instrumentation. ",
+    "url": "https://arxiv.org/abs/2303.11875",
+    "authors": [
+      "Yihua Zheng",
+      "Michael Xapsos",
+      "Insoo Jun",
+      "T. P. O'Brien",
+      "Linda Parker",
+      "Wousik Kim",
+      "Justin Likar",
+      "Joseph Minow",
+      "Thomas Chen",
+      "Douglas Rowland"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.01834",
+    "title": "General properties of fidelity in non-Hermitian quantum systems with PT  symmetry",
+    "abstract": " Comments: To appear in &lt;Quantum&gt; journal ",
+    "url": "https://arxiv.org/abs/2203.01834",
+    "authors": [
+      "Yi-Ting Tu",
+      "Iksu Jang",
+      "Po-Yao Chang",
+      "Yu-Chin Tzeng"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.01248",
+    "title": "Supersymmetric Quantum Potentials Analogs of Classical Electrostatic  Fields",
+    "abstract": " Title: Supersymmetric Quantum Potentials Analogs of Classical Electrostatic  Fields ",
+    "url": "https://arxiv.org/abs/2209.01248",
+    "authors": [
+      "Juan D. Garc\u00eda-Mu\u00f1oz",
+      "A Raya"
+    ],
+    "subjectives": [
+      "Mathematical Physics (math-ph)",
+      "Classical Physics (physics.class-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.07085",
+    "title": "Thermal camera based on frequency upconversion and its noise-equivalent  temperature difference characterization",
+    "abstract": " Title: Thermal camera based on frequency upconversion and its noise-equivalent  temperature difference characterization ",
+    "url": "https://arxiv.org/abs/2303.07085",
+    "authors": [
+      "Zheng Ge",
+      "Zhi-Yuan Zhou",
+      "Jing-Xin Ceng",
+      "Li Chen",
+      "Yin-Hai Li",
+      "Yan Li",
+      "Su-Jian Niu",
+      "Bao-Sen Shi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.07111",
+    "title": "On the physics of Quantum Fluctuations in space-time",
+    "abstract": " Title: On the physics of Quantum Fluctuations in space-time ",
+    "url": "https://arxiv.org/abs/2303.07111",
+    "authors": [
+      "Eric S. Escobar-Aguilar",
+      "Tonatiuh Matos",
+      "Jos\u00e9 I. Jimenez-Aquino"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  }
+]
