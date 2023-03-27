@@ -1,0 +1,344 @@
+[
+  {
+    "id": "arXiv:2303.13639",
+    "title": "Hemodynamic Effects of Entry and Exit Tear Size in Aortic Dissection  Evaluated with In Vitro Magnetic Resonance Imaging and Fluid-Structure  Interaction Simulation",
+    "abstract": "Understanding the complex interplay between morphologic and hemodynamic features in aortic dissection is critical for risk stratification and for the development of individualized therapy. This work evaluates the effects of entry and exit tear size on the hemodynamics in type B aortic dissection by comparing fluid-structure interaction (FSI) simulations with in vitro 4D-flow magnetic resonance imaging (MRI). A baseline patient-specific 3D-printed model and two variants with modified tear size (smaller entry tear, smaller exit tear) were embedded into a flow- and pressure-controlled setup to perform MRI as well as 12-point catheter-based pressure measurements. The same models defined the wall and fluid domains for FSI simulations, for which boundary conditions were matched with measured data. Results showed exceptionally well matched complex flow patterns between 4D-flow MRI and FSI simulations. Compared to the baseline model, false lumen flow volume decreased with either a smaller entry tear (-17.8 and -18.5 %, for FSI simulation and 4D-flow MRI, respectively) or smaller exit tear (-16.0 and -17.3 %). True to false lumen pressure difference (initially 11.0 and 7.9 mmHg, for FSI simulation and catheter-based pressure measurements, respectively) increased with a smaller entry tear (28.9 and 14.6 mmHg), and became negative with a smaller exit tear (-20.6 and -13.2 mmHg). This work establishes quantitative and qualitative effects of entry or exit tear size on hemodynamics in aortic dissection, with particularly notable impact observed on FL pressurization. FSI simulations demonstrate acceptable qualitative and quantitative agreement with flow imaging, supporting its deployment in clinical studies. ",
+    "url": "https://arxiv.org/abs/2303.13639",
+    "authors": [
+      "Judith Zimmermann",
+      "Kathrin B\u00e4umler",
+      "Michael Loecher",
+      "Tyler E. Cork",
+      "Alison L. Marsden",
+      "Daniel B. Ennis",
+      "Dominik Fleischmann"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13640",
+    "title": "Resonant instabilities mediated by drag and electrostatic interactions  in laboratory and astrophysical dusty plasmas",
+    "abstract": "Dusty plasmas are known to support a diverse range of instabilities, including both generalizations of standard plasma instabilities and ones caused by effects specific to dusty systems. It has been recently demonstrated that a novel broad class of streaming instabilities, termed resonant drag instabilities (RDIs), can be attributed to a particular resonance phenomenon caused by defective eigenvalues of the linearized dust/fluid system. In this work, it is demonstrated that this resonance phenomenon is not unique to RDIs and can be used as a framework to understand a wider range of instabilities, termed resonant instabilities. Particular attention is given to the filamentary ionization instability seen in laboratory dusty plasmas and to the two-stream instability. It is shown that, due to the commonalities in underlying physics between the dust-ion-acoustic two-stream instability and the acoustic RDI, these instabilities should be relevant in strongly overlapping regimes in astrophysical dusty plasmas. It is proposed that a similar overlap in the experimental accessibility of these modes (and of the filamentary instability) allows for the possibility of experimental investigation of complex and astrophysically relevant instability dynamics. ",
+    "url": "https://arxiv.org/abs/2303.13640",
+    "authors": [
+      "Ben Y. Israeli",
+      "Amitava Bhattacharjee",
+      "Hong Qin"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Astrophysics of Galaxies (astro-ph.GA)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13700",
+    "title": "Bayesian Reconstruction of Magnetic Resonance Images using Gaussian  Processes",
+    "abstract": "A central goal of modern magnetic resonance imaging (MRI) is to reduce the time required to produce high-quality images. Efforts have included hardware and software innovations such as parallel imaging, compressed sensing, and deep learning-based reconstruction. Here, we propose and demonstrate a Bayesian method to build statistical libraries of magnetic resonance (MR) images in k-space and use these libraries to identify optimal subsampling paths and reconstruction processes. Specifically, we compute a multivariate normal distribution based upon Gaussian processes using a publicly available library of T1-weighted images of healthy brains. We combine this library with physics-informed envelope functions to only retain meaningful correlations in k-space. This covariance function is then used to select a series of ring-shaped subsampling paths using Bayesian optimization such that they optimally explore space while remaining practically realizable in commercial MRI systems. Combining optimized subsampling paths found for a range of images, we compute a generalized sampling path that, when used for novel images, produces superlative structural similarity and error in comparison to previously reported reconstruction processes (i.e. 96.3% structural similarity and <0.003 normalized mean squared error from sampling only 12.5% of the k-space data). Finally, we use this reconstruction process on pathological data without retraining to show that reconstructed images are clinically useful for stroke identification. ",
+    "url": "https://arxiv.org/abs/2303.13700",
+    "authors": [
+      "Yihong Xu",
+      "Chad W. Farris",
+      "Stephan W. Anderson",
+      "Xin Zhang",
+      "Keith A. Brown"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Applications (stat.AP)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13820",
+    "title": "Observation of Colossal Terahertz Magnetoresistance and  Magnetocapacitance in a Perovskite Manganite",
+    "abstract": "We have studied the terahertz response of a bulk single crystal of La$_{0.875}$Sr$_{0.125}$MnO$_3$ at around its Curie temperature, observing large changes in the real and imaginary parts of the optical conductivity as a function of magnetic field. The terahertz resistance and capacitance extracted from the optical conductivity rapidly increased with increasing magnetic field and did not show any sign of saturation up to 6 T, reaching 60% and 15%, respectively, at 180 K. The observed terahertz colossal magnetoresistance and magnetocapacitance effects can be qualitatively explained by using a two-component model that assumes the coexistence of two phases with vastly different conductivities. These results demonstrate the potential use of perovskite manganites for developing efficient terahertz devices based on magnetic modulations of the amplitude and phase of terahertz waves. ",
+    "url": "https://arxiv.org/abs/2303.13820",
+    "authors": [
+      "Fuyang Tay",
+      "Swati Chaudhary",
+      "Jiaming He",
+      "Nicolas Marquez Peraca",
+      "Andrey Baydin",
+      "Gregory A. Fiete",
+      "Jianshi Zhou",
+      "Junichiro Kono"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14032",
+    "title": "Stability of the Modulator in a Plasma-Modulated Plasma Accelerator",
+    "abstract": "We explore the regime of operation of the modulator stage of a recently proposed laser-plasma accelerator scheme [Phys. Rev. Lett. 127, 184801 (2021)], dubbed the Plasma-Modulated Plasma Accelerator (P-MoPA). The P-MoPA scheme offers a potential route to high-repetition-rate, GeV-scale plasma accelerators driven by picosecond-duration laser pulses from, for example, kilohertz thin-disk lasers. The first stage of the P-MoPA scheme is a plasma modulator in which a long, high-energy 'drive' pulse is spectrally modulated by co-propagating in a plasma channel with the low-amplitude plasma wave driven by a short, low-energy 'seed' pulse. The spectrally modulated drive pulse is converted to a train of short pulses, by introducing dispersion, which can resonantly drive a large wakefield in a subsequent accelerator stage with the same on-axis plasma density as the modulator. In this paper we derive the 3D analytic theory for the evolution of the drive pulse in the plasma modulator and show that the spectral modulation is independent of transverse coordinate, which is ideal for compression into a pulse train. We then identify a transverse mode instability (TMI), similar to the TMI observed in optical fiber lasers, which sets limits on the energy of the drive pulse for a given set of laser-plasma parameters. We compare this analytic theory with particle-in-cell (PIC) simulations and find that even higher energy drive pulses can be modulated than those demonstrated in the original proposal. ",
+    "url": "https://arxiv.org/abs/2303.14032",
+    "authors": [
+      "Johannes J. van de Wetering",
+      "Simon M. Hooker",
+      "Roman Walczak"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14112",
+    "title": "Cell-format-dependent mechanical damage in silicon anodes",
+    "abstract": "It is generally believed that silicon-based anodes for Li-ion batteries would benefit from stronger binders, as cyclic volume changes would not disrupt the cohesion of the composite electrode. Here, we put this belief to the proof by testing electrodes containing SiOx particles and an aromatic polyimide binder. We observe that the electrodes can stretch laterally by as much as 6% during the first cycle, indicating that internal stresses are high enough to induce plastic deformation on the copper current collector. Remarkably, no coating delamination is observed. Additional consequences were size-dependent: while pouch-cell-sized electrodes developed wrinkles, coin-cell-sized ones remained mostly smooth. We demonstrate that wrinkling of the current collector damages the electrode coating, inactivating SiOx domains and accelerating capacity fade. This size-dependent performance decay indicates that, in extreme cases, testing outcomes are highly dependent on scale. Novel battery materials may require testing at larger cell formats for complete validation. ",
+    "url": "https://arxiv.org/abs/2303.14112",
+    "authors": [
+      "Marco-Tulio F. Rodrigues",
+      "Sathish Rajendran",
+      "Stephen E. Trask",
+      "Alison R. Dunlop",
+      "Avtar Singh",
+      "Jeffery M. Allen",
+      "Peter J. Weddle",
+      "Andrew M. Colclasure",
+      "Andrew N. Jansen"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14122",
+    "title": "Evaluation of predictive correlation between flux expulsion and grain  growth for superconducting radio frequency cavities",
+    "abstract": "A series of experiments were carried out in an effort to develop a simple method for predicting magnetic flux expulsion behavior of high purity niobium used to fabricate superconducting radio frequency (SRF) cavities. Using conventional metallographic characterizations in conjunction with high spatial resolution electron backscattered diffraction-orientation imaging microscopy (EBSD-OIM), we found that the flux expulsion behavior of 1.3 GHz single cell SRF Nb cavities is significantly associated with the grain growth of the Nb material during heat treatment. Most of Nb grains rapidly grew during 900C heat treatment, and likely full-recrystallized with 1000C HT. With comparison of the magnetic flux expulsion ratio (Bsc/Bnc) at dT = 5 K, the flux expulsion efficiency of the cavities increases along with increasing of grain size. Most interestingly, 900C HT shows a roughly linear trend that suggests this criterion could be used to predict appropriate heat treatment temperature for sufficient flux expulsion behavior in SRF-grade Nb. This result would be used to see if flux expulsion can be predicted by examining the materials coming from the Nb vendor, prior to cavity fabrication. ",
+    "url": "https://arxiv.org/abs/2303.14122",
+    "authors": [
+      "Zu Hawn Sung",
+      "Paulina Kulyavtsev",
+      "Martina Martinello",
+      "Dan Gonnella",
+      "Marc Ross",
+      "Sam Posen"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Superconductivity (cond-mat.supr-con)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14165",
+    "title": "The Effect of Dust and Hotspots on the Thermal Stability of Laser Sails",
+    "abstract": "Laser sails propelled by gigawatt-scale ground-based laser arrays have the potential to reach relativistic speeds, traversing the solar system in hours and reaching nearby stars in years. Here, we describe the danger interplanetary dust poses to the survival of a laser sail during its acceleration phase. We show through multi-physics simulations how localized heating from a single optically absorbing dust particle on the sail can initiate a thermal-runaway process that rapidly spreads and destroys the entire sail. We explore potential mitigation strategies, including increasing the in-plane thermal conductivity of the sail to reduce the peak temperature at hotspots and isolating the absorptive regions of the sail which can burn away individually. ",
+    "url": "https://arxiv.org/abs/2303.14165",
+    "authors": [
+      "Gabriel R. Jaffe",
+      "Gregory R. Holdman",
+      "Min Seok Jang",
+      "Demeng Feng",
+      "Mikhail A. Kats",
+      "Victor Watson Brar"
+    ],
+    "subjectives": [
+      "Space Physics (physics.space-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14180",
+    "title": "On-the-fly precision spectroscopy with a dual-modulated tunable diode  laser and Hz-level referencing to a cavity",
+    "abstract": "Advances in high-resolution laser spectroscopy have enabled many scientific breakthroughs in physics, chemistry, biology and astronomy. Optical frequency combs have pushed measurement limits with ultrahigh-frequency accuracy and fast-measurement speed while tunable diode laser spectroscopy is used in scenarios that require high power and continuous spectral coverage. Despite these advantages of tunable diode laser spectroscopy, it is challenging to precisely determine the instantaneous frequency of the laser because of fluctuations in the scan speed. Here we demonstrate a simple spectroscopy scheme with a frequency modulated diode laser that references the diode laser on-the-fly to a fiber cavity with sub-15 Hz frequency precision over an 11-THz range at a measurement speed of 1 THz/s. This is an improvement of more than two orders of magnitude compared to existing diode laser spectroscopy methods. Our scheme provides precise frequency calibration markers while simultaneously tracking the instantaneous scan speed of the laser. We demonstrate several applications, including dispersion measurement of an ultra-high-Q microresonator and spectroscopy of an HF gas cell, which can be used for absolute frequency referencing of the tunable diode laser. The simplicity, robustness and low costs of this spectroscopy scheme could prove extremely valuable for out-of-the-lab applications like LIDAR, gas spectroscopy and environmental monitoring. ",
+    "url": "https://arxiv.org/abs/2303.14180",
+    "authors": [
+      "Shuangyou Zhang",
+      "Toby Bi",
+      "Pascal Del'Haye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.14187",
+    "title": "Correction of storage ring optics with an improved closed-orbit  modulation method",
+    "abstract": "We improved a previously proposed method of using closed-orbit modulation for linear optics correction. Instead of fitting individual closed orbits, the improved method decomposes the orbit oscillation data into two orthogonal modes and fits the amplitudes of the modes at all BPMs. While the original method is limited to process around tens to a hundred orbits, the improved method can process thousands of orbits, which are easily available when alternating-current (AC) waveforms are applied to the two modulating correctors. The method has been experimentally demonstrated on the National Synchrotron Light Source (NSLS)-II storage ring. ",
+    "url": "https://arxiv.org/abs/2303.14187",
+    "authors": [
+      "Xiaobiao Huang",
+      "Xi Yang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13705",
+    "title": "Fundamental properties of beam-splitters in classical and quantum optics",
+    "abstract": "A lossless beam-splitter has certain (complex-valued) probability amplitudes for sending an incoming photon into one of two possible directions. We use elementary laws of classical and quantum optics to obtain general relations among the magnitudes and phases of these probability amplitudes. Proceeding to examine a pair of (nearly) single-mode wavepackets in the number-states |n1> and |n2> that simultaneously arrive at the splitter's input ports, we find the distribution of photon-number states at the output ports using an argument inspired by Feynman's scattering analysis of indistinguishable Bose particles. The result thus obtained coincides with that of the standard quantum-optical treatment of beam-splitters via annihilation and creation operators a and a{\\dag}. A simple application of the Feynman method provides a form of justification for the Bose enhancement implicit in the well-known formulas a|n>=sqrt(n)|n-1> and a{\\dag}|n>=sqrt(n+1)|n+1>. ",
+    "url": "https://arxiv.org/abs/2303.13705",
+    "authors": [
+      "Masud Mansuripur",
+      "Ewan M. Wright"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13784",
+    "title": "A quantum router model for directional single-photon routing based on  pathway coherence and phase difference",
+    "abstract": "A multi-channel quantum router with four nodal cavities is constructed by two coupled-resonator waveguides and four single cavities. We can achieve directional routing by adjusting the probability of photon exiting from the specified port to close to 100$\\%$. There are multiple pathways between the photon from the incident port to the outgoing port in this hybrid system. Under the effect of phase difference between two classical light fields, the mutual interference between different pathways can be adjusted to destructive interference or constructive interference, which lays the foundation for the increase and decrease of the routing probability. The influence of different parameter values on single photon routing probability is also studied. By studying the analytic formula of probability amplitude, we get the physical mechanism of exiting ports being closed under certain parameter conditions. ",
+    "url": "https://arxiv.org/abs/2303.13784",
+    "authors": [
+      "Xu Yang",
+      "Lei Tan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13987",
+    "title": "Space-time observation of the dynamics of soliton collisions in a  recirculating optical fiber loop",
+    "abstract": "We present experiments performed in a recirculating fiber loop in which we realize the single-shot observation of the space and time interaction of two and three bright solitons. The space-time evolutions observed in experiments provide clear evidence of a nearly-integrable nonlinear wave dynamics that can be easily interpreted within the framework of the inverse scattering transform (IST) method. In particular collisions between solitons are found to be almost perfectly elastic in the sense that they occur without velocity change and with only a position (time) shift quantitatively well described by numerical simulations of the integrable nonlinear Schr\\\"odinger equation. Additionally our experiments provide the evidence that the position (time) shifts arising from the interaction among three solitons are determined by elementary pairwise interactions, as it is well known in the IST theory. ",
+    "url": "https://arxiv.org/abs/2303.13987",
+    "authors": [
+      "Fran\u00e7ois Copie",
+      "Pierre Suret",
+      "St\u00e9phane Randoux"
+    ],
+    "subjectives": [
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:1911.07063",
+    "title": "Analytic approximations to the strengths of near-threshold optical  Feshbach resonances",
+    "abstract": " Comments: 12 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/1911.07063",
+    "authors": [
+      "Mateusz Borkowski"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.05577",
+    "title": "The role of fluctuations in quantum and classical time crystals",
+    "abstract": " Comments: 11 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2203.05577",
+    "authors": [
+      "Toni L. Heugel",
+      "Alexander Eichler",
+      "R. Chitra",
+      "Oded Zilberberg"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.05414",
+    "title": "Towards quantum turbulence theory: A simple model with interaction of  the vortex loops",
+    "abstract": " Comments: 20 pages ",
+    "url": "https://arxiv.org/abs/2207.05414",
+    "authors": [
+      "Sergei V. Talalov"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.06941",
+    "title": "Synthesizing the degree of polarization uniformity from  non-polarization-sensitive optical coherence tomography signals using a  neural network",
+    "abstract": " Title: Synthesizing the degree of polarization uniformity from  non-polarization-sensitive optical coherence tomography signals using a  neural network ",
+    "url": "https://arxiv.org/abs/2211.06941",
+    "authors": [
+      "Shuichi Makita",
+      "Masahiro Miura",
+      "Shinnosuke Azuma",
+      "Toshihiro Mino",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.17151",
+    "title": "Multi-contrast Jones-matrix optical coherence tomography -- the concept,  principle, implementation, and applications",
+    "abstract": " Title: Multi-contrast Jones-matrix optical coherence tomography -- the concept,  principle, implementation, and applications ",
+    "url": "https://arxiv.org/abs/2211.17151",
+    "authors": [
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.09212",
+    "title": "Spatial Decay and Limits of Quantum Solute-Solvent Interactions",
+    "abstract": " Title: Spatial Decay and Limits of Quantum Solute-Solvent Interactions ",
+    "url": "https://arxiv.org/abs/2301.09212",
+    "authors": [
+      "Guorong Weng",
+      "Amanda Pang",
+      "Vojtech Vlcek"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.09781",
+    "title": "Parallel random LiDAR with spatial multiplexing of a many-mode laser",
+    "abstract": " Comments: 12 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2301.09781",
+    "authors": [
+      "Kyungduk Kim",
+      "Yaniv Eliezer",
+      "Olivier Spitz",
+      "Hui Cao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.10051",
+    "title": "Mid-circuit measurements on a neutral atom quantum processor",
+    "abstract": " Comments: v2: additional references added ",
+    "url": "https://arxiv.org/abs/2303.10051",
+    "authors": [
+      "T. M. Graham",
+      "L. Phuttitarn",
+      "R. Chinnarasu",
+      "Y. Song",
+      "C. Poole",
+      "K. Jooya",
+      "J. Scott",
+      "A. Scott",
+      "P. Eichler",
+      "M. Saffman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
