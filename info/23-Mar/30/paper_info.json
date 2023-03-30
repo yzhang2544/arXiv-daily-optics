@@ -1,0 +1,344 @@
+[
+  {
+    "id": "arXiv:2303.16250",
+    "title": "Molecules in Environments: Towards Systematic Quantum Embedding of  Electrons and Drude Oscillators",
+    "abstract": "We develop a quantum embedding method that enables accurate and efficient treatment of interactions between molecules and an environment, while explicitly including many-body correlations. The molecule is composed of classical nuclei and quantum electrons, whereas the environment is modeled via charged quantum harmonic oscillators. We construct a general Hamiltonian and introduce a variational ansatz for the correlated ground state of the fully interacting molecule/environment system. This wavefunction is optimized via variational Monte Carlo and the ground state energy is subsequently estimated through diffusion Monte Carlo. The proposed scheme allows an explicit many-body treatment of electrostatic, polarization, and dispersion interactions between the molecule and the environment. We study solvation energies and excitation energies of benzene derivatives, obtaining excellent agreement with explicit ab initio calculations and experiment. ",
+    "url": "https://arxiv.org/abs/2303.16250",
+    "authors": [
+      "Matej Ditte",
+      "Matteo Barborini",
+      "Leonardo Medrano Sandonas",
+      "Alexandre Tkatchenko"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16312",
+    "title": "Quantum machine learning at record speed: Many-body distribution  functionals as compact representations",
+    "abstract": "The feature vector mapping used to represent chemical systems is a key factor governing the superior data-efficiency of kernel based quantum machine learning (QML) models applicable throughout chemical compound space. Unfortunately, the most accurate representations require a high dimensional feature mapping, thereby imposing a considerable computational burden on model training and use. We introduce compact yet accurate, linear scaling QML representations based on atomic Gaussian many-body distribution functionals (MBDF), and their derivatives. Weighted density functions (DF) of MBDF values are used as global representations which are constant in size, i.e. invariant with respect to the number of atoms. We report predictive performance and training data efficiency that is close to state of the art for two diverse datasets of organic molecules, QM9 and QMugs. Generalization capability has been investigated for atomization energies, HOMO-LUMO eigenvalues and gap, internal energies at 0 K, zero point vibrational energies, dipole moment norm, static isotropic polarizability, and heat capacity as encoded in QM9. MBDF based QM9 performance lowers the optimal Pareto front spanned between sampling and training cost to compute node minutes, effectively sampling chemical compound space with chemical accuracy at a speed of 37 molecules per core second. ",
+    "url": "https://arxiv.org/abs/2303.16312",
+    "authors": [
+      "Danish Khan",
+      "Stefan Heinen",
+      "O. Anatole von Lilienfeld"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16370",
+    "title": "Acoustic Metamaterial Beam Splitter",
+    "abstract": "This paper proposes an acoustic beam splitter based on acoustic Luneburg lens. A two-dimensional acoustic Luneburg lens with gradient refractive index is achieved to provide a practical realization for the acoustic beam splitter. The acoustic wave propagation through the beam splitter was explored theoretically, numerically and experimentally. Results show that three output channels can be achieved using a point source on the edge of the beam splitter in a broadband frequency range. Furthermore, the output channel directions can be tuned via changing the design parameter. ",
+    "url": "https://arxiv.org/abs/2303.16370",
+    "authors": [
+      "Liuxian Zhao"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16503",
+    "title": "Denoising Magnetic Resonance Spectroscopy (MRS) Data Using Stacked  Autoencoder for Improving Signal-to-Noise Ratio and Speed of MRS",
+    "abstract": "Background: Magnetic resonance spectroscopy (MRS) enables non-invasive detection and measurement of biochemicals and metabolites. However, MRS has low signal-to-noise ratio (SNR) when concentrations of metabolites are in the range of the million molars. Standard approach of using a high number of signal averaging (NSA) to achieve sufficient NSR comes at the cost of a long acquisition time. Purpose: We propose to use deep-learning approaches to denoise MRS data without increasing the NSA. Methods: The study was conducted using data collected from the brain spectroscopy phantom and human subjects. We utilized a stack auto-encoder (SAE) network to train deep learning models for denoising low NSA data (NSA = 1, 2, 4, 8, and 16) randomly truncated from high SNR data collected with high NSA (NSA=192) which were also used to obtain the ground truth. We applied both self-supervised and fully-supervised training approaches and compared their performance of denoising low NSA data based on improved SNRs. Results: With the SAE model, the SNR of low NSA data (NSA = 1) obtained from the phantom increased by 22.8% and the MSE decreased by 47.3%. For low NSA images of the human parietal and temporal lobes, the SNR increased by 43.8% and the MSE decreased by 68.8%. In all cases, the chemical shift of NAA in the denoised spectra closely matched with the high SNR spectra, suggesting no distortion to the spectra from denoising. Furthermore, the denoising performance of the SAE model was more effective in denoising spectra with higher noise levels. Conclusions: The reported SAE denoising method is a model-free approach to enhance the SNR of low NSA MRS data. With the denoising capability, it is possible to acquire MRS data with a few NSA, resulting in shorter scan times while maintaining adequate spectroscopic information for detecting and quantifying the metabolites of interest. ",
+    "url": "https://arxiv.org/abs/2303.16503",
+    "authors": [
+      "Jing Wang",
+      "Bing Ji",
+      "Yang Lei",
+      "Tian Liu",
+      "Hui Mao",
+      "Xiaofeng Yang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16546",
+    "title": "Ab initio calculated dynamic structure factor and optical properties of  beryllium along the Hugoniot",
+    "abstract": "Beryllium is an ablator material in the inertial-confinement fusion and hypervelocity impact studies. The thermoelastic properties, structure factors, and optical properties of beryllium are important in the study. In this paper, the static structure factors, ion-ion dynamic structure factors, adiabatic velocity, and optical properties of beryllium along the Hugoniot are calculated by ab initio simulations concurrently. The dynamic structure factor via the intermediate scattering function extracts the dispersion relation for the collective excitations. The static structure factors show that beryllium atoms are randomly distributed. By collecting the peak position of dynamic structure factors, the dispersion relation and adiabatic sound velocity are derived. By the calculated equation of state, the thermoelastic properties and adiabatic sound velocity are derived. The two calculated methods about adiabatic sound velocity are verified to be equivalent. ",
+    "url": "https://arxiv.org/abs/2303.16546",
+    "authors": [
+      "Wei-Jie Li",
+      "Jie Zhou",
+      "Zhe Ma",
+      "Zi Li",
+      "Yun-Liang Zhu",
+      "Han-Dong Hu",
+      "Hao Ma",
+      "Cong Wang",
+      "Ping Zhang"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16738",
+    "title": "Application of Distributed Fiber Optic Strain Sensors to LMQXFA Cold  Mass Welding",
+    "abstract": "The future High Luminosity upgrade of the Large Hadron Collider (HL-LHC) at CERN will include the low-beta inner triplets (Q1, Q2a/b, Q3) for two LHC insertion regions. The Q1, Q3 components consist of eight 10 m-long LMQXFA cryo-assemblies fabricated by the HL-LHC Accelerator Upgrade Project. Each LMQXFA Cold mass contains two Nb3Sn magnets connected in series. A stainless-steel shell is welded around the two magnets before the insertion into the cryostat. There is a limit on how much coil preload increase induced by the shell welding is allowed. Distributed Rayleigh backscattering fiber optics sensors were used for the first time to obtain a strain map over a wide area of a Nb3Sn magnet cold mass shell. Data were collected during welding of the first LMQXFA cold mass and the results confirm that the increase of the coil pole azimuthal pre-stress after welding do not exceed requirements. ",
+    "url": "https://arxiv.org/abs/2303.16738",
+    "authors": [
+      "M. Baldini",
+      "S. Krave",
+      "R. Bossert",
+      "S. Feher",
+      "T. Strauss",
+      "A. Vouris"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16758",
+    "title": "Acoustic Transmission Loss in Hilbert Fractal Metamaterials",
+    "abstract": "Acoustic metamaterials are increasingly being considered as a viable technology for sound insulation. Fractal patterns constitute a potentially groundbreaking architecture for acoustic metamaterials. We describe in this work the behaviour of the transmission loss of Hilbert fractal metamaterials used for sound control purposes. The transmission loss of 3D printed metamaterials with Hilbert fractal patterns related to configurations from the zeroth to the fourth order is investigated here using impedance tube tests and Finite Element models. We evaluate, in particular, the impact of the equivalent porosity and the relative size of the cavity of the fractal pattern versus the overall dimensions of the metamaterial unit. We also provide an analytical formulation that relates the acoustic cavity resonances in the fractal patterns and the frequencies associated with the maxima of the transmission losses, providing opportunities to tune the sound insulation properties through control of the fractal architecture. ",
+    "url": "https://arxiv.org/abs/2303.16758",
+    "authors": [
+      "Gianni Comandini",
+      "Morvan Ouisse",
+      "Valeska P. Ting",
+      "Fabrizio Scarpa"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16283",
+    "title": "Database of semiconductor point-defect properties for applications in  quantum technologies",
+    "abstract": "Solid-state point defects are attracting increasing attention in the field of quantum information science, because their localized states can act as a spin-photon interface in devices that store and transfer quantum information, which have been used for applications in quantum computing, sensing, and networking. In this work we have performed high-throughput calculations of over 50,000 point defects in various semiconductors including diamond, silicon carbide, and silicon. Focusing on quantum applications, we characterize the relevant optical and electronic properties of these defects, including formation energies, spin characteristics, transition dipole moments, zero-phonon lines. We find 2331 composite defects which are stable in intrinsic silicon, which are then filtered to identify many new optically bright telecom spin qubit candidates and single-photon sources. All computed results and relaxed defect structures are made publicly available online at quantumdefects.com, a living database of defect characteristics which will be continually expanded with new defects and properties, and will enable researchers to select defects tailored to their applications. ",
+    "url": "https://arxiv.org/abs/2303.16283",
+    "authors": [
+      "Vsevolod Ivanov",
+      "Alexander Ivanov",
+      "Jacopo Simoni",
+      "Prabin Parajuli",
+      "Boubacar Kant\u00e9",
+      "Thomas Schenkel",
+      "Liang Tan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16358",
+    "title": "Quantum computing with trapped ions: a beginner's guide",
+    "abstract": "This pedagogical article explains the basics of quantum computing using one of the most-used platform for scalable quantum computers: trapped ions. The suitability of the solution is addressed by showing its performance towards DiVincenzo criteria. ",
+    "url": "https://arxiv.org/abs/2303.16358",
+    "authors": [
+      "Francesco Bernardini",
+      "Abhijit Chakraborty",
+      "Carlos Ord\u00f3\u00f1ez"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16490",
+    "title": "Quantum algorithm for collisionless Boltzmann simulation of  self-gravitating systems",
+    "abstract": "The collisionless Boltzmann equation (CBE) is a fundamental equation that governs the dynamics of a broad range of astrophysical systems from space plasma to star clusters and galaxies. It is computationally expensive to integrate the CBE directly in a phase space, and thus the applications to realistic astrophysical problems have been limited so far. Recently, Todorova \\& Steijl (2020) proposed an efficient quantum algorithm for solving the CBE with a significantly reduced computational complexity. We extend the method to perform quantum simulations that follow the evolution of self-gravitating systems. We first run a 1+1 dimensional test calculation of free streaming motion on 64$\\times$64 grids using 13 simulated qubits and validate our method. We then perform simulations of Jeans collapse, and compare the result with analytic and linear theory calculations. We propose a direct method to generate initial conditions as well as a method to retrieve necessary information from a register of multiple qubits. Our simulation scheme achieves $\\mathcal{O}(N_v^3)$ less computational complexity than the classical method, where $N_v$ is the number of discrete velocity grids per dimension. It will thus allow us to perform large-scale CBE simulations on future quantum computers. ",
+    "url": "https://arxiv.org/abs/2303.16490",
+    "authors": [
+      "Soichiro Yamazaki",
+      "Fumio Uchida",
+      "Kotaro Fujisawa",
+      "Naoki Yoshida"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "Computational Physics (physics.comp-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16550",
+    "title": "Potential quantum advantage for simulation of fluid dynamics",
+    "abstract": "Numerical simulation of turbulent fluid dynamics needs to either parameterize turbulence-which introduces large uncertainties-or explicitly resolve the smallest scales-which is prohibitively expensive. Here we provide evidence through analytic bounds and numerical studies that a potential quantum exponential speedup can be achieved to simulate the Navier-Stokes equations governing turbulence using quantum computing. Specifically, we provide a formulation of the lattice Boltzmann equation for which we give evidence that low-order Carleman linearization is much more accurate than previously believed for these systems and that for computationally interesting examples. This is achieved via a combination of reformulating the nonlinearity and accurately linearizing the dynamical equations, effectively trading nonlinearity for additional degrees of freedom that add negligible expense in the quantum solver. Based on this we apply a quantum algorithm for simulating the Carleman-linerized lattice Boltzmann equation and provide evidence that its cost scales logarithmically with system size, compared to polynomial scaling in the best known classical algorithms. This work suggests that an exponential quantum advantage may exist for simulating fluid dynamics, paving the way for simulating nonlinear multiscale transport phenomena in a wide range of disciplines using quantum computing. ",
+    "url": "https://arxiv.org/abs/2303.16550",
+    "authors": [
+      "Xiangyu Li",
+      "Xiaolong Yin",
+      "Nathan Wiebe",
+      "Jaehun Chun",
+      "Gregory K. Schenter",
+      "Margaret S. Cheung",
+      "Johannes M\u00fclmenst\u00e4dt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16609",
+    "title": "Modified watershed approach for segmentation of complex optical  coherence tomographic images",
+    "abstract": "Watershed segmentation method has been used in various applications. But many a times, due to its over-segmentation attributes, it underperforms in several tasks where noise is a dominant source. In this study, Optical Coherence Tomography images have been acquired, and segmentation has been performed to analyse the different regions of fluid filled sacs in a lemon. A modified watershed algorithm has been proposed which gives promising results for segmentation of internal lemon structures. ",
+    "url": "https://arxiv.org/abs/2303.16609",
+    "authors": [
+      "Maryam Viqar",
+      "Violeta Madjarova",
+      "Elena Stoykova"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16671",
+    "title": "Towards responsible quantum technology, safeguarding, engaging and  advancing Quantum R&D",
+    "abstract": "The expected societal impact of quantum technologies (QT) urges us to proceed and innovate responsibly. This article proposes a conceptual framework for Responsible QT that seeks to integrate considerations about ethical, legal, social, and policy implications (ELSPI) into quantum R&D, while responding to the Responsible Research and Innovation dimensions of anticipation, inclusion, reflection and responsiveness. After examining what makes QT unique, we argue that quantum innovation should be guided by a methodological framework for Responsible QT, aimed at jointly safeguarding against risks by proactively addressing them, engaging stakeholders in the innovation process, and continue advancing QT (SEA). We further suggest operationalizing the SEA-framework by establishing quantum-specific guiding principles. The impact of quantum computing on information security is used as a case study to illustrate (1) the need for a framework that guides Responsible QT, and (2) the usefulness of the SEA-framework for QT generally. Additionally, we examine how our proposed SEA-framework for responsible innovation can inform the emergent regulatory landscape affecting QT, and provide an outlook of how regulatory interventions for QT as base-layer technology could be designed, contextualized, and tailored to their exceptional nature in order to reduce the risk of unintended counterproductive effects of policy interventions. Laying the groundwork for a responsible quantum ecosystem, the research community and other stakeholders are called upon to further develop the recommended guiding principles, and discuss their operationalization into best practices and real-world applications. Our proposed framework should be considered a starting point for these much needed, highly interdisciplinary efforts. ",
+    "url": "https://arxiv.org/abs/2303.16671",
+    "authors": [
+      "Mauritz Kop",
+      "Mateo Aboy",
+      "Eline De Jong",
+      "Urs Gasser",
+      "Timo Minssen",
+      "I. Glenn Cohen",
+      "Mark Brongersma",
+      "Teresa Quintel",
+      "Luciano Floridi",
+      "Raymond Laflamme"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16850",
+    "title": "On the origin and elimination of cross coupling between tunneling  current and excitation in scanning probe experiments that utilize the qPlus  sensor",
+    "abstract": "The qPlus sensor allows simultaneous measurements of scanning tunneling microscopy (STM) and atomic force microscopy (AFM). Its design for use in frequency modulation AFM (FM-AFM) involves separate electrodes, applied on an oscillating quartz cantilever, for the detection of an electronic tunneling current and the deflection signal. Cable resistance and capacities in the electronic setup can induce cross talk phenomena. We report a tunneling current-induced cross coupling observed in a combined STM/AFM setup which uses the qPlus sensor. This cross coupling can induce a positive or negative change of the amplitude excitation signal, thus acting as an apparent dissipation or drive. The experimental data is explained well by tunneling current-induced fluctuations of the electric potential on the sensor electrodes. ",
+    "url": "https://arxiv.org/abs/2303.16850",
+    "authors": [
+      "Michael Schelchshorn",
+      "Fabian Stilp",
+      "Marco Weiss",
+      "Franz J. Giessibl"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:1601.00618",
+    "title": "On the possible new 750 GeV heavy boson resonance at the LHC",
+    "abstract": " Comments: v4: ref. D. Palle, \"W boson mass anomaly and noncontractibility of the physical space\" added ",
+    "url": "https://arxiv.org/abs/1601.00618",
+    "authors": [
+      "Davor Palle"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "High Energy Physics - Phenomenology (hep-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.12754",
+    "title": "Ion and Electron Acoustic Bursts during Anti-Parallel Magnetic  Reconnection Driven by Lasers",
+    "abstract": " Title: Ion and Electron Acoustic Bursts during Anti-Parallel Magnetic  Reconnection Driven by Lasers ",
+    "url": "https://arxiv.org/abs/2209.12754",
+    "authors": [
+      "Shu Zhang",
+      "Abraham Chien",
+      "Lan Gao",
+      "Hantao Ji",
+      "Eric G. Blackman",
+      "Russ Follett",
+      "Dustin H. Froula",
+      "Joseph Katz",
+      "Chikang Li",
+      "Andrew Birkel",
+      "Richard Petrasso",
+      "John Moody",
+      "Hui Chen"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.15628",
+    "title": "Quantum-enhanced absorption spectroscopy with bright squeezed frequency  combs",
+    "abstract": " Comments: 7 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2209.15628",
+    "authors": [
+      "Alexandre Belsley"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.05514",
+    "title": "Scanning cavity microscopy of a single-crystal diamond membrane",
+    "abstract": " Title: Scanning cavity microscopy of a single-crystal diamond membrane ",
+    "url": "https://arxiv.org/abs/2210.05514",
+    "authors": [
+      "Jonathan K\u00f6rber",
+      "Maximilian Pallmann",
+      "Julia Heupel",
+      "Rainer St\u00f6hr",
+      "Evgenij Vasilenko",
+      "Thomas H\u00fcmmer",
+      "Larissa Kohler",
+      "Cyril Popov",
+      "David Hunger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.05669",
+    "title": "Coastal Kelvin Mode and the Fractional Quantum Hall Edge",
+    "abstract": " Comments: 7 pages, 1 figure, v2 with minor typos fixed ",
+    "url": "https://arxiv.org/abs/2303.05669",
+    "authors": [
+      "Gustavo M. Monteiro",
+      "Sriram Ganeshan"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.12544",
+    "title": "Ultra-fast detection of the center frequency of a spectral line from  amplitude-weighted average",
+    "abstract": " Comments: 4 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2303.12544",
+    "authors": [
+      "Ilja Fescenko"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  }
+]
