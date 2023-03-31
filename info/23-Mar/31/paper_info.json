@@ -1,0 +1,309 @@
+[
+  {
+    "id": "arXiv:2303.16982",
+    "title": "Highly Accurate Quantum Chemical Property Prediction with Uni-Mol+",
+    "abstract": "Recent developments in deep learning have made remarkable progress in speeding up the prediction of quantum chemical (QC) properties by removing the need for expensive electronic structure calculations like density functional theory. However, previous methods that relied on 1D SMILES sequences or 2D molecular graphs failed to achieve high accuracy as QC properties are primarily dependent on the 3D equilibrium conformations optimized by electronic structure methods. In this paper, we propose a novel approach called Uni-Mol+ to tackle this challenge. Firstly, given a 2D molecular graph, Uni-Mol+ generates an initial 3D conformation from inexpensive methods such as RDKit. Then, the initial conformation is iteratively optimized to its equilibrium conformation, and the optimized conformation is further used to predict the QC properties. All these steps are automatically learned using Transformer models. We observed the quality of the optimized conformation is crucial for QC property prediction performance. To effectively optimize conformation, we introduce a two-track Transformer model backbone in Uni-Mol+ and train it together with the QC property prediction task. We also design a novel training approach called linear trajectory injection to ensure proper supervision for the Uni-Mol+ learning process. Our extensive benchmarking results demonstrate that the proposed Uni-Mol+ significantly improves the accuracy of QC property prediction. We have made the code and model publicly available at \\url{https://github.com/dptech-corp/Uni-Mol}. ",
+    "url": "https://arxiv.org/abs/2303.16982",
+    "authors": [
+      "Shuqi Lu",
+      "Zhifeng Gao",
+      "Di He",
+      "Linfeng Zhang",
+      "Guolin Ke"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17079",
+    "title": "Inverse-designed Silicon Carbide Quantum and Nonlinear Photonics",
+    "abstract": "Inverse design has revolutionized the field of photonics, enabling automated development of complex structures and geometries with unique functionalities unmatched by classical design. However, the use of inverse design in nonlinear photonics has been limited. In this work, we demonstrate quantum and classical nonlinear light generation in silicon carbide nanophotonic inverse-designed Fabry-P\\'erot cavities. We achieve ultra-low reflector losses while targeting a pre-specified anomalous dispersion to reach optical parametric oscillation. By controlling dispersion through inverse design, we target a second-order phase-matching condition to realize second- and third-order nonlinear light generation in our devices, thereby extending stimulated parametric processes into the visible spectrum. This first realization of computational optimization for nonlinear light generation highlights the power of inverse design for nonlinear optics, in particular when combined with highly nonlinear materials such as silicon carbide. ",
+    "url": "https://arxiv.org/abs/2303.17079",
+    "authors": [
+      "Joshua Yang",
+      "Melissa A. Guidry",
+      "Daniil M. Lukin",
+      "Kiyoul Yang",
+      "Jelena Vu\u010dkovi\u0107"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17116",
+    "title": "Quantum Commutation Relationship for Photonic Orbital Angular Momentum",
+    "abstract": "Orbital Angular Momentum (OAM) of photons are already ubiquitously being used for numerous applications. However, there is a fundamental question whether photonic OAM operators satisfy standard quantum mechanical commutation relationship or not; this also poses a serious concern on the interpretation of an optical vortex as a fundamental quantum degree of freedom. Here, we examined canonical angular momentum operators defined in a cylindrical coordinate, and applied them to Laguerre-Gauss (LG) modes in a graded index (GRIN) fibre. We confirmed the validity of commutation relationship for the LG modes and found that ladder operators also work properly with the increment or decrement in units of the Dirac constant ($\\hbar$). With those operators, we calculated the quantum-mechanical expectation value of the magnitude of angular momentum, which includes contributions from both intrinsic and extrinsic OAM. The obtained results suggest that OAM characterised by the LG modes exhibits a well-defined quantum degree of freedom. ",
+    "url": "https://arxiv.org/abs/2303.17116",
+    "authors": [
+      "Shinichi Saito"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17135",
+    "title": "Classifying topology in photonic heterostructures with gapless  environments",
+    "abstract": "Photonic topological insulators exhibit bulk-boundary correspondence, which requires that boundary-localized states appear at the interface formed between topologically distinct insulating materials. However, many topological photonic devices share a boundary with free space, which raises a subtle but critical problem as free space is gapless for photons above the light-line. Here, we use a local theory of topological materials to resolve bulk-boundary correspondence in heterostructures containing gapless materials. In particular, we construct the heterostructure's spectral localizer, a composite operator based on the system's real-space description that provides a local marker for the system's topology and a corresponding local measure of its topological protection; both quantities are independent of the material's bulk band gap (or lack thereof). We demonstrate this approach's versatility in both tight-binding models and 2D photonic crystals. Ultimately, we show how to calculate topological invariants, quantify topological protection, and locate topological boundary-localized resonances in systems that interface with gapless media. ",
+    "url": "https://arxiv.org/abs/2303.17135",
+    "authors": [
+      "Kahlil Y. Dixon",
+      "Terry A. Loring",
+      "Alexander Cerjan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17164",
+    "title": "Optical information transfer through random unknown diffusers using  electronic encoding and diffractive decoding",
+    "abstract": "Free-space optical information transfer through diffusive media is critical in many applications, such as biomedical devices and optical communication, but remains challenging due to random, unknown perturbations in the optical path. In this work, we demonstrate an optical diffractive decoder with electronic encoding to accurately transfer the optical information of interest, corresponding to, e.g., any arbitrary input object or message, through unknown random phase diffusers along the optical path. This hybrid electronic-optical model, trained using supervised learning, comprises a convolutional neural network (CNN) based electronic encoder and successive passive diffractive layers that are jointly optimized. After their joint training using deep learning, our hybrid model can transfer optical information through unknown phase diffusers, demonstrating generalization to new random diffusers never seen before. The resulting electronic-encoder and the optical-decoder model were experimentally validated using a 3D-printed diffractive network that axially spans less than 70 x lambda, where lambda = 0.75 mm is the illumination wavelength in the terahertz spectrum, carrying the desired optical information through random unknown diffusers. The presented framework can be physically scaled to operate at different parts of the electromagnetic spectrum, without retraining its components, and would offer low-power and compact solutions for optical information transfer in free space through unknown random diffusive media. ",
+    "url": "https://arxiv.org/abs/2303.17164",
+    "authors": [
+      "Yuhang Li",
+      "Tianyi Gan",
+      "Bijie Bai",
+      "Cagatay Isil",
+      "Mona Jarrahi",
+      "Aydogan Ozcan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17307",
+    "title": "Quantifying and mitigating optical surface loss in suspended GaAs  photonic integrated circuits",
+    "abstract": "Understanding and mitigating optical loss is critical to the development of high-performance photonic integrated circuits (PICs). Especially in high refractive index contrast compound semiconductor (III-V) PICs, surface absorption and scattering can be a significant loss mechanism, and needs to be suppressed. Here, we quantify the optical propagation loss due to surface state absorption in a suspended GaAs photonic integrated circuits (PIC) platform, probe its origins using X-ray photoemission spectroscopy (XPS) and spectroscopic ellipsometry (SE), and show that it can be mitigated by surface passivation using alumina ($Al_{2}O_{3}$). We also explore potential routes towards achieving passive device performance comparable to state-of-the-art silicon PICs ",
+    "url": "https://arxiv.org/abs/2303.17307",
+    "authors": [
+      "Robert Thomas",
+      "Haoyang Li",
+      "Jude Laverock",
+      "Krishna C. Balram"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17411",
+    "title": "Optical Efficiency Measurements of Large Area Luminescent Solar  Concentrators",
+    "abstract": "Luminescent solar concentrators (LSCs) are able to concentrate both direct and diffuse solar radiation and this ability has led to great interest in using them to improve solar energy capture when coupled to traditional photovoltaics (PV). In principle, a large area LSC could concentrate light onto a much smaller area of PV, thus reducing costs or enabling new architectures. However, LSCs suffer from various optical losses which are hard to quantify using simple measurements of power conversion efficiency. Here, we show that spatially resolved photoluminescence quantum efficiency measurements on large area LSCs can be used to resolve various losses processes such as out-coupling, self-absorption via emitters and self-absorption from the LSC matrix. Further, these measurements allow for the extrapolation of device performance to arbitrarily large LSCs. Our results provide insight into the optimization of optical properties and guide the design of future LSCs for improved solar energy capture. ",
+    "url": "https://arxiv.org/abs/2303.17411",
+    "authors": [
+      "Tomi K. Baikie",
+      "James Xiao",
+      "Bluebell Drummond",
+      "Neil C. Greenham",
+      "Akshay Rao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17444",
+    "title": "X-ray imaging with Micromegas detectors with optical readout",
+    "abstract": "In the last years, optical readout of Micromegas gaseous detectors has been achieved by implementing a Micromegas detector on a glass anode coupled to a CMOS camera. Effective X-ray radiography was demonstrated using integrated imaging approach. High granularity values have been reached for low-energy X-rays from radioactive sources and X-ray generators. Detector characterization with X-ray radiography has led to two applications: neutron imaging for non-destructive examination of highly gamma-ray emitting objects and beta imaging for the single cell activity tagging in the field of oncology drug studies. First measurements investigating the achievable spatial resolution of the glass Micromegas detector at the SOLEIL synchrotron facility with a high-intensity and flat irradiation field will be shown in this article. ",
+    "url": "https://arxiv.org/abs/2303.17444",
+    "authors": [
+      "A. Cools",
+      "S. Aune",
+      "F. Beau",
+      "F.M. Brunbauer",
+      "T. Benoit",
+      "D. Desforge",
+      "E. Ferrer-Ribas",
+      "A. Kallitsopoulou",
+      "C. Malgorn",
+      "E. Oliveri",
+      "T. Papaevangelou",
+      "E.C. Pollacco",
+      "L. Ropelewski",
+      "A. Sari",
+      "F.J. Iguaz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17456",
+    "title": "Prospects for optical clocks combining high sensitivity to new physics  with insensitivity to perturbations; the case of Sb$^{+}$, Au$^{+}$, and  Hg$^{2+}$",
+    "abstract": "Our study is motivated by the prospect of several metastable states in the Sb$ ^{+} $, Au$ ^{+} $, and Hg$ ^{2+} $ ions being used as possible candidates for optical clocks. We calculate several atomic properties relevant to the development of optical clocks for those clock transitions using two different approaches of relativistic many-body calculations, configuration interaction with single-double coupled-cluster (CI+SD) method, and configuration interaction with perturbation theory (CIPT) method. Our results demonstrate that the relative black body radiation shifts for these transitions are small, $ \\sim 10 ^{-16} $. It is also found that there is considerable sensitivity to new physics, as evidenced by a significant enhancement of the effect of the time variation of the fine structure constant $\\alpha$ on the frequencies of the clock transitions. The corresponding factor ranges from -5.56 to 2.20. Our results are compared with available previous data. ",
+    "url": "https://arxiv.org/abs/2303.17456",
+    "authors": [
+      "Saleh O. Allehabi",
+      "V. A. Dzuba",
+      "V. V. Flambaum"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17224",
+    "title": "Satellite-based entanglement distribution and quantum teleportation with  continuous variables",
+    "abstract": "Advances in satellite quantum communications aim at reshaping the global telecommunication network by increasing the security of the transferred information. Here, we study the effects of atmospheric turbulence in continuous-variable entanglement distribution and quantum teleportation in the optical regime between a ground station and a satellite. More specifically, we study the degradation of entanglement due to various error sources in the distribution, namely, diffraction, atmospheric attenuation, turbulence, and detector inefficiency, in both downlink and uplink scenarios. As the fidelity of a quantum teleportation protocol using these distributed entangled resources is not sufficient, we include an intermediate station for either state generation, or beam refocusing, in order to reduce the effects of atmospheric turbulence and diffraction, respectively. The results show the feasibility of free-space entanglement distribution and quantum teleportation in downlink paths up to the LEO region, but also in uplink paths with the help of the intermediate station. Finally, we complete the study with microwave-optical comparison in bad weather situations, and with the study of horizontal paths in ground-to-ground and inter-satellite quantum communication. ",
+    "url": "https://arxiv.org/abs/2303.17224",
+    "authors": [
+      "Tasio Gonzalez-Raya",
+      "Stefano Pirandola",
+      "Mikel Sanz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17470",
+    "title": "Quantum Phases from Competing van der Waals and Dipole-Dipole  Interactions of Rydberg Atoms",
+    "abstract": "Competing short- and long-range interactions represent distinguished ingredients for the formation of complex quantum many-body phases. In this regard, Rydberg atoms are promising as their excited manifold of states have both density-density and exchange interactions whose strength and range can vary considerably. Focusing on one-dimensional systems, we leverage the van der Waals and dipole-dipole interactions of the Rydberg atoms to obtain the zero-temperature phase diagram for a uniform chain and a dimer model. For the uniform chain, we can influence the boundaries between ordered phases and Luttinger liquid while for the dimerized case, a new type of bond-order-density-wave phase is identified, all of which highlights the versatility of the Rydberg platform in studying physics involving short- and long-ranged interactions simultaneously. ",
+    "url": "https://arxiv.org/abs/2303.17470",
+    "authors": [
+      "Zeki Zeybek",
+      "Rick Mukherjee",
+      "Peter Schmelcher"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.08504",
+    "title": "An electronic-based model of the optical nonlinearity of  low-electron-density-Drude materials",
+    "abstract": " Title: An electronic-based model of the optical nonlinearity of  low-electron-density-Drude materials ",
+    "url": "https://arxiv.org/abs/2210.08504",
+    "authors": [
+      "Ieng Wai Un",
+      "Subhajit Sarkar",
+      "Yonatan Sivan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.03233",
+    "title": "Fitting a Collider in a Quantum Computer: Tackling the Challenges of  Quantum Machine Learning for Big Datasets",
+    "abstract": " Comments: To be submitted to EPJC. Code available in this https URL ",
+    "url": "https://arxiv.org/abs/2211.03233",
+    "authors": [
+      "Miguel Ca\u00e7ador Peixoto",
+      "Nuno Filipe Castro",
+      "Miguel Crispim Rom\u00e3o",
+      "Maria Gabriela Jord\u00e3o Oliveira",
+      "In\u00eas Ochoa"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.06061",
+    "title": "Dichromatic breather molecules in a mode-locked fiber laser",
+    "abstract": " Comments: to be published in Phys. Rev. Lett ",
+    "url": "https://arxiv.org/abs/2211.06061",
+    "authors": [
+      "Yudong Cui1",
+      "Yusheng Zhang",
+      "Lin Huang",
+      "Aiguo Zhang",
+      "Zhiming Liu",
+      "Cuifang Kuang",
+      "Chenning Tao",
+      "Daru Chen",
+      "Xu Liu",
+      "Boris A. Malomed"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.08195",
+    "title": "Towards Improved Quantum Simulations and Sensing with Trapped 2D Ion  Crystals via Parametric Amplification",
+    "abstract": " Comments: 11 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2301.08195",
+    "authors": [
+      "Matt Affolter",
+      "Wenchao Ge",
+      "Bryce Bullock",
+      "Shaun C. Burd",
+      "Kevin A. Gilmore",
+      "Jennifer F. Lilieholm",
+      "Allison L. Carter",
+      "John J. Bollinger"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.06212",
+    "title": "Quantum Key Distribution Using a Quantum Emitter in Hexagonal Boron  Nitride",
+    "abstract": " Title: Quantum Key Distribution Using a Quantum Emitter in Hexagonal Boron  Nitride ",
+    "url": "https://arxiv.org/abs/2302.06212",
+    "authors": [
+      "Ali Al-Juboori",
+      "Helen Zhi Jie Zeng",
+      "Minh Anh Phan Nguyen",
+      "Xiaoyu Ai",
+      "Arne Laucht",
+      "Alexander Solntsev",
+      "Milos Toth",
+      "Robert Malaney",
+      "Igor Aharonovich"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.14793",
+    "title": "TREXIO: A File Format and Library for Quantum Chemistry",
+    "abstract": " Comments: 13 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2302.14793",
+    "authors": [
+      "Evgeny Posenitskiy",
+      "Vijay Gopal Chilkuri",
+      "Abdallah Ammar",
+      "Micha\u0142 Hapka",
+      "Katarzyna Pernal",
+      "Ravindra Shinde",
+      "Edgar Josu\u00e9 Landinez Borda",
+      "Claudia Filippi",
+      "Kosuke Nakano",
+      "Otto Kohul\u00e1k",
+      "Sandro Sorella",
+      "Pablo de Oliveira Castro",
+      "William Jalby",
+      "Pablo L\u00f3pez R\u0131\u00f3s",
+      "Ali Alavi",
+      "Anthony Scemama"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
