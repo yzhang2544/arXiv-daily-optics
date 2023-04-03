@@ -1,0 +1,422 @@
+[
+  {
+    "id": "arXiv:2303.17652",
+    "title": "Dispersion engineering of infrared epsilon-near-zero modes by strong  coupling to optical cavities",
+    "abstract": "Epsilon-near-zero (ENZ) materials have recently emerged as a promising platform for infrared nanophotonics. A significant challenge in the design of ENZ-based optics is to control the dispersion of ENZ modes, which otherwise have a flat profile near the ENZ frequency. Strong coupling with an optical cavity is a promising approach to ENZ dispersion engineering, which however has limitations due to the lack of tunability or nanofabrication demands of the cavity employed. Here, we theoretically and numerically show that much of the limitations of previous demonstrations can be overcome by strongly coupling the ENZ mode to an unpatterned Fabry-Perot cavity. We demonstrate this unprecedented ENZ dispersion control in coupled cavities by designing tunable infrared polarizers that can absorb s- and reflect p-polarized components, or vice versa, for almost any oblique angle of incidence, i.e. omnidirectional polarizers. The feasibility of active control is also demonstrated using a phase change material within the cavity, which predicts dynamic switchability of polariton dispersions across multiple resonant levels at mid-infrared wavelengths. These results are expected to advance the current understanding of strongly coupled ENZ interactions and demonstrate their potential in tailoring dispersions for active and passive control of light. ",
+    "url": "https://arxiv.org/abs/2303.17652",
+    "authors": [
+      "Ben Johns"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17883",
+    "title": "Single-ended Recovery of Optical fiber Transmission Matrices using  Neural Networks",
+    "abstract": "Ultra-thin multimode optical fiber imaging technology promises next-generation medical endoscopes that provide high image resolution deep in the body (e.g. blood vessels, brain). However, this technology suffers from severe optical distortion. The fiber's transmission matrix (TM) calibrates for this distortion but is sensitive to bending and temperature so must be measured immediately prior to imaging, i.e. \\emph{in vivo} and thus with access to a single end only. We present a neural network (NN)-based approach that quickly reconstructs transmission matrices based on multi-wavelength reflection-mode measurements. We introduce a custom loss function insensitive to global phase-degeneracy that enables effective NN training. We then train two different NN architectures, a fully connected NN and convolutional U-Net, to reconstruct $64\\times64$ complex-valued fiber TMs through a simulated single-ended optical fiber with $\\leq 4\\%$ error. This enables image reconstruction with $\\leq 8\\%$ error. This TM recovery approach shows advantages compared to conventional TM recovery methods: 4500 times faster; robustness to 6\\% fiber perturbation during characterization; operation with non-square TMs and no requirement for prior characterization of reflectors. ",
+    "url": "https://arxiv.org/abs/2303.17883",
+    "authors": [
+      "Yijie Zheng",
+      "George S. D. Gordon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17964",
+    "title": "Slice-Less Optical Arbitrary Waveform Measurement (OAWM) in a Bandwidth  of More than 600 GHz Using Soliton Microcombs",
+    "abstract": "We propose and demonstrate a novel scheme for optical arbitrary waveform measurement (OAWM) that exploits chip-scale Kerr soliton combs as highly scalable multiwavelength local oscillators (LO) for ultra-broadband full-field waveform acquisition. In contrast to earlier concepts, our approach does not require any optical slicing filters and thus lends itself to efficient implementation on state-of-the-art high-index-contrast integration platforms such as silicon photonics. The scheme allows to measure truly arbitrary waveforms with high accuracy, based on a dedicated system model which is calibrated by means of a femtosecond laser with known pulse shape. We demonstrated the viability of the approach in a proof-of-concept experiment by capturing an optical waveform that contains multiple 16 QAM and 64 QAM wavelength-division multiplexed (WDM) data signals with symbol rates of up to 80 GBd, reaching overall line rates of up to 1.92 Tbit/s within an optical acquisition bandwidth of 610 GHz. To the best of our knowledge, this is the highest bandwidth that has so far been demonstrated in an OAWM experiment. ",
+    "url": "https://arxiv.org/abs/2303.17964",
+    "authors": [
+      "Daniel Drayss",
+      "Dengyang Fang",
+      "Christoph F\u00fcllner",
+      "Grigory Lihachev",
+      "Thomas Henauer",
+      "Yung Chen",
+      "Huanfa Peng",
+      "Pablo Marin-Palomo",
+      "Thomas Zwick",
+      "Wolfgang Freude",
+      "Tobias J. Kippenberg",
+      "Sebastian Randel",
+      "Christian Koos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17996",
+    "title": "Definition of tolerances and corrector strengths for the orbit control  of the High-Energy Booster ring of the future electro-positron collider",
+    "abstract": "After the discovery of the Higgs boson at the LHC, particle physics community is exploring and proposing next accelerators, to address the remaining open questions on the underlying mechanisms and constituents of the present universe. One of the studied possibilities is FCC (Future Circular Collider), a 100 km long collider at CERN. The feasibility study of this future proposed accelerator implies the definition of tolerances on magnets imperfections and of the strategies of correction in order to guarantee the target performances of the High Energy Booster ring. The efficiency of the correction scheme, used to control the orbit, directly bounds the corrector needs and magnet tolerances. Analytic formulae give a first estimation of the average rms value of the required linear correctors' strengths and of the allowed magnets misalignments and field quality along the entire ring. The distribution of the correctors along the ring is simulated in order to verify the quality of the residual orbit after the proposed correction strategy and compared with the analytical predictions. First specifications of the orbit correctors strength and tolerances for the alignment of the main elements of the ring are presented. The limits of the studied correction scheme and method are also discussed. ",
+    "url": "https://arxiv.org/abs/2303.17996",
+    "authors": [
+      "Barbara Dalena",
+      "Tatiana Da Silva",
+      "Antoine Chance",
+      "Adnan Ghribi"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18107",
+    "title": "Increasing the Field-of-View Radiation Efficiency of Optical Phased  Antenna Arrays",
+    "abstract": "Silicon photonics in conjunction with complementary metal-oxide-semiconductor (CMOS) fabrication has greatly enhanced the development of integrated optical phased arrays. This facilitates a dynamic control of light in a compact form factor that enables the synthesis of arbitrary complex wavefronts in the infrared spectrum. We numerically demonstrate a large-scale two dimensional silicon-based optical phased array (OPA) composed of nanoantennas with circular gratings that are balanced in power and aligned in phase, required for producing elegant radiation patterns in the far field. For a wavelength of 1.55$\\mu m$, we optmize two antennas for the OPA exhibting an upward radiation efficiency as high as 90%, with almost 6.8% of optical power concentrated in the field of view. Additionally, we believe that the proposed OPAs can be easily fabricated and would have the ability of generating complex holographic images, rendering them an attractive candidate for a wide range of applications like LiDAR sensors, optical trapping, optogenetic stimulation and augmented-reality displays. ",
+    "url": "https://arxiv.org/abs/2303.18107",
+    "authors": [
+      "Henna Farheen",
+      "Andreas Strauch",
+      "J. Christoph Scheytt",
+      "Viktor Myroshnychenko",
+      "Jens F\u00f6rstner"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18153",
+    "title": "Developing a Monolithic Silicon Sensor in a 65 nm CMOS Imaging  Technology for Future Lepton Collider Vertex Detectors",
+    "abstract": "Monolithic CMOS sensors in a 65 nm imaging technology are being investigated by the CERN EP Strategic R&D Programme on Technologies for Future Experiments for an application in particle physics. The appeal of monolithic detectors lies in the fact that both sensor volume and readout electronics are integrated in the same silicon wafer, providing a reduction in production effort, costs and scattering material. The Tangerine Project WP1 at DESY participates in the Strategic R&D Programme and is focused on the development of a monolithic active pixel sensor with a time and spatial resolution compatible with the requirements for a future lepton collider vertex detector. By fulfilling these requirements, the Tangerine detector is suitable as well to be used as telescope planes for the DESY-II Test Beam facility. The project comprises all aspects of sensor development, from the electronics engineering and the sensor design using simulations, to laboratory and test beam investigations of prototypes. Generic TCAD Device and Monte-Carlo simulations are used to establish an understanding of the technology and provide important insight into performance parameters of the sensor. Testing prototypes in laboratory and test beam facilities allows for the characterization of their response to different conditions. By combining results from all these studies it is possible to optimize the sensor layout. This contribution presents results from generic TCAD and Monte-Carlo simulations, and measurements performed with test chips of the first sensor submission. ",
+    "url": "https://arxiv.org/abs/2303.18153",
+    "authors": [
+      "Adriana Simancas",
+      "Justus Braach",
+      "Eric Buschmann",
+      "Ankur Chauhan",
+      "Dominik Dannheim",
+      "Manuel Del Rio Viera",
+      "Katharina Dort",
+      "Doris Eckstein",
+      "Finn Feindt",
+      "Ingrid-Maria Gregor",
+      "Karsten Hansen",
+      "Lennart Huth",
+      "Larissa Mendes",
+      "Budi Mulyanto",
+      "Daniil Rastorguev",
+      "Christian Reckleben",
+      "Sara Ruiz Daza",
+      "Paul Sch\u00fctze",
+      "Walter Snoeys",
+      "Simon Spannagel",
+      "Marcel Stanitzki",
+      "Anastasiia Velyka",
+      "Gianpiero Vignola",
+      "H\u00e5kan Wennl\u00f6f"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18166",
+    "title": "Three-dimensional coherent diffraction snapshot imaging using extreme  ultraviolet radiation from a free electron laser",
+    "abstract": "The possibility to obtain a three-dimensional representation of a single object with sub-$\\mu$m resolution is crucial in many fields, from material science to clinical diagnostics. This is typically achieved through tomography, which combines multiple two-dimensional images of the same object captured at different orientations. However, this serial imaging method prevents single-shot acquisition in imaging experiments at free electron lasers. In the present experiment, we report on a new approach to 3D imaging using extreme-ultraviolet radiation. In this method, two EUV pulses hit simultaneously an isolated 3D object from different sides, generating independent coherent diffraction patterns, resulting in two distinct bidimensional views obtained via phase retrieval. These views are then used to obtain a 3D reconstruction using a ray tracing algorithm. This EUV stereoscopic imaging approach, similar to the natural process of binocular vision, provides sub-$\\mu$m spatial resolution and single shot capability. Moreover, ultrafast time resolution and spectroscopy can be readily implemented, a further extension to X-ray wavelengths can be envisioned as well. ",
+    "url": "https://arxiv.org/abs/2303.18166",
+    "authors": [
+      "Danny Fainozzi",
+      "Matteo Ippoliti",
+      "Fulvio Bill\u00e8",
+      "Dario De Angelis",
+      "Laura Foglia",
+      "Claudio Masciovecchio",
+      "Riccardo Mincigrucci",
+      "Matteo Pancaldi",
+      "Emanuele Pedersoli",
+      "Christian M. Gunther",
+      "Bastian Pfau",
+      "Michael Schneider",
+      "Clemens Von Korff Schmising",
+      "Stefan Eisebitt",
+      "George Kourousias",
+      "Filippo Bencivenga",
+      "Flavio Capotondi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Image and Video Processing (eess.IV)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17734",
+    "title": "Room temperature quantum bit storage exceeding 39 minutes using ionized  donors in 28-silicon",
+    "abstract": "Quantum memories capable of storing and retrieving coherent information for extended times at room temperature would enable a host of new technologies. Electron and nuclear spin qubits using shallow neutral donors in semiconductors have been studied extensively but are limited to low temperatures ($\\le$10 K); however, the nuclear spins of ionized donors have potential for high temperature operation. We use optical methods and dynamical decoupling to realize this potential for an ensemble of 31P donors in isotopically purified 28Si and observe a room temperature coherence time of over 39 minutes. We further show that a coherent spin superposition can be cycled from 4.2 K to room temperature and back, and report a cryogenic coherence time of 3 hours in the same system. ",
+    "url": "https://arxiv.org/abs/2303.17734",
+    "authors": [
+      "Kamyar Saeedi",
+      "Stephanie Simmons",
+      "Jeff Z. Salvail",
+      "Phillip Dluhy",
+      "Helge Riemann",
+      "Nikolai V. Abrosimov",
+      "Peter Becker",
+      "Hans-Joachim Pohl",
+      "John J. L. Morton",
+      "Mike L. W. Thewalt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17926",
+    "title": "Optical markers of magnetic phase transition in CrSBr",
+    "abstract": "Here, we investigate the role of the interlayer magnetic ordering of CrSBr in the framework of $\\textit{ab initio}$ calculations and by using optical spectroscopy techniques. These combined studies allow us to unambiguously determine the nature of the optical transitions. In particular, photoreflectance measurements, sensitive to the direct transitions, have been carried out for the first time. We have demonstrated that optically induced band-to-band transitions visible in optical measurement are remarkably well assigned to the band structure by the momentum matrix elements and energy differences for the magnetic ground state (A-AFM). In addition, our study reveals significant differences in electronic properties for two different interlayer magnetic phases. When the magnetic ordering of A-AFM to FM is changed, the crucial modification of the band structure reflected in the direct-to-indirect band gap transition and the significant splitting of the conduction bands along the $\\Gamma-Z$ direction are obtained. In addition, Raman measurements demonstrate a splitting between the in-plane modes $B^2_{2g}$/$B^2_{3g}$, which is temperature dependent and can be assigned to different interlayer magnetic states, corroborated by the DFT+U study. Moreover, the $B^2_{2g}$ mode has not been experimentally observed before. Finally, our results point out the origin of interlayer magnetism, which can be attributed to electronic rather than structural properties. Our results reveal a new approach for tuning the optical and electronic properties of van der Waals magnets by controlling the interlayer magnetic ordering in adjacent layers. ",
+    "url": "https://arxiv.org/abs/2303.17926",
+    "authors": [
+      "W. M. Linhart",
+      "M. Rybak",
+      "M. Birowska",
+      "K. Mosina",
+      "V. Mazanek",
+      "P. Scharoch",
+      "D. Kaczorowski",
+      "Z. Sofer",
+      "R. Kudrawiec"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17944",
+    "title": "Neutral band gap of Carbon by Quantum Monte Carlo methods",
+    "abstract": "We present a method to calculate the energy gap of a charge-neutral excitation using only ground-state calculations. We report Quantum Monte Carlo calculations of $\\Gamma\\rightarrow\\Gamma$ and $\\Gamma\\rightarrow X$ particle-hole excitation energies in diamond carbon. We analyze the finite-size effect and find the same $1/L$ decay rate as that in a charged excitation, where L is the linear extension of the supercell. This slow decay is attributed to the delocalized nature of the excitation in supercells too small to accommodate excitonic binding effects. At larger system sizes the apparent $1/L$ decay crosses over to a $1/L^3$ behavior. Estimating the scale of exciton binding can be used to correct finite-size effects of neutral gaps. ",
+    "url": "https://arxiv.org/abs/2303.17944",
+    "authors": [
+      "Vitaly Gorelov",
+      "Yubo Yang",
+      "Michele Ruggeri",
+      "David M. Ceperley",
+      "Carlo Pierleoni",
+      "Markus Holzmann"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.17965",
+    "title": "Measurement-device-independent continuous variable quantum key  distribution protocol operation in optical transport networks",
+    "abstract": "Numerically, a theoretical analysis of the noise impact caused by spontaneous Raman scattering, four-wave mixing, and linear channel crosstalk on the measurement-device-independent continuous variable quantum key distribution systems is conducted. The analysis considers symmetry and asymmetry of system paths, as well as possible channel allocation schemes, for a quantum channel located in C- and O-bans. Mathematical models for MDI CV-QKD system and the contributing noises description are provided. The secure key generation rate is estimated to state features of protocol operation when integrated with existing DWDM systems in the context of its implementation into telecommunication networks. ",
+    "url": "https://arxiv.org/abs/2303.17965",
+    "authors": [
+      "Irina Vorontsova",
+      "Roman Goncharov",
+      "Sergey Kynev",
+      "Fedor Kiselev",
+      "Vladimir Egorov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18014",
+    "title": "Low-Temperature Thermoelectric Performance and Optoelectronic Properties  of Monolayer of WX2N4(X = Si, Ge)",
+    "abstract": "We investigated the thermoelectric properties of the 2D monolayer of WX2N4 using Density Functional Theory combined with Boltzmann Transport Equation. We obtained an outstanding thermoelectric figure of merit of 0.91 at 400K for p-type WGe2N4, whether it showed a ZT value of 0.56 for n-type at the same temperature. On the other hand, the WSi2N4 showed significantly low ZT at room temperature. ",
+    "url": "https://arxiv.org/abs/2303.18014",
+    "authors": [
+      "Chayan Das",
+      "Dibyajyoti Saikia",
+      "Atanu Betal",
+      "Satyajit Sahu"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18090",
+    "title": "Strong quantum correlation in a pair hybrid optomechanical cavities",
+    "abstract": "We show the quantum correlation between two coupled hybrid optomechanical cavities by quantifying the non-classical correlation using Gaussian quantum discord. This involves analyzing and solving Heisenberg Langevin equations to obtain the (12*12)dimensional covariance matrix of this system. Based on the experimentalist conditions, we simulate quantum correlation of bipartite steady-state with continuous conditions using Guassian quantum discord. We know that the generation of quantum correlation and its robustness essentially depend on the physical parameters of the system. We provide the stability analysis by means of the RuthsHurwitz criterion to confirm the choices made during the analysis of quantum discord dynamics. ",
+    "url": "https://arxiv.org/abs/2303.18090",
+    "authors": [
+      "Khadija El Anouz",
+      "Abderrahim El Allati",
+      "Farhan Saif"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18091",
+    "title": "Clamped and sideband-resolved silicon optomechanical crystals",
+    "abstract": "Optomechanical crystals (OMCs) are a promising and versatile platform for transduction between mechanical and optical fields. However, the release from the substrate used in conventional suspended OMCs also prevents heat-carrying noise phonons from rapidly leaking away. Thermal anchoring may be improved by attaching the OMCs directly to the substrate. Previous work towards such clamped, i.e. non-suspended, OMCs suffers from weak interaction rates and insufficient lifetimes. Here, we present a new class of clamped OMCs realizing -- for the first time -- optomechanical interactions in the resolved-sideband regime required for quantum transduction. Our approach leverages high-wavevector mechanical modes outside the continuum. We observe a record zero-point optomechanical coupling rate of $g_0/(2\\pi) \\approx 0.50$ MHz along with a sevenfold improvement in the single-photon cooperativity of clamped OMCs. Our devices operate at frequencies commonly used in superconducting qubits. This opens a new avenue using clamped OMCs in both classical and quantum communications, sensing, and computation through scalable mechanical circuitry that couples strongly to light. ",
+    "url": "https://arxiv.org/abs/2303.18091",
+    "authors": [
+      "Johan Kolvik",
+      "Paul Burger",
+      "Joey Frey",
+      "Rapha\u00ebl Van Laer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.18179",
+    "title": "Anti-Stokes Photoluminescence in Monolayer WSe$_2$ Activated by  Plasmonic Cavities through Resonant Excitation of Dark Excitons",
+    "abstract": "Anti-Stokes photoluminescence (PL) is light emission at a higher photon energy than the excitation, with applications in optical cooling, bioimaging, lasing, and quantum optics. Here, we show how plasmonic nano-cavities activate anti-Stokes PL in WSe$_2$ monolayers through resonant excitation of a dark exciton. The tightly confined plasmonic fields excite the out-of-plane transition dipole of the dark exciton, leading to light emission from the bright exciton at higher energy. Through statistical measurements on hundreds of plasmonic cavities, we show that coupling to the dark exciton is key to achieving a near hundred-fold enhancement of the upconverted PL intensity. This is further corroborated by experiments in which the laser excitation wavelength is tuned across the dark exciton. Finally, we show that an asymmetric nanoparticle shape and precise geometry are key for consistent activation of the dark exciton and efficient PL upconversion. Our work introduces a new excitation channel for anti-Stokes PL in WSe$_2$ and paves the way for large-area substrates providing optical cooling, anti-Stokes lasing, and radiative engineering of excitons. ",
+    "url": "https://arxiv.org/abs/2303.18179",
+    "authors": [
+      "Niclas S. Mueller",
+      "Rakesh Arul",
+      "Ashley P. Saunders",
+      "Amalya C. Johnson",
+      "Ana S\u00e1nchez-Iglesias",
+      "Shu Hu",
+      "Lukas A. Jakob",
+      "Jonathan Bar-David",
+      "Bart de Nijs",
+      "Luis M. Liz-Marz\u00e1n",
+      "Fang Liu",
+      "Jeremy J. Baumberg"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.09347",
+    "title": "Twin-field quantum key distribution without optical frequency  dissemination",
+    "abstract": " Comments: 14 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2208.09347",
+    "authors": [
+      "Lai Zhou",
+      "Jinping Lin",
+      "Yumang Jing",
+      "Zhiliang Yuan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.07776",
+    "title": "Optimizing optical potentials with physics-inspired learning algorithms",
+    "abstract": " Comments: 10 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2210.07776",
+    "authors": [
+      "Martino Calzavara",
+      "Yevhenii Kuriatnikov",
+      "Andreas Deutschmann-Olek",
+      "Felix Motzoi",
+      "Sebastian Erne",
+      "Andreas Kugi",
+      "Tommaso Calarco",
+      "J\u00f6rg Schmiedmayer",
+      "Maximilian Pr\u00fcfer"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.11007",
+    "title": "Sensitivity of quantum gate fidelity to laser phase and intensity noise",
+    "abstract": " Comments: v3: added analysis of the Lambda configuration ",
+    "url": "https://arxiv.org/abs/2210.11007",
+    "authors": [
+      "X. Jiang",
+      "J. Scott",
+      "Mark Friesen",
+      "M. Saffman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.07369",
+    "title": "Quantitative optical imaging method for surface acoustic wave using  optical path modulation",
+    "abstract": " Comments: 13 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2212.07369",
+    "authors": [
+      "Ryusuke Hisatomi",
+      "Kotaro Taga",
+      "Ryo Sasaki",
+      "Yoichi Shiota",
+      "Takahiro Moriyama",
+      "Teruo Ono"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.00215",
+    "title": "Nuclear Magnetic Resonance Measurements in High Flat-top Pulsed Magnetic  Field up to 40 T at WHMFC",
+    "abstract": " Comments: 8 pages, 9 figures ",
+    "url": "https://arxiv.org/abs/2301.00215",
+    "authors": [
+      "Wenqi Wei",
+      "Qinying Liu",
+      "Le Yuan",
+      "Jian Zhang",
+      "Shiyu Liu",
+      "Rui Zhou",
+      "Yongkang Luo",
+      "Xiaotao Han"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.08890",
+    "title": "Realization of a quantum degenerate mixture of highly magnetic and  nonmagnetic atoms",
+    "abstract": " Title: Realization of a quantum degenerate mixture of highly magnetic and  nonmagnetic atoms ",
+    "url": "https://arxiv.org/abs/2301.08890",
+    "authors": [
+      "Florian Sch\u00e4fer",
+      "Yuki Haruna",
+      "Yoshiro Takahashi"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.11531",
+    "title": "Effect of Aberrations on 3D optical topologies",
+    "abstract": " Title: Effect of Aberrations on 3D optical topologies ",
+    "url": "https://arxiv.org/abs/2302.11531",
+    "authors": [
+      "Nazanin Dehghan",
+      "Alessio D'Errico",
+      "Tareq Jaouni",
+      "Ebrahim Karimi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  }
+]
