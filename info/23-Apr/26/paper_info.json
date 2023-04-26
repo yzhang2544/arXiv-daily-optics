@@ -1,0 +1,363 @@
+[
+  {
+    "id": "arXiv:2304.12468",
+    "title": "Inverse Transform Sampling for Efficient Doppler-Averaged Spectroscopy  Simulations",
+    "abstract": "We present a thermal velocity sampling method for calculating Doppler-broadened atomic spectra, which more efficiently reaches a smooth limit than regular velocity weighted sampling. The method uses equal-population sampling of the 1-D thermal distribution, sampling the 'inverse transform' of the cumulative distribution function, and is broadly applicable to normal distributions. We also discuss efficiencies from eliminating velocity classes which don't significantly contribute to observed atomic lines, and comment on the application of this method in 2- and 3-dimensions. ",
+    "url": "https://arxiv.org/abs/2304.12468",
+    "authors": [
+      "Andrew P. Rotunno",
+      "Amy K. Robinson",
+      "Nikunjkumar Prajapati",
+      "Samuel Berweger",
+      "Matthew T. Simons",
+      "Alexandra B. Artusio-Glimpse",
+      "Christopher L. Holloway"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12584",
+    "title": "Learning imaging mechanism directly from optical microscopy observations",
+    "abstract": "Optical microscopy image plays an important role in scientific research through the direct visualization of the nanoworld, where the imaging mechanism is described as the convolution of the point spread function (PSF) and emitters. Based on a priori knowledge of the PSF or equivalent PSF, it is possible to achieve more precise exploration of the nanoworld. However, it is an outstanding challenge to directly extract the PSF from microscopy images. Here, with the help of self-supervised learning, we propose a physics-informed masked autoencoder (PiMAE) that enables a learnable estimation of the PSF and emitters directly from the raw microscopy images. We demonstrate our method in synthetic data and real-world experiments with significant accuracy and noise robustness. PiMAE outperforms DeepSTORM and the Richardson-Lucy algorithm in synthetic data tasks with an average improvement of 19.6\\% and 50.7\\% (35 tasks), respectively, as measured by the normalized root mean square error (NRMSE) metric. This is achieved without prior knowledge of the PSF, in contrast to the supervised approach used by DeepSTORM and the known PSF assumption in the Richardson-Lucy algorithm. Our method, PiMAE, provides a feasible scheme for achieving the hidden imaging mechanism in optical microscopy and has the potential to learn hidden mechanisms in many more systems. ",
+    "url": "https://arxiv.org/abs/2304.12584",
+    "authors": [
+      "Ze-Hao Wang",
+      "Long-Kun Shan",
+      "Tong-Tian Weng",
+      "Tian-Long Chen",
+      "Qi-Yu Wang",
+      "Xiang-Dong Chen",
+      "Zhang-Yang Wang",
+      "Guang-Can Guo",
+      "Fang-Wen Sun"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12629",
+    "title": "Synchronous functional magnetic resonance eye imaging, video  ophthalmoscopy, and eye surface imaging reveal the human brain and eye  pulsation mechanisms",
+    "abstract": "Recent research shows the eye has a paravascular solute transport pathway driven by physiological pulsations resembling the brain. we developed synchronous multimodal imaging tools aimed at measuring the driving pulsations of the human eye. We used an eye-tracking functional eye camera (FEC) compatible with magnetic resonance imaging (MRI) for measuring eye surface pulsations. Special optics enabled the integration of the FEC with a magnetic resonance compatible video ophthalmoscopy (MRcVO) for simultaneous retinal imaging along with functional eye MRI imaging (fMREye) reflecting BOLD (blood oxygen level dependent) contrast. Upon optimizing the fMREye parameters, we thus measured the power of the physiological (vasomotor, respiratory, and cardiac) eye and brain pulsations by fast Fourier transform (FFT) power analysis. The human eye proved to pulsate in all three physiological pulse bands, most prominently in the respiratory (RESP) band. The FFT power means of physiological pulsation for two adjacent slices was significantly higher than in one-slice scans (RESP1 .vs RESP2; df = 5, p = 0.0174). FEC and MRcVO confirmed the respiratory pulsations at the eye surface and retina. we conclude that the human eye has three pulsation mechanisms, and multimodal imaging offers non-invasive monitoring of their effects in driving eye fluidics. ",
+    "url": "https://arxiv.org/abs/2304.12629",
+    "authors": [
+      "Ebrahimi Seyed-Mohsen",
+      "Tuunanen Johanna",
+      "Saarela Ville",
+      "Honkamo Marja",
+      "Huotari Niko",
+      "Raitamaa Lauri",
+      "Korhonen Vesa",
+      "Helakari Heta",
+      "Kaakinen Mika",
+      "Eklund Lauri",
+      "Kiviniemi Vesa"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12677",
+    "title": "Transport of topologically protected photonic waveguide on chip",
+    "abstract": "We propose a new design on integrated optical devices on-chip with an extra width degree of freedom by using a photonic crystal waveguide with Dirac points between two photonic crystals with opposite valley Chern numbers. With such an extra waveguide, we demonstrate numerically that the topologically protected photonic waveguide keeps properties of valley-locking and immunity to defects. Due to the design flexibility of the width-tunable topologically protected photonic waveguide, many unique on-chip integrated devices have been proposed, such as energy concentrators with a concentration efficiency improvement by more than one order of magnitude, topological photonic power splitter with arbitrary power splitting ratio. The topologically protected photonic waveguide with the width degree of freedom could be beneficial for scaling up photonic devices, which provides a new flexible platform to implement integrated photonic networks on chip. ",
+    "url": "https://arxiv.org/abs/2304.12677",
+    "authors": [
+      "Sai Yan",
+      "Jingnan Yang",
+      "Shushu Shi",
+      "Zhanchun Zuo",
+      "Can Wang",
+      "Xiulai Xu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12802",
+    "title": "Chiral photonic topological states in Penrose quasicrystals",
+    "abstract": "Electromagnetic topological edge states typically are created in photonic systems with crystalline symmetry and these states emerge because of the topological feature of bulk Bloch bands in momentum space according to the bulk-edge correspondence principle. In this work, we demonstrate the existence of chiral topological electromagnetic edge states in Penrose-tiled photonic quasicrystals made of magneto-optical materials, without relying on the concept of bulk Bloch bands in momentum space. Despite the absence of bulk Bloch bands, which naturally defiles the conventional definition of topological invariants in momentum space characterizing these states, such as the Chern number, we show that some bandgaps in these photonic quasicrystals still could host unidirectional topological electromagnetic edge states immune to backscattering in both cylinders-in-air and holes-in-slab configurations. Employing a real-space topological invariant based on the Bott index, our calculations reveal that the bandgaps hosting these chiral topological edge states possess a nontrivial Bott index of $\\pm 1$, depending on the direction of the external magnetic field. Our work opens the door to the study of topological states in photonic quasicrystals. ",
+    "url": "https://arxiv.org/abs/2304.12802",
+    "authors": [
+      "Yingfang Zhang",
+      "Zhihao Lan",
+      "Liyazhou Hu",
+      "Yiqing Shu",
+      "Xun Yuan",
+      "Penglai Guo",
+      "Xiaoling Peng",
+      "Weicheng Chen",
+      "Jianqing Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12848",
+    "title": "Photon-efficient optical tweezers via wavefront shaping",
+    "abstract": "Optical tweezers enable non-contact trapping of micro-scale objects using light. Despite their widespread use, it is currently not known how tightly it is possible to three-dimensionally trap micro-particles with a given photon budget. Reaching this elusive limit would enable maximally-stiff particle trapping for precision measurements on the nanoscale, and photon-efficient tweezing of light-sensitive objects. Here we solve this problem by customising a trapping light field to suit a specific particle, with the aim of simultaneously optimising trap stiffness in all three dimensions. Initially taking a theoretical approach, we develop an efficient multi-parameter optimisation routine to design bespoke optical traps for a wide range of micro-particles. We show that the confinement volume of micro-spheres held in these sculpted traps can be reduced by one-to-two orders-of-magnitude in comparison to a conventional optical tweezer of the same power. We go on to conduct proof-of-principle experiments, and use a wavefront shaping inspired strategy to suppress the Brownian fluctuations of optically trapped micro-spheres in every direction concurrently, thus demonstrating order-of-magnitude reductions in their confinement volumes. Our work paves the way towards the fundamental limits of optical control over the mesoscopic realm. ",
+    "url": "https://arxiv.org/abs/2304.12848",
+    "authors": [
+      "Un\u0117 G. B\u016btait\u0117",
+      "Christina Sharp",
+      "Michael Horodynski",
+      "Graham M. Gibson",
+      "Miles J. Padgett",
+      "Stefan Rotter",
+      "Jonathan M. Taylor",
+      "David B. Phillips"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12870",
+    "title": "Linear-Scaling Quantum Circuits for Computational Chemistry",
+    "abstract": "We have recently constructed compact, CNOT-efficient, quantum circuits for fermionic and qubit excitations of arbitrary many-body rank [I. Magoulas and F.A. Evangelista, J. Chem. Theory Comput. 19, 822 (2023)]. Here, we present approximations to these circuits that substantially reduce the CNOT counts even further. Our preliminary numerical data, using the selected projective quantum eigensolver approach, demonstrate that there is practically no loss of accuracy in the energies compared to the parent implementation while the ensuing symmetry breaking is essentially negligible. ",
+    "url": "https://arxiv.org/abs/2304.12870",
+    "authors": [
+      "Ilias Magoulas",
+      "Francesco A. Evangelista"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12878",
+    "title": "On-chip synchronous pumped $\u03c7^{(3)}$ optical parametric oscillator on  thin-film lithium niobate",
+    "abstract": "Optical parametric oscillation (OPO) has widely been utilized as a means of generating light with wide spectral coverage from a single pump laser. These oscillators can be driven using either continuous-wave (CW) light, which only requires lining up of the pump frequency with OPO resonance, or pulsed light, which also mandates that the repetition rate of the pulse and free spectral range of the OPO cavity are carefully tuned to match each other. Advancements in nanophotonics have ignited interest in chip-scale OPOs, which enable low-footprint and high-efficiency solutions to broadband light generation. CW-pumped integrated OPO has been demonstrated using both $\\chi^{(2)}$ and $\\chi^{(3)}$ parametric oscillation. However, realizing pulse-driven on-chip OPO remains challenging, as microresonator cavities have limited tuning range in the FSR and resonance frequency compared to traditional bulk cavities. Here, we overcome this limitation and demonstrate a $\\chi^{(3)}$ pulse-driven OPO by using a tunable on-chip femtosecond pulse generator to synchronously pump the oscillator. The output frequency comb generated by our OPO has 30-GHz repetition rate, spans 2/5 of an octave and consists of over 1400 comb lines with a pump-to-comb conversion efficiency of 10%. ",
+    "url": "https://arxiv.org/abs/2304.12878",
+    "authors": [
+      "Rebecca Cheng",
+      "Mengjie Yu",
+      "Amirhassan Shams-Ansari",
+      "Yaowen Hu",
+      "Christian Reimer",
+      "Mian Zhang",
+      "Marko Lon\u010dar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12968",
+    "title": "Soliton Microcomb Generation in a III-V Photonic Crystal Cavity",
+    "abstract": "Photonic crystals, material structures in which the dielectric function varies periodically in one, two, or three dimensions, can provide exquisite control over the propagation and confinement of light. By tailoring their band structure, exceptional optical effects can be achieved, such as slow light propagation or, through the creation of photonic bandgaps, optical cavities with both a high quality factor and a small mode volume. Photonic crystal cavities have been used to realize compact nano-lasers and achieve strong coupling to quantum emitters, such as semiconductor quantum dots, color centers, or cold atoms. A useful attribute of photonic crystals is the ability to create chirped mirrors. Chirping has underpinned advances in ultra-fast lasers based on bulk mirrors, but has yet to be fully exploited in integrated photonics, where it could provide a means to engineer otherwise unattainable dispersion profiles for a range of nonlinear optical applications, including soliton frequency comb generation. The vast majority of integrated resonators for frequency combs make use of microring geometries, where only waveguide width and height are varied to engineer dispersion. Generation of frequency combs has been demonstrated with one-dimensional photonic crystal cavities made of silicon nitride, but the low index contrast prevents formation of broad soliton combs. We overcome these challenges by using a photonic-crystal Fabry-P\\'erot resonator made of gallium phosphide, a material with a high refractive index and a Kerr nonlinearity 200 times larger than that of silicon nitride. We employ chirped photonic crystal mirrors to provide anomalous dispersion. With subharmonic pulsed pumping at an average power of 23.6 mW, we are able to access stable dissipative Kerr frequency combs. We demonstrate soliton formation with a 3-dB bandwidth of 3.0 THz, corresponding to a pulse duration of 60 fs. ",
+    "url": "https://arxiv.org/abs/2304.12968",
+    "authors": [
+      "Alberto Nardi",
+      "Alisa Davydova",
+      "Nikolai Kuznetsov",
+      "Miles H. Anderson",
+      "Charles M\u00f6hl",
+      "Johann Riemensberger",
+      "Tobias J. Kippenberg",
+      "Paul Seidler"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12983",
+    "title": "Theory and Application of the Fractional-order Delta Function Associated  with the Inverse Laplace Transform of the Mittag-Leffler Function",
+    "abstract": "This paper is devoted to the study of the $M$-Wright function ($M_{\\alpha}(t)$) which is the inverse Laplace transform of the single-parameter Mittag-Leffler (ML) function ($E_{\\alpha}(-s)$). Because $E_{\\alpha}(-s)$ can be viewed as the fractional-order generalization of the exponential function for $0<\\alpha<1$, to which it reduces for $\\alpha=1$, i.e. $E_{1}(-s)=\\exp(-s)$, its inverse Laplace transform, being $M_{\\alpha}(t)$, can be viewed as a generalized fractional-order Dirac delta function. At the limiting case of $\\alpha = 1$ the $M$-Wright function reduces to $M_{1}(t)=\\delta(t-1)$. We investigate numerically the behavior of this fractional-order delta function as well as it integral, the fractional-order unit-step function. Subsequently, we validate our results with experimental data for the charging of a supercapacitive device. ",
+    "url": "https://arxiv.org/abs/2304.12983",
+    "authors": [
+      "Anis Allagui",
+      "Ahmed S. Elwakil"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.13024",
+    "title": "On the mechanism of polaritonic rate suppression from quantum transition  paths",
+    "abstract": "Polariton chemistry holds promise for facilitating mode-selective chemical reactions, but the underlying mechanism behind the rate modifications observed under vibrational strong coupling is not well understood. Using the recently developed quantum transition path theory, we have uncovered a mechanism of resonant suppression of a thermal reaction rate in a simple model polaritonic system, consisting of a reactive mode in a bath confined to a lossless microcavity with a single photon mode. This mechanism was uncovered by resolving the quantum dynamical reactive pathways and identifying their rate limiting transitions. Upon inspecting the wavefunctions associated with the rate limiting transition, we observed the formation of a polariton and identified the concomitant rate suppression as due to hybridization between the reactive mode and the cavity mode, which inhibits bath-mediated tunneling during the reaction. The transition probabilities that define the quantum master equation can be directly translated into a visualisation of the corresponding polariton energy landscape. This landscape exhibits a double funnel structure, with a large barrier between the initial and final states. This mechanism of resonant rate suppression is found to be robust to model parameters and computational details, and thus expected to be general. ",
+    "url": "https://arxiv.org/abs/2304.13024",
+    "authors": [
+      "Michelle C. Anderson",
+      "Esmae J. Woods",
+      "Thomas P. Fay",
+      "David J. Wales",
+      "David T. Limmer"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12321",
+    "title": "Moving an Atom towards Right or Left Side by Applying Quantum Mechanical  Matter Wave Near a Surface",
+    "abstract": "The area of trapping the atoms or molecules using light has advanced tremendously in the last few decades. In contrast, the idea of controlling (not only trapping) the movement of atomic-sized particles using quantum mechanical matter waves is a completely new emerging area of particle manipulation. Though a single previous report has suggested the pulling of atoms based on matter wave tractor beams, an attempt is yet to be made to produce a lateral force (moving the atoms towards left or right) using this technique. This article demonstrates a matter wave-based manipulation scenario that gives rise to reversible lateral force on an atom due to the interaction energy of the quantum mechanical matter wave in the presence of a metal surface creating an asymmetrical set-up. For a symmetric set-up, no lateral force has been observed. We have performed several full wave simulations and analytical calculations on a particular set-up of Xenon scatterer atoms placed near a Copper surface, with two plane matter waves of Helium impinging in the direction parallel to the surface from two sides of the scatterer. By solving the time-independent Schrodinger equation and using the solution, quantum mechanical stress tensor formalism has been applied to compute the force acting on the particle. The full wave simulation results have been found in excellent agreement with the analytical calculations. The results for the adsorbed scatterer case suggests that our proposed technique can be an efficient cleaning procedure similar to electron-stimulated desorption for futuristic applications. ",
+    "url": "https://arxiv.org/abs/2304.12321",
+    "authors": [
+      "Sadia Humaira Salsabil",
+      "Golam Dastegir Al-Quaderi",
+      "M.R.C. Mahdy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12623",
+    "title": "Quantum simulation of hadronic states with Rydberg-dressed atoms",
+    "abstract": "The phenomenon of confinement is well known in high-energy physics and can also be realized for low-energy domain-wall excitations in one-dimensional quantum spin chains. A bound state consisting of two domain-walls can behave like a meson, and in a recent work of Vovrosh et al. [PRX Quantum 3, 040309 (2022)] , it was demonstrated that a pair of mesons could dynamically form a meta-stable confinement-induced bound state (consisting of four domain-walls) akin to a hadronic state. However, the protocol discussed in Vovrosh et al. [PRX Quantum 3, 040309 (2022)] involving the use of interactions with characteristically non-monotonic distance dependence is not easy to come by in nature, thus, posing a challenge for its experimental realization. In this regard, Rydberg atoms can provide the required platform for simulating confinement-related physics. We exploit the flexibility offered by interacting Rydberg-dressed atoms to engineering modified spin-spin interactions for the one-dimensional transverse field Ising model. Our numerical simulations show how Rydberg-dressed interactions can give rise to a variety of effective potentials that are suitable for hadron formation, which opens the possibility of simulating confinement physics with Rydberg platforms as a viable alternative to current trapped-ion experiments. ",
+    "url": "https://arxiv.org/abs/2304.12623",
+    "authors": [
+      "Zihan Wang",
+      "Feiyang Wang",
+      "Joseph Vovrosh",
+      "Johannes Knolle",
+      "Florian Mintert",
+      "Rick Mukherjee"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12854",
+    "title": "Coherent Optical Spin Hall Transport for Spin-optronics at Room  Temperature",
+    "abstract": "Spin or valley degrees of freedom in condensed matter have been proposed as efficient information carriers towards next generation spintronics. It is therefore crucial to develop effective strategies to generate and control spin or valley-locked spin currents, e.g., by exploiting the spin Hall or valley Hall effects. However, the scattering, and rapid dephasing of electrons pose major challenges to achieve macroscopic coherent spin currents and realistic spintronic or valleytronic devices, specifically at room temperature, where strong thermal fluctuations could further obscure the spin flow. Exciton polaritons in semiconductor microcavities being the quantum superposition of excitons and photons, are believed to be promising platforms for spin-dependent optoelectronic or, in short, spin-optronic devices. Long-range spin current flows of exciton polaritons may be controlled through the optical spin Hall effect. However, this effect could neither be unequivocally observed at room temperature nor be exploited for realistic polariton spintronic devices due to the presence of strong thermal fluctuations or large linear spin splittings. Here, we report the observation of room temperature optical spin Hall effect of exciton polaritons with the spin current flow over a distance as large as 60 um in a hybrid organic-inorganic FAPbBr3 perovskite microcavity. We show direct evidence of the long-range coherence at room temperature in the flow of exciton polaritons, and the spin current carried by them. By harnessing the long-range spin-Hall transport of exciton polaritons, we have demonstrated two novel room temperature polaritonic devices, namely the NOT gate and the spin-polarized beam splitter, advancing the frontier of room-temperature polaritonics in perovskite microcavities. ",
+    "url": "https://arxiv.org/abs/2304.12854",
+    "authors": [
+      "Ying Shi",
+      "Yusong Gan",
+      "Yuzhong Chen",
+      "Yubin Wang",
+      "Sanjib Ghosh",
+      "Alexey Kavokin",
+      "Qihua Xiong"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12985",
+    "title": "Rubik's Optical Neural Networks: Multi-task Learning with Physics-aware  Rotation Architecture",
+    "abstract": "Recently, there are increasing efforts on advancing optical neural networks (ONNs), which bring significant advantages for machine learning (ML) in terms of power efficiency, parallelism, and computational speed. With the considerable benefits in computation speed and energy efficiency, there are significant interests in leveraging ONNs into medical sensing, security screening, drug detection, and autonomous driving. However, due to the challenge of implementing reconfigurability, deploying multi-task learning (MTL) algorithms on ONNs requires re-building and duplicating the physical diffractive systems, which significantly degrades the energy and cost efficiency in practical application scenarios. This work presents a novel ONNs architecture, namely, \\textit{RubikONNs}, which utilizes the physical properties of optical systems to encode multiple feed-forward functions by physically rotating the hardware similarly to rotating a \\textit{Rubik's Cube}. To optimize MTL performance on RubikONNs, two domain-specific physics-aware training algorithms \\textit{RotAgg} and \\textit{RotSeq} are proposed. Our experimental results demonstrate more than 4$\\times$ improvements in energy and cost efficiency with marginal accuracy degradation compared to the state-of-the-art approaches. ",
+    "url": "https://arxiv.org/abs/2304.12985",
+    "authors": [
+      "Yingjie Li",
+      "Weilu Gao",
+      "Cunxi Yu"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Artificial Intelligence (cs.AI)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09491",
+    "title": "Large-area quantum-spin-Hall waveguide states in a three-layer  topological photonic crystal heterostructure",
+    "abstract": " Comments: close to published version ",
+    "url": "https://arxiv.org/abs/2210.09491",
+    "authors": [
+      "Zhihao Lan",
+      "Menglin L. N. Chen",
+      "Jian Wei You",
+      "Wei E. I. Sha"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.00019",
+    "title": "Experimental demonstration of superdirective spherical dielectric  antenna",
+    "abstract": " Title: Experimental demonstration of superdirective spherical dielectric  antenna ",
+    "url": "https://arxiv.org/abs/2212.00019",
+    "authors": [
+      "Roman Gaponenko",
+      "Mikhail S. Sidorenko",
+      "Dmitry Zhirihin",
+      "Ilia L. Rasskazov",
+      "Alexander Moroz",
+      "Konstantin Ladutenko",
+      "Pavel Belov",
+      "Alexey Shcherbakov"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.01457",
+    "title": "Bootstrap Embedding on a Quantum Computer",
+    "abstract": " Comments: 58+24 pages, 8+9 figures ",
+    "url": "https://arxiv.org/abs/2301.01457",
+    "authors": [
+      "Yuan Liu",
+      "Oinam R. Meitei",
+      "Zachary E. Chin",
+      "Arkopal Dutt",
+      "Max Tao",
+      "Isaac L. Chuang",
+      "Troy Van Voorhis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12170",
+    "title": "On Using Non-Kekule' Triangular Graphene Quantum Dots for Scavenging  Hazardous Sulfur Hexafluoride Components",
+    "abstract": " Comments: 37 pages; 30 pages main manuscript (13 figures); 7 pages supporting information (8 figures) ",
+    "url": "https://arxiv.org/abs/2304.12170",
+    "authors": [
+      "Vaishali Roondhe",
+      "Basant Roondhe",
+      "Sumit Saxena",
+      "Rajeev Ahuja",
+      "Alok Shukla"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.12296",
+    "title": "Tunable vector beam decoder by inverse design for high-dimensional  quantum key distribution with 3D polarized spatial modes",
+    "abstract": " Comments: 10 pages, 3 figures. Corrected typos & added reference ",
+    "url": "https://arxiv.org/abs/2304.12296",
+    "authors": [
+      "Eileen Otte",
+      "Alexander D. White",
+      "Nicholas A. G\u00fcsken",
+      "Jelena Vu\u010dkovi\u0107",
+      "Mark L. Brongersma"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
