@@ -1,0 +1,587 @@
+[
+  {
+    "id": "arXiv:2305.01743",
+    "title": "Photonic Advantage of Optical Encoders",
+    "abstract": "Light's ability to perform massive linear operations parallelly has recently inspired numerous demonstrations of optics-assisted artificial neural networks (ANN). However, a clear advantage of optics over purely digital ANN in a system-level has not yet been established. While linear operations can indeed be optically performed very efficiently, the lack of nonlinearity and signal regeneration require high-power, low-latency signal transduction between optics and electronics. Additionally, a large power is needed for the lasers and photodetectors, which are often neglected in the calculation of energy consumption. Here, instead of mapping traditional digital operations to optics, we co-optimized a hybrid optical-digital ANN, that operates on incoherent light, and thus amenable to operations under ambient light. Keeping the latency and power constant between purely digital ANN and hybrid optical-digital ANN, we identified a low-power/ latency regime, where an optical encoder provides higher classification accuracy than a purely digital ANN. However, in that regime, the overall classification accuracy is lower than what is achievable with higher power and latency. Our results indicate that optics can be advantageous over digital ANN in applications, where the overall performance of the ANN can be relaxed to prioritize lower power and latency. ",
+    "url": "https://arxiv.org/abs/2305.01743",
+    "authors": [
+      "Luocheng Huang",
+      "Quentin A. A. Tanguy",
+      "Johannes E. Froch",
+      "Saswata Mukherjee",
+      "Karl F. Bohringer",
+      "Arka Majumdar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01780",
+    "title": "Synchronization of silicon thermal-free-carrier oscillators",
+    "abstract": "Recent exploration of collective phenomena in oscillator arrays has highlighted its potential for accessing a range of physical phenomena, from fundamental quantum many-body dynamics to the solution of practical optimization problems using photonic Ising machines. Spontaneous oscillations often arise in these oscillator arrays as an imbalance between gain and loss. Due to coupling between array individuals, the spontaneous oscillation is constrained and lead to interesting collective behavior, such as synchronized oscillations in optomechanical oscillator arrays, ferromagnetic-like coupling in delay-coupled optical parametric oscillators and binary phase states in coupled laser arrays. A key aspect of arrays is not only the coupling between its individuals but also their compliance towards neighbor stimuli. One self-sustaining photonic oscillator that can be readily implemented in a scalable foundry-based technology is based on the interaction of free-carriers, temperature and optical field of a resonant silicon photonic microcavity. Here we demonstrate that these silicon thermal-free-carrier oscillators are extremely compliant to external excitation and can be synchronized up to their 16$^\\text{th}$ harmonic using a weak seed. Exploring this unprecedented compliance to external stimuli, we also demonstrate robust synchronization between two thermal free carrier oscillators. ",
+    "url": "https://arxiv.org/abs/2305.01780",
+    "authors": [
+      "Gustavo de O. Luiz",
+      "Caique C. Rodrigues",
+      "Thiago P. Mayer Alegre",
+      "Gustavo S. Wiederhecker"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01866",
+    "title": "On the generation of ultra-bright and low energy spread electron beams  in laser wakefield acceleration in a uniform plasma",
+    "abstract": "The quality of electron beams produced from plasma-based accelerators, i.e., normalized brightness and energy spread, has made transformative progress in the past several decades in both simulation and experiment. Recently, full-scale particle-in-cell (PIC) simulations have shown that electron beams with unprecedented brightness ($10^{20}\\sim10^{21}~\\mathrm{A}/\\mathrm{m}^2/\\mathrm{rad}^2$) and $0.1\\sim 1$ MeV energy spread can be produced through controlled injection in a slowly expanding bubble that arises when a particle beam or laser pulse propagates in density gradient, or when a particle beam self-focuses in uniform plasma or has a superluminal flying focus. However, in previous simulations of work on self-injection triggered by an evolving laser driver in a uniform plasma, the resulting beams did not exhibit comparable brightnesses and energy spreads. Here, we demonstrate through the use of large-scale high-fidelity PIC simulations that a slowly expanding bubble driven by a laser pulse in a uniform plasma can indeed produce self-injected electron beams with similar brightnesses and energy spreads as for an evolving bubble driven by an electron beam driver. We consider laser spot sizes roughly equal to the matched spot sizes in a uniform plasma and find that the evolution of the bubble occurs naturally through the evolution of the laser. The effects of the electron beam quality on the choice of physical as well as numerical parameters, e.g. grid sizes and field solvers used in the PIC simulations are presented. It is found that this original and simplest injection scheme can produce electron beams with beam quality exceeding that of the more recent concepts. ",
+    "url": "https://arxiv.org/abs/2305.01866",
+    "authors": [
+      "Xinlu Xu",
+      "Thamine N. Dalichaouch",
+      "Jiaxin Liu",
+      "Qianyi Ma",
+      "Jacob Pierce",
+      "Kyle Miller",
+      "Xueqing Yan",
+      "Warren B. Mori"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01988",
+    "title": "Proton acceleration with intense twisted laser light",
+    "abstract": "An efficient approach that considers a high-intensity twisted laser of moderate energy (few J) is proposed to generate collimated proton bunches with multi-10-MeV energies from a double-layer hydrogen target. Three-dimensional particle-in-cell simulations demonstrate the formation of a highly collimated and energetic ($\\sim 40$ MeV) proton bunch, whose divergence is $\\sim 6.5$ times smaller compared to the proton bunch driven by a Gaussian laser containing the same energy. Supported by theoretical modeling of relativistic self-focusing in near-critical plasma, we establish a regime that allows for consistent acceleration of high-energetic proton bunches with low divergence under experimentally feasible conditions for twisted drivers. ",
+    "url": "https://arxiv.org/abs/2305.01988",
+    "authors": [
+      "Camilla Willim",
+      "Jorge Vieira",
+      "Victor Malka",
+      "Lu\u00eds O. Silva"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02083",
+    "title": "On Analysis of Laser Plasma Aluminum Monoxide Emission Spectra",
+    "abstract": "This work communicates analysis of aluminum monoxide, AlO, laser-plasma emission records using line strength data and the ExoMol astrophysical database. A nonlinear fitting program computes comparisons of measured and simulated diatomic molecular spectra. Predicted cyanide spectra of the AlO, ${\\rm B}\\ ^2\\,\\Sigma^+ \\longrightarrow {\\rm X} \\ ^2\\,\\Sigma^+$, $\\Delta {\\rm v} = 0, \\pm 1, \\pm 2, + 3$ sequences and progressions compare nicely with 1 nanometer resolution experimental results. The analysis discusses experiment data captured during laser ablation of Al$_2$O$_3$ with 266-nm, 6-mJ pulses. The accuracy of the AlO line strength data is better than one picometer. This work presents as well comparison of the $^{27}$Al$^{16}$O line strength and of ExoMol data for spectral resolutions of 0.1 nm and 0.07 nm. Accurate AlO databases show a volley of applications in laboratory and astrophysical plasma diagnosis. ",
+    "url": "https://arxiv.org/abs/2305.02083",
+    "authors": [
+      "Christian G. Parigger"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02206",
+    "title": "Treatment-Response Analysis of Tumor as A Quantum Particle",
+    "abstract": "In this article, I present a novel and computational-efficient approach for treatment-response modeling of tumor progression-free survival (PFS) probability using the physical phenomenon of a quantum particle walking on a one-dimensional lattice with the presence of a proximate trap. ",
+    "url": "https://arxiv.org/abs/2305.02206",
+    "authors": [
+      "Nam Nguyen"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02207",
+    "title": "All-passive Microwave-Diode Nonreciprocal Metasurface",
+    "abstract": "Breaking reciprocity in the microwave frequency range will have important implications for modern electronic systems. Since it usually involves bulky biasing magnets or complex spatial-temporal modulations, exploring a lightweight, all-passive approach becomes intriguing. Starting from a circuit model, we theoretically demonstrate the nonreciprocal behaviour on a transmission line building block creating a strong field asymmetry with a switchable matching stub to enable two distinct working states. After translating to an electromagnetic model, this concept is first proved by simulation and then experimentally verified on a microstrip-line-based diode-integrated metasurface showing nonreciprocal transmission. This printed circuit board design is expected to find various applications in electromagnetic protecting layers, communication systems, microwave isolators and circulators. ",
+    "url": "https://arxiv.org/abs/2305.02207",
+    "authors": [
+      "Xiaozhen Yang",
+      "Erda Wen",
+      "Daniel F. Sievenpiper"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02210",
+    "title": "Influence of the potential barrier switching frequency on the  effectiveness of energy harvesting",
+    "abstract": "Dynamical systems for kinetic energy harvesting have recently been designed that use nonlinear mechanical resonators and corresponding transducers to create electrical output. Nonlinearities are important for providing a broadband input frequency efficiency, which is necessary to ensure that the output voltage is at a satisfactory level in the case of a variable ambient vibration source. In this paper, we analyze the dynamics of such a system with the additional possibility of a switching potential barrier in the nonlinear resonator. In order to improve the effectiveness of the energy harvester, we numerically test the possibility of using abrupt changes in the system parameters. We analyze the voltage output for various frequencies of both the harmonic excitations and the potential barrier switching. In a range that includes low and high switching frequencies of potentials, the periodic solutions dominate in the bifurcation diagrams. With regard to the large switching frequency, the effective values of the voltage at the piezoelectric electrodes are significantly reduced. The highest effective values of the voltage that are induced at the piezoelectric electrodes are observed when the chaotic solutions appear due to their specific ability to pass the potential barrier for relatively small excitation. The results also show that mechanical damping with high-enough magnitudes minimize the influence of the transient states caused by the switching potentials. ",
+    "url": "https://arxiv.org/abs/2305.02210",
+    "authors": [
+      "Jerzy Margielewicz",
+      "Damian Gaska",
+      "Grzegorz Litak",
+      "Tomasz Haniszewski",
+      "Piotr Wolszczak",
+      "Carlo Trigona"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02238",
+    "title": "Quantized topological energy pumping and Weyl points in Floquet  synthetic dimensions with a driven-dissipative photonic molecule",
+    "abstract": "Topological effects manifest in a wide range of physical systems, such as solid crystals, acoustic waves, photonic materials and cold atoms. These effects are characterized by `topological invariants' which are typically integer-valued, and lead to robust quantized channels of transport in space, time, and other degrees of freedom. The temporal channel, in particular, allows one to achieve higher-dimensional topological effects, by driving the system with multiple incommensurate frequencies. However, dissipation is generally detrimental to such topological effects, particularly when the systems consist of quantum spins or qubits. Here we introduce a photonic molecule subjected to multiple RF/optical drives and dissipation as a promising candidate system to observe quantized transport along Floquet synthetic dimensions. Topological energy pumping in the incommensurately modulated photonic molecule is enhanced by the driven-dissipative nature of our platform. Furthermore, we provide a path to realizing Weyl points and measuring the Berry curvature emanating from these reciprocal-space ($k$-space) magnetic monopoles, illustrating the capabilities for higher-dimensional topological Hamiltonian simulation in this platform. Our approach enables direct $k$-space engineering of a wide variety of Hamiltonians using modulation bandwidths that are well below the free-spectral range (FSR) of integrated photonic cavities. ",
+    "url": "https://arxiv.org/abs/2305.02238",
+    "authors": [
+      "Sashank Kaushik Sridhar",
+      "Sayan Ghosh",
+      "Avik Dutt"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02275",
+    "title": "Modelling of the driver transverse profile for laser wakefield electron  acceleration at APOLLON Research Facility",
+    "abstract": "The quality of electron bunches accelerated by laser wakefields is highly dependant on the temporal and spatial features of the laser driver. Analysis of experiments performed at APOLLON PW-class laser facility shows that spatial instabilities of the focal spot, such as shot-to-shot pointing fluctuations or asymmetry of the transverse fluence, lead to charge and energy degradation of the accelerated electron bunch. It is shown that PIC simulations can reproduce experimental results with a significantly higher accuracy when the measured laser asymmetries are included in the simulated laser's transverse profile, compared to simulations with ideal, symmetric laser profile. A method based on a modified Gerchberg-Saxton iterative algorithm is used to retrieve the laser electric field from fluence measurements in vacuum in the focal volume, and accurately reproduce experimental results using PIC simulations, leading to simulated electron spectra in close agreement with experimental results, for the accelerated charge, energy distribution and pointing of the electron beam at the exit of the plasma. ",
+    "url": "https://arxiv.org/abs/2305.02275",
+    "authors": [
+      "Ioaquin Moulanier",
+      "Lewis Dickson",
+      "Charles Ballage",
+      "Ovidiu Vasilovici",
+      "Aubin Gremaud",
+      "Sandrine Dobosz Dufrenoy",
+      "Nicolas Delerue",
+      "Lorenzo Bernardi",
+      "Ali Mahjoub",
+      "Antoine Cauchois",
+      "Arnd Specka",
+      "Francesco Massimo",
+      "Gilles Maynard",
+      "Brigitte Cros"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02314",
+    "title": "CMOS image sensor with micro-nano holes to improve NIR optical  efficiency: micro-holes on top surface vs on bottom",
+    "abstract": "We study the nano- and micro-structures that increase the optical efficiency of the CMOS image pixels in visible and infrared. We consider the difference between the micro-holes at the pixels' bottom and the top and the holes that are composed of smaller holes. Those solutions can facilitate the fabrication. We study the crosstalk and the optical efficiency dependence on the angle of incident of light and numerical aperture for the pixels in a camera setup. ",
+    "url": "https://arxiv.org/abs/2305.02314",
+    "authors": [
+      "E.Ponizovskaya Devine",
+      "Ahasan Ahamad",
+      "Ahmed Mayet",
+      "Amita Rawat",
+      "Aly F Elrefaie",
+      "Toshishige Yamada",
+      "Shih-Yuan Wang",
+      "M Saif Islam"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01729",
+    "title": "Non-Rayleigh signal of interacting quantum particles",
+    "abstract": "The dynamics of two interacting quantum particles on a weakly disordered chain is investigated. Spatial quantum interference between them is characterized through the statistics of two-particle transition amplitudes, related to Hanbury Brown-Twiss correlations in optics. The fluctuation profile of the signal can discern whether the interacting parties are behaving like identical bosons, fermions, or distinguishable particles. An analog fully developed speckle regime displaying Rayleigh statistics is achieved for interacting bosons. Deviations toward long-tailed distributions echo quantum correlations akin to non-interacting identical particles. In the limit of strong interaction, two-particle bound states obey generalized Rician distributions. ",
+    "url": "https://arxiv.org/abs/2305.01729",
+    "authors": [
+      "M. F. V. Oliveira",
+      "F. A. B. F. de Moura",
+      "A. M. C. Souza",
+      "M. L. Lyra",
+      "G. M. A. Almeida"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01757",
+    "title": "Ultra-narrow inhomogeneous spectral distribution of telecom-wavelength  vanadium centres in isotopically-enriched silicon carbide",
+    "abstract": "Spin-active quantum emitters have emerged as a leading platform for quantum technology. However, one of their major limitations is the large spread in optical emission frequencies, which typically extends for tens of GHz. Here, we investigate single V4+ vanadium centers in 4H-SiC, which feature telecom-wavelength emission and a coherent S = 1/2 spin state. We perform spectroscopy on single emitters and report the first observation of spin-dependent optical transitions, a key requirement for spin-photon interfaces. By engineering the isotopic composition of the SiC matrix, we reduce the inhomogeneous spectral distribution of different emitters down to 100 MHz, significantly smaller than any other single quantum emitter. Additionally, we tailor the dopant concentration to stabilise the telecom-wavelength V4+ charge state, thereby extending its lifetime by at least two orders of magnitude. These results bolster the prospects for single V emitters in SiC as material nodes in scalable telecom quantum networks. ",
+    "url": "https://arxiv.org/abs/2305.01757",
+    "authors": [
+      "Pasquale Cilibrizzi",
+      "Muhammad Junaid Arshad",
+      "Benedikt Tissot",
+      "Nguyen Tien Son",
+      "Ivan G. Ivanov",
+      "Thomas Astner",
+      "Philipp Koller",
+      "Misagh Ghezellou",
+      "Jawad Ul-Hassan",
+      "Daniel White",
+      "Christiaan Bekker",
+      "Guido Burkard",
+      "Michael Trupke",
+      "Cristian Bonato"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01785",
+    "title": "What can a GNOME do? Search targets for the Global Network of Optical  Magnetometers for Exotic physics searches",
+    "abstract": "Numerous observations suggest that there exist undiscovered beyond-the-Standard-Model particles and fields. Because of their unknown nature, these exotic particles and fields could interact with Standard Model particles in many different ways and assume a variety of possible configurations. Here we present an overview of the Global Network of Optical Magnetometers for Exotic physics searches (GNOME), our ongoing experimental program designed to test a wide range of exotic physics scenarios. The GNOME experiment utilizes a worldwide network of shielded atomic magnetometers (and, more recently, comagnetometers) to search for spatially and temporally correlated signals due to torques on atomic spins from exotic fields of astrophysical origin. We survey the temporal characteristics of a variety of possible signals currently under investigation such as those from topological defect dark matter (axion-like particle domain walls), axion-like particle stars, solitons of complex-valued scalar fields (Q-balls), stochastic fluctuations of bosonic dark matter fields, a solar axion-like particle halo, and bursts of ultralight bosonic fields produced by cataclysmic astrophysical events such as binary black hole mergers. ",
+    "url": "https://arxiv.org/abs/2305.01785",
+    "authors": [
+      "S. Afach",
+      "D. Aybas Tumturk",
+      "H. Bekker",
+      "B. C. Buchler",
+      "D. Budker",
+      "K. Cervantes",
+      "A. Derevianko",
+      "J. Eby",
+      "N. L. Figueroa",
+      "R. Folman",
+      "D. Gavil'an Martin",
+      "M. Givon",
+      "Z. D. Grujic",
+      "H. Guo",
+      "P. Hamilton",
+      "M. P. Hedges",
+      "D. F. Jackson Kimball",
+      "S. Khamis",
+      "D. Kim",
+      "E. Klinger",
+      "A. Kryemadhi",
+      "X. Liu",
+      "G. Lukasiewicz",
+      "H. Masia-Roig",
+      "M. Padniuk",
+      "C. A. Palm",
+      "S. Y. Park",
+      "H. R. Pearson",
+      "X. Peng",
+      "M. Pospelov",
+      "S. Pustelny",
+      "Y. Rosenzweig O. M. Ruimi",
+      "T. Scholtes",
+      "P. C. Segura",
+      "Y. K. Semertzidis",
+      "Y. C. Shin",
+      "J. A. Smiga",
+      "Y. V. Stadnik",
+      "J. E. Stalnaker",
+      "I. A. Sulai",
+      "D. Tandon",
+      "K. Vu",
+      "A. Weis",
+      "A. Wickenbrock",
+      "T. Z. Wilson",
+      "T. Wu",
+      "W. Xiao",
+      "Y. Yang",
+      "D. Yu",
+      "F. Yu",
+      "J. Zhang",
+      "Y. Zhao"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01872",
+    "title": "Microwave loss characterization using multi-mode superconducting  resonators",
+    "abstract": "Measuring the losses arising from different materials and interfaces is crucial to improving the coherence of superconducting quantum circuits. Although this has been of interest for a long time, current studies can either only provide bounds to those losses, or require several devices for a complete characterization. In this work, we introduce a method to measure the microwave losses of materials and interfaces with a single multi-mode superconducting resonator. We demonstrate a formalism for analyzing the loss sensitivity of multi-mode systems and discuss the design strategies of multi-mode resonators for material loss studies. We present two types of multi-mode superconducting resonators for the study of bulk superconductors: the forky whispering-gallery-mode resonator (FWGMR) and the ellipsoidal cavity. We use these resonators to measure the surface dielectric, conductor, and seam losses of high-purity (5N5) aluminum and aluminum alloy (6061), as well as how they are affected by chemical etching, diamond turning, and thin-film coating. We find that chemical etching and diamond turning reduce both the surface dielectric and conductive losses of high-purity aluminum, but provide no appreciable improvement to the seam. Coating the surfaces of diamond-turned aluminum alloys with e-beam evaporated or sputtered aluminum thin-films significantly reduces all three losses under study. In addition, we study the effect of chemical etching on the surface of high-purity aluminum using transmission electron microscopy (TEM) and find that the chemical etching process creates a thinner and more uniform oxide layer, consistent with the observed improvement in the surface dielectric loss. ",
+    "url": "https://arxiv.org/abs/2305.01872",
+    "authors": [
+      "Chan U Lei",
+      "Suhas Ganjam",
+      "Lev Krayzman",
+      "Archan Banerjee",
+      "Kim Kisslinger",
+      "Sooyeon Hwang",
+      "Luigi Frunzio",
+      "Robert J. Schoelkopf"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01946",
+    "title": "Controlled entanglement source for quantum cryptography",
+    "abstract": "Quantum entanglement has become an essential resource in quantum information processing. Existing works employ entangled quantum states to perform various tasks, while little attention is paid to the control of the resource. In this work, we propose a simple protocol to upgrade an entanglement source with access control through phase randomization at the optical pump. The enhanced source can effectively control all users in utilizing the entanglement resource to implement quantum cryptography. In addition, we show this control can act as a practical countermeasure against memory attack on device-independent quantum key distribution at a negligible cost. To demonstrate the feasibility of our protocol, we implement an experimental setup using just off-the-shelf components and characterize its performance accordingly. ",
+    "url": "https://arxiv.org/abs/2305.01946",
+    "authors": [
+      "Qiang Zeng",
+      "Haoyang Wang",
+      "Huihong Yuan",
+      "Yuanbin Fan",
+      "Lai Zhou",
+      "Yuanfei Gao",
+      "Haiqiang Ma",
+      "Zhiliang Yuan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02067",
+    "title": "Photosynthesis Under a Red Sun: Predicting the absorption  characteristics of an extraterrestrial light-harvesting antenna",
+    "abstract": "Here we discuss the feasibility of photosynthesis on Earth-like rocky planets in close orbit around ultra-cool red dwarf stars. Stars of this type have very limited emission in the \\textit{photosynthetically active} region of the spectrum ($400 - 700$ nm), suggesting that they may not be able to support oxygenic photosynthesis. However, photoautotrophs on Earth frequently exploit very dim environments with the aid of highly structured and extremely efficient antenna systems. Moreover, the anoxygenic photosynthetic bacteria, which do not need to oxidize water to source electrons, can exploit far red and near infrared light. Here we apply a simple model of a photosynthetic antenna to a range of model stellar spectra, ranging from ultra-cool (2300 K) to Sun-like (5800 K). We assume that a photosynthetic organism will evolve an antenna that maximizes the rate of energy input while also minimizing fluctuations. The latter is the 'noise cancelling' principle recently reported by Arp et al. 2020. Applied to the Solar spectrum this predicts optimal antenna configurations in agreement with the chlorophyll Soret absorption bands. Applied to cooler stars, the optimal antenna peaks become redder with decreasing stellar temperature, crossing to the typical wavelength ranges associated with anoxygenic photoautotrophs at $\\sim 3300$ K. Lastly, we compare the relative input power delivered by antennae of equivalent size around different stars and find that the predicted variation is within the same order of magnitude. We conclude that low-mass stars do not automatically present light-limiting conditions for photosynthesis but they may select for anoxygenic organisms. ",
+    "url": "https://arxiv.org/abs/2305.02067",
+    "authors": [
+      "Christopher D. P. Duffy",
+      "Gregoire Canchon",
+      "Thomas J. Haworth",
+      "Edward Gillen",
+      "Samir Chitnavis",
+      "Conrad W. Mullineaux"
+    ],
+    "subjectives": [
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02129",
+    "title": "Comment on \"Strong Meissner screening change in superconducting radio  frequency cavities due to mild baking'' [Appl.\\ Phys.\\ Lett.\\ \\textbf{104},  072601 (2014)]",
+    "abstract": "In a recent Letter by Romanenko et al. [APL-104-072601] the authors used low energy muon spin rotation to measure the Meissner screening profile in cutouts from Nb SRF cavities, systematically comparing how different surface treatments affect the screening properties of the elemental type-II superconductor. They reported a ``strong'' modification to the character of the screening profile upon mild baking at 120 degree celsius for 48 hours, which was interpreted as a depth-dependent carrier mean-free-path resulting from a ``gradient in vacancy concentration'' near the surface. While this observation led to speculation that this surface treatment yields an ``effective'' superconducting bilayer, we suggest that its likeness to such is accidental and that the behavior is an artifact from the analysis. ",
+    "url": "https://arxiv.org/abs/2305.02129",
+    "authors": [
+      "Ryan M. L. McFadden",
+      "Md Asaduzzaman",
+      "Tobias Junginger"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.02274",
+    "title": "Static self energy and effective mass of the homogeneous electron gas  from Quantum Monte Carlo calculations",
+    "abstract": "We discuss the methodology of quantum Monte Carlo calculations of the effective mass based on the static self energy, $\\Sigma(k,0)$. We then use variational Monte Carlo calculations of $\\Sigma(k,0)$ of the homogeneous electron gas at various densities to obtain results very close to perturbative $G_0 W_0$ calculations for values of the density parameter $1 \\le r_s \\le 10$. The obtained values for the effective mass are close to diagrammatic Monte Carlo results and disagree with previous quantum Monte Carlo calculations based on a heuristic mapping of excitation energies to those of an ideal gas. ",
+    "url": "https://arxiv.org/abs/2305.02274",
+    "authors": [
+      "Markus Holzmann",
+      "Francesco Calcavecchia",
+      "David M. Ceperley",
+      "Valerio Olevano"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.06732",
+    "title": "Ytterbium nuclear-spin qubits in an optical tweezer array",
+    "abstract": " Comments: This version includes a corrected discussion of the polarization for one of the single-beam Raman gates ",
+    "url": "https://arxiv.org/abs/2112.06732",
+    "authors": [
+      "Alec Jenkins",
+      "Joanna W. Lis",
+      "Aruku Senoo",
+      "William F. McGrew",
+      "Adam M. Kaufman"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2202.09521",
+    "title": "On the tunability of energetic highly-elliptical higher harmonics  generated by intense two-color counter rotating laser fields",
+    "abstract": " Comments: arXiv admin note: text overlap with arXiv:2106.08690 ",
+    "url": "https://arxiv.org/abs/2202.09521",
+    "authors": [
+      "E. Vassakis",
+      "S. Madas",
+      "L. Spachis",
+      "T. Lamprou",
+      "I. Orfanos",
+      "S. Kahaly",
+      "M. Upadhyay Kahaly",
+      "D. Charalambidis",
+      "E. Skantzakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.14323",
+    "title": "On quantum free-electron laser: Superradience",
+    "abstract": " Comments: Corrected ",
+    "url": "https://arxiv.org/abs/2203.14323",
+    "authors": [
+      "Alexander Iomin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.07974",
+    "title": "Element resolved evidence of superdiffusive terahertz spin current  arising from ultrafast demagnetization process",
+    "abstract": " Comments: 7 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2205.07974",
+    "authors": [
+      "R. Gupta",
+      "F. Cosco",
+      "R. S. Malik",
+      "X. Chen",
+      "S. Saha",
+      "A. Ghosh",
+      "T. Pohlmann",
+      "J. R. L. Mardegan",
+      "S. Francoual",
+      "R. Stefanuik",
+      "J. Soderstrom",
+      "B. Sanyal",
+      "O. Karis",
+      "P. Svedlindh",
+      "P. M. Oppeneer",
+      "R. Knut"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.01470",
+    "title": "Can vibrational sum frequency scattering spectra be measured from the  surface of 40-100 nm aerosols in a cloud containing 10$^{6}$ particles/mL?",
+    "abstract": " Comments: 8 pages, 1 figure, 1 table ",
+    "url": "https://arxiv.org/abs/2206.01470",
+    "authors": [
+      "Arianna Marchioro",
+      "Thaddeus W. Golbek",
+      "Adam S. Chatterley",
+      "Tobias Weidner",
+      "Sylvie Roke"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.06914",
+    "title": "Designing topological acoustic lattices via electroacoustic analogies",
+    "abstract": " Title: Designing topological acoustic lattices via electroacoustic analogies ",
+    "url": "https://arxiv.org/abs/2209.06914",
+    "authors": [
+      "Hasan Al Ba'ba'a",
+      "Kyung Hoon Lee",
+      "Qiming Wang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.01251",
+    "title": "Teaching quantum communications through a hands-on laboratory",
+    "abstract": " Comments: Accepted for publication in JINST, 12 pages ",
+    "url": "https://arxiv.org/abs/2303.01251",
+    "authors": [
+      "Alberto Sebasti\u00e1n-Lombra\u00f1a",
+      "Laura Ortiz",
+      "Juan P. Brito",
+      "Jaime S\u00e1ez de Buruaga",
+      "Rafael J. Vicente",
+      "Ruben B. Mendez",
+      "Rafael Arti\u00f1ano",
+      "Vicente Mart\u00edn"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.03683",
+    "title": "Enhancing the sensitivity of atom-interferometric inertial sensors in  dynamic environments using robust control",
+    "abstract": " Comments: 15 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2303.03683",
+    "authors": [
+      "J. C. Saywell",
+      "M. S. Carey",
+      "P. S. Light",
+      "S. S. Szigeti",
+      "A. R. Milne",
+      "K. Gill",
+      "M. L. Goh",
+      "V. S. Perunicic",
+      "N. M. Wilson",
+      "C. D. Macrae",
+      "A. Rischka",
+      "P. J. Everitt",
+      "N. P. Robins",
+      "R. P. Anderson",
+      "M. R. Hush",
+      "M. J. Biercuk"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.08282",
+    "title": "Deep-Learning-based Vasculature Extraction for Single-Scan Optical  Coherence Tomography Angiography",
+    "abstract": " Title: Deep-Learning-based Vasculature Extraction for Single-Scan Optical  Coherence Tomography Angiography ",
+    "url": "https://arxiv.org/abs/2304.08282",
+    "authors": [
+      "Jinpeng Liao",
+      "Tianyu Zhang",
+      "Yilong Zhang",
+      "Chunhui Li",
+      "Zhihong Huang"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.01553",
+    "title": "Complex dynamics on the one-dimensional quantum droplets via time  piecewise PINNs",
+    "abstract": " Title: Complex dynamics on the one-dimensional quantum droplets via time  piecewise PINNs ",
+    "url": "https://arxiv.org/abs/2305.01553",
+    "authors": [
+      "Juncai Pu",
+      "Yong Chen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  }
+]
