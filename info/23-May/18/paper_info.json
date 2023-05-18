@@ -1,0 +1,310 @@
+[
+  {
+    "id": "arXiv:2305.09683",
+    "title": "Flexible, integrated modeling of tokamak stability, transport,  equilibrium, and pedestal physics",
+    "abstract": "The STEP (Stability, Transport, Equilibrium, and Pedestal) integrated-modeling tool has been developed in OMFIT to predict stable, tokamak equilibria self-consistently with core-transport and pedestal calculations. STEP couples theory-based codes to integrate a variety of physics, including MHD stability, transport, equilibrium, pedestal formation, and current-drive, heating, and fueling. The input/output of each code is interfaced with a centralized ITER-IMAS data structure, allowing codes to be run in any order and enabling open-loop, feedback, and optimization workflows. This paradigm simplifies the integration of new codes, making STEP highly extensible. STEP has been verified against a published benchmark of six different integrated models. Core-pedestal calculations with STEP have been successfully validated against individual DIII-D H-mode discharges and across more than 500 discharges of the $H_{98,y2}$ database, with a mean error in confinement time from experiment less than 19%. STEP has also reproduced results in less conventional DIII-D scenarios, including negative-central-shear and negative-triangularity plasmas. Predictive STEP modeling has been used to assess performance in several tokamak reactors. Simulations of a high-field, large-aspect-ratio reactor show significantly lower fusion power than predicted by a zero-dimensional study, demonstrating the limitations of scaling-law extrapolations. STEP predictions have found promising EXCITE scenarios, including a high-pressure, 80%-bootstrap-fraction plasma. ITER modeling with STEP has shown that pellet fueling enhances fusion gain in both the baseline and advanced-inductive scenarios. Finally, STEP predictions for the SPARC baseline scenario are in good agreement with published results from the physics basis. ",
+    "url": "https://arxiv.org/abs/2305.09683",
+    "authors": [
+      "B. C. Lyons",
+      "J. McClenaghan",
+      "T. Slendebroek",
+      "O. Meneghini",
+      "T. F. Neiser",
+      "S. P. Smith",
+      "D. B. Weisberg",
+      "E. A. Belli",
+      "J. Candy",
+      "J. M. Hanson",
+      "L. L. Lao",
+      "N. C. Logan",
+      "S. Saarelma",
+      "O. Sauter",
+      "P. B. Snyder",
+      "G. M. Staebler",
+      "K. E. Thome",
+      "A. D. Turnbull"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09762",
+    "title": "An integrated experimental and computational framework for modeling  creep behavior in shale rocks induced by chemo-mechanical loading",
+    "abstract": "Creep deformation in shale rocks is an important factor in many applications, such as the sustainability of geostructures, wellbore stability, evaluation of land subsidence, CO2 storage, toxic waste containment, and hydraulic fracturing. One mechanism leading to this time-dependent deformation under a constant load is the dissolution/formation processes accompanied by chemo-mechanical interactions with a reactive environment. When dissolution/formation processes occur within the material phases, the distribution of stress and strain within the material microstructure changes. In the case of the dissolution process, the stress carried by the dissolving phase is distributed into neighboring voxels, which leads to further deformation of the material. The aim of this study was to explore the relationship between the microstructural evolution and time-dependent creep behavior of rocks subjected to chemo-mechanical loading. This work uses the experimentally characterized microstructural and mechanical evolution of a shale rock induced by interactions with a reactive brine (CO2-rich brine) and a non-reactive brine (N2-rich brine) under high-pressure and high-temperature conditions to compute the resulting time-dependent deformation using a time-stepping finite-element-based modeling approach. Sample microstructure snapshots were obtained using segmented micro-CT images of the rock samples before and after the reactions. Coupled nanoindentation/EDS provided spatial alteration of the mechanical properties of individual material phases due to the dissolution and precipitation processes as a result of the chemo-mechanical loading of the samples. The time-dependent mechanically informed microstructures were then incorporated into a mechanical model to calculate the creep behavior caused by the dissolution/precipitation processes independent of the inherent viscous properties of the mineral phases. ",
+    "url": "https://arxiv.org/abs/2305.09762",
+    "authors": [
+      "Ravi Prakash",
+      "Sara Abedi"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09808",
+    "title": "Floquet theory and computational method for the optical absorption of  laser-dressed solids",
+    "abstract": "Strong light-matter interactions provide powerful means for the manipulation of the physico-chemical properties of matter. Here we develop a general theory for the linear optical absorption spectroscopy of spatially-periodic solids driven out of equilibrium by time-periodic light of arbitrary strength and photon energy. The effects of the driving laser is treated exactly using Floquet theory. The effective optical properties of this driven system are probed through a weak laser whose effects are captured to first order in perturbation theory. The resulting formula for non-equilibrium optical absorption is akin to the regular near-equilibrium absorption theory but with the Floquet-Bloch modes playing the role of pristine eigenstates of matter. To exemplify the effect of laser-dressing in the optical absorption, we perform computations of a model solid with a cosine-shaped lattice potential. We identify dramatic changes in the optical absorption upon increasing the amplitude of the driving laser. The spectrum shows a blue-shift of the band edge and below band gap absorption that agree with the dynamical Franz-Keldysh effect. It also shows several replicas of transitions separated by integer multiples of the drive photon energy that we assign as purely-optical tell-tale signatures of the Floquet-Bloch states. Beyond the dynamical Franz-Keldysh effect, strikingly we also observe intense low-frequency absorption and stimulated emissions and the opening of dips in the absorption spectrum that emerge due to the hybridization of the Floquet-Bloch modes which are novel signatures of the non-equilibrium dynamics in the laser-dressed system. This work open new paths to control and characterize the physical properties of solids using strong laser fields. ",
+    "url": "https://arxiv.org/abs/2305.09808",
+    "authors": [
+      "Vishal Tiwari",
+      "Bing Gu",
+      "Ignacio Franco"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09871",
+    "title": "An electrically-driven Carbon nanotube-based plasmonic laser on Silicon",
+    "abstract": "Photonic signal processing requires efficient on-chip light sources with higher modulation bandwidths. Todays conventional fastest semiconductor diode lasers exhibit modulation speeds only on the order of a few tens of GHz due to gain compression effects and parasitic electrical capacitances. Here we theoretically show an electrically-driven Carbon nanotube (CNT)-based laser utilizing strong light-matter-interaction via monolithic integration into Silicon photonic crystal nanobeam (PCNB) cavities. The laser is formed by single-walled CNTs inside a combo-cavity consisting of both a plasmonic metal-oxide-semiconductor hybrid mode embedded in the one dimensional PCNB cavity. The emission originates from interband recombinations of electrostatically-doped nanotubes depending on the tubes chirality towards matching the C-band. Our simulation results show that the laser operates at telecom frequencies resulting in a power output > 3 (100) uW and > 100 (1000)GHz modulation speed at 1x (10x) threshold. Such monolithic integration schemes provide an alternative promising approach for light source in future photonics integrated circuits. ",
+    "url": "https://arxiv.org/abs/2305.09871",
+    "authors": [
+      "Ke Liu",
+      "Behrouz Movahhed Nouri",
+      "Elham Heidari",
+      "Hamed Dalir",
+      "Volker J. Sorger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09894",
+    "title": "Frequency perturbation integral for piezoelectric quartz crystal  microbalances based on scalar differential equations",
+    "abstract": "We study frequency shifts in a piezoelectric quartz resonator induced by a surface mass layer for sensor applications. The scalar differential equations for thickness-shear modes in a quartz plate are used. A first-order perturbation analysis is performed. The frequency shift is obtained and is expressed by a perturbation integral. It produces the well-known Sauerbrey equation for mass sensitivity in the special case of a uniform mass layer. As an application of the perturbation integral, frequency shifts due to a nonuniform mass layer are calculated. ",
+    "url": "https://arxiv.org/abs/2305.09894",
+    "authors": [
+      "Jiashi Yang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09920",
+    "title": "Low-data deep quantum chemical learning for accurate MP2 and  coupled-cluster correlations",
+    "abstract": "Accurate ab-initio prediction of electronic energies is very expensive for macromolecules by explicitly solving post-Hartree-Fock equations. We here exploit the physically justified local correlation feature in compact basis of small molecules, and construct an expressive low-data deep neural network (dNN) model to obtain machine-learned electron correlation energies on par with MP2 and CCSD levels of theory for more complex molecules and different datasets that are not represented in the training set. We show that our dNN-powered model is data efficient and makes highly transferable prediction across alkanes of various lengths, organic molecules with non-covalent and biomolecular interactions, as well as water clusters of different sizes and morphologies. In particular, by training 800 (H$_2$O)$_8$ clusters with the local correlation descriptors, accurate MP2/cc-pVTZ correlation energies up to (H$_2$O)$_{128}$ can be predicted with a small random error within chemical accuracy from exact values, while a majority of prediction deviations are attributed to an intrinsically systematic error. Our results reveal that an extremely compact local correlation feature set, which is poor for any direct post-Hartree-Fock calculations, has however a prominent advantage in reserving important electron correlation patterns for making accurate transferable predictions across distinct molecular compositions, bond types and geometries. ",
+    "url": "https://arxiv.org/abs/2305.09920",
+    "authors": [
+      "Wai-Pan Ng",
+      "Qiujiang Liang",
+      "Jun Yang"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10020",
+    "title": "Inverse Design of All-dielectric Metasurfaces with Bound States in the  Continuum",
+    "abstract": "Inverse Design of All-dielectric Metasurfaces with Bound States in the Continuum ",
+    "url": "https://arxiv.org/abs/2305.10020",
+    "authors": [
+      "Sergei Gladyshev",
+      "Theodosios D. Karamanos",
+      "Lina Kuhn",
+      "Dominik Beutel",
+      "Thomas Weiss",
+      "Carsten Rockstuhl",
+      "Andrey Bogdanov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10194",
+    "title": "Experimental realization of topologically-protected all-optical logic  gates based on silicon photonic crystal slabs",
+    "abstract": "Topological photonics has been developed for more than ten years. It has been proved that the combination of topology and photons is very beneficial to the design of robust optical devices against some disturbances. However, most of the work for robust optical logic devices stays at the theoretical level. There are very few topologically-protected logic devices fabricated in experiments. Here, we report the experimental fabrication of a series of topologically-protected all-optical logic gates. Seven topologically-protected all-optical logic gates (OR, XOR, NOT, XNOR, NAND, NOR, and AND) are fabricated on silicon photonic platforms, which show strong robustness even if some disorders exist. These robust logic devices are potentially applicable in future optical signal processing and computing. ",
+    "url": "https://arxiv.org/abs/2305.10194",
+    "authors": [
+      "Furong Zhang",
+      "Lu He",
+      "Huizhen Zhang",
+      "Ling-Jun Kong",
+      "Xingsheng Xu",
+      "Xiangdong Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10200",
+    "title": "Topological Holography and Storage with Optical Knots and Links",
+    "abstract": "After more than 70 years of development, holography has become an essential tool of modern optics in many applications. In fact, for various applications of different kinds of holographic techniques, stability and antijamming ability are very important. Here, optical topological structures are introduced into holographic technology, and an entirely new concept of optical topological holography is demonstrated to solve stability and antijamming problems. Based on the optical knots and links, the topological holography is not only developed in theory, but also demonstrated experimentally. In addition, a new topological holographic coding is established by regarding each knotted/linked topological structure as an information carrier. Due to the variety of knotted and linked structures and their characteristics of topological protection, such coding can have high capacity as well as robust properties. Furthermore, with writing the hologram into the liquid crystal, robust information storage of 3D topological holography is realized. ",
+    "url": "https://arxiv.org/abs/2305.10200",
+    "authors": [
+      "Ling-Jun Kong",
+      "Jingfeng Zhang",
+      "Furong Zhang",
+      "Xiangdong Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10208",
+    "title": "The Regenerative Current Mirror: A Very Low Power Front-End Amplifier  for Silicon Pixel Detectors",
+    "abstract": "In pixelized detectors, reducing power consumption in the front end ASIC chips becomes a crucial demand. Optimization based on mature pre-amplifier schemes today is unlikely to bring sufficient improvements. A new CMOS front-end gain stage topology with very low power consumption called regenerative current mirror is developed to fulfill the demand. The circuit takes advantage of high speed performance of current amplification while operating with relatively low bias current. The regenerative current mirror uses a NMOS current mirror and a PMOS current mirror, both with nominal gain of 1, to form a loop-back topology that provides a positive feedback. An NMOS FET with an external adjustable voltage applied to it gate terminal is used to limit open loop gain of the current mirrors to be slightly lower than 1. This yields a net gain of the positive feedback loop to be much larger than 1 while operating the current mirrors under relatively low bias currents. Simulation shows that in 65 nm fabrication process, the power consumption of the gain stages suitable for silicon pixel detectors can be controlled < 10 micro-Watts per channel. ",
+    "url": "https://arxiv.org/abs/2305.10208",
+    "authors": [
+      "Jinyuan Wu"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10226",
+    "title": "Improving Nb3Sn Cavity Performance Using Centrifugal Barrel Polishing",
+    "abstract": "In this study we will show a new method of polishing for Nb3Sn cavities known as centrifugal barrel polishing (CBP). Using this method, Nb3Sn coated samples are polished to a surface roughness comparable to a traditional Nb cavity after electropolishing (EP). We also investigate different methods of cleaning the Nb3Sn surface after CBP to remove residual abrasive particles. The polished Nb3Sn surface is analyzed using confocal laser microscopy, and scanning electron microscopy (SEM) is used to image the surface and measure the surface roughness after polishing. Transmission electron microscopy (TEM) is also used for high resolution analysis of the surface after polishing. Finally, we show that centrifugal barrel polishing can improve the performance of a Nb3Sn SRF cavity. ",
+    "url": "https://arxiv.org/abs/2305.10226",
+    "authors": [
+      "Eric Viklund",
+      "David N. Seidman",
+      "David Burk",
+      "Sam Posen"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09711",
+    "title": "SRF Cavity Searches for Dark Photon Dark Matter: First Scan Results",
+    "abstract": "We present the first use of a tunable superconducting radio frequency cavity to perform a scan search for dark photon dark matter with novel data analysis strategies. We mechanically tuned the resonant frequency of a cavity embedded in the liquid helium with a temperature of $2$ K, scanning the dark photon mass over a frequency range of $1.37$ MHz centered at $1.3$ GHz. By exploiting the superconducting radio frequency cavity's considerably high quality factors of approximately $10^{10}$, our results demonstrate the most stringent constraints to date on a substantial portion of the exclusion parameter space, particularly concerning the kinetic mixing coefficient between dark photons and electromagnetic photons $\\epsilon$, yielding a value of $\\epsilon < 2.2 \\times 10^{-16}$. ",
+    "url": "https://arxiv.org/abs/2305.09711",
+    "authors": [
+      "Zhenxing Tang",
+      "Bo Wang",
+      "Yifan Chen",
+      "Yanjie Zeng",
+      "Chunlong Li",
+      "Yuting Yang",
+      "Liwen Feng",
+      "Peng Sha",
+      "Zhenghui Mi",
+      "Weimin Pan",
+      "Tianzong Zhang",
+      "Yirong Jin",
+      "Jiankui Hao",
+      "Lin Lin",
+      "Fang Wang",
+      "Huamu Xie",
+      "Senlin Huang",
+      "Jing Shu"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09805",
+    "title": "Mitigating the Non-Linearities in a Pyramid Wavefront Sensor",
+    "abstract": "For natural guide start adaptive optics (AO) systems, pyramid wavefront sensors (PWFSs) can provide significant increase in sensitivity over the traditional Shack-Hartmann, but at the cost of a reduced linear range. When using a linear reconstructor, non-linearities result in wavefront estimation errors, which can have a significant impact on the image quality delivered by the AO system. Here we simulate a wavefront passing through a PWFS under varying observing conditions to explore the possibility of using a non-linear machine learning model to estimate wavefront errors better than a linear reconstruction. We find significant improvement even with light-weight models, underscoring the need for further investigation of this approach. ",
+    "url": "https://arxiv.org/abs/2305.09805",
+    "authors": [
+      "Finn Archinuk",
+      "Rehan Hafeez",
+      "S\u00e9bastien Fabbro",
+      "Hossen Teimoorinia",
+      "Jean-Pierre V\u00e9ran"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.09843",
+    "title": "Optimization at the Interface of Unitary and Non-unitary Quantum  Operations in PCOAST",
+    "abstract": "The Pauli-based Circuit Optimization, Analysis and Synthesis Toolchain (PCOAST) was recently introduced as a framework for optimizing quantum circuits. It converts a quantum circuit to a Pauli-based graph representation and provides a set of optimization subroutines to manipulate that internal representation as well as methods for re-synthesizing back to a quantum circuit. In this paper, we focus on the set of subroutines which look to optimize the PCOAST graph in cases involving unitary and non-unitary operations as represented by nodes in the graph. This includes reduction of node cost and node number in the presence of preparation nodes, reduction of cost for Clifford operations in the presence of preparations, and measurement cost reduction using Clifford operations and the classical remapping of measurement outcomes. These routines can also be combined to amplify their effectiveness. We evaluate the PCOAST optimization subroutines using the Intel Quantum SDK on examples of the Variational Quantum Eigensolver (VQE) algorithm. This includes synthesizing a circuit for the simultaneous measurement of a mutually commuting set of Pauli operators. We find for such measurement circuits the overall average ratio of the maximum theoretical number of two-qubit gates to the actual number of two-qubit gates used by our method to be 7.91. ",
+    "url": "https://arxiv.org/abs/2305.09843",
+    "authors": [
+      "Albert T. Schmitz",
+      "Mohannad Ibrahim",
+      "Nicolas P. D. Sawaya",
+      "Gian Giacomo Guerreschi",
+      "Jennifer Paykin",
+      "Xin-Chuan Wu",
+      "A. Y. Matsuura"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10066",
+    "title": "Have different kinds of photon-pair sources the same  indistinguishability in quantum silicon photonics?",
+    "abstract": "In the same silicon photonic integrated circuit, we compare two types of integrated degenerate photon-pair sources (microring resonators or waveguides) by means of Hong-Ou-Mandel (HOM) interference experiments. Two nominally identical microring resonators are coupled to two nominally identical waveguides which form the arms of a Mach-Zehnder interferometer. This is pumped by two lasers at two different wavelengths to generate by spontaneous four-wave mixing degenerate photon pairs. In particular, the microring resonators can be thermally tuned in or out of resonance with the pump wavelengths, thus choosing either the microring resonators or the waveguides as photon-pair sources, respectively. In this way, an on-chip HOM visibility of 94% with microring resonators and 99% with straight waveguides is measured. We compare our experimental results with theoretical simulations of the joint spectral intensity and the purity of the degenerate photon pairs. We verify that the visibility is connected to the sources' indistinguishability, which can be quantified by the overlap between the joint spectral amplitudes (JSA) of the photon pairs generated by the two sources. We estimate a JSA overlap of 98% with waveguides and 89% with microring resonators. ",
+    "url": "https://arxiv.org/abs/2305.10066",
+    "authors": [
+      "Jong-Moo Lee",
+      "Alessio Baldazzi",
+      "Matteo Sanna",
+      "Stefano Azzini",
+      "Joon Tae Ahn",
+      "Myung Lae Lee",
+      "Young-Ik Sohn",
+      "Lorenzo Pavesi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10206",
+    "title": "Six Measurement Problems of Quantum Mechanics",
+    "abstract": "The notorious `measurement problem' has been roving around quantum mechanics for nearly a century since its inception, and has given rise to a variety of `interpretations' of quantum mechanics, which are meant to evade it. We argue that no less than six problems need to be distinguished, and that several of them classify as different types of problems. One of them is what traditionally is called `the measurement problem' (here: the Reality Problem of Measurement Outcomes). Another of them has nothing to do with measurements but is a profound metaphysical problem. We also analyse critically Maudlin's (1995) well-known statement of `three measurements problems', and the clash of the views of Brown (1986) and Stein (1997) on one of the six measurement problems, concerning so-called Insolubility Theorems. Finally, we summarise a solution to one measurement problem which has been largely ignored but tacitly if not explicitly acknowledged. ",
+    "url": "https://arxiv.org/abs/2305.10206",
+    "authors": [
+      "F.A. Muller"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.14781",
+    "title": "Adapting the HHL algorithm to (non-unitary) quantum many-body theory",
+    "abstract": " Title: Adapting the HHL algorithm to (non-unitary) quantum many-body theory ",
+    "url": "https://arxiv.org/abs/2212.14781",
+    "authors": [
+      "Nishanth Baskaran",
+      "Abhishek Singh Rawat",
+      "Akshaya Jayashankar",
+      "Dibyajyoti Chakravarti",
+      "K. Sugisaki",
+      "Shibdas Roy",
+      "Sudhindu Bikash Mandal",
+      "D. Mukherjee",
+      "V. S. Prasannaa"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
