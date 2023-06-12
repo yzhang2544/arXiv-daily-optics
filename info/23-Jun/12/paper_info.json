@@ -1,0 +1,308 @@
+[
+  {
+    "id": "arXiv:2306.05714",
+    "title": "Thermalization of open quantum systems using the multiple-Davydov-D2  variational approach",
+    "abstract": "Numerical implementation of an explicit phonon bath requires a large number of oscillator modes in order to maintain oscillators at the initial temperature when modeling energy relaxation processes. An additional thermalization algorithm may be useful in controlling the local temperature. In this paper we extend our previously proposed thermalization algorithm [M. Jaku\\v{c}ionis and D. Abramavi\\v{c}ius, Phys. Rev. A 103, 032202 (2021) ] to be used with the numerically exact multiple-Davydov-D2 trial wave function for simulation of relaxation dynamics and spectroscopic signals of open quantum systems using the time-dependent Dirac-Frenkel variational principle. By applying it to the molecular aggregate model, we demonstrate how the thermalization approach significantly reduces the numerical cost of simulations by decreasing the number of oscillators needed to explicitly simulate the aggregate's environment fluctuations while maintaining correspondence to the exact population relaxation dynamics. Additionally, we show how the thermalization can be used to find the equilibrium state of the excited molecular aggregate, which is necessary for simulation of the fluorescence and other spectroscopic signals. The thermalization algorithm we present offers the possibility to investigate larger system-bath models than was previously possible using the multiple-Davydov-D2 trial wave function and local heating effects in molecular complexes. ",
+    "url": "https://arxiv.org/abs/2306.05714",
+    "authors": [
+      "Mantas Jakucionis",
+      "Darius Abramavicius"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05729",
+    "title": "Redesigning spectroscopic sensors with programmable photonic circuits",
+    "abstract": "Optical spectroscopic sensors are a powerful tool to reveal light-matter interactions in many fields, such as physics, biology, chemistry, and astronomy. Miniaturizing the currently bulky spectrometers has become imperative for the wide range of applications that demand in situ or even in vitro characterization systems, a field that is growing rapidly. Benchtop spectrometers are capable of offering superior resolution and spectral range, but at the expense of requiring a large size. In this paper, we propose a novel method that redesigns spectroscopic sensors via the use of programmable photonic circuits. Drawing from compressive sensing theory, we start by investigating the most ideal sampling matrix for a reconstructive spectrometer and reveal that a sufficiently large number of sampling channels is a prerequisite for both fine resolution and low reconstruction error. This number is, however, still considerably smaller than that of the reconstructed spectral pixels, benefitting from the nature of reconstruction algorithms. We then show that the cascading of a few engineered MZI elements can be readily programmed to create an exponentially scalable number of such sampling spectral responses over an ultra-broad bandwidth, allowing for ultra-high resolution down to single-digit picometers without incurring additional hardware costs. Experimentally, we implement an on-chip spectrometer with a fully-programmable 6-stage cascaded MZI structure and demonstrate a < 10 pm resolution with a > 200 nm bandwidth using only 729 sampling channels. This achieves a bandwidth-to-resolution ratio of over 20,000, which is, to our best knowledge, about one order of magnitude greater than any reported miniaturized spectrometers to date. We further illustrate that by employing dispersion-engineered waveguide components, the device bandwidth can be extended to over 400 nm. ",
+    "url": "https://arxiv.org/abs/2306.05729",
+    "authors": [
+      "Chunhui Yao",
+      "Kangning Xu",
+      "Wanlu Zhang",
+      "Minjia Chen",
+      "Qixiang Cheng",
+      "Richard Penty"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05754",
+    "title": "Forward and inverse problems for Eikonal equation based on DeepONet",
+    "abstract": "Seismic forward and inverse problems are significant research areas in geophysics. However, the time burden of traditional numerical methods hinders their applications in scenarios that require fast predictions. Machine learning-based methods also have limitations as retraining is required for every change in initial conditions. In this letter, we adopt deep operator network (DeepONet) to solve forward and inverse problems based on the Eikonal equation, respectively. DeepONet approximates the operator through two sub-networks, branch net and trunk net, which offers good generalization and flexibility. Different structures of DeepONets are proposed to respectively learn the operators in forward and inverse problems. We train the networks on different categories of datasets separately, so that they can deliver accurate predictions with different initial conditions for the specific velocity model. The numerical results demonstrate that DeepONet can not only predict the travel time fields with different sources for different velocity models, but also provide velocity models based on the observed travel time data. ",
+    "url": "https://arxiv.org/abs/2306.05754",
+    "authors": [
+      "Yifan Mei",
+      "Yijie Zhang",
+      "Xueyu Zhu",
+      "Rongxi Gou"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05890",
+    "title": "A Quantum Graph Approach to Metamaterial Design",
+    "abstract": "Since the turn of the century, metamaterials have gained a large amount of attention due to their potential for possessing highly nontrivial and exotic properties such as cloaking or perfect lensing. There has been a great push to create reliable mathematical models that accurately describe the required material composition. Here, we consider a quantum graph approach to metamaterial design. An infnite square periodic quantum graph, constructed from vertices and edges, acts as a paradigm for a 2D metamaterial. Wave transport occurs along the edges with vertices acting as scatterers modelling sub-wavelength resonant elements. These resonant elements are constructed with the help of fnite quantum graphs attached to each vertex of the lattice with customisable properties controlled by a unitary scattering matrix. The metamaterial properties are understood and engineered by manipulating the band diagram of the periodic structure. The engineered properties are then demonstrated in terms of the refection and transmission behaviour of Gaussian beam solutions at an interface between two diferent metamaterials. We extend this treatment to N layered metamaterials using the Transfer Matrix Method. We demonstrate both positive and negative refraction and beam steering. Our proposed quantum graph modelling technique is very fexible and can be easily adjusted making it an ideal design tool for creating metamaterials with exotic band diagram properties or testing promising multi-layer set ups and wave steering efects ",
+    "url": "https://arxiv.org/abs/2306.05890",
+    "authors": [
+      "Tristan Lawrie",
+      "Gregor Tanner",
+      "Dimitrios Chronopoulos"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05929",
+    "title": "Efficient operator method for modelling mode mixing in misaligned  optical cavities",
+    "abstract": "The transverse field structure and diffraction loss of the resonant modes of Fabry-P\\'erot optical cavities are acutely sensitive to the alignment and shape of the mirror substrates. We develop extensions to the `mode mixing' method applicable to arbitrary mirror shapes, which both facilitate fast calculation of the modes of cavities with transversely misaligned mirrors and enable the determination and transformation of the geometric properties of these modes. We show how these methods extend previous capabilities by including the practically-motivated case of transverse mirror misalignment, unveiling rich and complex structure of the resonant modes. ",
+    "url": "https://arxiv.org/abs/2306.05929",
+    "authors": [
+      "William J. Hughes",
+      "Thomas H. Doherty",
+      "Jacob A. Blackmore",
+      "Peter Horak",
+      "Joseph F. Goodwin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05938",
+    "title": "Test-beam Performance Results of the FASTPIX Sub-Nanosecond CMOS Pixel  Sensor Demonstrator",
+    "abstract": "Within the ATTRACT FASTPIX project, a monolithic pixel sensor demonstrator chip has been developed in a modified 180 nm CMOS imaging process technology, targeting sub-nanosecond timing precision for single ionising particles. It features a small collection electrode design on a 25 micrometers-thick epitaxial layer and contains 32 mini matrices of 68 hexagonal pixels each, with pixel pitches ranging from 8.66 to 20 micrometers. Four pixels are transmitting an analog output signal and 64 are transmitting binary hit information. Various design variations are explored, aiming at accelerating the charge collection and making the timing of the charge collection more uniform over the pixel area. Signal treatment of the analog waveforms, as well as reconstruction of digital position, time and charge information, is carried out off-chip. This contribution introduces the design of the sensor and readout system and presents performance results for various pixel designs achieved in recent test beam measurements with external tracking and timing reference detectors. A time resolution below 150 ps is obtained at full efficiency for all pixel pitches. ",
+    "url": "https://arxiv.org/abs/2306.05938",
+    "authors": [
+      "Justus Braach",
+      "Eric Buschmann",
+      "Dominik Dannheim",
+      "Katharina Dort",
+      "Thanushan Kugathasan",
+      "Magdalena Munker",
+      "Walter Snoeys",
+      "Peter \u0160vihra",
+      "Mateus Vicente"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05967",
+    "title": "Quantum Calculation of Classical Kinetic Equations: A Novel Approach for  Numerical Analysis of 6D Boltzmann-Maxwell Equations in Collisionless Plasmas  Using Quantum Computing",
+    "abstract": "A novel quantum algorithm for solving the Boltzmann-Maxwell equations of the 6D collisionless plasma is proposed. The equation describes the kinetic behavior of plasma particles in electromagnetic fields and is known for the classical first-principles equations in various domains, from space to laboratory plasmas. We have constructed a quantum algorithm for a future large-scale quantum computer to accelerate its costly computation. This algorithm consists mainly of two routines: the Boltzmann solver and the Maxwell solver. Quantum algorithms undertake these dual procedures, while classical algorithms facilitate their interplay. Each solver has a similar structure consisting of three steps: Encoding, Propagation, and Integration. We conducted a preliminary implementation of the quantum algorithm and performed a parallel validation against a comparable classical approach. IBM Qiskit was used to implement all quantum circuits. ",
+    "url": "https://arxiv.org/abs/2306.05967",
+    "authors": [
+      "Hayato Higuchi",
+      "Juan William Pedersen",
+      "Akimasa Yoshikawa"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Space Physics (physics.space-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05441",
+    "title": "The speckle contrast extended to the polarimetric case: applications to  radar and Laser images",
+    "abstract": "This article proposes the application of various alternative definitions of the multivariate coefficient of variation parameter in two domains: radar polarimetric time series and dynamic polarimetric speckle. In the first case, the focus is on detecting permanent scatterers or changes, while in the second case, it involves calculating activity images. Our study demonstrates that most of these parameters offer added value in terms of signal-to-noise ratio improvement and enhancing contrast in specific regions. Furthermore, the concept of polarimetric multivariate coefficient of variation proves to be closely related to the degree of polarization. ",
+    "url": "https://arxiv.org/abs/2306.05441",
+    "authors": [
+      "Elise Colin"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05522",
+    "title": "Quantum optimization algorithms for CT image segmentation from X-ray  data",
+    "abstract": "Computed tomography (CT) is an important imaging technique used in medical analysis of the internal structure of the human body. Previously, image segmentation methods were required after acquiring reconstructed CT images to obtain segmented CT images which made it susceptible to errors from both reconstruction and segmentation algorithms. However, this paper introduces a new approach using an advanced quantum optimization algorithm called quadratic unconstrained binary optimization (QUBO). This algorithm enables acquisition of segmented CT images from X-ray projection data with minimized discrepancies between experimentally obtained sinograms and quantized sinograms derived from quantized segmented CT images using the Radon transform. This study utilized D-Wave's hybrid solver system for verification on real-world X-ray data. ",
+    "url": "https://arxiv.org/abs/2306.05522",
+    "authors": [
+      "Kyungtaek Jun"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Image and Video Processing (eess.IV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05591",
+    "title": "Proposal for realizing quantum spin models with Dzyaloshinskii-Moriya  interaction using Rydberg atoms",
+    "abstract": "We propose a method to realize tunable quantum spin models with Dzyaloshinskii-Moriya interaction (DMI) in Rydberg atom quantum simulators. Our scheme uses a two-photon Raman transition and transformation to the spin-rotating frame. We investigate the quantum dynamics of the model including only the DMI and Zeeman energy, which can be experimentally realized in our scheme. Unlike its classical counterpart, the magnetization curve in this model is continuous under the open boundary condition. We also show that the model accommodates quantum many-body scars exhibiting nonergodic dynamics. ",
+    "url": "https://arxiv.org/abs/2306.05591",
+    "authors": [
+      "Masaya Kunimi",
+      "Takafumi Tomita",
+      "Hosho Katsura",
+      "Yusuke Kato"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05614",
+    "title": "Quantum estimation of the number of emitters for multiple fluorophores  with the same spectral signature",
+    "abstract": "Fluorescence microscopy is of vital importance for understanding biological function. However most fluorescence experiments are only qualitative inasmuch as the absolute number of fluorescent particles can often not be determined. Additionally, conventional approaches to measuring fluorescence intensity cannot distinguish between two or more fluorophores that are excited and emit in the same spectral window, as only the total intensity in a spectral window can be obtained. Here we show that, by using photon number resolving experiments, we are able to determine the number of emitters and their probability of emission for a number of different species, all with the same measured spectral signature. We illustrate our ideas by showing the determination of the number of emitters per species and the probability of photon collection from that species, for one, two, and three otherwise unresolvable fluorophores. The convolution Binomial model is presented to model the counted photons emitted by multiple species. And then the Expectation-Maximization (EM) algorithm is used to match the measured photon counts to the expected convolution Binomial distribution function. In applying the EM algorithm, to leverage the problem of being trapped in a sub-optimal solution, the moment method is introduced in finding the initial guess of the EM algorithm. Additionally, the associated Cram\\'er-Rao lower bound is derived and compared with the simulation results. ",
+    "url": "https://arxiv.org/abs/2306.05614",
+    "authors": [
+      "Wenchao Li",
+      "Shuo Li",
+      "Timothy C. Brown",
+      "Qiang Sun",
+      "Xuezhi Wang",
+      "Vladislav V. Yakovlev",
+      "Allison Kealy",
+      "Bill Moran",
+      "Andrew D. Greentree"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05743",
+    "title": "Quantum Polariton Simulators",
+    "abstract": "Spin-glass graphs are simulated with a novel scheme using exciton-polaritons. Acting as an effective Monte Carlo solver, the ground state is found efficiently. By tuning a parameter, the system either solves XY or Ising problems. Unlike previous proposals, our setup with auxiliary micropillars naturally avoids any bias from amplitute heterogenity. We demonstrate that the simulator is able to find the ground state asymptotically for arbitrary large graphs. These findings show explicitly how polariton simulators could be useful in practice. We furthermore provide strong evidence for the system's ability to harness a quantum speedup. ",
+    "url": "https://arxiv.org/abs/2306.05743",
+    "authors": [
+      "Wouter Verstraelen",
+      "Piotr Deuar",
+      "Micha\u0142 Matuszewski",
+      "Timothy C.H. Liew"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05798",
+    "title": "Dynamic strain modulation of a nanowire quantum dot compatible with a  thin-film lithium niobate photonic platform",
+    "abstract": "The integration of on-demand single photon sources in photonic circuits is a major prerequisite for on-chip quantum applications. Among the various high-quality sources, nanowire quantum dots can be efficiently coupled to optical waveguides because of their preferred emission direction along their growth direction. However, local tuning of the emission properties remains challenging. In this work, we transfer a nanowire quantum dot on a bulk lithium niobate substrate and show that its emission can be dynamically tuned by acousto-optical coupling with surface acoustic waves. The purity of the single photon source is preserved during the strain modulation. We further demonstrate that the transduction is maintained even with a SiO2 encapsulation layer deposited on top of the nanowire acting as the cladding of a photonic circuit. Based on these experimental findings and numerical simulations, we introduce a device architecture consisting of a nanowire quantum dot efficiently coupled to a thin film lithium niobate rib waveguide and strain-tunable by surface acoustic waves. ",
+    "url": "https://arxiv.org/abs/2306.05798",
+    "authors": [
+      "Thomas Descamps",
+      "Tanguy Schetelat",
+      "Jun Gao",
+      "Philip J. Poole",
+      "Dan Dalacu",
+      "Ali W. Elshaari",
+      "Val Zwiller"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05917",
+    "title": "Impact of conditional modelling for universal autoregressive quantum  states",
+    "abstract": "We present a generalized framework to adapt universal quantum state approximators, enabling them to satisfy rigorous normalization and autoregressive properties. We also introduce filters as analogues to convolutional layers in neural networks to incorporate translationally symmetrized correlations in arbitrary quantum states. By applying this framework to the Gaussian process state, we enforce autoregressive and/or filter properties, analyzing the impact of the resulting inductive biases on variational flexibility, symmetries, and conserved quantities. In doing so we bring together different autoregressive states under a unified framework for machine learning-inspired ans\\\"atze. Our results provide insights into how the autoregressive construction influences the ability of a variational model to describe correlations in spin and fermionic lattice models, as well as ab initio electronic structure problems where the choice of representation affects accuracy. We conclude that, while enabling efficient and direct sampling, thus avoiding autocorrelation and loss of ergodicity issues in Metropolis sampling, the autoregressive construction materially constrains the expressivity of the model in many systems. ",
+    "url": "https://arxiv.org/abs/2306.05917",
+    "authors": [
+      "Massimo Bortone",
+      "Yannic Rath",
+      "George H. Booth"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.06004",
+    "title": "Unraveling a cavity induced molecular polarization mechanism from  collective vibrational strong coupling",
+    "abstract": "We demonstrate that collective vibrational strong coupling of molecules in thermal equilibrium can give rise to significant local electronic polarization effects in the thermodynamic limit. We do so by first showing that the full non-relativistic Pauli-Fierz problem of an ensemble of strongly-coupled molecules in the dilute-gas limit reduces in the cavity Born-Oppenheimer to a cavity-Hartree equation. Consequently, each molecule experiences a self-consistent coupling to the dipoles of all other molecules. In the thermodynamic limit, the sum of all molecular dipoles constitutes the macroscopic polarization field and the self-consistency then accounts for the delicate back-action on its heterogeneous microscopic constituents. The here derived cavity-Hartree equations allow for a computationally efficient implementation in an ab-initio molecular dynamics setting. For a randomly oriented ensemble of slowly rotating model molecules, we observe a red shift of the cavity resonance due to the polarization field, which is in agreement with experiments. We then demonstrate that the back-action on the local polarization takes a non-negligible value in the thermodynamic limit and hence the collective vibrational strong coupling can modify individual molecular properties locally. This is not the case, however, for dilute atomic ensembles, where room temperature does not induce any disorder and local polarization effects are absent. Our findings suggest that the thorough understanding of polaritonic chemistry, e.g. modified chemical reactions, requires self-consistent treatment of the cavity induced polarization and the usually applied restrictions to the displacement field effects may be insufficient. ",
+    "url": "https://arxiv.org/abs/2306.06004",
+    "authors": [
+      "Dominik Sidler",
+      "Thomas Schnappinger",
+      "Anatoly Obzhirov",
+      "Michael Ruggenthaler",
+      "Markus Kowalewski",
+      "Angel Rubio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:1304.2218",
+    "title": "Hexagonal warping on optical conductivity of surface states in  Topological Insulator Bi_{2}Te_{3}",
+    "abstract": " Comments: 6 pages, 4 figures, accepted to Phys. Rev. B ",
+    "url": "https://arxiv.org/abs/1304.2218",
+    "authors": [
+      "Zhou Li",
+      "J. P. Carbotte"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.04849",
+    "title": "Isothermal annealing of radiation defects in bulk material of diodes  from 8\" silicon wafers",
+    "abstract": " Comments: 19 pages, 14 Figures ",
+    "url": "https://arxiv.org/abs/2211.04849",
+    "authors": [
+      "Jan Kieseler",
+      "Pedro Goncalo Dias Almeida",
+      "Oliwia Kaluzinska",
+      "Marie Christin M\u00fchlnikel",
+      "Leena Diehl",
+      "Eva Sicking",
+      "Phillip Zehetner"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.05023",
+    "title": "Optical property measurements of lithium chloride aqueous solution for a  novel solar neutrino experiment",
+    "abstract": " Comments: 12 pages, 8 figures. Major revision ",
+    "url": "https://arxiv.org/abs/2211.05023",
+    "authors": [
+      "Ye Liang",
+      "Tong Xu",
+      "Jialiang Zhang",
+      "Shuo Li",
+      "Ming Qi",
+      "Zhe Wang"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  }
+]
