@@ -1,0 +1,414 @@
+[
+  {
+    "id": "arXiv:2306.09488",
+    "title": "Automated, Consistent, and Even-handed Selection of Active Orbital  Spaces for Quantum Embedding",
+    "abstract": "A widely used strategy to reduce the computational cost in quantum-chemical calculations is to partition the system into an active subsystem, which is the focus of the computational efforts and an environment that is treated at a lower computational level. The system partitioning is mostly based on localized molecular orbitals. When reaction paths or energy differences are to be calculated, it is crucial to keep the orbital space consistent for all structures. Inconsistencies in the orbital space can lead to unpredictable errors in the potential energy surface. While successful strategies to ensure this consistency have been established for organic and even metal-organic systems, these methods often fail for metal clusters or nanoparticles with a high density of near-degenerate and delocalized molecular orbitals. However, such systems are highly relevant for catalysis. Accurate yet feasible quantum-mechanical ab initio calculations are therefore highly desired. In this work, we present an approach based on the SPADE algorithm that allows us to ensure an automated and consistent partitioning even for systems with delocalized and near-degenerate molecular orbitals and demonstrate the validity of this method for the binding energies of small molecules on transition-metal clusters. ",
+    "url": "https://arxiv.org/abs/2306.09488",
+    "authors": [
+      "Elena Kolodzeiski",
+      "Christopher J. Stein"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09522",
+    "title": "Pressure-Induced Detour of Li$^+$ Transport during Large-Scale  Electroplating of Lithium in High-Energy Lithium Metal Pouch Cells",
+    "abstract": "Externally applied pressure impacts the performance of batteries particularly in those undergoing large volume changes, such as lithium metal batteries. In particular, the Li$^+$ electroplating process in large format pouch cells occurs at a larger dimension compared to those in smaller lab-scale cells. A fundamental linkage between external pressure and large format electroplating of Li$^+$ remains missing but yet critically needed to understand the electrochemical behavior of Li$^+$ in practical batteries. Herein, this work utilizes 350 Wh/kg lithium metal pouch cell as a model system to study the electroplating of Li$^+$ ions and the impact of external pressure. The vertically applied uniaxial pressure on the batteries using liquid electrolyte profoundly affects the electroplating process of Li$^+$ which is well reflected by the self-generated pressures in the cell and can be correlated to battery cycling stability. Taking advantage of both constant gap and pressure application, all Li metal pouch cells demonstrated minimum swelling of 6-8% after 300 cycles, comparable to that of state-of-the-art Li-ion batteries. Along the horizontal directions, the pressure distributed across the surface of Li metal pouch cell reveals a unique phenomenon of Li$^+$ migration during the electroplating (charge) process driven by an uneven distribution of external pressure across the large electrode area, leading to a preferred Li plating in the center area of Li metal anode. This work addresses a longstanding question and provides new fundamental insights on large format electrochemical plating of Li which will inspire more innovations and lead to homogeneous deposition of Li to advance rechargeable lithium metal battery technology. ",
+    "url": "https://arxiv.org/abs/2306.09522",
+    "authors": [
+      "Dianying Liu",
+      "Bingbin Wu",
+      "Yaobin Xu",
+      "Jacob Ellis",
+      "Dongping Lu",
+      "Joshua Lochala",
+      "Cassidy Anderson",
+      "Kevin Baar",
+      "Deyang Qu",
+      "Jihui Yang",
+      "Diego Galvez-Aranda",
+      "KatherineJaime Lopez",
+      "Perla B. Balbuena",
+      "Jorge M. Seminario",
+      "Jun Liu",
+      "Jie Xiao"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09531",
+    "title": "Carrier-resolved real-field theory of multi-octave frequency combs",
+    "abstract": "Optical frequency combs are pillars of precision spectroscopy, and their microresonator realization serves applications where miniaturization and large tooth separation are important. Microresonator combs cover an enormous range of time scales varying from the femtosecond periods of optical oscillations to milliseconds corresponding to the kilohertz linewidth of the comb teeth. Here, we develop and implement the carrier-resolved real-field model for multi-octave frequency combs, which allows for nearly ab initio capture of all the time scales involved. As an example, we consider a microresonator that has a mix of second- and third-order nonlinearities and uses periodic poling. By applying the real-field approach, we demonstrate how to surpass traditional limitations and model the spectral broadening and soliton mode-locking across three optical octaves. ",
+    "url": "https://arxiv.org/abs/2306.09531",
+    "authors": [
+      "Danila N. Puzyrev",
+      "Dmitry V. Skryabin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09549",
+    "title": "QH9: A Quantum Hamiltonian Prediction Benchmark for QM9 Molecules",
+    "abstract": "Supervised machine learning approaches have been increasingly used in accelerating electronic structure prediction as surrogates of first-principle computational methods, such as density functional theory (DFT). While numerous quantum chemistry datasets focus on chemical properties and atomic forces, the ability to achieve accurate and efficient prediction of the Hamiltonian matrix is highly desired, as it is the most important and fundamental physical quantity that determines the quantum states of physical systems and chemical properties. In this work, we generate a new Quantum Hamiltonian dataset, named as QH9, to provide precise Hamiltonian matrices for 2,399 molecular dynamics trajectories and 130,831 stable molecular geometries, based on the QM9 dataset. By designing benchmark tasks with various molecules, we show that current machine learning models have the capacity to predict Hamiltonian matrices for arbitrary molecules. Both the QH9 dataset and the baseline models are provided to the community through an open-source benchmark, which can be highly valuable for developing machine learning methods and accelerating molecular and materials design for scientific and technological applications. Our benchmark is publicly available at https://github.com/divelab/AIRS/tree/main/OpenDFT/QHBench. ",
+    "url": "https://arxiv.org/abs/2306.09549",
+    "authors": [
+      "Haiyang Yu",
+      "Meng Liu",
+      "Youzhi Luo",
+      "Alex Strasser",
+      "Xiaofeng Qian",
+      "Xiaoning Qian",
+      "Shuiwang Ji"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09587",
+    "title": "Revised Hamiltonian near third-integer resonance and implications for  transverse resonance island buckets in storage rings",
+    "abstract": "In storage rings, an accurate description of particle dynamics near third-integer resonance is crucial for various applications. The conventional approach is to extrapolate far-resonance dynamics to near-resonance, but difficulty arises because the nonlinear detuning parameter diverges at this critical point. Here we derive, via a suitable application of the canonical perturbation theory, a revised detuning parameter that is well-behaved near resonance. The resultant theory accurately describes the morphology of transverse resonance island buckets (TRIBs) for a wide range of parameter space. Our results have important implications for advanced applications of storage rings, as well as for the underlying physics of resonant particle dynamics. ",
+    "url": "https://arxiv.org/abs/2306.09587",
+    "authors": [
+      "K. M. Nam",
+      "J. Kim",
+      "Y. D. Yoon",
+      "Y. W. Parc"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09620",
+    "title": "Above-threshold ionization at laser intensity greater than $10^{20}$  W/cm$^{2}$",
+    "abstract": "We present the first experimental observation of above-threshold ionization (ATI) electrons produced by ionization of the neon K-shell in a laser field where intensity exceeds 10$^{20}$ W/cm$^{2}$. An array of plastic scintillating calorimeter detectors was used to measure the high-energy electrons at four angles in the laser forward direction. Coarse energy resolution was obtained using aluminum filters of several thicknesses to block lower-energy electrons. A threshold intensity around $2 \\times 10^{20}$ W/cm$^{2}$ is observed for production of energetic ATI electrons in the laser forward direction, with maximum electron energy exceeding 10 MeV. L-shell electrons with energies < 1.4 MeV are scattered further forward along the laser direction than expected. We present comparisons of the measured total electron energies to the predictions of a Monte Carlo models employing the ADK-PPT ionization model and the Augst barrier suppression ionization model. ",
+    "url": "https://arxiv.org/abs/2306.09620",
+    "authors": [
+      "A. Yandow",
+      "T. N. Ha",
+      "C. Aniculaesei",
+      "H. L. Smith",
+      "C. G. Richmond",
+      "M. M. Spinks",
+      "H. J. Quevedo",
+      "S. Bruce",
+      "M. Darilek",
+      "C. Chang",
+      "D. A. Garcia",
+      "E. Gaul",
+      "M. E. Donovan",
+      "B. M. Hegelich",
+      "T. Ditmire"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09627",
+    "title": "Topological momentum gap in PT-symmetric photonic crystals",
+    "abstract": "In a periodic system with parity-time (PT) symmetry, spontaneous breaking of PT symmetry occurs when non-Hermiticity exceeds a critical value, thereby dividing the Bloch bands into PT-exact phase and PT-broken phase in two momentum regimes.From another perspective, PT-broken momentum regime can be deemed as a momentum gap if we consider Bloch k as eigenvalue of the problem instead.The topological aspects of such a type of momentum gap (PT-broken regime) remain unexplored. Here, we study the topological properties of momentum bandgap in one-dimensional (1D) PT-symmetric photonic crystals (PCs).k*p analysis shows that reversing the system's non-Hermiticity would lead to a topological phase transition, which is manifested as a local geometric phase along the momentum band.As a consequence of such geometric phase, a temporal boundary state (TBS) exists in the middle of momentum gap. Its robustness against perturbations and disorders is numerically verified by temporal simulations. ",
+    "url": "https://arxiv.org/abs/2306.09627",
+    "authors": [
+      "Ming-Wei Li",
+      "Jian-Wei Liu",
+      "Wen-Jie Chen",
+      "Jian-Wen Dong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09681",
+    "title": "Magnetic Resonance Spectroscopy Quantification Aided by Deep Estimations  of Imperfection Factors and Overall Macromolecular Signal",
+    "abstract": "Magnetic Resonance Spectroscopy (MRS) is an important non-invasive technique for in vivo biomedical detection. However, it is still challenging to accurately quantify metabolites with proton MRS due to three problems: Serious overlaps of metabolite signals, signal distortions due to non-ideal acquisition conditions and interference with strong background signals including macromolecule signals. The most popular software, LCModel, adopts the non-linear least square to quantify metabolites and addresses these problems by introducing regularization terms, imperfection factors of non-ideal acquisition conditions, and designing several empirical priors such as basissets of both metabolites and macromolecules. However, solving such a large non-linear quantitative problem is complicated. Moreover, when the signal-to-noise ratio of an input MRS signal is low, the solution may have a large deviation. In this work, deep learning is introduced to reduce the complexity of solving this overall quantitative problem. Deep learning is designed to predict directly the imperfection factors and the overall signal from macromolecules. Then, the remaining part of the quantification problem becomes a much simpler effective fitting and is easily solved by Linear Least Squares (LLS), which greatly improves the generalization to unseen concentration of metabolites in the training data. Experimental results show that compared with LCModel, the proposed method has smaller quantification errors for 700 sets of simulated test data, and presents more stable quantification results for 20 sets of healthy in vivo data at a wide range of signal-to-noise ratio. Qnet also outperforms other deep learning methods in terms of lower quantification error on most metabolites. Finally, QNet has been deployed on a cloud computing platform, CloudBrain-MRS, which is open accessed at https://csrc.xmu.edu.cn/CloudBrain.html. ",
+    "url": "https://arxiv.org/abs/2306.09681",
+    "authors": [
+      "Dicheng Chen",
+      "Meijin Lin",
+      "Huiting Liu",
+      "Jiayu Li",
+      "Yirong Zhou",
+      "Taishan Kang",
+      "Liangjie Lin",
+      "Zhigang Wu",
+      "Jiazheng Wang",
+      "Jing Li",
+      "Jianzhong Lin",
+      "Xi Chen",
+      "Di Guo",
+      "Xiaobo Qu"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09734",
+    "title": "Broadband spintronic detection of the absolute field strength of  terahertz electromagnetic pulses",
+    "abstract": "We demonstrate detection of broadband intense terahertz electromagnetic pulses by Zeeman-torque sampling (ZTS). Our approach is based on magneto-optic probing of the Zeeman torque the terahertz magnetic field exerts on the magnetization of a ferromagnet. Using an 8 nm thick iron film as sensor, we detect pulses from a silicon-based spintronic terahertz emitter with bandwidth 0.1-11 THz and peak field >0.1 MV/cm. Static calibration provides access to absolute transient THz field strengths. We show relevant added values of ZTS compared to electro-optic sampling (EOS): an absolute and echo-free transfer function with simple frequency dependence, linearity even at high terahertz field amplitudes, the straightforward calibration of EOS response functions and the modulation of the polarization-sensitive direction by an external AC magnetic field. Consequently, ZTS has interesting applications even beyond the accurate characterization of broadband high-field terahertz pulses for nonlinear terahertz spectroscopy. ",
+    "url": "https://arxiv.org/abs/2306.09734",
+    "authors": [
+      "A.L. Chekhov",
+      "Y. Behovits",
+      "U. Martens",
+      "B.R. Serrano",
+      "M. Wolf",
+      "T.S. Seifert",
+      "M. Muenzenberg",
+      "T. Kampfrath"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09894",
+    "title": "Cryogenic optical packaging of nanophotonic devices with coupling loss <  1 dB",
+    "abstract": "A permanently packaged interface between a tapered optical fiber and nanophotonic devices is reproducibly demonstrated with a record-low coupling loss < 1 dB at ~730 nm that remains stable from 300 K to 30 mK. ",
+    "url": "https://arxiv.org/abs/2306.09894",
+    "authors": [
+      "Beibei Zeng",
+      "Chawina De-Eknamkul",
+      "Daniel Assumpcao",
+      "Dylan Renaud",
+      "Zhuoxian Wang",
+      "Daniel Riedel",
+      "Jeonghoon Ha",
+      "Carsten Robens",
+      "David Levonian",
+      "Mikhail Lukin",
+      "Mihir Bhaskar",
+      "Denis Sukachev",
+      "Marko Loncar",
+      "Bart Machielse"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09393",
+    "title": "Optical properties of ScN layers grown on Al$_{2}$O$_{3}$(0001) by  plasma-assisted molecular beam epitaxy",
+    "abstract": "An accurate knowledge of the optical constants (refractive index $n$ and extinction coefficient $k$) of ScN is crucial for understanding the optical properties of this binary nitride semiconductor as well as for its use in optoelectronic applications. Using spectroscopic ellipsometry in a spectral range from far infrared to far ultraviolet (0.045-8.5 eV), we determine $n$ and $k$ of ScN layers grown on Al$_{2}$O$_{3}$(0001) substrates by plasma-assisted molecular beam epitaxy. Fits of ellipsometry data return the energies of four oscillators representing critical points in the band structure of ScN, namely, 2.03, 3.89, 5.33, and 6.95 eV. As the infrared range is dominated by free carriers, the vibrational properties of the layers are examined by Raman spectroscopy. Despite the rocksalt structure of ScN, several first-order phonon modes are observed, suggesting a high density of point defects consistent with the high electron density deduced from Hall measurements. Finally, photoluminescence measurements reveal an emission band slightly above the lowest direct bandgap. We attribute the redshift of the peak emission energy from 2.3 to 2.2 eV with increasing layer thickness to a reduction of the O concentration in the layers. ",
+    "url": "https://arxiv.org/abs/2306.09393",
+    "authors": [
+      "Duc V. Dinh",
+      "Frank Peiris",
+      "Jonas L\u00e4hnemann",
+      "Oliver Brandt"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09435",
+    "title": "Multi-level Purcell effect and the impact of vibrational modes in  molecular quantum optics",
+    "abstract": "The increased decay rate of a two-level system weakly coupled to an optical cavity, known as the Purcell effect, is a cornerstone of cavity QED. However, the effect of cavity coupling is not well understood if the two-level system is replaced by a multi-level interacting system. Motivated by experiments looking to characterise molecular systems via exploiting a cavity interaction, we study a manifestation of the Purcell effect in a bio-inspired photosynthetic dimer. We focus in particular on how molecular vibrational modes, thought to play an important role in photosynthetic exciton transport, impact the system-cavity behaviour in the Purcell regime. We provide a theoretical picture in terms of an effective non-Hermitian Hamiltonian, which extends the simple picture of a Jaynes-Cummings model to the description of a `multi-level' Purcell effect, where different levels have differing Purcell factors, with effective cooperativities mediated by coherent vibrational interactions. ",
+    "url": "https://arxiv.org/abs/2306.09435",
+    "authors": [
+      "Charlie Nation",
+      "Valentina Notararigo",
+      "Alexandra Olaya-Castro"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09663",
+    "title": "Resonant Cancellation Effect in Ramsey Experiments",
+    "abstract": "We investigate the response of a Ramsey-type experiment on an additional oscillating magnetic field. This superimposed field is oriented in the same direction as the static main magnetic field and causes a modulation of the original Larmor spin precession frequency. The observable magnitude of this modulation reduces at higher frequencies of the oscillating field. It disappears completely if the interaction time of the particles matches the oscillation period, which we call resonant cancellation. We present an analytical approach that describes the effect and compare it to a measurement using a monochromatic cold neutron beam. ",
+    "url": "https://arxiv.org/abs/2306.09663",
+    "authors": [
+      "Ivo Schulthess",
+      "Ivan Calic",
+      "Estelle Chanel",
+      "Anastasio Fratangelo",
+      "Philipp Heil",
+      "Christine Klauser",
+      "Gjon Markaj",
+      "Marc Persoz",
+      "Ciro Pistillo",
+      "Jacob Thorne",
+      "Florian M. Piegsa"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09667",
+    "title": "Impact of structural defects on the performance of graphene  plasmon-based molecular sensors",
+    "abstract": "Graphene-based plasmonic devices are regarded to be suitable for a plethora of applications, ranging from mid-infrared to terahertz frequencies. In this regard, among the peculiarities associated with graphene, it is well known that plasmons are tunable and tend to show stronger confinement as well as a longer lifetime than in the noble-metal counterpart. However, due to the two-dimensional specificity of graphene, the presence of defects might induce stronger effects than in bulky noble metals. Here, we theoretically investigate the impact of structural defects hosted by graphene on selected figures of merit associated to localized plasmons, which are of key technological importance for plasmon-based molecular sensing. By considering an optimized graphene nanostructure, we provide a comparative analysis intended to shed light on the impact of the type of defect on graphene localized plasmons, that regards distinct types of defects commonly arising from fabrication procedures or exposure to radiation. This understanding will help industry and academia in better identifying the most suitable applications for graphene-based molecular sensing. ",
+    "url": "https://arxiv.org/abs/2306.09667",
+    "authors": [
+      "Karina A. Guerrero-Becerra",
+      "Remo Proietti Zaccaria"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.02691",
+    "title": "Optimised Trotter Decompositions for Classical and Quantum Computing",
+    "abstract": " Comments: 25 + 5 pages, 6 figures; code and data available, DOI: 10.5281/zenodo.8044499 ; v2: added references; v3: added appendix; v4 (published version): added Yoshida's method ",
+    "url": "https://arxiv.org/abs/2211.02691",
+    "authors": [
+      "Johann Ostmeyer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "High Energy Physics - Lattice (hep-lat)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.07395",
+    "title": "Interferometric imaging using shared quantum entanglement",
+    "abstract": " Title: Interferometric imaging using shared quantum entanglement ",
+    "url": "https://arxiv.org/abs/2212.07395",
+    "authors": [
+      "Matthew R. Brown",
+      "Markus Allgaier",
+      "Val\u00e9rian Thiel",
+      "John D. Monnier",
+      "Michael G. Raymer",
+      "Brian J. Smith"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.08208",
+    "title": "Signatures of Non-universal Quantum Dynamics of Ultracold Chemical  Reactions of Polar Alkali-dimer Molecules with Alkali-metal Atoms: Li($^2$S)  +NaLi($a^3\u03a3^+$) $\\to$ Na($^2$S) + Li$_2$($a^3\u03a3_u^+$)",
+    "abstract": " Comments: 26 pages, 5 figures (Supporting information: 12 pages, 5 figures) ",
+    "url": "https://arxiv.org/abs/2301.08208",
+    "authors": [
+      "Masato Morita",
+      "Brian K. Kendrick",
+      "Jacek K\u0142os",
+      "Svetlana Kotochigova",
+      "Paul Brumer",
+      "Timur V. Tscherbul"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.12645",
+    "title": "Magnetic field imaging by hBN quantum sensor nanoarray",
+    "abstract": " Comments: 6 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2301.12645",
+    "authors": [
+      "Kento Sasaki",
+      "Yuki Nakamura",
+      "Hao Gu",
+      "Moeta Tsukamoto",
+      "Shu Nakaharai",
+      "Takuya Iwasaki",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Shinichi Ogawa",
+      "Yukinori Morita",
+      "Kensuke Kobayashi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.04059",
+    "title": "Entanglement in Resonance Fluorescence",
+    "abstract": " Comments: 8 pages and 4 figures in the main text; 6 pages and 2 figures in the supplementary material ",
+    "url": "https://arxiv.org/abs/2302.04059",
+    "authors": [
+      "Juan Camilo L\u00f3pez Carre\u00f1o",
+      "Santiago Berm\u00fadez Feijoo",
+      "Magdalena Stobi\u0144ska"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.17027",
+    "title": "Robotic vectorial field alignment for spin-based quantum sensors",
+    "abstract": " Comments: 11 pages, 4 figures. Small correction in first paragraph ",
+    "url": "https://arxiv.org/abs/2305.17027",
+    "authors": [
+      "Joe A. Smith",
+      "Dandan Zhang",
+      "Krishna C. Balram"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05929",
+    "title": "Efficient operator method for modelling mode mixing in misaligned  optical cavities",
+    "abstract": " Comments: 17 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2306.05929",
+    "authors": [
+      "William J. Hughes",
+      "Thomas H. Doherty",
+      "Jacob A. Blackmore",
+      "Peter Horak",
+      "Joseph F. Goodwin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.08124",
+    "title": "Room and Low-Temperature Performance for a Sub-Attofarad Capacitance  Sensor for Precision Measurements, Including Applications in Gravitational  Wave Detectors",
+    "abstract": " Title: Room and Low-Temperature Performance for a Sub-Attofarad Capacitance  Sensor for Precision Measurements, Including Applications in Gravitational  Wave Detectors ",
+    "url": "https://arxiv.org/abs/2306.08124",
+    "authors": [
+      "S. Saraf",
+      "C.Y. Lui",
+      "S. Wang",
+      "S. Buchman",
+      "J. Lipa"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Space Physics (physics.space-ph)"
+    ]
+  }
+]
