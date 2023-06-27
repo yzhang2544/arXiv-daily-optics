@@ -1,0 +1,603 @@
+[
+  {
+    "id": "arXiv:2306.13669",
+    "title": "Niel's Chess -- The Battle of the Quantum Age",
+    "abstract": "In this paper, a quantum variant of chess is introduced, which can be played on a traditional board without the need of using computers or other electronic devices. The rules of the game arise naturally by combining the rules of conventional chess with key quantum-physical effects such as superposition and entanglement. Niel's Chess is recommended for ages 10 and above, to everyone who wishes to play a creative game with historical roots and at the same time gain intuition about the foundational quantum effects that power cutting-edge technologies like quantum computing and quantum communication, which are poised to revolutionise our society in the coming decades. ",
+    "url": "https://arxiv.org/abs/2306.13669",
+    "authors": [
+      "Tam\u00e1s Varga"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13740",
+    "title": "Digital Twinning of the Human Ventricular Activation Sequence to  Clinical 12-lead ECGs and Magnetic Resonance Imaging Using Realistic Purkinje  Networks for in Silico Clinical Trials",
+    "abstract": "Cardiac in silico clinical trials can virtually assess the safety and efficacy of therapies using human-based modelling and simulation. These technologies can provide mechanistic explanations for clinically observed pathological behaviour. Designing virtual cohorts for in silico trials requires exploiting clinical data to capture the physiological variability in the human population. The clinical characterisation of ventricular activation and the Purkinje network is challenging, especially non-invasively. Our study aims to present a novel digital twinning pipeline that can efficiently generate and integrate Purkinje networks into human multiscale biventricular models based on subject-specific clinical 12-lead electrocardiogram and magnetic resonance recordings. Essential novel features of the pipeline are the human-based Purkinje network generation method, personalisation considering ECG R wave progression as well as QRS morphology, and translation from reduced-order Eikonal models to equivalent biophysically-detailed monodomain ones. We demonstrate ECG simulations in line with clinical data with clinical image-based multiscale models with Purkinje in four control subjects and two hypertrophic cardiomyopathy patients (simulated and clinical QRS complexes with Pearson's correlation coefficients > 0.7). Our methods also considered possible differences in the density of Purkinje myocardial junctions in the Eikonal-based inference as regional conduction velocities. These differences translated into regional coupling effects between Purkinje and myocardial models in the monodomain formulation. In summary, we demonstrate a digital twin pipeline enabling simulations yielding clinically-consistent ECGs with clinical CMR image-based biventricular multiscale models, including personalised Purkinje in healthy and cardiac disease conditions. ",
+    "url": "https://arxiv.org/abs/2306.13740",
+    "authors": [
+      "Julia Camps",
+      "Lucas Arantes Berg",
+      "Zhinuo Jenny Wang",
+      "Rafael Sebastian",
+      "Leto Luana Riebel",
+      "Ruben Doste",
+      "Xin Zhou",
+      "Rafael Sachetto",
+      "James Coleman",
+      "Brodie Lawson",
+      "Vicente Grau",
+      "Kevin Burrage",
+      "Alfonso Bueno-Orovio",
+      "Rodrigo Weber",
+      "Blanca Rodriguez"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Tissues and Organs (q-bio.TO)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13741",
+    "title": "The miniSLR: A low-budget, high-performance satellite laser ranging  ground station",
+    "abstract": "Satellite Laser Ranging (SLR) is an established technique providing very accurate position measurements of satellites in Earth orbit. However, despite decades of development, it remains a complex and expensive technology, which impedes its further growth to new applications and users. The miniSLR implements a complete SLR system within a small, transportable enclosure. Through this design, costs of ownership can be reduced significantly, and the process of establishing a new SLR site is greatly simplified. A number of novel technical solutions have been implemented to achieve a good laser ranging performance despite the small size and simplified design. Data from the initial six months of test operation has been used to generate a first estimation of the system performance. The data includes measurements to many of the important SLR satellites, such as Lageos, Etalon and most of the geodetic and Earth observation missions in LEO. It is shown that the miniSLR achieves sub-centimetre accuracy, comparable with conventional SLR systems. The miniSLR is an engineering station in the International Laser Ranging Service (ILRS), and supplies data to the community. Continuous efforts are undertaken to further improve the system operation and stability. ",
+    "url": "https://arxiv.org/abs/2306.13741",
+    "authors": [
+      "Daniel Hampf",
+      "Felicitas Niebler",
+      "Tristan Meyer",
+      "Wolfgang Riede"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Geophysics (physics.geo-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13847",
+    "title": "Design parameters of free-form color routers for subwavelength pixelated  CMOS image sensors",
+    "abstract": "Metasurface-based color routers are emerging as next-generation optical components for image sensors, replacing classical color filters and microlens arrays. In this work, we report how the design parameters such as the device dimensions and refractive indices of the dielectrics affect the optical efficiency of the color routers. Also, we report how the design grid resolution parameters affect the optical efficiency and discover that the fabrication of a color router is possible even in legacy fabrication facilities with low structure resolutions. ",
+    "url": "https://arxiv.org/abs/2306.13847",
+    "authors": [
+      "Sanmun Kim",
+      "Chanhyung Park",
+      "Shinho Kim",
+      "Haejun Chung",
+      "Min Seok Jang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14099",
+    "title": "High-precision and low-latency widefield diamond quantum sensing with  neuromorphic vision sensors",
+    "abstract": "During the past decade, interest has grown significantly in developing ultrasensitive widefield diamond magnetometry for various applications. Despite attempts to improve the adoption of conventional frame-based sensors, achieving high temporal resolution and sensitivity simultaneously remains a key challenge. This is largely due to the transfer and processing of massive amounts of sensor data to capture the widefield fluorescence intensity changes of spin defects in diamonds. In this study, we adopt a neuromorphic vision sensor to address this issue. This sensor pre-processes the detected signals in optically detected magnetic resonance (ODMR) measurements for quantum sensing, employing a working principle that closely resembles the operation of the human vision system. By encoding the changes of light intensity into spikes, this approach results in a vast dynamic range, high temporal resolution, and exceptional signal-to-background ratio. After a thorough evaluation of theoretical feasibility, our experiment with an off-the-shelf event camera demonstrated a 13x improvement in temporal resolution with comparable precision of detecting ODMR resonance frequencies compared with the state-of-the-art highly specialized frame-based approach. A specialized camera system with the same mechanism has the potential to enhance these benefits further. This performance improvement is primarily attributable to orders of magnitude smaller data volumes and, thus, reduced latency. We further showcase the deployment of this technology in monitoring dynamically modulated laser heating of gold nanoparticles coated on a diamond surface, a recognizably difficult task using existing approaches. The current development provides new insights for high-precision and low-latency widefield quantum sensing, with possibilities for integration with emerging memory devices for more efficient event-based data processing. ",
+    "url": "https://arxiv.org/abs/2306.14099",
+    "authors": [
+      "Zhiyuan Du",
+      "Madhav Gupta",
+      "Feng Xu",
+      "Kai Zhang",
+      "Jiahua Zhang",
+      "Yan Zhou",
+      "Yiyao Liu",
+      "Zhenyu Wang",
+      "Jorg Wrachtrup",
+      "Ngai Wong",
+      "Can Li",
+      "Zhiqin Chu"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14229",
+    "title": "Engineering Perovskite Emissions via Optical  Quasi-Bound-States-in-the-Continuum",
+    "abstract": "Metal halide perovskite quantum dots (PQDs) have emerged as promising materials due to their exceptional photoluminescence (PL) properties. A wide range of applications could benefit from adjustable luminescence properties, while preserving the physical and chemical properties of the PQDs. Therefore, post-synthesis engineering has gained attention recently, involving the use of ion-exchange or external stimuli, such as extreme pressure, magnetic and electric fields. Nevertheless, these methods typically suffer from spectrum broadening, intensity quenching or yield multiple bands. Alternatively, photonic antennas can modify the radiative decay channel of perovskites via the Purcell effect, with the largest wavelength shift being 8 nm to date, at an expense of 5-fold intensity loss. Here, we present an optical nanoantenna array with polarization-controlled quasi-bound-states-in-the-continuum (q-BIC) resonances, which can engineer and shift the photoluminescence wavelength over a ~39 nm range and confers a 21-fold emission enhancement of FAPbI3 perovskite QDs. The spectrum is engineered in a non-invasive manner via lithographically defined antennas and the pump laser polarization at ambient conditions. Our research provides a path towards advanced optoelectronic devices, such as spectrally tailored quantum emitters and lasers. ",
+    "url": "https://arxiv.org/abs/2306.14229",
+    "authors": [
+      "Evelin Cs\u00e1nyi",
+      "Yan Liu",
+      "Soroosh Daqiqeh Rezaei",
+      "Henry Yit Loong Lee",
+      "Febiana Tjiptoharsono",
+      "Zackaria Mahfoud",
+      "Sergey Gorelik",
+      "Xiaofei Zhao",
+      "Li Jun Lim",
+      "Di Zhu",
+      "Jing Wu",
+      "Kuan Eng Johnson Goh",
+      "Weibo Gao",
+      "Zhi-Kuang Tan",
+      "Graham Leggett",
+      "Cheng-Wei Qiu",
+      "Zhaogang Dong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14415",
+    "title": "Integrated lithium niobate microwave photonic processing engine",
+    "abstract": "Integrated microwave photonics is an intriguing field that leverages integrated photonic technologies for the generation, transmission, and manipulation of microwave signals in chip-scale optical systems. In particular, ultrafast processing and computation of analog electronic signals in the optical domain with high fidelity and low latency could enable a variety of applications such as MWP filters, microwave signal processing, and image recognition. An ideal photonic platform for achieving these integrated MWP processing tasks shall simultaneously offer an efficient, linear and high-speed electro-optic modulation block to faithfully perform microwave-optic conversion at low power, and a low-loss functional photonic network that can be configured for a variety of signal processing tasks, as well as large-scale, low-cost manufacturability to monolithically integrate the two building blocks on the same chip. In this work, we demonstrate such an integrated MWP processing engine based on a thin-film lithium niobate platform capable of performing multi-purpose processing and computation tasks of analog signals up to 92 giga samples per second at CMOS-compatible voltages. We demonstrate high-speed analog computation, i.e., first- and second-order temporal integration and differentiation with computing accuracies up to 98.1 %, and deploy these functions to showcase three proof-of-concept applications, namely, ordinary differential equation solving, ultra-wideband signal generation and high-speed edge detection of images. We further leverage the image edge detector to enable a photonic-assisted image segmentation model that could effectively outline the boundaries of melanoma lesion in medical diagnostic images, achieving orders of magnitude faster processing speed and lower power consumption than conventional electronic processors. ",
+    "url": "https://arxiv.org/abs/2306.14415",
+    "authors": [
+      "Hanke Feng",
+      "Tong Ge",
+      "Xiaoqing Guo",
+      "Sha Zhu",
+      "Ke Zhang",
+      "Yiwen Zhang",
+      "Zhaoxi Chen",
+      "Wenzhao Sun",
+      "Yixuan Yuan",
+      "Cheng Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14478",
+    "title": "Virtual perfect absorption in resonant media and their PT-symmetric  generalizations",
+    "abstract": "Virtual perfect absorption (VPA) is an effect simulating real absorption of light by using excitation at a complex frequency corresponding to a scattering zero. We theoretically study VPA in resonantly absorbing and amplifying media irradiated by two counterpropagating waves with exponentially growing amplitudes. We show that VPA critically depends on the medium density (i.e., level of loss or gain) deteriorating in the high-density limit. In contrast, almost ideal VPA persists in the PT-symmetric loss-gain bilayer. For high enough gain, the powerful quasilasing pulses are observed at later times symmetrically (single amplifying layer) or asymmetrically (PT-symmetric structure) generated in both propagation directions. ",
+    "url": "https://arxiv.org/abs/2306.14478",
+    "authors": [
+      "Denis Novitsky"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14528",
+    "title": "Superior Performance of Phase Binarized Oscillators (PBOs) Compared to  Quantum Approximation Optimization Algorithm (QAOA) for Ising Computing  (Max-Cut Problem)",
+    "abstract": "It has been shown both theoretically and experimentally that most coupled oscillators undergo synchronization and phase binarization at room temperature under sub-harmonic injection locking (SHIL), irrespective of the exact physics of their auto-oscillation or coupling. These phase-binarized oscillators (PBOs) can be used for Ising computing, which is about heuristically solving NP-Hard combinatorial optimization problems very fast. The quantum approximate optimization algorithm (QAOA) has emerged as an alternative noisy intermediate scale quantum (NISQ) era algorithm for Ising computing and is very popular currently since it is gate based and needs low circuit depth for implementation. In this paper, we compare the performance of PBOs with that of QAOA over a wide range of graph instances of different levels of difficulty, while restricting ourselves to the NP-Hard Max-Cut problem. We show that for the difficult graph instances (unweighted random cubic, unweighted Erd{\\\"o}s R{\\'e}nyi, and weighted complete graphs with relatively high number of nodes: 18-20), the success probability (probability to find the correct Max-Cut solution) of PBOs is 4-5 orders of magnitude higher than that of QAOA. Since PBOs operate at room temperature while the quantum circuit in QAOA doesn't (it operates in milli Kelvins), our finding here on their success probability numbers makes PBOs a more attractive hardware platform for Ising computing compared to quantum approaches like QAOA. Since we use the very general and physics-agnostic Kuramoto model to simulate PBOs here, our result is applicable to a wide range of oscillators both based on conventional transistors and emerging nanoscale devices. Hence, we also compare the time to solution for PBOs based on these different device technologies in this paper. ",
+    "url": "https://arxiv.org/abs/2306.14528",
+    "authors": [
+      "Sanyam Singhal",
+      "Debanjan Bhowmik"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14727",
+    "title": "A system-on-chip microwave photonic processor solves dynamic RF  interference in real time with picosecond latency",
+    "abstract": "Radio-frequency interference is a growing concern as wireless technology advances, with potentially life-threatening consequences like interference between radar altimeters and 5G cellular networks. Mobile transceivers mix signals with varying ratios over time, posing challenges for conventional digital signal processing (DSP) due to its high latency. These challenges will worsen as future wireless technologies adopt higher carrier frequencies and data rates. However, conventional DSPs, already on the brink of their clock frequency limit, are expected to offer only marginal speed advancements. This paper introduces a photonic processor to address dynamic interference through blind source separation (BSS). Our system-on-chip processor employs a fully integrated photonic signal pathway in the analogue domain, enabling rapid demixing of received mixtures and recovering the signal-of-interest in under 15 picoseconds. This reduction in latency surpasses electronic counterparts by more than three orders of magnitude. To complement the photonic processor, electronic peripherals based on field-programmable gate array (FPGA) assess the effectiveness of demixing and continuously update demixing weights at a rate of up to 305 Hz. This compact setup features precise dithering weight control, impedance-controlled circuit board and optical fibre packaging, suitable for handheld and mobile scenarios. We experimentally demonstrate the processor's ability to suppress transmission errors and maintain signal-to-noise ratios in two scenarios, radar altimeters and mobile communications. This work pioneers the real-time adaptability of integrated silicon photonics, enabling online learning and weight adjustments, and showcasing practical operational applications for photonic processing. ",
+    "url": "https://arxiv.org/abs/2306.14727",
+    "authors": [
+      "Weipeng Zhang",
+      "Joshua C. Lederman",
+      "Thomas Ferreira de Lima",
+      "Jiawei Zhang",
+      "Simon Bilodeau",
+      "Leila Hudson",
+      "Alexander Tait",
+      "Bhavin J. Shastri",
+      "Paul R. Prucnal"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14781",
+    "title": "Noise-induced servo errors in optical clocks utilizing Rabi  interrogation",
+    "abstract": "We show that in optical clocks based on Rabi interrogation, both laser-frequency and magnetic-field flicker ($1/f$) noise with zero mean can lead to servo errors at the $10^{-18}$ level if the negative-detuning (red) and positive-detuning (blue) sides of the transition are always probed in the same order. This is due to the strong correlations of flicker noise in combination with an imbalance in the response of the servo discriminator to positive and negative differential frequency noise between the red- and blue-side probing. This imbalance is particularly large for a normalized discriminator. We derive an analytical expression for the servo error based on the correlation function of the laser-frequency or magnetic-field noise and compare it to numerical servo simulations to demonstrate how the error depends on the noise level, servo parameters, and probing sequence. We also show that the servo error can be avoided by normalizing the discriminator with a moving mean or by reversing the red/blue probing order for every second servo cycle. ",
+    "url": "https://arxiv.org/abs/2306.14781",
+    "authors": [
+      "T. Lindvall",
+      "A. E. Wallin",
+      "K. J. Hanhij\u00e4rvi",
+      "T. Fordell"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14791",
+    "title": "A planar cloverleaf antenna for the creation of circularly polarized  microwave fields",
+    "abstract": "We report on the design and characterization of a compact microwave antenna for atomic and molecular physics experiments. The antenna is comprised of four loop antennas arranged in cloverleaf shape, allowing for precise adjustment of polarization by tuning the relative phase of the loops. We optimize the antenna for left-circularly polarized microwaves at 3.5 GHz and characterize its performance using ultracold NaCs molecules as a precise quantum sensor. Observing an unusually high Rabi frequency of $2\\pi \\times 46$ MHz, we extract an electric field amplitude of 33(2) V/cm at 22 mm distance from the antenna. The polarization ellipticity is 2.3(4) degrees, corresponding to a 24 dB suppression of right-circular polarization. The cloverleaf antenna is planar and provides large optical access, making it highly suitable for quantum control of atoms and molecules, and potentially other quantum systems that operate in the microwave regime. ",
+    "url": "https://arxiv.org/abs/2306.14791",
+    "authors": [
+      "Weijun Yuan",
+      "Siwei Zhang",
+      "Niccol\u00f2 Bigagli",
+      "Claire Warner",
+      "Ian Stevenson",
+      "Sebastian Will"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13755",
+    "title": "Identification of Resonant Frequencies in LIGO-like Suspension with  Finite-Element Modeling",
+    "abstract": "Following the upgrades to Advanced LIGO (aLIGO), measurements were made of the detector suspensions' frequency response characteristics. While most resonant frequencies could be identified with simple mechanical models, such as the fiber vibration modes, some were unexplained. Using a finite element model of the quadruple pendulum suspension, we search for and identify these frequencies. By modeling these response frequencies we can suggest methods to reduce their amplitude, alter their frequency, or eliminate them in future gravitational wave detector designs. ",
+    "url": "https://arxiv.org/abs/2306.13755",
+    "authors": [
+      "Orion Sauter",
+      "Ninad Bhagwat",
+      "John Conklin",
+      "D.B. Tanner"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13821",
+    "title": "Engineering quantum states from a spatially structured quantum eraser",
+    "abstract": "Quantum interference is a central resource in many quantum-enhanced tasks, from computation to communication protocols. While it usually occurs between identical input photons, quantum interference can be enabled by projecting the quantum state onto ambiguous properties that render the photons indistinguishable, a process known as a quantum erasing. Structured light, on the other hand, is another hallmark of photonics: it is achieved by manipulating the degrees of freedom of light at the most basic level and enables a multitude of applications in both classical and quantum regimes. By combining these ideas, here we design and experimentally demonstrate a simple and robust scheme that tailors quantum interference to engineer photonic states with spatially structured coalescence along the transverse profile, a type of quantum mode with no classical counterpart. To achieve this, we locally tune the distinguishability of a photon pair via spatial structuring of their polarisation, creating a structured quantum eraser. We believe these spatially-engineered multi-photon quantum states may be of significance in fields such as quantum metrology, microscopy, and communications. ",
+    "url": "https://arxiv.org/abs/2306.13821",
+    "authors": [
+      "Carlo Schiano",
+      "Bereneice Sephton",
+      "Roberto Aiello",
+      "Francesco Graffitti",
+      "Nijil Lal",
+      "Andrea Chiuri",
+      "Simone Santoro",
+      "Luigi Santamaria Amato",
+      "Lorenzo Marrucci",
+      "Corrado de Lisio",
+      "Vincenzo D'Ambrosio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13973",
+    "title": "Continuous-wave nitrogen-vacancy diamond laser system assisted by a red  diode laser",
+    "abstract": "Diamond has long been identified as a potential host material for laser applications. This potential arises due to its exceptional thermal properties, ultra-wide bandgap, and color centers which promise gain across the visible spectrum. More recently, coherent laser methods offer new approaches to magnetometry. However, diamond fabrication is difficult in comparison to other crystalline matrices, and many optical loss channels are not yet understood. Here, we demonstrate the first continuous-wave nitrogen-vacancy (NV) color center laser system. To achieve this, we constructed a laser cavity with both, an NV-diamond medium and an intra-cavity anti-reflection coated diode laser. This dual-medium approach compensates intrinsic losses of the cavity by providing a fixed additional gain below threshold of the diode laser. We observe the first clear continuous-wave laser threshold in the output of the laser system as well as linewidth narrowing with increasing green pump power on the NV centers. Our results are a major development towards coherent approaches to magnetometry. ",
+    "url": "https://arxiv.org/abs/2306.13973",
+    "authors": [
+      "Lukas Lindner",
+      "Felix A. Hahl",
+      "Tingpeng Luo",
+      "Guillermo Nava Antonio",
+      "Xavier Vidal",
+      "Marcel Rattunde",
+      "Takeshi Ohshima",
+      "Marco Capelli",
+      "Brant C. Gibson",
+      "Andrew D. Greentree",
+      "R\u00fcdiger Quay",
+      "Jan Jeske"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14322",
+    "title": "Practical quantum secure direct communication with squeezed states",
+    "abstract": "Quantum secure direct communication (QSDC) is a rapidly developing quantum communication approach, where secure information is directly transmitted, providing an alternative to key-based (de)encryption processes via Quantum Key Distribution (QKD). During the last decade, optical QSDC protocols based on discrete variable encodings have been successfully realized. Recently, continuous-variable (CV) QSDC schemes have been proposed, benefiting from less-sophisticated implementations with proven security. Here, we report the first table-top experimental demonstration of a CV-QSDC system and assess its security. For this realization, we analyze the security of different configurations, including coherent and squeezed sources, with Wyner wiretap channel theory in presence of a beam splitter attack. This practical protocol not only demonstrates the principle of QSDC systems based on CV encoding, but also showcases the advantage of squeezed states over coherent ones in attaining enhanced security and reliable communication in lossy and noisy channels. Our realization, which is founded on mature telecom components, paves the way into future threat-less quantum metropolitan networks, compatible with coexisting advanced wavelength division multiplexing (WDM) systems. ",
+    "url": "https://arxiv.org/abs/2306.14322",
+    "authors": [
+      "Iris Paparelle",
+      "Faezeh Mousavi",
+      "Francesco Scazza",
+      "Angelo Bassi",
+      "Matteo Paris",
+      "Alessandro Zavatta"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14341",
+    "title": "Eavesdropper localization for quantum and classical channels via  nonlinear scattering",
+    "abstract": "Optical fiber networks are part of important critical infrastructure and known to be prone to eavesdropping attacks. Hence cryptographic methods have to be used to protect communication. Quantum key distribution (QKD), at its core, offers information theoretical security based on the laws of physics. In deployments one has to take into account practical security and resilience. The latter includes the localization of a possible eavesdropper after an anomaly has been detected by the QKD system to avoid denial-of-service. Here, we present a novel approach to eavesdropper location that can be employed in quantum as well as classical channels using stimulated Brillouin scattering. The tight localization of the acoustic wave inside the fiber channel using correlated pump and probe waves allows to discover the coordinates of a potential threat within centimeters. We demonstrate that our approach outperforms conventional OTDR in the task of localizing an evanescent outcoupling of 1% with cm precision inside standard optical fibers. The system is furthermore able to clearly distinguish commercially available standard SMF28 from different manufacturers, paving the way for fingerprinted fibers in high security environments. ",
+    "url": "https://arxiv.org/abs/2306.14341",
+    "authors": [
+      "Alexandra Popp",
+      "Florian Sedlmeir",
+      "Birgit Stiller",
+      "Christoph Marquardt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14424",
+    "title": "Performing quantum entangled biphoton spectroscopy using classical light  pulses",
+    "abstract": "We show that for a class of quantum light spectroscopy (QLS) experiments using n = 0,1,2,$\\cdots$ classical light pulses and an entangled photon pair (a biphoton state) where one photon acts as a reference without interacting with the matter sample, identical signals can be obtained by replacing the biphotons with classical-like coherent states of light, where these are defined explicitly in terms of the parameters of the biphoton states. An input-output formulation of quantum nonlinear spectroscopy is used to prove this equivalence. We demonstrate the equivalence numerically by comparing a classical pump - quantum probe experiment with the corresponding classical pump - classical probe experiment. This analysis shows that understanding the equivalence between entangled biphoton probes and carefully designed classical-like coherent state probes leads to quantum-inspired classical experiments and provides insights for future design of QLS experiments that could provide a true quantum advantage. ",
+    "url": "https://arxiv.org/abs/2306.14424",
+    "authors": [
+      "Liwen Ko",
+      "Robert L. Cook",
+      "K. Birgitta Whaley"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14480",
+    "title": "Nonlinear optics using intense optical Schr\u00f6dinger \"cat\" states",
+    "abstract": "Optical Schr\\\"odinger \"cat\" states created by superpositions of coherent light states, correspond to an optical analog of the Schr\\\"odinger's cat in his $\\textit{Gedankenexperiment}$. These non-classical light states are generated by means of quantum state engineering methods, and they are considered as one of the main resources for fundamental tests of quantum theory and the development of new quantum technologies. However, the power of existing optical \"cat\" state sources is limited by their low average photon number, which prevents their use in nonlinear optics. Here, we demonstrate the generation of a femtosecond duration optical \"cat\" state in the infrared spectral range, with mean photon number orders of magnitude higher than those delivered by current available sources. These states exhibit intensities sufficient to induce nonlinear processes in matter. This is shown using the process of second harmonic generation in an optical crystal, in which the infrared-frequency photons of an optical \"cat\" state are up-converted into blue-frequency photons. We create the light states driving the second harmonic generation process, by means of conditioning operations applied on the quantum state of an intense infrared femtosecond laser field after its nonlinear interaction with atoms. Due to the presence of quantum interference between the coherent states composing the optical \"cat\" state, the quantum properties of the state are imprinted in the measured second-order interferometric autocorrelation traces. The findings introduce the optical \"cat\" states into the realm of nonlinear quantum optics, opening up exciting new paths in quantum information science. ",
+    "url": "https://arxiv.org/abs/2306.14480",
+    "authors": [
+      "Theocharis Lamprou",
+      "Javier Rivera-Dean",
+      "Philipp Stammer",
+      "Maciej Lewenstein",
+      "Paraskevas Tzallas"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14813",
+    "title": "Surface Modification and Coherence in Lithium Niobate SAW Resonators",
+    "abstract": "Lithium niobate is a promising material for developing quantum acoustic technologies due to its strong piezoelectric effect and availability in the form of crystalline thin films of high quality. However, at radio frequencies and cryogenic temperatures, these resonators are limited by the presence of decoherence and dephasing due to two-level systems. To mitigate these losses and increase device performance, a more detailed picture of the microscopic nature of these loss channels is needed. In this study, we fabricate several lithium niobate acoustic wave resonators and apply different processing steps that modify their surfaces. These treatments include argon ion sputtering, annealing, and acid cleans. We characterize the effects of these treatments using three surface-sensitive measurements: cryogenic microwave spectroscopy measuring density and coupling of TLS to mechanics, x-ray photoelectron spectroscopy and atomic force microscopy. We learn from these studies that, surprisingly, increases of TLS density may accompany apparent improvements in the surface quality as probed by the latter two approaches. Our work outlines the importance that surfaces and fabrication techniques play in altering acoustic resonator coherence, and suggests gaps in our understanding as well as approaches to address them. ",
+    "url": "https://arxiv.org/abs/2306.14813",
+    "authors": [
+      "Rachel G. Gruenke",
+      "Oliver A. Hitchcock",
+      "E. Alex Wollack",
+      "Christopher J. Sarabalis",
+      "Marc Jankowski",
+      "Timothy P. McKenna",
+      "Nathan R. Lee",
+      "Amir H. Safavi-Naeini"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.04571",
+    "title": "Arbitrary structured quantum emission with a multifunctional imaging  metalens",
+    "abstract": " Comments: 12 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2209.04571",
+    "authors": [
+      "Chi Li",
+      "Jaehyuck Jang",
+      "Trevon Badloe",
+      "Tieshan Yang",
+      "Joohoon Kim",
+      "Jaekyung Kim",
+      "Minh Nguyen",
+      "Stefan A. Maier",
+      "Junsuk Rho",
+      "Haoran Ren",
+      "Igor Aharonovich"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.12443",
+    "title": "Coherent optical control of a superconducting microwave cavity via  electro-optical dynamical back-action",
+    "abstract": " Title: Coherent optical control of a superconducting microwave cavity via  electro-optical dynamical back-action ",
+    "url": "https://arxiv.org/abs/2210.12443",
+    "authors": [
+      "Liu Qiu",
+      "Rishabh Sahu",
+      "William Hease",
+      "Georg Arnold",
+      "Johannes M. Fink"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.08940",
+    "title": "Observation of superradiant bursts in a cascaded quantum system",
+    "abstract": " Title: Observation of superradiant bursts in a cascaded quantum system ",
+    "url": "https://arxiv.org/abs/2211.08940",
+    "authors": [
+      "Christian Liedl",
+      "Felix Tebbenjohanns",
+      "Constanze Bach",
+      "Sebastian Pucher",
+      "Arno Rauschenbeutel",
+      "Philipp Schneeweiss"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.15295",
+    "title": "Inverse design of arbitrary optical helicity patterns",
+    "abstract": " Title: Inverse design of arbitrary optical helicity patterns ",
+    "url": "https://arxiv.org/abs/2211.15295",
+    "authors": [
+      "Romuald Kilianski",
+      "Robert Bennett"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.11679",
+    "title": "The helion charge radius from laser spectroscopy of muonic helium-3 ions",
+    "abstract": " Comments: 8 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2305.11679",
+    "authors": [
+      "CREMA Collaboration",
+      "Karsten Schuhmann",
+      "Luis M. P. Fernandes",
+      "Fran\u00e7ois Nez",
+      "Marwan Abdou Ahmed",
+      "Fernando D. Amaro",
+      "Pedro Amaro",
+      "Fran\u00e7ois Biraben",
+      "Tzu-Ling Chen",
+      "Daniel S. Covita",
+      "Andreas J. Dax",
+      "Marc Diepold",
+      "Beatrice Franke",
+      "Sandrine Galtier",
+      "Andrea L. Gouvea",
+      "Johannes G\u00f6tzfried",
+      "Thomas Graf",
+      "Theodor W. H\u00e4nsch",
+      "Malte Hildebrandt",
+      "Paul Indelicato",
+      "Lucile Julien",
+      "Klaus Kirch",
+      "Andreas Knecht",
+      "Franz Kottmann",
+      "Julian J. Krauth",
+      "Yi-Wei Liu",
+      "Jorge Machado",
+      "Cristina M. B. Monteiro",
+      "Fran\u00e7oise Mulhauser",
+      "Boris Naar",
+      "Tobias Nebel",
+      "Joaquim M. F. dos Santos",
+      "Jos\u00e9 Paulo Santos",
+      "Csilla I. Szabo",
+      "David Taqqu",
+      "Jo\u00e3o F. C. A. Veloso",
+      "Andreas Voss",
+      "Birgit Weichelt",
+      "Aldo Antognini",
+      "Randolf Pohl"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.11878",
+    "title": "Reservoir computing and task performing through using high-$\u03b2$  lasers with delayed optical feedback",
+    "abstract": " Title: Reservoir computing and task performing through using high-$\u03b2$  lasers with delayed optical feedback ",
+    "url": "https://arxiv.org/abs/2305.11878",
+    "authors": [
+      "T. Wang",
+      "C. Jiang",
+      "Q. Fang",
+      "X. Guo",
+      "Y. Zhang",
+      "C. Jin",
+      "S. Xiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.13787",
+    "title": "Effective quantum electrodynamics: One-dimensional model of the  relativistic hydrogen-like atom",
+    "abstract": " Title: Effective quantum electrodynamics: One-dimensional model of the  relativistic hydrogen-like atom ",
+    "url": "https://arxiv.org/abs/2305.13787",
+    "authors": [
+      "Timoth\u00e9e Audinet",
+      "Julien Toulouse"
+    ],
+    "subjectives": [
+      "Mathematical Physics (math-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.16601",
+    "title": "The mechanism of the irradiation synergistic effect of Silicon bipolar  junction transistors explained by multiscale simulations of Monte Carlo and  excited-state first-principle calculations",
+    "abstract": " Comments: 11 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2305.16601",
+    "authors": [
+      "Zeng-hui Yang",
+      "Yang Liu",
+      "Ning An",
+      "Xingyu Chen"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.01259",
+    "title": "Generating and processing optical waveforms using spectral singularities",
+    "abstract": " Title: Generating and processing optical waveforms using spectral singularities ",
+    "url": "https://arxiv.org/abs/2306.01259",
+    "authors": [
+      "Asaf Farhi",
+      "Alexander Cerjan",
+      "A. Douglas Stone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.04617",
+    "title": "Helicity-dependent optical control of the magnetization state emerging  from the Landau-Lifshitz-Gilbert equation",
+    "abstract": " Comments: 12 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2306.04617",
+    "authors": [
+      "Benjamin Assouline",
+      "Amir Capua"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.08580",
+    "title": "Quiet point engineering for low-noise microwave generation with soliton  microcombs",
+    "abstract": " Comments: 5 figures ",
+    "url": "https://arxiv.org/abs/2306.08580",
+    "authors": [
+      "Andrea C. Triscari",
+      "Aleksandr Tusnin",
+      "Alexey Tikan",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  }
+]
