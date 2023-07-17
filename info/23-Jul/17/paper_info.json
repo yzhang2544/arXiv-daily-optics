@@ -1,0 +1,333 @@
+[
+  {
+    "id": "arXiv:2307.06973",
+    "title": "Possible Applications of Dissolution Dynamic Nuclear Polarization in  Conjunction with Zero- to Ultralow-Field Nuclear Magnetic Resonance",
+    "abstract": "The combination of a powerful and broadly applicable nuclear hyperpolarization technique with emerging (near-)zero-field modalities offer novel opportunities in a broad range of nuclear magnetic resonance spectroscopy and imaging applications, including biomedical diagnostics, monitoring catalytic reactions within metal reactors and many others. These are discussed along with a roadmap for future developments. ",
+    "url": "https://arxiv.org/abs/2307.06973",
+    "authors": [
+      "Danila A. Barskiy",
+      "John W. Blanchard",
+      "Dmitry Budker",
+      "Quentin Stern",
+      "James Eills",
+      "Stuart J. Elliott",
+      "Roman Picazo-Frutos",
+      "Antoine Garcon",
+      "Sami Jannin",
+      "Igor V. Koptyug"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07009",
+    "title": "Ultrasonic spectroscopy of sessile droplets coupled to optomechanical  sensors",
+    "abstract": "We describe a system for interrogating the acoustic properties of sub-nanoliter liquid samples within an open microfluidics platform. Sessile droplets were deposited onto integrated optomechanical sensors, which possess ambient-medium-noise-limited sensitivity and can thus passively sense the thermally driven acoustic spectrum of the droplets. The droplet acoustic breathing modes manifest as resonant features in the thermomechanical noise spectrum of the sensor, in some cases hybridized with the sensor's own vibrational modes. Excellent agreement is found between experimental observations and theoretical predictions, over the entire ~ 0 - 40 MHz operating range of our sensors. With suitable control over droplet size and morphology, this technique has the potential for precision acoustic sensing of small-volume biological and chemical samples. ",
+    "url": "https://arxiv.org/abs/2307.07009",
+    "authors": [
+      "Kyle G. Scheuer",
+      "Franz B. Romero",
+      "Graham J. Hornig",
+      "Ray G. DeCorby"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07017",
+    "title": "The Ionization Profile Monitors in the Recycler Ring",
+    "abstract": "The ionization profile monitors (IPMs) are used to measure the beam size in synchrotrons. Both the Fermilab Recycler and Main Injector (MI) machines have IPMs. However, they were not well understood enough to provide confidence in their measurements. Accurately measuring beam size through the IPMs was crucial to recognize the loss mechanisms for accelerators and to keep the beam loss to a minimum. Thus, performing measurements with different parameters using the IPMs led to a better analysis on how changes in conditions affect the beam size. The IPM measurements are compared with that of multi-wires in the upstream transfer line after applying corrections. The results were compared with other diagnostics and the change in the beam size for different parameters are presented in this paper. ",
+    "url": "https://arxiv.org/abs/2307.07017",
+    "authors": [
+      "B. Babacan",
+      "R. Ainsworth",
+      "K. J. Hazelwood",
+      "D. K Morris",
+      "P. Snopok"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07029",
+    "title": "Complete reactants-to-products observation of a gas-phase chemical  reaction with broad, fast mid-infrared frequency combs",
+    "abstract": "Molecular diagnostics are a primary tool of modern chemistry, enabling researchers to map chemical reaction pathways and rates to better design and control chemical systems. Many chemical reactions are complex and fast, and existing diagnostic approaches provide incomplete information. For example, mass spectrometry is optimized to gather snapshots of the presence of many chemical species, while conventional laser spectroscopy can quantify a single chemical species through time. Here we optimize for multiple objectives by introducing a high-speed and broadband, mid-infrared dual frequency comb absorption spectrometer. The optical bandwidth of >1000 cm-1 covers absorption fingerprints of many species with spectral resolution <0.03 cm-1 to accurately discern their absolute quantities. Key to this advance are 1 GHz pulse repetition rate frequency combs covering the 3-5 um region that enable microsecond tracking of fast chemical process dynamics. We demonstrate this system to quantify the abundances and temperatures of each species in the complete reactants-to-products breakdown of 1,3,5-trioxane, which exhibits a formaldehyde decomposition pathway that is critical to modern low temperature combustion systems. By maximizing the number of observed species and improving the accuracy of temperature and concentration measurements, this spectrometer advances understanding of chemical reaction pathways and rates and opens the door for novel developments such as combining high-speed chemistry with machine learning. ",
+    "url": "https://arxiv.org/abs/2307.07029",
+    "authors": [
+      "Nazanin Hoghooghi",
+      "Peter Chang",
+      "Scott Egbert Matt Burch",
+      "Rizwan Shaik",
+      "Patrick Lynch",
+      "Scott Diddams",
+      "Gregory B. Rieker"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07050",
+    "title": "Wasserstein Quantum Monte Carlo: A Novel Approach for Solving the  Quantum Many-Body Schr\u00f6dinger Equation",
+    "abstract": "Solving the quantum many-body Schr\\\"odinger equation is a fundamental and challenging problem in the fields of quantum physics, quantum chemistry, and material sciences. One of the common computational approaches to this problem is Quantum Variational Monte Carlo (QVMC), in which ground-state solutions are obtained by minimizing the energy of the system within a restricted family of parameterized wave functions. Deep learning methods partially address the limitations of traditional QVMC by representing a rich family of wave functions in terms of neural networks. However, the optimization objective in QVMC remains notoriously hard to minimize and requires second-order optimization methods such as natural gradient. In this paper, we first reformulate energy functional minimization in the space of Born distributions corresponding to particle-permutation (anti-)symmetric wave functions, rather than the space of wave functions. We then interpret QVMC as the Fisher--Rao gradient flow in this distributional space, followed by a projection step onto the variational manifold. This perspective provides us with a principled framework to derive new QMC algorithms, by endowing the distributional space with better metrics, and following the projected gradient flow induced by those metrics. More specifically, we propose \"Wasserstein Quantum Monte Carlo\" (WQMC), which uses the gradient flow induced by the Wasserstein metric, rather than Fisher--Rao metric, and corresponds to transporting the probability mass, rather than teleporting it. We demonstrate empirically that the dynamics of WQMC results in faster convergence to the ground state of molecular systems. ",
+    "url": "https://arxiv.org/abs/2307.07050",
+    "authors": [
+      "Kirill Neklyudov",
+      "Jannes Nys",
+      "Luca Thiede",
+      "Juan Carrasquilla",
+      "Qiang Liu",
+      "Max Welling",
+      "Alireza Makhzani"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07092",
+    "title": "Spin-Flip Unitary Coupled Cluster Method: Toward Accurate Description of  Strong Electron Correlation on Quantum Computers",
+    "abstract": "Quantum computers have emerged as a promising platform to simulate the strong electron correlation that is crucial to catalysis and photochemistry. However, owing to the choice of a trial wave function employed in the popular hybrid quantum-classical variational quantum eigensolver (VQE) algorithm, the accurate simulation is restricted to certain classes of correlated phenomena. Herein, we combine the spin-flip (SF) formalism with the unitary coupled cluster with singles and doubles (UCCSD) method via the quantum equation-of-motion (qEOM) approach to allow for an efficient simulation of a large family of strongly correlated problems. In particular, we show that the developed qEOM-SF-UCCSD/VQE method outperforms its UCCSD/VQE counterpart for simulation of the cis-trans isomerization of ethylene and the automerization of cyclobutadiene. The predicted qEOM-SF-UCCSD/VQE barrier heights for these two problems are in a good agreement with the experimentally determined values. The methodological developments presented herein will further stimulate investigation of this approach for the simulation of other types of correlated/entangled phenomena on a quantum computer. ",
+    "url": "https://arxiv.org/abs/2307.07092",
+    "authors": [
+      "Fabijan Pavo\u0161evi\u0107",
+      "Ivano Tavernelli",
+      "Angel Rubio"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07101",
+    "title": "Universal Unitary Photonic Circuits by Interlacing Discrete Fractional  Fourier Transform and Phase Modulation",
+    "abstract": "We introduce a novel parameterization of complex unitary matrices, which allows for the efficient photonic implementation of arbitrary linear discrete unitary operators. The proposed architecture is built on factorizing an $N \\times N$ unitary matrix into interlaced discrete fractional Fourier transforms and $N$-parameter diagonal phase shifts. We show that such a configuration can represent arbitrary unitary operators with $N+1$ phase layers. We discuss a gradient-based algorithm for finding the optimal phase parameters for implementing a given unitary matrix. By increasing the number of phase layers beyond the critical value of $N+1$, the optimization consistently converges faster as the system becomes over-determined. We propose an integrated photonic circuit realization of this architecture with coupled waveguide arrays and reconfigurable phase modulators. The proposed architecture can pave the way for developing novel families of programmable photonic circuits for optical classical and quantum information processing. ",
+    "url": "https://arxiv.org/abs/2307.07101",
+    "authors": [
+      "Matthew Markowitz",
+      "Mohammad-Ali Miri"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07224",
+    "title": "Three-Dimensional Fully Metallic Dual Polarization Frequency Selective  Surface Design Using Coupled-Resonator Circuit Information",
+    "abstract": "This work employs a new approach to analyze coupled-resonator circuits to design and manufacture a fully metallic dual polarization frequency selective surface (FSS). The proposed filtering structure is composed of a series of unit cells with resonators fundamentally coupled along the z-direction and then repeated periodically in the xy-plane. The fully metallic cascaded unit cell is rigorously analyzed within an infinite periodic environment as a coupled-resonator electromagnetic (EM) circuit. The convenient design of the EM resonators makes it possible to push the evanescent EM field through the metallic structure in the desired frequency band for both polarizations. An FSS prototype is manufactured and measured, and good agreement is found between the simulation results and the final prototype. ",
+    "url": "https://arxiv.org/abs/2307.07224",
+    "authors": [
+      "Ignacio Parellada-Serrano",
+      "Mario P\u00e9rez-Escribano",
+      "Carlos Molero",
+      "Pablo Padilla",
+      "Valent\u00edn de la Rubia"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07256",
+    "title": "Modeling laser pulses as $\u03b4$-kicks: reevaluating the impulsive  limit in molecular rotational dynamics",
+    "abstract": "The impulsive limit (the \"sudden approximation\") has been widely employed to describe the interaction between molecules and short, far-off-resonant laser pulses. This approximation assumes that the timescale of the laser--molecule interaction is significantly shorter than the internal rotational period of the molecule, resulting in the rotational motion being instantaneously \"frozen\" during the interaction. This simplified description of laser-molecule interaction is incorporated in various theoretical models predicting rotational dynamics of molecules driven by short laser pulses. In this theoretical work, we develop an effective theory for ultrashort laser pulses by examining the full time-evolution operator and solving the time-dependent Schr\\\"odinger equation at the operator level. Our findings reveal a critical angular momentum, $l_\\mathrm{crit}$, at which the impulsive limit breaks down. In other words, the validity of the sudden approximation depends not only on the pulse duration, but also on its intensity, since the latter determines how many angular momentum states are populated. We explore both ultrashort multi-cycle (Gaussian) pulses and the somewhat less studied half-cycle pulses, which produce distinct effective potentials. We discuss the limitations of the impulsive limit and propose a new method that rescales the effective matrix elements, enabling an improved and more accurate description of laser-molecule interactions. ",
+    "url": "https://arxiv.org/abs/2307.07256",
+    "authors": [
+      "Volker Karle",
+      "Mikhail Lemeshko"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07349",
+    "title": "Direct Frequency-Mode-Stable Laser Amplification at Terahertz Burst  Rates",
+    "abstract": "Generation of high-fidelity amplified pulse bursts with a regular interpulse interval yields, in the spectral domain, an equidistant pattern of narrowband spectral modes, similar to frequency combs produced by cw mode-locked lasers, but with greatly increased pulse energy. Despite their great potential for nonlinear spectroscopy, material processing, etc., such long frequency-stable bursts are difficult to generate and amplify because of prominent temporal intensity modulation even after strong dispersive pulse stretching. This study presents a burst generation method based on a master-oscillator regenerative-amplifier system that allows for chirped-pulse amplification (CPA) with high scalability in pulse number. A gradual smoothing of temporal intensity profiles at an increasing number of pulses is discovered, demonstrating an unexpected recovery of the CPA performance at terahertz (THz) intraburst repetition rates. In consequence, a self-referenced stable burst spectral peak structure with megahertz (MHz) peak width is generated, without risk of amplifier damage caused by interference of chirped pulses. This result eliminates limitations in burst amplification and paves the way for advancements in ultrashort-pulse burst technology, particularly for its use in nonlinear optical applications. ",
+    "url": "https://arxiv.org/abs/2307.07349",
+    "authors": [
+      "Vinzenz Stummer",
+      "Tobias Fl\u00f6ry",
+      "Matthias Schneller",
+      "Markus Zeiler",
+      "Audrius Pug\u017elys",
+      "Andrius Baltu\u0161ka"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07364",
+    "title": "Single-sensor and real-time ultrasonic imaging using an AI-driven  disordered metasurface",
+    "abstract": "Non-destructive testing and medical diagnostic techniques using ultrasound has become indispensable in evaluating the state of materials or imaging the internal human body, respectively. To conduct spatially resolved high-quality observations, conventionally, sophisticated phased arrays are used both at the emitting and receiving ends of the setup. In comparison, single-sensor imaging techniques offer significant benefits including compact physical dimensions and reduced manufacturing expenses. However, recent advances such as compressive sensing have shown that this improvement comes at the cost of additional time-consuming dynamic spatial scanning or multi-mode mask switching, which severely hinders the quest for real-time imaging. Consequently, real-time single-sensor imaging, at low cost and simple design, still represents a demanding and largely unresolved challenge till this day. Here, we bestow on ultrasonic metasurface with both disorder and artificial intelligence (AI). The former ensures strong dispersion and highly complex scattering to encode the spatial information into frequency spectra at an arbitrary location, while the latter is used to decode instantaneously the amplitude and spectral component of the sample under investigation. Thus, thanks to this symbiosis, we demonstrate that a single fixed sensor suffices to recognize complex ultrasonic objects through the random scattered field from an unpretentious metasurface, which enables real-time and low-cost imaging, easily extendable to 3D. ",
+    "url": "https://arxiv.org/abs/2307.07364",
+    "authors": [
+      "Wei Wang",
+      "Jie Hu",
+      "Jingjing Liu",
+      "Yang Tan",
+      "Jing Yang",
+      "Bin Liang",
+      "Johan Christensen",
+      "Jianchun Cheng"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07441",
+    "title": "Precision Doppler Shift Measurements with a Frequency Comb Calibrated  Laser Heterodyne Radiometer",
+    "abstract": "We report precision atmospheric spectroscopy of $CO_2$ using a laser heterodyne radiometer (LHR) calibrated with an optical frequency comb. Using the comb-calibrated LHR, we record spectra of atmospheric $CO_2$ near 1572.33 nm with a spectral resolution of 200 MHz using sunlight as a light source. The measured $CO_2$ spectra exhibit frequency shifts by approximately 11 MHz over the course of the five-hour measurement, and we show that these shifts are caused by Doppler effects due to wind along the spectrometer line of sight. The measured frequency shifts are in excellent agreement with an atmospheric model, and we show that our measurements track the wind-induced Doppler shifts with a relative frequency precision of 100 kHz (15 cm/s), equivalent to a fractional precision of a few parts in $10^{10}$. These results demonstrate that frequency-comb-calibrated LHR enables precision velocimetry that can be of use in applications ranging from climate science to astronomy. ",
+    "url": "https://arxiv.org/abs/2307.07441",
+    "authors": [
+      "Ryan K. Cole",
+      "Connor Fredrick",
+      "Newton H. Nguyen",
+      "Scott A. Diddams"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07488",
+    "title": "Useful Circuit Analogies to Model THz Field Effect Transistors",
+    "abstract": "The electron fluid model in plasmonic field effect transistor (FET) operation is related to the behavior of a radio-frequency (RF) cavity. This new understanding led to finding the relationships between physical device parameters and equivalent circuit components in traditional parallel resistor, inductor, and capacitor (RLC) and transmission models for cavity structures. Verification of these models is performed using PSpice to simulate the frequency dependent voltage output and compare with analytical equations for the drain potential as a function of frequency. ",
+    "url": "https://arxiv.org/abs/2307.07488",
+    "authors": [
+      "Adam Gleichman",
+      "Kindred Griffis",
+      "Sergey V. Baryshev"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07496",
+    "title": "Cryogenic Optical Packaging Using Photonic Wire Bonds",
+    "abstract": "We present the required techniques for the successful low loss packaging of integrated photonic devices capable of operating down to 970 mK utilizing photonic wire bonds. This scalable technique is shown to have an insertion loss of less than 2 dB per connection between a SMF-28 single mode fibre and a silicon photonic chip at these temperatures. This technique has shown robustness to thermal cycling and is ultra-high vacuum compatible without the need for any active alignment. ",
+    "url": "https://arxiv.org/abs/2307.07496",
+    "authors": [
+      "Becky Lin",
+      "Donald Witt",
+      "Jeff F. Young",
+      "Lukas Chrostowski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07088",
+    "title": "Quantum Simulation of Bosons with the Contracted Quantum Eigensolver",
+    "abstract": "Quantum computers are promising tools for simulating many-body quantum systems due to their potential scaling advantage over classical computers. While significant effort has been expended on many-fermion systems, here we simulate a model entangled many-boson system with the contracted quantum eigensolver (CQE). We generalize the CQE to many-boson systems by encoding the bosonic wavefunction on qubits. The CQE provides a compact ansatz for the bosonic wave function whose gradient is proportional to the residual of a contracted Schr\\\"odinger equation. We apply the CQE to a bosonic system, where $N$ quantum harmonic oscillators are coupled through a pairwise quadratic repulsion. The model is relevant to the study of coupled vibrations in molecular systems on quantum devices. Results demonstrate the potential efficiency of the CQE in simulating bosonic processes such as molecular vibrations with good accuracy and convergence even in the presence of noise. ",
+    "url": "https://arxiv.org/abs/2307.07088",
+    "authors": [
+      "Yuchen Wang",
+      "LeeAnn M. Sager-Smith",
+      "David A. Mazziotti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07173",
+    "title": "Variational Quantum Simulation of Partial Differential Equations:  Applications in Colloidal Transport",
+    "abstract": "We assess the use of variational quantum imaginary time evolution for solving partial differential equations. Our results demonstrate that real-amplitude ansaetze with full circular entangling layers lead to higher-fidelity solutions compared to those with partial or linear entangling layers. To efficiently encode impulse functions, we propose a graphical mapping technique for quantum states that often requires only a single bit-flip of a parametric gate. As a proof of concept, we simulate colloidal deposition on a planar wall by solving the Smoluchowski equation including the Derjaguin-Landau-Verwey-Overbeek (DLVO) potential energy. We find that over-parameterization is necessary to satisfy certain boundary conditions and that higher-order time-stepping can effectively reduce norm errors. Together, our work highlights the potential of variational quantum simulation for solving partial differential equations using near-term quantum devices. ",
+    "url": "https://arxiv.org/abs/2307.07173",
+    "authors": [
+      "Fong Yew Leong",
+      "Dax Enshan Koh",
+      "Wei-Bin Ewe",
+      "Jian Feng Kong"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07429",
+    "title": "Variational dynamics of open quantum systems in phase space",
+    "abstract": "We present a method to simulate the dynamics of large driven-dissipative many-body open quantum systems using a variational encoding of the Wigner or Husimi-Q quasi-probability distributions. The method relies on Monte-Carlo sampling to maintain a polynomial computational complexity while allowing for several quantities to be estimated efficiently. As a first application, we present a proof of principle investigation into the physics of the driven-dissipative Bose-Hubbard model with weak nonlinearity, providing evidence for the high efficiency of the phase space variational approach. ",
+    "url": "https://arxiv.org/abs/2307.07429",
+    "authors": [
+      "Debbie Eeltink",
+      "Filippo Vicentini",
+      "Vincenzo Savona"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07471",
+    "title": "Spectral Network Principle for Frequency Synchronization in Repulsive  Laser Networks",
+    "abstract": "Network synchronization of lasers is critical for reaching high-power levels and for effective optical computing. Yet, the role of network topology for the frequency synchronization of lasers is not well understood. Here, we report our significant progress toward solving this critical problem for networks of heterogeneous laser model oscillators with repulsive coupling. We discover a general approximate principle for predicting the onset of frequency synchronization from the spectral knowledge of a complex matrix representing a combination of the signless Laplacian induced by repulsive coupling and a matrix associated with intrinsic frequency detuning. We show that the gap between the two smallest eigenvalues of the complex matrix generally controls the coupling threshold for frequency synchronization. In stark contrast with Laplacian networks, we demonstrate that local rings and all-to-all networks prevent frequency synchronization, whereas full bipartite networks have optimal synchronization properties. Beyond laser models, we show that, with a few exceptions, the spectral principle can be applied to repulsive Kuramoto networks. Our results may provide guidelines for optimal designs of scalable laser networks capable of achieving reliable synchronization. ",
+    "url": "https://arxiv.org/abs/2307.07471",
+    "authors": [
+      "Mostafa Honari-Latifpour",
+      "Jiajie Ding",
+      "Igor Belykh",
+      "Mohammad-Ali Miri"
+    ],
+    "subjectives": [
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.03137",
+    "title": "Optical dispersions through intracellular inhomogeneities",
+    "abstract": " Comments: 22 pages, 18 figures, 4 tables ",
+    "url": "https://arxiv.org/abs/2207.03137",
+    "authors": [
+      "Masaki Watabe",
+      "Yasuhiro Hirano",
+      "Atsuko Iwane",
+      "Osamu Matoba",
+      "Koichi Takahashi"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.04867",
+    "title": "Measurement Noise Mitigation in a Quantum Computer Using Image Intensity  Filters",
+    "abstract": " Comments: 11 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2307.04867",
+    "authors": [
+      "Wladimir Silva"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
