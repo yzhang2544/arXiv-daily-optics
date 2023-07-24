@@ -1,0 +1,360 @@
+[
+  {
+    "id": "arXiv:2307.11099",
+    "title": "Solving multiphysics-based inverse problems with learned surrogates and  constraints",
+    "abstract": "Solving multiphysics-based inverse problems for geological carbon storage monitoring can be challenging when multimodal time-lapse data are expensive to collect and costly to simulate numerically. We overcome these challenges by combining computationally cheap learned surrogates with learned constraints. Not only does this combination lead to vastly improved inversions for the important fluid-flow property, permeability, it also provides a natural platform for inverting multimodal data including well measurements and active-source time-lapse seismic data. By adding a learned constraint, we arrive at a computationally feasible inversion approach that remains accurate. This is accomplished by including a trained deep neural network, known as a normalizing flow, which forces the model iterates to remain in-distribution, thereby safeguarding the accuracy of trained Fourier neural operators that act as surrogates for the computationally expensive multiphase flow simulations involving partial differential equation solves. By means of carefully selected experiments, centered around the problem of geological carbon storage, we demonstrate the efficacy of the proposed constrained optimization method on two different data modalities, namely time-lapse well and time-lapse seismic data. While permeability inversions from both these two modalities have their pluses and minuses, their joint inversion benefits from either, yielding valuable superior permeability inversions and CO2 plume predictions near, and far away, from the monitoring wells. ",
+    "url": "https://arxiv.org/abs/2307.11099",
+    "authors": [
+      "Ziyi Yin",
+      "Rafael Orozco",
+      "Mathias Louboutin",
+      "Felix J. Herrmann"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11130",
+    "title": "Frequency-aware optical coherence tomography image super-resolution via  conditional generative adversarial neural network",
+    "abstract": "Optical coherence tomography (OCT) has stimulated a wide range of medical image-based diagnosis and treatment in fields such as cardiology and ophthalmology. Such applications can be further facilitated by deep learning-based super-resolution technology, which improves the capability of resolving morphological structures. However, existing deep learning-based method only focuses on spatial distribution and disregard frequency fidelity in image reconstruction, leading to a frequency bias. To overcome this limitation, we propose a frequency-aware super-resolution framework that integrates three critical frequency-based modules (i.e., frequency transformation, frequency skip connection, and frequency alignment) and frequency-based loss function into a conditional generative adversarial network (cGAN). We conducted a large-scale quantitative study from an existing coronary OCT dataset to demonstrate the superiority of our proposed framework over existing deep learning frameworks. In addition, we confirmed the generalizability of our framework by applying it to fish corneal images and rat retinal images, demonstrating its capability to super-resolve morphological details in eye imaging. ",
+    "url": "https://arxiv.org/abs/2307.11130",
+    "authors": [
+      "Xueshen Li",
+      "Zhenxing Dong",
+      "Hongshan Liu",
+      "Jennifer J. Kang-Mieler",
+      "Yuye Ling",
+      "Yu Gan"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11250",
+    "title": "Active Q-switched X-Ray Regenerative Amplifier Free-Electron Laser",
+    "abstract": "Despite tremendous progress in x-ray free-electron laser (FEL) science over the last decade, future applications still demand fully coherent, stable x-rays that have not been demonstrated in existing X-ray FEL facilities. In this Letter, we describe an active Q-switched x-ray regenerative amplifier FEL scheme to produce fully coherent, high-brightness, hard x rays at a high-repetition rate. By using simple electron-beam phase space manipulation, we show this scheme is flexible in controlling the x-ray cavity quality factor Q and hence the output radiation. We report both theoretical and numerical studies on this scheme with a wide range of accelerator, x-ray cavity, and undulator parameters. ",
+    "url": "https://arxiv.org/abs/2307.11250",
+    "authors": [
+      "Jingyi Tang",
+      "Zhen Zhang",
+      "Jenny Morgan",
+      "Erik Hemsing",
+      "Zhirong Huang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11277",
+    "title": "Optically isotropic longitudinal piezoelectric resonant photoelastic  modulator for wide angle polarization modulation at megahertz frequencies",
+    "abstract": "Polarization modulators have a broad range of applications in optics. The acceptance angle of a free-space polarization modulator is crucial for many applications. Polarization modulators that can achieve a wide acceptance angle are constructed by attaching a piezoelectric transducer to an isotropic material, and utilize a resonant transverse interaction between light and acoustic waves. Since their demonstration in the 1960s, the design of these modulators has essentially remained the same with minor improvements in the following decades. In this work, we show that a suitable single crystal with the correct crystal orientation, functioning as both the piezoelectric transducer and the acousto-optic interaction medium, could be used for constructing a highly efficient free-space resonant polarization modulator operating at megahertz frequencies and exhibiting a wide acceptance angle. We construct the modulator using gallium arsenide, an optically isotropic and piezoelectric crystal, and demonstrate polarization modulation at 6 MHz with an input aperture of 1 cm in diameter, acceptance angle reaching $\\pm30^\\circ$, and modulation efficiency exceeding 50%. Compared to state-of-the-art resonant photoelastic modulators, the modulator reported in this work exhibits greater than 50 fold improvement in modulation frequency for the same input aperture, while simultaneously reducing the thickness by approximately a factor of 80. Increasing the modulation frequency of photoelastic modulators from the kilohertz to the megahertz regime and substantially reducing their thickness lead to significant performance improvements for various use cases. This technological advancement also creates opportunities for utilizing these devices in new applications. ",
+    "url": "https://arxiv.org/abs/2307.11277",
+    "authors": [
+      "Okan Atalar",
+      "Amin Arbabian"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11382",
+    "title": "Planar-type silicon thermoelectric generator with phononic  nanostructures for 100 \u03bcW energy harvesting",
+    "abstract": "Energy harvesting is essential for the internet-of-things networks where a tremendous number of sensors require power. Thermoelectric generators (TEGs), especially those based on silicon (Si), are a promising source of clean and sustainable energy for these sensors. However, the reported performance of planar-type Si TEGs never exceeded power factors of 0.1 ${\\mu} Wcm^{-2} K^{-2}$ due to the poor thermoelectric performance of Si and the suboptimal design of the devices. Here, we report a planar-type Si TEG with a power factor of 1.3 ${\\mu} Wcm^{-2} K^{-2}$ around room temperature. The increase in thermoelectric performance of Si by nanostructuring based on the phonon-glass electron-crystal concept and optimized three-dimensional heat-guiding structures resulted in a significant power factor. In-field testing demonstrated that our Si TEG functions as a 100-${\\mu}W$-class harvester. This result is an essential step toward energy harvesting with a low-environmental load and cost-effective material with high throughput, a necessary condition for energy-autonomous sensor nodes for the trillion sensors universe. ",
+    "url": "https://arxiv.org/abs/2307.11382",
+    "authors": [
+      "Ryoto Yanagisawa",
+      "Sota Koike",
+      "Tomoki Nawae",
+      "Naohito Tsujii",
+      "Yanan Wang",
+      "Takao Mori",
+      "Patrick Ruther",
+      "Oliver Paul",
+      "Yoshifumi Yoshida",
+      "Junichi Harashima",
+      "Takashi Kinumura",
+      "Yuta Inada",
+      "Masahiro Nomura"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11600",
+    "title": "Free-induction-decay magnetometer with enhanced optical pumping",
+    "abstract": "Spin preparation prior to a free-induction-decay (FID) measurement can be adversely affected by transverse bias fields, particularly in the geophysical field range. A strategy that enhances the spin polarization accumulated before readout is demonstrated, by synchronizing optical pumping with a magnetic field pulse that supersedes any transverse fields by over two order of magnitude. The pulsed magnetic field is generated along the optical pumping axis using a compact electromagnetic coil pair encompassing a micro-electromechanical systems (MEMS) vapor cell. The coils also resistively heat the cesium (Cs) vapor to the optimal atomic density without spurious magnetic field contributions as they are rapidly demagnetized to approximately zero field during spin readout. The demagnetization process is analyzed electronically, and directly with a FID measurement, to confirm that the residual magnetic field is minimal during detection. The sensitivity performance of this technique is compared to existing optical pumping modalities across a wide magnetic field range. A noise floor sensitivity of $238\\,\\mathrm{fT/\\surd{Hz}}$ was achieved in a field of approximately $\\mathrm{50\\,\\mu{T}}$, in close agreement with the Cram\\'{e}r-Rao lower bound (CRLB) predicted noise density of $258\\,\\mathrm{fT/\\surd{Hz}}$. ",
+    "url": "https://arxiv.org/abs/2307.11600",
+    "authors": [
+      "Dominic Hunter",
+      "Marcin S. Mrozowski",
+      "Allan McWilliam",
+      "Stuart J. Ingleby",
+      "Terry E. Dyer",
+      "Paul F. Griffin",
+      "Erling Riis"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11626",
+    "title": "Sol-gel Barium Titanate Nanohole Array as a Nonlinear Metasurface and a  Photonic Crystal",
+    "abstract": "The quest of a nonlinear optical material that can be easily nanostructured over a large surface area is still ongoing. Here, we demonstrate a nanoimprinted nonlinear barium titanate 2D nanohole array that shows optical properties of a 2D photonic crystal and metasurface, depending on the direction of the optical axis. The challenge of nanostructuring the inert metal-oxide is resolved by direct soft nanoimprint lithography with sol-gel derived barium titanate enabling critical dimensions of 120 nm with aspect ratios of 5. The nanohole array exhibits a photonic bandgap in the infrared range when probed along the slab axis while lattice resonant states are observed in out-of-plane transmission configuration. The enhanced light-matter interaction from the resonant structure enables to increase the second-harmonic generation in the near-UV by a factor of 18 illustrating the potential in the flexible fabrication technique for barium titanate photonic devices. ",
+    "url": "https://arxiv.org/abs/2307.11626",
+    "authors": [
+      "\u00dclle-Linda Talts",
+      "Helena C. Weigand",
+      "Gr\u00e9goire Saerens",
+      "Peter Benedek",
+      "Joel Winiger",
+      "Vanessa Wood",
+      "J\u00fcrg Leuthold",
+      "Viola Vogler-Neuling",
+      "Rachel Grange"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11671",
+    "title": "Adapted poling to break the nonlinear efficiency limit in nanophotonic  lithium niobate waveguides",
+    "abstract": "Nonlinear frequency mixing is of critical importance in extending the wavelength range of optical sources. It is also indispensable for emerging applications such as quantum information and photonic signal processing. Conventional lithium niobate with periodic poling is the most widely used device for frequency mixing due to the strong second-order nonlinearity. The recent development of nanophotonic lithium niobate waveguides promises improvements of nonlinear efficiencies by orders of magnitude with sub-wavelength optical conferment. However, the intrinsic nanoscale inhomogeneity in nanophotonic lithium niobate limits the coherent interaction length, leading to low nonlinear efficiencies. Therefore, the performance of nanophotonic lithium niobate waveguides is still far behind conventional counterparts. Here, we overcome this limitation and demonstrate ultra-efficient second order nonlinearity in nanophotonic lithium niobate waveguides significantly outperforming conventional crystals. This is realized by developing the adapted poling approach to eliminate the impact of nanoscale inhomogeneity in nanophotonic lithium niobate waveguides. We realize overall secondharmonic efficiency near 10^4 %/W without cavity enhancement, which saturates the theoretical limit. Phase-matching bandwidths and temperature tunability are improved through dispersion engineering. The ideal square dependence of the nonlinear efficiency on the waveguide length is recovered. We also break the trade-off between the energy conversion ratio and pump power. A conversion ratio over 80% is achieved in the single-pass configuration with pump power as low as 20 mW. ",
+    "url": "https://arxiv.org/abs/2307.11671",
+    "authors": [
+      "Pao-Kang Chen",
+      "Ian Briggs",
+      "Chaohan Cui",
+      "Liang Zhang",
+      "Manav Shah",
+      "Linran Fan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11157",
+    "title": "The Interplay of Machine Learning--based Resonant Anomaly Detection  Methods",
+    "abstract": "Machine learning--based anomaly detection (AD) methods are promising tools for extending the coverage of searches for physics beyond the Standard Model (BSM). One class of AD methods that has received significant attention is resonant anomaly detection, where the BSM is assumed to be localized in at least one known variable. While there have been many methods proposed to identify such a BSM signal that make use of simulated or detected data in different ways, there has not yet been a study of the methods' complementarity. To this end, we address two questions. First, in the absence of any signal, do different methods pick the same events as signal-like? If not, then we can significantly reduce the false-positive rate by comparing different methods on the same dataset. Second, if there is a signal, are different methods fully correlated? Even if their maximum performance is the same, since we do not know how much signal is present, it may be beneficial to combine approaches. Using the Large Hadron Collider (LHC) Olympics dataset, we provide quantitative answers to these questions. We find that there are significant gains possible by combining multiple methods, which will strengthen the search program at the LHC and beyond. ",
+    "url": "https://arxiv.org/abs/2307.11157",
+    "authors": [
+      "Tobias Golling",
+      "Gregor Kasieczka",
+      "Claudius Krause",
+      "Radha Mastandrea",
+      "Benjamin Nachman",
+      "John Andrew Raine",
+      "Debajyoti Sengupta",
+      "David Shih",
+      "Manuel Sommerhalder"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11287",
+    "title": "Impulsive Spin-Motion Entanglement for Fast Quantum Computation and  Sensing",
+    "abstract": "We perform entanglement of spin and motional degrees of freedom of a single, ground-state trapped ion through the application of a $16$ ps laser pulse. The duration of the interaction is significantly shorter than both the motional timescale ($\\approx 10$ $\\mu$s) and spin precession timescale ($\\approx 10$ ns), demonstrating that neither sets a fundamental speed limit on this operation for quantum information processing. Entanglement is demonstrated through the collapse and revival of spin coherence as the spin components of the wavefunction separate and recombine in phase space. We infer the fidelity of these single qubit operations to be $97(3)\\%$. ",
+    "url": "https://arxiv.org/abs/2307.11287",
+    "authors": [
+      "Randall Putnam",
+      "Adam D. West",
+      "Wesley C. Campbell",
+      "Paul Hamilton"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11478",
+    "title": "No-go theorems for photon state transformations in quantum linear optics",
+    "abstract": "We give a necessary condition for photon state transformations in linear optical setups preserving the total number of photons. From an analysis of the algebra describing the quantum evolution, we find a conserved quantity that appears in all allowed optical transformations. We comment some examples and numerical applications, with example code, and give three general no-go results. These include (i) the impossibility of deterministic transformations which redistribute the photons from one to two different modes, (ii) a proof that it is impossible to generate a perfect Bell state in heralded schemes with a separable input for any number of ancillary photons and modes and a fixed herald and (iii) a restriction for the conversion between different types of entanglement (converting GHZ to W states). ",
+    "url": "https://arxiv.org/abs/2307.11478",
+    "authors": [
+      "Pablo V. Parellada",
+      "Vicent Gimeno i Garcia",
+      "Julio-Jos\u00e9 Moyano-Fern\u00e1ndez",
+      "Juan Carlos Garcia-Escartin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2006.06719",
+    "title": "Quantum Algorithm for Smoothed Particle Hydrodynamics",
+    "abstract": " Comments: Submitted to Computer Physics Communications ",
+    "url": "https://arxiv.org/abs/2006.06719",
+    "authors": [
+      "Rhonda Au-Yeung",
+      "Anthony J. Williams",
+      "Viv M. Kendon",
+      "Steven J. Lind"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.09046",
+    "title": "A memristive deep belief neural network based on silicon synapses",
+    "abstract": " Title: A memristive deep belief neural network based on silicon synapses ",
+    "url": "https://arxiv.org/abs/2203.09046",
+    "authors": [
+      "Wei Wang",
+      "Loai Danial",
+      "Yang Li",
+      "Eric Herbelin",
+      "Evgeny Pikhay",
+      "Yakov Roizin",
+      "Barak Hoffer",
+      "Zhongrui Wang",
+      "Shahar Kvatinsky"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.12421",
+    "title": "Molecular Quantum Circuit Design: A Graph-Based Approach",
+    "abstract": " Title: Molecular Quantum Circuit Design: A Graph-Based Approach ",
+    "url": "https://arxiv.org/abs/2207.12421",
+    "authors": [
+      "Jakob S. Kottmann"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.08736",
+    "title": "A Neural Network Warm-Start Approach for the Inverse Acoustic Obstacle  Scattering Problem",
+    "abstract": " Title: A Neural Network Warm-Start Approach for the Inverse Acoustic Obstacle  Scattering Problem ",
+    "url": "https://arxiv.org/abs/2212.08736",
+    "authors": [
+      "Mo Zhou",
+      "Jiequn Han",
+      "Manas Rachh",
+      "Carlos Borges"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.02384",
+    "title": "Universal optical polarizability for plasmonic nanostructures",
+    "abstract": " Comments: 9 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2301.02384",
+    "authors": [
+      "Tigran V. Shahbazyan"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.01221",
+    "title": "Partitioning Quantum Chemistry Simulations with Clifford Circuits",
+    "abstract": " Comments: 12 pages, 9 figures plus 3 pages, 8 figures appendix ",
+    "url": "https://arxiv.org/abs/2303.01221",
+    "authors": [
+      "Philipp Schleich",
+      "Joseph Boen",
+      "Lukasz Cincio",
+      "Abhinav Anand",
+      "Jakob S. Kottmann",
+      "Sergei Tretiak",
+      "Pavel A. Dub",
+      "Al\u00e1n Aspuru-Guzik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.13640",
+    "title": "Resonant instabilities mediated by drag and electrostatic interactions  in laboratory and astrophysical dusty plasmas",
+    "abstract": " Comments: 21 pages, 15 figures ",
+    "url": "https://arxiv.org/abs/2303.13640",
+    "authors": [
+      "Ben Y. Israeli",
+      "Amitava Bhattacharjee",
+      "Hong Qin"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Astrophysics of Galaxies (astro-ph.GA)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.04295",
+    "title": "Paper-based ZnO self-powered sensors and nanogenerators by plasma  technology",
+    "abstract": " Comments: 30 pages, 8 figures in main text ",
+    "url": "https://arxiv.org/abs/2305.04295",
+    "authors": [
+      "Xabier Garcia-Casas",
+      "Francisco J. Aparicio",
+      "Jorge Budagosky",
+      "Ali Ghaffarinejad",
+      "Noel Orozco-Corrales",
+      "Kostya",
+      "Ostrikov",
+      "Juan R. Sanchez-Valencia",
+      "Angel Barranco",
+      "Ana Borras"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.10785",
+    "title": "Object detection and rangefinding with quantum states using simple  detection",
+    "abstract": " Title: Object detection and rangefinding with quantum states using simple  detection ",
+    "url": "https://arxiv.org/abs/2307.10785",
+    "authors": [
+      "Richard J. Murchie",
+      "Jonathan D. Pritchard",
+      "John Jeffers"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
