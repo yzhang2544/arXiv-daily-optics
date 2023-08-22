@@ -1,0 +1,718 @@
+[
+  {
+    "id": "arXiv:2308.09771",
+    "title": "3D cine-magnetic resonance imaging using spatial and temporal implicit  neural representation learning (STINR-MR)",
+    "abstract": "The reconstruction of 3D cine-MRI is challenged by highly undersampled k-space data in each cine frame, due to the slow speed of MR signal acquisition. We proposed a machine learning-based framework, spatial and temporal implicit neural representation learning (STINR-MR), for accurate 3D cine-MRI reconstruction from highly undersampled data. STINR-MR used a joint reconstruction and deformable registration approach to address the ill-posed spatiotemporal reconstruction problem, by solving a reference-frame 3D MR image and a corresponding motion model which deforms the reference frame to each cine frame. The reference-frame image was reconstructed as a spatial implicit neural representation (INR) network, which learns the mapping from input 3D spatial coordinates to corresponding MR values. The dynamic motion model was constructed via a temporal INR, as well as basis deformation vector fields(DVFs) extracted from prior/onboard 4D-MRIs. The learned INR encodes input time points and outputs corresponding weighting factors to combine the basis DVFs into time-resolved motion fields. STINR-MR was evaluated using MR data simulated from the 4D extended cardiac-torso (XCAT) digital phantom and MR data acquired clinically from a healthy human subject. Its reconstruction accuracy was also compared with that of the model-based non-rigid motion estimation method (MR-MOTUS). STINR-MR can reconstruct 3D cine-MR images with high temporal (<100 ms) and spatial (3 mm) resolutions to accurately capture different irregular motion patterns. Compared with MR-MOTUS, STINR-MR consistently reconstructed images with better quality, fewer artifacts, and achieved superior tumor localization accuracy. STINR-MR provides a lightweight and efficient framework for accurate 3D cine-MRI reconstruction, and does not require external data for pre-training to avoid generalizability issues encountered in deep learning methods. ",
+    "url": "https://arxiv.org/abs/2308.09771",
+    "authors": [
+      "Hua-Chieh Shao",
+      "Tielige Mengke",
+      "Jie Deng",
+      "You Zhang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09777",
+    "title": "High-Index Topological Insulator Resonant Nanostructures from Bismuth  Selenide",
+    "abstract": "Topological insulators (TIs) are a class of materials characterized by an insulting bulk and high mobility topologically protected surface states, making them promising candidates for future optoelectronic and quantum devices. Although their electronic and transport properties have been extensively studied, their optical properties and prospective photonic capabilities have not been fully uncovered. Here, we use a combination of far-field and near-field nanoscale imaging and spectroscopy, to study CVD grown Bi2Se3 nanobeams (NBs). We first extract the mid-infrared (MIR) optical constants of Bi2Se3, revealing refractive index values as high as n ~6.4, and demonstrate that the NBs support Mie-resonances across the MIR. Local near-field reflection phase mapping reveals domains of various phase shifts, providing information on the local optical properties of the NBs. We experimentally measure up to 2{\\pi} phase-shift across the resonance, in excellent agreement with FDTD simulations. This work highlights the potential of TI Bi2Se3 for quantum circuitry, non-linear generation, high-Q metaphotonics, and IR photodetection. ",
+    "url": "https://arxiv.org/abs/2308.09777",
+    "authors": [
+      "Sukanta Nandi",
+      "Shany Z. Cohen",
+      "Danveer Singh",
+      "Michal Poplinger",
+      "Pilkhaz Nanikashvili",
+      "Doron Naveh",
+      "Tomer Lewi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09814",
+    "title": "Observation of a Brillouin dynamic grating in silicon nitride waveguides",
+    "abstract": "Brillouin enhanced four wave mixing in the form of a Brillouin dynamic grating (BDG) enables a uniquely tunable filter, whose properties can be tuned by purely optical means. This makes the BDG a valuable tool in microwave photonics (MWP). BDGs have been studied extensively in fibers, but the only observation in an integrated platform required exotic materials. Unlocking BDG in a standard and mature platform will enable its integration into large-scale circuits. Here we demonstrate the first observation of a BDG in a silicon nitride (Si$_3$N$_4$) waveguide. We also present a new, optimized design, which will enhance the BDG response of the waveguide, unlocking a path to large-scale integration into MWP circuits. ",
+    "url": "https://arxiv.org/abs/2308.09814",
+    "authors": [
+      "Roel Botter",
+      "Jasper van den Hoogen",
+      "Akhileshwar Mishra",
+      "Kaixuan Ye",
+      "Albert van Rees",
+      "Marcel Hoekman",
+      "Klaus Boller",
+      "David Marpaung"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09828",
+    "title": "Polarization-dependent Intensity Ratios in Double Resonance Spectroscopy",
+    "abstract": "Double Resonance is a powerful method spectroscopic method that provides an unambiguous assignment of the rigorous quantum numbers of one state of a transition. However, there is often ambiguity as to the branch ($\\Delta J$) of the transition. The dependence of the intensity of the double resonance signal on the relative polarization of pump and probe radiation can be used to resolve this ambiguity and has been used for this in the past. However, the published theoretical predictions for this ratio are based upon a weak (i.e. non-saturating) field approximation. In this paper, we present theoretical predictions for these intensity ratios for cases where the pump field is strongly saturating, in the two limits of transitions dominated by homogeneous and inhomogeneous broadening. While saturation, as can be expected, reduces the magnitude of the polarization effect (driving the intensity ratio closer to unity), polarization anisotropy remains even with a strongly saturating probe field in most cases. For the case of an inhomogeneously broadened line, as when Doppler broadening linewidth dominates over even the power broadened homogeneous line width, a large fraction of the low pump power anisotropy remains. Results are presented for both the case of linear and circular pump and probe field polarizations. The present predictions are compared with experimental measurements on CH$_4$ ground state $\\rightarrow \\nu_3 \\rightarrow 3\\nu_3$ transitions recently reported by de Oliveira et al and found to be in better agreement than the weak field predictions. ",
+    "url": "https://arxiv.org/abs/2308.09828",
+    "authors": [
+      "Kevin K. Lehmann"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10050",
+    "title": "Complex unit lattice cell for low-emittance storage ring light source",
+    "abstract": "To achieve the true diffraction-limited emittance of a storage ring light source, such as ~10 pm.rad for medium-energy electron beams, within a limited circumference, it is generally necessary to increase the number of bending magnets in a multi-bend achromat (MBA) lattice, as in the future upgrade plan of MAX IV with a 19BA replacing the current 7BA. However, this comes with extremely strong quadrupole and sextupole magnets and very limited space. The former can result in very small vacuum chambers, increasing the coupling impedance and thus enhancing the beam instabilities, and the latter can pose significant challenges in accommodating the necessary diagnostics and vacuum components. Inspired by the hybrid MBA lattice concept, in this paper we propose a new unit lattice concept called the complex unit lattice cell, which can reduce the magnet strengths and also save space. The complex unit cell is numerically studied using a simplified model. Then as an example, a 17BA lattice based on the complex unit cell concept is designed for a 3 GeV storage ring light source with a circumference of 537.6 m, which has a natural emittance of 19.3 pm.rad. This 17BA lattice is also compared with the 17BA lattice designed with conventional unit cells to showcase the benefits of the complex unit cell concept. This 17BA lattice also suggests a new type of MBA lattice, which we call the MBA lattice with semi-distributed chromatic correction. ",
+    "url": "https://arxiv.org/abs/2308.10050",
+    "authors": [
+      "Zhiliang Ren",
+      "Zhenghe Bai",
+      "Penghui Yang",
+      "Lin Wang",
+      "Hongliang Xu"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10159",
+    "title": "Terahertz cavity magnon polaritons",
+    "abstract": "Hybrid light-matter coupled states, or polaritons, in magnetic materials have attracted significant attention due to their potential for enabling novel applications in spintronics and quantum information processing. However, most studies to date have been carried out for ferromagnetic materials with magnon excitations at gigahertz frequencies. Here, we have investigated strong resonant photon-magnon coupling at frequencies above 1 terahertz for the first time in a prototypical room-temperature antiferromagnetic insulator, NiO, inside a Fabry-P\\'erot cavity. The cavity was formed by the crystal itself when it was thinned down to an optimized thickness. By using terahertz time-domain spectroscopy in high magnetic fields up to 25 T, we swept the magnon frequency through Fabry-P\\'erot cavity modes and observed photon-magnon anticrossing behavior, demonstrating clear vacuum Rabi splittings exceeding the polariton linewidths. These results show that NiO is a promising platform for exploring antiferromagnetic spintronics and cavity magnonics in the terahertz frequency range. ",
+    "url": "https://arxiv.org/abs/2308.10159",
+    "authors": [
+      "T. Elijah Kritzell",
+      "Andrey Baydin",
+      "Fuyang Tay",
+      "Rodolfo Rodriguez",
+      "Hiroyuki Nojiri",
+      "Henry O. Everitt",
+      "Igor Barsukov",
+      "Junichiro Kono"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10325",
+    "title": "On-demand reversible switching of the emission mode of individual  semiconductor quantum emitters using plasmonic metasurfaces",
+    "abstract": "The field of quantum technology has been rapidly expanding in the past decades, yielding numerous applications as quantum information, quantum communication and quantum cybersecurity. The central building block for these applications is a quantum emitter (QE), a controllable source of single photons or photon pairs. Semiconductor QEs such as perovskite nanocrystals (PNCs) and semiconductor quantum dots (QDs) have been demonstrated to be a promising material for pure single-photon emission, and their hybrids with plasmonic nanocavities may serve as sources of photon pairs. Here we have designed a system in which individual quantum emitters and their ensembles can be traced before, during, and after the interaction with the external plasmonic metasurface in controllable way. Upon coupling the external plasmonic metasurface to the array of QEs, the individual QEs switch from single-photon to photon-pair emission mode. Remarkably, this method does not affect the chemical structure and composition of the QEs, allowing them to return to their initial state after decoupling from the plasmonic metasurface. By employing this approach, we have successfully demonstrated the reversible switching of the ensemble of individual semiconductor QEs between single-photon and photon pair emission modes. This significantly broadens the potential applications of semiconductor QEs in quantum technologies. ",
+    "url": "https://arxiv.org/abs/2308.10325",
+    "authors": [
+      "Adam Olejniczak",
+      "Zuzanna Lawera",
+      "Mario Zapata-Herrera",
+      "Andrey Chuvilin",
+      "Pavel Samokhvalov",
+      "Igor Nabiev",
+      "Marek Grzelczak",
+      "Yury Rakovich",
+      "Victor Krivenkov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10371",
+    "title": "The Quantum Curriculum Transformation Framework for the development of  Quantum Information Science and Technology Education",
+    "abstract": "The field of Quantum Information Science and Technology (QIST) is booming. Due to this, many new educational courses and programs are needed in order to prepare a workforce for the developing industry. Owing to its specialist nature, teaching approaches in this field can suffer from being disconnected to the substantial degree of science education research which aims to support the best approaches to teaching in STEM fields. In order to connect these two communities with a pragmatic and repeatable methodology, we have generated an innovative approach, the Quantum Curriculum Transformation Framework (QCTF), intended to provide a didactical perspective on the creation and transformation of quantum technologies curricula. For this, we propose a decision tree consisting of four steps: 1. choose a topic, 2. choose one or more targeted skills, 3. choose a learning goal and 4. choose a teaching approach that achieves this goal. We show how this can be done using an example curriculum and more specifically quantum teleportation as a basic concept of quantum communication within this curriculum. By approaching curriculum creation and transformation in this way, educational goals and outcomes are more clearly defined which is in the interest of the individual and the industry alike. The framework is intended to structure the narrative of QIST teaching, and will form a basis for further research in the didactics of QIST, as the need for high quality education in this field continues to grow. ",
+    "url": "https://arxiv.org/abs/2308.10371",
+    "authors": [
+      "Simon Goorney",
+      "Jonas Bley",
+      "Stefan Heusler",
+      "Jacob Sherson"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10376",
+    "title": "Wireless power transfer in magnetic resonance imaging at a higher-order  mode of a birdcage coil",
+    "abstract": "Magnetic resonance imaging (MRI) is a crucial tool for medical visualization. In many cases, performing a scanning procedure requires the use of additional equipment, which can be powered by wires as well as via wireless power transfer (WPT) or wireless energy harvesting. In this Letter, we propose a novel scheme for WPT that uses a higher-order mode of the MRI scanner's birdcage coil for energy transmission. In contrast to the existing WPT solutions, our approach does not require additional transmitting coils. Compared to the energy harvesting, the proposed method allows supplying significantly more power. We perform numerical simulations demonstrating that one can use the fundamental mode of the birdcage coil to perform a scanning procedure while transmitting the energy to the receiver at a higher-order mode without any interference with the scanning signal or violation of safety constraints, as guaranteed by the mode structure of the birdcage. Also, we evaluate the specific absorption rate along with the energy transfer efficiency and verify our numerical model by a direct comparison with an experimental setup featuring a birdcage coil of a 1.5T MRI scanner. ",
+    "url": "https://arxiv.org/abs/2308.10376",
+    "authors": [
+      "Oleg I. Burmistrov",
+      "Nikita V. Mikhailov",
+      "Dmitriy S. Dashkevich",
+      "Pavel S. Seregin",
+      "Nikita A. Olekhno"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10476",
+    "title": "Reverberation Time Control by Acoustic Metamaterials in a Small Room",
+    "abstract": "In recent years, metamaterials have gained considerable attention as a promising material technology due to their unique properties and customizable design, distinguishing them from traditional materials. This article delves into the value of acoustic metamaterials in room acoustics, particularly in small room acoustics that poses specific challenges due to their significant cavity resonant nature. Small rooms usually exhibit an inhomogeneous frequency response spectrum, requiring higher wall absorption with specific spectrum to achieve a uniform acoustic environment, i.e., a constant reverberation time over a wide audible frequency band. To tackle this issue, we developed a design that simultaneously incorporates numerous subwavelength acoustic resonators at different frequencies to achieve customized broadband absorption for the walls of a specific example room. The on-site experimental measurements agree well with the numerical predictions, attesting to the robustness of the design and method. The proposed method of reverse-engineering metamaterials by targeting specific acoustic requirements has broad applicability and unique advantages in small confined spaces with high acoustic requirements, such as recording studios, listening rooms, and car cabins. ",
+    "url": "https://arxiv.org/abs/2308.10476",
+    "authors": [
+      "Sichao Qu",
+      "Min Yang",
+      "Yunfei Xu",
+      "Songwen Xiao",
+      "Nicholas X. Fang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10590",
+    "title": "Solving multi-armed bandit problems using a chaotic microresonator comb",
+    "abstract": "The Multi-Armed Bandit (MAB) problem, foundational to reinforcement learning-based decision-making, addresses the challenge of maximizing rewards amidst multiple uncertain choices. While algorithmic solutions are effective, their computational efficiency diminishes with increasing problem complexity. Photonic accelerators, leveraging temporal and spatial-temporal chaos, have emerged as promising alternatives. However, despite these advancements, current approaches either compromise computation speed or amplify system complexity. In this paper, we introduce a chaotic microresonator frequency comb (chaos comb) to tackle the MAB problem, where each comb mode is assigned to a slot machine. Through a proof-of-concept experiment, we employ 44 comb modes to address an MAB with 44 slot machines, demonstrating performance competitive with both conventional software algorithms and other photonic methods. Further, the scalability of decision making is explored with up to 512 slot machines using experimentally obtained temporal chaos in different time slots. Power-law scalability is achieved with an exponent of 0.96, outperforming conventional software-based algorithms. Moreover, we find that a numerically calculated chaos comb accurately reproduces experimental results, paving the way for discussions on strategies to increase the number of slot machines. ",
+    "url": "https://arxiv.org/abs/2308.10590",
+    "authors": [
+      "Jonathan Cuevas",
+      "Ryugo Iwami",
+      "Atsushi Uchida",
+      "Kaoru Minoshima",
+      "Naoya Kuse"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10639",
+    "title": "Effect of Rydberg-atom-based sensor performance on different Rydberg  atom population at one atomic-vapor cell",
+    "abstract": "The atomic-vapor cell is a vital component for Rydberg atomic microwave sensors, and impacts on overall capability of Rydberg sensor. However, the conventional analysis approach on effect of vapor-cell length contains two implicit assumptions, that is, the same atomic population density and buffer gas pressure, which make it unable to accurately capture actual response about effect of Rydberg-atom-based sensor performance on different Rydberg atom population. Here, utilizing a stepped cesium atomic-vapor cell with five different dimensions at the same atomic population density and buffer gas pressure, the height and full width at half maximum of Electromagnetically Induced Transparency(EIT) signal, and the sensitivity of the atomic superheterodyne sensor are comprehensively investigated at the same Rabi frequences(saturated laser power) conditions. It is identified that EIT signal height is proportional to the cell length, full width at half maximum and sensitivity grow with the increment of cell length to a certain extent. Based on the coherent integration signal theory and atomic linear expansion coefficient method, theoretical analysis of the EIT height and sensitivity are further investigated. The results could shed new light on the understanding and design of ultrahigh-sensitivity Rydberg atomic microwave sensors and find promising applications in quantum measurement, communication, and imaging. ",
+    "url": "https://arxiv.org/abs/2308.10639",
+    "authors": [
+      "Bo Wu",
+      "Qiang An",
+      "Jiawei Yao",
+      "Fengchuan Wu",
+      "Yunqi Fu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10854",
+    "title": "Thermophysical Characteristics of the Porous Silicon Samples Formed by  Electrochemical, Chemical and Combined Etching Methods",
+    "abstract": "The article addresses the thermophysical properties of porous silicon (PS) samples produced through electrochemical (EC), metal-assisted chemical (MACE), and combined (MACE + EC) etching methods. The PS/MACE+EC sample's thermophysical properties exhibited higher values than both the PS/EC and PS/MACE. The energy activity associated with the process of water splitting on the surface of porous silicon (PS) formed by the metal-assisted chemical etching (MACE) combined with the electrochemical etching (EC) method is found to be more significant compared to the PS samples prepared using only EC or MACE techniques. The combined MACE/EC method is considered the most effective technique for obtaining PS with a nanoporous silicon surface, which has the highest energy activity in water-splitting processes. The activation energy required for water splitting, denoted as Ea (PS/MACE+EC), exhibits a higher value compared to the activation energies observed for the Ea (PS/EC) and Ea (PS/MACE) samples. The inclusion of nickel (Ni) particles within the pores of porous silicon (PS<Ni>) serves to stabilize the thermophysical properties of the material. Consequently, this prevents substantial alterations in the thermal characteristics of PS<Ni> compared to PS without nickel in its pores. The samples containing nickel (PS/MACE) and PS/MACE+EC exhibit long-term preservation of their energy activity (Ea) for one year. This phenomenon occurs due to the presence of nickel-containing nanopores within the samples. The article additionally examines the thermophysical properties of porous silicon (PS) in comparison to crystalline silicon (c-Si) and powdered silicon (powder-Si). ",
+    "url": "https://arxiv.org/abs/2308.10854",
+    "authors": [
+      "B. Zhumabay",
+      "R. Dagarbek",
+      "D. Kantarbayeva",
+      "I. Nevmerzhitsky",
+      "B. Rakymetov",
+      "A. Serikkanov",
+      "Zh. Alsar",
+      "K.B. Tynyshtykbayev",
+      "Z. Insepov"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09792",
+    "title": "An Integrated Simulation Tool for Dark Current Radiation Effects Using  ACE3P and Geant4",
+    "abstract": "A simulation workflow is under development to interface particle data transfer and matching of geometry between the electromagnetic (EM) cavity simulation code ACE3P and radiation code Geant4. The target is to simulate dark current (DC) radiation effects for the KEK 56-cell S-band accelerating structure using ACE3P and Geant4, and benchmark against KEK experiment data. As a first step, ACE3P DC simulations using a 7-cell structure have been performed by first calculating the operating mode in the structure and then tracking field-emitted electrons under the influence of the EM fields of the mode. The ACE3P simulation results agree well with the EM software CST for an accelerating gradient of 21.8 MV/m. The reader/writer I/O in ACE3P and the transfer of particle data from Track3P to Geant4 for DC radiation effects studies have been implemented. The simulation workflow between the two codes will be demonstrated with the goal of performing large-scale simulations for the KEK 56-cell structure. In addition to modeling DC effects in linacs, the integrated simulation workflow will be applicable to studying positron source and capture structure for future lepton colliders. ",
+    "url": "https://arxiv.org/abs/2308.09792",
+    "authors": [
+      "Lixin Ge",
+      "Zenghai Li",
+      "Cho-Kuen Ng",
+      "Liling Xiao",
+      "Hiroyasu Ego",
+      "Yoshinori Enomoto",
+      "Hiroshi Iwase",
+      "Yu Morikawa",
+      "Takashi Yoshimoto"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09848",
+    "title": "An Optical Analysis of Sunspots as Predictors of Geomagnetic Storms",
+    "abstract": "Although a variety of phenomena may create a geomagnetic storm on Earth, the most severe geomagnetic storms arise from solar activity, and in particular, coronal mass ejections (CMEs) and solar flares. CMEs and flares originate primarily from sunspots. The \"aa index\" is a metric which ranks all of the strongest geomagnetic storms between 1868 and 2010 based on a variety of characteristics taken from several sources. This paper examines correlations between the aa index of the most severe geomagnetic storms and the intrinsic characteristics of the sunspots from which they originated. We find a correlation between the total rank of the aa index of the storms and the \"total intensity\" of the sunspot, where total intensity is defined as the sunspot's mean intensity multiplied by its area. The correlation has an R-Squared = 0.690 and R-Squared = 0.855 when a potentially corrupted data point is removed. ",
+    "url": "https://arxiv.org/abs/2308.09848",
+    "authors": [
+      "Matthew Shelby",
+      "Scott Scharlach",
+      "Petar Matejic",
+      "RJ Everett",
+      "Colton Morgan"
+    ],
+    "subjectives": [
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10013",
+    "title": "QCL active region overheat in pulsed mode: effects of non-equilibrium  heat dissipation on laser performance",
+    "abstract": "Quantum cascade lasers are of high interest in the scientific community due to unique applications utilizing the emission in mid-IR range. The possible designs of QCL are quite limited and require careful engineering to overcome some crucial disadvantages. One of them is an active region (ARn) overheat, that significantly affects the laser characteristics in the pulsed operation mode. In this work we consider the effects related to the non-equilibrium temperature distribution, when thermal resistance formalism is irrelevant. We employ the heat equation and discuss the possible limitations and structural features stemming from the chemical composition of the AR. We show that the presence of alloys in the ARn structure fundamentally limits the heat dissipation in pulsed and CW regimes due to their low thermal conductivity. Also the QCL post-growths affects the thermal properties of a device only in (near)CW mode while it is absolutely invaluable in the pulsed mode ",
+    "url": "https://arxiv.org/abs/2308.10013",
+    "authors": [
+      "Ivan I. Vrubel",
+      "Evgeniia D. Cherotchenko",
+      "Dmitry A. Mikhailov",
+      "Dmitry V. Chistyakov",
+      "Vladislav V. Dudelev",
+      "Grigorii S. Sokolovskii"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10179",
+    "title": "Qubits on programmable geometries with a trapped-ion quantum processor",
+    "abstract": "Geometry and dimensionality have played crucial roles in our understanding of the fundamental laws of nature, with examples ranging from curved space-time in general relativity to modern theories of quantum gravity. In quantum many-body systems, the entanglement structure can change if the constituents are connected differently, leading to altered bounds for correlation growth and difficulties for classical computers to simulate large systems. While a universal quantum computer can perform digital simulations, an analog-digital hybrid quantum processor offers advantages such as parallelism. Here, we engineer a class of high-dimensional Ising interactions using a linear one-dimensional (1D) ion chain with up to 8 qubits through stroboscopic sequences of commuting Hamiltonians. %with a thorough understanding of the error sources and deviation from the target Hamiltonian. In addition, we extend this method to non-commuting circuits and demonstrate the quantum XY and Heisenberg models using Floquet periodic drives with tunable symmetries. The realization of higher dimensional spin models offers new opportunities ranging from studying topological phases of matter or quantum spin glasses to future fault-tolerant quantum computation. ",
+    "url": "https://arxiv.org/abs/2308.10179",
+    "authors": [
+      "Qiming Wu",
+      "Yue Shi",
+      "Jiehang Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10327",
+    "title": "Quantum State Tomography using Quantum Machine Learning",
+    "abstract": "Quantum State Tomography (QST) is a fundamental technique in Quantum Information Processing (QIP) for reconstructing unknown quantum states. However, the conventional QST methods are limited by the number of measurements required, which makes them impractical for large-scale quantum systems. To overcome this challenge, we propose the integration of Quantum Machine Learning (QML) techniques to enhance the efficiency of QST. In this paper, we conduct a comprehensive investigation into various approaches for QST, encompassing both classical and quantum methodologies; We also implement different QML approaches for QST and demonstrate their effectiveness on various simulated and experimental quantum systems, including multi-qubit networks. Our results show that our QML-based QST approach can achieve high fidelity (98%) with significantly fewer measurements than conventional methods, making it a promising tool for practical QIP applications. ",
+    "url": "https://arxiv.org/abs/2308.10327",
+    "authors": [
+      "Nouhaila Innan",
+      "Owais Ishtiaq Siddiqui",
+      "Shivang Arora",
+      "Tamojit Ghosh",
+      "Yasemin Poyraz Ko\u00e7ak",
+      "Dominic Paragas",
+      "Abdullah Al Omar Galib",
+      "Muhammad Al-Zafar Khan",
+      "Mohamed Bennai"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10540",
+    "title": "Quantum correlation functions through tensor network path integral",
+    "abstract": "Tensor networks have historically proven to be of great utility in providing compressed representations of wave functions that can be used for calculation of eigenstates. Recently, it has been shown that a variety of these networks can be leveraged to make real time non-equilibrium simulations of dynamics involving the Feynman-Vernon influence functional more efficient. In this work, tensor networks are utilized for calculating equilibrium correlation function for open quantum systems using the path integral methodology. These correlation functions are of fundamental importance in calculations of rates of reactions, simulations of response functions and susceptibilities, spectra of systems, etc. The influence of the solvent on the quantum system is incorporated through an influence functional, whose unconventional structure motivates the design of a new optimal matrix product-like operator that can be applied to the so-called path amplitude matrix product state. This complex time tensor network path integral approach provides an exceptionally efficient representation of the path integral enabling simulations for larger systems strongly interacting with baths and at lower temperatures out to longer time. The design and implementation of this method is discussed along with illustrations from rate theory, symmetrized spin correlation functions, dynamical susceptibility calculations and quantum thermodynamics. ",
+    "url": "https://arxiv.org/abs/2308.10540",
+    "authors": [
+      "Amartya Bose"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10687",
+    "title": "Excitonic interplay between surface polar III-nitride quantum wells and  MoS$_2$ monolayer",
+    "abstract": "III-nitride wide bandgap semiconductors exhibit large exciton binding energies, preserving strong excitonic effects at room temperature. On the other hand, semiconducting two-dimensional (2D) materials, including MoS$_2$, also exhibit strong excitonic effects, attributed to enhanced Coulomb interactions. This study investigates excitonic interactions between surface GaN quantum well (QW) and 2D MoS$_2$ in van der Waals heterostructures by varying the spacing between these two excitonic systems. Optical property investigation first demonstrates the effective passivation of defect states at the GaN surface through MoS$_2$ coating. Furthermore, a strong interplay is observed between MoS$_2$ monolayers and GaN QW excitonic transitions. This highlights the interest of the 2D material/III-nitride QW system to study near-field interactions, such as F\\\"orster resonance energy transfer, which could open up novel optoelectronic devices based on such hybrid excitonic structures. ",
+    "url": "https://arxiv.org/abs/2308.10687",
+    "authors": [
+      "Danxuan Chen",
+      "Jin Jiang",
+      "Thomas F. K. Weatherley",
+      "Jean-Fran\u00e7ois Carlin",
+      "Mitali Banerjee",
+      "Nicolas Grandjean"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10719",
+    "title": "Ground or Excited State: a State-Specific Variational Quantum  Eigensolver for Them All",
+    "abstract": "Variational Quantum Eigensolver (VQE) provides a lucrative platform to determine molecular energetics in near-term quantum devices. While the VQE is traditionally tailored to determine the ground state wavefunction with the underlying Rayleigh-Ritz principle, the access to specific symmetry-adapted excited states remains elusive. This often requires high depth circuit or additional ancilla qubits along with prior knowledge of the ground state wavefunction. We propose a unified VQE framework that treats the ground and excited states in the same footings. With the knowledge of the irreducible representations of the spinorbitals, we construct a multi-determinantal reference that is adapted to a given spatial symmetry where additionally, the determinants are entangled through appropriate Clebsch-Gordan coefficients to ensure the desired spin-multiplicity. We introduce the notion of totally symmetric, spin-scalar unitary which maintains the purity of the reference at each step of the optimization. The state-selectivity safeguards the method against any variational collapse while leading to any targeted low-lying eigenroot of arbitrary symmetry. The direct access to the excited states shields our approach from the cumulative error that plagues excited state calculations in a quantum computer and with few parameter count, it is expected to be realized in near-term quantum devices. ",
+    "url": "https://arxiv.org/abs/2308.10719",
+    "authors": [
+      "Dibyendu Mondal",
+      "Rahul Maitra"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10730",
+    "title": "Band gap reduction in highly-strained silicon beams predicted by  first-principles theory and validated using photoluminescence spectroscopy",
+    "abstract": "A theoretical study of the band gap reduction under tensile stress is performed and validated through experimental measurements. First-principles calculations based on density functional theory (DFT) are performed for uniaxial stress applied in the [001], [110] and [111] directions. The calculated band gap reductions are equal to 126, 240 and 100 meV at 2$\\%$ strain, respectively. Photoluminescence spectroscopy experiments are performed by deformation applied in the [110] direction. Microfabricated specimens have been deformed using an on-chip tensile technique up to ~1$\\%$ as confirmed by back-scattering Raman spectroscopy. A fitting correction based on the band gap fluctuation model has been used to eliminate the specimen interference signal and retrieve reliable values. Very good agreement is observed between first-principles theory and experimental results with a band gap reduction of, respectively, 93 and 91 meV when the silicon beam is deformed by 0.95$\\%$ along the [110] direction. ",
+    "url": "https://arxiv.org/abs/2308.10730",
+    "authors": [
+      "Nicolas Roisin",
+      "Marie-St\u00e9phane Colla",
+      "Romain Scaffidi",
+      "Thomas Pardoen",
+      "Denis Flandre",
+      "Jean-Pierre Raskin"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.10773",
+    "title": "Exploring the Quantum-to-Classical Vortex Flow: Quantum Field Theory  Dynamics on Rotating Curved Spacetimes",
+    "abstract": "Gravity simulators offer the prospect of emulating quantum field dynamics on curved spacetime, including that of a black hole, in tabletop experiments. Since black holes in nature spin, to simulate a realistic black hole we must be able to achieve rotation - crucially requiring a set-up with at least 2+1 dimensions. Here, we report on the realisation of a draining flow of superfluid helium, with the most extensive stable vortex structures ever observed in a quantum fluid. Our non-contact 3-D measurement technique visualises micrometre-scale interface waves on the superfluid vortex flow, uncovering novel wave-vortex interactions, such as intricate patterns like bound states, and even, potentially, black hole ringdown signatures. This novel approach provides an arena to explore quantum-to-classical vortex flow transitions and develop finite temperature quantum field theory simulators for rotating curved spacetimes. ",
+    "url": "https://arxiv.org/abs/2308.10773",
+    "authors": [
+      "Patrik \u0160van\u010dara",
+      "Pietro Smaniotto",
+      "Leonardo Solidoro",
+      "James F. MacDonald",
+      "Sam Patrick",
+      "Ruth Gregory",
+      "Carlo F. Barenghi",
+      "Silke Weinfurtner"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2110.13460",
+    "title": "Optimal Inverse Design Based on Memetic Algorithms -- Part 2: Examples  and Properties",
+    "abstract": " Comments: 14 pages, 17 figures. Part 2 of two-parts paper. For Part 1, see arXiv:2110.08044 ",
+    "url": "https://arxiv.org/abs/2110.13460",
+    "authors": [
+      "Miloslav Capek",
+      "Lukas Jelinek",
+      "Petr Kadlec",
+      "Mats Gustafsson"
+    ],
+    "subjectives": [
+      "Optimization and Control (math.OC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.11699",
+    "title": "Lorentz and gauge invariance of quantum space",
+    "abstract": " Comments: 16 pages, 2 figures, Accepted for Publication in International Journal of Modern Physics A ",
+    "url": "https://arxiv.org/abs/2203.11699",
+    "authors": [
+      "Ahmed Farag Ali",
+      "Barun Majumder",
+      "Prabir Rudra"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.03374",
+    "title": "Is the dynamical quantum Cheshire cat detectable?",
+    "abstract": " Comments: 5+4 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2204.03374",
+    "authors": [
+      "Jonte R. Hance",
+      "James Ladyman",
+      "John Rarity"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.09437",
+    "title": "Electrical Circuit Modelling of Nanofluidic Systems",
+    "abstract": " Title: Electrical Circuit Modelling of Nanofluidic Systems ",
+    "url": "https://arxiv.org/abs/2205.09437",
+    "authors": [
+      "John Sebastian",
+      "Yoav Green"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.00239",
+    "title": "Promoting the transition to quantum thinking: development of a secondary  school course for addressing knowledge revision, organization, and  epistemological challenges",
+    "abstract": " Title: Promoting the transition to quantum thinking: development of a secondary  school course for addressing knowledge revision, organization, and  epistemological challenges ",
+    "url": "https://arxiv.org/abs/2301.00239",
+    "authors": [
+      "Giacomo Zuccarini",
+      "Marisa Michelini"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.04501",
+    "title": "Recurrent generation of maximally entangled single particle states via  quantum walks on cyclic graphs",
+    "abstract": " Comments: 18 pages, 9 figures, 2 tables, accepted for publication in Phys. Rev. A (Letters) ",
+    "url": "https://arxiv.org/abs/2301.04501",
+    "authors": [
+      "Dinesh Kumar Panda",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "High Energy Physics - Theory (hep-th)",
+      "Dynamical Systems (math.DS)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.05961",
+    "title": "Finite temperature quantum noise correlations as a probe for topological  helical edge modes",
+    "abstract": " Comments: 33 pages, 17 figures, accepted for publication in Phys. Rev. B ",
+    "url": "https://arxiv.org/abs/2302.05961",
+    "authors": [
+      "Sachiraj Mishra",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11029",
+    "title": "Acoustic frequency atomic spin oscillator in the quantum regime",
+    "abstract": " Comments: 13 pages, 13 figures ",
+    "url": "https://arxiv.org/abs/2303.11029",
+    "authors": [
+      "Jun Jia",
+      "Valeriy Novikov",
+      "Tulio Brito Brasil",
+      "Emil Zeuthen",
+      "J\u00f6rg Helge M\u00fcller",
+      "Eugene S. Polzik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.11375",
+    "title": "Mixed Quantum-Classical Dynamics for Near Term Quantum Computers",
+    "abstract": " Comments: 13 pages, 19 figures, revision after first referee round ",
+    "url": "https://arxiv.org/abs/2303.11375",
+    "authors": [
+      "Daniel Bultrini",
+      "Oriol Vendrell"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.13024",
+    "title": "On the mechanism of polaritonic rate suppression from quantum transition  paths",
+    "abstract": " Comments: 13 pages, 6 figures, comments welcome; small clarifications added, typos and small equation error corrected, and references updated ",
+    "url": "https://arxiv.org/abs/2304.13024",
+    "authors": [
+      "Michelle C. Anderson",
+      "Esmae J. Woods",
+      "Thomas P. Fay",
+      "David J. Wales",
+      "David T. Limmer"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.05798",
+    "title": "Dynamic strain modulation of a nanowire quantum dot compatible with a  thin-film lithium niobate photonic platform",
+    "abstract": " Title: Dynamic strain modulation of a nanowire quantum dot compatible with a  thin-film lithium niobate photonic platform ",
+    "url": "https://arxiv.org/abs/2306.05798",
+    "authors": [
+      "Thomas Descamps",
+      "Tanguy Schetelat",
+      "Jun Gao",
+      "Philip J. Poole",
+      "Dan Dalacu",
+      "Ali W. Elshaari",
+      "Val Zwiller"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.08311",
+    "title": "Coherent control based on quantum Zeno and anti-Zeno effects: Role of  coherences and timing",
+    "abstract": " Title: Coherent control based on quantum Zeno and anti-Zeno effects: Role of  coherences and timing ",
+    "url": "https://arxiv.org/abs/2306.08311",
+    "authors": [
+      "Jacob Levitt",
+      "Artur F. Izmaylov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.14906",
+    "title": "Developed Method. Interactions and their quantum picture",
+    "abstract": " Comments: Under review ",
+    "url": "https://arxiv.org/abs/2306.14906",
+    "authors": [
+      "Piotr Ogonowski"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.00736",
+    "title": "Ultra-high Q alumina optical microresonators in the UV and blue bands",
+    "abstract": " Title: Ultra-high Q alumina optical microresonators in the UV and blue bands ",
+    "url": "https://arxiv.org/abs/2307.00736",
+    "authors": [
+      "Chengxing He",
+      "Yubo Wang",
+      "Carlo Waldfried",
+      "Guangcanlan Yang",
+      "Jun-Fei Zheng",
+      "Shu Hu",
+      "Hong X. Tang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.02999",
+    "title": "Wireless data transmission in a 560-GHz band using low-phase-noise  terahertz wave generated by photomixing of a pair of distributed feedback  lasers injection-locking to Kerr micro-resonator soliton comb",
+    "abstract": " Title: Wireless data transmission in a 560-GHz band using low-phase-noise  terahertz wave generated by photomixing of a pair of distributed feedback  lasers injection-locking to Kerr micro-resonator soliton comb ",
+    "url": "https://arxiv.org/abs/2308.02999",
+    "authors": [
+      "Yu Tokizane",
+      "Shota Okada",
+      "Takumi Kikuhara",
+      "Hiroki Kishikawa",
+      "Yasuhiro Okamura",
+      "Yoshihiro Makimoto",
+      "Kenji Nishimoto",
+      "Takeo Minamikawa",
+      "Eiji Hase",
+      "Jun-Ichi Fujikata",
+      "Masanobu Haraguchi",
+      "Atsushi Kanno",
+      "Shintaro Hisatake",
+      "Naoya Kuse",
+      "Takeshi Yasui"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.03073",
+    "title": "High-speed integrated lithium niobate low-index rib loaded waveguide  modulator without direct lithium niobate etching",
+    "abstract": " Title: High-speed integrated lithium niobate low-index rib loaded waveguide  modulator without direct lithium niobate etching ",
+    "url": "https://arxiv.org/abs/2308.03073",
+    "authors": [
+      "Yifan Qi",
+      "Gongcheng Yue",
+      "Ting Hao",
+      "Yang Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.07244",
+    "title": "Numerical experiments of tomographic optical imaging inside scattering  media",
+    "abstract": " Title: Numerical experiments of tomographic optical imaging inside scattering  media ",
+    "url": "https://arxiv.org/abs/2308.07244",
+    "authors": [
+      "Zeyu Wang",
+      "Yiwen Zhang",
+      "Chia Wei Hsu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.08782",
+    "title": "Amplifying Frequency Up-Converted Infrared Signals with a Molecular  Optomechanical Cavity",
+    "abstract": " Comments: 5 pages, 4 figures for the main text; 6 pages, 2 figures for Supplementary Material ",
+    "url": "https://arxiv.org/abs/2308.08782",
+    "authors": [
+      "Fen Zou",
+      "Lei Du",
+      "Yong Li",
+      "Hui Dong"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09457",
+    "title": "Measurement of flow birefringence induced by the shear components along  the optical axis using a parallel-plate-type rheometer",
+    "abstract": " Comments: 4 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2308.09457",
+    "authors": [
+      "William Kai Alexander Worby",
+      "Kento Nakamine",
+      "Yuto Yokoyama",
+      "Masakazu Muto",
+      "Yoshiyuki Tagawa"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
