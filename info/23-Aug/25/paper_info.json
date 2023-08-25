@@ -1,0 +1,372 @@
+[
+  {
+    "id": "arXiv:2308.12289",
+    "title": "Itinerant Quantum Integers: The Language of Quantum Computers",
+    "abstract": "The concept of positively and negatively compatible null vectors arises in the study of Clifford geometric algebras with a Lorentz-Minkowski metric. In previous works, the basic properties of such algebras have been set down in terms of a new principle of quantum duality. In the present work, the same structure is studied in terms of real and complex quantum integers, which generalize the real and complex number systems. It seems natural to identify a qubit as a pair of compatible null vectors; the up state of the qubit being their sum, and the down state being their difference. Basic identities are developed to make calculations routine, and two different representations of the symmetric group are given. ",
+    "url": "https://arxiv.org/abs/2308.12289",
+    "authors": [
+      "Garret Sobczyk"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12312",
+    "title": "Physics informed Neural Networks applied to the description of  wave-particle resonance in kinetic simulations of fusion plasmas",
+    "abstract": "The Vlasov-Poisson system is employed in its reduced form version (1D1V) as a test bed for the applicability of Physics Informed Neural Network (PINN) to the wave-particle resonance. Two examples are explored: the Landau damping and the bump-on-tail instability. PINN is first tested as a compression method for the solution of the Vlasov-Poisson system and compared to the standard neural networks. Second, the application of PINN to solving the Vlasov-Poisson system is also presented with the special emphasis on the integral part, which motivates the implementation of a PINN variant, called Integrable PINN (I-PINN), based on the automatic-differentiation to solve the partial differential equation and on the automatic-integration to solve the integral equation. ",
+    "url": "https://arxiv.org/abs/2308.12312",
+    "authors": [
+      "Jai Kumar",
+      "David Zarzoso",
+      "Virginie Grandgirard",
+      "Jan Ebert",
+      "Stefan Kesselheim"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12386",
+    "title": "Observation of quantum interference of optical transition pathways in  Doppler-free two-photon spectroscopy and implications for precision  measurements",
+    "abstract": "Doppler-free two-photon spectroscopy is a standard technique for precision measurement of transition frequencies of dipole-forbidden transitions. The accuracy of such measurements depends critically on fitting of the spectrum to an appropriate line shape model, often a Voigt profile which neglects the effect of quantum interference of optical transitions. Here, we report the observation of quantum interference of optical transition pathways in Doppler-free two-photon spectroscopy of the cesium 6S-7D transitions. The quantum interference manifests itself as asymmetric line shapes of the hyperfine lines of the 7D states, observed through spontaneous emission following excitation by a narrow-linewidth cw laser. The interference persists despite the lines being spectrally well-resolved. Ignoring the effect of quantum interference causes large systematic shifts in the determination of the line-centers, while accounting for it resolves the apparent line shift and enables the precise determination of hyperfine splitting in the 7D states. We calculate the spectral line shape including the effect of quantum interference and show that it agrees with the experimental observations. Our results have implications for precision measurements of hyperfine splittings, isotope shifts and transition frequencies, including those of the hydrogen S-S and S-D transitions. ",
+    "url": "https://arxiv.org/abs/2308.12386",
+    "authors": [
+      "Bubai Rahaman",
+      "Sid C. Wright",
+      "Sourav Dutta"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12430",
+    "title": "Toward linear scaling auxiliary field quantum Monte Carlo with local  natural orbitals",
+    "abstract": "We develop a local correlation variant of auxiliary field quantum Monte Carlo (AFQMC) that is based on local natural orbitals (LNO-AFQMC). In LNO-AFQMC, independent AFQMC calculations are performed for each localized occupied orbital using a truncated set of tailored orbitals. Because the size of this space does not grow with system size for a target accuracy, the method has linear scaling. Applying LNO AFQMC to molecular problems containing a few hundred to a thousand orbitals, we demonstrate convergence of total energies with significantly reduced costs. The savings are more significant for larger systems and larger basis sets. However, even for our smallest system studied, we find that LNO-AFQMC is cheaper than canonical AFQMC, in contrast with many other reduced-scaling methods. Perhaps most significantly, we show that energy differences converge much more quickly than total energies, making the method ideal for applications in chemistry and material science. Our work paves the way for linear scaling AFQMC calculations of strongly correlated systems, which would have a transformative effect on ab initio quantum chemistry. ",
+    "url": "https://arxiv.org/abs/2308.12430",
+    "authors": [
+      "Jo S. Kurian",
+      "Hong-Zhou Ye",
+      "Ankit Mahajan",
+      "Timothy C. Berkelbach",
+      "Sandeep Sharma"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12457",
+    "title": "Optical Clocks at Sea",
+    "abstract": "Deployed optical clocks will improve positioning for navigational autonomy, provide remote time standards for geophysical monitoring and distributed coherent sensing, allow time synchronization of remote quantum networks, and provide operational redundancy for national time standards. While laboratory optical clocks now reach timing inaccuracies below 1E-18, transportable versions of these high-performing clocks have limited utility due to their size, environmental sensitivity, and cost. Here we report the development of optical clocks with the requisite combination of size, performance, and environmental insensitivity for operation on mobile platforms. The 35 L clock combines a molecular iodine spectrometer, fiber frequency comb, and control electronics. Three of these clocks operated continuously aboard a naval ship in the Pacific Ocean for 20 days while accruing timing errors below 300 ps per day. The clocks have comparable performance to active hydrogen masers in one-tenth the volume. Operating high-performance clocks at sea has been historically challenging and continues to be critical for navigation. This demonstration marks a significant technological advancement that heralds the arrival of future optical timekeeping networks. ",
+    "url": "https://arxiv.org/abs/2308.12457",
+    "authors": [
+      "Jonathan D. Roslund",
+      "Arman Cing\u00f6z",
+      "William D. Lunden",
+      "Guthrie B. Partridge",
+      "Abijith S. Kowligy",
+      "Frank Roller",
+      "Daniel B. Sheredy",
+      "Gunnar E. Skulason",
+      "Joe P. Song",
+      "Jamil R. Abo-Shaeer",
+      "Martin M. Boyd"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12496",
+    "title": "Recyclable vitrimer-based printed circuit board for circular electronics",
+    "abstract": "Electronics are integral to modern life; however, at their end-of-life these devices produce environmentally hazardous electronic waste (e-waste). Recycling the ubiquitous printed circuit boards (PCBs) that make up a substantial mass and volume fraction of e-waste is challenging due to their use of irreversibly cured thermoset epoxies. We present a PCB formulation using transesterification vitrimers (vPCBs), and an end-to-end fabrication process compatible with standard manufacturing ecosystems. We create functional prototypes of IoT devices transmitting 2.4 GHz radio signals on vPCBs with electrical and mechanical properties meeting industry standards. Fractures and holes in vPCBs can be repaired while retaining comparable performance over more than four repair cycles. We further demonstrate non-destructive decomposition of transesterification vitrimer composites with solid inclusions and metal attachments by polymer swelling with small molecule solvents. We hypothesize that unlike traditional solvolysis recycling, swelling does not degrade the materials. Through dynamic mechanical analysis we find negligible catalyst loss, minimal changes in storage modulus, and equivalent polymer backbone composition across multiple recycling cycles. We achieve 98% polymer recovery, 100% fiber recovery, and 91% solvent recovery which we reuse to create new vPCBs without degraded performance. Our cradle-to-cradle life-cycle assessment shows substantial environmental impact reduction over conventional PCBs in 11 categories. ",
+    "url": "https://arxiv.org/abs/2308.12496",
+    "authors": [
+      "Zhihan Zhang",
+      "Agni K. Biswal",
+      "Ankush Nandi",
+      "Kali Frost",
+      "Jake A. Smith",
+      "Bichlien H. Nguyen",
+      "Shwetak Patel",
+      "Aniruddh Vashisth",
+      "Vikram Iyer"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12633",
+    "title": "The Doubles Connected Moments Expansion: A Tractable Approximate  Horn-Weinstein Approach for Quantum Chemistry",
+    "abstract": "Ab initio methods based on the second-order and higher connected moments, or cumulants, of a reference function have seen limited use in the determination of correlation energies of chemical systems throughout the years. Moment-based methods have remained unattractive relative to more ubiquitous methods, such as perturbation theory and coupled cluster theory, due in part to the intractable cost of assembling moments of high-order and poor performance of low-order expansions. Many of the traditional quantum chemical methodologies can be recast as a selective summation of perturbative contributions to their energy; using this familiar structure as a guide in selecting terms, we develop a scheme to approximate connected moments limited to double excitations. The tractable Double Connected Moments (DCM(N)) approximation is developed and tested against a multitude of common single-reference methods to determine its efficacy in the determination of the correlation energy of model systems and small molecules. The DCM(N) sequence of energies exhibits smooth convergence, with compute costs that scale as a non-iterative O(N^6) with molecule size, M. Numerical tests on correlation energy recovery for 55 small molecules comprising the G1 test set in the cc-pVDZ basis show that DCM(N) strongly outperforms MP2 and even CCD with a Hartree-Fock reference. When using an approximate Brueckner reference from orbital-optimized (oo) MP2, the resulting oo:DCM(N) energies converge to values more accurate than CCSD for 49 of 55 molecules. ",
+    "url": "https://arxiv.org/abs/2308.12633",
+    "authors": [
+      "Brad Ganoe",
+      "Martin Head-Gordon"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12687",
+    "title": "Influence of Antireflection Si coatings on the Damage Threshold of fused  silica upon irradiation with Mid-IR femtosecond laser pulses",
+    "abstract": "Recent progress in the development of high-power mid-IR laser sources and the exciting laser driven physical phenomena associated with the irradiation of solids via ultrashort laser pulses in that spectral region are aimed to potentially create novel capabilities for material processing. In particularly, the investigation of the underlying physical processes and the evaluation of the optical breakdown threshold (OBT) following irradiation of bulk dielectric materials with Mid-IR femtosecond (fs) pulses has been recently presented. In this report, we will explore the conditions that generate sufficient carrier excitation levels which leads to damage upon irradiated a dielectric material (SiO2) coated with antireflection (AR) semiconducting films (Si) of variable thickness with fs pulses. Simulation results demonstrate that the reflectivity and transmissivity of the Si/SiO2 are thickness-dependent which can be employed to modulate the damage threshold of the substrate. The study is to provide innovative routes for selecting material sizes that can be used for antireflection coatings and applications in the Mid-IR region. ",
+    "url": "https://arxiv.org/abs/2308.12687",
+    "authors": [
+      "George D. Tsibidis",
+      "Emmanuel Stratakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12753",
+    "title": "Increasing brightness in multiphoton microscopy with  low-repetition-rate, wavelength-tunable femtosecond fiber laser",
+    "abstract": "Many experiments in biological and medical sciences currently use multiphoton microscopy as a core imaging technique. To date, solid-state lasers are most commonly used as excitation beam sources. However, the most demanding applications require precisely adjusted excitation laser parameters to enhance image quality. Still, the lag in developing easy-to-use laser sources with tunable output parameters makes it challenging. Here, we show that manipulating the temporal and spectral properties of the excitation beam can significantly improve the quality of images. We have developed a wavelength-tunable femtosecond fiber laser that operates within the 760 - 800 nm spectral range and produces ultrashort pulses (below 70 fs) with a clean temporal profile and high pulse energy (1 nJ). The repetition rate could be easily adjusted using an integrated pulse picker unit within the 1 - 25 MHz range and without strongly influencing other parameters of the generated pulses. We integrated the laser with a two-photon excited fluorescence (TPEF) scanning laser microscope and investigated the effect of tunable wavelength and reducing the pulse repetition rate on the quality of obtained images. Using our laser, we substantially improved the images brightness and penetration depth of native fluorescence and stained samples compared with a standard fiber laser. Our results will contribute to developing imaging techniques using lower average laser power and broader use of tailored fiber-based sources. ",
+    "url": "https://arxiv.org/abs/2308.12753",
+    "authors": [
+      "Jakub Bogus\u0142awski",
+      "Alicja Kwa\u015bny",
+      "Dorota Stachowiak",
+      "Grzegorz Sobo\u0144"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12837",
+    "title": "Non-Hermitian gauged laser arrays with localized excitation: Anomalous  threshold and generalized principle of selective pumping",
+    "abstract": "We investigate non-Hermitian skin modes in laser arrays with spatially localized excitation. Intriguingly, we observe an unusual threshold behavior when selectively pumping either the head or the tail of these modes: Both cases exhibit the same lasing threshold and hence defy the conventional principle of selective pumping, which aims to maximize the overlap between the pump profile and the target lasing mode. To shed light on this enigma, we reveal a previously overlooked phenomenon, i.e., energy exchange at non-Hermitian coupling junctions with the photonic environment, which does not occur with uniform gain or loss. Utilizing a transfer matrix approach, we elucidate the mechanism of this anomalous threshold behavior, which is determined by the specific physical realization of the non-Hermitian gauge field (i.e., using gain, loss, or their mixture). Finally, we derive a generalized principle of selective pumping in non-Hermitian arrays, which shows that the decisive spatial overlap is given by the tripartite product of the pump, the lasing mode, and its biorthogonal partner. Our study provides a glimpse into how the two forms of non-Hermiticity, i.e., asymmetric couplings and a complex onsite potential, interact synergetically in laser arrays, which may stimulate further explorations of their collective effects in photonics and related fields. ",
+    "url": "https://arxiv.org/abs/2308.12837",
+    "authors": [
+      "Li Ge",
+      "Zihe Gao",
+      "Liang Feng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12929",
+    "title": "Introductory quantum information science coursework at US institutions:  Content coverage",
+    "abstract": "Despite rapid growth of quantum information science and engineering (QIS/QISE) workforce development initiatives, perceived lack of agreement among faculty on core content has made prior research-based curriculum and assessment development initiatives difficult to scale. To identify areas if consensus on content coverage, we report findings from a survey of N=63 instructors teaching introductory QISE courses at US institutions of higher learning. We identify a subset of content items common across a large fraction (>=80%) of introductory QISE courses that are potentially amenable to research-based curriculum development, with an emphasis on foundational skills in mathematics, physics, and engineering. As a further guide for curriculum development, we also examine differences in content coverage by level (undergraduate/graduate) and discipline. Finally, we briefly discuss the implications of our findings for the development of a research-based QISE assessment at the postsecondary level. ",
+    "url": "https://arxiv.org/abs/2308.12929",
+    "authors": [
+      "Josephine C. Meyer",
+      "Gina Passante",
+      "Steven J. Pollock",
+      "Bethany R. Wilcox"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12957",
+    "title": "Semi-analytical Framework for Modeling Strong Coupling of Quantum  Emitters in Electromagnetic Resonators",
+    "abstract": "We present a semi-analytical framework for studying interactions between quantum emitters and general electromagnetic resonators. The method relies on the Lippmann-Schwinger equation to calculate the complex resonance frequencies of the coupled system based only on a single calculation for the electromagnetic resonator without the quantum emitter and with no fitting parameters. This is in stark contrast to standard approaches in the literature, in which the properties of the coupled system are fitted from calculated spectra. As an application example, we consider a recent dielectric cavity design featuring deep subwavelength confinement of light. We find the expected anti-crossing of the emitter and cavity resonance frequencies, and comparing to independent reference calculations, we find an extraordinary quantitative agreement with a relative error below one part in ten thousand. In order to unambiguously connect with the Jaynes-Cummings model, we derive an explicit expression relating the classical description of the emitter, as modeled by a spherical inclusion with a Lorentzian material response, to the dipole moment of the corresponding quantum optical model. The combined framework therefore enables classical calculations to be used for evaluating the coupling strength entering quantum optical theories in a transparent way. ",
+    "url": "https://arxiv.org/abs/2308.12957",
+    "authors": [
+      "Mohammad Abutoama",
+      "George Kountouris",
+      "Jesper M\u00f8rk",
+      "Philip Tr\u00f8st Kristensen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12318",
+    "title": "Eight-input optical programmable logic array enabled by parallel  spectrum modulation",
+    "abstract": "Despite over 40 years' development of optical logic computing, the studies have been still struggling to support more than four operands, since the high parallelism of light has not been fully leveraged blocked by the optical nonlinearity and redundant input modulation in existing methods. Here, we propose a scalable multi-input optical programmable logic array (PLA) with minimal logical input, enabled by parallel spectrum modulation. By making full use of the wavelength resource, an eight-input PLA is experimentally demonstrated, and there are 2^256 possible combinations of generated logic gates. Various complex logic fuctions, such as 8-256 decoder, 4-bit comparator, adder and multiplier are experimentally demonstrated via leveraging the PLA. The scale of PLA can be further extended by fully using the dimensions of wavelength and space. As an example, a nine-input PLA is implemented to realize the two-dimensional optical cellular automaton for the first time and perform Conway's Game of Life to simulate the evolutionary process of cells. Our work significantly alleviates the challenge of extensibility of optical logic devices, opening up new avenues for future large-scale, high-speed and energy-efficient optical digital computing. ",
+    "url": "https://arxiv.org/abs/2308.12318",
+    "authors": [
+      "Wenkai Zhang",
+      "Bo Wu",
+      "Junwei Cheng",
+      "Hailong Zhou",
+      "Jianji Dong",
+      "Dongmei Huang",
+      "P. K. A. Wai",
+      "Xinliang Zhang"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12352",
+    "title": "Quantum computation of stopping power for inertial fusion target design",
+    "abstract": "Stopping power is the rate at which a material absorbs the kinetic energy of a charged particle passing through it -- one of many properties needed over a wide range of thermodynamic conditions in modeling inertial fusion implosions. First-principles stopping calculations are classically challenging because they involve the dynamics of large electronic systems far from equilibrium, with accuracies that are particularly difficult to constrain and assess in the warm-dense conditions preceding ignition. Here, we describe a protocol for using a fault-tolerant quantum computer to calculate stopping power from a first-quantized representation of the electrons and projectile. Our approach builds upon the electronic structure block encodings of Su et al. [PRX Quantum 2, 040332 2021], adapting and optimizing those algorithms to estimate observables of interest from the non-Born-Oppenheimer dynamics of multiple particle species at finite temperature. Ultimately, we report logical qubit requirements and leading-order Toffoli costs for computing the stopping power of various projectile/target combinations relevant to interpreting and designing inertial fusion experiments. We estimate that scientifically interesting and classically intractable stopping power calculations can be quantum simulated with roughly the same number of logical qubits and about one hundred times more Toffoli gates than is required for state-of-the-art quantum simulations of industrially relevant molecules such as FeMoCo or P450. ",
+    "url": "https://arxiv.org/abs/2308.12352",
+    "authors": [
+      "Nicholas C. Rubin",
+      "Dominic W. Berry",
+      "Alina Kononov",
+      "Fionn D. Malone",
+      "Tanuj Khattar",
+      "Alec White",
+      "Joonho Lee",
+      "Hartmut Neven",
+      "Ryan Babbush",
+      "Andrew D. Baczewski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12398",
+    "title": "Cryogenic microwave link for quantum local area networks",
+    "abstract": "Scalable quantum information processing with superconducting circuits is about to advance from individual processors in single dilution refrigerators to more powerful distributed quantum computing systems located in separate cooling units in order to achieve a practical quantum advantage. Hence, realization of hardware platforms for quantum local area networks (QLANs) compatible with superconducting technology is of high importance. Here, we demonstrate a basic prototype for a microwave QLAN based on a cryogenic link connecting two individual dilution cryostats over a distance of 6.6m with a base temperature of 52mK in the center. We provide details about the system design, installation, and performance. We employ superconducting coaxial microwave transmission lines to form a quantum communication channel and characterize its potential by demonstrating robust entanglement distribution in the form of two-mode squeezing between remote parties. By preserving entanglement distribution at link temperatures up to 1K, we experimentally verify the fluctuation-dissipation theorem. Consequently, we demonstrate that our system can form the backbone for future distributed quantum computing applications. ",
+    "url": "https://arxiv.org/abs/2308.12398",
+    "authors": [
+      "M. Renger",
+      "S. Gandorfer",
+      "W. Yam",
+      "F. Fesquet",
+      "M. Handschuh",
+      "K. E. Honasoge",
+      "F. Kronowetter",
+      "Y. Nojiri",
+      "M. Partanen",
+      "M. Pfeiffer",
+      "H. van der Vliet",
+      "A. J. Matthews",
+      "J. Govenius",
+      "R. N. Jabdaraghi",
+      "M. Prunnila",
+      "A. Marx",
+      "F. Deppe",
+      "R. Gross",
+      "K. G. Fedorov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12471",
+    "title": "Highly ${ }^{28} \\mathrm{Si}$ Enriched Silicon by Localised Focused Ion  Beam Implantation",
+    "abstract": "Solid-state spin qubits within silicon crystals at mK temperatures show great promise in the realisation of a fully scalable quantum computation platform. Qubit coherence times are limited in natural silicon owing to coupling to the isotope ${ }^{29} \\mathrm{Si}$ which has a non-zero nuclear spin. This work presents a method for the depletion of ${ }^{29} \\mathrm{Si}$ in localised volumes of natural silicon wafers by irradiation using a 45 keV ${ }^{28} \\mathrm{Si}$ focused ion beam with fluences above $1 \\times 10^{19} \\, \\mathrm{ions} \\, \\mathrm{cm}^{-2}$. Nanoscale secondary ion mass spectrometry analysis of the irradiated volumes shows unprecedented quality enriched silicon that reaches a minimal residual ${ }^{29} \\mathrm{Si}$ value of 2.3 $\\pm$ 0.7 ppm and with residual C and O comparable to the background concentration in the unimplanted wafer. Transmission electron microscopy lattice images confirm the solid phase epitaxial re-crystallization of the as-implanted amorphous enriched volume extending over 200 nm in depth upon annealing. The ease of fabrication, requiring only commercially available natural silicon wafers and ion sources, opens the possibility for co-integration of qubits in localised highly enriched volumes with control circuitry in the surrounding natural silicon for large-scale devices. ",
+    "url": "https://arxiv.org/abs/2308.12471",
+    "authors": [
+      "Ravi Acharya",
+      "Maddison Coke",
+      "Mason Adshead",
+      "Kexue Li",
+      "Barat Achinuq",
+      "Rongsheng Cai",
+      "A. Baset Gholizadeh",
+      "Janet Jacobs",
+      "Jessica L. Boland",
+      "Sarah J. Haigh",
+      "Katie L. Moore",
+      "David N. Jamieson",
+      "Richard J. Curry"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12632",
+    "title": "Precipitable Water Vapor Measurement using GNSS Data in the Atacama  Desert for Millimeter and Submillimeter Astronomical Observations",
+    "abstract": "Precipitable water vapor (PWV) strongly affects the quality of data obtained from millimeter- and submillimeter-wave astronomical observations, such as those for cosmic microwave background (CMB) measurements. Some of these observatories have used radiometers to monitor PWV. In this study, PWV was measured from April 2021 to April 2022 using Global Navigation Satellite System (GNSS) instruments in the Atacama Desert, Chile, where several millimeter and submillimeter-wave telescopes are located. We evaluated the accuracy of these measurements by comparing them to radiometer measurements. We calculated the PWV from GNSS data using Canadian Spatial Reference System Precise Point Positioning (CSRS-PPP), an online software package. When using GNSS data alone, the estimated PWV showed a systematic offset of +1.08 mm. When combining GNSS data with data from a barometer which was co-located with the GNSS receiver, the estimated PWV showed a lower systematic offset of -0.14 mm. The GNSS PWV showed a statistical error of 0.52 mm with an averaging time of an hour. Compared to other PWV measurement methods, GNSS instruments are robust in bad weather conditions, have sufficient time resolution, and are less expensive. By demonstrating good accuracy and precision in low PWV conditions, this paper shows that GNSS instruments are valuable tools for PWV measurements for observing site evaluation and data analysis for ground-based telescopes. ",
+    "url": "https://arxiv.org/abs/2308.12632",
+    "authors": [
+      "Junna Sugiyama",
+      "Haruki Nishino",
+      "Akito Kusaka"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.12677",
+    "title": "Quantum interference between non-identical single particles",
+    "abstract": "Quantum interference between identical single particles reveals the intrinsic quantum statistic nature of particles, which could not be interpreted through classical physics. Here, we demonstrate quantum interference between non-identical bosons using a generalized beam splitter based on a quantum memory. The Hong-Ou-Mandel type interference between single photons and single magnons with high visibility is demonstrated, and the crossover from the bosonic to fermionic quantum statistics is observed by tuning the beam splitter to be non-Hermitian. Moreover, multi-particle interference that simulates the behavior of three fermions by three input photons is realized. Our work extends the understanding of the quantum interference effects and demonstrates a versatile experimental platform for studying and engineering quantum statistics of particles. ",
+    "url": "https://arxiv.org/abs/2308.12677",
+    "authors": [
+      "Keyu Su",
+      "Yi Zhong",
+      "Shanchao Zhang",
+      "Jianfeng Li",
+      "Chang-Ling Zou",
+      "Yunfei Wang",
+      "Hui Yan",
+      "Shi-Liang Zhu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.14944",
+    "title": "Differentiable Microscopy Designs an All Optical Phase Retrieval  Microscope",
+    "abstract": " Title: Differentiable Microscopy Designs an All Optical Phase Retrieval  Microscope ",
+    "url": "https://arxiv.org/abs/2203.14944",
+    "authors": [
+      "Kithmini Herath",
+      "Udith Haputhanthri",
+      "Ramith Hettiarachchi",
+      "Hasindu Kariyawasam",
+      "Raja N. Ahmad",
+      "Azeem Ahmad",
+      "Balpreet S. Ahluwalia",
+      "Chamira U. S. Edussooriya",
+      "Dushan N. Wadduwage"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.02578",
+    "title": "Earth as a time crystal: macroscopic nature of a quantum-scale  phenomenon exposes quantum physics as tidally-resonantly localized to host  star",
+    "abstract": " Comments: 37 pages, 6 figures, 4 tables; conclusions expanded, abstract and highlights updated, references expanded and updated, typos corrected ",
+    "url": "https://arxiv.org/abs/2301.02578",
+    "authors": [
+      "Mensur Omerbashich"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
