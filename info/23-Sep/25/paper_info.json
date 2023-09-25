@@ -1,0 +1,303 @@
+[
+  {
+    "id": "arXiv:2309.12328",
+    "title": "Development of a Selective Wet-Chemical Etchant for 3D Structuring of  Silicon via Nonlinear Laser Lithography",
+    "abstract": "Recently-demonstrated high-quality three-dimensional (3D) subsurface laser processing inside crystalline silicon (c-Si) wafers opens a door to a wide range of novel applications in multidisciplinary research areas. Using this technique, a novel maskless micro-pillars with precise control on the surface reflection and coverage are successfully fabricated by etching the laser processed region of c-Si wafer. To achieve this, a particular selective wet chemical etching is developed to follow subsurface laser processing of c-Si to reveal the desired 3D structures with smooth surfaces. Here, we report the development of a novel chromium-free chemical etching recipe based on copper nitrate, which yields substantially smooth surfaces at high etch rate and selectivity on the both laser-processed Si surface and subsurface, i.e., without significant etching of the unmodified Si. Our results show that the etch rate and surface morphology are interrelated and strongly influenced by the composition of the adopted etching solution. After an extensive compositional study performed at room temperature, we identify an etchant with a selectivity of over 1600 times for laser-modified Si with respect to unmodified Si. We also support our findings using density functional theory calculations of HF and Cu adsorption energies, indicating significant diversity on the c-Si and laser-modified surfaces. ",
+    "url": "https://arxiv.org/abs/2309.12328",
+    "authors": [
+      "Mona Zolfaghari Borra",
+      "Behrad Radfar",
+      "Hisham Nasser",
+      "Tahir \u00c7olako\u011flu",
+      "Onur Tokel",
+      "Ahmet Turnal\u0131",
+      "Merve Demirta\u015f",
+      "Hande Ustunel",
+      "Daniele Toffoli",
+      "F. \u00d6mer \u0130lday",
+      "Ra\u015fit Turan",
+      "Ihor Pavlov",
+      "Alpan Bek"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12492",
+    "title": "Quantum Computing Perspective for Electromagnetic Wave Propagation in  Cold Magnetized Plasmas",
+    "abstract": "The study of electromagnetic wave propagation in magnetized plasmas is of paramount importance in various fields, including astrophysics, fusion energy, and communication systems. In thermonuclear fusion experiments where transient interaction phenomena between electromagnetic waves and plasma can disrupt the overall confinement, we have to rely on the modern state of the art, computational tools to delve into the physics of wave propagation in plasma. However, even those sophisticated computational methods are facing challenges in terms of memory resources and speed when they are forced to capture all the physical processes that occur in wave-plasma interaction. Simultaneously, the rapidly advancing field of quantum technologies has opened up exciting new frontiers in the computational studies, by promising a minimization on the computational strain. In this paper we examine a theoretical quantum computing re-conceptualization of Maxwell equations inside a cold, inhomogeneous, magnetized plasma that can lead to quantum simulation of electromagnetic wave propagation and scattering from inhomogeneities. By constructing a quantum Schrodinger representation of Maxwell equations in plasma that admit unitary -- energy preserving -- evolution we formulate a unitary product sequence of operators that can form the basis of either a Qubit Lattice Algorithm (QLA) or a pure quantum computing implementation. As an illustration of the power of QLA, a full-wave simulation of wave-packet scattering from different shaped, non-dispersive dielectrics is presented. QLAs when they are fully unitary, they can be directly encoded into a quantum computer, further establishing their versatility and capabilities but more importantly, indicating the impact that quantum computers will have in the computational studies of wave propagation in a fusion plasma. ",
+    "url": "https://arxiv.org/abs/2309.12492",
+    "authors": [
+      "Efstratios Koukoutsis",
+      "Kyriakos Hizanidis",
+      "George Vahala",
+      "Min Soe",
+      "Linda Vahala",
+      "Abhay K. Ram"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12496",
+    "title": "Optical Photon Simulation with Mitsuba3",
+    "abstract": "Optical photon propagation is an embarrassingly parallel operation, well suited to acceleration on GPU devices. Rendering of images employs similar techniques -- for this reason, a pipeline to offload optical photon propagation from Geant4 to the industry-standard open-source renderer Mitsuba3 has been devised. With the creation of a dedicated plugin for single point multi-source emission, we find a photon propagation rate of $2\\times10^{5}$ photons per second per CPU thread using LLVM and $1.2\\times10^{6}$ photons per second per GPU using CUDA. This represents a speed-up of 70 on CPU and 400 on GPU over Geant4 and is competitive with other similar applications. The potential for further applications is discussed. ",
+    "url": "https://arxiv.org/abs/2309.12496",
+    "authors": [
+      "Adam C.S. Davis",
+      "Sacha Barr\u00e9",
+      "Yangyang Cui",
+      "Keith L Evans",
+      "Marco Gersabeck",
+      "Antonin Rat",
+      "Zahra Montazeri"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12536",
+    "title": "Exceptional points in optical systems: A resonant-state expansion study",
+    "abstract": "Exceptional points (EPs) in open optical systems are rigorously studied using the resonant-state expansion (RSE). A spherical resonator, specifically a homogeneous dielectric sphere in a vacuum, perturbed by two point-like defects which break the spherical symmetry and bring the optical modes to EPs, is used as a worked example. The RSE is a non-perturbative approach encoding the information about an open optical system in matrix form in a rigorous way, and thus offering a suitable tool for studying its EPs. These are simultaneous degeneracies of the eigenvalues and corresponding eigenfunctions of the system, which are rigorously described by the RSE and illustrated for perturbed whispering-gallery modes (WGMs). An exceptional arc, which is a line of adjacent EPs, is obtained analytically for perturbed dipolar WGMs. Perturbation of high-quality WGMs with large angular momentum and their EPs are found by reducing the RSE equation to a two-state problem by means of an orthogonal transformation of a large RSE matrix. WGM pairs of opposite chirality away from EPs are shown to have the same chirality at EPs. This chirality can be observed in circular dichroism measurements, as it manifested itself in a squared-Lorentzian part of the optical spectra, which we demonstrate here analytically and numerically in the Purcell enhancement factor for the perturbed dipolar WGMs. ",
+    "url": "https://arxiv.org/abs/2309.12536",
+    "authors": [
+      "Kyle S Netherwood",
+      "Hannah Riley",
+      "Egor A Muljarov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12548",
+    "title": "Suppression of Black-body Radiation Induced Zeeman Shifts in the Optical  Clocks due to the Fine-structure Intramanifold Resonances",
+    "abstract": "The roles of the fine-structure intramanifold resonances to the Zeeman shifts caused by the blackbody radiation (BBRz shifts) in the optical clock transitions are analyzed. The clock frequency measurement in the $^1S_0-^3P_0$ clock transition of the singly charged aluminium ion (Al$^+$) has already been reached the $10^{-19}$ level at which the BBRz effect can be significant in determining the uncertainty. In view of this, we probe first the BBRz shift in this transition rigorously and demonstrate the importance of the contributions from the intramanifold resonances explicitly. To carry out the analysis, we determine the dynamic magnetic dipole (M1) polarizabilities of the clock states over a wide range of angular frequencies by employing two variants of relativistic many-body methods. This showed the BBRz shift is highly suppressed due to blue-detuning of the BBR spectrum to the $^3P_0-^3P_1$ fine-structure intramanifold resonance in Al$^+$ and it fails to follow the usually assumed static M1 polarizability limit in the estimation of the BBRz shift. The resonance also leads to a reversal behavior of the temperature dependence and a cancellation in the shift. After learning this behavior, we extended our analyses to other optical clocks and found that these shifts are of the order of micro-hertz leading to fractional shifts in the clock transitions at the $10^{-20}$ level or below. ",
+    "url": "https://arxiv.org/abs/2309.12548",
+    "authors": [
+      "Zhi-Ming Tang",
+      "Yuan-Fei Wei",
+      "B. K. Sahoo",
+      "Cheng-Bin Li",
+      "Yang Yang",
+      "Yaming Zou",
+      "Xue-Ren Huang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12746",
+    "title": "Whispering gallery quantum well exciton polaritons in an Indium Gallium  Arsenide microdisk cavity",
+    "abstract": "Despite appealing high-symmetry properties that enable high quality factor and strong confinement, whispering gallery modes of spherical and circular resonators have been absent from the field of quantum-well exciton polaritons. Here we observe whispering gallery exciton polaritons in a Gallium Arsenide microdisk cavity filled with Indium Gallium Arsenide quantum wells, the testbed materials of polaritonics. Strong coupling is evidenced in photoluminescence and resonant spectroscopy, accessed through concomitant confocal microscopy and near-field optical techniques. Excitonic and optical resonances are tuned by varying temperature and disk radius, revealing Rabi splittings between 5 and 10 meV. A dedicated analytical quantum model for such circular polaritons is developed, which reproduces the measured values. At high power, lasing is observed and accompanied by a blueshift of the emission that points to the regime of polariton lasing. ",
+    "url": "https://arxiv.org/abs/2309.12746",
+    "authors": [
+      "Romain de Oliveira",
+      "Martin Colombano",
+      "Florent Malabat",
+      "Martina Morassi",
+      "Aristide Lema\u00eetre",
+      "Ivan Favero"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12779",
+    "title": "Terahertz scale microbunching instability driven by nonevaporable getter  coating resistive-wall impedance",
+    "abstract": "Non-evaporable getter (NEG) coating is widely required in the next generation of light sources and circular $e^+e^-$ colliders for small vacuum pipes to improve the vacuum level, which, however, also enhances the high-frequency resistive-wall impedance and often generates a resonator-like peak in the terahertz frequency region. In this paper, we will use the parameters of the planned Hefei Advanced Light Facility (HALF) storage ring to study the impact of NEG coating resistive-wall impedance on the longitudinal microwave instability via particle tracking simulation. Using different NEG coating parameters (resistivity and thickness) as examples, we find that the impedance with a narrow and strong peak in the high frequency region can cause micro-bunching instability, which has a low instability threshold current and contributes to a large energy spread widening above the threshold. In order to obtain a convergent simulation of the beam dynamics, one must properly resolve such a peak. The coating with a lower resistivity has a much less sharp peak in its impedance spectrum, which is helpful to suppress the micro-bunching instability and in return contributes to a weaker microwave instability. ",
+    "url": "https://arxiv.org/abs/2309.12779",
+    "authors": [
+      "Weiwei Li",
+      "Tianlong He",
+      "Zhenghe Bai"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.13004",
+    "title": "Bound-state-in-continuum guided modes in a multilayer electro-optically  active photonic integrated circuit platform",
+    "abstract": "Bound states in the continuum (BICs) are localized states existing within a continuous spectrum of delocalized waves. Emerging multilayer photonic integrated circuit (PIC) platforms allow implementation of low index 1D guided modes within a high-index 2D slab mode continuum; however, conventional wisdom suggests that this always leads to large radiation losses. Here we demonstrate low-loss BIC guided modes for multiple mode polarizations and spatial orders in single- and multi-ridge low-index waveguides within a two-layer heterogeneously integrated electro-optically active photonic platform. The transverse electric (TE) polarized quasi-BIC guided mode with low, <1.4 dB/cm loss enables a Mach-Zehnder electro-optic amplitude modulator comprising a single straight Si3N4 ridge waveguide integrated with a continuous LiNbO3 slab layer. The abrupt optical transitions at the edges of the slab function as compact and efficient directional couplers eliminating the need for additional components. The modulator exhibits a low insertion loss of 2.3 dB and a high extinction ratio of 25 dB. The developed general theoretical model may enable innovative BIC-based approaches for important PIC functions, such as agile spectral filtering and switching, and may suggest new photonic architectures for quantum and neural network applications based on controlled interactions between multiple guided and delocalized modes. ",
+    "url": "https://arxiv.org/abs/2309.13004",
+    "authors": [
+      "Kyunghun Han",
+      "Thomas W. LeBrun",
+      "Vladimir A. Aksyuk"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12980",
+    "title": "Quantum enhanced SU(1,1) matter wave interferometry in a ring cavity",
+    "abstract": "Quantum squeezed states offer metrological enhancement as compared to their classical counterparts. Here, we devise and numerically explore a novel method for performing SU(1,1) interferometry beyond the standard quantum limit, using quasi-cyclic nonlinear wave mixing dynamics of ultracold atoms in a ring cavity. The method is based on generating quantum correlations between many atoms via photon mediated optomechanical interaction. Timescales of the interferometer operation are here given by the inverse of photonic recoil frequency, and are orders of magnitude shorter than the timescales of collisional spin-mixing based interferometers. Such shorter timescales should enable not only faster measurement cycles, but also lower atomic losses from the trap during measurement, which may lead to significant quantum metrological gain of matter wave interferometry in state of the art cavity setups. ",
+    "url": "https://arxiv.org/abs/2309.12980",
+    "authors": [
+      "Ivor Kre\u0161i\u0107",
+      "Thorsten Ackemann"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.02639",
+    "title": "Personal Identity and Uncertainty in the Everett Interpretation of  Quantum Mechanics",
+    "abstract": " Title: Personal Identity and Uncertainty in the Everett Interpretation of  Quantum Mechanics ",
+    "url": "https://arxiv.org/abs/2209.02639",
+    "authors": [
+      "Zhonghao Lu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.07395",
+    "title": "Interferometric imaging using shared quantum entanglement",
+    "abstract": " Title: Interferometric imaging using shared quantum entanglement ",
+    "url": "https://arxiv.org/abs/2212.07395",
+    "authors": [
+      "Matthew R. Brown",
+      "Markus Allgaier",
+      "Val\u00e9rian Thiel",
+      "John D. Monnier",
+      "Michael G. Raymer",
+      "Brian J. Smith"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.04551",
+    "title": "Non-linear, bivariate stochastic modelling of power-grid frequency  applied to islands",
+    "abstract": " Title: Non-linear, bivariate stochastic modelling of power-grid frequency  applied to islands ",
+    "url": "https://arxiv.org/abs/2301.04551",
+    "authors": [
+      "Ulrich Oberhofer",
+      "Leonardo Rydin Gorj\u00e3o",
+      "G. Cigdem Yalcin",
+      "Oliver Kamps",
+      "Veit Hagenmeyer",
+      "Benjamin Sch\u00e4fer"
+    ],
+    "subjectives": [
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Systems and Control (eess.SY)",
+      "Applications (stat.AP)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13294",
+    "title": "Deep macroscopic pure-optical potential for laser cooling and trapping  of neutral atoms",
+    "abstract": " Title: Deep macroscopic pure-optical potential for laser cooling and trapping  of neutral atoms ",
+    "url": "https://arxiv.org/abs/2306.13294",
+    "authors": [
+      "O. N. Prudnikov",
+      "R. Ya. Ilenkov",
+      "A. V. Taichenachev",
+      "V. I. Yudin",
+      "S.N. Bagaev"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.04689",
+    "title": "Trapping and imaging single dysprosium atoms in optical tweezer arrays",
+    "abstract": " Title: Trapping and imaging single dysprosium atoms in optical tweezer arrays ",
+    "url": "https://arxiv.org/abs/2307.04689",
+    "authors": [
+      "Damien Bloch",
+      "Britton Hofer",
+      "Sam R. Cohen",
+      "Antoine Browaeys",
+      "Igor Ferrier-Barbut"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.08937",
+    "title": "Vernier Microcombs for Integrated Optical Atomic Clocks",
+    "abstract": " Title: Vernier Microcombs for Integrated Optical Atomic Clocks ",
+    "url": "https://arxiv.org/abs/2308.08937",
+    "authors": [
+      "Kaiyi Wu",
+      "Nathan P. O'Malley",
+      "Saleha Fatema",
+      "Cong Wang",
+      "Marcello Girardi",
+      "Mohammed S. Alshaykh",
+      "Zhichao Ye",
+      "Daniel E. Leaird",
+      "Minghao Qi",
+      "Victor Torres-Company",
+      "Andrew M. Weiner"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.13475",
+    "title": "A modest redirection of quantum field theory solves all current problems",
+    "abstract": " Comments: 6 pages ",
+    "url": "https://arxiv.org/abs/2308.13475",
+    "authors": [
+      "John R. Klauder",
+      "Riccardo Fantoni"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.12129",
+    "title": "Leveraging Analog Quantum Computing with Neutral Atoms for Solvent  Configuration Prediction in Drug Discovery",
+    "abstract": " Title: Leveraging Analog Quantum Computing with Neutral Atoms for Solvent  Configuration Prediction in Drug Discovery ",
+    "url": "https://arxiv.org/abs/2309.12129",
+    "authors": [
+      "Mauro D'Arcangelo",
+      "Daniele Loco",
+      "Fresnel team",
+      "Nicola\u00ef Gouraud",
+      "Stanislas Angebault",
+      "Jules Sueiro",
+      "Pierre Monmarch\u00e9",
+      "J\u00e9r\u00f4me For\u00eat",
+      "Louis-Paul Henry",
+      "Lo\u00efc Henriet",
+      "Jean-Philip Piquemal"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
