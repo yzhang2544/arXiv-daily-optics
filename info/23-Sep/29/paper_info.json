@@ -1,0 +1,472 @@
+[
+  {
+    "id": "arXiv:2309.15861",
+    "title": "Comparison and efficiency of GPU accelerated optical light propagation  in CORSIKA 8",
+    "abstract": "AI accelerators have proliferated in data centers in recent years and are now almost ubiquitous. In addition, their computational power and, most importantly, their energy efficiency are up to orders of magnitude higher than that of traditional computing. Over the last years, various methods and optimizations have been tested to use these hybrid systems for simulations in the context of astroparticle physics utilizing CORSIKA. The main focus of this talk is the propagation of optical, i.e. fluorescence and Cherenkov, photons through low density inhomogeneous media in the context of the next generation CORSIKA8 simulation framework. Different techniques used and approximations, e.g. the atmospheric model, tested during the development will be presented. The trade-off between performance and precision allows the experiment to achieve its physical precision limited to the real resolution of the experiment and not invest power and time in vanishing precision gains. The additional comparison of classical CPU-based simulations with the new methods validates these methods and allows evaluation against a known baseline. ",
+    "url": "https://arxiv.org/abs/2309.15861",
+    "authors": [
+      "Dominik Baack",
+      "Jean-Marco Alameddine"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15864",
+    "title": "Data-Driven Mori-Zwanzig: Reduced Order Modeling of Sparse Sensors  Measurements for Boundary Layer Transition",
+    "abstract": "Understanding, predicting and controlling laminar-turbulent boundary-layer transition is crucial for the next generation aircraft design. However, in real flight experiments, or wind tunnel tests, often only sparse sensor measurements can be collected at fixed locations. Thus, in developing reduced models for predicting and controlling the flow at the sensor locations, the main challenge is in accounting for how the surrounding field of unobserved variables interacts with the observed variables at the fixed sensor locations. This makes the Mori-Zwanzig (MZ) formalism a natural choice, as it results in the Generalized Langevin Equations which provides a framework for constructing non-Markovian reduced-order models that includes the effects the unresolved variables have on the resolved variables. These effects are captured in the so called memory kernel and orthogonal dynamics. In this work, we explore the data-driven MZ formulations to two boundary layer flows obtained from DNS data; a low speed incompressible flow; and a high speed compressible flow over a flared cone at Mach 6. An array of \"sensors\" are placed near the surface of the solid boundary, and the MZ operators are learned and the predictions are compared to the Extended Dynamic Mode Decomposition (EDMD), both using delay embedded coordinates. Further comparisons are made with Long Short-Term Memory (LSTM) and a regression based projection framework using neural networks for the MZ operators. First we compare the effects of including delay embedded coordinates with EDMD and Mori based MZ and provide evidence that using both memory and delay embedded coordinates minimizes generalization errors on the relevant time scales. Next, we provide numerical evidence that the data-driven regression based projection MZ model performs best with respect to the prediction accuracy (minimum generalization error) on the relevant time scales. ",
+    "url": "https://arxiv.org/abs/2309.15864",
+    "authors": [
+      "Michael Woodward",
+      "Yifeng Tian",
+      "Yen Ting Lin",
+      "Arvind Mohan",
+      "Christoph Hader",
+      "Hermann Fasel",
+      "Michael Chertkov",
+      "Daniel Livescu"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15908",
+    "title": "QuCS: A Lecture Series on Quantum Computer Software and System",
+    "abstract": "In this era of incessant advancements in quantum computing, bridging the gap between quantum algorithms' hardware requisites and available devices has become crucial. A prime focus in this context is the Software and System Level support for quantum computers, which has shown promising potential in significantly decreasing this gap. However, a noteworthy deficit of quantum software and system level-focused courses has been observed in academia worldwide. Addressing this deficiency, this paper proposes the Quantum Computer Systems (QuCS) Lecture Series. The QuCS Lecture Series aims to enhance the visibility of quantum computing software and system level and foster diverse participation in quantum computing research across multiple universities worldwide. It is envisioned as an inclusive platform to bring together individuals of diverse backgrounds, catalyzing cross-cultural collaboration and innovation in this burgeoning field. The lecture series begins with an introductory session elucidating the core concepts and fundamentals of quantum computing. This foundational knowledge will be built upon in subsequent sessions, highlighting cutting-edge research trends and recent findings in quantum software and system level. This paper provides a comprehensive overview of the QuCS Lecture Series, detailing the format, the gamut of topics to be covered, and their significance. It emphasizes the potential impact of the series on accelerating progress towards quantum supremacy and fostering a diverse, global community of quantum computing researchers and practitioners. The QuCS Lecture Series has already hosted nearly 40 lectures with over 40 confirmed speakers from more than eight different countries and from both academia and industry, QuCS also attracted more than 1000 subscribers from all over the world. ",
+    "url": "https://arxiv.org/abs/2309.15908",
+    "authors": [
+      "Zhiding Liang",
+      "Hanrui Wang"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Hardware Architecture (cs.AR)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15932",
+    "title": "Developing integrated rate laws of complex self-assembly reactions using  Lie symmetry: Kinetics of Abeta42, Abeta40 and Abeta38 co-aggregation",
+    "abstract": "The development of solutions to the kinetics of homomolecular self-assembly into amyloid fibrils using fixed-point methods, and their subsequent application to the analysis of in vitro kinetic experiments, has led to numerous advances in our understanding of the fundamental chemical mechanisms behind amyloidogenic disorders such as Alzheimer's and Parkinson's diseases. However, as our understanding becomes more detailed and new data become available, kinetic models need to increase in complexity. The resulting rate equations are no longer amenable to extant solution methods, hindering ongoing efforts to elucidate the mechanistic determinants of aggregation in living systems. Here, we demonstrate that most linear self-assembly reactions are described by the same unusual class of singularly perturbed rate equations, that cannot be solved by normal singular perturbation techniques such as renormalization group. We instead develop a new method based on Lie symmetry that can reliably solve this class of equations, and use it in conjunction with experimental data to determine the kinetics of co-aggregation of the Alzheimer's disease-associated Abeta42, Abeta40 and Abeta38 peptides. Our method also rationalizes several successful earlier solutions for homomolecular self-assembly kinetics whose mathematical justification was previously unclear. Alongside its generality and mathematical clarity, its much greater accuracy and simplicity compared to extant methods will enable its rapid and widespread adoption by researchers modelling filamentous self-assembly kinetics. ",
+    "url": "https://arxiv.org/abs/2309.15932",
+    "authors": [
+      "Alexander J. Dear",
+      "Georg Meisl",
+      "Sara Linse",
+      "L. Mahadevan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Mathematical Physics (math-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16001",
+    "title": "Linear and non-linear infrared response of one-dimensional vibrational  Holstein polarons in the anti-adiabatic limit: optical and acoustical phonon  models",
+    "abstract": "The theory of linear and non-linear infrared response of vibrational Holstein polarons in one-dimensional lattices is presented in order to identify the spectral signatures of self-trapping phenomena. Using a canonical transformation the optical response is computed from the small polaron point of view which is valid in the anti-adiabatic limit. Two types of phonon baths are considered: optical phonons and acoustical phonons, and simple expressions are derived for the infrared response. It is shown that for the case of optical phonons, the linear response can directly probe the polaron density of states. The model is used to interpret the experimental spectrum of crystaline actetanilide in the C=O range. For the case of acoustical phonons, it is shown that two bound states can be observed in the two-dimensional infrared spectrum at low temperature. At high temperature, analysis of the time-dependence of the two-dimensional infrared spectrum indicates that bath mediated correlations slow down spectral diffusion. The model is used to interpret the experimental linear-spectroscopy of model alpha-helix and beta-sheet polypeptides. This work shows that the Davydov Hamiltonian cannot explain the observations in the NH stretching range. ",
+    "url": "https://arxiv.org/abs/2309.16001",
+    "authors": [
+      "Cyril Falvo"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16069",
+    "title": "Sub-Doppler spectroscopy of quantum systems through nanophotonic  spectral translation of electro-optic light",
+    "abstract": "An outstanding challenge for deployable quantum technologies is the availability of high-resolution laser spectroscopy at the specific wavelengths of ultranarrow transitions in atomic and solid-state quantum systems. Here, we demonstrate a powerful spectroscopic tool that synergistically combines high resolution with flexible wavelength access, by showing that nonlinear nanophotonics can be readily pumped with electro-optic frequency combs to enable highly coherent spectral translation with essentially no efficiency loss. Third-order (\\c{hi}(3)) optical parametric oscillation in a silicon nitride microring enables nearly a million optical frequency comb pump teeth to be translated onto signal and idler beams; while the comb tooth spacing and bandwidth are adjustable through electro-optic control, the signal and idler carrier frequencies are widely tuneable through dispersion engineering. We then demonstrate the application of these devices to quantum systems, by performing sub-Doppler spectroscopy of the hyperfine transitions of a Cs atomic vapor with our electro-optically-driven Kerr nonlinear light source. The generality, robustness, and agility of this approach as well as its compatibility with photonic integration are expected to lead to its widespread applications in areas such as quantum sensing, telecommunications, and atomic clocks. ",
+    "url": "https://arxiv.org/abs/2309.16069",
+    "authors": [
+      "David A. Long",
+      "Jordan R. Stone",
+      "Yi Sun",
+      "Daron Westly",
+      "Kartik Srinivasan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16101",
+    "title": "Mean-chiral displacement in coherently driven photonic lattices and its  application to synthetic frequency dimensions",
+    "abstract": "We theoretically propose an experimentally viable method to directly detect the topological winding number of one-dimensional chiral photonic lattices. The method we propose is a generalization to a driven-dissipative context of the mean-chiral displacement, which was originally proposed for conservative systems, and specifically addresses the case of a coherent illumination. We show that, by integrating the mean-chiral displacement of the steady state over the pump light frequency, one can obtain the winding number with a correction of the order of the loss rate squared. We numerically verify the efficiency of the proposed method for one-dimensional chiral models with different winding numbers. We furthermore show how the method keeps being accurate for small lattices. As a specific example, we finally discuss how our method can be successfully applied to one-dimensional chiral models along synthetic frequency dimensions. ",
+    "url": "https://arxiv.org/abs/2309.16101",
+    "authors": [
+      "Greta Villa",
+      "Iacopo Carusotto",
+      "Tomoki Ozawa"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16255",
+    "title": "Remote Detection Optical Magnetometry",
+    "abstract": "Sensitive magnetometers have been applied in a wide range of research fields, including geophysical exploration, bio-magnetic field detection, ultralow-field nuclear magnetic resonance, etc. Commonly, magnetometers are directly placed at the position where the magnetic field is to be measured. However, in some situations, for example in near space or harsh environments, near nuclear reactors or particle accelerators, it is hard to place a magnetometer directly there. If the magnetic field can be detected remotely, i.e., via stand-off detection, this problem can be solved. As optical magnetometers are based on optical readout, they are naturally promising for stand-off detection. We review various approaches to optical stand-off magnetometry proposed and developed over the years, culminating in recent results on measuring magnetic fields in the mesosphere using laser guide stars, magnetometry with mirrorless-lasing readout, and proposals for satellite-assisted interrogation of atmospheric sodium. ",
+    "url": "https://arxiv.org/abs/2309.16255",
+    "authors": [
+      "Alexander M. Akulshin",
+      "Dmitry Budker",
+      "Felipe Pedreros Bustos",
+      "Tong Dang",
+      "Emmanuel Klinger",
+      "Simon M. Rochester",
+      "Arne Wickenbrock",
+      "Rui Zhang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16272",
+    "title": "Cell nucleus elastography with the adjoint-based inverse solver",
+    "abstract": "Background and Objectives: The mechanics of the nucleus depends on cellular structures and architecture, and impact a number of diseases. Nuclear mechanics is yet rather complex due to heterogeneous distribution of dense heterochromatin and loose euchromatin domains, giving rise to spatially variable stiffness properties. Methods: In this study, we propose to use the adjoint-based inverse solver to identify for the first time the nonhomogeneous elastic property distribution of the nucleus. Inputs of the inverse solver are deformation fields measured with microscopic imaging in contracting cardiomyocytes. Results: The feasibility of the proposed method is first demonstrated using simulated data. Results indicate accurate identification of the assumed heterochromatin region, with a maximum relative error of less than 5%. We also investigate the influence of unknown Poisson's ratio on the reconstruction and find that variations of the Poisson's ratio in the range [0.3-0.5] result in uncertainties of less than 15% in the identified stiffness. Finally, we apply the inverse solver on actual deformation fields acquired within the nuclei of two cardiomyocytes. The obtained results are in good agreement with the density maps obtained from microscopy images. Conclusions: Overall, the proposed approach shows great potential for nuclear elastography, with promising value for emerging fields of mechanobiology and mechanogenetics. ",
+    "url": "https://arxiv.org/abs/2309.16272",
+    "authors": [
+      "Yue Mei",
+      "Xuan Feng",
+      "Yun Jin",
+      "Rongyao Kang",
+      "Xinyu Wang",
+      "Dongmei Zhao",
+      "Soham Ghosh",
+      "Corey P Neu",
+      "Stephane Avril"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16293",
+    "title": "Study of Bulk Damage of High Dose Gamma Irradiated p-type Silicon Diodes  with Various Resistivities",
+    "abstract": "The bulk damage of p-type silicon detectors caused by high doses of gamma irradiation has been studied. The study was carried out on three types of n$^{+}$-in-p silicon diodes with comparable geometries but different initial resistivities. This allowed to determine how different initial parameters of studied samples influence radiation-induced changes in the measured characteristics. The diodes were irradiated by a Cobalt-60 gamma source to total ionizing doses ranging from 0.50 up to 8.28 MGy, and annealed for 80 minutes at 60 {\\deg}C. The Geant4 toolkit for simulation of the passage of particles through matter was used to simulate the deposited energy homogeneity, to verify the equal distribution of total deposited energies through all the layers of irradiated samples, and to calculate the secondary electron spectra in the irradiation box. The main goal of the study was to characterize the gamma-radiation induced displacement damage by measuring current-voltage characteristics (IV), and the evolution of the full depletion voltage with the total ionizing dose, by measuring capacitance-voltage characteristics (CV). It has been observed that the bulk leakage current increases linearly with total ionizing dose, and the damage coefficient depends on the initial resistivity of the silicon diode. The effective doping concentration and therefore full depletion voltage significantly decreases with increasing total ionizing dose, before starting to increase again at a specific dose. We assume that this decrease is caused by the effect of acceptor removal. Another noteworthy observation of this study is that the IV and CV measurements of the gamma irradiated diodes do not reveal any annealing effect. ",
+    "url": "https://arxiv.org/abs/2309.16293",
+    "authors": [
+      "I. Zatocilova",
+      "M. Mikestikova",
+      "V. Latonova",
+      "J. Kroll",
+      "R. Privara",
+      "P. Novotny",
+      "D. Dudas",
+      "J. Kvasnicka"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16358",
+    "title": "Characterization, Simulation and Test Beam Data Analysis of Stitched  Passive CMOS Strip Sensors",
+    "abstract": "In the passive CMOS Strips Project, strip sensors were designed at the University of Bonn and produced by LFoundry in 150 nm technology, with an additional backside processing from IZM Berlin. Up to five individual reticules were connected by stitching at the foundry in order to obtain the typical strip lengths required for the LHC Phase-II upgrade of ATLAS or CMS trackers. After dicing, sensors were tested in a probe station and characterised with a Sr90-source as well as laser-based edge- and top-TCT systems. Sensors were also simulated using Sentaurus TCAD. At last, detector modules were constructed from several sensors and thoroughly studied in two beam campaigns at DESY. All of these measurements were performed before and after irradiation. This contribution provides an overview of simulation results, summarises the laboratory measurements and in particular presents first test beam results for irradiated and unirradiated passive CMOS strip sensors. We are demonstrating that large area sensors with sufficient radiation hardness can be obtained by stitching during the CMOS process, and presenting our plans for the next submission in the framework of this project. ",
+    "url": "https://arxiv.org/abs/2309.16358",
+    "authors": [
+      "I. Zatocilova",
+      "J.-H. Arling",
+      "M. Baselga",
+      "N. Davis",
+      "L. Diehl",
+      "J. Dingfelder",
+      "I.-M. Gregor",
+      "M. Hauser",
+      "T. Hemperek",
+      "F. H\u00fcgging",
+      "K. Jakobs",
+      "M. Karagounis",
+      "K. Kr\u00f6ninger",
+      "F. Lex",
+      "U. Parzefall",
+      "A. Rodriguez",
+      "B. Sari",
+      "N. Sorgenfrei",
+      "S. Spannagel",
+      "D. Sperlich",
+      "T. Wang",
+      "J. Weingarten"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16368",
+    "title": "Kinetic Simulation of He radio frequency capacitive coupled plasma",
+    "abstract": "Radiofrequency capacitively coupled plasma is studied theoretically using a Particle-in-Cell code. For He discharge, the time-averaged sheaths are in the range of few centimeters. The sheath potential, ion, and electron energy and angular distributions, discharge current, and dissipated power depend on the driven potentials and frequencies. Increasing the amplitude of the high radio frequencies increases the bulk density and the sheath potential and, consequently, increases the plasma processing rate. Increasing the intermediate radio frequency amplitude allows a wider sheath with a broad ion energy distribution and a narrower ion angular distribution. Changing the amplitude and the phase shift between driven frequencies provide different energies and angular distribution allowing performing various processes. The interplay between the sheath and bulk dynamics in the intermediate radiofrequency regime and the high-frequency regime may excite harmonics in the discharge current. ",
+    "url": "https://arxiv.org/abs/2309.16368",
+    "authors": [
+      "M. Shihab",
+      "A. Elbadawy",
+      "M. S. Afify",
+      "N. El-Siragy"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16479",
+    "title": "Chiral photonic super-crystals based on helical van der Waals  homostructures",
+    "abstract": "Chirality is probably the most mysterious among all symmetry transformations. Very readily broken in biological systems, it is practically absent in naturally occurring inorganic materials and is very challenging to create artificially. Chiral optical wavefronts are often used for the identification, control and discrimination of left- and right-handed biological and other molecules. Thus, it is crucially important to create materials capable of chiral interaction with light, which would allow one to assign arbitrary chiral properties to a light field. In this paper, we utilized van der Waals technology to assemble helical homostructures with chiral properties (e. g. circular dichroism). Because of the large range of van der Waals materials available such helical homostructures can be assigned with very flexible optical properties. We demonstrate our approach by creating helical homostructures based on multilayer As$_2$S$_3$, which offers the most pronounced chiral properties even in thin structures due to its strong biaxial optically anisotropy. Our work showcases that the chirality of an electromagnetic system may emerge at an intermediate level between the molecular and the mesoscopic one due to the tailored arrangement of non-chiral layers of van der Waals crystals and without additional patterning. ",
+    "url": "https://arxiv.org/abs/2309.16479",
+    "authors": [
+      "Kirill V. Voronin",
+      "Adilet N. Toksumakov",
+      "Georgy A. Ermolaev",
+      "Aleksandr S. Slavich",
+      "Mikhail K. Tatmyshevskiy",
+      "Sergey V. Novikov",
+      "Andrey A. Vyshnevy",
+      "Aleksey V. Arsenin",
+      "Kostya S. Novoselov",
+      "Davit A. Ghazaryan",
+      "Valentyn S. Volkov",
+      "Denis G. Baranov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16491",
+    "title": "Improving Potential Energy Surfaces Using Experimental Feshbach  Resonance Tomography",
+    "abstract": "The structure and dynamics of a molecular system is governed by its potential energy surface (PES), representing the total energy as a function of the nuclear coordinates. Obtaining accurate potential energy surfaces is limited by the exponential scaling of Hilbert space, restricting quantitative predictions of experimental observables from first principles to small molecules with just a few electrons. Here, we present an explicitly physics-informed approach for improving and assessing the quality of families of PESs by modifying them through linear coordinate transformations based on experimental data. We demonstrate this \"morphing\" of the PES for the He-H$_{2}^{+}$ complex for reference surfaces at three different levels of quantum chemistry and using recent comprehensive Feshbach resonance(FR) measurements. In all cases, the positions and intensities of peaks in the collision cross-section are improved. We find these observables to be mainly sensitive to the long-range part of the PES. ",
+    "url": "https://arxiv.org/abs/2309.16491",
+    "authors": [
+      "Karl P. Horn",
+      "Luis Itza Vazquez-Salazar",
+      "Christiane P. Koch",
+      "Markus Meuwly"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16568",
+    "title": "Localized polariton states in a photonic crystal intercalated by a  transition metal dichalcogenide monolayer",
+    "abstract": "Beyond the extensively studied microcavity polaritons, which are coupled modes of semiconductor excitons and microcavity photons, nearly 2D semiconductors placed in a suitable environment can support spatially localized exciton-polariton modes. We demonstrate theoretically that two distinct types of such modes can exist in a photonic crystal with an embedded transition metal dichalcogenide (TMD) monolayer and derive an equation that determines their dispersion relations. The localized modes of two types occur in the zeroth- and first-order stop-bands of the crystal, respectively, and have substantially different properties. The latter type of the localized modes, which appear inside the light cone, can be described as a result of coupling of the TMD exciton and an optical Tamm state of the TMD-intercalated photonic crystal. We suggest an experiment for detecting these modes and simulate it numerically. ",
+    "url": "https://arxiv.org/abs/2309.16568",
+    "authors": [
+      "Yuliy V. Bludov",
+      "Carlos Fernandes",
+      "Nuno M. R. Peres",
+      "Mikhail I. Vasilevskiy"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.03621",
+    "title": "Fluctuations, uncertainty relations, and the geometry of quantum state  manifolds",
+    "abstract": "The complete quantum metric of a parametrized quantum system has a real part (usually known as the Provost-Vallee metric) and a symplectic imaginary part (known as the Berry curvature). In this paper, we first investigate the relation between the Riemann curvature tensor of the space described by the metric, and the Berry curvature, by explicit parallel transport of a vector in Hilbert space. Subsequently, we write a generating function from which the complex metric, as well as higher order geometric tensors (affine connection, Riemann curvature tensor) can be obtained in terms of gauge invariant cumulants. The generating function explicitly relates the quantities which characterize the geometry of the parameter space to quantum fluctuations. We also show that for a mixed quantum-classical system both real and imaginary parts of the quantum metric contribute to the dynamics, if the mass tensor is Hermitian. A many operator generalization of the uncertainty principle results from taking the determinant of the complex quantum metric. We also calculate the quantum metric for a number of Lie group coherent states, including several representations of the $SU(1,1)$ group. In our examples non-trivial complex geometry results for generalized coherent states. A pair of oscillator states corresponding to the $SU(1,1)$ group gives a double series for its spectrum. The two minimal uncertainty coherent states show trivial geometry, but, again, for generalized coherent states non-trivial geometry results. ",
+    "url": "https://arxiv.org/abs/2309.03621",
+    "authors": [
+      "Bal\u00e1zs Het\u00e9nyi",
+      "P\u00e9ter L\u00e9vay"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Mathematical Physics (math-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15914",
+    "title": "Quantum computer-enabled receivers for optical communication",
+    "abstract": "Optical communication is the standard for high-bandwidth information transfer in today's digital age. The increasing demand for bandwidth has led to the maturation of coherent transceivers that use phase- and amplitude-modulated optical signals to encode more bits of information per transmitted pulse. Such encoding schemes achieve higher information density, but also require more complicated receivers to discriminate the signaling states. In fact, achieving the ultimate limit of optical communication capacity, especially in the low light regime, requires coherent joint detection of multiple pulses. Despite their superiority, such joint detection receivers are not in widespread use because of the difficulty of constructing them in the optical domain. In this work we describe how optomechanical transduction of phase information from coherent optical pulses to superconducting qubit states followed by the execution of trained short-depth variational quantum circuits can perform joint detection of communication codewords with error probabilities that surpass all classical, individual pulse detection receivers. Importantly, we utilize a model of optomechanical transduction that captures non-idealities such as thermal noise and loss in order to understand the transduction performance necessary to achieve a quantum advantage with such a scheme. We also execute the trained variational circuits on an IBM-Q device with the modeled transduced states as input to demonstrate that a quantum advantage is possible even with current levels of quantum computing hardware noise. ",
+    "url": "https://arxiv.org/abs/2309.15914",
+    "authors": [
+      "John Crossman",
+      "Spencer Dimitroff",
+      "Lukasz Cincio",
+      "Mohan Sarovar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15969",
+    "title": "Optical tuning of the diamond Fermi level measured by correlated  scanning probe microscopy and quantum defect spectroscopy",
+    "abstract": "Quantum technologies based on quantum point defects in crystals require control over the defect charge state. Here we tune the charge state of shallow nitrogen-vacancy and silicon-vacancy centers by locally oxidizing a hydrogenated surface with moderate optical excitation and simultaneous spectral monitoring. The loss of conductivity and change in work function due to oxidation are measured in atmosphere using conductive atomic force microscopy (C-AFM) and Kelvin probe force microscopy (KPFM). We correlate these scanning probe measurements with optical spectroscopy of the nitrogen-vacancy and silicon-vacancy centers created via implantation and annealing 15-25 nm beneath the diamond surface. The observed charge state of the defects as a function of optical exposure demonstrates that laser oxidation provides a way to precisely tune the Fermi level over a range of at least 2.00 eV. We also observe a significantly larger oxidation rate for implanted surfaces compared to unimplanted surfaces under ambient conditions. Combined with knowledge of the electron affinity of a surface, these results suggest KPFM is a powerful, high-spatial resolution technique to advance surface Fermi level engineering for charge stabilization of quantum defects. ",
+    "url": "https://arxiv.org/abs/2309.15969",
+    "authors": [
+      "Christian Pederson",
+      "Rajiv Giridharagopal",
+      "Fang Zhao",
+      "Scott T. Dunham",
+      "Yevgeny Raitses",
+      "David S. Ginger",
+      "Kai-Mei C. Fu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16281",
+    "title": "Quantum Resonance viewed as Weak Measurement",
+    "abstract": "Quantum resonance, i.e., amplification in transition probability available under certain conditions, offers a powerful means for determining fundamental quantities in physics, including the time duration of the second adopted in the SI units and neutron's electric dipole moment which is directly linked to CP violation. We revisit two of the typical examples, the Rabi resonance and the Ramsey resonance, and show that both of these represent the weak value amplification and that near the resonance points they share exactly the same behavior of transition probabilities except for the measurement strength whose difference leads to the known advantage of the Ramsey resonance in the sensitivity. Conversely, this suggests that the weak value may be measured, for instance, through the Ramsey resonance. In fact, we argue that previous measurements of neutron electric dipole moment have potentially determined the imaginary component of the weak value of the spin of neutrons with higher precision than the conventional weak value measurement via neutron beams by three orders of magnitude. ",
+    "url": "https://arxiv.org/abs/2309.16281",
+    "authors": [
+      "Daiki Ueda",
+      "Izumi Tsutsui"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16600",
+    "title": "Constraining Ultralight Dark Matter through an Accelerated Resonant  Search",
+    "abstract": "Experiments aimed at detecting ultralight dark matter typically rely on resonant effects, which are sensitive to the dark matter mass that matches the resonance frequency. In this study, we investigate the nucleon couplings of ultralight axion dark matter using a magnetometer operating in a nuclear magnetic resonance (NMR) mode. Our approach involves the use of a $^{21}$Ne spin-based sensor, which features the lowest nuclear magnetic moment among noble-gas spins. This configuration allows us to achieve an ultrahigh sensitivity of 0.73 fT/Hz$^{1/2}$ at around 5 Hz, corresponding to energy resolution of approximately 1.5$\\times 10^{-23}\\,\\rm{eV/Hz^{1/2}}$. Our analysis reveals that under certain conditions it is beneficial to scan the frequency with steps significantly larger than the resonance width. The analytical results are in agreement with experimental data and the scan strategy is potentially applicable to other resonant searches. Further, our study establishes stringent constraints on axion-like particles (ALP) in the 4.5--15.5 Hz Compton-frequency range coupling to neutrons and protons, improving on prior work by several-fold. Within a band around 4.6--6.6 Hz and around 7.5 Hz, our laboratory findings surpass astrophysical limits derived from neutron-star cooling. Hence, we demonstrate an accelerated resonance search for ultralight dark matter, achieving an approximately 30-fold increase in scanning step while maintaining competitive sensitivity. ",
+    "url": "https://arxiv.org/abs/2309.16600",
+    "authors": [
+      "Zitong Xu",
+      "Xiaolin Ma",
+      "Kai Wei",
+      "Yuxuan He",
+      "Xing Heng",
+      "Xiaofei Huang",
+      "Tengyu Ai",
+      "Jian Liao",
+      "Wei Ji",
+      "Jia Liu",
+      "Xiao-Ping Wang",
+      "Dmitry Budker"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.04838",
+    "title": "Quantum theory of light interaction with a Lorenz-Mie particle: Optical  detection and three-dimensional ground-state cooling",
+    "abstract": " Comments: 16 + 12 pages, 8 + 4 figures, 1 table ",
+    "url": "https://arxiv.org/abs/2212.04838",
+    "authors": [
+      "Patrick Maurer",
+      "Carlos Gonzalez-Ballestero",
+      "Oriol Romero-Isart"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.14294",
+    "title": "Unbiasing time-dependent Variational Monte Carlo by projected quantum  evolution",
+    "abstract": " Comments: 8+6 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2305.14294",
+    "authors": [
+      "Alessandro Sinibaldi",
+      "Clemens Giuliani",
+      "Giuseppe Carleo",
+      "Filippo Vicentini"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.14581",
+    "title": "Imaging electron angular distributions to assess a full-power  petawatt-class laser focus",
+    "abstract": " Comments: 10 pages, 6 figures, accepted by Physical Review A ",
+    "url": "https://arxiv.org/abs/2305.14581",
+    "authors": [
+      "Smrithan Ravichandran",
+      "Marine Huault",
+      "Roberto Lera",
+      "Calvin Z. He",
+      "Andrew Longman",
+      "Robert Fedosejevs",
+      "Luis Roso",
+      "Wendell T. Hill III"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.06546",
+    "title": "Forward and inverse energy cascade and fluctuation relation in fluid  turbulence adhere to Kolmogorov's refined similarity hypothesis",
+    "abstract": " Title: Forward and inverse energy cascade and fluctuation relation in fluid  turbulence adhere to Kolmogorov's refined similarity hypothesis ",
+    "url": "https://arxiv.org/abs/2307.06546",
+    "authors": [
+      "H. Yao",
+      "P. K. Yeung",
+      "T. A. Zaki",
+      "C. Meneveau"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.14953",
+    "title": "Long-distance chronometric leveling with a transportable optical clock",
+    "abstract": " Title: Long-distance chronometric leveling with a transportable optical clock ",
+    "url": "https://arxiv.org/abs/2309.14953",
+    "authors": [
+      "J. Grotti",
+      "I. Nosske",
+      "S. B. Koller",
+      "S. Herbers",
+      "H. Denker",
+      "L. Timmen",
+      "G. Vishnyakova",
+      "G. Grosche",
+      "T. Waterholter",
+      "A. Kuhl",
+      "S. Koke",
+      "E. Benkler",
+      "M. Giunta",
+      "L. Maisenbacher",
+      "A. Matveev",
+      "S. D\u00f6rscher",
+      "R. Schwarz",
+      "A. Al-Masoudi",
+      "T. W. H\u00e4nsch",
+      "T. H. Udem",
+      "R. Holzwarth",
+      "C. Lisdat"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
