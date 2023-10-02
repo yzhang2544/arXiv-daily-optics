@@ -1,0 +1,401 @@
+[
+  {
+    "id": "arXiv:2309.16719",
+    "title": "From quantum electrodynamics to a geometric gauge theory of classical  electromagnetism",
+    "abstract": "A relativistic version of the correspondence principle, a limit in which classical electrodynamics may be derived from QED, has never been clear, especially when including gravitational mass. Here we introduce a novel classical field theory formulation of electromagnetism, and then show that it approximates QED in the limit of a quantum state which corresponds to a classical charged continua. Our formulation of electromagnetism features a Lagrangian which is gauge invariant, includes a classical complex field from which a divergenceless four-current may be derived, and reproduces all aspects of the classical theory of charged massive continua without any quantum effects. Taking a geometric approach, we identify the four-current as being in the direction of extremal phase velocity of the classical field; the field equations of motion determine this phase velocity as being equal to the mass, which makes the rest density proportional to the squared modulus of the field. ",
+    "url": "https://arxiv.org/abs/2309.16719",
+    "authors": [
+      "Adam Marsh"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "High Energy Physics - Theory (hep-th)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16731",
+    "title": "Merging automatic differentiation and the adjoint method for photonic  inverse design",
+    "abstract": "Optimizing shapes and topology of physical devices is crucial for both scientific and technological advancements, given its wide-ranging implications across numerous industries and research areas. Innovations in shape and topology optimization have been seen across a wide range of fields, notably structural mechanics, fluid mechanics, and photonics. Gradient-based inverse design techniques have been particularly successful for photonic and optical problems, resulting in integrated, miniaturized hardware that has set new standards in device performance. To calculate the gradients, there are typically two approaches: implementing specialized solvers using automatic differentiation or deriving analytical solutions for gradient calculation and adjoint sources by hand. In this work, we propose a middle ground and present a hybrid approach that leverages and enables the benefits of automatic differentiation and machine learning frameworks for handling gradient derivation while using existing, proven solvers for numerical solutions. Utilizing the adjoint method, we turn existing numerical solvers differentiable and seamlessly integrate them into an automatic differentiation framework. Further, this enables users to integrate the optimization environment with machine learning applications which could lead to better photonic design workflows. We illustrate the approach through two distinct examples: optimizing the Purcell factor of a magnetic dipole in the vicinity of an optical nanocavity and enhancing the light extraction efficiency of a {\\textmu}LED. ",
+    "url": "https://arxiv.org/abs/2309.16731",
+    "authors": [
+      "Alexander Luce",
+      "Rasoul Alaee",
+      "Fabian Knorr",
+      "Florian Marquardt"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16788",
+    "title": "Quantum Computing, Math, and Physics (QCaMP): Introducing quantum  computing in high schools",
+    "abstract": "The nascent but rapidly growing field of Quantum Information Science and Technology has led to an increased demand for skilled quantum workers and an opportunity to build a diverse workforce at the outset. In order to meet this demand and encourage women and underrepresented minorities in STEM to consider a career in QIST, we have developed a curriculum for introducing quantum computing to teachers and students at the high school level with no prerequisites. In 2022, this curriculum was delivered over the course of two one-week summer camps, one targeting teachers and another targeting students. Here, we present an overview of the objectives, curriculum, and activities, as well as results from the formal evaluation of both camps and the outlook for expanding QCaMP in future years. ",
+    "url": "https://arxiv.org/abs/2309.16788",
+    "authors": [
+      "Megan Ivory",
+      "Alisa Bettale",
+      "Rachel Boren",
+      "Ashlyn D. Burch",
+      "Jake Douglass",
+      "Lisa Hackett",
+      "Boris Kiefer",
+      "Alina Kononov",
+      "Maryanne Long",
+      "Mekena Metcalf",
+      "Tzula B. Propp",
+      "Mohan Sarvar"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16835",
+    "title": "Hyperfine structure of the $\\mathbf{A^{1}\u03a0}$ state of AlCl and its  relevance to laser cooling and trapping",
+    "abstract": "The majority of molecules proposed for laser cooling and trapping experiments have $\\Sigma$-type ground states. Specifically, $^2\\Sigma$ states have cycling transitions analogous to D1-lines in alkali atoms while $^1\\Sigma$ states offer both strong and weak cycling transitions analogous to those in alkaline earth atoms. Despite this proposed variety, to date, only molecules with $^2\\Sigma$-type ground states have successfully been confined and cooled in magneto-optical traps. While none of the proposed $^1\\Sigma$-type molecules have been successfully laser cooled and trapped, they are expected to have various advantages in terms of exhibiting a lower chemical reactivity and an internal structure that benefits the cooling schemes. Here, we present the prospects and strategies for optical cycling in AlCl -- a $^1\\Sigma$ molecule -- and report on the first characterization of the $A^{1}\\Pi$ state hyperfine structure. Based on these results, we carry out detailed simulations on the expected capture velocity of a magneto-optical trap for AlCl. Finally, using {\\it ab initio} calculations, we identify the two-photon photo-ionization process via the $3^1\\Sigma^+$ state as a possible loss mechanism for a MOT of AlCl. ",
+    "url": "https://arxiv.org/abs/2309.16835",
+    "authors": [
+      "J. R. Daniel",
+      "J. C. Shaw",
+      "C. Wang",
+      "L.-R. Liu",
+      "B. K. Kendrick",
+      "B. Hemmerling",
+      "D. J. McCarron"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16912",
+    "title": "Fourier synthesis optical diffraction tomography for kilohertz rate  volumetric imaging",
+    "abstract": "Many biological processes occur at high speeds in complex 3D environments, and developing imaging techniques capable of elucidating their dynamics is an outstanding challenge. One outstanding question is understanding the interactions of active swimmers with the local physics of their viscous 3D environment. Here, we address this challenge by developing a multiplexed quantitative phase imaging approach capable of recording the 3D refractive index at kilohertz rates. Specifically, we develop Fourier synthesis optical diffraction tomography (FS-ODT), a new pattern generation and inverse computational strategy for ODT. In FS-ODT, we multiplex tens of beam angles to expand the system field of view and increase the information in single images, thereby increasing the tomogram acquisition rate. We further show that FS-ODT can simultaneously multiplex beam angles and positions to synthesize a large field of view at kilohertz framerates. We verify FS-ODT performance by imaging samples of known composition and accurately recovering the refractive index for multiplexing conditions. We then demonstrate the capabilities of FS-ODT for imaging fast diffusing microspheres in solution and single-cellular bacterial swimmers. FS-ODT is a promising approach for unlocking challenging imaging regimes that have been little explored, including measuring 3D flow fields generated by microswimmers. ",
+    "url": "https://arxiv.org/abs/2309.16912",
+    "authors": [
+      "Peter T. Brown",
+      "Luis Meneses",
+      "Ekaterina Monakhova",
+      "Aidan Pintuff",
+      "Rory Kruithoff",
+      "Domenico F. Galati",
+      "Navish Wadhwa",
+      "Douglas P. Shepherd"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16983",
+    "title": "Tuning excitation transport in a dissipative Rydberg ring",
+    "abstract": "We demonstrate the flexible tunability of excitation transport in Rydberg atoms, under the interplay of controlled dissipation and interaction-induced synthetic flux. Considering a minimum four-site setup -- a triangular configuration with an additional output site -- we study the transport of a single excitation, injected into a vertex of the triangle, through the structure. While the long-range dipole-dipole interactions between the Rydberg atoms lead to geometry-dependent Peierls phases in the hopping amplitudes of excitations, we further introduce on-site dissipation to a vertex of the triangle. As a result, both the chirality and destination of the transport can be manipulated through the flux and dissipation. In particular, we illustrate a parameter regime where our Rydberg-ring structure may serve as a switch for transporting the injected excitation through to the output site. The underlying mechanism is then analyzed by studying the chiral trajectory of the excitation and the time-dependent dissipation. ",
+    "url": "https://arxiv.org/abs/2309.16983",
+    "authors": [
+      "Yiwen Han",
+      "Wei Yi"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17081",
+    "title": "Beyond the Cavity: Molecular Strong Coupling using an Open Fabry-Perot  Cavity",
+    "abstract": "The coherent strong coupling of molecules with confined light fields to create polaritons - part matter, part light - is opening exciting opportunities ranging from extended exciton transport and inter-molecular energy transfer to modified chemistry and material properties. In many of the envisaged applications open access to the molecules involved is vital, as is independent control over polariton dispersion, and spatial uniformity. Existing cavity designs are not able to offer all of these advantages simultaneously. Here we demonstrate an alternative yet simple cavity design that exhibits all of the the desired features. We hope the approach we offer here will provide a new technology platform to both study and exploit molecular strong coupling. Although our experimental demonstration is based on excitonic strong coupling, we also indicate how the approach might also be achieved for vibrational strong coupling. ",
+    "url": "https://arxiv.org/abs/2309.17081",
+    "authors": [
+      "Kishan. S. Menghrajani",
+      "Benjamin. J. Bower",
+      "Graham. J. Leggett",
+      "William. L. Barnes"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17111",
+    "title": "Master-Slave synchronization of silicon optomechanical nanobeam  oscillators by external feedback",
+    "abstract": "The remote synchronization of oscillators is essential for improving the performance, efficiency, and reliability of various systems and technologies, ranging from everyday telecommunications to cutting-edge scientific research and emerging technologies. In this work, we unequivocally demonstrate a master-slave type of synchronization between two self-sustained optomechanical crystal oscillators that interact solely through an external optical feedback stage. Several pieces of experimental evidence rule out the possibility of resonant forcing, and, in contrast to previous works, indicate that synchronization is achieved in the regime of natural dynamics suppression. Our experimental results are in agreement with the predictions of a numerical model describing the specific mechanical lasing dynamics of each oscillator and the unidirectional interaction between them. The outcomes of our study pave the way toward the synchronization of clock signals corresponding to far-placed processing elements in a future synchronous photonic integrated circuit. ",
+    "url": "https://arxiv.org/abs/2309.17111",
+    "authors": [
+      "David Alonso-Tom\u00e1s",
+      "Nestor E. Capuj",
+      "Laura Mercad\u00e9",
+      "Amadeu Griol",
+      "Alejadro Mart\u00ednez",
+      "Daniel Navarro-Urrios"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17146",
+    "title": "Polaritons in photonic hypercrystals of van der Waals materials",
+    "abstract": "In-plane Hyperbolic Phonon polaritons (HPhPs) are quasiparticles formed via coupling of photons and optical phonons in in-plane hyperbolic materials and offer unique applications in sensing, thermal emitters and high resolution imaging. However, the large momentum mismatch between photons and these in-plane HPhPs has restricted their technological potential as most experimental demonstration rely on sophisticated and expensive near field detection schemes. In this work, using the example of $\\alpha-$MoO$_3$, we demonstrate that by constructing photonic hypercrystals of this material, one can not only excite these in-plane HPhPs in the far field but also tune the far field response via twisting the hypercrystal lattice with respect the lattice of $\\alpha-$MoO$_3$. Our findings will pave the way for the development of practical in-plane HPhP devices as well as provide access to new fundamental physics of such materials via conventional and well developed far field measurement techniques. ",
+    "url": "https://arxiv.org/abs/2309.17146",
+    "authors": [
+      "Nihar Ranjan Sahoo",
+      "Brijesh Kumar",
+      "S.S. Jatin Prasath",
+      "Aneesh Bapat",
+      "Parul Sharma",
+      "Anshuman Kumar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17222",
+    "title": "Fine-Resolution Silicon Photonic Wavelength-Selective Switch Using  Hybrid Multimode Racetrack Resonators",
+    "abstract": "In this work, we describe a procedure for synthesizing racetrack resonators with large quality factors and apply it to realize a multi-channel wavelength-selective switch (WSS) on a silicon photonic chip. We first determine the contribution of each component primitive to propagation loss in a racetrack resonator and use this data to develop a model for the frequency response of arbitrary order, coupled-racetrack channel dropping filters. We design second-order racetrack filters based on this model and cascade multiple such filters to form a 1x7 WSS. We find good agreement between our model and device performance with second-order racetrack that have ~1 dB of drop-port loss, ~2 GHz FWHM linewidth, and low optical crosstalk due to the quick filter roll-off of ~ 5.3 dB/GHz. Using a control algorithm, we show three-channel operation of our WSS with a channel spacing of only 10 GHz. Owing to the high quality factor and quick roll-off of our filter design, adjacent channel crosstalk is measured to be <-25 dB for channels spaced on a 10 GHz grid. As a further demonstration, we use five of seven WSS channels to perform a demultiplexing operation on both an 8 GHz and a 10 GHz grid. These results suggest that a low-loss WSS with fine channel resolution can be realized in a scalable manner using the silicon photonics platform. ",
+    "url": "https://arxiv.org/abs/2309.17222",
+    "authors": [
+      "Lucas M. Cohen",
+      "Saleha Fatema",
+      "Vivek V. Wankhade",
+      "Navin B. Lingaraju",
+      "Bohan Zhang",
+      "Deniz Onural",
+      "Milos Popovic",
+      "Andrew M. Weiner"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17233",
+    "title": "Open Hardware in Quantum Technology",
+    "abstract": "Quantum technologies such as communications, computing, and sensing offer vast opportunities for advanced research and development. While an open-source ethos currently exists within some quantum technologies, especially in quantum computer programming, we argue that there are additional advantages in developing open quantum hardware (OQH). Open quantum hardware encompasses open-source software for the control of quantum devices in labs, blueprints and open-source toolkits for chip design and other hardware components, as well as openly-accessible testbeds and facilities that allow cloud-access to a wider scientific community. We provide an overview of current projects in the OQH ecosystem, identify gaps, and make recommendations on how to close them today. More open quantum hardware would accelerate technology transfer to and growth of the quantum industry and increase accessibility in science. ",
+    "url": "https://arxiv.org/abs/2309.17233",
+    "authors": [
+      "Nathan Shammah",
+      "Anurag Saha Roy",
+      "Carmen G. Almudever",
+      "S\u00e9bastien Bourdeauducq",
+      "Anastasiia Butko",
+      "Gustavo Cancelo",
+      "Susan M. Clark",
+      "Johannes Heinsoo",
+      "Lo\u00efc Henriet",
+      "Gang Huang",
+      "Christophe Jurczak",
+      "Janne Kotilahti",
+      "Alessandro Landra",
+      "Ryan LaRose",
+      "Andrea Mari",
+      "Kasra Nowrouzi",
+      "Caspar Ockeloen-Korppi",
+      "Guen Prawiroatmodjo",
+      "Irfan Siddiqi",
+      "William J. Zeng"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16785",
+    "title": "Optical and spin coherence of Er$^{3+}$ in epitaxial CeO$_2$ on silicon",
+    "abstract": "Solid-state atomic defects with optical transitions in the telecommunication bands, potentially in a nuclear spin free environment, are important for applications in fiber-based quantum networks. Erbium ions doped in CeO$_2$ offer such a desired combination. Here we report on the optical homogeneous linewidth and electron spin coherence of Er$^{3+}$ ions doped in CeO$_2$ epitaxial film grown on a Si(111) substrate. The long-lived optical transition near 1530 nm in the environmentally-protected 4f shell of Er$^{3+}$ shows a narrow homogeneous linewidth of 440 kHz with an optical coherence time of 0.72 $\\mu$s at 3.6 K. The reduced nuclear spin noise in the host allows for Er$^{3+}$ electron spin polarization at 3.6 K, yielding an electron spin coherence of 0.66 $\\mu$s (in the isolated ion limit) and a spin relaxation of 2.5 ms. These findings indicate the potential of Er$^{3+}$:CeO$_2$ film as a valuable platform for quantum networks and communication applications. ",
+    "url": "https://arxiv.org/abs/2309.16785",
+    "authors": [
+      "Jiefei Zhang",
+      "Gregory D. Grant",
+      "Ignas Masiulionis",
+      "Michael T. Solomon",
+      "Jasleen K. Bindra",
+      "Jens Niklas",
+      "Alan M. Dibos",
+      "Oleg G. Poluektov",
+      "F. Joseph Heremans",
+      "Supratik Guha",
+      "David D. Awschalom"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17021",
+    "title": "Optical manipulation of sessile droplets of nematic liquid crystalline  materials on the surface of a photovoltaic crystal",
+    "abstract": "We investigated the effects of laser irradiation on sessile droplets of three well-known liquid crystalline 12 materials (5CB, 8CB, E7) deposited on the surface of an iron-doped lithium niobate (LN:Fe) crystal. The static electric 13 field, which is generated via the bulk photovoltaic effect in the LN:Fe substrate, produces the merging of smaller 14 droplets into filaments oriented in the radial direction with respect to the laser spot. It also induces filament jetting 15 from the rim of larger droplets toward the center of the illumination area. When the laser beam is focused directly 16 onto the larger droplets, they abruptly disintegrate via the formation of several jet streams. The described effects are 17 present in the nematic and also in the isotropic phase. We attribute them to a large gradient of the surface electric field 18 that produces driving forces via the induced dipole moments of the droplets, analogous to electric field-based droplets 19 transport mechanisms known for standard dielectric liquids. ",
+    "url": "https://arxiv.org/abs/2309.17021",
+    "authors": [
+      "R. Karapinar",
+      "L. Cmok",
+      "X. Zhang",
+      "I. Drevensek-Olenik"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17126",
+    "title": "Population Oscillations and Ubiquitous Coherences in multilevel quantum  systems driven by incoherent radiation",
+    "abstract": "We consider incoherent excitation of multilevel quantum systems, e.g. molecules with multiple vibronic states. We show that (1) the geometric constraints of the matter-field coupling operator guarantee that noise-induced coherences will be generated in all systems with four or more energy eigenstates and (2) noise-induced coherences can lead to population oscillations due to quantum interference via coherence transfer between pairs of states in the ground and excited manifolds. Our findings facilitate the experimental detection of noise-induced coherent dynamics in complex quantum systems. ",
+    "url": "https://arxiv.org/abs/2309.17126",
+    "authors": [
+      "Amro Dodin",
+      "Timur V. Tscherbul",
+      "Paul Brumer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.17374",
+    "title": "2D silver-nanoplatelets metasurface for bright directional  photoluminescence, designed with the local Kirchhoff's law",
+    "abstract": "Semiconductor colloidal nanocrystals are excellent light emitters in terms of efficiency and spectral control. Integrating them with a metasurface would pave the way to ultrathin photoluminescent devices with reduced amount of active material and performing complex functionalities such as beam shaping or polarization control. To design such a metasurface, a quantitative model of the emitted power is needed. Here, we report the design, fabrication and characterization of a $\\approx$ 300 nm thick light-emitting device combining a plasmonic metasurface with an ensemble of nanoplatelets. The source has been designed with a new methodology based on a local form of Kirchhoff's law. The source displays record high directionality and brightness. ",
+    "url": "https://arxiv.org/abs/2309.17374",
+    "authors": [
+      "Elise Bailly",
+      "Jean-Paul Hugonin",
+      "Jean-Ren\u00e9 Coudevylle",
+      "Corentin Dabard",
+      "Sandrine Ithurria",
+      "Benjamin Vest",
+      "Jean-Jacques Greffet"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.01190",
+    "title": "Quantum spatial superpositions and the possibility of superluminal  signaling",
+    "abstract": " Comments: Version accepted in Phys. Rev. D ",
+    "url": "https://arxiv.org/abs/2204.01190",
+    "authors": [
+      "P. \u00c1vila",
+      "E. Okon",
+      "D. Sudarsky",
+      "M. Wiedemann"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2206.04494",
+    "title": "Multi-state quantum simulations via model-space quantum imaginary time  evolution",
+    "abstract": " Comments: 15 pages, 10 figures, 1 table. arXiv admin note: substantial text overlap with arXiv:2205.01983 ",
+    "url": "https://arxiv.org/abs/2206.04494",
+    "authors": [
+      "Takashi Tsuchimochi",
+      "Yoohee Ryo",
+      "Siu Chung Tsang",
+      "Seiichiro L. Ten-no"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.01321",
+    "title": "Signatures for strong-field QED physics in the quantum limit of  beamstrahlung",
+    "abstract": " Comments: 12 pages, 5 figures; To be published at Physical Review A ",
+    "url": "https://arxiv.org/abs/2302.01321",
+    "authors": [
+      "W. L. Zhang",
+      "T. Grismayer",
+      "L. O. Silva"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Theory (hep-th)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.10570",
+    "title": "Numerical simulations of atmospheric quantum channels",
+    "abstract": " Comments: 20 pages, 16 figures, the ancillary files contain numerically simulated data, an interactive tool for their visualization, and the corresponding Python 3 code ",
+    "url": "https://arxiv.org/abs/2305.10570",
+    "authors": [
+      "M. Klen",
+      "A. A. Semenov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.15370",
+    "title": "Deep learning nonlocal and scalable energy functionals for quantum Ising  models",
+    "abstract": " Comments: 14 pages, 15 figures ",
+    "url": "https://arxiv.org/abs/2305.15370",
+    "authors": [
+      "Emanuele Costa",
+      "Rosario Fazio",
+      "Sebastiano Pilati"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.11600",
+    "title": "Optical pumping enhancement of a free-induction-decay magnetometer",
+    "abstract": " Comments: 10 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2307.11600",
+    "authors": [
+      "Dominic Hunter",
+      "Marcin S. Mrozowski",
+      "Allan McWilliam",
+      "Stuart J. Ingleby",
+      "Terry E. Dyer",
+      "Paul F. Griffin",
+      "Erling Riis"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.09933",
+    "title": "Increasing the dimension of linear systems solved by classical or  quantum binary optimization: A new method to solve large linear equation  systems",
+    "abstract": " Comments: 12 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2309.09933",
+    "authors": [
+      "Erick R. Castro",
+      "Eldues O. Martins",
+      "Roberto S. Sarthour",
+      "Alexandre M. Souza",
+      "Ivan S. Oliveira"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
