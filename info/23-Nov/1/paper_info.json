@@ -1,0 +1,390 @@
+[
+  {
+    "id": "arXiv:2310.19846",
+    "title": "A high-Q metasurface signal isolator for 1.5T surface coil magnetic  resonance imaging on the go",
+    "abstract": "The combination of surface coils and metamaterials remarkably enhance magnetic resonance imaging (MRI) performance for significant local staging flexibility. However, due to the coupling in between, impeded signal-to-noise ratio (SNR) and low-contrast resolution, further hamper the future growth in clinical MRI. In this paper, we propose a high-Q metasurface decoupling isolator fueled by topological LC loops for 1.5T surface coil MRI system, increasing the magnetic field up to fivefold at 63.8 MHz. We have employed a polarization conversion mechanism to effectively eliminate the coupling between the MRI metamaterial and the radio frequency (RF) surface transmitter-receiver coils. Furthermore, a high-Q metasurface isolator was achieved by taking advantage of bound states in the continuum (BIC) for extremely high-field MRI and spectroscopy. An equivalent physical model of the miniaturized metasurface design was put forward through LC circuit analysis. This study opens up a promising route for the easy-to-use and portable surface coil MRI scanners. ",
+    "url": "https://arxiv.org/abs/2310.19846",
+    "authors": [
+      "Qun Ren",
+      "Yuxin Lang",
+      "Yuqi Ja",
+      "Xia Xiao",
+      "Yu Liu",
+      "Xiangzheng Kong",
+      "Ruiqi Jin",
+      "Yongqing He",
+      "Jianwei You",
+      "Wei Sha",
+      "Yanwei Pang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.19969",
+    "title": "Light focusing and additive manufacturing through highly scattering  media using upconversion nanoparticles",
+    "abstract": "Light-based additive manufacturing holds great potential in the field of bioprinting due to its exceptional spatial resolution, enabling the reconstruction of intricate tissue structures. However, printing through biological tissues is severely limited due to the strong optical scattering within the tissues. The propagation of light is scrambled to form random speckle patterns, making it impossible to print features at the diffraction-limited size with conventional printing approaches. The poor tissue penetration depth of ultra-violet or blue light, which is commonly used to trigger photopolymerization, further limits the fabrication of high cell-density tissue constructs. Recently, several strategies based on wavefront shaping have been developed to manipulate the light and refocus it inside scattering media to a diffraction-limited spot. In this study, we present a high-resolution additive manufacturing technique using upconversion nanoparticles and a wavefront shaping method that does not require measurement from an invasive detector, i.e., it is a non-invasive technique. Upconversion nanoparticles convert near-infrared light to ultraviolet and visible light. The ultraviolet light serves as a light source for photopolymerization and the visible light as a guide star for digital light shaping. The incident light pattern is manipulated using the feedback information of the guide star to focus light through the tissue. In this way, we experimentally demonstrate that near-infrared light can be non-invasively focused through a strongly scattering medium. By exploiting the optical memory effect, we further demonstrate micro-meter resolution additive manufacturing through highly scattering media such as a 300-{\\mu}m-thick chicken breast. This study provides a proof of concept of high-resolution additive manufacturing through turbid media with potential application in tissue engineering. ",
+    "url": "https://arxiv.org/abs/2310.19969",
+    "authors": [
+      "Qianyi Zhang",
+      "Antoine Boniface",
+      "Virendra K. Parashar",
+      "Martin A. M. Gijs",
+      "Christophe Moser"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20019",
+    "title": "Flexible metasurface for improving brain imaging at 7T",
+    "abstract": "Ultra-high field MRI offers unprecedented detail for non-invasive visualization of the human brain. However, brain imaging is challenging at 7T due to the B$_1^+$ field inhomogeneity, which results in signal intensity drops in temporal lobes and a bright region in the brain center. This study aims to evaluate using a metasurface to improve brain imaging at 7T and simplify the investigative workflow. Two flexible metasurfaces, each comprising a periodic structure of copper strips and parallel-plate capacitive elements printed on an ultra-thin substrate, were optimized for brain imaging and implemented via PCB. We considered two setups: (1) two metasurfaces located near the temporal lobes; and (2) one metasurface placed near the occipital lobe The effect of metasurface placement on the transmit efficiency and specific absorption rate was evaluated via electromagnetic simulation studies with voxelized models. In addition, their impact on SNR and diagnostic image quality was evaluated in vivo for male and female volunteers. Placement of metasurfaces near the regions of interest led to an increase in homogeneity of the transmit field by 5$\\%$ and 10.5$\\%$ in the right temporal lobe and occipital lobe for a male subject, respectively. SAR values changed insignificantly and were under recommended limits. In vivo studies also confirmed the numerically predicted improvement in field distribution and receive sensitivity in the desired ROI. Optimized metasurfaces enable homogenizing transmit field distribution in the brain at 7T. The proposed lightweight and flexible structure has the potential to provide MR examination with higher diagnostic value images. ",
+    "url": "https://arxiv.org/abs/2310.20019",
+    "authors": [
+      "Vladislav Koloskov",
+      "Wyger Brink",
+      "Andrew Webb",
+      "Alena Shchelokova"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20022",
+    "title": "Efficient formulation of multitime generalized quantum master equations:  Taming the cost of simulating 2D spectra",
+    "abstract": "Modern 4-wave mixing spectroscopies are expensive to obtain experimentally and computationally. In certain cases, the unfavorable scaling of quantum dynamics problems can be improved using a generalized quantum master equation (GQME) approach. However, the inclusion of multiple (light-matter) interactions complicates the equation of motion and leads to seemingly unavoidable cubic scaling in time. In this paper, we present a formulation that greatly simplifies and reduces the computational cost of previous work that extended the GQME framework to treat arbitrary numbers of quantum measurements. Specifically, we remove the time derivatives of quantum correlation functions from the modified Mori-Nakajima-Zwanzig framework by switching to a discrete-convolution implementation inspired by the transfer-tensor approach. We then demonstrate the method's capabilities by simulating 2D electronic spectra for the excitation-energy-transfer dimer model. In our method, the resolution of the data can be arbitrarily coarsened, especially along the $t_2$ axis, which mirrors how the data are obtained experimentally. Even in a modest case, this demands $\\mathcal{O}(10^3)$ fewer data points. We are further able to decompose the spectra into 1-, 2-, and 3-time correlations, showing how and when the system enters a Markovian regime where further measurements are unnecessary to predict future spectra and the scaling becomes quadratic. This offers the ability to generate long-time spectra using only short-time data, enabling access to timescales previously beyond the reach of standard methodologies. ",
+    "url": "https://arxiv.org/abs/2310.20022",
+    "authors": [
+      "Thomas Sayer",
+      "Andr\u00e9s Montoya-Castillo"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20157",
+    "title": "Electrically empowered microcomb laser",
+    "abstract": "Optical frequency comb underpins a wide range of applications from communication, metrology, to sensing. Its development on a chip-scale platform -- so called soliton microcomb -- provides a promising path towards system miniaturization and functionality integration via photonic integrated circuit (PIC) technology. Although extensively explored in recent years, challenges remain in key aspects of microcomb such as complex soliton initialization, high threshold, low power efficiency, and limited comb reconfigurability. Here we present an on-chip laser that directly outputs microcomb and resolves all these challenges, with a distinctive mechanism created from synergetic interaction among resonant electro-optic effect, optical Kerr effect, and optical gain inside the laser cavity. Realized with integration between a III-V gain chip and a thin-film lithium niobate (TFLN) PIC, the laser is able to directly emit mode-locked microcomb on demand with robust turnkey operation inherently built in, with individual comb linewidth down to 600 Hz, whole-comb frequency tuning rate exceeding $\\rm 2.4\\times10^{17}$ Hz/s, and 100% utilization of optical power fully contributing to comb generation. The demonstrated approach unifies architecture and operation simplicity, high-speed reconfigurability, and multifunctional capability enabled by TFLN PIC, opening up a great avenue towards on-demand generation of mode-locked microcomb that is expected to have profound impact on broad applications. ",
+    "url": "https://arxiv.org/abs/2310.20157",
+    "authors": [
+      "Jingwei Ling",
+      "Zhengdong Gao",
+      "Shixin Xue",
+      "Qili Hu",
+      "Mingxiao Li",
+      "Kaibo Zhang",
+      "Usman A. Javid",
+      "Raymond Lopez-Rios",
+      "Jeremy Staffa",
+      "Qiang Lin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20197",
+    "title": "Accelerating the convergence of free electron laser simulations by  retrieving a spatially-coherent component of microbunching",
+    "abstract": "A simple method to reduce the numerical cost in free electron laser (FEL) simulations is presented, which is based on retrieving a spatially-coherent component of microbunching to suppress artifact effects that can potentially overestimate the FEL gain; this significantly reduces the number of macroparticles to reach the numerical convergence and enables the direct computation of amplified radiation without solving the wave equation. Examples of FEL simulations performed to demonstrate the proposed method show that the computation time to get a reliable result is reduced by 1-2 orders of magnitude depending on the simulation condition. ",
+    "url": "https://arxiv.org/abs/2310.20197",
+    "authors": [
+      "Takashi Tanaka"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20233",
+    "title": "Generation of electro-optic frequency combs with optimized flatness in a  silicon ring resonator modulator",
+    "abstract": "The flatness of electro-optic frequency combs (EOFCs) generated in a single silicon ring resonator modulator (RRM) is optimized by employing harmonic superposition of the radio-frequency driving signal. A differential evolution algorithm is employed in conjunction with a simplified model of the RRM for offline optimization of the amplitudes and phases of harmonic driving signals and the operating point of the RRM. The optimized driving signals are then applied to a silicon RRM. EOFCs containing 7 and 9 lines are synthesized with a power imbalance between the lines of 2.9 dB and 5.4 dB, respectively, compared to 9.4 dB for an optimized 5-line comb generated from a single sinusoidal driving signal. ",
+    "url": "https://arxiv.org/abs/2310.20233",
+    "authors": [
+      "Erwan Weckenmann",
+      "Thyago Monteiro",
+      "Uiara Celine de Moura",
+      "Francesco Da Ros",
+      "Laurent Bramerie",
+      "Mathilde Gay",
+      "Diego P\u00e9rez-Galacho",
+      "Lucas Deniel",
+      "Fr\u00e9d\u00e9ric Boeuf",
+      "Delphine Marris-Morini",
+      "Darko Zibar",
+      "Christophe Peucheret"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20296",
+    "title": "Theoretical Analysis of Terahertz Detection of Resonant Tunneling Diodes",
+    "abstract": "We analyze the terahertz detection characteristics of resonant tunneling diodes (RTDs) using a set of simple equations that covers three detection modes; (i) direct detection, (ii) amplified detection, and (iii) self-homodyne (coherent) detection. (i) and (ii) are based on the square-law detection, and (iii) is on the homodyne detection with the RTD used as an injection-locked local oscillator. The calculated results exhibit small- and large-signal areas depending on irradiation power. In the small-signal area, the detection current is proportional to irradiated power for (i) and (ii), and to square root of irradiated power for (iii). The detection current has a peak at the bias voltage at the boundary between (ii) and (iii). Effect of frequency fluctuation of irradiated wave is analyzed for (iii), and it is shown that the detection current is proportional to irradiated power if the fluctuation becomes wider than injection-locking range. The analytical results in this paper reasonably explain the reported experiments. ",
+    "url": "https://arxiv.org/abs/2310.20296",
+    "authors": [
+      "Masahiro Asada",
+      "Safumi Suzuki"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20298",
+    "title": "Analysis to closed surface-wave photonic crystal waveguides based on  coupled-resonator optical waveguide theory",
+    "abstract": "Traditionally, one can construct a waveguide by introduce defects into surface-wave photonic crystals (SPCs). Here we propose a new structure named closed SPC that can introduce waveguide modes out of photonic bandgap of surface-wave photonic crystal. In this paper, we have comprehensively analyzed dispersion relation, group velocity, normalized transmission and electric field distribution of closed SPC waveguides, and propose several methods to improve performance of the waveguide based on coupled-resonator optical waveguide theory. These methods can improve transmission efficiency from 10% to 60% and eliminate intraband oscillation by adjusting eigenfrequency and coupling factor . These methods are applicable to both single mode and multi mode situations. This letter also paves a new way for improving the performance of other coupled-resonator waveguides. ",
+    "url": "https://arxiv.org/abs/2310.20298",
+    "authors": [
+      "Y.H. Zheng",
+      "C. Wang",
+      "J.C. Cao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20336",
+    "title": "Origins and conservation of topological polarization defects in resonant  photonic-crystal diffraction",
+    "abstract": "We present a continuative definition of topological charge to depict the polarization defects on any resonant diffraction orders in photonic crystal slab regardless they are radiative or evanescent. By using such a generalized definition, we investigate the origins and conservation of integer polarization defects across the whole Brollouin zone. We found that these polarization defects eventually originate from the mode degeneracy that is induced by lattice coupling as a consequence of momentum space folding, or inter-band coupling that can be either Hermitian or Non-hermitian. By counting all types of polarization defects, the total topological charge numbers in a given diffraction order is a conserved quantity across the whole Brillouin zone that is determined by lattice geometry only. ",
+    "url": "https://arxiv.org/abs/2310.20336",
+    "authors": [
+      "Xuefan Yin",
+      "Takuya Inoue",
+      "Chao Peng",
+      "Susumu Noda"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20445",
+    "title": "Harnessing collective radiative phenomena on a photonic kagome lattice",
+    "abstract": "Photonic lattices enable experimental exploration of transport and localization phenomena, two of the mayor goals in physics and technology. In particular, the optical excitation of some lattice sites which evanescently couple to a lattice array emulates radiation processes into structured reservoirs, a fundamental subject in quantum optics. Moreover, the simultaneous excitation of two sites simulates collective phenomena, leading to phase-controlled enhanced or suppressed radiation, namely super and subradiance. This work presents an experimental study of collective radiative processes on a photonic kagome lattice. A single or simultaneous -- in or out-of-phase -- excitation of the outlying sites controls the radiation dynamics. Specifically, we demonstrate a controlable transition between a fully localized profile at the two outlying sites and a completely dispersed state into the quasi-continuum. Our result presents photonic lattices as a platform to emulate and experimentally explore quantum optical phenomena in two-dimensional structured reservoirs, while harnessing such phenomena for controlling transport dynamics and implementing all-optical switching devices. ",
+    "url": "https://arxiv.org/abs/2310.20445",
+    "authors": [
+      "Ignacio Salinas",
+      "Javier Cubillos Cornejo",
+      "Alexander Szameit",
+      "Pablo Solano",
+      "Rodrigo A. Vicencio"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20520",
+    "title": "Efficiency of gratings for silica fiber-coupled internal Smith-Purcell  radiation and Cherenkov diffraction radiation -- a quantitative numerical  study",
+    "abstract": "We propose a setup for measuring visible and near-visible internal Smith-Purcell radiation and Cherenkov Diffraction Radiation, based on silica and silicon, and perform quantitative numerical analysis of its radiation efficiency. We calculate the total radiated energy per electron and the spectral distribution of different radiation orders, taking into account material dispersion and absorption. For an optimized silica grating of 200 micrometer length, the total radiated energy reaches 2~eV per electron for 2 MeV electrons. Above the Cherenkov threshold, in most cases the energy of Cherenkov diffraction radiation is several times higher than the energy of internal Smith-Purcell radiation, but for some geometries and frequency ranges first or second order radiation may dominate over Cherenkov radiation (zeroth order). Radiation up to the 4th order is detected in the simulation. The spectrum of Cherenkov radiation is highly resonant, with local minima for frequencies where maxima of the other radiation orders occur. The spectrum of Cherenkov radiation takes a frequency comb-like shape for a uniform layer of Si on SiO2 substrate, due to a Fabry-Perot effect occurring for the evanescent field of the moving electron. The proposed setup could become a prototype of a non-invasive particle beam monitor for both conventional and laser particle accelerators. ",
+    "url": "https://arxiv.org/abs/2310.20520",
+    "authors": [
+      "Andrzej Szczepkowicz",
+      "Dmytro Konakhovych",
+      "Damian Sniezek",
+      "Dylan S. Black",
+      "R. Joel England",
+      "Yen-Chieh Huang",
+      "Levi Schachter"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20540",
+    "title": "Fabrication of quantum emitters in aluminium nitride by Al-ion  implantation and thermal annealing",
+    "abstract": "Single-photon emitters (SPEs) within wide-bandgap materials represent an appealing platform for the development of single-photon sources operating at room temperatures. Group III- nitrides have previously been shown to host efficient SPEs which are attributed to deep energy levels within the large bandgap of the material, in a way that is similar to extensively investigated colour centres in diamond. Anti-bunched emission from defect centres within gallium nitride (GaN) and aluminium nitride (AlN) have been recently demonstrated. While such emitters are particularly interesting due to the compatibility of III-nitrides with cleanroom processes, the nature of such defects and the optimal conditions for forming them are not fully understood. Here, we investigate Al implantation on a commercial AlN epilayer through subsequent steps of thermal annealing and confocal microscopy measurements. We observe a fluence-dependent increase in the density of the emitters, resulting in creation of ensembles at the maximum implantation fluence. Annealing at 600 {\\deg}C results in the optimal yield in SPEs formation at the maximum fluence, while a significant reduction in SPE density is observed at lower fluences. These findings suggest that the mechanism of vacancy formation plays a key role in the creation of the emitters, and open new perspectives in the defect engineering of SPEs in solid state. ",
+    "url": "https://arxiv.org/abs/2310.20540",
+    "authors": [
+      "E. Nieto Hern\u00e1ndez",
+      "H.B. Ya\u011fc\u0131",
+      "V. Pugliese",
+      "P. Apr\u00e0",
+      "J. K. Cannon",
+      "S. G. Bishop",
+      "J. Hadden",
+      "S. Ditalia Tchernij",
+      "Olivero",
+      "A.J. Bennett",
+      "J. Forneris"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20014",
+    "title": "Cavity-coupled telecom atomic source in silicon",
+    "abstract": "Atomic defects in solid-state materials are promising candidates for quantum interconnect and networking applications. Recently, a series of atomic defects have been identified in the silicon platform, where scalable device integration can be enabled by mature silicon photonics and electronics technologies. In particular, T centers hold great promise due to their telecom band optical transitions and the doublet ground state electronic spin manifold with long coherence times. However, an open challenge for advancing the T center platform is to enhance its weak and slow zero phonon line emission. In this work, we demonstrate the cavity-enhanced fluorescence emission from a single T center. This is realized by integrating single T centers with a low-loss, small mode-volume silicon photonic crystal cavity, which results in an enhancement of the fluorescence decay rate by a factor of $F$ = 6.89. Efficient photon extraction enables the system to achieve an average photon outcoupling rate of 73.3 kHz at the zero phonon line. The dynamics of the coupled system is well modeled by solving the Lindblad master equation. These results represent a significant step towards building efficient T center spin-photon interfaces for quantum information processing and networking applications. ",
+    "url": "https://arxiv.org/abs/2310.20014",
+    "authors": [
+      "Adam Johnston",
+      "Ulises Felix-Rendon",
+      "Yu-En Wong",
+      "Songtao Chen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20276",
+    "title": "Temperature dependent optical properties of $\\varepsilon$-Ga$_2$O$_3$  thin films",
+    "abstract": "We determined the complex dielectric functions of $\\varepsilon$-Ga$_2$O$_3$ using optical transmittance and reflectance spectroscopies at temperatures from 10 K to room temperature. The measured dielectric-function spectra reveal distinct structures at a bandgap energy. We fitted a model dielectric function based on the electronic energy-band structure to these experimental data. We analyzed the temperature dependence of the band-gap with a model based on phonon dispersion effects. One could explain it in terms of phonon-related parameters such as the optical phonon temperature. We compare phonon-related properties of $\\varepsilon$-Ga$_2$O$_3$ with those of a large variety of element and binary semiconductors. ",
+    "url": "https://arxiv.org/abs/2310.20276",
+    "authors": [
+      "T. Makino",
+      "S. Yusa",
+      "D. Oka",
+      "T. Fukumura"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.20645",
+    "title": "Identifying electronic transitions of defects in hexagonal boron nitride  for quantum memories",
+    "abstract": "A quantum memory is a crucial keystone for enabling large-scale quantum networks. Applicable to the practical implementation, specific properties, i.e., long storage time, selective efficient coupling with other systems, and a high memory efficiency are desirable. Though many quantum memory systems have been developed thus far, none of them can perfectly meet all requirements. This work herein proposes a quantum memory based on color centers in hexagonal boron nitride (hBN), where its performance is evaluated based on a simple theoretical model of suitable defects in a cavity. Employing density functional theory calculations, 257 triplet and 211 singlet spin electronic transitions have been investigated. Among these defects, we found that some defects inherit the $\\Lambda$ electronic structures desirable for a Raman-type quantum memory and optical transitions can couple with other quantum systems. Further, the required quality factor and bandwidth are examined for each defect to achieve a 95\\% writing efficiency. Both parameters are influenced by the radiative transition rate in the defect state. In addition, inheriting triplet-singlet spin multiplicity indicates the possibility of being a quantum sensing, in particular, optically detected magnetic resonance. This work therefore demonstrates the potential usage of hBN defects as a quantum memory in future quantum networks. ",
+    "url": "https://arxiv.org/abs/2310.20645",
+    "authors": [
+      "Chanaprom Cholsuk",
+      "Asli Cakan",
+      "Sujin Suwanna",
+      "Tobias Vogl"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.09549",
+    "title": "QH9: A Quantum Hamiltonian Prediction Benchmark for QM9 Molecules",
+    "abstract": " Comments: Accepted by NeurIPS 2023, Track on Datasets and Benchmarks ",
+    "url": "https://arxiv.org/abs/2306.09549",
+    "authors": [
+      "Haiyang Yu",
+      "Meng Liu",
+      "Youzhi Luo",
+      "Alex Strasser",
+      "Xiaofeng Qian",
+      "Xiaoning Qian",
+      "Shuiwang Ji"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.12781",
+    "title": "Scalable Electrodeposition of Eutectic Indium Gallium from an  Acetonitrile-Based Electrolyte for Integrated Stretchable Electronics",
+    "abstract": " Comments: The main manuscript contains 29 pages and 5 figures. The supporting information, attached to the document after the references, contains 8 pages and 8 figures. The manuscript is submitted to the journal Advanced Materials. Francisco Molina-Lopez an Jan Fransaer share the role of corresponding author ",
+    "url": "https://arxiv.org/abs/2306.12781",
+    "authors": [
+      "Wouter Monnens",
+      "Bokai Zhang",
+      "Zhenyu Zhou",
+      "Laurens Snels",
+      "Koen Binnemans",
+      "Francisco Molina-Lopez",
+      "Jan Fransaer"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.15561",
+    "title": "Setups for eliminating static charge of the ATLAS18 strip sensors",
+    "abstract": " Title: Setups for eliminating static charge of the ATLAS18 strip sensors ",
+    "url": "https://arxiv.org/abs/2309.15561",
+    "authors": [
+      "P. Federicova",
+      "A. Affolder",
+      "G.A. Beck",
+      "A. J. Bevand",
+      "Z. Chen",
+      "I. Dawson",
+      "A. Deshmukh",
+      "A. Dowling",
+      "V. Fadeyev",
+      "J. Fernandez-Tejero",
+      "A. Fournier",
+      "N. Gonzalez",
+      "L. Hommels",
+      "C. Jessiman",
+      "S. Kachiguin",
+      "Ch. Klein",
+      "T. Koffas",
+      "J. Kroll",
+      "V. Latonova",
+      "M. Mikestikova",
+      "P. S. Miyagawa",
+      "S. O'Toole",
+      "Q. Paddock",
+      "L. Poley",
+      "E. Staats",
+      "B. Stelzer",
+      "P. Tuma",
+      "M. Ullan",
+      "Y. Unno",
+      "S. C. Zenz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.10057",
+    "title": "Storage and retrieval of electromagnetic waves in a metasurface based on  bound states in the continuum by conductivity modulation",
+    "abstract": " Comments: 7 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2310.10057",
+    "authors": [
+      "Toshihiro Nakanishi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.17819",
+    "title": "Multiplexed Processing of Quantum Information Across an Ultra-wide  Optical Bandwidth",
+    "abstract": " Title: Multiplexed Processing of Quantum Information Across an Ultra-wide  Optical Bandwidth ",
+    "url": "https://arxiv.org/abs/2310.17819",
+    "authors": [
+      "Alon Eldan",
+      "Ofek Gilon",
+      "Asher Lagimi",
+      "Elai Forman",
+      "Avi Pe'er"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
