@@ -1,1 +1,296 @@
-[]
+[
+  {
+    "id": "arXiv:2311.00722",
+    "title": "Fully digital platform for local ultra-stable optical frequency  distribution",
+    "abstract": "This article reports on the use of a Field Programmable Gate Array (FPGA) platform for local ultra-stable optical frequency distribution through a 90 m-long fiber network. This platform is used to implement a fully digital treatment of the Doppler-cancellation scheme required by fiber links to be able to distribute ultra-stable frequencies. We present a novel protocol that uses aliased images of a digital synthesizer output to directly generate signals above the Nyquist frequency. This approach significantly simplifies the setup, making it easy to duplicate within a local fiber network. We demonstrate performances enabling the distribution of an optical signal with an instability below $10^{-17}$ at 1 s at the receiver end. We also use the board to implement an original characterization method. It leads to an efficient characterization of the disturbance rejection of the system that can be realized without accessing the remote output of the fiber link. ",
+    "url": "https://arxiv.org/abs/2311.00722",
+    "authors": [
+      "Martina Matusko",
+      "Ivan Ryger",
+      "Gwenha\u00ebl Goavec-Merou",
+      "Jacques Millo",
+      "Cl\u00e9ment Lacro\u00fbte",
+      "\u00c9mile Carry",
+      "Jean-Michel Friedt",
+      "Marion Delehaye"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00901",
+    "title": "Closed Loop Testing of Microphonics Algorithms Using a Cavity Emulator",
+    "abstract": "An analog crystal filter based cavity emulator is modified with reverse biased varactor diodes to provide a tuning range of around 160 Hz. The piezo drive voltage of the resonance controller is used to detune the cavity through the bias voltage. A signal conditioning and summing circuit allows the introduction of microphonics disturbance from a signal source or using real microphonics data from cavity testing. This setup is used in closed loop with a cavity controller and resonance controller to study the effectiveness of resonance control algorithms suitable for superconducting cavities. ",
+    "url": "https://arxiv.org/abs/2311.00901",
+    "authors": [
+      "S. Raman",
+      "P. Varghese",
+      "B. Chase",
+      "S. Ahmed",
+      "C. Fulz",
+      "P. Hanlet",
+      "D. Klepec"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00935",
+    "title": "High-Q two-dimensional photonic crystal nanocavity on glass with an  upper glass thin film",
+    "abstract": "We numerically analyze two-dimensional photonic crystal (PhC) nanocavities on glass with a thin glass film on top of the structure. We investigated a multi-step heterostructure GaAs PhC nanocavity located on glass. We found that covering the structure even with a very-thin glass film efficiently suppresses unwanted polarization mode conversion occurring due to the asymmetric refractive index environment around the PhC. We also uncovered that the glass-covered structure can exhibit a higher Q factor than that observed in the structure symmetrically cladded with thick glass. We point out that the mode mismatch between the PhC nanocavity and modes in the upper glass film largely contributed to the observed Q-factor enhancement. These observations were further analyzed through the comparison among different types of on-glass PhC nanocavites covered with thin glass films. We also discuss that the in-plane structure of the upper glass film is important for additionally enhancing Q factor of the nanocavity. ",
+    "url": "https://arxiv.org/abs/2311.00935",
+    "authors": [
+      "Ryusei Kawata",
+      "Akinari Fujita",
+      "Natthajuks Pholsen",
+      "Satoshi Iwamoto",
+      "Yasutomo Ota"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.01080",
+    "title": "Optical ReLU-like Activation Function Based on a Semiconductor Laser  with Optical Injection",
+    "abstract": "Artificial neural networks usually consist of successive linear multiply-accumulate operations and nonlinear activation functions. However, most optical neural networks only achieve the linear operation in the optical domain, while the optical implementation of activation function remains challenging. Here we present an optical ReLU-like activation function based on a semiconductor laser subject to the optical injection in experiment. The ReLU-like function is achieved in a broad regime above the Hopf bifurcation of the injection-locking diagram. In particular, the slope of the activation function is reconfigurable by tuning the frequency difference between the master laser and the slave laser. ",
+    "url": "https://arxiv.org/abs/2311.01080",
+    "authors": [
+      "Guanting Liu",
+      "Yiwei Shen",
+      "Ruiqian Li",
+      "Jingyi Yu",
+      "Xuming He",
+      "Cheng Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.01203",
+    "title": "Free electron emission in vacuum assisted by photonic time crystals",
+    "abstract": "The Cerenkov radiation and the Smith-Purcell effect state that free electron emission occurs exclusively in dielectrics when the velocity of the particles exceeds the speed of light in the medium or in the vicinity of periodic gratings close to each other within a vacuum. We demonstrate that free electrons in a vacuum can also emit highly directional monochromatic waves when they are in close proximity to a medium that is periodically modulated temporally, suggesting the existence of temporal Smith-Purcell effect. The momentum band gaps of time-varying media, such as photonic time crystals (PTCs), create new pathways for the injection of external energy, allowing the frequency, intensity, and spatial distribution of the electromagnetic fields to be controlled. Moreover, the PTC substrate enables the conversion of localized evanescent fields into amplified, highly directional propagating plane waves that are only sensitive to the velocity of particles and the modulation frequency, which allows us to observe and utilize Cerenkov-like radiation in free space. Our work exhibits significant opportunities for the utilization of time-varying structures in various fields, including particle identification, ultraweak signal detection, and improved radiation source design. ",
+    "url": "https://arxiv.org/abs/2311.01203",
+    "authors": [
+      "Xiaoke Gao",
+      "Xiaoyu Zhao",
+      "Xikui Ma",
+      "Tianyu Dong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.01384",
+    "title": "Modeling of liquid metal droplet deformation by laser impact",
+    "abstract": "The method of sequential simulation of liquid metal droplet deformation by a laser pulse is considered. The first stage is the laser impact on a droplet. It was simulated using RALEF-2D code, based on the radiative gas dynamic model. The next stage is target deformation from a droplet to a disk. This part of simulation was carried out using OpenFOAM code where surface tension forces are taken into account. Good agreement with experimental results was obtained. ",
+    "url": "https://arxiv.org/abs/2311.01384",
+    "authors": [
+      "I.Yu. Vichev",
+      "D.A. Kim",
+      "V.V. Medvedev"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00001",
+    "title": "A Fisher Information Perspective of Relativistic Quantum Mechanics",
+    "abstract": "In previous papers we have shown how Schrodinger's equation which includes an electromagnetic field interaction can be deduced from a fluid dynamical Lagrangian of a charged potential flow that interacts with an electromagnetic field. The quantum behaviour was derived from Fisher information terms which were added to the classical Lagrangian. It was thus shown that a quantum mechanical system is drived by information and not only electromagnetic fields. This program was applied also to Pauli's equations by removing the restriction of potential flow and using the Clebsch formalism. Although the analysis was quite successful there were still terms that did not admit interpretation, some of them can be easily traced to the relativistic Dirac theory. Here we repeat the analysis for a relativistic flow, pointing to a new approach for deriving relativistic quantum mechanics. ",
+    "url": "https://arxiv.org/abs/2311.00001",
+    "authors": [
+      "Asher Yahalom"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00821",
+    "title": "Silicon Implantation and Annealing in $\u03b2$-Ga$_2$O$_3$: Role of  Ambient, Temperature, and Time",
+    "abstract": "Optimizing thermal anneals of Si-implanted $\\beta$-Ga$_2$O$_3$ is critical for low resistance contacts and selective area doping. We report the impact of annealing ambient, temperature, and time on activation of room temperature ion-implanted Si in $\\beta$-Ga$_2$O$_3$ at concentrations from 5x10$^{18}$ to 1x10$^{20}$ cm$^{-3}$, demonstrating full activation (>80% activation, mobilities >70 cm$^{2}$/Vs) with contact resistances below 0.29 $\\Omega$-mm. Homoepitaxial $\\beta$-Ga$_2$O$_3$ films, grown by plasma assisted MBE on Fe-doped (010) substrates, were implanted at multiple energies to yield 100 nm box profiles of 5x10$^{18}$, 5x10$^{19}$, and 1x10$^{20}$ cm$^{-3}$. Anneals were performed in a UHV-compatible quartz furnace at 1 bar with well-controlled gas composition. To maintain $\\beta$-Ga$_2$O$_3$ stability, $p_{O2}$ must be greater than 10$^{-9}$ bar. Anneals up to $p_{O2}$ = 1 bar achieve full activation at 5x10$^{18}$ cm$^{-3}$, while 5x10$^{19}$ cm$^{-3}$ must be annealed with $p_{O2}$ <10$^{-4}$ bar and 1x10$^{20}$ cm$^{-3}$ requires $p_{O2}$ <10$^{-6}$ bar. Water vapor prevents activation and must be maintained below 10$^{-8}$ bar. Activation is achieved for anneal temperatures as low as 850 {\\deg}C with mobility increasing with anneal temperature up to 1050 {\\deg}C, though Si diffusion has been reported above 950 {\\deg}C. At 950 {\\deg}C, activation is maximized between 5 and 20 minutes with longer times resulting in decreased carrier activation (over-annealing). This over-annealing is significant for concentrations above 5x10$^{19}$ cm$^{-3}$ and occurs rapidly at 1x10$^{20}$ cm$^{-3}$. RBS (channeling) suggests damage recovery is seeded from remnant aligned $\\beta$-Ga$_2$O$_3$ that remains after implantation; this conclusion is also supported by STEM showing retention of the $\\beta$-phase with inclusions that resemble the $\\gamma$-phase. ",
+    "url": "https://arxiv.org/abs/2311.00821",
+    "authors": [
+      "K. R. Gann",
+      "N. Pieczulewski1",
+      "C. A. Gorsak",
+      "K. Heinselman",
+      "T. J. Asel",
+      "B. A. Noesges",
+      "K. T. Smith",
+      "D. M. Dryden",
+      "H. G. Xing",
+      "H. P. Nair",
+      "D. A. Muller",
+      "M. O. Thompson"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.01168",
+    "title": "Scalable architecture for trapped-ion quantum computing using RF traps  and dynamic optical potentials",
+    "abstract": "Qubits based on ions trapped in linear radio-frequency traps form a successful platform for quantum computing, due to their high-fidelity of operations, all-to-all connectivity and degree of local control. In principle there is no fundamental limit to the number of ion-based qubits that can be confined in a single 1d register. However, in practice there are two main issues associated with long trapped ion-crystals, that stem from the 'softening' of their modes of motion, upon scaling up: high heating rates of the ions' motion, and a dense motional spectrum; both impede the performance of high-fidelity qubit operations. Here we propose a holistic, scalable architecture for quantum computing with large ion-crystals that overcomes these issues. Our method relies on dynamically-operated optical potentials, that instantaneously segment the ion-crystal into cells of a manageable size. We show that these cells behave as nearly independent quantum registers, allowing for parallel entangling gates on all cells. The ability to reconfigure the optical potentials guarantees connectivity across the full ion-crystal, and also enables efficient mid-circuit measurements. We study the implementation of large-scale parallel multi-qubit entangling gates that operate simultaneously on all cells, and present a protocol to compensate for crosstalk errors, enabling full-scale usage of an extensively large register. We illustrate that this architecture is advantageous both for fault-tolerant digital quantum computation and for analog quantum simulations. ",
+    "url": "https://arxiv.org/abs/2311.01168",
+    "authors": [
+      "David Schwerdt",
+      "Lee Peleg",
+      "Yotam Shapira",
+      "Nadav Priel",
+      "Yanay Florshaim",
+      "Avram Gross",
+      "Ayelet Zalic",
+      "Gadi Afek",
+      "Nitzan Akerman",
+      "Ady Stern",
+      "Amit Ben Kish",
+      "Roee Ozeri"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.01244",
+    "title": "Nondegenerate two-photon lasing in a single quantum dot",
+    "abstract": "We propose two-mode two-photon microlaser using a single semiconductor quantum dot grown inside a two-mode microcavity. We explore both incoherent and coherent pumping at low temperatures to achieve suitable conditions for two-mode two-photon lasing. The two-mode two-photon stimulated emission is strongly suppressed but the single-photon stimulated emission is enhanced by exciton-phonon interactions. In coherently pumped quantum dot one can achieve large two-mode two-photon lasing where single-photon lasing is almost absent. We also discuss generation of steady state two-mode entangled state using two-photon resonant pumping. ",
+    "url": "https://arxiv.org/abs/2311.01244",
+    "authors": [
+      "Samit Kumar Hazra",
+      "Lava Kumar Addepalli",
+      "P. K. Pathak",
+      "Tarak Nath Dey"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07050",
+    "title": "Wasserstein Quantum Monte Carlo: A Novel Approach for Solving the  Quantum Many-Body Schr\u00f6dinger Equation",
+    "abstract": " Comments: Published in NeurIPS 2023 ",
+    "url": "https://arxiv.org/abs/2307.07050",
+    "authors": [
+      "Kirill Neklyudov",
+      "Jannes Nys",
+      "Luca Thiede",
+      "Juan Carrasquilla",
+      "Qiang Liu",
+      "Max Welling",
+      "Alireza Makhzani"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.09594",
+    "title": "Coupled cluster cavity Born-Oppenheimer approximation for electronic  strong coupling",
+    "abstract": " Comments: 9 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2308.09594",
+    "authors": [
+      "Sara Angelico",
+      "Tor S. Haugland",
+      "Enrico Ronca",
+      "Henrik Koch"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.03399",
+    "title": "Polaritonic Bottleneck in Colloidal Quantum Dots",
+    "abstract": " Title: Polaritonic Bottleneck in Colloidal Quantum Dots ",
+    "url": "https://arxiv.org/abs/2309.03399",
+    "authors": [
+      "Kaiyue Peng",
+      "Eran Rabani"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.05289",
+    "title": "Inference of highly time-resolved melt pool visual characteristics and  spatially-dependent lack-of-fusion defects in laser powder bed fusion using  acoustic and thermal emission data",
+    "abstract": " Comments: 20 pages, 20 figures ",
+    "url": "https://arxiv.org/abs/2310.05289",
+    "authors": [
+      "Haolin Liu",
+      "Christian Gobert",
+      "Kevin Ferguson",
+      "Brandon Abranovic",
+      "Hongrui Chen",
+      "Jack L. Beuth",
+      "Anthony D. Rollett",
+      "Levent Burak Kara"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.06897",
+    "title": "Full Phase Space Resonant Anomaly Detection",
+    "abstract": " Comments: 10 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2310.06897",
+    "authors": [
+      "Erik Buhmann",
+      "Cedric Ewen",
+      "Gregor Kasieczka",
+      "Vinicius Mikuni",
+      "Benjamin Nachman",
+      "David Shih"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.18661",
+    "title": "Mode-locked GaN waveguide polariton laser",
+    "abstract": " Comments: 13 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2310.18661",
+    "authors": [
+      "H. Souissi",
+      "M. Gromovyi",
+      "I. Septembre",
+      "V. Develay",
+      "C. Brimont",
+      "L. Doyennette",
+      "E. Cambril",
+      "S. Bouchoule",
+      "B. Alloing",
+      "E. Frayssinet",
+      "J. Z\u00fa\u00f1iga-P\u00e9rez",
+      "T. Ackemann",
+      "G. Malpuech",
+      "D.D Solnyshkov",
+      "T. Guillet"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  }
+]
