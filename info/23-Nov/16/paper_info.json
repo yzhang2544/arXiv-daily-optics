@@ -1,0 +1,472 @@
+[
+  {
+    "id": "arXiv:2311.08414",
+    "title": "The microwave amplitude and phase setting based on event timing for the  DCLS",
+    "abstract": "The primary accelerator of DCLS (Dalian Coherent Light Source) operates at a repetition rate of 20 Hz now, and the beam is divided at the end of the linear accelera-tor through Kicker to make two 10 Hz beamlines work simultaneously. For the simultaneous emission FEL of two beamlines, the beam energy of the two beamlines is required to be controlled independently, so we need to set the amplitude and phase of each beamline. This paper implements a microwave amplitude and phase setting function based on event timing. We upgraded the EVG/EVR event timing system and LLRF (Low-Level Radiofrequency) system. Two special event codes and a repetition rate division of 10 Hz are added to the event timing system, and we can set the microwave amplitude and phase by judging the event code in LLRF. We ulti-mately perform the microwave triggering at a repetition rate of 10 Hz for each beamline and validate this function through beam experiments. ",
+    "url": "https://arxiv.org/abs/2311.08414",
+    "authors": [
+      "J.F. Zhu",
+      "H.L. Ding",
+      "H.K. Li",
+      "J.W. Han",
+      "X.W. Dai",
+      "B. Xu",
+      "L. Shi",
+      "J.Y. Yang",
+      "W.Q. Zhang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08497",
+    "title": "All-optical measurement of magnetic fields for quantum gas experiments",
+    "abstract": "We present an all-optical method to measure and compensate for residual magnetic fields present in a cloud of ultracold atoms trapped in an optical dipole trap. Our approach leverages the increased loss from the trapped atomic sample through electromagnetically induced absorption. Modulating the excitation laser provides coherent sidebands, resulting in {\\Lambda}-type pump-probe scheme. Scanning an additional magnetic offset field leads to pairs of sub-natural linewidth resonances, whose positions encode the magnetic field in all three spatial directions. Our measurement scheme is readily implemented in a typical quantum gas experiments and has no particular hardware requirements. ",
+    "url": "https://arxiv.org/abs/2311.08497",
+    "authors": [
+      "Suthep Pomjaksilp",
+      "Sven Schmidt",
+      "Aaron Thielmann",
+      "Thomas Niederpr\u00fcm",
+      "Herwig Ott"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08515",
+    "title": "A model to predict the oscillation frequency for drops pinned on a  vertical planar surface",
+    "abstract": "Accurate prediction of the natural frequency for the lateral oscillation of a liquid drop pinned on a vertical planar surface is important to many drop applications. The natural oscillation frequency, normalized by the capillary frequency, is {mainly} a function of the equilibrium contact angle and the Bond number (Bo), when the contact lines remain pinned. Parametric numerical and experimental studies have been performed to establish a comprehensive understanding of oscillation dynamics. {An} inviscid model has been developed to predict the oscillation frequency for wide ranges of Bo and contact angles. The model reveals the scaling relation between the normalized frequency and Bo, which is validated by the numerical simulation results. For a given equilibrium contact angle, the lateral oscillation frequency decreases with Bo, implying that resonance frequencies will be magnified if the drop oscillations occur in a reduced gravity environment. ",
+    "url": "https://arxiv.org/abs/2311.08515",
+    "authors": [
+      "Jordan Sakakeeny",
+      "C. Deshpande",
+      "S. Deb",
+      "Jorge L. Alvarado",
+      "Yue Ling"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08534",
+    "title": "Supercontinuum amplification by Kerr instability",
+    "abstract": "The versatility of optical parametric amplifiers make them excellent sources for next-generation ultrashort strong-field physics experiments, however phase matching considerations limit the available bandwidth. We demonstrate supercontinuum amplification in a four-wave optical parametric amplifier by Kerr instability. Experimentally, we amplify spectra that span nearly an octave without spatial chirp, with two-cycle transform limited pulse duration. We also theoretically explore regimes that demonstrate single-cycle amplification in the near infrared. ",
+    "url": "https://arxiv.org/abs/2311.08534",
+    "authors": [
+      "Sagnik Ghosh",
+      "Nathan G. Drouillard",
+      "TJ Hammond"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08542",
+    "title": "Laser frequency stabilization by modulation transfer spectroscopy and  balanced detection of molecular iodine for laser cooling of ${}^{174}$Yb",
+    "abstract": "We report laser frequency stabilization by the combination of modulation transfer spectroscopy and balanced detection of a relatively weak hyperfine transition of the R(158)25-0 line of molecular iodine (${}^{127}$I$_{2}$), which is used as a new frequency reference for laser trapping and cooling of ${}^{174}$Yb on the $^{1}S_{0} - {}^{3}P_{1}$ transition. The atomic cloud is characterized by time-of-flight measurements, and an on-resonance optical depth of up to 47 is obtained. We show laser noise reduction and characterize the short-term laser frequency instability by the Allan deviation of the laser fractional frequency. The minimum measured value is 3.9 x $10^{-13}$ at 0.17 s of averaging time. ",
+    "url": "https://arxiv.org/abs/2311.08542",
+    "authors": [
+      "\u00c1lvaro M.G. de Melo",
+      "Hector Letellier",
+      "Apoorva Apoorva",
+      "Antoine Glicenstein",
+      "Robin Kaiser"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08599",
+    "title": "High-speed surface-property recognition by 140-GHz frequency",
+    "abstract": "In the field of integrated sensing and communication, there's a growing need for advanced environmental perception. The terahertz (THz) frequency band, significant for ultra-high-speed data connections, shows promise in environmental sensing, particularly in detecting surface textures crucial for autonomous system's decision-making. However, traditional numerical methods for parameter estimation in these environments struggle with accuracy, speed, and stability, especially in high-speed scenarios like vehicle-to-everything communications. This study introduces a deep learning approach for identifying surface roughness using a 140-GHz setup tailored for high-speed conditions. A high-speed data acquisition system was developed to mimic real-world scenarios, and a diverse set of rough surface samples was collected for realistic high-speed datasets to train the models. The model was trained and validated in three challenging scenarios: random occlusions, sparse data, and narrow-angle observations. The results demonstrate the method's effectiveness in high-speed conditions, suggesting terahertz frequencies' potential in future sensing and communication applications. ",
+    "url": "https://arxiv.org/abs/2311.08599",
+    "authors": [
+      "Jiacheng Liu",
+      "Da Li",
+      "Guohao Liu",
+      "Yige Qiao",
+      "Menghan Wei",
+      "Chengyu Zhang",
+      "Houjun Sun",
+      "Jianjun Ma"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08633",
+    "title": "Infrared thermochromic antenna composite for self-adaptive  thermoregulation",
+    "abstract": "Self-adaptive thermoregulation, the mechanism living organisms use to balance their temperature, holds great promise for decarbonizing cooling and heating processes. The functionality can be effectively emulated by engineering the thermal emissivity of materials to adapt to background temperature variations. Yet, solutions that marry large emissivity switching (${\\Delta}\\epsilon$) with scalability, cost-effectiveness and design freedom are still lacking. Here, we fill this gap by introducing infrared dipole antennas made of tunable thermochromic materials. We demonstrate that non-spherical antennas (rods, stars and flakes) made of vanadium-dioxide can exhibit a massive (~200-fold) increase in their absorption cross-section as temperature rises. Embedding these antennas in polymer films, or simply spraying them directly, creates free-form thermoregulation composites, featuring an outstanding ${\\Delta}\\epsilon\\sim0.6$ in spectral ranges that can be tuned at will. Our research paves the way for versatile self-adaptive heat management solutions (coatings, fibers, membranes and films) that could find application in radiative-cooling, heat-sensing, thermal-camouflage, and other. ",
+    "url": "https://arxiv.org/abs/2311.08633",
+    "authors": [
+      "Francisco V. Ramirez-Cuevas",
+      "Kargal L. Gurunatha",
+      "Lingxi Li",
+      "Usama Zulfiqar",
+      "Sanjayan Sathasivam",
+      "Manish K. Tiwari",
+      "Ivan P. Parkin",
+      "Ioannis Papakonstantinou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08694",
+    "title": "Near 6 GHz Sezawa Mode Surface Acoustic Wave Resonators using AlScN on  SiC",
+    "abstract": "Surface Acoustic Wave (SAW) devices featuring Aluminum Scandium Nitride (AlScN) on a 4H-Silicon Carbide (SiC) substrate, offer a unique blend of high sound velocity, low thermal resistance, substantial piezoelectric response, simplified fabrication, as well as suitability for high-temperature and harsh environment operation. This study presents high-frequency SAW resonators employing AlScN thin films on SiC substrates, utilizing the second SAW mode (referred to as the Sezawa mode). The resonators achieve remarkable performance, boasting a K2 value of 5.5% and a maximum Q-factor (Qmax) of 1048 at 4.7 GHz, outperforming previous benchmarks. Additionally, a SAW resonator with a 960 nm wavelength attains 5.9 GHz frequency with record K2 (4.0%) and Qmax (887). Our study underscores the potential of the AlScN on SiC platform for advanced radio-frequency applications. ",
+    "url": "https://arxiv.org/abs/2311.08694",
+    "authors": [
+      "Xingyu Du",
+      "Nishant Sharma",
+      "Zichen Tang",
+      "Chloe Leblanc",
+      "Deep Jariwala",
+      "Roy H. Olsson III"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08722",
+    "title": "Pseudospin-Induced Asymmetric Field in Non-Hermitian Photonic Crystals  with Multiple Topological Transitions",
+    "abstract": "We report the discovery of multiple topological phase transitions induced by the photonic quantum spin Hall effect (PQSHE) in a non-Hermitian photonic crystal (PhC). When increasing the magnitude of the non-Hermitian terms, the system undergoes transitions from topological corner states to topological edge states and subsequently to topological bulk states. The angular momentum of the wave function of the out-of-plane electric field excited by the chiral source acts as the pseudospin degree of freedom in the PQSHE. Therefore, we consider the introduction of chiral sources with different circular polarizations into non-Hermitian PhCs and observe the emergence of asymmetric field responses. These results are expected to enable the multi-dimensional manipulation of topological states, offering a new avenue for the detection of chiral sources. ",
+    "url": "https://arxiv.org/abs/2311.08722",
+    "authors": [
+      "Yuchen Peng",
+      "Aoqian Shi",
+      "Peng Peng",
+      "Jianjun Liu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08766",
+    "title": "Dirac Bilayer Metasurfaces as an Inverse Gires-Tournois Etalon",
+    "abstract": "Efficient transmissive pure-phase resonances are highly desirable for optical modulation and wavefront engineering. Here, we propose a novel principle to realize a pure-phase resonance in an extremely broad transmission band, as opposed to previous approaches restricted to operating in reflection mode or over a narrow spectral band. We show that a glide-symmetric bilayer metasurface mathematically mimicking a two-dimensional Dirac semimetal induces unidirectional guided-mode excitation and perfect leakage-radiation blazing at the transmission channel. These effects create a peculiar resonant-scattering configuration, similar to the classical reflective Gires-Tournois etalon, but in transmission, providing full 2pi phase modulation with constant transmittance near 100%. Most importantly, this effect persists over an extremely wide band, associated with topological effects. Hence, our proposed approach produces a spectrally and parametrically robust pure-phase resonance effect in transmission, which is highly beneficial for practical applications. ",
+    "url": "https://arxiv.org/abs/2311.08766",
+    "authors": [
+      "Ki Young Lee",
+      "Kwang Wook Yoo",
+      "Francesco Monticone",
+      "Jae Woong Yoon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08779",
+    "title": "Electronic Friction Near Metal Surface: Incorporating Nuclear Quantum  Effect with Ring Polymer Molecular Dynamics",
+    "abstract": "Molecular dynamics with electronic friction (MDEF) approach can describe nonadiabatic effects accurately at metal surfaces in the weak nonadiabatic limit. That being said, MDEF treats nuclear motion classically, such that the nuclear quantum effects are missing completely in the approach. To address this limitation, we combine electronic friction with Ring Polymer Molecular Dynamics (RPMD). In particular, we apply the averaged electronic friction from the metal surface to the centroid mode of the ring polymer. We benchmark our approach against quantum dynamics to show that electronic friction with RPMD (EF-RPMD) can capture zero-point energy as well as transition dynamics accurately. In addition, we show EF-RPMD can correctly predict the electronic transfer rate near metal surfaces in the tunneling limit as well as the barrier crossing limit. We expect our approach will be very useful to study nonadiabatic dynamics near metal surface when nuclear quantum effects become essential. ",
+    "url": "https://arxiv.org/abs/2311.08779",
+    "authors": [
+      "Rui-Hao Bi",
+      "Wenjie Dou"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08809",
+    "title": "A high-efficiency programmable modulator for extreme ultraviolet light  with nm feature size based on an electronic phase transition",
+    "abstract": "The absence of efficient light modulators for extreme ultraviolet (EUV) and X-ray photons significantly limits their real-life application, particularly when even slight complexity of the beam patterns is required. Here we report on a novel approach to reversible imprinting of a holographic mask in an electronic Wigner crystal material with a sub-90 nm feature size. The structure is imprinted on a sub-picosecond time-scale using EUV laser pulses and acts as a high-efficiency diffraction grating that deflects EUV or soft X-ray light. The imprinted nanostructure is stable after the removal of the exciting beams at low temperatures but can be easily erased by a single heating beam. Modeling shows that the efficiency of the device can exceed 1%, approaching state-of-the-art etched gratings, but with the benefit of being programmable and tunable over a large range of wavelengths. The observed effect is based on the rapid change of lattice constant upon transition between metastable electronically-ordered phases in a layered transition metal dichalcogenide. The proposed approach is potentially useful for creating tunable light modulators in the EUV and soft X-ray spectral ranges. ",
+    "url": "https://arxiv.org/abs/2311.08809",
+    "authors": [
+      "Igor Vaskivskyi",
+      "Anze Mraz",
+      "Rok Venturini",
+      "Gregor Jecl",
+      "Yevhenii Vaskivskyi",
+      "Riccardo Mincigrucci",
+      "Laura Foglia",
+      "Dario De Angelis",
+      "Jacopo-Stefano Pelli-Cresi",
+      "Ettore Paltanin",
+      "Danny Fainozzi",
+      "Filippo Bencivenga",
+      "Claudio Masciovecchio",
+      "Dragan Mihailovic"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08823",
+    "title": "Ultrafast 3-D Super Resolution Ultrasound using Row-Column Array  specific Coherence-based Beamforming and Rolling Acoustic Sub-aperture  Processing: In Vitro, In Vivo and Clinical Study",
+    "abstract": "The row-column addressed array is an emerging probe for ultrafast 3-D ultrasound imaging. It achieves this with far fewer independent electronic channels and a wider field of view than traditional 2-D matrix arrays, of the same channel count, making it a good candidate for clinical translation. However, the image quality of row-column arrays is generally poor, particularly when investigating tissue. Ultrasound localisation microscopy allows for the production of super-resolution images even when the initial image resolution is not high. Unfortunately, the row-column probe can suffer from imaging artefacts that can degrade the quality of super-resolution images as `secondary' lobes from bright microbubbles can be mistaken as microbubble events, particularly when operated using plane wave imaging. These false events move through the image in a physiologically realistic way so can be challenging to remove via tracking, leading to the production of 'false vessels'. Here, a new type of rolling window image reconstruction procedure was developed, which integrated a row-column array-specific coherence-based beamforming technique with acoustic sub-aperture processing for the purposes of reducing `secondary' lobe artefacts, noise and increasing the effective frame rate. Using an {\\it{in vitro}} cross tube, it was found that the procedure reduced the percentage of `false' locations from $\\sim$26\\% to $\\sim$15\\% compared to traditional orthogonal plane wave compounding. Additionally, it was found that the noise could be reduced by $\\sim$7 dB and that the effective frame rate could be increased to over 4000 fps. Subsequently, {\\it{in vivo}} ultrasound localisation microscopy was used to produce images non-invasively of a rabbit kidney and a human thyroid. ",
+    "url": "https://arxiv.org/abs/2311.08823",
+    "authors": [
+      "Joseph Hansen-Shearer",
+      "Jipeng Yan",
+      "Marcelo Lerendegui",
+      "Biao Huang",
+      "Matthieu Toulemonde",
+      "Kai Riemer",
+      "Qingyuan Tan",
+      "Johanna Tonko",
+      "Peter D. Weinberg",
+      "Chris Dunsby",
+      "Meng-Xing Tang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08867",
+    "title": "Gigahertz-rate-switchable wavefront shaping through integration of  metasurfaces with photonic integrated circuit",
+    "abstract": "Achieving spatiotemporal control of light at high-speeds presents immense possibilities for various applications in communication, computation, metrology, and sensing. The integration of subwavelength metasurfaces and optical waveguides offers a promising approach to manipulate light across multiple degrees of freedom at high-speed in compact photonic integrated circuit (PICs) devices. Here, we demonstrate a gigahertz-rate-switchable wavefront shaping by integrating metasurface, lithium niobite on insulator (LNOI) photonic waveguide and electrodes within a PIC device. As proofs of concept, we showcase the generation of a focus beam with reconfigurable arbitrary polarizations, switchable focusing with lateral focal positions and focal length, orbital angular momentum light beams (OAMs) as well as Bessel beams. Our measurements indicate modulation speeds of up to gigahertz rate. This integrated platform offers a versatile and efficient means of controlling light field at high-speed within a compact system, paving the way for potential applications in optical communication, computation, sensing, and imaging. ",
+    "url": "https://arxiv.org/abs/2311.08867",
+    "authors": [
+      "Haozong Zhong",
+      "Yong Zheng",
+      "Jiacheng Sun",
+      "Zhizhang Wang",
+      "b Rongbo Wu",
+      "Ling-en Zhang",
+      "Youting Liang",
+      "Qinyi Hua",
+      "Minghao Ning",
+      "Jitao Ji",
+      "Bin Fang",
+      "Lin Li",
+      "Tao Li",
+      "Ya Cheng",
+      "Shining Zhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09059",
+    "title": "X-ray Free-Electron Laser accelerator to study on Quantum  Electro-Dynamics",
+    "abstract": "X-ray free-electron lasers (XFELs) utilize high-density and high-energy electron bunches which are well-suited to produce Compton back-scattering radiation. Here we study study interaction of such electron bunches during head-on collision with retroreflected X-ray pulses, emitted by an XFEL. Such collisions allow one to conduct experiments on electron-positron pair production, both through trident and gamma-gamma colliding processes. We discuss cost-effective setups to study such processes, taking advantage of the existing conventional as well as proposed X-ray FEL infrastructure. We estimate parameters of the proposed experiments and compare them with other projects under construction. ",
+    "url": "https://arxiv.org/abs/2311.09059",
+    "authors": [
+      "Svitozar Serkez",
+      "Eugene Bulyak",
+      "Gianluca Geloni"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08506",
+    "title": "Electronic excitation spectra of molecular hydrogen in Phase I from  Quantum Monte Carlo and Many-Body perturbation methods",
+    "abstract": "We study the electronic excitation spectra in solid molecular hydrogen (phase I) at ambient temperature and 5-90 GPa pressures using Quantum Monte Carlo methods and Many-Body Perturbation Theory. In this range, the system changes from a wide gap molecular insulator to a semiconductor, altering the nature of the excitations from localized to delocalized. Computed gaps and spectra agree with experiments, proving the ability to predict accurately band gaps of many-body systems in presence of nuclear quantum and thermal effects. We explore changes in the electronic gap for the hydrogen isotopes. ",
+    "url": "https://arxiv.org/abs/2311.08506",
+    "authors": [
+      "Vitaly Gorelov",
+      "Markus Holzmann",
+      "David M. Ceperley",
+      "Carlo Pierleoni"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08531",
+    "title": "Reciprocal Asymptotically Decoupled Hamiltonian for Cavity Quantum  Electrodynamics",
+    "abstract": "We develop a new theoretical framework for describing light-matter interactions in cavity quantum electrodynamics (QED), optimized for efficient convergence at arbitrarily strong coupling strengths and is naturally applicable to low-dimensional materials. This new Hamiltonian is obtained by applying a unitary gauge transformation on the p$\\cdot$A Hamiltonian, with a shift on both the matter coordinate and the photonic coordinate, then performing a phase rotation and transforming in the reciprocal space of the matter. By formulating the light-matter interaction in terms of an upper-bounded effective coupling parameter, this method allows one to easily converge eigenspectra calculations for any coupling strength, even far into the ultra-strong and deep-strong coupling regimes. We refer to this new approach as the Reciprocal Asymptotically Decoupled (RAD) Hamiltonian. The RAD Hamiltonian allows for a fast convergence of the polariton eigenspectrum with a much smaller matter and photon basis, compared to the commonly used p$\\cdot$A or dipole gauge Hamiltonians. The RAD Hamiltonian also allows one to go beyond the commonly used long-wavelength approximation and accurately describes the spatial variations of the field inside the cavity, which ensures the conservation of momentum between light and matter. ",
+    "url": "https://arxiv.org/abs/2311.08531",
+    "authors": [
+      "Michael A.D. Taylor",
+      "Braden M. Weight",
+      "Pengfei Huo3"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08899",
+    "title": "Self-Organized Time Crystal in Driven-Dissipative Quantum System",
+    "abstract": "Continuous time crystals (CTCs) are characterized by sustained oscillations that break the time translation symmetry. Since the ruling out of equilibrium CTCs by no-go theorems, the emergence of such dynamical phases has been observed in various driven-dissipative quantum platforms. The current understanding of CTCs is mainly based on mean-field (MF) theories, which fail to address the problem of whether the long-range time crystalline order exists in noisy, spatially extended systems without the protection of all-to-all couplings. Here, we propose a new kind of CTC realized in a quantum contact model through self-organized bistability (SOB). The exotic CTCs stem from the interplay between collective dissipation induced by the first-order absorbing phase transitions (APTs) and slow constant driving provided by an incoherent pump. The stability of such oscillatory phases in finite dimensions under the action of intrinsic quantum fluctuations is scrutinized by the functional renormalization group method and numerical simulations. Occurring at the edge of quantum synchronization, the CTC phase exhibits an inherent period and amplitude with a coherence time diverging with system size, thus also constituting a boundary time crystal (BTC). Our results serve as a solid route towards self-protected CTCs in strongly interacting open systems. ",
+    "url": "https://arxiv.org/abs/2311.08899",
+    "authors": [
+      "Ya-Xin Xiang",
+      "Qun-Li Lei",
+      "Zhengyang Bai",
+      "Yu-Qiang Ma"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09080",
+    "title": "Soliton approximation in continuum models of leader-follower behavior",
+    "abstract": "Complex biological processes involve collective behavior of entities (bacteria, cells, animals) over many length and time scales and can be described by discrete models that track individuals or by continuum models involving densities and fields. We consider hybrid stochastic agent-based models of branching morphogenesis and angiogenesis (new blood vessel creation from pre-existing vasculature), which treat cells as individuals that are guided by underlying continuous chemical and/or mechanical fields. In these descriptions, leader (tip) cells emerge from existing branches and follower (stalk) cells build the new sprout in their wake. Vessel branching and fusion (anastomosis) occur as a result of tip and stalk cell dynamics. Coarse-graining these hybrid models in appropriate limits produces continuum partial differential equations (PDEs) for endothelial cell densities that are more analytically tractable. While these models differ in nonlinearity, they produce similar equations at leading order when chemotaxis is dominant. We analyze this leading order system in a simple quasi-one-dimensional geometry and show that the numerical solution of the leading order PDE is well described by a soliton wave that evolves from vessel to source. This wave is an attractor for intermediate times until it arrives at the hypoxic region releasing the growth factor. The mathematical techniques used here thus identify common features of discrete and continuum approaches and provide insight into general biological mechanisms governing their collective dynamics. ",
+    "url": "https://arxiv.org/abs/2311.09080",
+    "authors": [
+      "F. Terragni",
+      "W. D. Martinson",
+      "M. Carretero",
+      "P. K. Maini",
+      "L. L. Bonilla"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Mathematical Physics (math-ph)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Biological Physics (physics.bio-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:1410.2334",
+    "title": "Gravitational Wave Detection with High Frequency Phonon Trapping  Acoustic Cavities",
+    "abstract": " Comments: Three Errors have been fixed, an errata will appear in PRD. These errors mean that modes of n = 1,3 are more sensitive than the paper originally indicated, and modes of n = 5,7 are of similar sensitivity as indicated in the paper. All other higher-order modes are significantly less sensitive than originally indicated ",
+    "url": "https://arxiv.org/abs/1410.2334",
+    "authors": [
+      "Maxim Goryachev",
+      "Michael E. Tobar"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.12029",
+    "title": "Singly-excited resonant open quantum system Tavis-Cummings model with  quantum circuit mapping",
+    "abstract": " Comments: 15 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2208.12029",
+    "authors": [
+      "Marina Krstic Marinkovic",
+      "Marina Radulaski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.16358",
+    "title": "Characterization, Simulation and Test Beam Data Analysis of Stitched  Passive CMOS Strip Sensors",
+    "abstract": " Comments: The paper was withdrawn from the publication in JINST journal and will not be published ",
+    "url": "https://arxiv.org/abs/2309.16358",
+    "authors": [
+      "I. Zatocilova",
+      "J.-H. Arling",
+      "M. Baselga",
+      "N. Davis",
+      "L. Diehl",
+      "J. Dingfelder",
+      "I.-M. Gregor",
+      "M. Hauser",
+      "T. Hemperek",
+      "F. H\u00fcgging",
+      "K. Jakobs",
+      "M. Karagounis",
+      "K. Kr\u00f6ninger",
+      "F. Lex",
+      "U. Parzefall",
+      "A. Rodriguez",
+      "B. Sari",
+      "N. Sorgenfrei",
+      "S. Spannagel",
+      "D. Sperlich",
+      "T. Wang",
+      "J. Weingarten"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.18120",
+    "title": "Extra Time Dimension: Deriving Five-Dimensional Relativistic Space-Time  Transformations, Kinematics, and Time-Dependent Non-Relativistic Quantum  Mechanics with Compactification",
+    "abstract": " Comments: 45 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2310.18120",
+    "authors": [
+      "Sajjad Zahir"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00086",
+    "title": "The Larmor frequency shift of a white matter magnetic microstructure  model with multiple sources",
+    "abstract": " Comments: 70 pages, 14 figures ",
+    "url": "https://arxiv.org/abs/2311.00086",
+    "authors": [
+      "Anders Dyhr Sandgaard",
+      "Noam Shemesh",
+      "Leif \u00d8stergaard",
+      "Valerij G. Kiselev",
+      "Sune N\u00f8rh\u00f8j Jespersen"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.04129",
+    "title": "Purcell modified Doppler cooling of quantum emitters inside optical  cavities",
+    "abstract": " Comments: 9+5 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2311.04129",
+    "authors": [
+      "Julian Lyne",
+      "Nico S. Bassler",
+      "Seong eun Park",
+      "Guido Pupillo",
+      "Claudiu Genes"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.07068",
+    "title": "Shannon Theory for Wireless Communication in a Resonant Chamber",
+    "abstract": " Comments: 10 pages, 13 figures. To be published in IEEE Journal on Selected Areas in Communications Special Issue on Electromagnetic Signal and Information Theory ",
+    "url": "https://arxiv.org/abs/2311.07068",
+    "authors": [
+      "Amritpal Singh",
+      "Thomas Marzetta"
+    ],
+    "subjectives": [
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  }
+]
