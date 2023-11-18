@@ -1,0 +1,315 @@
+[
+  {
+    "id": "arXiv:2311.09258",
+    "title": "Single-Chip Silicon Photonic Processor for Analog Optical and Microwave  Signals",
+    "abstract": "The explosion of data volume in communications, AI training, and cloud computing requires efficient data handling, which is typically stored as digital electrical information and transmitted as wireless radio frequency (RF) signals or light waves in optical fibres. Today's communications systems mostly treat the RF and optical signals separately, which results in unnecessary conversion losses and increased cost. In this work, we report the first fully on-chip signal processor for high-speed RF and optical signals based on a silicon photonic circuit. Our chip is capable of both generation and detection of analog electrical and optical signals, and can program a user-defined filter response in both domains. The single silicon photonic chip integrates all essential components like modulators, optical filters, and photodetectors, as well as tunable lasers enabled by transfer-printed Indium Phosphide (InP) optical amplifiers. The system's configuration is locally programmed through thermo-optic phase shifters and monitored by photodetectors. We demonstrate our chip's capabilities with different combinations of RF and optical signal processing functions, including optical and RF signal generation and filtering. This represents a key step towards compact microwave photonic systems for future wireless communication and sensing applications. ",
+    "url": "https://arxiv.org/abs/2311.09258",
+    "authors": [
+      "Hong Deng",
+      "Jing Zhang",
+      "Emadreza Soltanian",
+      "Xiangfeng Chen",
+      "Chao Pang",
+      "Nicolas Vaissiere",
+      "Delphine Neel",
+      "Joan Ramirez",
+      "Jean Decobert",
+      "Nishant Singh",
+      "Guy Torfs",
+      "Gunther Roelkens",
+      "Wim Bogaerts"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09414",
+    "title": "A low-delay reference tracking algorithm for microwave measurement and  control",
+    "abstract": "In FEL (Free-Electron Laser) accelerators, LLRF (Low-Level Radiofrequency) systems usually deploy feedback or feedforward algorithms requiring precise microwave measurement. The slow drift of the clock allocation network of LLRF significantly impacts the measured microwave phase, thereby affecting the stability of the closed-loop operation. The reference tracking algorithm is used to eliminate the measurement drift. The conventional algorithm is to perform phase and amplitude demodulation on the synchronous reference signal from the main oscillator and subtract the reference phase in other measurement channels. The demodulation is usually based on the CORDIC, which requires approximately 16 clock cycles in FPGA (Field Programmable Gate Arrays). This paper uses the multiplication of complex numbers, which only requires four clock cycles of computational delay and achieves phase subtraction point by point. However, experiments show that it causes irrelevant amplitude noise to overlap and increase the amplitude measurement noise. Nevertheless, this reference tracking algorithm is suitable for control algorithms with low-delay requirements of microwave measurement. ",
+    "url": "https://arxiv.org/abs/2311.09414",
+    "authors": [
+      "J.F. Zhu",
+      "H.L. Ding",
+      "H.K. Li",
+      "J.W. Han",
+      "X.W. Dai",
+      "Z.C. Chen",
+      "J.Y. Yang",
+      "W.Q. Zhang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09415",
+    "title": "An Integrated Multi-Physics Optimization Framework for Particle  Accelerator Design",
+    "abstract": "The overarching goal of beamline design is to achieve a high brightness electron beam from the beamline. Traditional beamline design studies involved separate optimizations of radio-frequency cavities, magnets, and beam dynamics using different codes and pursuing various intermediate objectives. In this work, we present a novel unified global optimization framework that integrates multiple physics modules for beamline design as simulation functions for a two-stage global optimization solver. ",
+    "url": "https://arxiv.org/abs/2311.09415",
+    "authors": [
+      "Gongxiaohui Chen",
+      "Tyler H. Chang",
+      "John Power",
+      "Chungunag Jing"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09633",
+    "title": "Reconciling Radio Tomographic Imaging with Phaseless Inverse Scattering",
+    "abstract": "Radio Tomographic Imaging (RTI) is a phaseless imaging approach that can provide shape reconstruction and localization of objects using received signal strength (RSS) measurements. RSS measurements can be straightforwardly obtained from wireless networks such as Wi-Fi and therefore RTI has been extensively researched and accepted as a good indoor RF imaging technique. However, RTI is formulated on empirical models using an assumption of light-of-sight (LOS) propagation that does not account for intricate scattering effects. There are two main objectives of this work. The first objective is to reconcile and compare the empirical RTI model with formal inverse scattering approaches to better understand why RTI is an effective RF imaging technique. The second objective is to obtain straightforward enhancements to RTI, based on inverse scattering, to enhance its performance. The resulting enhancements can provide reconstructions of the shape and also material properties of the objects that can aid image classification. We also provide numerical and experimental results to compare RTI with the enhanced RTI for indoor imaging applications using low-cost 2.4 GHz Wi-Fi transceivers. These results show that the enhanced RTI can outperform RTI while having similar computational complexity to RTI. ",
+    "url": "https://arxiv.org/abs/2311.09633",
+    "authors": [
+      "Amartansh Dubey",
+      "Zan Li",
+      "Ross Murch"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Signal Processing (eess.SP)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09647",
+    "title": "Coupled high-finesse optical Fabry-Perot microcavities",
+    "abstract": "Optical fiber Fabry-Perot cavities have been a development facilitating the efficient integration of high-finesse cavities into fiber-optic assemblies. In this work, we demonstrate coupling of two high-finesse fiber cavities by direct photon tunneling between them. We detect the coupled mode spectra and demonstrated the variability of coupling strength and dissipation rates for different transverse modes. Moreover, we observe very narrow spectral features resulting from a dynamical generalizaton of electromagnetically-induced transparency showing that even dissipative systems without metastable states can feature long-lived coherences. ",
+    "url": "https://arxiv.org/abs/2311.09647",
+    "authors": [
+      "Steffen Gohlke",
+      "Thorsten Langerfeld",
+      "Andrea Bergschneider",
+      "Michael K\u00f6hl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09674",
+    "title": "Nonreciprocal field transformation with active acoustic metasurfaces",
+    "abstract": "Field transformation, as an extension of the transformation optics, provides a unique means for nonreciprocal wave manipulation, while the experimental realization remains a significant challenge as it requires stringent material parameters of the metamaterials, e.g., purely nonreciprocal bianisotropic parameters. Here, we develop and demonstrate a nonreciprocal field transformation in a 2D acoustic system, using an active metasurface that can independently control all constitutive parameters and achieve purely nonreciprocal Willis coupling. The field-transforming metasurface enables tailor-made field distribution manipulation, achieving localized field amplification by a predetermined ratio. Interestingly, the metasurface demonstrates the self-adaptive capability to various excitation conditions and can extend to other geometric shapes. The metasurface also achieves nonreciprocal wave propagation for internal and external excitations, demonstrating a one-way acoustic device. Such a field-transforming metasurface not only extends the framework of the transformation theory for nonreciprocal wave manipulation, but also holds significant potential in applications such as ultra-sensitive sensors and nonreciprocal communication. ",
+    "url": "https://arxiv.org/abs/2311.09674",
+    "authors": [
+      "X. Wen",
+      "C. Cho",
+      "X. Zhu",
+      "N. Park",
+      "J. Li"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09722",
+    "title": "Comprehensive Quantum Calculation of the First Dielectric Virial  Coefficient of Water",
+    "abstract": "We present a complete calculation, fully accounting for quantum effects and for molecular flexibility, of the first dielectric virial coefficient of water and its isotopologues. The contribution of the electronic polarizability is computed from a state-of-the-art intramolecular potential and polarizability surface from the literature, and its small temperature dependence is quantified. The dipolar polarizability is calculated in a similar manner with an accurate literature dipole-moment surface; it differs from the classical result both due to the different molecular geometries sampled at different temperatures and due to the quantization of rotation. We calculate the dipolar contribution independently from spectroscopic information in the HITRAN2020 database and find that the two methods yield consistent results. The resulting first dielectric virial coefficient provides a complete description of the dielectric constant at low density that can be used in humidity metrology and as a boundary condition for new formulations for the static dielectric constant of water and heavy water. ",
+    "url": "https://arxiv.org/abs/2311.09722",
+    "authors": [
+      "Giovanni Garberoglio",
+      "Chiara Lissoni",
+      "Luca Spagnoli",
+      "Allan H. Harvey"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09857",
+    "title": "Integrated lithium niobate photonic millimeter-wave radar",
+    "abstract": "Millimeter-wave (mmWave,>30 GHz) radars are the key enabler in the coming 6G era for high-resolution sensing and detection of targets. Photonic radar provides an effective approach to overcome the limitations of electronic radars thanks to the high frequency, broad bandwidth, and excellent reconfigurability of photonic systems. However, conventional photonic radars are mostly realized in tabletop systems composed of bulky discrete components, whereas the more compact integrated photonic radars are difficult to reach the mmWave bands due to the unsatisfactory bandwidths and signal integrity of the underlining electro-optic modulators. Here, we overcome these challenges and demonstrate a centimeter-resolution integrated photonic radar operating in the mmWave V band (40-50 GHz) based on a 4-inch wafer-scale thin-film lithium niobate (TFLN) technology. The fabricated TFLN mmWave photonic integrated circuit consists of a first electro-optic modulator capable of generating a broadband linear frequency modulated mmWave radar waveform through optical frequency multiplication of a low-frequency input signal, and a second electro-optic modulator responsible for frequency de-chirp of the received reflected echo wave, therefore greatly relieving the bandwidth requirements for the analog-to-digital converter in the receiver. Thanks to the absence of optical and electrical filters in the system, our integrated photonic mmWave radar features continuous on-demand tunability of the center frequency and bandwidth, currently only limited by the bandwidths of electrical amplifiers. We achieve multi-target ranging with a resolution of 1.50 cm and velocity measurement with a resolution of 0.067 m/s. Furthermore, we construct an inverse synthetic aperture radar (ISAR) and successfully demonstrate the imaging of targets with various shapes and postures with a two-dimensional resolution of 1.50 cm * 1.06 cm. ",
+    "url": "https://arxiv.org/abs/2311.09857",
+    "authors": [
+      "Sha Zhu",
+      "Yiwen Zhang",
+      "Jiaxue Feng",
+      "Yongji Wang",
+      "Kunpeng Zhai",
+      "Hanke Feng",
+      "Edwin Yue Bun Pun",
+      "Ning Hua Zhu",
+      "Cheng Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09913",
+    "title": "Visualizing acoustic levitation using COMSOL Multiphysics",
+    "abstract": "We present a new virtual laboratory developed with COMSOL Multiphysics for the simulation of an acoustic levitator. Our computer application simulates the acoustic pressure field and its interaction with a set of particles. Students can interact with the system by having the possibility of changing the frequency and distance parameters between transducers in real-time. We have also developed and shared for free use the 3D printing design files for the construction of necessary components for the acoustic levitator and the instructions for its experimental implementation. The experimental results, along with the virtual laboratory, provide the students with useful tools to understand and interpret the acoustic phenomenon involved. ",
+    "url": "https://arxiv.org/abs/2311.09913",
+    "authors": [
+      "Francisco M. Mu\u00f1oz-P\u00e9rez",
+      "Juan C. Castro-Palacio",
+      "Marcos H. Gim\u00e9nez",
+      "Juan A. Monsoriu"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09959",
+    "title": "Non-Hermitian topology and criticality in photonic arrays with  engineered losses",
+    "abstract": "Integrated photonic systems provide a flexible platform where artificial lattices can be engineered in a reconfigurable fashion. Here, we show that one-dimensional photonic arrays with engineered losses allow realizing topological excitation stemming from non-Hermiticity and bulk mode criticality. We show that a generalized modulation of the local photonic losses allow creating topological modes both in the presence of periodicity and even in the quasiperiodic regime. We demonstrate that a localization transition of all the bulk photonic modes can be engineered in the presence of a quasiperiodic loss modulation, and we further demonstrate that such a transition can be created in the presence of both resonance frequency modulation and loss modulation. We finally address the robustness of this phenomenology to the presence of higher neighbor couplings and disorder in the emergence of criticality and topological modes. Our results put forward a strategy to engineer topology and criticality solely from engineered losses in a photonic system, establishing a potential platform to study the impact of non-linearities in topological and critical photonic matter. ",
+    "url": "https://arxiv.org/abs/2311.09959",
+    "authors": [
+      "Elizabeth Louis Pereira",
+      "Hongwei Li",
+      "Andrea Blanco-Redondo",
+      "Jose L. Lado"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09395",
+    "title": "SmoQyDQMC.jl: A flexible implementation of determinant quantum Monte  Carlo for Hubbard and electron-phonon interactions",
+    "abstract": "We introduce the SmoQyDQMC.jl package, a Julia implementation of the determinant quantum Monte Carlo algorithm. SmoQyDQMC.jl supports generalized tight-binding Hamiltonians with on-site Hubbard and generalized electron-phonon interactions, including non-linear $e$-ph coupling and anharmonic lattice potentials. Our implementations use hybrid Monte Carlo methods with exact forces for sampling the phonon fields, enabling efficient simulation of low-energy phonon branches, including acoustic phonons. The SmoQyDQMC.jl package also uses a flexible scripting interface, allowing users to adapt it to different workflows and interface with other software packages in the Julia ecosystem. The code for this package can be downloaded from our GitHub repository at https://github.com/SmoQySuite/SmoQyDQMC.jl or installed using the Julia package manager. The online documentation, including examples, can be obtained from our document page at https://smoqysuite.github.io/SmoQyDQMC.jl/stable/. ",
+    "url": "https://arxiv.org/abs/2311.09395",
+    "authors": [
+      "Benjamin Cohen-Stead",
+      "Sohan Malkaruge Costa",
+      "James Neuhaus",
+      "Andy Tanjaroon Ly",
+      "Yutan Zhang",
+      "Richard Scalettar",
+      "Kipton Barros",
+      "Steven Johnston"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09474",
+    "title": "Super- and subradiant dynamics of quantum emitters mediated by atomic  matter waves",
+    "abstract": "The cooperative modification of spontaneous radiative decay is a paradigmatic many-emitter effect in quantum optics. So far its experimental realization has involved interactions mediated by rapidly escaping photons that do not play an active role in the emitter dynamics. Here we explore cooperative dynamics of quantum emitters in an optical lattice that interact by radiating atomic matter waves. Using the ability to prepare weakly and strongly interacting many-body phases of excitations in an array of matter-wave emitters, we demonstrate directional super- and subradiance from a superfluid phase with tunable radiative phase lags, and directly access the buildup of coherence imprinted by the emitted radiation across a Mott insulator. We investigate the onset of cooperative dynamics for slow wave propagation and observe a coupling to collective bound states with radiation trapped at and between the emitters. Our results in open-system quantum electrodynamics establish ultracold matter waves as a versatile tool for studying many-body quantum optics in spatially extended and ordered systems. ",
+    "url": "https://arxiv.org/abs/2311.09474",
+    "authors": [
+      "Youngshin Kim",
+      "Alfonso Lanuza",
+      "Dominik Schneble"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.09895",
+    "title": "Measurement Free Approach towards Dynamic Construction of a Shallow  Depth Ansatz for Molecular Energetics in Noisy Quantum Computers",
+    "abstract": "Recent advances in quantum information and quantum science have inspired the development of various compact dynamic structured ansatze that are expected to be realizable in the Noisy Intermediate-Scale Quantum (NISQ) devices. However, such ansatze construction strategies hitherto developed involve considerable pre-circuit measurements, and thus they deviate significantly in NISQ platform from their ideal structures. It is thus imperative that the usage of quantum resources must be minimized while retaining the expressivity and dynamical structure of the ansatz that can tailor itself depending on the degree of strong correlation. We propose a novel ansatz construction strategy based on the \\textit{ab-initio} many-body perturbation theory that requires \\textit{no} pre-circuit measurement and thus it remains structurally unaffected by any hardware noise. The accuracy and quantum complexity associated with the ansatz are solely dictated by a pre-defined perturbative order as desired and hence are tunable. Furthermore, the underlying perturbative structure of the ansatz construction pipeline enables us to decompose any high-rank excitation that appears in higher perturbative orders into various low-rank operators, and thus keeps the execution gate-depth to its minimum. With a number of challenging applications on strongly correlated system, we demonstrate that our ansatz performs significantly better, both in terms of accuracy, parameter count and circuit depth, in comparison to the allied unitary coupled cluster based ansatze. ",
+    "url": "https://arxiv.org/abs/2311.09895",
+    "authors": [
+      "Dipanjali Halder",
+      "Dibyendu Mondal",
+      "Rahul Maitra"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.14494",
+    "title": "Theoretical analysis of cargo transport by catch bonded motors in  optical trapping assays",
+    "abstract": " Comments: 12 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2208.14494",
+    "authors": [
+      "Naren Sundararajan",
+      "Sougata Guha",
+      "Sudipto Muhuri",
+      "Mithun K. Mitra"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Subcellular Processes (q-bio.SC)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.07513",
+    "title": "Verification of Continuous-Variable Quantum Memories",
+    "abstract": " Comments: close to published version ",
+    "url": "https://arxiv.org/abs/2305.07513",
+    "authors": [
+      "Paolo Abiuso"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.15404",
+    "title": "Fundamental charge noise in electro-optic photonic integrated circuits",
+    "abstract": " Comments: Main Text: 8 pages, 4 figures; Supplementary Material: 15 pages, 13 figures --- version 2: Figure typo fixed (Homodyne setup); TCCR derivation in SI detailed ",
+    "url": "https://arxiv.org/abs/2308.15404",
+    "authors": [
+      "Junyin Zhang",
+      "Zihan Li",
+      "Johann Riemensberger",
+      "Grigory Lihachev",
+      "Guanhao Huang",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.06792",
+    "title": "A Compact TIA in 22nm FDSOI CMOS for Qubit Readout in Monolithic Quantum  Processors",
+    "abstract": " Comments: To be published in the proceedings of the IEEE ICECS 2023 ",
+    "url": "https://arxiv.org/abs/2310.06792",
+    "authors": [
+      "Domenico Zito",
+      "Tan Doan Nhut"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.00155",
+    "title": "Antiferromagnetic Switching in Mn$_2$Au Using a Novel Laser Induced  Optical Torque on Ultrafast Timescales",
+    "abstract": " Comments: 7 pages, 7 figures; updated figures and text for clarity ",
+    "url": "https://arxiv.org/abs/2311.00155",
+    "authors": [
+      "J. L. Ross",
+      "P-I. Gavriloaea",
+      "F. Freimuth",
+      "T. Adamantopoulos",
+      "Y. Mokrousov",
+      "R.F.L. Evans",
+      "R. Chantrell",
+      "R.M. Otxoa",
+      "O. Chubykalo-Fesenko"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
