@@ -1,0 +1,308 @@
+[
+  {
+    "id": "arXiv:2312.03802",
+    "title": "Emergent self-adaptation in an integrated photonic neural network for  backpropagation-free learning",
+    "abstract": "Plastic self-adaptation, nonlinear recurrent dynamics and multi-scale memory are desired features in hardware implementations of neural networks, because they enable them to learn, adapt and process information similarly to the way biological brains do. In this work, we experimentally demonstrate these properties occurring in arrays of photonic neurons. Importantly, this is realised autonomously in an emergent fashion, without the need for an external controller setting weights and without explicit feedback of a global reward signal. Using a hierarchy of such arrays coupled to a backpropagation-free training algorithm based on simple logistic regression, we are able to achieve a performance of 98.2% on the MNIST task, a popular benchmark task looking at classification of written digits. The plastic nodes consist of silicon photonics microring resonators covered by a patch of phase-change material that implements nonvolatile memory. The system is compact, robust, and straightforward to scale up through the use of multiple wavelengths. Moreover, it constitutes a unique platform to test and efficiently implement biologically plausible learning schemes at a high processing speed. ",
+    "url": "https://arxiv.org/abs/2312.03802",
+    "authors": [
+      "Alessio Lugnan",
+      "Samarth Aggarwal",
+      "Frank Br\u00fcckerhoff-Pl\u00fcckelmann",
+      "C. David Wright",
+      "Wolfram H. P. Pernice",
+      "Harish Bhaskaran",
+      "Peter Bienstman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03910",
+    "title": "High-Precision Frequency-Controlled Optical Phase Shifter with Acousto  Optic Devices",
+    "abstract": "A fundamental parameter to determine how electromagnetic waves interfere is their relative phase. Therefore, achieving a fine control over it enables a wide range of interferometric applications. Existing phase control methods rely on modifying the optical path length by either changing the path followed by the light or by altering the thickness or index of refraction of an optical element in the setup. In this work we present a novel method, based on acousto-optic modulators (AOM), which allows adjusting the phase by shifting the frequency of the light in a segment of its path. Since the amount of phase-shift depends on the length of the segment, an optical fiber is used to realize a \\boldmath$2\\pi$ shift. Two experimental implementations are described which deal with different sources of phase fluctuations. The first addresses fluctuations resulting from the optical fiber while the second also tackles unwanted variations originating from the AOMs. ",
+    "url": "https://arxiv.org/abs/2312.03910",
+    "authors": [
+      "Eduardo Esquivel-Ram\u00edrez",
+      "Leonardo Uhthoff-Rodr\u00edguez",
+      "Edgar Giovanni Alonso-Torres",
+      "Alberto Hern\u00e1ndez-L\u00f3pez",
+      "Carlos Gardea-Flores",
+      "Asaf Paris-Mandoki"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04471",
+    "title": "Broadband, High-Reflectivity Dielectric Mirrors at Wafer Scale:  Combining Photonic Crystal and Metasurface Architectures for Advanced  Lightsails",
+    "abstract": "Highly ambitious initiatives aspire to propel a miniature spacecraft to a neighboring star within a human generation, leveraging the radiation pressure of lasers for propulsion. One of the main challenges to achieving this enormous feat is to build a meter-scale, ultra-low mass lightsail with broadband reflectivity. In this work, we present the design and fabrication of such a lightsail composed of two distinct dielectric layers and patterned with a photonic crystal structure covering a 4\" wafer. We overcome the crucial challenge of achieving broad band reflection of >70% spanning over the full Doppler-shifted laser wavelength range during spacecraft acceleration, in combination with low total mass in the range of a few grams when scaled to meter size. Furthermore, we find new paths to reliably fabricate these sub-wavelength structures over macroscopic areas and then systematically characterize their optical performance, confirming their suitability for future lightsail applications. Our innovative device design and precise nanofabrication approaches represent a significant leap toward interstellar exploration. ",
+    "url": "https://arxiv.org/abs/2312.04471",
+    "authors": [
+      "Jin Chang",
+      "Wenye Ji",
+      "Xiong Yao",
+      "Arnold J. van Run",
+      "Simon Gr\u00f6blacher"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03754",
+    "title": "Stochastic Model of Qudit Measurement for Superconducting Quantum  Information Processing",
+    "abstract": "The field of superconducting quantum computing, based on Josephson junctions, has recently seen remarkable strides in scaling the number of logical qubits. In particular, the fidelities of one- and two-qubit gates are close to the breakeven point with the novel error mitigation and correction methods. Parallel to these advances is the effort to expand the Hilbert space within a single device by employing high-dimensional qubits, otherwise known as qudits. Research has demonstrated the possibility of driving higher-order transitions in a transmon or designing innovative multimode superconducting circuits, termed multimons. These advances can significantly expand the computational basis while simplifying the interconnects in a large-scale quantum processor. This thesis provides a detailed introduction to the superconducting qudit and demonstrates a comprehensive analysis of decoherence in an artificial atom with more than two levels using Lindblad master equations and stochastic master equations (SMEs). After extending the theory of the design, control, and readout of a conventional superconducting qubit to that of a qudit, the thesis focuses on modeling the dispersive measurement of a transmon qutrit in an open quantum system using quadrature detections. Under the Markov assumption, master equations with different levels of abstraction are proposed and solved; in addition, both the ensemble-averaged and the quantum-jump approach of decoherence analysis are presented and compared analytically and numerically. The thesis ends with a series of experimental results on a transmon-type qutrit, verifying the validity of the stochastic model. ",
+    "url": "https://arxiv.org/abs/2312.03754",
+    "authors": [
+      "Kangdi Yu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03791",
+    "title": "Towards Quantum Computational Mechanics",
+    "abstract": "The rapid advancements in quantum computing as ushered in a new era for computer simulations, presenting groundbreaking opportunities across diverse disciplines. Central to this revolution is the quantum processor's capacity to entangle qubits, unlocking unprecedented possibilities for addressing computational challenges on an extreme scale, far beyond the reach of classical computing. In this study, we explore how quantum computing can be employed to enhance computational mechanics. Our focus is on the analysis of Representative Volume Element (RVE) within the framework of multiscale solid mechanics. We introduce an innovative quantum algorithm designed to solve the RVE problem. This algorithm is capable of compute RVEs of discretization size $N$ in $\\mathcal{O}(\\textrm{Poly log}(N))$ time, thus achieving an exponential speed-up over traditional classical computing approaches that typically scales linearly with $N$. We validate our approach with case studies including the solution of one and two dimensional Poisson's equation, as well as an RVE of a composite bar with piece-wise constant phases. We provide quantum circuit designs that requires only $\\mathcal{O}(\\textrm{Poly log}(N))$ universal quantum gates,underscoring the efficiency of our approach. Our work suggests a major way in which quantum computing can be combined with and brought to bear on computational mechanics. ",
+    "url": "https://arxiv.org/abs/2312.03791",
+    "authors": [
+      "Burigede Liu",
+      "Michael Ortiz",
+      "Fehmi Cirak"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03982",
+    "title": "Logical quantum processor based on reconfigurable atom arrays",
+    "abstract": "Suppressing errors is the central challenge for useful quantum computing, requiring quantum error correction for large-scale processing. However, the overhead in the realization of error-corrected ``logical'' qubits, where information is encoded across many physical qubits for redundancy, poses significant challenges to large-scale logical quantum computing. Here we report the realization of a programmable quantum processor based on encoded logical qubits operating with up to 280 physical qubits. Utilizing logical-level control and a zoned architecture in reconfigurable neutral atom arrays, our system combines high two-qubit gate fidelities, arbitrary connectivity, as well as fully programmable single-qubit rotations and mid-circuit readout. Operating this logical processor with various types of encodings, we demonstrate improvement of a two-qubit logic gate by scaling surface code distance from d=3 to d=7, preparation of color code qubits with break-even fidelities, fault-tolerant creation of logical GHZ states and feedforward entanglement teleportation, as well as operation of 40 color code qubits. Finally, using three-dimensional [[8,3,2]] code blocks, we realize computationally complex sampling circuits with up to 48 logical qubits entangled with hypercube connectivity with 228 logical two-qubit gates and 48 logical CCZ gates. We find that this logical encoding substantially improves algorithmic performance with error detection, outperforming physical qubit fidelities at both cross-entropy benchmarking and quantum simulations of fast scrambling. These results herald the advent of early error-corrected quantum computation and chart a path toward large-scale logical processors. ",
+    "url": "https://arxiv.org/abs/2312.03982",
+    "authors": [
+      "Dolev Bluvstein",
+      "Simon J. Evered",
+      "Alexandra A. Geim",
+      "Sophie H. Li",
+      "Hengyun Zhou",
+      "Tom Manovitz",
+      "Sepehr Ebadi",
+      "Madelyn Cain",
+      "Marcin Kalinowski",
+      "Dominik Hangleiter",
+      "J. Pablo Bonilla Ataides",
+      "Nishad Maskara",
+      "Iris Cong",
+      "Xun Gao",
+      "Pedro Sales Rodriguez",
+      "Thomas Karolyshyn",
+      "Giulia Semeghini",
+      "Michael J. Gullans",
+      "Markus Greiner",
+      "Vladan Vuletic",
+      "Mikhail D. Lukin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04164",
+    "title": "Nonlocal quantum differentiation between polarization objects using  entanglement",
+    "abstract": "For a wide range of applications a fast, non-destructive, remote, and sensitive identification of samples with predefined characteristics is preferred instead of their full characterization. Here, we report on the experimental implementation of a nonlocal quantum measurement scheme enabling to distinguish different transparent and birefringent samples by means of polarization-entangled photon pairs and remote state preparation. On an example set of more than 80 objects with varying Mueller matrices we show that only two coincidence measurements are already sufficient for successful discrimination in contrast to at least 8 required for a comprehensive inspection. The decreased number of measurements and the sample set significantly exceeding a typical set size for various problems demonstrate the high potential of the method for applications aiming at biomedical diagnostics, remote sensing, and other classification/detection tasks. ",
+    "url": "https://arxiv.org/abs/2312.04164",
+    "authors": [
+      "Vira R. Besaga",
+      "Luosha Zhang",
+      "Andres Vega",
+      "Purujit Singh Chauhan",
+      "Thomas Siefke",
+      "Fabian Steinlechner",
+      "Thomas Pertsch",
+      "Andrey A. Sukhorukov",
+      "Frank Setzpfandt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04184",
+    "title": "Enhancing quantum contrast by using an EMCCD as a photon number  resolving device",
+    "abstract": "The Electron Multiplying Charge Coupled Devices (EMCCD), owing to their high quantum efficiency and decent spatial resolution, are widely used to study typical quantum optical phenomena such as spatial entanglement and related applications. Researchers have already developed a procedure that enables us to statistically determine whether a pixel detects a single photon or not based on whether its output is higher or lower than the estimated noise level. However, these techniques are limited to extremely low photon numbers ( $\\approx 0.15$ mean number of photons per pixel per exposure), allowing for at most one photon per pixel. This limitation hinders applications due to the large number of frames required for any study. In this work, we present a method to estimate the mean rate of photons per pixel per frame for a specific exposure time. Subsequently, we make a statistical estimate of the number of photons ($\\geq 1$) incident on each pixel. This allows us to effectively utilize the EMCCD as a photon number resolving device, which significantly reduces the required experimentation time. As evidence of our approach, we quantify contrast in quantum correlation exhibited by a pair of spatially entangled photons generated by Spontaneous Parametric Down Conversion process. We employ the standard methods commonly used within the scientific community for comparison with our proposed method. We find an enhancement in the signal to noise ratio by about a factor of 3 for identical number of frames. This implies that this technique can achieve excellent results only within half the data collection time as compared to the conventional techniques. ",
+    "url": "https://arxiv.org/abs/2312.04184",
+    "authors": [
+      "Rounak Chatterjee",
+      "Vikas Bhat",
+      "Kiran Bajar",
+      "Sushil Mujumdar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04202",
+    "title": "Probing levitodynamics with multi-stochastic forces and the simple  applications on the dark matter detection in optical levitation experiment",
+    "abstract": "If the terrestrial environment is permeated by dark matter, the levitation experiences damping forces and fluctuations attributed to dark matter. This paper investigates levitodynamics with multiple stochastic forces, including thermal drag, photon recoil, feedback, etc., assuming that all of these forces adhere to the fluctuation-dissipation theorem. The ratio of total damping to the stochastic damping coefficient distinguishes the levitodynamics from cases involving only one single stochastic force. The heating and cooling processes are formulated to determine the limits of temperature change. All sources of stochastic forces are comprehensively examined, revealing that dark matter collisions cannot be treated analogously to fluid dynamics. Additionally, a meticulous analysis is presented, elucidating the intricate relationship between the fundamental transfer cross-section and the macroscopic transfer cross-section. While the dark damping coefficient is suppressed by the mass of the levitated particle, scattering can be coherently enhanced based on the scale of the component microscopic particle, the atomic form factor, and the static structure factor. Hence, dark damping holds the potential to provide valuable insights into the detection of the macroscopic strength of fundamental particles. We propose experimental procedures for levitation and employ linear estimation to extract the dark damping coefficient. Utilizing current levitation results, we demonstrate that the fundamental transfer cross section of dark matter can be of the order $\\sigma^{\\rm D}_{T}\\lsim {\\cal O}(10^{-26})\\rm cm^2$. ",
+    "url": "https://arxiv.org/abs/2312.04202",
+    "authors": [
+      "Xi Cheng",
+      "Ji-Heng Guo",
+      "Wenyu Wang",
+      "Bin Zhu"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04212",
+    "title": "Quantum relativistic equation for a probability amplitude",
+    "abstract": "The relativistic quantum equation is proposed for the complex wave function, which has the meaning of a probability amplitude. The Lagrangian formulation of the proposed theory is developed. The problem of spreading of a wave packet in an unlimited space is solved. The relativistic correction to the energy levels of a harmonic oscillator is found, leading to a violation of their equidistance. ",
+    "url": "https://arxiv.org/abs/2312.04212",
+    "authors": [
+      "Yu.M. Poluektov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.04252",
+    "title": "A Mott-Schottky Analysis of Mesoporous Silicon in Aqueous Electrolyte by  Electrochemical Impedance Spectroscopy",
+    "abstract": "Nanoporosity in silicon leads to completely new functionalities of this mainstream semiconductor. In recent years, it has been shown that filling the pores with aqueous electrolytes in addition opens a particularly wide field for modifying and achieving active control of these functionalities, e.g., for electrochemo-mechanical actuation and tunable photonics, or for the design of on-chip supercapacitors. However, a mechanistic understanding of these new features has been hampered by the lack of a detailed characterization of the electrochemical behavior of mesoporous silicon in aqueous electrolytes. Here, the capacitive, potential-controlled charging of the electrical double layer in a mesoporous silicon electrode (pore diameter $7\\,\\mathrm{nm}$) imbibed with perchloric acid solution is studied by electrochemical impedance spectroscopy. Thorough measurements with detailed explanations of the observed phenomena lead to a comprehensive understanding of the capacitive properties of porous silicon. An analysis based on the Mott-Schottky equation allows general conclusions to be drawn about the state of the band structure within the pore walls. Essential parameters such as the flat band potential, the doping density and the width of the space charge region can be determined. A comparison with bulk silicon shows that the flat band potential in particular is significantly altered by the introduction of nanopores, as it shifts from $1.4\\pm0.1\\,\\mathrm{V}$ to $1.9\\pm0.2\\,\\mathrm{V}$. Overall, this study provides a unique insight into the electrochemical processes, especially the electrical double layer charging, of nanoporous semiconductor electrodes. ",
+    "url": "https://arxiv.org/abs/2312.04252",
+    "authors": [
+      "Manuel Brinker",
+      "Patrick Huber"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2205.10028",
+    "title": "Towards a spectrally multiplexed quantum repeater",
+    "abstract": " Comments: 20 pages, 18 figures (including supplementary information) ",
+    "url": "https://arxiv.org/abs/2205.10028",
+    "authors": [
+      "Tanmoy Chakraborty",
+      "Antariksha Das",
+      "Hedser van Brug",
+      "Oriol Pietx-Casas",
+      "Peng-Cheng Wang",
+      "Gustavo Castro do Amaral",
+      "Anna L. Tchebotareva",
+      "Wolfgang Tittel"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.03233",
+    "title": "Fitting a Collider in a Quantum Computer: Tackling the Challenges of  Quantum Machine Learning for Big Datasets",
+    "abstract": " Comments: Code available in this https URL ",
+    "url": "https://arxiv.org/abs/2211.03233",
+    "authors": [
+      "Miguel Ca\u00e7ador Peixoto",
+      "Nuno Filipe Castro",
+      "Miguel Crispim Rom\u00e3o",
+      "Maria Gabriela Jord\u00e3o Oliveira",
+      "In\u00eas Ochoa"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.06397",
+    "title": "Lower-depth programmable linear optical processors",
+    "abstract": " Title: Lower-depth programmable linear optical processors ",
+    "url": "https://arxiv.org/abs/2306.06397",
+    "authors": [
+      "Rui Tang",
+      "Ryota Tanomura",
+      "Takuo Tanemura",
+      "Yoshiaki Nakano"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.03181",
+    "title": "Field theory description of the non-perturbative optical nonlinearity of  epsilon-near-zero media",
+    "abstract": " Title: Field theory description of the non-perturbative optical nonlinearity of  epsilon-near-zero media ",
+    "url": "https://arxiv.org/abs/2308.03181",
+    "authors": [
+      "Yaraslau Tamashevich",
+      "Tornike Shubitidze",
+      "Luca Dal Negro",
+      "Marco Ornigotti"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.09418",
+    "title": "Qubit Count Reduction by Orbital Optimization for Variational Quantum  Excited States Solvers",
+    "abstract": " Title: Qubit Count Reduction by Orbital Optimization for Variational Quantum  Excited States Solvers ",
+    "url": "https://arxiv.org/abs/2310.09418",
+    "authors": [
+      "Joel Bierman",
+      "Yingzhou Li",
+      "Jianfeng Lu"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.02856",
+    "title": "Comparative study of quantum emitter fabrication in wide bandgap  materials using localized electron irradiation",
+    "abstract": " Title: Comparative study of quantum emitter fabrication in wide bandgap  materials using localized electron irradiation ",
+    "url": "https://arxiv.org/abs/2312.02856",
+    "authors": [
+      "Anand Kumar",
+      "Chanaprom Cholsuk",
+      "Mohammad N. Mishuk",
+      "Mouli Hazra",
+      "Clotilde Pillot",
+      "Tjorben Matthes",
+      "Tanveer A. Shaik",
+      "Asli Cakan",
+      "Volker Deckert",
+      "Sujin Suwanna",
+      "Tobias Vogl"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
