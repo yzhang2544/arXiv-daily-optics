@@ -1,0 +1,537 @@
+[
+  {
+    "id": "arXiv:2312.14932",
+    "title": "Quantum Mechanics -- A Theory of dynamics for \"Space\"",
+    "abstract": "Till now, the foundation of quantum mechanics is still mysterious. To explore the mysteries in the foundation of quantum mechanics, people always take it for granted that quantum processes must be some types of fields/objects on a rigid space. In this paper, we give a new idea -- the space is no more rigid and matter is really the certain changing of \"space\" itself rather than extra things on it. According to the new idea, the dynamics for \"space\" leads to quantum mechanics. Based on this starting point, we develop a new framework on the foundation of quantum mechanics that may have a far-reaching impact on modern physics in future. ",
+    "url": "https://arxiv.org/abs/2312.14932",
+    "authors": [
+      "Su-Peng Kou"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15142",
+    "title": "Chiral terahertz lasing with Berry curvature dipoles",
+    "abstract": "Materials with Berry curvature dipoles (BDs) support a non-Hermitian electro-optic (EO) effect that is investigated here for lasing at terahertz (THz) frequencies. Such a system is here conceived as a stack of low-symmetry 2D materials. We show that a cavity made of such a material supports a nonreciprocal growing mode with elliptical polarization that generates an unstable resonance leading to self-sustained oscillations. Notably, we demonstrate that the chiral nature of the gain derived from the Berry dipole allows for the manipulation of the laser light's handedness by a simple reversal of the electric field bias. ",
+    "url": "https://arxiv.org/abs/2312.15142",
+    "authors": [
+      "Amin Hakimi",
+      "Kasra Rouhi",
+      "Tatiana G. Rappoport",
+      "Mario G. Silveirinha",
+      "Filippo Capolino"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15178",
+    "title": "Quantum Theory of Wave Scattering from Electromagnetic Time Interfaces",
+    "abstract": "Modulating macroscopic parameters of materials in time reveals alternative avenues for manipulating electromagnetic waves. Due to such a significant impact, the general research subject of time-varying systems is flourishing today in different branches of electromagnetism and optics. However, besides uncovering different phenomena and effects in the realm of classical electrodynamics, we need to simultaneously study also the quantum aspects of this emerging subject in order to comprehend thoroughly the behavior of quanta of electromagnetic fields. Here, through the lens of quantum optics, we scrutinize the interaction of electromagnetic waves with materials whose effective parameters suddenly change in time. In particular, considering the basic case of temporal discontinuity for the refractive index of a non-dispersive dielectric material, we explicitly show the transformation of bosonic annihilation and creation operators and describe corresponding output quantum states for two specific input states: A Fock state and a coherent state. Accordingly, we rigorously elucidate the probability distribution and illustrate the related photon statistics. In consequence, we explain phenomena such as photon-pair generation and remark on several important conditions associated with photon statistics. Hopefully, this work paves the road for further vital explorations of a quantum theory of wave interaction with photonic time crystals or with dispersive time-varying materials. ",
+    "url": "https://arxiv.org/abs/2312.15178",
+    "authors": [
+      "M. S. Mirmoosa",
+      "T. Set\u00e4l\u00e4",
+      "A. Norrman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15293",
+    "title": "Differentiable programming for inverse estimation of soil permeability  and design of duct banks",
+    "abstract": "Underground duct banks carrying power cables dissipate heat to the surrounding soil. The amount of heat dissipated determines the current rating of cables, which in turn affects the sizing of the cables. The dissipation of heat through the surrounding soils happens through conduction and convection. The mode of heat transfer depends on the soil's thermal and hydraulic properties like diffusivity and permeability. The soil surrounding the cables could be designed to have maximum heat dissipation to have an improved current rating of cables. Differentiable programming is a novel technique that combines automatic differentiation with gradient-based optimization to minimize a loss function. Hence, differentiable programming can be used to evaluate input parameters based on output results. Given a desired heat distribution in the soil and a temperature source, we use differentiable programming to solve the inverse problem of estimating the soil permeability. In the present study, we employ differentiable programming to optimize the design of the buried duck bank and the backfill soil to improve heat dissipation. The design involves optimizing the permeability and size of the fill material compared to the surrounding natural soil. To implement automatic differentiation, we develop an inverse finite difference code in the Julia programming language and ForwardDiff package. We demonstrate the design capabilities of the differentiable programming technique to obtain the optimum permeability of the backfill material from the norm of the temperature distribution in the surrounding soil. ",
+    "url": "https://arxiv.org/abs/2312.15293",
+    "authors": [
+      "Anusha Vajapeyajula",
+      "Krishna Kumar"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15298",
+    "title": "10 kT axial magnetic field generated using multiple conventional laser  beams",
+    "abstract": "Strong laser-generated magnetic fields have important applications in high energy density science and laboratory astrophysics. Although the inverse Faraday effect provides a mechanism for generating strong magnetic fields by absorbing angular momentum from a high-intensity laser pulse, it is not applicable to conventional linearly polarized (LP) Gaussian laser beams. We have dmeveloped a spatial arrangement that overcomes this difficulty by using multiple laser beams arranged to have a twist in the pointing direction. Using three-dimensional kinetic particle-in-cell simulations, we show that this arrangement is the key to generating a strong magnetic field. The resulting multi-kT picosecond axial magnetic field occupies tens of thousands of cubic microns of space and can be realized under a wide range of laser parameters and plasma conditions. Our scheme is well suited for implementation at PW-class laser facilities with multiple conventional LP laser beams. ",
+    "url": "https://arxiv.org/abs/2312.15298",
+    "authors": [
+      "Jue Xuan Hao",
+      "Xiang Tang",
+      "Alexey Arefiev",
+      "Robert J. Kingham",
+      "Ping Zhu",
+      "Yin Shi",
+      "Jian Zheng"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15372",
+    "title": "Accelerating Plasmonic Hydrogen Sensors for Inert Gas Environments by  Transformer-Based Deep Learning",
+    "abstract": "The ability to rapidly detect hydrogen gas upon occurrence of a leak is critical for the safe large-scale implementation of hydrogen (energy) technologies. However, to date, no technically viable sensor solution exists that meets the corresponding response time targets set by stakeholders at technically relevant conditions. Here, we demonstrate how a tailored Long Short-term Transformer Ensemble Model for Accelerated Sensing (LEMAS) accelerates the response of a state-of-the-art optical plasmonic hydrogen sensor by up to a factor of 40 in an oxygen-free inert gas environment, by accurately predicting its response value to a hydrogen concentration change before it is physically reached by the sensor hardware. Furthermore, it eliminates the pressure dependence of the response intrinsic to metal hydride-based sensors, while leveraging their ability to operate in oxygen-starved environments that are proposed to be used for inert gas encapsulation systems of hydrogen installations. Moreover LEMAS provides a measure for the uncertainty of the predictions that is pivotal for safety-critical sensor applications. Our results thus advertise the use of deep learning for the acceleration of sensor response, also beyond the realm of plasmonic hydrogen detection. ",
+    "url": "https://arxiv.org/abs/2312.15372",
+    "authors": [
+      "Viktor Martvall",
+      "Henrik Klein Moberg",
+      "Athanasios Theodoridis",
+      "David Tome\u010dek",
+      "Pernilla Ekborg-Tanner",
+      "Sara Nilsson",
+      "Giovanni Volpe",
+      "Paul Erhart",
+      "Christoph Langhammer"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15446",
+    "title": "Cross-calibration of atomic sensors for pressure metrology",
+    "abstract": "Atomic sensors have shown great promise for density and pressure metrology in the high, ultra-high, and extremely-high vacuum regimes. Specifically, the density of background gas particles in vacuum can be determined by measuring the collision rate between the particles and an ensemble of sensor atoms. This requires preparing the sensor atoms in a particular quantum state, observing the rate of changes of that state, and using the cross section coefficient for state-changing collisions to convert the rate into a corresponding density. The cross section can be known by various methods including by quantum scattering calculations using an ansatz for the interaction potential between the collision pair, by measurements of the post-collision sensor-atom momentum recoil distribution, or by empirical calibration of the sensor atom at a known density. Identifying systematic errors in the results of these methods can be aided by direct comparisons between them. Alternatively, measurements of different sensor atoms exposed to the same background gas offers another point of comparison free of the systematic errors inherent in creating a background gas at a known density. Here, we present such measurements for two sensor atoms, $^{87}$Rb and $^6$Li, and a variety of atomic and molecular background gases including H$_2$, N$_2$, Ar, Ne, Kr, and Xe. We find results consistent with, yet statistically different at the level of 3.5(5)%, from recent theoretical and experiment measurements. This work demonstrates a model-free method for transferring the primacy of one atomic standard to another sensor atom and highlights the utility of sensor-atom cross-calibration experiments to check the validity of direct measurements and theoretical predictions. ",
+    "url": "https://arxiv.org/abs/2312.15446",
+    "authors": [
+      "Erik Frieling",
+      "Riley A. Stewart",
+      "James L. Booth",
+      "Kirk W. Madison"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15451",
+    "title": "Bistable microbeam-based air flow sensor with piezoresistive  snap-through detection",
+    "abstract": "We report on a first implementation of a piezoresistive interrogation in a bifurcation-based airflow velocity sensor. The affected by the flow snap-through transitions in a bistable double-clamped microbeam serving as a sensing element are detected by measuring the resistivity changes in an entire beam. The flow velocity is then extracted by monitoring the critical voltages. Piezoresistive sensing is especially suitable for the responses monitoring of the exposed to the environment, free-standing heated microbeam sensor, where optical, piezoelectric, or electrostatic interrogation methods are not applicable. Our digital sensor has lower power consumption and higher sensitivity~3 V/m/s, than the typical analog hot-wire micro anemometers. Our results indicate that the suggested approach is a promising reliable method for a flow sensor. ",
+    "url": "https://arxiv.org/abs/2312.15451",
+    "authors": [
+      "Ivan Litvinov",
+      "Gal Spaer Milo",
+      "Alexander Liberzon",
+      "Slava Krylov"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15506",
+    "title": "Microresonator soliton frequency combs via cascaded Brillouin scattering",
+    "abstract": "We demonstrate Kerr soliton frequency comb generation that is seeded by a cascaded Brillouin scattering process. In this process, a pump laser is used to generate multiple orders of Brillouin sidebands in a microresonator, which in turn generate the soliton. In such a process, even orders of Brillouin scattering sidebands are co-propagating with respect to the pump laser while odd orders of Brillouin scattering are backwards propagating. In this work we present the generation of forward propagating Kerr solitons via a forward propagating second order Brillouin scattering process in a fused silica rod resonator. Importantly, we show that the Brillouin scattering process can bridge the gap between different microresonator mode families, such that the repetition rate of the Kerr soliton is independent from the Brillouin gain frequency shift (about 10 GHz in fused silica). In our work we demonstrate this by generating soliton pulse trains with a repetition rate of 107 GHz. Our work opens up a new way for using cascaded Brillouin lasing as a seed for microresonator frequency comb generation. This can be of particular interest for the realization of soliton frequency combs with low noise properties from Brillouin lasing while still having arbitrary repetition rates that are determined by the resonator size. Applications range from optical communication to LIDAR systems and photonic signal generation. ",
+    "url": "https://arxiv.org/abs/2312.15506",
+    "authors": [
+      "Hao Zhang",
+      "Shuangyou Zhang",
+      "Toby Bi",
+      "George Ghalanos",
+      "Yaojing Zhang",
+      "Haochen Yan",
+      "Arghadeep Pal",
+      "Jijun He",
+      "Shilong Pan",
+      "Pascal Del Haye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15515",
+    "title": "Ultrafast terahertz superconductor van der Waals metamaterial photonic  switch",
+    "abstract": "High-temperature superconductor (HTS) BSCCO-based coherent terahertz (THz) sources have shown great potential as one of the leading solid-state platforms in THz science and technology. Stable, and chip-scale photonic components must be developed to effectively and efficiently control and manipulate their coherent radiation, especially for future communication systems and network applications. Here, we report on the design, simulation and modelling of ultrafast THz metamaterial photonic integrated circuits, on a few nanometers thick HTS BSCCO van der Waals (vdWs), capable of the active modulation of phase with constant transmission coefficient over a narrow frequency range. Meanwhile, the metamaterial circuit works as an amplitude modulator without significantly changing the phase in a different frequency band. Under the application of ultrashort optical pulses, the transient modulation dynamics of the THz metamaterial offer a fast switching timescale of 50 ps. The dynamics of picosecond light-matter interaction_ Cooper pairs breaking, photoinduced quasiparticles generation and recombination, phonon bottleneck effect, emission and relaxation of bosons_ in BSCCO vdWs metamaterial arrays are discussed for the potential application of multifunctional superconducting photonic circuits in communication and quantum technologies. ",
+    "url": "https://arxiv.org/abs/2312.15515",
+    "authors": [
+      "Kaveh Delfanazari"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15584",
+    "title": "Controllable magnon frequency comb in synthetic ferrimagnets",
+    "abstract": "Magnon frequency comb provides opportunities for exploring magnon nonlinear effects and measuring the transmission magnon frequency in magnets, whose controllability determines working frequency and measurement accuracy. In this work, we investigate theoretically and numerically the skyrmion-induced magnon frequency comb generated by the interaction between the magnon excitation mode and skyrmion breathing mode in synthetic ferrimagnets. It is revealed that both the skyrmion breathing mode and the magnon frequency gap closely depends on the net angular momentum {\\delta}s, emphasizing the pivotal role of {\\delta}s as an effective control parameter in governing the comb teeth. With the increase of {\\delta}s, the skyrmion size decreases, which results in the enlargement of the breathing frequency and the distance between the comb teeth. Moreover, the magnon frequency gap varies with {\\delta}s and the inter-layer coupling, allowing one to modulate the comb lowest coherent frequency through structural control in experiments. The coherent modes generated by the comb could exist from gigahertz to terahertz frequencies, serving as a bridge between microwave and terahertz waves. Thus, this work unveils the controllable magnon frequency comb through tuning {\\delta}s and the inter-layer coupling, advancing the comprehension of magnon frequency combs in ferrimagnets. ",
+    "url": "https://arxiv.org/abs/2312.15584",
+    "authors": [
+      "Y. Liu",
+      "T. T. Liu",
+      "Q. Q. Yang",
+      "G. Tian",
+      "Z. P. Hou",
+      "D. Y. Chen",
+      "Z. Fan",
+      "M. Zeng",
+      "X. B. Lu",
+      "X. S. Gao",
+      "M. H. Qin",
+      "J. M. Liu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15601",
+    "title": "On-chip Lithium Niobate Heterogeneous Photonic Crystal Nanocavity Laser",
+    "abstract": "Thin film lithium niobate (TFLN) has become an platform for modern integrated circuits due to its excellent optical properties. With the development of rare earth ion doped TFLN, important breakthroughs of on-chip microlasers has emerged and show significant application for optical communication, computing and quantum photonics. However, challenges still remain in developing compact lasers with small mode volumes and low threshold on rare earth ion doped TFLN for highly efficient dense integration. In this letter, we fabricated a heterogeneous photonic crystal (PhC) nanobeam cavity on erbium-doped TFLN with a quality factor of 1.2\\times10^4 and firstly demonstrated a single-mode integrated PhC laser with submicron mode volume on TFLN platform. Laser at 1559.63 nm is achieved with the 974 nm single-mode pump. The effective mode volume is 1.44 ({\\lambda}/n)^3 (~ 0.645 {\\mu}m^3) and the threshold power is 163 {\\mu}W. Enhanced photorefractive effect in the PhC cavity is measured. This lithium niobate photonic crystal nanocavity laser, as a compact telecommunication C-band on-chip light source, would benefit the progress of high-speed and low-cost optical community on TFLN integrated photonics. ",
+    "url": "https://arxiv.org/abs/2312.15601",
+    "authors": [
+      "Xiangmin Liu",
+      "Rui Ge",
+      "Chengyu Chen",
+      "Jiangwei Wu",
+      "Yuping Chen",
+      "Xianfeng Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15743",
+    "title": "Electro-optic frequency comb-enabled precise distance measurement with  megahertz acquisition rate",
+    "abstract": "Artificial intelligence empowered autonomous vehicles and robotics have to sense the fast-changing three-dimensional environment with high precision and speed. However, it is challenging for the state-of-the-art ambiguity-free light detection and ranging (LiDAR) techniques to achieve absolute distance measurement with simultaneous high precision and high acquisition rate. Here we demonstrate an electro-optic frequency comb-enabled precise absolute distance measurement method, repetition rate modulated frequency comb (RRMFC), with megahertz-level acquisition rate. To achieve RRMFC, we designed and fabricated an integrated lithium niobate phase modulator with a modulation length of 5 cm and a half-wave voltage of 1.52 V, leading to over 50 sidebands and a continuously tunable repetition rate. Leveraging these unique features, RRMFC can directly resolve distance in time domain, leading to an acquisition rate as high as 25 MHz and an Allan deviation down to 13.77 {\\mu}m at an averaging time of 724 {\\mu}s. Based on RRMFC, we achieved high-speed 3D imaging at millimeter-level precision with a single laser. RRMFC-based LiDAR allows the autonomous vehicles and robotics to sense the fine details of fast-changing environment with high precision. ",
+    "url": "https://arxiv.org/abs/2312.15743",
+    "authors": [
+      "Yifan Qi",
+      "Xingyu Jia",
+      "Jingyi Wang",
+      "Weiwei Yang",
+      "Yihan Miao",
+      "Kunpeng Chen",
+      "Xinlun Cai",
+      "Guanhao Wu",
+      "Yang Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15798",
+    "title": "A new strategy to optimize complex absorbing potentials for the  computation of resonance energies and widths",
+    "abstract": "Complex absorbing potentials (CAPs) are artificial potentials added to electronic Hamiltonians to make the wave function of metastable electronic states square-integrable. This makes electronic-structure theory of resonances comparable to that of bound states, thus reducing the complexity of the problem. However, the most often used box and Voronoi CAPs depend on several parameters that have a substantial impact on the numerical results. Among these parameters are the CAP strength and a set of spatial parameters that define the onset of the CAP. It has been a common practice to minimize the perturbation of the resonance states due to the CAP by optimizing the strength parameter while fixing the onset parameters although the performance of this approach strongly depends on the chosen onset. Here we introduce a more general approach that allows one to optimize not only the CAP strength but also the spatial parameters. We show that fixing the CAP strength and optimizing the spatial parameters is a reliable way for minimizing CAP perturbations. We illustrate the performance of this new approach by computing resonance energies and widths of the temporary anions of dinitrogen, ethylene, and formic acid. This is done at the Hartree-Fock and equation-of-motion coupled-cluster singles and doubles levels of theory, using full and projected box and Voronoi CAPs. ",
+    "url": "https://arxiv.org/abs/2312.15798",
+    "authors": [
+      "Jerryman A. Gyamfi",
+      "Thomas-C. Jagau"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.16085",
+    "title": "Application of the Green function formalism to the interplay between  avalanche and multiphoton ionization induced by optical pulses",
+    "abstract": "A fundamental brick of light-matter interaction at large optical intensities is the generation of a plasma. The optically-induced plasma in turn plays a fundamental role in determining the optical propagation. The plasma generation is a result of the interplay between multi-photon, tunnel and avalanche ionization. Here we use the basic rate equations to discuss an analytical model for the interaction between these physical effects. After defining a nonlinear impulse response for the system, we describe how the interplay depends on the features of the optical pulses. Our approach strongly simplifies the modelling of the propagation of ultrashort-pulses, paving the way to a much easier and faster interpretation of experimental observations, with potential impact on the broad fields of ultrafast light-matter interaction and laser micro-machining. ",
+    "url": "https://arxiv.org/abs/2312.16085",
+    "authors": [
+      "Alessandro Alberucci",
+      "Chandroth P. Jisha",
+      "Stefan Nolte"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.16093",
+    "title": "Electron Confinement study in a double quantum dot by means of Shannon  Entropy Information",
+    "abstract": "In this work, we use the Shannon informational entropies to study an electron confined in a double quantum dot. We obtain the values of the entropies $S_r$, $S_p$ and $S_t$ as a function of the parameters $A_2$ and $k$ of the harmonic-Gaussian symmetric double quantum well potential function. We conjecture that the entropy $S_r$ maps the degeneracy of states when we vary $A_2$ and also is an indicator of the level of decoupling/coupling of the double quantum dot. We study the quantities $S_r$ and $S_p$ as measures of delocalization/localization of the probability distribution. Furthermore, we analyze the behaviors of the quantities $S_p$ and $S_t$ as a function of $A_2$ and $k$. Finally, we carried out an energy analysis and, when possible, compared our results with work published in the literature. ",
+    "url": "https://arxiv.org/abs/2312.16093",
+    "authors": [
+      "Wallas S. Nascimento",
+      "Angelo M. Maniero",
+      "Frederico V. Prudente",
+      "Carlos R. de Carvalho",
+      "Ginette Jalbert"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15034",
+    "title": "Two-Time Quantum Fluctuations Approach and its Relation to the  Bethe--Salpeter Equation",
+    "abstract": "Correlated quantum many-particle systems out of equilibrium are of high interest in many fields, including correlated solids, ultracold atoms or dense plasmas. Accurate theoretical description of these systems is challenging both, conceptionally and with respect to computational resources. We have recently presented a quantum fluctuations approach which is equivalent to the nonequilibrium $GW$ approximation [E. Schroedter \\textit{et al.}, Cond. Matt. Phys. \\textbf{25}, 23401 (2022)] that promises high accuracy at low computational cost. In a second publication [E. Schroedter \\textit{et al.}, Phys. Rev. B \\textbf{108}, 205109 (2023)], this approach was extended to the two-time exchange-correlation functions and the density response properties. Here, we analyze the properties of this approach in more detail. We demonstrate that the method is equivalent to the Bethe--Salpeter equation for the two-time exchange-correlation function when the generalized Kadanoff-Baym ansatz with Hartree-Fock propagators is applied. ",
+    "url": "https://arxiv.org/abs/2312.15034",
+    "authors": [
+      "Erik Schroedter",
+      "Michael Bonitz"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Plasma Physics (physics.plasm-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15132",
+    "title": "Large-Area Spatially Ordered Mesa Top Single Quantum Dots: Suitable  Single Photon Emitters for On-Chip Integrated Quantum Information Processing  Platforms",
+    "abstract": "Realization of the long sought on-chip scalable photonic quantum information processing networks has been thwarted by the absence of spatially-ordered and scalable on-demand single photon emitters with emission figures-of-merit exceeding the required thresholds across large numbers. The positioning must meet the required degree of accuracy that enables fabricating their interconnection to create the desired functional network. Here we report on the realization of large-area spatially-ordered arrays of mesa-top single quantum dots (MTSQDs) that are demonstrated [1] to be on-demand single photon emitters with characteristics that meet the requirements for implementing quantum photonic circuits/platforms aimed at quantum key distribution, linear optical quantum computing, simulations of quantum many-body problems, and metrology/sensing. The reported GaAs/InGaAs/GaAs MTSQD arrays, grown via SESRE (substrate-encoded size-reducing epitaxy) are in multiple arrays of up to 100x100 with 5um pitch, across a centimeter radius area. We show illustrative large-area images of the emission intensity (brightness) and color-coded wavelength distribution exhibiting ~3.35nm standard deviation. Scanning transmission electron microscopy shows a remarkable control on the QD location to within ~3nm accuracy laterally and ~1nm vertically. The primary remaining challenge is the control on the uniformity of the currently wet-chemically etched as-patterned nanomesa lateral size across the substrate, a surmountable technical issue. Thus, SESRE offers the most promising approach to realizing on-chip scalable spatially-ordered arrays of on-demand bright single quantum emitters meeting the figures-of-merit required for on-chip fully integrated quantum photonic circuit platforms-monolithic (such as based upon AlGaAs on insulator) or hybrid that leverage the silicon-on-insulator (SOI) photonic integrated circuit (PIC). ",
+    "url": "https://arxiv.org/abs/2312.15132",
+    "authors": [
+      "Qi Huang",
+      "Lucas Jordao",
+      "Siyuan Lu",
+      "Swarnabha Chattaraj",
+      "Jiefei Zhang",
+      "Anupam Madhukar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15245",
+    "title": "Resonant Inductive Coupling Network for Human-Sized Magnetic Particle  Imaging",
+    "abstract": "In Magnetic Particle Imaging, a field-free region is maneuvered throughout the field of view using a time-varying magnetic field known as the drive-field. Human-sized systems operate the drive-field in the kHz range and generate it by utilizing strong currents that can rise to the kA range within a coil called the drive field generator. Matching and tuning between a power amplifier, a band-pass filter and the drive-field generator is required. Here, for reasons of safety in future human scanners, a symmetrical topology and a transformer, called inductive coupling network is used. Our primary objectives are to achieve floating potentials to ensure patient safety, attaining high linearity and high gain for the resonant transformer. We present a novel systematic approach to the design of a loss-optimized resonant toroid with a D-shaped cross section, employing segmentation to adjust the inductance-to-resistance ratio while maintaining a constant quality factor. Simultaneously, we derive a specific matching condition of a symmetric transmit-receive circuit for magnetic particle imaging. The chosen setup filters the fundamental frequency and allows simultaneous signal transmission and reception. In addition, the decoupling of multiple drive field channels is discussed and the primary side of the transformer is evaluated for maximum coupling and minimum stray field. Two prototypes were constructed, measured, decoupled, and compared to the derived theory and to method-of-moment based simulations. ",
+    "url": "https://arxiv.org/abs/2312.15245",
+    "authors": [
+      "Fabian Mohn",
+      "Fynn F\u00f6rger",
+      "Florian Thieben",
+      "Martin M\u00f6ddel",
+      "Ingo Schmale",
+      "Tobias Knopp",
+      "Matthias Graeser"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Systems and Control (eess.SY)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15553",
+    "title": "Inverse Measurements in Active Nematics",
+    "abstract": "We present a framework to take new measurements in nematic systems that contain active elements such as molecular motors. Spatio-temporal fields of stress, velocity, pressure, and forces are obtained jointly from microscopy images. Our inverse-problem approach ensures that they comply with physical laws and are accurate near system boundaries. Our measurements in active biological materials provide new insight for the design of boundary-aware nematic systems. The shear stress unveils a correlation with the nucleation of topological defects. The velocity and pressure fields characterize how boundary effects drive the dynamics of the system in terms of attractors. And the force relates the underlying fluid with the nematic tensor to reveal the activity scales of the system. More broadly, our work establishes a generalizable approach to study experimental systems that are inaccessible to measuring probes. ",
+    "url": "https://arxiv.org/abs/2312.15553",
+    "authors": [
+      "Aleix Boquet-Pujadas",
+      "J\u00e9r\u00f4me Hardou\u00efn",
+      "Junhao Wen",
+      "Jordi Ign\u00e9s-Mullol",
+      "Francesc Sagu\u00e9s"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15597",
+    "title": "On the connection between weak measurement in quantum physics and  analytic phase-retrieval in classical wave optics",
+    "abstract": "The physical interpretation of weak measurements has been the subject of much debate. It is known that anomalous phenomena and results that appear in weak measurements are essentially related to the phase of the quantum system being measured. Consideration of the phase is important to clarify its physical interpretation. In classical wave optics, there has long been studies on methods of measuring or retrieving the phase of a wave function. We here present that one of those methods, the analytic phase retrieval based on the properties of entire functions, has a close connection with weak measurements in quantum physics. We explain such a connection for two emblematic optical weak-measurements that have the same mathematical formalism as quantum systems: one is a system for weak measurements of polarized light displacement in a birefringent crystal, and the other is a system for the direct measurement of a wave function by weakly coupling it to a pointer. In those two systems, we show that the pre- and post-selection of polarized light provides a filtering effect similar to that utilized in the analytic phase retrieval. ",
+    "url": "https://arxiv.org/abs/2312.15597",
+    "authors": [
+      "Nobuharu Nakajima"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15620",
+    "title": "Tailoring coherent microwave emission from a solid-state hybrid system  for room-temperature microwave quantum electronics",
+    "abstract": "Quantum electronics operating in the microwave domain are burgeoning and becoming essential building blocks of quantum computers, sensors and communication devices. However, the field of microwave quantum electronics has long been dominated by the need for cryogenic conditions to maintain the delicate quantum characteristics. Here we report on a solid-state hybrid system, constituted by a photo-excited pentacene triplet spin ensemble coupled to a dielectric resonator, that is for the first time capable of both coherent microwave quantum amplification and oscillation at X band via the masing process at room temperature. By incorporating external driving and active dissipation control into the hybrid system, we achieve efficient tuning of the maser emission characteristics at around 9.4 GHz, which is key to optimizing the performance of the maser device. Our work not only pushes the boundaries of the operating frequency and functionality of the existing pentacene masers, but also demonstrate a universal route for controlling the masing process at room temperature, highlighting opportunities for optimizing emerging solid-state masers for quantum information processing and communication. ",
+    "url": "https://arxiv.org/abs/2312.15620",
+    "authors": [
+      "Kaipu Wang",
+      "Hao Wu",
+      "Bo Zhang",
+      "Xuri Yao",
+      "Jiakai Zhang",
+      "Mark Oxborrow",
+      "Qing Zhao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15841",
+    "title": "Strong frequency correlation and anti-correlation between a Raman laser  and its pump laser for positive and negative dispersions",
+    "abstract": "We show that the frequency of a Raman laser is highly correlated or anti-correlated with the frequency of the Raman pump laser, depending on whether the dispersion experienced by the Raman laser is positive or negative. For a subluminal laser, corresponding to a positive dispersion with a group index that is much larger than unity, the shift in its frequency is approximately the same as that in the Raman pump laser. In contrast, for a superluminal laser, corresponding to a negative dispersion with a group index that is close to zero, its frequency shifts in the direction opposite to that of the Raman pump lasers, and has an amplitude that is larger by a factor approximately equaling the inverse of the group index. These findings would play a critical role in determining the maximum achievable sensitivity of sensors employing such lasers, especially under conditions where the pump laser linewidth is broadened significantly beyond the Schawlow-Townes linewidth due to classical fluctuations. ",
+    "url": "https://arxiv.org/abs/2312.15841",
+    "authors": [
+      "Zifan Zhou",
+      "Ruoxi Zhu",
+      "Selim M. Shahriar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15882",
+    "title": "Optical absorption tensors based on C$_{70}$ trimers and polymers",
+    "abstract": "The optical absorption spectrum of $C_{60}$-dimers and polymers was investigated by Kikuo et al. in 1996\\cite{harigaya1996charge}. As a compliment to these earlier studies, the optical absorption spectrum of the $C_{70}$ fullerene has been investigated in the present study. The main purpose was then to compare the absorption spectrum of the $C_{70}$-dimers and trimers and, more specifically, to clarify the effect of these molecular structures on the absorption spectrum. What is most important and decisive is then the value of the conjugation parameter of these $C_{70}$-based molecules. In the present study, a tight-binding model was used in calculating the optical absorption spectra of both $C_{70}$ dimers and polymers, as well as $C_{70}$ trimers and polymers. The change in conjugation parameter for each of these species was found to cause variations in the corresponding optical absorption spectrum. It was found that the absorption tensor of the $C_{70}$ trimer and the polymer was, depending on the value of the conjugation parameters $b=0.5$ and $b=0.8$. The situation was almost the same for the conjugation parameters $b=0.1$ and $b=0.2$. In addition, the value of the band gap was also different depending on the different conjugation parameters, with a reduced value for the larger values of this parameter. As a conclusion, smaller values of the conjugation parameter were not found to have a large effect on the absorption spectrum of the $C_{70}$-dimers and trimers, or in other words, the effect was hardly visible. On the contrary, the larger values caused a drastic change in the optical absorption spectrum of the $C_{70}$-dimers and trimers. ",
+    "url": "https://arxiv.org/abs/2312.15882",
+    "authors": [
+      "Elnaz Rostampour",
+      "Badie Ghavami",
+      "Karin Larsson"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15984",
+    "title": "Tuning the electronic and optical properties of hg-C$_3$N$_4$, quantum  dots with edge-functionalization: A computational perspective",
+    "abstract": "In this work, we have systematically investigated the structural, electronic, vibrational and optical properties of the edge-functionalized hg-C3N4 quantum dots with the aim of exploring their possible applications in solar cells and other optoelectronic devices such as light-emitting diodes. The functional groups considered in this work are methyl (-CH$_3$), fluorine (-F), and oxygenated groups such as aldehyde (-CHO), carboxyl (-COOH), ketone (-COCH$_3$), and hydroxyl (-OH) groups. The edge-functionalization resulted in significant tuning of the electronic, vibrational, and optical properties. Thus, their structural fingerprints are present in both their vibrational and optical properties, thereby allowing their detection both in the Raman as well as optical spectroscopies. It is observed that edge functionalization broadens the energy range of optical absorption, leading to coverage of most of the ultraviolet and visible regions. This implies that the edge-functionalization of hg-C$_3$N$_4$ quantum dots can be used in a variety of optoelectronic devices such as solar cells and light emitting diodes. ",
+    "url": "https://arxiv.org/abs/2312.15984",
+    "authors": [
+      "Khushboo Dange",
+      "Vaishali Roondhe",
+      "Alok Shukla"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2112.10929",
+    "title": "Quantum probability from temporal structure",
+    "abstract": " Title: Quantum probability from temporal structure ",
+    "url": "https://arxiv.org/abs/2112.10929",
+    "authors": [
+      "Michael Ridley"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Mathematical Physics (math-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.07037",
+    "title": "Interference of cavity light by a single atom acting as a double slit",
+    "abstract": " Comments: 11 pages, 5+2 figures ",
+    "url": "https://arxiv.org/abs/2306.07037",
+    "authors": [
+      "Yijia Zhou",
+      "Xinwei Li",
+      "Weibin Li",
+      "Hao Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.15186",
+    "title": "Scalable Quantum Monte Carlo with Direct-Product Trial Wave Functions",
+    "abstract": " Title: Scalable Quantum Monte Carlo with Direct-Product Trial Wave Functions ",
+    "url": "https://arxiv.org/abs/2306.15186",
+    "authors": [
+      "Hung Q. Pham",
+      "Runsheng Ouyang",
+      "Dingshun Lv"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.15621",
+    "title": "Exact solutions for radiative transfer with partial frequency  redistribution",
+    "abstract": " Comments: 52 pages, 6 figures, to be submitted to Astronomy and Astrophysics ",
+    "url": "https://arxiv.org/abs/2310.15621",
+    "authors": [
+      "H\u00e9l\u00e8ne Frisch"
+    ],
+    "subjectives": [
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.16599",
+    "title": "Statistics of tens-of-photon states scattered by optical cavity,  two-level atom and Jaynes-Cummings emitter",
+    "abstract": " Comments: 12 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2311.16599",
+    "authors": [
+      "Jia-Nan Wu",
+      "Bingsuo Zou",
+      "and Yongyou Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.17258",
+    "title": "Optical systems with translational invariance",
+    "abstract": " Comments: 18 pages, 3 figures, 3 tables, errors fixed ",
+    "url": "https://arxiv.org/abs/2311.17258",
+    "authors": [
+      "Dmitry Zhuridov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.10719",
+    "title": "Passive Photonic Phase Gate via a Two-Level Emitter and Few Cavities",
+    "abstract": " Comments: 6 pages, 2 figures ",
+    "url": "https://arxiv.org/abs/2312.10719",
+    "authors": [
+      "Zhaohua Tian",
+      "Xue-Wen Chen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.13542",
+    "title": "Imagining density distribution of molecular orbitals in IR+XUV  co-rotating circular laser fields by frequency-domain theory",
+    "abstract": " Title: Imagining density distribution of molecular orbitals in IR+XUV  co-rotating circular laser fields by frequency-domain theory ",
+    "url": "https://arxiv.org/abs/2312.13542",
+    "authors": [
+      "Yu-Hong Li",
+      "Facheng Jin",
+      "Yujun Yang",
+      "Fei Li",
+      "Ying-Chun Guo",
+      "Zhi-Yi Wei",
+      "Jing Chen",
+      "Xiaojun Liu",
+      "Bingbing Wang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
