@@ -1,0 +1,356 @@
+[
+  {
+    "id": "arXiv:2401.04780",
+    "title": "Theory of Moment Propagation for Quantum Dynamics in Single-Particle  Description",
+    "abstract": "We present a novel theoretical formulation for performing quantum dynamics in terms of moments within the single-particle description. By expressing the quantum dynamics in terms of increasing orders of moments, instead of single-particle wave functions as generally done in time-dependent density functional theory, we describe an approach for reducing the high computational cost of simulating the quantum dynamics. The equation of motion is given for the moments by deriving analytical expressions for the first-order and second-order time derivatives of the moments, and a numerical scheme is developed for performing quantum dynamics by expanding the moments in the Taylor series as done in classical molecular dynamics simulation. We propose a few numerical approaches using this theoretical formalism on a simple one-dimensional model system, for which an analytically exact solution can be derived. Application of the approaches to an anharmonic system is also discussed to illustrate their generality. We also discuss the use of an artificial neural network model to circumvent the numerical evaluation of the second-order time derivatives of the moments, as analogously done in the context of classical molecular dynamics simulations. ",
+    "url": "https://arxiv.org/abs/2401.04780",
+    "authors": [
+      "Nicholas Boyer",
+      "Christopher Shepard",
+      "Ruiyi Zhou",
+      "Jianhang Xu",
+      "Yosuke Kanai"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04893",
+    "title": "Machine learning-enhanced optical tweezers for defect-free rearrangement",
+    "abstract": "Optical tweezers constitute pivotal tools in Atomic, Molecular, and Optical(AMO) physics, facilitating precise trapping and manipulation of individual atoms and molecules. This process affords the capability to generate desired geometries in both one-dimensional and two-dimensional spaces, while also enabling real-time reconfiguration of atoms. Due to stochastic defects in these tweezers, which cause catastrophic performance degradation especially in quantum computations, it is essential to rearrange the tweezers quickly and accurately. Our study introduces a machine learning approach that uses the Proximal Policy Optimization model to optimize this rearrangement process. This method focuses on efficiently solving the shortest path problem, ensuring the formation of defect-free tweezer arrays. By implementing machine learning, we can calculate optimal motion paths under various conditions, resulting in promising results in model learning. This advancement presents new opportunities in tweezer array rearrangement, potentially boosting the efficiency and precision of quantum computing research. ",
+    "url": "https://arxiv.org/abs/2401.04893",
+    "authors": [
+      "Yongwoong Lee",
+      "Eunmi Chae"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04897",
+    "title": "HYPIC: A fast hybrid EM PIC-MCC code for ion cyclotron resonance  energization in cylindrical coordinate system",
+    "abstract": "Ion cyclotron resonance energization (ICRE) such as ion cyclotron resonance heating (ICRH) is widely applied to magnetic confinement fusion and high-power electric propulsion. Since ICRE involves cyclotron resonance processes, a kinetic model is required. Both conventional particle-in-cell (PIC) simulations and solving the Boltzmann equation require enormous computation and memory. The hybrid simulation incorporating of adiabatic electrons and PIC ions allows both a substantial reduction in computation and the inclusion of cyclotron resonance effects. Under the adiabatic electron approximation, we have developed a two-dimensional (r,z) hybrid electromagnetic (EM) PIC-MCC (Monte-Carlo collision) simulation program, named HYPIC. The advantages of HYPIC are the inclusion of ion kinetic effects, electrostatic (ES) and EM effects, and collisional effects of ions and electrons, with a small computation. The HYPIC program is able to fast simulate the antenna-plasma interactions and the ion cyclotron resonance energization and/or ion cyclotron resonance heating processes in linear devices, such as high-power electric propulsion, magnetic mirror, and field-reversed-configuration (FRC), etc. ",
+    "url": "https://arxiv.org/abs/2401.04897",
+    "authors": [
+      "Mingyang Wu",
+      "Andong Xu",
+      "Chijie Xiao"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04902",
+    "title": "Magnetically tunable electric dipolar interactions of ultracold polar  molecules in the quantum ergodic regime",
+    "abstract": "By leveraging the hyperfine interaction between the rotational and nuclear spin degrees of freedom, we demonstrate extensive magnetic control over the electric dipole moments, electric dipolar interactions, and ac Stark shifts of ground-state alkali-dimer molecules such as KRb$(X^1\\Sigma)$. The control is enabled by narrow avoided crossings and the highly ergodic character of molecular eigenstates at low magnetic fields, offering a general and robust way of continuously tuning the intermolecular electric dipolar interaction for applications in quantum simulation and sensing. ",
+    "url": "https://arxiv.org/abs/2401.04902",
+    "authors": [
+      "Rebekah Hermsmeier",
+      "Ana Maria Rey",
+      "Timur V. Tscherbul"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04943",
+    "title": "Evaluation of the relativistic redshift in frequency standards at KRISS",
+    "abstract": "Relativistic redshift correction should be accurately considered in frequency comparisons between frequency standards. In this study, we evaluated the relativistic redshift at Korea Research Institute of Standards and Science (KRISS) using three different methods, depending on whether the approach was traditional or modern or whether the geopotential model was global or local. The results of the three methods agreed well with one another, and the height of an Yb optical lattice clock (KRISS-Yb1) was determined to be 75.15 m with an uncertainty of 0.04 m with respect to the conventionally adopted equipotential surface W0(CGPM), the value of which is defined to be 62 636 856.0 m2/s2. Accordingly, the relativistic redshift of KRISS-Yb1 was evaluated to be 8.193(4)x10-15. These data are applicable to the frequency standards at KRISS, one of which regularly participates in the calibration of the International Atomic Time (TAI). ",
+    "url": "https://arxiv.org/abs/2401.04943",
+    "authors": [
+      "Jisun Lee",
+      "Jay Hyoun Kwon",
+      "Chang Yong Park",
+      "Huidong Kim",
+      "In-Mook Choi",
+      "Jin Wan Chung",
+      "Won-Kyu Lee"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05127",
+    "title": "Complete vectorial optical mode converter using multi-layer metasurface",
+    "abstract": "A vectorial optical mode converter that can transform an orthogonal set of multiple input vector beams into another orthogonal set of vector beams is attractive for a wide range of applications in optics and photonics. While multi-plane light conversion (MPLC) and metasurface technologies have been explored to individually address multiple spatial mode conversion and polarization mode manipulation, there is no universal methodology to simultaneously convert a set of multiple vectorial modes, having non-uniform spatial distributions in both their complex amplitude and polarization, to another set of multiple vectorial modes. In this paper, we introduce a novel device based on the MPLC concept, incorporating multi-layer locally birefringent metasurfaces, and present a general design formalism to realize complete vectorial mode conversion for arbitrary cases. The efficacy of the proposed method is confirmed through the demonstration of two distinctive devices: a mode-division-multiplexed dual-polarization coherent receiver and a spatial-mode-multiplexed vectorial holography system. Due to its versatility, the demonstrated protocol can be applied to design a myriad of multi-input-multi-output devices, offering a powerful tool to realize universal optical mode converters for diverse applications. ",
+    "url": "https://arxiv.org/abs/2401.05127",
+    "authors": [
+      "Go Soma",
+      "Takuo Tanemura"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05161",
+    "title": "Klystron type X-ray crystal-based Volume Free Electron Laser (XVFEL)",
+    "abstract": "Typical parameters of electron bunches available now in undulator X-ray FELs enable generation of induced radiation in crystal-based X-ray VFEL. An important peculiarity of an undulator X-ray FEL is electron bunch spatial modulation with the period equal to the wavelength of the produced radiation. Therefore, XFEL can be considered as a modulator of electron bunch density. As a result a facility combining an undulator, which produced a modulated beam, and a crystal, on which the modulated beam is incident, can be considered to be similar to klystron, which is a well-known source for microwaves emission. Use of pre-modulated beams enables to generate and observe superradiation and induced radiation in a crystal-based X-ray VFEL. ",
+    "url": "https://arxiv.org/abs/2401.05161",
+    "authors": [
+      "V.G.Baryshevsky"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05266",
+    "title": "Quantum Modeling of Filter Bubbles Based on Kubo-Matsubara Form Green's  Functions Considering Remote and Proximity Interactions:Ultraviolet  Divergence to Indefinite Ghosting, Consideration of Cut Surfaces",
+    "abstract": "This research aims to model tracks the evolution of opinions among agents and their collective dynamics, and mathematically represents the resonance of opinions and echo chamber effects within the filter bubble by including non-physical factors such as misinformation and confirmation bias, known as FP ghosting phenomena.The indeterminate ghost phenomenon, a social science concept similar to the uncertainty principle, depicts the variability of social opinion by incorporating information uncertainty and nonlinearities in opinion formation into the model. Furthermore, by introducing the Kubo formula and the Matsubara form of the Green's function, we mathematically express temporal effects and model how past, present, and future opinions interact to reveal the mechanisms of opinion divergence and aggregation. Our model uses multiple parameters, including population density and extremes of opinion generated on a random number basis, to simulate the formation and growth of filter bubbles and their progression to ultraviolet divergence phenomena. In this process, we observe how resonance or disconnection of opinions within a society occurs via a disconnection function (type la, lb, ll, lll). However, the interpretation of the results requires careful consideration, and empirical verification is a future challenge.Finally, we will share our hypotheses and considerations for the model case of this paper, which is a close examination of regional differences in media coverage and its effectiveness and considerations unique to Japan, a disaster-prone country. ",
+    "url": "https://arxiv.org/abs/2401.05266",
+    "authors": [
+      "Yasuko Kawahata"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04825",
+    "title": "Exceptional-point Sensors Offer No Fundamental Signal-to-Noise Ratio  Enhancement",
+    "abstract": "Exceptional-point (EP) sensors are characterized by a square-root resonant frequency bifurcation in response to an external perturbation. This has lead numerous suggestions for using these systems for sensing applications. However, there is an open debate as to whether or not this sensitivity advantage is negated by additional noise in the system. We show that an EP sensor's imprecision in measuring a generalized force is independent of its operating point's proximity to the EP. That is because frequency noises of fundamental origin in the sensor -- due to quantum and thermal fluctuations -- increase in a manner that exactly cancels the benefit of increased resonant frequency sensitivity near the EP. So the benefit of EP sensors is limited to the regime where sensing is limited by technical noises. Finally, we outline an EP sensor with phase-sensitive gain that does have an advantage even if limited by fundamental noises. ",
+    "url": "https://arxiv.org/abs/2401.04825",
+    "authors": [
+      "Hudson A. Loughlin",
+      "Vivishek Sudhir"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04845",
+    "title": "Discovery of a hybrid topological quantum state in an elemental solid",
+    "abstract": "Topology and interactions are foundational concepts in the modern understanding of quantum matter. Their nexus yields three significant research directions: competition between distinct interactions, as in the multiple intertwined phases, interplay between interactions and topology that drives the phenomena in twisted layered materials and topological magnets, and the coalescence of multiple topological orders to generate distinct novel phases. The first two examples have grown into major areas of research, while the last example remains mostly untouched, mainly because of the lack of a material platform for experimental studies. Here, using tunneling microscopy, photoemission spectroscopy, and theoretical analysis, we unveil a \"hybrid\" and yet novel topological phase of matter in the simple elemental solid arsenic. Through a unique bulk-surface-edge correspondence, we uncover that arsenic features a conjoined strong and higher-order topology, stabilizing a hybrid topological phase. While momentum-space spectroscopy measurements show signs of topological surface states, real-space microscopy measurements unravel a unique geometry of topology-induced step edge conduction channels revealed on various forms of natural nanostructures on the surface. Using theoretical models, we show that the existence of gapless step edge states in arsenic relies on the simultaneous presence of both a nontrivial strong Z2 invariant and a nontrivial higher-order topological invariant, providing experimental evidence for hybrid topology and its realization in a single crystal. Our discovery highlights pathways to explore the interplay of different kinds of band topology and harness the associated topological conduction channels in future engineered quantum or nano-devices. ",
+    "url": "https://arxiv.org/abs/2401.04845",
+    "authors": [
+      "Md Shafayat Hossain",
+      "Frank Schindler",
+      "Rajibul Islam",
+      "Zahir Muhammad",
+      "Yu-Xiao Jiang",
+      "Zi-Jia Cheng",
+      "Qi Zhang",
+      "Tao Hou",
+      "Hongyu Chen",
+      "Maksim Litskevich",
+      "Brian Casas",
+      "Jia-Xin Yin",
+      "Tyler A. Cochran",
+      "Mohammad Yahyavi",
+      "Xian P. Yang",
+      "Luis Balicas",
+      "Guoqing Chang",
+      "Weisheng Zhao",
+      "Titus Neupert",
+      "M. Zahid Hasan"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04864",
+    "title": "Microgravity Mass Gauging with Capacitance Sensing: Sensor Design and  Experiment",
+    "abstract": "The use of capacitance sensors for fuel mass gauging has been in consideration since the early days of manned space flight. However, certain difficulties arise when considering tanks in microgravity environments. Surface tension effects lead to fluid wetting of the interior surface of the tank, leaving large interior voids, while thrust/settling effects can lead to dispersed two-phase mixtures. With the exception of Electrical Capacitance Volume Tomography (ECVT), few sensing technologies are well suited for measuring annular, stratified, and dispersed fluid configurations as well as handling the additional complications of mechanical installation inside a spherical tank. To optimize the design of future ECVT based spherical tank mass gauging sensors, different electrode plate layouts are considered, and their effect on the performance of the sensor as a fuel mass gauge is analyzed through the use of imaging and averaging techniques. ",
+    "url": "https://arxiv.org/abs/2401.04864",
+    "authors": [
+      "M. A. Charleston",
+      "S. M. Chowdhury",
+      "Q. M. Marashdeh",
+      "B. J. Straiton",
+      "F. L. Teixeira"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04940",
+    "title": "Quantum enhanced balanced heterodyne readout for differential  interferometry",
+    "abstract": "We present an experimental demonstration of balanced heterodyne readout that circumvents the 3 dB heterodyne signal-to-noise penalty on a dual Michelson sensor. Our readout obtains both amplitude and phase quadrature information simultaneously. We also employ a high-frequency spectrally entangled, two-mode squeezed state to show further signal-to-noise improvement of an injected audio-band signal. We achieve a quantum enhancement of 3.5 dB, consistent with our experimental efficiencies and dephasing. This technique is applicable for quantum-limited high-precision experiments, with application to searches for quantum gravity, gravitational wave detection and wavelength-multiplexed quantum communication. ",
+    "url": "https://arxiv.org/abs/2401.04940",
+    "authors": [
+      "Daniel W. Gould",
+      "Vaishali B. Adya",
+      "Sheon S. Y. Chua",
+      "Jonas Junker",
+      "Dennis Wilken",
+      "Bram J. J. Slagmolen",
+      "Min Jet Yap",
+      "Robert L. Ward",
+      "Mich\u00e8le Heurs",
+      "David E. McClelland"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04963",
+    "title": "Emission engineering in monolithically integrated silicon nitride  microring resonators",
+    "abstract": "Monolithic integration of solid-state color centers with photonic elements of the same material is a promising approach to overcome the constraints of fabrication complexity and coupling losses in traditional hybrid integration approaches. A wide band-gap, low-loss silicon nitride (SiN) platform is a mature technology, having CMOS compatibility, widely used in hybrid integrated photonics and optoelectronics. However, it has been shown that certain growth conditions enable the SiN material to host color centers, whose origin is currently under investigation. In this work, we have engineered a novel technique for the efficient coupling of these intrinsic emitters into the whispering gallery modes (WGMs) of the SiN microring cavity -- which has not been explored previously. We have engineered a subwavelength-sized notch into the rim of the SiN microring structure, to optimize the collection efficiency of the cavity-coupled enhanced photoluminescence (PL) spectra at room temperature. The platform presented in this work will enable the development of monolithic integration of color centers with nanophotonic elements for application to quantum photonic technologies. ",
+    "url": "https://arxiv.org/abs/2401.04963",
+    "authors": [
+      "Kishor Kumar Mandal",
+      "Anuj Kumar Singh",
+      "Brijesh Kumar",
+      "Amit P. Shah",
+      "Rishabh Vij",
+      "Amrita Majumder",
+      "Janhavi Jayawant Khunte",
+      "Venu Gopal Achanta",
+      "Anshuman Kumar"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05075",
+    "title": "Interface-Driven Peptide Folding: Quantum Computations on Simulated  Membrane Surfaces",
+    "abstract": "Antimicrobial peptides (AMPs) play important roles in cancer, autoimmune diseases, and aging. A critical aspect of AMP functionality is their targeted interaction with pathogen membranes, which often possess altered lipid compositions. Designing AMPs with enhanced therapeutic properties relies on a nuanced understanding of these interactions, which are believed to trigger a rearrangement of these peptides from random coil to alpha-helical conformations, essential for their lytic action. Traditional supercomputing has consistently encountered difficulties in accurately modeling these structural changes, especially within membrane environments, thereby opening an opportunity for more advanced approaches. This study extends an existing quantum computing algorithm to address the complexities of antimicrobial peptide interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, akin to lipid membranes. The new method has been applied to model the structure of three 10-amino-acid-long peptides, each exhibiting hydrophobic, hydrophilic, or amphipathic properties in different media and at interfaces between solvents of different polarity. Notably, our approach does not demand a higher number of qubits compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite existing limitations in computational power and qubit accessibility, our findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly the folding of AMPs at membrane models. This research paves the way for future advances in quantum computing to enhance the accuracy and applicability of biomolecular simulations. ",
+    "url": "https://arxiv.org/abs/2401.05075",
+    "authors": [
+      "Daniel Conde-Torres",
+      "Mariamo Mussa-Juane",
+      "Daniel Fa\u00edlde",
+      "Andr\u00e9s G\u00f3mez",
+      "Rebeca Garc\u00eda-Fandi\u00f1o",
+      "\u00c1ngel Pi\u00f1eiro"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Biomolecules (q-bio.BM)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05086",
+    "title": "Quantum Computation and Quantum Simulation with Ultracold Molecules",
+    "abstract": "Ultracold molecules confined in optical lattices or tweezer traps can be used to process quantum information and simulate the behaviour of many-body quantum systems. Molecules offer several advantages for these applications. They have a large set of stable states with strong transitions between them and long coherence times. They can be prepared in a chosen state with high fidelity, and the state populations can be measured efficiently. They have controllable long-range dipole-dipole interactions that can be used to entangle pairs of molecules and generate interesting many-body states. We review the advances that have been made and the challenges still to overcome, and describe the new ideas that will unlock the full potential of the field. ",
+    "url": "https://arxiv.org/abs/2401.05086",
+    "authors": [
+      "Simon L. Cornish",
+      "Michael R. Tarbutt",
+      "Kaden R. A. Hazzard"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05090",
+    "title": "Nonreciprocal Quantum Batteries",
+    "abstract": "Nonreciprocity, arising from the breaking of time-reversal symmetry, has become a fundamental tool in diverse quantum technology applications. It enables directional flow of signals and efficient noise suppression, constituting a key element in the architecture of current quantum information and computing systems. Here we explore its potential in optimizing the charging dynamics of a quantum battery. By introducing nonreciprocity through reservoir engineering during the charging process, we induce a directed energy flow from the quantum charger to the battery, resulting in a substantial increase in energy accumulation. Despite local dissipation, the nonreciprocal approach demonstrates a fourfold increase in battery energy compared to conventional charger-battery systems. We demonstrate that employing a shared reservoir can establish an optimal condition where nonreciprocity enhances charging efficiency and elevates energy storage in the battery. This effect is observed in the stationary limit and remains applicable even in overdamped coupling regimes, eliminating the need for precise temporal control over evolution parameters. Our result can be extended to a chiral network of quantum nodes, serving as a multi-cell quantum battery system to enhance storage capacity. The proposed approach is straightforward to implement using current state-of-the-art quantum circuits, both in photonics and superconducting quantum systems. In a broader context, the concept of nonreciprocal charging has significant implications for sensing, energy capture, and storage technologies or studying quantum thermodynamics. ",
+    "url": "https://arxiv.org/abs/2401.05090",
+    "authors": [
+      "Borhan Ahmadi",
+      "Pawe\u0142 Mazurek",
+      "Pawe\u0142 Horodecki",
+      "Shabir Barzanjeh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.05301",
+    "title": "Classical verification of a quantum simulator: local relaxation of a 1D  Bose gas",
+    "abstract": "In [Nat. Phys. 8, 325-330 (2012)], Trotzky et al. utilize ultracold atoms in an optical lattice to simulate the local relaxation dynamics of a strongly interacting Bose gas \"for longer times than present classical algorithms can keep track of\". Here, I classically verify the results of this analog quantum simulator by calculating the evolution of the same quasi-local observables up to the time at which they appear \"fully relaxed\". Using a parallel implementation of the time-evolving block decimation (TEBD) algorithm to simulate the system on a supercomputer, I show that local densities and currents can be calculated in a matter of days rather than weeks. The precision of these numerics allows me to observe deviations from the conjectured power-law decay and to determine the effects of the harmonic trapping potential. As well as providing a robust benchmark for future experimental, theoretical, and numerical methods, this work serves as an example of the independent verification process. ",
+    "url": "https://arxiv.org/abs/2401.05301",
+    "authors": [
+      "Paul Secular"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.14789",
+    "title": "Prediction of Fluorescence Quantum Yields using the Extended Thawed  Gaussian Approximation",
+    "abstract": " Title: Prediction of Fluorescence Quantum Yields using the Extended Thawed  Gaussian Approximation ",
+    "url": "https://arxiv.org/abs/2309.14789",
+    "authors": [
+      "Michael Wenzel",
+      "Roland Mitric"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.06792",
+    "title": "A Compact TIA in 22nm FDSOI CMOS for Qubit Readout in Monolithic Quantum  Processors",
+    "abstract": " Comments: To be published in the proceedings of the IEEE ICECS 2023 ",
+    "url": "https://arxiv.org/abs/2310.06792",
+    "authors": [
+      "Domenico Zito",
+      "Tan Doan Nhut"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.14905",
+    "title": "Mass Generation in Structural Algebraic Quantum Field Theory: An  alternative to the Higgs mechanism",
+    "abstract": " Comments: 11 pages, 1 table, 19 citations, 1 appendix, 3 sections ",
+    "url": "https://arxiv.org/abs/2310.14905",
+    "authors": [
+      "A. D. Alhaidari"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.04525",
+    "title": "Implantable Photonic Neural Probes with Out-of-Plane Focusing Grating  Emitters",
+    "abstract": " Comments: 11 pages, 6 figures ",
+    "url": "https://arxiv.org/abs/2401.04525",
+    "authors": [
+      "Tianyuan Xue",
+      "Andrei Stalmashonak",
+      "Fu-Der Chen",
+      "Peisheng Ding",
+      "Xianshu Luo",
+      "Hongyao Chua",
+      "Guo-Qiang Lo",
+      "Wesley D. Sacher",
+      "Joyce K. S. Poon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  }
+]
