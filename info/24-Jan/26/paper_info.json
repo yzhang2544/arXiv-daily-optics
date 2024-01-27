@@ -1,0 +1,425 @@
+[
+  {
+    "id": "arXiv:2401.13695",
+    "title": "Inverse analysis of granular flows using differentiable graph neural  network simulator",
+    "abstract": "Inverse problems in granular flows, such as landslides and debris flows, involve estimating material parameters or boundary conditions based on target runout profile. Traditional high-fidelity simulators for these inverse problems are computationally demanding, restricting the number of simulations possible. Additionally, their non-differentiable nature makes gradient-based optimization methods, known for their efficiency in high-dimensional problems, inapplicable. While machine learning-based surrogate models offer computational efficiency and differentiability, they often struggle to generalize beyond their training data due to their reliance on low-dimensional input-output mappings that fail to capture the complete physics of granular flows. We propose a novel differentiable graph neural network simulator (GNS) by combining reverse mode automatic differentiation of graph neural networks with gradient-based optimization for solving inverse problems. GNS learns the dynamics of granular flow by representing the system as a graph and predicts the evolution of the graph at the next time step, given the current state. The differentiable GNS shows optimization capabilities beyond the training data. We demonstrate the effectiveness of our method for inverse estimation across single and multi-parameter optimization problems, including evaluating material properties and boundary conditions for a target runout distance and designing baffle locations to limit a landslide runout. Our proposed differentiable GNS framework offers an orders of magnitude faster solution to these inverse problems than the conventional finite difference approach to gradient-based optimization. ",
+    "url": "https://arxiv.org/abs/2401.13695",
+    "authors": [
+      "Yongjin Choi",
+      "Krishna Kumar"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13720",
+    "title": "Performance of a Sagnac interferometer to observe vacuum optical  nonlinearity",
+    "abstract": "In Quantum Electrodynamics, vacuum becomes a nonlinear optical medium: its optical index should be modified in the presence of intense external electromagnetic fields. The DeLLight project (Deflection of Light by Light) aims to observe this effect using intense focused femtosecond laser pulses delivered by LASERIX. The principle is to measure with a Sagnac interferometer the deflection of a low-intensity focused pulse (probe) crossing the vacuum index gradient induced by a high-intensity pulse (pump). A Sagnac interferometer working with femtosecond laser pulses has been developed for the DeLLight project. Compared to previous prototypes, the interferometer now includes the focusing of the probe beam in the interaction area. In this article, we measure and characterize the critical experimental parameters limiting the sensitivity of the interferometer, namely the extinction factor, the spatial resolution, and the waist at focus of the probe pulse. We discuss future improvements. ",
+    "url": "https://arxiv.org/abs/2401.13720",
+    "authors": [
+      "Aur\u00e9lie Max Mailliet",
+      "Adrien E. Kraych",
+      "Fran\u00e7ois Couchot",
+      "Xavier Sarazin",
+      "Elsa Baynard",
+      "Julien Demailly",
+      "Moana Pittman",
+      "Arache Djannati-Ata\u00ef",
+      "Sophie Kazamias",
+      "Scott Robertson",
+      "Marcel Urban"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13757",
+    "title": "Heterogeneously Integrated Laser on Silicon with Non-Volatile Wavelength  Tuning",
+    "abstract": "The von-Neumann bottleneck has constrained computing systems from efficiently operating on the increasingly large demand in data from networks and devices. Silicon (Si) photonics offers a powerful solution for this issue by providing a platform for high-bandwidth, energy-efficient interconnects. Furthermore, memristors have emerged as a fundamental building block for non-volatile data storage and novel computing architectures with powerful in-memory processing capabilities. In this paper, we integrate an Al2O3 memristor into a heterogeneous Si quantum dot microring laser to demonstrate the first laser with non-volatile optical memory. The memristor alters the effective optical modal index of the microring laser cavity by the plasma dispersion effect in the high resistance state (HRS) or Joule heating in the low resistance state (LRS), subsequently controlling the output wavelength of the laser in a non-volatile manner. This device enables a novel pathway for future optoelectronic neuromorphic computers and optical memory chips. ",
+    "url": "https://arxiv.org/abs/2401.13757",
+    "authors": [
+      "Bassem Tossoun",
+      "Di Liang",
+      "Xia Sheng",
+      "John Paul Strachan",
+      "Raymond G. Beausoleil"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13775",
+    "title": "The Friis Transmission Formula, Active Antenna Available Power,  Reciprocity in Multiantenna Systems, and the Unnamed Power Gain",
+    "abstract": "It is well known that reciprocal antenna systems have a symmetric impedance matrix. What is less well understood is how the system reciprocity manifests in the bidirectionally transferred powers with a beamformed system such as a massive multiple input multiple output (MIMO) array. To answer this question, we connect four disparate ideas, Lorentz reciprocity, the Friis transmission formula, noise-based active antenna parameters, and the active antenna available power. This results in an unnamed power gain that is connected with available gain and transducer gain but is unmentioned in the theory of two-port amplifiers. This quantity is symmetric under link direction reversal in the near field, as well as the far field, and generalizes the Friis transmission formula to beamformed multiport antenna systems in an arbitrary reciprocal propagation environment. ",
+    "url": "https://arxiv.org/abs/2401.13775",
+    "authors": [
+      "Karl F. Warnick",
+      "Frederic Broyde",
+      "Lukas Jelinek",
+      "Miloslav Capek",
+      "Evelyne Clavelier"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Information Theory (cs.IT)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13910",
+    "title": "Spatiotemporal optical vortices with controllable radial and azimuthal  quantum numbers",
+    "abstract": "Optical spatiotemporal vortices with transverse photon orbital angular momentum (OAM) have recently become a focal point of research. In this work we theoretically and experimentally investigate optical spatiotemporal vortices with radial and azimuthal quantum numbers, known as spatiotemporal Laguerre-Gaussian (STLG) wavepackets. These 3D wavepackets exhibit phase singularities and cylinder-shaped edge dislocations, resulting in a multi-ring topology in its spatiotemporal profile. Unlike conventional ST optical vortices, STLG wavepackets with non-zero p and l values carry a composite transverse OAM consisting of two directionally opposite components. We further demonstrate mode conversion between an STLG wavepacket and an ST Hermite-Gaussian wavepacket through the application of strong spatiotemporal astigmatism. The converted STHG wavepacket is de-coupled in intensity in space-time domain that can be utilized to implement the efficient and accurate recognition of ultrafast STLG wavepackets carried various p and l. This study may offer new insights into high-dimensional quantum information, photonic topology, and nonlinear optics, while promising potential applications in other wave phenomena such as acoustics and electron waves. ",
+    "url": "https://arxiv.org/abs/2401.13910",
+    "authors": [
+      "Xin Liu",
+      "Qian Cao",
+      "Nianjia Zhang",
+      "Andy Chong",
+      "Yangjian Cai",
+      "Qiwen Zhan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13983",
+    "title": "Path Integral Brownian Chain Molecular Dynamics: A Simple Approximation  of Quantum Vibrational Dynamics",
+    "abstract": "An approximate approach to quantum vibrational dynamics, \"Brownian Chain Molecular Dynamics (BCMD)\", is proposed to alleviate the chain resonance and curvature problems in the imaginary time-based path integral (PI) simulation. Here the non-centroid velocity is randomized at each step when solving the equation of motion of path integral molecular dynamics. This leads to a combination of the Newton equation and the overdamped Langevin equation for the centroid and non-centroid variables, respectively. BCMD shares the basic properties of other PI approaches such as centroid and ring polymer molecular dynamics: It gives the correct Kubo-transformed correlation function at short times, conserves the time symmetry, has the correct high-temperature/classical limits, gives exactly the position and velocity autocorrelations of harmonic oscillator systems, and does not have the zero-point leakage problem. Numerical tests were done on simple molecular models and liquid water. On-the-fly ab initio BCMD simulations were performed for the protonated water cluster, H$_5$O$_2^+$, and its isotopologue, D$_5^{}$O$_2^+$. ",
+    "url": "https://arxiv.org/abs/2401.13983",
+    "authors": [
+      "Motoyuki Shiga"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14030",
+    "title": "A method of laser frequency stabilization based on the effect of linear  dichroism in alkali metal vapors in a modulated transverse magnetic field",
+    "abstract": "We present a method of laser frequency stabilization based on the linear dichroism signal in a transverse magnetic field. The method is a modification of the DAVLL (Dichroic Atomic Vapor Laser Lock) method. It differs from DAVLL and from its existing modifications primarily by the fact that it allows error signals at the magnetic field modulation frequency (or its second harmonic) to be obtained by extremely simple means. The method does not require the strong magnetic fields or careful shielding of the working cell. The method allows the laser frequency to be stabilized in the vicinity of the low-frequency transition in the D1 line of Cs. Though the absorption line in a gas-filled cell is characterized by a width of the order of gigahertz, parametric stability and resolution at the level of tens of kilohertz can be achieved. ",
+    "url": "https://arxiv.org/abs/2401.14030",
+    "authors": [
+      "M. V. Petrenko",
+      "A. S. Pazgalev",
+      "A. K. Vershovskii"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14064",
+    "title": "Quantum Treatment of the Current through Plasma-Metal Junction:  Fundamentals",
+    "abstract": "We study the quantum nature of current through plasma-probe junction from the viewpoint of the metal probe. The intrinsic material properties of the metal and their influence on the nature of the observed current are theoretically worked out. The novel idea is that the plasma-sheath at the plasma-probe junction is treated as a potential barrier, and in analogy with the current conduction through a metal-metal junction, the current through the plasma-sheath is treated as a quantum barrier penetration problem. Essentially, we obtain an expression for the electron-current as a function of the bias voltage in its full range, thereby unlocking the intricate dependency of the current on the material properties of the probe. ",
+    "url": "https://arxiv.org/abs/2401.14064",
+    "authors": [
+      "Muthukumar Balasundaram",
+      "Suraj Kumar Sinha"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14071",
+    "title": "Controlling surface acoustic waves (SAWs) via temporally graded  metasurfaces",
+    "abstract": "In this manuscript, the temporal rainbow effect for surface acoustic waves (SAW) is illustrated through a temporal analog of space metagradings. We show that a time-modulated array of mechanical resonators induces a wavenumber-preserving frequency transformation which, in turn, dictates Rayleigh-to-Shear wave conversion. The process is unfolded through the adiabatic theorem, which allows us to delineate the transition between a solely frequency-converted wave packet and a temporally-driven mode conversion. In other words, our paper explores the role of time modulation in the context of elastic metasurfaces, and we envision our implementation to be suitable for designing a new family of SAW devices with frequency conversion, mode conversion, and unusual transport capabilities. ",
+    "url": "https://arxiv.org/abs/2401.14071",
+    "authors": [
+      "Jonatha Santini",
+      "Xingbo Pu",
+      "Antonio Palermo",
+      "Francesco Braghin",
+      "Emanuele Riva"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14114",
+    "title": "Development of a Silicon Drift Detector Array to Search for keV-scale  Sterile Neutrinos with the KATRIN Experiment",
+    "abstract": "Sterile neutrinos in the keV mass range present a viable candidate for dark matter. They can be detected through single $\\beta$ decay, where they cause small spectral distortions. The Karlsruhe Tritium Neutrino (KATRIN) experiment aims to search for keV-scale sterile neutrinos with high sensitivity. To achieve this, the KATRIN beamline will be equipped with a novel multi-pixel silicon drift detector focal plane array named TRISTAN. In this study, we present the performance of a TRISTAN detector module, a component of the eventual 9-module system. Our investigation encompasses spectroscopic aspects such as noise performance, energy resolution, linearity, and stability. ",
+    "url": "https://arxiv.org/abs/2401.14114",
+    "authors": [
+      "Daniel Siegmann",
+      "Frank Edzards",
+      "Christina Bruch",
+      "Matteo Biassoni",
+      "Marco Carminati",
+      "Martin Descher",
+      "Carlo Fiorini",
+      "Christian Forstner",
+      "Andrew Gavin",
+      "Matteo Gugiatti",
+      "Roman Hiller",
+      "Dominic Hinz",
+      "Thibaut Houdy",
+      "Anton Huber",
+      "Pietro King",
+      "Peter Lechner",
+      "Steffen Lichter",
+      "Danilo Mie\u00dfner",
+      "Andrea Nava",
+      "Anthony Onillon",
+      "David C. Radford",
+      "Daniela Spreng",
+      "Markus Steidl",
+      "Paolo Trigilio",
+      "Korbinian Urban",
+      "Drahos V\u00e9nos",
+      "Joachim Wolf",
+      "Susanne Mertens"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14173",
+    "title": "Multicasting Optical Reconfigurable Switch",
+    "abstract": "Artificial Intelligence (AI) demands large data flows within datacenters, heavily relying on multicasting data transfers. As AI models scale, the requirement for high-bandwidth and low-latency networking compounds. The common use of electrical packet switching faces limitations due to its optical-electrical-optical conversion bottleneck. Optical switches, while bandwidth-agnostic and low-latency, suffer from having only unicast or non-scalable multicasting capability. This paper introduces an optical switching technique addressing the scalable multicasting challenge. Our approach enables arbitrarily programmable simultaneous unicast and multicast connectivity, eliminating the need for optical splitters that hinder scalability due to optical power loss. We use phase modulation in multiple planes, tailored to implement any multicast connectivity map. Using phase modulation enables wavelength selectivity on top of spatial selectivity, resulting in an optical switch that implements space-wavelength routing. We conducted simulations and experiments to validate our approach. Our results affirm the concept's feasibility and effectiveness, as a multicasting switch. ",
+    "url": "https://arxiv.org/abs/2401.14173",
+    "authors": [
+      "Niyazi Ulas Dinc",
+      "Mustafa Yildirim",
+      "Christophe Moser",
+      "Demetri Psaltis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Networking and Internet Architecture (cs.NI)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14264",
+    "title": "Existence and characterization of edge states in an acoustic trimer  Su-Schrieffer-Heeger model",
+    "abstract": "We report on a direct mapping of acoustic slender waveguides to the one dimensional trimer Su- Schrieffer-Heeger model, with neither chiral nor mirror symmetry. Importantly, we can choose to perform this mapping for either the acoustic velocity or pressure. We demonstrate that, for finite systems, this choice is necessarily linked to the boundary conditions. It allows for the unveiling of the edge states of the acoustic system through an edge state phase diagram. An experimental realization of our setup in the audible regime corroborates our theoretical predictions. ",
+    "url": "https://arxiv.org/abs/2401.14264",
+    "authors": [
+      "I. Ioannou Sougleridis",
+      "A. Anastasiadis",
+      "O. Richoux",
+      "V. Achilleos",
+      "G. Theocharis",
+      "V. Pagneux",
+      "F.K. Diakonos"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14290",
+    "title": "Quantum Electrometer for Time-Resolved Material Science at the Atomic  Lattice Scale",
+    "abstract": "The detection of individual charges plays a crucial role in fundamental material science and the advancement of classical and quantum high-performance technologies that operate with low noise. However, resolving charges at the lattice scale in a time-resolved manner has not been achieved so far. Here, we present the development of an electrometer, leveraging on the spectroscopy of an optically-active spin defect embedded in a solid-state material with a non-linear Stark response. By applying our approach to diamond, a widely used platform for quantum technology applications, we successfully localize charge traps, quantify their impact on transport dynamics and noise generation, analyze relevant material properties, and develop strategies for material optimization. ",
+    "url": "https://arxiv.org/abs/2401.14290",
+    "authors": [
+      "Gregor Pieplow",
+      "Cem G\u00fcney Torun",
+      "Joseph H. D. Munns",
+      "Franziska Marie Herrmann",
+      "Andreas Thies",
+      "Tommaso Pregnolato",
+      "Tim Schr\u00f6der"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14004",
+    "title": "Many-Body Quantum Geometric Effects on Trapped Ultracold Bosons",
+    "abstract": "Quantum geometric effects in uncorrelated systems are characterized by the Berry curvature and quantum metric. Beyond those, we propose three gauge-independent tensors describing quantum geometric effects on local interaction between correlated particles. We derive an effective hydrodynamic theory for ultracold bosons in optical lattices. Ground states and collective modes of superfluids in isotropic harmonic traps are solved for highly symmetric lattices. In a dynamic process, the amplitude and phase shift of an excited breathing mode are determined by the geometric properties of Bloch wavefunctions. We also give a tight-binding model of a bipartite square lattice with nontrivial quantum geometric effects. Our discovery advances the connections between the modern band theory and quantum many-body physics. ",
+    "url": "https://arxiv.org/abs/2401.14004",
+    "authors": [
+      "Yeyang Zhang"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14073",
+    "title": "Optical phase encoding in pulsed approach to reservoir computing",
+    "abstract": "The exploitation of the full structure of multimode light fields enables compelling capabilities in many fields including classical and quantum information science. We exploit data-encoding on the optical phase of the pulses of a femtosecond laser source for a photonic implementation of a reservoir computing protocol. Rather than intensity detection, data-reading is done via homodyne detection that accesses combinations of amplitude and phase of the field. Numerical and experimental results on NARMA tasks and laser dynamic predictions are shown. We discuss perspectives for quantum enhanced protocols. ",
+    "url": "https://arxiv.org/abs/2401.14073",
+    "authors": [
+      "Johan Henaff",
+      "Matthieu Ansquer",
+      "Miguel C Soriano",
+      "Roberta Zambrini",
+      "Nicolas Treps",
+      "Valentina Parigi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14200",
+    "title": "Speeding up Fermionic Lattice Calculations with Photonic Accelerated  Inverters",
+    "abstract": "Lattice field theory (LFT) is the standard non-perturbative method to perform numerical calculations of quantum field theory. However, the typical bottleneck of fermionic lattice calculations is the inversion of the Dirac matrix. This inversion is solved by iterative methods, like the conjugate gradient algorithm, where matrix-vector multiplications (MVMs) are the main operation. Photonic integrated circuits excel in performing quick and energy-efficient MVMs, but at the same time, they are known to have low accuracy. This can be overcome by using mixed precision methods. In this paper, we explore the idea of using photonic technology to fulfil the demand for computational power of fermionic lattice calculations. These methods have the potential to reduce computation costs by one order of magnitude. Because of the hybrid nature of these methods, we call these 'photonic accelerated inverters (PAIs)'. ",
+    "url": "https://arxiv.org/abs/2401.14200",
+    "authors": [
+      "Felipe Attanasio",
+      "Marc Bauer",
+      "Jelle Dijkstra",
+      "Timoteo Lee",
+      "Jan M. Pawlowski",
+      "Wolfram Pernice"
+    ],
+    "subjectives": [
+      "High Energy Physics - Lattice (hep-lat)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14259",
+    "title": "Mpemba effects in nonequilibrium open quantum systems",
+    "abstract": "Originally, the Mpemba effect (MPE) is referred to the faster icing of a higher-temperature system than a system of a lower temperature. This concept was later generalized to anomalous decays of certain system quantities to the equilibrium states. In this study, we investigate the scenario when a system has no such equilibrium state to approach. Instead, the system is put in contact with two different baths, and only a nonequilibrium state exists, sustained by constant energy injection from the surrounding thermal baths. Firstly, we show that the nonequilibrium conditions can dramatically enlarge the parameter regimes where the MPE emerges. Secondly, we demonstrate that the anomalous MPEs and inverse MPEs emerge in the evolution of quantum correlations in the two-site fermionic system and that nonequilibrium conditions can expedite or delay the MPEs. Thirdly, we show that the nonequilibrium-induced quantum coherence can have considerable contributions to the emergence of the MPE which the conventional Lindbladian dynamics fails to capture. ",
+    "url": "https://arxiv.org/abs/2401.14259",
+    "authors": [
+      "Xuanhua Wang",
+      "Jin Wang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14312",
+    "title": "Theory of Acoustic Polarons in the Two-Dimensional SSH Model Applied to  the Layered Superatomic Semiconductor Re6Se8Cl2",
+    "abstract": "Layered superatomic semiconductors, whose buildings blocks are atomically precise molecular clusters, exhibit interesting electronic and vibrational properties. In recent work [Science 382, 438 (2023)], transient reflection microscopy revealed quasi-ballistic exciton dynamics in Re6Se8Cl2, which was attributed to the formation of polarons due to coupling with acoustic phonons. Here, we characterize the electronic, excitonic, and phononic properties with periodic density functional theory. We further parameterize a polaron Hamiltonian with nonlocal [Su-Schrieffer-Heeger (SSH)] coupling to acoustic phonon to study the polaron ground state binding energy and dispersion relation with variational wavefunctions. We calculate a polaron binding energy of about 10 meV at room temperature, and the maximum group velocity of our polaron dispersion relation is 1.5 km/s, which is similar to the experimentally observed exciton transport velocity. ",
+    "url": "https://arxiv.org/abs/2401.14312",
+    "authors": [
+      "Petra Shih",
+      "Timothy C. Berkelbach"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2203.04087",
+    "title": "General Spin Sums in Quantum Field Theory",
+    "abstract": " Comments: 9 pages ",
+    "url": "https://arxiv.org/abs/2203.04087",
+    "authors": [
+      "Rodolfo Jos\u00e9 Bueno Rogerio",
+      "Luca Fabbri"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.11518",
+    "title": "Quantum sensing for particle physics",
+    "abstract": " Comments: 16 pages, 1 figure ",
+    "url": "https://arxiv.org/abs/2305.11518",
+    "authors": [
+      "Steven D. Bass",
+      "Michael Doser"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.16099",
+    "title": "Characterizing quantum gases in time-controlled disorder realizations  using cross-correlations of density distributions",
+    "abstract": " Comments: 23 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2306.16099",
+    "authors": [
+      "Silvia Hiebel",
+      "Benjamin Nagler",
+      "Sian Barbosa",
+      "Jennifer Koch",
+      "Artur Widera"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.09882",
+    "title": "Room-temperature waveguide-coupled silicon single-photon avalanche  diodes",
+    "abstract": " Title: Room-temperature waveguide-coupled silicon single-photon avalanche  diodes ",
+    "url": "https://arxiv.org/abs/2310.09882",
+    "authors": [
+      "Alperen Govdeli",
+      "John N. Straguzzi",
+      "Zheng Yong",
+      "Yiding Lin",
+      "Xianshu Luo",
+      "Hongyao Chua",
+      "Guo-Qiang Lo",
+      "Wesley D. Sacher",
+      "Joyce K. S. Poon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.11054",
+    "title": "Fine-Structure Qubit Encoded in Metastable Strontium Trapped in an  Optical Lattice",
+    "abstract": " Comments: 5 pages, 4 figures, 4 pages supplemental material ",
+    "url": "https://arxiv.org/abs/2401.11054",
+    "authors": [
+      "S. Pucher",
+      "V. Kl\u00fcsener",
+      "F. Spriestersbach",
+      "J. Geiger",
+      "A. Schindewolf",
+      "I. Bloch",
+      "S. Blatt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.13593",
+    "title": "Enhanced quantum control of individual ultracold molecules using optical  tweezer arrays",
+    "abstract": " Comments: 18 pages, 8 figures. Updated bibliography ",
+    "url": "https://arxiv.org/abs/2401.13593",
+    "authors": [
+      "Daniel K. Ruttley",
+      "Alexander Guttridge",
+      "Tom R. Hepworth",
+      "Simon L. Cornish"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
