@@ -1,0 +1,410 @@
+[
+  {
+    "id": "arXiv:2403.03286",
+    "title": "Neural network backflow for ab-initio quantum chemistry",
+    "abstract": "The ground state of second-quantized quantum chemistry Hamiltonians provides access to an important set of chemical properties. Wavefunctions based on ML architectures have shown promise in approximating these ground states in a variety of physical systems. In this work, we show how to achieve state-of-the-art energies for molecular Hamiltonians using the the neural network backflow wave-function. To accomplish this, we optimize this ansatz with a variant of the deterministic optimization scheme based on SCI introduced by [Li, et. al JCTC (2023)] which we find works better than standard MCMC sampling. For the molecules we studied, NNBF gives lower energy states than both CCSD and other neural network quantum states. We systematically explore the role of network size as well as optimization parameters in improving the energy. We find that while the number of hidden layers and determinants play a minor role in improving the energy, there is significant improvements in the energy from increasing the number of hidden units as well as the batch size used in optimization with the batch size playing a more important role. ",
+    "url": "https://arxiv.org/abs/2403.03286",
+    "authors": [
+      "An-Jun Liu",
+      "Bryan K. Clark"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03438",
+    "title": "Rabi resonance splitting phenomena in photonic integrated circuits",
+    "abstract": "Realizing optical analogues of quantum phenomena in atomic, molecular, or condensed matter physics has underpinned a range of photonic technologies. Rabi splitting is a quantum phenomenon induced by a strong interaction between two quantum states, and its optical analogues are of fundamental importance for the manipulation of light-matter interactions with wide applications in optoelectronics and nonlinear optics. Here, we propose and theoretically investigate purely optical analogues of Rabi splitting in integrated waveguide-coupled resonators formed by two Sagnac interferometers. By tailoring the coherent mode interference, the spectral response of the devices is engineered to achieve optical analogues of Rabi splitting with anti-crossing behavior in the resonances. Transitions between the Lorentzian, Fano, and Rabi splitting spectral lineshapes are achieved by simply changing the phase shift along the waveguide connecting the two Sagnac interferometers, revealing interesting physical insights about the evolution of different optical analogues of quantum phenomena. The impact of the device structural parameters is also analyzed to facilitate device design and optimization. These results suggest a new way for realizing optical analogues of Rabi splitting based on integrated waveguide-coupled resonators, paving the way for many potential applications that manipulate light-matter interactions in the strong coupling regime. ",
+    "url": "https://arxiv.org/abs/2403.03438",
+    "authors": [
+      "David J. Moss"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03441",
+    "title": "Third-order nonlinear optical response of 2D materials in the telecom  band",
+    "abstract": "All-optical signal processing based on nonlinear optical devices is promising for ultrafast information processing in optical communication systems. Recent advances in two-dimensional (2D) layered materials with unique structures and distinctive properties have opened up new ave-nues for nonlinear optics and the fabrication of related devices with high performance. This paper reviews the recent advances in research on third-order optical nonlinearities of 2D materials, focus-ing on all-optical processing applications in the optical telecommunications band near 1550 nm. First, we provide an overview of the material properties of different 2D materials. Next, we review different methods for characterizing the third-order optical nonlinearities of 2D materials, including the Z-scan technique, third-harmonic generation (THG) measurement, and hybrid device character-ization, together with a summary of the measured n2 values in the telecommunications band. Fi-nally, the current challenges and future perspectives are discussed. ",
+    "url": "https://arxiv.org/abs/2403.03441",
+    "authors": [
+      "David J. Moss"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03475",
+    "title": "Non-homogeneous anisotropic bulk viscosity for acoustic wave attenuation  in weakly compressible methods",
+    "abstract": "A major limitation of the weakly compressible approaches to simulate incompressible flows is the appearance of artificial acoustic waves that introduce a large mass conservation error and lead to spurious oscillations in the force coefficients. In this work, we propose a non-homogeneous anisotropic bulk viscosity term to effectively damp the acoustic waves. By implementing this term in a computational framework based on the recently proposed general pressure equation, we demonstrate that the non-homogeneous and anisotropic nature of the term makes it significantly more effective than the isotropic homogeneous version widely used in the literature. Moreover, it is computationally more efficient than the pressure (or mass) diffusion term, which is an alternative mechanism used to suppress acoustic waves. We simulate a range of benchmark problems to comprehensively investigate the performance of the bulk viscosity on the effective suppression of acoustic waves, mass conservation error, order of convergence of the solver, and computational efficiency. The proposed form of the bulk viscosity enables fairly accurate modelling of the initial transients of unsteady simulations, which is highly challenging for weakly compressible approaches, and to the best of our knowledge, existing approaches can't provide an accurate prediction of such transients. ",
+    "url": "https://arxiv.org/abs/2403.03475",
+    "authors": [
+      "Dheeraj Raghunathan",
+      "Y. Sudhakar"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03534",
+    "title": "Characterization of the low electric field and zero-temperature  two-level-system loss in hydrogenated amorphous silicon",
+    "abstract": "Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\\,\\times\\,10^{-6}$ and 12$\\,\\times\\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters. ",
+    "url": "https://arxiv.org/abs/2403.03534",
+    "authors": [
+      "Fabien Defrance",
+      "Andrew D. Beyer",
+      "Shibo Shu",
+      "Jack Sayers",
+      "Sunil R. Golwala"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03553",
+    "title": "Tailoring the Nucleation and Growth of Silver Nanoparticles by  Sputtering Deposition under Acoustic Wave Activation. Assessment of Plasma  Conditions and 2D Patterning Phenomena",
+    "abstract": "Early results on the plasma deposition of dielectric thin films on acoustic wave (AW) activated substrates revealed a densification pattern arisen from the focusing of plasma ions and their impact on specific areas of the piezoelectric substrate. Herein, we extend this methodology to tailor the plasma deposition of metals onto AW-activated LiNbO3 piezoelectric substrates. Our investigation reveals the tracking of the initial stages of nanoparticle (NP) formation and growth during the submonolayer deposition of silver. We elucidate the specific role of AW activation in reducing particle size, enhancing particle circularity, and retarding NP agglomeration and account for the physical phenomena making these processes differ from those occurring on non-activated substrates. We provide a comparative analysis of the results obtained under two representative plasma conditions: diode DC sputtering and magnetron sputtering. In the latter case, the AW activation gives rise to a 2D pattern of domains with different amounts of silver and a distinct size and circularity for the silver NPs. This difference was attributed to the specific characteristics of the plasma sheath formed onto the substrate in each case. The possibilities of tuning the plasmon resonance absorption of silver NPs by AW activation of the sputtering deposition process are discussed. ",
+    "url": "https://arxiv.org/abs/2403.03553",
+    "authors": [
+      "Helene Reichel",
+      "Aurelio Garcia-Valenzuela",
+      "Jose Andres Espino-Roman",
+      "Jorge Gil-Rostra",
+      "Guillermo Fernando Regodon",
+      "Victor Rico-Gavira",
+      "Ana Borras",
+      "Ana Gomez-Ramirez",
+      "Alberto Palmero",
+      "Agustin R. Gonzalez-Elipe",
+      "Manuel Oliva-Ramirez"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03604",
+    "title": "Probing molecules in gas cells of subwavelength thickness with high  frequency resolution",
+    "abstract": "Miniaturizing and integrating atomic vapor cells is widely investigated for the purposes of fundamental measurements and technological applications such as quantum sensing. Extending such platforms to the realm of molecular physics is a fascinating prospect that paves the way for compact frequency metrology as well as for exploring light-matter interactions with complex quantum objects. Here, we perform molecular rovibrational spectroscopy in a thin-cell of micrometric thickness, comparable to excitation wavelengths. We operate the cell in two distinct regions of the electromagnetic spectrum, probing $\\nu_1$+$\\nu_3$ resonances of acetylene at 1.530$\\mu$m, within the telecommunications wavelength range, as well as the $\\nu_3$ and $\\nu_2$ resonances of $SF_6$ and $NH_3$ respectively, in the mid-infrared fingerprint region around 10.55$\\mu$m. Thin-cell confinement allows linear sub-Doppler transmission spectroscopy due to the coherent Dicke narrowing effect, here demonstrated for molecular rovibrations. Our experiment can find applications extending to the fields of compact molecular frequency references, atmospheric physics or fundamental precision measurements. ",
+    "url": "https://arxiv.org/abs/2403.03604",
+    "authors": [
+      "Guadalupe Garcia Arellano",
+      "Joao Carlos de Aquino Carvalho",
+      "Hippolyte Mouhanna",
+      "Esther Butery",
+      "Thierry Billeton",
+      "Frederic Du-Burck",
+      "Beno\u00eet Darqui\u00e9",
+      "Isabelle Maurin",
+      "Athanasios Laliotis"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03758",
+    "title": "Coherent feedback for quantum expander in gravitational wave  observatories",
+    "abstract": "The observation of gravitational waves from binary neutron star mergers offers insights into properties of extreme nuclear matter. However, their high-frequency signals in the kHz range are often masked by quantum noise of the laser light used. Here, we propose the \"quantum expander with coherent feedback\", a new detector design that features an additional optical cavity in the detector output and an internal squeeze operation. This approach allows to boost the sensitivity at high frequencies, at the same time providing a compact and tunable design for signal extraction. It allows to tailor the sensitivity of the detector to the specific signal frequency range. We demonstrate that our design allows to improve the sensitivity of the high-frequency detector concept NEMO (neutron star extreme matter observatory), increasing the detection rates by around 15%. Our approach promises new level of flexibility in designing the detectors aiming at high-frequency signals. ",
+    "url": "https://arxiv.org/abs/2403.03758",
+    "authors": [
+      "Niels B\u00f6ttner",
+      "Joe Bentley",
+      "Roman Schnabel",
+      "Mikhail Korobko"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03813",
+    "title": "Synthesis and Structural Analysis of Multilayered Graphene via Microwave  Atmospheric Pressure Plasma",
+    "abstract": "This study reports the successful synthesis of multilayered graphene sheets via microwave atmospheric pressure plasma. This innovative approach streamlines and expedites graphene production and other carbon nanostructures, eliminating the need for catalysts, solvents, or complex processing conditions. Ethanol is directly injected into a microwave-generated argon plasma plume, leading to the formation of graphene. Raman spectroscopy revealed characteristic peaks (2D, G, and D bands) confirming graphene composition, with defects indicated by the D band. X-ray diffraction analysis supported these findings, indicating a broad peak at 25 degree corresponding to the (002) plane, affirming a multi-layered graphene structure. Scanning electron microscopy exhibited crumpled, randomly oriented graphene sheets, albeit with uneven structures suggesting impurity incorporation. The presence of defects was quantified through the intensity ratio of the D to G band (ID/IG) in Raman spectroscopy, revealing a value of 0.80, signifying the presence of defects in the synthesized graphene. The 2D to G band intensity ratio (I2D/IG) suggested the existence of 7-10 graphene layers, highlighting the need for further optimization for enhanced graphene quality and purity. ",
+    "url": "https://arxiv.org/abs/2403.03813",
+    "authors": [
+      "Waqas Iqbal",
+      "Najeeb-ur-Rehman",
+      "Niaz Wali"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03491",
+    "title": "Practical Approach to Extending Baselines of Telescopes using  Continuous-Variable Quantum Information",
+    "abstract": "Interferometric telescopes are instrumental for the imaging of distant astronomical bodies, but optical loss heavily restricts how far telescopes in an array can be placed from one another, leading to a bottleneck in the resolution that can be achieved. An entanglement-assisted approach to this problem has been proposed by Gottesman, Jennewein, and Croke (GJC12) [Physical Review Letters, 109(7):070503, July 2011], as a possible solution to the issue of optical loss if the entangled state can be distributed across long distances by employing a quantum repeater network. In this paper, we propose an alternative entanglement-assisted scheme that interferes a two-mode squeezed vacuum state with the astronomical state and then measures the resulting state by means of homodyne detection. We use a continuous-variable approach and compute the Fisher information with respect to the mutual coherence of the astronomical source. We show that when the Fisher information is observed cumulatively at the rate at which successful measurements can be performed, our proposed scheme does not outperforms the traditional direct detection approach or the entanglement-assisted approach of GJC12. ",
+    "url": "https://arxiv.org/abs/2403.03491",
+    "authors": [
+      "Bran Purvis",
+      "Randy Lafler",
+      "R. Nicholas Lanning"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03766",
+    "title": "How to find optimal quantum states for optical micromanipulation and  metrology in complex scattering problems: tutorial",
+    "abstract": "The interaction of quantum light with matter is of great importance to a wide range of scientific disciplines, ranging from optomechanics to high precision measurements. A central issue we discuss here, is how to make optimal use of both the spatial and the quantum degrees of freedom of light for characterizing and manipulating arbitrary observable parameters in a linear scattering system into which suitably engineered light fields are injected. Here, we discuss a comprehensive framework based on a quantum operator that can be assembled solely from the scattering matrix of a system and its dependence on the corresponding local parameter, making this operator experimentally measurable from the far-field using only classical light. From this, the effect of quantum light in the near-field, i.e., in the vicinity of the target object, can be inferred. Based on this framework, it is straightforward to formulate optimal protocols on how to jointly design both the spatial shape and the quantum characteristics of light for micromanipulation as well as for parameter estimation in arbitrarily complex media. Also the forces of the quantum vacuum naturally emerge from this formalism. The aim of our tutorial is to bring different perspectives into alignment and thereby build a bridge between the different communities of wave control, quantum optics, micromanipulation, quantum metrology and vacuum physics. ",
+    "url": "https://arxiv.org/abs/2403.03766",
+    "authors": [
+      "Lukas M. Rachbauer",
+      "Dorian Bouchet",
+      "Ulf Leonhardt",
+      "Stefan Rotter"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03844",
+    "title": "Electromagnetic inverse wave scattering in anisotropic media via reduced  order modeling",
+    "abstract": "The inverse wave scattering problem seeks to estimate a heterogeneous, inaccessible medium, modeled by unknown variable coefficients in wave equations, from transient recordings of waves generated by probing signals. It is a widely studied inverse problem with important applications, that is typically formulated as a nonlinear least squares data fit optimization. For typical measurement setups and band-limited probing signals, the least squares objective function has spurious local minima far and near the true solution, so Newton-type optimization methods fail. We introduce a different approach, for electromagnetic inverse wave scattering in lossless, anisotropic media. Our reduced order model (ROM) is an algebraic, discrete time dynamical system derived from Maxwell's equations with four important properties: (1) It is data driven, without knowledge of the medium. (2) The data to ROM mapping is nonlinear and yet the ROM can be obtained in a non-iterative fashion. (3) It has a special algebraic structure that captures the causal Wave propagation. (4) The ROM interpolates the data on a uniform time grid. We show how to obtain from the ROM an estimate of the wave field at inaccessible points inside the unknown medium. The use of this wave is twofold: First, it defines a computationally inexpensive imaging function designed to estimate the support of reflective structures in the medium, modeled by jump discontinuities of the matrix valued dielectric permittivity. Second, it gives an objective function for quantitative estimation of the dielectric permittivity, that has better behavior than the least squares data fitting objective function. The methodology introduced in this paper applies to Maxwell's equations in three dimensions. To avoid high computational costs, we limit the study to a cylindrical domain filled with an orthotropic medium, so the problem becomes two dimensional. ",
+    "url": "https://arxiv.org/abs/2403.03844",
+    "authors": [
+      "Liliana Borcea",
+      "Yiyang Liu",
+      "J\u00f6rn Zimmerling"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Analysis of PDEs (math.AP)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03924",
+    "title": "Relaxation of maximally entangled quantum states of two nonequivalent  nuclear spins in a liquid",
+    "abstract": "We investigate both experimentally and theoretically the relaxation of pseudo-pure maximally entangled states (Bell states) of two nuclear spins 1H-13C belonging to a molecule in a liquid. The Bell states are obtained by a method based on a detuned Hartmann-Hahn cross-polarization condition. Their entangled character is verified by quantum-state tomography. Our relaxation measurements reveal different relaxation rates for different Bell states. We interpret this difference as originating from cross-correlations between different relaxation mechanisms, thereby demonstrating that the measurements of the differential relaxation of Bell states are potentially useful for advanced NMR characterization of liquids. ",
+    "url": "https://arxiv.org/abs/2403.03924",
+    "authors": [
+      "Georgiy Baroncha",
+      "Alexander Perepukhov",
+      "Boris V. Fine"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.03951",
+    "title": "Investigating the Collective Nature of Cavity Modified Chemical Kinetics  under Vibrational Strong Coupling",
+    "abstract": "In this paper we develop quantum dynamical methods capable of treating the dynamics of chemically reacting systems in an optical cavity in the vibrationally strong-coupling (VSC) limit at finite temperatures and in the presence of a dissipative solvent in both the few and many molecule limits. In the context of two simple models we demonstrate how reactivity in the {\\em collective} VSC regime does not exhibit altered rate behavior in equilibrium, but may exhibit resonant cavity modification of reactivity when the system is explicitly out of equilibrium. Our results suggest experimental protocols that may be used to modify reactivity in the collective regime and point to features not included in the models studied which demand further scrutiny. ",
+    "url": "https://arxiv.org/abs/2403.03951",
+    "authors": [
+      "Lachlan P. Lindoy",
+      "Arkajit Mandal",
+      "David R. Reichman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.07714",
+    "title": "Variational quantum algorithm for measurement extraction from the  Navier-Stokes, Einstein, Maxwell, B-type, Lin-Tsien, Camassa-Holm, DSW, H-S,  KdV-B, non-homogeneous KdV, generalized KdV, KdV, translational KdV, sKdV,  B-L and Airy equations",
+    "abstract": " Comments: 185 pages, v4: modified wording on Page 3; removed a few plots of solutions and quantum circuit diagrams; reformatted computations throughout entire paper. Presentations discussing this work are available at this https URL, this https URL, this https URL, and this https URL ",
+    "url": "https://arxiv.org/abs/2209.07714",
+    "authors": [
+      "Pete Rigas"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Information Theory (cs.IT)",
+      "Numerical Analysis (math.NA)",
+      "Optimization and Control (math.OC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.09165",
+    "title": "Expected geoneutrino signal at JUNO using local integrated 3-D refined  crustal model",
+    "abstract": " Comments: Substantial updates on the model and predictions, submitted version ",
+    "url": "https://arxiv.org/abs/2210.09165",
+    "authors": [
+      "Ran Han",
+      "ZhiWei Li",
+      "Ruohan Gao",
+      "Yao Sun",
+      "Ya Xu",
+      "Yufei Xi",
+      "Guangzheng Jiang",
+      "Andong Wang",
+      "Yaping Cheng",
+      "Yao Sun",
+      "Jie Pang",
+      "Qi Hua",
+      "Liangjian Wen",
+      "Liang Zhan",
+      "Yu-Feng Li"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.17614",
+    "title": "Velocity gradient analysis of a head-on vortex ring collision",
+    "abstract": " Comments: 36 pages, 13 figures, accepted by Journal of Fluid Mechanics ",
+    "url": "https://arxiv.org/abs/2305.17614",
+    "authors": [
+      "Rahul Arun",
+      "Tim Colonius"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.12957",
+    "title": "Investigation of Floquet engineered non-Abelian geometric phase for  holonomic quantum computing",
+    "abstract": " Title: Investigation of Floquet engineered non-Abelian geometric phase for  holonomic quantum computing ",
+    "url": "https://arxiv.org/abs/2307.12957",
+    "authors": [
+      "Logan W. Cooke",
+      "Arina Tashchilina",
+      "Mason Protter",
+      "Joseph Lindon",
+      "Tian Ooi",
+      "Frank Marsiglio",
+      "Joseph Maciejko",
+      "Lindsay J. LeBlanc"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.07125",
+    "title": "Nanoradian-Scale Precision in Light Rotation Measurement via Indefinite  Quantum Dynamics",
+    "abstract": " Title: Nanoradian-Scale Precision in Light Rotation Measurement via Indefinite  Quantum Dynamics ",
+    "url": "https://arxiv.org/abs/2310.07125",
+    "authors": [
+      "Binke Xia",
+      "Jingzheng Huang",
+      "Hongjing Li",
+      "Zhongyuan Luo",
+      "Guihua Zeng"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.13499",
+    "title": "Optimal optomechanical cavity setups with highly reflecting membranes",
+    "abstract": " Title: Optimal optomechanical cavity setups with highly reflecting membranes ",
+    "url": "https://arxiv.org/abs/2311.13499",
+    "authors": [
+      "Georg Enzian",
+      "Eugene S. Polzik",
+      "Alexander K. Tagantsev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.15311",
+    "title": "Dissipative and dispersive cavity optomechanics with a  frequency-dependent mirror",
+    "abstract": " Comments: 20 pages, 13 figures. Minor revision: clarify some assumptions, check energy equipartition (new fig. 13). Code to plot the article's figures available at this https URL ",
+    "url": "https://arxiv.org/abs/2311.15311",
+    "authors": [
+      "Juliette Monsel",
+      "Anastasiia Ciers",
+      "Sushanth Kini Manjeshwar",
+      "Witlef Wieczorek",
+      "Janine Splettstoesser"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.01974",
+    "title": "Polarization-insensitive microwave electrometry using Rydberg atoms",
+    "abstract": " Title: Polarization-insensitive microwave electrometry using Rydberg atoms ",
+    "url": "https://arxiv.org/abs/2312.01974",
+    "authors": [
+      "M. Cloutman",
+      "M. Chilcott",
+      "A. Elliott",
+      "J.S. Otto",
+      "A.B. Deb",
+      "N. Kj\u00e6rgaard"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.10577",
+    "title": "Observation of periodic optical spectra and soliton molecules in a novel  passively mode-locked fiber laser",
+    "abstract": " Comments: 6 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2401.10577",
+    "authors": [
+      "Xiang Zhang",
+      "Haobin Zheng",
+      "Kangrui Chang",
+      "Yong Shen",
+      "Yongzhuang Zhou",
+      "Qiao Lu",
+      "Hongxin Zou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.15244",
+    "title": "Localization landscape of optical waves in multifractal photonic  membranes",
+    "abstract": " Title: Localization landscape of optical waves in multifractal photonic  membranes ",
+    "url": "https://arxiv.org/abs/2401.15244",
+    "authors": [
+      "Tornike Shubitidze",
+      "Yilin Zhu",
+      "Hari Sundar",
+      "Luca Dal Negro"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  }
+]
