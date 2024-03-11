@@ -1,0 +1,346 @@
+[
+  {
+    "id": "arXiv:2403.05149",
+    "title": "Inverse Design of Photonic Crystal Surface Emitting Lasers is a Sequence  Modeling Problem",
+    "abstract": "Photonic Crystal Surface Emitting Lasers (PCSEL)'s inverse design demands expert knowledge in physics, materials science, and quantum mechanics which is prohibitively labor-intensive. Advanced AI technologies, especially reinforcement learning (RL), have emerged as a powerful tool to augment and accelerate this inverse design process. By modeling the inverse design of PCSEL as a sequential decision-making problem, RL approaches can construct a satisfactory PCSEL structure from scratch. However, the data inefficiency resulting from online interactions with precise and expensive simulation environments impedes the broader applicability of RL approaches. Recently, sequential models, especially the Transformer architecture, have exhibited compelling performance in sequential decision-making problems due to their simplicity and scalability to large language models. In this paper, we introduce a novel framework named PCSEL Inverse Design Transformer (PiT) that abstracts the inverse design of PCSEL as a sequence modeling problem. The central part of our PiT is a Transformer-based structure that leverages the past trajectories and current states to predict the current actions. Compared with the traditional RL approaches, PiT can output the optimal actions and achieve target PCSEL designs by leveraging offline data and conditioning on the desired return. Results demonstrate that PiT achieves superior performance and data efficiency compared to baselines. ",
+    "url": "https://arxiv.org/abs/2403.05149",
+    "authors": [
+      "Ceyao Zhang",
+      "Renjie Li",
+      "Cheng Zhang",
+      "Zhaoyu Zhang",
+      "Feng Yin"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05157",
+    "title": "Quantum embedding for molecules using auxiliary particles -- The ghost  Gutzwiller Ansatz",
+    "abstract": "Strong/static electronic correlation mediates the emergence of remarkable phases of matter, and underlies the exceptional reactivity properties in transition metal-based catalysts. Modeling strongly correlated molecules and solids calls for multi-reference Ans\\\"atze, which explicitly capture the competition of energy scales characteristic of such systems. With the efficient computational screening of correlated solids in mind, the ghost Gutzwiller (gGut) Ansatz has been recently developed. This is a variational Ansatz which can be formulated as a self-consistent embedding approach, describing the system within a non-interacting, quasiparticle model, yet providing with accurate spectra in both low and high energy regimes. Crucially, small fragments of the system are identified as responsible for the strong correlation, and are therefore enhanced by adding a set of auxiliary orbitals, the ghosts. These capture many-body correlations through one-body fluctuations and subsequent out-projection when computing physical observables. gGut has been shown to accurately describe multi-orbital lattice models at modest computational cost. In this work, we extend the gGut framework to strongly correlated molecules. To adapt the gGut Ansatz for molecular calculations, we address the fact that, unlike in the lattice model previously considered, electronic interactions in molecules are not local. Hence, we explore a hierarchy of approximations of increasing accuracy capturing interactions between fragments and environment, and within the environment, and discuss how these affect the embedding description of correlations in the whole molecule. We will compare the accuracy of the gGut model with established methods to capture strong correlation within active space formulations, and assess the realistic use of this novel approximation to the theoretical description of correlated molecular clusters. ",
+    "url": "https://arxiv.org/abs/2403.05157",
+    "authors": [
+      "Carlos Mejuto-Zaera"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05294",
+    "title": "Bound-extended mode transition in type-II synthetic photonic Weyl  heterostructures",
+    "abstract": "Photonic structures with Weyl points (WPs), including type-I and type-II, promise nontrivial surface modes and intriguing light manipulations for their three-dimensional topological bands. While previous studies mainly focus on exploring WPs in a uniform Weyl structure, here we establish Weyl heterostructures (i.e., a nonuniform Weyl lattice) with different rotational orientations in the synthetic dimension by nanostructured photonic waveguides. In this work, we unveil a transition between bound and extended modes on the interface of type-II Weyl heterostructures by tuning their rotational phases, despite the reversed topological order across the interface. This mode transition is also manifested from the total transmission to total reflection at the interface. All of these unconventional effects are attributed to the tilted dispersion of type-II Weyl band structure that can lead to mismatched bands and gaps across the interface. As a comparison, the type-I Weyl heterostructures lack the phase transition due to the untilted band structure. This work establishes a flexible scheme of artificial Weyl heterostructures that opens a new avenue towards high-dimensional topological effects and significantly enhances our capabilities in on-chip light manipulations. ",
+    "url": "https://arxiv.org/abs/2403.05294",
+    "authors": [
+      "Wange Song",
+      "Zhiyuan Lin",
+      "Jitao Ji",
+      "Jiacheng Sun",
+      "Chen Chen",
+      "Shengjie Wu",
+      "Chunyu Huang",
+      "Luqi Yuan",
+      "Shining Zhu",
+      "Tao Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05310",
+    "title": "Optically-biased Rydberg microwave receiver enabled by hybrid nonlinear  interferometry",
+    "abstract": "The rapid development in Rydberg-atomic detection of microwave fields has paved the way to a new type of intrinsically calibrated RF measurements. The coupling of Rydberg vapors medium both to microwave and optical fields allows harnessing the merits of all-optical detection, e.g.~weak disruption of the measured field and invulnerability to extremely strong fields, owing to the lack of conventional RF antenna in the detector. The trouble with this approach arises, as the greatest sensitivity is exhibited with the use of additional microwave field acting as a local oscillator, and the measurement can no longer be all-optical. Here we propose a different solution, optical-bias detection, that allows truly all-optical operation, while retaining most of the sensitivity. We tackle the issue of uncorrelated laser phase, emerging in this type of detection, by facilitating separate measurement of the phase spectrum in a nonlinear process and using the results in post-processing. We report the sensitivity of $176\\ \\mathrm{nV/cm/\\sqrt{Hz}}$ and reliable operation up to $3.5\\ \\mathrm{mV/cm}$ of $13.9\\ \\mathrm{GHz}$ electric field, while comparing with the state of the art (although not all-optical) method realized in the same setup. ",
+    "url": "https://arxiv.org/abs/2403.05310",
+    "authors": [
+      "Sebastian Bor\u00f3wka",
+      "Mateusz Mazelanik",
+      "Wojciech Wasilewski",
+      "Micha\u0142 Parniak"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05320",
+    "title": "Quantum tomography of molecules using ultrafast electron diffraction",
+    "abstract": "We propose a quantum tomography (QT) approach to retrieve the temporally evolving reduced density matrix in elecotronic state basis, where the populations and coherence between ground state and excited state are reconstructed from the ultrafast electron diffraction signal. In order to showcase the capability of the proposed QT approach, we simulate the nuclear wavepacket dynamics and ultrafast electron diffraction of photoexcited pyrrole molecules using ab initio quantum chemical CASSCF method. From simulated time-resolved diffraction data, we retrieve the evolving density matrix in a crude diabatic representation basis and reveal the symmetry of the excited pyrrole wavepacket. Our QT approach opens the route to make quantum version of \"molecular movie\" that covers the electronic degree of freedom, and equips ultrafast electron diffraction with the power to reveal the coherence between electronic states, relaxation and dynamics of population transfer. ",
+    "url": "https://arxiv.org/abs/2403.05320",
+    "authors": [
+      "Jiayang Jiang",
+      "Ming Zhang",
+      "Aosheng Gu",
+      "R. J. Dwayne Miller",
+      "Zheng Li"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05357",
+    "title": "Optimized detection modality for double resonance alignment based  optical magnetometer",
+    "abstract": "In this work, we present a comprehensive and comparative analysis of two detection modalities, i.e., polarization rotation and absorption measurement of light, for a double resonance alignment based optical magnetometer (DRAM). We derive algebraic expressions for magnetometry signals based on multipole moments description. Experiments are carried out using a room-temperature paraffin-coated Caesium vapour cell and measuring either the polarization rotation or absorption of the transmitted laser light. A detailed experimental analysis of the resonance spectra is performed to validate the theoretical findings for various input parameters. The results signify the use of a single isotropic relaxation rate thus simplifying the data analysis for optimization of the DRAM. The sensitivity measurements are performed and reveal that the polarization rotation detection mode yields larger signals and better sensitivity than absorption measurement of light. ",
+    "url": "https://arxiv.org/abs/2403.05357",
+    "authors": [
+      "A. Akbar",
+      "M. Kozbi\u00e1l",
+      "L. Elson",
+      "A. Meraki",
+      "J. Kolody\u0144ski",
+      "K. Jensen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05147",
+    "title": "Simulating adiabatic quantum computation with a variational approach",
+    "abstract": "The theoretical analysis of the Adiabatic Quantum Computation protocol presents several challenges resulting from the difficulty of simulating, with classical resources, the unitary dynamics of a large quantum device. We present here a variational approach to substantially alleviate this problem in many situations of interest. Our approach is based on the time-dependent Variational Monte Carlo method, in conjunction with a correlated and time-dependent Jastrow ansatz. We demonstrate that accurate results can be obtained in a variety of problems, ranging from the description of defect generation through a dynamical phase transition in 1D to the complex dynamics of frustrated spin-glass problems both on fully-connected and Chimera graphs. ",
+    "url": "https://arxiv.org/abs/2403.05147",
+    "authors": [
+      "Giuseppe Carleo",
+      "Bela Bauer",
+      "Matthias Troyer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05278",
+    "title": "Load Balancing For High Performance Computing Using Quantum Annealing",
+    "abstract": "With the advent of exascale computing, effective load balancing in massively parallel software applications is critically important for leveraging the full potential of high performance computing systems. Load balancing is the distribution of computational work between available processors. Here, we investigate the application of quantum annealing to load balance two paradigmatic algorithms in high performance computing. Namely, adaptive mesh refinement and smoothed particle hydrodynamics are chosen as representative grid and off-grid target applications. While the methodology for obtaining real simulation data to partition is application specific, the proposed balancing protocol itself remains completely general. In a grid based context, quantum annealing is found to outperform classical methods such as the round robin protocol but lacks a decisive advantage over more advanced methods such as steepest descent or simulated annealing despite remaining competitive. The primary obstacle to scalability is found to be limited coupling on current quantum annealing hardware. However, for the more complex particle formulation, approached as a multi-objective optimization, quantum annealing solutions are demonstrably Pareto dominant to state of the art classical methods across both objectives. This signals a noteworthy advancement in solution quality which can have a large impact on effective CPU usage. ",
+    "url": "https://arxiv.org/abs/2403.05278",
+    "authors": [
+      "Omer Rathore",
+      "Alastair Basden",
+      "Nicholas Chancellor",
+      "Halim Kusumaatmaja"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05482",
+    "title": "Quantum phenomena in attosecond science",
+    "abstract": "Attosecond science has opened up new frontiers in our understanding of processes happening on the intrinsic timescale of electrons. The ability to manipulate and observe phenomena at the attosecond level has yielded groundbreaking insights into processes such as electron dynamics and the behavior of matter under extreme conditions. This interdisciplinary field bridges various research areas such as quantum optics, quantum chemistry and quantum information science facilitating a cohesive understanding. However, despite many emerging successful applications, the discussion about intrinsic quantum effects has mainly been ignored. In this Perspective, we explore the latest advancements in quantum phenomena within attosecond science, encompassing both experimental and theoretical progress. Specifically, in the context of high-harmonic generation and above-threshold ionization, we focus on discerning genuinely quantum observations and distinguishing them from classical phenomena. Additionally, we illuminate the often overlooked yet significant role of entanglement in attosecond processes, elucidating its influence on experimental outcomes. ",
+    "url": "https://arxiv.org/abs/2403.05482",
+    "authors": [
+      "Lidice Cruz-Rodriguez",
+      "Diptesh Dey",
+      "Antonia Freibert",
+      "Philipp Stammer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.07032",
+    "title": "Efficient Light Propagation Algorithm using Quantum Computers",
+    "abstract": " Comments: 8 pages, 7 figures ",
+    "url": "https://arxiv.org/abs/2303.07032",
+    "authors": [
+      "Chanaprom Cholsuk",
+      "Siavash Davani",
+      "Lorcan O. Conlon",
+      "Tobias Vogl",
+      "Falk Eilenberger"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.16980",
+    "title": "Optical and thermal characterization of a group-III nitride  semiconductor membrane by microphotoluminescence spectroscopy and Raman  thermometry",
+    "abstract": " Comments: 28 pages, 14 figures, and Supplemental Material ",
+    "url": "https://arxiv.org/abs/2306.16980",
+    "authors": [
+      "Mahmoud Elhajhasan",
+      "Wilken Seemann",
+      "Katharina Dudde",
+      "Daniel Vaske",
+      "Gordon Callsen",
+      "Ian Rousseau",
+      "Thomas F. K. Weatherley",
+      "Jean-Fran\u00e7ois Carlin",
+      "Rapha\u00ebl Butt\u00e9",
+      "Nicolas Grandjean",
+      "Nakib H. Protik",
+      "Giuseppe Romano"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.05453",
+    "title": "Nonlinear dynamics of femtosecond laser interaction with the central  nervous system in zebrafish",
+    "abstract": " Title: Nonlinear dynamics of femtosecond laser interaction with the central  nervous system in zebrafish ",
+    "url": "https://arxiv.org/abs/2308.05453",
+    "authors": [
+      "Soyeon Jun",
+      "Andreas Herbst",
+      "Kilian Scheffter",
+      "Nora John",
+      "Julia Kolb",
+      "Daniel Wehner",
+      "Hanieh Fattahi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.16400",
+    "title": "Vector-based feedback of continuous wave radiofrequency compression  cavity for ultrafast electron diffraction",
+    "abstract": " Comments: 11 pages, 10 figures ",
+    "url": "https://arxiv.org/abs/2311.16400",
+    "authors": [
+      "Thomas Sutter",
+      "Joshua Lee",
+      "Atharva Kulkarni",
+      "Pietro Musumeci",
+      "Anshul Kogar"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.01664",
+    "title": "Quantum Algorithm for Radiative Transfer Equation",
+    "abstract": " Comments: 9 pages, 8 figures ",
+    "url": "https://arxiv.org/abs/2312.01664",
+    "authors": [
+      "Asuka Igarashi",
+      "Tadashi Kadowaki",
+      "Shiro Kawabata"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Astrophysics of Galaxies (astro-ph.GA)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.07443",
+    "title": "MesoHops: Size-invariant scaling calculations of multi-excitation open  quantum systems",
+    "abstract": " Comments: 27 pages, 15 figures ",
+    "url": "https://arxiv.org/abs/2401.07443",
+    "authors": [
+      "Brian Citty",
+      "Jacob K. Lynd",
+      "Tarun Gera",
+      "Leonel Varvelo",
+      "Doran I.G.B. Raccah"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14812",
+    "title": "Design and Optimization of a Graphene-On-Silicon Nitride Integrated  Waveguide Dual-Mode Electro-Absorption Modulator",
+    "abstract": " Comments: 10 pages, 10 figures; revised argument in section 3.3, Pd/Au contacts replaced by IHO contacts, results improved; typos corrected, references added ",
+    "url": "https://arxiv.org/abs/2401.14812",
+    "authors": [
+      "Fernando Mart\u00edn-Romero",
+      "V\u00edctor Jes\u00fas G\u00f3mez"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.08899",
+    "title": "Free Space Optical Frequency Comparison Over Rapidly Moving Links",
+    "abstract": " Comments: 6 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2402.08899",
+    "authors": [
+      "Shawn M. P. McSorley",
+      "Benjamin P. Dix-Matthews",
+      "Alex M. Frost",
+      "Ayden S. McCann",
+      "Skevos F. E. Karpathakis",
+      "David R. Gozzard",
+      "Shane M. Walsh",
+      "Sascha W. Schediwy"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.16410",
+    "title": "First-principles construction of symmetry-informed quantum metrologies",
+    "abstract": " Comments: 6 pages, 1 table. Minor alterations ",
+    "url": "https://arxiv.org/abs/2402.16410",
+    "authors": [
+      "Jes\u00fas Rubio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.01195",
+    "title": "Understanding Energy Level Structure Using Quantum Rubik's Cube",
+    "abstract": " Title: Understanding Energy Level Structure Using Quantum Rubik's Cube ",
+    "url": "https://arxiv.org/abs/2403.01195",
+    "authors": [
+      "Yu Wang",
+      "Maolin Bo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.04637",
+    "title": "Investigation of low band gap silicon alloy thin film solar cell for  improving short and long wavelength response",
+    "abstract": " Comments: 21 pages, 14 Figs ",
+    "url": "https://arxiv.org/abs/2403.04637",
+    "authors": [
+      "S. M. Iftiquar",
+      "J. Yi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
