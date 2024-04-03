@@ -1,0 +1,409 @@
+[
+  {
+    "id": "arXiv:2404.00083",
+    "title": "Frequency splitting in undulator radiation from solid-state crystalline  undulator",
+    "abstract": "The set of frequencies and angular properties of radiation emitted from a solid-state crystalline undulator based on the channeling effect are considered. High-frequency and low-frequency branches of the undulator radiation and the angular distribution of the emitted radiation are analyzed. The ranges of frequencies and angles of radiation emitted from the solid-state crystalline undulator based on the channeling effect are found. The frequency splitting and the energy threshold in the production of undulator radiation are shown and discussed. ",
+    "url": "https://arxiv.org/abs/2404.00083",
+    "authors": [
+      "A. Shchagin",
+      "G. Kube",
+      "A. Potylitsyn",
+      "S. Strokov"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00229",
+    "title": "Rotating-modulated Higher-Order Topological States in a Split-ring  Photonic Insulator",
+    "abstract": "The emerging field of topology has brought device effects to a new level. Higher-order topological insulators (HOTIs) go beyond traditional descriptions of bulk-edge correspondence, broadening the understanding of topologically insulating phases. In this paper, a second-order split-ring photonic crystal (SSPC) with zero-dimensional (0D) corner states and one-dimensional (1D) edge states is proposed. Based on the coupling strength determined by the opening direction between the split-rings, the electronic transition strength of the electronic system is imitated, and the topological trivial and non-trivial transformation of the topological two-dimensional (2D) SSH model are realized by using the rotating split-ring lattice. Theory and simulation find that SSPC has non-trivial topological edge states that can be quantified by bulk polarization. As the opening direction of the split-rings gradually changes within one period, there will be transitions between four different topological polarizations of the lowest energy bands, which can be conveniently used to achieve transitions between different topological phases. Our research can be extended to higher dimensions and broaden research paths for higher-order photonic topological insulators and semimetals. ",
+    "url": "https://arxiv.org/abs/2404.00229",
+    "authors": [
+      "Hui Chang Li",
+      "Xiang Zhou",
+      "Hai Lin Chi",
+      "Wen Wen Wang",
+      "Yun Shen",
+      "Xiao Hua Deng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00290",
+    "title": "The sensitivity of refractive index sensors based on defected 1D  photonic crystals: an analytical approach",
+    "abstract": "In this paper, an analytical formula for the sensitivity of optical sensors based on one-dimensional photonic crystals (PCs) with a defect was derived for the first time. Based on this formula, a comparative analysis of the sensitivity of defected PCs with and without mirror symmetry was carried out. In addition, the exact values of sensitivity in the limit of an infinite PC with a quarter-wave unit cell were obtained. It was shown that the sensitivity of a defective PC with an infinitely thick defect layer is equal to that of a perfectly reflecting Fabry-Perot resonator and does not depend on the specific structure of the PC. The results of this work provide a significant simplification of the analysis and optimization of optical sensors based on defective PCs, as well as a better understanding of the numerous numerical results obtained previously. ",
+    "url": "https://arxiv.org/abs/2404.00290",
+    "authors": [
+      "Nikolay A. Vanyushkin",
+      "I.M. Efimov",
+      "Ashot H. Gevorgyan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00331",
+    "title": "Investigation of self-focusing of Gaussian laser beams within magnetized  plasma via source-dependent expansion method",
+    "abstract": "Self-focusing emerges as a nonlinear optical phenomenon resulting from an intense laser field and plasma interaction. This study investigates the self-focusing behavior of Gaussian laser beams within magnetized plasma environments utilizing a novel approach, source-dependent expansion. By employing source-dependent expansion, we explore the intricate dynamics of laser beam propagation, considering the influence of plasma density and external magnetic fields. The interplay between the beam's Gaussian profile and the self-focusing mechanism through rigorous mathematical analysis and numerical simulations, particularly in the presence of plasma-induced nonlinearities are elucidated here. Our findings reveal crucial insights into the evolution of laser beams under diverse parameters, the ponderomotive force, relativistic factors, plasma frequency, polarization states, external magnetic field, wavelength, and laser intensity. This research not only contributes to advancing our fundamental understanding of laser-plasma interactions but also holds promise for optimizing laser-driven applications. ",
+    "url": "https://arxiv.org/abs/2404.00331",
+    "authors": [
+      "A. A. Molavi Choobini",
+      "S. S. Ghaffari-Oskooei"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00480",
+    "title": "A New Thermodynamic Approach to Multimode Fibre Self-cleaning and  Soliton Condensation",
+    "abstract": "A new thermodynamic theory for optical multimode systems is proposed. Theory is based on a weighted Bose-Einstein law, and includes the state equation, the fundamental equation for the entropy and a metric to measure the accuracy of the thermodynamic approach. The theory is used to compare the experimental results of two propagation regimes in multimode fibres, specifically the self-cleaning in the normal chromatic dispersion region and the soliton condensation in the anomalous dispersion region. Surprising similarities are found in terms of thermodynamic parameters, suggesting a common basis for the thermalisation processes observed in the two propagation regimes. ",
+    "url": "https://arxiv.org/abs/2404.00480",
+    "authors": [
+      "Mario Zitelli"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00545",
+    "title": "Unified, Verifiable Neural Simulators for Electromagnetic Wave Inverse  Problems",
+    "abstract": "Simulators based on neural networks offer a path to orders-of-magnitude faster electromagnetic wave simulations. Existing models, however, only address narrowly tailored classes of problems and only scale to systems of a few dozen degrees of freedom (DoFs). Here, we demonstrate a single, unified model capable of addressing scattering simulations with thousands of DoFs, of any wavelength, any illumination wavefront, and freeform materials, within broad configurable bounds. Based on an attentional multi-conditioning strategy, our method also allows non-recurrent supervision on and prediction of intermediate physical states, which provides improved generalization with no additional data-generation cost. Using this O(1)-time intermediate prediction capability, we propose and prove a rigorous, efficiently computable upper bound on prediction error, allowing accuracy guarantees at inference time for all predictions. After training solely on randomized systems, we demonstrate the unified model across a suite of challenging multi-disciplinary inverse problems, finding strong efficacy and speed improvements up to 96% for problems in optical tomography, beam shaping through volumetric random media, and freeform photonic inverse design, with no problem-specific training. Our findings demonstrate a path to universal, verifiably accurate neural surrogates for existing scattering simulators, and our conditioning and training methods are directly applicable to any PDE admitting a time-domain iterative solver. ",
+    "url": "https://arxiv.org/abs/2404.00545",
+    "authors": [
+      "Charles Dove",
+      "Jatearoon Boondicharern",
+      "Laura Waller"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)",
+      "Image and Video Processing (eess.IV)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00770",
+    "title": "Low-loss liquid metal interconnects for modular superconducting quantum  systems",
+    "abstract": "Building modular architecture with superconducting quantum computing chips is one of the means to achieve qubit scalability, allowing the screening, selection, replacement, and integration of individual qubit modules into large quantum systems. However, the non-destructive replacement of modules within a compact architecture remains a challenge. Liquid metals (LM), specifically gallium alloys, can be alternatives to solid-state galvanic interconnects. This is motivated by their self-healing, self-aligning, and other desirable fluidic properties, potentially enabling non-destructive replacement of modules at room temperatures, even after operating the entire system at millikelvin regimes. In this study, we present high-internal-quality-factor coplanar waveguide resonators (CPWR) interconnected by gallium alloy droplets, demonstrating performance on par with the continuous solid-state CPWRs. Leveraging the desirable fluidic properties of gallium alloys at room temperature and their compact design, we envision a modular quantum system enabled by liquid metals. ",
+    "url": "https://arxiv.org/abs/2404.00770",
+    "authors": [
+      "Zhancheng Yao",
+      "Martin Sandberg",
+      "David W. Abraham",
+      "David J. Bishop"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00787",
+    "title": "Effect of cathode porosity on the Lithium air cell oxygen reduction  reaction",
+    "abstract": "The kinetics of the oxygen reduction reaction (ORR) on the practical air cathode in a Lithium air cell, which is conventionally composed of porous carbon with or without catalysts supported on it, was investigated. The mechanism and kinetics of the oxygen reduction reaction (ORR) was studied on a porous carbon electrode in an oxygen saturated solution of 0.1M Lithium bis-trifluoromethanesulfonimidate (LiTFSI) in Dimethoxyethane (DME) using cyclic voltammetery (CV) and the rotating ring-disk electrode (RRDE) technique. The oxygen reduction and evolution reactions were found to occur at similar potentials to those observed on a smooth, planar glassy carbon (GC) electrode. The effect of the porosity and the resultant increase in surface area were readily observed in the increase in the transient time required for the intermediates to reach the ring and the much larger disk currents (compared to smooth, planar GC) recorded respectively. The RRDE data was analyzed using a kinetic model previously developed by us and the rate constant of the elementary reactions calculated. The rates constant for the electrochemical reactions were found to be similar in magnitude to the rate constants calculated for smooth GC disks. The porosity of the electrode was found to decrease the rate of desorption of the intermediate and the product and delay their diffusion by shifting it from a Fickian regime in the electrolyte bulk to the Knudsen regime in the film pores. Thus, it is shown that the effect of the electrode porosity on the kinetics of the ORR is physical rather than electrochemical. ",
+    "url": "https://arxiv.org/abs/2404.00787",
+    "authors": [
+      "Jeongwook Seo",
+      "Shrihari Sankarasubramanian",
+      "Nikhilendra Singh",
+      "Fuminori Mizuno",
+      "Kensuke Takechi",
+      "Jai Prakash"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00952",
+    "title": "The quantum hypothesis for molecules with multiple degrees of freedom;  Remarks on the entropy constant of diatomic gases",
+    "abstract": "An English (2024) translation by P. Marquet of 3 German papers about \"Die Quantenhypothese f\\\"ur Molekeln mit mehreren Freiheitsgraden (The quantum hypothesis for molecules with multiple degrees of freedom)\" and \"Bemerkung \\\"uber die Entropiekonstante zweiatomiger Gase (Remarks on the entropy constant of diatomic gases)\" by Max Planck (1915,a,b,c) ",
+    "url": "https://arxiv.org/abs/2404.00952",
+    "authors": [
+      "Pascal Marquet",
+      "Max Planck"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00991",
+    "title": "Optical solitons in multimode fibers: recent advances",
+    "abstract": "Optical solitons in multimode fibers have been predicted 40 years ago and extensively investigated theoretically. Transmission experiments in nonlinear multimode fibers have gained renewed interest, motivated by their potential to extend the capacity of long-distance transmission systems; only in the last few years, new experiments have revealed unexpected properties of optical solitons propagating in graded-index and step-index multimode fibers, partially re-writing the existing theory. Here we provide an overview of the recent experimental, numerical and theoretical studies which revealed those new properties. It will be shown that multimode fiber solitons form with specific pulse width and energy dependent on the wavelength, and that they naturally evolve toward fundamental-mode Raman solitons. New soliton fission mechanisms, governed by the modal dispersion, will be explained. Possible applications in space-division multiplexed systems will be discussed. A recent thermodynamic approach to soliton condensation will be described. ",
+    "url": "https://arxiv.org/abs/2404.00991",
+    "authors": [
+      "Mario Zitelli"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01056",
+    "title": "Detangling the quantum tapestry of intra-channel interference in  below-threshold nonsequential double ionization with few-cycle laser pulses",
+    "abstract": "We perform a systematic analysis of single-channel quantum interference in laser-induced nonsequential double ionization with few-cycle pulses, using the strong-field approximation. We focus on a below-threshold intensity for which the recollision-excitation with subsequent ionization (RESI) mechanism is prevalent. We derive and classify several analytic interference conditions for single-channel RESI in arbitrary driving fields, and address specific issues for few-cycle pulses. Since the cycles in a short pulse are no longer equivalent, there are several events whose dominance varies. We quantify this dominance for single excitation channels by proposing a dominance parameter. Moreover, there will be many more types of superimposed interference fringes that must be taken into consideration. We find an intricate tapestry of patterns arising from phase differences related to symmetrization, temporal shifts and a combination of exchange and event interference. ",
+    "url": "https://arxiv.org/abs/2404.01056",
+    "authors": [
+      "S. Hashim",
+      "R. Tenney",
+      "C. Figueira de Morisson Faria"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01098",
+    "title": "Measurement of three-body recombination coefficient of ultracold lithium  and strontium atoms",
+    "abstract": "We report on the observation of a conspicuous loss in an ultracold mixture of $^{7}$Li and $^{88}$Sr atoms confined in a far-off-resonance optical dipole trap. We attribute the trap loss to the three-body inelastic Li-Sr-Sr collision and extract the corresponding three-body recombination coefficient $K_3$ at $T\\sim 18.5,45,70,600$ $\\mu K$. The measured three-body recombination coefficient is about two to three orders of magnitude larger than the typical values convenient for realizing quantum degenerate gases. It also indicates a potentially large $s$-wave scattering length between the bosonic $^{7}$Li and $^{88}$Sr atoms, and essentially rules out the prospect of realizing $^7$Li and $^{88}$Sr mixtures of high phase space density. ",
+    "url": "https://arxiv.org/abs/2404.01098",
+    "authors": [
+      "Bo-Yang Wang",
+      "Yi-Fan Wang",
+      "Zi-He An",
+      "Li-Yang Xie",
+      "Zhu-Xiong Ye",
+      "Yi Zhang",
+      "Meng Khoon Tey"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00159",
+    "title": "What an event is not: unravelling the identity of events in quantum  theory and gravity",
+    "abstract": "We explore the notion of events at the intersection between quantum physics and gravity, inspired by recent research on superpositions of semiclassical spacetimes. By going through various experiments and thought experiments -- from a decaying atom, to the double-slit experiment, to the quantum switch -- we analyse which properties can and cannot be used to define events in such non-classical contexts. Our findings suggest an operational, context-dependent definition of events which emphasises that their properties can be accessed without destroying or altering observed phenomena. We discuss the implications of this understanding of events for indefinite causal order as well as the non-absoluteness of events in the Wigner's friend thought experiment. These findings provide a first step for developing a notion of event in quantum spacetime. ",
+    "url": "https://arxiv.org/abs/2404.00159",
+    "authors": [
+      "Anne-Catherine de la Hamette",
+      "Viktoria Kabel",
+      "\u010caslav Brukner"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00377",
+    "title": "Maximal quantum interaction between free electrons and photons",
+    "abstract": "The emerging field of free-electron quantum optics enables electron-photon entanglement and holds the potential for generating nontrivial photon states for quantum information processing. Although recent experimental studies have entered the quantum regime, rapid theoretical developments predict that qualitatively unique phenomena only emerge beyond a certain interaction strength. It is thus pertinent to identify the maximal electron-photon interaction strength and the materials, geometries, and particle energies that enable one to approach it. We derive an upper limit to the quantum vacuum interaction strength between free electrons and single-mode photons, which illuminates the conditions for the strongest interaction. Crucially, we obtain an explicit energy selection recipe for electrons and photons to achieve maximal interaction at arbitrary separations and identify two optimal regimes favoring either fast or slow electrons over those with intermediate velocities. We validate the limit by analytical and numerical calculations on canonical geometries and provide near-optimal designs indicating the feasibility of strong quantum interactions. Our findings offer fundamental intuition for maximizing the quantum interaction between free electrons and photons and provide practical design rules for future experiments on electron-photon and electron-mediated photon-photon entanglement. They should also enable the evaluation of key metrics for applications such as the maximum power of free-electron radiation sources and the maximum acceleration gradient of dielectric laser accelerators. ",
+    "url": "https://arxiv.org/abs/2404.00377",
+    "authors": [
+      "Zetao Xie",
+      "Zeling Chen",
+      "Hao Li",
+      "Qinghui Yan",
+      "Hongsheng Chen",
+      "Xiao Lin",
+      "Ido Kaminer",
+      "Owen D. Miller",
+      "Yi Yang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00723",
+    "title": "Quantum Weak Force Sensing with Squeezed Magnomechanics",
+    "abstract": "Cavity magnomechanics, exhibiting remarkable experimental tunability, rich magnonic nonlinearities, and compatibility with various quantum systems, has witnessed considerable advances in recent years. However, the potential benefits of using cavity magnomechanical (CMM) systems in further improving the performance of quantum-enhanced sensing for weak forces remain largely unexplored. Here we show that the performance of a quantum CMM sensor can be significantly enhanced beyond the standard quantum limit (SQL), by squeezing the magnons. We find that, for comparable parameters, two orders of enhancement in force sensitivity can be achieved in comparison with the case without the magnon squeezing. Moreover, we show optimal parameter regimes of homodyne angle for minimizing added quantum noise. Our findings provide a promising approach for highly tunable and compatible quantum force sensing using hybrid CMM devices, with potential applications ranging from quantum precision measurements to quantum information processing. ",
+    "url": "https://arxiv.org/abs/2404.00723",
+    "authors": [
+      "Qian Zhang",
+      "Jie Wang",
+      "Tian-Xiang Lu",
+      "Franco Nori",
+      "Hui Jing"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.00740",
+    "title": "Quantum walks and correlated dynamics in an interacting synthetic  Rydberg lattice",
+    "abstract": "Coherent dynamics of interacting quantum particles plays a central role in the study of strongly correlated quantum matter and the pursuit of quantum information processors. Here, we present the state-space of interacting Rydberg atoms as a synthetic landscape on which to control and observe coherent and correlated dynamics. With full control of the coupling strengths and energy offsets between the pairs of sites in a nine-site synthetic lattice, we realize quantum walks, Bloch oscillations, and dynamics in an Escher-type ``continuous staircase\". In the interacting regime, we observe correlated quantum walks, Bloch oscillations, and confinement of particle pairs. Additionally, we simultaneously tilt our lattice both up and down to achieve coherent pair oscillations. This work establishes synthetic Rydberg lattices of interacting atom arrays as a promising platform for programmable quantum many-body dynamics with access to features that are difficult to realize in real-space lattices. ",
+    "url": "https://arxiv.org/abs/2404.00740",
+    "authors": [
+      "Tao Chen",
+      "Chenxi Huang",
+      "Bryce Gadway",
+      "Jacob P. Covey"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01211",
+    "title": "Non-Hermitian unidirectional routing of photonic qubits",
+    "abstract": "Efficient and tunable qubit unidirectional routers and spin-wave diodes play an important role in both classical and quantum information processing domains. Here, we reveal that multi-level neutral cold atoms can mediate both dissipative and coherent couplings. Interestingly, we investigate and practically implement this paradigm in experiments, successfully synthesizing a system with dual functionality as both a photonic qubit unidirectional router and a spin-wave diode. By manipulating the helicity of the field, we can effectively balance the coherence coupling and dissipative channel, thereby ensuring the unidirectional transfer of photonic qubits. The qubit fidelity exceeds 97.49%, and the isolation ratio achieves $16.8\\pm0.11$ dB while the insertion loss is lower than 0.36 dB. Furthermore, we show that the spin-wave diode can effectively achieve unidirectional information transfer by appropriately setting the coherent coupling parameters. Our work not only provides new ideas for the design of extensive components in quantum networks, but also opens up new possibilities for non-Hermitian quantum physics, complex quantum networks, and unidirectional quantum information transfer. ",
+    "url": "https://arxiv.org/abs/2404.01211",
+    "authors": [
+      "En-Ze Li",
+      "Yi-Yang Liu",
+      "Ming-Xin Dong",
+      "Dong-Sheng Ding",
+      "Bao-Sen Shi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01221",
+    "title": "Upper bound for the quantum coupling between free electrons and photons",
+    "abstract": "The quantum interaction between free electrons and photons is fundamental to free-electron based light sources and free-electron quantum optics applications. A large coupling between free electrons and photons is generally desired. In this manuscript, I study the upper bound for the quantum coupling between free electrons and photons. Our study provides guidance to reach the strong coupling between free electrons and photons. ",
+    "url": "https://arxiv.org/abs/2404.01221",
+    "authors": [
+      "Zhexin Zhao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.03330",
+    "title": "Inverse Volume Scaling of Finite-Size Error in Periodic Coupled Cluster  Theory",
+    "abstract": " Title: Inverse Volume Scaling of Finite-Size Error in Periodic Coupled Cluster  Theory ",
+    "url": "https://arxiv.org/abs/2304.03330",
+    "authors": [
+      "Xin Xing",
+      "Lin Lin"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.09537",
+    "title": "Microscopic derivation of transition-state theory for complex quantum  systems",
+    "abstract": " Comments: 6 pages, 1 figure ",
+    "url": "https://arxiv.org/abs/2310.09537",
+    "authors": [
+      "K. Hagino",
+      "G.F. Bertsch"
+    ],
+    "subjectives": [
+      "Nuclear Theory (nucl-th)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.12761",
+    "title": "Polarization-artifact reduction and accuracy improvement of Jones-matrix  polarization-sensitive optical coherence tomography by multi-focus averaging",
+    "abstract": " Title: Polarization-artifact reduction and accuracy improvement of Jones-matrix  polarization-sensitive optical coherence tomography by multi-focus averaging ",
+    "url": "https://arxiv.org/abs/2310.12761",
+    "authors": [
+      "Lida Zhu",
+      "Shuichi Makita",
+      "Junya Tamaoki",
+      "Yiqiang Zhu",
+      "Yiheng Lim",
+      "Makoto Kobayashi",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03128",
+    "title": "AlGaN/AlN heterostructures: an emerging platform for nonlinear  integrated photonics",
+    "abstract": " Title: AlGaN/AlN heterostructures: an emerging platform for nonlinear  integrated photonics ",
+    "url": "https://arxiv.org/abs/2312.03128",
+    "authors": [
+      "Sinan G\u00fcndogdu",
+      "Sofia Pazzagli",
+      "Tommaso Pregnolato",
+      "Tim Kolbe",
+      "Sylvia Hagedorn",
+      "Markus Weyers",
+      "Tim Schr\u00f6der"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.02933",
+    "title": "Solutions to the Landau-Lifshitz-Gilbert equation in the frequency  space: Discretization schemes for the dynamic-matrix approach",
+    "abstract": " Title: Solutions to the Landau-Lifshitz-Gilbert equation in the frequency  space: Discretization schemes for the dynamic-matrix approach ",
+    "url": "https://arxiv.org/abs/2401.02933",
+    "authors": [
+      "D. E. Gonzalez-Chavez",
+      "G. P. Zamudio",
+      "R. L. Sommer"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.13560",
+    "title": "Design and characterization of individual addressing optics based on  multi-channel acousto-optic modulator for $^{171}$Yb$^+$ qubits",
+    "abstract": " Comments: 14 pages, 5 figures ",
+    "url": "https://arxiv.org/abs/2402.13560",
+    "authors": [
+      "Sungjoo Lim",
+      "Seunghyun Baek",
+      "Jacob Whitlow",
+      "Marissa D'Onofrio",
+      "Tianyi Chen",
+      "Samuel Phiri",
+      "Stephen Crain",
+      "Kenneth R. Brown",
+      "Jungsang Kim",
+      "Junki Kim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.13717",
+    "title": "Hyperradiance, photon blockade and concurrence in a pair of qubits  inside a driven cavity",
+    "abstract": " Comments: 15 pages, 13 figures ",
+    "url": "https://arxiv.org/abs/2403.13717",
+    "authors": [
+      "Anushree Dey",
+      "Bimalendu Deb"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
