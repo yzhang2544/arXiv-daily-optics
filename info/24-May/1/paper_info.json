@@ -1,0 +1,522 @@
+[
+  {
+    "id": "arXiv:2404.18951",
+    "title": "Photon frequency variation in non-linear electro-magnetism",
+    "abstract": "We set a generalised non-linear Lagrangian, encompassing Born-Infeld and Heisenberg-Euler theories among others. The Lagrangian reduces to the Maxwell Lagrangian at lowest order. The field is composed by a propagating light-wave in an electro-magnetic background. The wave exhibits energy variation when the background is space-time dependent. In the photon description, this implies a red or a blue shift, like what we obtained in massive theories, as the de Broglie-Proca or effective mass theories as the Standard-Model Extension under Lorentz symmetry violation. The two results, photon energy-conservation and the frequency shift are instead new for non-linear electro-magnetism. We conclude by discussing how these static frequency shifts when added to the expansion red shift allow new interpretations in cosmology or for atomic spectra. We finally consider the consequences on the Poincar\\'e symmetry. ",
+    "url": "https://arxiv.org/abs/2404.18951",
+    "authors": [
+      "Alessandro D.A.M. Spallicci",
+      "Abedennour Dib",
+      "Jos\u00e9 A. Helay\u00ebl-Neto"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19035",
+    "title": "Improved pressure-gradient sensor for the prediction of separation onset  in RANS models",
+    "abstract": "We improve upon two key aspects of the Menter shear stress transport (SST) turbulence model: (1) We propose a more robust adverse pressure gradient sensor based on the strength of the pressure gradient in the direction of the local mean flow; (2) We propose two alternative eddy viscosity models to be used in the adverse pressure gradient regions identified by our sensor. Direct numerical simulations of the Boeing Gaussian bump are used to identify the terms in the baseline SST model that need correction, and a posteriori Reynolds-averaged Navier-Stokes calculations are used to calibrate coefficient values, leading to a model that is both physics driven and data informed. The two sensor-equipped models are applied to two thick airfoils representative of modern wind turbine applications, the FFA-W3-301 and the DU00-W-212, with maximum thicknesses of 30% and 20% of their chord lengths, respectively. While the baseline SST model predicts stall (onset of separation) $3^\\circ$ to $5^\\circ$ late for all cases considered, the proposed models predict stall within the margins of experimental uncertainty, which greatly improves the prediction of the maximum lift generated. For the FFA airfoil, the models also improve the prediction of the linear region of the lift curve likely due to their improved prediction of a pressure-side separation at low angles of attack. The models are shown to generalize well across the two airfoil geometries (despite their difference in thickness) and across almost a factor of 10 in variations in chord-based Reynolds numbers from $1.6\\times10^6$ to $1.5\\times10^7$. ",
+    "url": "https://arxiv.org/abs/2404.19035",
+    "authors": [
+      "Kevin Patrick Griffin",
+      "Ganesh Vijayakumar",
+      "Ashesh Sharma",
+      "Michael A. Sprague"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19142",
+    "title": "Purcell enhanced optical refrigeration",
+    "abstract": "Optical refrigeration of solids with anti-Stokes fluorescence has been widely explored as a vibration-free cryogenic cooling technology. A minimum temperature of 87 K has been demonstrated with rare-earth ion doped crystals using optical refrigeration. However, the depletion of the upper-lying energy levels in the ground state manifold hinders further cooling to below liquid nitrogen (LN$_2$) temperatures, confining its applications. In this work, we introduce a Purcell enhanced optical refrigeration method to circumvent this limitation. This approach enhances the emission of high energy photons by coupling to a nearby nanocavity, blue shifting the mean emission wavelength. Such Purcell enhanced emission facilitates cooling starting from a lower energy level in the ground state manifold, which exhibits a higher occupation below LN$_2$ temperatures. Using our experimentally measured optical coefficients, our theoretical analysis predicts a minimum achievable temperature of 38 K for a Yb$^{3+}$:YLiF$_{4}$ nanocrystal near a cavity under realistic conditions. The proposed method is applicable to other rare-earth ion doped materials and semiconductors, and will have applications in creating superconducting and other quantum devices with solid-state cooling. ",
+    "url": "https://arxiv.org/abs/2404.19142",
+    "authors": [
+      "Peng Ju",
+      "Stefan P\u00fcschel",
+      "Kunhong Shen",
+      "Yuanbin Jin",
+      "Hiroki Tanaka",
+      "Tongcang Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19163",
+    "title": "Efficient Mixed-Precision Matrix Factorization of the Inverse Overlap  Matrix in Electronic Structure Calculations with AI-Hardware and GPUs",
+    "abstract": "In recent years, a new kind of accelerated hardware has gained popularity in the Artificial Intelligence (AI) and Machine Learning (ML) communities which enables extremely high-performance tensor contractions in reduced precision for deep neural network calculations. In this article, we exploit Nvidia Tensor cores, a prototypical example of such AI/ML hardware, to develop a mixed precision approach for computing a dense matrix factorization of the inverse overlap matrix in electronic structure theory, $S^{-1}$. This factorization of $S^{-1}$, written as $ZZ^T=S^{-1}$, is used to transform the general matrix eigenvalue problem into a standard matrix eigenvalue problem. Here we present a mixed precision iterative refinement algorithm where $Z$ is given recursively using matrix-matrix multiplications and can be computed with high performance on Tensor cores. To understand the performance and accuracy of Tensor cores, comparisons are made to GPU-only implementations in single and double precision. Additionally, we propose a non-parametric stopping criteria which is robust in the face of lower precision floating point operations. The algorithm is particularly useful when we have a good initial guess to $Z$, for example, from previous time steps in quantum-mechanical molecular dynamics simulations or from a previous iteration in a geometry optimization. ",
+    "url": "https://arxiv.org/abs/2404.19163",
+    "authors": [
+      "Adela Habib",
+      "Joshua Finkelstein",
+      "Anders M. N. Niklasson"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19436",
+    "title": "Electro-phononic and magneto-phononic frequency conversion",
+    "abstract": "Nonlinear frequency conversion by optical rectification, as well as difference- and sum-frequency generation are fundamental processes for producing electromagnetic radiation at different frequencies. Here, we demonstrate that coherently excited infrared-active phonons can be used as transducers for generating nonlinear electric polarizations and magnetizations via phonon-phonon and phonon-magnon interactions, in a way similar to nonlinear optical frequency conversion. We derive analytical solutions for the time-dependent polarizations and magnetizations for the second-order response to the electric field component of an ultrashort laser pulse. These allow us to define second-order nonlinear electric and magneto-electric susceptibilities that capture the rectification, as well as the impulsive and sum-frequency excitation of coherent phonons and magnons. Our theoretical framework naturally incorporates existing mechanisms and further leads to the prediction of a hybrid magneto-opto-phononic inverse Faraday effect involving photon-phonon-magnon scattering. Our work demonstrates nonlinear phononics as a pathway to controlling the electric polarization and magnetization in solids. ",
+    "url": "https://arxiv.org/abs/2404.19436",
+    "authors": [
+      "Daniel A. Bustamante Lopez",
+      "Wanzheng Hu",
+      "Dominik M. Juraschek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19506",
+    "title": "High power single crystal KTA optical parametric amplifier for efficient  1.4-3.5 $\u03bc$m mid-IR radiation generation",
+    "abstract": "In this paper, we present a single crystal, KTA (potassium titanyl-arsenate, KTiOAsO$_4$) based picosecond optical parametric amplifier pumped by an in-house built 1030 nm Yb:YAG thin-disk laser, capable of tunability from 1.46 to 3.5 $\\mu$m, operating at 90 kHz, with high average power in the signal and idler beams. The highest output power of 8.9 W was reached for the 1750 nm signal beam with 19% conversion efficiency and the respective 2500 nm idler beam power was 6.2 W with 13% efficiency. The highest combined signal and idler mid-IR power was obtained at 17 W at the 2060 nm wavelength degeneracy point. ",
+    "url": "https://arxiv.org/abs/2404.19506",
+    "authors": [
+      "Bianka Csanakov\u00e1",
+      "Ond\u0159ej Nov\u00e1k",
+      "Luk\u00e1\u0161 Ro\u0161kot",
+      "Ji\u0159\u00ed Mu\u017e\u00edk",
+      "Martin Smr\u017e",
+      "Helena Jel\u00ednkov\u00e1",
+      "Tom\u00e1\u0161 Mocek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19616",
+    "title": "Unified Framework of Forced Magnetic Reconnection and Alfv\u00e9n Resonance",
+    "abstract": "A unified linear theory that includes forced reconnection as a particular case of Alfv\\'en resonance is presented. We consider a generalized Taylor problem in which a sheared magnetic field is subject to a time-dependent boundary perturbation oscillating at frequency $\\omega_0$. By analyzing the asymptotic time response of the system, the theory demonstrates that the Alfv\\'en resonance is due to the residues at the resonant poles, in the complex frequency plane, introduced by the boundary perturbation. Alfv\\'en resonance transitions towards forced reconnection, described by the constant-psi regime for (normalized) times $t\\gg S^{1/3}$, when the forcing frequency of the boundary perturbation is $\\omega_0\\ll S^{-1/3}$, allowing the coupling of the Alfv\\'en resonances across the neutral line with the reconnecting mode, as originally suggested in [1]. Additionally, it is shown that even if forced reconnection develops for finite, albeit small, frequencies, the reconnection rate and reconnected flux are strongly reduced for frequencies $\\omega_0\\gg S^{-3/5}$. ",
+    "url": "https://arxiv.org/abs/2404.19616",
+    "authors": [
+      "Daniel Urbanski",
+      "Anna Tenerani",
+      "Fran\u00e7ois L. Waelbroeck"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19636",
+    "title": "Inverse Modeling of Bubble Size Dynamics for Interphase Mass Transfer  and Gas Holdup in CO2 Bubble Column Reactors",
+    "abstract": "The use of microbial gas fermentation for transforming captured CO2 into sustainable fuels and chemicals has been identified as a promising decarbonization pathway. To accelerate the scale-up of gaseous CO2 fermentation reactors, computational models need to predict gas-to-liquid mass transfer which requires capturing the bubble size dynamics, i.e. bubble breakup and coalescence. In this work, an inverse modeling approach is used to calibrate the breakup and coalescence closure models, that are used in the Multiple-Size-Group (MUSIG) population balance modeling (PBM). The calibration aims at replicating experimental results obtained in a CO2-air-water-coflowing bubble column reactor. Bayesian inference is used to account for noise in the experimental dataset and bias in the simulation results. The estimated simulation bias also allows identifying the best-performing closure models irrespective of the model parameters used. The calibration results suggest that the breakage rate is underestimated by one order of magnitude in two different breakup modeling approaches. ",
+    "url": "https://arxiv.org/abs/2404.19636",
+    "authors": [
+      "Malik Hassanaly",
+      "John M. Parra-Alvarez",
+      "Mohammad J. Rahimi",
+      "Hariswaran Sitaraman"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19665",
+    "title": "ATOMMIC: An Advanced Toolbox for Multitask Medical Imaging Consistency  to facilitate Artificial Intelligence applications from acquisition to  analysis in Magnetic Resonance Imaging",
+    "abstract": "AI is revolutionizing MRI along the acquisition and processing chain. Advanced AI frameworks have been developed to apply AI in various successive tasks, such as image reconstruction, quantitative parameter map estimation, and image segmentation. Existing frameworks are often designed to perform tasks independently or are focused on specific models or datasets, limiting generalization. We introduce ATOMMIC, an open-source toolbox that streamlines AI applications for accelerated MRI reconstruction and analysis. ATOMMIC implements several tasks using DL networks and enables MultiTask Learning (MTL) to perform related tasks integrated, targeting generalization in the MRI domain. We first review the current state of AI frameworks for MRI through a comprehensive literature search and by parsing 12,479 GitHub repositories. We benchmark 25 DL models on eight publicly available datasets to present distinct applications of ATOMMIC on accelerated MRI reconstruction, image segmentation, quantitative parameter map estimation, and joint accelerated MRI reconstruction and image segmentation utilizing MTL. Our findings demonstrate that ATOMMIC is the only MTL framework with harmonized complex-valued and real-valued data support. Evaluations on single tasks show that physics-based models, which enforce data consistency by leveraging the physical properties of MRI, outperform other models in reconstructing highly accelerated acquisitions. Physics-based models that produce high reconstruction quality can accurately estimate quantitative parameter maps. When high-performing reconstruction models are combined with robust segmentation networks utilizing MTL, performance is improved in both tasks. ATOMMIC facilitates MRI reconstruction and analysis by standardizing workflows, enhancing data interoperability, integrating unique features like MTL, and effectively benchmarking DL models. ",
+    "url": "https://arxiv.org/abs/2404.19665",
+    "authors": [
+      "Dimitrios Karkalousos",
+      "Ivana I\u0161gum",
+      "Henk A. Marquering",
+      "Matthan W.A. Caan"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Mathematical Software (cs.MS)",
+      "Software Engineering (cs.SE)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19670",
+    "title": "Magnetic trapping of an ultracold $^{39}$K-$^{40}$K mixture with a  versatile potassium laser system",
+    "abstract": "We present a dual isotope magneto-optical trap (MOT), simultaneous sub-Doppler laser cooling, and magnetic trapping of a spin-polarized $^{39}$K-$^{40}$K Bose-Fermi mixture realized in a single-chamber setup with an unenriched potassium dispenser as the source of atoms. We are able to magnetically confine more than $2.2\\times10^5$ fermions ($F=9/2\\,m_F=9/2$) and $1.4\\times10^7$ bosons ($F=2\\,m_F=2$) with a lifetime exceeding 1.2 s. For this work, we have developed a versatile laser tailored for sub-Doppler cooling of all naturally occurring potassium isotopes and their mixtures. This laser system incorporates innovative features, such as the capability to select an isotope by activating or deactivating specific acousto-optic modulators that control the light seeding tapered amplifiers. Switching between isotopes takes $\\sim$1 $\\mathrm{\\mu}$s without any mechanical adjustment of the components. As a final step in characterizing the laser system, we demonstrate sub-Doppler cooling of $^{41}$K. ",
+    "url": "https://arxiv.org/abs/2404.19670",
+    "authors": [
+      "Mateusz Boche\u0144ski",
+      "Jakub Dobosz",
+      "Mariusz Semczuk"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19027",
+    "title": "Better Optimization of Variational Quantum Eigensolvers by combining the  Unitary Block Optimization Scheme with Classical Post-Processing",
+    "abstract": "Variational Quantum Eigensolvers (VQE) are a promising approach for finding the classically intractable ground state of a Hamiltonian. The Unitary Block Optimization Scheme (UBOS) is a state-of-the-art VQE method which works by sweeping over gates and finding optimal parameters for each gate in the environment of other gates. UBOS improves the convergence time to the ground state by an order of magnitude over Stochastic Gradient Descent (SGD). It nonetheless suffers in both rate of convergence and final converged energies in the face of highly noisy expectation values coming from shot noise. Here we develop two classical post-processing techniques which improve UBOS especially when measurements have large noise. Using Gaussian Process Regression (GPR) we generate artificial augmented data using original data from the quantum computer to reduce the overall error when solving for the improved parameters. Using Double Robust Optimization plus Rejection (DROPR), we prevent outlying data which are atypically noisy from resulting in a a particularly erroneous single optimization step thereby increasing robustness against noisy measurements. Combining these techniques further reduces the final relative error that UBOS reaches by a factor of three without adding additional quantum measurement or sampling overhead. This work further demonstrates that developing techniques which use classical resources to post-process quantum measurement results can significantly improve VQE algorithms. ",
+    "url": "https://arxiv.org/abs/2404.19027",
+    "authors": [
+      "Xiaochuan Ding",
+      "Bryan K. Clark"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19298",
+    "title": "Study of bound and resonant states of NS molecule in the R-matrix  approach",
+    "abstract": "The bound and resonance states along with corresponding autoionization widths for nitrogen sulphide (NS) molecule are determined using electron NS$^+$ cation scattering calculations. The calculations are performed for $^2{\\Sigma}^+$, $^2{\\Pi}$ and $^2\\Delta$ total symmetries using the ab initio R-matrix method for both bound and continuum states. Calculations are performed on a grid of 106 points for internuclear separations between 1.32 and 3 $\\AA$. The resonance states yield dissociative potential curves which, when considered together with their widths, provide input for models of different electron-cation collision processes including dissociative recombination, and rotational and vibrational excitation. Curves and couplings which will lead directly to dissociative recombination are identified. ",
+    "url": "https://arxiv.org/abs/2404.19298",
+    "authors": [
+      "F. Iacob",
+      "T. Meltzer",
+      "J. Zs. Mezei",
+      "I. F. Schneider",
+      "J. Tennyson"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19313",
+    "title": "High-precision chemical quantum sensing in flowing monodisperse  microdroplets",
+    "abstract": "We report on a novel flow-based method for high-precision chemical detection that integrates quantum sensing with droplet microfluidics. We deploy nanodiamond particles hosting fluorescent nitrogen vacancy defects as quantum sensors in flowing, monodisperse, picoliter-volume microdroplets containing analyte molecules. ND motion within these microcompartments facilitates close sensor-analyte interaction and mitigates particle heterogeneity. Microdroplet flow rates are rapid (upto 4cm/s) and with minimal drift. Pairing this controlled flow with microwave control of NV electronic spins, we introduce a new noise-suppressed mode of Optically Detected Magnetic Resonance that is sensitive to chemical analytes while resilient against experimental variations, achieving detection of analyte-induced signals at an unprecedented level of a few hundredths of a percent of the ND fluorescence. We demonstrate its application to detecting paramagnetic ions in droplets with simultaneously low limit-of-detection and low analyte volumes, in a manner significantly better than existing technologies. This is combined with exceptional measurement stability over >103s and across hundreds of thousands of droplets, while utilizing minimal sensor volumes and incurring low ND costs (<$0.70 for an hour of operation). Additionally, we demonstrate using these droplets as micro-confinement chambers by co-encapsulating ND quantum sensors with analytes, including single cells. This versatility suggests wide-ranging applications, like single-cell metabolomics and real-time intracellular measurements in bioreactors. Our work paves the way for portable, high-sensitivity, amplification-free, chemical assays with high throughput; introduces a new chemical imaging tool for probing chemical reactions in microenvironments; and establishes the foundation for developing movable, arrayed quantum sensors through droplet microfluidics. ",
+    "url": "https://arxiv.org/abs/2404.19313",
+    "authors": [
+      "Adrisha Sarkar",
+      "Zachary Jones",
+      "Madhur Parashar",
+      "Emanuel Druga",
+      "Amala Akkiraju",
+      "Sophie Conti",
+      "Pranav Krishnamoorthi",
+      "Srisai Nachuri",
+      "Parker Aman",
+      "Mohammad Hashemi",
+      "Nicholas Nunn",
+      "Marco Torelli",
+      "Benjamin Gilbert",
+      "Kevin R. Wilson",
+      "Olga Shenderova",
+      "Deepti Tanjore",
+      "Ashok Ajoy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19373",
+    "title": "Entanglement Signature of the Superradiant Quantum Phase Transition",
+    "abstract": "Entanglement and quantum correlations between atoms are not usually considered key ingredients of the superradiant phase transition. Here we consider the Tavis-Cummings model, a solvable system of two-levels atoms, coupled with a single-mode quantized electromagnetic field. This system undergoes a superradiant phase transition, even in a finite-size framework, accompanied by a spontaneous symmetry breaking, and an infinite sequence of energy level crossings. We find approximated expressions for the ground state, its energy, and the position of the level crossings, valid in the limit of a very large number of photons with respect to that of the atoms. In that same limit, we find that the number of photons scales quadratically with the coupling strength, and linearly with the system size, providing a new insight into the superradiance phenomenon. Resorting to novel multipartite measures, we then demonstrate that this quantum phase transition is accompanied by a crossover in the quantum correlations and entanglement between the atoms (qubits). The latters therefore represent suited order parameters for this transition. Finally, we show that these properties of the quantum phase transition persist in the thermodynamic limit. ",
+    "url": "https://arxiv.org/abs/2404.19373",
+    "authors": [
+      "Arthur Vesperini",
+      "Matteo Cini",
+      "Roberto Franzosi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19539",
+    "title": "Path integral spin dynamics for quantum paramagnets",
+    "abstract": "A path integral method, combined with atomistic spin dynamics simulations, has been developed to calculate thermal quantum expectation values using a classical approach. In this study, we show how to treat Hamiltonians with non-linear terms, that are relevant for describing uniaxial anisotropies and mechanical constraints. These interactions can be expressed solely through quadratic terms of the spin operator along one axis, that can be identified with the quantisation axis. ",
+    "url": "https://arxiv.org/abs/2404.19539",
+    "authors": [
+      "Thomas Nussle",
+      "Pascal Thibaudeau",
+      "Stam Nicolis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19589",
+    "title": "Acceptance Tests of more than 10 000 Photomultiplier Tubes for the  multi-PMT Digital Optical Modules of the IceCube Upgrade",
+    "abstract": "More than 10,000 photomultiplier tubes (PMTs) with a diameter of 80 mm will be installed in multi-PMT Digital Optical Modules (mDOMs) of the IceCube Upgrade. These have been tested and pre-calibrated at two sites. A throughput of more than 1000 PMTs per week with both sites was achieved with a modular design of the testing facilities and highly automated testing procedures. The testing facilities can easily be adapted to other PMTs, such that they can, e.g., be re-used for testing the PMTs for IceCube-Gen2. Single photoelectron response, high voltage dependence, time resolution, prepulse, late pulse, afterpulse probabilities, and dark rates were measured for each PMT. We describe the design of the testing facilities, the testing procedures, and the results of the acceptance tests. ",
+    "url": "https://arxiv.org/abs/2404.19589",
+    "authors": [
+      "R. Abbasi",
+      "M. Ackermann",
+      "J. Adams",
+      "S. K. Agarwalla",
+      "J. A. Aguilar",
+      "M. Ahlers",
+      "J.M. Alameddine",
+      "N. M. Amin",
+      "K. Andeen",
+      "C. Arg\u00fcelles",
+      "Y. Ashida",
+      "S. Athanasiadou",
+      "L. Ausborm",
+      "S. N. Axani",
+      "X. Bai",
+      "A. Balagopal V.",
+      "M. Baricevic",
+      "S. W. Barwick",
+      "S. Bash",
+      "V. Basu",
+      "R. Bay",
+      "J. J. Beatty",
+      "J. Becker Tjus",
+      "J. Beise",
+      "C. Bellenghi",
+      "C. Benning",
+      "S. BenZvi",
+      "D. Berley",
+      "E. Bernardini",
+      "D. Z. Besson",
+      "E. Blaufuss",
+      "L. Bloom",
+      "S. Blot",
+      "F. Bontempo",
+      "J. Y. Book Motzkin",
+      "C. Boscolo Meneguolo",
+      "S. B\u00f6ser",
+      "O. Botner",
+      "J. B\u00f6ttcher",
+      "J. Braun",
+      "B. Brinson",
+      "J. Brostean-Kaiser",
+      "L. Brusa",
+      "R. T. Burley",
+      "D. Butterfield",
+      "M. A. Campana",
+      "I. Caracas",
+      "K. Carloni",
+      "J. Carpio",
+      "S. Chattopadhyay",
+      "N. Chau",
+      "Z. Chen",
+      "D. Chirkin",
+      "S. Choi",
+      "B. A. Clark",
+      "A. Coleman",
+      "G. H. Collin",
+      "A. Connolly",
+      "J. M. Conrad",
+      "P. Coppin",
+      "R. Corley",
+      "P. Correa"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19592",
+    "title": "Programmable activation of quantum emitters in high-purity silicon with  focused carbon ion beams",
+    "abstract": "Carbon implantation at the nanoscale is highly desired for the engineering of defect-based qubits in a variety of materials, including silicon, diamond, SiC and hBN. However, the lack of focused carbon ion beams does not allow for the full disclosure of their potential for application in quantum technologies. Here, we develop and use a carbon source for focused ion beams for the simultaneous creation of two types of quantum emitters in silicon, the W and G centers. Furthermore, we apply a multi-step implantation protocol for the programmable activation of the G centers with sub-100- nm resolution. This approach provides a route for significant enhancement of the creation yield of single G centers in carbon-free silicon wafers. Our experimental demonstration is an important step towards nanoscale engineering of telecom quantum emitters in silicon of high crystalline quality and isotope purity. ",
+    "url": "https://arxiv.org/abs/2404.19592",
+    "authors": [
+      "M. Hollenbach",
+      "N. Klingner",
+      "P. Mazarov",
+      "W. Pilz",
+      "A. Nadzeyka",
+      "F. Mayer",
+      "N. V. Abrosimov",
+      "L. Bischoff",
+      "G. Hlawacek",
+      "M. Helm",
+      "G. V. Astakhov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.08899",
+    "title": "Self-Organized Time Crystal in Driven-Dissipative Quantum System",
+    "abstract": " Comments: 6 pages, 4 figures ",
+    "url": "https://arxiv.org/abs/2311.08899",
+    "authors": [
+      "Ya-Xin Xiang",
+      "Qun-Li Lei",
+      "Zhengyang Bai",
+      "Yu-Qiang Ma"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.10292",
+    "title": "Realization of a programmable multi-purpose photonic quantum memory with  over-thousand qubit manipulations",
+    "abstract": " Comments: 17 pages, 19 figures ",
+    "url": "https://arxiv.org/abs/2311.10292",
+    "authors": [
+      "Sheng Zhang",
+      "Jixuan Shi",
+      "Zhaibin Cui",
+      "Ye Wang",
+      "Yukai Wu",
+      "Luming Duan",
+      "Yunfei Pu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.10374",
+    "title": "Printed Circuit Board Based Rotating Coils for Measuring Sextupole  Magnets",
+    "abstract": " Comments: 28th International Conference on Magnet Technology (MT-28) ",
+    "url": "https://arxiv.org/abs/2401.10374",
+    "authors": [
+      "J. DiMarco"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.09037",
+    "title": "Metasurface of strongly coupled excitons and nanoplasmonic arrays",
+    "abstract": " Comments: 8 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2402.09037",
+    "authors": [
+      "Farsane Tabataba-Vakili",
+      "Lukas Krelle",
+      "Lukas Husel",
+      "Huy P. G. Nguyen",
+      "Zhijie Li",
+      "Ismail Bilgin",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Alexander H\u00f6gele"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.10075",
+    "title": "Direct laser cooling of Rydberg atoms with an isolated-core transition",
+    "abstract": " Comments: 6 pages, 3 figures ",
+    "url": "https://arxiv.org/abs/2402.10075",
+    "authors": [
+      "Alis\u00e9e Bouillon",
+      "Eduardo Marin-Bujedo",
+      "Matthieu G\u00e9n\u00e9vriez"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05585",
+    "title": "Plasmon Resonance Model: Investigation of Analysis of Fake News  Diffusion Model with Third Mover Intervention Using Soliton Solution in  Non-Complete Information Game under Repeated Dilemma Condition",
+    "abstract": " Comments: Plasmon Resonance Model, Soliton Solution, Third Mover,Fake News, Non-Complete Information Game, Nonlinear Partial Differential Equations, First Mover, Second Mover, Third Mover, Diffusion Dynamics, Iteration Dilemma ",
+    "url": "https://arxiv.org/abs/2403.05585",
+    "authors": [
+      "Yasuko Kawahata"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.04263",
+    "title": "An Exact Invariant for Relativistic Linear Harmonic Oscillator with  Time-dependent Frequency",
+    "abstract": " Title: An Exact Invariant for Relativistic Linear Harmonic Oscillator with  Time-dependent Frequency ",
+    "url": "https://arxiv.org/abs/2404.04263",
+    "authors": [
+      "Bhimsen Shivamoggi",
+      "Daniel Reinhart"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.06522",
+    "title": "(Pseudo-)Synthetic BRST quantisation of the bosonic string and the  higher quantum origin of dualities",
+    "abstract": " Title: (Pseudo-)Synthetic BRST quantisation of the bosonic string and the  higher quantum origin of dualities ",
+    "url": "https://arxiv.org/abs/2404.06522",
+    "authors": [
+      "Andrei T. Patrascu"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.15102",
+    "title": "Omnidirectional gradient force optical trapping in dielectric  nanocavities by inverse design",
+    "abstract": " Title: Omnidirectional gradient force optical trapping in dielectric  nanocavities by inverse design ",
+    "url": "https://arxiv.org/abs/2404.15102",
+    "authors": [
+      "Be\u00f1at Martinez de Aguirre Jokisch",
+      "Benjamin Falkenberg G\u00f8tzsche",
+      "Philip Tr\u00f8st Kristensen",
+      "Martijn Wubs",
+      "Ole Sigmund",
+      "Rasmus Elleb\u00e6k Christiansen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.15926",
+    "title": "Microwave Technologies in Experiments for Detection of Dark Matter  Axions",
+    "abstract": " Title: Microwave Technologies in Experiments for Detection of Dark Matter  Axions ",
+    "url": "https://arxiv.org/abs/2404.15926",
+    "authors": [
+      "Jose R. Navarro-Madrid",
+      "Jose Mar\u00eda Garc\u00eda-Barcel\u00f3",
+      "Alejandro D\u00edaz-Morcillo"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.17879",
+    "title": "Trapping polar molecules by surface acoustic waves",
+    "abstract": " Title: Trapping polar molecules by surface acoustic waves ",
+    "url": "https://arxiv.org/abs/2404.17879",
+    "authors": [
+      "Haijin Ding",
+      "Re-Bing Wu",
+      "Yu-xi Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  }
+]
