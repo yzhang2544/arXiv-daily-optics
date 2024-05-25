@@ -1,0 +1,595 @@
+[
+  {
+    "id": "arXiv:2405.13214",
+    "title": "Multi-Frequency Progressive Refinement for Learned Inverse Scattering",
+    "abstract": "           Interpreting scattered acoustic and electromagnetic wave patterns is a computational task that enables remote imaging in a number of important applications, including medical imaging, geophysical exploration, sonar and radar detection, and nondestructive testing of materials. However, accurately and stably recovering an inhomogeneous medium from far-field scattered wave measurements is a computationally difficult problem, due to the nonlinear and non-local nature of the forward scattering process. We design a neural network, called Multi-Frequency Inverse Scattering Network (MFISNet), and a training method to approximate the inverse map from far-field scattered wave measurements at multiple frequencies. We consider three variants of MFISNet, with the strongest performing variant inspired by the recursive linearization method -- a commonly used technique for stably inverting scattered wavefield data -- that progressively refines the estimate with higher frequency content.         ",
+    "url": "https://arxiv.org/abs/2405.13214",
+    "authors": [
+      "Owen Melia",
+      "Olivia Tsang",
+      "Vasileios Charisopoulos",
+      "Yuehaw Khoo",
+      "Jeremy Hoskins",
+      "Rebecca Willett"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13334",
+    "title": "Enhanced continuous aerosol optical depth (AOD) estimation using geostationary satellite data: focusing on nighttime AOD over East Asia",
+    "abstract": "           Continuous aerosol monitoring in East Asia is essential due to the massive aerosol emissions from natural and anthropogenic sources. Geostationary satellites enable continuous aerosol monitoring; however, the observation is limited to the daytime. This study proposed machine learning-based models to estimate daytime and nighttime aerosol optical depth (AOD) in East Asia using a geostationary satellite, Geo-KOMPSAT-2A (GK-2A). The input variables for the machine learning models include the brightness temperature (BT) and top-of-atmosphere (TOA) reflectance from GK-2A, meteorological and geographical data, and auxiliary variables. The two models that used different combinations of GK-2A variables were proposed and compared: the all-day BT model, which estimates AOD during both day and night using BT variables, and the daytime TOA model, which estimates AOD during the day using TOA reflectance variables as well. The estimated AODs by the models were validated with ground-based AOD data from the Aerosol Robotic Network (AERONET) by 10-fold cross-validation and hold-out validation methods. The performance of the daytime TOA model was slightly higher than the all-day BT model during the day (R2 = 0.80-0.82, root mean square error (RMSE) = 0.107-0.116 for the all-day BT model, R2 = 0.83, RMSE = 0.098 for the daytime TOA model). The SHapley Additive exPlanations (SHAP) analysis showed that total precipitable water content and seasonality contributed the most for both proposed models. BT differences and TOA reflectance variables were identified as the next most contributing variables for the all-day BT and daytime TOA models. The spatiotemporal distributions of estimated AODs from the proposed models show similar patterns compared with other AOD products. A time series comparison at a test station demonstrated that the estimated AOD of the proposed models was consistent with the AERONET AOD.         ",
+    "url": "https://arxiv.org/abs/2405.13334",
+    "authors": [
+      "Sanghyeon Song",
+      "Yoojin Kang",
+      "Jungho Im"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13626",
+    "title": "Harnessing Complexity: Nonlinear Optical Phenomena in L-Shapes, Nanocrescents, and Split-Ring Resonators",
+    "abstract": "           We conduct systematic studies of the optical characteristics of plasmonic nanoparticles that exhibit C2v symmetry. We analyze three distinct geometric configurations: an L-type shape, a crescent, and a split-ring resonator. Optical properties are examined using the FDTD method. It is demonstrated that all three shapes exhibit two prominent plasmon bands associated with the two axes of symmetry. This is in addition to a wide range of resonances observed at high frequencies corresponding to quadrupole modes and peaks due to sharp corners. Next, to facilitate nonlinear analysis, we employ a semiclassical hydrodynamic model where the electron pressure term is explicitly accounted for. Employing this model enables us to rigorously examine the second-order angular resolved nonlinear optical response of these nanoparticles in each of the three configurations. For CW pumping, we explore properties of the SHG. Polarization and angle-resolved SHG spectra are obtained, revealing strong dependence on the nanoparticle geometry and incident wave polarization. For pulsed excitations, we discuss the phenomenon of broadband THz generation induced by the DFG. It is shown that the THz emission spectra exhibit unique features attributed to the plasmonic resonances and symmetry of the nanoparticles. The polarization of the generated THz waves is also examined, revealing interesting patterns tied to the nanoparticle geometry. To gain deeper insight, we propose a simple analytical theory that agrees very well with the numerical experiments. An expression for the far-field THz intensity is derived in terms of the incident pulse parameters and the nonlinear response tensor of the nanoparticle. The results presented in this work offer new insights into the linear and nonlinear optical properties of nanoparticles with C2v symmetry.         ",
+    "url": "https://arxiv.org/abs/2405.13626",
+    "authors": [
+      "Michael R. Clark",
+      "Syed A. Shah",
+      "Andrei Piryatinski",
+      "Maxim Sukharev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13627",
+    "title": "Fabrication and characterization of optical nanofiber tips",
+    "abstract": "           We demonstrate the fabrication of an optical nanofiber tip (ONFT) using a two-step chemical etching technique. This technique employs 30% and 24% hydrofluoric (HF) acid for the first and second steps, respectively. In the first step, a silica single-mode fiber with clad diameter of 125 um and core diameter of 10 um is immersed in the HF acid for 90 minutes. The resultant fiber diameter is reduced to 45 um. In the second step, such a fiber is again immersed in the HF acid for 60-80 minutes. The etching time is controlled to achieve the desired tip diameter of the ONFT. We characterize fabricated ONFTs by measuring optical transmission and surface morphology. The observed optical transmissions are more than 30% and tip diameters are less than 500 nm. The measured results readily reveal the merit of the employed technique as it is easy and cost-effective. Due to the strong confinement of the electromagnetic field at the tip of ONFTs, these structures lay versatile platforms with potential applications in sensing, photonics, and quantum optics.         ",
+    "url": "https://arxiv.org/abs/2405.13627",
+    "authors": [
+      "Resmi M",
+      "Elaganuru Bashaiah",
+      "Ramachandrarao Yalla"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13633",
+    "title": "1D Photonic Band Gap Atlas, Formula Extension and Design Applications",
+    "abstract": "           The design and development of new photonic devices for technological applications requires a deep understanding of the effect of structural properties on the resulting band gap size and its position. Here, we perform a theoretical study of behavior of the photonic band gap sizes, positions and percentages under variations of the parameters characterizing binary (two materials), ternary (three materials) and linear dielectric grating multilayer structures. The resulting band gap atlas show that binary systems may suffice for most applications but ternary systems may add additional flexibility in design if needed. Linear gratings show a regular pattern for all gaps studied, this regularity was able to be reproduced with only few materials involved. The position of the gaps showed a very monotonous behavior for all calculations performed. Finally, additional extensions of formulas commonly used in the design of Bragg mirrors/reflectors using binary materials were proposed with their corresponding limitations discussed. These results can be seen as a technological horizon for photonic device development.         ",
+    "url": "https://arxiv.org/abs/2405.13633",
+    "authors": [
+      "Oscar D. H. Pardo",
+      "R. R. Rey-Gonz\u00e1lez"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13681",
+    "title": "Unsupervised data driven approaches to Raman imaging through a multimode optical fiber",
+    "abstract": "           Raman spectroscopy is a label-free, chemically specific optical technique which provides detailed information about the chemical composition and structure of the excited analyte. Because of this, there is growing research interest in miniaturizing Raman probes to reach deep regions of the body. Typically, such probes utilize multiple optical fibers to act as separate excitation/collection channels with optical filters attached to the distal facet to separate the collected signal from the background optical signal from the probe itself. Although these probes have achieved impressive diagnostic performance, their use is limited by the overall size of the probe, which is typically several hundred micrometers to millimeters. Here, we show how a wavefront shaping technique can be used to measure Raman images through a single, hair thin multimode fiber. The wavefront shaping technique transforms the tip of the fiber to a sub-cellular spatial resolution Raman microscope. The resultant Raman images were analyzed with a variety of state-of-the-art statistical techniques including PCA, t-SNE, UMAP and k-means clustering. Our data-driven approach enables us to create high quality Raman images of microclusters of pharmaceuticals through a standard silica multimode optical fiber.         ",
+    "url": "https://arxiv.org/abs/2405.13681",
+    "authors": [
+      "Liam Collard",
+      "Mohammadrahim Kazemzadeh",
+      "Massimo De Vittorio",
+      "Ferruccio Pisanello"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13716",
+    "title": "Bose-Einstein condensation of an optical thermodynamic system into a solitonic state",
+    "abstract": "           Recent years have seen a resurgence of interest in multimode fibers due to their intriguing physics and applications, with spatial beam self-cleaning (BSC) having received special attention. In BSC light condenses into the fundamental fiber mode at elevated intensities. Despite extensive efforts utilizing optical thermodynamics to explain such counterintuitive beam reshaping process, several challenges still remain in fully understanding underlying physics. Here we provide compelling experimental evidence that BSC in a dissipative dual-core fiber can be understood in full analogy to Bose-Einstein condensation (BEC) in dilute gases. Being ruled by the identical Gross-Pitaevskii Equation, both systems feature a Townes soliton solution, for which we find further evidence by modal decomposition of our experimental data. Specifically, we observe that efficient BSC only sets in after an initial thermalization phase, causing converge towards a Townes beam profile once a threshold intensity has been surpassed. This process is akin to a transition from classical to quantum-mechanical thermodynamics in BEC. Furthermore, our analysis also identifies dissipative processes as a crucial, yet previously unidentified component for efficient BSC in multimode fiber. This discovery paves the way for unprecedented applications of multimode-fiber based systems in ultrafast lasers, communications, and fiber-based delivery of high-power laser beams.         ",
+    "url": "https://arxiv.org/abs/2405.13716",
+    "authors": [
+      "Jiaxuan Zhang",
+      "Jintao Fan",
+      "Chao Mei",
+      "G\u00fcnter Steinmeyer",
+      "Minglie Hu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13991",
+    "title": "Flow and Heat Transfer in a Rotating Disc Cavity With Axial Throughflow at High Speed Conditions",
+    "abstract": "           Flow and heat transfer in a compressor rotating disc cavity with axial throughflow is investigated using wall-modelled large-eddy simulations (WMLES). These are compared to measurements from recently published experiments and used to investigate high Reynolds number effects. The simulations use an open-source CFD solver with high parallel efficiency and employ the Boussinesq approximation for centrifugal buoyancy. Kinetic energy effects (characterised by Eckert number) are accounted for by scaling the thermal boundary conditions from static temperature to rotary stagnation temperature. The WMLES shows very encouraging agreement with experiments up to the highest Reynolds number tested, $Re_\\phi=3.0\\times10^6$. A further simulation at $Re_\\phi=10^7$ extends the investigation to an operating condition more representative of aero engine high pressure compressors. The results support the scaling of shroud heat transfer found at lower $Re_\\phi$, but disc heat transfer is higher than expected from a simple extrapolation of lower $Re_\\phi$ results. This is associated with transition to turbulence in the disc Ekman layers and is consistent with the boundary layer Reynolds numbers at this condition. The introduction of swirl in the axial throughflow, as may occur at engine conditions, could reduce the boundary layer Reynolds numbers and delay the transition.         ",
+    "url": "https://arxiv.org/abs/2405.13991",
+    "authors": [
+      "Ruonan Wang",
+      "John W. Chew",
+      "Feng Gao",
+      "Olaf Marxen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14080",
+    "title": "Fano line shape metamorphosis in resonant two-photon ionization",
+    "abstract": "           Two-photon atomic ionization driven by time-locked XUV and IR pulses allows to study dynamics of Fano resonances in time and energy domains. Different time evolution of the two interfering pathways leading to a Fano resonance can be exploited to turn the Fano profile of the two-photon XUV/IR ionization into a symmetric Gaussian once the directly ejected photoelectron leaves the parent ion and cannot any longer absorb an IR photon. This line shape transformation allows for the direct determination of the resonant lifetime from the spectroscopic measurements without need for an extremely fine energy resolution. Ubiquitous nature of Fano resonances makes this determination a universal tool in diverse quantum systems ranging from nuclei to nano-fabricated solids.         ",
+    "url": "https://arxiv.org/abs/2405.14080",
+    "authors": [
+      "Vladislav V. Serov",
+      "Anatoli S. Kheifets"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14202",
+    "title": "Giant Acoustic Geometric Spin and Orbital Hall Effect",
+    "abstract": "           Acoustic waves in fluid with spin-0 nature have been long believed not to support spin Hall effect and strong orbital Hall effect that enables experimental observation. Here we report the first theoretical explication and experimental demonstration of giant acoustic geometric spin and orbital Hall effect characterized by a large transverse shift. We reveal that this effect occurs when a vortex beam is observed from a tilted reference frame free of wave-interface interactions or gradient-index media needed for observing conventional ones, and can be amplified by simply binding the beam tightly. Thanks to this mechanism, large transverse shifts proportional to angular momentum are observed in a compact system. Our work provides deeper insights into the physics of angular momentum of classic waves.         ",
+    "url": "https://arxiv.org/abs/2405.14202",
+    "authors": [
+      "Wei Wang",
+      "Yang Tan",
+      "Jingjing Liu",
+      "Bin Liang",
+      "Jianchun Cheng"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14281",
+    "title": "A frequency shift compensation method for light shift and vapor-cell temperature shift in atomic clocks",
+    "abstract": "           Light shift and vapor-cell temperature shift are the two most significant factors dominating the long-term instability of compact atomic clocks. Due to the different physical mechanisms, there is not yet a solution that can effectively suppress the frequency shifts induced by these two effects. Here, we propose a 'resonance-offset' locking approach that compensates for the two physical frequency shifts. In this approach, the additional offset locking shift can effectively counteract the atomic resonance shifts arising from changes in vapor-cell temperature and light power, reducing the net impact on the clock's frequency to nearly zero. We have demonstrated this strategy on the 778 nm Rubidium two-photon optical frequency standard, successfully compensating for light shift and cell-temperature shift, respectively. This general method is particularly appealing for compact vapor-cell microwave and optical atomic clocks designed for the excellent stability rather than accuracy.         ",
+    "url": "https://arxiv.org/abs/2405.14281",
+    "authors": [
+      "Dou Li",
+      "Kangqi Liu",
+      "Linzhen Zhao",
+      "Songbai Kang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14315",
+    "title": "qtOCT: quantitative transmission optical coherence tomography",
+    "abstract": "           Transmission optical coherence tomography (OCT) enables analysis of biological specimens in vitro through detection of forward scattered light. Up to now, transmission OCT was considered as a technique that cannot directly retrieve quantitative phase and is thus a qualitative method. In this paper, we present qtOCT, a novel quantitative transmission optical coherence tomography method. Unlike existing approaches, qtOCT allows for a direct, easy, fast and rigorous retrieval of 2D integrated phase information from transmission full-field swept-source OCT measurements. Our method is based on coherence gating and allows user-defined temporal measurement range selection, making it potentially suitable for analyzing multiple-scattering samples. We demonstrate high consistency between qtOCT and digital holographic microscopy phase images. This approach enhances transmission OCT capabilities, positioning it as a viable alternative to quantitative phase imaging techniques.         ",
+    "url": "https://arxiv.org/abs/2405.14315",
+    "authors": [
+      "Wojciech Krauze",
+      "Martyna Mazur",
+      "Arkadiusz Ku\u015b"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14328",
+    "title": "Simultaneous measurement of refraction and absorption with an integrated near-infrared Mach-Zehnder interferometer",
+    "abstract": "           Most integrated evanescent-field photonic sensors measure changes in either the real part or the imaginary part of the complex refractive index of the sample, i.e., refraction or absorption. Here we propose and experimentally demonstrate a near-infrared sensor based on a silicon nitride Mach-Zehnder interferometer which provides a direct measurement of the complex refractive index. Our architecture exhibits a high sensitivity, achieving limits of detection below $2\\cdot 10^{-6}\\,\\mathrm{RIU}$ for both the real and imaginary parts of the refractive index. We furthermore show that our sensor can be employed as an integrated dispersion spectrometer.         ",
+    "url": "https://arxiv.org/abs/2405.14328",
+    "authors": [
+      "Antonia Torres-Cubillo",
+      "Alejandro S\u00e1nchez-Postigo",
+      "Jana J\u00e1gersk\u00e1",
+      "J. Gonzalo Wang\u00fcemert-P\u00e9rez",
+      "Robert Halir"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14375",
+    "title": "Generation of mega-gauss axial and azimuthal magnetic fields in a solid plasma by ultrahigh intensity, circularly polarised femtosecond laser pulses",
+    "abstract": "           The interaction of intense linearly polarized femtosecond laser pulses with solids is known to generate azimuthal magnetic fields, while circularly polarized light has been shown to create axial fields. We demonstrate through experiments and particle-in-cell simulations that circularly polarized light can generate both axial and azimuthal fields of comparable magnitude in a plasma created in a solid. Angular distributions of the generated fast electrons at target front and rear show significant differences between the results for the two polarization states, with circular polarization enforcing more axial confinement. The measurement of the spatial distribution of both types of magnetic fields captures their turbulent evolution.         ",
+    "url": "https://arxiv.org/abs/2405.14375",
+    "authors": [
+      "Anandam Choudhary",
+      "Laxman Prasad Goswami",
+      "C. Aparajit",
+      "Amit D. Lad",
+      "Ameya Parab",
+      "Yash M. Ved",
+      "Amita Das",
+      "G. Ravindra Kumar"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14466",
+    "title": "Ultra-cold atoms quantum tunneling through single and double optical barriers",
+    "abstract": "           We realize textbook experiments on Bose-Einstein condensate tunnelling through thin repulsive potential barriers. In particular, we demonstrate atom tunnelling though a single optical barrier in the quantum scattering regime where the De Broglie wavelength of the atoms is larger than the barrier width. Such a beam splitter can be used for atom interferometry and we study the case of two barriers creating an atomic Fabry-P{\u00e9}rot cavity. Technically, the velocity of the atoms is reduced thanks to the use of a 39K Bose-Einstein condensate with no interactions. The potential barriers are created optically and their width is tunable thanks to the use of a digital micro-mirror device. In addition, our scattering experiments enable in-situ characterization of the optical aberrations of the barrier optical system.         ",
+    "url": "https://arxiv.org/abs/2405.14466",
+    "authors": [
+      "Roy Eid",
+      "Alfred Hammond",
+      "Lucas Lavoine",
+      "Thomas Bourdel"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14733",
+    "title": "Space-time statistics of 2D soliton gas in shallow water studied by stereoscopic surface mapping",
+    "abstract": "           We describe laboratory experiments in a 2D wave tank that aim at building up and monitor 2D shallow water soliton gas. The water surface elevation is obtained over a large ($\\sim 100\\,\\text{m}^2$) domain, with centimetre-resolution, by stereoscopic vision using two cameras. Floating particles are seeded to get surface texture and determine the wave field by image correlation. With this set-up, soliton propagation and multiple interactions can be measured with a previously unreachable level of detail. The propagation of an oblique soliton is analysed, the amplitude decay and local incidence are compared to analytical predictions. We further present two cases of 2D soliton gas, emerging from multiple line solitons with random incidence ($|\\theta|<30^\\circ$) and from irregular random waves forced with a {\\sc jonswap} spectrum ($|\\theta|<45^\\circ$). To our knowledge, those are the first observations of random 2D soliton gas for gravity waves. In both cases Mach reflections and Mach expansions result in solitons that mainly propagate in directions perpendicular to the wave-makers.         ",
+    "url": "https://arxiv.org/abs/2405.14733",
+    "authors": [
+      "Thibault Leduque",
+      "Eric Barth\u00e9lemy",
+      "Herv\u00e9 Michallet",
+      "Jo\u00ebl Sommeria",
+      "Nicolas Mordant"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13466",
+    "title": "Novel dielectric resonance of composites containing randomly distributed ZrB2 particles with continuous dual-peak microwave absorption",
+    "abstract": "           Substantial efforts have been devoted to the elaborate component and microstructure design of absorbents (inclusions) in microwave absorbing (MA) composite materials. However, mesoscopic architectures of composites also play significant roles in prescribing their electromagnetic properties, which are rarely explored in studies of MA materials. Herein, a composite containing randomly distributed ZrB2 particles is fabricated to offer a mesoscopic cluster configuration, which produces a novel dielectric resonance. The resonance disappears and reoccurs when ZrB2 is coated with the insulating and semiconductive ZrO2 layer respectively, suggesting that it is a plasmon resonance excited by the electron transport between ZrB2 particles in clusters rather than any intrinsic resonances of materials constituting the composite. The resonance strength can be regulated by controlling the quantity of the electron transport between particles, which is accomplished by gradually increasing the insulating ZrO2-coated ZrB2 ratio x to disturb the electron transport in ternary disordered composites containing ZrB2 and insulating ZrO2-coated ZrB2. When x exceeds 0.7, the electron transport is cut off completely and the resonance thus disappears. The resonance induces unusual double quarter-wavelength interference cancellations or resonance absorption coupled with quarter-wavelength interference cancellation, giving rise to continuous dual-peak absorption. This work highlights the significance of mesoscopic architectures of composites in MA material design, which can be exploited to prescribe novel electromagnetic properties.         ",
+    "url": "https://arxiv.org/abs/2405.13466",
+    "authors": [
+      "Mengyue Peng",
+      "Faxiang Qin"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13631",
+    "title": "Realization of Singular Topological Edge States in Locally Resonant Metamaterials",
+    "abstract": "           We theoretically and experimentally demonstrate singular topological edge states in a locally resonant metamaterial with a configuration based on inversion-symmetric extended Su-Schrieffer-Heeger chains. Such states arise from a topological gap transition from a conventional Bragg-type gap (BG) to a local resonance-induced gap (LRG), accompanied by a topological phase transition. Remarkably, nontrivial topological states can emerge in the vicinity of the singularity in the imaginary parts of the wavenumber within the bandgap, leading to highly localized modes on a scale comparable to a single subwavelength unit cell. We experimentally demonstrate distinct differences in topologically protected modes-highlighted by wave localization-between the BG and the LRG in locally resonant granular-based metamaterials. Our findings suggest the scope of topological metamaterials may be extended via their bandgap nature.         ",
+    "url": "https://arxiv.org/abs/2405.13631",
+    "authors": [
+      "Yeongtae Jang",
+      "Seokwoo Kim",
+      "Eunho Kim",
+      "Junsuk Rho"
+    ],
+    "subjectives": [
+      "Other Condensed Matter (cond-mat.other)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13654",
+    "title": "Programmable quantum circuits in a large-scale photonic waveguide array",
+    "abstract": "           Over the past decade, integrated quantum photonic technologies have shown great potential as a platform for studying quantum phenomena and realizing large-scale quantum information processing. Recently, there have been proposals for utilizing waveguide lattices to implement quantum gates, providing a more compact and robust solution compared to discrete implementation with directional couplers and phase shifters. We report on the first demonstration of precise control of single photon states on an $11\\times 11$ continuously-coupled programmable waveguide array. Through electro-optical control, the array is subdivided into decoupled subcircuits and the degree of on-chip quantum interference can be tuned with a maximum visibility of 0.962$\\pm$0.013. Furthermore, we show simultaneous control of two subcircuits on a single device. Our results demonstrate the potential of using this technology as a building block for quantum information processing applications.         ",
+    "url": "https://arxiv.org/abs/2405.13654",
+    "authors": [
+      "Yang Yang",
+      "Robert J. Chapman",
+      "Akram Youssry",
+      "Ben Haylock",
+      "Francesco Lenzini",
+      "Mirko Lobino",
+      "Alberto Peruzzo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.13689",
+    "title": "Stabilizing classical accelerometers and gyroscopes with a quantum inertial sensor",
+    "abstract": "           Accurate measurement of inertial quantities is essential in geophysics, geodesy, fundamental physics and navigation. For instance, inertial navigation systems require stable inertial sensors to compute the position and attitude of the carrier. Here, we present the first hybridized cold-atom inertial sensor based on matter wave interferometry where the atomic measurements are used to correct the drift and bias of both an accelerometer and a gyroscope at the same time. We achieve respective bias stabilities of $7 \\times 10^{-7}$ m/s$^2$ and $4 \\times 10^{-7}$ rad/s after two days of integration, corresponding to a 100-fold and 3-fold increase on the stability of the hybridized sensor compared to the force-balanced accelerometer and Coriolis vibrating gyroscope operated alone. The instrument has been operated under up to 100-times the Earth rotation rate. Compared to state-of-the-art atomic gyroscope, the simplicity and scalability of our architecture make it easily extendable to a compact full six-axis inertial measurement unit, providing a pathway towards autonomous positioning and orientation using cold-atom sensors.         ",
+    "url": "https://arxiv.org/abs/2405.13689",
+    "authors": [
+      "Cl\u00e9ment Salducci",
+      "Yannick Bidel",
+      "Malo Cadoret",
+      "Sarah Darmon",
+      "Nassim Zahzam",
+      "Alexis Bonnin",
+      "Sylvain Schwartz",
+      "C\u00e9dric Blanchard",
+      "Alexandre Bresson"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14624",
+    "title": "Quantum Simulation of Spin-Boson Models with Structured Bath",
+    "abstract": "           The spin-boson model, involving a spin interacting with a bath of quantum harmonic oscillators, is a widely used representation of open quantum systems. Trapped ions present a natural platform for the quantum simulation of such models; however, previous experiments have been limited to simulating a scenario where a spin is coherently coupled to bosonic modes, which neglects capturing the dissipation of the bath. In our work, we perform quantum simulations of spin-boson models with structured baths using the motional states of trapped ions. We demonstrate the capability for adjusting the bath's temperature and continuous spectral density by adding randomness to the control parameters. Subsequently, we simulate the dynamics of various spin-boson models with spectral densities composed of up to three Lorentzian peaks. The experimental outcomes closely align with theoretical predictions, suggesting the advantage of adding the trapped-ion system's experimental noise for simulating open quantum systems.         ",
+    "url": "https://arxiv.org/abs/2405.14624",
+    "authors": [
+      "Ke Sun",
+      "Mingyu Kang",
+      "Hanggai Nuomin",
+      "George Schwartz",
+      "David N. Beratan",
+      "Kenneth R. Brown",
+      "Jungsang Kim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14687",
+    "title": "Quantum thermodynamic derivation of the energy resolution limit in magnetometry",
+    "abstract": "           It was recently demonstrated that a large number of magnetic sensing technologies satisfy the energy resolution limit, which connects a quantity composed by the variance of the magnetic field estimate, the sensor volume and the measurement time, and having units of action, with $\\hbar$. A first-principles derivation of the energy resolution limit is still elusive. We here present such a derivation based on quantum thermodynamic arguments. We show that the energy resolution limit is a result of quantum thermodynamic work associated with quantum measurement and Landauer erasure, the work being exchanged with the magnetic field. We apply these considerations to atomic magnetometers and SQUIDS. Regarding the former, we unravel a new spin correlation effect relevant to the magnetic noise produced by atomic vapors.         ",
+    "url": "https://arxiv.org/abs/2405.14687",
+    "authors": [
+      "I. K. Kominis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:1709.09508",
+    "title": "Quantum Mechanical Foundations of Epistemology",
+    "abstract": "           Scholars of the history and philosophy of science have asked what would decolonized science would look like. This paper develops an answer by interrogating the assumption that observations need to be recorded and communicated using the language of classical physics. Niels Bohr held this assumption even though he recognized the fact that quantum phenomena cannot be analyzed on classical lines. Classical analysis requires the objectification of whatever is being observed so that it can be objectively described. Inherent in this analysis is the intellectual creation of a transcendental verity, a view from nowhere. In contrast, knowledge systems that predate European colonialism make use of the quantum nature of nature without constructing an objective model of it. This paper concludes that uncolonized knowledge systems differ from classical ones in that they are epistemically plural, accepting multiple true observations of the same phenomenon.         ",
+    "url": "https://arxiv.org/abs/1709.09508",
+    "authors": [
+      "Bruce Levinson"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.17070",
+    "title": "Quantum Entanglement without nonlocal causation in (3,2)-dimensional spacetime",
+    "abstract": "           This work aims at exploring whether the nonlocal correlations due to quantum entanglement could exist without nonlocal causation. This is done with the aid of a toy model to investigate whether the ability of two quantum entangled particles to \"correlate\" their behaviors even at very large distances and in the absence of any physical connection can be seen as due to an exchange of information through an extra-temporal dimension. Since superluminal information exchange is forbidden in our (3,1) spacetime, an extra-temporal dimension is needed to recover the physical picture of finite velocity information exchange between entangled entities. Assuming that the geometry of space-time of dimension (3,2) is described by a metric containing a warping factor, the confinement of the massive particles in the extra time dimension follows. Therefore, why we do not experience an infinitely large extra time dimension can be explained. The toy model proposed here is defined by borrowing Bohm-Bub's proposal to describe the wavefunction collapse using nonlinear (non-unitary) dynamical equations and then elaborating this approach for an entangled system. The model so obtained is just speculative without any claim of being robust against any criticism, nevertheless, it satisfies the purpose of giving the possibility to the hypotheses formulated above to be verified experimentally; in fact, it proposes an experiment potentially interesting which would otherwise be immediately dismissed as manifestly trivial. The proposed experiment would consist of checking the possible violation of Bell's inequality between two identical but independent systems under appropriate conditions. Beyond its theoretical interest, entanglement is a key topic in quantum computing and quantum technologies, so any attempt to gain a deeper understanding of it could be useful.         ",
+    "url": "https://arxiv.org/abs/2311.17070",
+    "authors": [
+      "Marco Pettini"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.01891",
+    "title": "A Christmas Story about Quantum Teleportation",
+    "abstract": "           Quantum teleportation is a concept that fascinates and confuses many people, in particular, given that it combines quantum physics and the concept of teleportation. With quantum teleportation likely to play a key role in several communication technologies and the quantum internet in the future, it is imperative to create learning tools and approaches that can accurately and effectively communicate the concept. Recent research has indicated the importance of teachers enthusing students about the topic of quantum physics. Therefore, educators at both high school and early university level need to find engaging and perhaps unorthodox ways of teaching complex, yet interesting topics such as quantum teleportation. In this paper, we present a paradigm to teach the concept of quantum teleportation using the Christmas gift-bringer Santa Claus. Using the example of Santa Claus, we use an unusual context to explore the key aspects of quantum teleportation, and all without being overly abstract. In addition, we outline a worksheet designed for use in the classroom setting which is based on common naive conceptions from quantum physics. This worksheet will be evaluated as a classroom resource to teach quantum teleportation in a subsequent study.         ",
+    "url": "https://arxiv.org/abs/2312.01891",
+    "authors": [
+      "Barry W. Fitzgerald",
+      "Patrick Emonts",
+      "Jordi Tura"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Popular Physics (physics.pop-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.09114",
+    "title": "Non-Volatile Analog Control and Reconfiguration of a Vortex Nano-Oscillator Frequency",
+    "abstract": "           Magnetic tunnel junctions are nanoscale devices which have recently attracted interested in the context of frequency multiplexed spintronic neural networks, due to their interesting dynamical properties, which are defined during the fabrication process, and depend on the material parameters and geometry. This paper proposes an approach to extending the functionality of a standard magnetic tunnel junction (MTJ) by introducing an additional ferromagnet/antiferromagnet (FM/AFM) storage layer (SL) vertically integrated with the standard Vortex MTJ stack into the nanopillar. The magnetostatic field created by this storage layer acts on the free layer and can be used to change its static and dynamic properties. To tune the magnitude and direction of this magnetostatic field, magnetic reconfiguration is carried out through a thermally assisted switching mechanism using a voltage pulse that heats the AFM layer in the SL above the Neel temperature in the presence of an external field. It is experimentally shown that using an MTJ based on a 600 nm diameter nanopillar with a vortex in the free layer, reconfiguration of the SL allows to continuously change the core precession frequency in the 15 MHz range. The reconfigurable analogue storage layer locally affects both the static and dynamic properties of the MTJ free layer, demonstrating vertical 3D integration of additional functionalities into a single MTJ nanopillar.         ",
+    "url": "https://arxiv.org/abs/2402.09114",
+    "authors": [
+      "Maksim Stebliy",
+      "Alex S. Jenkins",
+      "Luana Benetti",
+      "Elvira Paz",
+      "Ricardo Ferreira"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01056",
+    "title": "Detangling the quantum tapestry of intra-channel interference in below-threshold nonsequential double ionization with few-cycle laser pulses",
+    "abstract": "           We perform a systematic analysis of single-channel quantum interference in laser-induced nonsequential double ionization with few-cycle pulses, using the strong-field approximation. We focus on a below-threshold intensity for which the recollision-excitation with subsequent ionization (RESI) mechanism is prevalent. We derive and classify several analytic interference conditions for single-channel RESI in arbitrary driving fields, and address specific issues for few-cycle pulses. Since the cycles in a short pulse are no longer equivalent, there are several events whose dominance varies. We quantify this dominance for single excitation channels by proposing a dominance parameter. Moreover, there will be many more types of superimposed interference fringes that must be taken into consideration. We find an intricate tapestry of patterns arising from phase differences related to symmetrization, temporal shifts and a combination of exchange and event interference.         ",
+    "url": "https://arxiv.org/abs/2404.01056",
+    "authors": [
+      "S. Hashim",
+      "R. Tenney",
+      "C. Figueira de Morisson Faria"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.04240",
+    "title": "Exploring relaxation dynamics in warm dense plasmas by tailoring non-thermal electron distributions with a free electron laser",
+    "abstract": "           Knowing the characteristic relaxation time of free electrons in a dense plasma is crucial to our understanding of plasma equilibration and transport. However, experimental investigations of electron relaxation dynamics have been hindered by the ultra-fast, sub-femtosecond time scales on which these interactions typically take place. Here we propose a novel approach that uses x-rays from a free electron laser to generate well-defined non-thermal electron distributions, which can then be tracked via emission spectroscopy from radiative recombination as they thermalize. Collisional radiative simulations reveal how this method can enable the measurement of electron relaxation time scales {\\it in situ}, shedding light on the applicability and accuracy of the Coulomb Logarithm framework for modelling collisions in dense plasmas.         ",
+    "url": "https://arxiv.org/abs/2405.04240",
+    "authors": [
+      "Yuanfeng Shi",
+      "Shenyuan Ren",
+      "Hyun-kyung Chung",
+      "Justin S. Wark",
+      "Sam M. Vinko"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.13777",
+    "title": "A geometric perspective: experimental evaluation of the quantum Cramer-Rao bound",
+    "abstract": "           The power of quantum sensing rests on its ultimate precision limit, quantified by the quantum Cramer-Rao bound (QCRB), which can surpass classical bounds. In multi-parameter estimation, the QCRB is not always saturated as the quantum nature of associated observables may lead to their incompatibility. Here we explore the precision limits of multi-parameter estimation through the lens of quantum geometry, enabling us to experimentally evaluate the QCRB via quantum geometry measurements. Focusing on two- and three-parameter estimation, we elucidate how fundamental quantum uncertainty principles prevent the saturation of the bound. By linking a metric of \"quantumness\" to the system geometric properties, we investigate and experimentally extract the attainable QCRB for three-parameter estimations.         ",
+    "url": "https://arxiv.org/abs/2204.13777",
+    "authors": [
+      "Changhao Li",
+      "Mo Chen",
+      "Paola Cappellaro"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2303.16490",
+    "title": "Quantum algorithm for collisionless Boltzmann simulation of self-gravitating systems",
+    "abstract": "           The collisionless Boltzmann equation (CBE) is a fundamental equation that governs the dynamics of a broad range of astrophysical systems from space plasma to star clusters and galaxies. It is computationally expensive to integrate the CBE directly in a multi-dimensional phase space, and thus the applications to realistic astrophysical problems have been limited so far. Recently, Todorova & Steijl (2020) proposed an efficient quantum algorithm to solve the CBE with significantly reduced computational complexity. We extend the algorithm to perform quantum simulations of self-gravitating systems, incorporating the method to calculate gravity with the major Fourier modes of the density distribution extracted from the solution-encoding quantum state. Our method improves the dependency of time and space complexities on Nv , the number of grid points in each velocity coordinate, compared to the classical simulation methods. We then conduct some numerical demonstrations of our method. We first run a 1+1 dimensional test calculation of free streaming motion on 64*64 grids using 13 simulated qubits and validate our method. We then perform simulations of Jeans collapse, and compare the result with analytic and linear theory calculations. It will thus allow us to perform large-scale CBE simulations on future quantum computers.         ",
+    "url": "https://arxiv.org/abs/2303.16490",
+    "authors": [
+      "Soichiro Yamazaki",
+      "Fumio Uchida",
+      "Kotaro Fujisawa",
+      "Koichi Miyamoto",
+      "Naoki Yoshida"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "Computational Physics (physics.comp-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.13445",
+    "title": "Quantum state manipulation and cooling of ultracold molecules",
+    "abstract": "           An increasingly large variety of molecular species are being cooled down to low energies in recent years, and innovative ideas and powerful techniques continue to emerge to gain ever more precise control of molecular motion. In this brief review we focus our discussions on two widely employed cooling techniques that have brought molecular gases into the quantum regime: association of ultracold atomic gases into quantum gases of molecules and direct laser cooling of molecules. These advances have brought into reality our capability to prepare and manipulate both internal and external states of molecules quantum mechanically, opening the field of cold molecules to a wide range of scientific explorations.         ",
+    "url": "https://arxiv.org/abs/2305.13445",
+    "authors": [
+      "Tim Langen",
+      "Giacomo Valtolina",
+      "Dajun Wang",
+      "Jun Ye"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.18548",
+    "title": "I/O-efficient iterative matrix inversion with photonic integrated circuits",
+    "abstract": "           Photonic integrated circuits have been extensively explored for optical processing with the aim of breaking the speed bottleneck of digital electronics. However, the input/output (IO) bottleneck remains one of the key barriers. Here we report a novel photonic iterative processor (PIP) for matrix-inversion-intensive applications. The direct reuse of inputted data in the optical domain unlocks the potential to break the IO bottleneck. We demonstrate notable IO advantages with a lossless PIP for real-valued matrix inversion and integral-differential equation solving, as well as a coherent PIP with optical loops integrated on-chip, enabling complex-valued computation and a net inversion time of 1.2 ns. Furthermore, we estimate at least an order of magnitude enhancement in IO efficiency of a PIP over photonic single-pass processors and the state-of-the-art electronic processors for reservoir training tasks and MIMO precoding tasks, indicating the huge potential of PIP technology in practical applications.         ",
+    "url": "https://arxiv.org/abs/2305.18548",
+    "authors": [
+      "Minjia Chen",
+      "Yizhi Wang",
+      "Chunhui Yao",
+      "Adrian Wonfor",
+      "Shuai Yang",
+      "Richard Penty",
+      "Qixiang Cheng"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.07787",
+    "title": "Quantum coherent feedback control of an N-level atom with multiple excitations",
+    "abstract": "           The purpose of this paper is to study the dynamics of a quantum coherent feedback network, where an $N$-level atom is coupled with a cavity and the cavity is also coupled with single or multiple parallel waveguides. When the atom is initialized at the highest energy level, it can emit multiple photons into the cavity, and the photons can be further transmitted to the waveguides and re-interact with the cavity quantum electrodynamics (cavity-QED) system. The transmission of photons in the waveguide can construct a feedback channel with a delay determined by the length of the waveguide. We model the dynamics of the atomic and photonic states of the cavity-QED system as a linear control system with delay. By tuning the control parameters such as the coupling strengths among the atom, cavity and waveguide, the eigenstates of the quantum system can be exponentially stable or unstable, and the exponential stability of the linear quantum control system with delay is related with the generation of single- and multi-photon states. Besides, when the cavity-QED system is coupled with multiple parallel waveguides, the emitted photons oscillate among different waveguides and the stability of quantum states is influenced by the feedback loop length and coupling strengths among waveguides.         ",
+    "url": "https://arxiv.org/abs/2306.07787",
+    "authors": [
+      "Haijin Ding",
+      "Guofeng Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Systems and Control (eess.SY)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.06110",
+    "title": "Quantum field theory for multipolar composite bosons with mass defect and relativistic corrections",
+    "abstract": "           Atomic high-precision measurements have become a competitive and essential technique for tests of fundamental physics, the Standard Model, and our theory of gravity. It is therefore self-evident that such measurements call for a consistent relativistic description of atoms that eventually originates from quantum field theories like quantum electrodynamics. Most quantum-metrological approaches even postulate effective field-theoretical treatments to describe a precision enhancement through techniques like squeezing. However, a consistent derivation of interacting atomic quantum gases from an elementary quantum field theory that includes both the internal structure as well as the center of mass of atoms, has not yet been addressed. We present such a subspace effective field theory for interacting, spin carrying, and possibly charged ensembles of atoms composed of nucleus and electron that form composite bosons called cobosons, where the interaction with light is included in a multipolar description. Relativistic corrections to the energy of a single coboson, light-matter interaction, and the scattering potential between cobosons arise in a consistent and natural manner. In particular, we obtain a relativistic coupling between the coboson's center-of-mass motion and internal structure encoded by the mass defect. We use these results to derive modified bound-state energies, including the motion of ions, modified scattering potentials, a relativistic extension of the Gross-Pitaevskii equation, and the mass defect applicable to atomic clocks or quantum clock interferometry.         ",
+    "url": "https://arxiv.org/abs/2307.06110",
+    "authors": [
+      "Tobias Asano",
+      "Enno Giese",
+      "Fabio Di Pumpo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.16876",
+    "title": "Quantum coherent and measurement feedback control based on atoms coupled with a semi-infinite waveguide",
+    "abstract": "           In this paper, we show that quantum feedback control may be applied to generate desired states for atomic and photonic systems based on a semi-infinite waveguide coupled with multiple two-level atoms. In this set-up, an initially excited atom can emit one photon into the waveguide, which can be reflected by the terminal mirror or other atoms to establish different feedback loops via the coherent interactions between the atom and photon. When there are at most two excitations in the waveguide quantum electrodynamics (waveguide QED) system, the evolution of quantum states can be interpreted using random graph theory. While this process is influenced by the environment, and we clarify that the environment-induced dynamics can be eliminated by measurement-based feedback control or coherent drives. Thus, in the open system atom-waveguide interactions, measurement-based feedback can modulate the final steady quantum state, while simultaneously, the homodyne detection noise in the measurement process can induce oscillations, which is treated by the coherent feedback designs.         ",
+    "url": "https://arxiv.org/abs/2307.16876",
+    "authors": [
+      "Haijin Ding",
+      "Nina H. Amini",
+      "Guofeng Zhang",
+      "John E. Gough"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.07063",
+    "title": "Real-time quantum dynamics of thermal states with neural thermofields",
+    "abstract": "           Solving the time-dependent quantum many-body Schr\u00f6dinger equation is a challenging task, especially for states at a finite temperature, where the environment affects the dynamics. Most existing approximating methods are designed to represent static thermal density matrices, 1D systems, and/or zero-temperature states. In this work, we propose a method to study the real-time dynamics of thermal states in two dimensions, based on thermofield dynamics, variational Monte Carlo, and neural-network quantum states. To this aim, we introduce two novel tools: (i) a procedure to accurately simulate the cooling down of arbitrary quantum variational states from infinite temperature, and (ii) a generic thermal (autoregressive) recurrent neural-network (ARNNO) Ansatz that allows for direct sampling from the density matrix using thermofield basis rotations. We apply our technique to the transverse-field Ising model subject to an additional longitudinal field and demonstrate that the time-dependent observables, including correlation operators, can be accurately reproduced for a 4x4 spin lattice. We provide predictions of the real-time dynamics on a 6x6 lattice that lies outside the reach of exact simulations.         ",
+    "url": "https://arxiv.org/abs/2309.07063",
+    "authors": [
+      "Jannes Nys",
+      "Zakari Denis",
+      "Giuseppe Carleo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.12822",
+    "title": "Open-Path Detection of Organic Vapors via Quantum Infrared Spectroscopy",
+    "abstract": "           In recent years, quantum Fourier transform infrared (QFTIR) spectroscopy emerged as an alternative to conventional spectroscopy in the mid-infrared region of the spectrum. By harnessing induced coherence and spectral entanglement, QFTIR offers promising potential for the practical detection of organic gasses. However, little research was conducted to bring QFTIR spectrometers closer to domestic or in-field usage. In this work, we present the first use of a QFTIR spectrometer for open-path detection of multiple interfering organic gases in ambient air. The accurate identification of mixtures of acetone, methanol, and ethanol vapors is demonstrated with a QFTIR spectrometer. We achieved this breakthrough by building a nonlinear Michelson interferometer with 1.7m-long arms to increase the absorption length, coupled with analysis techniques from differential absorption spectroscopy. The evolution of different gasses' concentrations in ambient air was measured through time. These results constitute the first use-case of a QFTIR spectrometer as a detector of organic gasses, and thus represent an important milestone towards the development of such detectors in practical situations.         ",
+    "url": "https://arxiv.org/abs/2405.12822",
+    "authors": [
+      "Simon Neves",
+      "Adimulya Kartiyasa",
+      "Shayantani Ghosh",
+      "Geoffrey Gaulier",
+      "Luca La Volpe",
+      "Jean-Pierre Wolf"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
