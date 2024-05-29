@@ -1,0 +1,485 @@
+[
+  {
+    "id": "arXiv:2405.15838",
+    "title": "What You Shouldn't Know About Quantum Computers",
+    "abstract": "           Whether you're a CEO strategizing the future of your company, a tech enthusiast debating your next career move, a high school teacher eager to enlighten your students, or simply tired of the relentless quantum hype, this is crafted just for you. Cutting through the complex jargon to deliver the straight facts on quantum computing, peeling away the layers of mystique to reveal the true potential and limitations of this groundbreaking technology. Prepare to have your misconceptions challenged, and your understanding deepened in this clear-eyed view of the quantum future, written to inform and inspire readers across the spectrum of curiosity and need.         ",
+    "url": "https://arxiv.org/abs/2405.15838",
+    "authors": [
+      "Chris Ferrie"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Popular Physics (physics.pop-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16583",
+    "title": "An erbium-doped waveguide amplifier on thin film lithium niobate with an output power exceeding 100 mW",
+    "abstract": "           We demonstrate high-power thin film lithium niobate (TFLN) erbium-doped waveguide amplifier (EDWA) with a maximum on-chip output power of 113 mW and a gain of 16 dB. The on-chip integrated EDWA is composed of large mode area (LMA) waveguide structures with a total length of 7 cm and a footprint of 1x1 cm2. Particularly, we connect segmented LMA waveguides with waveguide tapers to achieve on-chip mode conversion which maintains single-mode propagation all over the EDWA even at the waveguide bends. The design leads to significant increase of the amplified signal power by orders of magnitude and will open an avenue for applications such as on-chip high-power lasers and amplifiers system.         ",
+    "url": "https://arxiv.org/abs/2405.16583",
+    "authors": [
+      "Rui Bao",
+      "Zhiwei Fang",
+      "Jian Liu",
+      "Zhaoxiang Liu",
+      "Jinming Chen",
+      "Min Wang",
+      "Rongbo Wu",
+      "Haisu Zhang",
+      "Ya Cheng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16793",
+    "title": "Multiphoton quantum sensing",
+    "abstract": "           While the fundamental principles of light-matter interaction are well-understood and drive countless technologies, the world of multiphoton processes remains a fascinating puzzle, holding the potential to drastically alter our understanding of how light interacts with matter at its most basic level. This rich interplay of light and matter unveils novel phenomena that can be harnessed for sensing with exceptional precision, as exemplified by multiphoton quantum sensing. This thesis delves into the applications of multiphoton quantum protocols, particularly in imaging, communication, and plasmonic sensing, to surpass classical limitations and achieve enhanced sensitivity. We explore the potential of multiphoton quantum processes, particularly in the nanoscale regime and within subsystems of macroscopic systems, where novel and ultra-sensitive sensing methodologies emerge. Subsequent chapters of this thesis demonstrate the transformative potential of multiphoton quantum sensing, elucidating the design, implementation, and experimental results of specific sensing protocols tailored to diverse applications. Our analysis combines experimental observations and theoretical predictions to assess the sensitivity and performance of these protocols. Additionally, the thesis discusses potential future directions and advancements in the field, envisioning applications in biomolecule detection, environmental monitoring, and fundamental studies of light-matter interactions at the nanoscale. Concluding reflections highlight the implications of multiphoton quantum sensing across scientific disciplines and lay the groundwork for future research endeavors.         ",
+    "url": "https://arxiv.org/abs/2405.16793",
+    "authors": [
+      "Fatemeh Mostafavi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16795",
+    "title": "Physics-informed Inverse Design of Multi-bit Programmable Metasurfaces",
+    "abstract": "           Emerging reconfigurable metasurfaces offer various possibilities in programmatically manipulating electromagnetic waves across spatial, spectral, and temporal domains, showcasing great potential for enhancing terahertz applications. However, they are hindered by limited tunability, particularly evident in relatively small phase tuning over 270o, due to the design constraints with time-intensive forward design methodologies. Here, we demonstrate a multi-bit programmable metasurface capable of terahertz beam steering, facilitated by a developed physics-informed inverse design (PIID) approach. Through integrating a modified coupled mode theory (MCMT) into residual neural networks, our PIID algorithm not only significantly increases the design accuracy compared to conventional neural networks but also elucidates the intricate physical relations between the geometry and the modes. Without decreasing the reflection intensity, our method achieves the enhanced phase tuning as large as 300o. Additionally, we experimentally validate the inverse designed programmable beam steering metasurface, which is adaptable across 1-bit, 2-bit, and tri-state coding schemes, yielding a deflection angle up to 68o and broadened steering coverage. Our demonstration provides a promising pathway for rapidly exploring advanced metasurface devices, with potentially great impact on communication and imaging technologies.         ",
+    "url": "https://arxiv.org/abs/2405.16795",
+    "authors": [
+      "Yucheng Xu",
+      "Jia-Qi Yang",
+      "Kebin Fan",
+      "Sheng Wang",
+      "Jingbo Wu",
+      "Caihong Zhang",
+      "De-Chuan Zhan",
+      "Willie J. Padilla",
+      "Biaobing Jin",
+      "Jian Chen",
+      "Peiheng Wu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.17131",
+    "title": "Digital Signal Processing Techniques for Noise Characterization of Lasers and Optical Frequency Combs: A Tutorial",
+    "abstract": "           Performing noise characterizations of lasers and optical frequency combs on sampled and digitized data offers numerous advantages compared to analog measurement techniques. One of the main advantages is that the measurement setup is greatly simplified. Only a balanced detector followed by an analog-to-digital converter is needed, allowing all the complexity to be moved to the digital domain. Secondly, near-optimal phase estimators are efficiently implementable, providing accurate phase noise estimation in the presence of the measurement noise. Finally, joint processing of multiple comb lines is feasible, enabling computation of phase noise correlation matrix, which includes all information about the phase noise of the optical frequency comb. This tutorial introduces a framework based on digital signal processing for phase noise characterization of lasers and optical frequency combs. The framework is based on the extended Kalman filter (EKF) and automatic differentiation. The EKF is a near-optimal estimator of the optical phase in the presence of measurement noise, making it very suitable for phase noise measurements. Automatic differentiation is key to efficiently optimizing many parameters entering the EKF framework. More specifically, the combination of EKF and automatic differentiation enables the efficient optimization of phase noise measurement for optical frequency combs with arbitrarily complex noise dynamics that may include many free parameters. We show the framework's efficacy through simulations and experimental data, showcasing its application across various comb types and in dual-comb measurements, highlighting its accuracy and versatility. Finally, we discuss its capability for digital phase noise compensation, which is highly relevant to free-running dual-comb spectroscopy applications.         ",
+    "url": "https://arxiv.org/abs/2405.17131",
+    "authors": [
+      "Jasper Riebesehl",
+      "Holger R. Heeb\u00f8ll",
+      "Aleksandr Razumov",
+      "Michael Galili",
+      "Darko Zibar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.17192",
+    "title": "Quantum Parity Detectors: a qubit based particle detection scheme with meV thresholds for rare-event searches",
+    "abstract": "           The next generation of rare-event searches, such as those aimed at determining the nature of particle dark matter or in measuring fundamental neutrino properties, will benefit from particle detectors with thresholds at the meV scale, 100-1000x lower than currently available. Quantum parity detectors (QPDs) are a novel class of proposed quantum devices that use the tremendous sensitivity of superconducting qubits to quasiparticle tunneling events as their detection concept. As envisioned, phonons generated by particle interactions within a crystalline substrate cause an eventual quasiparticle cascade within a surface patterned superconducting qubit element. This process alters the fundamental charge parity of the device in a binary manner, which can be used to deduce the initial properties of the energy deposition. We lay out the operating mechanism, noise sources, and expected sensitivity of QPDs based on a spectrum of charge-qubit types and readout mechanisms and detail an R&D pathway to demonstrating sensitivity to sub-eV energy deposits.         ",
+    "url": "https://arxiv.org/abs/2405.17192",
+    "authors": [
+      "Karthik Ramanathan",
+      "John E. Parker",
+      "Lalit M. Joshi",
+      "Andrew D. Beyer",
+      "Pierre M. Echternach",
+      "Serge Rosenblum",
+      "Brandon J. Sandoval",
+      "Sunil R. Golwala"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.17207",
+    "title": "Ultra-precise, sub-picometer tunable free spectral range in a parabolic microresonator induced by optical fiber bending",
+    "abstract": "           Surface Nanoscale Axial Photonic (SNAP) microresonators are fabricated on silica optical fibers, leveraging silica's outstanding material and mechanical properties. These properties allow for precise control over the microresonator dimension, shape, and mode structure, a key feature for reconfigurable photonic circuits. Such circuits find applications in high-speed communications, optical computing, and optical frequency combs (OFC). However, consistently producing SNAP microresonators with equally spaced eigenmodes has remained challenging. In this study, we introduce a method to create a SNAP microresonator with a parabolic profile. We accomplish this by bending a silica optical fiber in a controlled manner using two linear stages. This approach achieves a uniform free spectral range (FSR) as narrow as 1 pm across more than 45 modes. We further demonstrate that the FSR of the SNAP microresonator can be continuously adjusted over a range nearly as wide as one FSR itself, specifically from 1.09 pm to 1.72 pm, with a precision of +/-0.01 pm and high repeatability. Given its compact size and tuning capability, this SNAP microresonator is highly promising for various applications, including the generation of tunable low-repetition-rate OFC and delay lines.         ",
+    "url": "https://arxiv.org/abs/2405.17207",
+    "authors": [
+      "Manuel Crespo-Ballesteros",
+      "Misha Sumetsky"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.15884",
+    "title": "Charge pumping in hBN-encapsulated graphene driven by surface acoustic waves",
+    "abstract": "           Surface acoustic waves (SAWs) on piezoelectric insulators can generate dynamic periodic potentials inside one-dimensional and two-dimensional materials. These periodic potentials have been utilized or proposed for various applications, including acoustoelectric charge pumping. In this study, we investigate acoustoelectric charge pumping in graphene with very low electrostatic disorder. By employing a graphite top gate on boron-nitride-encapsulated graphene, we adjust the graphene carrier concentration over a broad range, enabling us to examine the acoustoelectric signal in both mixed-carrier and single-carrier regimes. We discuss the benefits of hBN-encapsulated graphene for charge pumping applications and introduce a model that describes the acoustoelectric signal across all carrier concentrations, including at the charge neutrality point. This quantitative model will support future SAW-enabled explorations of phenomena in low-dimensional materials and guide the design of novel SAW sensors.         ",
+    "url": "https://arxiv.org/abs/2405.15884",
+    "authors": [
+      "Dublin M. Nichols",
+      "Jameson G. Berg",
+      "Takashi Taniguchi",
+      "Kenji Watanabe",
+      "Pallavi Dhagat",
+      "Vikram Deshpande",
+      "Albrecht Jander",
+      "Ethan Davis Minot"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16189",
+    "title": "Non-local optical response of a multi-phased quantum material",
+    "abstract": "           Light-matter interaction in quantum materials presents a new paradigm as light can tip the balance between many competing quantum many-body phases to result in new phenomena. Describing the optical response of such materials requires complex models. Here, we develop a non-local model to describe the optical response of a quantum material, 1T-TaS$_2$. 1T-TaS$_2$ is a nearly commensurate charge-density-wave material at room temperature. The competing stacking configurations of the charge domains in this layered material result in significant optical inhomogeneity that necessitates a non-local dielectric function. We experimentally measure the non-local optical response of 1T-TaS$_2$ films under various illumination intensities and validate our model. The non-local parameter extracted from our measurements sheds light on the competition between the two stacking configurations of 1T-TaS$_2$. Our technique of measuring non-local optical response serves as a quick, simple, and non-invasive method to probe the energy landscape of strong correlations in many such quantum materials.         ",
+    "url": "https://arxiv.org/abs/2405.16189",
+    "authors": [
+      "Ding Zhang",
+      "Gururaj V. Naik"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16291",
+    "title": "Transparent boundary condition and its high frequency approximation for the Schr\\\"odinger equation on a rectangular computational domain",
+    "abstract": "           This paper addresses the numerical implementation of the transparent boundary condition (TBC) and its various approximations for the free Schr\u00f6dinger equation on a rectangular computational domain. In particular, we consider the exact TBC and its spatially local approximation under high frequency assumption along with an appropriate corner condition. For the spatial discretization, we use a Legendre-Galerkin spectral method where Lobatto polynomials serve as the basis. Within variational formalism, we first arrive at the time-continuous dynamical system using spatially discrete form of the initial boundary-value problem incorporating the boundary conditions. This dynamical system is then discretized using various time-stepping methods, namely, the backward-differentiation formula of order 1 and 2 (i.e., BDF1 and BDF2, respectively) and the trapezoidal rule (TR) to obtain a fully discrete system. Next, we extend this approach to the novel Pad\u00e9 based implementation of the TBC presented by Yadav and Vaibhav [arXiv:2403.07787(2024)]. Finally, several numerical tests are presented to demonstrate the effectiveness of the boundary maps (incorporating the corner conditions) where we study the stability and convergence behavior empirically.         ",
+    "url": "https://arxiv.org/abs/2405.16291",
+    "authors": [
+      "Samardhi Yadav",
+      "Vishal Vaibhav"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.16787",
+    "title": "Classical and quantum thermodynamics described as a system-bath model: The dimensionless minimum work principle",
+    "abstract": "           We formulate a thermodynamic theory applicable to both classical and quantum systems. These systems are depicted as thermodynamic system-bath models capable of handling isothermal, isentropic, thermostatic, and entropic processes. Our approach is based on the use of a dimensionless thermodynamic potential expressed as a function of the intensive and extensive thermodynamic variables. Using the principles of dimensionless minimum work and dimensionless maximum entropy derived from quasi-static changes of external perturbations and temperature, we obtain the Massieu-Planck potentials as entropic potentials and the Helmholtz-Gibbs potentials as free energy. These potentials can be interconverted through time-dependent Legendre transformations. Our results are verified numerically for an anharmonic Brownian system described in phase space using the low-temperature quantum Fokker-Planck equations in the quantum case and the Kramers equation in the classical case, both developed for the thermodynamic system-bath model. Thus, we clarify the conditions for thermodynamics to be valid even for small systems described by Hamiltonians and establish a basis for extending thermodynamics to non-equilibrium conditions.         ",
+    "url": "https://arxiv.org/abs/2405.16787",
+    "authors": [
+      "Shoki Koyanagi",
+      "Yoshitaka Tanimura"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2311.06635",
+    "title": "Mixed (Regular and Chaotic) Dynamics under the Channeling of the High Energy Positrons in [100] Direction of the Silicon Crystal and Podolskiy-Narimanov Distribution",
+    "abstract": "           The character of motion (regular or chaotic) on the quantum level manifests itself in the statistics of the set of the system's energy levels. The completely regular case generates the sequence of the levels with exponential (Poisson) level spacing distribution; the completely chaotic one -- with Wigner distribution. The most interesting case is the co-existence of the regular and chaotic motion domains in the phase space of the system under consideration. The assumption of independent generation of two level sequencies by one chaotic domain and by all regular domains leads to Berry--Robnik distribution. However, the presence of the chaotic motion domain in the phase space affects the levels produced by the regular domains via the so-called chaos-assisted tunneling (CAT) that leads to Podolskiy--Narimanov distribution of the level spacings. This distribution needs the mean amplitude of the tunnel transition and the relative contribution of the regular domains to the mean level density as the parameters. Using their estimations for the transverse motion of the high energy positrons channeling near [100] direction in the silicon crystal we found that Podolskiy--Narimanov distribution demonstrates the best agreement with the level spacing distribution.         ",
+    "url": "https://arxiv.org/abs/2311.06635",
+    "authors": [
+      "V.V. Syshchenko",
+      "A.I. Tarnovsky",
+      "A.Yu. Isupov"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Chaotic Dynamics (nlin.CD)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03539",
+    "title": "Temporal coupled-mode theory in nonlinear resonant photonics: From basic principles to contemporary systems with 2D materials, dispersion, loss, and gain",
+    "abstract": "           Temporal coupled-mode theory (CMT) is an acclaimed and widely used theoretical framework for modeling the continuous wave (CW) response and temporal dynamics of any integrated or free-space photonic resonant structure. It was initially employed to understand how energy is coupled into and out of a cavity and how it is exchanged between different resonant modes. In the 30 years that followed its establishment, CMT has been expanded to describe a broad range of nonlinear interactions as well (self- and cross-phase modulation, saturable absorption, frequency generation, gain, etc.). In this tutorial, we thoroughly present the basic principles and the evolution of CMT throughout the years, showcasing its immense capabilities for the analysis and design of linear and nonlinear resonant photonic systems. Importantly, we focus on examples of modern, open nanophotonic resonators incorporating contemporary bulk or sheet (2D) materials that may be lossy and dispersive. For each linear/nonlinear effect under study we follow a meticulous, step-by-step approach, starting from an accurate model of the physical phenomenon and proceeding to its introduction in the CMT framework all the way to the efficient solution of the resulting system of equations. Our work highlights the merits of CMT as an efficient, accurate, and versatile theoretical tool. We envision that it can serve both as an introductory reference for any reader, as well as a comprehensive handbook on how to incorporate a broad range of linear and nonlinear effects in the CMT framework.         ",
+    "url": "https://arxiv.org/abs/2312.03539",
+    "authors": [
+      "Thomas Christopoulos",
+      "Odysseas Tsilipakos",
+      "Emmanouil E. Kriezis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.12860",
+    "title": "Effect of Overheat and Direct Flow Loading on the MEMS Bistable Flow Sensor",
+    "abstract": "           We present the findings from an experimental study of a MEMS flow sensor in which an initially curved, double-clamped bistable microbeam is the primary sensing element. Our research explores how the overheat ratio, direct flow loading, and turbulence-induced vibration affect the sequential snap-through (ST) buckling and snap-back (SB) release of an electrostatically actuated beam heated by an electric current. The sensor is fabricated from highly doped single-crystal silicon using a silicon-on-insulator (SOI) wafer. Positioned at the chip's edge, the microbeam is exposed to airflow, enabling concurrent dynamic response measurements with a laser Doppler vibrometer and a video camera. Our research demonstrates that the overheat ratio can be significantly lower for this sensing principle than conventional thermal sensing elements, pointing to the potential for substantial energy savings. We also emphasize the significant impact of flow angles and vibrations on the critical ST and SB voltages, which are vital for the flow sensor's output. Additionally, we introduce the first direct experimental observation of the beam profile's time history during the snap-through /snap-back transition. The potential impact of this research lies in developing more robust MEMS flow sensors with enhanced sensitivity and a better understanding of their response to environmental factors, which could have broader applications in fields such as aerospace, environmental monitoring, and industrial process control.         ",
+    "url": "https://arxiv.org/abs/2312.12860",
+    "authors": [
+      "Ivan Litvinov",
+      "Dan Refaeli",
+      "Alex Liberzon",
+      "Slava Krylov"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.15451",
+    "title": "Piezoresistive snap-through detection for bifurcation-based MEMS sensors",
+    "abstract": "           We report on the piezoresistive method for detecting stability loss events in microelectromechanical (MEMS) sensors based on bifurcation. The method involves measuring the resistivity changes of an entire beam to detect snap-through transitions in an electrostatically actuated, bistable double-clamped crystalline Silicon (Si) microbeam. The applicability of the suggested approach in two types of sensors - an ambient air temperature sensor or a mean air velocity sensor, is demonstrated. In both cases the bistable beam, serving as the sensing element, is affected by the electrothermal Joule's heating and air cooling. The measured signal is obtained by monitoring the critical voltages of the snap-through transitions. Piezoresistive sensing is especially suitable for the response monitoring of the exposed to the environment, free-standing heated microbeam sensors, where optical, piezoelectric, or electrostatic interrogation methods are not applicable. The approach can be implemented in various bifurcation microsensors and for response monitoring of bistable actuators.         ",
+    "url": "https://arxiv.org/abs/2312.15451",
+    "authors": [
+      "Ivan Litvinov",
+      "Gal Spaer Milo",
+      "Alexander Liberzon",
+      "Slava Krylov"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14835",
+    "title": "Dark excitons and hot electrons modulate exciton-photon strong coupling in metal-organic optical microcavities",
+    "abstract": "           Polaritons, formed as a result of strong hybridization of matter with light, are promising for important applications including organic solar cells, optical logic gates, and qubits. Owing to large binding energies of Frenkel excitons (matter), strong matter-light coupling phenomena are possible at room temperature, high exciton densities, and even with low-quality-factor microcavities. In such cases, due to polaritons' high degree of delocalization, simultaneous effects from dark excitons and hot electrons may affect performance of potential devices. Their understanding, therefore, is of paramount importance, but their disentanglement in optical spectroscopy, however, thus far remained unattainable. Here, we overcome this challenge by careful and systematic analysis of transient polaritonic spectra, supported by analytical models. In doing so, we conclude that dark excitons affect the strength of exciton-photon coupling and manifest themselves as Fano-like polaritonic gain-loss spectra. Free electrons add additional loss component to and imprint a two-temperature dynamics on the polaritonic response. The developed general methodology can be applied to a variety of other microcavity structures. Our findings are significant for distinguishing polaritons and other excitations in studies of polariton-electron and plasmon-electron coupling phenomena as well as photonic control over photophysical and photochemical processes.         ",
+    "url": "https://arxiv.org/abs/2401.14835",
+    "authors": [
+      "Pavel V. Kolesnichenko",
+      "Manuel Hertzog",
+      "Felix Hainer",
+      "Oskar Kefer",
+      "Jana Zaumseil",
+      "Tiago Buckup"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.01374",
+    "title": "A micro-opto-mechanical glass interferometer for megahertz modulation of optical signals",
+    "abstract": "           Waveguide-based interferometric circuits are widely employed in optical communications, sensing and computing applications. In particular, glass-based devices are appealing due to the transparency and bio-compatibility of this substrate, or where low-loss interfacing with fiber networks is required. However, fast electro-optic phase modulation is hard to achieve in glass materials. Here, we demonstrate an optical phase and intensity modulator in glass, working in the megahertz range. This modulator exploits the elasto-optic effect inside a mechanical microstructure, brought to oscillation at resonance, and is entirely realized by femtosecond laser micromachining. In detail, we demonstrate 23-dB optical intensity modulation at 1.17 MHz, with an internal optical loss of the phase-modulator component as low as 0.04 dB.         ",
+    "url": "https://arxiv.org/abs/2402.01374",
+    "authors": [
+      "Roberto Memeo",
+      "Andrea Crespi",
+      "Roberto Osellame"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.11357",
+    "title": "Graphene Terahertz Devices for Sensing and Communication",
+    "abstract": "           Graphene-based terahertz (THz) devices have emerged as promising platforms for a variety of applications, leveraging graphene's unique optoelectronic properties. This review explores recent advancements in utilizing graphene in THz technology, focusing on two main aspects: THz molecular sensing and THz wave modulation. In molecular sensing, the environment-sensitive THz transmission and emission properties of graphene are utilized for enabling molecular adsorption detection and biomolecular sensing. This capability holds significant potential, from the detection of pesticides to DNA at high sensitivity and selectivity. In THz wave modulation, crucial for next-generation wireless communication systems, graphene demonstrates remarkable potential in absorption modulation when gated. Novel device structures, spectroscopic systems, and metasurface architectures have enabled enhanced absorption and wave modulation. Furthermore, techniques such as spatial phase modulation and polarization manipulation have been explored. From sensing to communication, graphene-based THz devices present a wide array of opportunities for future research and development. Finally, advancements in sensing techniques not only enhance biomolecular analysis but also contribute to optimizing graphene's properties for communication by enabling efficient modulation of electromagnetic waves. Conversely, developments in communication strategies inform and enhance sensing capabilities, establishing a mutually beneficial relationship.         ",
+    "url": "https://arxiv.org/abs/2402.11357",
+    "authors": [
+      "Anna-Christina Samaha",
+      "Jacques Doumani",
+      "T. Elijah Kritzell",
+      "Hongjing Xu",
+      "Andrey Baydin",
+      "Pulickel M. Ajayan",
+      "Mario El Tahchi",
+      "Junichiro Kono"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.01107",
+    "title": "Octave-spanning Kerr soliton frequency combs in dispersion- and dissipation-engineered lithium niobate microresonators",
+    "abstract": "           Dissipative Kerr solitons from optical microresonators, commonly referred to as soliton microcombs, have been developed for a broad range of applications, including precision measurement, optical frequency synthesis, and ultra-stable microwave and millimeter wave generation, all on a chip. An important goal for microcombs is self referencing, which requires octave-spanning bandwidths to detect and stabilize the comb carrier envelope offset frequency. Further, detection and locking of the comb spacings are often achieved using frequency division by electro-optic modulation. The thin-film lithium niobate photonic platform, with its low loss, strong second- and third-order nonlinearity, as well as large Pockels effect, is ideally suited for these tasks. However, octave-spanning soliton microcombs are challenging to demonstrate on this platform, largely complicated by strong Raman effects hindering reliable fabrication of soliton devices. Here, we demonstrate entirely connected and octave-spanning soliton microcombs on thin-film lithium niobate. With appropriate control over microresonator free spectral range and dissipation spectrum, we show that soliton-inhibiting Raman effects are suppressed, and soliton devices are fabricated with near-unity yield. Our work offers an unambiguous method for soliton generation on strongly Raman-active materials. Further, it anticipates monolithically integrated, self-referenced frequency standards in conjunction with established technologies, such as periodically poled waveguides and electro-optic modulators, on thin-film lithium niobate.         ",
+    "url": "https://arxiv.org/abs/2403.01107",
+    "authors": [
+      "Yunxiang Song",
+      "Yaowen Hu",
+      "Xinrui Zhu",
+      "Kiyoul Yang",
+      "Marko Loncar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.18448",
+    "title": "Sensing with submarine optical cables",
+    "abstract": "           In this paper, we establish the theoretical framework for understanding the sensing capabilities of optical fibers. We show the distinct advantage of polarization over phase in detecting subhertz environmental processes. Subsequently, we propose a scheme capable of extracting the spectrum of perturbations affecting a specific section at any position along an optical fiber by detecting the state of polarization of the backreflected light. We discuss two examples of earthquake detection and the detection of sea swells and ocean tides through the analysis of the state of polarization of an optical signal reconstructed by the receiver of a transoceanic cable, obtained from an online database.\\cite{zhongwenzhan_2020} Finally, we provide the analytical expression for the cross-correlation of the polarization perturbations of two wavelength division multiplexed channels, and show that the analysis of the polarization correlations between adjacent channels can provide valuable insights into the localization of earthquakes.         ",
+    "url": "https://arxiv.org/abs/2403.18448",
+    "authors": [
+      "Antonio Mecozzi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.10298",
+    "title": "Heavy-element damage seeding in proteins under X-ray free electron laser illumination conditions",
+    "abstract": "           The emerging technique of serial femtosecond X-ray crystallography (SFX) can be used to study the structure and dynamics of biological macromolecules to high spatial and temporal resolutions. An ongoing challenge for SFX is the damage caused by the ultrabright X-ray free electron laser pulse. Though it is often assumed that sufficiently femtosecond pulses `outrun' radiation damage, in reality electronic damage processes commence during exposure. We model the electronic damage to protein nanocrystals using a plasma model that tracks the continuous changes to the energy distribution of the unbound electrons. Tracking the continuous energy distribution is of particular importance for distinguishing the influence of differing elements on secondary damage processes. Heavy atoms have a ubiquitous but small presence in protein targets - typically as integral components of the macromolecule and as salts in the solvent. We find that these atoms considerably influence the simulated ionization and scattering behavior of realistic targets due to their rapid seeding of secondary ionization processes. In lysozyme, even the presence of native sulfur atoms significantly contributes to theoretical measures of damage-induced noise for >= 6 keV, 15 fs pulses. Contributing to the effect is that heavy atoms seed `intermediate' energy electron cascades that are particularly effective at ionizing the target on the femtosecond timescale. In addition, the disproportionate effect of heavy atoms means the damage to a protein crystal can be sensitive to their presence in the solvent. Outside of reducing the concentration of heavy atoms in the target, these results suggest the dose limits of SFX targets will be higher where the ionization of deep >~ 6 keV absorption edges is minimized, or, to a lesser extent, when such edges are only ionized with X-rays >> 2 keV above their binding energy.         ",
+    "url": "https://arxiv.org/abs/2405.10298",
+    "authors": [
+      "Spencer K. Passmore",
+      "Alaric L. Sanders",
+      "Andrew V. Martin",
+      "Harry M. Quiney"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.20004",
+    "title": "Learning to solve Bayesian inverse problems: An amortized variational inference approach using Gaussian and Flow guides",
+    "abstract": "           Inverse problems, i.e., estimating parameters of physical models from experimental data, are ubiquitous in science and engineering. The Bayesian formulation is the gold standard because it alleviates ill-posedness issues and quantifies epistemic uncertainty. Since analytical posteriors are not typically available, one resorts to Markov chain Monte Carlo sampling or approximate variational inference. However, inference needs to be rerun from scratch for each new set of data. This drawback limits the applicability of the Bayesian formulation to real-time settings, e.g., health monitoring of engineered systems, and medical diagnosis. The objective of this paper is to develop a methodology that enables real-time inference by learning the Bayesian inverse map, i.e., the map from data to posteriors. Our approach is as follows. We parameterize the posterior distribution as a function of data. This work outlines two distinct approaches to do this. The first method involves parameterizing the posterior using an amortized full-rank Gaussian guide, implemented through neural networks. The second method utilizes a Conditional Normalizing Flow guide, employing conditional invertible neural networks for cases where the target posterior is arbitrarily complex. In both approaches, we learn the network parameters by amortized variational inference which involves maximizing the expectation of evidence lower bound over all possible datasets compatible with the model. We demonstrate our approach by solving a set of benchmark problems from science and engineering. Our results show that the posterior estimates of our approach are in agreement with the corresponding ground truth obtained by Markov chain Monte Carlo. Once trained, our approach provides the posterior distribution for a given observation just at the cost of a forward pass of the neural network.         ",
+    "url": "https://arxiv.org/abs/2305.20004",
+    "authors": [
+      "Sharmila Karumuri",
+      "Ilias Bilionis"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.06900",
+    "title": "Solomon equations for qubit and two-level systems: Insights into non-Poissonian quantum jumps",
+    "abstract": "           We measure and model the combined relaxation of a qubit coupled to a discrete two-level system~(TLS) environment, also known as the central spin model. If the TLSs are much longer-lived than the qubit, non-exponential relaxation and non-Poissonian quantum jumps can be observed. In the limit of large numbers of TLSs, the relaxation is likely to follow a power law, which we confirm with measurements on a superconducting fluxonium qubit. Moreover, the observed relaxation and quantum jump statistics are described by the Solomon equations, for which we present a derivation starting from the general Lindblad equation for an arbitrary number of TLSs. We also show how to reproduce the non-Poissonian quantum jump statistics using a diffusive stochastic Schr\u00f6dinger equation. The fact that the measured quantum jump statistics can be reproduced by the Solomon equations, which ignore the quantum measurement backaction, hints at a quantum-to-classical transition.         ",
+    "url": "https://arxiv.org/abs/2307.06900",
+    "authors": [
+      "Martin Spiecker",
+      "Andrei I. Pavlov",
+      "Alexander Shnirman",
+      "Ioan M. Pop"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.12386",
+    "title": "Quantum Equation of Motion with Orbital Optimization for Computing Molecular Properties in Near-Term Quantum Computing",
+    "abstract": "           Determining the properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is how to use imperfect near-term quantum computers to solve problems of practical value. Inspired by the recently developed variants of the quantum counterpart of the equation-of-motion (qEOM) approach and the orbital-optimized variational quantum eigensolver (oo-VQE), we present a quantum algorithm (oo-VQE-qEOM) for the calculation of molecular properties by computing expectation values on a quantum computer. We perform noise-free quantum simulations of BeH$_2$ in the series of STO-3G/6-31G/6-31G* basis sets and of H$_4$ and H$_2$O in 6-31G using an active space of four electrons and four spatial orbitals (8 qubits) to evaluate excitation energies, electronic absorption, and, for twisted H$_4$, circular dichroism spectra. We demonstrate that the proposed algorithm can reproduce the results of conventional classical CASSCF calculations for these molecular systems.         ",
+    "url": "https://arxiv.org/abs/2312.12386",
+    "authors": [
+      "Phillip W. K. Jensen",
+      "Erik Rosendahl Kjellgren",
+      "Peter Reinholdt",
+      "Karl Michael Ziems",
+      "Sonia Coriani",
+      "Jacob Kongsted",
+      "Stephan P. A. Sauer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.04737",
+    "title": "Assessing the query complexity limits of quantum phase estimation using symmetry aware spectral bounds",
+    "abstract": "           The computational cost of quantum algorithms for physics and chemistry is closely linked to the spectrum of the Hamiltonian, a property that manifests in the necessary rescaling of its eigenvalues. The typical approach of using the 1-norm as an upper bound to the spectral norm to rescale the Hamiltonian suits the most general case of bounded Hermitian operators but neglects the influence of symmetries commonly found in chemical systems. In this work, we introduce a hierarchy of symmetry-aware spectral bounds that provide a unified understanding of the performance of quantum phase estimation algorithms using block-encoded electronic structure Hamiltonians. We present a variational and numerically tractable method for computing these bounds, based on orbital optimization, to demonstrate that the computed bounds are smaller than conventional spectral bounds for a variety of molecular benchmark systems. We also highlight the unique analytical and numerical scaling behavior of these bounds in the thermodynamic and complete basis set limits. Our work shows that there is room for improvement in reducing the 1-norm, not yet achieved through methods like double factorization and tensor hypercontraction, but highlights potential challenges in improving the performance of current quantum algorithms beyond small constant factors through 1-norm reduction techniques alone.         ",
+    "url": "https://arxiv.org/abs/2403.04737",
+    "authors": [
+      "Cristian L. Cortes",
+      "Dario Rocca",
+      "Jerome Gonthier",
+      "Pauline J. Ollitrault",
+      "Robert M. Parrish",
+      "Gian-Luca R. Anselmetti",
+      "Matthias Degroote",
+      "Nikolaj Moll",
+      "Raffaele Santagati",
+      "Michael Streif"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.12102",
+    "title": "Collective Quantum Entanglement in Molecular Cavity Optomechanics",
+    "abstract": "           We propose an optomechanical scheme for reaching quantum entanglement in vibration polaritons. The system involves $N$ molecules, whose vibrations can be fairly entangled with plasmonic cavities. We find that the vibration-photon entanglement can exist at room temperature and is robust against thermal noise. We further demonstrate the quantum entanglement between the vibrational modes through the plasmonic cavities, which shows a delocalized nature and an incredible enhancement with the number of molecules. The underlying mechanism for the entanglement is attributed to the strong vibration-cavity coupling which possesses collectivity. Our results provide a molecular optomechanical scheme which offers a promising platform for the study of noise-free quantum resources and macroscopic quantum phenomena.         ",
+    "url": "https://arxiv.org/abs/2405.12102",
+    "authors": [
+      "Jian Huang",
+      "Dangyuan Lei",
+      "Girish S. Agarwal",
+      "Zhedong Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14687",
+    "title": "Quantum thermodynamic derivation of the energy resolution limit in magnetometry",
+    "abstract": "           It was recently demonstrated that a large number of magnetic sensing technologies satisfy the energy resolution limit, which connects a quantity composed by the variance of the magnetic field estimate, the sensor volume and the measurement time, and having units of action, with $\\hbar$. A first-principles derivation of the energy resolution limit is still elusive. We here present such a derivation based on quantum thermodynamic arguments. We show that the energy resolution limit is a result of quantum thermodynamic work associated with quantum measurement and Landauer erasure, the work being exchanged with the magnetic field. We apply these considerations to atomic magnetometers and SQUIDS. Regarding the former, we unravel a new spin correlation effect relevant to the magnetic noise produced by atomic vapors.         ",
+    "url": "https://arxiv.org/abs/2405.14687",
+    "authors": [
+      "I. K. Kominis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14837",
+    "title": "Analysis of Atom-level pretraining with Quantum Mechanics (QM) data for Graph Neural Networks Molecular property models",
+    "abstract": "           Despite the rapid and significant advancements in deep learning for Quantitative Structure-Activity Relationship (QSAR) models, the challenge of learning robust molecular representations that effectively generalize in real-world scenarios to novel compounds remains an elusive and unresolved task. This study examines how atom-level pretraining with quantum mechanics (QM) data can mitigate violations of assumptions regarding the distributional similarity between training and test data and therefore improve performance and generalization in downstream tasks. In the public dataset Therapeutics Data Commons (TDC), we show how pretraining on atom-level QM improves performance overall and makes the activation of the features distributes more Gaussian-like which results in a representation that is more robust to distribution shifts. To the best of our knowledge, this is the first time that hidden state molecular representations are analyzed to compare the effects of molecule-level and atom-level pretraining on QM data.         ",
+    "url": "https://arxiv.org/abs/2405.14837",
+    "authors": [
+      "Jose Arjona-Medina",
+      "Ramil Nugmanov"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.15024",
+    "title": "The 18 May 2024 superbolide over the Iberian Peninsula: USG space sensors and ground-based independent observations",
+    "abstract": "           On 18 May 2024, a superbolide traversed the western part of the Iberian Peninsula, culminating its flight over the Atlantic Ocean and generating significant media attention. This event was caused by a weak carbonaceous meteoroid of 89.8$\\pm$0.4 cm, with a density of 1660 kg/m$^{3}$, entering the atmosphere at 41.6 km/s$^{1}$ with an angle of 10.9$^\\circ$. The luminous phase started at 138 km and ended at an altitude of 54 km. The meteoroid's heliocentric orbit was characterized by an inclination of 15.4$^\\circ$, a high eccentricity of 0.965, a semi-major axis of 3 au, and a notably short perihelion distance of 0.11 au. The superbolide was recorded by multiple ground-based stations of the Spanish Meteor Network (SPMN), the European Space Agency (ESA), and the U.S. Government (USG) space sensors. Our analysis shows a relatively good agreement with the radiant and velocity data reported by the Center for Near-Earth Object Studies (CNEOS), with a deviation of 1$^\\circ$ and 1.2 km/s$^{1}$, respectively. Due to the absence of observable deceleration, we successfully reconciled satellite radiometric data with a purely dynamic atmospheric flight model, constraining the meteoroid's mass and coherently fitting its velocity profile. The inferred bulk density and aerodynamic strength of the meteoroid from the flight model are compatible with the properties recently measured for sample-returned materials from asteroid Bennu. The physical properties and the orbital results suggest that this meteoroid originated from a recent disruption of a comet, indicating the existence of hazardous meter-sized projectiles arriving on Earth from objects formed in the distant regions of the Solar System.         ",
+    "url": "https://arxiv.org/abs/2405.15024",
+    "authors": [
+      "Eloy Pe\u00f1a-Asensio",
+      "Pau Gr\u00e8bol-Tom\u00e0s",
+      "Josep M. Trigo-Rodr\u00edguez",
+      "Pablo Ram\u00edrez-Moreta",
+      "Rainer Kresken"
+    ],
+    "subjectives": [
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Popular Physics (physics.pop-ph)"
+    ]
+  }
+]
