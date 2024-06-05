@@ -1,0 +1,728 @@
+[
+  {
+    "id": "arXiv:2406.00169",
+    "title": "Spatial light mode analogues of generalized quantum coherent states",
+    "abstract": "           We use the spatial degree of freedom of light modes to construct optical analogues of generalized quantum coherent states for Hermite- and Laguerre-Gauss modes. Our optical analogues preserve the statistical properties of their quantum counterparts, encoded in their amplitude and phase distributions. We explore three basic symmetries that provide generalized displaced, rotated, and squeezed coherent states. Given the substantial interest in squeezed states for probing matter, we believe that the optical analogues introduced here have significant implications for optical sensing. Specifically, the single-particle nature of our spatial modes makes them robust candidates for sensing photosensitive materials. Overall, our approach opens the door to optical metrology and sensing protocols that mimic those already existing in the quantum realm, and facilitates further exploration of the quantum state zoo through classical optical analogues.         ",
+    "url": "https://arxiv.org/abs/2406.00169",
+    "authors": [
+      "M. P. Morales Rodr\u00edguez",
+      "E. Garc\u00eda Herrera",
+      "O. Maga\u00f1a Loaiza",
+      "B. Perez-Garcia",
+      "F. Marroqu\u00edn Gut\u00ederrez",
+      "B. M. Rodr\u00edguez-Lara"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00171",
+    "title": "Polarization-Resolved Transmission Matrices of Specialty Optical Fibers",
+    "abstract": "           Transmission matrix measurements of multimode fibers are now routinely performed in numerous labs, enabling control of the electric field at the distal end of the fiber and paving the way for the potential application to ultrathin medical endoscopes with high resolution. However, the process of building an experimental setup and developing the supporting code to measure the fiber's transmission matrix remains challenging with full details on experimental design, data collection, and supporting algorithms spread over multiple papers or lacking in detail. Here, we outline a complete and self-contained description of the experiment we use to measure fully polarization-resolved transmission matrices. Our specific implementation of the full polarization experiment is new and is easy to align while providing flexibility to switch between full-polarization and scalar measurements if desired. We introduce a new method to measure and account for the phase and amplitude drift during the measurement using a Levenberg-Marquardt nonlinear fitting algorithm. Finally, we describe creating distal images through the multimode fiber using phase-to-amplitude shaping techniques to construct the correct input electric field and show that results are insensitive to this choice as quantified by measuring the contrast of a razor blade at the distal end of the fiber. Throughout the paper, we discuss applications of our setup and measurement process to a variety of specialty fibers, including fibers with harsh environment coatings, coreless fibers, rectangular core fibers, pedestal fibers, and a pump-signal combiner based on a tapered fiber bundle.         ",
+    "url": "https://arxiv.org/abs/2406.00171",
+    "authors": [
+      "Erin S. Lamb",
+      "Tristan Kremp",
+      "David J. DiGiovanni",
+      "Paul S. Westbrook"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00201",
+    "title": "Quantum Molecular Charge-Transfer Model for Multi-step Auger-Meitner Decay Cascade Dynamics",
+    "abstract": "           The fragmentation of molecular cations following inner-shell decay processes in molecules containing heavy elements underpins the x-ray damage effects observed in x-ray scattering measurements of biological and chemical materials, as well as in medical applications involving Auger-electron-emitting radionuclides. Traditionally, these processes are modeled using simulations that describe the electronic structure at an atomic level, thereby omitting molecular bonding effects. This work addresses the gap by introducing a novel approach that couples a decay spawning dynamics algorithm with \\textit{ab initio} molecular dynamics simulations to characterize the potential energy surfaces. We apply our method to a model decay cascade following K-shell ionization of IBr and subsequent K$_{\\beta}$ fluorescence decay. We examine two competing channels that undergo two decay steps, resulting in ion-pairs with a total +3 charge state. This approach provides a continuous description of the electron transfer dynamics occurring during the multi-step decay cascade and molecular fragmentation, revealing the charge transfer timescale to be approximately 75 fs. Our computed kinetic energies of ion fragments show good agreement with experimental data.         ",
+    "url": "https://arxiv.org/abs/2406.00201",
+    "authors": [
+      "Adam E. A. Fouda",
+      "Stephen H. Southworth",
+      "Phay J. Ho"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00264",
+    "title": "A synchrotron-like pumped ring resonator for water waves",
+    "abstract": "           The wave-like behaviour of matter in quantum physics has spurred insightful analogies between the dynamics of particles and waves in classical systems. In this study, drawing inspiration from synchrotrons that resonate to accelerate ions along a closed path, we introduce the concept of a synchrowave: a waveguide designed to generate and sustain travelling water waves within a closed annular channel. In analogy to unavoidable energy losses in conventional particle accelerators due to electromagnetic radiation and inelastic collisions, the system displays undesired water-wave dampening, which we address through the synchronised action of underwater wavemakers. Our analogies extend the resonance mechanisms of synchrotrons to generate gravity waves in closed waveguides efficiently. A proof-of-concept experiment at a laboratory scale demonstrates the unique capability of this technique to build up anomalously large travelling waves displaying a flat response in the long-wave limit. Besides quantifying the performance of wave generation, our findings offer a framework for both industrial and computational applications, opening up unexplored possibilities in hydraulics, coastal science and engineering. In a broader context, our experimental apparatus and methods highlight the versatility of a simple yet powerful concept: a closed-path continuous-energy-pumping scheme to effectively harvest prominent resonant responses within wave-supporting systems displaying weak dissipation.         ",
+    "url": "https://arxiv.org/abs/2406.00264",
+    "authors": [
+      "Isis Vivanco",
+      "Alexander Egli",
+      "Bruce Cartwright",
+      "Juan F. Mar\u00edn",
+      "Leonardo Gordillo"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00280",
+    "title": "Incompressible Navier-Stokes solve on noisy quantum hardware via a hybrid quantum-classical scheme",
+    "abstract": "           Partial differential equation solvers are required to solve the Navier-Stokes equations for fluid flow. Recently, algorithms have been proposed to simulate fluid dynamics on quantum computers. Fault-tolerant quantum devices might enable exponential speedups over algorithms on classical computers. However, current and upcoming quantum hardware presents noise in the computations, requiring algorithms that make modest use of quantum resources: shallower circuit depths and fewer qubits. Variational algorithms are more appropriate and robust under resource restrictions. This work presents a hybrid quantum-classical algorithm for the incompressible Navier-Stokes equations. Classical devices perform nonlinear computations, and quantum ones use variational algorithms to solve the pressure Poisson equation. A lid-driven cavity problem benchmarks the method. We verify the algorithm via noise-free simulation and test it on noisy IBM superconducting quantum hardware. Results show that high-fidelity results can be achieved via this approach, even on current quantum devices. A multigrid preconditioning approach helps avoid local minima. HTree, a tomography technique with linear complexity in qubit count, reduces the quantum state readout time. We compare the quantum resources required for near-term and fault-tolerant solvers to determine quantum hardware requirements for fluid simulations with complexity improvements.         ",
+    "url": "https://arxiv.org/abs/2406.00280",
+    "authors": [
+      "Zhixin Song",
+      "Robert Deaton",
+      "Bryan Gard",
+      "Spencer H. Bryngelson"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00321",
+    "title": "Non-Abelian lattice gauge fields in the photonic synthetic frequency dimension",
+    "abstract": "           Non-Abelian gauge fields provide a conceptual framework for the description of particles having spins. The theoretical importance of non-Abelian gauge fields motivates their experimental synthesis and explorations. Here, we demonstrate non-Abelian lattice gauge fields for photons. In the study of gauge fields, lattice models are essential for the understanding of their implications in extended systems. We utilize the platform of synthetic frequency dimensions, which enables the study of lattice physics in a scalable and programmable way. We observe Dirac cones at time-reversal-invariant momenta as well as the direction reversal of eigenstate trajectories associated with such Dirac cones. Both of them are unique signatures of non-Abelian gauge fields in our lattice system. Our results highlight the implications of non-Abelian gauge field in the study of topological physics and suggest opportunities for the control of photon spins and pseudospins.         ",
+    "url": "https://arxiv.org/abs/2406.00321",
+    "authors": [
+      "Dali Cheng",
+      "Kai Wang",
+      "Charles Roques-Carmes",
+      "Eran Lustig",
+      "Olivia Y. Long",
+      "Heming Wang",
+      "Shanhui Fan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00378",
+    "title": "Real-Time State Modulation and Acquisition Circuit in Neuromorphic Memristive Systems",
+    "abstract": "           Memristive neuromorphic systems are designed to emulate human perception and cognition, where the memristor states represent essential historical information to perform both low-level and high-level tasks. However, current systems face challenges with the separation of state modulation and acquisition, leading to undesired time delays that impact real-time performance. To overcome this issue, we introduce a dual-function circuit that concurrently modulates and acquires memristor state information. This is achieved through two key features: 1) a feedback operational amplifier (op-amp) based circuit that ensures precise voltage application on the memristor while converting the passing current into a voltage signal; 2) a division calculation circuit that acquires state information from the modulation voltage and the converted voltage, improving stability by leveraging the intrinsic threshold characteristics of memristors. This circuit has been evaluated in a memristor-based nociceptor and a memristor crossbar, demonstrating exceptional performance. For instance, it achieves mean absolute acquisition errors below 1 {\\Omega} during the modulation process in the nociceptor application. These results demonstrate that the proposed circuit can operate at different scales, holding the potential to enhance a wide range of neuromorphic applications.         ",
+    "url": "https://arxiv.org/abs/2406.00378",
+    "authors": [
+      "Shengbo Wang",
+      "Cong Li",
+      "Tongming Pu",
+      "Jian Zhang",
+      "Weihao Ma",
+      "Luigi Occhipinti",
+      "Arokia Nathan",
+      "Shuo Gao"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Neural and Evolutionary Computing (cs.NE)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00420",
+    "title": "Realization of type-II double-zero-index photonic crystals",
+    "abstract": "           Some photonic crystals (PCs) with Dirac-like conical dispersions exhibit the property of double zero refractive index (that is, both epsilon and mu near zero (EMNZ)), wherein the electromagnetic waves have an infinite effective wavelength and do not experience any spatial phase change. The Dirac-like cones that support EMNZ are previously thought to present only at the center of the Brillouin zone ($\\Gamma$ point) with a zero wavevector (we refer to as type-I EMNZ), which is constrained by the proportional relationship between phase refractive index and wavevector ($n=kc/\\omega$). Here, we demonstrate the existence of an anomalous type-II EMNZ in PCs, which is associated with the Dirac-like point at off-$\\Gamma$ points. By introducing a wave modulation approach, we theoretically elucidate its physical mechanism, and resolve the paradox of type-II EMNZ with non-zero wavevectors. We then fabricate a type-II EMNZ PC operating at the X point, and experimentally demonstrate that both its effective permittivity and permeability are zero at the Dirac-like point. Type-II EMNZ PCs exhibit a range of intriguing phenomena, including angle-selective transmission, wavefront flattening, a 180$^{\\circ}$ phase shift upon transmission, and waveguiding with natural zero radiation loss. The extraordinary properties of type-II EMNZ PCs may open new avenues for the development of angle-selective optical filters, directional light sources, phase-controlled optical switches, ultracompact photonic circuits, nanolasers, and on-chip nonlinear enhancement.         ",
+    "url": "https://arxiv.org/abs/2406.00420",
+    "authors": [
+      "Zebin Zhu",
+      "Dong Zhao",
+      "Ziyao Wang",
+      "Xucheng Yang",
+      "Liyong Jiang",
+      "Zhen Gao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00590",
+    "title": "MoS2-based optical bistability in silver-Bragg reflector multilayer structure at visible light band",
+    "abstract": "           In this paper, we present a theoretical analysis of the optical bistability in a metallic silver-Bragg reflector structure by embedding bilayer MoS2 at the visible band. The nonlinear OB is achieved due to the nonlinear conductivity of the bilayer MoS2 and the excitation of the optical Tamm state at the interface between the silver and the Bragg reflector. It is found that the hysteresis behaviour and the threshold width of the OB can be effectively tuned by varying the incident light wavelength. In addition, the optical bistable behaviour of the structure can be adjusted by varying the position of the MoS2 inset in the defect layer, incident angle and the structural parameters of the spacer layer. Although the current threshold cannot be commercialized, we believe that this solution will provide a meaningful path reference for low threshold bistability in the visible light band.         ",
+    "url": "https://arxiv.org/abs/2406.00590",
+    "authors": [
+      "Songqing Tang",
+      "Mengjiao Ren",
+      "Zhiheng Li",
+      "Zhiwei Zheng",
+      "Leyong Jiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00593",
+    "title": "Low threshold optical bistability based on MoS2 in asymmetric Fabry-Perot cavity structure in visible light band",
+    "abstract": "           This article theoretically proposes a multi-layer Fabry-Perot cavity structure based on nonlinear MoS2, whose cavity is composed of asymmetric photonic crystals. In this structure, we observed a low threshold optical bistability phenomenon on the order of a in the visible light band, which is caused by the large third-order nonlinear conductivity of the bilayer MoS2 and the Fabry-Perot cavity resonance. Research has found that when light is incident from two different directions in an asymmetric Fabry-Perot cavity, the optical bistability exhibits not exactly the same behavior. In addition, we further investigated and found that the optical bistability behavior in this simple multi-layer structure is closely related to parameters such as incident wavelength, Fabry-Perot cavity length, and refractive index of the photonic crystal dielectric. This work provides a new approach for the implementation of low threshold optical bistable devices in the visible light band, which is expected to be applied in nonlinear optical fields such as all optical switches and all optical logic devices.         ",
+    "url": "https://arxiv.org/abs/2406.00593",
+    "authors": [
+      "Songqing Tang",
+      "Mengjiao Ren",
+      "Zhiheng Li",
+      "Zhiwei Zheng",
+      "Leyong Jiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00784",
+    "title": "Multidimensional optical singularities and their applications",
+    "abstract": "           Optical singularities, which are positions within an electromagnetic field where certain field parameters become undefined, hold significant potential for applications in areas such as super-resolution microscopy, sensing, and communication. This potential stems from their high field confinement and characteristic rapidly-changing field distributions. Although the systematic characterization of the first singularities dates back many decades, recent advancements in sub-wavelength wavefront control at optical frequencies have led to a renewed interest in the field, and have substantially expanded the range of known optical singularities and singular structures. However, the diversity in descriptions, mathematical formulations, and naming conventions can create confusion and impede accessibility to the field. This review aims to clarify the nomenclature by demonstrating that any singular field can be conceptualized as a collection of a finite set of principal, 'generic' singularities. These singularities are robust against small perturbations due to their topological nature. We underscore that the control over the principal properties of those singularities, namely, their protection against perturbations and their dimension, utilizes a consistent mathematical framework. Additionally, we provide an overview of current design techniques for both stable and approximate singularities and discuss their applications across various disciplines.         ",
+    "url": "https://arxiv.org/abs/2406.00784",
+    "authors": [
+      "Soon Wei Daniel Lim",
+      "Christina M. Spaegele",
+      "Federico Capasso"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01144",
+    "title": "Optical properties of excitons in CdSe nanoplatelets and disks: real density matrix approach",
+    "abstract": "           We show how to calculate the optical functions of a nanoplatelet, taking into account the effect of a dielectric confinement on excitonic states. Real density matrix approach is employed to obtain analytical and semi-analytical relations for the absorption coefficient, the exciton resonance energy and binding energy of nanoplatelets and nanodisks. The impact of plate geometry (thickness, area) on the spectrum is discussed and the results are compared with the available experimental data.         ",
+    "url": "https://arxiv.org/abs/2406.01144",
+    "authors": [
+      "David Ziemkiewicz",
+      "Gerard Czajkowski",
+      "Sylwia Zieli\u0144ska-Raczy\u0144ska"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01310",
+    "title": "Nonclassical optical response of particle plasmons with quantum informed local optics",
+    "abstract": "           As the dimensions of plasmonic structures or the field confinement length approach the mean free path of electrons, mesoscopic optical response effects, including nonlocality, electron density spill-in or spill-out, and Landau damping, are expected to become observable. In this work, we present a quantum-informed local analogue model (QILAM) that maps these nonclassical optical responses onto a local dielectric film. The primary advantage of this model lies in its compatibility with the highly efficient boundary element method (BEM), which includes retardation effects and eliminates the need to incorporate wavevector-dependent permittivity. Furthermore, our approach offers a unified framework that connects two important semiclassical theories: the generalized nonlocal optical response (GNOR) theory and the Feibelman d-parameters formalism. We envision that QILAM could evolve into a multiscale electrodynamic tool for exploring nonclassical optical responses in diverse plasmonic structures in future. This could be achieved by directly translating mesoscopic effects into observable phenomena, such as resonance energy shifts and linewidth broadening in the scattering spectrum.         ",
+    "url": "https://arxiv.org/abs/2406.01310",
+    "authors": [
+      "Weixiang Ye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01327",
+    "title": "Power output optimization in complex laser systems by means of polarization control",
+    "abstract": "           Recently, the polarimetricmethod for thermally-induced polarization changes driven power losses (TIPCL) mitigation in complex laser systems has been developed. However, the final optimization relied on the four-parameter numerical process. This letter provides a fully analytical direct calculation alternative to this optimization process. The validity of this approach is demonstrated on the previously published data from pulsed laser system Bivoj/DiPOLE100. The new approach provides a deeper insight into the polarimetric method for TIPCL suppression and also brings a more precise, reliable, and faster alternative to the numerical process used earlier.         ",
+    "url": "https://arxiv.org/abs/2406.01327",
+    "authors": [
+      "Dominika Jochcov\u00e1",
+      "Ond\u0159ej Slez\u00e1k",
+      "Ivan Richter",
+      "Martin Smr\u017e",
+      "Tom\u00e1\u0161 Mocek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01445",
+    "title": "Tessellated phase diagram and extended criticality in driven quasicrystals and quantum Hall matter",
+    "abstract": "           The well-known mapping between 1D quasiperiodic systems and 2D integer quantum Hall matter can also be applied in the presence of driving. Here we explore the effect of time-varying electric fields on the transport properties and phase diagram of Harper-Hofstadter materials. We consider light of arbitrary polarization illuminating a 2D electron gas at high magnetic field; this system maps to a 1D quasicrystal subjected to simultaneous phasonic and dipolar driving. We show that this generalized driving generates a tessellated phase diagram featuring a nested duality-protected pattern of metal-insulator transitions. Circularly or elliptically polarized light can create an extended critical phase, opening up a new route to achieving wavefunction multifractality without fine-tuning to a critical point, as well as induce Floquet topological insulators. We describe in detail a path to experimental realization of these phenomena using lattice-trapped ultracold atoms.         ",
+    "url": "https://arxiv.org/abs/2406.01445",
+    "authors": [
+      "Yifei Bai",
+      "David M. Weld"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01569",
+    "title": "Isotopologue-selective laser cooling of molecules",
+    "abstract": "           Direct laser cooling of molecules has made significant progress in recent years. However, the selective cooling and manipulation of molecules based on their isotopic composition, which is ubiquitous in atomic laser cooling, has not yet been achieved. Here, we demonstrate such isotopologue-selective laser cooling of molecules, using barium monofluoride (BaF) as an example. The manipulation of the rare and previously uncooled 136BaF is achieved within a molecular beam containing several isotopologues of significantly higher natural abundance. Our results enable intense molecular beams and high fidelity detection of select low-abundance isotopologues or isotopic mixtures. Such beams are a first step towards isotopologue-selective molecular trapping and will be useful for applications in trace gas analysis, cold chemistry and precision tests of fundamental symmetries.         ",
+    "url": "https://arxiv.org/abs/2406.01569",
+    "authors": [
+      "Felix Kogel",
+      "Tatsam Garg",
+      "Marian Rockenh\u00e4user",
+      "Sebasti\u00e1n A. Morales-Ram\u00edrez",
+      "Tim Langen"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00151",
+    "title": "Neural-network-supported basis optimizer for the configuration interaction problem in quantum many-body clusters: Feasibility study and numerical proof",
+    "abstract": "           A deep-learning approach to optimize the selection of Slater determinants in configuration interaction calculations for condensed-matter quantum many-body systems is developed. We exemplify our algorithm on the discrete version of the single-impurity Anderson model with up to 299 bath sites. Employing a neural network classifier and active learning, our algorithm enhances computational efficiency by iteratively identifying the most relevant Slater determinants for the ground-state wavefunction. We benchmark our results against established methods and investigate the efficiency of our approach as compared to other basis truncation schemes. Our algorithm demonstrates a substantial improvement in the efficiency of determinant selection, yielding a more compact and computationally manageable basis without compromising accuracy. Given the straightforward application of our neural network-supported selection scheme to other model Hamiltonians of quantum many-body clusters, our algorithm can significantly advance selective configuration interaction calculations in the context of correlated condensed matter.         ",
+    "url": "https://arxiv.org/abs/2406.00151",
+    "authors": [
+      "Pavlo Bilous",
+      "Louis Thirion",
+      "Henri Menke",
+      "Maurits W. Haverkort",
+      "Adriana P\u00e1lffy",
+      "Philipp Hansmann"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00267",
+    "title": "General Framework for Quantifying Dissipation Pathways in Open Quantum Systems. II. Numerical Validation and the Role of Non-Markovianity",
+    "abstract": "           In the previous paper [C. W. Kim and I. Franco, J. Chem. Phys. 160, XXXXXX (2024)], we developed a theory called MQME-D, which allows us to decompose the overall energy dissipation process in open quantum system dynamics into contributions by individual components of the bath when the subsystem dynamics is governed by a Markovian quantum master equation (MQME). Here, we contrast the predictions of MQME-D against the numerically exact results obtained by combining hierarchical equations of motion (HEOM) with a recently reported protocol for monitoring the statistics of the bath. Overall, MQME-D accurately captures the contributions of specific bath components to the overall dissipation while greatly reducing the computational cost as compared to exact computations using HEOM. The computations show that MQME-D exhibits errors originating from its inherent Markov approximation. We demonstrate that its accuracy can be significantly increased by incorporating non-Markovianity by exploiting time scale separations (TSS) in different components of the bath. Our work demonstrates that MQME-D combined with TSS can be reliably used to understanding how energy is dissipated in realistic open quantum system dynamics.         ",
+    "url": "https://arxiv.org/abs/2406.00267",
+    "authors": [
+      "Chang Woo Kim",
+      "Ignacio Franco"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00296",
+    "title": "A Novel Quantum-Classical Hybrid Algorithm for Determining Eigenstate Energies in Quantum Systems",
+    "abstract": "           Developing efficient quantum computing algorithms is crucial for addressing computationally challenging problems across various fields. In this paper, we introduce a novel quantum XZ24 algorithm, designed for efficiently computing the eigen-energy spectra of any quantum systems. The algorithm employs an auxiliary qubit as a control qubit to execute a pair of time-reversing real-time evolutions of Hamiltonian $\\hat{H}$ on the target qubits. The reference state wavefunction $|\\phi_0 \\rangle$ is stored in target qubits. When the control qubit (i.e., the auxiliary qubit) is in the 0 (1) state, the $e^{-i\\hat{H}t/2} (e^{i\\hat{H}t/2})$ evolution operator is applied. By combining Hadamard gates and phase gates on the auxiliary qubit, information about $\\langle \\psi_0 | \\cos(\\hat{H}t) | \\psi_0 \\rangle$ can be obtained from the output auxiliary qubit state. Theoretically, applying the Fourier transformation to the $\\langle \\psi_0 | \\cos(\\hat{H}t) | \\psi_0 \\rangle$ signal can resolve the eigen-energies of the Hamiltonian in the spectrum. We provide theoretical analysis and numerical simulations of the algorithm, demonstrating its advantages in computational efficiency and accuracy. Compared to existing quantum methods, the new algorithm stands out for its remarkably low measurement cost. For quantum systems of any complexity, only a single auxiliary qubit needs to be measured, resulting in a measurement complexity of $O(1)$. Moreover, this method can simultaneously obtain multiple eigen-energies, dependent on the reference state. We anticipate that the new algorithm will drive significant progress in quantum system simulation and offer promising applications in quantum computing and quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2406.00296",
+    "authors": [
+      "Qing-Xing Xie",
+      "Yan Zhao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00363",
+    "title": "Exploring quantum localization with machine learning",
+    "abstract": "           We introduce an efficient neural network (NN) architecture for classifying wave functions in terms of their localization. Our approach integrates a versatile quantum phase space parametrization leading to a custom 'quantum' NN, with the pattern recognition capabilities of a modified convolutional model. This design accepts wave functions of any dimension as inputs and makes accurate predictions at an affordable computational cost. This scalability becomes crucial to explore the localization rate at the semiclassical limit, a long standing question in the quantum scattering field. Moreover, the physical meaning built in the model allows for the interpretation of the learning process         ",
+    "url": "https://arxiv.org/abs/2406.00363",
+    "authors": [
+      "J. Montes",
+      "Lenoardo Ermann",
+      "Alejandro M.F. Rivas",
+      "Florentino Borondo",
+      "Gabriel G. Carlo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00464",
+    "title": "Sub-wavelength optical lattice in 2D materials",
+    "abstract": "           Recently, light-matter interaction has been vastly expanded as a control tool for inducing and enhancing many emergent non-equilibrium phenomena. However, conventional schemes for exploring such light-induced phenomena rely on uniform and diffraction-limited free-space optics, which limits the spatial resolution and the efficiency of light-matter interaction. Here, we overcome these challenges using metasurface plasmon polaritons (MPPs) to form a sub-wavelength optical lattice. Specifically, we report a ``nonlocal\" pump-probe scheme where MPPs are excited to induce a spatially modulated AC Stark shift for excitons in a monolayer of MoSe$_2$, several microns away from the illumination spot. Remarkably, we identify nearly two orders of magnitude reduction for the required modulation power compared to the free-space optical illumination counterpart. Moreover, we demonstrate a broadening of the excitons' linewidth as a robust signature of MPP-induced periodic sub-diffraction modulation. Our results open new avenues for exploring power-efficient light-induced lattice phenomena below the diffraction limit in active chip-compatible MPP architectures.         ",
+    "url": "https://arxiv.org/abs/2406.00464",
+    "authors": [
+      "Supratik Sarkar",
+      "Mahmoud Jalali Mehrabad",
+      "Daniel G. Su\u00e1rez-Forero",
+      "Liuxin Gu",
+      "Christopher J. Flower",
+      "Lida Xu",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Suji Park",
+      "Houk Jang",
+      "You Zhou",
+      "Mohammad Hafezi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01039",
+    "title": "Time Dependent Density Functional Theory calculations of the optical properties of charge-transfer complexes",
+    "abstract": "           Charge transfer complexes are materials with a wide range of interesting optical and electronic properties. They have seen a great deal of research over the past decade, both in device development as well as research to elucidate the underlying mechanisms of charge transfer and transport. Here we present time dependent density-functional theory (TD-DFT) calculations of the energy levels of the donor-acceptor complexes perylene-TCNQ (7,7,8,8-tetracyanoquinodimethane) and hexamethylbenzene-chloranil. The calculations show a good match to the experimentally measured optical absorption spectra, and indicate that low energy CT absorption bands appear at the dimer/tetramer stage of cocrystal formation. We also report the degree of charge transfer for these complexes in various stoichiometries and compare them.         ",
+    "url": "https://arxiv.org/abs/2406.01039",
+    "authors": [
+      "Satwik Ramanjanappa",
+      "Edward R Van Keuren"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01118",
+    "title": "Carleman-Grad approach to the quantum simulation of fluids",
+    "abstract": "           We discuss the Carleman linearization approach to the quantum simulation of classical fluids based on Grad's generalized hydrodynamics and compare it to previous investigations based on lattice Boltzmann and Navier-Stokes formulations. We show that the Carleman-Grad procedure exhibits intermediate properties between the two. Namely, convergence of the Carleman iteration over a few tens of timesteps and a potentially viable quantum circuit implementation using quantum linear algebra solvers. However, both features still need substantial improvements to yield a viable quantum algorithm for fluid flows.         ",
+    "url": "https://arxiv.org/abs/2406.01118",
+    "authors": [
+      "Claudio Sanavio",
+      "Enea Mauri",
+      "Sauro Succi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01132",
+    "title": "Investigating a Device Independence Quantum Random Number Generation",
+    "abstract": "           Quantum random number generation (QRNG) is a resource that is a necessity in the field of cryptography. However, its certification has been challenging. In this article, we certify randomness with the aid of quantum entanglement in a device independent setting, where we choose two-photon interference for source characterisation. The CHSH inequality violation and quantum state tomography are used as independent checks on the measurement devices. These measures ensure the unpredictability of quantum random number generation. This work can be easily extended to faster randomness expansion protocols.         ",
+    "url": "https://arxiv.org/abs/2406.01132",
+    "authors": [
+      "Vardaan Mongia",
+      "Abhishek Kumar",
+      "Shashi Prabhakar",
+      "Anindya Banerji",
+      "R.P. Singh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01155",
+    "title": "Optical heterodyne microscopy of operating spin Hall nano-oscillator arrays",
+    "abstract": "           Optical heterodyne detection is a powerful technique for characterizing a wide range of physical excitations. Here, we use two types of optical heterodyne detection techniques (fundamental and parametric pumping) to microscopically characterize the high-frequency auto-oscillations of single and multiple nano-constriction spin Hall nano-oscillators (SHNOs). To validate the technique and demonstrate its robustness, we study SHNOs made from two different material stacks, NiFe/Pt and W/CoFeB/MgO, and investigate the influence of both the RF injection power and the laser power on the measurements, comparing the optical results to conventional electrical measurements. To demonstrate the key features of direct, non-invasive, submicron, spatial, and phase-resolved characterization of the SHNO magnetodynamics, we map out the auto-oscillation magnitude and phase of two phase-binarized SHNOs used in Ising Machines. This proof-of-concept platform establishes a strong foundation for further extensions, contributing to the ongoing development of crucial characterization techniques for emerging computing technologies based on spintronics devices         ",
+    "url": "https://arxiv.org/abs/2406.01155",
+    "authors": [
+      "A. Alem\u00e1n",
+      "A. A. Awad",
+      "S. Muralidhar",
+      "R. Khymyn",
+      "A. Kumar",
+      "A. Houshang",
+      "D. Hanstorp",
+      "J. \u00c5kerman"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01181",
+    "title": "Q-BiC: A biocompatible integrated chip for in vitro and in vivo spin-based quantum sensing",
+    "abstract": "           Optically addressable spin-based quantum sensors enable nanoscale measurements of temperature, magnetic field, pH, and other physical properties of a system. Advancing the sensors beyond proof-of-principle demonstrations in living cells and multicellular organisms towards reliable, damage-free quantum sensing poses three distinct technical challenges. First, spin-based quantum sensing requires optical accessibility and microwave delivery. Second, any microelectronics must be biocompatible and designed for imaging living specimens. Third, efficient microwave delivery and temperature control are essential to reduce unwanted heating and to maintain an optimal biological environment. Here, we present the Quantum Biosensing Chip (Q-BiC), which facilitates microfluidic-compatible microwave delivery and includes on-chip temperature control. We demonstrate the use of Q-BiC in conjunction with nanodiamonds containing nitrogen vacancy centers to perform optically detected magnetic resonance in living systems. We quantify the biocompatibility of microwave excitation required for optically detected magnetic resonance both in vitro in HeLa cells and in vivo in the nematode Caenorhabditis elegans for temperature measurements and determine the microwave-exposure range allowed before detrimental effects are observed. In addition, we show that nanoscale quantum thermometry can be performed in immobilised but non-anaesthetised adult nematodes with minimal stress. These results enable the use of spin-based quantum sensors without damaging the biological system under study, facilitating the investigation of the local thermodynamic and viscoelastic properties of intracellular processes.         ",
+    "url": "https://arxiv.org/abs/2406.01181",
+    "authors": [
+      "Louise Shanahan",
+      "Sophia Belser",
+      "Jack W. Hart",
+      "Qiushi Gu",
+      "Julien R. E. Roth",
+      "Annika Mechnich",
+      "Michael Hoegen",
+      "Soham Pal",
+      "David Jordan",
+      "Eric A. Miska",
+      "Mete Atature",
+      "Helena S. Knowles"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01271",
+    "title": "Long-range ballistic propagation of 80$\\%$-excitonic-fraction polaritons in a perovskite metasurface at room temperature",
+    "abstract": "           Exciton-polaritons, hybrid light-matter elementary excitations arising from the strong coupling regime between excitons in semiconductors and photons in photonic nanostructures, offer a fruitful playground to explore the physics of quantum fluids of light as well as to develop all-optical devices. However, achieving room temperature propagation of polaritons with a large excitonic fraction, which would be crucial, e.g., for nonlinear light transport in prospective devices, remains a significant challenge. } Here we report on experimental studies of exciton-polariton propagation at room temperature in resonant metasurfaces made from a sub-wavelength lattice of perovskite pillars. Thanks to the large Rabi splitting, an order of magnitude larger than the optical phonon energy, the lower polariton band is completely decoupled from the phonon bath of perovskite crystals. The long lifetime of these cooled polaritons, in combination with the high group velocity achieved through the metasurface design, enables long-range propagation regardless of the polariton excitonic fraction. Remarkably, we observed propagation distances exceeding hundreds of micrometers at room temperature, even when the polaritons possess a very high excitonic component, approximately {80}$\\%$. Furthermore, the design of the metasurface introduces an original mechanism for directing uni-directional propagation through polarization control. This discovery of a ballistic propagation mode, leveraging high-speed cooled polaritons, heralds a promising avenue for the development of advanced polaritonic devices.         ",
+    "url": "https://arxiv.org/abs/2406.01271",
+    "authors": [
+      "Nguyen Ha My Dang",
+      "Simone Zanotti",
+      "Emmanuel Drouard",
+      "C\u00e9line Chevalier",
+      "Ga\u00eblle Tripp\u00e9-Allard",
+      "Emmanuelle Deleporte",
+      "Christian Seassal",
+      "Dario Gerace",
+      "Hai Son Nguyen"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01471",
+    "title": "Inverse design of photonic surfaces on Inconel via multi-fidelity machine learning ensemble framework and high throughput femtosecond laser processing",
+    "abstract": "           We demonstrate a multi-fidelity (MF) machine learning ensemble framework for the inverse design of photonic surfaces, trained on a dataset of 11,759 samples that we fabricate using high throughput femtosecond laser processing. The MF ensemble combines an initial low fidelity model for generating design solutions, with a high fidelity model that refines these solutions through local optimization. The combined MF ensemble can generate multiple disparate sets of laser-processing parameters that can each produce the same target input spectral emissivity with high accuracy (root mean squared errors < 2%). SHapley Additive exPlanations analysis shows transparent model interpretability of the complex relationship between laser parameters and spectral emissivity. Finally, the MF ensemble is experimentally validated by fabricating and evaluating photonic surface designs that it generates for improved efficiency energy harvesting devices. Our approach provides a powerful tool for advancing the inverse design of photonic surfaces in energy harvesting applications.         ",
+    "url": "https://arxiv.org/abs/2406.01471",
+    "authors": [
+      "Luka Grbcic",
+      "Minok Park",
+      "Mahmoud Elzouka",
+      "Ravi Prasher",
+      "Juliane M\u00fcller",
+      "Costas P. Grigoropoulos",
+      "Sean D. Lubner",
+      "Vassilia Zorba",
+      "Wibe Albert de Jong"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.06050",
+    "title": "Near-field enhancement by waveguide-plasmon polaritons in a nonlocal metasurface",
+    "abstract": "           Localized surface plasmons in metal nanoparticles are widely used in nano-optics to confine and enhance optical fields. It has been previously shown that, if the nanoparticles are distributed periodically, an additional enhancement can be achieved by coupling the localized surface plasmons to the diffraction orders of the lattice, forming surface lattice resonances. In this work, we study an even further improvement of the near-field enhancement by placing a metal-dielectric slab waveguide beneath the lattice of the particles to excite coupled waveguide-plasmon polaritons. These excitations can extend over many periods of the lattice, making the metasurface highly nonlocal. We numerically demonstrate that the approach can provide a significant extra increase in the near-field intensity -- by a factor of 80 over that produced by a single-particle plasmon resonance and by 7 over the lattice-resonance enhancement. The described enhancement mechanism can be used to design extraordinarily efficient nonlocal optical metasurfaces for many applications, including surface-enhanced Raman spectroscopy, fluorescence spectroscopy, nonlinear optics, and solar energy harvesting.         ",
+    "url": "https://arxiv.org/abs/2308.06050",
+    "authors": [
+      "Xiaorun Zang",
+      "Andriy Shevchenko"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.12535",
+    "title": "Scalable molecular simulation of electrolyte solutions with quantum chemical accuracy",
+    "abstract": "           Unleashing the predictive power of molecular dynamics (MD), Neural Network Potentials (NNPs) trained on Density Functional Theory (DFT) calculations are revolutionizing our ability to simulate chemical systems with unprecedented accuracy and efficiency. Electrolyte solutions are a natural initial system to apply this tool to because they are critically important for a wide range of applications and their properties cannot currently be predicted. Unfortunately, however most DFT approximations are not sufficiently accurate to predict many practically relevant properties of electrolytes. Additionally, tracking the position of every atom in a system during molecular simulations is inherently limited, even with NNP-MD. Here, we use a state-of-the-art DFT approximation to demonstrate highly accurate all-atom NNPs with minimal training data. We demonstrate that NNPs can reliably be recursively trained on a subset of their own output to enable coarse-grained continuum solvent molecular simulations that can access much longer timescales. We apply our technique to simulate lithium chloride, potassium chloride, and lithium bromide in water. We reproduce key structural, thermodynamic, and kinetic properties of these solutions in agreement with experimental data. The formation of a previously unknown Li cation dimer is observed, along with identical anion-anion interactions of chloride and bromide. Finally, the coarse-grained model is capable of reproducing crystal phase behavior and infinite dilution pairing free energies despite being trained solely on moderate concentration solutions, disproving the notion that NNPs are only useful for interpolation. This approach should be scalable to determine the properties of electrolyte solutions over a much wider range of conditions and compositions than is possible experimentally.         ",
+    "url": "https://arxiv.org/abs/2310.12535",
+    "authors": [
+      "Junji Zhang",
+      "Joshua Pagotto",
+      "Tim Gould",
+      "Timothy T. Duignan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.09771",
+    "title": "AlN Nanowire Based Vertically Integrated Piezoelectric Nanogenerators",
+    "abstract": "           In this study, detailed analysis of the direct piezo-response of AlN nanowire-based vertically integrated nanogenerators (VINGs) is undertaken as a function of mechanical excitation frequency. We show that the piezo-charge, piezo-voltage, and impedance measured at the same position of the devices can be directly correlated through an equivalent circuit model, in the whole frequency range of investigation. Our presented results are utilized to determine the performance figures of merit (FoM) of nanowire-based VINGs, namely the piezoelectric voltage constant (g) for sensing, and the product d g for energy harvesting, where d is the piezoelectric charge constant. By comparison of these metrics with those of freestanding single crystal GaN and quartz substrates, as well as sputtered AlN thin films, we suggest that the nanowires can outperform their rigid counterparts in terms of mechanical sensing and energy generation. This work provides experimental guidelines for understanding the direct piezo-characteristics of VINGs and facilitates a quantitative comparison between nanostructured piezoelectric devices fabricated using different materials or architectures.         ",
+    "url": "https://arxiv.org/abs/2402.09771",
+    "authors": [
+      "N. Buatip",
+      "T. Auzelle",
+      "P. John",
+      "S. Rauwerdink",
+      "M. Sohdi",
+      "M. Saluan",
+      "B. Fernandez",
+      "E. Monroy",
+      "D. Mornex",
+      "C. R. Bowen",
+      "R. Songmuang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.19117",
+    "title": "Transformation, spectrum, and amplification of light modulated by a low frequency traveling wave",
+    "abstract": "           The behavior of electromagnetic waves in a medium modulated in time and space, largely investigated decades ago, has attracted emerging current interest. Here, we address one of the key questions of this research: can an optical wave be amplified by a slowly modulated realistic photonic circuit? To solve this problem, we investigate the propagation of light with an initial phase velocity $v_0$ and frequency $\\omega_0$ propagating through an optical waveguide and resonator modulated by a traveling wave with phase velocity $v_p$ and low frequency $\\omega_p << \\omega_0$. Close to the synchronous condition, $v_p =v_0$, the modulation effects can significantly grow. Consequently, the bandwidth of the optical frequency comb spectrum can be dramatically enhanced by a synchronous traveling wave with $v_p \\approx v_0$ compared to the bandwidth generated by an instantaneous wave with $v_p=\\infty$. However, for realistic optical waveguides, the light amplification remains small due to its essentially broadband character. In contrast, we show that the modulation of a racetrack optical resonator by a traveling wave with a small phase velocity $v_p <<v_0$ (rather than with synchronous $v_p\\approx v_0$) can significantly amplify light remaining within a relatively small bandwidth.         ",
+    "url": "https://arxiv.org/abs/2402.19117",
+    "authors": [
+      "M. Sumetsky"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05675",
+    "title": "Beam-driven Electron Cyclotron Harmonic and Electron Acoustic Waves as Seen in Particle-In-Cell Simulations",
+    "abstract": "           Recent study has demonstrated that electron cyclotron harmonic (ECH) waves can be excited by a low energy electron beam. Such waves propagate at moderately oblique wave normal angles (~70). The potential effects of beam-driven ECH waves on electron dynamics in Earth's plasma sheet is not known. Using two-dimensional Darwin particle-in-cell simulations with initial electron distributions that represent typical plasma conditions in the plasma sheet, we explore the excitation and saturation of such beam-driven ECH waves. Both ECH and electron acoustic waves are excited in the simulation and propagate at oblique wave normal angles. Compared with the electron acoustic waves, ECH waves grow much faster and have more intense saturation amplitudes. Cold, stationary electrons are first accelerated by ECH waves through cyclotron resonance and then accelerated in the parallel direction by both the ECH and electron acoustic waves through Landau resonance. Beam electrons, on the other hand, are decelerated in the parallel direction and scattered to larger pitch angles. The relaxation of the electron beam and the continuous heating of the cold electrons contribute to ECH wave saturation and suppress the excitation of electron acoustic waves. When the ratio of plasma to electron cyclotron frequency wpe/wce increases, the ECH wave amplitude increases while the electron acoustic wave amplitude decreases. Our work reveals the importance of ECH and electron acoustic waves in reshaping sub-thermal electron distributions and improves our understanding on the potential effects of wave-particle interactions in trapping ionospheric electron outflows and forming anisotropic (field-aligned) electron distributions in the plasma sheet.         ",
+    "url": "https://arxiv.org/abs/2403.05675",
+    "authors": [
+      "Xu Zhang",
+      "Xin An",
+      "Vassilis Angelopoulos",
+      "Anton Artemyev",
+      "Xiao-Jia Zhang",
+      "Ying-Dong Jia"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.19616",
+    "title": "Unified Framework of Forced Magnetic Reconnection and Alfven Resonance",
+    "abstract": "           A unified linear theory that includes forced reconnection as a particular case of Alfv\u00e9n resonance is presented. We consider a generalized Taylor problem in which a sheared magnetic field is subject to a time-dependent boundary perturbation oscillating at frequency $\\omega_0$. By analyzing the asymptotic time response of the system, the theory demonstrates that the Alfv\u00e9n resonance is due to the residues at the resonant poles, in the complex frequency plane, introduced by the boundary perturbation. Alfv\u00e9n resonance transitions towards forced reconnection, described by the constant-psi regime for (normalized) times $t\\gg S^{1/3}$, when the forcing frequency of the boundary perturbation is $\\omega_0\\ll S^{-1/3}$, allowing the coupling of the Alfv\u00e9n resonances across the neutral line with the reconnecting mode, as originally suggested in [1]. Additionally, it is shown that even if forced reconnection develops for finite, albeit small, frequencies, the reconnection rate and reconnected flux are strongly reduced for frequencies $\\omega_0\\gg S^{-3/5}$.         ",
+    "url": "https://arxiv.org/abs/2404.19616",
+    "authors": [
+      "D. Urbanski",
+      "A. Tenerani",
+      "F. L. Waelbroeck"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.09340",
+    "title": "Laser Printing of Silver and Silver Oxide",
+    "abstract": "           We show that direct laser writing (DLW) in aqueous silver nitrate with a 1030 nm femtosecond (fs) laser results in deposition of a mixture of silver oxide and silver, in contrast to the pure silver deposition previously reported with 780 nm fs DLW. However, adding photoinitiator prevents silver oxide formation in a concentration-dependent manner. As a result, the resistivity of the material can also be controlled by photoinitiator concentration with resistivity being reduced from approximately 9e-3 $\\Omega m$ to 3e-7 $\\Omega m$. Silver oxide peaks dominate the X-ray diffraction spectra when no photoinitiator is present, while the peaks disappear with photoinitiator concentrations above 0.05wt%. While femtosecond pulses are needed to initiate deposition, a continues-wave laser when well overlapped with the previously written material and supplying enough average power can lead to further printing, suggesting thermal deposition can also occur where the photoinitiator molecule also acts as a general reducing agent that prevents oxide formation. We also compare the surface quality of printed lines for different photoinitiator concentrations and laser printing conditions. A THz polarizer and metamaterial are printed as a demonstration of silver oxide printing.         ",
+    "url": "https://arxiv.org/abs/2405.09340",
+    "authors": [
+      "Jordan M. Adams",
+      "Daniel Heligman",
+      "Ryan O'Dell",
+      "Christine Y. Wang",
+      "Daniel Young"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.11567",
+    "title": "Shortcut to Chemically Accurate Quantum Computing via Density-based Basis-set Correction",
+    "abstract": "           Quantum computing promises a computational advantage over classical methods in electronic-structure calculations, with expected applications in drug design and materials science. Accessing a quantitative description of chemical systems while minimizing quantum resources, such as the number of qubits, is an essential challenge given the limited capabilities of current quantum processors. We provide a shortcut towards quantum computations at chemical accuracy by approaching the complete-basis-set limit (CBS) through integrating density-functional theory into quantum algorithms via density-based basis-set corrections coupled to basis-sets crafted on-the-fly and specifically adapted to a given system/user-defined qubit budget. The approach self-consistently accelerates the basis-set convergence, improving electronic densities, ground-state energies, and first-order properties such as dipole moments. It can also serve as a classical, a posteriori, energy correction to quantum hardware calculations. The strategy is assessed using GPU-accelerated state-vector emulation up to 32 qubits. We converge the ground-state energies of four systems (He, Be, H$_2$, LiH) within chemical accuracy of the CBS full-configuration-interaction reference, while offering a systematic increase of accuracy beyond a double-zeta quality for various molecules up to the H$_8$ hydrogen chain. We also obtain dissociation curves for H$_2$ and LiH that reach the CBS limit whereas for the challenging simulation of the N$_2$ triple-bond breaking, we achieve a near-triple-zeta quality at the cost of a minimal basis-set. This hybrid strategy allows us to obtain quantitative results that would otherwise require brute-force quantum simulations using far more than 100 logical qubits, thereby opening up opportunities to explore real-world chemistry with reasonable computational resources.         ",
+    "url": "https://arxiv.org/abs/2405.11567",
+    "authors": [
+      "Diata Traore",
+      "Olivier Adjoua",
+      "C\u00e9sar Feniou",
+      "Ioanna-Maria Lygatsika",
+      "Yvon Maday",
+      "Evgeny Posenitskiy",
+      "Kerstin Hammernik",
+      "Alberto Peruzzo",
+      "Julien Toulouse",
+      "Emmanuel Giner",
+      "Jean-Philip Piquemal"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.18607",
+    "title": "Optimizaci\\'on del sistema de iluminaci\\'on y proyecci\\'on para un sensor multiparam\\'etrico acusto-\\'optico",
+    "abstract": "           In previous works we presented a novel multiparametric sensor to simultaneously measure the refractive index and the speed of sound in a liquid by means of the acousto-optic effect. The sensor requires an illumination system that expands the laser beam so that it interacts effectively with the liquid under study. Also, a projection system is necessary in order to adequately capture the diffraction pattern at the cell exit. In this article, we present the optimization of the sensor illumination and projection system using the optical design computational tool Zemax OpticStudio. The considered range of refractive indices of the liquid samples is between 1.33 and 1.51. The results show a correct expansion of the incident beam on the cell, and the projection system achieves an image with very few aberrations and an adequate angular separation between the maxima of the diffraction pattern. Based on the resulting dimensions of the sensor after optimizing the illumination and projection system, we confirm that it is compact and portable.         ",
+    "url": "https://arxiv.org/abs/2405.18607",
+    "authors": [
+      "Patricia Mar\u00eda Elena V\u00e1zquez",
+      "Germ\u00e1n Eduardo Caro"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.14718",
+    "title": "Tripartite quantum Rabi model with trapped Rydberg ions",
+    "abstract": "           We investigate a tripartite quantum Rabi model (TQRM) wherein a bosonic mode concurrently couples to two spin-$1/2$ particles through a spin-spin interaction, resulting in a spin-spin-boson coupling -- a departure from conventional quantum Rabi models featuring bipartite spin-boson couplings. The symmetries of the TQRM depend on the detuning parameter, representing the energy difference between the spin states. At zero detuning a parity symmetry renders the TQRM reducible to a quantum Rabi model. A subradiant to superradiant transition in the groundstate is predicted as the tripartite coupling strength increases. For non-zero detuning the total spin emerges as the sole conserved quantity in the TQRM. It is found that superradiance prevails in the groundstate as long as the tripartite coupling remains non-zero. We derive the Braak $\\mathcal{G}$-function of the TQRM analytically, with which the eigenspectra are obtained. The TQRM can be realized in a viable trapped Rydberg ion quantum simulator, where the required tripartite couplings and single body interactions in the TQRM are naturally present. Our study opens opportunities to explore and create novel correlations and entanglement in the spin and motional degrees of freedoms with the TQRM.         ",
+    "url": "https://arxiv.org/abs/2312.14718",
+    "authors": [
+      "Thomas J. Hamlyn",
+      "Chi Zhang",
+      "Igor Lesanovsky",
+      "Weibin Li"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.11168",
+    "title": "Fermionic signal of vacuum polarization in strong laser fields",
+    "abstract": "           Vacuum polarization (VP) is investigated for the interaction of a polarized $\\gamma$-ray beam of GeV photons with a counterpropagating ultraintense laser pulse. In a conventional setup of a vacuum birefringence measurement, a VP signal is the emerging small circular (linear) polarization of the initially linearly (circularly) polarized probe photons. The pair production via the nonlinear Breit-Wheeler process in such a high-energy environment eliminates part of the $\\gamma$-photons in the outgoing $\\gamma$-beam, increasing the statistical error and decreasing the accuracy of this VP signal. In contrast, we investigate the conversion of the emerging circular polarization of $\\gamma$-photons into longitudinal polarization of the created positrons, considering the latter as the main VP signal. To study the VP effects in the highly nonlinear regime, where the Euler-Heisenberg effective Lagrangian method breaks down, we have developed a Monte-Carlo simulation method, incorporating vacuum birefringence and dichroism via the one-loop QED probabilities in the locally constant field approximation. Our Monte Carlo method will enable the study of VP effects in strong fields of arbitrary configuration. With 10~PW laser systems, we demonstrate the feasibility of detecting the fermionic signal of the VP effect at the 5$\\sigma$ confidence level with a few hours of measurement time.         ",
+    "url": "https://arxiv.org/abs/2401.11168",
+    "authors": [
+      "Ya-Nan Dai",
+      "Karen Z. Hatsagortsyan",
+      "Christoph H. Keitel",
+      "Yue-Yue Chen"
+    ],
+    "subjectives": [
+      "High Energy Physics - Theory (hep-th)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.16072",
+    "title": "Symmetric silicon microring resonator optical crossbar array for accelerated inference and training in deep learning",
+    "abstract": "           Photonic integrated circuits are emerging as a promising platform for accelerating matrix multiplications in deep learning, leveraging the inherent parallel nature of light. Although various schemes have been proposed and demonstrated to realize such photonic matrix accelerators, the in-situ training of artificial neural networks using photonic accelerators remains challenging due to the difficulty of direct on-chip backpropagation on a photonic chip. In this work, we propose a silicon microring resonator (MRR) optical crossbar array with a symmetric structure that allows for simple on-chip backpropagation, potentially enabling the acceleration of both the inference and training phases of deep learning. We demonstrate a $4 \\times 4$ circuit on a Si-on-insulator (SOI) platform and use it to perform inference tasks of a simple neural network for classifying Iris flowers, achieving a classification accuracy of 93.3%. Subsequently, we train the neural network using simulated on-chip backpropagation and achieve an accuracy of 91.1% in the same inference task after training. Furthermore, we simulate a convolutional neural network (CNN) for handwritten digit recognition, using a $9 \\times 9$ MRR crossbar array to perform the convolution operations. This work contributes to the realization of compact and energy-efficient photonic accelerators for deep learning.         ",
+    "url": "https://arxiv.org/abs/2401.16072",
+    "authors": [
+      "Rui Tang",
+      "Shuhei Ohno",
+      "Ken Tanizawa",
+      "Kazuhiro Ikeda",
+      "Makoto Okano",
+      "Kasidit Toprasertpong",
+      "Shinichi Takagi",
+      "Mitsuru Takenaka"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.16769",
+    "title": "Tracing quantum correlations back to collective interferences",
+    "abstract": "           In this paper, we investigate the possibility of explaining nonclassical correlations between two quantum systems in terms of quantum interferences between collective states of the two systems. We achieve this by mapping the relations between different measurement contexts in the product Hilbert space of a pair of two-level systems onto an analogous sequence of interferences between paths in a single-particle interferometer. The relations between different measurement outcomes are then traced to the distribution of probability currents in the interferometer, where paradoxical relations between the outcomes are identified with currents connecting two states that are orthogonal and should therefore exclude each other. We show that the relation between probability currents and correlations can be represented by continuous conditional (quasi)probability currents through the interferometer, given by weak values; the violation of the noncontextual assumption is expressed by negative conditional currents in some of the paths. Since negative conditional currents correspond to the assignment of negative conditional probabilities to measurements results in different measurement contexts, the necessity of such negative probability currents represents a failure of noncontextual local realism. Our results help to explain the meaning of nonlocal correlations in quantum mechanics, and support Feynman's claim that interference is the origin of all quantum phenomena.         ",
+    "url": "https://arxiv.org/abs/2401.16769",
+    "authors": [
+      "Ming Ji",
+      "Jonte R. Hance",
+      "Holger F. Hofmann"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.16167",
+    "title": "Fast photon-mediated entanglement of continuously-cooled trapped ions for quantum networking",
+    "abstract": "           We entangle two co-trapped atomic barium ion qubits by collecting single visible photons from each ion through in-vacuo 0.8 NA objectives, interfering them through an integrated fiber-beamsplitter and detecting them in coincidence. This projects the qubits into an entangled Bell state with an observed fidelity lower bound of F > 94%. We also introduce an ytterbium ion for sympathetic cooling to remove the need for recooling interruptions and achieve a continuous entanglement rate of 250 1/s.         ",
+    "url": "https://arxiv.org/abs/2404.16167",
+    "authors": [
+      "Jameson O'Reilly",
+      "George Toh",
+      "Isabella Goetting",
+      "Sagnik Saha",
+      "Mikhail Shalaev",
+      "Allison Carter",
+      "Andrew Risinger",
+      "Ashish Kalakuntla",
+      "Tingguang Li",
+      "Ashrit Verma",
+      "Christopher Monroe"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
