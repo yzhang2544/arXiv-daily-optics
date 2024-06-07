@@ -1,0 +1,290 @@
+[
+  {
+    "id": "arXiv:2406.02620",
+    "title": "Hot spot as hallmark of transition from dielectric disk to ring",
+    "abstract": "           Topological transformations of dielectric structures radically change the eigenvalues and eigenfunctions of photonic resonances. Moreover, optical effects may arise that characterize the moment of transition from one structure to another, but are not inherent in either the initial or final structure. We demonstrate that such a hallmark of the disk-ring transition is a hot spot of a special nature that arises at the moment a central hole appears in the disk. The hot spot in the air hole is caused by the Mie resonance of the disk with azimuthal number $m$ = 1, while other Mie resonances do not contribute to the effect due to symmetry. As the hole increases, the hot spot fades out, and we theoretically and experimentally observe the formation of photonic resonances of the ring from resonances of the disk. Using near-field and far-field measurements, we discovered clustering of disk photonic modes into distinct galleries of ring eigenmodes that are formed by the inner and outer walls of the cavity. Thus, we demonstrate both the beginning and the end of the rearrangement of photonic eigenmodes during the transition from a dielectric disk to a narrow ring.         ",
+    "url": "https://arxiv.org/abs/2406.02620",
+    "authors": [
+      "Kirill Bronnikov",
+      "Mikhail Limonov",
+      "Nikolay Solodovchenko"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.02702",
+    "title": "Multiphase Flow Simulation of Blow-by and Fuel-in-Oil Dilution via the Piston Ring Pack Using the CFD Level-Set Method",
+    "abstract": "           Modern diesel engines temporarily use a very late post-injection in the combustion cycle to either generate heat for a diesel particulate filter regeneration or purge a lean NOx trap. In some configurations, unburned fuel is left at the cylinder walls and is transported via the piston rings toward the lower crankcase region, where fuel may dilute the oil. Reduced oil lubrication shortens the oil service intervals and increases friction. Beside diesel fuel, this problem may also occur for other types of liquid fuels such as alcohols and e-fuels. The exact transport mechanism of the unburned fuel via the piston ring pack grooves and cylinder wall is hard to measure experimentally, motivating numerical flow simulation in early design stages for an in-depth understanding of the involved processes. A new CFD simulation methodology has been developed to investigate the transient, compressible, multiphase flow around the piston ring pack, through the gap between piston and liner, and its impact on fuel or oil transport. The modern level-set approach is used for the multiphase physics, which directly captures the sharp interface between blow-by gas and fuel or oil. Transient blow-by and two-phase flow simulations have been extensively applied to a Ford 2.0L I4 diesel test engine. The results confirm the validity of the flow compressibility assumption and highlight the sensitivity of the fuel leakage regarding piston sealing ring movement and highly resolved meshes for the multiphase flow. Based on the simulation results, design recommendations for piston and piston ring geometry are provided to reduce the fuel transport toward the crankcase.         ",
+    "url": "https://arxiv.org/abs/2406.02702",
+    "authors": [
+      "Patrick Antony",
+      "Norbert Hosters",
+      "Marek Behr",
+      "Anselm Hopf",
+      "Frank Kr\u00e4mer",
+      "Carsten Weber",
+      "Paul Turner"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Numerical Analysis (math.NA)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.02993",
+    "title": "Dual-color Q-switched mode-locking in an Erbium-doped fiber laser",
+    "abstract": "           Q-switched mode-locking (QML) has been widely observed in various lasers, but its generation mechanism in passive mode-locking remains unclear. In this paper, we build up a dual-color QML Erbium-doped fiber laser and find a bound-state-like envelope on the optical spectrum for the first time. Theoretically, the formation mechanism of QML is numerically investigated using the coupled Ginzburg-Landau equations. In addition, we demonstrated the existence of two QML pulse evolution patterns with gain or polarization state variations in simulation. Our results deepen the understanding of QML pulses in mode-locked fiber lasers and provide a foundation for studying mode-locking nonlinear evolutionary paths.         ",
+    "url": "https://arxiv.org/abs/2406.02993",
+    "authors": [
+      "Chenyue Lv",
+      "Baole Lu",
+      "Jintao Bai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03318",
+    "title": "Single-cycle, 643-mW average power THz source based on tilted pulse front in lithium niobate",
+    "abstract": "           We present, to the best of our knowledge, the highest average power from a laser-driven single-cycle THz source demonstrated so far, using optical rectification in the titled pulse-front geometry in cryogenically cooled lithium niobate, pumped by a commercially available 500 W ultrafast thin-disk Yb-amplifier. We study repetition rate dependent effects in our setup at 100 kHz and 40 kHz at this high average power, revealing different optimal fluence conditions for efficient conversion. The demonstrated sources with multi-100 mW average power at these high repetition rates combine high THz pulse energies and high repetition rate and is thus ideally suited for nonlinear THz spectroscopy experiments with significantly reduced measurement times. The presented result is a first benchmark for high average power THz time domain spectroscopy systems for nonlinear spectroscopy, driven by very high average power ultrafast Yb lasers.         ",
+    "url": "https://arxiv.org/abs/2406.03318",
+    "authors": [
+      "Tim Vogel",
+      "Samira Mansourzadeh",
+      "Clara Jody Saraceno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03325",
+    "title": "EngineBench: Flow Reconstruction in the Transparent Combustion Chamber III Optical Engine",
+    "abstract": "           We present EngineBench, the first machine learning (ML) oriented database to use high quality experimental data for the study of turbulent flows inside combustion machinery. Prior datasets for ML in fluid mechanics are synthetic or use overly simplistic geometries. EngineBench is comprised of real-world particle image velocimetry (PIV) data that captures the turbulent airflow patterns in a specially-designed optical engine. However, in PIV data from internal flows, such as from engines, it is often challenging to achieve a full field of view and large occlusions can be present. In order to design optimal combustion systems, insight into the turbulent flows in these obscured areas is needed, which can be provided via inpainting models. Here we propose a novel inpainting task using random edge gaps, a technique that emphasises realism by introducing occlusions at random sizes and orientations at the edges of the PIV images. We test five ML methods on random edge gaps using pixel-wise, vector-based, and multi-scale performance metrics. We find that UNet-based models are more accurate than the industry-norm non-parametric approach and the context encoder at this task on both small and large gap sizes. The dataset and inpainting task presented in this paper support the development of more general-purpose pre-trained ML models for engine design problems. The method comparisons allow for more informed selection of ML models for problems in experimental flow diagnostics. All data and code are publicly available at this https URL.         ",
+    "url": "https://arxiv.org/abs/2406.03325",
+    "authors": [
+      "Samuel J. Baker",
+      "Michael A. Hobley",
+      "Isabel Scherl",
+      "Xiaohang Fang",
+      "Felix C. P. Leach",
+      "Martin H. Davy"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03326",
+    "title": "Calibrated absolute optical contrast for high-throughput characterization of horizontally aligned carbon nanotube arrays",
+    "abstract": "           Horizontally aligned carbon nanotube (HACNT) arrays hold significant potential for various applications in nanoelectronics and material science. However, their high-throughput characterization remains challenging due to the lack of methods with both high efficiency and high accuracy. Here, we present a novel technique, Calibrated Absolute Optical Contrast (CAOC), achieved through the implementation of differential principles to filter out stray signals and high-resolution calibration to endow optical contrast with physical significance. CAOC offers major advantages over previous characterization techniques, providing consistent and reliable measurements of HACNT array density with high throughput and non-destructive assessment. To validate its utility, we demonstrate wafer-scale uniformity assessment by rapid density mapping. This technique not only facilitates the practical evaluation of HACNT arrays but also provides insights into balancing high throughput and high resolution in nanomaterial characterization.         ",
+    "url": "https://arxiv.org/abs/2406.03326",
+    "authors": [
+      "Yue Li",
+      "Ying Xie",
+      "Jianping Wang",
+      "Yang Xu",
+      "Shurui Wang",
+      "Yunbiao Zhao",
+      "Liu Qian",
+      "Ziqiang Zhao",
+      "Jin Zhang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03349",
+    "title": "Novel functions in silicon photonic chips incorporated with graphene oxide thin films",
+    "abstract": "           On-chip integration of two-dimensional (2D) materials with unique structures and distinctive properties endow integrated devices with new functionalities and improved performance. With a high flexibility in modifying its properties and a strong compatibility with various integrated platforms, graphene oxide (GO) becomes an attractive 2D material for implementing functional hybrid integrated devices. Here, we demonstrate novel functionalities that go beyond the capabilities of conventional photonic integrated circuits, by harnessing the photo-thermal effects in 2D GO films integrated onto them. These include all-optical control and switching, optical power limiting, and non-reciprocal light transmission. The 2D layered GO films are on-chip integrated with precise control of their thicknesses and sizes. Benefitting from the broadband response of 2D GO films, all the three functionalities feature a very wide operational bandwidth. By fitting the experimental results with theory, we also extract the changes in material properties induced by the photo-thermal effects, which reveal interesting insights about 2D GO films. These results highlight the versatility of 2D GO films in implementing functional integrated photonic devices for a range of applications.         ",
+    "url": "https://arxiv.org/abs/2406.03349",
+    "authors": [
+      "David J. Moss"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03489",
+    "title": "A self-aligning recirculated crossed optical dipole trap for lithium atoms",
+    "abstract": "           Crossed optical dipole traps (ODTs) provide three-dimensional confinement of cold atoms and other optically trappable particles. However, the need to maintain the intersection of the two trapping beams poses strict requirements on alignment stability, and limits the ability to move the trap. Here we demonstrate a novel crossed ODT design that features inherent stability of the beam crossing, allowing the trap to move and remain aligned. The trap consists of a single high-power laser beam, imaged back onto itself at an angle to form a crossed trap. Self-aligning behavior results from employing an imaging system with positive magnification tuned precisely to unity. We employ laser-cooled samples of $^6$Li atoms to demonstrate that the trap remains well-aligned over a 4.3 mm travel range along an axis approximately perpendicular to the plane containing the crossed beams. Our scheme can be applied to bring an atomic cloud held in a crossed ODT close to a surface or field source for various applications in quantum simulation, sensing, and information processing.         ",
+    "url": "https://arxiv.org/abs/2406.03489",
+    "authors": [
+      "Ming Lian",
+      "Maximillian Mrozek-McCourt",
+      "Christopher K. Angyal",
+      "Dadbeh Shaddel",
+      "Zachary J. Blogg",
+      "John R. Griffin",
+      "Ian Crawley",
+      "Ariel T. Sommer"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.02704",
+    "title": "Quantum-enabled continuous microwave-to-optics frequency conversion",
+    "abstract": "           A quantum interface between microwave and optical photons is essential for entangling remote superconducting quantum processors. To preserve fragile quantum states, a transducer must operate efficiently while generating less than one photon of noise referred to its input. Here, we present a platform that meets these criteria, utilizing a combination of electrostatic and optomechanical interactions in devices made entirely from crystalline silicon. This platform's small mechanical dissipation and low optical absorption enable ground-state radiative cooling, resulting in quantum-enabled operation with a continuous laser drive. Under the optimal settings for high efficiency (low noise), we measure an external efficiency of $2.2\\%$ ($0.47\\%$) and an input-referred added noise of $0.94$ ($0.58$) in microwave-to-optics conversion. We quantify the transducer throughput using the efficiency-bandwidth product, finding it exceeds previous demonstrations with similar noise performance by approximately two orders of magnitude, thereby paving a practical path to interconnecting remote superconducting qubits.         ",
+    "url": "https://arxiv.org/abs/2406.02704",
+    "authors": [
+      "Han Zhao",
+      "William David Chen",
+      "Abhishek Kejriwal",
+      "Mohammad Mirhosseini"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03047",
+    "title": "High-efficiency microwave photodetection by cavity coupled double dots with single cavity-photon sensitivity",
+    "abstract": "           We present a superconducting cavity-coupled double quantum dot (DQD) photodiode that achieves a maximum photon-to-electron conversion efficiency of 25% in the microwave domain. With a higher-quality-factor cavity and improved device design to prevent photon leakages through unwanted pathways, our device measures microwave signals down to 100 aW power level and achieves sensitivity to probe microwave signals with one photon at a time in the cavity. We analyze the photodiode operation using Jaynes-Cummings input-output theory, identifying the key improvements of stronger cavity-DQD coupling needed to achieve near-unity photodetection efficiency. The results presented in this work represent a crucial advancement toward near unity microwave photodetection efficiency with single cavity-photon sensitivity for studies of photon statistics in the microwave range and applications related to quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2406.03047",
+    "authors": [
+      "Subhomoy Haldar",
+      "Harald Havir",
+      "Waqar Khan",
+      "Drilon Zenelaj",
+      "Patrick P. Potts",
+      "Sebastian Lehmann",
+      "Kimberly A. Dick",
+      "Peter Samuelsson",
+      "Ville F. Maisi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03132",
+    "title": "Skew scattering and ratchet effect in photonic graphene",
+    "abstract": "           In this paper we bring up our investigation on the properties of asymmetric scattering in graphene made with the microcavity exciton-polaritons. It is shown by numerical simulations of Gross-Pitaevskii equation that ratchet phenomena occurs in the polariton graphene due to its structural inhomogeneity. Thus, we suggest a way to induce preferential motion of polaritons by the confinement potential engineering.         ",
+    "url": "https://arxiv.org/abs/2406.03132",
+    "authors": [
+      "O.M. Bahrova",
+      "S.V. Koniakhin"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03328",
+    "title": "Leveraging Off-the-Shelf Silicon Chips for Quantum Computing",
+    "abstract": "           There is a growing demand for quantum computing across various sectors, including finance, materials and studying chemical reactions. A promising implementation involves semiconductor qubits utilizing quantum dots within transistors. While academic research labs currently produce their own devices, scaling this process is challenging, requires expertise, and results in devices of varying quality. Some initiatives are exploring the use of commercial transistors, offering scalability, improved quality, affordability, and accessibility for researchers. This paper delves into potential realizations and the feasibility of employing off-the-shelf commercial devices for qubits. It addresses challenges such as noise, coherence, limited customizability in large industrial fabs, and scalability issues. The exploration includes discussions on potential manufacturing approaches for early versions of small qubit chips. The use of state-of-the-art transistors as hosts for quantum dots, incorporating readout techniques based on charge sensing or reflectometry, and methods like electron shuttling for qubit connectivity are examined. Additionally, more advanced designs, including 2D arrays and crossbar or DRAM-like access arrays, are considered for the path toward accessible quantum computing.         ",
+    "url": "https://arxiv.org/abs/2406.03328",
+    "authors": [
+      "John Michniewicz",
+      "M.S. Kim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03364",
+    "title": "Determination of Optimal Chain Coupling made by Embedding in D-Wave Quantum Annealer",
+    "abstract": "           The qubits in a D-wave quantum annealer (D-wave QA) are designed on a Pegasus graph that is different from structure of a combinatorial optimization problem. This situation requires embedding with the chains connected by ferromagnetic (FM) coupling $J_c$ between the qubits. Weak and strong $J_c$ values induce chain breaking and enforcement of chain energy, which reduce the accuracy of quantum annealing (QA) measurements, respectively. In addition, we confirmed that even though the D-Wave Ocean package provides a default coupling $J_c^{\\text{default}}$, it is not an optimal coupling $J_c^{\\text{optimal}}$ that maximizes the possible correct rate of QA measurements. In this paper, we present an algorithm how $J_c^{\\text{optimal}}$ with the maximum probability $p$ for observing the possible lowest energy is determined. Finally, we confirm that the extracted $J_c^{\\text{optimal}}$ show much better $p$ than $J_c^{\\text{default}}$ in QA measurements of various parameters of frustrated and fully connected combinatorial optimization problems. The open code is available in \\textit{this https URL}.         ",
+    "url": "https://arxiv.org/abs/2406.03364",
+    "authors": [
+      "Hayun Park",
+      "Hunpyo Lee"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03366",
+    "title": "Computational Supremacy of Quantum Eigensolver by Extension of Optimized Binary Configurations",
+    "abstract": "           We developed a quantum eigensolver (QE) which is based on an extension of optimized binary configurations measured by quantum annealing (QA) on a D-Wave Quantum Annealer (D-Wave QA). This approach performs iterative QA measurements to optimize the eigenstates $\\vert \\psi \\rangle$ without the derivation of a classical computer. The computational cost is $\\eta M L$ for full eigenvalues $E$ and $\\vert \\psi \\rangle$ of the Hamiltonian $\\hat{H}$ of size $L \\times L$, where $M$ and $\\eta$ are the number of QA measurements required to reach the converged $\\vert \\psi \\rangle$ and the total annealing time of many QA shots, respectively. Unlike the exact diagonalized (ED) algorithm with $L^3$ iterations on a classical computer, the computation cost is not significantly affected by $L$ and $M$ because $\\eta$ represents a very short time within $10^{-2}$ seconds on the D-Wave QA. We selected the tight-binding $\\hat{H}$ that contains the exact $E$ values of all energy states in two systems with metallic and insulating phases. We confirmed that the proposed QE algorithm provides exact solutions within the errors of $5 \\times 10^{-3}$. The QE algorithm will not only show computational supremacy over the ED approach on a classical computer but will also be widely used for various applications such as material and drug design.         ",
+    "url": "https://arxiv.org/abs/2406.03366",
+    "authors": [
+      "Hayun Park",
+      "Hunpyo Lee"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.03407",
+    "title": "Physics and geometry informed neural operator network with application to acoustic scattering",
+    "abstract": "           In this paper, we introduce a physics and geometry informed neural operator network with application to the forward simulation of acoustic scattering. The development of geometry informed deep learning models capable of learning a solution operator for different computational domains is a problem of general importance for a variety of engineering applications. To this end, we propose a physics-informed deep operator network (DeepONet) capable of predicting the scattered pressure field for arbitrarily shaped scatterers using a geometric parameterization approach based on non-uniform rational B-splines (NURBS). This approach also results in parsimonious representations of non-trivial scatterer geometries. In contrast to existing physics-based approaches that require model re-evaluation when changing the computational domains, our trained model is capable of learning solution operator that can approximate physically-consistent scattered pressure field in just a few seconds for arbitrary rigid scatterer shapes; it follows that the computational time for forward simulations can improve (i.e. be reduced) by orders of magnitude in comparison to the traditional forward solvers. In addition, this approach can evaluate the scattered pressure field without the need for labeled training data. After presenting the theoretical approach, a comprehensive numerical study is also provided to illustrate the remarkable ability of this approach to simulate the acoustic pressure fields resulting from arbitrary combinations of arbitrary scatterer geometries. These results highlight the unique generalization capability of the proposed operator learning approach.         ",
+    "url": "https://arxiv.org/abs/2406.03407",
+    "authors": [
+      "Siddharth Nair",
+      "Timothy F. Walsh",
+      "Greg Pickrell",
+      "Fabio Semperlotti"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Sound (cs.SD)",
+      "Audio and Speech Processing (eess.AS)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01777",
+    "title": "A thermionic electron gun to characterize silicon drift detectors with electrons",
+    "abstract": "           The TRISTAN detector is a new detector for electron spectroscopy at the Karlsruhe Tritium Neutrino (KATRIN) experiment. The semiconductor detector utilizes the silicon drift detector technology and will enable the precise measurement of the entire tritium beta decay electron spectrum. Thus, a significant fraction of the parameter space of potential neutrino mass eigenstates in the keV-mass regime can be probed. We developed a custom electron gun based on the effect of thermionic emission to characterize the TRISTAN detector modules with mono-energetic electrons before installation into the KATRIN beamline. The electron gun provides an electron beam with up to 25 keV kinetic energy and an electron rate in the order of 1E5 electrons per second. This manuscript gives an overview of the design and commissioning of the electron gun. In addition, we will shortly discuss a first measurement with the electron gun to characterize the electron response of the TRISTAN detector.         ",
+    "url": "https://arxiv.org/abs/2404.01777",
+    "authors": [
+      "Korbinian Urban",
+      "Matteo Biassoni",
+      "Marco Carminati",
+      "Frank Edzards",
+      "Carlo Fiorini",
+      "Christian Forstner",
+      "Peter Lechner",
+      "Andrea Nava",
+      "Daniel Siegmann",
+      "Daniela Spreng",
+      "Susanne Mertens"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.17808",
+    "title": "Correlation effects in magic-angle twisted bilayer graphene: An auxiliary-field quantum Monte Carlo study",
+    "abstract": "           Magic angle twisted bilayer graphene (MATBG) presents a fascinating platform for investigating the effects of electron interactions in topological flat bands. The Bistritzer-MacDonald (BM) model provides a simplified quantitative description of the flat bands. Introducing long-range Coulomb interactions leads to an interacting BM (IBM) Hamiltonian, a momentum-space continuum description which offers a very natural starting point for many-body studies of MATBG. Accurate and reliable many-body computations in the IBM model are challenging, however, and have been limited mostly to special fillings, or smaller lattice sizes. We employ state-of-the-art auxiliary-field quantum Monte Carlo (AFQMC) method to study the IBM model, which constrains the sign problem to enable accurate treatment of large system sizes. We determine ground-state properties and quantify errors compared to mean-field theory calculations. Our calculations identify correlated metal states and their competition with the insulating Kramers inter-valley coherent state at both half-filling and charge neutrality. Additionally, we investigate one- and three-quarter fillings, and examine the effect of many-body corrections beyond single Slater determinant solutions. We discuss the effect that details of the IBM Hamiltonian have on the results, including different forms of double-counting corrections, and the need to establish and precisely specify many-body Hamiltonians to allow more direct and quantitative comparisons with experiments in MATBG.         ",
+    "url": "https://arxiv.org/abs/2405.17808",
+    "authors": [
+      "Zhi-Yu Xiao",
+      "Shiwei Zhang"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
