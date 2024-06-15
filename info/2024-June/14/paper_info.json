@@ -1,0 +1,286 @@
+[
+  {
+    "id": "arXiv:2406.08554",
+    "title": "Quantum Hardware-Enabled Molecular Dynamics via Transfer Learning",
+    "abstract": "           The ability to perform ab initio molecular dynamics simulations using potential energies calculated on quantum computers would allow virtually exact dynamics for chemical and biochemical systems, with substantial impacts on the fields of catalysis and biophysics. However, noisy hardware, the costs of computing gradients, and the number of qubits required to simulate large systems present major challenges to realizing the potential of dynamical simulations using quantum hardware. Here, we demonstrate that some of these issues can be mitigated by recent advances in machine learning. By combining transfer learning with techniques for building machine-learned potential energy surfaces, we propose a new path forward for molecular dynamics simulations on quantum hardware. We use transfer learning to reduce the number of energy evaluations that use quantum hardware by first training models on larger, less accurate classical datasets and then refining them on smaller, more accurate quantum datasets. We demonstrate this approach by training machine learning models to predict a molecule's potential energy using Behler-Parrinello neural networks. When successfully trained, the model enables energy gradient predictions necessary for dynamics simulations that cannot be readily obtained directly from quantum hardware. To reduce the quantum resources needed, the model is initially trained with data derived from low-cost techniques, such as Density Functional Theory, and subsequently refined with a smaller dataset obtained from the optimization of the Unitary Coupled Cluster ansatz. We show that this approach significantly reduces the size of the quantum training dataset while capturing the high accuracies needed for quantum chemistry simulations.         ",
+    "url": "https://arxiv.org/abs/2406.08554",
+    "authors": [
+      "Abid Khan",
+      "Prateek Vaish",
+      "Yaoqi Pang",
+      "Nikhil Kowshik",
+      "Michael S. Chen",
+      "Clay H. Batton",
+      "Grant M. Rotskoff",
+      "J. Wayne Mullinax",
+      "Bryan K. Clark",
+      "Brenda M. Rubenstein",
+      "Norm M. Tubman"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08652",
+    "title": "Large-scale spin-orbit photonic circuits in two dimensions",
+    "abstract": "           Photonic circuits, optical platforms that connect input and output modes according to a specific map, serve as effective optical processors for both classical and quantum states of light. The number of optical elements typically scales with that of processed modes, leading to a direct correlation between system size, circuit complexity, and optical losses. Here we present a photonic circuit technology implementing large-scale unitary maps, linking a single input to hundreds of output modes in a two-dimensional compact layout. The map corresponds to the outcome of a quantum walk of structured photons, realized experimentally through light propagation in three liquid-crystal metasurfaces, having the local orientation of optic axes artificially engineered in a complex pattern. Theoretically, the walk length and the number of connected modes can be arbitrary, keeping optical losses constant. The patterns can be designed to accurately replicate multiple unitary maps. We also discuss limited reconfigurability by adjusting the overall birefringence and the relative displacement of the three optical elements. These results lay the basis for the design of low-loss photonic circuits that target a broader range of unitary maps, primarily for manipulating multi-photon states in genuinely quantum regimes.         ",
+    "url": "https://arxiv.org/abs/2406.08652",
+    "authors": [
+      "Maria Gorizia Ammendola",
+      "Francesco Di Colandrea",
+      "Lorenzo Marrucci",
+      "Filippo Cardano"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08744",
+    "title": "Compact low-half-wave-voltage thin film lithium niobate electro-optic phase modulator fabricated by photolithography assisted chemo-mechanical etching",
+    "abstract": "           This paper presents a compact dual-arm thin film lithium niobate (TFLN) electro-optic phase modulator fabricated using the photolithography-assisted chemo-mechanical etching (PLACE) technique. The design of the device allows for complete utilization of the microwave electric field, doubling the modulation efficiency compared to single-arm modulators in theory. With a half-wave voltage of approximately 3 V and a modulation length of 1 cm, the device outperforms conventional phase modulators. Furthermore, the phase modulator exhibits low sensitivity to optical wavelengths in the range of 1510-1600 nm and offers a low insertion loss of 2.8 dB. The capability to generate multiple sideband signals for optical frequency comb applications is also demonstrated, producing 29 sideband signals at an input microwave power of 2 W.         ",
+    "url": "https://arxiv.org/abs/2406.08744",
+    "authors": [
+      "Lang Gao",
+      "Youting Liang",
+      "Jinming Chen",
+      "Jianping Yu",
+      "Jia Qi",
+      "Lvbin Song",
+      "Jian Liu",
+      "Zhaoxiang Liu",
+      "Hongxin Qi",
+      "Ya Cheng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08783",
+    "title": "Photonic topological phase transition induced by material phase transition",
+    "abstract": "           Photonic topological insulators (PTIs) have been proposed as an analogy to topological insulators in electronic systems. In particular, two-dimensional PTIs have gained attention for the integrated circuit applications. However, controlling the topological phase after fabrication is difficult because the photonic topology requires the built-in specific structures. This study experimentally demonstrates the band inversion in two-dimensional PTI induced by the phase transition of deliberately-designed nanopatterns of a phase-change material, Ge2Sb2Te5 (GST), which indicates the first observation of the photonic topological phase transition with changes in the Chern number. This approach allows us to directly alter the topological invariants, which is achieved by symmetry-breaking perturbation through GST nanopatterns with different symmetry from original PTI. The success of our scheme is attributed to the ultrafine lithographic alignment technologies of GST nanopatterns. These results demonstrate to control photonic topological properties in a reconfigurable manner, providing an insight into new possibilities for reconfigurable photonic processing circuits.         ",
+    "url": "https://arxiv.org/abs/2406.08783",
+    "authors": [
+      "Takahiro Uemura",
+      "Yuto Moritake",
+      "Taiki Yoda",
+      "Hisashi Chiba",
+      "Yusuke Tanaka",
+      "Masaaki Ono",
+      "Eiichi Kuramochi",
+      "Masaya Notomi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08786",
+    "title": "Laser-target symmetry-breaking in high harmonic generation: from frequency shift to odd-even intensity modulation",
+    "abstract": "           Although the frequency shift and odd-even intensity modulation in high-order harmonic generation (HHG) have both been observed for asymmetric laser-target systems, they are typically studied as two separate phenomena. In this Letter, we provide a comprehensive picture of these two nonlinear optical phenomena, unifying them through a common origin - asymmetry of the laser-target system. By tuning asymmetric laser-target systems, we discover a transition from the harmonic frequency shift to the odd-even intensity modulation upon increasing the duration of the driving laser pulse. Specifically, these phenomena are observed simultaneously for laser pulses with intermediate pulse duration. For numerical evidence, we solve the time-dependent Schr\u00f6dinger equation, while insight into the underlying physics is obtained from a simplified analytically tractable model. Understanding the asymmetric characteristics reflected in the HHG as provided is crucial for retrieving laser-target information, sampling external fields, and probing molecular dynamics.         ",
+    "url": "https://arxiv.org/abs/2406.08786",
+    "authors": [
+      "Doan-An Trieu",
+      "Van-Hoang Le",
+      "Ngoc-Loan Phan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08821",
+    "title": "TNSA based proton acceleration by two oblique laser pulses in the presence of an axial magnetic field",
+    "abstract": "           A recently proposed strategy to boost the proton/ion cutoff energy in the target normal sheath acceleration scheme employs two obliquely incident laser pulses simultaneously irradiating the flat target rather than a single normally incident laser pulse of twice the pulse energy. Moreover, the presence of an externally applied magnetic field along the normal of the target's rear surface is known to reduce the angular divergence of hot electrons which results in a more efficient sheath field at the target rear leading to increased cutoff energy of accelerated protons/ions. In the present work, we employ two-dimensional Particle-In-Cell (PIC) simulations to examine, in detail, the effect of such a magnetic field on the cutoff energy of protons/ions in the cases of normal as well as oblique incidence of the laser pulse on a flat target. It is shown that the two-oblique-pulse configuration combined with an external magnetic field results in a stronger enhancement of the cutoff energies as compared to the normal incidence case.         ",
+    "url": "https://arxiv.org/abs/2406.08821",
+    "authors": [
+      "Imran Khan",
+      "Vikrant Saxena"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.08908",
+    "title": "Ultra-low Frequency Noise External Cavity Diode Laser Systems for Quantum Applications",
+    "abstract": "           We present two distinct ultra-low frequency noise lasers at 729 nm with a fast frequency noise of 30 Hz^2/Hz, corresponding to a Lorentzian linewidth of 0.1 kHz. The characteristics of both lasers, which are based on different types of laser diodes, are investigated using experimental and theoretical analysis with a focus on identifying the advantages and disadvantages of each type of system. Specifically, we study the differences and similarities in mode behaviour while tuning frequency noise and linewidth reduction. Furthermore, we demonstrate the locking capability of these systems on medium-finesse cavities. The results provide insights into the unique operational characteristics of these ultra-low noise lasers and their potential applications in quantum technology that require high levels of control fidelity.         ",
+    "url": "https://arxiv.org/abs/2406.08908",
+    "authors": [
+      "Niklas Kolodzie",
+      "Ivan Mirgorodskiy",
+      "Christian N\u00f6lleke",
+      "Piet O. Schmidt"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09352",
+    "title": "An optical atomic clock using $4D_J$ states of rubidium",
+    "abstract": "           We analyze an optical atomic clock using two-photon $5S_{1/2} \\rightarrow 4D_J$ transitions in rubidium. Four one- and two-color excitation schemes to probe the fine-structure states $4D_{3/2}$ and $4D_{5/2}$ are considered in detail. We compare key characteristics of Rb $4D_J$ and $5D_{5/2}$ two-photon clocks. The $4D_J$ clock features a high signal-to-noise ratio due to two-photon decay at favorable wavelengths, low dc electric and magnetic susceptibilities, and minimal black-body shifts. Ac Stark shifts from the clock interrogation lasers are compensated by two-color Rabi-frequency matching. We identify a \"magic\" wavelength near 1060~nm, which allows for in-trap, Doppler-free clock-transition interrogation with lattice-trapped cold atoms. From our analysis of clock statistics and systematics, we project a quantum-noise-limited relative clock stability at the $10^{-13}/\\sqrt{\\tau(s)}$-level, with integration time $\\tau$ in seconds, and a relative accuracy of $\\sim 10^{-13}$. We describe a potential architecture for implementing the proposed clock using a single telecom clock laser at 1550~nm, which is conducive to optical communication and long-distance clock comparisons. Our work could be of interest in efforts to realize small and portable Rb clocks and in high-precision measurements of atomic properties of Rb $4D_J$-states.         ",
+    "url": "https://arxiv.org/abs/2406.09352",
+    "authors": [
+      "Alisher Duspayev",
+      "Carlos Owens",
+      "Bineet Dash",
+      "Georg Raithel"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09149",
+    "title": "Structural changes in Ge1-xSnx and Si1-x-yGeySnx thin films on SOI substrates treated by pulse laser annealing",
+    "abstract": "           Ge1-xSnx and Si1-x-yGeySnx alloys are promising materials for future opto- and nanoelectronics applications. These alloys enable effective band-gap engineering, broad adjustability of their lattice parameter, exhibit much higher carrier mobility than pure Si, and are compatible with the CMOS technology. Unfortunately, the equilibrium solid solubility of Sn in Si1-xGex is less than 1% and the pseudomorphic growth of Si1-x-yGeySnx on Ge or Si can cause in-plane compressive strain in the grown layer, degrading the superior properties of these alloys. Therefore, post-growth strain engineering by ultrafast non-equilibrium thermal treatments like pulse laser annealing (PLA) is needed to improve the layer quality. In this article, Ge0.94Sn0.06 and Si0.14Ge0.8Sn0.06 thin films grown on silicon-on-insulator substrates by molecular beam epitaxy were post growth thermally treated by PLA. The material is analyzed before and after the thermal treatments by transmission electron microscopy, X-ray diffraction (XRD), Rutherford backscattering spectrometry, secondary ion mass spectrometry, and Hall effect measurements. It is shown that after annealing, the material is single-crystalline with improved crystallinity than the as-grown layer. This is reflected in a significantly increased XRD reflection intensity, well-ordered atomic pillars, and increased active carrier concentrations up to 4x1019 cm-3.         ",
+    "url": "https://arxiv.org/abs/2406.09149",
+    "authors": [
+      "Oliver Steuer",
+      "Daniel Schwarz",
+      "Michael Oehme",
+      "Florian B\u00e4rwolf",
+      "Yu Cheng",
+      "Fabian Ganss",
+      "Ren\u00e9 H\u00fcbner",
+      "Ren\u00e9 Heller",
+      "Shengqiang Zhou",
+      "Manfred Helm",
+      "Gianaurelio Cuniberti",
+      "Yordan M. Georgiev",
+      "Slawomir Prucnal"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09158",
+    "title": "Free-space quantum information platform on a chip",
+    "abstract": "           Emerging technologies that employ quantum physics offer fundamental enhancements in information processing tasks, including sensing, communications, and computing. Here, we introduce the quantum phased array, which generalizes the operating principles of phased arrays and wavefront engineering to quantum fields, and report the first quantum phased array technology demonstration. An integrated photonic-electronic system is used to manipulate free-space quantum information to establish reconfigurable wireless quantum links in a standalone, compact form factor. Such a robust, scalable, and integrated quantum platform can enable broad deployment of quantum technologies with high connectivity, potentially expanding their use cases to real-world applications. We report the first, to our knowledge, free-space-to-chip interface for quantum links, enabled by 32 metamaterial antennas with more than 500,000 sub-wavelength engineered nanophotonic elements over a 550 x 550 $\\mathrm{\\mu m}^2$ physical aperture. We implement a 32-channel array of quantum coherent receivers with 30.3 dB shot noise clearance and 90.2 dB common-mode rejection ratio that downconverts the quantum optical information via homodyne detection and processes it coherently in the radio-frequency domain. With our platform, we demonstrate 32-pixel imaging of squeezed light for quantum sensing, reconfigurable free-space links for quantum communications, and proof-of-concept entanglement generation for measurement-based quantum computing. This approach offers targeted, real-time, dynamically-adjustable free-space capabilities to integrated quantum systems that can enable wireless quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2406.09158",
+    "authors": [
+      "Volkan Gurses",
+      "Samantha I. Davis",
+      "Neil Sinclair",
+      "Maria Spiropulu",
+      "Ali Hajimiri"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09340",
+    "title": "Prospects for NMR Spectral Prediction on Fault-Tolerant Quantum Computers",
+    "abstract": "           Nuclear magnetic resonance spectroscopy is a prominent analytical tool, with applications throughout chemistry, medicine and solid-state physics. While conventional NMR spectrometers require large magnetic fields to interrogate a sample, recent advances in atomic magnetometry have enabled this spectroscopy far below geomagnetic field strengths. This zero-to-ultralow (ZULF) field regime can be advantageous since it mitigates relaxation and reveals spin couplings that are otherwise obscured, all while using compact and lower-overhead instrumentation. The resulting spectra are nonetheless difficult to interpret without computation, which can be taxing due to the presence of vector couplings and long-range spin networks. Following recent proposals, we demonstrate how fault-tolerant quantum computation could be used to simulate these spectra. Our analysis spans from input selection to the construction of explicit circuits based on qubitized quantum dynamics. By maintaining parity with experimental requirements, we demonstrate how NMR spectral prediction might be an early application for fault-tolerant quantum computers.         ",
+    "url": "https://arxiv.org/abs/2406.09340",
+    "authors": [
+      "Justin E. Elenewski",
+      "Christina M. Camara",
+      "Amir Kalev"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.16491",
+    "title": "Space-time Metallic Metasurfaces for Frequency Conversion and Beamforming",
+    "abstract": "           This paper details a class of metal-based space-time metasurfaces for application in wireless communications scenarios. Concretely, we describe space-time metasurfaces that periodically alternate their properties in time between three spatial states: \"air\", \"conductor\" and \"grating\". We analyze the physics of these metastructures via a computationally-efficient analytical technique based on the use of Floquet-Bloch series, integral equations and circuit models. By doing so, we reveal important features of these spatiotemporal metasurfaces: scattering parameters, field profiles, diffraction angles and nature of the space-time harmonics. The results, corroborated with a self-implemented numerical FDTD approach, show the potential application of these space-time metasurfaces as beamformers acting in reflection, in transmission or both. The amplitude and direction of the diffracted orders can be electronically controlled with the paramaters of the metasurface. Moreover, the intrinsic ability of time-modulated diffractive metasurfaces to mix and multiply frequencies is tested. We show how two different modulations can lead to the same diffraction angle but with different mixed output frequencies.         ",
+    "url": "https://arxiv.org/abs/2312.16491",
+    "authors": [
+      "Salvador Moreno-Rodr\u00edguez",
+      "Antonio Alex-Amor",
+      "Pablo Padilla",
+      "Juan F. Valenzuela-Vald\u00e9s",
+      "Carlos Molero"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.03493",
+    "title": "Polarization-entangled photon pair generation from an epsilon-near-zero metasurface",
+    "abstract": "           Polarization-entangled photon pair sources are essential for diverse quantum technologies, such as quantum communication, computation, and imaging. However, the generation of complex polarization-entangled quantum states has long been constrained by the available nonlinear susceptibility tensor of natural nonlinear crystals, necessitating a cumbersome and intricate setup for additional coherent superposition or post-selection. In this study, we introduce and experimentally demonstrate a nanoscale polarization-entangled photon pair source utilizing an artificially-engineered metamaterial platform. This platform is based on a plasmonic metasurface that is strongly coupled to an epsilon-near-zero (ENZ) material. By precisely engineering resonances at both pump and signal/idler wavelengths, and leveraging the field enhancement provided by the ENZ effect, the photon pair generation efficiency of the 68-nm-thick metasurface is significantly boosted. More notably, the ENZ metasurface platform facilitates versatile manipulation of the system's anisotropic second-order nonlinear susceptibility tensor, enabling direct control over the polarization states of the photon pairs, which leads to the generation of a polarization-entangled Bell state without the need for additional components. Our approach opens a new avenue for the simultaneous photon pair generation and quantum state engineering in a compact platform.         ",
+    "url": "https://arxiv.org/abs/2405.03493",
+    "authors": [
+      "Wenhe Jia",
+      "Gr\u00e9goire Saerens",
+      "\u00dclle-Linda Talts",
+      "Helena Weigand",
+      "Robert J. Chapman",
+      "Liu Li",
+      "Rachel Grange",
+      "Yuanmu Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.06336",
+    "title": "Propagation in rough waveguides: Forward and inverse problems",
+    "abstract": "           We discuss here the direct and inverse problems for wave propagation in a waveguide with rough internal surface and arbitrary mean shape. The high degree of multiple scattering inside the waveguide poses significant challenges both for the forward computation and for the recovery of the surface profile, and raises important questions about scattering cross-sections. This paper falls into two parts corresponding to these issues. We first apply Left-Right (L-R) operator splitting to calculate the scattered fields in 2- and 3-dimensional waveguides. Using this we illustrate the scattered fields and the effect of surface roughness. In the second part we formulate an algorithm for surface recovery from field measurements along the waveguide axis, which generalises recent work on surfaces in 2 dimensions. This method utilizes forward scattering assumptions in effect by formulating an integral equation in the unknown surface field, treated as a function of the surface. Although discussed in the context of waveguides, the formulae are given in a form applicable to a variety of geometries, with coefficients which will depend on and be determined by each specific application.         ",
+    "url": "https://arxiv.org/abs/2406.06336",
+    "authors": [
+      "Mark Spivack",
+      "Orsola Rath Spivack"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.06339",
+    "title": "Photon Number-Resolving Quantum Reservoir Computing",
+    "abstract": "           Neuromorphic processors improve the efficiency of machine learning algorithms through the implementation of physical artificial neurons to perform computations. However, whilst efficient classical neuromorphic processors have been demonstrated in various forms, practical quantum neuromorphic platforms are still in the early stages of development. Here we propose a fixed optical network for photonic quantum reservoir computing that is enabled by photon number-resolved detection of the output states. This significantly reduces the required complexity of the input quantum states while still accessing a high-dimensional Hilbert space. The approach is implementable with currently available technology and lowers the barrier to entry to quantum machine learning.         ",
+    "url": "https://arxiv.org/abs/2402.06339",
+    "authors": [
+      "Sam Nerenberg",
+      "Oliver D. Neill",
+      "Giulia Marcucci",
+      "Daniele Faccio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.14324",
+    "title": "Barium hexaferrite-based nanocomposites as Random Magnets for microwave absorption",
+    "abstract": "           The present work reports experimental evidence of random magnetic behavior observed in modified barium hexagonal ferrites. A significant transition in the magnetic properties of this system is observed when divalent cations (Ni2+, Cu2+, Mn2+) are introduced in the structure and give rise to a magnetic nanocomposite. Such introduction takes place in a random manner throughout each sample and creates the conditions for such materials to behave as random magnets. We verify the occurrence of such behavior in our samples by fitting the magnetization in approaching saturation to the corresponding theoretical model. We therefore analyze the microwave absorption capacities of random magnets in the GHz range and predict large and broad absorption signals under certain conditions. The findings presented here postulate, for the first time, ceramic materials as promising random magnets and underline their potential as microwave absorbers, in good agreement with recent theoretical models.         ",
+    "url": "https://arxiv.org/abs/2402.14324",
+    "authors": [
+      "Jaume Calvo-de la Rosa",
+      "Antoni Garc\u00eda-Santiago",
+      "Joan Manel Hern\u00e0ndez",
+      "Marc Vazquez-Aige",
+      "Jose Maria Lopez-Villegas",
+      "Javier Tejada"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
