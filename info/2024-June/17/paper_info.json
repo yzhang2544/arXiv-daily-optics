@@ -1,0 +1,296 @@
+[
+  {
+    "id": "arXiv:2406.09442",
+    "title": "An insertable glucose sensor using a compact and cost-effective phosphorescence lifetime imager and machine learning",
+    "abstract": "           Optical continuous glucose monitoring (CGM) systems are emerging for personalized glucose management owing to their lower cost and prolonged durability compared to conventional electrochemical CGMs. Here, we report a computational CGM system, which integrates a biocompatible phosphorescence-based insertable biosensor and a custom-designed phosphorescence lifetime imager (PLI). This compact and cost-effective PLI is designed to capture phosphorescence lifetime images of an insertable sensor through the skin, where the lifetime of the emitted phosphorescence signal is modulated by the local concentration of glucose. Because this phosphorescence signal has a very long lifetime compared to tissue autofluorescence or excitation leakage processes, it completely bypasses these noise sources by measuring the sensor emission over several tens of microseconds after the excitation light is turned off. The lifetime images acquired through the skin are processed by neural network-based models for misalignment-tolerant inference of glucose levels, accurately revealing normal, low (hypoglycemia) and high (hyperglycemia) concentration ranges. Using a 1-mm thick skin phantom mimicking the optical properties of human skin, we performed in vitro testing of the PLI using glucose-spiked samples, yielding 88.8% inference accuracy, also showing resilience to random and unknown misalignments within a lateral distance of ~4.7 mm with respect to the position of the insertable sensor underneath the skin phantom. Furthermore, the PLI accurately identified larger lateral misalignments beyond 5 mm, prompting user intervention for re-alignment. The misalignment-resilient glucose concentration inference capability of this compact and cost-effective phosphorescence lifetime imager makes it an appealing wearable diagnostics tool for real-time tracking of glucose and other biomarkers.         ",
+    "url": "https://arxiv.org/abs/2406.09442",
+    "authors": [
+      "Artem Goncharov",
+      "Zoltan Gorocs",
+      "Ridhi Pradhan",
+      "Brian Ko",
+      "Ajmal Ajmal",
+      "Andres Rodriguez",
+      "David Baum",
+      "Marcell Veszpremi",
+      "Xilin Yang",
+      "Maxime Pindrys",
+      "Tianle Zheng",
+      "Oliver Wang",
+      "Jessica C. Ramella-Roman",
+      "Michael J. McShane",
+      "Aydogan Ozcan"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09448",
+    "title": "The points of space are not points: their wavefunctions remove the ultraviolet divergences of quantum field theory",
+    "abstract": "           The points $p(x)$ of space are observables that obey quantum mechanics with average values $\\langle p(x) \\rangle$ that obey general relativity. In empty flat 3-space, a point $p(x)$ may be represented as the sum $ \\boldsymbol p(x) = \\langle \\boldsymbol p(x) \\rangle+ \\boldsymbol \\epsilon(x)$ of its average value $\\langle \\boldsymbol p(x) \\rangle = \\boldsymbol x$ and its quantum remainder $ \\boldsymbol \\epsilon(x)$. The ubiquitous Fourier exponential $\\exp( i \\boldsymbol k \\cdot \\boldsymbol p(x))$ is then $\\exp( i \\boldsymbol k \\cdot ( \\boldsymbol x + \\boldsymbol \\epsilon))$. If the probability distribution of the quantum remainders $ \\boldsymbol \\epsilon(x)$ is normal and of width $\\sigma$, then the average of the exponential $\\langle \\exp(i \\boldsymbol k ( \\boldsymbol x + \\boldsymbol \\epsilon ) \\rangle$ contains a gaussian factor $ \\exp( - \\sigma^2 \\boldsymbol k^2/2 ) $ which makes self-energies, Feynman diagrams and dark energy ultraviolet finite. This complex of ideas requires new bosons and suggests that supersymmetry is softly broken.         ",
+    "url": "https://arxiv.org/abs/2406.09448",
+    "authors": [
+      "Kevin Cahill"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "High Energy Physics - Theory (hep-th)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09450",
+    "title": "Grover's algorithm on two-way quantum computer",
+    "abstract": "           Two-way quantum computing (2WQC) represents a novel approach to quantum computing that introduces a CPT version of state preparation. This paper analyses the influence of this approach on Grover's algorithm and compares the behaviour of typical Grover and its 2WQC version in the presence of noise in the system. Our findings indicate that, in an ideal scenario without noise, the 2WQC Grover algorithm exhibits a constant complexity of $\\mathcal{O}(1)$. In the presence of noise, the 2WQC Grover algorithm demonstrates greater resilience to different noise models than the standard Grover's algorithm.         ",
+    "url": "https://arxiv.org/abs/2406.09450",
+    "authors": [
+      "Grzegorz Czelusta"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09452",
+    "title": "On the Relative Nature of Quantum Individuals",
+    "abstract": "           In this work we argue against the interpretation that underlies the \"Standard\" account of Quantum Mechanics (SQM) that was established during the 1930s by Niels Bohr and Paul Dirac. Ever since, following this orthodox narrative, physicists have dogmatically proclaimed -- quite regardless of the deep contradictions and problems -- that the the theory of quanta describes a microscopic realm composed of elementary particles (such as electrons, protons and neutrons) which underly our macroscopic world composed of tables, chairs and dogs. After critically addressing this atomist dogma still present today in contemporary (quantum) physics and philosophy, we present a new understanding of quantum individuals defined as the minimum set of relations within a specific degree of complexity capable to account for all relations within that same degree. In this case, quantum individuality is not conceived in absolute terms but -- instead -- as an objectively relative concept which even though depends of the choice of bases and factorizations remain nonetheless part of the same invariant representation.         ",
+    "url": "https://arxiv.org/abs/2406.09452",
+    "authors": [
+      "Christian de Ronde",
+      "Raimundo Fern\u00e1ndez Mouj\u00e1n",
+      "C\u00e9sar Massri"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09466",
+    "title": "Diffuse optical tomography in time domain with the inverse Rytov series",
+    "abstract": "           The Rytov approximation has been commonly used to obtain reconstructed images for optical tomography. However, the method requires linearization of the nonlinear inverse problem. Here, we demonstrate nonlinear Rytov approximations by developing the inverse Rytov series for the time-dependent diffusion equation. The method is experimentally verified.         ",
+    "url": "https://arxiv.org/abs/2406.09466",
+    "authors": [
+      "Chi Zhang",
+      "Manabu Machida"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09533",
+    "title": "Investigation of Q degradation in low-loss Si3N4 from heterogeneous laser integration",
+    "abstract": "           High-performance, high-volume-manufacturing Si3N4 photonics requires extremely low waveguide losses augmented with heterogeneously integrated lasers for applications beyond traditional markets of high-capacity interconnects. State-of-the-art quality factors (Q) over 200 million at 1550 nm have been shown previously; however, maintaining high Qs throughout laser fabrication has not been shown. Here, Si3N4 resonator intrinsic Qs over 100 million are demonstrated on a fully integrated heterogeneous laser platform. Qi is measured throughout laser processing steps, showing degradation down to 50 million from dry etching, metal evaporation, and ion implant steps, and controllable recovery to over 100 million from annealing at 250C - 350C.         ",
+    "url": "https://arxiv.org/abs/2406.09533",
+    "authors": [
+      "Joel Guo",
+      "Chao Xiang",
+      "Warren Jin",
+      "Jonathan Peters",
+      "Mingxiao Li",
+      "Theodore Morin",
+      "Yu Xia",
+      "John E. Bowers"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09934",
+    "title": "Generation of THz waves through interaction of the wakefield of two-color laser pulses with magnetized plasma",
+    "abstract": "           The present study explores radiation in THz spectrum region through the interaction of the wakefield of two-color laser pulses with magnetized plasma. The interaction of the two-color laser with plasma electrons induces transverse nonlinear current in two dimensions, resulting in generation of a wakefield and a forward wave. The investigation revealed that during the non-relativistic regime of laser-plasma interaction, interdependence exists between the electric fields of the forward wave and the wake. Conversely, in the relativistic regime, the dynamic of interaction changes, and plasma electrons are influenced not only by the electric field of the laser pulse but also by relativistic effects like Lorentz contraction, responding to both the electric and magnetic field components. This leads to generation of wake and forward wave radiations. The interplay between various laser and plasma parameters is analyzed, shedding light on the conditions leading to radiation angular distribution patterns in the forward and backward directions. The impact of spatial laser profile, a DC external magnetic field, polarization states, and plasma interaction length on the generated wake and forward wave patterns has been investigated. Through systematic variation of these parameters, the objective is to elucidate the controlled directional features of the resulting fields and radiation patterns.         ",
+    "url": "https://arxiv.org/abs/2406.09934",
+    "authors": [
+      "A. A. Molavi Choobini",
+      "F. M. Aghamir"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.10026",
+    "title": "Retiming dynamics of harmonically modelocked laser solitons in a self-driven optomechanical lattice",
+    "abstract": "           Harmonic mode-locking, realized actively or passively, is an effective technique for increasing the repetition rate of lasers, with important applications in optical sampling, laser micro-machining and frequency metrology. It is critically important to understand how a harmonically mode-locked pulse train responds to external perturbations and noise, so as to make sure that it is stable and resistant to noise. Here, in a series of carefully designed experiments, we elucidate the retiming dynamics of laser pulses generated in a soliton fiber laser harmonically mode-locked at ~2 GHz to the acoustic resonance in a photonic crystal fiber (PCF) core. We characterize the self-driven optomechanical lattice along the PCF using a homodyne set-up, and reveal that each soliton undergoes damped oscillatory retiming within its trapping potential after an abrupt perturbation. In addition we show, through statistical analysis of the intra-cavity pulse spacing, how the trapping potentials are effective for suppressing timing jitter. The experimental results are well described using a dynamic model including dissipation, which provides valuable insight into the stability and noise performance of optomechanically mode-locked laser systems, and may also be useful for studying complex inter-soliton interactions.         ",
+    "url": "https://arxiv.org/abs/2406.10026",
+    "authors": [
+      "Xiaocong Wang",
+      "Benhai Wang",
+      "Wenbin He",
+      "Xintong Zhang",
+      "Qi Huang",
+      "Zhiyuan Huang",
+      "Xin Jiang",
+      "Philip St.J.Russell",
+      "Meng Pang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.10046",
+    "title": "In-situ aligned all-polarization-maintaining Er-doped fiber laser mode-locked by a nonlinear amplifying loop mirror",
+    "abstract": "           Despite the wide applications for high-repetition-rate mode-locked fiber lasers, challenges persist in shortening the cavity length and coupling the fiber collimators for most existing techniques. Here, we introduce a novel collimator alignment method and demonstrate an all-polarization-maintaining erbium-doped fiber laser that contains a nonlinear amplifying loop mirror with a repetition rate of 213 MHz. Compared to the conventional method, we achieve in-situ alignment of the collimators in a simplified two-step process. Besides, through a comparison of the spectra from the output ports of the laser, we assess their quality and establish the spectral evolution relationships among these ports. It is found that, in addition to the widely believed large nonlinear effects, spectral interference also plays a significant role in spectral distortion. Moreover, a transition between different stability states is observed from the power variation of the single pulse.         ",
+    "url": "https://arxiv.org/abs/2406.10046",
+    "authors": [
+      "Xiang Zhang",
+      "Kangrui Chang",
+      "Haobin Zheng",
+      "Yongzhuang Zhou",
+      "Yong Shen",
+      "Hongxin Zou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09542",
+    "title": "Correlating two qubits via common cavity environment",
+    "abstract": "           Generation of quantum entanglement between a pair of qubits is studied in a cavity-QED platform. The qubit pair is placed inside a common cavity environment. We show that the relative strength of qubit-photon couplings is crucial for establishing inter-qubit entanglement. Resonance as well as off-resonance between the qubits and photon are considered . For off-resonant case we detect a threshold value of coupling ratio, beyond which maximally entangled state is always available. The resonant case displays interesting non-monotonic behavior, where the maximum entanglement peaks at an intermediate coupling ratio. The driven-dissipative dynamics of our model exhibits non-trivial dependence of steady-state entanglement on the drive strength.         ",
+    "url": "https://arxiv.org/abs/2406.09542",
+    "authors": [
+      "Amit Dey"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.09930",
+    "title": "Integration of through-sapphire substrate machining with superconducting quantum processors",
+    "abstract": "           We demonstrate a sapphire machining process integrated with intermediate-scale quantum processors. The process allows through-substrate electrical connections, necessary for low-frequency mode-mitigation, as well as signal-routing, which are vital as quantum computers scale in qubit number, and thus dimension. High-coherence qubits are required to build fault-tolerant quantum computers and so material choices are an important consideration when developing a qubit technology platform. Sapphire, as a low-loss dielectric substrate, has shown to support high-coherence qubits. In addition, recent advances in material choices such as tantalum and titanium-nitride, both deposited on a sapphire substrate, have demonstrated qubit lifetimes exceeding 0.3 ms. However, the lack of any process equivalent of deep-silicon etching to create through-substrate-vias in sapphire, or to inductively shunt large dies, has limited sapphire to small-scale processors, or necessitates the use of chiplet architecture. Here, we present a sapphire machining process that is compatible with high-coherence qubits. This technique immediately provides a means to scale QPUs with integrated mode-mitigation, and provides a route toward the development of through-sapphire-vias, both of which allow the advantages of sapphire to be leveraged as well as facilitating the use of sapphire-compatible materials for large-scale QPUs.         ",
+    "url": "https://arxiv.org/abs/2406.09930",
+    "authors": [
+      "Narendra Acharya",
+      "Robert Armstrong",
+      "Yashwanth Balaji",
+      "Kevin G Crawford",
+      "James C Gates",
+      "Paul C Gow",
+      "Oscar W Kennedy",
+      "Renuka Devi Pothuraju",
+      "Kowsar Shahbazi",
+      "Connor D Shelly"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.10027",
+    "title": "Resonant analogue configurations in atomic condensates",
+    "abstract": "           As a contribution to a memorial volume, we provide a comprehensive discussion of resonant configurations in analogue gravity, focusing on its implementation in atomic condensates and combining review features with original insights and calculations. In particular, we analyze the analogues of the Andreev and Hawking effects using a microscopic description based on the Bogoliubov approximation. We contemplate several resonant scenarios whose efficiency to enhance anomalous scattering processes is compared to that of non-resonant setups. The presence of quantum signatures in analogue configurations, such as the violation of Cauchy-Schwarz inequalities or entanglement, is analyzed, observing that resonant configurations highly increase the entanglement signal, especially for the Andreev effect. We also discuss how these results have served as inspiration for the rapidly expanding field of quantum information in high-energy colliders. Finally, we study the physics of black-hole lasers as further examples of resonant analogue structures, distinguishing three stages in its time evolution. For short times, we compute the linear and non-linear spectrum for different models. For intermediate times, we generalize the current analysis of the BHL-BCL crossover. For long times, we discuss the emerging concept of spontaneous Floquet state and its potential implications.         ",
+    "url": "https://arxiv.org/abs/2406.10027",
+    "authors": [
+      "Juan Ram\u00f3n Mu\u00f1oz de Nova",
+      "Pablo Fern\u00e1ndez Palacios",
+      "Pedro Alc\u00e1zar Guerrero",
+      "Ivar Zapata",
+      "Fernando Sols"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2302.12825",
+    "title": "Near-field Imaging of Optical Resonances in Silicon Metasurfaces Using Photoelectron Microscopy",
+    "abstract": "           Precise control of light-matter interactions at the nanoscale lies at the heart of nanophotonics. Experimental examination at this length scale is challenging, however, since the corresponding electromagnetic near-field is often confined within volumes below the resolution of conventional optical microscopy. In semiconductor nanophotonics electromagnetic fields are further restricted within the confines of individual subwavelength resonators, limiting access to critical light-matter interactions in these structures. In this work, we demonstrate that photoelectron emission microscopy (PEEM) can be used for polarization resolved near-field spectroscopy and imaging of electromagnetic resonances supported by broken-symmetry silicon metasurfaces. We find that the photoemission results, enabled through an in-situ potassium surface layer, are consistent with full-wave simulations and far-field reflectance measurements across visible and near-infrared wavelengths. In addition, we uncover a polarization dependent evolution of collective resonances near the metasurface array edge taking advantage of the far-field excitation and full-field imaging of PEEM. Here, we deduce that coupling between eight resonators or more establishes the collective excitations of this metasurface. All told, we demonstrate that the high-spatial resolution hyperspectral imaging and far-field illumination of PEEM can be leveraged for the metrology of collective, non-local, optical resonances in semiconductor nanophotonic structures.         ",
+    "url": "https://arxiv.org/abs/2302.12825",
+    "authors": [
+      "Alex Boehm",
+      "Sylvain D. Gennaro",
+      "Chloe F. Doiron",
+      "Thomas E. Beechem",
+      "Michael B. Sinclair",
+      "Igal Brener",
+      "Raktim Sarma",
+      "Taisuke Ohta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.01345",
+    "title": "The Superconducting Quasiparticle-Amplifying Transmon: A Qubit-Based Sensor for meV Scale Phonons and Single THz Photons",
+    "abstract": "           With great interest from the quantum computing community, an immense amount of R&D effort has been invested into improving superconducting qubits. The technologies developed for the design and fabrication of these qubits can be directly applied to applications for ultra-low threshold particle detectors, e.g. low-mass dark matter and far-IR photon sensing. We propose a novel sensor based on the transmon qubit architecture combined with a signal-enhancing superconducting quasiparticle amplification stage. We refer to these sensors as SQUATs: Superconducting Quasiparticle-Amplifying Transmons. We detail the operating principle and design of this new sensor and predict that with minimal R&D effort, solid-state based detectors patterned with these sensors can achieve sensitivity to single THz photons, and sensitivity to $1\\,\\mathrm{meV}$ phonons in the detector absorber substrate on the $\\mu\\mathrm{s}$ timescale.         ",
+    "url": "https://arxiv.org/abs/2310.01345",
+    "authors": [
+      "Caleb W. Fink",
+      "Chiara P. Salemi",
+      "Betty A. Young",
+      "David I. Schuster",
+      "Noah A. Kurinsky"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.07893",
+    "title": "Quantum computing of reacting flows via Hamiltonian simulation",
+    "abstract": "           We report the quantum computing of reacting flows by simulating the Hamiltonian dynamics. The scalar transport equation for reacting flows is transformed into a Hamiltonian system, mapping the dissipative and non-Hermitian problem in physical space to a Hermitian one in a higher-dimensional space. Using this approach, we develop the quantum spectral and finite difference methods for simulating reacting flows in periodic and general conditions, respectively. The present quantum computing algorithms offer a ``one-shot'' solution for a given time without temporal discretization, avoiding iterative quantum state preparation and measurement. We compare computational complexities of the quantum and classical algorithms. The quantum spectral method exhibits exponential acceleration relative to its classical counterpart, and the quantum finite difference method can achieve exponential speedup in high-dimensional problems. The quantum algorithms are validated on quantum computing simulators with the Qiskit package. The validation cases cover one- and two-dimensional reacting flows with a linear source term and periodic or inlet-outlet boundary conditions. The results obtained from the quantum spectral and finite difference methods agree with analytical and classical simulation results. They accurately capture the convection, diffusion, and reaction processes. This demonstrates the potential of quantum computing as an efficient tool for the simulation of reactive flows in combustion.         ",
+    "url": "https://arxiv.org/abs/2312.07893",
+    "authors": [
+      "Zhen Lu",
+      "Yue Yang"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00201",
+    "title": "Quantum Molecular Charge-Transfer Model for Multi-step Auger-Meitner Decay Cascade Dynamics",
+    "abstract": "           The fragmentation of molecular cations following inner-shell decay processes in molecules containing heavy elements underpins the x-ray damage effects observed in x-ray scattering measurements of biological and chemical materials, as well as in medical applications involving Auger-electron emitting radionuclides. Traditionally, these processes are modeled using simulations that describe the electronic structure at an atomic level, thereby omitting molecular bonding effects. This work addresses the gap by introducing a novel approach that couples a decay spawning dynamics algorithm with ab initio molecular dynamics simulations to characterize ultrafast dynamics on the potential energy surfaces. We apply our method to a model decay cascade following K-shell ionization of IBr and subsequent K\\b{eta} fluorescence decay. We examine two competing channels that undergo two decay steps, resulting in ion pairs with a total +3 charge state. This approach provides a continuous description of the electron transfer dynamics occurring during the multi-step decay cascade and molecular fragmentation, revealing the combined inner-shell decay and charge transfer timescale to be approximately 75 fs. Our computed kinetic energies of ion fragments show good agreement with experimental data.         ",
+    "url": "https://arxiv.org/abs/2406.00201",
+    "authors": [
+      "Adam E. A. Fouda",
+      "Stephen H. Southworth",
+      "Phay J. Ho"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.16003",
+    "title": "The tilted-plane structure of the energy of finite quantum systems",
+    "abstract": "           The piecewise linearity condition on the total energy with respect to the total magnetization of finite quantum systems is derived, using the infinite-separation-limit technique. This generalizes the well-known constancy condition, related to static correlation error, in approximate density functional theory (DFT). The magnetic analog of the DFT Koopmans' theorem is also derived. Moving to fractional electron count, the tilted plane condition is derived, lifting certain assumptions in previous works. This generalization of the flat plane condition characterizes the total energy surface of a finite system for all values of electron count N and magnetization M. This result is used in combination with tabulated spectroscopic data to show the flat plane-structure of the oxygen atom, among others. We find that derivative discontinuities with respect to electron count sometimes occur at non-integer values. A diverse set of tilted plane structures is shown to occur in d-orbital subspaces, depending on chemical coordination. General occupancy-based total-energy expressions are demonstrated thereby to be necessarily dependent on the symmetry-imposed degeneracies.         ",
+    "url": "https://arxiv.org/abs/2307.16003",
+    "authors": [
+      "Andrew C. Burgess",
+      "Edward Linscott",
+      "David D. O'Regan"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
