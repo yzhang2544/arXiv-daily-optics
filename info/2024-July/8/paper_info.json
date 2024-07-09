@@ -1,0 +1,597 @@
+[
+  {
+    "id": "arXiv:2407.03358",
+    "title": "The Radical Pair Mechanism Cannot Explain Telecommunication Frequency Effects on Reactive Oxygen Species",
+    "abstract": "           In order to investigate whether the radical pair mechanism (RPM) can explain the effects of telecommunication frequency radiation on reactive oxygen species production, we modelled the effects of oscillating magnetic fields on radical pair systems. Our analysis indicates that the RPM cannot account for the biological effects observed under exposure to telecommunication frequencies due to negligible effects under low-amplitude conditions used in experimental setups. Observable effects on radical pairs at these frequencies would require hyperfine coupling constants that are precisely fine-tuned to large values that far exceed those naturally occurring within biological systems. We conclude that some other mechanism must be responsible for the effects of telecommunication frequency fields in biological systems.         ",
+    "url": "https://arxiv.org/abs/2407.03358",
+    "authors": [
+      "Owaiss Talbi",
+      "Hadi Zadeh-Haghighi",
+      "Christoph Simon"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03443",
+    "title": "Barium Titanate and Lithium Niobate Permittivity and Pockels Coefficients from MHz to Sub-THz Frequencies",
+    "abstract": "           The Pockels effect is essential for controlling optical signals at the highest speeds. We present the first measurements of the Pockels coefficients and permittivity in lithium niobate (LN) and barium titanate (BTO) over a continuous frequency range from 100 MHz to 330 GHz. These properties are constant across this frequency range in LN but have a significant frequency dependence in BTO. Still, our measurements show that BTO ($\\varepsilon$ = 1136, $r_{42}$ = 481 pm/V, $r_{33}$ = 125 pm/V at 100 MHz, $\\varepsilon$ = 453, $r_{42}$ = 191 pm/V, $r_{33}$ = 60 pm/V at 330 GHz) has remarkably large electro-optic properties compared to LN ($\\varepsilon$ = 27, $r_{42}$ = 15 pm/V, $r_{33}$ = 27 pm/V). Furthermore, we show how BTO devices can be designed with a flat electro-optic frequency response despite the Pockels coefficient dispersion. Finally, we expound our method for broadband characterization of these vital electro-optic properties, utilizing specialized integrated electro-optic phase shifters. Altogether, this work is foundational to designing high-speed BTO devices and to developing new electro-optic materials.         ",
+    "url": "https://arxiv.org/abs/2407.03443",
+    "authors": [
+      "Daniel Chelladurai",
+      "Manuel Kohli",
+      "Joel Winiger",
+      "David Moor",
+      "Andreas Messner",
+      "Yuriy Fedoryshyn",
+      "Mohammed Eleraky",
+      "Yuqi Liu",
+      "Hua Wang",
+      "Juerg Leuthold"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03448",
+    "title": "Accurate nuclear quantum statistics on machine-learned classical effective potentials",
+    "abstract": "           The contribution of nuclear quantum effects (NQEs) to the properties of various hydrogen-bound systems, including biomolecules, is increasingly recognized. Despite the development of many acceleration techniques, the computational overhead of incorporating NQEs in complex systems is sizable, particularly at low temperatures. In this work, we leverage deep learning and multiscale coarse-graining techniques to mitigate the computational burden of path integral molecular dynamics (PIMD). Specifically, we employ a machine-learned potential to accurately represent corrections to classical potentials, thereby significantly reducing the computational cost of simulating NQEs. We validate our approach using four distinct systems: Morse potential, Zundel cation, single water molecule, and bulk water. Our framework allows us to accurately compute position-dependent static properties, as demonstrated by the excellent agreement obtained between the machine-learned potential and computationally intensive PIMD calculations, even in the presence of strong NQEs. This approach opens the way to the development of transferable machine-learned potentials capable of accurately reproducing NQEs in a wide range of molecular systems.         ",
+    "url": "https://arxiv.org/abs/2407.03448",
+    "authors": [
+      "Iryna Zaporozhets",
+      "F\u00e9lix Musil",
+      "Venkat Kapil",
+      "Cecilia Clementi"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03607",
+    "title": "Efficient Inverse Design of Plasmonic Patch Nanoantennas using Deep Learning",
+    "abstract": "           Plasmonic nanoantennas with suitable far-field characteristics are of huge interest for utilization in optical wireless links, inter-/intra-chip communications, LiDARs, and photonic integrated circuits due to their exceptional modal confinement. Despite its success in shaping robust antenna design theories in radio frequency and millimeter-wave regimes, conventional transmission line theory finds its validity diminished in the optical frequencies, leading to a noticeable void in a generalized theory for antenna design in the optical domain. By utilizing neural networks and through a one-time training of the network, one can transform the plasmonic nanoantennas design into an automated, data-driven task. In this work, we have developed a multi-head deep convolutional neural network serving as an efficient inverse-design framework for plasmonic patch nanoantennas. Our framework is designed with the main goal of determining the optimal geometries of nanoantennas to achieve the desired (inquired by the designer) S 11 and radiation pattern simultaneously. The proposed approach preserves the one-to-many mappings, enabling us to generate diverse designs. In addition, apart from the primary fabrication limitations that were considered while generating the dataset, further design and fabrication constraints can also be applied after the training process. In addition to possessing an exceptionally rapid surrogate solver capable of predicting S 11 and radiation patterns throughout the entire design frequency spectrum, we are introducing what we believe to be the pioneering inverse design network.         ",
+    "url": "https://arxiv.org/abs/2407.03607",
+    "authors": [
+      "Saeed Hemayat",
+      "Sina Moayed Baharlou",
+      "Alexander Sergienko",
+      "Abdoulaye Ndao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03688",
+    "title": "Adaptive sampling strategy for tolerance analysis of freeform optical surfaces based on critical ray aiming",
+    "abstract": "           The tolerance analysis of freeform surfaces plays a crucial role in the development of advanced imaging systems. However, the intricate relationship between surface error and imaging quality poses significant challenges, necessitating dense sampling of featured rays during the computation process to ensure an accurate tolerance for different fields of view (FOVs). Here, we propose an adaptive sampling strategy called \"Critical Ray Aiming\" for surface tolerance analysis. By identifying the most sensitive ray to wave aberration at each surface point, our methodology facilitates flexible sampling of the FOVs and entrance pupil (EP), achieving computational efficiency without compromising accuracy in determining tolerable surface error. We demonstrate the effectiveness of our method through tolerance analysis of two different freeform imaging systems.         ",
+    "url": "https://arxiv.org/abs/2407.03688",
+    "authors": [
+      "Rundong Fan",
+      "Shili Wei",
+      "Zhuang Qian",
+      "Huiru Ji",
+      "Hao Tan",
+      "Yan Mo",
+      "Donglin Ma"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04060",
+    "title": "2.4-THz Bandwidth Optical Coherent Receiver Based on a Photonic Crystal Microcomb",
+    "abstract": "           We demonstrate a spectrally-sliced single-polarization optical coherent receiver with a record 2.4-THz bandwidth, using a 200-GHz tantalum pentoxide photonic crystal microring resonator as the local oscillator frequency comb.         ",
+    "url": "https://arxiv.org/abs/2407.04060",
+    "authors": [
+      "Callum Deakin",
+      "Jizhao Zang",
+      "Xi Chen",
+      "Di Che",
+      "Lauren Dallachiesa",
+      "Brian Stern",
+      "Nicolas K. Fontaine",
+      "Scott Papp"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04109",
+    "title": "Interacting Circular Rydberg Atoms Trapped in Optical Tweezers",
+    "abstract": "           Circular Rydberg atoms (CRAs), i.e., Rydberg atoms with maximal orbital momentum, ideally combine long coherence times and strong interactions, a key property of quantum systems, in particular for the development of quantum technologies. However, the dipole-dipole interaction between CRAs has not been observed so far. We report the measurement and characterization of the resonant dipole-dipole interaction between two CRAs, individually trapped in optical tweezers, and find excellent agreement with theoretical predictions. We demonstrate a dynamic control over the strength of the interaction by tuning the orientation of an electric field. We use the interaction between the CRAs as a meter for the interatomic distance, and record the relative motion between two atoms in their traps. This motion, that we induce through the interaction between Rydberg levels with permanent electric dipoles, transiently populated during the preparation of the circular states, is a signature of spin-motion coupling.         ",
+    "url": "https://arxiv.org/abs/2407.04109",
+    "authors": [
+      "Paul M\u00e9haignerie",
+      "Yohann Machu",
+      "Andr\u00e9s Dur\u00e1n Hern\u00e1ndez",
+      "Gautier Creutzer",
+      "David J. Papoular",
+      "Jean-Michel Raimond",
+      "Cl\u00e9ment Sayrin",
+      "Michel Brune"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04139",
+    "title": "Synchronous Comparison of Two Thulium Optical Clocks",
+    "abstract": "           The experimental comparison of two thulium optical lattice clocks in a time interval of up to one hour has been carried out. The synchronous comparison of a clock transition in two independent atomic ensembles using a single ultrastable laser has allowed us to eliminate fluctuations of the laser frequency from the measured frequency difference and to reach a relative measurement error of $10^{-16}$ after 500-s averaging, which corresponds to a relative instability of $2\\times10^{-15}/\\sqrt{\\tau}$. The successful demonstration of the long-term operation of two systems using the synchronous comparison of clock transitions opens the possibility of studying systematic shifts in thulium optical clocks with an uncertainty of $10^{-17}$.         ",
+    "url": "https://arxiv.org/abs/2407.04139",
+    "authors": [
+      "A. Golovizin",
+      "D. Mishin",
+      "D. Provorchenko",
+      "D. Tregubov",
+      "N. Kolachevsky"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04166",
+    "title": "Quantum Electrodynamics in Strong Electromagnetic Fields: Substate Resolved K$\\alpha$ Transition Energies in Helium-like Uranium",
+    "abstract": "           We recorded X-ray spectra of stored and electron cooled helium-like uranium (U$^{90+}$) with an unmatched spectral resolution of close to 90 eV, using novel metallic magnetic calorimeter detectors at CRYRING@ESR. This allowed for an accurate determination of the energies of all four components of the K$\\alpha$ transitions in U$^{90+}$. We find good agreement with state-of-the-art bound-state QED calculations for the strong-field regime. Our results do not support any systematic deviation between experiment and theory in helium-like systems, the presence of which was subject of intense debates in recent years.         ",
+    "url": "https://arxiv.org/abs/2407.04166",
+    "authors": [
+      "Philip Pf\u00e4fflein",
+      "G\u00fcnter Weber",
+      "Steffen Allgeier",
+      "Zoran Andelkovic",
+      "Sonja Bernitt",
+      "Andrey I. Bondarev",
+      "Alexander Borovik",
+      "Louis Duval",
+      "Andreas Fleischmann",
+      "Oliver Forstner",
+      "Marvin Friedrich",
+      "Jan Glorius",
+      "Alexandre Gumberidze",
+      "Christoph Hahn",
+      "Daniel Hengstler",
+      "Marc Oliver Herdrich",
+      "Frank Herfurth",
+      "Pierre-Michel Hillenbrand",
+      "Anton Kalinin",
+      "Markus Kiffer",
+      "Felix Martin Kr\u00f6ger",
+      "Maximilian Kubullek",
+      "Patricia Kuntz",
+      "Michael Lestinsky",
+      "Bastian L\u00f6her",
+      "Esther Babette Menz",
+      "Tobias Over",
+      "Nikolaos Petridis",
+      "Stefan Ringleb",
+      "Ragandeep Singh Sighu",
+      "Uwe Spillmann",
+      "Sergiy Trotsenko",
+      "Andrzej Warczak",
+      "Binghui Zhu",
+      "Christian Enss",
+      "Thomas St\u00f6hlker"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04502",
+    "title": "Longitudinal optical phonons in photonic time crystals containing a stationary charge",
+    "abstract": "           Lorentzian-type media support optical phonons that oscillate with longitudinal polarization parallel to the wave direction, at a wave vector-independent frequency at which the permittivity becomes zero. Here, we study the interactions between the longitudinal optical phonons and Lorentzian medium-based dispersive photonic time crystals (PTCs). We demonstrate that a stationary charge embedded in the PTCs can excite these longitudinal modes through the conversion of the static polarization field induced by the charge. Furthermore, the PTCs can develop a momentum bandgap across the entire wave vector space to amplify the longitudinal modes. Remarkably, this infinite momentum bandgap can be established with minimal temporal modulation of the refractive index when creating the PTCs. Our approach expands the range of waves that can be manipulated in PTCs and shows potential for observing momentum bandgap phenomenon in realistic optical experiments, where the modulation depth of the refractive index is severely constrained.         ",
+    "url": "https://arxiv.org/abs/2407.04502",
+    "authors": [
+      "Sihao Zhang",
+      "Junhua Dong",
+      "Huanan Li",
+      "Jingjun Xu",
+      "Boris Shapiro"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04564",
+    "title": "Crystal Growth, Terahertz Generation and Optical Characterization of Sodium Mesitylene Sulphonate (SMS)Crystal",
+    "abstract": "           An optically high-quality single crystal of sodium mesitylene sulfonate crystal was successfully grown by a slow evaporation method using methanol as solvent at room temperature. Single-crystal XRD has characterized the material and belongs to a monoclinic structure with a C2 space group. Functional groups were determined using Fourier-transformed infrared spectroscopy. The optical quality of the generated crystal was evaluated using UV-Vis NIR spectral analysis, which is transparent in the range of 300-1500 nm. We report the optical properties using terahertz time-domain spectroscopy (THz-TDS) and THz generation using crystal.         ",
+    "url": "https://arxiv.org/abs/2407.04564",
+    "authors": [
+      "Yamuna Murtunge",
+      "Vidhyadhar Patil",
+      "Ruturaj Puranik",
+      "Jayakrishnan S S",
+      "D Bansal",
+      "Arijit Maity",
+      "Ravindra Venkatramani",
+      "S.B. Kulkarni",
+      "A Thamizhavel",
+      "S.S. Prabhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04598",
+    "title": "Tunable kHz distributed feedback fiber laser enabled by glass additive-manufacturing",
+    "abstract": "           For short sections of fibers tailored to a specific application, fast laser-based manufacturing techniques can be an attractive alternative to the often-cumbersome traditional manufacturing routes. Short, high gain fibers can be used in e.g., distributed feedback fiber lasers (DFFL) that offer sought after performance suitable for a broad range of applications in modern photonics. DFFLs offer superior stability and narrower linewidth compared to conventional fiber lasers. Tunable, narrow laser sources with output in eye-safe spectrum are desired for sensing, signal multiplexing, LIDAR systems etc. In this work we present DFFL obtained using Laser-Powder-Deposition made Er-doped silica fiber. Milliwatt level, ultra-narrow laser line (less than 4 kHz) was obtained using phase-shifted grating in 16 mm long fiber. The backward slope efficiency was as high as 24% when pumping at 976 nm. The results presented in this work showcase new possibilities in fiber fabrication that were unlocked through laser-assisted AM. This fiber laser sets the stage for the future of rapid fabrication of advanced fiber devices through unconventional manufacturing routes.         ",
+    "url": "https://arxiv.org/abs/2407.04598",
+    "authors": [
+      "Pawel Maniewski",
+      "Alex I. Flint",
+      "Rex H. S. Bannerman",
+      "Timothy Lee",
+      "Martynas Beresna"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04628",
+    "title": "Optical wavefront shaping in deep tissue using photoacoustic feedback",
+    "abstract": "           Over the past decade, optical wavefront shaping has been developed to focus light through highly opaque scattering layers, opening new possibilities for biomedical applications. To probe light intensity deep inside soft scattering media such as biological tissues, internal guide-stars are required. Here, we give an overview of the main principles and describe in depth the use of a photoacoustic feedback signal for this purpose. We further present first principles calculations and simulations to estimate important experimental parameters, and detailed instructions on designing and conducting these experiments. Finally, we provide guidance towards selecting suitable equipment for building a typical experimental setup, paving the way for further innovative biomedical imaging and therapy applications.         ",
+    "url": "https://arxiv.org/abs/2407.04628",
+    "authors": [
+      "Fei Xia",
+      "Ivo Leite",
+      "Robert Prevedel",
+      "Thomas Chaigne"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03356",
+    "title": "AI Driven Laser Parameter Search: Inverse Design of Photonic Surfaces using Greedy Surrogate-based Optimization",
+    "abstract": "           Photonic surfaces designed with specific optical characteristics are becoming increasingly important for use in in various energy harvesting and storage systems. , In this study, we develop a surrogate-based optimization approach for designing such surfaces. The surrogate-based optimization framework employs the Random Forest algorithm and uses a greedy, prediction-based exploration strategy to identify the laser fabrication parameters that minimize the discrepancy relative to a user-defined target optical characteristics. We demonstrate the approach on two synthetic benchmarks and two specific cases of photonic surface inverse design targets. It exhibits superior performance when compared to other optimization algorithms across all benchmarks. Additionally, we demonstrate a technique of inverse design warm starting for changed target optical characteristics which enhances the performance of the introduced approach.         ",
+    "url": "https://arxiv.org/abs/2407.03356",
+    "authors": [
+      "Luka Grbcic",
+      "Minok Park",
+      "Juliane M\u00fcller",
+      "Vassilia Zorba",
+      "Wibe Albert de Jong"
+    ],
+    "subjectives": [
+      "Optimization and Control (math.OC)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03390",
+    "title": "Observation of Co-propagating Chiral Zero Modes in Magnetic Photonic Crystals",
+    "abstract": "           Topological singularities, such as Weyl points and Dirac points, can give rise to unidirectional propagation channels known as chiral zero modes (CZMs) when subject to a magnetic field. These CZMs are responsible for intriguing phenomena like the chiral anomaly in quantum systems. The propagation direction of each CZM is determined by both the applied magnetic field and the topological charge of the singularity point. While counter-propagating CZMs have been observed in 2D and 3D systems, the realization of co-propagating CZMs has remained elusive. Here we present the first experimental observation of co-propagating CZMs in magnetic photonic crystals hosting a single pair of ideal Weyl points WPs. By manipulating the crystal's structural configuration, we spatially alter the locations of the WPs, creating pseudo-magnetic fields in opposite directions between them. This arrangement results in a pair of CZMs that possess the same group velocity and co-propagate. Our work opens up new possibilities for topological manipulation of wave propagation and may lead to advancements in optical waveguides, switches, and various other applications.         ",
+    "url": "https://arxiv.org/abs/2407.03390",
+    "authors": [
+      "Zhongfu Li",
+      "Shaojie Ma",
+      "Shuwei Li",
+      "Oubo you",
+      "Yachao Liu",
+      "Qingdong Yang",
+      "Yuanjiang Xiang",
+      "Peiheng Zhou",
+      "Shuang Zhang"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03576",
+    "title": "Application of Magnus expansion for the quantum dynamics of $\\Lambda$-systems under periodic driving and assessment of the rotating wave approximation",
+    "abstract": "           Employing a sixth order expression for the differential time evolution operator based on the Magnus expansion (ME), we conducted quantum dynamics calculations of a $\\Lambda$-system driven by two sinusoidal time dependent fields. For a closed system dynamics, we confirmed the equivalence of the dynamics in the Hilbert space and the Liouville space numerically. We also conducted open system quantum dynamics calculation by generalizing the ME to the non-Hermitian dynamics in the Liouville space for the case where the effects of photonic bath are represented by Lindblad operators. In both cases, the accuracy of the rotating wave approximation (RWA) was assessed. We found significant errors of RWA during initial stages of the dynamics for representative cases where electromagnetically induced transparency or coherent population trapping can be observed. The presence of bath for open system quantum dynamics reduces the errors of RWA, but significant errors for off-diagonal elements of the density operator can still be seen. We also found that approaches to steady state limits of exact dynamics are slower than those for RWA. These results demonstrate the utility of the ME as a general and reliable tool for closed and open system quantum dynamics for time dependent Hamiltonians, and expose potential issues of drawing conclusions based solely on RWA.         ",
+    "url": "https://arxiv.org/abs/2407.03576",
+    "authors": [
+      "Taner M. Ture",
+      "Changbong Hyeon",
+      "Seogjoo J. Jang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03789",
+    "title": "Preliminary results of the Single Event Effect testing for the ULTRASAT sensors",
+    "abstract": "           ULTRASAT (ULtra-violet TRansient Astronomy SATellite) is a wide-angle space telescope that will perform a deep time-resolved all-sky survey in the near-ultraviolet (NUV) spectrum. The science objectives are the detection of counterparts to short-lived transient astronomical events such as gravitational wave sources and supernovae. The mission is led by the Weizmann Institute of Science and is planned for launch in 2026 in collaboration with the Israeli Space Agency and NASA. DESY will provide the UV camera, composed by the detector assembly located in the telescope focal plane and the remote electronics unit. The camera is composed out of four back-metallized CMOS Image Sensors (CIS) manufactured in the 4T, dual gain Tower process. As part of the radiation qualification of the camera, Single Event Effect (SEE) testing has been performed by irradiating the sensor with heavy ions at the RADEF, Jyvaskyla facility. Preliminary results of both Single Event Upset (SEU) and Single Event Latch-up (SEL) occurrence rate in the sensor are presented. Additionally, an in-orbit SEE rate simulation has been performed in order to gain preliminary knowledge about the expected effect of SEE on the mission.         ",
+    "url": "https://arxiv.org/abs/2407.03789",
+    "authors": [
+      "Vlad Dumitru Berlea",
+      "Arooj Asif",
+      "Merlin F. Barschke",
+      "David Berge",
+      "Juan Maria Haces Crespo",
+      "Gianluca Giavitto",
+      "Shashank Kumar",
+      "Andrea Porelli",
+      "Nicola de Simone",
+      "Jason Watson",
+      "Steven Worm",
+      "Francesco Zappon",
+      "Adi Birman",
+      "Shay Alfassi",
+      "Amos Feningstein",
+      "Eli Waxman",
+      "Udi Netzer",
+      "Tuvia Liran",
+      "Ofer Lapid",
+      "Viktor M. Algranatti",
+      "Yossi Schvartzvald"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.03845",
+    "title": "Noise analysis of a quasi-phase-matched quantum frequency converter and higher-order counter-propagating SPDC",
+    "abstract": "           Quantum frequency conversion (QFC) will be an indispensable ingredient in future quantum technologies. For example, large-scale fibre-based quantum networks will require QFC to interconnect heterogeneous building blocks like emitters, channels, memories and detectors. The performance of existing QFC devices - typically realised in periodically-poled nonlinear crystals - is often severely limited by parasitic noise that arises when the pump wavelength lies between the wavelengths which are inter-converted. Here we investigate the noise spectrum of a frequency converter pumped by a CW 1064 nm laser. The converter was realised as a monolithic bulk pump enhancement cavity made from a periodically-poled potassium titanyl phosphate (ppKTP) crystal - quasi-phase-matched for the conversion of 637 nm to 1587 nm. In the range from 1140 nm to 1330 nm (up to 60 THz from the pump) Stokes-Raman resonances can be identified as the dominant noise source while the noise in the range from 1330 nm to 1650 nm can be attributed mainly to parasitic spontaneous parametric down-conversion (SPDC). Further, a succession of narrow-band peaks is observed in the spectrum originating from higher-order counter-propagating SPDC. Both types of counter-propagation, where either the lower-energy idler photon or the higher-energy signal photon counter-propagate relative to the pump beam, are observed, with narrow-band peaks corresponding to 10th to 44th order quasi-phase-matching.         ",
+    "url": "https://arxiv.org/abs/2407.03845",
+    "authors": [
+      "Felix Mann",
+      "Helen M. Chrzanowski",
+      "Felipe Gewers",
+      "Marlon Placke",
+      "Sven Ramelow"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04048",
+    "title": "Time-bin entangled Bell state generation and tomography on thin-film lithium niobate",
+    "abstract": "           Optical quantum communication technologies are making the prospect of unconditionally secure and efficient information transfer a reality. The possibility of generating and reliably detecting quantum states of light, with the further need of increasing the private data-rate is where most research efforts are focusing. The physical concept of entanglement is a solution guaranteeing the highest degree of security in device-independent schemes, yet its implementation and preservation over long communication links is hard to achieve. Lithium niobate-on-insulator has emerged as a revolutionising platform for high-speed classical telecommunication and is equally suited for quantum information applications owing to the large second-order nonlinearities that can efficiently produce entangled photon pairs. In this work, we generate maximally entangled quantum states in the time-bin basis using lithium niobate-on-insulator photonics at the fibre optics telecommunication wavelength, and reconstruct the density matrix by quantum tomography on a single photonic integrated circuit. We use on-chip periodically-poled lithium niobate as source of entangled qubits with a brightness of 242 MHz/mW and perform quantum tomography with a fidelity of 91.9+-1.0 %. Our results, combined with the established large electro-optic bandwidth of lithium niobate, showcase the platform as perfect candidate to realise fibre-coupled, high-speed time-bin quantum communication modules that exploit entanglement to achieve information security.         ",
+    "url": "https://arxiv.org/abs/2407.04048",
+    "authors": [
+      "Giovanni Finco",
+      "Filippo Miserocchi",
+      "Andreas Maeder",
+      "Jost Kellner",
+      "Alessandra Sabatti",
+      "Robert J. Chapman",
+      "Rachel Grange"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04512",
+    "title": "Entropy Computing: A Paradigm for Optimization in an Open Quantum System",
+    "abstract": "           Modern quantum technologies using matter are designed as closed quantum systems to isolate them from interactions with the environment. This design paradigm greatly constrains the scalability and limits practical implementation of such systems. Here, we introduce a novel computing paradigm, entropy computing, that works by conditioning a quantum reservoir thereby enabling the stabilization of a ground state. In this work, we experimentally demonstrate the feasibility of entropy computing by building a hybrid photonic-electronic computer that uses measurement-based feedback to solve non-convex optimization problems. The system functions by using temporal photonic modes to create qudits in order to encode probability amplitudes in the time-frequency degree of freedom of a photon. This scheme, when coupled with electronic interconnects, allows us to encode an arbitrary Hamiltonian into the system and solve non-convex continuous variables and combinatorial optimization problems. We show that the proposed entropy computing paradigm can act as a scalable and versatile platform for tackling a large range of NP-hard optimization problems.         ",
+    "url": "https://arxiv.org/abs/2407.04512",
+    "authors": [
+      "Lac Nguyen",
+      "Mohammad-Ali Miri",
+      "R. Joseph Rupert",
+      "Wesley Dyk",
+      "Sam Wu",
+      "Nick Vrahoretis",
+      "Irwin Huang",
+      "Milan Begliarbekov",
+      "Nicholas Chancellor",
+      "Uchenna Chukwu",
+      "Pranav Mahamuni",
+      "Cesar Martinez-Delgado",
+      "David Haycraft",
+      "Carrie Spear",
+      "Mark Campanelli",
+      "Russell Huffman",
+      "Yong Meng Sua",
+      "Yuping Huang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04671",
+    "title": "Resistive switching suppression in metal/Nb:SrTiO$_3$ Schottky contacts prepared by room-temperature Pulsed Laser Deposition",
+    "abstract": "           Deepening the understanding of interface-type Resistive Switching (RS) in metal/oxide heterojunctions is a key step for the development of high-performance memristors and Schottky rectifiers. In this study, we address the role of metallization technique by fabricating prototypical metal/Nb-doped SrTiO$_3$ (M/NSTO) Schottky contacts via Pulsed Laser Deposition (PLD). Ultrathin Pt and Au electrodes are deposited by PLD onto single-crystal (001)-terminated NSTO substrates and interfacial transport is characterized by conventional macroscale methods and nanoscale Ballistic Electron Emission Microscopy. We show that PLD metallization gives Schottky contacts with highly reversible current-voltage characteristics under cyclic polarization. Room-temperature transport is governed by thermionic emission with Schottky barrier height $\\phi_B$(Pt/NSTO)=0.71-0.75eV, $\\phi_B$(Au/NSTO)=0.70-0.83eV and ideality factors as small as n(Pt/NSTO)=1.1 and n(Au/NSTO)=1.6. RS remains almost completely suppressed upon imposing broad variations of the Nb doping and of the external stimuli (polarization bias, working temperature, ambient air exposure). At the nanoscale, we find that both systems display high spatial homogeneity of $\\phi_B$(<50meV), which is only partially affected by the NSTO mixed termination (|$\\phi_B$ (M/SrO) - $\\phi_B$ (M/TiO$_2$)|<35meV). Experimental evidences and theoretical arguments indicate that the PLD metallization mitigates interfacial layer effects responsible for RS. This occurs thanks either to a reduction of the interfacial layer thickness and to the creation of an effective barrier against the permeation of ambient gas species affecting charge trapping and redox reactions. This description allows to rationalize interfacial aging effects, observed upon several-months-exposure to ambient air, in terms of interfacial re-oxidation.         ",
+    "url": "https://arxiv.org/abs/2407.04671",
+    "authors": [
+      "Renato Buzio",
+      "Andrea Gerbi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2209.07855",
+    "title": "On the mathematical description of combined PMD PDL effects in optical communications and how their induced impairments can be minimized",
+    "abstract": "           In this paper it is shown that the correct mathematical framework of combined polarization mode dispersion and polarization dependent losses (combined PMD-PDL effects or impairments) in optical fibers is the irreducible spinor representation of the extended Lorentz Group. Combined PMD-PDL effects are shown to be formally identical to Lorentz Transformations acting on spin 1/2 zero mass particles. Since there are two different irreducible spinor representations of the restricted Lorentz Group, there must also exist two kinds of states of polarizations (SOPs) that are relevant in the description of PMD-PDL effects. The optical process that allows to convert one kind into the other is identified as optical phase conjugation. Optical phase conjugation plays the same role as the time inversion operator in the Lorentz Group representation theory. A practical and extremely important example of utility of these ideas, a technique that significantly reduces the PMD-PDL induced impairments, is presented. This technique allows to cancel the PDL part of the combined PMD-PDL impairments in a very simple and straightforward way.         ",
+    "url": "https://arxiv.org/abs/2209.07855",
+    "authors": [
+      "Carlos L. Janer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.08450",
+    "title": "Quantum logic and meaning",
+    "abstract": "           This paper gives a formulation of quantum logic in the abstract algebraic setting laid out by Dunn and Hardegree (2001). On this basis, it provides a comparative analysis of viable quantum logical bivalent semantics and their classical counterparts, thereby showing that the truth-functional status of classical and quantum connectives is not as different as usually thought. Then it points out that bivalent semantics for quantum logic - compatible with realism about quantum mechanics - can be maintained, albeit at the price of truth-functionality. Finally, but more importantly, the paper significantly improves on Hellman's argument (1980) that this lack of truth-functionality entails a change of meaning between classical and quantum connectives.         ",
+    "url": "https://arxiv.org/abs/2304.08450",
+    "authors": [
+      "Sebastian Horvat",
+      "Iulian D. Toader"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.11017",
+    "title": "Correcting heading errors in optically pumped magnetometers through microwave interrogation",
+    "abstract": "           We demonstrate how to measure in situ for heading errors of optically pumped magnetometers (OPMs) in the challenging parameter regime of compact vapor cells with imperfect optical pumping and high buffer gas pressure. For this, we utilize microwave-driven Ramsey and Rabi frequency spectroscopy (FS) to independently characterize scalar heading errors in free induction decay (FID) signals. Both of these approaches suppress 5-nT inaccuracies in geomagnetic fields caused by nonlinear Zeeman (NLZ) shifts in FID measurements to below 0.6 nT. For Ramsey FS, we implement short periods of microwave interrogation within a $\\pi/2-t_R-3\\pi/2$ Ramsey interferometry sequence, effectively circumventing systematic errors from off-resonant driving. Conversely, Rabi FS leverages an atom-microwave Hamiltonian for accurate modeling of Rabi oscillation frequencies, achieving a measurement precision down to 80 pT$/ \\sqrt{\\text{Hz}}$ that is limited primarily by technical microwave noise. We show that the fundamental sensitivity of Rabi FS is 30 pT/$\\sqrt{\\text{Hz}}$ with our vapor cell parameters through a Cram\u00e9r-Rao lower bound (CRLB) analysis. This work paves the way for future investigations into the accuracy of hyperfine structure (HFS) magnetometry and contributes to the broader applicability of OPMs in fields ranging from navigation and geophysics to space exploration and unexploded ordinance detection, where heading error mitigation is essential.         ",
+    "url": "https://arxiv.org/abs/2310.11017",
+    "authors": [
+      "Christopher Kiehl",
+      "Thanmay S. Menon",
+      "Dawson P. Hewatt",
+      "Svenja Knappe",
+      "Tobias Thiele",
+      "Cindy A. Regal"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.02612",
+    "title": "Women for Quantum -- Manifesto of Values",
+    "abstract": "           Data show that the presence of women in quantum science is affected by a number of detriments and their percentage decreases even further for higher positions. Beyond data, from our shared personal experiences as female tenured quantum physics professors, we believe that the current model of scientific leadership, funding, and authority fails to represent many of us. It is time for a real change that calls for a different kind of force and for the participation of everyone. Women for quantum calls for a joint effort and aims with this initiative to contribute to such a transformation.         ",
+    "url": "https://arxiv.org/abs/2407.02612",
+    "authors": [
+      "Almut Beige",
+      "Ana Predojevi\u0107",
+      "Anja Metelmann",
+      "Anna Sanpera",
+      "Chiara Macchiavello",
+      "Christiane P. Koch",
+      "Christine Silberhorn",
+      "Costanza Toninelli",
+      "Dagmar Bru\u00df",
+      "Elisa Ercolessi",
+      "Elisabetta Paladino",
+      "Francesca Ferlaino",
+      "Giulia Ferrini",
+      "Gloria Platero",
+      "Ivette Fuentes",
+      "Kae Nemoto",
+      "Leticia Tarruell",
+      "Maria Bondani",
+      "Marilu Chiofalo",
+      "Marisa Pons",
+      "Milena D'Angelo",
+      "Mio Murao",
+      "Nicole Fabbri",
+      "Paola Verrucchi",
+      "Pascale Senellart-Mardon",
+      "Roberta Citro",
+      "Roberta Zambrini",
+      "Rosario Gonz\u00e1lez-F\u00e9rez",
+      "Sabrina Maniscalco",
+      "Susana Huelga",
+      "Tanja Mehlst\u00e4ubler",
+      "Valentina Parigi",
+      "Ver\u00f3nica Ahufinger"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.01732",
+    "title": "Explicit Abnormality Extraction for Unsupervised Motion Artifact Reduction in Magnetic Resonance Imaging",
+    "abstract": "           Motion artifacts compromise the quality of magnetic resonance imaging (MRI) and pose challenges to achieving diagnostic outcomes and image-guided therapies. In recent years, supervised deep learning approaches have emerged as successful solutions for motion artifact reduction (MAR). One disadvantage of these methods is their dependency on acquiring paired sets of motion artifact-corrupted (MA-corrupted) and motion artifact-free (MA-free) MR images for training purposes. Obtaining such image pairs is difficult and therefore limits the application of supervised training. In this paper, we propose a novel UNsupervised Abnormality Extraction Network (UNAEN) to alleviate this problem. Our network is capable of working with unpaired MA-corrupted and MA-free images. It converts the MA-corrupted images to MA-reduced images by extracting abnormalities from the MA-corrupted images using a proposed artifact extractor, which intercepts the residual artifact maps from the MA-corrupted MR images explicitly, and a reconstructor to restore the original input from the MA-reduced images. The performance of UNAEN was assessed by experimenting with various publicly available MRI datasets and comparing them with state-of-the-art methods. The quantitative evaluation demonstrates the superiority of UNAEN over alternative MAR methods and visually exhibits fewer residual artifacts. Our results substantiate the potential of UNAEN as a promising solution applicable in real-world clinical environments, with the capability to enhance diagnostic accuracy and facilitate image-guided therapies. Our codes are publicly available at this https URL.         ",
+    "url": "https://arxiv.org/abs/2301.01732",
+    "authors": [
+      "Yusheng Zhou",
+      "Hao Li",
+      "Jianan Liu",
+      "Zhengmin Kong",
+      "Tao Huang",
+      "Euijoon Ahn",
+      "Zhihan Lv",
+      "Jinman Kim",
+      "David Dagan Feng"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.17126",
+    "title": "Design principles of nonlinear optical materials for Terahertz lasers",
+    "abstract": "           We have investigated both inter-band and intra-band second order nonlinear optical conductivity based on the velocity correlation formalism and the spectral expansion technique. We propose a scenario in which the second order intra-band process is nonzero while the inter-band process is zero. This occurs for a band structure with momentum asymmetry in the Brillouin zone. Very low-energy photons are blocked by the Pauli exclusion principle from participating in the inter-band process; however, they are permitted to participate in the intra-band process, with the band smeared by some impurity scattering. We establish a connection between the inter-band nonlinear optical conductivity in the velocity gauge and the shift vector in the length gauge for a two-band model. Using a quasiclassical kinetic approach, we demonstrate the importance of intra-band transitions in high harmonic generations for the single tilted Dirac cone model and hexagonal warping model. We confirm that the Kramers-Kronig relations break down for the limit case of ($\\omega$, $-\\omega$) in the nonlinear optical conductivity. Finally, we calculate the superconducting transition temperature of NbN and the dielectric function of AlN, and the resistance of the NbN/AlN junction. The natural non-linearity of the Josephson junction brings a Josephson plasma with frequency in the Terahertz region.         ",
+    "url": "https://arxiv.org/abs/2402.17126",
+    "authors": [
+      "Juan Han",
+      "Yiwei Sun",
+      "Xiamin Huang",
+      "Wenjun Shuai",
+      "Guangyou Fang",
+      "Zhou Li"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.07016",
+    "title": "Variational Quantum Crank-Nicolson and Method of Lines for the Solution of Initial Value Problems",
+    "abstract": "           In this paper we use a Variational Quantum Algorithm to solve Initial Value Problems with the Implicit Crank-Nicolson and the Method of Lines (MoL) evolution schemes. The unknown functions use a spectral decomposition with the Fourier basis. The examples developed to illustrate the implementation are the Advection equation, the wave equation written as a system of first order coupled equations and the viscous Burgers equation as a non-linear case. The problems are solved using: i) standard Finite Differences as the solution to compare with, ii) the State Vector Formalism (SVF), and iii) the Sampling Error Formalism (SEF). The contributions of this paper include: 1) cost functions for generic first order in time PDEs using the implicit Crank-Nicholson and the MoL, 2) detailed convergence or self-convergence tests are presented for all the equations solved, 3) a system of three coupled PDEs is solved, 4) solutions using sampling error are presented and 5) a fast version of the SVF and SEF was developed which can be used to test different optimizers faster.         ",
+    "url": "https://arxiv.org/abs/2404.07016",
+    "authors": [
+      "Francisco Guzman-Cajica",
+      "Francisco S. Guzman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.15024",
+    "title": "The 18 May 2024 Iberian superbolide from a sunskirting orbit: USG space sensors and ground-based independent observations",
+    "abstract": "           On 18 May 2024, a superbolide traversed the western part of the Iberian Peninsula, culminating its flight over the Atlantic Ocean and generating significant media attention. This event was caused by a weak carbonaceous meteoroid of 1 m, entering the atmosphere at 40.4 km$\\,$s$^{-1}$ with an average slope of 8.5$^\\circ$. The luminous phase started at 133 km and ended at an altitude of 54 km. The meteoroid's heliocentric orbit had an inclination of 16.4$^\\circ$, a high eccentricity of 0.952, a semi-major axis of 2.4 au, and a short perihelion distance of 0.12 au. The superbolide was recorded by multiple ground-based stations of the Spanish Meteor Network (SPMN) and the European Space Agency (ESA), as well as by the U.S. Government (USG) sensors from space. Due to the absence of observable deceleration, we successfully reconciled satellite radiometric data with a purely dynamic atmospheric flight model, constraining the meteoroid's mass and coherently fitting its velocity profile. Our analysis shows a good agreement with the radiant and velocity data reported by the Center for Near-Earth Object Studies (CNEOS), with a deviation of 0.56$^\\circ$ and 0.1 km$\\,$s$^{-1}$, respectively. The presence of detached fragments in the lower part of the luminous trajectory suggests that the meteoroid was a polymict carbonaceous chondrite, containing higher-strength macroscopic particles in its interior due to collisional gardening, or a thermally processed C-type asteroid. The orbital elements indicate that the most likely source is the Jupiter-Family Comet (JFC) region, aligning with the SOHO comet family, as its sunskirting orbit is decoupled from Jupiter. This event provides important information to characterize the disruption mechanism of near-Sun objects.         ",
+    "url": "https://arxiv.org/abs/2405.15024",
+    "authors": [
+      "Eloy Pe\u00f1a-Asensio",
+      "Pau Gr\u00e8bol-Tom\u00e0s",
+      "Josep M. Trigo-Rodr\u00edguez",
+      "Pablo Ram\u00edrez-Moreta",
+      "Rainer Kresken"
+    ],
+    "subjectives": [
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Popular Physics (physics.pop-ph)"
+    ]
+  }
+]
