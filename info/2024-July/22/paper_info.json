@@ -1,0 +1,219 @@
+[
+  {
+    "id": "arXiv:2407.13794",
+    "title": "An explicit solution to the spinning ring problem",
+    "abstract": "           A ring may be regarded as a torus with r << R, where R is the major radius and r is the minor radius. When such a ring is placed on a rough rod and released with some angular velocity, it may continue to vertically spin around the rod for some time instead of falling down immediately. It was observed that two different kinds of motion for the rod exist, which are referred to as single point and double point contact motion, based on the number of contact points of the ring that are in contact with the rod. Single point contact motion was observed for rings and double point contact motion was observed in the case of a washer. We investigated the characteristics of the single point contact motion. An explanation is provided for the single point contact motion of the ring and an analysis of the forces on the ring is made. We observe a hyperbolic decay in the angular velocity of the ring. An explicit solution is determined for the single point contact motion of the ring and the obtained solutions match the observed motion of the ring.         ",
+    "url": "https://arxiv.org/abs/2407.13794",
+    "authors": [
+      "Aradhya Jain"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.13801",
+    "title": "Application of a spectral scheme to simulate horizontally slowly varying three-dimensional ocean acoustic propagation",
+    "abstract": "           Three-dimensional numerical models for underwater sound propagation are popular in computational ocean acoustics. For horizontally slowly varying waveguide environments, an adiabatic mode-parabolic equation hybrid theory can be used for simulation. This theory employs adiabatic modes in the vertical direction, simplifying the solution of the sound pressure to the solution of horizontal refractive index of vertical modes. The refractive equations in the horizontal direction are further solved by a ``split-step\" wide-angle parabolic equation model, following the approach of the ``vertical modes and horizontal parabolic equation\". Existing three-dimensional sound propagation models mostly use finite difference methods for discretization, but in recent years, the academic community has proposed new types of sound propagation models based on spectral methods. Spectral methods are numerical discretization methods based on orthogonal polynomial approximation and weighted residual principles. They offer advantages such as high computational accuracy and fast convergence. In this study, a three-dimensional adiabatic mode-parabolic equation hybrid model discretized using spectral methods is proposed. In the vertical direction, the modal functions are solved using the Chebyshev spectral method. The medium layering is handled using a domain decomposition strategy, and the leaky modes under semi-infinite boundary conditions are addressed using an eigenvalue transformation technique. In the horizontal direction, the perfectly matched layer technique is utilized to handle unbounded computational domains, and the perfectly matched layer and computational domain are segmented into multiple layers. Numerical simulations show that the Chebyshev spectral method achieves reliable results in the application of the adiabatic mode-parabolic equation hybrid model.         ",
+    "url": "https://arxiv.org/abs/2407.13801",
+    "authors": [
+      "Houwang Tu",
+      "Yongxian Wang",
+      "Xiaolan Zhou",
+      "Guojun Xu",
+      "Dongbao Gao",
+      "Shuqing Ma"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14222",
+    "title": "Boltzman optical thermometry for cryogenics",
+    "abstract": "           We propose and implement an optical technique to access the local temperature of an erbium doped crystal by probing the electron spin population under magnetic field. We reliably extract the sample temperature in the range 2-7K. We additionally discuss the suitability of our method as a primary standard for cryogenic thermometry. By adding an auxiliary heating laser, we are able to measure the interface conductance between the dielectric crystal and the cold plate of the cryostat by exploring different cooling configurations.         ",
+    "url": "https://arxiv.org/abs/2407.14222",
+    "authors": [
+      "Marek Zeman",
+      "Philippe Camus",
+      "Thierry Chaneli\u00e8re"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14278",
+    "title": "Fragment quantum embedding using the Householder transformation: a multi-state extension based on ensembles",
+    "abstract": "           In recent works by Yalouz et al. (J. Chem. Phys. 157, 214112, 2022) and Sekaran et al. (Phys. Rev. B 104, 035121, 2021; Computation 10, 45, 2022), Density Matrix Embedding Theory (DMET) has been reformulated through the use of the Householder transformation as a novel tool to embed a fragment within extended systems. The transformation was applied to a reference non-interacting one-electron reduced density matrix to construct fragments' bath orbitals, which are crucial for subsequent ground state calculations. In the present work, we expand upon these previous developments and extend the utilization of the Householder transformation to the description of multiple electronic states, including ground and excited states. Based on an ensemble noninteracting density matrix, we demonstrate the feasibility of achieving exact fragment embedding through successive Householder transformations, resulting in a larger set of bath orbitals. We analytically prove that the number of additional bath orbitals scales directly with the number of fractionally occupied natural orbitals in the reference ensemble density matrix. A connection with the regular DMET bath construction is also made. Then, we illustrate the use of this ensemble embedding tool in single-shot DMET calculations to describe both ground and first excited states in a Hubbard lattice model and an ab initio hydrogen system. Lastly, we discuss avenues for enhancing ensemble embedding through self-consistency and explore potential future directions.         ",
+    "url": "https://arxiv.org/abs/2407.14278",
+    "authors": [
+      "Filip Cernatic",
+      "Emmanuel Fromager",
+      "Saad Yalouz"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14483",
+    "title": "Extending Radiowave Frequency Detection Range with Dressed States of Solid-State Spin Ensembles",
+    "abstract": "           Quantum sensors using solid-state spin defects excel in the detection of radiofrequency (RF) fields, serving various purposes in communication, ranging, and sensing. For this purpose, pulsed dynamical decoupling (PDD) protocols are typically applied, which enhance sensitivity to RF signals. However, these methods are limited to frequencies of a few megahertz, which poses a challenge for sensing higher frequencies. We introduce an alternative approach based on a continuous dynamical decoupling (CDD) scheme involving dressed states of nitrogen vacancy (NV) ensemble spins driven within a microwave resonator. We compare the CDD methods to established PDD protocols and demonstrate the detection of RF signals up to $\\sim$ 85 MHz, about ten times the current limit imposed by the PDD approach under identical conditions. Implementing the CDD method in a heterodyne synchronized protocol combines the high frequency detection with high spectral resolution. This advancement extends to various domains requiring detection in the high frequency (HF) and very high frequency (VHF) ranges of the RF spectrum, including spin sensor-based magnetic resonance spectroscopy at high magnetic fields.         ",
+    "url": "https://arxiv.org/abs/2407.14483",
+    "authors": [
+      "Jens C. Hermann",
+      "Roberto Rizzato",
+      "Fleming Bruckmaier",
+      "Robin D. Allert",
+      "Aharon Blank",
+      "Dominik B. Bucher"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14496",
+    "title": "Hair cells in the cochlea must tune resonant modes to the edge of instability without destabilizing collective modes",
+    "abstract": "           Sound produces surface waves along the cochlea's basilar membrane. To achieve the ear's astonishing frequency resolution and sensitivity to faint sounds, dissipation in the cochlea must be canceled via active processes in hair cells, effectively bringing the cochlea to the edge of instability. But how can the cochlea be globally tuned to the edge of instability with only local feedback? To address this question, we use a discretized version of a standard model of basilar membrane dynamics, but with an explicit contribution from active processes in hair cells. Surprisingly, we find the basilar membrane supports two qualitatively distinct sets of modes: a continuum of localized modes and a small number of collective extended modes. Localized modes sharply peak at their resonant position and are largely uncoupled. As a result, they can be amplified almost independently from each other by local hair cells via feedback reminiscent of self-organized criticality. However, this amplification can destabilize the collective extended modes; avoiding such instabilities places limits on possible molecular mechanisms for active feedback in hair cells. Our work illuminates how and under what conditions individual hair cells can collectively create a critical cochlea.         ",
+    "url": "https://arxiv.org/abs/2407.14496",
+    "authors": [
+      "Asheesh S. Momi",
+      "Michael C. Abbott",
+      "Julian Rubinfien",
+      "Benjamin B. Machta",
+      "Isabella R. Graf"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14178",
+    "title": "Emulating quantum computing with optical matrix multiplication",
+    "abstract": "           Optical computing harnesses the speed of light to perform matrix-vector operations efficiently. It leverages interference, a cornerstone of quantum computing algorithms, to enable parallel computations. In this work, we interweave quantum computing with classical structured light. This is achieved by formulating the process of photonic matrix multiplication using quantum mechanical principles such as state superposition and subsequently demonstrate a well known algorithm, namely the Deutsch-Jozsa's algorithm. This is accomplished by elucidating the inherent tensor product structure within the Cartesian transverse degrees of freedom of light. To this end, we establish a discrete basis using localized Gaussian modes arranged in a lattice formation and demonstrate the operation of a Hadamard Gate. Leveraging the reprogrammable and digital capabilities of spatial light modulators, coupled with Fourier transforms by lenses, our approach proves adaptable to various algorithms. Therefore our work advances the use of structured light for quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2407.14178",
+    "authors": [
+      "Mwezi Koni",
+      "Hadrian Bezuidenhout",
+      "Isaac Nape"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14443",
+    "title": "Temperature-induced changes in optical properties of cubic CH$_3$NH$_3$SnI$_3$ using phonopy-FHI-aims",
+    "abstract": "           This research explores how temperature influences the optical characteristics of Cubic Methylammonium Tin Iodide (CH$_3$NH$_3$SnI$_3$), a material showing great promise for solar cell technology. The variations in the optical absorption coefficient, refractive index, extinction coefficient, reflectivity, and optical conductivity was examined over a range of temperatures and crystallographic orientations ([100], [010], [001]). The findings indicate that as temperature rises, there is a general decrease observed in the absorption coefficient, refractive index, extinction coefficient, and optical conductivity. Similarly, reflectivity also tends to decrease with increasing temperature. These findings suggest that Cubic CH$_3$NH$_3$SnI$_3$ exhibits consistent transparency, a stable refractive index, and relatively high reflectivity across different temperature conditions. Its low optical conductivity, typical of semiconductor materials, indicates its suitability for facilitating efficient charge separation and transport within solar cells. This research significantly adds to our comprehension of optical properties of CH$_3$NH$_3$SnI$_3$, paving the way for its potential use in solar cell applications.         ",
+    "url": "https://arxiv.org/abs/2407.14443",
+    "authors": [
+      "Hassan Abdulsalam",
+      "Fatima Musa Lariski",
+      "Habiba Garba Ahmad",
+      "Hassana Muhammad Shuwa"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.05754",
+    "title": "Quantum Rate Electrodynamics and Resonant Junction Electronics of Heterocyclic Molecules",
+    "abstract": "           Quantum rate theory encompasses the electron-transfer rate constant concept of electrochemical reactions as a particular setting, besides demonstrating that the electrodynamics of these reactions obey relativistic quantum mechanical rules. The theory predicts a frequency $\\nu = E/h$ for electron-transfer reactions, in which $E = e^2/C_q$ is the energy associated with the density-of-states $C_q/e^2$ and $C_q$ is the quantum capacitance of the electrochemical junctions. This work demonstrates that the $\\nu = E/h$ frequency of the intermolecular charge transfer of push-pull heterocyclic compounds, assembled over conducting electrodes, follows the above-stated quantum rate electrodynamic principles. Astonishingly, the differences between the molecular junction electronics formed by push-pull molecules and the electrodynamics of electrochemical reactions observed in redox-active modified electrodes are solely owing to an adiabatic setting (strictly following Landauer's ballistic presumption) of the quantum conductance in the push-pull molecular junctions. An appropriate electrolyte field-effect screening environment accounts for the resonant quantum conductance dynamics of the molecule-bridge-electrode structure, in which the intermolecular charge transfer dynamics within the frontier molecular orbital of push-pull heterocyclic molecules follow relativistic quantum mechanics in agreement with the quantum rate theory.         ",
+    "url": "https://arxiv.org/abs/2309.05754",
+    "authors": [
+      "Edgar F\u00e1bian Pinz\u00f3n Nieto",
+      "La\u00eds Cristine Lopes",
+      "Adriano dos Santos",
+      "Maria Manuela Marques Raposo",
+      "Paulo Roberto Bueno"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.07383",
+    "title": "Acoustic Bound States in the Continuum in Coupled Helmholtz Resonators",
+    "abstract": "           Resonant states underlie a variety of metastructures that exhibit remarkable capabilities for effective control of acoustic waves at subwavelength scales. The development of metamaterials relies on the rigorous mode engineering providing the implementation of the desired properties. At the same time, the application of metamaterials is still limited as their building blocks are frequently characterized by complicated geometry and can't be tuned easily. In this work, we consider a simple system of coupled Helmholtz resonators and study their properties associated with the tuning of coupling strength and symmetry breaking. We numerically and experimentally demonstrate the excitation of quasi-bound state in the continuum in the resonators placed in a free space and in a rectangular cavity. It is also shown that tuning the intrinsic losses via introducing porous inserts can lead to spectral splitting or merging of quasi-\\textit{bound states in the continuum} and occurrence of \\textit{exceptional points}. The obtained results will open new opportunities for the development of simple and easy-tunable metastructures based on Helmholtz resonances.         ",
+    "url": "https://arxiv.org/abs/2405.07383",
+    "authors": [
+      "Mariia Krasikova",
+      "Felix Kronowetter",
+      "Sergey Krasikov",
+      "Mikhail Kuzmin",
+      "Marcus Maeder",
+      "Tao Yang",
+      "Anton Melnikov",
+      "Steffen Marburg",
+      "Andrey Bogdanov"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2211.05112",
+    "title": "Interfacing picosecond and nanosecond quantum light pulses",
+    "abstract": "           Light is a key information carrier, enabling worldwide high-speed data transmission through a telecommunication fibre network. This information-carrying capacity can be extended to transmitting quantum information (QI) by encoding it in single photons -- flying qubits. However, various QI-processing platforms operate at vastly different timescales. QI-processing units in atomic media, operating within nanosecond to microsecond timescales, and high-speed quantum communication, at picosecond timescales, cannot be efficiently linked due to orders of magnitude mismatch in the timescales or, correspondingly, spectral linewidths. In this work, we develop a large-aperture time lens using complex high-bandwidth electro-optic phase modulation to bridge this gap. We demonstrate coherent, deterministic spectral bandwidth compression of quantum light pulses by more than two orders of magnitude with high efficiency. It will facilitate large-scale hybrid QI-processing by linking the ultrafast and quasi-continuous-wave experimental platforms, which until now, to a large extent, have been developing independently.         ",
+    "url": "https://arxiv.org/abs/2211.05112",
+    "authors": [
+      "Filip So\u015bnicki",
+      "Micha\u0142 Miko\u0142ajczyk",
+      "Ali Golestani",
+      "Micha\u0142 Karpi\u0144ski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.16999",
+    "title": "The fate of optical excitons in FAPbI3 nanocube superlattices",
+    "abstract": "           Understanding the nature of the photoexcitation and ultrafast charge dynamics pathways in organic halide perovskite nanocubes and their aggregation into superlattices is key for the potential applications as tunable light emitters, photon harvesting materials and light-amplification systems. In this work, we apply two-dimensional coherent electronic spectroscopy (2DES) to track in real time the formation of near-infrared optical excitons and their ultrafast relaxation in CH(NH2)2PbI3 nanocube superlattices. Our results unveil that the coherent ultrafast dynamics is limited by the combination of the inherent short exciton decay time ~40 fs and the dephasing due to the coupling with selective optical phonon modes at higher temperatures. On the picosecond timescale, we observe the progressive formation of long-lived localized trap states. The analysis of the temperature dependence of the excitonic intrinsic linewidth, as extracted by the anti-diagonal components of the 2D spectra, unveils a dramatic change of the excitonic coherence time across the cubic to tetragonal structural transition. Our results offer a new way to control and enhance the ultrafast coherent dynamics of photocarrier generation in hybrid halide perovskite synthetic solids.         ",
+    "url": "https://arxiv.org/abs/2401.16999",
+    "authors": [
+      "Alessandra Milloch",
+      "Umberto Filippi",
+      "Paolo Franceschini",
+      "Selene Mor",
+      "Stefania Pagliara",
+      "Gabriele Ferrini",
+      "Franco V. A. Camargo",
+      "Giulio Cerullo",
+      "Dmitry Baranov",
+      "Liberato Manna",
+      "Claudio Giannetti"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.11944",
+    "title": "Frequency dependence of nonsequential double ionization of atoms in strong laser fields",
+    "abstract": "           The frequency dependence of (nonsequential) double ionization is studied in fully quantum mechanical calculations using a (1+1)-dimensional model atom. Other time-dependent effects such as the influence of the number of field cycles are also investigated. We present ionization yields and momentum distributions. The results are consistent with experimental and semi-classical data available in the literature, thus complementing them with a quantum mechanical description.         ",
+    "url": "https://arxiv.org/abs/2407.11944",
+    "authors": [
+      "Jan H. Thiede",
+      "Jakub S. Prauzner-Bechcicki"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
