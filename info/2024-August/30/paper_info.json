@@ -1,0 +1,379 @@
+[
+  {
+    "id": "arXiv:2408.16014",
+    "title": "Quantum Technologies and AI -- Interview with Tommaso Calarco",
+    "abstract": "           Interview with prof. Tommaso Calarco from the Research Center J\u00fclich (Germany) on Quantum Technologies and AI.         ",
+    "url": "https://arxiv.org/abs/2408.16014",
+    "authors": [
+      "Matthias Klusch",
+      "J\u00f6rg L\u00e4ssig",
+      "Frank K. Wilhelm"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16016",
+    "title": "Quantum Teleportation using Quantum Candies",
+    "abstract": "           Quantum Candies or Qandies provide us with a lucid way of understanding the concepts of quantum information and quantum science in the language of candies. The critical idea of qandies is intuitively depicting quantum science to the general public, making sense as most of the research in this domain is funded by the taxpayers. The qandies model is already used to explain the essential concepts of quantum science and quantum cryptography. However, teleportation and related concepts are yet to be explained. Motivated by this fact, we investigate and extend the idea of Jacobs and Lin-Mor-Shapira to explain teleportation using qandies. Here, we explicitly design the teleportation protocol and perform a circuit model using qandy gates. The protocol is successful when the correlated qandies are appropriately pre-shared and use of some local operations at both ends. The model we develop can be a valuable tool for science and engineering educators who want to help the general public to gain more insights into quantum science and technology.         ",
+    "url": "https://arxiv.org/abs/2408.16016",
+    "authors": [
+      "Nikhitha Nunavath",
+      "Sandeep Mishra",
+      "Anirban Pathak"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16142",
+    "title": "Classifying acoustic cavitation with machine learning trained on multiple physical models",
+    "abstract": "           Acoustic cavitation refers to the formation and oscillation of microbubbles in a liquid exposed to acoustic waves. Depending on the properties of the liquid and the parameters of the acoustic waves, bubbles behave differently. The two main regimes of bubble dynamics are transient cavitation, where a bubble collapses violently, and stable cavitation, where a bubble undergoes periodic oscillations. Predicting these regimes under specific sonication conditions is important in biomedical ultrasound and sonochemistry. For these predictions to be helpful in practical settings, they must be precise and computationally efficient. In this study, we have used machine learning techniques to predict the cavitation regimes of air bubble nuclei in a liquid. The supervised machine learning was trained by solving three differential equations for bubble dynamics, namely the Rayleigh-Plesset, Keller-Miksis, and Gilmore equations. These equations were solved for a range of initial parameters, including temperature, bubble radius, acoustic pressure, and frequency. Four different classifiers were developed to label each simulation as either stable or transient cavitation. Subsequently, four different machine-learning strategies were designed to analyze the likelihood of transient or stable cavitation for a given set of acoustic and material parameters. Cross-validation on held-out test data shows a high accuracy of the machine learning predictions. The results indicate that machine learning models trained on physics-based simulations can reliably predict cavitation behavior across a wide range of conditions relevant to real-world applications. This approach can be employed to optimize device settings and protocols used in imaging, therapeutic ultrasound, and sonochemistry.         ",
+    "url": "https://arxiv.org/abs/2408.16142",
+    "authors": [
+      "Trinidad Gatica",
+      "Elwin van 't Wout",
+      "Reza Haqshenas"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16175",
+    "title": "Studies of the Fermi-Hubbard Model Using Quantum Computing",
+    "abstract": "           The use of quantum computers to calculate the ground state (lowest) energies of a spin lattice of electrons described by the Fermi-Hubbard model of great importance in condensed matter physics has been studied. The ability of quantum bits (qubits) to be in a superposition state allows quantum computers to perform certain calculations that are not possible with even the most powerful classical (digital) computers. This work has established a method for calculating the ground state energies of small lattices which should be scalable to larger lattices that cannot be calculated by classical computers. Half-filled lattices of sizes 1x4, 2x2, 2x4, and 3x4 were studied. The calculated energies for the 1x4 and 2x2 lattices without Coulomb repulsion between the electrons and for the 1x4 lattice with Coulomb repulsion agrees with the true energies to within 0.60%, while for the 2x2 lattice with Coulomb repulsion the agreement is within 1.50% For the 2x4 lattice, the true energy without Coulomb repulsion was found to agree within 0.18%.         ",
+    "url": "https://arxiv.org/abs/2408.16175",
+    "authors": [
+      "Adam Prokofiew",
+      "Nidhish Sharma",
+      "Steven Schnetzer"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16226",
+    "title": "On-Chip Optical Skyrmionic Beam Generators",
+    "abstract": "           Optical skyrmion beams, which encompass two-dimensional topology in their spatial structures, are promising for ultra-dense optical communications and advanced matter manipulation. Generating such light beams via a chip-based approach will vastly broaden their applications and promote the advancement of untapped fundamental science. Here, we present a breakthrough in chip-based technology by experimentally demonstrating on-chip devices capable of generating optical skyrmions with tailored topological invariants. These devices, fabricated with high precision, exhibit behavior that closely aligns with theoretical predictions and numerical simulations. The realization of on-chip optical skyrmion beam generators ushers a new dawn in optical and material science.         ",
+    "url": "https://arxiv.org/abs/2408.16226",
+    "authors": [
+      "Wenbo Lin",
+      "Yasutomo Ota",
+      "Yasuhiko Arakawa",
+      "Satoshi Iwamoto"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16231",
+    "title": "Anchor-Controlled Generative Adversarial Network for High-Fidelity Electromagnetic and Structurally Diverse Metasurface Design",
+    "abstract": "           In optoelectronics, designing free-form metasurfaces presents significant challenges, particularly in achieving high electromagnetic response fidelity due to the complex relationship between physical structures and electromagnetic behaviors. A key difficulty arises from the one-to-many mapping dilemma, where multiple distinct physical structures can yield similar electromagnetic responses, complicating the design process. This paper introduces a novel generative framework, the Anchor-controlled Generative Adversarial Network (AcGAN), which prioritizes electromagnetic fidelity while effectively navigating the one-to-many challenge to create structurally diverse metasurfaces. Unlike existing methods that mainly replicate physical appearances, AcGAN excels in generating a variety of structures that, despite their differences in physical attributes, exhibit similar electromagnetic responses, thereby accommodating fabrication constraints and tolerances. We introduce the Spectral Overlap Coefficient (SOC) as a precise metric to measure the spectral fidelity between generated designs and their targets. Additionally, a cluster-guided controller refines input processing, ensuring multi-level spectral integration and enhancing electromagnetic fidelity. The integration of AnchorNet into our loss function facilitates a nuanced assessment of electromagnetic qualities, supported by a dynamic loss weighting strategy that optimizes spectral alignment. Collectively, these innovations represent a transformative stride in metasurface inverse design, advancing electromagnetic response-oriented engineering and overcoming the complexities of the one-to-many mapping dilemma.Empirical evidence underscores AcGAN's effectiveness in streamlining the design process, achieving superior electromagnetic precision, and fostering a broad spectrum of design possibilities.         ",
+    "url": "https://arxiv.org/abs/2408.16231",
+    "authors": [
+      "Yunhui Zeng",
+      "Hongkun Cao",
+      "Xin Jin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Artificial Intelligence (cs.AI)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16342",
+    "title": "Ultranarrow-linewidth Wavelength-Vortex Metasurface Holography",
+    "abstract": "           Ultrathin metasurface holograms, with thicknesses comparable to the operating wavelength, leverage multiple degrees of freedom of light to address independent image channels, thereby significantly enhancing information capacity. Although the wavelength of light can be used to encode holographic image channels, high-capacity wavelength-multiplexing holography has traditionally been achieved only through 3D volume holograms based on Bragg diffraction. We demonstrate ultranarrow-linewidth wavelength-vortex multiplexing holography in ultrathin metasurface holograms. By applying dispersion engineering to the elementary grating functions of a multiplexing hologram, we develop a sparse k-vector-filtering aperture array in momentum space that achieves sharp wavelength selectivity in conjunction with orbital angular momentum selectivity. Further leveraging transformer neural networks for the design of phase-only multiplexing holograms, we reconstruct up to 118 independent image channels from a single metasurface hologram, achieving an ultranarrow linewidth of 2 nm in the visible range. Finally, we apply the developed wavelength-vortex multiplexing metasurface holograms for holographic visual cryptography, achieving unprecedented security with an information rate more than 2500 times higher than that of traditional visual cryptography schemes. Our results open exciting avenues for the use of metasurface holograms in various applications, including 3D displays, holographic encryption, beam shaping, LiDAR, microscopy, data storage, and optical artificial intelligence.         ",
+    "url": "https://arxiv.org/abs/2408.16342",
+    "authors": [
+      "Weijia Meng",
+      "Johannes E. Fr\u00f6ch",
+      "Ke Cheng",
+      "Baoli Li",
+      "Arka Majumdar",
+      "Stefan A. Maier",
+      "Haoran Ren",
+      "Min Gu",
+      "Xinyuan Fang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16361",
+    "title": "Information theory, Signal Analysis and Inverse Problem",
+    "abstract": "           This book is intended for teaching Signal Analysis methods and Inverse Problems theory. It is completely open access and will remain free. It is currently illustrated with examples that we have actually encountered in geophysics, but will eventually evolve to address problems in biology. The main idea is to develop this material over time (probably every six months) and throughout our careers. Therefore, it is not yet complete and some minor points need to be corrected in this English version. A French version is also available. The MATLAB codes we used can be found at the following address: this https URL ",
+    "url": "https://arxiv.org/abs/2408.16361",
+    "authors": [
+      "Dominique Gibert",
+      "Fernando Lopes",
+      "Vincent Courtillot",
+      "Jean-Baptiste Boul\u00e9"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16408",
+    "title": "High-yield large-scale suspended graphene membranes over closed cavities for sensor applications",
+    "abstract": "           Suspended membranes of monoatomic graphene exhibit great potential for applications in electronic and nanoelectromechanical devices. In this work, a \"hot and dry\" transfer process is demonstrated to address the fabrication and patterning challenges of large-area graphene membranes on top of closed, sealed cavities. Here, \"hot\" refers to the use of high temperature during transfer, promoting the adhesion. Additionally, \"dry\" refers to the absence of liquids when graphene and target substrate are brought into contact. The method leads to higher yields of intact suspended monolayer CVD graphene and artificially stacked double-layer CVD graphene membranes than previously reported. The yield evaluation is performed using neural-network-based object detection in SEM images, ascertaining high yields of intact membranes with large statistical accuracy. The suspended membranes are examined by Raman tomography and AFM. The method is verified by applying the suspended graphene devices as piezoresistive pressure sensors. Our technology advances the application of suspended graphene membranes and can be extended to other two-dimensional (2D) materials.         ",
+    "url": "https://arxiv.org/abs/2408.16408",
+    "authors": [
+      "Sebastian Lukas",
+      "Ardeshir Esteki",
+      "Nico Rademacher",
+      "Vikas Jangra",
+      "Michael Gross",
+      "Zhenxing Wang",
+      "Ha Duong Ngo",
+      "Manuel B\u00e4uscher",
+      "Piotr Mackowiak",
+      "Katrin H\u00f6ppner",
+      "Dominique Wehenkel",
+      "Richard van Rijn",
+      "Max C. Lemme"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16678",
+    "title": "Digital stabilization of an IQ modulator in the carrier suppressed single side-band (CS-SSB) mode for atom interferometry",
+    "abstract": "           We present an all-digital method for stabilising the phase biases in an electro-optic I/Q modulator for carrier-suppressed single-sideband modulation. Building on the method presented in S. Wald \\ea, Appl. Opt. \\textbf{62}, 1-7 (2023), we use the Red Pitaya STEMlab 125-14 platform to digitally generate and demodulate an auxiliary radio-frequency tone whose beat with the optical carrier probes the I/Q modulator's phase imbalances. We implement a multiple-input, multiple-output integral feedback controller which accounts for unavoidable cross-couplings in the phase biases to lock the error signals at exactly zero where optical power fluctuations have no impact on phase stability. We demonstrate $>23\\,\\rm dB$ suppression of the optical carrier relative to the desired sideband at $+3.4\\,\\rm GHz$ over a period of $15$ hours and over temperature variations of $20^\\circ\\rm C$.         ",
+    "url": "https://arxiv.org/abs/2408.16678",
+    "authors": [
+      "Arif Ullah",
+      "Samuel Legge",
+      "John D. Close",
+      "Simon A. Haine",
+      "Ryan J. Thomas"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16746",
+    "title": "Nonlinear refractive index changes and absorption coefficients in mesoscopic ring induced by variable effective mass",
+    "abstract": "           This study explores the linear and nonlinear optical absorption coefficients (OAC) and refractive index changes (RIC) in quantum dot and quantum antidot systems with a position-dependent variable effective mass. Significant contributions to both linear and nonlinear OAC and RIC are observed. Our findings reveal that variations of the mass parameter modify the intersubband dipole matrix elements and energy intervals, leading to noticeable shifts in optical properties. The results show that higher {\\gamma} values shift resonance peaks towards higher energies, while changes in the oscillator frequency result in abrupt shifts and peak diminutions. These insights provide a deeper understanding of the optical behaviors in the quantum systems under consideration, paving the way for designing devices with optimal efficiency         ",
+    "url": "https://arxiv.org/abs/2408.16746",
+    "authors": [
+      "Denise Assafrao",
+      "A. G. de Lima",
+      "Edilberto O. Silva",
+      "Cleverson Filgueiras"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16134",
+    "title": "A transition state resonance radically reshapes angular distributions of the F + H2 -> F H(vf = 3) + H reaction in the 62.09-101.67 meV energy range",
+    "abstract": "           Reactive angular distributions of the benchmark F + H2(vi = 0) -> F H(vf = 3) + H reaction show unusual propensity towards small scattering angles, a subject of a long debate in the literature. We use Regge trajectories to quantify the resonance contributions to state-to-state differential cross sections. Conversion to complex energy poles allows us to attribute the effect almost exclusively to a transition state resonance, long known to exist in the F +H2 system and its isotopic variant F +HD. For our detailed analysis of angular scattering we employ the package DCS Regge, recently developed for the purpose [Comp. Phys. Comm., 2022, 277, 108370.]         ",
+    "url": "https://arxiv.org/abs/2408.16134",
+    "authors": [
+      "Dmitri Sokolovski",
+      "Dario De Fazio",
+      "Elena Akhmatskaya"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16171",
+    "title": "Optical Spring Tracking for Enhancing Quantum-Limited Interferometers",
+    "abstract": "           Modern interferometers such as LIGO have achieved sensitivities limited by quantum noise, comprised of radiation pressure and shot noise. To mitigate this noise, a static system is employed that minimizes the quantum noise within the measurement band. However, since gravitational wave inspiral signals are a single frequency changing over time, only noise at the chirp frequency needs to be minimized. Here we demonstrate dynamically tracking a target signal using an optical spring, resulting in an increased signal to noise ratio (SNR). We report on a SNR increase by up to a factor of 40 when compared to a static configuration.         ",
+    "url": "https://arxiv.org/abs/2408.16171",
+    "authors": [
+      "Scott Aronson",
+      "Ronald Pagano",
+      "Torrey Cullen",
+      "Garrett D. Cole",
+      "Thomas Corbitt"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16194",
+    "title": "Highly Sensitive Differential Microwave Sensor Using Enhanced Spiral Resonators for Precision Permittivity Measurement",
+    "abstract": "           This paper presents a highly sensitive microwave sensor for dielectric sensing. One of the main disadvantages of microwave resonant-based sensors is cross-sensitivity originated by time-dependent uncontrolled environmental factors such as temperature that affect the material under test (MUT) behavior, leading to undesirable frequency shifts and, hence, lower accuracy. However, this work eliminates the unwanted errors using the differential measurement technique by comparing two transmission resonance frequencies during a unit test setup to measure the permittivity of MUT over time. The proposed structure comprises a spiral resonator with an extended horizontal microstrip line (EH-ML) coupled to a microstrip transmission line (MTL). Creating EH-ML within the structure comprises two primary contributions: enhanced sensitivity resulting from stronger fringing fields generated by increasing the effective area and improved resolution due to higher resonance frequencies caused by a lower total capacitive coupling effect. The proposed sensor is fabricated and tested using MUTs with a permittivity of less than 80 to verify the performance. In this regard, a frequency detection resolution (FDR) of 44MHz and a sensitivity of 0.85% are achieved at a maximum permittivity of 78.3. The results of theoretical analysis, simulation, and measurement are in relatively good agreement. Consequently, the proposed highly sensitive microwave sensor offers significant advantages, such as low complexity in design and fabrication. It also offers high resolution and precision in a wide range of permittivity, which can be an attractive candidate for dielectric sensing in health, chemical and agriculture applications.         ",
+    "url": "https://arxiv.org/abs/2408.16194",
+    "authors": [
+      "Nastouh Nikkhah",
+      "Rasool Keshavarz",
+      "Mehran Abolhasan",
+      "Justin Lipman",
+      "Negin Shariati"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16329",
+    "title": "Estimation Enhancing in Optoelectronic Property: A Novel Approach Using Orbital Interaction Parameters and Tight-Binding",
+    "abstract": "           This paper advocates for an innovative approach designed for estimating optoelectronic properties of quantum structures utilizing Tight-Binding (TB) theory. Predicated on the comparative analysis between estimated and actual properties, the study strives to validate the efficacy of this proposed technique; focusing notably on the computation of bandgap energy. It is observed that preceding methodologies offered a restricted accuracy when predicting complex structures like super-lattices and quantum wells. To address this gap, we propose a methodology involving three distinct phases using orbital interaction parameters (OIPs) and the TB theory. The research employed Aluminium Arsenide (AlAs) and Gallium Arsenide (GaAs) as the primary bulk materials. Our novel approach introduces a computation framework that first focuses on bulk computation, subsequently expanding to super-lattice structures. The findings of this research demonstrate promising results regarding the accuracy of predicated optoelectronic properties, particularly the cut-off wavelength. This study paves the way for future research, potentially enhancing the precision of the proposed methodology and its application scope within the field of quantum optoelectronics.         ",
+    "url": "https://arxiv.org/abs/2408.16329",
+    "authors": [
+      "Ali Haji Ebrahim Zargar",
+      "Ali Amini",
+      "Ahmad Ayatollahi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16492",
+    "title": "Electron Spin Resonance Spectroscopy in a Transmission Electron Microscope",
+    "abstract": "           Coherent spin resonance methods such as nuclear magnetic resonance (NMR) and electron spin resonance (ESR) spectroscopy have led to spectrally highly sensitive, non-invasive quantum imaging techniques with groundbreaking applications in fields such as medicine, biology, and physics. Meanwhile, transmission electron microscopy (TEM) offers detailed investigations with sub-atomic resolution, but often inflicts significant radiation damage. Here we exploit synergies and report on an integration of ESR spectroscopy in a TEM. Our miniaturized ESR setup on a standard TEM sample holder leverages the strong magnetic field of the TEM polepiece to align and energetically separate spin states. This integration will facilitate in-situ studies of spin systems and their dynamics, quantum materials, radicals, electrochemical reactions, and radiation damage - properties previously mainly invisible to electron microscopic tools. Moreover, this development marks a significant technological advancement toward microwave-controlled quantum spin studies with a highly controlled electron probe at the nanoscale.         ",
+    "url": "https://arxiv.org/abs/2408.16492",
+    "authors": [
+      "Anton\u00edn Jaro\u0161",
+      "Johann Toyfl",
+      "Andrea Pupi\u0107",
+      "Benjamin Czasch",
+      "Giovanni Boero",
+      "Isobel C. Bicket",
+      "Philipp Haslinger"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.07148",
+    "title": "Fully quantum algorithm for lattice Boltzmann methods with application to partial differential equations",
+    "abstract": "           Fluid flow simulations marshal our most powerful computational resources. In many cases, even this is not enough. Quantum computers provide an opportunity to speed up traditional algorithms for flow simulations. We show that lattice-based mesoscale numerical methods can be executed as efficient quantum algorithms due to their statistical features. This approach revises a quantum algorithm for lattice gas automata to reduce classical computations and state preparation at every time step. For this, the algorithm approximates the qubit relative phases and subtracts them at the end of each time step. Phases are evaluated using the iterative phase estimation algorithm and subtracted using single-qubit rotation phase gates. This method optimizes the quantum resource required and makes it more appropriate for near-term quantum hardware. We also demonstrate how the checkerboard deficiency that the D1Q2 scheme presents can be resolved using the D1Q3 scheme. The algorithm is validated by simulating two canonical PDEs: the diffusion and Burgers' equations on different quantum simulators. We find good agreement between quantum simulations and classical solutions for the presented algorithm.         ",
+    "url": "https://arxiv.org/abs/2305.07148",
+    "authors": [
+      "Sriharsha Kocherla",
+      "Zhixin Song",
+      "Fatima Ezahra Chrit",
+      "Bryan Gard",
+      "Eugene F. Dumitrescu",
+      "Alexander Alexeev",
+      "Spencer H. Bryngelson"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.10103",
+    "title": "One-step Pulsed Laser Deposition of Metal oxynitride/Carbon Composites for Supercapacitor Application",
+    "abstract": "           Advanced material composite of nanocarbons and metal-based materials provides a synergistic effect to obtain excellent electrochemical charge-storage performance and other properties. Herein, 3D porous carbon-metal oxynitride nanocomposites with tunable carbon/metal and oxygen/nitrogen ratio are synthesized uniquely by simultaneous ablation from two different targets by single-step pulsed laser deposition at room temperature. Co-ablation of titanium and vanadium nitride targets together with graphite allowed us to synthesize carbon-metal oxynitride porous nanocomposite and exploit them as a binder-free thin film supercapacitor electrode in aqueous electrolyte. We show that the elemental composition ratio and hence the structural properties can be tuned by selecting target configuration and by manipulating the ablation position. We investigate how this tuning capability impacts their charge-storage performances. We anticipate the utilization of as-synthesized various composites in a single PLD production run as next-generation active materials for flexible energy storage and optoelectronic applications.         ",
+    "url": "https://arxiv.org/abs/2405.10103",
+    "authors": [
+      "Subrata Ghosh",
+      "Giacomo Pagani",
+      "Massimilano Righi",
+      "Chengxi Hou",
+      "Valeria Russo",
+      "Carlo S. Casari"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.20703",
+    "title": "Heavy-particle quantum electrodynamics",
+    "abstract": "           The quantum electrodynamic formalism is presented for the systematic and exact in $Z\\,\\alpha$ derivation of nuclear recoil corrections in hydrogenic systems.         ",
+    "url": "https://arxiv.org/abs/2407.20703",
+    "authors": [
+      "Krzysztof Pachucki",
+      "Vladimir A. Yerokhin"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.17791",
+    "title": "Classical and quantum thermodynamics in a non-equilibrium regime: Application to Stirling engine",
+    "abstract": "           We have developed a thermodynamic theory in the non-equilibrium regime, which we describe as a thermodynamic system-bath model [S. Koyanagi and Y. Tanimura, J. Chem. Phys. \\textbf{160}, 234112 (2024)]. Based on the dimensionless (DL) minimum work principle, non-equilibrium thermodynamic potentials are expressed in terms of non-equilibrium extensive and intensive variables in time derivative form. This is made possible by incorporating the entropy production rate into the definitions of non-equilibrium thermodynamic potentials. These potentials can be evaluated from the DL non-equilibrium-to-equilibrium minimum work principle, which is derived from the principle of DL minimum work and is equivalent to the second law of thermodynamics. We thus obtain the non-equilibrium Massieu-Planck potentials as entropic potentials and the non-equilibrium Helmholtz-Gibbs potentials as free energies. Unlike fluctuation theorem and stochastic thermodynamics theory, this theory does not require the assumption of a factorized initial condition and is valid in the full quantum regime where the system and bath are quantum mechanically entangled. Our results are numerically verified by simulating a thermostatic Stirling engine consisting of two isothermal processes and two thermostatic processes using the quantum hierarchical Fokker--Planck equations and the classical Kramers equation derived from the thermodynamic system-bath model. We then show that, from weak to strong system-bath interactions, the thermodynamic process can be analyzed using a non-equilibrium work diagram analogous to the equilibrium one for given time-dependent intensive variables. The results can be used to develop efficient heat machines in non-equilibrium regimes.         ",
+    "url": "https://arxiv.org/abs/2405.17791",
+    "authors": [
+      "Shoki Koyanagi",
+      "Yoshitaka Tanimura"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01271",
+    "title": "Long-range ballistic propagation of 80$\\%$-excitonic-fraction polaritons in a perovskite metasurface at room temperature",
+    "abstract": "           Exciton-polaritons, hybrid light-matter elementary excitations arising from the strong coupling regime between excitons in semiconductors and photons in photonic nanostructures, offer a fruitful playground to explore the physics of quantum fluids of light as well as to develop all-optical devices. However, achieving room temperature propagation of polaritons with a large excitonic fraction, which would be crucial, e.g., for nonlinear light transport in prospective devices, remains a significant challenge. } Here we report on experimental studies of exciton-polariton propagation at room temperature in resonant metasurfaces made from a sub-wavelength lattice of perovskite pillars. Thanks to the large Rabi splitting, an order of magnitude larger than the optical phonon energy, the lower polariton band is completely decoupled from the phonon bath of perovskite crystals. The long lifetime of these cooled polaritons, in combination with the high group velocity achieved through the metasurface design, enables long-range propagation regardless of the polariton excitonic fraction. Remarkably, we observed propagation distances exceeding hundreds of micrometers at room temperature, even when the polaritons possess a very high excitonic component, approximately {80}$\\%$. Furthermore, the design of the metasurface introduces an original mechanism for directing uni-directional propagation through polarization control. This discovery of a ballistic propagation mode, leveraging high-speed cooled polaritons, heralds a promising avenue for the development of advanced polaritonic devices.         ",
+    "url": "https://arxiv.org/abs/2406.01271",
+    "authors": [
+      "Nguyen Ha My Dang",
+      "Simone Zanotti",
+      "Emmanuel Drouard",
+      "C\u00e9line Chevalier",
+      "Ga\u00eblle Tripp\u00e9-Allard",
+      "Emmanuelle Deleporte",
+      "Christian Seassal",
+      "Dario Gerace",
+      "Hai Son Nguyen"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.08867",
+    "title": "Quantum Annealing for Enhanced Feature Selection in Single-Cell RNA Sequencing Data Analysis",
+    "abstract": "           Feature selection is vital for identifying relevant variables in classification and regression models, especially in single-cell RNA sequencing (scRNA-seq) data analysis. Traditional methods like LASSO often struggle with the nonlinearities and multicollinearities in scRNA-seq data due to complex gene expression and extensive gene interactions. Quantum annealing, a form of quantum computing, offers a promising solution. In this study, we apply quantum annealing-empowered quadratic unconstrained binary optimization (QUBO) for feature selection in scRNA-seq data. Using data from a human cell differentiation system, we show that QUBO identifies genes with nonlinear expression patterns related to differentiation time, many of which play roles in the differentiation process. In contrast, LASSO tends to select genes with more linear expression changes. Our findings suggest that the QUBO method, powered by quantum annealing, can reveal complex gene expression patterns that traditional methods might overlook, enhancing scRNA-seq data analysis and interpretation.         ",
+    "url": "https://arxiv.org/abs/2408.08867",
+    "authors": [
+      "Selim Romero",
+      "Shreyan Gupta",
+      "Victoria Gatlin",
+      "Robert S. Chapkin",
+      "James J. Cai"
+    ],
+    "subjectives": [
+      "Genomics (q-bio.GN)",
+      "Emerging Technologies (cs.ET)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  }
+]
