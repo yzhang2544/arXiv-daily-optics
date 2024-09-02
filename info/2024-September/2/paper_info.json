@@ -1,0 +1,268 @@
+[
+  {
+    "id": "arXiv:2408.16915",
+    "title": "SOLAX: A Python solver for fermionic quantum systems with neural network support",
+    "abstract": "           Numerical modeling of fermionic many-body quantum systems presents similar challenges across various research domains, necessitating universal tools, including state-of-the-art machine learning techniques. Here, we introduce SOLAX, a Python library designed to compute and analyze fermionic quantum systems using the formalism of second quantization. SOLAX provides a modular framework for constructing and manipulating basis sets, quantum states, and operators, facilitating the simulation of electronic structures and determining many-body quantum states in finite-size Hilbert spaces. The library integrates machine learning capabilities to mitigate the exponential growth of Hilbert space dimensions in large quantum clusters. The core low-level functionalities are implemented using the recently developed Python library JAX. Demonstrated through its application to the Single Impurity Anderson Model, SOLAX offers a flexible and powerful tool for researchers addressing the challenges of many-body quantum systems across a broad spectrum of fields, including atomic physics, quantum chemistry, and condensed matter physics.         ",
+    "url": "https://arxiv.org/abs/2408.16915",
+    "authors": [
+      "Louis Thirion",
+      "Philipp Hansmann",
+      "Pavlo Bilous"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17002",
+    "title": "General Quantum Alchemical Free Energy Simulations via Hamiltonian Interpolation",
+    "abstract": "           We present an implementation of alchemical free energy simulations at the quantum mechanical level by directly interpolating the electronic Hamiltonian. The method is compatible with any level of electronic structure theory and requires only one quantum calculation for each molecular dynamics step in contrast to multiple energy evaluations that would be needed when interpolating the ground-state energies. We demonstrate the correctness and applicability of the technique by computing alchemical free energy changes of gas-phase molecules, with both nuclear and electron creation/annihilation. We also show an initial application to first-principles pKa calculation for solvated molecules where we quantum mechanically annihilate a bonded proton.         ",
+    "url": "https://arxiv.org/abs/2408.17002",
+    "authors": [
+      "Chenghan Li",
+      "Xing Zhang",
+      "Garnet Kin-Lic Chan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17089",
+    "title": "Machine learning for predicting control landscape maps of quantum molecular dynamics: Laser-induced three-dimensional alignment of asymmetric top molecules",
+    "abstract": "           Machine learning for predicting control landscape maps of full quantum molecular dynamics is examined through a case study of the laser-induced three-dimensional (3D) alignment of asymmetric top molecules, an essential technique for observing and/or manipulating molecular dynamics in a molecule-fixed frame. We consider the \"prolate-type\" asymmetryic top molecules with the asymmetry parameters $-1 < \\kappa < 0$ and the C2v symmetry in the low-temperature limiting case, which are aligned by using mutually orthogonal linearly polarized double laser pulses. The landscape map for each molecule consists of 6000 pixels, each pixel of which represents the maximum degree of alignment achieved by each set of control parameters. After examining ways to deal with the markedly different molecular parameters in a unified manner for suitably training a convolutional neural network (CNN) model, we train the CNN model by using 55 training sample molecules to predict the control landscape maps of 35 test sample molecules with reasonably high accuracy. As the predicted landscape maps provide a big picture of the alignment control, we show, for example, that the double pulse control scheme is especially effective for a molecule having a polarizability component that is much larger in value than the other two components.         ",
+    "url": "https://arxiv.org/abs/2408.17089",
+    "authors": [
+      "Tomotaro Namba",
+      "Yukiyoshi Ohtsuki"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17282",
+    "title": "Suspended lithium niobate acoustic resonators with buried electrodes for radiofrequency filtering",
+    "abstract": "           Data rates and volume for mobile communication are ever-increasing with the growing number of users and connected devices. With the deployment of 5G and 6G on the horizon, wireless communication is advancing to higher frequencies and larger bandwidths enabling higher speeds and throughput. Current micro-acoustic resonator technology, a key component in radiofrequency front end filters, is struggling to keep pace with these developments. This work presents a novel acoustic resonator architecture enabling multi-frequency, low-loss, and wideband filtering for the 5G and future 6G bands located above 3 GHz. Thanks to the exceptional performance of these resonators, filters for the 5G n77 and n79 bands are demonstrated, exhibiting fractional bandwidths of 13% and 25% respectively with low insertion loss of around 1 dB. With its unique frequency scalability and wideband capabilities, the reported architecture offers a promising option for filtering and multiplexing in future mobile devices.         ",
+    "url": "https://arxiv.org/abs/2408.17282",
+    "authors": [
+      "Silvan Stettler",
+      "Luis Guillermo Villanueva"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17327",
+    "title": "Generating Grating in Cavity Magnomechanics",
+    "abstract": "           We investigate the phenomenon of magnomechanically induced grating (MMIG) within a cavity magnomechanical system, comprising magnons (spins in a ferromagnet, such as yttrium iron garnet), cavity microwave photons, and phonons [\\textit{J. Li, S.-Y. Zhu, and G. S. Agarwal, Phys. Rev. Lett. \\textbf{121}, 203601 (2018)}]. By applying an external standing wave control, we observe modifications in the transmission profile of a probe light beam, signifying the presence of MMIG. Through numerical analysis, we explore the diffraction intensities of the probe field, examining the impact of interactions between cavity magnons, magnon-phonon interactions, standing wave field strength, and interaction length. MMIG systems leverage the unique properties of magnons, and collective spin excitations with attributes like long coherence times and spin-wave propagation. These distinctive features can be harnessed in MMIG systems for innovative applications in information storage, retrieval, and quantum memories, offering various orders of diffraction grating.         ",
+    "url": "https://arxiv.org/abs/2408.17327",
+    "authors": [
+      "Wenzhang Liu",
+      "Muqaddar Abbas",
+      "Seyyed Hossein Asadpour",
+      "Hamid R. Hamedi",
+      "Pei Zhang",
+      "Barry C. Sanders"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16848",
+    "title": "Anomalous multi-gap topological phases in periodically driven quantum rotors",
+    "abstract": "           We demonstrate that periodically driven quantum rotors provide a promising and broadly applicable platform to implement multi-gap topological phases, where groups of bands can acquire topological invariants due to non-Abelian braiding of band degeneracies. By adiabatically varying the periodic kicks to the rotor we find nodal-line braiding, which causes sign flips of topological charges of band nodes and can prevent them from annihilating, indicated by non-zero values of the %non-Abelian patch Euler class. In particular, we report on the emergence of an anomalous Dirac string phase arising in the strongly driven regime, a truly out-of-equilibrium phase of the quantum rotor. This phase emanates from braiding processes involving all (quasienergy) gaps and manifests itself with edge states at zero angular momentum. Our results reveal direct applications in state-of-the-art experiments of quantum rotors, such as linear molecules driven by periodic far-off-resonant laser pulses or artificial quantum rotors in optical lattices, whose extensive versatility offers precise modification and observation of novel non-Abelian topological properties.         ",
+    "url": "https://arxiv.org/abs/2408.16848",
+    "authors": [
+      "Volker Karle",
+      "Mikhail Lemeshko",
+      "Adrien Bouhon",
+      "Robert-Jan Slager",
+      "F. Nur \u00dcnal"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16943",
+    "title": "Molecular interaction volume model of mixing enthalpy for molten salt system: An integrated calorimetry-model case study of LaCl$_3$-(LiCl-KCl)",
+    "abstract": "           Calorimetric determination of enthalpies of mixing ($\\Delta$H$_{\\rm mix}$) of multicomponent molten salts often employs empirical models that lack parameters with clear physical interpretation (e.g., coordination numbers, molar volumes, and pair potentials). Although such physics informed models are not always needed, a thermodynamic understanding of the relationships between excess energies of mixing and local to intermediate solvation structures is particularly important for pyrochemical separation, as is the case for lanthanides (Ln), which are common neutron poisons and critical industrial elements found in spent nuclear fuels. Here we implement the molecular interaction volume model (MIVM) to synthesize information from experimentally measured $\\Delta$H$_{\\rm mix}$ (using high temperature melt drop calorimetry) and the distribution of solvation structures from ab initio molecular dynamics (AIMD) simulations. This was demonstrated by a case study of molten salt system consisted of LaCl$_3$ mixing with a eutectic LiCl-KCl (58mol% to 42mol%) at 873 K and 1133 K. The parameters modelled from MIVM were used to extrapolate excess Gibbs energy ($\\Delta$G$_{\\rm mix}$), and compositional dependence of La$^{3+}$ activity in the LaCl$_3$-(LiCl-KCl) system. In contrast, by AIMD or polarizable ion model (PIM) simulations, a significant deviation regarding the predicted $\\Delta$H$_{\\rm mix}$ was seen if computed directly from the molecular dynamic trajectories. The integrated experimental and simulation data within the MIVM formalism are generalizable to a wide variety of molten salts and demonstrate a significant improvement over currently employed methods to study molten salts for nuclear and separations sciences.         ",
+    "url": "https://arxiv.org/abs/2408.16943",
+    "authors": [
+      "Vitaliy G. Goncharov",
+      "William Smith",
+      "Jiahong Li",
+      "Jeffrey A. Eakin",
+      "Erik D. Reinhart",
+      "James Boncella",
+      "Luke D. Gibson",
+      "Vyacheslav S. Bryantsev",
+      "Rushi Gong",
+      "Shun-Li Shang",
+      "Zi-Kui Liu",
+      "Hongwu Xu",
+      "Aurora Clark",
+      "Xiaofeng Guo"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17023",
+    "title": "Physics-integrated Neural Network for Quantum Transport Prediction of Field-effect Transistor",
+    "abstract": "           Quantum-mechanics-based transport simulation is of importance for the design of ultra-short channel field-effect transistors (FETs) with its capability of understanding the physical mechanism, while facing the primary challenge of the high computational intensity. Traditional machine learning is expected to accelerate the optimization of FET design, yet its application in this field is limited by the lack of both high-fidelity datasets and the integration of physical knowledge. Here, we introduced a physics-integrated neural network framework to predict the transport curves of sub-5-nm gate-all-around (GAA) FETs using an in-house developed high-fidelity database. The transport curves in the database are collected from literature and our first-principles calculations. Beyond silicon, we included indium arsenide, indium phosphide, and selenium nanowires with different structural phases as the FET channel materials. Then, we built a physical-knowledge-integrated hyper vector neural network (PHVNN), in which five new physical features were added into the inputs for prediction transport characteristics, achieving a sufficiently low mean absolute error of 0.39. In particular, ~98% of the current prediction residuals are within one order of magnitude. Using PHVNN, we efficiently screened out the symmetric p-type GAA FETs that possess the same figures of merit with the n-type ones, which are crucial for the fabrication of homogeneous CMOS circuits. Finally, our automatic differentiation analysis provides interpretable insights into the PHVNN, which highlights the important contributions of our new input parameters and improves the reliability of PHVNN. Our approach provides an effective method for rapidly screening appropriate GAA FETs with the prospect of accelerating the design process of next-generation electronic devices.         ",
+    "url": "https://arxiv.org/abs/2408.17023",
+    "authors": [
+      "Xiuying Zhang",
+      "Linqiang Xu",
+      "Jing Lu",
+      "Zhaofu Zhang",
+      "Lei Shen"
+    ],
+    "subjectives": [
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.17079",
+    "title": "Demonstration of strong coupling of a subradiant atom array to a cavity vacuum",
+    "abstract": "           By considering linear (Rayleigh) scattering of cold atoms inside an undriven high-finesse optical resonator, we experimentally demonstrate effects unique to a strongly coupled vacuum field. Arranging the atoms in an incommensurate lattice, with respect to the resonator mode, the scattering can be suppressed by destructive interference: resulting in a subradiant atomic array. We show however, that strong coupling leads to a drastic modification of the excitation spectrum, as evidenced by well-resolved vacuum Rabi splitting in the intensity of the fluctuations. Furthermore, we demonstrate that the strongly coupled vacuum mode induces polarization rotation in the linear scattering, which is incompatible with a linear polarizability model of isotropic objects.         ",
+    "url": "https://arxiv.org/abs/2408.17079",
+    "authors": [
+      "Bence G\u00e1bor",
+      "K. V. Adwaith",
+      "D\u00e1niel Varga",
+      "B\u00e1lint S\u00e1rk\u00f6zi",
+      "Andr\u00e1s Dombi",
+      "T. W. Clark",
+      "F. I. B. Williams",
+      "David Nagy",
+      "Andr\u00e1s Vukics",
+      "Peter Domokos"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.01352",
+    "title": "Tutorial: How to build and control an all-fiber wavefront modulator using mechanical perturbations",
+    "abstract": "           Multimode optical fibers support the dense, low-loss transmission of many spatial modes, making them attractive for technologies such as communications and imaging. However, information propagating through multimode fibers is scrambled, due to modal dispersion and mode mixing. This is usually rectified using wavefront shaping techniques with devices such as spatial light modulators. Recently, we demonstrated an all-fiber system for controlling light propagation inside multimode fibers using mechanical perturbations, called the fiber piano. In this tutorial we explain the design considerations and experimental methods needed to build a fiber piano, and review applications where fiber pianos have been used.         ",
+    "url": "https://arxiv.org/abs/2312.01352",
+    "authors": [
+      "Ronen Shekel",
+      "Kfir Sulimany",
+      "Shachar Resisi",
+      "Zohar Finkelstein",
+      "Ohad Lib",
+      "S\u00e9bastien M. Popoff",
+      "Yaron Bromberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.03073",
+    "title": "Dark counts in optical superconducting transition-edge sensors for rare-event searches",
+    "abstract": "           Superconducting transition-edge sensors (TESs) are a type of quantum sensor known for its high single-photon detection efficiency and low background. This makes them ideal for particle physics experiments searching for rare events. In this work, we present a comprehensive characterization of the background in optical TESs, distinguishing three types of events: electrical-noise, high-energy, and photonlike events. We introduce computational methods to automate the classification of events. For the first time, we experimentally verify and simulate the source of the high-energy events. We also isolate the photonlike events, the expected signal in dielectric haloscopes searching for dark matter dark photons, and achieve a record-low photonlike dark-count rate of $3.6 \\times 10^{-4}$ Hz in the 0.8-3.2 eV energy range.         ",
+    "url": "https://arxiv.org/abs/2402.03073",
+    "authors": [
+      "Laura Manenti",
+      "Carlo Pepe",
+      "Isaac Sarnoff",
+      "Tengiz Ibrayev",
+      "Panagiotis Oikonomou",
+      "Artem Knyazev",
+      "Eugenio Monticone",
+      "Hobey Garrone",
+      "Fiona Alder",
+      "Osama Fawwaz",
+      "Alexander J. Millar",
+      "Knut Dundas Mor\u00e5",
+      "Hamad Shams",
+      "Francesco Arneodo",
+      "Mauro Rajteri"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Superconductivity (cond-mat.supr-con)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.07048",
+    "title": "Uncovering quantum characteristics of incipient evolutions at the photosynthetic oxygen evolving complex",
+    "abstract": "           Water oxidation of photosynthesis at the oxygen evolving complex (OEC) is driven by the polarization field induced by the photoelectric hole. By highlighting the role of the polarization field in reshaping the spin and orbit potentials, we reveal in this work the characteristics and underlying mechanism in the relatively simpler OEC evolutions within the states S0 - S2 prior to the water oxidation. The characteristic shifts of the density of states (DOS) of the electron donor Mn atom are observed in the vicinity of the Fermi surface to occur with the spin flips of Mn atoms and the change of the Mn oxidation states during the electron transfer. Notably, the spin flips of Mn atoms point to the resulting spin configuration of the next states. It is found that the electron transfer tend to stabilize the catalyst OEC itself, whereas the proton transfer pushes the evolution forward by preparing a new electron donor, demonstrating the proton-coupled electron transfer. Meanwhile, it shows that the Mn-O bonds around the candidate Mn atom of the electron donor undergo characteristic changes in the bond lengths during the electron transfer. These concomitant phenomena uncovered in first-principle calculations characterize the essential equilibrium of the OEC between the state evolution and stability that forms a ground of the dynamic OEC cycles. In particular, the characteristic undulation of the DOS around the Fermi level occurring at the proton-coupled electron transfer can be used to reveal crucial processes in a wide range of realistic systems.         ",
+    "url": "https://arxiv.org/abs/2404.07048",
+    "authors": [
+      "Pei-Ying Huo",
+      "Wei-Zhou Jiang",
+      "Rong-Yao Yang",
+      "Xiu-Rong Zhang"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.10477",
+    "title": "Equivalent circuit modeling of electron-hole recombination in semiconductor and mixed ionic-electronic conductor based devices",
+    "abstract": "           The understanding and optimization of solar energy conversion and light emitting devices can greatly benefit from equivalent circuit models describing their response. However, a general model of electron-hole recombination in semiconductors is currently missing. This study presents equivalent circuit models of radiative and non-radiative electron-hole recombination based on their linearized analytical treatment. These are integrated in a circuit model of complete devices that is equivalent to the linearized drift-diffusion equations in one dimension. The analysis of the model shows that, for most situations involving semiconductors without mobile ions, approximated models that do not account for local electrostatics are sufficient to describe the contribution of recombination to the device response. The influence of local electrostatics on non-radiative trap-mediated and Auger recombination becomes essential in mixed conducting devices, and it should be included explicitly in equivalent circuit models. Resistors used for traditional semiconductors are indeed a special case of the general model of non-radiative recombination, for which transistors gated by the local change in electrostatic potential implement a more accurate representation. For mixed conducting devices, such as halide perovskite solar cells, appropriate simplifications of the complete model provide analytical solutions describing the bulk and interfacial polarization effects that influence the small signal electrostatics, recombination currents and overall impedance. The resulting analysis is relevant to a wide range of materials and devices used for solar energy conversion as well as other optoelectronic and photo-electrochemical applications.         ",
+    "url": "https://arxiv.org/abs/2405.10477",
+    "authors": [
+      "Davide Moia"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2207.01850",
+    "title": "Antiferromagnetic Ising model in a triangular vortex lattice of quantum fluids of light",
+    "abstract": "           Vortices are topologically distinctive objects appearing as phase twists in coherent fields of optical beams and Bose-Einstein condensates. Structured networks and artificial lattices of coupled vortices could offer a powerful platform to study and simulate interaction mechanisms between constituents of condensed matter systems, such as antiferromagnetic interactions, by replacement of spin angular momentum with orbital angular momentum. Here, we realize such a platform using a macroscopic quantum fluid of light based on exciton-polariton condensates. We imprint all-optical hexagonal lattice that results into a triangular vortex lattice, with each cell having a vortex of charge l = +-1. We reveal that pairs of coupled condensates spontaneously arrange their orbital angular momentum antiparallel, implying a form of artificial orbital \"antiferromagnetism\". We discover that correlation exists between the emergent vortex patterns in triangular condensate lattices and the low-energy solutions of the corresponding antiferromagnetic Ising system. Our study offers a path toward spontaneously ordered vortex arrays with nearly arbitrary configurations and controlled couplings.         ",
+    "url": "https://arxiv.org/abs/2207.01850",
+    "authors": [
+      "Sergey Alyatkin",
+      "Carles Mili\u00e1n",
+      "Yaroslav V. Kartashov",
+      "Kirill A. Sitnik",
+      "Julian D. T\u00f6pfer",
+      "Helgi Sigur\u00f0sson",
+      "Pavlos G. Lagoudakis"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.14687",
+    "title": "Quantum thermodynamic derivation of the energy resolution limit in magnetometry",
+    "abstract": "           It was recently demonstrated that a multitude of realizations of several magnetic sensing technologies satisfy the energy resolution limit, which connects a quantity composed by the variance of the magnetic field estimate, the sensor volume and the measurement time, and having units of action, with $\\hbar$. A first-principles derivation of this limit is still elusive. We here present such a derivation based on quantum thermodynamic arguments. We show that the energy resolution limit is a result of quantum thermodynamic work necessarily associated with quantum measurement and Landauer erasure, the work being exchanged with the magnetic field. We apply these considerations to atomic magnetometers, diamond magnetometers, and SQUIDs, spanning an energy resolution limit from $10^0\\hbar$ to $10^7\\hbar$. This connection between quantum thermodynamics and magnetometry can help advance quantum sensing technologies towards even more sensitive devices.         ",
+    "url": "https://arxiv.org/abs/2405.14687",
+    "authors": [
+      "I. K. Kominis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
