@@ -1,0 +1,405 @@
+[
+  {
+    "id": "arXiv:2409.05879",
+    "title": "Accuracy of extracted optical conductivity by Kramer-Kronig analysis from reflectivity spectrum",
+    "abstract": "           Kramers-Kronig (KK) analysis has been widely used to extract the optical conductivity spectrum from a broad range of reflectance spectrum obtained from far-infrared to ultraviolet frequency ranges. In this study, we present how measurement uncertainty in the reflectivity spectrum affects the extracted optical conductivity spectrum obtained through KK analysis. We consider realistic uncertainties that can easily occur in reflectance measurement environments: (1) a rigid shift of the absolute reflectance in the whole measurement frequency window, and (2) a linear decrement of reflectance with increasing frequency. Our investigation reveals that the reliability of the extracted optical conductivity spectrum, especially in the lower-frequency range, should be carefully addressed, particularly when the reflectance is above approximately 95 %.         ",
+    "url": "https://arxiv.org/abs/2409.05879",
+    "authors": [
+      "Jeong Woo Han"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.05894",
+    "title": "FUSE (Fusion Synthesis Engine): A Next Generation Framework for Integrated Design of Fusion Pilot Plants",
+    "abstract": "           The Fusion Synthesis Engine (FUSE) is a state-of-the-art software suite designed to revolutionize fusion power plant design. FUSE integrates first-principle models, machine learning, and reduced models into a unified framework, enabling comprehensive simulations that go beyond traditional 0D systems studies. FUSE's modular structure supports a hierarchy of model fidelities, from steady-state to time-dependent simulations, allowing for both pre-conceptual design and operational scenario development. This framework accelerates the design process by enabling self-consistent solutions across physics, engineering, and control systems, minimizing the need for iterative expert evaluations. Leveraging modern software practices and parallel computing, FUSE also provides multi-objective optimization, balancing cost, efficiency, and operational constraints. Developed in Julia, FUSE is fully open-source under the Apache 2.0 license, promoting transparency and collaboration within the fusion research community.         ",
+    "url": "https://arxiv.org/abs/2409.05894",
+    "authors": [
+      "O. Meneghini",
+      "T. Slendebroek",
+      "B.C. Lyons",
+      "K. McLaughlin",
+      "J. McClenaghan",
+      "L. Stagner",
+      "J. Harvey",
+      "T.F. Neiser",
+      "A. Ghiozzi",
+      "G. Dose",
+      "J. Guterl",
+      "A. Zalzali",
+      "T. Cote",
+      "N. Shi",
+      "D. Weisberg",
+      "S.P. Smith",
+      "B.A. Grierson",
+      "J. Candy"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.05954",
+    "title": "X-ray spectral performance of the Sony IMX290 CMOS sensor near Fano limit after a per-pixel gain calibration",
+    "abstract": "           The advent of back-illuminated complementary metal-oxide-semiconductor (CMOS) sensors and their well-known advantages over charge-coupled devices (CCDs) make them an attractive technology for future X-ray missions. However, numerous challenges remain, including improving their depletion depth and identifying effective methods to calculate per-pixel gain conversion. We have tested a commercial Sony IMX290LLR CMOS sensor under X-ray light using an $^{55}$Fe radioactive source and collected X-ray photons for $\\sim$15 consecutive days under stable conditions at regulated temperatures of 21\u00b0C and 26\u00b0C. At each temperature, the data set contained enough X-ray photons to produce one spectrum per pixel consisting only of single-pixel events. We determined the gain dispersion of its 2.1 million pixels using the peak fitting and the Energy Calibration by Correlation (ECC) methods. We measured a gain dispersion of 0.4\\% at both temperatures and demonstrated the advantage of the ECC method in the case of spectra with low statistics. The energy resolution at 5.9 keV after the per-pixel gain correction is improved by $\\gtrsim$10 eV for single-pixel and all event spectra, with single-pixel event energy resolution reaching $123.6\\pm 0.2$ eV, close to the Fano limit of silicon sensors at room temperature. Finally, our long data acquisition demonstrated the excellent stability of the detector over more than 30 days under a flux of $10^4$ photons per second.         ",
+    "url": "https://arxiv.org/abs/2409.05954",
+    "authors": [
+      "Benjamin Schneider",
+      "Gregory Prigozhin",
+      "Richard F. Foster",
+      "Marshall W. Bautz",
+      "Hope Fu",
+      "Catherine E. Grant",
+      "Sarah Heine",
+      "Jill Juneau",
+      "Beverly LaMarr",
+      "Olivier Limousin",
+      "Nathan Lourie",
+      "Andrew Malonis",
+      "Eric D. Miller"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06019",
+    "title": "Multichannel, ultra-wideband Rydberg Electrometry with an Optical Frequency Comb",
+    "abstract": "           While Rydberg atoms have shown tremendous potential to serve as accurate and sensitive detectors of microwaves and millimeter waves, their response is generally limited to a single narrow frequency band around a chosen microwave transition. As a result, their potential to serve as agile and wideband electromagnetic receivers has not been fully realized. Here we demonstrate the use of a mid-infrared, frequency agile optical frequency comb as the coupling laser for three-photon Rydberg atom electrometry. This approach allows us to simultaneously prepare as many as seven individual Rydberg states, allowing for multichannel detection across a frequency range from 1 GHz to 40 GHz. The generality and flexibility of this method for wideband multiplexing is anticipated to have transformative effects in the field of Rydberg electrometry, paving the way for advanced information coding and arbitrary signal detection.         ",
+    "url": "https://arxiv.org/abs/2409.06019",
+    "authors": [
+      "Nikunjkumar Prajapati",
+      "David A. Long",
+      "Alexandra B. Artusio-Glimpse",
+      "Sean M. Bresler",
+      "Christopher L. Holloway"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06234",
+    "title": "Optical Neural Engine for Solving Scientific Partial Differential Equations",
+    "abstract": "           Solving partial differential equations (PDEs) is the cornerstone of scientific research and development. Data-driven machine learning (ML) approaches are emerging to accelerate time-consuming and computation-intensive numerical simulations of PDEs. Although optical systems offer high-throughput and energy-efficient ML hardware, there is no demonstration of utilizing them for solving PDEs. Here, we present an optical neural engine (ONE) architecture combining diffractive optical neural networks for Fourier space processing and optical crossbar structures for real space processing to solve time-dependent and time-independent PDEs in diverse disciplines, including Darcy flow equation, the magnetostatic Poisson equation in demagnetization, the Navier-Stokes equation in incompressible fluid, Maxwell's equations in nanophotonic metasurfaces, and coupled PDEs in a multiphysics system. We numerically and experimentally demonstrate the capability of the ONE architecture, which not only leverages the advantages of high-performance dual-space processing for outperforming traditional PDE solvers and being comparable with state-of-the-art ML models but also can be implemented using optical computing hardware with unique features of low-energy and highly parallel constant-time processing irrespective of model scales and real-time reconfigurability for tackling multiple tasks with the same architecture. The demonstrated architecture offers a versatile and powerful platform for large-scale scientific and engineering computations.         ",
+    "url": "https://arxiv.org/abs/2409.06234",
+    "authors": [
+      "Yingheng Tang",
+      "Ruiyang Chen",
+      "Minhan Lou",
+      "Jichao Fan",
+      "Cunxi Yu",
+      "Andy Nonaka",
+      "Weilu Gao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06291",
+    "title": "Optimization of Embedded Element Patterns of Reactively Loaded Antenna Arrays",
+    "abstract": "           This paper introduces a framework for synthesizing reactively loaded antennas and antenna arrays. The framework comprises two main components: computing the fundamental bound using the semi-definite relaxation and finding a realizable solution via optimization on a Riemannian manifold. The embedded element patterns are subject to the optimization with two distinct goals under study: focusing the radiation in a single direction or synthesizing patterns with desired shapes. The reactive terminations of passive antenna elements serve as optimization variables. We demonstrate the framework using a connected bowtie-slot antenna and antenna array with both beam-focusing and beam-shaping targets. The tests show that the optimization on the Riemannian manifold yields superior results compared to existing methods, such as the genetic algorithm. This is particularly evident in the most complex and extensive problem, which requires the synthesis of shaped embedded element patterns for a sparse reactively loaded antenna array with a limited field of view.         ",
+    "url": "https://arxiv.org/abs/2409.06291",
+    "authors": [
+      "Albert Salmi",
+      "Miloslav Capek",
+      "Lukas Jelinek",
+      "Anu Lehtovuori",
+      "Ville Viikari"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06331",
+    "title": "Inverse design of Mie resonators with minimal backscattering",
+    "abstract": "           Manipulation and engineering of light scattering by resonant nanostructures is one of the central problems in optics and photonics. In this work, we theoretically study the effect of suppressed back-scattering of dielectric nanoantenna. We employed covariance matrix adaptation evolution strategy to identify the geometries of circular dielectric structures with minimized backward scattering cross section. Zero back-scattering is achieved due to generalized Kerker effect and multipole cancellation condition. We found a set of geometries and shapes of the nanoantenna having back-scattering intensity close to zero. With help of clustering algorithms, all the found geometries fall separated into several groups according to their multipolar content. While the optical properties of scatterers in each group were similar due to similar multipolar content, their shapes can be significantly different which stresses the ambiguity of free-form optimization problem. We believe that the obtained results and found possible classes on generalized Kerker nanoantenna can help in designing nanophotonic structures such as antireflective metasurfaces.         ",
+    "url": "https://arxiv.org/abs/2409.06331",
+    "authors": [
+      "Vladimir Igoshin",
+      "Alexey Kokhanovskiy",
+      "Mihail Petrov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06359",
+    "title": "Photoactivation of color centers induced by laser irradiation in ion-implanted diamond",
+    "abstract": "           Split-vacancy color centers in diamond are promising solid state platforms for the implementation of photonic quantum technologies. These luminescent defects are commonly fabricated upon low energy ion implantation and subsequent thermal annealing. Their technological uptake will require the availability of reliable methods for the controlled, large scale production of localized individual photon emitters. This task is partially achieved by controlled ion implantation to introduce selected impurities in the host material, and requires the development of challenging beam focusing or collimation procedures coupled with single-ion detection techniques. We report on protocol for the direct optical activation of split-vacancy color centers in diamond via localized processing with continuous wave laser at mW optical powers. We demonstrate the activation of photoluminescent Mg- and Sn-related centers at both the ensemble and single-photon emitter level in ion-implanted, high-purity diamond crystals without further thermal processing. The proposed lithographic method enables the activation of individual color centers at specific positions of a large area sample by means of a relatively inexpensive equipment offering the real-time, in situ monitoring of the process.         ",
+    "url": "https://arxiv.org/abs/2409.06359",
+    "authors": [
+      "V. Pugliese",
+      "E. Nieto Hern\u00e1ndez",
+      "E. Corte",
+      "M. Govoni",
+      "S. Ditalia Tchernij",
+      "P. Olivero",
+      "J. Forneris"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06370",
+    "title": "Hydrodynamic model for laser swelling",
+    "abstract": "           The evolution of surface layers of a glassy material heated by a laser pulse above the glass transition temperature and cooled by heat diffusion is considered as the flow of a stretchable viscous fluid. The strong dependence of viscosity on temperature and pressure leads to the appearance of a hump with reduced density. This hydrodynamic model for laser swelling is formulated in general form. We present a 1D solution for laser swelling of a thin glassy polymer film on a strongly thermally conductive substrate for laser pulses long enough that the sound confinement effect can be neglected. It is shown that within this condition the evolution of the film thickness over time can be addressed using a second-order ordinary differential equation. It is also shown that in some cases this equation can be reduced to a first-order differential equation resembling the phenomenological equation of the previously published relaxation model of laser swelling. The main features of the dependence of laser swelling on laser fluence, namely the threshold at low fluencies and saturation at high fluencies, have been clarified allowing for the dependence of viscosity on pressure, which was not taken into account in the previous theoretical studies of laser swelling. Typical regimes of the film thickness evolution are considered and compared to existing experimental data.         ",
+    "url": "https://arxiv.org/abs/2409.06370",
+    "authors": [
+      "Nikita Bityurin",
+      "Natalia Sapogova"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06495",
+    "title": "Quantum control of a single $\\mathrm{H}_2^+$ molecular ion",
+    "abstract": "           Science is founded on the benchmarking of theoretical models against experimental measurements, with the challenge that for all but the simplest systems, the calculations required for high precision become extremely challenging. $\\mathrm{H}_2^+$ is the simplest stable molecule, and its internal structure is calculable to high precision from first principles. This allows tests of theoretical models and the determination of fundamental constants. However, studying $\\mathrm{H}_2^+$ experimentally presents significant challenges. Standard control methods such as laser cooling, fluorescence detection and optical pumping are not applicable to $\\mathrm{H}_2^+$ due to the very long lifetimes of its excited rotational and vibrational states. Here we solve this issue by using Quantum Logic Spectroscopy techniques to demonstrate full quantum control of a single $\\mathrm{H}_2^+$ molecule by co-trapping it with an atomic 'helper' ion and performing quantum operations between the two ions. This enables us to perform pure quantum state preparation, coherent control and non-destructive readout, which we use to perform high-resolution microwave spectroscopy of $\\mathrm{H}_2^+$. Our results pave the way for high precision spectroscopy of $\\mathrm{H}_2^+$ in both the microwave and optical domains, while offering techniques which are transferable to other molecular ions.         ",
+    "url": "https://arxiv.org/abs/2409.06495",
+    "authors": [
+      "David Holzapfel",
+      "Fabian Schmid",
+      "Nick Schwegler",
+      "Oliver Stadler",
+      "Martin Stadler",
+      "Alexander Ferk",
+      "Jonathan P. Home",
+      "Daniel Kienzler"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06570",
+    "title": "Resonant EO combs: Beyond the standard phase noise model of frequency combs",
+    "abstract": "           A resonant electro-optic (EO) frequency comb is generated through electro-optic modulation of laser light within an optical resonator. Compared to cavity-less EO combs generated in a single pass through a modulator, resonant EO combs can produce broader spectra with lower radio frequency (RF) power and offer a measure of noise filtering beyond the cavity's linewidth. Understanding, measuring, and suppressing the sources of phase noise in resonant EO combs is crucial for their applications in metrology, astrophotonics, optical clock generation, and fiber-optic communication. According to the standard phase noise model of frequency combs, only two variables - the common mode offset and repetition rate phase noise - are needed to fully describe the phase noise of comb lines. However, in this work we demonstrate analytically, numerically, and experimentally that this standard model breaks down for resonant EO combs at short timescales (high frequencies) and under certain comb parameters. Specifically, a third phase noise component emerges. Consequently, resonant EO combs feature qualitatively different phase noise from their cavity-less counterparts and may not exhibit the anticipated noise filtering. A more complete description of the deviations from the standard phase noise model is critical to accurately predict the performance of frequency combs. The description presented here paves the way for improved designs tailored to applications such as super-continuum generation and optical communication.         ",
+    "url": "https://arxiv.org/abs/2409.06570",
+    "authors": [
+      "Holger R. Heeb\u00f8ll",
+      "Pooja Sekhar",
+      "Jasper Riebesehl",
+      "Aleksandr Razumov",
+      "Matt Heyrich",
+      "Michael Galili",
+      "Francesco Da Ros",
+      "Scott Diddams",
+      "Darko. Zibar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06575",
+    "title": "Modeling of a continuous superradiant laser on the sub-mHz \\transclock transition in neutral strontium-88",
+    "abstract": "           Continuous superradiance using a narrow optical transition has the potential to improve the short-term stability of state-of-the-art optical clocks. Even though pulsed superradiant emission on a ${\\rm mHz}$ linewidth clock transition has been shown, true continuous operation, without Fourier limitation, has turned out to be extremely challenging. The trade-off between maintaining a high atomic flux while minimizing decoherence effects presents a significant obstacle. Here, we discuss the design of a machine that could overcome this problem by combining a high-flux continuous beam of ultra cold strontium atoms with a bowtie cavity for the generation of superradiant lasing. To evaluate the feasibility of our design, we present simulation results for continuous high-efficiency cooling, loading, and pumping to the upper lasing state inside the bowtie cavity. We then present two different models for stimulating the generated superradiant field by taking into account position-dependent shifts, collisional decoherence, light shifts, and atom loss. Finally, we estimate a laser linewidth of less than $100~{\\rm mHz}$, limited by atom number fluctuations, and resulting in an output power of hundreds of ${\\rm fW}$         ",
+    "url": "https://arxiv.org/abs/2409.06575",
+    "authors": [
+      "Swadheen Dubey",
+      "Georgy A. Kazakov",
+      "Benedikt Heizenreder",
+      "Sheng Zhou",
+      "Shayne Bennetts",
+      "Stefan Alaric Sch\u00e4ffer",
+      "Ananya Sitaram",
+      "Florian Schreck"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06619",
+    "title": "Realizing Steady-State Microbunching with Optical Stochastic Crystallization",
+    "abstract": "           Optical Stochastic Cooling (OSC) is a state-of-the-art beam cooling technology first demonstrated in 2021 at the IOTA storage ring at Fermilab's FAST facility. A second phase of the research program is planned to run in early 2025 and will incorporate an optical amplifier to enable significantly increased cooling rates and greater operational flexibility. In addition to beam cooling, an OSC system can be configured to enable advanced control over the phase space of the beam. An example operational mode could enable crystallization, where the particles in a bunch are locked into a self-reinforcing, regular microstructure at the OSC fundamental wavelength; we refer to this as Optical Stochastic Crystallization (OSX). OSX represents a new path toward Steady-State Microbunching (SSMB), which may enable light sources combining the high brightness of a free-electron laser with the high repetition rate of a storage ring. Such a source has applications from the terahertz to the extreme ultraviolet (EUV), including high-power EUV generation for semiconductor lithography. This contribution will discuss the status of the OSC experimental program and its potential to achieve the first demonstration of SSMB during the upcoming experimental run.         ",
+    "url": "https://arxiv.org/abs/2409.06619",
+    "authors": [
+      "M. Wallbank",
+      "J. Jarvis"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06641",
+    "title": "Segmenting sea ice floes in close-range optical imagery with active contour and foundation models",
+    "abstract": "           The size and shape of sea ice floes play a crucial role in influencing ocean-atmosphere energy exchanges, sea ice concentrations, albedo, and wave propagation through ice-covered waters. Despite the availability of diverse image segmentation techniques for analyzing sea ice imagery, accurately detecting and measuring floes remains a considerable challenge. This study presents a precise methodology for in-situ sea ice imagery acquisition, including automated orthorectification to correct perspective distortions. The image dataset, collected during an Antarctic winter expedition, was used to evaluate various automated image segmentation approaches: the traditional GVF Snake algorithm and the advanced deep learning model, Segment Anything Model (SAM). To address the limitations of each method, a hybrid algorithm combining traditional and AI-based techniques is proposed. The effectiveness of these approaches was validated through a detailed analysis of ice floe detection accuracy, floe size, and ice concentration statistics, with the outcomes normalized against a manually segmented benchmark.         ",
+    "url": "https://arxiv.org/abs/2409.06641",
+    "authors": [
+      "Giulio Passerotti",
+      "Alberto Alberello",
+      "Marcello Vichi",
+      "Luke G. Bennetts",
+      "Alessandro Toffoli"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06042",
+    "title": "Photonic bands and normal mode splitting in optical lattices interacting with cavities",
+    "abstract": "           Strong collective interaction of atoms with an optical cavity causes normal mode splitting of the cavity's resonances, whose width is given by the collective coupling strength. At low optical density of the atomic cloud the intensity distribution of light in the cavity is ruled by the cavity's mode function, which is solely determined by its geometry. In this regime the dynamics of the coupled atom-cavity system is conveniently described by the open Dicke model, which we apply to calculating normal mode splitting generated by periodically ordered clouds in linear and ring cavities. We also show how to use normal mode splitting as witness for Wannier-Bloch oscillations in the tight-binding limit. At high optical density the atomic distribution contributes to shaping the mode function. This regime escapes the open Dicke model, but can be treated by a transfer matrix model provided the saturation parameter is low. Applying this latter model to an atomic cloud periodically ordered into a one-dimensional lattice, we observe the formation of photonic bands gaps competing with the normal mode splitting. We discuss the limitations of both models and point out possible pathways to generalized theories.         ",
+    "url": "https://arxiv.org/abs/2409.06042",
+    "authors": [
+      "Philippe Wilhelm Courteille",
+      "Dalila Rivero",
+      "Gustavo Henrique de Fran\u00e7a",
+      "Claudio Alves Pessoa Junior",
+      "Ana Cipris",
+      "Mayerlin N\u00fa\u00f1ez Portela",
+      "Raul Celistrino Teixeira",
+      "Sebastian Slama"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06684",
+    "title": "Entanglement transfer during quantum frequency conversion in gas-filled hollow-core fibers",
+    "abstract": "           Quantum transduction is essential for future hybrid quantum networks, connecting devices across different spectral ranges. In this regard, molecular modulation in hollow-core fibers has proven to be exceptional for efficient frequency conversion. However, insights on this conversion method for quantum light have remained elusive beyond standard semiclassical models. This Letter introduces a framework to describe the quantum dynamics of both molecules and photons in agreement with recent experiments and capable of unveiling the ability of molecular modulation to preserve entanglement.         ",
+    "url": "https://arxiv.org/abs/2409.06684",
+    "authors": [
+      "Tasio Gonzalez-Raya",
+      "Arturo Mena",
+      "Miriam Lazo",
+      "Luca Leggio",
+      "David Novoa",
+      "Mikel Sanz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2308.16158",
+    "title": "Utilizing smartphone sensors for accurate solar irradiance measurement and educational purposes",
+    "abstract": "           The global transition towards cleaner and more sustainable energy production is a major challenge. We present an innovative solution by utilizing smartphone light sensors to measure direct normal solar irradiance, the primary component of ground-level solar radiation. We provide comprehensive guidelines for calibrating the sensor using two methods: a professional reference measurement and clear-sky satellite estimates. The latter method is particularly advantageous in resource-constrained environments. Once calibrated, the smartphone becomes a valuable tool for measuring the solar resource. We propose an instructional laboratory focusing on the physics of solar radiation and its interaction with the Earth's atmosphere, exploring solar variations across locations, cloud conditions, and time scales. By integrating irradiance values measured throughout a day the daily irradiation can be estimated. This approach enhances students' understanding of solar radiation attenuation and its relationship with atmospheric interactions. This method offers a practical and educational solution for promoting renewable energy knowledge and addressing the challenges of the energy transition.         ",
+    "url": "https://arxiv.org/abs/2308.16158",
+    "authors": [
+      "Jos\u00e9 Luis Di Laccio",
+      "Andr\u00e9s Monetta",
+      "Rodrigo Alonso-Su\u00e1rez",
+      "Mart\u00edn Monteiro",
+      "Arturo C. Marti"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.05323",
+    "title": "Preventing overfitting in infrared ellipsometry using temperature dependence: fused silica as a case study",
+    "abstract": "           The dispersive linear optical properties of materials are frequently described using oscillator models, where the oscillators represent interactions between light and various material resonances (vibrational, free-carrier, interband, etc.). The state-of-the-art measurement of the complex refractive index is variable-angle spectroscopic ellipsometry (VASE), where additional measurement angles and the measured depolarization of light provides much more information compared to simpler measurements such as single-angle reflectance and transmittance. Nevertheless, even state-of-the-art VASE data can be hard to uniquely fit using oscillator models, and the resulting models may be hard to interpret physically. Here, we demonstrate the use of an additional degree of freedom, temperature, to improve the accuracy, uniqueness, and physicality of oscillator models of materials. Our approach relies on the well-understood temperature dependence of material resonances, and in particular vibrational resonances in amorphous SiO2, which are expected to change monotonically from room temperature to hundreds of degrees C. We performed VASE measurements at different temperatures, independently fitted the data at each temperature, and then confirmed that our models are unique and physical by monitoring the temperature dependence of the resulting fitting parameters. Using this technique, we generated highly accurate and precise data sets and material models describing the mid-infrared complex refractive index of three different grades of fused SiO2, which can then be used for modeling of mid-infrared optical components such as thermal emitters.         ",
+    "url": "https://arxiv.org/abs/2409.05323",
+    "authors": [
+      "Shenwei Yin",
+      "Jin-Woo Cho",
+      "Demeng Feng",
+      "Hongyan Mei",
+      "Tanuj Kumar",
+      "Chenghao Wan",
+      "Yeonghoon Jin",
+      "Minjeong Kim",
+      "Mikhail A. Kats"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2204.00578",
+    "title": "Inverse-design of high-dimensional quantum optical circuits in a complex medium",
+    "abstract": "           Programmable optical circuits form a key part of quantum technologies today, ranging from transceivers for quantum communication to integrated photonic chips for quantum information processing. As the size of such circuits is increased, maintaining precise control over every individual component becomes challenging, leading to a reduction in the quality of the operations performed. In parallel, minor imperfections in circuit fabrication are amplified in this regime, dramatically inhibiting their performance. Here we show how embedding an optical circuit in the higher-dimensional space of a large, ambient mode-mixer using inverse-design techniques allows us to forgo control over each individual circuit element, while retaining a high degree of programmability over the circuit. Using this approach, we implement high-dimensional linear optical circuits within a complex scattering medium consisting of a commercial multi-mode fibre placed between two controllable phase planes. We employ these circuits to manipulate high-dimensional spatial-mode entanglement in up to seven dimensions, demonstrating their application as fully programmable quantum gates. Furthermore, we show how their programmability allows us to turn the multi-mode fibre itself into a generalised multi-outcome measurement device, allowing us to both transport and certify entanglement within the transmission channel. Finally, we discuss the scalability of our approach, numerically showing how a high circuit fidelity can be achieved with a low circuit depth by harnessing the resource of a high-dimensional mode-mixer. Our work serves as an alternative yet powerful approach for realising precise control over high-dimensional quantum states of light, with clear applications in next-generation quantum communication and computing technologies.         ",
+    "url": "https://arxiv.org/abs/2204.00578",
+    "authors": [
+      "Suraj Goel",
+      "Saroch Leedumrongwatthanakun",
+      "Natalia Herrera Valencia",
+      "Will McCutcheon",
+      "Armin Tavakoli",
+      "Claudio Conti",
+      "Pepijn W. H. Pinkse",
+      "Mehul Malik"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.18303",
+    "title": "Evaluating a quantum-classical quantum Monte Carlo algorithm with Matchgate shadows",
+    "abstract": "           Solving the electronic structure problem of molecules and solids to high accuracy is a major challenge in quantum chemistry and condensed matter physics. The rapid emergence and development of quantum computers offer a promising route to systematically tackle this problem. Recent work by Huggins et al.[1] proposed a hybrid quantum-classical quantum Monte Carlo (QC-QMC) algorithm using Clifford shadows to determine the ground state of a Fermionic Hamiltonian. This approach displayed inherent noise resilience and the potential for improved accuracy compared to its purely classical counterpart. Nevertheless, the use of Clifford shadows introduces an exponentially scaling post-processing cost. In this work, we investigate an improved QC-QMC scheme utilizing the recently developed Matchgate shadows technique [2], which removes the aforementioned exponential bottleneck. We observe from experiments on quantum hardware that the use of Matchgate shadows in QC-QMC is inherently noise robust. We show that this noise resilience has a more subtle origin than in the case of Clifford shadows. Nevertheless, we find that classical post-processing, while asymptotically efficient, requires hours of runtime on thousands of classical CPUs for even the smallest chemical systems, presenting a major challenge to the scalability of the algorithm.         ",
+    "url": "https://arxiv.org/abs/2404.18303",
+    "authors": [
+      "Benchen Huang",
+      "Yi-Ting Chen",
+      "Brajesh Gupt",
+      "Martin Suchara",
+      "Anh Tran",
+      "Sam McArdle",
+      "Giulia Galli"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.11989",
+    "title": "Controlling nonergodicity in quantum many-body systems by reinforcement learning",
+    "abstract": "           Finding optimal control strategies to suppress quantum thermalization for arbitrarily initial states, the so-called quantum nonergodicity control, is important for quantum information science and technologies. Previous control methods largely relied on theoretical model of the target quantum system, but invertible model approximations and inaccuracies can lead to control failures. We develop a model-free and deep-reinforcement learning (DRL) framework for quantum nonergodicity control. It is a machine-learning method with the unique focus on balancing exploration and exploitation strategies to maximize the cumulative rewards so as to preserve the initial memory in the time-dependent nonergodic metrics over a long stretch of time. We use the paradigmatic one-dimensional tilted Fermi-Hubbard system to demonstrate that the DRL agent can efficiently learn the quantum many-body system solely through the interactions with the environment. The optimal policy obtained by the DRL provides broader control scenarios for managing nonergodicity in the phase diagram as compared to, e.g., the specific protocol for Wannier-Stark localization. The continuous control protocols and observations are experimentally feasible. The model-free nature of DRL and its versatile search space for control functions render promising nonergodicity control in more complex quantum many-body systems.         ",
+    "url": "https://arxiv.org/abs/2408.11989",
+    "authors": [
+      "Li-Li Ye",
+      "Ying-Cheng Lai"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16134",
+    "title": "A transition state resonance radically reshapes angular distributions of the F + H2 -> F H(vf = 3) + H reaction in the 62.09-101.67 meV energy range",
+    "abstract": "           Reactive angular distributions of the benchmark F + H2(vi = 0) -> F H(vf = 3) + H reaction show unusual propensity towards small scattering angles, a subject of a long debate in the literature. We use Regge trajectories to quantify the resonance contributions to state-to-state differential cross sections. Conversion to complex energy poles allows us to attribute the effect almost exclusively to a transition state resonance, long known to exist in the F +H2 system and its isotopic variant F +HD. For our detailed analysis of angular scattering we employ the package DCS Regge, recently developed for the purpose [Comp. Phys. Comm., 2022, 277, 108370.]         ",
+    "url": "https://arxiv.org/abs/2408.16134",
+    "authors": [
+      "Dmitri Sokolovski",
+      "Dario De Fazio",
+      "Elena Akhmatskaya"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
