@@ -1,0 +1,368 @@
+[
+  {
+    "id": "arXiv:2409.08456",
+    "title": "End-to-end metasurface design for temperature imaging via broadband Planck-radiation regression",
+    "abstract": "           We present a theoretical framework for temperature imaging from long-wavelength infrared thermal radiation (e.g. 8-12 $\\mu$m) through the end-to-end design of a metasurface-optics frontend and a computational-reconstruction backend. We introduce a new nonlinear reconstruction algorithm, ``Planck regression,\" that reconstructs the temperature map from a grayscale sensor image, even in the presence of severe chromatic aberration, by exploiting blackbody and optical physics particular to thermal imaging. We combine this algorithm with an end-to-end approach that optimizes a manufacturable, single-layer metasurface to yield the most accurate reconstruction. Our designs demonstrate high-quality, noise-robust reconstructions of arbitrary temperature maps (including completely random images) in simulations of an ultra-compact thermal-imaging device. We also show that Planck regression is much more generalizable to arbitrary images than a straightforward neural-network reconstruction, which requires a large training set of domain-specific images.         ",
+    "url": "https://arxiv.org/abs/2409.08456",
+    "authors": [
+      "Sophie Fisher",
+      "Gaurav Arya",
+      "Arka Majumdar",
+      "Zin Lin",
+      "Steven G. Johnson"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Image and Video Processing (eess.IV)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08671",
+    "title": "A Low-Field Magnetic Resonance Signal Transmission and Reception Processing Platform",
+    "abstract": "           In magnetic resonance imaging (MRI), the spectrometer is a fundamental component of MRI systems, responsible for the transmission of radiofrequency (RF) pulses that excite hydrogen nuclei and the subsequent acquisition of MR signals for processing. However, detailed knowledge about this component remains largely inaccessible due to the proprietary nature of commercial systems. To address this gap, we present an FPGA-based platform specifically designed for MRI signal transmission and reception in low-field MRI applications. Additionally, with appropriate chip replacements, this platform can be adapted for use in mid- and high-field MRI systems. This platform leverages Direct Digital Synthesis (DDS) technology to generate RF pulses, offering the flexibility to quickly and precisely adjust soft pulse parameters to meet the specific requirements of the MRI system. Additionally, the platform processes MRI signals through digital downconversion techniques and utilizes CIC and FIR filters to obtain baseband signals. Experimental testing of this platform has yielded promising results. We hope that this work will inspire further research and development in the field of MRI spectrometer design. Furthermore, it is worth noting that with the replacement of relevant chips, this system can also be adapted for use in mid- and high-field MRI systems.         ",
+    "url": "https://arxiv.org/abs/2409.08671",
+    "authors": [
+      "Zesong Jiang",
+      "Muhang Zhang",
+      "Qing Zhang",
+      "Yuchong Xie"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08689",
+    "title": "Real-time observation of frustrated ultrafast recovery from ionisation in nanostructured SiO2 using laser driven accelerators",
+    "abstract": "           Ionising radiation interactions in matter can trigger a cascade of processes that underpin long-lived damage in the medium. To date, however, a lack of suitable methodologies has precluded our ability to understand the role that material nanostructure plays in this cascade. Here, we use transient photoabsorption to track the lifetime of free electrons (t_c) in bulk and nanostructured SiO2 (aerogel) irradiated by picosecond-scale (10^-12 s) bursts of X-rays and protons from a laser-driven accelerator. Optical streaking reveals a sharp increase in t_c from < 1 ps to > 50 ps over a narrow average density (p_av) range spanning the expected phonon-fracton crossover in aerogels. Numerical modelling suggests that this discontinuity can be understood by a quenching of rapid, phonon-assisted recovery in irradiated nanostructured SiO_2. This is shown to lead to an extended period of enhanced energy density in the excited electron population. Overall, these results open a direct route to tracking how low-level processes in complex systems can underpin macroscopically observed phenomena and, importantly, the conditions that permit them to emerge.         ",
+    "url": "https://arxiv.org/abs/2409.08689",
+    "authors": [
+      "J. P. Kennedy",
+      "M. Coughlan",
+      "C. R. J. Fitzpatrick",
+      "H. M. Huddleston",
+      "J. Smyth",
+      "N. Breslin",
+      "H. Donnelly",
+      "C. Arthur",
+      "B. Villagomez",
+      "O. N. Rosmej",
+      "F. Currell",
+      "L. Stella",
+      "D. Riley",
+      "M. Zepf",
+      "M. Yeung",
+      "C. L. S. Lewis",
+      "B. Dromey"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08827",
+    "title": "Towards Precise 3D Quantum Control of a Levitated Dipolar Scatterer using Spatial Mode Decomposition",
+    "abstract": "           An essential requirement for universal quantum control of the centre-of-mass motion of levitated objects is the development of a precise readout of all three translational degrees of freedom. Improving that precision presents one key challenge: collecting all the information on the object's position, encoded in the scattered light, equivalent to minimising the measurement imprecision. Here, we propose a new detection technique based on spatial mode decomposition, which addresses this problem using a simple integrated setup, where all of the light back-scattered from a levitated nanoparticle couples into a spatial mode sorter. We observe that each mode of the sorter pairs predominantly to the in-elastically scattered field generated by the object's motion along a particular spatial axis. This results in each translational degree of freedom being selectively encoded in the amplitude of orthogonal information channels. Using this approach, we report measurement efficiencies ($\\eta_{\\mathrm{tot}}^x$, $\\eta_{\\mathrm{tot}}^y$, $\\eta_{\\mathrm{tot}}^z$) = (0.17, 0.15, 0.30), implying that our technique is capable of reaching the 3D quantum ground state.         ",
+    "url": "https://arxiv.org/abs/2409.08827",
+    "authors": [
+      "Thomas Dinter",
+      "Reece Roberts",
+      "Thomas Volz",
+      "Mikolaj K. Schmidt",
+      "Cyril Laplane"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08843",
+    "title": "Integration of high-performance compact interferometric sensors in a suspended interferometer",
+    "abstract": "           Homodyne Quadrature Interferometers (HoQIs) are compact, low noise and high dynamic range displacement sensors designed for use in gravitational wave observatories. Their lower noise compared to the displacement sensors used at present makes them valuable for improving the seismic isolation in current and future detectors. This paper outlines the progression of this sensor from initial production and benchtop tests to in-vacuum static performance and installation in a gravitational wave detector prototype facility. A detailed design description is outlined, including the full signal and optical chain required for implementation in detectors. The measured in-vacuum static performance indicates a noise floor of $3-4\\times10^{-13}m/\\sqrt{\\rm{Hz}}$ at 10Hz. Three HoQIs were installed on the beamsplitter suspension at the AEI 10m prototype. They measured motion of the intermediate mass across the entire bandwidth measured and showed minimal non-linearities and a good robustness to motion in unmeasured degrees of freedom, both important for practical use in dynamic systems such as seismic isolation.         ",
+    "url": "https://arxiv.org/abs/2409.08843",
+    "authors": [
+      "Alexandra Mitchell",
+      "Johannes Lehmann",
+      "Philip Koch",
+      "Samuel Cooper",
+      "Jesse van Dongen",
+      "Leonid Prokhorov",
+      "Nathan Holland",
+      "Michele Valentini",
+      "Conor Mow-Lowry"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08901",
+    "title": "Investigations of Charge Collection and Signal Timing in a multi-pixel Silicon Drift Detector",
+    "abstract": "           Sterile neutrinos are a minimal extension of the Standard Model of particle physics and a promising candidate for dark matter if their mass is in the keV-range. The Karlsruhe Tritium Neutrino experiment (KATRIN), equipped with a novel multi-pixel silicon drift detector array, the TRISTAN detector, will be capable of searching for these keV-scale sterile neutrinos by investigating the kinematics of the tritium $\\beta$-decay. This measurement will be performed after the completion of the neutrino mass measurement campaign. To detect a sterile neutrino signal with a high sensitivity, a profound understanding of the detector response is required. In this work, we report on the characterization of a 7-pixel TRISTAN prototype detector with a laser system. We present the experimental results obtained in high-resolution scans of the detector surface with a focused laser beam and demonstrate how the charge collection and the timing of the signals generated in the detector is related to the detector geometry. A comparison of the experimental data with simulations shows a good agreement.         ",
+    "url": "https://arxiv.org/abs/2409.08901",
+    "authors": [
+      "Christian Forstner",
+      "Korbinian Urban",
+      "Marco Carminati",
+      "Frank Edzards",
+      "Carlo Fiorini",
+      "Manuel Lebert",
+      "Peter Lechner",
+      "Daniel Siegmann",
+      "Daniela Spreng",
+      "Susanne Mertens"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08910",
+    "title": "Classification of electronic structures and state preparation for quantum computation of reaction chemistry",
+    "abstract": "           Quantum computation for chemical problems will require the construction of guiding states with sufficient overlap with a target state. Since easily available and initializable mean-field states are characterized by an overlap that is reduced for multi-configurational electronic structures and even vanishes with growing system size, we here investigate the severity of state preparation for reaction chemistry. We emphasize weaknesses in current traditional approaches (even for weakly correlated molecules) and highlight the advantage of quantum phase estimation algorithms. An important result is the introduction of a new classification scheme for electronic structures based on orbital entanglement information. We identify two categories of multi-configurational molecules. Whereas class-1 molecules are dominated by very few determinants and often found in reaction chemistry, class-2 molecules do not allow one to single out a reasonably sized number of important determinants. The latter are particularly hard for traditional approaches and an ultimate target for quantum computation. Some open-shell iron-sulfur clusters belong to class 2. We discuss the role of the molecular orbital basis set and show that true class-2 molecules remain in this class independent of the choice of the orbital basis, with the iron-molybdenum cofactor of nitrogenase being a prototypical example. We stress that class-2 molecules can be build in a systematic fashion from open-shell centers or unsaturated carbon atoms. Our key result is that it will always be possible to initialize a guiding state for chemical reaction chemistry in the ground state based on initial low-cost approximate electronic structure information, which is facilitated by the finite size of the atomistic structures to be considered.         ",
+    "url": "https://arxiv.org/abs/2409.08910",
+    "authors": [
+      "Maximilian M\u00f6rchen",
+      "Guang Hao Low",
+      "Thomas Weymuth",
+      "Hongbin Liu",
+      "Matthias Troyer",
+      "Markus Reiher"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08945",
+    "title": "Two-step phase-shifting interferometry for phase-resolved imaging from a spatial light modulator",
+    "abstract": "           We demonstrate two-step phase-shifting interferometry (holography) of complex laser modes generated by a spatial light modulator (SLM), in which the amplitude and phase of the signal are determined directly from measurements of phase-shifted interferograms. The reference and signal beams are generated and phase-controlled with a single composite hologram on the SLM and propagated collinearly. This requires no additional optics and leads to measurements that are more accurate and less prone to noise, which we demonstrate with collinearly-referenced measurements of various Laguerre-Gaussian modes and structured images.         ",
+    "url": "https://arxiv.org/abs/2409.08945",
+    "authors": [
+      "Lark E. Bradsby",
+      "Andrew A. Voitiv",
+      "Mark E. Siemens"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08412",
+    "title": "Single-photon detectors on arbitrary photonic substrates",
+    "abstract": "           Detecting non-classical light is a central requirement for photonics-based quantum technologies. Unrivaled high efficiencies and low dark counts have positioned superconducting nanowire single photon detectors (SNSPDs) as the leading detector technology for fiber and integrated photonic applications. However, a central challenge lies in their integration within photonic integrated circuits regardless of material platform or surface topography. Here, we introduce a method based on transfer printing that overcomes these constraints and allows for the integration of SNSPDs onto arbitrary photonic substrates. We prove this by integrating SNSPDs and showing through-waveguide single-photon detection in commercially manufactured silicon and lithium niobate on insulator integrated photonic circuits. Our method eliminates bottlenecks to the integration of high-quality single-photon detectors, turning them into a versatile and accessible building block for scalable quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2409.08412",
+    "authors": [
+      "Max Tao",
+      "Hugo Larocque",
+      "Samuel Gyger",
+      "Marco Colangelo",
+      "Owen Medeiros",
+      "Ian Christen",
+      "Hamed Sattari",
+      "Gregory Choong",
+      "Yves Petremand",
+      "Ivan Prieto",
+      "Yang Yu",
+      "Stephan Steinhauer",
+      "Gerald L. Leake",
+      "Daniel J. Coleman",
+      "Amir H. Ghadimi",
+      "Michael L. Fanto",
+      "Val Zwiller",
+      "Dirk Englund",
+      "Carlos Errando-Herranz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08508",
+    "title": "Identifying Human Indoor Daily Life Behavior employing Thermal Sensor Arrays (TSAs)",
+    "abstract": "           Daily activity monitoring systems used in households provide vital information for health status, particularly with aging residents. Multiple approaches have been introduced to achieve such goals, typically obtrusive and non-obtrusive. Amongst the obtrusive approaches are the wearable devices, and among the non-obtrusive approaches are the movement detection systems, including motion sensors and thermal sensor arrays (TSAs). TSA systems are advantageous when preserving a person's privacy and picking his precise spatial location. In this study, human daily living activities were monitored day and night, constructing the corresponding activity time series and spatial probability distribution and employing a TSA system. The monitored activities are classified into two categories: sleeping and daily activity. Results showed the possibility of distinguishing between classes regardless of day and night. The obtained sleep activity duration was compared with previous research using the same raw data. Results showed that the duration of sleep activity, on average, was 9 hours/day, and daily life activity was 7 hours/day. The person's spatial probability distribution was determined using the bivariate distribution for the monitored location. In conclusion, the results showed that sleeping activity was dominant. Our study showed that TSAs were the optimum choice when monitoring human activity. Our proposed approach tackled limitations encountered by previous human activity monitoring systems, such as preserving human privacy while knowing his precise spatial location.         ",
+    "url": "https://arxiv.org/abs/2409.08508",
+    "authors": [
+      "Dina E. Abdelaleem",
+      "Hassan M. Ahmed",
+      "M. Sami Soliman",
+      "Tarek M. Said"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Signal Processing (eess.SP)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08524",
+    "title": "Quantum Metrology via Floquet-Engineered Two-axis Twisting and Turn Dynamics",
+    "abstract": "           The core of quantum metrology lies in utilizing entanglement to enhance measurement precision beyond standard quantum limit. Here, we utilize the Floquet-engineered two-axis twisting (TAT) and turn dynamics to generate non-Gaussian states for quantum metrology. By employing both analytically semi-classical and quantum approaches, we find that the desired $N$-particle non-Gaussian state can be produced within a remarkably short time $t_\\mathrm{opt}\\propto \\ln{N}/{N}$, and its quantum Fisher information $F^\\mathrm{opt}_\\mathrm{Q}\\propto N^2$ approaches the Heisenberg limit. Moreover, using the Floquet-engineered anti-TAT-and-turn, we may implement an efficient interaction-based readout protocol to extract the signal encoded in this non-Gaussian state. This Floquet-engineered anti-TAT-and-turn approach offers a viable method to achieve effective time-reversal dynamics for improving measurement precision and resilience against detection noise, all without the need to invert the sign of the nonlinear interaction. This study paves the way for achieving entanglement-enhanced quantum metrology via rapid generation of cat-like states at high particle numbers through continuous Floquet engineering.         ",
+    "url": "https://arxiv.org/abs/2409.08524",
+    "authors": [
+      "Jihao Ma",
+      "Yi Shen",
+      "Jiahao Huang",
+      "Chaohong Lee"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08816",
+    "title": "Efficient Pseudomode Representation and Complexity of Quantum Impurity Models",
+    "abstract": "           Out-of-equilibrium fermionic quantum impurity models (QIM), describing a small interacting system coupled to a continuous fermionic bath, play an important role in condensed matter physics. Solving such models is a computationally demanding task, and a variety of computational approaches are based on finding approximate representations of the bath by a finite number of modes. In this paper, we formulate the problem of finding efficient bath representations as that of approximating a kernel of the bath's Feynman-Vernon influence functional by a sum of complex exponentials, with each term defining a fermionic pseudomode. Under mild assumptions on the analytic properties of the bath spectral density, we provide an analytic construction of pseudomodes, and prove that their number scales polylogarithmically with the maximum evolution time $T$ and the approximation error $\\varepsilon$. We then demonstrate that the number of pseudomodes can be significantly reduced by an interpolative matrix decomposition (ID). Furthermore, we present a complementary approach, based on constructing rational approximations of the bath's spectral density using the ``AAA'' algorithm, followed by compression with ID. The combination of two approaches yields a pseudomode count scaling as $N_\\text{ID} \\sim \\log(T)\\log(1/\\varepsilon)$, and the agreement between the two approches suggests that the result is close to optimal. Finally, to relate our findings to QIM, we derive an explicit Liouvillian that describes the time evolution of the combined impurity-pseudomodes system. These results establish bounds on the computational resources required for solving out-of-equilibrium QIMs, providing an efficient starting point for tensor-network methods for QIMs.         ",
+    "url": "https://arxiv.org/abs/2409.08816",
+    "authors": [
+      "Julian Thoenniss",
+      "Ilya Vilkoviskiy",
+      "Dmitry A. Abanin"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08915",
+    "title": "Remote Entangling Gates for Spin Qubits in Quantum Dots using an Offset-Charge-Sensitive Transmon Coupler",
+    "abstract": "           We propose a method to realize microwave-activated CZ gates between two remote spin qubits in quantum dots using an offset-charge-sensitive transmon coupler. The qubits are longitudinally coupled to the coupler, so that the transition frequency of the coupler depends on the logical qubit states; a capacitive network model using first-quantized charge operators is developed to illustrate this. Driving the coupler transition then implements a conditional phase shift on the qubits. Two pulsing schemes are investigated: a rapid, off-resonant pulse with constant amplitude, and a pulse with envelope engineering that incorporates dynamical decoupling to mitigate charge noise. We develop non-Markovian time-domain simulations to accurately model gate performance in the presence of $1/f^\\beta$ charge noise. Simulation results indicate that a CZ gate fidelity exceeding 90% is possible with realistic parameters and noise models.         ",
+    "url": "https://arxiv.org/abs/2409.08915",
+    "authors": [
+      "Harry Hanlim Kang",
+      "Ilan T. Rosen",
+      "Max Hays",
+      "Jeffrey A. Grover",
+      "William D. Oliver"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2101.12598",
+    "title": "Quantum electrodynamical formulation of photochemical acid generation and its implications on optical lithography",
+    "abstract": "           The photochemical acid generation is refined from the first principles of quantum electrodynamics. First, we briefly review the formulation of the quantum theory of light based on the quantum electrodynamics framework to establish the probability of acid generation at a given spacetime point. The quantum-mechanical acid generation is then combined with the deprotection mechanism to obtain a probabilistic description of the deprotection density directly related to feature formation in a photoresist. A statistical analysis of the random deprotection density is presented to reveal the leading characteristics of stochastic feature formation.         ",
+    "url": "https://arxiv.org/abs/2101.12598",
+    "authors": [
+      "Seungjin Lee"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.01612",
+    "title": "Universal behavior of the Covid-19 tails: Inverse power-law distribution",
+    "abstract": "           Power-law distribution is one of the most important laws known in nature. Such a special universal behavior is known to occur in very few physical systems. In this Letter, we analyzed the mortality distribution of the Covid-19 pandemic tails for different countries and continents to discuss the possible universal behavior of the pandemic. Surprisingly, we found that the mortality distribution of Covid-19 final i.e., the latest tails in 2023 follows inverse power-law decays. These universal behaviors for the pandemic are reported in the present work for the first time. Additionally, we showed that these mortality tails also decay with time obeying to the inverse power-law.         ",
+    "url": "https://arxiv.org/abs/2406.01612",
+    "authors": [
+      "E. Aydiner",
+      "E. Yilmaz"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.15443",
+    "title": "GRASIAN: Shaping and characterization of the cold hydrogen and deuterium beams for the forthcoming first demonstration of gravitational quantum states of atoms",
+    "abstract": "           A low energy particle confined by a horizontal reflective surface and gravity settles in gravitationally bound quantum states. These gravitational quantum states (GQS) were so far only observed with neutrons. However, the existence of GQS is predicted also for atoms. The GRASIAN collaboration pursues the first observation of GQS of atoms, using a cryogenic hydrogen beam. This endeavor is motivated by the higher densities, which can be expected from hydrogen compared to neutrons, the easier access, the fact that GQS were never observed with atoms and the accessibility to hypothetical short range interactions. In addition to enabling gravitational quantum spectroscopy, such a cryogenic hydrogen beam with very low vertical velocity components - a few cm s$^{-1}$, can be used for precision optical and microwave spectroscopy. In this article, we report on our methods developed to reduce background and to detect atoms with a low horizontal velocity, which are needed for such an experiment. Our recent measurement results on the collimation of the hydrogen beam to 2 mm, the reduction of background and improvement of signal-to-noise and finally our first detection of atoms with velocities < 72 m s$^{-1}$ are presented. Furthermore, we show calculations, estimating the feasibility of the planned experiment and simulations which confirm that we can select vertical velocity components in the order of cm s$^{-1}$.         ",
+    "url": "https://arxiv.org/abs/2407.15443",
+    "authors": [
+      "Carina Killian",
+      "Philipp Blumer",
+      "Paolo Crivelli",
+      "Daniel Kloppenburg",
+      "Francois Nez",
+      "Valery Nesvizhevsky",
+      "Serge Reynaud",
+      "Katharina Schreiner",
+      "Martin Simon",
+      "Sergey Vasiliev",
+      "Eberhard Widmann",
+      "Pauline Yzombard"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.16279",
+    "title": "Sampling Error Analysis in Quantum Krylov Subspace Diagonalization",
+    "abstract": "           Quantum Krylov subspace diagonalization (QKSD) is an emerging method used in place of quantum phase estimation in the early fault-tolerant era, where limited quantum circuit depth is available. In contrast to the classical Krylov subspace diagonalization (KSD) or the Lanczos method, QKSD exploits the quantum computer to efficiently estimate the eigenvalues of large-size Hamiltonians through a faster Krylov projection. However, unlike classical KSD, which is solely concerned with machine precision, QKSD is inherently accompanied by errors originating from a finite number of samples. Moreover, due to difficulty establishing an artificial orthogonal basis, ill-conditioning problems are often encountered, rendering the solution vulnerable to noise. In this work, we present a nonasymptotic theoretical framework to assess the relationship between sampling noise and its effects on eigenvalues. We also propose an optimal solution to cope with large condition numbers by eliminating the ill-conditioned bases. Numerical simulations of the one-dimensional Hubbard model demonstrate that the error bound of finite samplings accurately predicts the experimental errors in well-conditioned regions.         ",
+    "url": "https://arxiv.org/abs/2307.16279",
+    "authors": [
+      "Gwonhak Lee",
+      "Dongkeun Lee",
+      "Joonsuk Huh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14924",
+    "title": "The Origin of Quantum Mechanical Statistics: Some Insights from the Research on Human Language",
+    "abstract": "           Identical systems, or entities, are indistinguishable in quantum mechanics (QM), and the symmetrization postulate rules the possible statistical distributions of a large number of identical quantum entities. However, a thorough analysis on the historical development of QM attributes the origin of quantum statistics, in particular, Bose-Einstein statistics, to a lack of statistical independence of the micro-states of identical quantum entities. We have recently identified Bose-Einstein statistics in the combination of words in large texts, as a consequence of the entanglement created by the meaning carried by words when they combine in human language. Relying on this investigation, we put forward the hypothesis that entanglement, hence the lack of statistical independence, is due to a mechanism of contextual updating, which provides deeper reasons for the appearance of Bose-Einstein statistics in human language. However, this investigation also contributes to a better understanding of the origin of quantum mechanical statistics in physics. Finally, we provide new insights into the intrinsically random behaviour of microscopic entities that is generally assumed within classical statistical mechanics.         ",
+    "url": "https://arxiv.org/abs/2407.14924",
+    "authors": [
+      "Diederik Aerts",
+      "Jonito Aerts Argu\u0113lles",
+      "Lester Beltran",
+      "Massimiliano Sassoli de Bianchi",
+      "Sandro Sozzo"
+    ],
+    "subjectives": [
+      "Neurons and Cognition (q-bio.NC)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.06160",
+    "title": "Contextual Subspace Auxiliary-Field Quantum Monte Carlo: Improved bias with reduced quantum resources",
+    "abstract": "           Using trial wavefunctions prepared on quantum devices to reduce the bias of auxiliary-field quantum Monte Carlo (QC-AFQMC) has established itself as a promising hybrid approach to the simulation of strongly correlated many body systems. Here, we further reduce the required quantum resources by decomposing the trial wavefunction into classical and quantum parts, respectively treated by classical and quantum devices, within the contextual subspace projection formalism. Importantly, we show that our algorithm is compatible with the recently developed matchgate shadow protocol for efficient overlap calculation in QC-AFQMC. Investigating the nitrogen dimer and the reductive decomposition of ethylene carbonate in lithium-based batteries, we observe that our method outperforms a number of established algorithm for ground state energy computations, while reaching chemical accuracy with less than half of the original number of qubits.         ",
+    "url": "https://arxiv.org/abs/2408.06160",
+    "authors": [
+      "Matthew Kiser",
+      "Matthias Beuerle",
+      "Fedor Simkovic IV"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.08137",
+    "title": "Spatiotemporal Photon Blockade for Nonreciprocal Quantum Absorption",
+    "abstract": "           Controlling the flow of photons is crucial for advancing quantum technologies. We introduce the concept of spatiotemporal photon blockade for nonreciprocal quantum absorption, utilizing space-time-periodic metasurfaces. Our study presents a methodology for experimentally realizing this effect, where photon frequency coherence with the metasurface's space-time modulation enables one-way quantum absorption. In this system, forward-traveling photons are energetically modulated and absorbed within the slab, while backward-traveling photons are transmitted without interaction. Our analysis includes band structure, isofrequency diagrams, and nonreciprocal absorption results. These findings lay the groundwork for developing nonreciprocal quantum devices and enhancing photon management in milli-Kelvin temperature quantum systems.         ",
+    "url": "https://arxiv.org/abs/2409.08137",
+    "authors": [
+      "Sajjad Taravati"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
