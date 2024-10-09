@@ -1,0 +1,583 @@
+[
+  {
+    "id": "arXiv:2410.03851",
+    "title": "Scalable construction of hybrid quantum photonic cavities",
+    "abstract": "           Nanophotonic resonators are central to numerous applications, from efficient spin-photon interfaces to laser oscillators and precision sensing. A leading approach consists of photonic crystal (PhC) cavities, which have been realized in a wide range of dielectric materials. However, translating proof-of-concept devices into a functional system entails a number of additional challenges, inspiring new approaches that combine: resonators with wavelength-scale confinement and high quality factors; scalable integration with integrated circuits and photonic circuits; electrical or mechanical cavity tuning; and, in many cases, a need for heterogeneous integration with functional materials such as III-V semiconductors or diamond color centers for spin-photon interfaces. Here we introduce a concept that generates a finely tunable PhC cavity at a select wavelength between two heterogeneous optical materials whose properties satisfy the above requirements. The cavity is formed by stamping a hard-to-process material with simple waveguide geometries on top of an easy-to-process material consisting of dielectric grating mirrors and active tuning capability. We simulate our concept for the particularly challenging design problem of multiplexed quantum repeaters based on arrays of cavity-coupled diamond color centers, achieving theoretically calculated unloaded quality factors of $10^6$, mode volumes as small as $1.2(\\lambda/n_{eff})^3$, and maintaining >60 percent total on-chip collection efficiency of fluorescent photons. We further introduce a method of low-power piezoelectric tuning of these hybrid diamond cavities, simulating optical resonance shifts up to ~760 GHz and color center fluorescence tuning of 5 GHz independent of cavity tuning. These results will motivate integrated photonic cavities toward larger scale systems-compatible designs.         ",
+    "url": "https://arxiv.org/abs/2410.03851",
+    "authors": [
+      "Andrew S. Greenspon",
+      "Mark Dong",
+      "Ian Christen",
+      "Gerald Gilbert",
+      "Matt Eichenfield",
+      "Dirk Englund"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.03963",
+    "title": "dZiner: Rational Inverse Design of Materials with AI Agents",
+    "abstract": "           Recent breakthroughs in machine learning and artificial intelligence, fueled by scientific data, are revolutionizing the discovery of new materials. Despite the wealth of existing scientific literature, the availability of both structured experimental data and chemical domain knowledge that can be easily integrated into data-driven workflows is limited. The motivation to integrate this information, as well as additional context from first-principle calculations and physics-informed deep learning surrogate models, is to enable efficient exploration of the relevant chemical space and to predict structure-property relationships of new materials a priori. Ultimately, such a framework could replicate the expertise of human subject-matter experts. In this work, we present dZiner, a chemist AI agent, powered by large language models (LLMs), that discovers new compounds with desired properties via inverse design (property-to-structure). In specific, the agent leverages domain-specific insights from foundational scientific literature to propose new materials with enhanced chemical properties, iteratively evaluating them using relevant surrogate models in a rational design process, while accounting for design constraints. The model supports both closed-loop and human-in-the-loop feedback cycles, enabling human-AI collaboration in molecular design with real-time property inference, and uncertainty and chemical feasibility assessment. We demonstrate the flexibility of this agent by applying it to various materials target properties, including surfactants, ligand and drug candidates, and metal-organic frameworks. Our approach holds promise to both accelerate the discovery of new materials and enable the targeted design of materials with desired functionalities. The methodology is available as an open-source software on this https URL.         ",
+    "url": "https://arxiv.org/abs/2410.03963",
+    "authors": [
+      "Mehrad Ansari",
+      "Jeffrey Watchorn",
+      "Carla E. Brown",
+      "Joseph S. Brown"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.03985",
+    "title": "Quantum algorithm for the advection-diffusion equation and the Koopman-von Neumann approach to nonlinear dynamical systems",
+    "abstract": "           We propose an explicit algorithm based on the Linear Combination of Hamiltonian Simulations technique to simulate both the advection-diffusion equation and a nonunitary discretized version of the Koopman-von Neumann formulation of nonlinear dynamics. By including dissipation into the model, through an upwind discretization of the advection operator, we avoid spurious parasitic oscillations which usually accompany standard finite difference discretizations of the advection equation. In contrast to prior works on quantum simulation of nonlinear problems, we explain in detail how different components of the algorithm can be implemented by using the Quantum Signal Processing (QSP) and Quantum Singular Value Transformation (QSVT) methods. In addition, we discuss the general method for implementing the block-encoding (BE) required for QSP and QSVT circuits and provide explicit implementations of the BE oracles tailored to our specific test cases. We simulate the resulting circuit on a digital emulator of quantum fault-tolerant computers and investigate its complexity and success probability. The proposed algorithm is universal and can be used for modeling a broad class of linear and nonlinear differential equations including the KvN and Carleman embeddings of nonlinear systems, the semiclassical Koopman-van Hove (KvH) equation, as well as the advection and Liouville equations.         ",
+    "url": "https://arxiv.org/abs/2410.03985",
+    "authors": [
+      "Ivan Novikau",
+      "Ilon Joseph"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04006",
+    "title": "Universal parity and duality asymmetries-based optical force/torque framework",
+    "abstract": "           Understanding how the structured incident light interacts with the inherent properties of the manipulated particle and governs the optical force/torque exerted is a cornerstone in the design of optical manipulation techniques, apart from its theoretical significance. Based on the Cartesian multipole expansion theory, we establish a framework for optical force/torque exerted on an arbitrary sized bi-isotropic (chiral) spherical particle immersed in generic monochromatic optical fields. Rigorous expressions are thus derived which explicitly bridges such mechanical effects of light with particle-property-dependent coefficients and \"force/torque source\" quantities that characterize the incident light structures. Such quantities, totalled only 12, are quadratic in terms of electric and magnetic field vectors, among which are linear and angular momenta, gradient of energy density, spin density, and helicity. They are further organized into four categories based on their parity (P) and duality (D) symmetries and shown to couple with a particle with different P and D symmetries to induce optical force/torque. This classification specifies the symmetry-breaking criteria required to induce optical force/torque, offering a promising roadmap for engineering the optical manipulation.         ",
+    "url": "https://arxiv.org/abs/2410.04006",
+    "authors": [
+      "Xu Yuan",
+      "Xiaoshu Zhao",
+      "Jiquan Wen",
+      "Hongxia Zheng",
+      "Xiao Li",
+      "Huajin Chen",
+      "Jack Ng",
+      "Zhifang Lin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04290",
+    "title": "Fundamental principles and applications of nonlinear optical phenomena in classical and quantum electrodynamics",
+    "abstract": "           Nonlinear optical phenomena play important roles in the vast emerging fields of micro- and nano-technology. This paper describes the general characteristics of nonlinear optical materials and systems, with a focus on parametric amplification, frequency-doubling with pump depletion, quantum noise accompanying attenuation and amplification of light beams, and parametric fluorescence.         ",
+    "url": "https://arxiv.org/abs/2410.04290",
+    "authors": [
+      "Masud Mansuripur"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04605",
+    "title": "Optical pumping of matrix-isolated barium monofluoride: dependence on the orientation of the BaF molecular axis",
+    "abstract": "           Optical pumping of barium monofluoride (BaF) within a cryogenic neon matrix is demonstrated. Interestingly, with an applied magnetic field of 2~G, optical pumping is found to be considerably more efficient for a laser beam with right-circular polarization compared to left-circular polarization. Calculations show that the higher efficiency is due to a constructive versus destructive interference and is dependent on the orientation of the BaF molecule relative to the magnetic field direction. The effect leads to orientation-dependent optical pumping within the matrix. As optical pumping is the first step used in our planned electron electric-dipole moment (eEDM) measurement, we intend to exploit this property to obtain the selection of molecular orientations that is required for an eEDM measurement.         ",
+    "url": "https://arxiv.org/abs/2410.04605",
+    "authors": [
+      "D. Heinrich",
+      "Z. Corriveau",
+      "J. Perez Garcia",
+      "N.T. McCall",
+      "H.-M. Yau",
+      "R.L. Lambo",
+      "T. Chauhan",
+      "G.K. Koyanagi",
+      "A. Marsman",
+      "M.C. George",
+      "C.H. Storry",
+      "M. Horbatsch",
+      "E.A. Hessels"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04725",
+    "title": "Model for Predicting Adsorption Isotherms and the Kinetics of Adsorption via Steepest-Entropy-Ascent Quantum Thermodynamics",
+    "abstract": "           This work outlines the foundations for being able to do a first-principle study of the adsorption process using the steepest-entropy-ascent quantum thermodynamic (SEAQT) framework, a framework able to predict the unique non-equilibrium path taken by a system from some initial state to stable equilibrium. To account for the process of multi-component adsorption, the SEAQT framework incorporates the particle number operator for each absorbed species directly into its equation of motion. The theoretical models developed are validated via some initial comparisons with experimental data found in the literature, demonstrating good agreement. The findings reveal that this framework can be an effective tool for describing the adsorption process out of equilibrium. It is able to do so without $a \\; priori$ knowledge of the specific adsorption mechanism(s) involved. It also aligns well with the anticipated predictions of equilibrium models. In addition, within this framework, all intensive thermodynamic properties are characterized by out-of-equilibrium fluctuations, highlighting the significance of non-equilibrium thermodynamics in predicting measurable physical quantities.         ",
+    "url": "https://arxiv.org/abs/2410.04725",
+    "authors": [
+      "Adriana Saldana-Robles",
+      "Cesar Damian",
+      "William T. Reynolds Jr",
+      "Michael R. von Spakovsky"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04945",
+    "title": "Classical molecular dynamic simulation to assess the non-Maxwellian behavior of inverse bremsstrahlung heating in weakly coupled plasmas",
+    "abstract": "           Classical molecular-dynamics simulations (CMDS) have been conducted to investigate the non-Maxwellian behavior of a weakly coupled plasma submitted to the inverse bremsstrahlung heating of laser irradiation. It is the so called Langdon effect. It has important consequences on plasma properties. It reduces laser absorption, it modifies atomic physics due to its influence on the free electron population, it alters conduction and any other quantities that depends upon electron velocity distribution (EVD). Here, the Langdon effect has been studied with CMDS using the code LAMMPS where, contrary to Fokker-Plank simulations, widely used in the past, plasma many-body behavior at the microscopic level is taken into account self-consistently. For the first time with CMDS, we have observed the deformation of the instantaneous EVD in Langdon's condition. Anisotropy of these non-Maxwellian effects have been demonstrated at moderate and high intensities. CMDS results (related to the shape of the EVD and to the laser absorption reduction) do not match with previous Fokker-Planck simulations results as well as might have been expected. This should probably stimulate new developments to understand the complex many-body interaction of electrons and ions in a laser irradiated plasma in the future.         ",
+    "url": "https://arxiv.org/abs/2410.04945",
+    "authors": [
+      "Ronan Devriendt",
+      "Olivier Poujade"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05010",
+    "title": "Quadratic frequency comb based on phase-modulated cw-driven optical parametric oscillator with intracavity dispersion control",
+    "abstract": "           We report a novel configuration of bulk $\\chi^{(2)}$ optical parametric oscillator (OPO) capable of delivering coherent broadband phase-locked spectrum when driven by a continuous-wave (cw) pump laser. By deploying an electro-optic modulator (EOM) internal to a degenerate cw OPO based on MgO:sPPLT or MgO:PPLN and implementing intracavity dispersion control, we show that output spectra extending over 9 nm (119 nm) with well-defined phase coherence can be generated. Pumping the cw OPO at 532~nm (1550~nm) for degenerate operation in the normal (anomalous) dispersion regime at 1064~nm (3100~nm), and using the coupled-wave equations to simulate the OPO in the presence of intracavity dispersion compensation, we demonstrate that this device offers a new alternative for $\\chi^{(2)}$-based frequency comb generation. We also show that in the time domain the output of such a device corresponds to femtosecond quadratic solitons in both dispersion regimes. The described concept is generic, paving the way for the realization of a new class of coherent broadband frequency comb sources in different spectral regions based on $\\chi^{(2)}$ OPOs pumped by cw lasers.         ",
+    "url": "https://arxiv.org/abs/2410.05010",
+    "authors": [
+      "A. D. Sanchez",
+      "S. Chaitanya Kumar",
+      "M. Ebrahim-Zadeh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05039",
+    "title": "Mean-field equation for phase-modulated optical parametric oscillator",
+    "abstract": "           The widely established techniques for the generation of ultrashort optical pulses rely on passive mode-locking of lasers, with the output pulse duration and emission spectrum determined by the intrinsic lifetime of laser transition in the gain medium. Due to the instantaneous nature of nonlinear gain, optical parametric oscillators (OPOs) are capable of generating optical radiation in all time scales from continuous-wave (cw) to ultrashort femtosecond regime, if driven by laser pump sources in the corresponding time domain. In the ultrashort time scale, operation of OPOs conventionally relies on mode-locked pump lasers, with the concomitant disadvantages of large footprint and high cost. At the same time, the lack of gain storage mandates the use of synchronous pumping, resulting in increased complexity. In this paper, we present the concept of phase-modulated OPO driven by cw pump laser. The approach overcomes the traditional drawbacks of ultrafast OPOs, enabling femtosecond pulse generation without the need for synchronous pumping, resulting in a simplified, compact and cost-effective architecture using cw input pump lasers. We derive a mean-field equation for a degenerate $\\chi^{(2)}$ OPO driven by a cw laser with intracavity electro-optic modulator (EOM), and also including dispersion compensation. The new equation predicts the formation of stable femtosecond pulses ($<$200~fs), in both normal and anomalous dispersion regimes, with a controllable repetition rate determined by the frequency of the EOM. The remarkable functionality of the proposed scheme paves the way for the development of a new class of widely tunable coherent femtosecond light sources in both bulk and integrated format based on $\\chi^{(2)}$ OPOs using cw pump lasers.         ",
+    "url": "https://arxiv.org/abs/2410.05039",
+    "authors": [
+      "A. D. Sanchez",
+      "S. Chaitanya Kumar",
+      "M. Ebrahim-Zadeh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05142",
+    "title": "Nonadiabatic Quantum Dynamics of Molecules Scattering from Metal Surfaces",
+    "abstract": "           Nonadiabatic coupling between electrons and molecular motion at metal surfaces leads to energy dissipation and dynamical steering effects during chemical surface dynamics. We present a theoretical approach to the scattering of molecules from metal surfaces that incorporates all nonadiabatic and quantum nuclear effects due to the coupling of the molecular degrees of freedom to the electrons in the metal. This is achieved with the hierarchical equations of motion (HEOM) approach combined with a matrix product state representation in twin space. The method is applied to the scattering of nitric oxide from Au(111), for which strongly nonadiabatic energy loss during scattering has been experimentally observed, thus presenting a significant theoretical challenge. Since the HEOM approach treats the molecule-surface coupling exactly, it captures the interplay between nonadiabatic and quantum nuclear effects. Finally, the data obtained by the HEOM approach is used as a rigorous benchmark to assess various mixed quantum-classical methods, from which we derive insights into the mechanisms of energy dissipation and the suitable working regimes of each method.         ",
+    "url": "https://arxiv.org/abs/2410.05142",
+    "authors": [
+      "Riley J. Preston",
+      "Yaling Ke",
+      "Samuel L. Rudge",
+      "Nils Hertl",
+      "Raffaele Borrelli",
+      "Reinhard J. Maurer",
+      "Michael Thoss"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05144",
+    "title": "Hybrid optical sensor for combined thermal and dimensional monitoring in laser processing",
+    "abstract": "           Optical measurements enable non-contact and high-speed monitoring of physical processes, offering a non-invasive and versatile approach across a wide range of fields, from scientific research to industrial applications. In this work, an optical sensor capable of simultaneously measuring the distance and thermal emission of surfaces is presented, based on a simple laser diode probe. The principle of operation integrates triangulation with pyrometry in a single device, utilizing the monitor photodiode embedded within the probe package. By alternating the laser emission, the readout can rapidly switch between dimensional and thermal measurements, resulting in combined data acquisition. The presented method is compact, easy to integrate, and cost-effective. The hybrid sensor is implemented into a laser processing setup, where a metallic target is heated and melted by a high-power laser beam. Its inline operation is demonstrated in real-time for dynamic measurements of melt pool distance and radiance. This innovative approach can find applications in diverse fields, such as remote environmental sensing and closed-loop control systems for stabilizing high-temperature processes, including laser welding and additive manufacturing.         ",
+    "url": "https://arxiv.org/abs/2410.05144",
+    "authors": [
+      "Simone Donadello"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.03838",
+    "title": "Quantum Simulation of Nonlinear Dynamical Systems Using Repeated Measurement",
+    "abstract": "           We present a quantum algorithm based on repeated measurement to solve initial-value problems for nonlinear ordinary differential equations (ODEs), which may be generated from partial differential equations in plasma physics. We map a dynamical system to a Hamiltonian form, where the Hamiltonian matrix is a function of dynamical variables. To advance in time, we measure expectation values from the previous time step, and evaluate the Hamiltonian function classically, which introduces stochasticity into the dynamics. We then perform standard quantum Hamiltonian simulation over a short time, using the evaluated constant Hamiltonian matrix. This approach requires evolving an ensemble of quantum states, which are consumed each step to measure required observables. We apply this approach to the classic logistic and Lorenz systems, in both integrable and chaotic regimes. Out analysis shows that solutions' accuracy is influenced by both the stochastic sampling rate and the nature of the dynamical system.         ",
+    "url": "https://arxiv.org/abs/2410.03838",
+    "authors": [
+      "Joseph Andress",
+      "Alexander Engel",
+      "Yuan Shi",
+      "Scott Parker"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.03881",
+    "title": "Triplet Exciton Sensitization of Silicon Mediated by Defect States in Hafnium Oxynitride",
+    "abstract": "           Singlet exciton fission has the potential to increase the efficiency of crystalline silicon solar cells beyond the conventional single junction limit. Perhaps the largest obstacle to achieving this enhancement is uncertainty about energy coupling mechanisms at the interfaces between silicon and exciton fission materials such as tetracene. Here, the previously reported silicon-hafnium oxynitride-tetracene structure is studied and a combination of magnetic-field-dependent silicon photoluminescence measurements and density functional theory calculations is used to probe the influence of the interlayer composition on the triplet transfer process across the hafnium oxynitride interlayer. It is found that hafnium oxide interlayers do not show triplet exciton sensitization of silicon, and that nitrogen content in hafnium oxynitride layers is correlated with enhanced sensitization. Calculation results reveal that defects in hafnium oxynitride interlayers with higher nitrogen content introduce states close to the band-edge of silicon, which can mediate the triplet exciton transfer process. Some defects introduce additional deleterious mid-gap states, which may explain observed silicon photoluminescence quenching. These results show that band-edge states can mediate the triplet exciton transfer process, potentially through a sequential charge transfer mechanism.         ",
+    "url": "https://arxiv.org/abs/2410.03881",
+    "authors": [
+      "Narumi Nagaya",
+      "Alexandra Alexiu",
+      "Collin F. Perkinson",
+      "Oliver M. Nix",
+      "Moungi G. Bawendi",
+      "William A. Tisdale",
+      "Troy Van Voorhis",
+      "Marc A. Baldo"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04223",
+    "title": "Multimodal Large Language Models for Inverse Molecular Design with Retrosynthetic Planning",
+    "abstract": "           While large language models (LLMs) have integrated images, adapting them to graphs remains challenging, limiting their applications in materials and drug design. This difficulty stems from the need for coherent autoregressive generation across texts and graphs. To address this, we introduce Llamole, the first multimodal LLM capable of interleaved text and graph generation, enabling molecular inverse design with retrosynthetic planning. Llamole integrates a base LLM with the Graph Diffusion Transformer and Graph Neural Networks for multi-conditional molecular generation and reaction inference within texts, while the LLM, with enhanced molecular understanding, flexibly controls activation among the different graph modules. Additionally, Llamole integrates A* search with LLM-based cost functions for efficient retrosynthetic planning. We create benchmarking datasets and conduct extensive experiments to evaluate Llamole against in-context learning and supervised fine-tuning. Llamole significantly outperforms 14 adapted LLMs across 12 metrics for controllable molecular design and retrosynthetic planning.         ",
+    "url": "https://arxiv.org/abs/2410.04223",
+    "authors": [
+      "Gang Liu",
+      "Michael Sun",
+      "Wojciech Matusik",
+      "Meng Jiang",
+      "Jie Chen"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)",
+      "Biomolecules (q-bio.BM)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04284",
+    "title": "Quantum fluctuations and noise in interferometry and photodetection: Applications in optical sensing and micromanipulation",
+    "abstract": "           Accurate optical sensing and micromanipulation requires sensitive measurements of the position, orientation, and dynamics of small particles--and sometimes even large objects--under consideration. The signals acquired in the process, including those needed for the feedback control of these particles and objects, are inevitably contaminated by quantum fluctuations and noise that accompany the physical processes of optical interference and photodetection (or photon counting). This paper explores the origins of signal fluctuation and quantum noise that are inevitably associated with such sensitive measurements.         ",
+    "url": "https://arxiv.org/abs/2410.04284",
+    "authors": [
+      "Masud Mansuripur"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04294",
+    "title": "Spectral Densities, Structured Noise and Ensemble Averaging within Open Quantum Dynamics",
+    "abstract": "           Although recent advances in simulating open quantum systems have lead to significant progress, the applicability of numerically exact methods is still restricted to rather small systems. Hence, more approximate methods remain relevant due to their computational efficiency, enabling simulations of larger systems over extended timescales. In this study, we present advances for one such method, namely the Numerical Integration of Schr\u00f6dinger Equation (NISE). Firstly, we introduce a modified ensemble-averaging procedure that improves the long-time behavior of the thermalized variant of the NISE scheme, termed Thermalized NISE. Secondly, we demonstrate how to use the NISE in conjunction with (highly) structured spectral densities by utilizing a noise generating algorithm for arbitrary structured noise. This algorithm also serves as a tool for establishing best practices in determining spectral densities from excited state calculations along molecular dynamics or quantum mechanics/molecular mechanics trajectories. Finally, we assess the ability of the NISE approach to calculate absorption spectra and demonstrate the utility of the proposed modifications by determining population dynamics.         ",
+    "url": "https://arxiv.org/abs/2410.04294",
+    "authors": [
+      "Yannick Marcel Holtkamp",
+      "Emiliano Godinez-Ramirez",
+      "Ulrich Kleinekath\u00f6fer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.04588",
+    "title": "Frequency Comb Calibrated Laser Heterodyne Radiometry for Precision Radial Velocity Measurements",
+    "abstract": "           Disk-integrated observations of the Sun provide a unique vantage point to explore stellar activity and its effect on measured radial velocities. Here, we report a new approach for disk-integrated solar spectroscopy and evaluate its capabilities for solar radial velocity measurements. Our approach is based on a near-infrared laser heterodyne radiometer (LHR) combined with an optical frequency comb calibration, and we show that this combination enables precision, disk-integrated solar spectroscopy with high spectral resolution (~800,000), high signal-to-noise ratio (~2,600), and absolute frequency accuracy. We use the comb-calibrated LHR to record spectra of the solar Fe I 1565 nm transition over a six-week period. We show that our measurements reach sub-meter-per-second radial velocity precision over a single day, and we use daily measurements of the absolute line center to assess the long-term stability of the comb-calibrated LHR approach. We use this long-duration dataset to quantify the principal uncertainty sources that impact the measured radial velocities, and we discuss future modifications that can further improve this approach in studies of stellar variability and its impact on radial velocity measurements.         ",
+    "url": "https://arxiv.org/abs/2410.04588",
+    "authors": [
+      "Ryan K. Cole",
+      "Connor Fredrick",
+      "Winter Parts",
+      "Max Kingston",
+      "Carolyn Chinatti",
+      "Josiah Tusler",
+      "Suvrath Mahadevan",
+      "Ryan Terrien",
+      "Scott A. Diddams"
+    ],
+    "subjectives": [
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2102.06702",
+    "title": "Calculation of Photocarrier Generation from Optical Absorption for Time-domain Simulation of Optoelectronic Devices",
+    "abstract": "           Photocarrier generation rate in optoelectronic materials is often calculated using the Poynting vector in the frequency domain. However, this approach is not accurate in time-domain simulations of photoconductive devices because the instantaneous Poynting vector does not distinguish between power flux densities of optical and low-frequency electromagnetic fields. The latter is generated by photocurrents and is not supposed to contribute to the photocarrier generation since the corresponding photon energy is smaller than the bandgap energy of the optoelectronic material. In this work, an optical absorption-based model is proposed to accurately calculate the generation rate in time-domain simulations. The proposed approach considers the material dispersion near the optical frequency corresponding to the bandgap energy of the optoelectronic material. The instantaneous optical absorption is calculated from the polarization current density associated with the dispersion model. Then, the optical absorption is used to calculate the generation rate. Numerical examples show that the proposed approach is more accurate than the Poynting vector-based method in calculating the instantaneous optical absorption. The proposed method is further validated against experimental results by modeling a photoconductive device. In the multiphysics simulation, the Poynting vector-based method overestimates the carrier generation rate and even generates divergent carrier densities when the low-frequency fields are strong, while the proposed method produces results that match with experimental measurements well.         ",
+    "url": "https://arxiv.org/abs/2102.06702",
+    "authors": [
+      "Liang Chen",
+      "Hakan Bagci"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.14643",
+    "title": "Dynamic gain and frequency comb formation in exceptional-point lasers",
+    "abstract": "           Exceptional points (EPs) -- singularities in the parameter space of non-Hermitian systems where two nearby eigenmodes coalesce -- feature unique properties with applications such as sensitivity enhancement and chiral emission. Existing realizations of EP lasers operate with static populations in the gain medium. By analyzing the full-wave Maxwell--Bloch equations, here we show that in a laser operating sufficiently close to an EP, the nonlinear gain will spontaneously induce a multi-spectral multi-modal instability above a pump threshold, which initiates an oscillating population inversion and generates a frequency comb. The efficiency of comb generation is enhanced by both the spectral degeneracy and the spatial coalescence of modes near an EP. Such an ``EP comb'' has a widely tunable repetition rate, self-starts without external modulators or a continuous-wave pump, and can be realized with an ultra-compact footprint. We develop an exact solution of the Maxwell--Bloch equations with an oscillating inversion, describing all spatiotemporal properties of the EP comb as a limit cycle. We numerically illustrate this phenomenon in a 5-\\textmu m-long gain-loss coupled AlGaAs cavity and adjust the EP comb repetition rate from 20 to 27~GHz. This work provides a rigorous spatiotemporal description of the rich laser behaviors that arise from the interplay between the non-Hermiticity, nonlinearity, and dynamics of a gain medium.         ",
+    "url": "https://arxiv.org/abs/2310.14643",
+    "authors": [
+      "Xingwei Gao",
+      "Hao He",
+      "Scott Sobolewski",
+      "Alexander Cerjan",
+      "Chia Wei Hsu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.11509",
+    "title": "Polarization-dependent resonant phenomena in all-dielectric scatterers: inversion of magnetic inductance and electric displacement",
+    "abstract": "           The theoretical description and experimental verification of resonant phenomena in electromagnetic fields generated in the near zone of all-dielectric rectangular thin sub wavelength frames, subjected to an incident microwave, is considered. The geometry of considered problems is presented by means of arrangements of these frames in three orthogonal planes, normal respectively to electric component, magnetic component and wave vector of the incident wave. Such trio paves the way to design of 3D all-dielectric multiresonant microwave unit cell. Displacement currents, generated by linearly polarized electromagnetic waves in the system, lead to the formation of magnetic and electric dipoles, each of which possess own resonant frequency. Resonant inversion of magnetic inductance and electric displacement is observed. The sliding incidence of plane wave on the frame is shown to provide the sharp and deep resonance in the components of generated field. The phase shift equal to $\\pi$ between the magnetic components of incident and generated wave indicates the formation of negative magnetic response. There observes the angular anisotropy of arising dipoles, manifested in values of resonance frequencies and in the dependence of depths of resonant spectral dips upon the orientation of dipoles, with respect to the direction of propagation of incident wave.         ",
+    "url": "https://arxiv.org/abs/2402.11509",
+    "authors": [
+      "Aleksandr Shvartsburg",
+      "Sergey Artekha"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.14132",
+    "title": "Enhancing sensitivity of atomic microwave receiver combining laser arrays",
+    "abstract": "           Rydberg atom,which exhibits a strong response to weak electric(E) fields,is regarded as a promising atomic receiver to surpass sensitivity of conventional receivers. However, its sensitivity is strongly limited by the noise coming from both classical and quantum levels and how to enhance it significantly remains challenging. Here we experimentally prove that the sensitivity of Rydberg atomic receiver can be increased to 23 nV/cm/Hz1/2 by combining laser arrays. Theoretically, we demonstrate that multiple beams illuminating on a PD perform better than multiple PDs for laser this http URL our experiment,10 dB SNR enhancement is achieved by utilizing 2 * 2 probe beam arrays, compared to the performance of a laser beam,and it can be enhanced further just by adding a resonator. The results could offer an avenue for the design and optimization of ultrahigh-sensitivity Rydberg atomic receivers and promote applications in cosmology, meteorology, communication, and microwave quantum technology.         ",
+    "url": "https://arxiv.org/abs/2403.14132",
+    "authors": [
+      "Bo Wu",
+      "Ruiqi Mao",
+      "Yi Liu",
+      "Di Sang",
+      "Yanli Zhou",
+      "Yi Lin",
+      "Qiang An",
+      "Yunqi Fu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.11567",
+    "title": "Shortcut to Chemically Accurate Quantum Computing via Density-based Basis-set Correction",
+    "abstract": "           Using GPU-accelerated state-vector emulation, we propose to embed a quantum computing ansatz into density-functional theory via density-based basis-set corrections (DBBSC) to obtain quantitative quantum-chemistry results on molecules that would otherwise require brute-force quantum calculations using hundreds of logical qubits. Indeed, accessing a quantitative description of chemical systems while minimizing quantum resources is an essential challenge given the limited qubit capabilities of current quantum processors. We provide a shortcut towards chemically accurate quantum computations by approaching the complete-basis-set limit through coupling the DBBSC approach, applied to any given variational ansatz, to an on-the-fly crafting of basis sets specifically adapted to a given system and user-defined qubit budget. The resulting approach self-consistently accelerates the basis-set convergence, improving electronic densities, ground-state energies, and first-order properties (e.g. dipole moments), but can also serve as a classical, a posteriori, energy correction to quantum hardware calculations with expected applications in drug design and materials science.         ",
+    "url": "https://arxiv.org/abs/2405.11567",
+    "authors": [
+      "Diata Traore",
+      "Olivier Adjoua",
+      "C\u00e9sar Feniou",
+      "Ioanna-Maria Lygatsika",
+      "Yvon Maday",
+      "Evgeny Posenitskiy",
+      "Kerstin Hammernik",
+      "Alberto Peruzzo",
+      "Julien Toulouse",
+      "Emmanuel Giner",
+      "Jean-Philip Piquemal"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.19425",
+    "title": "Geometric Phases in Optics: Polarization of Light Propagating in Helical Optical Fibers",
+    "abstract": "           The geometric phase in optics (GPIO) is directly associated with the polarization of light. We investigate the physical principles underlying the occurrence of the GPIO for a single-mode light beam propagating in a single-mode optical fiber wound into a circular helix configuration, with and without stress-induced birefringence. The effects of the curvature and torsion of the helical fiber on the rotation of the polarization vector and the associated GPIO are discussed. Analytic expressions are derived for the polarization vector and Stokes parameters for any initial polarization state of the light entering the helical fiber, as well as for the GPIO of the light as a function of helix arc-length. Additionally, the intensity of a superposition of the initial and final beams, which depends on the final GPIO, is derived. Furthermore, the relationship between the GPIO and the solid angle subtended by the tangent vector of the helix plotted on the Poincar\u00e9 sphere is analyzed, and the effects of fluctuations of the parameters specifying the geometry and the material characteristics of the helical fiber on the GPIO are considered.         ",
+    "url": "https://arxiv.org/abs/2407.19425",
+    "authors": [
+      "Y. B. Band",
+      "Igor Kuzmenko",
+      "Yshai Avishai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.02431",
+    "title": "Moire exciton polaritons in twisted photonic lattices at room temperature",
+    "abstract": "           Moire lattices attract intensive attention in the double graphene/TMD layers and photonic crystals due to the interesting exotic physics within these structures. However, precise measurement of the moir'e ground states, excited states and Bloch bands in the twisted photonic lattices is still illusive. In this work we report the strong coupling between the excitons of CsPbBr3 microplates and the photonic modes of the moire lattice at room temperature. Depending on the coupling strength between the nearest potential sites, we observe staggered moire polariton ground states, excited states trapped in the potential sites and moire polariton bands across the twisted photonic lattice. In addition, the phase locking of moire zero (stable in-phase) states and moire pi (metastable antiphase) states with different spatial distributions are measured. Moir'e polariton distribution can be tuned in the shape of parallelogram by controlling the depth and width of the potential in one photonic lattice with another one fixed. Our work lays the foundation to study moir'e exciton polariton Wigner crystals and Luttinger liquid in twisted photonic lattices at room temperature.         ",
+    "url": "https://arxiv.org/abs/2408.02431",
+    "authors": [
+      "Chunzi Xing",
+      "Yu Wang",
+      "Tobias Schneider",
+      "Xiaokun Zhai",
+      "Xinzheng Zhang",
+      "Zhenyu Xiong",
+      "Hao Wu",
+      "Yuan Ren",
+      "Haitao Dai",
+      "Xiao Wang",
+      "Anlian Pan",
+      "Stefan Schumacher",
+      "Xuekai Ma",
+      "Tingge Gao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.15446",
+    "title": "Evaluation of Microscopic Origins in Nonlinear Optical Crystals: Based on Rigorous Atomic Space Tessellating",
+    "abstract": "           Clarifying the contribution of various atoms and structural units formed in nonlinear optical (NLO) crystal materials to macroscopic optical response is crucial for NLO crystal design. In this work, the rigorous atomic space tessellating (AST) method without any empirical parameters is introduced to evaluate the correlated contributions in wavelength dependent optical responses. The NLO crystal CsSbF2SO4 with significant asymmetric electron distribution of Sb3+ was selected as the case study. This study indicates that there are significant differences in atomic and dipole moment contributions between static and dynamic second harmonic generation (SHG) susceptibility. Using only the information obtained from NLO-active unit analysis of static SHG susceptibilities to explain the NLO phenomenon in actual photoexcitation can even lead to qualitative errors. Among all the transitions in SHG effects, the on-site transition of Sb has the largest component, while the O-Sb off-site transition with multiple transition channels contributes the most to the macroscopic SHG susceptibilities. The relevant methods have also been extended to linear optics and used to study first-order susceptibilities anisotropy, which is important for achieving phase matching. Sb3+ contributes significantly to the linear optical anisotropy with the same sign as SO42-.         ",
+    "url": "https://arxiv.org/abs/2408.15446",
+    "authors": [
+      "Yang Chi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.17382",
+    "title": "Sub-100 Hz Intrinsic Linewidth 852 nm Silicon Nitride External Cavity Laser",
+    "abstract": "           We demonstrate an external cavity laser with intrinsic linewidth below 100 Hz around an operating wavelength of 852 nm, selected for its relevance to laser cooling and manipulation of cesium atoms. This system achieves a maximum CW output power of 24 mW, wavelength tunability over 15 nm, and a side-mode suppression ratio exceeding 50 dB. This performance level is facilitated by careful design of a low-loss integrated silicon nitride photonic circuit serving as the external cavity combined with commercially available semiconductor gain chips. This approach demonstrates the feasibility of compact integrated lasers with sub-kHz linewidth centering on the needs of emerging sensor concepts based on ultracold atoms and can be further extended to shorter wavelengths via selection of suitable semiconductor gain media.         ",
+    "url": "https://arxiv.org/abs/2409.17382",
+    "authors": [
+      "Hani Nejadriahi",
+      "Eric Kittlaus",
+      "Debapam Bose",
+      "Nitesh Chauhan",
+      "Jiawei Wang",
+      "Mathieu Fradet",
+      "Mahmood Bagheri",
+      "Andrei Isichenko",
+      "David Heim",
+      "Siamak Forouhar",
+      "Daniel Blumenthal"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.00798",
+    "title": "Catalysis in Quantum Information Theory",
+    "abstract": "           Catalysts open up new reaction pathways that can speed up chemical reactions while not consuming the catalyst. A similar phenomenon has been discovered in quantum information science, where physical transformations become possible by utilizing a quantum degree of freedom that returns to its initial state at the end of the process. In this review, a comprehensive overview of the concept of catalysis in quantum information science is presented and its applications in various physical contexts are discussed.         ",
+    "url": "https://arxiv.org/abs/2306.00798",
+    "authors": [
+      "Patryk Lipka-Bartosik",
+      "Henrik Wilming",
+      "Nelly H. Y. Ng"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.10592",
+    "title": "Isotropic atomic layer etching of MgO-doped lithium niobate using sequential exposures of H$_2$ and SF$_6$ plasmas",
+    "abstract": "           Lithium niobate (LiNbO$_3$, LN) is a ferroelectric crystal of interest for integrated photonics owing to its large second-order optical nonlinearity and the ability to impart periodic poling via an external electric field. However, on-chip device performance based on thin-film lithium niobate (TFLN) is presently limited by propagation losses arising from surface roughness and corrugations. Atomic layer etching (ALE) could potentially smooth these features and thereby increase photonic performance, but no ALE process has been reported for LN. Here, we report an isotropic ALE process for $x$-cut MgO-doped LN using sequential exposures of H$_2$ and SF$_6$/Ar plasmas. We observe an etch rate of $1.59 \\pm 0.02$ nm/cycle with a synergy of $96.9$%. We also demonstrate ALE can be achieved with SF$_6$/O$_2$ or Cl$_2$/BCl$_3$ plasma exposures in place of the SF$_6$/Ar plasma step with synergies of $99.5$% and $91.5$% respectively. The process is found to decrease the sidewall surface roughness of TFLN waveguides etched by physical Ar$^+$ milling by 30% without additional wet processing. Our ALE process could be used to smooth sidewall surfaces of TFLN waveguides as a post-processing treatment, thereby increasing the performance of TFLN nanophotonic devices and enabling new integrated photonic device capabilities.         ",
+    "url": "https://arxiv.org/abs/2310.10592",
+    "authors": [
+      "Ivy I. Chen",
+      "Jennifer Solgaard",
+      "Ryoto Sekine",
+      "Azmain A. Hossain",
+      "Anthony Ardizzi",
+      "David S. Catherall",
+      "Alireza Marandi",
+      "James R. Renzas",
+      "Frank Greer",
+      "Austin J. Minnich"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.03791",
+    "title": "Towards Quantum Computational Mechanics",
+    "abstract": "           The advent of quantum computers, operating on entirely different physical principles and abstractions from those of classical digital computers, sets forth a new computing paradigm that can potentially result in game-changing efficiencies and computational performance. Specifically, the ability to simultaneously evolve the state of an entire quantum system leads to quantum parallelism and interference. Despite these prospects, opportunities to bring quantum computing to bear on problems of computational mechanics remain largely unexplored. In this work, we demonstrate how quantum computing can indeed be used to solve representative volume element (RVE) problems in computational homogenisation with polylogarithmic complexity of $\\mathcal{O}((\\log N)^c)$, compared to $\\mathcal{O}(N^c)$ in classical computing. Thus, our quantum RVE solver attains exponential acceleration with respect to classical solvers, bringing concurrent multiscale computing closer to practicality. The proposed quantum RVE solver combines conventional algorithms such as a fixed-point iteration for a homogeneous reference material and the Fast Fourier Transform (FFT). However, the quantum computing reformulation of these algorithms requires a fundamental paradigm shift and a complete rethinking and overhaul of the classical implementation. We employ or develop several techniques, including the Quantum Fourier Transform (QFT), quantum encoding of polynomials, classical piecewise Chebyshev approximation of functions and an auxiliary algorithm for implementing the fixed-point iteration and show that, indeed, an efficient implementation of RVE solvers on quantum computers is possible. We additionally provide theoretical proofs and numerical evidence confirming the anticipated $\\mathcal{O} \\left ((\\log N)^c \\right)$ complexity of the proposed solver.         ",
+    "url": "https://arxiv.org/abs/2312.03791",
+    "authors": [
+      "Burigede Liu",
+      "Michael Ortiz",
+      "Fehmi Cirak"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.08674",
+    "title": "Quantum jump photodetector for narrowband photon counting with a single atom",
+    "abstract": "           Using a single neutral 87Rb atom held in an optical trap, and \"quantum jump\" detection of single-photon-initiated state changes, we demonstrate a single-photon quantum jump photodetector (QJPD) with intrinsically narrow bandwidth and strong rejection of out-of-band photons, of interest for detecting weak optical signals in the presence of a strong broadband background. By analyzing fluorescence photon count distributions for the bright and dark states with and without excitation, we measure quantum efficiency of 2.9(2)$\\times 10^{-3}$, a record for single-pass quantum jump production, and signal-photon-unprovoked \"dark jump\" rate - analogous to the dark count rate of other detectors - 3(10)$\\times 10^{-3}$ jumps per second during passive accumulation plus 4.0(4)$\\times 10^{-3}$ jumps per readout, orders of magnitude below those of traditional single-photon detectors. Available methods can substantially improve QJPD quantum efficiency, dark jump rate, bandwidth and tunability.         ",
+    "url": "https://arxiv.org/abs/2403.08674",
+    "authors": [
+      "Laura Zarraoa",
+      "Romain Veyron",
+      "Tomas Lamich",
+      "Lorena C. Bianchet",
+      "Morgan W. Mitchell"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.09126",
+    "title": "Floquet engineering of quantum thermal machines: A gradient-based spectral method to optimize their performance",
+    "abstract": "           A procedure to find optimal regimes for quantum thermal engines (QTMs) is described and demonstrated. The QTMs are modelled as the periodically-driven non-equilibrium steady states of open quantum systems, whose dynamics is approximated in this work with Markovian master equations. The action of the external agent, and the couplings to the heat reservoirs can be modulated with control functions, and it is the time-dependent shape of these control functions the object of optimisation. Those functions can be freely parameterised, which permits to constrain the solutions according to experimental or physical requirements.         ",
+    "url": "https://arxiv.org/abs/2405.09126",
+    "authors": [
+      "Alberto Castro"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.09767",
+    "title": "Compact quantum algorithms for time-dependent differential equations",
+    "abstract": "           Many claims of computational advantages have been made for quantum computing over classical, but they have not been demonstrated for practical problems. Here, we present algorithms for solving time-dependent PDEs, with particular reference to fluid equations. We build on an idea based on linear combination of unitaries to simulate non-unitary, non-Hermitian quantum systems, and generate hybrid quantum-classical algorithms that efficiently perform iterative matrix-vector multiplication and matrix inversion operations. Though these algorithms are end-to-end, they require relatively low-depth quantum circuits and protect quantum advantage, with the best-case asymptotic complexities, which we show} are near-optimal. We demonstrate the performance of the algorithms by conducting: (a) fully gate level, state-vector simulations using an in-house, high performance, quantum simulator called QFlowS; (b) experiments on a real quantum device; and (c) noisy simulations using Qiskit Aer. We also provide device specifications such as error-rates (noise) and state sampling (measurement) to accurately perform convergent flow simulations on noisy devices. The results offer evidence that the proposed algorithm is amenable for use on near-term quantum devices.         ",
+    "url": "https://arxiv.org/abs/2405.09767",
+    "authors": [
+      "Sachin S. Bharadwaj",
+      "Katepalli R. Sreenivasan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.10601",
+    "title": "Which features of quantum physics are not fundamentally quantum but are due to indeterminism?",
+    "abstract": "           What is fundamentally quantum? We argue that most of the features, problems, and paradoxes -- such as the measurement problem, the Wigner's friend paradox and its proposed solutions, single particle nonlocality, and no-cloning -- allegedly attributed to quantum physics have a clear classical analogue if one is to interpret classical physics as fundamentally indeterministic. What really characterizes quantum physics boils down only to phenomena that involve $\\hbar$, i.e., incompatible observables.         ",
+    "url": "https://arxiv.org/abs/2409.10601",
+    "authors": [
+      "Flavio Del Santo",
+      "Nicolas Gisin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  }
+]
