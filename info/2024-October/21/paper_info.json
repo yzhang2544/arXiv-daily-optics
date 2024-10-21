@@ -1,0 +1,275 @@
+[
+  {
+    "id": "arXiv:2410.13916",
+    "title": "Recursive Work Extraction from Quantum Conditional Information",
+    "abstract": "           Quantum superposition, a cornerstone of quantum mechanics, enables systems to exist in multiple states simultaneously, giving rise to probabilistic outcomes. In quantum information science, conditional entropy has become a key metric for quantifying uncertainty in one system given information about another, revealing non-classical correlations that transcend classical physics. This study examines the nature of quantum conditional entropy and reports two key findings. First, it demonstrates that probabilistic outcomes involving quantum superposition arise from work based on information about the eigenstate in a recursive process. Second, it proposes that this extractable work constitutes the energy available to living systems-a concept without a classical analogue-counteracting the natural tendency toward disorder.         ",
+    "url": "https://arxiv.org/abs/2410.13916",
+    "authors": [
+      "Daegene Song"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14474",
+    "title": "On the Influence of Parallax Effects in Thick Silicon Sensors in Coherent Diffraction Imaging",
+    "abstract": "           Structure determination is a key application of XFELs and 4th generation synchrotron sources, particularly using the coherent and pulsed X-ray radiation from X-ray free-electron lasers (XFEL). Scientific interest focuses on understanding the physical, biological, and chemical properties of samples at the nanometer scale. The X-rays from XFELs enable Coherent X-ray Diffraction Imaging (CXDI), where coherent X-rays irradiate a sample, and a far-field diffraction pattern is captured by an imaging detector. By the nature of the underlying physics, the resolution, at which the sample can be probed with the CXDI technique, is limited by the wavelength of the X-ray radiation and the exposure time if a detector can record the diffraction pattern to very large scattering angles. The resolution that can be achieved under real experimental conditions, depends strongly on additional parameters. The Shannon pixel size, linked to the detector resolution, the coherent dose that can be deposited in the sample without changing its structure, the image contrast, and the signal-to-noise ratio of the detected scattered radiation at high $q$, i.e. at high scattering angles $2\\Theta$, have a strong influence on the resolution. The signal-to-noise ratio at high $q$ defines the \"effective\" maximum solid angle in a specific experiment setup up to which a detector can efficiently detect a signal and in consequence determines the achievable resolution. The image contrast defines how well bright image features can be distinguished from dark ones. We present the preliminary results of our study on the influence of the PSF on SNR, image contrast, position resolution, and achievable sample resolution for different pixel sizes.         ",
+    "url": "https://arxiv.org/abs/2410.14474",
+    "authors": [
+      "Markus Kuster",
+      "Robert Hartmann",
+      "Steffen Hauf",
+      "Peter Holl",
+      "Tonn R\u00fcter",
+      "Lothar Str\u00fcder"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14491",
+    "title": "Discrimination of vortex and pseudovortex beams with a triangular optical cavity",
+    "abstract": "           A triangular optical cavity can be used to distinguish between two beams with the same intensity profile but different wavefronts. This is what we show in this paper, both theoretically and experimentally, in the case of beams with a doughnut-like intensity profile: one of them having a helical wavefront (vortex beam with orbital angular momentum) and the other with no orbital angular momentum at all (which we call pseudovortex beam). We write the mode decomposition of such beams in the Hermite-Gaussian basis and in the the Laguerre-Gauss basis, respectively, and study how they interact with a triangular cavity in terms of their resonance peaks. The experimental results corroborate the theory, showing that each beam displays its own resonance pattern. Therefore, such cavity may be used to identify beams with orbital angular momentum, distinguishing them from pseudovortices.         ",
+    "url": "https://arxiv.org/abs/2410.14491",
+    "authors": [
+      "L. Marques Fagundes",
+      "P.H. Souto Ribeiro",
+      "R. Medeiros de Ara\u00fajo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.13982",
+    "title": "Design of Amine-Functionalized Materials for Direct Air Capture Using Integrated High-Throughput Calculations and Machine Learning",
+    "abstract": "           Direct air capture (DAC) of carbon dioxide is a critical technology for mitigating climate change, but current materials face limitations in efficiency and scalability. We discover novel DAC materials using a combined machine learning (ML) and high-throughput atomistic modeling approach. Our ML model accurately predicts high-quality, density functional theory-computed CO$_{2}$ binding enthalpies for a wide range of nitrogen-bearing moieties. Leveraging this model, we rapidly screen over 1.6 million binding sites from a comprehensive database of theoretically feasible molecules to identify materials with superior CO$_{2}$ binding properties. Additionally, we assess the synthesizability and experimental feasibility of these structures using established ML metrics, discovering nearly 2,500 novel materials suitable for integration into DAC devices. Altogether, our high-fidelity database and ML framework represent a significant advancement in the rational development of scalable, cost-effective carbon dioxide capture technologies, offering a promising pathway to meet key targets in the global initiative to combat climate change.         ",
+    "url": "https://arxiv.org/abs/2410.13982",
+    "authors": [
+      "Megan C. Davis",
+      "Wilton J. M. Kort-Kamp",
+      "Ivana Matanovic",
+      "Piotr Zelenay",
+      "Edward F. Holby"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14357",
+    "title": "Efficient charge-preserving excited state preparation with variational quantum algorithms",
+    "abstract": "           Determining the spectrum and wave functions of excited states of a system is crucial in quantum physics and chemistry. Low-depth quantum algorithms, such as the Variational Quantum Eigensolver (VQE) and its variants, can be used to determine the ground-state energy. However, current approaches to computing excited states require numerous controlled unitaries, making the application of the original Variational Quantum Deflation (VQD) algorithm to problems in chemistry or physics suboptimal. In this study, we introduce a charge-preserving VQD (CPVQD) algorithm, designed to incorporate symmetry and the corresponding conserved charge into the VQD framework. This results in dimension reduction, significantly enhancing the efficiency of excited-state computations. We present benchmark results with GPU-accelerated simulations using systems up to 24 qubits, showcasing applications in high-energy physics, nuclear physics, and quantum chemistry. This work is performed on NERSC's Perlmutter system using NVIDIA's open-source platform for accelerated quantum supercomputing - CUDA-Q.         ",
+    "url": "https://arxiv.org/abs/2410.14357",
+    "authors": [
+      "Zohim Chandani",
+      "Kazuki Ikeda",
+      "Zhong-Bo Kang",
+      "Dmitri E. Kharzeev",
+      "Alexander McCaskey",
+      "Andrea Palermo",
+      "C.R. Ramakrishnan",
+      "Pooja Rao",
+      "Ranjani G. Sundaram",
+      "Kwangmin Yu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Distributed, Parallel, and Cluster Computing (cs.DC)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14397",
+    "title": "The State of Factoring on Quantum Computers",
+    "abstract": "           We report on the current state of factoring integers on both digital and analog quantum computers. For digital quantum computers, we study the effect of errors for which one can formally prove that Shor's factoring algorithm fails. For analog quantum computers, we experimentally test three factorisation methods and provide evidence for a scaling performance that is absolutely and asymptotically better than random guessing but still exponential. We conclude with an overview of future perspectives on factoring large integers on quantum computers.         ",
+    "url": "https://arxiv.org/abs/2410.14397",
+    "authors": [
+      "Dennis Willsch",
+      "Philipp Hanussek",
+      "Georg Hoever",
+      "Madita Willsch",
+      "Fengping Jin",
+      "Hans De Raedt",
+      "Kristel Michielsen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14410",
+    "title": "Phenomenological quantum mechanics: deducing the formalism from experimental observations",
+    "abstract": "           We propose an exercise in which one attempts to deduce the formalism of quantum mechanics from phenomenological observations only. Thus, the only assumed inputs are the multi-time probability distributions estimated from the results of sequential measurements of quantum observables; no presuppositions about the underlying mathematical structures are allowed. We show that it is indeed possible to derive in such a way a complete and fully functional formalism based on the structures of Hilbert spaces. However, the obtained formal description -- the bi-trajectory formalism -- turns out to be quite different from the standard state-focused formalism.         ",
+    "url": "https://arxiv.org/abs/2410.14410",
+    "authors": [
+      "Piotr Sza\u0144kowski",
+      "Davide Lonigro",
+      "Fattah Sakuldee",
+      "\u0141ukasz Cywi\u0144ski",
+      "Dariusz Chru\u015bci\u0144ski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14428",
+    "title": "Beam dynamics induced by the quantum metric of exceptional rings",
+    "abstract": "           Topological physics has broadened its scope from the study of topological insulating phases to include nodal phases containing band structure singularities. The geometry of the corresponding quantum states is described by the quantum metric which provides a theoretical framework for explaining phenomena that conventional approaches fail to address. The field has become even broader by encompassing non-Hermitian singularities: in addition to Dirac, Weyl nodes, or nodal lines, it is now common to encounter exceptional points, exceptional or Weyl rings, and even Weyl spheres. They give access to fascinating effects that cannot be reached within the Hermitian picture. However, the quantum geometry of non-Hermitian singularities is not a straightforward extension of the Hermitian one, remaining far less understood. Here, we study experimentally and theoretically the dynamics of wave packets at exceptional rings stemming from Dirac points in a photonic honeycomb lattice. First, we demonstrate a transition between conical diffraction and non-Hermitian broadening in real space. Next, we predict and demonstrate a new non-Hermitian effect in the reciprocal space, induced by the non-orthogonality of the eigenstates. We call it transverse non-Hermitian drift, and its description requires biorthogonal quantum metric. The non-Hermitian drift can be used for applications in beam steering.         ",
+    "url": "https://arxiv.org/abs/2410.14428",
+    "authors": [
+      "Zhaoyang Zhang",
+      "Isma\u00ebl Septembre",
+      "Zhenzhi Liu",
+      "Pavel Kokhanchik",
+      "Shun Liang",
+      "Fu Liu",
+      "Changbiao Li",
+      "Hongxing Wang",
+      "Maochang Liu",
+      "Yanpeng Zhang",
+      "Min Xiao",
+      "Guillaume Malpuech",
+      "Dmitry Solnyshkov"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14551",
+    "title": "Efficient and reversible optical-to-spin conversion for solid-state quantum memories",
+    "abstract": "           Long-duration and efficient quantum memories for photons are key components of quantum repeater and network applications. To achieve long duration storage in atomic systems, a short-lived optical coherence can be mapped into a long-lived spin coherence, which is the basis for many quantum memory schemes. In this work, we present modeling and measurements of the back-and-forth, i.e. reversible, optical-to-spin conversion for an atomic frequency comb memory. The AFC memory is implemented in $^{151}\\textrm{Eu}^{3+}:\\textrm{Y}_2\\textrm{SiO}_5$ with an applied magnetic field of 231 mT, which allows lifting Zeeman transition degeneracy which otherwise cause time-domain interference in the optical-to-spin conversion. By optimizing the conversion using the developed simulation tool, we achieve a total efficiency of up to 96%, including the spin echo sequence and spin dephasing, for a storage time of 500 $\\mu$s. Our methods and results pave the way for long-duration storage of single photon states in 151Eu3+:Y2SiO5 with high signal-to-noise, at the millisecond timescale.         ",
+    "url": "https://arxiv.org/abs/2410.14551",
+    "authors": [
+      "Jingjing Chen",
+      "Mikael Afzelius"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.09895",
+    "title": "Sensitivity adjustable in-line high-temperature sensor based on metal microwire optical Fabry-Perot interferometer",
+    "abstract": "           The optical fiber Fabry-Perot interferometer (FPI) has been widely investigated as a potential temperature sensor. To function as a temperature sensor, the cavity of the FPI is typically constructed from either silica fibers or polymers. The silica cavity FPIs can function at temperatures exceeding 1000\u00b0C. However, its temperature sensitivity is constrained by its relatively low thermal optical coefficient and thermal expansion of silica materials. Although the polymer cavity FPI exhibits a high temperature sensitivity, its cavity is susceptible to deterioration in high-temperature environments. Here, to overcome this challenge and achieve high-sensitivity temperature sensing in a high-temperature environment, we propose a new type of temperature FPI sensor by inserting and sealing a section of Cr20Ni80 metal microwire inside a section of silica hollow core fiber (HCF) spliced to standard single-mode fiber (SMF). The FPIs exhibit a high degree of temperature sensitivity due to the high thermal expansion of the Cr20Ni80 metal microwire. Since the Cr20Ni80 metal has a high melting temperature of 1400\u00b0C, such FPIs can function in high-temperature environments. Moreover, the temperature sensitivity of this FPI can be modified without affecting its reflection spectrum by changing the length of the metallic microwire situated within the hollow core fiber. The experimental results indicate that the proposed FPIs exhibit a temperature sensitivity greater than -0.35nm/\u00b0C within the temperature range of 50\u00b0C to 440\u00b0C. Our proposed metal microwire-based FPIs are economical, robust, simple to fabricate, and capable of functioning in high-temperature environments, rendering them appealing options for practical applications         ",
+    "url": "https://arxiv.org/abs/2410.09895",
+    "authors": [
+      "Dewen Duan",
+      "Zihao Zhao",
+      "Yi-Yuan Xie"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.13135",
+    "title": "Conservation law for angular momentum based on optical field derivatives: Analysis of optical spin-orbit conversion",
+    "abstract": "           We present a novel theoretical framework that offers new insights into understanding the loss of optical angular momentum (AM), spin AM (SAM), and orbital AM (OAM) in light-matter interactions, encompassing both the transfer from light to matter and spin-orbit conversion (SOC). Traditionally, the separation of optical SAM and OAM from total AM relied on vector potentials, leading to gauge-dependent ambiguities and limiting analysis to vacuum conditions, without accounting for material systems. To overcome these challenges, we introduce a field-derivative approach that constructs optical AM from the time derivatives of electric and magnetic fields, allowing for gauge-independent evaluations of SAM and OAM, even in material systems. We apply this framework to analyze spin-orbit conversion (SOC) in two scenarios: the scattering of circularly polarized (CP) Gaussian beams by a single gold nanoparticle, and the focusing of CP beams and linearly polarized (LP) optical vortex (OV) beams by an aplanatic lens. Our results reveal that SOC is highly dependent on particle size in scattering, with larger particles exhibiting significant OAM loss, while SOC occurs during CP beam focusing, but not with LP OV beams. This framework enables the evaluation of previously overlooked optical SAM and OAM losses, providing a powerful tool for studying systems in which the analysis of AM losses is intrinsically important, such as chiral materials, as well as for designing photonic devices and exploring light-matter interactions at the nanoscale.         ",
+    "url": "https://arxiv.org/abs/2410.13135",
+    "authors": [
+      "Shun Hashiyada",
+      "Yoshito Y. Tanaka"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.13628",
+    "title": "Ultrafast pulse propagation time-domain dynamics in dispersive one-dimensional photonic waveguides",
+    "abstract": "           Ultrafast pulses, particularly those with durations under 100 femtoseconds, are crucial in achieving unprecedented precision and control in light-matter interactions. However, conventional on-chip photonic platforms are not inherently designed for ultrafast time-domain operations, posing a significant challenge in achieving essential parameters such as high peak power and high temporal resolution. This challenge is particularly pronounced when propagating through dispersive integrated waveguides, unlike classical applications where dispersion is typically near-zero or linear. In addressing this challenge, we present a design methodology for ultrafast pulse propagation in dispersive integrated waveguides, specifically focused on enhancing the time-domain characteristics of one-dimensional grating waveguides (1DGWs). The proposed methodology aims to determine the optimal structural parameters for achieving maximum peak power, enhanced temporal resolution, and extended pulse storage duration during ultrafast pulse propagation. To validate this approach, we design and fabricate two specialized 1DGWs on a silicon-on-insulator (SOI) platform. A digital finite impulse response (FIR) model, trained with both transmission and phase measurement data, is employed to obtain ultrafast time-domain characteristics, enabling easy extraction of these results. Our approach achieves a 2.78-fold increase in peak power and reduces pulse broadening by 24%, resulting in a smaller sacrifice in temporal resolution. These results can possibly pave the way for advanced light-matter interactions within dispersive integrated waveguides.         ",
+    "url": "https://arxiv.org/abs/2410.13628",
+    "authors": [
+      "Ahmet Oguz Sakin",
+      "Ali Murat Demirtas",
+      "Hamza Kurt",
+      "Mehmet Unlu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2111.14259",
+    "title": "Performance of a GPU- and Time-Efficient Pseudo 3D Network for Magnetic Resonance Image Super-Resolution and Motion Artifact Reduction",
+    "abstract": "           Shortening acquisition time and reducing motion artifacts are the most critical challenges in magnetic resonance imaging (MRI). Deep learning-based image restoration has emerged as a promising solution capable of generating high-resolution and motion-artifact-free MRI images from low-resolution images acquired with shortened acquisition times or from motion-artifact-corrupted images. To facilitate clinical integration, a time- and GPU-efficient network with reliable accuracy is essential. In this study, we adopted a unified 2D deep learning framework for pseudo-3D MRI image super-resolution reconstruction (SRR) and motion artifact reduction (MAR). The optimal down-sampling factors to optimize the acquisition time in SRR were identified. Training for MAR was performed using publicly available in vivo data, employing a novel standardized method to induce motion artifacts of varying severity in a controlled way. The accuracy of the network was evaluated through a pixel-wise uncertainty map, and performance was benchmarked against state-of-the-art methods. The results demonstrated that the down-sampling factor of 1x1x2 for x2 acceleration and 2x2x2 for x4 acceleration was optimal. For SRR, the proposed TS-RCAN outperformed the 3D networks of mDCSRN and ReCNN, with an improvement of more than 0.01 in SSIM and 1.5 dB in PSNR while reducing GPU load by up to and inference time by up to 90%. For MAR, TS-RCAN exceeded UNet's performance by up to 0.014 in SSIM and 1.48 dB in PSNR. Additionally, TS-RCAN provided uncertainty information, which can be used to estimate the quality of the reconstructed images. TS-RCAN has potential use for SRR and MAR in the clinical setting.         ",
+    "url": "https://arxiv.org/abs/2111.14259",
+    "authors": [
+      "Hao Li",
+      "Jianan Liu",
+      "Marianne Schell",
+      "Tao Huang",
+      "Arne Lauer",
+      "Katharina Schregel",
+      "Jessica Jesser",
+      "Dominik F Vollherbst",
+      "Martin Bendszus",
+      "Sabine Heiland",
+      "Tim Hilgenfeld"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.14121",
+    "title": "Stochastic parameter optimization analysis of dynamical quantum critical phenomena in long-range transverse-field Ising chain",
+    "abstract": "           The quantum phase transition of the one-dimensional long-range transverse-field Ising model is explored by combining the quantum Monte Carlo method and stochastic parameter optimization, specifically achieved by tuning correlation ratios so that space and imaginary time are isotropic. In our simulations, the simulator automatically determines the parameters to sample from, even without prior knowledge of the critical point and universality class. The leading-order finite-size corrections are eliminated by comparing two systems with different sizes; this procedure is also performed automatically. Varying the decay exponent of the long-range interaction, $\\sigma$, we investigate $\\sigma$-dependence of the dynamical exponent and the other critical exponents precisely in the mean-field, non-universal, and two-dimensional classical Ising universality regimes. We successfully obtained numerical evidence supporting $\\sigma = 7/4$ as the universality boundary between the latter two.         ",
+    "url": "https://arxiv.org/abs/2305.14121",
+    "authors": [
+      "Sora Shiratani",
+      "Synge Todo"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.02634",
+    "title": "Greedy receiver for photon-efficient optical communication",
+    "abstract": "           In optical communication the transmitter encodes information into a set of light states defined by the modulation format, selected to accommodate specific channel conditions and to remain sufficiently distinguishable at the output. Various receiver architectures have been designed to improve the demodulation performance, ultimately limited by quantum theory. In this work I introduce a new receiver based on a locally optimal greedy algorithm and apply it to pulse position modulation. The receiver reduces the error probabilities of previously proposed strategies in all signal strength regimes and achieves results comparable with those obtained by numerical optimization of the detection process. In contrast, however, it is conceptually simple and therefore can be scaled to arbitrarily high modulation orders for which numerical methods become intractable. In the photon-starved regime characteristic of deep space optical communication, the greedy receiver approaches the quantum-optimal Helstrom bound on state discrimination error probability. In the regime of few-photon pulses, the error reduction offered over the other methods grows up to an order of magnitude.         ",
+    "url": "https://arxiv.org/abs/2403.02634",
+    "authors": [
+      "Karol \u0141ukanowski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.07772",
+    "title": "Quantum embedding study of strain and charge induced Stark effects on the NV$^{-}$ center in diamond",
+    "abstract": "           The NV$^{-}$ color center in diamond has been demonstrated as a powerful nanosensor for quantum metrology due to the sensitivity of its optical and spin properties to external electric, magnetic, and strain fields. In view of these applications, we use quantum embedding to derive a many-body description of strain and charge induced Stark effects on the NV$^{-}$ center. We quantify how strain longitudinal to the axis of NV$^{-}$ shifts the excited states in energy, while strain with a component transverse to the NV$^{-}$ axis splits the degeneracies of the $^{3}E$ and $^{1}E$ states. The largest effects are for the optically relevant $^{3}E$ manifold, which splits into $E_{x}$ and $E_{y}$ with transverse strain. From these responses we extract strain susceptibilities for the $E_{x/y}$ states within the quasi-linear regime. Additionally, we study the many-body dipole matrix elements of the NV$^{-}$ and find a permanent dipole 1.64 D at zero strain, which is somewhat smaller than that obtained from recent density functional theory calculations. We also determine the transition dipole between the $E_{x}$ and $E_{y}$ and how it evolves with strain.         ",
+    "url": "https://arxiv.org/abs/2406.07772",
+    "authors": [
+      "Gabriel I. L\u00f3pez-Morales",
+      "Joanna M. Zajac",
+      "Johannes Flick",
+      "Carlos A. Meriles",
+      "Cyrus E. Dreyer"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
