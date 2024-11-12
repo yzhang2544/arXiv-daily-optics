@@ -1,0 +1,449 @@
+[
+  {
+    "id": "arXiv:2411.05321",
+    "title": "Trapping of Single Atoms in Metasurface Optical Tweezer Arrays",
+    "abstract": "           Optical tweezer arrays have emerged as a key experimental platform for quantum computation, quantum simulation, and quantum metrology, enabling unprecedented levels of control over single atoms and molecules. Existing methods to generate tweezer arrays mostly rely on active beam-shaping devices, such as acousto-optic deflectors or liquid-crystal spatial light modulators. However, these approaches have fundamental limitations in array geometry, size, and scalability. Here we demonstrate the trapping of single atoms in optical tweezer arrays generated via holographic metasurfaces. We realize two-dimensional arrays with more than 250 tweezer traps, arranged in arbitrary geometries with trap spacings as small as 1.5 um. The arrays have a high uniformity in terms of trap depth, trap frequency, and positional accuracy, rivaling or exceeding existing approaches. Owing to sub-micrometer pixel sizes and high pixel densities, holographic metasurfaces open a path towards optical tweezer arrays with >100,000 traps.         ",
+    "url": "https://arxiv.org/abs/2411.05321",
+    "authors": [
+      "Aaron Holman",
+      "Yuan Xu",
+      "Ximo Sun",
+      "Jiahao Wu",
+      "Mingxuan Wang",
+      "Bojeong Seo",
+      "Nanfang Yu",
+      "Sebastian Will"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05326",
+    "title": "Implementation of spectral methods on Ising machines: toward flow simulations on quantum annealer",
+    "abstract": "           We investigate the possibility and current limitations of flow computations using quantum annealers by solving a fundamental flow problem on Ising machines. As a fundamental problem, we consider the one-dimensional advection-diffusion equation. We formulate it in a form suited to Ising machines (i.e., both classical and quantum annealers), perform extensive numerical tests on a classical annealer, and finally test it on an actual quantum annealer. To make it possible to process with an Ising machine, the problem is formulated as a minimization problem of the residual of the governing equation discretized using either the spectral method or the finite difference method. The resulting system equation is then converted to the Quadratic Unconstrained Binary Optimization (QUBO) form though quantization of variables. It is found in the numerical tests using a classical annealer that the spectral method requiring smaller number of variables has a particular merit over the finite difference method because the accuracy deteriorates with the increase of the number of variables. We also found that the computational error varies depending on the condition number of the coefficient matrix. In addition, we extended it to a two-dimensional problem and confirmed its fundamental applicability. From the numerical test using a quantum annealer, however, it turns out that the computation using a quantum annealer is still challenging due largely to the structural difference from the classical annealer, which leaves a number of issues toward its practical use.         ",
+    "url": "https://arxiv.org/abs/2411.05326",
+    "authors": [
+      "Kenichiro Takagi",
+      "Naoki Moriya",
+      "Shiori Aoki",
+      "Katsuhiro Endo",
+      "Mayu Muramatsu",
+      "Koji Fukagata"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05336",
+    "title": "Backscattering-Immune Floquet Conversion in Ring Modulators",
+    "abstract": "           Backscattering in micro-ring cavities induces mode mixing and limits device performance. Existing methods to mitigate backscattering often involve complex fabrication processes or are insufficient for complete suppression. In this work, we introduce a novel method to eliminate backscattering by operating the cavity at an exceptional point (EP). By engineering non-conservative coupling between degenerate clockwise (CW) and counter-clockwise (CCW) modes, we achieve chiral transmission that prevents degeneracy lifting and suppresses unwanted mode coupling. Unlike previous approaches that rely on precise gain-loss balance or complex structures, our method utilizes non-conservative coupling between the counterpropgating cavity modes. Using this method, we further show significant enhancement in the cavity performance in Floquet mode conversion efficiency at the EP. Our highly adaptable approach enables seamless integration into various photonic platforms with electro-optic modulators. This advancement mitigates backscattering and improves the precision of light-matter interactions, offering promising applications in quantum communication and information processing.         ",
+    "url": "https://arxiv.org/abs/2411.05336",
+    "authors": [
+      "Awanish Pandey",
+      "Alex Krasnok"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05351",
+    "title": "Extreme narrow band in Moir\\'e Photonic time crystal",
+    "abstract": "           The Moir\u00e9 superlattice has attracted growing interest in the electromagnetic and optical communities. Here, we extend this concept to time-varying photonic systems by superposing two binary modulations on the refractive index with different modulation periods, i.e., the Moir\u00e9 photonic time crystal (PTC). Such a Moir\u00e9 PTC leads to extreme narrow bands in momentum space which supports temporal localized modes, exhibiting periodically self-reconstructing pulse in time domain. We investigate how the modulation parameters change the bandstructure of the Moir\u00e9 PTC and the temporal localization behavior. Moreover, we explore mode-locking mechanism in frequency space in the Moir\u00e9 PTC, which points towards potential applications in mode-locked lasers with tunable time width of the emitted pulses. Our work therefore extends the study of PTC to complex modulation patterns, and unveils new possibility in wave manipulation with time-varying systems.         ",
+    "url": "https://arxiv.org/abs/2411.05351",
+    "authors": [
+      "Zhaohui Dong",
+      "Xianfeng Chen",
+      "Luqi Yuan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05352",
+    "title": "An atomic Fabry-Perot interferometer-based acceleration sensor for microgravity environments",
+    "abstract": "           We investigate the use of an atomic Fabry-Perot interferometer (FPI) with a pulsed non-interacting Bose-Einstein condensate (BEC) source as a space-based acceleration sensor. We derive an analytic approximation for the device's transmission under a uniform acceleration, which we use to compute the device's attainable acceleration sensitivity using the classical Fisher information. In the ideal case of a high-finesse FPI and an infinitely narrow momentum width atomic source, we find that when the total length of the device is constrained to small values, the atomic FPI can achieve greater acceleration sensitivity than a Mach-Zender (MZ) interferometer of equivalent total device length. Under the more realistic case of a finite momentum width atomic source, We identify the ideal cavity length that gives the best sensitivity. Although the MZ interferometer now offers enhanced sensitivity within currently-achievable experimental parameter regimes, our analysis demonstrates that the atomic FPI holds potential as a promising alternative in the future, provided that narrow momentum width atomic sources can be engineered.         ",
+    "url": "https://arxiv.org/abs/2411.05352",
+    "authors": [
+      "Manju Perumbil",
+      "Matthew J. Blacker",
+      "Stuart S. Szigeti",
+      "Simon A. Haine"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05380",
+    "title": "Exploring Quantum Entanglement: A Tutorial on Spin Dynamics and Entanglement Transfer with Python Modules",
+    "abstract": "           Quantum entanglement is a captivating phenomenon in quantum physics, characterized by intricate and non-classical correlations between particles. This phenomenon plays a crucial role in quantum computing and measurement processes. In this tutorial we explore the dynamics of quantum systems with up to three spins, providing an introductory guide to understanding how entanglement evolves and transfers within such systems. Through detailed examples, simulations, and analyses, the tutorial offers insights into the fundamental principles of entanglement; . We also provide \\code{python} modules for reproducing the presented results and as a basis for further projects. The target audience of this tutorial is physics enthusiasts among high school students and students in their first semesters.         ",
+    "url": "https://arxiv.org/abs/2411.05380",
+    "authors": [
+      "Salomo Cedric Karst",
+      "J\u00fcrgen Henk"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05392",
+    "title": "Long-term stable laser injection locking for quasi-CW applications",
+    "abstract": "           Generating high output powers while achieving narrow line single mode lasing are often mutual exclusive properties of commercial laser diodes. For this reason, efficient and scalable amplification of narrow line laser light is still a major driving point in modern laser system designs. Commonly, injection locking of high-power semiconductor laser diodes are used for this purpose. However, for many laser diodes it is very challenging to achieve stable operation of the injection locked state due to a complex interplay of non-linearities and thermal effects. Different approaches of active or passive stabilization usually require a large overhead of optical and electrical equipment and are not generally applicable. In our work we present a passive stabilization scheme, that is generally applicable, technically easy to implement and extremely cost-effective. It is based on the externally synchronized automatic acquisition of the optimal injection state. Central to our simple but powerful scheme is the management of thermalization effects during lock acquisition. By periodical relocking, spectrally pure amplified light is maintained in a quasi-CW manner over long timescales. We characterize the performance of our method for laser diodes amplifying 671 nm light and demonstrate the general applicability by confirming the method to work also for laser diodes at 401 nm, 461 nm and 689 nm. Our scheme enables the scaled operation of injection locks, even in cascaded setups, for the distributed amplification of single frequency laser light.         ",
+    "url": "https://arxiv.org/abs/2411.05392",
+    "authors": [
+      "Florian Kiesel",
+      "Kirill Karpov",
+      "Alexandre de Martino",
+      "Jonas Auch",
+      "Christian Gross"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05397",
+    "title": "Analytic model for sheath-plasma resonance in inverted fireballs",
+    "abstract": "           The sheath plasma resonance (SPR) in an inverted fireball (IFB) system is semi-analytically investigated using a generalized hydrodynamic isothermal model formalism. It incorporates the constitutive ionic fluid viscosity, inter-species collisions, and geometric curvature effects. The SPR stability is studied for an anodic (hollow, meshed) IFB for the first time against the traditional cathode-plasma arrangements of regular electrode (solid, smooth) fireballs. The SPR develops near a spherical electrode enclosed by a plasma sheath amid a given electric potential. A generalized linear quartic dispersion relation (DR) with diverse plasma multi-parametric coefficients is methodically derived using a standard normal mode analysis. The mathematical construction of the obtained DR roots confirms that only one feasible nonzero frequency mode exists (emerging in the IFB). This root existence is confirmed both analytically and numerically. This consequent SPR creates trapped acoustic fluctuations in the IFB plasmas because of the internal reflections at the sheath plasma boundary. Also, sensible parametric changes in the SPR features, with both plasma density and viscosity, are seen. A local condition for the SPR excitation and its subsequent transition to collective standing wave-like patterns in the IFBs is illustrated. A fair corroboration of our results with the earlier SPR experimental observations of standing wave-like eigenmode patterns (evanescent) strengthens the reliability of our study alongside new applicability.         ",
+    "url": "https://arxiv.org/abs/2411.05397",
+    "authors": [
+      "Subham Dutta",
+      "Johannes Gruenwald",
+      "Pralay Kumar Karmakar"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05414",
+    "title": "Antenne metasurface {\\`a} polarisation circulaire",
+    "abstract": "           A new approach using scalar metasurfaces for the design of linearly polarized antennas is presented. The proposed method is based on the construction of the surface impedance Zs using a technique called \"phase-matching,\" which employs the sum of two circular polarizations in phase opposition. This process allows for the achievement of good performance of the synthesized antenna, such as the reduction of side lobe levels and the attainment of an almost symmetric main lobe regardless of the pointing direction. Numerical and measurement results are also presented.         ",
+    "url": "https://arxiv.org/abs/2411.05414",
+    "authors": [
+      "Alejandro Arroyo",
+      "Massimiliano Casaletti",
+      "Romain Contreres",
+      "Alexandre Piche",
+      "H\u00e9l\u00e8ne Roussel"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05459",
+    "title": "Multidimensional quantum dynamics with explicitly correlated Gaussian wave packets using Rothe's method",
+    "abstract": "           In a previous publication [J. Chem. Phys., 161, 044105 (2024)], it has been shown that Rothe's method can be used to solve the time-dependent Schr\u00f6dinger equation (TDSE) for the hydrogen atom in a strong laser field using time-dependent Gaussian wave packets. Here, we generalize these results, showing that Rothe's method can propagate arbitrary numbers of thawed, complex-valued, explicitly correlated Gaussian functions (ECGs) with dense correlation matrices for systems with varying dimensionality. We consider the multidimensional Henon-Heiles potential, and show that the dynamics can be quantitatively reproduced using only 30 Gaussians in 2D, and that accurate spectra can be obtained using 20 Gaussians in 2D and 30 to 40 Gaussians in 3D and 4D. Thus, the relevant multidimensional dynamics can be described at high quality using only a small number of ECGs that give a very compact representation of the wave function. This efficient representation, along with the demonstrated ability of Rothe's method to propagate Gaussian wave packets in strong fields and ECGs in complex potentials, paves the way for accurate molecular dynamics calculations beyond the Born-Oppenheimer approximation in strong fields.         ",
+    "url": "https://arxiv.org/abs/2411.05459",
+    "authors": [
+      "Simon Elias Schrader",
+      "Thomas Bondo Pedersen",
+      "Simen Kvaal"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05475",
+    "title": "3D-Printed Dual-Polarized Magneto-Electric Dipole Antenna with Wideband High Isolation for Full-Duplex Applications",
+    "abstract": "           The paper introduces a novel dual-port dual-polarized magneto-electric dipole (MED) antenna with orthogonal Gamma and inverted-Gamma shape probes, which was fabricated by means of an additive 3D metal printing process. Electromagnetic wave simulation and RF measurement report a resonance bandwidth from 3 GHz to 4 GHz at both MED's ports with respect to a standing wave ratio of less than 2. The cross-polarization isolation (XPI) between the MED's ports was also measured to be greater than 50 dB across its entire resonance bandwidth. The paper also thoroughly examines the impact of misalignments in the polarization of the MED probes on the XPI level. The broadband resonance and excellent isolation between the MED ports make it a strong candidate for a full-duplex wireless transceiver in network infrastructure.         ",
+    "url": "https://arxiv.org/abs/2411.05475",
+    "authors": [
+      "Mehmet Ahad Yurtoglu",
+      "Ramez Askar"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05496",
+    "title": "Combining Bayesian Optimization, SVD and Machine Learning for Advanced Optical Design",
+    "abstract": "           The design and optimization of optical components, such as Bragg gratings, are critical for applications in telecommunications, sensing, and photonic circuits. To overcome the limitations of traditional design methods that rely heavily on computationally intensive simulations and large datasets, we propose an integrated methodology that significantly reduces these burdens while maintaining high accuracy in predicting optical response. First, we employ a Bayesian optimization technique to strategically select a limited yet informative number of simulation points from the design space, ensuring that each contributes maximally to the model's performance. Second, we utilize singular value decomposition to effectively parametrize the entire reflectance spectra into a reduced set of coefficients, allowing us to capture all significant spectral features without losing crucial information. Finally, we apply XGBoost, a robust machine learning algorithm, to predict the entire reflectance spectra from the reduced dataset. The combination of Bayesian optimization for data selection, SVD for full-spectrum fitting, and XGBoost for predictive modeling provides a powerful, generalizable framework for the design of optical components.         ",
+    "url": "https://arxiv.org/abs/2411.05496",
+    "authors": [
+      "M. R. Mahani",
+      "Igor A. Nechepurenko",
+      "Thomas Flisgen",
+      "Andreas Wicht"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05519",
+    "title": "Surface-acoustic-wave driven silicon microfluidic chips for acoustic tweezing of motile cells and viscoelastic microbeads",
+    "abstract": "           Acoustic tweezers comprising a surface acoustic wave chip and a disposable silicon microfluidic chip are potentially advantageous to stable and cost-ffective acoustofluidic experiments while avoiding the cross-contamination by reusing the surface acoustic wave chip and disposing of the microfluidic chip. For such a device, it is important to optimize the chip-to-chip bonding and the size and shape of the microfluidic chip to enhance the available acoustic pressure. In this work, aiming at studying samples with the size of a few tens of microns, we explore the device structure and assembly method of acoustic tweezers. By using a polymer bonding layer and shaping the silicon microfluidic chip via deep reactive ion etching, we were able to attain the acoustic pressure up to 2 MPa with a corresponding acoustic radiation pressure of 0.2 kPa for 50 MHz ultrasound, comparable to reported values at lower ultrasound frequencies. We utilized the fabricated acoustic tweezers for non-contact viscoelastic deformation experiments of soft matter and trapping of highly motile cells. These results suggests that the feasibility of the hybrid chip approach to attaining the high acoustic force required to conduct acoustomechanical testing of small soft matters and cells.         ",
+    "url": "https://arxiv.org/abs/2411.05519",
+    "authors": [
+      "Shichao Jia",
+      "Soichiro Tsujino"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05546",
+    "title": "Isolated Attosecond $\\gamma$-Ray Pulse Generation with Transverse Orbital Angular Momentum Using Intense Spatiotemporal Optical Vortex Lasers",
+    "abstract": "           An isolated attosecond vortex $\\gamma$-ray pulse is generated by using a relativistic spatiotemporal optical vortex (STOV) laser in particle-in-cell simulations. A $\\sim$ 300-attosecond electron slice with transverse orbital angular momentum (TOAM) is initially selected and accelerated by the central spatiotemporal singularity of the STOV laser. This slice then collides with the laser's reflected Gaussian-like front from a planar target, initiating nonlinear Compton scattering and resulting in an isolated, attosecond ($\\sim$ 300 as), highly collimated ($\\sim$ 4$\\degree$), ultra-brilliant ($\\sim 5\\times 10^{24}$ photons/s/mm$^2$/mrad$^2$/0.1\\%BW at 1 MeV) $\\gamma$-ray pulse. This STOV-driven approach overcomes the significant beam divergence and complex two-laser requirements of prior Gaussian-based methods while introducting TOAM to the attosecond $\\gamma$-ray pulse, which opens avenues for ultrafast imaging, nuclear excitation, and detection applications.         ",
+    "url": "https://arxiv.org/abs/2411.05546",
+    "authors": [
+      "Fengyu Sun",
+      "Xinyu Xie",
+      "Wenpeng Wang",
+      "Stefan Weber",
+      "Xin Zhang",
+      "Yuxin Leng",
+      "Ruxin Li",
+      "Zhizhan Xu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05576",
+    "title": "On-chip Moir\\'e Optical Skyrmion Clusters with Nanoscale Dynamics",
+    "abstract": "           Skyrmions are topological defects belonging to nontrivial homotopy classes in particle theory, and are recognized as a suitable unit in the high-density, low-dissipation microelectronic devices in condensed matter physics. Their remarkably stable topology has been observed in electromagnetic waves recently. For the evanescent fields near a surface, this has been realized so far only for elementary optical skyrmions, with a fixed skyrmion number. Here we introduce the concept of moir\u00e9 optical skyrmion clusters-multiskyrmions are nested to form a large optical skyrmion cluster-crystallized or quasi-crystallized as a consequence of the twisted nanostructures. The rapid inverting of optical skyrmion number is achieved in the imperfectly aligned composite nanostructures. This moir\u00e9 optical skyrmion interaction mechanism is described by a lattice model. Further, the nucleation and collapse of optical skyrmion are studied, where their nanoscale dynamics are revealed with a tiny change of the twist angle. The sudden reversal of the on-chip skyrmion can serve as a precise beacon of the relative alignment deviation between twisted composite nanostructures.         ",
+    "url": "https://arxiv.org/abs/2411.05576",
+    "authors": [
+      "Lan Zhang",
+      "Liang Hou",
+      "Lipeng Wan",
+      "Weimin Deng",
+      "Qiushun Zou",
+      "Tongbiao Wang",
+      "Daomu Zhao",
+      "Tianbao Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05644",
+    "title": "Polarization-independent metasurfaces based on bound states in the continuum with high Q-factor and resonance modulation",
+    "abstract": "           Metasurfaces offer a powerful platform for effective light manipulation, which is crucial for advanced optical technologies. While designs of polarization-independent structures have reduced the need for polarized illumination, they are often limited by either low Q factors or low resonance modulation. Here, we design and experimentally demonstrate a metasurface with polarization-independent quasi-bound state in the continuum (quasi-BIC), where the unit cell consists of four silicon squares arranged in a two-dimensional array and the resonance properties can be controlled by adjusting the edge length difference between different squares. Our metasurface experimentally achieves a Q factor of approximately 100 and a resonance modulation of around 50%. This work addresses a common limitation in previous designs, which either achieved high Q factors exceeding 200 with a resonance modulation of less than 10%, leading to challenging signal-to-noise ratio requirements, or achieved strong resonance modulation with Q factors of only around 10, limiting light confinement and fine-tuning capabilities. In contrast, our metasurface ensures that the polarization-independent signal is sharp and distinct within the system, reducing the demands on signal-to-noise ratio and improving robustness. Experiments show the consistent performance across different polarization angles. This work contributes to the development of versatile optical devices, enhancing the potential for the practical application of BIC-based designs in areas such as optical filtering and sensing.         ",
+    "url": "https://arxiv.org/abs/2411.05644",
+    "authors": [
+      "Xingye Yang",
+      "Alexander Antonov",
+      "Andreas Aigner",
+      "Thomas Weber",
+      "Yohan Lee",
+      "Tao Jiang",
+      "Haiyang Hu",
+      "Andreas Tittl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05647",
+    "title": "Telecom wavelength quantum dots interfaced with silicon-nitride circuits via photonic wire bonding",
+    "abstract": "           Photonic integrated circuits find ubiquitous use in various technologies, from communication, to computing and sensing, and therefore play a crucial role in the quantum technology counterparts. Several systems are currently under investigation, each showing distinct advantages and drawbacks. For this reason, efforts are made to effectively combine different platforms in order to benefit from their respective strengths. In this work, 3D laser written photonic wire bonds are employed to interface triggered sources of quantum light, based on semiconductor quantum dots embedded into etched microlenses, with low-loss silicon-nitride photonics. Single photons at telecom wavelengths are generated by the In(Ga)As quantum dots which are then funneled into a silicon-nitride chip containing single-mode waveguides and beamsplitters. The second-order correlation function of g(2)(0) = 0.11+/-0.02, measured via the on-chip beamsplitter, clearly demonstrates the transfer of single photons into the silicon-nitride platform. The photonic wire bonds funnel on average 28.6+/-8.8% of the bare microlens emission (NA = 0.6) into the silicon-nitride-based photonic integrated circuit even at cryogenic temperatures. This opens the route for the effective future up-scaling of circuitry complexity based on the use of multiple different platforms.         ",
+    "url": "https://arxiv.org/abs/2411.05647",
+    "authors": [
+      "Ulrich Pfister",
+      "Daniel Wendland",
+      "Florian Hornung",
+      "Lena Engel",
+      "Hendrik H\u00fcging",
+      "Elias Herzog",
+      "Ponraj Vijayan",
+      "Raphael Joos",
+      "Erik Jung",
+      "Michael Jetter",
+      "Simone L. Portalupi",
+      "Wolfram H. P. Pernice",
+      "Peter Michler"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05690",
+    "title": "Multiple-partition cross-modulation programmable metasurface empowering wireless communications",
+    "abstract": "           With the versatile manipulation capability, programmable metasurfaces are rapidly advancing in their intelligence, integration, and commercialization levels. However, as the programmable metasurfaces scale up, their control configuration becomes increasingly complicated, posing significant challenges and limitations. Here, we propose a multiple-partition cross-modulation (MPCM) programmable metasurface to enhance the wireless communication coverage with low hardware complexity. We firstly propose an innovative encoding scheme to multiply the control voltage vectors of row-column crossing, achieving high beamforming precision in free space while maintaining low control hardware complexity and reducing memory requirements for coding sequences. We then design and fabricate an MPCM programmable metasurface to confirm the effectiveness of the proposed encoding scheme. The simulated and experimental results show good agreements with the theoretically calculated outcomes in beam scanning across the E and H planes and in free-space beam pointing. The MPCM programmable metasurface offers strong flexibility and low complexity by allowing various numbers and combinations of partition items in modulation methods, catering to diverse precision demands in various scenarios. We demonstrate the performance of MPCM programmable metasurface in a realistic indoor setting, where the transmissions of videos to specific receiver positions are successfully achieved, surpassing the capabilities of traditional programmable metasurfaces. We believe that the proposed programmable metasurface has great potentials in significantly empowering the wireless communications while addressing the challenges associated with the programmable metasurface's design and implementation.         ",
+    "url": "https://arxiv.org/abs/2411.05690",
+    "authors": [
+      "Jun Wei Zhang",
+      "Zhen Jie Qi",
+      "Li Jie Wu",
+      "Wan Wan Cao",
+      "Xinxin Gao",
+      "Zhi Hui Fu",
+      "Jing Yu Chen",
+      "Jie Ming Lv",
+      "Zheng Xing Wang",
+      "Si Ran Wang",
+      "Jun Wei Wu",
+      "Zhen Zhang",
+      "Jia Nan Zhang",
+      "Hui Dong Li",
+      "Jun Yan Dai",
+      "Qiang Cheng",
+      "Tie Jun Cui"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05723",
+    "title": "On-chip rewritable phase-change metasurface for programmable diffractive deep neural networks",
+    "abstract": "           Photonic neural networks capable of rapid programming are indispensable to realize many functionalities. Phase change technology can provide nonvolatile programmability in photonic neural networks. Integrating direct laser writing technique with phase change material (PCM) can potentially enable programming and in-memory computing for on-chip photonic neural networks. Sb2Se3 is a newly introduced ultralow-loss phase change material with a large refractive index contrast over the telecommunication transmission band. Compact, low-loss, rewritable, and nonvolatile on-chip phase-change metasurfaces can be created by using direct laser writing on a Sb2Se3 thin film. Here, by cascading multiple layers of on-chip phase-change metasurfaces, an ultra-compact on-chip programmable diffractive deep neural network is demonstrated at the wavelength of 1.55um and benchmarked on two machine learning tasks of pattern recognition and MNIST (Modified National Institute of Standards and Technology) handwritten digits classification and accuracies comparable to the state of the art are achieved. The proposed on-chip programmable diffractive deep neural network is also advantageous in terms of power consumption because of the ultralow-loss of the Sb2Se3 and its nonvolatility which requires no constant power supply to maintain its programmed state.         ",
+    "url": "https://arxiv.org/abs/2411.05723",
+    "authors": [
+      "Sanaz Zarei"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05727",
+    "title": "Cascade hot carriers via broad-band resonant tunneling",
+    "abstract": "           Extraction of hot carriers (HCs) over the band-edge is a key to harvest solar energy beyond Shockley-Queisser limit1. Graphene is known as a HC-layered material due to phonon bottleneck effect near Dirac point, but limited by low photocarrier density2. Graphene/transition metal dichalcogenide (TMD) heterostructures circumvent this issue by ultrafast carrier transfer from TMD to graphene2,3. Nevertheless, efficient extraction of photocurrent by means of HCs together with carrier multiplication (CM) is still missing. Here, we introduce an ultrathin broadband resonant tunneling (BRT) barrier, TiOX to efficiently extract photocurrent with simultaneous CM and HC measurements in MoS2/graphene/TiOX heterostructure. The BRT layer gives rise to boosting open circuit voltage which is linearly proportional to incident photon energy. Meanwhile, short circuit current rises rapidly over 2Eg with obvious CM feature. This was explained by defining the joint density of states between graphene and TiOX layer over positive and negative voltage. The broadband resonant tunneling states inherently constructed from oxidation states varying from Ti3+ to Ti4+ allow the ultrafast HCs to efficiently transfer from graphene to TiOX layer. We find that the number of available tunneling states is directly proportional to short circuit current, which is well corroborated with TiOX and MoS2 thickness variance. We obtained an optimum thickness of BRT layer of ~2.8 nm, yielding cascade open circuit voltage as high as ~0.7 V, two orders of magnitude higher than that without BRT layer to reach a record efficiency of 5.3% with improved fill factor owing to synergistic HC and CM conversion under 1-SUN with long-term stability.         ",
+    "url": "https://arxiv.org/abs/2411.05727",
+    "authors": [
+      "Kamal Kumar Paul",
+      "Ashok Mondal",
+      "Jae Woo Kim",
+      "Ji-Hee Kim",
+      "Young Hee Lee"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05737",
+    "title": "Accurate Unsupervised Photon Counting from Transition Edge Sensor Signals",
+    "abstract": "           We compare methods for signal classification applied to voltage traces from transition edge sensors (TES) which are photon-number resolving detectors fundamental for accessing quantum advantages in information processing, communication and metrology. We quantify the impact of numerical analysis on the distinction of such signals. Furthermore, we explore dimensionality reduction techniques to create interpretable and precise photon number embeddings. We demonstrate that the preservation of local data structures of some nonlinear methods is an accurate way to achieve unsupervised classification of TES traces. We do so by considering a confidence metric that quantifies the overlap of the photon number clusters inside a latent space. Furthermore, we demonstrate that for our dataset previous methods such as the signal's area and principal component analysis can resolve up to 16 photons with confidence above $90\\%$ while nonlinear techniques can resolve up to 21 with the same confidence threshold. Also, we showcase implementations of neural networks to leverage information within local structures, aiming to increase confidence in assigning photon numbers. Finally, we demonstrate the advantage of some nonlinear methods to detect and remove outlier signals.         ",
+    "url": "https://arxiv.org/abs/2411.05737",
+    "authors": [
+      "Nicolas Dalbec-Constant",
+      "Guillaume Thekkadath",
+      "Duncan England",
+      "Benjamin Sussman",
+      "Thomas Gerrits",
+      "Nicol\u00e1s Quesada"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05748",
+    "title": "Multi-Dimensional Reconfigurable, Physically Composable Hybrid Diffractive Optical Neural Network",
+    "abstract": "           Diffractive optical neural networks (DONNs), leveraging free-space light wave propagation for ultra-parallel, high-efficiency computing, have emerged as promising artificial intelligence (AI) accelerators. However, their inherent lack of reconfigurability due to fixed optical structures post-fabrication hinders practical deployment in the face of dynamic AI workloads and evolving applications. To overcome this challenge, we introduce, for the first time, a multi-dimensional reconfigurable hybrid diffractive ONN system (MDR-HDONN), a physically composable architecture that unlocks a new degree of freedom and unprecedented versatility in DONNs. By leveraging full-system learnability, MDR-HDONN repurposes fixed fabricated optical hardware, achieving exponentially expanded functionality and superior task adaptability through the differentiable learning of system variables. Furthermore, MDR-HDONN adopts a hybrid optical/photonic design, combining the reconfigurability of integrated photonics with the ultra-parallelism of free-space diffractive systems. Extensive evaluations demonstrate that MDR-HDONN has digital-comparable accuracy on various task adaptations with 74x faster speed and 194x lower energy. Compared to prior DONNs, MDR-HDONN shows exponentially larger functional space with 5x faster training speed, paving the way for a new paradigm of versatile, composable, hybrid optical/photonic AI computing. We will open-source our codes.         ",
+    "url": "https://arxiv.org/abs/2411.05748",
+    "authors": [
+      "Ziang Yin",
+      "Yu Yao",
+      "Jeff Zhang",
+      "Jiaqi Gu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Artificial Intelligence (cs.AI)",
+      "Hardware Architecture (cs.AR)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05542",
+    "title": "Quantum magnetometry of transient signals with a time resolution of 1.1 nanoseconds",
+    "abstract": "           Quantum magnetometers based on spin defects in solids enable sensitive imaging of various magnetic phenomena, such as ferro- and antiferromagnetism, superconductivity, and current-induced fields. Existing protocols primarily focus on static fields or narrow-band dynamical signals, and are optimized for high sensitivity rather than fast time resolution. Here, we report detection of fast signal transients, providing a perspective for investigating the rich dynamics of magnetic systems. We experimentally demonstrate our technique using a single nitrogen-vacancy (NV) center magnetometer at room temperature, reaching a best-effort time resolution of 1.1 ns, an instantaneous bandwidth of 0.9 GHz, and a time-of-flight precision better than 20 ps. The time resolution can be extended to the picosecond range by use of on-chip waveguides. At these speeds, NV quantum magnetometers will become competitive with time-resolved synchrotron X-ray techniques. Looking forward, adding fast temporal resolution to the spatial imaging capability further promotes single-spin probes as powerful research tools in spintronics, mesoscopic physics, and nanoscale device metrology.         ",
+    "url": "https://arxiv.org/abs/2411.05542",
+    "authors": [
+      "Konstantin Herb",
+      "Laura A. V\u00f6lker",
+      "John M. Abendroth",
+      "Nicholas Meinhardt",
+      "Laura van Schie",
+      "Pietro Gambardella",
+      "Christian L. Degen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05717",
+    "title": "Using optical tweezer electrophoresis to investigate clay nanoplatelet adsorption on Latex microspheres in aqueous media",
+    "abstract": "           The adsorption of charged clay nanoplatelets plays an important role in stabilizing emulsions by forming a barrier around the emulsion droplets and preventing coalescence. In this work, the adsorption of charged clay nanoplatelets on a preformed Latex microsphere in an aqueous medium is investigated at high temporal resolution using optical tweezer-based single-colloid electrophoresis. Above a critical clay concentration, charged clay nanoplatelets in an aqueous medium self-assemble gradually to form gel-like networks that become denser with increasing medium salinity. In a previous publication [R. Biswas et. al., Soft Matter, 2023, 19, 24007-2416], some of us had demonstrated that a Latex microsphere, optically trapped in a clay gel medium, is expected to attach to the network strands of the gel. In the present contribution, we show that for different ionic conditions of the suspending medium, the adsorption of clay nanoplatelets increases the effective surface charge on an optically trapped Latex microsphere while also enhancing the drag experienced by the latter. Besides the ubiquitous contribution of non-electrostatic dispersion forces in driving the adsorption process, we demonstrate the presence of an electrostatically-driven adsorption mechanism when the microsphere was trapped in a clay gel. These observations are qualitatively verified via cryogenic field emission scanning electron microscopy and are useful in achieving colloidal stabilisation, for example, during the preparation of clay-armoured Latex particles in Pickering emulsion polymerisation.         ",
+    "url": "https://arxiv.org/abs/2411.05717",
+    "authors": [
+      "Vaibhav Raj Singh Parmar",
+      "Sayantan Chanda",
+      "Sri Vishnu Bharat Sivasubramaniam",
+      "Ranjini Bandyopadhyay"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05728",
+    "title": "Quantum hyperspins: Highly nonclassical collective behavior in quantum optical parametric oscillators",
+    "abstract": "           We report on the emergence of a highly non-classical collective behavior in quantum parametric oscillators, which we name quantum hyperspin, induced by a tailored nonlinear interaction. This is the second quantized version of classical multidimensional spherical spins, as XY spins in two dimensions, and Heisenberg spins in three dimensions. In the phase space, the quantum hyperspins are represented as spherical shells whose radius scales with the number of particles in a way such that it cannot be factorized even in the limit of large particle number. We show that the nonlinearly coupled quantum oscillators form a high-dimensional entangled state that is surprisingly robust with respect to the coupling with the environment. Such a behavior results from a properly engineered reservoir. Networks of entangled quantum hyperspins are a new approach to quantum simulations for applications in computing, Ising machines, and high-energy physics models. We analyze from first principles through ab initio numerical simulations the properties of quantum hyperspins, including the interplay of entanglement and coupling frustration.         ",
+    "url": "https://arxiv.org/abs/2411.05728",
+    "authors": [
+      "Marcello Calvanese Strinati",
+      "Claudio Conti"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.07416",
+    "title": "Highly spin-polarized molecules via collisional microwave pumping",
+    "abstract": "           We propose a general technique to produce cold spin-polarized molecules, in which rotationally excited states are first populated by coherent microwave excitation, and then allowed to spin-flip and relax via collisional quenching, which populates a single final spin state. We illustrate the high selectivity of the technique for $^{13}$C$^{16}$O molecules immersed in a cold buffer gas of helium atoms, achieving a high degree ($\\geq$95\\%) of nuclear spin polarization at 1 K.         ",
+    "url": "https://arxiv.org/abs/2404.07416",
+    "authors": [
+      "Rebekah Hermsmeier",
+      "Timur V. Tscherbul"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
