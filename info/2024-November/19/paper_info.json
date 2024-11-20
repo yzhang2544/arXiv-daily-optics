@@ -1,0 +1,667 @@
+[
+  {
+    "id": "arXiv:2411.10674",
+    "title": "Towards 250-m gigabits-per-second underwater wireless optical communication using a low-complexity ANN equalizer",
+    "abstract": "           The breakthroughs of communication distance and data rate have been eagerly anticipated by scientists in the area of underwater wireless optical communication (UWOC), which is seriously limited by the obvious aquatic attenuation in underwater channel. High-power laser source and ultra-sensitive photodetector are straightforward to extend the UWOC distance. However, nonlinear impairments caused by bandwidth-limited high-power transmitter and sensitive receiver severely degrade the data rate of long-distance UWOC. In this paper, we develop a UWOC system using a high-power transmitter by beam combining of 8-channel cascaded laser diodes (LD) and a sensitive receiver by a silicon photomultiplier (SiPM). The combined linear equalizer and low-complexity Artificial Neural Network (ANN) equalizer are used to achieve 1-Gbps data transmission over a 250-m UWOC system. To the best of our knowledge, this is the first Gbps-level UWOC experimental demonstration in >250-meter underwater transmission that has ever been reported. To lower the complexity of the ANN equalizer, a linear equalizer is applied first in order to prune the input size of the ANN equalizer. The optimal input size of the ANN equalizer is identified as 9. And the ANN architecture consists of two hidden layers, with 10 neurons in the first layer and a single neuron in the second layer. The performance of the proposed ANN-based system is compared with that of systems employing Volterra and linear equalizers. The bit error rate (BER) at data rate of 1 Gbps over a 250-m UWOC is reduced to with the combined linear and ANN equalizer, which is below the hard-decision forward error correction (HD-FEC) limit. In contrast, the linear and Volterra equalizer-based systems achieve data rates of 500 Mbps and 750 Mbps, respectively.         ",
+    "url": "https://arxiv.org/abs/2411.10674",
+    "authors": [
+      "Xiaohe Dong",
+      "Kuokuo Zhang",
+      "Caiming Sun",
+      "Jun Zhang",
+      "Aidong Zhang",
+      "Lijun Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.10721",
+    "title": "High-gain optical parametric amplification with continuous-wave pump using domain-engineered thin film lithium niobate waveguide",
+    "abstract": "           While thin film lithium niobate (TFLN) is known for efficient signal generation, on-chip signal amplification remains challenging from fully integrated optical communication circuits. Here we demonstrate the first continuous-wave-pump optical parametric amplification (OPA) using an x-cut domain-engineered TFLN waveguide, with high gain over the telecom band up to 13.9 dB, and test it for high signal-to-noise ratio signal amplification using a commercial optical communication module pair. Fabricated in wafer scale using common process as devices including modulators, this OPA device marks an important step in TFLN photonic integration.         ",
+    "url": "https://arxiv.org/abs/2411.10721",
+    "authors": [
+      "Mengwen Chen",
+      "Chenyu Wang",
+      "Kunpeng Jia",
+      "Xiao-Hui Tian",
+      "Jie Tang",
+      "Chunxi Zhu",
+      "Xiaowen Gu",
+      "Zexing Zhao",
+      "Zikang Wang",
+      "Zhilin Ye",
+      "Ji Tang",
+      "Yong Zhang",
+      "Zhong Yan",
+      "Guang Qian",
+      "Biaobing Jin",
+      "Zhenlin Wang",
+      "Shi-Ning Zhu",
+      "Zhenda Xie"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.10893",
+    "title": "Quantum Chemical and Trajectory Surface Hopping Molecular Dynamics Study of Iodine-based BODIPY Photosensitizer",
+    "abstract": "           A computational study of I-BODIPY (2-ethyl-4,4-difluoro-6,7-diiodo-1,3-dimethyl-4-bora-3a,4a-diaza-s-indacene) was conducted to investigate its photophysical properties as a potential triplet photosensitizer for singlet oxygen generation. Multireference CASPT2 and CASSCF methods were used to calculate vertical excitation energies and spin-orbit couplings (SOCs) in a model monoiodinated BODIPY molecule to assess the applicability of the single-reference ADC(2) method. Time-dependent density functional theory (TD-DFT) with the Tamm-Dancoff approximation (TDA) was tested against ADC(2) using different exchange-correlation functionals, employing a two-component pseudopotential basis set for iodine. SOC magnitudes between excited states were discussed using the Slater-Condon rules. The geometry dependence of SOCs for the lowest states was also examined. TD-DFT/B3LYP and TD-DFT(TDA)/BHLYP were selected for subsequent absorption spectra and trajectory surface hopping (TSH) molecular dynamics (MD) simulations. Two bright states were identified in I-BODIPY's visible spectrum, showing a red shift due to iodine substitution. Excited-state MD simulations, including nonadiabatic effects and SOCs, were performed to investigate relaxation after photoexcitation to the S1 state. TSH MD simulations revealed that intersystem crossings occur on a similar timescale to internal conversions. After triplet population growth, a \"saturation\" phase was reached with a triplet-to-singlet ratio of about 4:1. The calculated triplet quantum yield of 0.85 agrees qualitatively with the experimental singlet oxygen generation yield of 0.99.         ",
+    "url": "https://arxiv.org/abs/2411.10893",
+    "authors": [
+      "Mirza Wasif Baig",
+      "Marek Pederzoli",
+      "Mojm\u00edr K\u00fdvala",
+      "Ji\u0159\u00ed Pittner"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11009",
+    "title": "Ultra-compact topological photonic crystal rainbow nanolasers operating in the 1550 nm telecom band with wavelength-scale mode volumes",
+    "abstract": "           Density-integrated, multi-wavelength nanoscale lasers with ultra-low power consumption and ultra-compact footprints are essential for energy-efficient, fast and high-throughput data processing. Currently, on-chip multi-wavelength lasers predominantly rely on arrays of discrete large-scale conventional semiconductor lasers that are susceptible to the fabrication imperfections. Topological rainbow nanolasers, which spatially confine and emit specific topologically protected light frequencies, offer a prospective approach for achieving ultra-compact integrated multi-wavelength light sources with enhanced robustness against perturbations and defects. However, it remains a significant challenge to achieve highly localized topological rainbow trapping in nanocavities for laser emission with both high quality factors and ultra-small mode volumes. Here, we experimentally report ultra-compact topological photonic crystal rainbow nanolasers operating in the 1550 nm telecom band. Specifically, we present rainbow-like emission with uniform wavelength spacing and wavelength-scale mode volume $\\sim 0.7 \\left(\\frac{\\lambda}{n}\\right)^3$ in a one-dimensional topological rainbow nanolaser, exhibiting robust lasing operation across a wide temperature range and a spectral tuning capability of approximately 70 nm. Additionally, we demonstrate an ultra-compact two-dimensional topological rainbow nanolaser in an exceptionally compact footprint of nearly 0.002 $\\text{mm}^2$, featuring a broad rainbow spectra with 64 continuously tuned lasing peaks. Our work provides a promising method for realizing robust and nanoscale multi-wavelength tunable laser sources, paving the way for numerous potential applications in ultra-compact photonic chips.         ",
+    "url": "https://arxiv.org/abs/2411.11009",
+    "authors": [
+      "Feng Tian",
+      "Yilan Wang",
+      "Wendi Huang",
+      "Xuan Fang",
+      "Shengqun Guo",
+      "Taojie Zhou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11018",
+    "title": "Scalable fabrication of erbium-doped high-Q silica microtoroid resonators via sol-gel coating",
+    "abstract": "           This study explores sol-gel methods for fabricating erbium-doped silica microtoroid resonators, addressing the limitations of conventional doping techniques and enhancing device scalability. We develop a reproducible sol-gel process that yields defect-free films for photonic applications, and detail common defects and troubleshooting strategies. Two fabrication methods are compared: traditional film deposition on substrates and the direct coating of prefabricated resonators. The latter enables the fabrication of larger resonator diameters (up to 450 {\\mu}m) without buckling, while achieving a high-Q factor and a low lasing threshold of 350 {\\mu}W. These erbium-doped resonators exhibit multi-mode laser oscillations at 1550 nm, revealing the sol-gel method's potential for realizing scalable, gain-doped photonic devices.         ",
+    "url": "https://arxiv.org/abs/2411.11018",
+    "authors": [
+      "Riku Imamura",
+      "Shun Fujii",
+      "Keigo Nagashima",
+      "Takasumi Tanabe"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11052",
+    "title": "Second Harmonic Generation and Nonlinear Frequency Conversion in Photonic Time-Crystals",
+    "abstract": "           We study the nonlinear process of second harmonic generation in photonic time-crystals, materials with refractive index that varies abruptly and periodically in time, and obtain the phase matching condition for this process. We find conditions for which the second harmonic generation is highly enhanced even in the absence of phase matching, governed by the exponential growth of the modes residing in the momentum gap of the photonic time crystal. Additionally, under these conditions, a cascade of higher order harmonics is generated at growing exponential rates. The process is robust, with no requirement for phase-matching, the presence of a resonance or a threshold, drawing energy from the modulation.         ",
+    "url": "https://arxiv.org/abs/2411.11052",
+    "authors": [
+      "Noa Konforty",
+      "Moshe-Ishay Cohen",
+      "Ohad Segal",
+      "Yonatan Plotnik",
+      "Mordechai Segev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11064",
+    "title": "Optical Tweezers with AC Dielectric Levitation: A Powerful Approach to Microparticle Manipulation",
+    "abstract": "           Optical tweezers, with their high precision, dynamic control, and non-invasiveness, are increasingly important in scientific research and applications at the micro and nano scales. However, manipulation by optical tweezers is challenged by adsorption forces, including van der Waals forces, capillary forces, and electrostatic forces, which are present between micro- and nano-objects. Due to the inherent limitations of optical forces imposed by laser power, these adsorption forces are difficult to overcome. Inspired by maglev trains, we propose a multiphysics coupling method that combines dielectrophoretic and optical gradient forces to achieve broad applicability and low-damage micro-nanoscale particle manipulation. We developed a device that introduces electric fields to detach objects from hard substrates using alternating current (AC) dielectric levitation before manipulation with optical tweezers. We utilized micron-sized polystyrene (PS) microspheres as objects and elucidated the levitation mechanism through finite element simulation. For larger particles, such as a 100 {\\mu}m PS microparticle and a 200 {\\mu}m micro-gear, AC dielectric levitation enabled manipulation by optical tweezers. Also, the better viability of three kinds of cells displayed the low bio-damage of the proposed method. Given its broad applicability and biocompatibility, AC dielectric levitation technology significantly expands the capabilities of optical tweezers, allowing for the manipulation of larger particles and cells. This advancement addresses the limitations of optical tweezers in handling large-scale particles and enhances their versatility in various applications.         ",
+    "url": "https://arxiv.org/abs/2411.11064",
+    "authors": [
+      "Haobing Liu",
+      "Rongxin Fu",
+      "Zongliang Guo",
+      "Menglei Zhao",
+      "Gong Li",
+      "Fenggang Li",
+      "Hang Li",
+      "Shuailong Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11138",
+    "title": "Exploring the effects of diameter and volume fraction of quantum dots on photocarrier generation rate in solar cells",
+    "abstract": "           This paper extends a previous model for p-i-n GaAs quantum dot solar cells (QDSC) by revising the equation of photocarrier generation rate in quantum dots (QDs) inside the intrinsic region. In our model, we address a notable discrepancy that arose from the previous model where they did not consider the volume of QDs within the intrinsic region, leading to an overestimation of the photocarrier generation rate. Our present model rectifies this by incorporating the volume of quantum dots, resulting in adjustments to the photocarrier generation rate. Additionally, we determine the absorption coefficient of the QDs based on Mie theory for different diameter sizes considering the constant volume fraction of the total number of QDs in the intrinsic region. We observe in our analysis that the absorption spectra of the QDs and host material may overlap in certain cases, although the previous model assumed no overlap. This finding suggests the need for caution when evaluating spectral overlap: if the spectra do not overlap, both the previous and current modified models can be reliably applied. However, in cases of overlap, careful consideration is required to ensure accurate predictions of photocarrier generation. Furthermore, investigating the effect of QD diameter size on the photocarrier generation rate in the intrinsic region, we find that smaller QD sizes result in a higher absorption coefficient as well as a higher generation rate for a constant volume of QDs in the region. Moreover, we establish the optimization of the QDs array size by varying the size and the total volume of QDs to improve the generation rate. Our analysis reveals that a higher volume of QDs and a smaller size of QDs result in the maximum generation rate. From an experimental perspective, we propose that the optimal arrangement of QDs in such solar cells is a 0.5 volume fraction with a QD diameter of 2 nm.         ",
+    "url": "https://arxiv.org/abs/2411.11138",
+    "authors": [
+      "F. Hafiz",
+      "M. R. I. Rafi",
+      "M. Tasfia",
+      "M. M. Rahman",
+      "M. M. Chowdhury"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11381",
+    "title": "Experimental probe of band structures of bilayer valley photonic crystals",
+    "abstract": "           Research on two-dimensional van der Waals materials has demonstrated that the layer degree of freedom can significantly alter the physical properties of materials due to the substantial modification of bulk bands. Inspired by this concept, layered photonic systems have been proposed and realized, revealing novel phenomena absent in their monolayer counterparts. In this work, we experimentally investigate the band structures of bilayer valley photonic crystals. Two typical structures with different stacking configurations are experimentally imaged via the near-field scanning technology, exhibiting distinct bulk band structures. Furthermore, different topological edge modes induced by distinct topology are observed, revealing that the layer degree of freedom can be regarded as a pseudospin and offer further capabilities for controlling the flow of light. Our work not only elucidates the evolution of band structures from monolayer to bilayer topological systems but also provides an experimental platform for the further exploration of bilayer topological insulators.         ",
+    "url": "https://arxiv.org/abs/2411.11381",
+    "authors": [
+      "Xiang-Fei Guo",
+      "Jian-Wei Liu",
+      "Hong-Xiang Chen",
+      "Fu-Long Shi",
+      "Xiao-Dong Chen",
+      "Jian-Wen Dong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11489",
+    "title": "Harris Dispersion Relation and Bernstein Modes in Dense Magnetized Quantum Plasmas",
+    "abstract": "           The Bernstein wave is a well-known electrostatic eigen-mode in magnetized plasmas, and it is of broad connection to multiple disciplines, such as controlled nuclear fusions and astrophysics. In this work, we extend the Bernstein mode from classical to quantum plasmas by means of the quantum kinetic theory in a self-consistent manner, and especially the quantum version of the Harris dispersion relation is derived. The studied quantum effects appear in the form of pseudo-differential operators (\\textgreek{Y}DO) in the formula, which are exactly solved using numerical methods. Furthermore, by utilizing the magnetized equilibrium Wigner function, Landau quantization and finite temperature effects are rigorously contained. It is found that behaviours of the quantum Bernstein wave departure significantly from its classical counterpart, especially when $\\hbar\\omega_{\\mathrm{c}}$ is of the same order of the Fermi energy.         ",
+    "url": "https://arxiv.org/abs/2411.11489",
+    "authors": [
+      "T. X. Hu",
+      "D. Wu",
+      "J. Zhang"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11512",
+    "title": "A numerical study of self-focusing and guiding of laser pulse of duration shorter than plasma wavelength",
+    "abstract": "           Self-focusing and guiding of ultra-short (pulse duration: L<lambda_P: plasma wavelength), intense laser pulses in underdense plasma relevant to laser wakefield electron acceleration has been studied numerically. The analysis considers contribution of wakefield non-linearities along with relativistic effects. Stable propagation of laser pulse with mild periodic oscillations upto few Rayleigh lengths were observed. Parametric optimization of the different laser and plasma parameters performed show that, laser pulse as short as L/lambda_P~0.42 is most stably guided upto few Rayleigh lengths for normalized laser intensity, a0~0.9. Next effect of upward density ramps were also studied and it was found that inclusion of an upward density ramp not only enhances self-focusing and guiding of the ultra-short laser pulse but also reduces required minimum laser intensity compared to uniform density profile.         ",
+    "url": "https://arxiv.org/abs/2411.11512",
+    "authors": [
+      "D. Hazra",
+      "A. Moorti"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11679",
+    "title": "Strong nanophotonic quantum squeezing exceeding 3.5 dB in a foundry-compatible Kerr microresonator",
+    "abstract": "           Squeezed light, with its quantum noise reduction capabilities, has emerged as a powerful resource in quantum information processing and precision metrology. To reach noise reduction levels such that a quantum advantage is achieved, off-chip squeezers are typically used. The development of on-chip squeezed light sources, particularly in nanophotonic platforms, has been challenging. We report 3.7 $\\pm$ 0.2 dB of directly detected nanophotonic quantum squeezing using foundry-fabricated silicon nitride (Si$_3$N$_4$) microrings with an inferred squeezing level of 10.7 dB on-chip. The squeezing level is robust across multiple devices and pump detunings, and is consistent with the overcoupling degree without noticeable degradation from excess classical noise. We also offer insights to mitigate thermally-induced excess noise, that typically degrades squeezing, by using small-radius rings with a larger free spectral range (450 GHz) and consequently lower parametric oscillation thresholds. Our results demonstrate that Si$_3$N$_4$ is a viable platform for strong quantum noise reduction in a CMOS-compatible, scalable architecture.         ",
+    "url": "https://arxiv.org/abs/2411.11679",
+    "authors": [
+      "Yichen Shen",
+      "Ping-Yen Hsieh",
+      "Sashank Kaushik Sridhar",
+      "Samantha Feldman",
+      "You-Chia Chang",
+      "Thomas A. Smith",
+      "Avik Dutt"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11700",
+    "title": "Coherence effects in LIPSS formation on silicon wafers upon picosecond laser pulse irradiations",
+    "abstract": "           Using different laser irradiation patterns to modify of silicon surface, it has been demonstrated that, at rather small overlapping between irradiation spots, highly regular laser-induced periodic surface structures (LIPSS) can be produced already starting from the second laser pulse, provided that polarization direction coincides with the scanning direction. If the laser irradiation spot is shifted from the previous one perpendicular to light polarization, LIPSS are not formed even after many pulses. This coherence effect is explained by a three-wave interference, - surface electromagnetic waves (SEWs) generated within the irradiated spot, SEWs scattered from the crater edge formed by the previous laser pulse, and the incoming laser pulse, - providing conditions for amplification of the periodic light-absorption pattern. To study possible consequences of SEW scattering from the laser-modified regions, where the refractive index can change due to material melting, amorphization, and the residual stress formed by previous laser pulses, hydrodynamic modelling and simulations have been performed within the melting regime. The simulations show that stress and vertical displacement could be amplified upon laser scanning. Both mechanisms, three-wave interference and stress accumulation, could enable an additional degree of controlling surface structuring.         ",
+    "url": "https://arxiv.org/abs/2411.11700",
+    "authors": [
+      "Inam Mirza",
+      "Juraj Sl\u00e1dek",
+      "Yoann Levy",
+      "Alexander V. Bulgakov",
+      "Vasilis Dimitriou",
+      "Helen Papadaki",
+      "Evaggelos Kaselouris",
+      "Paulius Gecys",
+      "Gediminas Ra\u010diukaitis",
+      "Nadezhda M. Bulgakova"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11725",
+    "title": "NeuralMag: an open-source nodal finite-difference code for inverse micromagnetics",
+    "abstract": "           We present NeuralMag, a flexible and high-performance open-source Python library for micromagnetic simulations. NeuralMag leverages modern machine learning frameworks, such as PyTorch and JAX, to perform efficient tensor operations on various parallel hardware, including CPUs, GPUs, and TPUs. The library implements a novel nodal finite-difference discretization scheme that provides improved accuracy over traditional finite-difference methods without increasing computational complexity. NeuralMag is particularly well-suited for solving inverse problems, especially those with time-dependent objectives, thanks to its automatic differentiation capabilities. Performance benchmarks show that NeuralMag is competitive with state-of-the-art simulation codes while offering enhanced flexibility through its Python interface and integration with high-level computational backends.         ",
+    "url": "https://arxiv.org/abs/2411.11725",
+    "authors": [
+      "Claas Abert",
+      "Florian Bruckner",
+      "Andrey Voronov",
+      "Martin Lang",
+      "Swapneel Amit Pathak",
+      "Samuel Holt",
+      "Robert Kraft",
+      "Ruslan Allayarov",
+      "Peter Flauger",
+      "Sabri Koraltan",
+      "Thomas Schrefl",
+      "Andrii Chumak",
+      "Hans Fangohr",
+      "Dieter Suess"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.08915",
+    "title": "Revisiting the Laplace Transform in Quantum Mechanics: Correcting a Flawed Approach for the Stationary Schr\\\"odinger Equation",
+    "abstract": "           The Laplace transform is a valuable tool in physics, particularly in solving differential equations with initial or boundary conditions. A 2014 study by Tsaur and Wang (2014 \\emph{Eur.~J.~Phys.} \\textbf{35} 015006) introduced a Laplace-transform-based method to solve the stationary Schr\u00f6dinger equation for various potentials. However, their approach contains critical methodological flaws: the authors disregard essential boundary conditions and apply the residue theorem incorrectly in the inverse transformation process. These errors ultimately cancel out, leading to correct results despite a flawed derivation. In this paper, we revisit the use of the Laplace transform for the one-dimensional Schr\u00f6dinger equation, clarifying correct practices in handling boundary conditions and singularities. This analysis offers a sound and consistent framework for the application of Laplace transforms in stationary quantum mechanics, underscoring their educational utility in quantum mechanics coursework.         ",
+    "url": "https://arxiv.org/abs/2411.08915",
+    "authors": [
+      "Luis M. B\u00e1ez",
+      "Andr\u00e9s Santos"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.10638",
+    "title": "Nonlinear optical pumping to a diamond NV center dark state",
+    "abstract": "           The photodynamics of diamond nitrogen-vacancy (NV) centers limits their performance in many quantum technologies. Quenching of photoluminescence, which degrades NV readout, is commonly ascribed to a dark state that is not fully understood. Using a nanoscale cavity to generate intense infrared fields that quench NV emission nonlinearly with field intensity, we show that the dark state is accessed by two-photon pumping into the $^4A_2$ quartet state of the neutrally charged NV (NV$^0$). We constrain this state's energy relative to the NV$^0$ ground-state ($^2E$) to $>0.58$\\,eV and the recombination energy threshold to the NV$^-$ ground state ($^3A_2$) to $<2.01$ eV. Furthermore, we show that accessing this state allows sensing of local infrared fields. This new understanding will allow predictions of the limits of NV technologies reliant upon intense fields, including levitated systems, spin--optomechanical devices, and absorption--based magnetometers.         ",
+    "url": "https://arxiv.org/abs/2411.10638",
+    "authors": [
+      "Prasoon K. Shandilya",
+      "Vinaya K. Kavatamane",
+      "Sigurd Fl\u00e5gan",
+      "David P. Lake",
+      "Denis Sukachev",
+      "Paul E. Barclay"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11143",
+    "title": "Integrated Ising Model with global inhibition for decision making",
+    "abstract": "           Humans and other organisms make decisions choosing between different options, with the aim to maximize the reward and minimize the cost. The main theoretical framework for modeling the decision-making process has been based on the highly successful drift-diffusion model, which is a simple tool for explaining many aspects of this process. However, new observations challenge this model. Recently, it was found that inhibitory tone increases during high cognitive load and situations of uncertainty, but the origin of this phenomenon is not understood. Motivated by this observation, we extend a recently developed model for decision making while animals move towards targets in real space. We introduce an integrated Ising-type model, that includes global inhibition, and use it to explore its role in decision-making. This model can explain how the brain may utilize inhibition to improve its decision-making accuracy. Compared to experimental results, this model suggests that the regime of the brain's decision-making activity is in proximity to a critical transition line between the ordered and disordered. Within the model, the critical region near the transition line has the advantageous property of enabling a significant decrease in error with a small increase in inhibition and also exhibits unique properties with respect to learning and memory decay.         ",
+    "url": "https://arxiv.org/abs/2411.11143",
+    "authors": [
+      "Olga Tapinova",
+      "Tal Finkelman",
+      "Tamar Reitich-Stolero",
+      "Rony Paz",
+      "Assaf Tal",
+      "Nir S. Gov"
+    ],
+    "subjectives": [
+      "Neurons and Cognition (q-bio.NC)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11349",
+    "title": "Uncertainty Evaluation of the Caesium Fountain Primary Frequency Standard NIM6",
+    "abstract": "           A new caesium (Cs) fountain clock NIM6 has been developed at the National Institute of Metrology (NIM) in China, for which a comprehensive uncertainty evaluation is presented. A three-dimensional magneto-optical trap (3D MOT) loading optical molasses is employed to obtain more cold atoms rapidly and efficiently with a tunable, uniform density distribution. A heat pipe surrounding the flight tube maintains a consistent and stable temperature within the interrogation region. Additionally, a Ramsey cavity with four azimuthally distribution feeds is utilized to mitigate distributed cavity phase shifts. The Cs fountain clock NIM6 achieves a short-term stability of 1.0x10-13 {\\tau}-1/2 at high atomic density, and a typical overall fractional type-B uncertainty is estimated to be 2.3x10-16. Comparisons of frequency between the Cs fountain NIM6 and other Cs fountain Primary Frequency Standards (PFSs) through Coordinated Universal Time (UTC) have demonstrated an agreement within the stated uncertainties.         ",
+    "url": "https://arxiv.org/abs/2411.11349",
+    "authors": [
+      "Fasong Zheng",
+      "Weiliang Chen",
+      "Kun Liu",
+      "Shaoyang Dai",
+      "Nianfeng Liu",
+      "Yuzhuo Wang",
+      "Fang Fang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11591",
+    "title": "Ultrafast room temperature valleytronics in silicon and diamond",
+    "abstract": "           Valleytronics is an emerging technology exploiting the anisotropy of electron populations in multiple energy degenerate conduction band minima (valleys) in semiconductors for information storage and processing. To compete with conventional electronics, universal and fast methods for controlling and reading the valley quantum number of electrons have to be developed. Addressing the inequivalent conduction band valleys based on optical selection rules has been demonstrated in two-dimensional crystals with broken time-reversal symmetry. However, selective optical manipulation with electron populations in inequivalent valleys has not been possible in many technologically important semiconductor materials that possess multiple conduction band minima, including silicon and diamond. Here we demonstrate an ultrafast technique allowing to generate and read valley polarized population of electrons in bulk semiconductors on sub-picosecond time scales. The principle is based on unidirectional intervalley scattering of electrons accelerated by oscillating electric field of linearly polarized infrared femtosecond pulses. The degree of valley polarization is measured via polarization anisotropy of Drude absorption of a delayed infrared probe pulse allowing us to directly characterize intervalley scattering times in silicon and diamond at different temperatures. Our results pave the way towards room temperature valleytronic devices working at terahertz frequencies that will be compatible with contemporary silicon-based technology.         ",
+    "url": "https://arxiv.org/abs/2411.11591",
+    "authors": [
+      "Adam Gindl",
+      "Martin \u010cmel",
+      "Franti\u0161ek Troj\u00e1nek",
+      "Petr Mal\u00fd",
+      "Martin Koz\u00e1k"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11671",
+    "title": "Topological Pathways to Two-Dimensional Quantum Turbulence",
+    "abstract": "           We present a combined experimental and theoretical investigation of the formation and decay kinetics of vortices in two dimensional, compressible quantum turbulence. We follow the temporal evolution of a quantum fluid of exciton polaritons, hybrid light matter quasiparticles, and measure both phase and modulus of the order parameter in the turbulent regime. Fundamental topological conservation laws require that the formation and annihilation of vortices also involve critical points of the velocity field, namely nodes and saddles. Identifying the simplest mechanisms underlying these processes enables us to develop an effective kinetic model that closely aligns with the experimental observations, and shows that different processes are responsible for vortex number growth and decay. These findings underscore the crucial role played by topological constraints in shaping nonlinear, turbulent evolution of two dimensional quantum fluids.         ",
+    "url": "https://arxiv.org/abs/2411.11671",
+    "authors": [
+      "Riccardo Panico",
+      "Giorgio Ciliberto",
+      "Giovanni Italo Martone",
+      "Thibault Congy",
+      "Dario Ballarini",
+      "Alessandra Sabina Lanotte",
+      "Nicolas Pavloff"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11822",
+    "title": "Logical computation demonstrated with a neutral atom quantum processor",
+    "abstract": "           Transitioning from quantum computation on physical qubits to quantum computation on encoded, logical qubits can improve the error rate of operations, and will be essential for realizing valuable quantum computational advantages. Using a neutral atom quantum processor with 256 qubits, each an individual Ytterbium atom, we demonstrate the entanglement of 24 logical qubits using the distance-two [[4,2,2]] code, simultaneously detecting errors and correcting for lost qubits. We also implement the Bernstein-Vazirani algorithm with up to 28 logical qubits encoded in the [[4,1,2]] code, showing better-than-physical error rates. We demonstrate fault-tolerant quantum computation in our approach, guided by the proposal of Gottesman (2016), by performing repeated loss correction for both structured and random circuits encoded in the [[4,2,2]] code. Finally, since distance-two codes can correct qubit loss, but not other errors, we show repeated loss and error correction using the distance-three [[9,1,3]] Bacon-Shor code. These results begin to clear a path for achieving scientific quantum advantage with a programmable neutral atom quantum processor.         ",
+    "url": "https://arxiv.org/abs/2411.11822",
+    "authors": [
+      "Ben W. Reichardt",
+      "Adam Paetznick",
+      "David Aasen",
+      "Ivan Basov",
+      "Juan M. Bello-Rivas",
+      "Parsa Bonderson",
+      "Rui Chao",
+      "Wim van Dam",
+      "Matthew B. Hastings",
+      "Andres Paz",
+      "Marcus P. da Silva",
+      "Aarthi Sundaram",
+      "Krysta M. Svore",
+      "Alexander Vaschillo",
+      "Zhenghan Wang",
+      "Matt Zanner",
+      "William B. Cairncross",
+      "Cheng-An Chen",
+      "Daniel Crow",
+      "Hyosub Kim",
+      "Jonathan M. Kindem",
+      "Jonathan King",
+      "Michael McDonald",
+      "Matthew A. Norcia",
+      "Albert Ryou",
+      "Mark Stone",
+      "Laura Wadleigh",
+      "Katrina Barnes",
+      "Peter Battaglino",
+      "Thomas C. Bohdanowicz",
+      "Graham Booth",
+      "Andrew Brown",
+      "Mark O. Brown",
+      "Kayleigh Cassella",
+      "Robin Coxe",
+      "Jeffrey M. Epstein",
+      "Max Feldkamp",
+      "Christopher Griger",
+      "Eli Halperin",
+      "Andre Heinz",
+      "Frederic Hummel",
+      "Matthew Jaffe",
+      "Antonia M. W. Jones",
+      "Eliot Kapit",
+      "Krish Kotru",
+      "Joseph Lauigan",
+      "Ming Li",
+      "Jan Marjanovic",
+      "Eli Megidish",
+      "Matthew Meredith",
+      "Ryan Morshead",
+      "Juan A. Muniz",
+      "Sandeep Narayanaswami",
+      "Ciro Nishiguchi",
+      "Timothy Paule",
+      "Kelly A. Pawlak",
+      "Kristen L. Pudenz",
+      "David Rodr\u00edguez P\u00e9rez",
+      "Jon Simon",
+      "Aaron Smull",
+      "Daniel Stack",
+      "Miroslav Urbanek",
+      "Ren\u00e9 J. M. van de Veerdonk",
+      "Zachary Vendeiro",
+      "Robert T. Weverka",
+      "Thomas Wilkason",
+      "Tsung-Yao Wu",
+      "Xin Xie",
+      "Evan Zalys-Geller",
+      "Xiaogang Zhang",
+      "Benjamin J. Bloom"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.05961",
+    "title": "Quantum mechanical dataset of 836k neutral closed shell molecules with upto 5 heavy atoms from CNOFSiPSClBr",
+    "abstract": "           We introduce the Vector-QM24 (VQM24) dataset which comprehensively covers all possible neutral closed shell small organic and inorganic molecules and their conformers that contain up to five heavy atoms (non-hydrogen) consisting of $p$-block elements C, N, O, F, Si, P, S, Cl, Br. This dataset has been systematically generated by considering all combinatorially possible stoichiometries, and graphs (according to Lewis rules), along with all stable conformers identified by GFN2-xTB. We have used density functional theory ($\\omega$B97X-D3/cc-pVDZ) to optimize the geometries of 577k conformational isomers corresponding to 258k constitutional isomers consistent with 5,599 unique stoichiometries. Single point diffusion quantum Monte Carlo (DMC@PBE0(ccECP/cc-pVQZ)) energies are reported for the sub-set of all the energetically lowest conformers (10,793 molecules) with up to 4 heavy atoms. Apart from graphs, geometries, rotational constants, and vibrational normal modes, VQM24 includes internal, atomization, electron-electron repulsion, exchange-correlation, dispersion, vibrational frequency, Gibbs free, enthalpy, ZPV and molecular orbital energies; as well as entropy, and heat capacities. Electronic properties include multipole moments (dipole, quadrupole, octupole, hexadecapole), electrostatic potentials at nuclei (aka \"alchemical potential\"), Mulliken charges, and Kohn-Sham orbitals. Supervised machine learning (ML) models of atomization energies on the energetically lowest conformers for the 258k constitutional isomers indicate a significantly more challenging benchmark than the previously introduced QM9 dataset with none of our models reaching chemical accuracy. VQM24 represents an accurate and unbiased benchmark dataset ideal for assessing the efficiency, accuracy and transferability of quantum ML models of real systems.         ",
+    "url": "https://arxiv.org/abs/2405.05961",
+    "authors": [
+      "Danish Khan",
+      "Anouar Benali",
+      "Scott Y. H. Kim",
+      "Guido Falk von Rudorff",
+      "O. Anatole von Lilienfeld"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.18464",
+    "title": "Bayesian inverse Navier-Stokes problems: joint flow field reconstruction and parameter learning",
+    "abstract": "           We formulate and solve a Bayesian inverse Navier-Stokes (N-S) problem that assimilates velocimetry data in order to jointly reconstruct a 3D flow field and learn the unknown N-S parameters, including the boundary position. By hardwiring a generalised N-S problem, and regularising its unknown parameters using Gaussian prior distributions, we learn the most likely parameters in a collapsed search space. The most likely flow field reconstruction is then the N-S solution that corresponds to the learned parameters. We develop the method in the variational setting and use a stabilised Nitsche weak form of the N-S problem that permits the control of all N-S parameters. To regularise the inferred the geometry, we use a viscous signed distance field (vSDF) as an auxiliary variable, which is given as the solution of a viscous Eikonal boundary value problem. We devise an algorithm that solves this inverse problem, and numerically implement it using an adjoint-consistent stabilised cut-cell finite element method. We then use this method to reconstruct magnetic resonance velocimetry (flow-MRI) data of a 3D steady laminar flow through a physical model of an aortic arch for two different Reynolds numbers and signal-to-noise ratio (SNR) levels (low/high). We find that the method can accurately i) reconstruct the low SNR data by filtering out the noise/artefacts and recovering flow features that are obscured by noise, and ii) reproduce the high SNR data without overfitting. Although the framework that we develop applies to 3D steady laminar flows in complex geometries, it readily extends to time-dependent laminar and Reynolds-averaged turbulent flows, as well as non-Newtonian (e.g. viscoelastic) fluids.         ",
+    "url": "https://arxiv.org/abs/2406.18464",
+    "authors": [
+      "Alexandros Kontogiannis",
+      "Scott V. Elgersma",
+      "Andrew J. Sederman",
+      "Matthew P. Juniper"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Machine Learning (cs.LG)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14222",
+    "title": "Boltzman optical thermometry for cryogenics",
+    "abstract": "           We propose and implement an optical technique to access the local temperature of an erbium doped crystal by probing the electron spin population under magnetic field. We reliably extract the sample temperature in the range 2-7 K. We additionally discuss the suitability of our method as a primary standard for cryogenic thermometry. By adding an auxiliary heating laser, we are able to measure the interface conductance between the dielectric crystal and the cold plate of the cryostat by exploring different cooling configurations.         ",
+    "url": "https://arxiv.org/abs/2407.14222",
+    "authors": [
+      "Marek Zeman",
+      "Philippe Camus",
+      "Thierry Chaneli\u00e8re"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.18493",
+    "title": "Scalability of On-chip Diffractive Optical Neural Networks",
+    "abstract": "           A thorough investigation of diffractive optical neural networks provides evidence that such networks are not capable of performing complex tasks. In this short report, these evidences are represented succinctly.         ",
+    "url": "https://arxiv.org/abs/2407.18493",
+    "authors": [
+      "Sanaz Zarei"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.03909",
+    "title": "Evidence of Charge Multiplication in Thin $25 \\mathrm{\\mu m} \\times 25 \\mathrm{\\mu m}$ Pitch 3D Silicon Sensors",
+    "abstract": "           Characterization measurements of $25~\\mathrm{\\mu m} \\times 25~\\mathrm{\\mu m}$ pitch 3D silicon sensors are performed, for devices with active thickness of $150~\\mu$m. Evidence of charge multiplication caused by impact ionization below the breakdown voltage is observed in sensors operated at $-45~^\\circ\\mathrm{C}$. Small-pitch 3D silicon sensors have potential as high precision 4D tracking detectors that are also able to withstand radiation fluences beyond $10^{16}$~n$_{\\rm eq}/$cm$^2$. This is applicable for use at future facilities such as the High-Luminosity Large Hadron Collider and the Future Circular Collider. Characteristics of these devices are compared to those of similar sensors of pitch $50~\\mathrm{\\mu m}\\times 50~\\mathrm{\\mu m}$, showing comparable charge collection at low voltage, and acceptable leakage current, depletion voltage, breakdown voltage, and capacitance despite the extremely small cell size. The unirradiated $25~\\mathrm{\\mu m} \\times 25~\\mathrm{\\mu m}$ sensors exhibit charge multiplication above about 90 V reverse bias, while, as predicted, no multiplication is observed in the $50~\\mathrm{\\mu m} \\times 50~\\mathrm{\\mu m}$ sensors below their breakdown voltage. The maximum gain observed below breakdown is 1.33.         ",
+    "url": "https://arxiv.org/abs/2409.03909",
+    "authors": [
+      "Andrew Gentry",
+      "Maurizio Boscardin",
+      "Martin Hoeferkamp",
+      "Marco Povoli",
+      "Sally Seidel",
+      "Jiahe Si",
+      "Gian-Franco Dalla Betta"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.07674",
+    "title": "Ultrafast Laser-Fabricated Fluoride Glass Waveguides with Exceptionally High Positive Refractive Index Change for Mid-Infrared Integrated Optics",
+    "abstract": "           This study reports the successful fabrication of high-positive refractive index change waveguides, exceeding 0.02 in fluoride glasses, marking a significant advancement in integrated optical components for visible to mid-infrared applications. This research overcomes longstanding challenges in direct-write photonics and therefore enables the realization of true 3D geometries in optical elements, access to novel visible lasing wavelengths typically suppressed in high phonon hosts, and the miniaturization of mid-infrared optical devices. The investigation into the waveguides' origin attributes the exceptionally high index change to material densification driven by the migration of specific elements, mainly barium, within the glass composition. These waveguides, characterized by low insertion losses, and highly customizable V-numbers evidenced by multimode operation at 3.5 um, offers substantial potential for chip laser technology and the creation of advanced optical devices for sensing and spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2409.07674",
+    "authors": [
+      "T Toney Fernandez",
+      "Y Hwang",
+      "H Mahmodi",
+      "D Otten",
+      "L Plenecassagne",
+      "S Cozic",
+      "S Gross",
+      "I Kabakova",
+      "M Withford",
+      "M Poulain",
+      "A Fuerbach",
+      "D Lancaster"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.01154",
+    "title": "Analytical Expressions for Effective Indices of Modes of Optical Fibers Near and Beyond Cutoff",
+    "abstract": "           We derive an analytical expression for the effective indices of modes of circular step-index fibers valid near their cutoff wavelengths. The approximation, being a first-order Taylor series of a smooth function, is also valid for the real part of the effective index beyond cutoff where the modes become lossy. The approximation is used to derive certain previously unknown mode properties. For example, it is shown that for non-dispersive materials the EH-mode group index at cutoff, surprisingly, does not depend on wavelength, core radius, or even radial mode order.         ",
+    "url": "https://arxiv.org/abs/2411.01154",
+    "authors": [
+      "Aku Antikainen",
+      "Robert W. Boyd"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.04665",
+    "title": "PZT Optical Memristors",
+    "abstract": "           Optical memristors represent a monumental leap in the fusion of photonics and electronics, heralding a new era of new applications from neuromorphic computing to artificial intelligence. However, current technologies are hindered by complex fabrication, limited endurance, high optical loss or low modulation efficiency. For the first time, we unprecedentedly reveal optical non-volatility in thin-film Lead Zirconate Titanate (PZT) by electrically manipulating the ferroelectric domains to control the refractive index, providing a brand-new routine for optical memristors. The developed PZT optical memristors offer unprecedented advantages more than exceptional performance metrics like low loss, high precision, high-efficiency modulation, high stability quasi-continuity and reconfigurability. The wafer-scale sol-gel fabrication process also ensures compatible with standardized mass fabrication processes and high scalability for photonic integration. Specially, these devices also demonstrate unique functional duality: setting above a threshold voltage enables non-volatile behaviors, below this threshold allows volatile high-speed optical switching. This marks the first-ever optical memristor capable of performing high-speed signal processing and non-volatile retention on a single platform, and is also the inaugural demonstration of scalable functional systems. The PZT optical memristors developed here facilitate the realization of novel paradigms for high-speed and energy-efficient optical interconnects, programmable PICs, quantum computing, neural networks, in-memory computing and brain-like architecture.         ",
+    "url": "https://arxiv.org/abs/2411.04665",
+    "authors": [
+      "Chenlei Li",
+      "Hongyan Yu",
+      "Tao Shu",
+      "Yueyang Zhang",
+      "Chengfeng Wen",
+      "Hengzhen Cao",
+      "Jin Xie",
+      "Hanwen Li",
+      "Zixu Xu",
+      "Gong Zhang",
+      "Zejie Yu",
+      "Huan Li",
+      "Liu Liu",
+      "Yaocheng Shi",
+      "Feng Qiu",
+      "Daoxin Dai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.08844",
+    "title": "Trapped-ion laser cooling in structured light fields",
+    "abstract": "           Laser cooling is fundamental to quantum computation and metrology with trapped ions, and can occupy a majority of runtime in current systems. A key limitation to cooling arises from unwanted carrier excitation, which in typically used running wave (RW) fields invariably accompanies the sideband transitions effecting cooling. We consider laser cooling in structured light profiles enabling selective sideband excitation with nulled carrier drive; motivated by integrated photonic approaches' passive phase and amplitude stability, we propose simple configurations realizable with waveguide addressing using either standing wave (SW) or first-order Hermite-Gauss (HG) modes. We quantify performance of Doppler cooling from beyond the Lamb-Dicke regime (LDR), and ground-state (GS) cooling using electromagnetically induced transparency (EIT) leveraging these field profiles. Carrier-free EIT offers significant benefits simultaneously in cooling rate, motional frequency bandwidth, and final phonon number. Carrier-free Doppler cooling's advantage is significantly compromised beyond the LDR but continues to hold, indicating such configurations are applicable for highly excited ions. Our simulations focus on level structure relevant to $^{40}$Ca$^+$, though the carrier-free configurations can be generally applied to other species. We also quantify performance limitations due to polarization and modal impurities relevant to experimental implementation. Our results indicate potential for simple structured light profiles to alleviate bottlenecks in laser cooling, and for scalable photonic devices to improve basic operation quality in trapped-ion systems.         ",
+    "url": "https://arxiv.org/abs/2411.08844",
+    "authors": [
+      "Zhenzhong Xing",
+      "Karan K. Mehta"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.13126",
+    "title": "HamLib: A library of Hamiltonians for benchmarking quantum algorithms and hardware",
+    "abstract": "           In order to characterize and benchmark computational hardware, software, and algorithms, it is essential to have many problem instances on-hand. This is no less true for quantum computation, where a large collection of real-world problem instances would allow for benchmarking studies that in turn help to improve both algorithms and hardware designs. To this end, here we present a large dataset of qubit-based quantum Hamiltonians. The dataset, called HamLib (for Hamiltonian Library), is freely available online and contains problem sizes ranging from 2 to 1000 qubits. HamLib includes problem instances of the Heisenberg model, Fermi-Hubbard model, Bose-Hubbard model, molecular electronic structure, molecular vibrational structure, MaxCut, Max-$k$-SAT, Max-$k$-Cut, QMaxCut, and the traveling salesperson problem. The goals of this effort are (a) to save researchers time by eliminating the need to prepare problem instances and map them to qubit representations, (b) to allow for more thorough tests of new algorithms and hardware, and (c) to allow for reproducibility and standardization across research studies.         ",
+    "url": "https://arxiv.org/abs/2306.13126",
+    "authors": [
+      "Nicolas PD Sawaya",
+      "Daniel Marti-Dafcik",
+      "Yang Ho",
+      "Daniel P Tabor",
+      "David E Bernal Neira",
+      "Alicia B Magann",
+      "Shavindra Premaratne",
+      "Pradeep Dubey",
+      "Anne Matsuura",
+      "Nathan Bishop",
+      "Wibe A de Jong",
+      "Simon Benjamin",
+      "Ojas Parekh",
+      "Norm Tubman",
+      "Katherine Klymko",
+      "Daan Camps"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.18458",
+    "title": "Asymmetrical estimator for training encapsulated deep photonic neural networks",
+    "abstract": "           Photonic neural networks (PNNs) are fast in-propagation and high bandwidth paradigms that aim to popularize reproducible NN acceleration with higher efficiency and lower cost. However, the training of PNN is known to be a challenge, where the device-to-device and system-to-system variations create imperfect knowledge of the PNN. Despite backpropagation (BP)-based training algorithms often being the industry standard for their robustness, generality, and fast gradient convergence for digital training, existing PNN-BP methods rely heavily on the accurate intermediate state extraction for a deep PNN (DPNN). These information accesses truncate the photonic signal propagation, bottlenecking DPNN's operation speed and increasing the system construction cost. Here, we introduce the asymmetrical training (AT) method, tailored for encapsulated DPNNs, where the signal is preserved in the analogue photonic domain for the entire structure. AT's minimum information readout for training bypasses analogue-digital interfaces wherever possible for fast operation and minimum system footprint. AT's error tolerance and generality aim to promote PNN acceleration in a widened operational scenario despite the fabrication variations and imperfect controls. We demonstrated AT for encapsulated DPNN with integrated photonic chips, repeatably enhancing the performance from in-silico BP for different network structures and datasets.         ",
+    "url": "https://arxiv.org/abs/2405.18458",
+    "authors": [
+      "Yizhi Wang",
+      "Minjia Chen",
+      "Chunhui Yao",
+      "Jie Ma",
+      "Ting Yan",
+      "Richard Penty",
+      "Qixiang Cheng"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.09039",
+    "title": "Hidden nonlinear optical susceptibilities in linear polaritonic spectra",
+    "abstract": "           Linear spectra of molecular polaritons formed by $N$ molecules coupled to a microcavity photon mode are usually well described by classical linear optics, raising the question of where the expected nonlinear effects in these strongly coupled systems are. In this work, we derive a general expression for the polaritonic linear spectra that reveal previously overlooked finite-size quantum corrections due to vacuum-mediated molecular Raman processes. Using a $1/N$ expansion, we demonstrate that these nonlinearities are suppressed in typical low-Q cavities due to an emergent timescale separation in polariton dynamics yet manifest in high-Q single-mode cavities where the photon loss is comparable to the single-molecule light-matter coupling strength.         ",
+    "url": "https://arxiv.org/abs/2411.09039",
+    "authors": [
+      "Arghadip Koner",
+      "Joel Yuen-Zhou"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
