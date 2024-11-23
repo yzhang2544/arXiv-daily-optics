@@ -1,0 +1,457 @@
+[
+  {
+    "id": "arXiv:2411.13593",
+    "title": "On quantum models for opinion and voting intention polls",
+    "abstract": "           In this contribution, we construct a connection between two quantum voting models presented previously. We propose to try to determine the result of a vote from associated given opinion polls. We introduce a density operator relative to the family of all candidates to a particular election. From an hypothesis of proportionality between a family of coefficients which characterize the density matrix and the probabilities of vote for all the candidates, we propose a numerical method for the entire determination of the density operator. This approach is a direct consequence of the Perron-Frobenius theorem for irreductible positive matrices. We applyour algorithm to synthetic data and to operational results issued from the French presidential election of April 2012.         ",
+    "url": "https://arxiv.org/abs/2411.13593",
+    "authors": [
+      "Fran\u00e7ois Dubois"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13703",
+    "title": "High-Fidelity Optical Monitoring of Laser Powder Bed Fusion via Aperture Division Multiplexing",
+    "abstract": "           Qualification of high-performance metal components produced by laser powder bed fusion (LPBF) must identify process-induced porous defects that reduce ductility and nucleate fatigue cracking. Detecting such defects via optical monitoring of LPBF provides a path towards in-process quality control without downstream testing such as by computed tomography. However, integration of in-process sensing with LPBF is hampered by geometric and optical complications and, as a result, it has yet to be proven that the finest pores that limit component fatigue life can be resolved via in situ data. We present aperture division multiplexing (ADM) as a method for simultaneously focusing the process laser and providing unobstructed optical access for high-fidelity process monitoring using a common optic. Construction of an ADM optic of achieving imaging at 50 micron spatial resolution in the mid-wave infrared is described, and this optic is demonstrated on a production-representative LPBF testbed. High-speed infrared video data are correlated to micro-CT measurement of pores as fine as 4.3 microns, through multiple process signatures, establishing the promise of ADM for qualification of LPBF component fatigue performance.         ",
+    "url": "https://arxiv.org/abs/2411.13703",
+    "authors": [
+      "Ryan W. Penny",
+      "Zachery Kutschke",
+      "A. John Hart"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13815",
+    "title": "FLRNet: A Deep Learning Method for Regressive Reconstruction of Flow Field From Limited Sensor Measurements",
+    "abstract": "           Many applications in computational and experimental fluid mechanics require effective methods for reconstructing the flow fields from limited sensor data. However, this task remains a significant challenge because the measurement operator, which provides the punctual sensor measurement for a given state of the flow field, is often ill-conditioned and non-invertible. This issue impedes the feasibility of identifying the forward map, theoretically the inverse of the measurement operator, for field reconstruction purposes. While data-driven methods are available, their generalizability across different flow conditions (\\textit{e.g.,} different Reynold numbers) remains questioned. Moreover, they frequently face the problem of spectral bias, which leads to smooth and blurry reconstructed fields, thereby decreasing the accuracy of reconstruction. We introduce FLRNet, a deep learning method for flow field reconstruction from sparse sensor measurements. FLRNet employs an variational autoencoder with Fourier feature layers and incorporates an extra perceptual loss term during training to learn a rich, low-dimensional latent representation of the flow field. The learned latent representation is then correlated to the sensor measurement using a fully connected (dense) network. We validated the reconstruction capability and the generalizability of FLRNet under various fluid flow conditions and sensor configurations, including different sensor counts and sensor layouts. Numerical experiments show that in all tested scenarios, FLRNet consistently outperformed other baselines, delivering the most accurate reconstructed flow field and being the most robust to noise.         ",
+    "url": "https://arxiv.org/abs/2411.13815",
+    "authors": [
+      "Phong C. H. Nguyen",
+      "Joseph B. Choi",
+      "Quang-Trung Luu"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13879",
+    "title": "A Phase-Space Electronic Hamiltonian for Molecules in a Static Magnetic Field II: Quantum Chemistry Calculations with Gauge Invariant Atomic Orbitals",
+    "abstract": "           In a companion paper, we have developed a phase-space electronic structure theory of molecules in magnetic fields, whereby the electronic energy levels arise from diagonalizing a phase-space Hamiltonian $\\hat H_{PS}(\\bf{X},\\bf{\\Pi})$ that depends parametrically on nuclear position and momentum. The resulting eigenvalues are translationally invariant; moreover, if the magnetic field is in the $z-$direction, then the eigenvalues are also invariant to rotations around the $z-$direction. However, like all Hamiltonians in a magnetic field, the theory has a gauge degree of freedom (corresponding to the position of the magnetic origin in the vector potential), and requires either $(i)$ formally, a complete set of electronic states or $(ii)$ in practice, gauge invariant atomic orbitals (GIAOs) in order to realize such translational and rotational invariance. Here we describe how to implement a phase-space electronic Hamiltonian using GIAOs within a practical electronic structure package (in our case, Q-Chem). We further show that novel phenomena can be observed with finite $\\bf{B}-$fields, including minimum energy structures with $\\bf{\\Pi}_{min} \\ne 0$, indicating non-zero electronic motion in the ground-state.         ",
+    "url": "https://arxiv.org/abs/2411.13879",
+    "authors": [
+      "Mansi Bhati",
+      "Zhen Tao",
+      "Xuezhi Bian",
+      "Jonathan Rawlinson",
+      "Robert Littlejohn",
+      "Joseph E. Subotnik"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14048",
+    "title": "Generating optical angular momentum through wavefront curvature",
+    "abstract": "           Recent developments in the understanding of optical angular momentum have resulted in many demonstrations of unusual optical phenomena, such as optical beams with orbital angular momentum and transverse spinning light. Here we detail novel contributions to spin and orbital angular momentum generated by the gradient of wavefront curvature that becomes relevant in strongly focused beams of light. While circularly polarized beams are shown to develop helicity-dependent transverse spin, a linearly polarized Gaussian beam produces longitudinal spin and orbital angular momenta in the focal region, even if lacking both of these before focusing. Analytical treatment of a nonparaxial electromagnetic field, validated with vectorial diffraction modelling, shows that the terms related to higher orders of a paraxial parameter are responsible for the appearance of non-trivial angular momenta. The obtained dependences relate these quantities to the gradient of the wavefront curvature, showing how it can be used as a novel degree of freedom for applications in optical manipulation and light-matter interactions at subwavelength scales, enabling angular momentum transfer even from a simple Gaussian beam with linear polarization.         ",
+    "url": "https://arxiv.org/abs/2411.14048",
+    "authors": [
+      "Kayn A. Forbes",
+      "Vittorio Aita",
+      "Anatoly V. Zayats"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14104",
+    "title": "A comprehensive study of the Spin-Hall effect of tightly focused linearly polarized light through a stratified medium in optical tweezers",
+    "abstract": "           The optical Spin-Hall effect originates from the interaction between the spin angular momentum (SAM) and extrinsic orbital angular momentum (OAM) of light, leading to mutual interrelations between the polarization and trajectory of light in case of non-paraxial fields. Here, we extensively study the SHE and the resultant Spin-Hall shifts (SHS) in optical tweezers (OT) by varying the numerical aperture of objective lenses, and the refractive index (RI) stratification of the trapping medium. Indeed, we obtain much larger values of the SHS for particular combinations of NA and stratification compared to the sub-wavelength orders typically reported. We also observe that the longitudinal component of the spin angular momentum (SAM) density - which is responsible for the spin of birefringent particles in optical tweezers - changes more-or-less monotonically with the lens numerical aperture, except around values of the latter where the angle subtended by the focused light equals the critical angle for a particular RI interface. Our results may find applications in designing experiments for tuning the SHS and SAM induced due to SOI to generate exotic optomechanics of trapped particles in optical tweezers.         ",
+    "url": "https://arxiv.org/abs/2411.14104",
+    "authors": [
+      "Sramana Das",
+      "Sauvik Roy",
+      "Subhasish Dutta Gupta",
+      "Nirmalya Ghosh",
+      "Ayan Banerjee"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14426",
+    "title": "Quantum States Imaging of Magnetic Field Contours based on Autler-Townes Effect in Yb Atoms",
+    "abstract": "           An inter-combination transition in Yb enables a novel approach for rapidly imaging magnetic field variations with excellent spatial and temporal resolution and accuracy. This quantum imaging magnetometer reveals \"dark stripes\" that are contours of constant magnetic field visible by eye or capturable by standard cameras. These dark lines result from a combination of Autler-Townes splitting and the spatial Hanle effect in the $^{1}S_{0} - ^{3}P_{1}$ transition of Yb when driven by multiple strong coherent laser fields (carrier and AM/FM modulation sidebands of a single-mode 556 nm laser). We show good agreement between experimental data and our theoretical model for the closed, 4-level Zeeman shifted V-system and demonstrate scalar and vector magnetic fields measurements at video frame rates over spatial dimensions of 5 cm (expandable to $>$ 1 m) with 0.1 mm resolution. Additionally, the $^{1}S_{0} - ^{3}P_{1}$ transition allows for $\\sim\\mu$s response time and a large dynamic range ($\\mu$T to many Ts).         ",
+    "url": "https://arxiv.org/abs/2411.14426",
+    "authors": [
+      "Tanaporn Na Narong",
+      "Hongquan Li",
+      "Joshua Tong",
+      "Mario Due\u00f1as",
+      "Leo Hollberg"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13739",
+    "title": "Conditional t-independent spectral gap for random quantum circuits and implications for t-design depths",
+    "abstract": "           A fundamental question is understanding the rate at which random quantum circuits converge to the Haar measure. One quantity which is important in establishing this rate is the spectral gap of a random quantum ensemble. In this work we establish a new bound on the spectral gap of the t-th moment of a one-dimensional brickwork architecture on N qudits. This bound is independent of both t and N, provided t does not exceed the qudit dimension q. We also show that the bound is nearly optimal. The improved spectral gaps gives large improvements to the constant factors in known results on the approximate t-design depths of the 1D brickwork, of generic circuit architectures, and of specially-constructed architectures which scramble in depth O(log N). We moreover show that the spectral gap gives the dominant epsilon-dependence of the t-design depth at small epsilon. Our spectral gap bound is obtained by bounding the N-site 1D brickwork architecture by the spectra of 3-site operators. We then exploit a block-triangular hierarchy and a global symmetry in these operators in order to efficiently bound them. The technical methods used are a qualitatively different approach for bounding spectral gaps and and have little in common with previous techniques.         ",
+    "url": "https://arxiv.org/abs/2411.13739",
+    "authors": [
+      "James Allen",
+      "Daniel Belkin",
+      "Bryan K. Clark"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13776",
+    "title": "Maximizing Quantum Enhancement in Axion Dark Matter Experiments",
+    "abstract": "           We provide a comprehensive comparison of linear amplifiers and microwave photon-counters in axion dark matter experiments. The study is done assuming a range of realistic operating conditions and detector parameters, over the frequency range between 1--30 GHz. As expected, photon counters are found to be advantageous under low background, at high frequencies ($\\nu>$ 5 GHz), {\\em if} they can be implemented with robust wide-frequency tuning or a very low dark count rate. Additional noteworthy observations emerging from this study include: (1) an expanded applicability of off-resonance photon background reduction, including the single-quadrature state squeezing, for scan rate enhancements; (2) a much broader appeal for operating the haloscope resonators in the over-coupling regime, up to $\\beta\\sim 10$; (3) the need for a detailed investigation into the cryogenic and electromagnetic conditions inside haloscope cavities to lower the photon temperature for future experiments; (4) the necessity to develop a distributed network of coupling ports in high-volume axion haloscopes to utilize these potential gains in the scan rate.         ",
+    "url": "https://arxiv.org/abs/2411.13776",
+    "authors": [
+      "Chao-Lin Kuo",
+      "Chelsea L. Bartram",
+      "Aaron S. Chou",
+      "Taj A. Dyson",
+      "Noah A. Kurinsky",
+      "Gray Rybka",
+      "Osmond Wen",
+      "Matthew O. Withers",
+      "Andrew K. Yi",
+      "Cheng Zhang"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13943",
+    "title": "Independent Optical Frequency Combs Powered 546 km Field Test of Twin-Field Quantum Key Distribution",
+    "abstract": "           Owing to its repeater-like rate-loss scaling, twin-field quantum key distribution (TF-QKD) has repeatedly exhibited in laboratory its superiority for secure communication over record fiber lengths. Field trials pose a new set of challenges however, which must be addressed before the technology's roll-out into real-world. Here, we verify in field the viability of using independent optical frequency combs -- installed at sites separated by a straight-line distance of 300~km -- to achieve a versatile TF-QKD setup that has no need for optical frequency dissemination and thus enables an open and network-friendly fiber configuration. Over 546 and 603 km symmetric links, we record a finite-size secure key rate (SKR) of 0.53~bit/s and an asymptotic SKR of 0.12 bit/s, respectively. Of practical importance, the setup is demonstrated to support 44~km fiber asymmetry in the 452 km link. Our work marks an important step towards incorporation of long-haul fiber links into large quantum networks.         ",
+    "url": "https://arxiv.org/abs/2411.13943",
+    "authors": [
+      "Lai Zhou",
+      "Jinping Lin",
+      "Chengfang Ge",
+      "Yuanbin Fan",
+      "Zhiliang Yuan",
+      "Hao Dong",
+      "Yang Liu",
+      "Di Ma",
+      "Jiu-Peng Chen",
+      "Cong Jiang",
+      "Xiang-Bin Wang",
+      "Li-Xing You",
+      "Qiang Zhang",
+      "Jian-Wei Pan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14229",
+    "title": "Thermal emission of hydrogenated amorphous silicon microspheres in the mid-infrared",
+    "abstract": "           Hydrogenated amorphous silicon microspheres feature a pronounced phononic peak around 2000 cm-1 when they are thermally excited by means of a blue laser. This phononic signature corresponds to vibrational modes of silicon-hydrogen bonds and its emitted light can be coupled to Mie modes defined by the spherical cavity. The signal is apparently quite stable at moderate excitation intensities although there appeared some signs pointing to hydrides bonds reconfiguration and even hydrogen emission. Above a certain excitation threshold, a phase change from amorphous to poly-crystalline silicon occurs that preserves the good structural quality of the microspheres.         ",
+    "url": "https://arxiv.org/abs/2411.14229",
+    "authors": [
+      "Roberto Fenollosa",
+      "Fernando Ramiro-Manzano"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14259",
+    "title": "Addressing the Readout Problem in Quantum Differential Equation Algorithms with Quantum Scientific Machine Learning",
+    "abstract": "           Quantum differential equation solvers aim to prepare solutions as $n$-qubit quantum states over a fine grid of $O(2^n)$ points, surpassing the linear scaling of classical solvers. However, unlike classically stored vectors of solutions, the readout of exact quantum states poses a bottleneck due to the complexity of tomography. Here, we show that the readout problem can be addressed with quantum learning tools where we focus on distilling the relevant features. Treating outputs of quantum differential equation solvers as quantum data, we demonstrate that low-dimensional output can be extracted using a measurement operator adapted to detect relevant features. We apply this quantum scientific machine learning approach to classify solutions for shock wave detection and turbulence modeling in scenarios where data samples come directly from quantum differential equation solvers. We show that the basis chosen for performing analysis greatly impacts classification accuracy. Our work opens up the area of research where quantum machine learning for quantum datasets is inherently required.         ",
+    "url": "https://arxiv.org/abs/2411.14259",
+    "authors": [
+      "Chelsea A. Williams",
+      "Stefano Scali",
+      "Antonio A. Gentile",
+      "Daniel Berger",
+      "Oleksandr Kyriienko"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.14553",
+    "title": "Inverse non-linear problem of the long wave run-up on coast",
+    "abstract": "           The study of the process of catastrophic tsunami-type waves on the coast makes it possible to determine the destructive force of waves on the coast. In hydrodynamics, the one-dimensional theory of the run-up of non-linear waves on a flat slope has gained great popularity, within which rigorous analytical results have been obtained in the class of non-breaking waves. In general, the result depends on the characteristics of the wave approaching (or generated on) the slope, which is usually not known in the measurements. Here we describe a rigorous method for recovering the initial displacement in a source localised in an inclined power-shaped channel from the characteristics of a moving shoreline. The method uses the generalised Carrier-Greenspan transformation, which allows one-dimensional non-linear shallow-water equations to be reduced to linear ones. The solution is found in terms of Erd\u00e9lyi-Kober integral operator. Numerical verification of our results is presented for the cases of a parabolic bay and an infinite plane beach.         ",
+    "url": "https://arxiv.org/abs/2309.14553",
+    "authors": [
+      "Alexei Rybkin",
+      "Efim Pelinovsky",
+      "Oleksandr Bobrovnikov",
+      "Noah Palmer",
+      "Ekaterina Pniushkova",
+      "Daniel Abramowicz"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Mathematical Physics (math-ph)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.17445",
+    "title": "Metrology of microwave fields based on trap-loss spectroscopy with cold Rydberg atoms",
+    "abstract": "           We demonstrate a new approach for the metrology of microwave fields based on the trap-loss-spectroscopy of cold Rydberg atoms in a magneto-optical trap. Compared to state-of-the-art sensors using room-temperature vapors, cold atoms allow longer interaction times, better isolation from the environment and a reduced Doppler effect. Our approach is particularly simple as the detection relies on fluorescence measurements only. Moreover, our signal is well described by a two-level model across a broad measurement range, allowing in principle to reconstruct the amplitude and the frequency of the microwave field simultaneously without the need for an external reference field. We report on a scale factor linearity at the percent level and no noticeable drifts over two hours, paving the way for new applications of cold Rydberg atoms in metrology such as calibrating blackbody shifts in state-of-the-art optical clocks, monitoring the Earth cryosphere from space, measuring the cosmic microwave background or searching for dark matter.         ",
+    "url": "https://arxiv.org/abs/2404.17445",
+    "authors": [
+      "Romain Duverger",
+      "Alexis Bonnin",
+      "Romain Granier",
+      "Quentin Marolleau",
+      "C\u00e9dric Blanchard",
+      "Nassim Zahzam",
+      "Yannick Bidel",
+      "Malo Cadoret",
+      "Alexandre Bresson",
+      "Sylvain Schwartz"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.10092",
+    "title": "A Digital and Compact High-Precision Locking System for Pulse Laser Repetition Frequency",
+    "abstract": "           This paper proposes a novel approach that employs error amplification and ADC-based dual-mixer time-difference (ADC-based-DMTD) technique for high-precision locking of laser repetition frequency with compact size. This electronic system consists of two main components: a digitized error amplification module (EAM) and an FPGA-based digital frequency locking module (DFLM). The EAM mainly integrates a configurable frequency generator (CFG), a configurable frequency multiplier (CFM) and a mixer to process the laser pulses and a high-stability reference source (e.g., an atomic clock), enabling high-precision locking of pulse lasers operating at different repetition frequencies. By employing frequency multiplication and mixing, the EAM amplifies the laser's frequency error and performs frequency down-conversion, enhancing measurement sensitivity and reducing the hardware requirements of the back-end. The DFLM receives the EAM outputs by using an ADC-based-DMTD method to precisely measure frequency errors, then the digital proportional-integral-derivative (PID) controller provides feedback to achieve accurate frequency locking. Initial testing with a voltage-controlled oscillator (VCO) demonstrated excellent locking performance, achieving an Allan deviation of $9.58 \\times 10^{-14}$ at 10 seconds and a standard deviation (STD) of 7.7 \\textmu Hz root mean square (RMS) after locking, marking a five-order-of-magnitude stability enhancement. In laboratory experiments with a custom-built femtosecond fiber laser, the system achieved robust locking of the repetition frequency, with a stability improvement from $1.51 \\times 10^{-7}$ to $1.12 \\times 10^{-12}$ at a 10-second gate time and an STD of 0.43 mHz RMS after locking.         ",
+    "url": "https://arxiv.org/abs/2410.10092",
+    "authors": [
+      "Qibin Zheng",
+      "Zhengyi Tao",
+      "Lei Wang",
+      "Zhaohui Bu",
+      "Zuanming Jin",
+      "Zhao Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.15159",
+    "title": "Cryogenic W-band Electron Spin Resonance Probehead with an Integral Cryogenic Low Noise Amplifier",
+    "abstract": "           The quest to enhance the sensitivity of electron spin resonance (ESR) is an ongoing challenge. One potential strategy involves increasing the frequency, for instance, moving from Q-band (approximately 35 GHz) to W-band (approximately 94 GHz). However, this shift typically results in higher transmission and switching losses, as well as increased noise in signal amplifiers. In this work, we address these shortcomings by employing a W-band probehead integrated with a cryogenic low-noise amplifier (LNA) and a microresonator. This configuration allows us to position the LNA close to the resonator, thereby amplifying the acquired ESR signal with minimal losses. Furthermore, when operated at cryogenic temperatures, the LNA exhibits unparalleled noise levels that are significantly lower than those of conventional room temperature LNAs. We detail the novel probehead design and provide some experimental results at room temperature as well as cryogenic temperatures for representative paramagnetic samples. We find, for example, that spin sensitivity of ~3*10^5 spins/sqrt(Hz) is achieved for a sample of phosphorus doped 28Si, even for sub-optimal sample geometry with potential improvement to <10^3 spins/sqrt(Hz) in more optimal scenarios.         ",
+    "url": "https://arxiv.org/abs/2410.15159",
+    "authors": [
+      "Moamen Jbara",
+      "Oleg Zgadzai",
+      "Wolfgang Harneit",
+      "Aharon Blank"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.11064",
+    "title": "Optical Tweezers with AC Dielectric Levitation: A Powerful Approach to Microparticle Manipulation",
+    "abstract": "           Optical tweezers, with their high precision, dynamic control, and non-invasiveness, are increasingly important in scientific research and applications at the micro and nano scales. However, manipulation by optical tweezers is challenged by adsorption forces, including van der Waals forces, capillary forces, and electrostatic forces, which are present between micro- and nano-objects. Due to the inherent limitations of optical forces imposed by laser power, these adsorption forces are difficult to overcome. Inspired by maglev trains, we propose a multiphysics coupling method that combines dielectrophoretic and optical gradient forces to achieve broad applicability and low-damage micro-nanoscale particle manipulation. We developed a device that introduces electric fields to detach objects from hard substrates using alternating current (AC) dielectric levitation before manipulation with optical tweezers. We utilized micron-sized polystyrene (PS) microspheres as objects and elucidated the levitation mechanism through finite element simulation. For larger particles, such as a 100 {\\mu}m PS microparticle and a 200 {\\mu}m micro-gear, AC dielectric levitation enabled manipulation by optical tweezers. Also, the better viability of three kinds of cells displayed the low bio-damage of the proposed method. Given its broad applicability and biocompatibility, AC dielectric levitation technology significantly expands the capabilities of optical tweezers, allowing for the manipulation of larger particles and cells. This advancement addresses the limitations of optical tweezers in handling large-scale particles and enhances their versatility in various applications.         ",
+    "url": "https://arxiv.org/abs/2411.11064",
+    "authors": [
+      "Haobing Liu",
+      "Rongxin Fu",
+      "Zongliang Guo",
+      "Menglei Zhao",
+      "Gong Li",
+      "Fenggang Li",
+      "Hang Li",
+      "Shuailong Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.12381",
+    "title": "Particle manipulations based on acoustic valley topological rainbow defect-state trapping",
+    "abstract": "           Acoustic microfluidic is an important technology in particle manipulations in biomedical analyses and detections. However, the particle-movement manipulations achieved by the standing surface acoustic wave is suitable for particles in a thin layer of fluids, however it is difficult to manipulate particles in deeper solutions due to the energy loss of surface acoustic waves. The traditional standing bulk wave method can realize the particle manipulation in deep solutions, but it cannot work properly for particle manipulation within a long distance due to the energy loss. In this work, the topological rainbow defect-state trapping is realized, the results show that an effect of point accumulation of acoustic pressure in the waveguide path exists, the position of maximum acoustic pressure can be adjusted flexibly by changing the frequency of the incident acoustic wave, based on which, long-distance movement and capture manipulations of particles in deep solution have been realized. The phenomenon presented in this work can provide a reliable method for manipulations of continuous long-distance particle movement and capture to meet the demand of multiple processing steps in biochemical analyses and detections. The experiment verification results will be presented in the near future.         ",
+    "url": "https://arxiv.org/abs/2411.12381",
+    "authors": [
+      "Decai Wu",
+      "Bowei Wu",
+      "Tingfeng Ma",
+      "Shuanghuizhi Li",
+      "Iren Kuznetsova",
+      "Ilya Nedospasov",
+      "Boyue Su",
+      "Teng Wang"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.05666",
+    "title": "Beyond MP2 initialization for unitary coupled cluster quantum circuits",
+    "abstract": "           The unitary coupled cluster (UCC) ansatz is a promising tool for achieving high-precision results using the variational quantum eigensolver (VQE) algorithm in the NISQ era. However, results on quantum hardware are thus far very limited and simulations have only accessed small system sizes. We advance the state of the art of UCC simulations by utilizing an efficient sparse wavefunction circuit solver and studying systems up to 64 qubits. Here we report results obtained using this solver that demonstrate the power of the UCC ansatz and address pressing questions about optimal initial parameterizations and circuit construction, among others. Our approach enables meaningful benchmarking of the UCC ansatz, a crucial step in assessing the utility of VQE for achieving quantum advantage.         ",
+    "url": "https://arxiv.org/abs/2301.05666",
+    "authors": [
+      "Mark R. Hirsbrunner",
+      "Diana Chamaki",
+      "J. Wayne Mullinax",
+      "Norm M. Tubman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.16374",
+    "title": "Analytic Model Reveals Local Molecular Polarizability Changes Induced by Collective Strong Coupling in Optical Cavities",
+    "abstract": "           Despite recent numerical evidence, one of the fundamental theoretical mysteries of polaritonic chemistry is how and if collective strong coupling can induce local changes of the electronic structure to modify chemical properties. Here we present non-perturbative analytic results for a model system consisting of an ensemble of $N$ harmonic molecules under vibrational strong coupling (VSC) that alters our present understanding of this fundamental question. By applying the cavity Born-Oppenheimer partitioning on the Pauli-Fierz Hamiltonian in dipole approximation, the dressed many-molecule problem can be solved self-consistently and analytically in the dilute limit. We discover that the electronic molecular polarizabilities are modified even in the case of vanishingly small single-molecule couplings. Consequently, this non-perturbative local polarization mechanism persists even in the large-$N$ limit. In contrast, a perturbative calculation of the polarizabilities leads to a qualitatively erroneous scaling behavior with vanishing effects in the large-$N$ limit. Nevertheless, the exact (self-consistent) polarizabilities can be determined from single-molecule strong coupling simulations instead. Our fundamental theoretical observations demonstrate that hitherto existing collective-scaling arguments are insufficient for polaritonic chemistry and they pave the way for refined single- (or few-) molecule strong-coupling ab-initio simulations of chemical systems under collective strong coupling.         ",
+    "url": "https://arxiv.org/abs/2401.16374",
+    "authors": [
+      "Jacob Horak",
+      "Dominik Sidler",
+      "Thomas Schnappinger",
+      "Wei-Ming Huang",
+      "Michael Ruggenthaler",
+      "Angel Rubio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.00272",
+    "title": "Quantum phase transitions and composite excitations of antiferromagnetic spin trimer chains in a magnetic field",
+    "abstract": "           Motivated by recent advancements in theoretical and experimental studies of the high-energy excitations on an antiferromagnetic trimer chain, we numerically investigate the quantum phase transition and composite dynamics in this system by applying a magnetic field. The numerical methods we used include the exact diagonalization, density matrix renormalization group, time-dependent variational principle, and cluster perturbation theory. From calculating the entanglement entropy, we have revealed the phase diagram which includes the XY-I, $1/3$ magnetization plateau, XY-II, and ferromagnetic phases. Both the critical XY-I and XY-II phases are characterized by the conformal field theory with a central charge $c \\simeq 1$. By analyzing the dynamic spin structure factor, we elucidate the distinct features of spin dynamics across different phases. In the regime with weak intertrimer interaction, we identify the intermediate-energy and high-energy modes in the XY-I and $1/3$ magnetization plateau phases as internal trimer excitations, corresponding to the propagating of doublons and quartons, respectively. Notably, applying a magnetic field splits the high-energy spectrum into two branches, labeled as the upper quarton and lower quarton. Furthermore, we explore the spin dynamics of a frustrated trimerized model closely related to the quantum magnet \\ce{Na_2Cu_3Ge_4O_12}. In the end, we extend our discuss on the possibility of the quarton Bose-Einstein condensation in the trimer systems. Our results are expected to be further verified through the inelastic neutron scattering and resonant inelastic X-ray scattering, and also provide valuable insights for exploring high-energy exotic excitations.         ",
+    "url": "https://arxiv.org/abs/2402.00272",
+    "authors": [
+      "Jun-Qing Cheng",
+      "Zhi-Yao Ning",
+      "Han-Qing Wu",
+      "Dao-Xin Yao"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.18953",
+    "title": "Noise-Robust Detection of Quantum Phase Transitions",
+    "abstract": "           Quantum computing allows for the manipulation of highly correlated states whose properties quickly go beyond the capacity of any classical method to calculate. Thus one natural problem which could lend itself to quantum advantage is the study of ground-states of condensed matter models, and the transitions between them. However, current levels of hardware noise can require extensive application of error-mitigation techniques to achieve reliable computations. In this work, we use several IBM devices to explore a finite-size spin model with multiple `phase-like' regions characterized by distinct ground-state configurations. Using pre-optimized Variational Quantum Eigensolver (VQE) solutions, we demonstrate that in contrast to calculating the energy, where zero-noise extrapolation is required in order to obtain qualitatively accurate yet still unreliable results, calculations of the energy derivative, two-site spin correlation functions, and the fidelity susceptibility yield accurate behavior across multiple regions, even with minimal or no application of error-mitigation approaches. Taken together, these sets of observables could be used to identify level crossings in a simple, noise-robust manner which is agnostic to the method of ground state preparation. This work shows promising potential for near-term application to identifying quantum phase transitions, including avoided crossings and non-adiabatic conical intersections in electronic structure calculations.         ",
+    "url": "https://arxiv.org/abs/2402.18953",
+    "authors": [
+      "Kevin Lively",
+      "Tim Bode",
+      "Jochen Szangolies",
+      "Jian-Xin Zhu",
+      "Benedikt Fauseweh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.08782",
+    "title": "Phase transitions of correlated systems from graph neural networks with quantum embedding techniques",
+    "abstract": "           Correlated systems represent a class of materials that are difficult to describe through traditional electronic structure methods. The computational demand to simulate the structural dynamics of such systems, with correlation effects considered, is substantial. Here, we investigate the structural dynamics of $f$- and $d$-electron correlated systems by integrating quantum embedding techniques with interatomic potentials derived from graph neural networks. For Cerium, a prototypical correlated $f$-electron system, we use Density Functional Theory with the Gutzwiller approximation to generate training data due to efficiency with which correlations effects are included for large multi-orbital systems. For Nickel Oxide, a prototypical correlated $d$-electron system, advancements in computational capabilities now permit the use of full Dynamical Mean Field Theory to obtain energies and forces. We train neural networks on this data to create a model of the potential energy surface, enabling rapid and effective exploration of structural dynamics. Utilizing these potentials, we delineate transition pathways between the $\\alpha$, $\\alpha'$, and $\\alpha''$ phases of Cerium and predict the melting curve of Nickel Oxide. Our results demonstrate the potential of machine learning potentials to accelerate the study of strongly correlated systems, offering a scalable approach to explore and understand the complex physics governing these materials.         ",
+    "url": "https://arxiv.org/abs/2404.08782",
+    "authors": [
+      "Rishi Rao",
+      "Li Zhu"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.00663",
+    "title": "Quantum cryptographic protocols with dual messaging system via 2D alternate quantum walk of a genuine single-photon entangled state",
+    "abstract": "           A single-photon entangled state (or single-particle entangled state (SPES) in general) can offer a more secure way of encoding and processing quantum information than their multi-photon (or multi-particle) counterparts. The SPES generated via a 2D alternate quantum-walk setup from initially separable states can be either 3-way or 2-way entangled. This letter shows that the generated genuine three-way and nonlocal two-way SPES can be used as cryptographic keys to securely encode two distinct messages simultaneously. We detail the message encryption-decryption steps and show the resilience of the 3-way and 2-way SPES-based cryptographic protocols against eavesdropper attacks like intercept-and-resend and man-in-the-middle. We also detail the experimental realization of these protocols using a single photon, with the three degrees of freedom being OAM, path, and polarization. We have proved that the protocols have unconditional security for quantum communication tasks. The ability to simultaneously encode two distinct messages using the generated SPES showcases the versatility and efficiency of the proposed cryptographic protocol. This capability could significantly improve the throughput of quantum communication systems.         ",
+    "url": "https://arxiv.org/abs/2405.00663",
+    "authors": [
+      "Dinesh Kumar Panda",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Cryptography and Security (cs.CR)",
+      "Quantum Algebra (math.QA)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.16898",
+    "title": "Detecting kHz gravitons from a neutron star merger with a multi-mode resonant mass detector",
+    "abstract": "           We propose a multi-mode bar consisting of mass elements of decreasing size for the implementation of a gravitational version of the photo-electric effect through the stimulated absorption of up to kHz gravitons from a binary neutron star merger and post-merger. We find that the multi-mode detector has normal modes that retain the coupling strength to the gravitational wave of the largest mass-element, while only having an effective mass comparable to the mass of the smallest element. This allows the normal modes to have graviton absorption rates due to the tonne-scale largest mass, while the single graviton absorption process in the normal mode could be resolved through energy measurements of a mass-element in-principle smaller than pico-gram scale. We argue the feasibility of directly counting gravito-phonons in the bar through energy measurements of the end mass. This improves the transduction of the single-graviton signal, enhancing the feasibility of detecting single gravitons.         ",
+    "url": "https://arxiv.org/abs/2406.16898",
+    "authors": [
+      "Germain Tobar",
+      "Igor Pikovski",
+      "Michael Edmund Tobar"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Theory (hep-th)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13190",
+    "title": "Ab-Initio Approach to Many-Body Quantum Spin Dynamics",
+    "abstract": "           A fundamental longstanding problem in studying spin models is the efficient and accurate numerical simulation of the long-time behavior of larger systems. The exponential growth of the Hilbert space and the entanglement accumulation at long times pose major challenges for current methods. To address these issues, we employ the multilayer multiconfiguration time-dependent Hartree (ML-MCTDH) framework to simulate the many-body spin dynamics of the Heisenberg model in various settings, including the Ising and XYZ limits with different interaction ranges and random couplings. Benchmarks with analytical and exact numerical approaches show that ML-MCTDH accurately captures the time evolution of one- and two-body observables in both one- and two-dimensional lattices. A comparison of ML-MCTDH with the discrete truncated Wigner approximation (DTWA) demonstrates that our approach excels in handling anisotropic models and consistently provides better results for two-point observables in all simulation instances. Our results indicate that the multilayer structure of ML-MCTDH is a promising numerical framework for handling the dynamics of generic many-body spin systems.         ",
+    "url": "https://arxiv.org/abs/2411.13190",
+    "authors": [
+      "Aditya Dubey",
+      "Zeki Zeybek",
+      "Fabian K\u00f6hler",
+      "Rick Mukherjee",
+      "Peter Schmelcher"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
