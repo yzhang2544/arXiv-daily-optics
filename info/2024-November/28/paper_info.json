@@ -1,0 +1,482 @@
+[
+  {
+    "id": "arXiv:2411.18048",
+    "title": "MeltpoolINR: Predicting temperature field, melt pool geometry, and their rate of change in laser powder bed fusion",
+    "abstract": "           We present a data-driven, differentiable neural network model designed to learn the temperature field, its gradient, and the cooling rate, while implicitly representing the melt pool boundary as a level set in laser powder bed fusion. The physics-guided model combines fully connected feed-forward neural networks with Fourier feature encoding of the spatial coordinates and laser position. Notably, our differentiable model allows for the computation of temperature derivatives with respect to position, time, and process parameters using autodifferentiation. Moreover, the implicit neural representation of the melt pool boundary as a level set enables the inference of the solidification rate and the rate of change in melt pool geometry relative to process parameters. The model is trained to learn the top view of the temperature field and its spatiotemporal derivatives during a single-track laser powder bed fusion process, as a function of three process parameters, using data from high-fidelity thermo-fluid simulations. The model accuracy is evaluated and compared to a state-of-the-art convolutional neural network model, demonstrating strong generalization ability and close agreement with high-fidelity data.         ",
+    "url": "https://arxiv.org/abs/2411.18048",
+    "authors": [
+      "Manav Manav",
+      "Nathanael Perraudin",
+      "Yunong Lin",
+      "Mohamadreza Afrasiabi",
+      "Fernando Perez-Cruz",
+      "Markus Bambach",
+      "Laura De Lorenzis"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18093",
+    "title": "Multi-focal Picosecond laser vertical slicing of 6 inch 4H-SiC ingot",
+    "abstract": "           Ultrafast laser direct writing inside materials has garnered significant attention for its applications in techniques like two-photon polymerization, stealth dicing and vertical slicing. 4H-Silicon Carbide (4H-SiC) vertical slicing has wide potentials from research to industry due to low kerf loss and high slicing speed. In this paper, to improve the vertical slicing processing quality and lower the separation strength, we introduce a multi-focal vertical slicing method with spherical aberrations caused by refractive index eliminated. Additionally, by shaping the wavefront of picosecond laser, our experiments show the lower latitudinal ablation zone and higher crack propagation of multi-focal vertical slicing method on 4H-SiC, demonstrating that this method not only reduces filamentations to minimize ablation damage, but also significantly reduce the tensile strength during separation. We achieve a 6 inch 4H-SiC ingot vertical slicing and separation using 4-focal slicing. This method shows various potentials in laser processing.         ",
+    "url": "https://arxiv.org/abs/2411.18093",
+    "authors": [
+      "Jiabao Du",
+      "Shusen Zhao",
+      "Xiaoyu Lu",
+      "Lu Jiang",
+      "Shifei Han",
+      "Xinyao Li",
+      "Xuechun Lin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18098",
+    "title": "Circularly polarized cavity-mode emission from quantum dots in a semiconductor three-dimensional chiral photonic crystal",
+    "abstract": "           We experimentally demonstrated a circularly polarized cavity mode in a GaAs-based chiral photonic crystal (PhC) containing a planar defect. Low-temperature photoluminescence measurements of InAs quantum dots (QDs) embedded in the planar defect revealed a polarization bandgap for left-handed circularly polarized light in the near-infrared spectrum. Within this bandgap, where the QDs preferably emitted right-handed circularly polarized light, we observed a distinct cavity-mode peak characterized by left-handed circular polarization. This observation indicates that the chiral PhC modifies the optical density of states for left-handed circular polarization to be suppressed in the polarization bandgap and be largely enhanced at the cavity mode. The results obtained may not only provide photonic devices such as compact circularly polarized light sources but also promote strong coupling between circularly polarized photons and excitons in solid states or molecules, paving the way for advancements in polaritonics, spintronics, and quantum information technology.         ",
+    "url": "https://arxiv.org/abs/2411.18098",
+    "authors": [
+      "Shun Takahashi",
+      "Yuzo Kinuta",
+      "Seiya Ito",
+      "Hiroki Ohnishi",
+      "Kenichi Yamashita",
+      "Jun Tatebayashi",
+      "Satoshi Iwamoto",
+      "Yasuhiko Arakawa"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18132",
+    "title": "Optical characterisation of ilmenite by reflectance spectroscopy",
+    "abstract": "           Bi-directional reflection spectroscopy based on multiple scattering of particulate surfaces is employed in identifying the optical properties of titanium-iron oxide mineral from laboratory reflection this http URL, the approach suffers from issues including: i) both n and k are to be extracted from a single spectroscopy spectrum, ii) imposing constraints of the K-K correlation relating spectral n and k is weakened by its fundamental insensitivity, and iii) incapability in addressing intrinsic strong absorption features of absorbing materials. We resolve these issues by employing additional optical information of directional-hemispherical reflection and emission/absorption for a slab and a stratified multi-layer medium of the material, respectively. The accompanied analyses consist of radiation transfer in a slab medium investigated using the two-flux approximation method and electromagnetic radiation propagation in a stratified multi-layer medium investigated using the electric filed transfer matrix. We further find that an understanding of the internal scattering coefficient of grains in the multiple scattering model paves the way in successfully predicting absorption features of materials. A wavelength-dependent internal scattering coefficient of the material is then found to be 50 1/micrometer and 1/10000000 1/micrometer in regions of strong absorption and high transmission (between 7 and 13 micrometer), respectively. The value of the refractive index n varies weakly on the wavelength. A pronounced change in the determined absorptive index k with the wavelength is observed. Low values of the absorptive index k on the magnitude of 0.01 are obtained in the transmission window spectral range. In the strong absorption spectral range starting from 13 micrometer, values of the absorptive index k are higher than 0.1.         ",
+    "url": "https://arxiv.org/abs/2411.18132",
+    "authors": [
+      "Jingjing Chen",
+      "Xiaobo Yin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18139",
+    "title": "Ultralow-Crosstalk Silicon Electro-Optic Switch with Cascaded Phase Shifters for Loss Equivalence",
+    "abstract": "           In silicon electro-optic (EO) Mach-Zehnder interferometer (MZI) switches, crosstalk is typically limited by beam imbalance between the MZI arms, primarily caused by the free carrier absorption loss during routing, thus hindering switch scalability. To address this issue, we propose a low-crosstalk push-pull EO MZI switch by cascading a lightly doped, long phase shifter (PSLL) and a heavily doped, short phase shifter (PSHS) to construct phase-shift arms. In both BAR and CROSS states, PSLL in one arm and PSHS in the other arm are simultaneously forward-biased, with PSLL provides a pi/2 greater phase shift for switching, while PSHS balances loss of PSLL, effectively minimizing crosstalk. Simulations indicate that the proposed switch achieves a crosstalk below -51 dB at a 1310 nm wavelength. The fabricated 2 x 2 silicon EO MZI switch exhibited crosstalk between -33 and -44.2 dB at 1316 nm, and maintained crosstalk below -30 dB across an impressive 61 nm optical bandwidth, with response times under 119 ns. Featuring single-pair electrode control, consistent two-state performance, and a compact size, this approach could enable high-radix switch fabrics in data centers and artificial intelligence compute clusters.         ",
+    "url": "https://arxiv.org/abs/2411.18139",
+    "authors": [
+      "Yating Wu",
+      "Tao Chu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18175",
+    "title": "Spectroscopic Signature of Local Alloy Fluctuations in InGaN/GaN Multi-Quantum-Disk Light Emitting Diode Heterostructures and Its Impact on the Optical Performance",
+    "abstract": "           Inhomogeneity-governed carrier localization has been investigated in three sets of InGaN/GaN multi-quantum-disk light-emitting diode (LED) structures grown by plasma-assisted molecular beam epitaxy (PAMBE) under different process conditions. A temperature-dependent study of the luminescence peak positions reveals that samples prepared under certain process conditions exhibit a thermal distribution of carriers from the localized states that show the typical S-shaped dependence in luminescence characteristics. The absence of an S-shaped nature in the other sample prepared with relatively higher In-flux infers a superior homogeneity in alloy composition. Further investigation manifested superior optical properties for the samples where the S-shape nature is found to be absent.         ",
+    "url": "https://arxiv.org/abs/2411.18175",
+    "authors": [
+      "Soumyadip Chatterjee",
+      "Subhranshu Sekhar Sahu",
+      "Kanchan Singh Rana",
+      "Swagata Bhunia",
+      "Dipankar Saha",
+      "Apurba Laha"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18228",
+    "title": "Highly-stable, eco-friendly and selective Cs2AgBiBr6 perovskite-based ozone sensor",
+    "abstract": "           Lead halide perovskites have attracted considerable attention as potential gas sensing elements due to their unique ability to detect and respond to an external stimulus with measurable electrical or optical signals. The distinctive characteristics of these materials lie in their ability to operate upon gas exposure at room temperature. However, the presence of lead (Pb) poses a serious challenge for their widespread application and commercialization, owing to its toxicity. To address this issue, lead-free Cs2AgBiBr6 double perovskite is explored as a promising alternative sensing element for room temperature gas detection. This sensor can be regarded as eco-friendly for the following reasons: it does not contain Pb; it is synthesized at room temperature without using strong organic solvents; and it operates and recovers at room temperature without heating or UV irradiation and with a very low input voltage (0.1V), thus reducing overall energy consumption. The influence of the perovskite morphology on the ozone (O3) sensing performance is investigated, as well as the sensing stability under varying conditions of time, humidity, and temperature. Notably, the sensors' exceptional selectivity for O3 over other gases and the interaction between the gases and the perovskite surface is confirmed through experimental and first-principles calculations.         ",
+    "url": "https://arxiv.org/abs/2411.18228",
+    "authors": [
+      "Aikaterini Argyrou",
+      "Rafaela Maria Giappa",
+      "Emmanouil Gagaoudakis",
+      "Vassilios Binas",
+      "Ioannis Remediakis",
+      "Konstantinos Brintakis",
+      "Athanasia Kostopoulou",
+      "Emmanuel Stratakis"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18341",
+    "title": "PHOENIX -- Paderborn highly optimized and energy efficient solver for two-dimensional nonlinear Schr\\\"odinger equations with integrated extensions",
+    "abstract": "           In this work, we introduce PHOENIX, a highly optimized explicit open-source solver for two-dimensional nonlinear Schr\u00f6dinger equations with extensions. The nonlinear Schr\u00f6dinger equation and its extensions (Gross-Pitaevskii equation) are widely studied to model and analyze complex phenomena in fields such as optics, condensed matter physics, fluid dynamics, and plasma physics. It serves as a powerful tool for understanding nonlinear wave dynamics, soliton formation, and the interplay between nonlinearity, dispersion, and diffraction. By extending the nonlinear Schr\u00f6dinger equation, various physical effects such as non-Hermiticity, spin-orbit interaction, and quantum optical aspects can be incorporated. PHOENIX is designed to accommodate a wide range of applications by a straightforward extendability without the need for user knowledge of computing architectures or performance optimization. The high performance and power efficiency of PHOENIX are demonstrated on a wide range of entry-class to high-end consumer and high-performance computing GPUs and CPUs. Compared to a more conventional MATLAB implementation, a speedup of up to three orders of magnitude and energy savings of up to 99.8% are achieved. The performance is compared to a performance model showing that PHOENIX performs close to the relevant performance bounds in many situations. The possibilities of PHOENIX are demonstrated with a range of practical examples from the realm of nonlinear (quantum) photonics in planar microresonators with active media including exciton-polariton condensates. Examples range from solutions on very large grids, the use of local optimization algorithms, to Monte Carlo ensemble evolutions with quantum noise enabling the tomography of the system's quantum state.         ",
+    "url": "https://arxiv.org/abs/2411.18341",
+    "authors": [
+      "Jan Wingenbach",
+      "David Bauch",
+      "Xuekai Ma",
+      "Robert Schade",
+      "Christian Plessl",
+      "Stefan Schumacher"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18386",
+    "title": "Near-field acoustic imaging with a caged bubble",
+    "abstract": "           Bubbles are ubiquitous in many research applications ranging from ultrasound imaging and drug delivery to the understanding of volcanic eruptions and water circulation in vascular plants. From an acoustic perspective, bubbles are resonant scatterers with remarkable properties, including a large scattering cross-section and strongly sub-wavelength dimensions. While it is known that the resonance properties of bubbles depend on their local environment, it remains challenging to probe this interaction at the single-bubble level due to the difficulty of manipulating a single resonating bubble in a liquid. Here, we confine a cubic bubble inside a cage using 3D printing technology, and we use this bubble as a local probe to perform scanning near-field acoustic microscopy -- an acoustic analogue of scanning near-field optical microscopy. By probing the acoustic interaction between a single resonating bubble and its local environment, we demonstrate near-field imaging of complex structures with a resolution that is two orders of magnitudes smaller than the wavelength of the acoustic field. As a potential application, our approach paves the way for the development of low-cost acoustic microscopes based on caged bubbles.         ",
+    "url": "https://arxiv.org/abs/2411.18386",
+    "authors": [
+      "Dorian Bouchet",
+      "Olivier Stephan",
+      "Benjamin Dollet",
+      "Philippe Marmottant",
+      "Emmanuel Bossy"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18474",
+    "title": "Uniform Field in Microwave Cavities Through the Use of Effective Magnetic Walls",
+    "abstract": "           Wire media (WM) resonators have emerged as promising realization for plasma haloscopes -- devices designed to detect axions, a potential component of dark matter. Key factors influencing the detection probability include cavity volume, resonance quality factor, and form factor. While the form factor has been explored for resonant frequency tuning, its optimization for axion detection remains unexplored. In this work, we present a novel approach to significantly enhance the form factor of WM plasma haloscopes. By shifting the metal walls of the resonator by a quarter wavelength, we effectively convert an electric wall boundary condition into a magnetic wall one, allowing for an almost uniform mode. Theoretical analysis and numerical simulations confirm that this modification improves the electric field profile and boosts the form factor. We validate these findings through experimental results from two prototype resonators: one with a standard geometry and another with a quarter-wave air gap between the WM and the walls. Additionally, our method provides a simple way to control the field profile within WM cavities, which can be explored for further applications.         ",
+    "url": "https://arxiv.org/abs/2411.18474",
+    "authors": [
+      "Jim A. Enriquez",
+      "Rustam Balafendiev",
+      "Alexander J. Millar",
+      "Constantin Simovski"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18566",
+    "title": "OASIS-UROS: Open Acquisition System for IEPE Sensors -- Upgraded, Refined, and Overhauled Software",
+    "abstract": "           OASIS-UROS continues the previously published Open Acquisition System for IEPE Sensors (OASIS). While still building on the ESP32 microcontroller, this version improves the overall performance by switching to an SD card caching system and upgrading the analog-digital converter to an AD7606C-18, which has a higher resolution, provides eight channels, oversampling, and software-adjustable voltage ranges. Also improved is the IEPE front-end and power supply, as well as the firmware of the acquisition system, which can now achieve a sample rate of up to 36 kHz while sampling all eight channels. This paper documents the hardware and software of OASIS-UROS and provides all materials required to reproduce the open acquisition system. Lastly, the system was validated against commercial hardware and software in an experimental modal analysis context. This showed that the system performs close to the commercial one in some aspects with respect to the utilized test case. While OASIS-UROS cannot match the full performance of the commercial system, the developed system can be a viable alternative for students, people in academia, or smaller companies that have a constrained budget or require complete insight as well as adaptability of the hardware and software.         ",
+    "url": "https://arxiv.org/abs/2411.18566",
+    "authors": [
+      "Oliver Maximilian Zobel",
+      "Johannes Maierhofer",
+      "Andreas K\u00f6stler",
+      "Daniel J. Rixen"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18570",
+    "title": "Frequency redistribution and step-size distribution of light scattered by atomic vapor: applications to L\\'evy flight random walk",
+    "abstract": "           The propagation of light that undergoes multiple-scattering by resonant atomic vapor can be described as a L\u00e9vy flight. L\u00e9vy flight is a random walk with heavy tailed step-size (r) distribution, decaying asymptotically as $P(r)\\sim r^{-1-\\alpha}$, with $\\alpha<2$. The large steps, typical of L\u00e9vy flights, have its origins in frequency redistribution of the light scattered by the vapor. We calculate the frequency redistribution function and the step-size distribution for light diffusion in atomic vapor. From the step-size distribution we extract a L\u00e9vy parameter $\\alpha$ that depends on the step's size. We investigate how the frequency redistribution function and step-size distribution are influenced by the finite size of the vapor and the many-level structure typical for alkali vapors. Finite size of the vapor introduces cutoff on the light scattered spectrum and thus in the size of steps. Multi-level structure introduces oscillations in $P(r)$ slope. Both effects might have an impact on measurables related to the L\u00e9vy flight random walk.         ",
+    "url": "https://arxiv.org/abs/2411.18570",
+    "authors": [
+      "Isaac C. Nunes",
+      "Michelle O. Ara\u00fajo",
+      "Jes\u00fas P. Lopez",
+      "Thierry Passerat de Silans"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Astrophysics of Galaxies (astro-ph.GA)",
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18585",
+    "title": "Overview of the Head and Neck Tumor Segmentation for Magnetic Resonance Guided Applications (HNTS-MRG) 2024 Challenge",
+    "abstract": "           Magnetic resonance (MR)-guided radiation therapy (RT) is enhancing head and neck cancer (HNC) treatment through superior soft tissue contrast and longitudinal imaging capabilities. However, manual tumor segmentation remains a significant challenge, spurring interest in artificial intelligence (AI)-driven automation. To accelerate innovation in this field, we present the Head and Neck Tumor Segmentation for MR-Guided Applications (HNTS-MRG) 2024 Challenge, a satellite event of the 27th International Conference on Medical Image Computing and Computer Assisted Intervention. This challenge addresses the scarcity of large, publicly available AI-ready adaptive RT datasets in HNC and explores the potential of incorporating multi-timepoint data to enhance RT auto-segmentation performance. Participants tackled two HNC segmentation tasks: automatic delineation of primary gross tumor volume (GTVp) and gross metastatic regional lymph nodes (GTVn) on pre-RT (Task 1) and mid-RT (Task 2) T2-weighted scans. The challenge provided 150 HNC cases for training and 50 for testing, hosted on this http URL using a Docker submission framework. In total, 19 independent teams from across the world qualified by submitting both their algorithms and corresponding papers, resulting in 18 submissions for Task 1 and 15 submissions for Task 2. Evaluation using the mean aggregated Dice Similarity Coefficient showed top-performing AI methods achieved scores of 0.825 in Task 1 and 0.733 in Task 2. These results surpassed clinician interobserver variability benchmarks, marking significant strides in automated tumor segmentation for MR-guided radiation therapy applications in head and neck cancer.         ",
+    "url": "https://arxiv.org/abs/2411.18585",
+    "authors": [
+      "Kareem A. Wahid",
+      "Cem Dede",
+      "Dina M. El-Habashy",
+      "Serageldin Kamel",
+      "Michael K. Rooney",
+      "Yomna Khamis",
+      "Moamen R. A. Abdelaal",
+      "Sara Ahmed",
+      "Kelsey L. Corrigan",
+      "Enoch Chang",
+      "Stephanie O. Dudzinski",
+      "Travis C. Salzillo",
+      "Brigid A. McDonald",
+      "Samuel L. Mulder",
+      "Lucas McCullum",
+      "Qusai Alakayleh",
+      "Carlos Sjogreen",
+      "Renjie He",
+      "Abdallah S.R. Mohamed",
+      "Stephen Y. Lai",
+      "John P. Christodouleas",
+      "Andrew J. Schaefer",
+      "Mohamed A. Naser",
+      "Clifton D. Fuller"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17821",
+    "title": "From quantum enhanced to quantum inspired Monte Carlo",
+    "abstract": "           We perform a comprehensive analysis of the quantum-enhanced Monte Carlo method [Nature, 619, 282-287 (2023)], aimed at identifying the optimal working point of the algorithm. We observe an optimal mixing Hamiltonian strength and analyze the scaling of the total evolution time with the size of the system. We also explore extensions of the circuit, including the use of time-dependent Hamiltonians and reverse digitized annealing. Additionally, we propose that classical, approximate quantum simulators can be used for the proposal step instead of the original real-hardware implementation. We observe that tensor-network simulators, even with unconverged settings, can maintain a scaling advantage over standard classical samplers. This may extend the utility of quantum enhanced Monte Carlo as a quantum-inspired algorithm, even before the deployment of large-scale quantum hardware.         ",
+    "url": "https://arxiv.org/abs/2411.17821",
+    "authors": [
+      "Johannes Christmann",
+      "Petr Ivashkov",
+      "Mattia Chiurco",
+      "Guglielmo Mazzola"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17856",
+    "title": "Integrating Machine Learning and Quantum Circuits for Proton Affinity Predictions",
+    "abstract": "           A key step in interpreting gas-phase ion mobility coupled with mass spectrometry (IM-MS) data for unknown structure prediction involves identifying the most favorable protonated structure. In the gas phase, the site of protonation is determined using proton affinity (PA) measurements. Currently, mass spectrometry and ab initio computation methods are widely used to evaluate PA; however, both methods are resource-intensive and time-consuming. Therefore, there is a critical need for efficient methods to estimate PA, enabling the rapid identification of the most favorable protonation site in complex organic molecules with multiple proton binding sites. In this work, we developed a fast and accurate method for PA prediction by using multiple descriptors in combination with machine learning (ML) models. Using a comprehensive set of 186 descriptors, our model demonstrated strong predictive performance, with an R2 of 0.96 and a MAE of 2.47kcal/mol, comparable to experimental uncertainty. Furthermore, we designed quantum circuits as feature encoders for a classical neural network. To evaluate the effectiveness of this hybrid quantum-classical model, we compared its performance with traditional ML models using a reduced feature set derived from the full set. The result showed that this hybrid model achieved consistent performance comparable to traditional ML models with the same reduced feature set on both a noiseless simulator and real quantum hardware, highlighting the potential of quantum machine learning for accurate and efficient PA predictions.         ",
+    "url": "https://arxiv.org/abs/2411.17856",
+    "authors": [
+      "Hongni Jin",
+      "Kenneth M. Merz Jr"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17907",
+    "title": "Polaron effect in waveguide quantum optomechanics",
+    "abstract": "           We investigate the impact of the quantized mechanical motion of optically trapped atoms, arranged in proximity to a one-dimensional waveguide, on the propagation of polariton modes. Our study identifies a regime of resonant phonon-assisted mixing between lower and upper polaritons, resulting in a pronounced polaron effect. This effect is characterized by the formation of new band gaps and the appearance of weakly dispersive states within the original polariton band gap. The polaron spectrum, which can be directly probed via resonant elastic scattering, provides novel opportunities for quantum optical applications. These findings open avenues for enhanced control in state-of-the-art waveguide quantum electrodynamics experiments with cold atoms.         ",
+    "url": "https://arxiv.org/abs/2411.17907",
+    "authors": [
+      "Denis Ilin",
+      "Alexander S. Solntsev",
+      "Ivan Iorsh"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18304",
+    "title": "Discrete and parallel frequency-bin entanglement generation from quantum frequency comb",
+    "abstract": "           Photons' frequency degree of freedom is promising to realize large-scale quantum information processing. Quantum frequency combs (QFCs) generated in integrated nonlinear microresonators can produce multiple frequency modes with narrow linewidth. Here, we utilize polarization-entangled QFCs to generate discrete frequency-bin entangled states. Fourteen pairs of polarization-entangled photons with different frequencies are simultaneously transformed into frequency-bin entangled states. The characteristic of frequency-bin entanglement is demonstrated by Hong-Ou-Mandel interference, which can be performed with single or multiple frequency pairs in parallel. Our work paves the way for harnessing large-scale frequency-bin entanglement and converting between different degrees of freedom in quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2411.18304",
+    "authors": [
+      "Chi Lu",
+      "Xiaoyu Wu",
+      "Wenjun Wen",
+      "Xiao-song Ma"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.06666",
+    "title": "Phenomenological Simulation of Quantum Systems",
+    "abstract": "           This paper describes an algorithmic system called SQT for the computer simulation of a wide class of quantum experiments on entangled particles. SQT maintains a hidden internal state for each particle and it provides an initialization process and measurement processes with visual outputs and a means of connecting these in software to make the simulator for a given experiment in Quantum Mechanics. The statistical behavior of the Quantum Mechanical system is replicated by incorporating the probabilities that are observed in real world quantum experiments. SQT is thus a tool to provide educational understanding of quantum systems and this tool removes the mystery surrounding entangled particles. It shows that only initial measurement probabilities and conditional probabilities of transition from the previous state and no earlier to the next state are sufficient inputs for the simulator to replicate all Quantum Mechanical experiments in the simulator and no other inputs such as complex numbers have to be entered into the simulator. The simulator, unlike the real world quantum system, can display the hidden sub-quantum state after which it can be seen that there is no spooky interaction between entangled particles at all. SQT therefore provides a new interpretation of quantum phenomena that may well replace the Copenhagen interpretation founded by Niels Bohr and it answers Einstein's final question regarding whether Quantum Mechanics can be considered a complete theory or not.         ",
+    "url": "https://arxiv.org/abs/2405.06666",
+    "authors": [
+      "John R Rankin"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.00590",
+    "title": "MoS2-based optical bistability in silver-Bragg reflector multilayer structure at visible light band",
+    "abstract": "           In this paper, we present a theoretical analysis of the optical bistability in a metallic silver-Bragg reflector structure by embedding bilayer MoS2 at the visible band. The nonlinear OB is achieved due to the nonlinear conductivity of the bilayer MoS2 and the excitation of the optical Tamm state at the interface between the silver and the Bragg reflector. It is found that the hysteresis behaviour and the threshold width of the OB can be effectively tuned by varying the incident light wavelength. In addition, the optical bistable behaviour of the structure can be adjusted by varying the position of the MoS2 inset in the defect layer, incident angle and the structural parameters of the spacer layer. Although the current threshold cannot be commercialized, we believe that this solution will provide a meaningful path reference for low threshold bistability in the visible light band.         ",
+    "url": "https://arxiv.org/abs/2406.00590",
+    "authors": [
+      "Songqing Tang",
+      "Mengjiao Ren",
+      "Zhiheng Li",
+      "Zhiwei Zheng",
+      "Leyong Jiang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.05828",
+    "title": "Simulation of the impact of an additional corrugated structure impedance on the bursting dynamics in an electron storage ring",
+    "abstract": "           In the case of single-digit picosecond bunch length, synchrotron light sources produce intense coherent radiation up to the THz range. The reduction of the bunch length by lowering the momentum compaction factor (low-$\\alpha$) gives rise to the micro-bunching instability, which is on one hand a crucial roadblock in the X-ray range during to the resulting effective bunch lengthening but on the other hand also an opportunity for the generation of intense THz radiation if it can be controlled appropriately. In the KIT storage ring KARA (Karlsruhe Research Accelerator), two parallel plates with periodic rectangular corrugations are planned to be installed in an electron storage ring. These plates create an additional longitudinal impedance based on their geometry, which can affect the beam dynamics. The resulting impedance manipulation will be used to study and control the longitudinal electron beam dynamics and the emitted coherent synchrotron radiation (CSR). This paper presents the results of systematic studies in simulation of the impact of additional corrugated plate impedances on the longitudinal beam dynamics using the example of the KARA storage ring. If the periodicity of the wake function of the corrugated plates matches the size of the substructures in the longitudinal bunch profile, the instability threshold can be effectively manipulated. This extends intense THz radiation to different beam current regimes.         ",
+    "url": "https://arxiv.org/abs/2407.05828",
+    "authors": [
+      "Sebastian Maier",
+      "Miriam Brosi",
+      "Akira Mochihashi",
+      "Michael J. Nasse",
+      "Markus Schwarz",
+      "Anke-Susanne M\u00fcller"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.09758",
+    "title": "Cooling of gold cluster anions, Au$_N^-$, $N=2-13,15$, in a cryogenic ion-beam storage ring",
+    "abstract": "           We have measured the spontaneous and photo-induced decays of anionic gold clusters, Au$_N^-$, with sizes ranging from $N = 2$ to 13, and 15. After production in a sputter ion source, the size-selected clusters were stored in the cryogenic electrostatic ion-beam storage ring DESIREE and their neutralization decays were measured for storage times between 0.1 and 100 s. The dimer was observed to decay by electron emission in parallel to neutral atom emission at long times, analogously to the behavior of copper and silver dimers, implying a breakdown of the Born-Oppenheimer approximation. Radiative cooling is observed for all cluster sizes except for the dimer. The decay rates of clusters $N=3,6,8-13,15$ show only a single radiative cooling time. For $N=6-13$ the cooling times have a strong odd-even oscillation with an amplitude that decrease with cluster size, and with the even $N$ having the fast cooling. We compare our results with previous measurements of radiative cooling rates of the corresponding cationic gold clusters, Au$_N^+$, which also show an odd-even effect with a similar oscillation amplitude but at orders of magnitude shorter time scales, and out of phase with the anions.         ",
+    "url": "https://arxiv.org/abs/2407.09758",
+    "authors": [
+      "Klavs Hansen",
+      "Tian Weihao",
+      "Emma K. Anderson",
+      "Mikael Bj\u00f6rkhage",
+      "Henrik Cederquist",
+      "Ji MingChao",
+      "Stefan Ros\u00e9n",
+      "Alice Schmidt-May",
+      "Mark H. Stockett",
+      "Henning Zettergren",
+      "Vitali Zhaunerchyk",
+      "Henning T. Schmidt"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.09425",
+    "title": "Disordered Optical Metasurfaces: Basics, Properties, and Applications",
+    "abstract": "           Optical metasurfaces are conventionally viewed as organized flat arrays of photonic or plasmonic nanoresonators, also called metaatoms. These metasurfaces are typically highly ordered and fabricated with precision using expensive tools. However, the inherent imperfections in large-scale nanophotonic devices, along with recent advances in bottom-up nanofabrication techniques and design strategies, have highlighted the potential benefits of incorporating disorder to achieve specific optical functionalities. This review offers an overview of the key theoretical, numerical, and experimental aspects related to the exploration of disordered optical metasurfaces. It introduces fundamental concepts of light scattering by disordered metasurfaces and outlines theoretical and numerical methodologies for analyzing their optical behavior. Various fabrication techniques are discussed, highlighting the types of disorder they deliver and their achievable precision level. The review also explores critical applications of disordered optical metasurfaces, such as light manipulation in thin film materials and the design of structural colors and visual appearances. Finally, the article offers perspectives on the burgeoning future research in this field. Disordered optical metasurfaces offer a promising alternative to their ordered counterparts, often delivering unique functionalities or enhanced performance. They present a particularly exciting opportunity in applications demanding large-scale implementation, such as sustainable renewable energy systems, as well as aesthetically vibrant coatings for luxury goods and architectural designs.         ",
+    "url": "https://arxiv.org/abs/2408.09425",
+    "authors": [
+      "P. Lalanne",
+      "M Chen",
+      "C. Rockstuhl",
+      "A. Sprafke",
+      "A. Dmitriev",
+      "K. Vynck"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.16737",
+    "title": "Small-scale light structures in a Kerr medium",
+    "abstract": "           A system of equations has been proposed for a monochromatic weakly nonlinear light wave in a Kerr medium. This system is equivalent up to the third order in electric field to the known equation $\\mbox{curl}\\,\\mbox{curl}\\, {\\bf E}=k_0^2[{\\bf E} +\\alpha |{\\bf E}|^2{\\bf E}+\\beta({\\bf E}\\cdot{\\bf E}){\\bf E}^*]$, but the new equations are much more convenient for numerical computation. Optical fields with small structures of two or three wavelengths have been simulated using this system. It has been found that a stable self-focused light beam (a 2D vector soliton) in some parametric domain is possible even without modification of nonlinearity. ``Inelastic'' collisions between two such narrow beams with opposite circular polarizations have been computed. Furthermore, examples of interacting optical vortices, spatial separation of the circular polarizations, and the Kelvin--Helmholtz instability have been given for defocusing nonlinearity.         ",
+    "url": "https://arxiv.org/abs/2409.16737",
+    "authors": [
+      "Victor P. Ruban"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05142",
+    "title": "Nonadiabatic Quantum Dynamics of Molecules Scattering from Metal Surfaces",
+    "abstract": "           Nonadiabatic coupling between electrons and molecular motion at metal surfaces leads to energy dissipation and dynamical steering effects during chemical surface dynamics. We present a theoretical approach to the scattering of molecules from metal surfaces that incorporates all nonadiabatic and quantum nuclear effects due to the coupling of the molecular degrees of freedom to the electrons in the metal. This is achieved with the hierarchical equations of motion (HEOM) approach combined with a matrix product state representation in twin space. The method is applied to the scattering of nitric oxide from Au(111), for which strongly nonadiabatic energy loss during scattering has been experimentally observed, thus presenting a significant theoretical challenge. Since the HEOM approach treats the molecule-surface coupling exactly, it captures the interplay between nonadiabatic and quantum nuclear effects. Finally, the data obtained by the HEOM approach is used as a rigorous benchmark to assess various mixed quantum-classical methods, from which we derive insights into the mechanisms of energy dissipation and the suitable working regimes of each method.         ",
+    "url": "https://arxiv.org/abs/2410.05142",
+    "authors": [
+      "Riley J. Preston",
+      "Yaling Ke",
+      "Samuel L. Rudge",
+      "Nils Hertl",
+      "Raffaele Borrelli",
+      "Reinhard J. Maurer",
+      "Michael Thoss"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.10654",
+    "title": "Inverse Physics-Informed Neural Networks for transport models in porous materials",
+    "abstract": "           Physics-Informed Neural Networks (PINN) are a machine learning tool that can be used to solve direct and inverse problems related to models described by Partial Differential Equations. This paper proposes an adaptive inverse PINN applied to different transport models, from diffusion to advection-diffusion-reaction problems. Once a suitable PINN is established to solve the forward problem, the transport parameters are added as trainable parameters. We find that, for the inverse problem to converge to the correct solution, the different components of the loss function (data misfit, initial conditions, boundary conditions and residual of the transport equation) need to be weighted adaptively as a function of the training iteration (epoch). Similarly, gradients of trainable parameters are scaled at each epoch accordingly. Several examples are presented for different test cases to support our PINN architecture and its scalability and robustness.         ",
+    "url": "https://arxiv.org/abs/2407.10654",
+    "authors": [
+      "Marco Berardi",
+      "Fabio Difonzo",
+      "Matteo Icardi"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.01506",
+    "title": "Quantum noise modeling through Reinforcement Learning",
+    "abstract": "           In the current era of quantum computing, robust and efficient tools are essential to bridge the gap between simulations and quantum hardware execution. In this work, we introduce a machine learning approach to characterize the noise impacting a quantum chip and emulate it during simulations. Our algorithm leverages reinforcement learning, offering increased flexibility in reproducing various noise models compared to conventional techniques such as randomized benchmarking or heuristic noise models. The effectiveness of the RL agent has been validated through simulations and testing on real superconducting qubits. Additionally, we provide practical use-case examples for the study of renowned quantum algorithms.         ",
+    "url": "https://arxiv.org/abs/2408.01506",
+    "authors": [
+      "Simone Bordoni",
+      "Andrea Papaluca",
+      "Piergiorgio Buttarini",
+      "Alejandro Sopena",
+      "Stefano Giagu",
+      "Stefano Carrazza"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.14675",
+    "title": "Quantum dynamics of photophysical aggregates in conjugated polymers",
+    "abstract": "           Photophysical aggregates are ubiquitous in many solid-state microstructures adopted by conjugated polymers, in which $\\pi$ electrons interact with those in other polymer chains or those in other chromophores along the chain. These interactions fundamentally define the electronic and optical properties of the polymer film. While valuable insight can be gained from linear excitation and photoluminescence spectra, nonlinear coherent excitation spectral lineshapes provide intricate understanding on the electronic couplings that define the aggregate and their fluctuations. Here, we discuss the coherent two-dimensional excitation lineshape of a model hairy-rod conjugated polymer. At zero population waiting time, we find a $\\pi/2$ phase shift between the 0-0 and 0-1 vibronic peaks in the real and imaginary components of the complex coherent spectrum, as well as a dynamic phase rotation with population waiting time over timescales that are longer than the optical dephasing time. We conjecture that these are markers of relaxation of the photophysical aggregate down the tight manifold of the exciton band. These results highlight the potential for coherent spectroscopy via analysis of the complex spectral lineshape to become a key tool to develop structure-property relationships in complex functional materials.         ",
+    "url": "https://arxiv.org/abs/2411.14675",
+    "authors": [
+      "Henry J. Kantrow",
+      "Elizabeth Guti\u00e9rrez-Meza",
+      "Hongmo Li",
+      "Qiao He",
+      "Martin Heeney",
+      "Natalie Stingelin",
+      "Eric R. Bittner",
+      "Carlos Silva-Acu\u00f1a"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
