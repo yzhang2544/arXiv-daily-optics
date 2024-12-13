@@ -1,0 +1,608 @@
+[
+  {
+    "id": "arXiv:2412.07860",
+    "title": "Threading in star catenanes: The role of ring rigidity, topology and environmental crowding",
+    "abstract": "           This study investigates the probability of threading in star catenanes under good solvent conditions using molecular dynamics simulations, emphasizing the influence of ring rigidity. Threading in these systems arises from the interplay between the intrinsic topology of and within the star-shaped structure and the bending rigidity of individual rings. It is demonstrated that reduced ring flexibility enhances threading, and the presence of mechanical bonds is critical for threading formation. Notably, the bending rigidity of the rings alters their shapes, resulting in a non-monotonic threading probability with a peak at intermediate rigidity. Furthermore, increasing ring length is found to significantly boost threading probability. These findings elucidate the intricate relationships among topology and rigidity in governing threading, with implications for the design of advanced molecular systems and materials. This work provides a comprehensive framework for understanding threading in good solvent conditions, where such behavior is typically improbable for ring polymers, and opens avenues for the development of molecular machines and other complex architectures.         ",
+    "url": "https://arxiv.org/abs/2412.07860",
+    "authors": [
+      "Zahra Ahmadian Dehaghani"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08009",
+    "title": "FLRONet: Deep Operator Learning for High-Fidelity Fluid Flow Field Reconstruction from Sparse Sensor Measurements",
+    "abstract": "           The ability to reconstruct high-fidelity fluid flow fields from sparse sensor measurement is critical for many science and engineering applications, but remains a huge challenge. This challenge is caused by the large difference between the dimensions of the state space and the observational space, making the operator that provides the mapping from the state space to the observational space ill-conditioned and non-invertible. As a result, deriving the forward map from the observational space to the state space as the inverse of the measurement operator is nearly impossible. While traditional methods, including sparse optimization, data assimilation, or machine learning based regressive reconstruction, are available, they often struggle with generalization and computational efficiency, particularly when non-uniform or varying discretization of the domain are considered. In this work, we propose FLRONet, a novel operator learning framework designed to reconstruct full-state flow fields from sparse sensor measurements in space and time. FLRONet utilizes a branch-trunk architecture, where the branch network integrates sensor observations from multiple time instances, and the trunk network encodes the entire temporal domain. This design allows FLRONet to achieve highly accurate, discretization-independent reconstructions at any time within the observation window. Although the popular three-dimensional Fourier Neural Operator offers similar functionalities, our results show that FLRONet surpasses it in both accuracy and efficiency. FLRONet not only achieves superior performance in approximating the true operator but also exhibits significantly faster inference at high-fidelity discretizations.         ",
+    "url": "https://arxiv.org/abs/2412.08009",
+    "authors": [
+      "Hiep Vo Dang",
+      "Joseph B. Choi",
+      "Phong C. H. Nguyen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08017",
+    "title": "Integrated probabilistic computer using voltage-controlled magnetic tunnel junctions as its entropy source",
+    "abstract": "           Probabilistic Ising machines (PIMs) provide a path to solving many computationally hard problems more efficiently than deterministic algorithms on von Neumann computers. Stochastic magnetic tunnel junctions (S-MTJs), which are engineered to be thermally unstable, show promise as entropy sources in PIMs. However, scaling up S-MTJ-PIMs is challenging, as it requires fine control of a small magnetic energy barrier across large numbers of devices. In addition, non-spintronic components of S-MTJ-PIMs to date have been primarily realized using general-purpose processors or field-programmable gate arrays. Reaching the ultimate performance of spintronic PIMs, however, requires co-designed application-specific integrated circuits (ASICs), combining CMOS with spintronic entropy sources. Here we demonstrate an ASIC in 130 nm foundry CMOS, which implements integer factorization as a representative hard optimization problem, using PIM-based invertible logic gates realized with 1143 probabilistic bits. The ASIC uses stochastic bit sequences read from an adjacent voltage-controlled (V-) MTJ chip. The V-MTJs are designed to be thermally stable in the absence of voltage, and generate random bits on-demand in response to 10 ns pulses using the voltage-controlled magnetic anisotropy effect. We experimentally demonstrate the chip's functionality and provide projections for designs in advanced nodes, illustrating a path to millions of probabilistic bits on a single CMOS+V-MTJ chip.         ",
+    "url": "https://arxiv.org/abs/2412.08017",
+    "authors": [
+      "Christian Duffee",
+      "Jordan Athas",
+      "Yixin Shao",
+      "Noraica Davila Melendez",
+      "Eleonora Raimondo",
+      "Jordan A. Katine",
+      "Kerem Y. Camsari",
+      "Giovanni Finocchio",
+      "Pedram Khalili Amiri"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08083",
+    "title": "Photonic torons, topological phase transition and tunable spin monopoles",
+    "abstract": "           Creation and control of topological complex excitations play crucial roles in both fundamental physics and modern information science. Torons are a sophisticated class of 3D chiral polar topological structures with both skyrmionic quasiparticle textures and monopole point defects, so far only observed in liquid crystal nonpolar models. Here, we experimentally construct torons with the photonic spin of vector structured light and demonstrate the topological phase transitions among diverse topological states: torons, hopfions, skyrmioniums and monopole pairs. We can also continually tune the toron's chirality and the helical spin textures of emerging monopole pairs. The birth of photonic torons and tunable monopoles opens a flexible platform for studying nontrivial light-matter interaction and topological informatics.         ",
+    "url": "https://arxiv.org/abs/2412.08083",
+    "authors": [
+      "Haijun Wu",
+      "Nilo Mata-Cervera",
+      "Haiwen Wang",
+      "Zhihan Zhu",
+      "Cheng-Wei Qiu",
+      "Yijie Shen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08181",
+    "title": "Sensitive optical coating defect detection via second harmonic generation",
+    "abstract": "           Optical coating, an integral part of many optical systems, is prone to damage from environmental exposure and laser irradiation. This underscores the need for reliable and sensitive coating diagnostics. We introduce second harmonic generation (SHG) as a method for the sensitive detection of defects and inhomogeneities within optical thin films. We demonstrate the use of SHG on Si3N4 layers tested for their laser-induced damage threshold. The SHG mapping was compared with commonly used diagnostic techniques, including Nomarski microscopy, white light interferometry, and electron microscopy. Owing to its sensitivity to variations in local symmetry, SHG is able to discern minute alterations in material composition, mechanical stress, and interface structures. Therefore, SHG identified modifications in the tested layers, highly extending the damage recognized by standard methods. Furthermore, we demonstrate SHG's ability to enhance specific features by modulation of incidence angles and polarization modes. Based on these findings, we propose SHG as an ideal diagnostic tool for the early identification of laser-induced modifications in centrosymmetric thin films.         ",
+    "url": "https://arxiv.org/abs/2412.08181",
+    "authors": [
+      "Jakub Luke\u0161",
+      "V\u011bra H\u00e1jkov\u00e1",
+      "Martina Hlubu\u010dkov\u00e1",
+      "V\u00edt Kancl\u00ed\u0159",
+      "Karel \u017d\u00eddek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08184",
+    "title": "Online training and pruning of photonic neural networks",
+    "abstract": "           Photonic neural networks (PNNs) have garnered significant interest due to their potential to offer low latency, high bandwidth, and energy efficiency in neuromorphic computing and machine learning. In PNNs, weights are photonic devices that make them susceptible to environmental factors and fabrication variations. These vulnerabilities can result in inaccurate parameter mapping, increased tuning power consumption, and reduced network performance when conventional offline training methods are used. Here, we experimentally demonstrate an online training and pruning method to address these challenges. By incorporating a power-related term into the conventional loss function, our approach minimizes the inference power budget. With this method, PNNs achieve 96% accuracy while reducing the power consumption by almost 45% on the Iris dataset, despite fabrication and thermal variations. Furthermore, our method is validated with a two-layer convolutional neural network (CNN) experiment for radio-frequency (RF) fingerprinting applications and simulations across larger CNNs on image classification datasets, including MNIST, CIFAR-10, and CIFAR-100. This work represents a significant milestone in enabling adaptive online training of PNNs and showcases their potential for real-world applications.         ",
+    "url": "https://arxiv.org/abs/2412.08184",
+    "authors": [
+      "Jiawei Zhang",
+      "Weipeng Zhang",
+      "Tengji Xu",
+      "Joshua C. Lederman",
+      "Eli A. Doris",
+      "Bhavin J. Shastri",
+      "Chaoran Huang",
+      "Paul R. Prucnal"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08297",
+    "title": "Quantum theory for nonlinear optical effects in the ultra-strong light-matter coupling regime",
+    "abstract": "           We present a microscopic quantum theory for nonlinear optical phenomena in semiconductor quantum well heterostructures operating in the regime of ultra-strong light matter coupling regime. This work extends the Power-Zienau-Wooley (PZW) formulation of quantum electrodynamics to account for nonlinear interactions based on a fully fermionic approach, without resorting to any bosonization approximation. It provides a unified description of the microcavity and the local field enhancement effects on the nonlinear optical response, thus encompassing the phenomena known as epsilon near zero (ENZ) effect. In particular, our theory describes the impact of the light-matter coupled states on the high frequency generation process, relevant for recent experimental investigations with polaritonic metasurfaces. We unveil the limitations of traditional single-particle approaches and propose novel design principles to optimize nonlinear conversion efficiencies in dense, microcavity-coupled electronic systems. The theoretical framework developed here provides an efficient tool for the development of advanced quantum optical applications in the mid-infrared and terahertz spectral domains. Furthermore, it establishes a foundation for exploring the quantum properties of the ultra-strong light-matter regime through frequency-converted polariton states.         ",
+    "url": "https://arxiv.org/abs/2412.08297",
+    "authors": [
+      "Thomas Krieguer",
+      "Yanko Todorov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08339",
+    "title": "Induced eccentricity splitting in disordered optical microspheres for machine learning enabled wavemeter",
+    "abstract": "           Accurate measurement of light wavelength is critical for applications in spectroscopy, optical communication, and semiconductor manufacturing, ensuring precision and consistency of sensing, high-speed data transmission and device production. Emerging reconstructive wavemeters synergize physical systems capable for pseudo-random wavelength dependent pattern formation with computational techniques to offer a promising alternative against established methods such as frequency beating and inteferometry for high-resolution and broadband measurements in compact and cost-effective devices. In this paper, we propose a novel type of compact and affordable reconstructive wavemeter based on the disordered chip with thousands of high quality-factor whispering gallery mode microcavities as physical model and a hybrid machine learning approach utilizing boosting methods and variational autoencoders implemented as wavelength interpreter. We leverage eccentricity mode splitting obtained via controllable deformation of the spherical microresonators in order to ensure the uniqueness of the wavelength patterns up to ultra-wide (~100 nm) spectral window while guaranteeing high (~100 fm) intrinsic sensitivity. The latter allocates the proposed model right next to the ultimate reconstructive wavemeters based on integrating spheres, but with superior miniaturization options and chip-scale integrability.         ",
+    "url": "https://arxiv.org/abs/2412.08339",
+    "authors": [
+      "Ivan Saetchnikov",
+      "Elina Tcherniavskaia",
+      "Andreas Ostendorf",
+      "Anton Saetchnikov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08368",
+    "title": "Optical super-torque induced by Mie-resonant modes",
+    "abstract": "           We introduce the concept of resonant optical torque that allows enhancing substantially a transfer of optical angular momentum (AM) of light to a subwavelength particle. We consider high-index cylindrical dielectric nanoparticles supporting Mie resonances, and explore a transfer of AM and how it is affected by absorption and particle shape. We analyse a simple trapping geometry of standing wave patterns created by opposite helical light waves. We uncover stable rotation of particles in both nodes and anti-nodes, and also study how specific particle properties influence the resonant optical torque. We demonstrate that adjusting particle losses can maximize spinning torque, and we predict \"super-torque\" originating from the superabsorption effect at resonances. Our study offers a deeper understanding of the physics of resonant optical torque and its importance in manipulating AM transfer in optical systems, with promising implications for various fields and inspiring further research in resonant light-matter interactions.         ",
+    "url": "https://arxiv.org/abs/2412.08368",
+    "authors": [
+      "Ivan Toftul",
+      "Mihail Petrov",
+      "Romain Quidant",
+      "Yuri Kivshar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08405",
+    "title": "On-demand Quick Metasurface Design with Neighborhood Attention Transformer",
+    "abstract": "           Metasurfaces are reshaping traditional optical paradigms and are increasingly required in complex applications that demand substantial computational resources to numerically solve Maxwell's equations-particularly for large-scale systems, inhomogeneous media, and densely packed metadevices. Conventional forward design using electromagnetic solvers is based on specific approximations, which may not effectively address complex problems. In contrast, existing inverse design methods are a stepwise process that is often time-consuming and involves repetitive computations. Here, we present an inverse design approach utilizing a surrogate Neighborhood Attention Transformer, MetaE-former, to predict the performance of metasurfaces with ultrafast speed and high accuracy. This method achieves global solutions for hundreds of nanostructures simultaneously, providing up to a 250,000-fold speedup compared with solving for individual meta-atoms based on the FDTD method. As examples, we demonstrate a binarized high-numerical-aperture (about 1.31) metalens and several optimized structured-light meta-generators. Our method significantly improves the beam shaping adaptability with metasurfaces and paves the way for fast designing of large-scale metadevices for shaping extreme light fields with high accuracy.         ",
+    "url": "https://arxiv.org/abs/2412.08405",
+    "authors": [
+      "Zhi Sun",
+      "Tianyue Li",
+      "Shiqi Kuang",
+      "Xue Yun",
+      "Minru He",
+      "Boyan Fu",
+      "Yunlai Fu",
+      "Tianyu Zhao",
+      "Shaowei Wang",
+      "Yansheng Liang",
+      "Shuming Wang",
+      "Ming Lei"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08409",
+    "title": "A nonreciprocal and tunable active acoustic scatterer",
+    "abstract": "           A passive loudspeaker mounted in a duct acts as a reciprocal scatterer for plane waves impinging on either of its sides. However, the reciprocity can be broken by means of an asymmetric electroacoustic feedback which supplies to the loudspeaker a signal picked-up from a microphone facing only one of its sides. This simple modification offers new opportunities for the control and manipulation of sound waves. In this paper, we investigate the scattering features of a pair of such actively controlled loudspeakers connected by means of a short and narrow duct. The theoretical and experimental results demonstrate that by tuning the feedback loops, the system exhibits several exotic effects, which include an asymmetric reflectionless configuration with one-way transmission or absorption, a directional amplifier with an isolation of 42 dB, and a quasi CPA-lasing configuration. All of these effects were achieved using a single setup in the subwavelength regime, highlighting the versatility of such an asymmetrically active scatterer.         ",
+    "url": "https://arxiv.org/abs/2412.08409",
+    "authors": [
+      "Anis Maddi",
+      "Gaelle Poignand",
+      "Vassos Achilleos",
+      "Vincent Pagneux",
+      "Guillaume Penelet"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08554",
+    "title": "Coherent frequency combs from electrons colliding with a laser pulse",
+    "abstract": "           Highly coherent and powerful light sources capable of generating frequency combs in the soft x-ray domain are essential for advancing high precision measurements and conducting rigorous tests of fundamental physics. In this work, we derive the analytical conditions required for the emission of coherent radiation, including coherent frequency combs, from an electron beam colliding with a laser pulse, modeled as a plane wave. Using numerical simulations, we demonstrate that this scheme can produce a coherent soft x-ray frequency comb, provided the electron beam is sufficiently monoenergetic and electrons in the beam are regularly spaced. Furthermore, we highlight the advantageous role of employing few-cycle laser pulses in relaxing the stringent monoenergeticity requirements for coherent emission. The conditions derived here can also be used to optimize coherent emission from electron beam-laser interactions in other frequency ranges, such as the terahertz domain.         ",
+    "url": "https://arxiv.org/abs/2412.08554",
+    "authors": [
+      "Michael J. Quin",
+      "Antonino Di Piazza",
+      "Matteo Tamburini"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.06338",
+    "title": "Determining Absolute Neutrino Mass using Quantum Technologies",
+    "abstract": "           Next generation tritium decay experiments to determine the absolute neutrino mass require high-precision measurements of $\\beta$-decay electron energies close to the kinematic end point. To achieve this, the development of high phase-space density sources of atomic tritium is required, along with the implementation of methods to control the motion of these atoms to allow extended observation times. A promising approach to efficiently and accurately measure the kinetic energies of individual $\\beta$-decay electrons generated in these dilute atomic gases, is to determine the frequency of the cyclotron radiation they emit in a precisely characterised magnetic field. This cyclotron radiation emission spectroscopy (CRES) technique can benefit from recent developments in quantum technologies. Absolute static-field magnetometry and electrometry, which is essential for the precise determination of the electron kinetic energies from the frequency of their emitted cyclotron radiation, can be performed using atoms in superpositions of circular Rydberg states. Quantum-limited microwave amplifiers will allow precise cyclotron frequency measurements to be made with maximal signal-to-noise ratios and minimal observation times. Exploiting the opportunities offered by quantum technologies in these key areas, represents the core activity of the Quantum Technologies for Neutrino Mass (QTNM) project. Its goal is to develop a new experimental apparatus that can enable a determination of the absolute neutrino mass with a sensitivity on the order of 10~meV/$c^2$.         ",
+    "url": "https://arxiv.org/abs/2412.06338",
+    "authors": [
+      "A. A. S. Amad",
+      "F. F. Deppisch",
+      "M. Fleck",
+      "J. Gallop",
+      "T. Goffrey",
+      "L. Hao",
+      "N. Higginbotham",
+      "S. D. Hogan",
+      "S. B. Jones",
+      "L. Li",
+      "N. McConkey",
+      "V. Monachello",
+      "R. Nichol",
+      "J. A. Potter",
+      "Y. Ramachers",
+      "R. Saakyan",
+      "E. Sedzielewski",
+      "D. Swinnock",
+      "D. Waters",
+      "S. Withington",
+      "S. Zhao",
+      "J. Zou"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Nuclear Experiment (nucl-ex)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.07933",
+    "title": "Quantum Computing in Corrosion Modeling: Bridging Research and Industry",
+    "abstract": "           Corrosion presents a major challenge to the longevity and reliability of products across various industries, particularly in the aerospace sector. Corrosion arises from chemical processes occurring on an atomistic scale, which lead to macroscopic degradation. Addressing this issue requires multi-scale modeling approaches, which rely on microscopic parameters that are challenging to measure experimentally or model with conventional quantum chemistry techniques. In this work, we develop and demonstrate a hybrid quantum-classical workflow tailored for atomistic simulations of corrosion processes, with a specific focus on the initial step of the oxygen reduction reaction -- a critical trigger for the corrosion of aluminum alloys widely used in modern aircraft. Using a combination of classical quantum chemistry methods and quantum computing frameworks, we identify reaction geometries characterized by multi-configurational electronic structures that are ideal for exploring with quantum algorithms. For the first time in this context, we explore both noisy intermediate-scale quantum and fault-tolerant quantum algorithms for these multi-configurational system, integrating them within a workflow designed to bridge atomistic simulations with macroscopic modeling approaches, such as finite element methods. Furthermore, we conduct a detailed quantum resource estimation to assess when and how quantum computers may play a meaningful role in tackling these problems. Our results demonstrate that significant advancements in quantum hardware but also in algorithms and error correction techniques are needed to make quantum computation practically viable for this class of problems. Nevertheless, this work establishes a critical foundation for applying quantum computation to corrosion modeling and highlights its potential to address complex, business-relevant challenges in materials science.         ",
+    "url": "https://arxiv.org/abs/2412.07933",
+    "authors": [
+      "Juan Manuel Aguiar Hualde",
+      "Marek Kowalik",
+      "Lian Remme",
+      "Franziska Elisabeth Wolff",
+      "Julian van Velzen",
+      "Rene Bottcher",
+      "Christian Weimer",
+      "Jasper Krauser",
+      "Emanuele Marsili"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08058",
+    "title": "Colossal terahertz emission with ultrafast tunability based on van der Waals ferroelectric NbOI$_2$",
+    "abstract": "           Terahertz (THz) technology is critical for quantum material physics, biomedical imaging, ultrafast electronics, and next-generation wireless communications. However, standing in the way of widespread applications is the scarcity of efficient ultrafast THz sources with on-demand fast modulation and easy on-chip integration capability. Here we report the discovery of colossal THz emission from a van der Waals (vdW) ferroelectric semiconductor NbOI$_2$. Using THz emission spectroscopy, we observe a THz generation efficiency an order of magnitude higher than that of ZnTe, a standard nonlinear crystal for ultrafast THz generation. We further uncover the underlying generation mechanisms associated with its large ferroelectric polarization by studying the THz emission dependence on excitation wavelength, incident polarization and fluence. Moreover, we demonstrate the ultrafast coherent amplification and annihilation of the THz emission and associated coherent phonon oscillations by employing a double-pump scheme. These findings combined with first-principles calculations, inform new understanding of the THz light-matter interaction in emergent vdW ferroelectrics and pave the way to develop high-performance THz devices on them for quantum materials sensing and ultrafast electronics.         ",
+    "url": "https://arxiv.org/abs/2412.08058",
+    "authors": [
+      "Sujan Subedi",
+      "Wenhao Liu",
+      "Wuzhang Fang",
+      "Carter Fox",
+      "Zixin Zhai",
+      "Fan Fei",
+      "Yuan Ping",
+      "Bing Lv",
+      "Jun Xiao"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2305.17366",
+    "title": "Silicon photonic MEMS switches based on split waveguide crossings",
+    "abstract": "           The continuous push for high-performance photonic switches is one of the most crucial premises for the sustainable scaling of programmable and reconfigurable photonic circuits for a wide spectrum of applications. Conventional optical switches rely on the perturbative mechanisms of mode coupling or mode interference, resulting in inherent bottlenecks in their switching performance concerning size, power consumption and bandwidth. Here we propose and realize a silicon photonic 2x2 elementary switch based on a split waveguide crossing (SWX) consisting of two halves. The propagation direction of the incident light is manipulated to implement the OFF/ON states by splitting/combining the two halves of the SWX, showing excellent performance with low excess loss and low crosstalk over an ultrawide bandwidth. Both elementary switch and a 64x64 switch array based on Benes topology are fabricated and characterized, demonstrating great potential for practical scenarios such as photonic interconnect/routing, Lidar and spectroscopy, photonic computing, as well as microwave photonics.         ",
+    "url": "https://arxiv.org/abs/2305.17366",
+    "authors": [
+      "Yinpeng Hu",
+      "Yi Sun",
+      "Ye Lu",
+      "Huan Li",
+      "Liu Liu",
+      "Yaocheng Shi",
+      "Daoxin Dai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.08558",
+    "title": "Nonlinear optical encoding enabled by recurrent linear scattering",
+    "abstract": "           Optical information processing and computing can potentially offer enhanced performance, scalability and energy efficiency. However, achieving nonlinearity-a critical component of computation-remains challenging in the optical domain. Here we introduce a design that leverages a multiple-scattering cavity to passively induce optical nonlinear random mapping with a continuous-wave laser at a low power. Each scattering event effectively mixes information from different areas of a spatial light modulator, resulting in a highly nonlinear mapping between the input data and output pattern. We demonstrate that our design retains vital information even when the readout dimensionality is reduced, thereby enabling optical data compression. This capability allows our optical platforms to offer efficient optical information processing solutions across applications. We demonstrate our design's efficacy across tasks, including classification, image reconstruction, keypoint detection and object detection, all of which are achieved through optical data compression combined with a digital decoder. In particular, high performance at extreme compression ratios is observed in real-time pedestrian detection. Our findings open pathways for novel algorithms and unconventional architectural designs for optical computing.         ",
+    "url": "https://arxiv.org/abs/2307.08558",
+    "authors": [
+      "Fei Xia",
+      "Kyungduk Kim",
+      "Yaniv Eliezer",
+      "SeungYun Han",
+      "Liam Shaughnessy",
+      "Sylvain Gigan",
+      "Hui Cao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.05959",
+    "title": "Map Optical Properties to Subwavelength Structures Directly via a Diffusion Model",
+    "abstract": "           Subwavelength photonic structures and metamaterials provide revolutionary approaches for controlling light. The inverse design methods proposed for these subwavelength structures are vital to the development of new photonic devices. However, most of the existing inverse design methods cannot realize direct mapping from optical properties to photonic structures but instead rely on forward simulation methods to perform iterative optimization. In this work, we exploit the powerful generative abilities of artificial intelligence (AI) and propose a practical inverse design method based on latent diffusion models. Our method maps directly the optical properties to structures without the requirement of forward simulation and iterative optimization. Here, the given optical properties can work as \"prompts\" and guide the constructed model to correctly \"draw\" the required photonic structures. Experiments show that our direct mapping-based inverse design method can generate subwavelength photonic structures at high fidelity while following the given optical properties. This may change the method used for optical design and greatly accelerate the research on new photonic devices.         ",
+    "url": "https://arxiv.org/abs/2404.05959",
+    "authors": [
+      "Shijie Rao",
+      "Kaiyu Cui",
+      "Yidong Huang",
+      "Jiawei Yang",
+      "Yali Li",
+      "Shengjin Wang",
+      "Xue Feng",
+      "Fang Liu",
+      "Wei Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.12776",
+    "title": "Investigation of Electron Backscattering on Silicon Drift Detectors for the Sterile Neutrino Search with TRISTAN",
+    "abstract": "           Sterile neutrinos are hypothetical particles in the minimal extension of the Standard Model of Particle Physics. They could be viable dark matter candidates if they have a mass in the keV range. The Karlsruhe tritium neutrino (KATRIN) experiment, extended with a silicon drift detector focal plane array (TRISTAN), has the potential to search for keV-scale sterile neutrinos by measuring the kinematics of the tritium $\\beta$-decay. The collaboration targets a sensitivity of $10^{-6}$ on the mixing amplitude $\\sin^2{\\Theta}$. For this challenging target, a precise understanding of the detector response is necessary. In this work, we report on the characterization of electron backscattering from the detector surface, which is one of the main effects that influence the shape of the observed energy spectrum. Measurements were performed with a tandem silicon drift detector system and a custom-designed electron source. The measured detector response and backscattering probability are in good agreement with dedicated backscattering simulations using the Geant4 simulation toolkit.         ",
+    "url": "https://arxiv.org/abs/2405.12776",
+    "authors": [
+      "Daniela Spreng",
+      "Korbinian Urban",
+      "Marco Carminati",
+      "Frank Edzards",
+      "Carlo Fiorini",
+      "Peter Lechner",
+      "Andrea Nava",
+      "Daniel Siegmann",
+      "Christoph Wiesinger",
+      "Susanne Mertens"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.18464",
+    "title": "Bayesian inverse Navier-Stokes problems: joint flow field reconstruction and parameter learning",
+    "abstract": "           We formulate and solve a Bayesian inverse Navier-Stokes (N-S) problem that assimilates velocimetry data in order to jointly reconstruct a 3D flow field and learn the unknown N-S parameters, including the boundary position. By hardwiring a generalised N-S problem, and regularising its unknown parameters using Gaussian prior distributions, we learn the most likely parameters in a collapsed search space. The most likely flow field reconstruction is then the N-S solution that corresponds to the learned parameters. We develop the method in the variational setting and use a stabilised Nitsche weak form of the N-S problem that permits the control of all N-S parameters. To regularise the inferred the geometry, we use a viscous signed distance field (vSDF) as an auxiliary variable, which is given as the solution of a viscous Eikonal boundary value problem. We devise an algorithm that solves this inverse problem, and numerically implement it using an adjoint-consistent stabilised cut-cell finite element method. We then use this method to reconstruct magnetic resonance velocimetry (flow-MRI) data of a 3D steady laminar flow through a physical model of an aortic arch for two different Reynolds numbers and signal-to-noise ratio (SNR) levels (low/high). We find that the method can accurately i) reconstruct the low SNR data by filtering out the noise/artefacts and recovering flow features that are obscured by noise, and ii) reproduce the high SNR data without overfitting. Although the framework that we develop applies to 3D steady laminar flows in complex geometries, it readily extends to time-dependent laminar and Reynolds-averaged turbulent flows, as well as non-Newtonian (e.g. viscoelastic) fluids.         ",
+    "url": "https://arxiv.org/abs/2406.18464",
+    "authors": [
+      "Alexandros Kontogiannis",
+      "Scott V. Elgersma",
+      "Andrew J. Sederman",
+      "Matthew P. Juniper"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Machine Learning (cs.LG)",
+      "Optimization and Control (math.OC)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.16361",
+    "title": "Information theory, Signal Analysis and Inverse Problem",
+    "abstract": "           This book is intended for teaching Signal Analysis methods and Inverse Problems theory. It is completely open access and will remain free. It is currently illustrated with examples that we have actually encountered in geophysics, but will eventually evolve to address problems in biology. The main idea is to develop this material over time (probably every six months) and throughout our careers. Therefore, it is not yet complete and some minor points need to be corrected in this English version. It is also available in French ( this https URL ) and Portuguese ( this https URL ). The MATLAB codes we used can be found at the following address: this https URL ",
+    "url": "https://arxiv.org/abs/2408.16361",
+    "authors": [
+      "Dominique Gibert",
+      "Fernando Lopes",
+      "Vincent Courtillot",
+      "Jean-Louis Le Mou\u00ebl",
+      "Jean-Baptiste Boul\u00e9"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.00027",
+    "title": "New Generalized Expressions for the Electromagnetic Fields of the Hybrid Modes of an Optical Fiber Using Complex and Bi-Complex Mathematics",
+    "abstract": "           The electromagnetic fields of the hybrid modes of an optical fiber are reformulated using bi-complex mathematics, which leads to simpler expressions relative to those found using the widely used, conventional complex formulation. Generalized expressions for the electromagnetic fields are also found using both formulations for comparative purposes. Furthermore, the feasibility of bi-complex mathematics is investigated for the derivation of the modal powers, orthogonality relations, and the weakly-guided fiber approximation.         ",
+    "url": "https://arxiv.org/abs/2409.00027",
+    "authors": [
+      "W. Astar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.08076",
+    "title": "High-Precision Excited-State Nuclear Recoil Spectroscopy with Superconducting Sensors",
+    "abstract": "           Superconducting sensors doped with rare isotopes have recently demonstrated powerful sensing performance for sub-keV radiation from nuclear decay. Here, we report the first high-resolution recoil spectroscopy of a single, selected nuclear state using superconducting tunnel junction (STJ) sensors. The STJ sensors were used to measure the eV-scale nuclear recoils produced in $^7$Be electron capture decay in coincidence with a 478 keV $\\gamma$-ray emitted in decays to the lowest-lying excited nuclear state in $^7$Li. Details of the Doppler broadened recoil spectrum depend on the slow-down dynamics of the recoil ion. The measured spectral broadening is compared to empirical stopping power models as well as modern molecular dynamics simulations at low energy. The results have implications in several areas from nuclear structure and stopping powers at eV-scale energies to direct searches for dark matter, neutrino mass measurements, and other physics beyond the standard model.         ",
+    "url": "https://arxiv.org/abs/2411.08076",
+    "authors": [
+      "C. Bray",
+      "S. Fretwell",
+      "L. A. Zepeda-Ruiz",
+      "I. Kim",
+      "A. Samanta",
+      "K. Wang",
+      "C. Stone-Whitehead",
+      "W. K. Warburton",
+      "F. Ponce",
+      "K. G. Leach",
+      "R. Abells",
+      "P. Amaro",
+      "A. Andoche",
+      "R. Cantor",
+      "D. Diercks",
+      "M. Guerra",
+      "A. Hall",
+      "C. Harris",
+      "J. Harris",
+      "L. Hayen",
+      "P. A. Hervieux",
+      "G. B. Kim",
+      "A. Lennarz",
+      "V. Lordi",
+      "J. Machado",
+      "P. Machule",
+      "A. Marino",
+      "D. McKeen",
+      "X. Mougeot",
+      "C. Ruiz",
+      "J. P. Santos J. Smolsky",
+      "B. D. Waters",
+      "S. Friedrich"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17297",
+    "title": "D-band MUTC Photodiode Module for Ultra-Wideband 160 Gbps Photonics-Assisted Fiber-THz Integrated Communication System",
+    "abstract": "           Current wireless communication systems are increasingly constrained by insufficient bandwidth and limited power output, impeding the achievement of ultra-high-speed data transmission. The terahertz (THz) range offers greater bandwidth, but it also imposes higher requirements on broadband and high-power devices. In this work, we present a modified uni-traveling-carrier photodiode (MUTC-PD) module with WR-6 waveguide output for photonics-assisted fiber-THz integrated wireless communications. Through the optimization of the epitaxial structure and high-impedance coplanar waveguide (CPW), the fabricated 6-um-diameter MUTC-PD achieves a high output power of -0.96 dBm at 150 GHz and ultra-flat frequency response at D-band. The MUTC-PD is subsequently packaged into a compact WR-6 module, incorporating planar-circuit-based RF-choke, DC-block and probe. The packaged PD module demonstrates high saturation power and flat frequency responses with minimal power roll-off of only 2 dB over 110-170 GHz. By incorporating the PD module into a fiber-THz integrated communication system, high data rates of up to 160 Gbps with 16 quadrature amplitude modulation (QAM) and a maximum symbol transmission rate of 60 Gbaud with QPSK modulation are successfully secured. The demonstration verifies the potential of the PD module for ultra-broadband and ultra-high-speed THz communications, setting a foundation for future research in high-speed data transmission.         ",
+    "url": "https://arxiv.org/abs/2411.17297",
+    "authors": [
+      "Yuxin Tian",
+      "Yaxuan Li",
+      "Bing Xiong",
+      "Junwen Zhang",
+      "Changzheng Sun",
+      "Zhibiao Hao",
+      "Jian Wang",
+      "Lai Wang",
+      "Yanjun Han",
+      "Hongtao Li",
+      "Lin Gan",
+      "Nan Chi",
+      "Yi Luo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.07004",
+    "title": "Optimizing for a Near Single-Mode Type-0 Optical Parametric Amplifier in Nanophotonics",
+    "abstract": "           Thin-film lithium niobate (TFLN) has recently emerged as a promising platform for integrated nonlinear photonics, enabling the use of optical parametric amplifiers (OPAs) for applications in quantum information processing, precision metrology, and ultrafast optical signal processing. However, OPA waveguide designs have not yet achieved the phase-matching conditions for type-0 operation in a single spectro-temporal mode, limiting their use. We optimize the waveguide dimensions, poling pattern, pump wavelength, and pump pulse duration for high spectral purity, a metric for single-mode fidelity. We numerically demonstrate a nanophotonic OPA with a spectral purity of 0.982 in a TFLN waveguide. Through semi-classical simulations, we further demonstrate that in the optical parametric regime, where vacuum fluctuations at the input of the OPA can saturate the gain and deplete the pump, the macroscopic output of such a single-mode OPA can be utilized for an ultra-fast quantum random number generator. These results demonstrate a promising direction for integrated OPAs in a wide range of ultrafast quantum nanophotonics applications.         ",
+    "url": "https://arxiv.org/abs/2412.07004",
+    "authors": [
+      "Shivam Mundhra",
+      "Elina Sendonaris",
+      "Robert M. Gray",
+      "James Williams",
+      "Alireza Marandi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.07006",
+    "title": "Correlation-weighted 23Na magnetic resonance fingerprinting in the brain",
+    "abstract": "           We developed a new sodium magnetic resonance fingerprinting ($^\\text{23}\\text{Na}$ MRF) method for the simultaneous mapping of $\\text{T}_\\text{1}$, $\\text{T}_\\text{2,long}^{*}$, $\\text{T}_\\text{2,short}^{*}$ and sodium density with built-in $\\Delta\\text{B}_{1}^{+}$ (radiofrequency transmission inhomogeneities) and $\\Delta\\text{f}_\\text{0}$ corrections (frequency offsets). We based our $^\\text{23}\\text{Na}$ MRF implementation on a 3D FLORET sequence with 23 radiofrequency pulses. To capture the complex spin ${\\frac{\\text{3}}{\\text{2}}}$ dynamics of the $^\\text{23}\\text{Na}$ nucleus, the fingerprint dictionary was simulated using the irreducible spherical tensor operators formalism. The dictionary contained 831,512 entries covering a wide range of $\\text{T}_\\text{1}$, $\\text{T}_\\text{2,long}^{*}$, $\\text{T}_\\text{2,short}^{*}$, $\\Delta\\text{B}_\\text{1}^{+}$ factor and $\\Delta\\text{f}_\\text{0}$ parameters. Fingerprint matching was performed using the Pearson correlation and the resulting relaxation maps were weighted with a subset of the highest correlation coefficients corresponding to signal matches for each voxel. Our $^\\text{23}\\text{Na}$ MRF method was compared against reference methods in a 7-compartment phantom, and applied in brain in five healthy volunteers at 7 T. In phantoms, $^\\text{23}\\text{Na}$ MRF produced values comparable to those obtained with reference methods. Average sodium relaxation time values in cerebrospinal fluid, gray matter and white matter across five healthy volunteers were in good agreement with values previously reported in the literature.         ",
+    "url": "https://arxiv.org/abs/2412.07006",
+    "authors": [
+      "Lauren F. O'Donnell",
+      "Gonzalo G. Rodriguez",
+      "Gregory Lemberskiy",
+      "Zidan Yu",
+      "Olga Dergachyova",
+      "Martijn Cloos",
+      "Guillaume Madelin"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.07632",
+    "title": "Atomic-optical interferometry in fractured loops: a general solution for Rydberg radio frequency receivers",
+    "abstract": "           The development of novel radio frequency atomic receivers brings attention to the theoretical description of atom-light interactions in sophisticated, multilevel schemes. Of special interest, are the schemes where several interaction paths interfere with each other, bringing about the phase-sensitive measurement of detected radio fields. In the theoretical modeling of those cases, the common assumptions are often insufficient to determine the boundary detection parameters, such as receiving bandwidth or saturation point, critical for practical considerations of atomic sensing technology. This evokes the resurfacing of a long-standing problem on how to describe an atom-light interaction in a fractured loop. In such a case, the quantum steady state is not achieved even with constant, continuous interactions. Here we propose a method for modeling of such a system, basing our approach on the Fourier expansion of a non-equilibrium steady state. The proposed solution is both numerically effective and able to predict edge cases, such as saturation. Furthermore, as an example, we employ this method to provide a complete description of a Rydberg superheterodyne receiver, obtaining the boundary parameters describing the operation of this atomic detector.         ",
+    "url": "https://arxiv.org/abs/2412.07632",
+    "authors": [
+      "Bartosz Kasza",
+      "Sebastian Bor\u00f3wka",
+      "Wojciech Wasilewski",
+      "Micha\u0142 Parniak"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.02118",
+    "title": "Reaching Van den Broeck limit in linear response and Whitney limit in nonlinear response in edge mode quantum thermoelectrics and refrigeration",
+    "abstract": "           Quantum heat engines and quantum refrigerators are proposed in three-terminal quantum Hall (QH) and quantum spin Hall (QSH) setups with a voltage-temperature probe in both the linear and nonlinear transport regimes. In the linear response regime, we find that efficiency at maximum power approaches the Van den Broeck limit in both QH and QSH setups. Similarly, in nonlinear response, we find that efficiency at maximum power reaches the Whitney bounds. This is for the first time, we see that in the same setup and using quantum point contacts, the thermoelectric efficiency limits in linear and nonlinear response being achieved.         ",
+    "url": "https://arxiv.org/abs/2404.02118",
+    "authors": [
+      "Sachiraj Mishra",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Mathematical Physics (math-ph)",
+      "Exactly Solvable and Integrable Systems (nlin.SI)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.04173",
+    "title": "Ionic structure, Liquid-liquid phase transitions, X-Ray diffraction, and X-Ray Thomson scattering in shock compressed liquid Silicon in the 100-200 GPa regime",
+    "abstract": "           Recent cutting-edge experiments have provided {\\it in situ} structure characterization and measurements of the pressure ($P$), density ($\\bar{\\rho}$) and temperature ($T$) of shock compressed silicon in the 100 GPa range of pressures and upto $\\sim$10,000K. We present first-principles calculations in this $P,T,\\bar{\\rho}$ regime to reveal a plethora of novel liquid-liquid phase transitions (LPTs) identifiable via discontinuities in the pressure and the compressibility. Evidence for the presence of a highly-correlated liquid (CL) phase, as well as a normal-liquid (NL) phase at the LPTs is presented by a detailed study of one LPT. The LPTs make the interpretation of these experiments more challenging. The LPTs preserve the short-ranged ionic structure of the fluid by collective adjustments of many distant atoms when subject to compression and heating, with minimal change in the ion-ion pair-distribution functions, and in transport properties such as the electrical and thermal conductivities $\\sigma$ and $\\kappa$. We match the experimental X-Ray Thomson scattering and X-ray diffraction data theoretically, and provide pressure isotherms, ionization data and compressibilities that support the above picture of liquid silicon as a highly complex LPT-driven ``glassy'' metallic liquid. These novel results are relevant to materials research, studies of planetary interiors, high-energy-density physics, and in laser-fusion studies.         ",
+    "url": "https://arxiv.org/abs/2408.04173",
+    "authors": [
+      "M.W.C. Dharma-wardana",
+      "Dennis D. Klug",
+      "Hannah Poole",
+      "G. Gregori"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06902",
+    "title": "Optical Gottesman-Kitaev-Preskill Qubit Generation via Approximate Squeezed Coherent State Superposition Breeding",
+    "abstract": "           Gottesman-Kitaev-Preskill (GKP) qubits, known for their exceptional error-correction capabilities, are highly coveted in quantum computing. However, generating optical GKP qubits has been a significant challenge. Measurement based methods, where a portion of entangled squeezed vacuum modes are measured with photon number resolving detectors heralding a desired state in the undetected modes, have emerged as leading candidates for optical GKP qubit generation due their minimal resource requirements. While the current measurement based methods can produce high quality GKP qubits, they suffer from low success probabilities limiting experimental realization. The heart of the problem lies in the duality of photon number resolving measurements, being both the source of nonlinearity needed to generate quality GKP qubits and the component driving down their probability of successful production. Our method, breeding approximate squeezed coherent state superpositions created by generalized photon subtraction, overcomes this problem by supplementing two photon number resolving measurements with a single high success probability homodyne measurement. This scheme achieves success probabilities $\\geq 10^{-5}$, two orders of magnitude higher than strictly photon number resolving measurement based methods, while still producing states with high-fidelity, possessing error-correction capabilities equivalent to up to a 10 dB squeezed GKP qubit. This breakthrough significantly advances the practical use of the optical GKP qubit encoding.         ",
+    "url": "https://arxiv.org/abs/2409.06902",
+    "authors": [
+      "Andrew J. Pizzimenti",
+      "Daniel Soh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.22423",
+    "title": "Engineering propagating cat states with driving-assisted cavity QED",
+    "abstract": "           We propose a method for generating optical cat states in propagating pulses based on cavity quantum electrodynamics (QED). This scheme uses multiple four-level systems (4LSs) inside an optical cavity as an emitter. Time-modulating driving stimulates the emitter to produce a superposition of coherent states entangled with the 4LSs. The postselection of an appropriate state of the 4LSs leads to a multicomponent cat state in a propagating pulse. Taking atomic decay and cavity loss into account, we optimize the cavity external loss rate to maximize the fidelity. We find that its optimum value is formulated similarly to that of other generation methods for propagating states, which suggests a universal property of cavity-QED systems interacting with fields outside the cavity.         ",
+    "url": "https://arxiv.org/abs/2410.22423",
+    "authors": [
+      "Seigo Kikura",
+      "Hayato Goto",
+      "Takao Aoki"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.05173",
+    "title": "Fast Laplace transforms on quantum computers",
+    "abstract": "           While many classical algorithms rely on Laplace transforms, it has remained an open question whether these operations could be implemented efficiently on quantum computers. In this work, we introduce the Quantum Laplace Transform (QLT), which enables the implementation of $N\\times N$ discrete Laplace transforms on quantum states encoded in $\\lceil \\log_2(N)\\rceil$-qubits. In many cases, the associated quantum circuits have a depth that scales with $N$ as $O(\\log(\\log(N)))$ and a size that scales as $O(\\log(N))$, requiring exponentially fewer operations and double-exponentially less computational time than their classical counterparts. These efficient scalings open the possibility of developing a new class of quantum algorithms based on Laplace transforms, with potential applications in physics, engineering, chemistry, machine learning, and finance.         ",
+    "url": "https://arxiv.org/abs/2412.05173",
+    "authors": [
+      "Julien Zylberman"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
