@@ -1,0 +1,500 @@
+[
+  {
+    "id": "arXiv:2412.08650",
+    "title": "Capacitive Touch Sensor Modeling With a Physics-informed Neural Network and Maxwell's Equations",
+    "abstract": "           Maxwell's equations are the fundamental equations for understanding electric and magnetic field interactions and play a crucial role in designing and optimizing sensor systems like capacitive touch sensors, which are widely prevalent in automotive switches and smartphones. Ensuring robust functionality and stability of the sensors in dynamic environments necessitates profound domain expertise and computationally intensive multi-physics simulations. This paper introduces a novel approach using a Physics-Informed Neural Network (PINN) based surrogate model to accelerate the design process. The PINN model solves the governing electrostatic equations describing the interaction between a finger and a capacitive sensor. Inputs include spatial coordinates from a 3D domain encompassing the finger, sensor, and PCB, along with finger distances. By incorporating the electrostatic equations directly into the neural network's loss function, the model captures the underlying physics. The learned model thus serves as a surrogate sensor model on which inference can be carried out in seconds for different experimental setups without the need to run simulations. Efficacy results evaluated on unseen test cases demonstrate the significant potential of PINNs in accelerating the development and design optimization of capacitive touch sensors.         ",
+    "url": "https://arxiv.org/abs/2412.08650",
+    "authors": [
+      "Ganyong Mo",
+      "Krishna Kumar Narayanan",
+      "David Castells-Rufas",
+      "Jordi Carrabina"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08748",
+    "title": "Integrated modeling of RF-Induced Tungsten Erosion at ICRH Antenna Structures in the WEST Tokamak",
+    "abstract": "           This paper introduces STRIPE (Simulated Transport of RF Impurity Production and Emission), an advanced modeling framework designed to analyze material erosion and the global transport of eroded impurities originating from radio-frequency (RF) antenna structures in magnetic confinement fusion devices. STRIPE integrates multiple computational tools, each addressing different levels of physics fidelity: SolEdge3x for scrape-off-layer plasma profiles, COMSOL for 3D RF rectified voltage fields, RustBCA code for erosion yields and surface interactions, and GITR for 3D ion energy-angle distributions and global impurity transport. The framework is applied to an ion cyclotron RF heated, L-mode discharge #57877 in the WEST Tokamak, where it predicts a tenfold increase in tungsten erosion at RF antenna limiters under RF-sheath rectification conditions, compared to cases with only a thermal sheath. Highly charged oxygen ions (O6+ and higher) emerge as dominant contributors to tungsten sputtering at the antenna limiters. To verify model accuracy, a synthetic diagnostic tool based on inverse photon efficiency or S/XB coefficients from the ColRadPy-collisional radiative model enables direct comparisons between simulation results and experimental spectroscopic data. Model predictions, assuming plasma composition of 1% oxygen and 99% deuterium, align closely with measured neutral tungsten (W-I) spectroscopic data for the discharge #57877, validating the framework's accuracy. Currently, the STRIPE framework is being extended to investigate plasma-material interactions in other RF-heated linear and toroidal devices, offering valuable insights for RF antenna design, impurity control, and performance optimization in future fusion reactors.         ",
+    "url": "https://arxiv.org/abs/2412.08748",
+    "authors": [
+      "A. Kumar",
+      "W. Tierens",
+      "T. Younkin",
+      "C. Johnson",
+      "C. Klepper",
+      "A. Diaw",
+      "J. Lore",
+      "A. Grosjean",
+      "G. Urbanczyk",
+      "J. Hillariet",
+      "P. Tamain",
+      "L. Colas",
+      "C. Guillemaut",
+      "D. Curreli",
+      "S. Shiraiwa",
+      "N. Bertelli",
+      "WEST team"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08811",
+    "title": "Evidence of enhanced two-level system loss suppression in high-Q, thin film aluminum microwave resonators",
+    "abstract": "           As superconducting kinetic inductance detectors (KIDs) continue to grow in popularity for sensitive sub-mm detection and other applications, there is a drive to advance toward lower loss devices. We present measurements of diagnostic thin film aluminum coplanar waveguide (CPW) resonators designed to inform ongoing KID development at NASA Goddard Space Flight Center. The resonators span $\\rm f_0 = 3.5 - 4$\\,GHz and include both quarter-wave and half-wave resonators with varying coupling capacitor designs. We present measurements of the device film properties and an analysis of the dominant mechanisms of loss in the resonators measured in a dark environment. We demonstrate quality factors of $\\rm Q_i^{-1} \\approx 3.64 - 8.57 \\times10^{-8}$, and observe enhanced suppression of two-level system (TLS) loss in our devices at high internal microwave power levels before the onset of quasiparticle dissipation from microwave heating. We observe deviations from the standard TLS loss model at low powers and temperatures below 60 mK, and use a modified model to describe this behavior.         ",
+    "url": "https://arxiv.org/abs/2412.08811",
+    "authors": [
+      "Carolyn G. Volpert",
+      "Emily M. Barrentine",
+      "Alberto D. Bolatto",
+      "Ari Brown",
+      "Jake A. Connors",
+      "Thomas Essinger-Hileman",
+      "Larry A. Hess",
+      "Vilem Mikula",
+      "Thomas R. Stevenson",
+      "Eric R. Switzer"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08881",
+    "title": "Ultrafast Quantum Optics and Communication",
+    "abstract": "           Advancements in quantum optics and squeezed light generation have revolutionized various fields of quantum science over the past three decades, with notable applications such as gravitational wave detection. Here, we extend the use of squeezed light to the realm of ultrafast quantum science. We demonstrate the generation of ultrafast, broadband quantum light pulses spanning 0.33 to 0.73 PHz using light field synthesizer and a four-wave mixing nonlinear process. Experimental results confirm that these pulses exhibit amplitude squeezing, which is consistent with theoretical predictions. This work lays the groundwork for a new field of ultrafast quantum science, enabling real-time studies of quantum light-matter interaction dynamics, which expect to reveal new physics. We also demonstrate the encoding of binary digital data onto these quantum light waveforms, synthesized with attosecond resolution, showcasing potential applications in secure quantum communication. This work paves the way for ultrafast quantum optoelectronics, quantum computing, and next-generation encrypted quantum communication networks, capable of achieving petahertz-scale data transmission speeds.         ",
+    "url": "https://arxiv.org/abs/2412.08881",
+    "authors": [
+      "Mohamed Sennary",
+      "Javier Rivera-Dean",
+      "Mohamed ElKabbash",
+      "Vladimir Pervak",
+      "Maciej Lewenstein",
+      "Mohammed Th. Hassan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08930",
+    "title": "A photonic integrated circuit for heterogeneous second harmonic generation",
+    "abstract": "           Heterogeneous integration of GaAs-based lasers with frequency doubling waveguides presents a clear path to scalable coherent sources in the so-called green gap, yet frequency doubling systems have so far relied on separately manufactured lasers to deliver enough power for second harmonic generation. In this work, we propose a photonic integrated circuit (PIC) which alleviates the performance requirements for integrated frequency doublers. Two gain sections are connected by waveguides, with a frequency converter and a wavelength separator in between. The fundamental light circulates between the gain sections until it is converted and emitted through the wavelength separator. Variants of this separated gain PIC are discussed, and the PIC is implemented with thin film lithium niobate and directly bonded GaAs-based lasers, coupled by on-chip facets and adiabatic tapers, realizing visible light generation in the 515-595 nm range.         ",
+    "url": "https://arxiv.org/abs/2412.08930",
+    "authors": [
+      "Theodore J. Morin",
+      "Mingxiao Li",
+      "Federico Camponeschi",
+      "Hou Xiong",
+      "Deven Tseng",
+      "John E. Bowers"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09017",
+    "title": "TCAD Simulation of Two Photon Absorption -- Transient Current Technique measurements on Silicon Detectors and LGADs",
+    "abstract": "           Device simulation plays a crucial role in complementing experimental device characterisation by enabling deeper understanding of internal physical processes. However, for simulations to be trusted, experimental validation is essential to confirm the accuracy of the conclusions this http URL the framework of semiconductor detector characterisation, one powerful tool for such validation is the Two Photon Absorption - Transient Current Technique (TPA-TCT), which allows for highly precise, three-dimensional spatially-resolved characterisation of semiconductor detectors. In this work, the TCAD framework Synopsys Sentaurus is used to simulate depth-resolved TPA-TCT data for both p-type pad detectors (PINs) and Low Gain Avalanche Detectors (LGADs). The simulated data are compared against experimentally measured TPA-TCT results. Through this comparison, it is demonstrated that TCAD simulations can reproduce the TPA-TCT measurements, providing valuable insights into the TPA-TCT itself. Another significant outcome of this study is the successful simulation of the gain reduction mechanism, which can be observed in LGADs with increasing densities of excess charge carriers. This effect is demonstrated in an p-type LGAD with a thickness of approximately 286 um. The results confirm the ability of TCAD to model the complex interaction between carrier dynamics and device gain.         ",
+    "url": "https://arxiv.org/abs/2412.09017",
+    "authors": [
+      "Sebastian Pape",
+      "Michael Moll",
+      "Marcos Fern\u00e1ndez Garc\u00eda",
+      "Moritz Wiehe"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09106",
+    "title": "Lifshitz tail states in non-Hermitian disordered photonic lattices",
+    "abstract": "           In lattices with uncorrelated on-site potential disorder, Anderson localization near the band edges can exhibit anomalously weak localization in the form of Lifshitz tail states. These states correspond to clusters of contiguous sites with nearly identical on-site energies, allowing excitations to extend significantly beyond the characteristic localization length determined by the inverse of Lyapunov exponent. Since Lifshitz tail states are rare events, with an exponentially small density of states, they are typically considered of limited practical importance. In this work, we demonstrate that when Anderson localization is induced by disorder in an imaginary on-site potential, Lifshitz tail states can dominate the system's dynamics and become experimentally observable. This phenomenon is illustrated through the Anderson-Bernoulli model in a non-Hermitian photonic lattice, shedding light on the unique interplay between disorder and non-Hermiticity in such systems         ",
+    "url": "https://arxiv.org/abs/2412.09106",
+    "authors": [
+      "Stefano Longhi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09138",
+    "title": "The Stroh formalism for acoustic waves in 1D-inhomogeneous media: unified background and some applications",
+    "abstract": "           The aim of the review is to consolidate the core aspects of the Stroh formalism, trace the development of the impedance matrix concept, and outline the range of acoustic problems that have been treated by these methods over the last two decades.         ",
+    "url": "https://arxiv.org/abs/2412.09138",
+    "authors": [
+      "A.L. Shuvalov"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09233",
+    "title": "High-Speed Time Series Prediction with a GHz-rate Photonic Spiking Neural Network built with a single VCSEL",
+    "abstract": "           Photonic technologies hold significant potential for creating innovative, high-speed, efficient and hardware-friendly neuromorphic computing platforms. Neuromorphic photonic methods leveraging ubiquitous, technologically mature and cost-effective Vertical-Cavity Surface Emitting Lasers (VCSELs) are of notable interest. VCSELs have demonstrated the capability to replicate neuronal optical spiking responses at ultrafast rates. These characteristics have triggered research into applying these key-enabling devices in spike-based photonic computing. Here, a GHz-rate photonic Spiking Neural Network (p-SNN) using a single VCSEL is reported, and its application to a complex time-series prediction task is demonstrated for the first time. The VCSEL p-SNN combined with a technique to induce network memory, is applied to perform multi-step-ahead predictions of a chaotic time-series. By providing the feedforward p-SNN with only two temporally separated inputs excellent accuracy is experimentally demonstrated over a range of prediction horizons. VCSEL-based p-SNNs therefore offer ultrafast, efficient operation in complex predictive tasks whilst enabling hardware implementations. The inherent attributes and performance of VCSEL p-SNNs hold great promise for use in future light-enabled neuromorphic computing hardware.         ",
+    "url": "https://arxiv.org/abs/2412.09233",
+    "authors": [
+      "Dafydd Owen-Newns",
+      "Lina Jaurigue",
+      "Josh Robertson",
+      "Andrew Adair",
+      "Jonnel Anthony Jaurigue",
+      "Kathy L\u00fcdge",
+      "Antonio Hurtado"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09267",
+    "title": "Characterization and performance of the Apollon main short-pulse laser beam following its commissioning at 2 PW level",
+    "abstract": "           We present the results of the second commissioning phase of the short-focal-length area of the Apollon laser facility (located in Saclay, France), which was performed with the main laser beam (F1), scaled to a peak power of 2 PetaWatt. Under the conditions that were tested, this beam delivered on-target pulses of maximum energy up to 45 J and 22 fs duration. Several diagnostics were fielded to assess the performance of the facility. The on-target focal spot and its spatial stability, as well as the secondary sources produced when irradiating solid targets, have all been characterized, with the goal of helping users design future experiments. The laser-target interaction was characterized, as well as emissions of energetic ions, X-ray and neutrons recorded, all showing good laser-to-target coupling efficiency. Moreover, we demonstrated the simultaneous fielding of F1 with the auxiliary 0.5 PW F2 beam of Apollon, enabling dual beam operation. The present commissioning will be followed in 2025 by a further commissioning stage of F1 at the 8 PW level, en route to the final 10 PW goal.         ",
+    "url": "https://arxiv.org/abs/2412.09267",
+    "authors": [
+      "Weipeng Yao",
+      "Ronan Leli\u00e8vre",
+      "Itamar Cohen",
+      "Tessa Waltenspiel",
+      "Amokrane Allaoua",
+      "Patrizio Antici",
+      "Yohan Ayoul",
+      "Arie Beck",
+      "Audrey Beluze",
+      "Christophe Blancard",
+      "Daniel Cavanna",
+      "M\u00e9lanie Chabanis",
+      "Sophia N. Chen",
+      "Erez Cohen",
+      "Quentin Ducasse",
+      "Mathieu Dumergue",
+      "Fouad El Hai",
+      "Christophe Evrard",
+      "Evgeny Filippov",
+      "Antoine Freneaux",
+      "Donald Cort Gautier",
+      "Fabrice Gobert",
+      "Franck Goupille",
+      "Michael Grech",
+      "Laurent Gremillet",
+      "Yoav Heller",
+      "Emmanuel d'Humi\u00e8res",
+      "Hanna Lahmar",
+      "Livia Lancia",
+      "Nathalie Lebas",
+      "Ludovic Lecherbourg",
+      "St\u00e9phane Marchand",
+      "Damien Mataja",
+      "Gabriel Meyniel",
+      "David Michaeli",
+      "Dimitris Papadopoulos",
+      "Fr\u00e9d\u00e9ric Perez",
+      "Sergy Pikuz",
+      "Ishay Pomerantz",
+      "Patrick Renaudin",
+      "Lorenzo Romagnani",
+      "Fran\u00e7ois Trompier",
+      "Edouard Veuillot",
+      "Thibaut Vinchon",
+      "Fran\u00e7ois Mathieu",
+      "Julien Fuchs"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09351",
+    "title": "Dynamic optical coherence tomography algorithm for label-free assessment of swiftness and occupancy of intratissue moving scatterers",
+    "abstract": "           Dynamic optical coherence tomography (DOCT) statistically analyzes fluctuations in time-sequential OCT signals, enabling label-free and three-dimensional visualization of intratissue and intracellular activities. Current DOCT methods, such as logarithmic intensity variance (LIV) and OCT correlation decay speed (OCDS) have several this http URL, the DOCT values and intratissue motions are not directly related, and hence DOCT values are not interpretable in the context of the tissue motility. We introduce a new DOCT algorithm that provides more direct interpretation of DOCT in the contexts of dynamic scatterer ratio and scatterer speed in the this http URL detailed properties of the new and conventional DOCT methods are investigated by numerical simulations, and the experimental validation with in vitro and ex vivo samples demonstrates the feasibility of the new method.         ",
+    "url": "https://arxiv.org/abs/2412.09351",
+    "authors": [
+      "Rion Morishita",
+      "Pradipta Mukherjee",
+      "Ibrahim Abd El-Sadek",
+      "Tanatchaya Seesan",
+      "Tomoko Mori",
+      "Atsuko Furukawa",
+      "Shinichi Fukuda",
+      "Donny Lukmanto",
+      "Satoshi Matsusaka",
+      "Shuichi Makita",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09421",
+    "title": "HfO$_2$-based platform for high-index-contrast visible/UV integrated photonics",
+    "abstract": "           Ultraviolet and visible integrated photonics are enabling for applications in quantum information, sensing, and spectroscopy, among others. Few materials support low-loss photonics into the UV, and the relatively low refractive index of known depositable materials limits the achievable functionality. Here we present a high-index integrated photonics platform based on HfO$_2$ and Al$_2$O$_3$ composites deposited via Atomic Layer Deposition (ALD) with low loss in the visible and near-UV. We show that Al$_2$O$_3$ incorporation dramatically decreases bulk loss compared to pure HfO$_2$, consistent with inhibited crystallization due to the admixture of Al$_2$O$_3$. Composites exhibit refractive index $n$ following the average of that of HfO$_2$ and Al$_2$O$_3$, weighted by the HfO$_2$ fractional composition $x$. At $\\lambda=375$ nm, composites with $x=0.67$ exhibit $n=2.08$ preserving most of HfO$_2$'s significantly higher index, and $3.8(7) $ dB/cm material loss. We further present fully etched and cladded waveguides, grating couplers, and ring resonators, realizing single-mode waveguide loss of $0.25(2)$ dB/cm inferred from resonators of 2.6 million intrinsic quality factor at $\\lambda=729$ nm, $2.6(2)$ dB/cm at $\\lambda=405$ nm, and $7.7(6)$ dB/cm at $\\lambda=375$ nm. We measure the composite's thermo-optic coefficient (TOC) to be $2.44(3) \\times 10^{-5}$ RIU/$^\\circ$C near $\\lambda=397$ nm. This work establishes (HfO$_2$)$_x$(Al$_2$O$_3$)$_{1-x}$ composites as a platform amenable to integration for low-loss, high-index photonics spanning the UV to NIR.         ",
+    "url": "https://arxiv.org/abs/2412.09421",
+    "authors": [
+      "Oscar Jaramillo",
+      "Vighnesh Natarajan",
+      "Hamim Mahmud Rivy",
+      "Joshua Tensuan",
+      "Leonardo Massai",
+      "Karan K. Mehta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09580",
+    "title": "Optical Arbitrary Waveform Generation (OAWG) Using Actively Phase-Stabilized Spectral Stitching",
+    "abstract": "           The conventional way of generating optical waveforms relies on the in-phase and quadrature (IQ) modulation of a continuous wave (CW) laser tone. In this case, the bandwidth of the resulting optical waveform is limited by the underlying electronic components, in particular by the digital-to-analog converters (DACs) generating the drive signals for the IQ modulator. This bandwidth bottleneck can be overcome by using a concept known as optical arbitrary waveform generation (OAWG), where multiple IQ modulators and DACs are operated in parallel to first synthesize individual spectral slices, which are subsequently combined to form a single ultra-broadband arbitrary optical waveform. However, targeted synthesis of arbitrary optical waveforms from multiple spectral slices has so far been hampered by difficulties to maintain the correct optical phase relationship between the slices. In this paper, we propose and demonstrate spectrally sliced OAWG with active phase stabilization, which permits targeted synthesis of truly arbitrary optical waveforms. We demonstrate the viability of the scheme by synthesizing optical waveforms with record-high bandwidths of up to 325 GHz from four individually generated optical tributaries. In a proof-of-concept experiment, we use the OAWG system to generate 32QAM data signals at symbol rates of up to 320 GBd, which we transmit over 87 km of single-mode fiber and receive by a two-channel non-sliced optical arbitrary waveform measurement (OAWM) system, achieving excellent signal quality. We believe that our scheme can unlock the full potential of OAWG and disrupt a wide range of applications in high-speed optical communications, photonic-electronic digital-to-analog conversion, as well as advanced test and measurement in science and industry.         ",
+    "url": "https://arxiv.org/abs/2412.09580",
+    "authors": [
+      "Daniel Drayss",
+      "Dengyang Fang",
+      "Alban Sherifaj",
+      "Huanfa Peng",
+      "Christoph F\u00fcllner",
+      "Thomas Henauer",
+      "Grigory Lihachev",
+      "Tobias Harter",
+      "Wolfgang Freude",
+      "Sebastian Randel",
+      "Tobias J. Kippenberg",
+      "Thomas Zwick",
+      "Christian Koos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08665",
+    "title": "Thermal-noise Limits to the Frequency Stability of Burned Spectral Holes",
+    "abstract": "           Techniques in frequency stabilization of lasers to fixed-spacer optical cavities have advanced to the point where the ultimate frequency stabilities are limited by thermal noise in the cavity materials for standard cavity configurations at room temperature. The use of spectral-hole burning (SHB) in laser stabilization has produced promising results in early experiments. In this letter we explore the thermal-noise limits to frequency stability in burned spectral holes. We compile known material parameters for a typical system used in SHB experiments (Eu 3+ doped Y 2 SiO 5 ) to make numerical estimates for the fundamental thermal-noise induced frequency instability in spectral-holes for the liquid-helium temperature and dilution temperature cases. These efforts can guide the design of future SHB experiments and clarify which important material parameters remain to be measured.         ",
+    "url": "https://arxiv.org/abs/2412.08665",
+    "authors": [
+      "M T Hartman",
+      "N Wagner",
+      "S Seidelin",
+      "B Fang"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09208",
+    "title": "Quantum correlations via vector soliton interactions",
+    "abstract": "           The generation of quantum-correlated pulse pairs in a dispersion modulated birefringent fiber is considered. The photon-number correlations and squeezing are studied using linearized quantum fluctuation theory. Two models of the pulse propagation in an optical fiber are used. The first model is based on the Manakov equations, and the second one is based on the coupled nonlinear Schrodinger equations with differential group delay and birefringence terms. In the Manakov model the correlated pulse pairs can be generated using splitting of a second-order soliton and inelastic collision of two fundamental solitons. The interpulse correlations depends on the modulation period of the fiber dispersion. In the model of the coupled nonlinear Schrodinger equations the correlated pulse pair can be produced using pulse splitting due to polarization mode dispersion. The pulses have orthogonal polarization states. This allows the pulses to be separated into two different channels using a polarization beam splitter. The interpulse correlation depends on the interplay between polarization mode dispersion and polarization instability.         ",
+    "url": "https://arxiv.org/abs/2412.09208",
+    "authors": [
+      "Andrey Konyukhov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09252",
+    "title": "Long-lived quantum correlation by cavity-mediated subradiance",
+    "abstract": "           Cooperative effects such as super(sub)radiance in quantum systems arise from the interplay among quantum emitters. While bright superradiant states have been extensively studied and yielded significant insights into cooperative phenomena, subradiant states have remained less explored due to their inherently dark state nature. However, subradiance holds significant potential as valuable quantum resources that exploit long-lived and large-scale entanglement, which is a key for advancing quantum information technologies. Here, we demonstrate a long-lived subradiant state among multiple quantum emitters coupled to a directional low Q cavity. In a tailored photonic environment with balanced cavity dissipation, emitter-field coupling strength, and incoherent pumping, two coupled quantum dots exhibit a steady-state population in a subradiant state with highly negative cooperativity. As an important hallmark of a subradiant state, the system shows large photon bunching (g^((2))(0)>>2) and suppressed single-photon decay. In addition, controlling the excitation wavelength provides a useful tool for manipulating dephasing and the number of coupled emitters, which leads to significant changes in photon statistics. Our approach to inducing cavity-mediated subradiance paves the way for creating and harnessing quantum correlations in quantum emitters via a long-lived entangled quantum state, essential for quantum storage and metrology.         ",
+    "url": "https://arxiv.org/abs/2412.09252",
+    "authors": [
+      "Kyu-Young Kim",
+      "Jin Hee Lee",
+      "Woong Bae Jeon",
+      "Dong Hyun Park",
+      "Suk In Park",
+      "Jin Dong Song",
+      "Changhyoup Lee",
+      "Je-Hyung Kim"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09277",
+    "title": "Analytical model for the frequency behavior of two distinct modes in nano-constriction spin Hall nano-oscillator",
+    "abstract": "           Nano-constriction spin-Hall nano-oscillators (NC-SHNOs) have garnered considerable interest due to their potential use as efficient and adjustable nano-sized sources of microwave signals, with high-frequency tunability, adaptable design layout, and CMOS compatibility. In order to facilitate system- and circuit-level designs based on the NC-SHNOs, it is essential to have an analytical model capable of predicting the behavior of the NC-SHNO. In this paper, we introduce an analytical model to describe the frequency behavior of a single NC-SHNO in an in-plane magnetic field while considering the Oersted field. The model is divided into two regions based on the direct current value: the \"linear-like\" and \"bullet\" modes. Each region is characterized by distinct concepts and equations. The first region, the \"linear-like mode,\" emerges from the nano-constriction edges and progresses toward the center of the active area of the NC-SHNO. In contrast, the second regime, the localized \"bullet mode,\" exhibits negative nonlinearity, where increasing the current will lead to a decrease in frequency. The model's validity is confirmed through experimental data obtained from electrical RF measurements on a single 180nm wide NC-SHNO, and the model demonstrates excellent agreement with experimental data.         ",
+    "url": "https://arxiv.org/abs/2412.09277",
+    "authors": [
+      "H. Ghanatian",
+      "M. Rajabali",
+      "R. Khymyn",
+      "A. Kumar",
+      "V. H. Gonz\u00e1lez",
+      "H. Farkhani",
+      "J.\u00c5kerman",
+      "F. Moradi \u00c5kerman"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.09557",
+    "title": "Experimental Machine Learning with Classical and Quantum Data via NMR Quantum Kernels",
+    "abstract": "           Kernel methods map data into high-dimensional spaces, enabling linear algorithms to learn nonlinear functions without explicitly storing the feature vectors. Quantum kernel methods promise efficient learning by encoding feature maps into exponentially large Hilbert spaces inherent in quantum systems. In this work we implement quantum kernels on a 10-qubit star-topology register in a nuclear magnetic resonance (NMR) platform. We experimentally encode classical data in the evolution of multiple quantum coherence orders using data-dependent unitary transformations and then demonstrate one-dimensional regression and two-dimensional classification tasks. By extending the register to a double-layered star configuration, we propose an extended quantum kernel to handle non-parametrized operator inputs. By numerically simulating the extended quantum kernel, we show classification of entangling and nonentangling unitaries. These results confirm that quantum kernels exhibit strong capabilities in classical as well as quantum machine learning tasks.         ",
+    "url": "https://arxiv.org/abs/2412.09557",
+    "authors": [
+      "Vivek Sabarad",
+      "T. S. Mahesh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.01811",
+    "title": "Multiple scattering suppression for in vivo optical coherence tomography measurement using B-scan-wise multi-focus averaging method",
+    "abstract": "           We demonstrate a method that reduces the noise caused by multi-scattering (MS) photons in an \\invivo optical coherence tomography image. This method combines a specially designed image acquisition (i.e., optical coherence tomography scan) scheme and subsequent complex signal processing. For the acquisition, multiple cross-sectional images (frames) are sequentially acquired while the depth position of the focus is altered for each frame by an electrically tunable lens. In the signal processing, the frames are numerically defocus-corrected, and complex averaged. Because of the inconsistency in the MS-photon trajectories among the different electrically tunable lens-induced defocus, this averaging reduces the MS signal. This method was validated using a scattering phantom and in vivo unanesthetized small fish samples, and was found to reduce MS noise even for unanesthetized in vivo measurement.         ",
+    "url": "https://arxiv.org/abs/2404.01811",
+    "authors": [
+      "Yiqiang Zhu",
+      "Lida Zhu",
+      "Yiheng Lim",
+      "Shuichi Makita",
+      "Yu Guo",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.01274",
+    "title": "Emergent spin and orbital angular momentum of light in twisted photonic bilayer",
+    "abstract": "           We demonstrate that the optical response of twisted photonic bilayers, photonic counterparts of van der Waals structures, is sensitive to both spin angular momentum (SAM) and orbital angular momentum (OAM) of light. A beam of unpolarized light with zero angular momentum acquires SAM in transmission and OAM in reflection. The developed analytical theory and numerical calculations show that the SAM and OAM arise from distinct microscopic mechanisms and depend differently on the interlayer distance. The predicted phenomena do not require light absorption and are caused by the photon-helicity-dependent light diffraction by the moir\u00e9 pattern, which inevitably occurs in the twisted structure, and the SAM-OAM conversion processes. We also reveal strong SAM and OAM in the moir\u00e9-diffracted beams. Our findings uncover a profound connection between the emergent SAM and OAM in twisted photonic systems offering new possibilities for angular-momentum-resolved light-matter interactions.         ",
+    "url": "https://arxiv.org/abs/2408.01274",
+    "authors": [
+      "Egor S. Vyatkin",
+      "Alexander V. Poshakinskiy",
+      "Sergey A. Tarasenko"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17297",
+    "title": "D-band MUTC Photodiode Module for Ultra-Wideband 160 Gbps Photonics-Assisted Fiber-THz Integrated Communication System",
+    "abstract": "           Current wireless communication systems are increasingly constrained by insufficient bandwidth and limited power output, impeding the achievement of ultra-high-speed data transmission. The terahertz (THz) range offers greater bandwidth, but it also imposes higher requirements on broadband and high-power devices. In this work, we present a modified uni-traveling-carrier photodiode (MUTC-PD) module with WR-6 waveguide output for photonics-assisted fiber-THz integrated wireless communications. Through the optimization of the epitaxial structure and high-impedance coplanar waveguide (CPW), the fabricated 6-um-diameter MUTC-PD achieves a high output power of -0.96 dBm at 150 GHz and ultra-flat frequency response at D-band. The MUTC-PD is subsequently packaged into a compact WR-6 module, incorporating planar-circuit-based RF-choke, DC-block and probe. The packaged PD module demonstrates high saturation power and flat frequency responses with minimal power roll-off of only 2 dB over 110-170 GHz. By incorporating the PD module into a fiber-THz integrated communication system, high data rates of up to 160 Gbps with 16 quadrature amplitude modulation (QAM) and a maximum symbol transmission rate of 60 Gbaud with QPSK modulation are successfully secured. The demonstration verifies the potential of the PD module for ultra-broadband and ultra-high-speed THz communications, setting a foundation for future research in high-speed data transmission.         ",
+    "url": "https://arxiv.org/abs/2411.17297",
+    "authors": [
+      "Yuxin Tian",
+      "Yaxuan Li",
+      "Bing Xiong",
+      "Junwen Zhang",
+      "Changzheng Sun",
+      "Zhibiao Hao",
+      "Jian Wang",
+      "Lai Wang",
+      "Yanjun Han",
+      "Hongtao Li",
+      "Lin Gan",
+      "Nan Chi",
+      "Yi Luo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.19150",
+    "title": "Field tunable plasmonic lenses for optical microscopy",
+    "abstract": "           This study examines the behavior and tunability of plasmonic lenses created from arrays of nanoslits, applicable in sub-wavelength optical microscopy and other high-resolution imaging systems. We performed simulations on COMSOL Multiphysics to assess power flow and focal shifts in plasmonic lenses with differing slit designs, refractive indices, and angular distributions. The findings indicate that the confinement can be regulated by adjusting these parameters.         ",
+    "url": "https://arxiv.org/abs/2411.19150",
+    "authors": [
+      "Divyansh Wadhwa",
+      "Gurharinder Singh",
+      "Krishna Bharadwaj Balasubramanian"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.06427",
+    "title": "Terahertz Microscopy Through Complex Media",
+    "abstract": "           Manipulating broadband fields in scattering media is a modern challenge across photonics and other wave domains. Recent studies have shown that complex propagation in scattering media can be harnessed to manipulate broadband light wave packets in space-time for focusing, imaging, and computing applications. Interestingly, while many proposed methodologies operate on intensity-based assessment of scattered fields, often in the spectral domain, from a pure transmission-function perspective, scattering operates as a linear field-level combinatory process, i.e., the superposition of transformation of unit excitations. As a result, we recently demonstrated that gaining experimental access to instantaneous scattered fields, as available through time-domain spectroscopy in the terahertz spectral range, in conjunction with sparse light excitation typical of ghost imaging, provides a key advantage in enabling the functionalisation of scattering, exposing a novel modelling paradigm. In this paper, we provide experimental proof of reconstructing 1-dimensional object features through a scattering medium using a fully broadband time-domain terahertz approach.         ",
+    "url": "https://arxiv.org/abs/2412.06427",
+    "authors": [
+      "Vivek Kumar",
+      "Vittorio Cecconi",
+      "Antonio Cutrona",
+      "Luke Peters",
+      "Luana Olivieri",
+      "Juan S. Totero Gongora",
+      "Alessia Pasquazi",
+      "Marco Peccianti"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.08009",
+    "title": "FLRONet: Deep Operator Learning for High-Fidelity Fluid Flow Field Reconstruction from Sparse Sensor Measurements",
+    "abstract": "           The ability to reconstruct high-fidelity fluid flow fields from sparse sensor measurement is critical for many science and engineering applications, but remains a huge challenge. This challenge is caused by the large difference between the dimensions of the state space and the observational space, making the operator that provides the mapping from the state space to the observational space ill-conditioned and non-invertible. As a result, deriving the forward map from the observational space to the state space as the inverse of the measurement operator is nearly impossible. While traditional methods, including sparse optimization, data assimilation, or machine learning based regressive reconstruction, are available, they often struggle with generalization and computational efficiency, particularly when non-uniform or varying discretization of the domain are considered. In this work, we propose FLRONet, a novel operator learning framework designed to reconstruct full-state flow fields from sparse sensor measurements in space and time. FLRONet utilizes a branch-trunk architecture, where the branch network integrates sensor observations from multiple time instances, and the trunk network encodes the entire temporal domain. This design allows FLRONet to achieve highly accurate, discretization-independent reconstructions at any time within the observation window. Although the popular three-dimensional Fourier Neural Operator offers similar functionalities, our results show that FLRONet surpasses it in both accuracy and efficiency. FLRONet not only achieves superior performance in approximating the true operator but also exhibits significantly faster inference at high-fidelity discretizations.         ",
+    "url": "https://arxiv.org/abs/2412.08009",
+    "authors": [
+      "Hiep Vo Dang",
+      "Joseph B. Choi",
+      "Phong C. H. Nguyen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.11246",
+    "title": "Robust Quantum Control via Multipath Interference for Thousandfold Phase Amplification in a Resonant Atom Interferometer",
+    "abstract": "           We introduce a novel technique for enhancing the robustness of light-pulse atom interferometers against the pulse infidelities that typically limit their sensitivities. The technique uses quantum optimal control to favorably harness the multipath interference of the stray trajectories produced by imperfect atom-optics operations. We apply this method to a resonant atom interferometer and achieve thousand-fold phase amplification, representing a fifty-fold improvement over the performance observed without optimized control. Moreover, we find that spurious interference can arise from the interplay of spontaneous emission and many-pulse sequences and demonstrate optimization strategies to mitigate this effect. Given the ubiquity of spontaneous emission in quantum systems, these results may be valuable for improving the performance of a diverse array of quantum sensors. We anticipate our findings will significantly benefit the performance of matter-wave interferometers for a variety of applications, including dark matter, dark energy, and gravitational wave detection.         ",
+    "url": "https://arxiv.org/abs/2407.11246",
+    "authors": [
+      "Yiping Wang",
+      "Jonah Glick",
+      "Tejas Deshpande",
+      "Kenneth DeRose",
+      "Sharika Saraf",
+      "Natasha Sachdeva",
+      "Kefeng Jiang",
+      "Zilin Chen",
+      "Tim Kovachy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
