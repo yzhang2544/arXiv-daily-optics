@@ -1,0 +1,568 @@
+[
+  {
+    "id": "arXiv:2412.12120",
+    "title": "Quantum Teleportation Game -- A fun way to play and learn single qubit teleportation protocol",
+    "abstract": "           We demonstrate how the quantum teleportation protocol of a single qubit can be understood by designing a simple game that can be played by three participants: Alice, Bob, and *Quantum God*.         ",
+    "url": "https://arxiv.org/abs/2412.12120",
+    "authors": [
+      "Himadri Barman"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12162",
+    "title": "Quandoom -- DOOM as a quantum circuit",
+    "abstract": "           Since the early 2000s there has existed the meme that \"DOOM can run on anything\". Whether it be an ATM or a calculator, someone at some point has recompiled DOOM to run on it. Now the quantum computer finally joins the list. More specifically, this project represents the first level of DOOM loosely rewritten using Hadamards and Toffolis which, despite being a universal gate set, has been designed in such a way that it's classically simulable, able to reach 10-20 frames per second on a laptop. The circuit uses 72,376 total qubits and at least 80 million gates, thus it may have use as a benchmark for quantum simulation software.         ",
+    "url": "https://arxiv.org/abs/2412.12162",
+    "authors": [
+      "Luke Mortimer"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12275",
+    "title": "A topological route to engineering robust and bright supersymmetric laser arrays",
+    "abstract": "           In recent years, several proposals that leverage principles from condensed matter and high-energy physics for engineering laser arrays have been put forward. The most important among these concepts are topology, which enables the construction of robust zero-mode laser devices, and supersymmetry (SUSY), which holds the potential for achieving phase locking in laser arrays. In this work, we show that the relation between supersymmetric coupled bosonic and fermionic oscillators on one side, and bipartite networks (and hence chiral symmetry) on another side can be exploited together with non-Hermitian engineering for building one- and two-dimensional laser arrays with in-phase synchronization. To demonstrate our strategy, we present a concrete design starting from the celebrated Su-Schrieffer-Heeger (SSH) model to arrive at a SUSY laser structure that enjoys two key advantages over those reported in previous works. Firstly, the design presented here features a near-uniform geometry for both the laser array and supersymmetric reservoir (i.e. the widths and distances between the cavity arrays are almost the same). Secondly, the uniform field distribution in the presented structure leads to a far-field intensity that scales as N^2 where N is the number of lasing elements. Taken together, these two features can enable the implementation of higher-power laser arrays that are easy to fabricate, and hence provide a roadmap for pushing the frontier of SUSY laser arrays beyond the proof-of-concept phase.         ",
+    "url": "https://arxiv.org/abs/2412.12275",
+    "authors": [
+      "Soujanya Datta",
+      "Mohammadmahdi Alizadeh",
+      "Ramy El-Ganainy",
+      "Krishanu Roychowdhury"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12332",
+    "title": "Capacitive-Tuned SIW Evanescent-Mode Cavity for Resonant Microwave Plasma Jet",
+    "abstract": "           This paper introduces a novel atmospheric pressure and frequency-tunable microwave plasma jet utilizing evanescent-mode cavity resonator technology. The design uses a substrate-integrated waveguide approach, where two PCB substrates are assembled to form the resonant microwave plasma jet structure. This configuration provides excellent matching performance across the tuning range and can generate power-efficient plasma jets with a minimal input power of just a few watts. The prototype's resonant frequency can be tuned from 2.94 GHz, with no tuning capacitor, to 2.66 GHz when a capacitor placed in parallel with a circular slot etched on the top PCB board varies up to 1.6 pF. A novel circuit model design approach for this prototype is presented, and close agreement between the measured performance of the fabricated prototype and the simulation results validates this model. The frequency tunability achieved is a critical feature for fine-tuning the plasma jet when fabricated by low-cost PCB manufacturing and for applications in which manipulating the plasma chemistry by varying the ignition frequency is essential.         ",
+    "url": "https://arxiv.org/abs/2412.12332",
+    "authors": [
+      "Kazi Sadman Kabir",
+      "Abbas Semnani"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12360",
+    "title": "A flexible framework for large-scale FDTD simulations: open-source inverse design for 3D nanostructures",
+    "abstract": "           We introduce an efficient open-source python package for the inverse design of three-dimensional photonic nanostructures using the Finite-Difference Time-Domain (FDTD) method. Leveraging a flexible reverse-mode automatic differentiation implementation, our software enables gradient-based optimization over large simulation volumes. Gradient computation is implemented within the JAX framework and based on the property of time reversibility in Maxwell's equations. This approach significantly reduces computational time and memory requirements compared to traditional FDTD methods. Gradient-based optimization facilitates the automatic creation of intricate three-dimensional structures with millions of design parameters, which would be infeasible to design manually. We demonstrate the scalability of the solver from single to multiple GPUs through several inverse design examples, highlighting its robustness and performance in large-scale photonic simulations. In addition, the package features an object-oriented and user-friendly API that simplifies the specification of materials, sources, and constraints. Specifically, it allows for intuitive positioning and sizing of objects in absolute or relative coordinates within the simulation scene. By rapid specification of the desired design properties and rapid optimization within the given user constraints, this open-source framework aims to accelerate innovation in photonic inverse design. It yields a powerful and accessible computational tool for researchers, applicable in a wide range of use cases, including but not limited to photonic waveguides, active devices, and photonic integrated circuits.         ",
+    "url": "https://arxiv.org/abs/2412.12360",
+    "authors": [
+      "Yannik Mahlau",
+      "Frederik Schubert",
+      "Konrad Bethmann",
+      "Reinhard Caspary",
+      "Antonio Cal\u00e0 Lesina",
+      "Marco Munderloh",
+      "J\u00f6rn Ostermann",
+      "Bodo Rosenhahn"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12556",
+    "title": "High-performance thin-film lithium niobate Mach-Zehnder modulator on thick silica buffering layer",
+    "abstract": "           High-speed photonic integrated circuits leveraging the thin-film lithium niobate (TFLN) platform present a promising approach to address the burgeoning global data traffic demands. As a pivotal component, TFLN-based electro-optic (EO) Mach-Zehnder modulators (MZMs) should exhibit low driving voltage, broad operation bandwidth, high extinction ration, and low insertion loss. However, the pursuit of both maximal EO overlap integral and minimal microwave loss necessitates a fundamental compromise between driving voltage and operational bandwidth. Here, we demonstrate high-performance TFLN EO MZMs constructed on a 12-{\\mu}m-thick silica buried layer using periodic capacitively loaded traveling-wave electrodes. In contrast to their counterparts utilizing undercut etched silicon substrates or quartz substrates, our devices exhibit streamlined fabrication processes and enhanced modulation efficiency. Notably, the fabricated MZMs attains a high modulation efficiency of 1.25 Vcm in the telecom C-band, while maintaining a low EO roll-off of 1.3 dB at 67 GHz. Our demonstration offers a pathway to achieving perfect group velocity matching and break the voltage-bandwidth limit in a simplified configuration suitable for volume fabrication, thereby laying foundational groundwork for the advancement of high-performance TFLN MZMs and benefiting the next-generation PICs in optical telecommunication, signal processing and other applications.         ",
+    "url": "https://arxiv.org/abs/2412.12556",
+    "authors": [
+      "Xiaotian Xue",
+      "Yingdong Xu",
+      "Wenjun Ding",
+      "Rui Ye",
+      "Jing Qiu",
+      "Guangzhen Li",
+      "Shijie Liu",
+      "Hao Li",
+      "Luqi Yuan",
+      "Bo Wang",
+      "Yuanlin Zheng",
+      "Xianfeng Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12623",
+    "title": "Photonic Terahertz Phased Array",
+    "abstract": "           Phased arrays are crucial in various technologies, such as radar and wireless communications, due to their ability to precisely control and steer electromagnetic waves. This precise control improves signal processing and enhances imaging performance. However, extending phased arrays to the terahertz (THz) frequency range has proven challenging, especially for high-frequency operation, broadband performance, two-dimensional (2D) phase control with large antenna arrays, and strong phase modulation. Here, we introduce a photonic platform to realize a THz phased array that bypasses the above challenges. Our method employs 2D phase coding with 2-bit across a broad THz frequency range from 0.8 to 1.4 THz. The core of our design is a pixelated nonlinear Pancharatnam-Berry metasurface driven by a spatially modulated femtosecond laser, allowing precise phase control of THz signals. We showcase the effectiveness of our method through four proof-of-concept applications: single beamforming, dual beamforming, imaging and vortex beam generation. The realized photonic platform provides a promising pathway for developing broadband phased arrays in the THz regime.         ",
+    "url": "https://arxiv.org/abs/2412.12623",
+    "authors": [
+      "Li Niu",
+      "Xi Feng",
+      "Xueqian Zhang",
+      "Yongchang Lu",
+      "Qingwei Wang",
+      "Quan Xu",
+      "Xieyu Chen",
+      "Jiajun Ma",
+      "Haidi Qiu",
+      "Wei E.I. Sha",
+      "Shuang Zhang",
+      "Andrea Al\u00f9",
+      "Weili Zhang",
+      "Jiaguang Han"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12736",
+    "title": "Nonlinear optical detection of the orbital angular momentum of light",
+    "abstract": "           Optical beams carrying orbital angular momentum (OAM) have gained significant interest due to their unique properties, enhancing various communication systems and enabling applications such as the characterization of material or molecular chirality. Generating and detecting the OAM of light is thus crucial for numerous applications but poses challenges. This paper proposes a method utilizing stimulated Raman scattering to detect the magnitude of OAM. By exploring the strong Raman coupling between the pump and Stokes beams in higher-order Laguerre-Gauss modes, we demonstrate the discrimination of different optical vortex beams through nonlinear optical measurements. Numerical and experimental results support the feasibility of this approach, potentially advancing optical communication and sensing technologies.         ",
+    "url": "https://arxiv.org/abs/2412.12736",
+    "authors": [
+      "Ju-Young Kim",
+      "Minhaeng Cho"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12743",
+    "title": "Training a Distributed Acoustic Sensing Traffic Monitoring Network With Video Inputs",
+    "abstract": "           Distributed Acoustic Sensing (DAS) has emerged as a promising tool for real-time traffic monitoring in densely populated areas. In this paper, we present a novel concept that integrates DAS data with co-located visual information. We use YOLO-derived vehicle location and classification from camera inputs as labeled data to train a detection and classification neural network utilizing DAS data only. Our model achieves a performance exceeding 94% for detection and classification, and about 1.2% false alarm rate. We illustrate the model's application in monitoring traffic over a week, yielding statistical insights that could benefit future smart city developments. Our approach highlights the potential of combining fiber-optic sensors with visual information, focusing on practicality and scalability, protecting privacy, and minimizing infrastructure costs. To encourage future research, we share our dataset.         ",
+    "url": "https://arxiv.org/abs/2412.12743",
+    "authors": [
+      "Khen Cohen",
+      "Liav Hen",
+      "Ariel Lellouch"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)",
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12838",
+    "title": "Huygens metasurface supporting quasi-bound states in the continuum for terahertz gas sensing",
+    "abstract": "           We investigate a terahertz (THz) gas sensing platform based on all-dielectric metasurfaces that support quasi-bound states in the continuum (quasi-BIC) with both electric and magnetic dipole resonances. The structure is designed to achieve the first Kerker condition, minimizing backscattering and maximizing light-matter interaction, which significantly enhances the sensitivity of the sensor. By optimizing structural parameters, this metasurface selectively resonates at characteristic absorption frequencies of target gases, facilitating detection even at low concentrations. We validate the approach using two gases with strong but distinct THz absorption profiles: hydrogen cyanide (HCN) and sulfur dioxide (SO2). Furthermore, the free-standing design maximizes gas interaction on both sides of the metasurface, eliminating substrate-induced losses and enabling a reduced physical footprint. Our findings indicate that this metasurface outperforms standard THz sensing approaches in terms of compactness and sensitivity per path length unit, obtaining the same detection threshold as sensing in free space with a path length between 2 and 3 orders of magnitude shorter, underscoring its potential for industrial applications where the available space for sensing can be limited.         ",
+    "url": "https://arxiv.org/abs/2412.12838",
+    "authors": [
+      "Jose Antonio \u00c1lvarez-Sanchis",
+      "Borja Vidal",
+      "Ana D\u00edaz-Rubio"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12891",
+    "title": "Superfluorescent upconversion nanoparticles as an emerging second generation quantum technology material",
+    "abstract": "           Superfluorescence in upconversion nanoparticles (UCNPs) is a room-temperature quantum phenomenon which can dramatically increase the rate and overall quantity of photons emitted by neodymium (Nd3+) doped UCNPs. This perspective article contextualizes how SF-UCNPs could be exploited as a class of optical nanomaterials for second generation quantum technology applications.         ",
+    "url": "https://arxiv.org/abs/2412.12891",
+    "authors": [
+      "Lewis E. MacKenzie"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12976",
+    "title": "A compact scalable phase modulator with zero static power consumption for visible integrated photonics",
+    "abstract": "           Optical modulators in the visible regime have far-reaching applications from biophotonics to quantum science. Implementations of such optical phase modulators on a complementary metal-oxide-semiconductor (CMOS) compatible platform have been mainly limited to utilization of the thermo-optic effect, liquid crystal technology, as well as piezo-optomechanical effects. Despite excellent performance, the demonstrations using the thermo-optic effect and liquid crystal technology both suffer from limited modulation speed. Moreover, the demonstrations utilizing piezo-optomechanical effects, require very large footprints due to a weak modulation efficiency. Here, we report the demonstration of the first highly scalable compact CMOS-compatible phase modulator in the visible regime based on altering the refractive index of an indium-tin oxide capacitive stack over a Si${_3}$N${_4}$ waveguide through the charge accumulation effect. The implemented modulator achieves a two orders-of-magnitude larger bandwidth compared to thermo-optic and liquid crystal based counterparts and close to 3 orders-of-magnitude higher modulation efficiency with about two orders-of-magnitude smaller footprint compared to piezo-optomechanical modulators. The 50 ${\\mu}$m long phase modulator achieves a modulation efficiency, V$_{\\pi}$L, of 0.06 this http URL at a zero static power consumption and a 31 MHz bandwidth at 637.9 nm.         ",
+    "url": "https://arxiv.org/abs/2412.12976",
+    "authors": [
+      "Neil MacFarlane",
+      "Firooz Aflatouni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.13016",
+    "title": "Design, fabrication and initial test of a novel 3D-Trench sensor utilizing 8-inch CMOS compatible technology",
+    "abstract": "           The 3D silicon sensor has demonstrated excellent performances (signal collection, detection efficiency, power consumption, etc.) comparable or even better with respect to the traditional planar sensor of the ATLAS Detector at the Large Hadron Collider (LHC), especially after the high irradiation fluence, mainly due to the shorter drift length of the generated carriers. These characteristics have made it the most attractive technology for the detection and track reconstruction of charged particles for the High Energy Physics (HEP). In addition, its application is also being explored in astronomy, microdosimetry and medical imaging. This paper will present the design and fabrication of a novel 3D-Trench sensor which features an enclosed deep trench surrounding the central columnar cathode. This novel sensor has been fabricated on the 8-inch COMS pilot line at the Institute of Microelectronics of the Chinese Academy of Sciences (IMECAS) where ultra-narrow etch width of 0.5 {\\mu}m and the ultra-high depth-to-width ratio (aspect ratio) (>70) have been achieved. Its preliminary simulation and characterization results including electrostatic potential, electric field, Current-Voltage (IV), Capacitance-Voltage (CV), Charge Collection Efficiency (CCE) and Timing Performance before irradiation will be presented in this paper.         ",
+    "url": "https://arxiv.org/abs/2412.13016",
+    "authors": [
+      "Manwen Liu",
+      "Huimin Ji",
+      "Wenzheng Cheng",
+      "Le Zhang",
+      "Zheng Li",
+      "Bo Tang",
+      "Peng Zhang",
+      "Wenjuan Xiong",
+      "Trevor Vickey",
+      "E. Giulio Villani",
+      "Zhihua Li",
+      "Dengfeng Zhang",
+      "Jun Luo"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.13124",
+    "title": "Proton irradiation on Hydrogenated Amorphous Silicon flexible devices",
+    "abstract": "           Radiation damage tests in hydrogenated amorphous silicon (a-Si:H) flexible flux and dose-measuring devices have been performed with a 3 MeV proton beam, to evaluate combined displacement and total ionizing dose damage. The tested devices had two different configurations and thicknesses. The first device was a 2 um thick n-i-p diode having a 5 mm x 5 mm area. The second device was a 5 um thick charge selective contact detector having the same area. Both the devices were deposited on a flexible polyimide substrate and were irradiated up to the fluence of 1016 neq/cm2. The response to different proton fluxes has been measured before irradiation and after irradiation at 1016 neq/cm2 for charge-selective contacts and n-i-p devices. The effect of annealing for partial performance recovery at 100\u00b0C for 12 hours was also studied and a final characterization on annealed devices was performed. This test is the first combined displacement and total ionizing dose test on flexible a-Si:H devices.         ",
+    "url": "https://arxiv.org/abs/2412.13124",
+    "authors": [
+      "M. Menichelli",
+      "S. Aziz",
+      "A. Bashiri",
+      "M. Bizzarri",
+      "C. Buti",
+      "L. Calcagnile",
+      "D. Calvo",
+      "M. Caprai",
+      "D. Caputo",
+      "A.P. Caricato",
+      "R. Catalano",
+      "M. Cazzanelli",
+      "R. Cirio",
+      "G.A.P. Cirrone",
+      "F. Cittadini",
+      "T. Croci",
+      "G. Cuttone",
+      "G. de Cesare",
+      "P. De Remigis",
+      "S. Dunand",
+      "M. Fabi",
+      "L. Frontini",
+      "C. Grimani",
+      "M. Guarrera",
+      "H. Hasnaoui",
+      "M. Ionica",
+      "K. Kanxheri",
+      "M. Large",
+      "F. Lenta",
+      "V. Liberali",
+      "N. Lovecchio",
+      "M. Martino",
+      "G. Maruccio",
+      "L. Maruccio",
+      "G. Mazza",
+      "A. G. Monteduro",
+      "A. Morozzi",
+      "A. Nascetti",
+      "S. Pallotta",
+      "A. Papi",
+      "D. Passeri",
+      "M. Pedio",
+      "M. Petasecca",
+      "G. Petringa",
+      "F. Peverini",
+      "P. Placidi",
+      "M. Polo",
+      "A. Quaranta",
+      "G. Quarta",
+      "S. Rizzato",
+      "F. Sabbatini",
+      "L. Servoli",
+      "A. Stabile",
+      "C. Talamonti",
+      "J. E. Thomet",
+      "M.S. Vasquez Mora",
+      "M. Villani",
+      "R.J. Wheadon",
+      "N. Wyrsch",
+      "N. Zema",
+      "L. Tosti"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12398",
+    "title": "Polynomially efficient quantum enabled variational Monte Carlo for training neural-network quantum states for physico-chemical applications",
+    "abstract": "           Neural-network quantum states (NQS) offer a versatile and expressive alternative to traditional variational ans\u00e4tze for simulating physical systems. Energy-based frameworks, like Hopfield networks and Restricted Boltzmann Machines, leverage statistical physics to map quantum states onto an energy landscape, functioning as memory descriptors. Here, we show that such models can be efficiently trained using Monte Carlo techniques enhanced by quantum devices. Our algorithm scales linearly with circuit width and depth, requires constant measurements, avoids mid-circuit measurements, and is polynomial in storage, ensuring optimal efficiency. It applies to both phase and amplitude fields, significantly expanding the trial space compared to prior methods. Quantum-assisted sampling accelerates Markov Chain convergence and improves sample fidelity, offering advantages over classical approaches. We validate our method by accurately learning ground states of local spin models and non-local electronic structure Hamiltonians, even in distorted molecular geometries with strong multi-reference correlations. Benchmark comparisons show robust agreement with traditional methods. This work highlights the potential of combining machine learning protocols with near-term quantum devices for quantum state learning, with promising applications in theoretical chemistry and condensed matter physics.         ",
+    "url": "https://arxiv.org/abs/2412.12398",
+    "authors": [
+      "Manas Sajjan",
+      "Vinit Singh",
+      "Sabre Kais"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12451",
+    "title": "Neural Canonical Transformations for Quantum Anharmonic Solids of Lithium",
+    "abstract": "           Lithium is a typical quantum solid, characterized by cubic structures at ambient pressure. As the pressure increases, it forms more complex structures and undergoes a metal-to-semiconductor transformation, complicating theoretical and experimental analyses. We employ the neural canonical transformation approach, an \\textit{ab initio} variational method based on probabilistic generative models, to investigate the quantum anharmonic effects in lithium solids at finite temperatures. This approach combines a normalizing flow for phonon excited-state wave functions with a probabilistic model for the occupation of energy levels, optimized jointly to minimize the free energy. Our results indicate that quantum anharmonicity lowers the \\textit{bcc}-\\textit{fcc} transition temperature compared to classical molecular dynamics predictions. At high pressures, the predicted fractional coordinates of lithium atoms in the \\textit{cI16} structure show good quantitative agreement with experimental observations. Finally, contrary to previous beliefs, we find that the poor metallic \\textit{oC88} structure is stabilized by the potential energy surface obtained via high-accuracy electronic structure calculations, rather than thermal or quantum nuclear effects.         ",
+    "url": "https://arxiv.org/abs/2412.12451",
+    "authors": [
+      "Qi Zhang",
+      "Xiaoyang Wang",
+      "Rong Shi",
+      "Xinguo Ren",
+      "Han Wang",
+      "Lei Wang"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12537",
+    "title": "Quantum charge sensing using semiconductor device based on $\\delta$-layer tunnel junctions",
+    "abstract": "           We report a novel nanoscale device concept based on a highly doped $\\delta$-layer tunnel junction embedded in a semiconductor for charge sensing. Recent advances in Atomic Precision Advanced Manufacturing (APAM) processes have enabled the fabrication of devices based on quasi-2D, highly conductive, highly doped regions in semiconductor materials. In this work, we demonstrate that FET-based sensors utilizing APAM $\\delta$-layer tunnel junctions are ultrasensitive to the presence of charges near the tunnel junction, allowing the use of these devices for detecting charges by observing changes in the electrical current. We demonstrate that these devices can enhance the sensitivity in the limit, i.e. for small concentrations of charges, exhibiting significantly superior sensitivity compared to traditional FET-based sensors. We also propose that the extreme sensitivity arises from the strong quantization of the conduction band in these highly-confined systems.         ",
+    "url": "https://arxiv.org/abs/2412.12537",
+    "authors": [
+      "Juan P. Mendez",
+      "Denis Mamaluy"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12624",
+    "title": "Control of open quantum systems: Manipulation of a qubit coupled to a thermal bath by an external driving field",
+    "abstract": "           Fast and reliable manipulation with qubits is fundamental for any quantum technology. The implementation of these manipulations in physical systems is the focus of studies involving optimal control theory. Realistic physical devices are open quantum systems. So far, studies in optimal control theory have primarily utilized the Redfield/Lindblad quantum master equation to simulate the dynamics of such systems. However, this Markov description is not always sufficient. Here, we present a study of qubit control utilizing the nonequilibrium Green's function method. We compare the traditional master equation with more general Green's function results and demonstrate that even in the parameter regime suitable for the application of the Redfield/Lindblad approach, the two methods yield drastically different results when addressing evolution involving mixed states. In particular, we find that, in addition to predicting different optimal driving profiles, a more accurate description of system evolution enables the system to reach the desired final state much more quickly. We argue that the primary reason for this is the significance of the non-Markov description of driven system dynamics due to the effect of time-dependent driving on dissipation.         ",
+    "url": "https://arxiv.org/abs/2412.12624",
+    "authors": [
+      "Haoran Sun",
+      "Michael Galperin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12907",
+    "title": "Microwave-to-Optical Quantum Transduction with Antiferromagnets",
+    "abstract": "           The quantum transduction, or equivalently quantum frequency conversion, between microwave and optical photons is essential for realizing scalable quantum computers with superconducting qubits. Due to the large frequency difference between microwave and optical ranges, the transduction needs to be done via intermediate bosonic modes or nonlinear processes. Regarding the transduction mediated by magnons, previous studies have so far utilized ferromagnetic magnons in ferromagnets. Here, we formulate a theory for the microwave-to-optical quantum transduction mediated by antiferromagnetic magnons in antiferromagnets. We derive analytical expressions for the transduction efficiency in the cases with and without an optical cavity, where a microwave cavity is used in both cases. In contrast to the case of the quantum transduction using ferromagnets, we find that the quantum transduction can occur even in the absence of an external static magnetic field. We also find that, in the case with an optical cavity the transduction efficiency takes a peak structure with respect to the sample thickness, indicating that there exists an optimal thickness, whereas in the case without an optical cavity the transduction efficiency is a monotonically increasing function of the sample thickness. Our study opens up a way for possible applications of antiferromagnetic materials in future quantum interconnects.         ",
+    "url": "https://arxiv.org/abs/2412.12907",
+    "authors": [
+      "Akihiko Sekine",
+      "Ryo Murakami",
+      "Yoshiyasu Doi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.13167",
+    "title": "Search for new interactions at the micron scale with a vector force sensor",
+    "abstract": "           The search for new gravity-like interactions at the sub-millimeter scale is a compelling area of research, with important implications for the understanding of classical gravity and its connections with quantum physics. We report improved constraints on Yukawa-type interactions in the $10\\,\\mathrm{\\mu m}$ regime using optically levitated dielectric microspheres as test masses. The search is performed, for the first time, sensing multiple spatial components of the force vector, and with sensitivity improved by a factor of $\\sim 100$ with respect to previous measurements using the same technique. The resulting upper limit on the strength of a hypothetical new force is $10^7$ at a Yukawa range $\\lambda\\simeq 5\\;\\mu$m and close to $10^6$ for $\\lambda \\gtrsim 10\\;\\mu$m. This result also advances our efforts to measure gravitational effects using micrometer-size objects, with important implications for embryonic ideas to investigate the quantum nature of gravity.         ",
+    "url": "https://arxiv.org/abs/2412.13167",
+    "authors": [
+      "Gautam Venugopalan",
+      "Clarke A. Hardy",
+      "Kenneth Kohn",
+      "Yuqi Zhu",
+      "Charles P. Blakemore",
+      "Alexander Fieguth",
+      "Jacqueline Huang",
+      "Chengjie Jia",
+      "Meimei Liu",
+      "Lorenzo Magrini",
+      "Nadav Priel",
+      "Zhengruilong Wang",
+      "Giorgio Gratta"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.11489",
+    "title": "Transverse optical gradient force in untethered rotating metaspinners",
+    "abstract": "           Nanostructured dielectric metasurfaces offer unprecedented opportunities to control light-matter momentum exchange, and thereby the forces and torques that light can exert on matter. Here we introduce optical metasurfaces as components of ultracompact untethered microscopic metaspinners capable of efficient light-induced rotation in a liquid environment. Illuminated by weakly focused light, a metaspinner generates torque via photon recoil through the metasurfaces ability to bend light towards high angles despite their sub-wavelength thickness, thereby creating orbital angular momentum. We find that a metaspinner is subject to an anomalous transverse lateral optical gradient force that acts in concert with the classical gradient force. Consequently, when two or more metaspinners are trapped together in a laser beam, they collectively orbit the optical axis in the opposite direction to their spinning motion, in stark contrast to rotors coupled through hydrodynamic or mechanical interactions. The metaspinners delineated herein not only serve to illustrate the vast possibilities of utilizing optical metasurfaces for fundamental exploration of optical torques, but they also represent potential building-blocks of artificial active matter systems, light-driven micromachinery, and general-purpose optomechanical devices.         ",
+    "url": "https://arxiv.org/abs/2406.11489",
+    "authors": [
+      "Einstom Engay",
+      "Mahdi Shanei",
+      "Vasilii Mylnikov",
+      "Gan Wang",
+      "Peter Johansson",
+      "Giovanni Volpe",
+      "Mikael K\u00e4ll"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.05716",
+    "title": "Sensor response and radiation damage effects for 3D pixels in the ATLAS IBL Detector",
+    "abstract": "           Pixel sensors in 3D technology equip the outer ends of the staves of the Insertable B Layer (IBL), the innermost layer of the ATLAS Pixel Detector, which was installed before the start of LHC Run 2 in 2015. 3D pixel sensors are expected to exhibit more tolerance to radiation damage and are the technology of choice for the innermost layer in the ATLAS tracker upgrade for the HL-LHC programme. While the LHC has delivered an integrated luminosity of $\\simeq$ 235 fb$^{-1}$ since the start of Run 2, the 3D sensors have received a non-ionising energy deposition corresponding to a fluence of ${\\simeq} 8.5\\times10^{14}$ 1 MeV neutron-equivalent cm$^{-2}$ averaged over the sensor area. This paper presents results of measurements of the 3D pixel sensors' response during Run 2 and the first two years of Run 3, with predictions of its evolution until the end of Run 3 in 2025. Data are compared with radiation damage simulations, based on detailed maps of the electric field in the Si substrate, at various fluence levels and bias voltage values. These results illustrate the potential of 3D technology for pixel applications in high-radiation environments.         ",
+    "url": "https://arxiv.org/abs/2407.05716",
+    "authors": [
+      "ATLAS Collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06291",
+    "title": "Optimization of Embedded Element Patterns of Reactively Loaded Antenna Arrays",
+    "abstract": "           This paper introduces a framework for synthesizing reactively loaded antennas and antenna arrays. The framework comprises two main components: computing the fundamental bound using the semi-definite relaxation and finding a realizable solution via optimization on a Riemannian manifold. The embedded element patterns are subject to the optimization with two distinct goals under study: focusing the radiation in a single direction or synthesizing patterns with desired shapes. The reactive terminations of passive antenna elements serve as optimization variables. We demonstrate the framework using a connected bowtie-slot antenna and antenna array with both beam-focusing and beam-shaping targets. The tests show that the optimization on the Riemannian manifold yields superior results compared to existing methods, such as the genetic algorithm. This is particularly evident in the most complex and extensive problem, which requires the synthesis of shaped embedded element patterns for a sparse reactively loaded antenna array with a limited field of view.         ",
+    "url": "https://arxiv.org/abs/2409.06291",
+    "authors": [
+      "Albert Salmi",
+      "Miloslav Capek",
+      "Lukas Jelinek",
+      "Anu Lehtovuori",
+      "Ville Viikari"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.07692",
+    "title": "Extending the European Competence Framework for Quantum Technologies: new proficiency triangle and qualification profiles",
+    "abstract": "           With the increasing industrial relevance of quantum technologies (QTs), a new quantum workforce with special qualification will be needed. Building this workforce requires educational efforts, ranging from short term training to degree programs. In order to plan, map and compare such efforts, personal qualifications or job requirements, standardization is necessary. The European Competence Framework for Quantum Technologies (CFQT) provides a common language for QT education. The 2024 update to version~2.5 extends it by the new proficiency triangle and qualification profiles: The proficiency triangle proposes six proficiency levels for three proficiency areas, specifying knowledge and skills for each level. Nine qualification profiles show prototypical qualifications or job roles relevant to the quantum industry, with the required proficiency, examples, and suggestions. This is an important step towards the standardization of QT education. The CFQT update is based on the results of an analysis of 34 interviews on industry needs. The initial findings from the interviews were complemented by iterative refinement and expert consultation.         ",
+    "url": "https://arxiv.org/abs/2410.07692",
+    "authors": [
+      "Franziska Greinert",
+      "Simon Goorney",
+      "Dagmar Hilfert-R\u00fcppell",
+      "Malte S. Ubben",
+      "Rainer M\u00fcller"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.18732",
+    "title": "Randomization of a Laser Wavefront by the Turbulent Gas-Puff Z-Pinch Plasma Column",
+    "abstract": "           In this paper, we present the first direct experimental evidence supported by numerical modeling of a turbulent plasma column formed during a gas-puff z-pinch implosion generated by COBRA current. Utilizing an imaging refractometer, we show a significant decrease in spatial autocorrelation of the laser field and the appearance of a laser speckle pattern shortly before stagnation. The intensity distribution of the speckles measured during different shot campaigns while employing long and short COBRA pulses follows the speckle statistics satisfactorily. The imaging refractometer signal is proportional to the integral over electron density gradients; hence, the measured phase randomization of the individual plane waves comprising the laser field implies random density distribution. To validate this, the Beam Propagation Method code simulates the laser beam propagation through different artificial density distributions with various average fluctuation scales and generates synthetic imaging refractometer data. The results reproduce similar trends in the experimental data, such as the increasing vertical width for the decreasing average spatial scale of the fluctuations and decreasing spatial correlation length of the laser field. Therefore, during the gas-puff z-pinch implosion process, it is likely that the plasma flow is almost always turbulent with the average spatial scale of the turbulent density fluctuations decreasing towards stagnation.         ",
+    "url": "https://arxiv.org/abs/2411.18732",
+    "authors": [
+      "A. Rososhek",
+      "E. S. Lavine",
+      "B. R. Kusse",
+      "W. M. Potter",
+      "D. A. Hammer"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.19369",
+    "title": "Stochastic Frequency Fluctuation Super-Resolution Imaging",
+    "abstract": "           The inherent non-linearity of intensity correlation functions can be used to spatially distinguish identical emitters beyond the diffraction limit, as achieved, for example, in Super-Resolution Optical Fluctuation Imaging (SOFI). Here, we propose a complementary concept based on spectral correlation functions, termed Spectral Fluctuation Super-Resolution (SFSR) imaging. Through theoretical and computational analysis, we show that spatially resolving time-frequency correlation functions in the image plane can improve the imaging resolution by a factor of $\\sqrt2$ in most cases and up to twofold for strictly two emitters. This improvement is achieved by quantifying the degree of correlation in spectral fluctuations across the spatial domain. Experimentally, SFSR can be implemented using a combination of interferometry and photon-correlation measurements. The method works for non-blinking emitters and stochastic spectral fluctuations with arbitrary temporal statistics. This suggests its utility in super-resolution microscopy of quantum emitters at low temperatures, where spectral diffusion is often more pronounced than emitter blinking.         ",
+    "url": "https://arxiv.org/abs/2411.19369",
+    "authors": [
+      "Yifan Chen",
+      "Chieh Tsao",
+      "Hendrik Utzat"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.07376",
+    "title": "Theory of Frequency Fluctuation of Intramolecular Vibration in Solution Phase: Application to C--N Stretching Mode of Organic Compounds",
+    "abstract": "           We formulate frequency fluctuations of intramolecular vibrations of a solute by exploring the fluctuation of the electrostatic potential by solvents. We present a numerical methodology for estimating the frequency fluctuations; the methodology is based on the reference interaction site model self-consistent field with constrained spatial electron density distribution, a the theoretical model of solvation fields based on classical statistic mechanics. By applying the present theory to the C--N stretching vibrations of several nitrile compounds, our estimated frequency fluctuation scale and bandwidth shift by changing solvent kinds reproduced the experimental data. Further, we regard the standard deviation of the electrostatic potential as the multiple random variables for analyzing the frequency fluctuations. Our results reveal that the dominant fluctuation of the electrostatic field is almost parallel to the vibrational axis. Additionally, the fluctuations of electrostatic potential become spatially nonuniform as the solvents form stronger hydrogen bonds with the solute. The development of the solvation field confirms that the nonuniformity of the electrostatic field is crucial to the frequency fluctuation.         ",
+    "url": "https://arxiv.org/abs/2412.07376",
+    "authors": [
+      "Naoki Negishi",
+      "Daisuke Yokogawa"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.11705",
+    "title": "Inorganic electrochromic metasurface in the visible",
+    "abstract": "           Colour printing based on metallic or dielectric nanostructures has revolutionized colour science due to its unprecedented subwavelength resolution. Evidently, the evolution towards the active control of such structural colours with smart materials is in progress for real applications. Here we experimentally demonstrate a large colour gamut with high intensity and purity, as well as its switching on and off based solely on tungsten trioxide (WO3) cylindrical resonators. The strong resonances in the visible spectral range in these WO3 metasurfaces can be reversibly switched on and off due to its electrochromism by applying alternating voltages of +2.0 V and -0.3 V. Our approach opens up possibilities for the functional diversification of commercial smart windows, as well as the development of new display technologies in the future.         ",
+    "url": "https://arxiv.org/abs/2412.11705",
+    "authors": [
+      "Yohan Lee",
+      "Jonas Herbig",
+      "Serkan Arslan",
+      "Dominik Ludescher",
+      "Monika Ubl",
+      "Andreas Georg",
+      "Mario Hentschel",
+      "Harald Giessen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.03184",
+    "title": "Regimes of Steady-State Turbulence in a Quantum Fluid",
+    "abstract": "           We simulate the Gross-Pitaevskii equation to model the development of turbulence in a quantum fluid confined by a cuboid box potential, and forced by shaking along one axis. We observe the development of isotropic turbulence from anisotropic forcing for a broad range of forcing amplitudes, and characterise the states through their Fourier spectra, vortex distributions, and spatial correlations. For weak forcing the steady-state wave-action spectrum exhibits a $k^{-3.5}$ scaling over wavenumber $k$; further decomposition uncovers the same power law in both compressible kinetic energy and quantum pressure, while the bulk superfluid remains phase coherent and free from extended vortices. As the forcing energy exceeds the chemical potential, extended vortices develop in the bulk, disrupting the $k^{-3.5}$ scaling. The spectrum then transitions to a $k^{-7/3}$ regime for compressible kinetic energy only, associated with dense vortex turbulence, and phase coherence limited to the healing length. The strong forcing regime is consistent with an inverse cascade of compressible energy driven by small-scale vortex annihilation.         ",
+    "url": "https://arxiv.org/abs/2409.03184",
+    "authors": [
+      "Tommy Z. Fischer",
+      "Ashton S. Bradley"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.02115",
+    "title": "Quantum and classical dynamics of neutron in a magnetic field",
+    "abstract": "           The paper presents solution of quantum problem of neutron propagation in the magnetic field with multipole field expansion. Rigorous solution of the Pauli equation for neutron reveals existence of two solutions, finite and infinite, for any multipole configuration. As an example, we present detailed study of neutron motion in quadrupole and sextupole magnets. Our predictions agree with the results of Stern-Gerlach experiment for neutrons. To verify existence of finite and infinite motion, we discuss an experiment which could be performed in the Budker Insitute of Nuclear Physics using existing equipment. We conclude with considerations of neutron storage ring with straight section and discrete magnets focusing the beam.         ",
+    "url": "https://arxiv.org/abs/2412.02115",
+    "authors": [
+      "A. Bogomyagkov",
+      "V. Druzhinin",
+      "E. Levichev",
+      "A. Milstein",
+      "I. Okunev",
+      "S. Taskaev"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  }
+]
