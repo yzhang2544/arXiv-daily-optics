@@ -1,0 +1,569 @@
+[
+  {
+    "id": "arXiv:2412.14311",
+    "title": "Performance envelope of laser wakefield accelerators",
+    "abstract": "           Laser wakefield accelerator experiments have made enormous progress over the past $\\sim 20$ years, but their promise to revolutionize high-energy particle sources is only beginning to be realized. To make the next step toward engineering LWFAs for different accelerator outcomes, we need more reliable and quantitative models to predict performance. Using the data from $>50$ published experiments, we estimate scalings and the performance envelope. We compare the observed scalings with several models in the literature. We find that the total beam energy (centroid energy times beam charge) scales almost linearly with laser energy, supporting the value of investment in progressively higher energy driver lasers. The dataset includes pulse durations from 8 to 160 fs, but only laser wavelengths of 800 nm and 1 \\si{\\micro\\meter}, meaning we could not check proposed wavelength scalings for alternative laser technologies. As a benchmark next-generation case, the observed scalings suggest that achieving a 100-GeV LWFA stage will require a $\\gtrsim 30$ PW laser operating at electron density $<10^{17}/$cm$^3$.         ",
+    "url": "https://arxiv.org/abs/2412.14311",
+    "authors": [
+      "Lance Labun",
+      "Miguel Gracia-Linares",
+      "Ou Z. Labun",
+      "Stephen V. Milton"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14403",
+    "title": "Short-term wind forecasting via surface pressure measurements: stochastic modeling and sensor placement",
+    "abstract": "           We propose a short-term wind forecasting framework for predicting real-time variations in atmospheric turbulence based on nacelle-mounted anemometer and ground-level air-pressure measurements. Our approach combines linear stochastic estimation and Kalman filtering algorithms to assimilate and process real-time field measurements with the predictions of a stochastic reduced-order model that is confined to a two-dimensional plane at the hub height of turbines. We bridge the vertical gap between the computational plane of the model at hub height and the measurement plane on the ground using a projection technique that allows us to infer the pressure in one plane from the other. Depending on the quality of this inference, we show that customized variants of the extended and ensemble Kalman filters can be tuned to balance estimation quality and computational speed 1-1.5 diameters ahead and behind leading turbines. In particular, we show how synchronizing the sign of estimates with that of velocity fluctuations recorded at the nacelle can significantly improve the ability to follow temporal variations upwind of the leading turbine. We also propose a convex optimization-based framework for selecting a subset of pressure sensors that achieve a desired level of accuracy relative to the optimal Kalman filter that uses all sensing capabilities.         ",
+    "url": "https://arxiv.org/abs/2412.14403",
+    "authors": [
+      "Seyedalireza Abootorabi",
+      "Stefano Leonardi",
+      "Mario Rotea",
+      "Armin Zare"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Systems and Control (eess.SY)",
+      "Dynamical Systems (math.DS)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14599",
+    "title": "Fast inverse lithography based on a model-driven block stacking convolutional neural network",
+    "abstract": "           In the realm of lithography, Optical Proximity Correction (OPC) is a crucial resolution enhancement technique that optimizes the transmission function of photomasks on a pixel-based to effectively counter Optical Proximity Effects (OPE). However, conventional pixel-based OPC methods often generate patterns that pose manufacturing challenges, thereby leading to the increased cost in practical scenarios. This paper presents a novel inverse lithographic approach to OPC, employing a model-driven, block stacking deep learning framework that expedites the generation of masks conducive to manufacturing. This method is founded on vector lithography modelling and streamlines the training process by eliminating the requirement for extensive labeled datasets. Furthermore, diversity of mask patterns is enhanced by employing a wave function collapse algorithm, which facilitates the random generation of a multitude of target patterns, therefore significantly expanding the range of mask paradigm. Numerical experiments have substantiated the efficacy of the proposed end-to-end approach, highlighting its superior capability to manage mask complexity within the context of advanced OPC lithography. This advancement is anticipated to enhance the feasibility and economic viability of OPC technology within actual manufacturing environments.         ",
+    "url": "https://arxiv.org/abs/2412.14599",
+    "authors": [
+      "Ruixiang Chen",
+      "Yang Zhao",
+      "Haoqin Li",
+      "Rui Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14702",
+    "title": "Passive silicon nitride integrated photonics for spatial intensity and phase sensing of visible light",
+    "abstract": "           Phase is an intrinsic property of light, and thus a crucial parameter across numerous applications in modern optics. Various methods exist for measuring the phase of light, each presenting challenges and limitations-from the mechanical stability requirements of free-space interferometers to the computational complexity usually associated with methods based on spatial light modulators. Here, we utilize a passive photonic integrated circuit to spatially probe phase and intensity distributions of free-space light beams. Phase information is encoded into intensity through a set of passive on-chip interferometers, allowing conventional detectors to retrieve the phase profile of light through single-shot intensity measurements. Furthermore, we use silicon nitride as material platform for the waveguide architecture, facilitating broadband utilization in the visible spectral range. Our approach for fast, broadband, and spatially resolved measurement of intensity and phase enables a wide variety of potential applications, ranging from microscopy to free-space optical communication.         ",
+    "url": "https://arxiv.org/abs/2412.14702",
+    "authors": [
+      "Christoph Stockinger",
+      "J\u00f6rg S. Eismann",
+      "Natale Pruiti",
+      "Marc Sorel",
+      "Peter Banzer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14785",
+    "title": "Single-mode laser guiding in non-parabolic plasma channels for high-energy electron acceleration",
+    "abstract": "           The discovery of laser wakefield acceleration in gaseous plasma was a major milestone that could lead to a significant reduction of size and cost of large electron accelerators. For higher-energy laser-driven electron acceleration guiding plasma channels were proposed, which are matched to the laser pulse parameters. For guiding a Gaussian beam, a parabolic density profile is needed, which is difficult to realize experimentally. The realistic channel profiles can be described by higher order polynomial functions which are not optimal for guiding due to the development of undesired distortions in the laser intensity envelope. However, here we show that for non-parabolic plasma channels well-defined matching conditions exist, which we call mode matching. This leads to the guiding of the fundamental mode only in the acceleration regime, where the plasma electron density is modulated by the high-intensity laser pulse. In this way, we eliminate two deteriorating factors of laser wakefield acceleration, namely the mode dispersion and energy leakage. We apply this new matching condition for single-mode guiding in quasi-3D simulations to show that 10 GeV energies can be reached in a distance of less than 15 cm.         ",
+    "url": "https://arxiv.org/abs/2412.14785",
+    "authors": [
+      "Zsolt L\u00e9cz",
+      "Szil\u00e1rd Majorosi",
+      "Nasr A. M. Hafz"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14820",
+    "title": "Ultrastable optical frequency dissemination over a branching passive optical network using CDMA",
+    "abstract": "           We demonstrate a technique for ultrastable optical frequency dissemination in a branching passive optical network using code-division multiple access (CDMA). In our protocol, each network user employs a unique pseudo-random sequence to rapidly change the optical frequency among many distinct frequencies. After transmission through the optical network, each user correlates the received sequence with the transmitted one, thus establishing a frequency-hopping spread spectrum technique that helps reject optical signals transmitted by other users in the network. Our method, which builds on the work by Schediwy et al. [Opt. Lett. {\\bf 38}, 2893 (2013)], improves the frequency distribution network's capacity, helps reject phase noise caused by intermediate optical back scattering, and simplifies the operational requirements. Using this protocol, we show that a frequency instability better than ~$10^{-18}$ while having more than 100 users operating in the network should be possible. Finally, we theoretically explore the limits of this protocol and show that the demonstrated stability does not suffer from any fundamental limitation. In the future, the CDMA method presented here could be used in complex time-frequency distribution networks, allowing more users while, at the same time, reducing the network's complexity.         ",
+    "url": "https://arxiv.org/abs/2412.14820",
+    "authors": [
+      "Rodrigo Gonz\u00e1lez Escudero",
+      "Sougandh Kannoth Mavila",
+      "Jeroen C. J. Koelemeij"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14830",
+    "title": "Rydberg states and new resonant states of the imidogen molecule NH: pathways for nitrogen release",
+    "abstract": "           Neutral resonant states of molecules play a very important role in the dissociation dynamics and other electronic processes that occur via intermediate capture into these states. With the goal of identifying resonant states, and their corresponding widths, of the imidogen molecule NH as a function of internuclear distance, we have performed detailed R-matrix calculations on the e + NH+ system. In a previous work, we had identified bound states of NH and Feshbach resonances in the e + NH+ system at a single geometry, namely the NH+ equilibrium Re = 2.0205 a0 . Here we present a much more detailed work by repeating the calculation on over 60 internuclear distances to obtain the corresponding potential energy curves. The bound states for nine symmetries have been detailed many of which, particularly the singlet states, were never studied before. Several resonant states of different symmetries, which were unknown until now, have been systematically identified and their widths calculated in the present work, which proved much more challenging due to presence of many avoided crossings. It is hoped that the bound and the new resonant states obtained here will open up other molecular dynamics studies, since for several dissociative processes, although experimental data existed for more than a decade, these are still uncorroborated due to absence of molecular data, and hence subsequent theoretical calculations.         ",
+    "url": "https://arxiv.org/abs/2412.14830",
+    "authors": [
+      "Raju Ghosh",
+      "Binayak Samaddar Choudhuryt",
+      "Janos Zsolt Mezei",
+      "Ioan F. Schneider",
+      "Nicolina Pop",
+      "Kalyan Chakrabarti"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Plasma Physics (physics.plasm-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14888",
+    "title": "Individual assembly of two-species Rydberg molecules using optical tweezers",
+    "abstract": "           We present a new approach to investigating Rydberg molecules by demonstrating the formation and characterization of individual Rb$^{*}$Cs Rydberg molecules using optical tweezers. By employing single-atom detection of Rb and Cs, we observe molecule formation via correlated loss of both species and study the formation dynamics with single-particle resolution. We control the interatomic distances by manipulating the relative wavefunction of atom pairs using the tweezer intensity, optimizing the coupling to molecular states and exploring the effect of the tweezer on these states. Additionally, we demonstrate molecule association with atoms trapped in separate tweezers, paving the way for state-selective assembly of polyatomic molecules. The observed binding energies, molecular alignment, and bond lengths are in good agreement with theory. Our approach is broadly applicable to Rydberg tweezer platforms, expanding the range of available molecular systems and enabling the integration of Rydberg molecules into existing quantum science platforms.         ",
+    "url": "https://arxiv.org/abs/2412.14888",
+    "authors": [
+      "Alexander Guttridge",
+      "Tom R. Hepworth",
+      "Daniel K. Ruttley",
+      "Aileen A. T. Durst",
+      "Matthew T. Eiles",
+      "Simon L. Cornish"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14928",
+    "title": "Elastic waves in bearing raceways: the forward and inverse problem",
+    "abstract": "           Turbines are crucial to our energy infrastructure, and ensuring their bearings function with minimal friction while often supporting heavy loads is vital. Vibrations within a bearing can signal the presence of defects, friction, or misalignment. However, current detection methods are neither robust nor easy to automate. We propose a more quantitative approach by modelling the elastic waves within bearing raceways. By approximating the raceway as a hollow cylinder, we derive straightforward 4x4 systems for its vibrational modes, enabling both forward and inverse problem-solving. We also demonstrate how to significantly reduce the number of required sensors by using a simple prior: the known number of rollers and their angular speed. We present numerical examples showcasing the full recovery of contact traction between bearings and the raceway, as well as the detection of elastic emissions.         ",
+    "url": "https://arxiv.org/abs/2412.14928",
+    "authors": [
+      "Jessica J. Kent",
+      "Matheus de C. Loures",
+      "Art L. Gower"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14998",
+    "title": "Electron polarization in the resonant inelastic scattering on hydrogen-like ions",
+    "abstract": "           We investigate the polarization of the electron acquired during the inelastic resonant scattering on hydrogen-like ions initially being in the ground state. The formation and subsequent Auger decay of the intermediate (3l3l') doubly excited states in the resonant channel modify the mechanism of polarization change by enhancing both spin-orbit and exchange interactions. Consequently, in the presence of the resonant channel, the acquired polarization can be clearly observed even for light ions when it is challenging to discern which state of the ion was excited in the process. We also show that the energy dependence of the polarization parameter clearly demonstrates strong interference both between the contributions of specific autoionizing states in the resonant channel and between the non-resonant and resonant channels.         ",
+    "url": "https://arxiv.org/abs/2412.14998",
+    "authors": [
+      "D. M. Vasileva",
+      "K. N. Lyashchenko",
+      "O. Yu. Andreev"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.15157",
+    "title": "Centimetre-Scale Micro-Transfer Printing to enable Heterogeneous Integration of Thin Film Lithium Niobate with Silicon Photonics",
+    "abstract": "           The integrated photonics CMOS-compatible silicon nitride (SiN) platform is praised for its low propagation loss, but is limited by its lack of active functionalities such as a strong Pockels coefficient and intrinsic \\c{hi}(2) nonlinearity. In this paper, we demonstrate the integration of centimetre-long thin-film lithium niobate (TFLN) devices on a SiN platform using the micro-transfer printing (uTP) method. At a wavelength of 1550 nm, propagation losses of approximately 0.9 dB/cm and transition losses of 1.8 dB per facet were measured. Furthermore, the TFLN was integrated into an imbalanced push-pull Mach-Zehnder modulator, achieving a V{\\pi} of 3.2 V. The electro-optics nature of the observed modulation is confirmed by measuring the device up to 35 GHz, showing that the printing does not affect the high-speed LN properties.         ",
+    "url": "https://arxiv.org/abs/2412.15157",
+    "authors": [
+      "Margot Niels",
+      "Tom Vanackere",
+      "Tom Vandekerckhove",
+      "Stijn Poelman",
+      "Tom Reep",
+      "G\u00fcnther Roelkens",
+      "Maximilien Billet",
+      "Bart Kuyken"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14324",
+    "title": "Observation of extrinsic topological phases in Floquet photonic lattices",
+    "abstract": "           Discrete-step walks describe the dynamics of particles in a lattice subject to hopping or splitting events at discrete times. Despite being of primordial interest to the physics of quantum walks, the topological properties arising from their discrete-step nature have been hardly explored. Here we report the observation of topological phases unique to discrete-step walks. We use light pulses in a double-fibre ring setup whose dynamics maps into a two-dimensional lattice subject to discrete splitting events. We show that the number of edge states is not simply described by the bulk invariants of the lattice (i.e., the Chern number and the Floquet winding number) as would be the case in static lattices and in lattices subject to smooth modulations. The number of edge states is also determined by a topological invariant associated to the discrete-step unitary operators acting at the edges of the lattice. This situation goes beyond the usual bulk-edge correspondence and allows manipulating the number of edge states without the need to go through a gap closing transition. Our work opens new perspectives for the engineering of topological modes for particles subject to quantum walks.         ",
+    "url": "https://arxiv.org/abs/2412.14324",
+    "authors": [
+      "Rajesh Asapanna",
+      "Rabih El Sokhen",
+      "Albert F. Adiyatullin",
+      "Cl\u00e9ment Hainaut",
+      "Pierre Delplace",
+      "\u00c1lvaro G\u00f3mez-Le\u00f3n",
+      "Alberto Amo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14565",
+    "title": "Thermal circuit model for silicon quantum-dot array structures",
+    "abstract": "           Temperature rise of qubits due to heating is a critical issue in large-scale quantum computers based on quantum-dot (QD) arrays. This leads to shorter coherence times, induced readout errors, and increased charge noise. Here, we propose a simple thermal circuit model to describe the heating effect on silicon QD array structures. Noting that the QD array is a periodic structure, we represent it as a thermal distributed-element circuit, forming a thermal transmission line. We validate this model by measuring the electron temperature in a QD array device using Coulomb blockade thermometry, finding that the model effectively reproduces experimental results. This simple and scalable model can be used to develop the thermal design of large-scale silicon-based quantum computers.         ",
+    "url": "https://arxiv.org/abs/2412.14565",
+    "authors": [
+      "Takeru Utsugi",
+      "Nobuhiro Kusuno",
+      "Takuma Kuno",
+      "Noriyuki Lee",
+      "Itaru Yanagi",
+      "Toshiyuki Mine",
+      "Shinichi Saito",
+      "Digh Hisamoto",
+      "Ryuta Tsuchiya",
+      "Hiroyuki Mizuno"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14703",
+    "title": "A brief history of quantum vs classical computational advantage",
+    "abstract": "           In this review article we summarize all experiments claiming quantum computational advantage to date. Our review highlights challenges, loopholes, and refutations appearing in subsequent work to provide a complete picture of the current statuses of these experiments. In addition, we also discuss theoretical computational advantage in example problems such as approximate optimization and recommendation systems. Finally, we review recent experiments in quantum error correction -- the biggest frontier to reach experimental quantum advantage in Shor's algorithm.         ",
+    "url": "https://arxiv.org/abs/2412.14703",
+    "authors": [
+      "Ryan LaRose"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Emerging Technologies (cs.ET)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14795",
+    "title": "Taming Landau level mixing in fractional quantum Hall states with deep learning",
+    "abstract": "           Strong correlation brings a rich array of emergent phenomena, as well as a daunting challenge to theoretical physics study. In condensed matter physics, the fractional quantum Hall effect is a prominent example of strong correlation, with Landau level mixing being one of the most challenging aspects to address using traditional computational methods. Deep learning real-space neural network wavefunction methods have emerged as promising architectures to describe electron correlations in molecules and materials, but their power has not been fully tested for exotic quantum states. In this work, we employ real-space neural network wavefunction techniques to investigate fractional quantum Hall systems. On both $1/3$ and $2/5$ filling systems, we achieve energies consistently lower than exact diagonalization results which only consider the lowest Landau level. We also demonstrate that the real-space neural network wavefunction can naturally capture the extent of Landau level mixing up to a very high level, overcoming the limitations of traditional methods. Our work underscores the potential of neural networks for future studies of strongly correlated systems and opens new avenues for exploring the rich physics of the fractional quantum Hall effect.         ",
+    "url": "https://arxiv.org/abs/2412.14795",
+    "authors": [
+      "Yubing Qian",
+      "Tongzhou Zhao",
+      "Jianxiao Zhang",
+      "Tao Xiang",
+      "Xiang Li",
+      "Ji Chen"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14944",
+    "title": "Estimating the impact of light pollution on quantum communication between QEYSSat and Canadian quantum ground station sites",
+    "abstract": "           Satellite to ground quantum communication typically operates at night to reduce background signals, however it remains susceptible to noise from light pollution of the night sky. In this study we compare several methodologies for determining whether a Quantum Ground Station (QGS) site is viable for exchanging quantum signals with the upcoming Quantum Encryption and Science Satellite (QEYSSat) mission. We conducted ground site characterization studies at three locations in Canada: Waterloo, Ontario, Calgary, Alberta, and Priddis, Alberta. Using different methods we estimate the background counts expected to leak into the satellite-ground quantum channel, and determined whether the noise levels could prevent a quantum key transfer. We also investigate how satellite data recorded from the Visible Infrared Imaging Radiometer Suite (VIIRS) can help estimate conditions of a particular site, and find reasonable agreement with the locally recorded data. Our results indicate that the Waterloo, Calgary, and Priddis QGS sites should allow both quantum uplinks and downlinks with QEYSSat, despite their proximity to urban centres. Furthermore, our approach allows the use of satellite borne instrument data (VIIRS) to remotely and efficiently determine the potential of a ground site.         ",
+    "url": "https://arxiv.org/abs/2412.14944",
+    "authors": [
+      "Mathew Yastremski",
+      "Paul J. Godin",
+      "Nouralhoda Bayat",
+      "Sungeon Oh",
+      "Ziheng Chang",
+      "Katanya B. Kuntz",
+      "Daniel Oblak",
+      "Thomas Jennewein"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14958",
+    "title": "Study of NbN as superconducting material for the usage in superconducting radio frequency cavities",
+    "abstract": "           A new axion-haloscope is setup at the Johannes Gutenberg university of Mainz, named the Supax (a SUPerconducting AXion search) experiment. This setup is used to characterize the behaviour of a NbN coated superconducting cavity in a 2.5T strong magnetic field, at a resonance frequency of 8.4GHz. We observe an increasing surface resistance with increasing magnetic field, leading to a decreasing quality factor. The behaviour is similar to that of previously studied cavities using Nb3Tn.         ",
+    "url": "https://arxiv.org/abs/2412.14958",
+    "authors": [
+      "Kristof Schmieden",
+      "Tim Schneemann",
+      "Matthias Schott",
+      "Malavika Unni",
+      "Hendrik Bekker",
+      "Arne Wickenbrock",
+      "Dmitry Budker"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14976",
+    "title": "Quantum Compilation Toolkit for Rydberg Atom Arrays with Implications for Problem Hardness and Quantum Speedups",
+    "abstract": "           We propose and implement a comprehensive quantum compilation toolkit for solving the maximum independent set (MIS) problem on quantum hardware based on Rydberg atom arrays. Our end-to-end pipeline involves three core components to efficiently map generic MIS instances onto Rydberg arrays with unit-disk connectivity, with modules for graph reduction, hardware compatibility checks, and graph embedding. The first module (reducer) provides hardware-agnostic and deterministic reduction logic that iteratively reduces the problem size via lazy clique removals. We find that real-world networks can typically be reduced by orders of magnitude on sub-second time scales, thus significantly cutting down the eventual load for quantum devices. Moreover, we show that reduction techniques may be an important tool in the ongoing search for potential quantum speedups, given their ability to identify hard problem instances. In particular, for Rydberg-native MIS instances, we observe signatures of an easy-hard-easy transition and quantify a critical degree indicating the onset of a hard problem regime. The second module (compatibility checker) implements a hardware compatibility checker that quickly determines whether or not a given input graph may be compatible with the restrictions imposed by Rydberg quantum hardware. The third module (embedder) describes hardware-efficient graph embedding routines to generate (approximate) encodings with controllable overhead and optimized ancilla placements. We exemplify our pipeline with experiments run on the QuEra Aquila device available on Amazon Braket. In aggregate, our work provides a set of tools that extends the class of problems that can be tackled with near-term Rydberg atom arrays.         ",
+    "url": "https://arxiv.org/abs/2412.14976",
+    "authors": [
+      "Martin J. A. Schuetz",
+      "Ruben S. Andrist",
+      "Grant Salton",
+      "Romina Yalovetzky",
+      "Rudy Raymond",
+      "Yue Sun",
+      "Atithi Acharya",
+      "Shouvanik Chakrabarti",
+      "Marco Pistoia",
+      "Helmut G. Katzgraber"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.15014",
+    "title": "Non-Markovian Effects in Quantum Rate Calculations of Hydrogen Diffusion with Electronic Friction",
+    "abstract": "           We address the challenge of incorporating non-Markovian electronic friction effects in quantum-mechanical approximations of dynamical observables. A generalized Langevin equation (GLE) is formulated for ring-polymer molecular dynamics (RPMD) rate calculations, which combines electronic friction with a description of nuclear quantum effects (NQEs) for adsorbates on metal surfaces. An efficient propagation algorithm is introduced that captures both the spatial dependence of friction strength and non-Markovian frictional memory. This framework is applied to a model of hydrogen diffusing on Cu(111) derived from ab initio density functional theory (DFT) calculations, revealing significant alterations in rate constants and tunnelling crossover temperatures due to non-Markovian effects. Our findings explain why previous classical molecular dynamics simulations with Markovian friction showed unexpectedly good agreement with experiment, highlighting the critical role of non-Markovian effects in first-principles atomistic simulations.         ",
+    "url": "https://arxiv.org/abs/2412.15014",
+    "authors": [
+      "George Trenins",
+      "Mariana Rossi"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.15031",
+    "title": "General tradeoff relation of fundamental quantum limits for linear multiparameter estimation",
+    "abstract": "           Linear measurement is an important class of measurements for sensing classical signals including gravitational wave (GW), dark matter, infrared ray, rotation rate, etc. In this Letter, we focus on multiparameter linear measurement and establish a general tradeoff relation that tightly constrains the fundamental quantum limits of two independent parameters in a monochromatic classical signal detected by any linear quantum device. Such a tradeoff relation is universal and fundamental for multiparameter linear measurement since arising from Heisenberg's uncertainty principle. Compared with the Holevo Cram\u00e9r-Rao bound, our tradeoff bound can completely identify the dependence between the attainable precision limits on estimated parameters. The dependence becomes more obvious such that the individual precision can not simultaneously reach the quantum limit as the so-called incompatible coefficient rises. Eventually, we find a necessary condition under which an optimal measurement protocol can saturate the general tradeoff relation, and show that the measurement phase can be tuned for adjusting different precision weight. This result is related to many applications, particularly detuned GW sensors for searching post-merger remnants due to the direct relation between the detuned frequency and incompatible coefficient.         ",
+    "url": "https://arxiv.org/abs/2412.15031",
+    "authors": [
+      "Guolong Li",
+      "Xiao-Ming Lu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.15068",
+    "title": "Cavity Quantum Electrodynamics in Finite-Bandwidth Squeezed Reservoir",
+    "abstract": "           Light-matter interaction with squeezed vacuum has received much interest for the ability to enhance the native interaction strength between an atom and a photon with a reservoir assumed to have an infinite bandwidth. Here, we study a model of parametrically driven cavity quantum electrodynamics (cavity QED) for enhancing light-matter interaction while subjected to a finite-bandwidth squeezed vacuum drive. Our method is capable of unveiling the effect of relative bandwidth as well as squeezing required to observe the anticipated anti-crossing spectrum and enhanced cooperativity without the ideal squeezed bath assumption. Furthermore, we analyze the practicality of said models when including intrinsic photon loss due to resonators imperfection. With these results, we outline the requirements for experimentally implementing an effectively squeezed bath in solid-state platforms such as InAs quantum dot cavity QED such that \\textit{in situ} control and enhancement of light-matter interaction could be realized.         ",
+    "url": "https://arxiv.org/abs/2412.15068",
+    "authors": [
+      "Trung Ki\u00ean L\u00ea",
+      "Daniil M. Lukin",
+      "Charles Roques-Carmes",
+      "Aviv Karnieli",
+      "Eran Lustig",
+      "Melissa A. Guidry",
+      "Shanhui Fan",
+      "Jelena Vu\u010dkovi\u0107"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2212.11496",
+    "title": "Transient chirp reconstruction of electron beam via tightly focused chirped laser pulse",
+    "abstract": "           Controlling the phase space of particle beams is essential for the generation of high-quality, ultrashort electron beams in plasma-based accelerators. Accurately diagnosing the transient energy chirp, which evolves rapidly at the onset of acceleration, presents a significant challenge. This paper introduces a novel method for reconstructing the transient energy chirp of ultrashort electron beams by employing tightly focused and chirped laser pulses. We investigate the conditions that enhance the modulation of electron-beam divergence and illustrate the reconstruction of transient chirp based on the intrinsic phase correlation of the modulated divergence as projected onto specific phase space coordinates. Additionally, we estimate the temporal delay between the laser and electron beam by applying a Fourier transform to the reconstructed divergence modulation in the frequency domain. This approach holds promise for optimizing accelerator performance and facilitates the probing of timing jitter in ultrafast electron diffraction with attosecond-level precision.         ",
+    "url": "https://arxiv.org/abs/2212.11496",
+    "authors": [
+      "Zhijun Zhang",
+      "Shiyi Zhou",
+      "Jiansheng Liu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.17955",
+    "title": "Near-to mid-IR spectral purity transfer with a tunable frequency comb: methanol frequency metrology over a record frequency span",
+    "abstract": "           We report the upgrade and operation of a frequency-comb-assisted high-resolution mid-infrared molecular spectrometer allowing us to combine high spectral purity, SI-traceability, wide tunability and high sensitivity. An optical frequency comb is used to transfer the spectral purity of a SI-traceable 1.54 $\\mu$m metrology-grade frequency reference to a 10.3 $\\mu$m quantum cascade laser (QCL). The near-infrared reference is operated at the French time/frequency metrology institute, calibrated there to primary frequency standards, and transferred to Laboratoire de Physique des Lasers via the REFIMEVE fiber network. The QCL exhibits a line width of $\\delta\\nu\\sim 0.1$ Hz, a sub-$10^{-15}$ relative frequency stability from 0.1 to 10 s and its frequency is traceable to the SI with a total relative uncertainty better than $4\\times10^{-14}$ after 1-s averaging time. We have developed the instrumentation allowing comb modes to be continuously tuned over 9 GHz resulting in a QCL of record spectral purity uninterruptedly tunable at the precision of the reference over an unprecedented span of $\\Delta\\nu$ = 1.4 GHz. We have used our apparatus to conduct sub-Doppler spectroscopy of methanol in a multi-pass cell, demonstrating state-of-art frequency uncertainties down to the few kilohertz level ($\\sim10^{-10}$ in relative value). We have observed weak intensity resonances unreported so far, resolved subtle doublets never seen before and brought to light discrepancies with the HITRAN database. This demonstrates the potential of our apparatus for probing subtle internal molecular processes, building accurate spectroscopic models of polyatomic molecules of atmospheric or astrophysical interest, and carrying out precise spectroscopic tests of fundamental physics.         ",
+    "url": "https://arxiv.org/abs/2310.17955",
+    "authors": [
+      "D B A Tran",
+      "Olivier Lopez",
+      "M Manceau",
+      "A Goncharov",
+      "Michel Abgrall",
+      "H Alvarez-Martinez",
+      "R Le Targat",
+      "E Cantin",
+      "P.-E Pottie",
+      "A Amy-Klein",
+      "B Darqui\u00e9"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.09428",
+    "title": "Neural-network based high-speed volumetric dynamic optical coherence tomography",
+    "abstract": "           Wedemonstratedeep-learningneuralnetwork(NN)-baseddynamicopticalcoherence tomography (DOCT), which generates high-quality logarithmic-intensity-variance (LIV) DOCT images from only four OCT frames. The NN model is trained for tumor spheroid samples using a customized loss function: the weighted mean absolute error. This loss function enables highly accurate LIV image generation. The fidelity of the generated LIV images to the ground truth LIV images generated using 32 OCT frames is examined via subjective image observation and statistical analysis of image-based metrics. Fast volumetric DOCT imaging with an acquisition time of 6.55 s/volume is demonstrated using this NN-based method.         ",
+    "url": "https://arxiv.org/abs/2402.09428",
+    "authors": [
+      "Yusong Liu",
+      "Ibrahim Abd El-Sadek",
+      "Shuichi Makita",
+      "Tomoko Mori",
+      "Atsuko Furukawa",
+      "Satoshi Matsusaka",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2404.11135",
+    "title": "Ion acceleration from micrometric targets immersed in an intense laser field",
+    "abstract": "           We report on an experimental study of proton acceleration by intense laser irradiation of micrometric bar targets, whose dimensions are transversely immersed in the laser focal volume and longitudinally smaller than half its wavelength. Using only 120 mJ of laser energy, we recorded proton energies in excess of 6 MeV, exceeding those reported with any other experimental method by a factor of 3. 3D particle-in-cell simulations revealed that the efficient energy transfer from the diffracted laser fields to electrons on both sides of the target, combined with its reduced surface area, results in a thicker electron sheath and higher accelerating electric field gradients. We demonstrated numerically how this ion acceleration technique opens up the possibility of laser ion acceleration in multiple stages, allowing manipulation of the accelerated ion spectrum by optical means.         ",
+    "url": "https://arxiv.org/abs/2404.11135",
+    "authors": [
+      "Michal Elkind",
+      "Noam Popper",
+      "Itamar Cohen",
+      "Nitzan Alaluf",
+      "Assaf Levanon",
+      "Ishay Pomerantz"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14496",
+    "title": "Hair cells in the cochlea must tune resonant modes to the edge of instability without destabilizing collective modes",
+    "abstract": "           Sound produces surface waves along the cochlea's basilar membrane. To achieve the ear's astonishing frequency resolution and sensitivity to faint sounds, dissipation in the cochlea must be canceled via active processes in hair cells, effectively bringing the cochlea to the edge of instability. But how can the cochlea be globally tuned to the edge of instability with only local feedback? To address this question, we use a discretized version of a standard model of basilar membrane dynamics, but with an explicit contribution from active processes in hair cells. Surprisingly, we find the basilar membrane supports two qualitatively distinct sets of modes: a continuum of localized modes and a small number of collective extended modes. Localized modes sharply peak at their resonant position and are largely uncoupled. As a result, they can be amplified almost independently from each other by local hair cells via feedback reminiscent of self-organized criticality. However, this amplification can destabilize the collective extended modes; avoiding such instabilities places limits on possible molecular mechanisms for active feedback in hair cells. Our work illuminates how and under what conditions individual hair cells can collectively create a critical cochlea.         ",
+    "url": "https://arxiv.org/abs/2407.14496",
+    "authors": [
+      "Asheesh S. Momi",
+      "Michael C. Abbott",
+      "Julian Rubinfien",
+      "Benjamin B. Machta",
+      "Isabella R. Graf"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.17520",
+    "title": "Quantum Lattice Representation of Nonlinear Classical Physics",
+    "abstract": "           Using the Madelung transformation on a generalized scalar Gross-Pitaevski equation, a nonlinear continuum fluid equations are derived for a classical fluid. A unitary quantum lattice algorithm is then determined as a second order discrete representation of this Gross-Pitaevski equation and the simulations are compared to those using classical fluid dynamic techniques.         ",
+    "url": "https://arxiv.org/abs/2409.17520",
+    "authors": [
+      "Min Soe",
+      "George Vahala",
+      "Linda Vahala",
+      "Abhay K. Ram",
+      "Efstratios Koukoutsis",
+      "Kyriakos Hizanidis"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.05459",
+    "title": "Multidimensional quantum dynamics with explicitly correlated Gaussian wave packets using Rothe's method",
+    "abstract": "           In a previous publication [J. Chem. Phys., 161, 044105 (2024)], it has been shown that Rothe's method can be used to solve the time-dependent Schr\u00f6dinger equation (TDSE) for the hydrogen atom in a strong laser field using time-dependent Gaussian wave packets. Here, we generalize these results, showing that Rothe's method can propagate arbitrary numbers of thawed, complex-valued, explicitly correlated Gaussian functions (ECGs) with dense correlation matrices for systems with varying dimensionality. We consider the multidimensional Henon-Heiles potential, and show that the dynamics can be quantitatively reproduced using only 30 Gaussians in 2D, and that accurate spectra can be obtained using 20 Gaussians in 2D and 30 to 40 Gaussians in 3D and 4D. Thus, the relevant multidimensional dynamics can be described at high quality using only a small number of ECGs that give a very compact representation of the wave function. This efficient representation, along with the demonstrated ability of Rothe's method to propagate Gaussian wave packets in strong fields and ECGs in complex potentials, paves the way for accurate molecular dynamics calculations beyond the Born-Oppenheimer approximation in strong fields.         ",
+    "url": "https://arxiv.org/abs/2411.05459",
+    "authors": [
+      "Simon Elias Schrader",
+      "Thomas Bondo Pedersen",
+      "Simen Kvaal"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.12360",
+    "title": "A flexible framework for large-scale FDTD simulations: open-source inverse design for 3D nanostructures",
+    "abstract": "           We introduce an efficient open-source python package for the inverse design of three-dimensional photonic nanostructures using the Finite-Difference Time-Domain (FDTD) method. Leveraging a flexible reverse-mode automatic differentiation implementation, our software enables gradient-based optimization over large simulation volumes. Gradient computation is implemented within the JAX framework and based on the property of time reversibility in Maxwell's equations. This approach significantly reduces computational time and memory requirements compared to traditional FDTD methods. Gradient-based optimization facilitates the automatic creation of intricate three-dimensional structures with millions of design parameters, which would be infeasible to design manually. We demonstrate the scalability of the solver from single to multiple GPUs through several inverse design examples, highlighting its robustness and performance in large-scale photonic simulations. In addition, the package features an object-oriented and user-friendly API that simplifies the specification of materials, sources, and constraints. Specifically, it allows for intuitive positioning and sizing of objects in absolute or relative coordinates within the simulation scene. By rapid specification of the desired design properties and rapid optimization within the given user constraints, this open-source framework aims to accelerate innovation in photonic inverse design. It yields a powerful and accessible computational tool for researchers, applicable in a wide range of use cases, including but not limited to photonic waveguides, active devices, and photonic integrated circuits.         ",
+    "url": "https://arxiv.org/abs/2412.12360",
+    "authors": [
+      "Yannik Mahlau",
+      "Frederik Schubert",
+      "Konrad Bethmann",
+      "Reinhard Caspary",
+      "Antonio Cal\u00e0 Lesina",
+      "Marco Munderloh",
+      "J\u00f6rn Ostermann",
+      "Bodo Rosenhahn"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.21071",
+    "title": "Graded lithium-ion battery pouch cells to homogenise current distributions and mitigate lithium plating",
+    "abstract": "           Spatial distributions in current, temperature, state-of-charge and degradation across the plane of large format lithium-ion battery pouch cells can significantly impact their performance, especially at high C-rates. In this paper, a method to smooth out these spatial distributions by grading the electrode microstructure in-the-plane is proposed. A mathematical model of a large format pouch cell is developed and validated against both temperature and voltage experimental data. An analytical solution for the optimal graded electrode that achieves a uniform current distribution across the pouch cell is then derived. The model predicts that the graded electrodes could significantly reduce the likelihood of lithium plating in large format pouch cells, with grading increasing the C-rate at which plating occurs from 2.4C to 4.3C. These results indicate the potential of designing spatially varying electrode architectures to homogenise the response of large format pouch cells and improve their high rate performance.         ",
+    "url": "https://arxiv.org/abs/2407.21071",
+    "authors": [
+      "Ross Drummond",
+      "Eloise C. Tredenick",
+      "Toby L. Kirk",
+      "Marveh Forghani",
+      "Patrick S. Grant",
+      "Stephen R. Duncan"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.05917",
+    "title": "Quantum kinetic theory of light-matter interactions in degenerate plasmas",
+    "abstract": "           A rigorous treatment of light-matter interactions typically requires an interacting quantum field theory. However, most applications of interest are handled using classical or semiclassical models, which are valid only when quantum-field fluctuations can be neglected. This approximation breaks down in scenarios involving large light intensities or degenerate matter, where additional quantum effects become significant. In this work, we address these limitations by developing a quantum kinetic framework that treats both light and matter fields on equal footing, naturally incorporating both linear and nonlinear interactions. To accurately account for light fluctuations, we introduce a photon distribution function that, together with the classical electromagnetic fields, provides a better description of the photon fluid. From this formalism, we derive kinetic equations from first principles that recover classical electrodynamical results while revealing couplings that are absent in the corresponding classical theory. Furthermore, by addressing the Coulomb interaction in the Hartree-Fock approximation, we include the role of fermionic exchange exactly in both kinetic and fluid regimes through a generalized Fock potential. The latter provides corrections not only to the electrostatic forces but also to the plasma velocity fields, which become significant in degenerate conditions.         ",
+    "url": "https://arxiv.org/abs/2410.05917",
+    "authors": [
+      "J. L. Figueiredo",
+      "J. T. Mendon\u00e7a",
+      "H. Ter\u00e7as"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Mathematical Physics (math-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.02913",
+    "title": "Quantum machine learning for multiclass classification beyond kernel methods",
+    "abstract": "           Quantum machine learning is considered one of the current research fields with immense potential. In recent years, Havl\u00ed\u010dek et al. [Nature 567, 209-212 (2019)] have proposed a quantum machine learning algorithm with quantum-enhanced feature spaces, which effectively addressed a binary classification problem on a superconducting processor and offered a potential pathway to achieving quantum advantage. However, a straightforward binary classification algorithm falls short in solving multiclass classification problems. In this paper, we propose a quantum algorithm that rigorously demonstrates that quantum kernel methods enhance the efficiency of multiclass classification in real-world applications, providing quantum advantage. To demonstrate quantum advantage, we design six distinct quantum kernels within the quantum algorithm to map input data into quantum state spaces and estimate the corresponding quantum kernel matrices. The results from quantum simulations reveal that the quantum algorithm outperforms its classical counterpart in handling six real-world multiclass classification problems. Furthermore, we leverage a variety of performance metrics to comprehensively evaluate the classification and generalization performance of the quantum algorithm. The results demonstrate that the quantum algorithm achieves superior classification and better generalization performance relative to classical counterparts.         ",
+    "url": "https://arxiv.org/abs/2411.02913",
+    "authors": [
+      "Chao Ding",
+      "Shi Wang",
+      "Yaonan Wang",
+      "Weibo Gao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
