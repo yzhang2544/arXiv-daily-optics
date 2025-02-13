@@ -2,7 +2,7 @@ name: Collect arXiv daily information
 
 on: 
   schedule:
-    - cron:  '2 */24 * * *'
+    - cron:  '*/2 * * * *'
   push:
 
 jobs:
