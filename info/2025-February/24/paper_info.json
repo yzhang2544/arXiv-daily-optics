@@ -1,0 +1,356 @@
+[
+  {
+    "id": "arXiv:2502.15141",
+    "title": "Machine learning meets $\\mathfrak{su}(n)$ Lie algebra: Enhancing quantum dynamics learning with exact trace conservation",
+    "abstract": "           Machine learning (ML) has emerged as a promising tool for simulating quantum dissipative dynamics. However, existing methods often struggle to enforce key physical constraints, such as trace conservation, when modeling reduced density matrices (RDMs). While Physics-Informed Neural Networks (PINN) aim to address these challenges, they frequently fail to achieve full physical consistency. In this work, we introduce a novel approach that leverages the $\\mathfrak{su}(n)$ Lie algebra to represent RDMs as a combination of an identity matrix and $n^2 - 1$ Hermitian, traceless, and orthogonal basis operators,where $n$ is the system's dimension. By learning only the coefficients associated with this basis, our framework inherently ensures exact trace conservation, as the traceless nature of the basis restricts the trace contribution solely to the identity matrix. This eliminates the need for explicit trace-preserving penalty terms in the loss function, simplifying optimization and improving learning efficiency. We validate our approach on two benchmark quantum systems: the spin-boson model and the Fenna-Matthews-Olson complex. By comparing the performance of four neural network (NN) architectures -- Purely Data-driven Physics-Uninformed Neural Networks (PUNN), $\\mathfrak{su}(n)$ Lie algebra-based PUNN ($\\mathfrak{su}(n)$-PUNN), traditional PINN, and $\\mathfrak{su}(n)$ Lie algebra-based PINN ($\\mathfrak{su}(n)$-PINN) -- we highlight the limitations of conventional methods and demonstrate the superior accuracy, robustness, and efficiency of our approach in learning quantum dissipative dynamics.         ",
+    "url": "https://arxiv.org/abs/2502.15141",
+    "authors": [
+      "Arif Ullah",
+      "Jeremy O. Richardson"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15157",
+    "title": "Quantum Emitters in Rhombohedral Boron Nitride",
+    "abstract": "           Rhombohedral boron nitride (rBN) is an emerging wide-bandgap van der Waals (vdW) material that combines strong second-order nonlinear optical properties with the structural flexibility of layered 2D systems. Here we show that rBN hosts optically-addressable spin defects and single-photon emitters (SPEs). Both are fabricated deterministically, using site-specific techniques, and are compared to their analogues in hexagonal boron nitride (hBN). Emission spectra in hBN and rBN are compared, and computational models of defects in hBN and rBN are used to elucidate the debated atomic structure of the B-center SPE in BN. Our results establish rBN as a monolithic vdW platform that uniquely combines second-order nonlinear optical properties, optically addressable spin defects, and high-quality SPEs, opening new possibilities for integrated quantum and nonlinear photonics.         ",
+    "url": "https://arxiv.org/abs/2502.15157",
+    "authors": [
+      "Angus Gale",
+      "Mehran Kianinia",
+      "Jake Horder",
+      "Connor Tweedie",
+      "Mridul Singhal",
+      "Dominic Scognamiglio",
+      "Jiajie Qi",
+      "Kaihui Li",
+      "Carla Verdi",
+      "Igor Aharonovich",
+      "Milos Toth"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15269",
+    "title": "Triplet J-driven DNP, a proposal to increase the sensitivity of solution-state NMR without microwave",
+    "abstract": "           Dynamic nuclear polarization (DNP) is an important method to enhance the limited sensitivity of nuclear magnetic resonance (NMR). Using the existing mechanisms such as Overhauser DNP (ODNP) is still difficult to achieve significant enhancement of NMR signals in solutions at a high magnetic field. The recently proposed J-driven DNP (JDNP) condition (when the exchange interaction of two electron spins matches their Lamour frequency) may enable signal enhancement in solution as it requires only dipolar interaction between the biradical polarization agent and the analyte. However, likewise ODNP, the current JDNP strategy still requires the saturation of the electron polarization with high microwave power which has poor penetration and is associated with heating effects in most liquids. The replacement of high-power microwave irradiation is possible if the temporal electron polarization imbalance is created by a different wavelength such as the visible light. Here, we propose a triplet JDNP mechanism which first exploits the light-induced singlet fission process (i.e., a singlet exciton is converted into two triplet excitons). As the JDNP condition is fulfilled, a triplet-to-triplet cross-relaxation process will occur with different rates and consequently lead to the creation of hyperpolarization on the coupled nuclear spin states. This communication discusses the theory behind the triplet JDNP proposal, as well as the polarizing agents and conditions that will enable the new approach to enhance the sensitivity of NMR without the need of microwave irradiation.         ",
+    "url": "https://arxiv.org/abs/2502.15269",
+    "authors": [
+      "Maria Grazia Concilio",
+      "Yiwen Wang",
+      "Linjun Wang",
+      "Xueqian Kong"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15537",
+    "title": "Miniaturized optical system for a chip based cold atom inertial sensor",
+    "abstract": "           We miniaturized the complex optical system responsible for the cooling, pumping and imaging of an on-chip based cold atom inertial sensor. This optical bench uses bonded miniature optics and includes all the necessary optical functions. The bench has a volume of 35x25x5~cm$^3$. We developed a laser frequency lock adapted to the optical bench using saturated absorption in a rubidium cell. The entire laser source based on frequency doubling of 1.56~$\\mu$m fiber lasers, including the control system and the saturated absorption module, fits in a $5U$-rack. Using the miniaturized bench, we realized two and three dimensional magneto optical traps for Rubidium 87 atoms.         ",
+    "url": "https://arxiv.org/abs/2502.15537",
+    "authors": [
+      "S. Hello",
+      "H. Snijders",
+      "B. Wirtschafter",
+      "A. Boutin",
+      "L. Fulop",
+      "F. Sequineau",
+      "C. I. Westbrook",
+      "A. Brignon",
+      "M. Dupont-Nivet"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15565",
+    "title": "Benefits of Mutual Coupling in Dynamic Metasurface Antennas for Optimizing Wireless Communications -- Theory and Experimental Validation",
+    "abstract": "           Dynamic metasurface antennas (DMAs) are a promising embodiment of next-generation reconfigurable antenna technology to realize base stations and access points with reduced cost and power consumption. A DMA is a thin structure patterned on its front with reconfigurable radiating metamaterial elements (meta-atoms) that are excited by waveguides or cavities. Mutual coupling between the meta-atoms can result in a strongly non-linear dependence of the DMA's radiation pattern on the configuration of its meta-atoms. However, besides the obvious algorithmic challenges of working with physics-compliant DMA models, it remains unclear how mutual coupling in DMAs influences the ability to achieve a desired wireless functionality. In this paper, we provide theoretical, numerical and experimental evidence that strong mutual coupling in DMAs increases the radiation pattern sensitivity to the DMA configuration and thereby boosts the available control over the radiation pattern, improving the ability to tailor the radiation pattern to the requirements of a desired wireless functionality. Counterintuitively, we hence encourage next-generation DMA implementations to enhance (rather than suppress) mutual coupling, in combination with suitable physics-compliant modeling and optimization. We expect the unveiled mechanism by which mutual coupling boosts the radiation pattern control to also apply to other reconfigurable antenna systems based on tunable lumped elements.         ",
+    "url": "https://arxiv.org/abs/2502.15565",
+    "authors": [
+      "Hugo Prod'homme",
+      "Jean Tapie",
+      "Luc Le Magoarou",
+      "Philipp del Hougne"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Information Theory (cs.IT)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15671",
+    "title": "On-chip multi-timescale spatiotemporal optical synchronization",
+    "abstract": "           Mode-locking mechanisms are key resources in nonlinear optical phenomena, such as micro-ring solitonic states, and have transformed metrology, precision spectroscopy, and optical communication. However, despite significant efforts, mode-locking has not been demonstrated in the independently tunable multi-timescale regime. Here, we vastly expand the nonlinear mode-locking toolbox into multi-timescale synchronization on a chip. We use topological photonics to engineer a 2D lattice of hundreds of coupled silicon nitride ring resonators capable of hosting nested mode-locked states with a fast (near 1 THz) single-ring and a slow (near 3 GHz) topological super-ring timescales. We demonstrate signatures of multi-timescale mode-locking including quadratic distribution of the pump noise with the two-time azimuthal mode dimensions, as expected by mode-locking theory. Our observations are further corroborated by direct signatures of the near-transform-limit repetition beats and the formation of the temporal pattern on the slow timescale. Moreover, we show that these exotic properties of edge-confined mode-locked states are in sharp contrast to bulk and single-ring counterparts and establish a clear pathway for their identification. Our unprecedented demonstration of mode-locking in topological combs unlocks the implementation of lattice-scale synchronization and independently tunable multi-timescale mode-locking phenomena, also the exploration of the fundamental nonlinearity-topology interplay on a chip.         ",
+    "url": "https://arxiv.org/abs/2502.15671",
+    "authors": [
+      "Lida Xu",
+      "Mahmoud Jalali Mehrabad",
+      "Christopher J. Flower Gregory Moille",
+      "Alessandro Restelli",
+      "Daniel G. Suarez-Forero",
+      "Yanne Chembo",
+      "Sunil Mittal",
+      "Kartik Srinivasan",
+      "Mohammad Hafezi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15038",
+    "title": "The measurement problem in liquid NMR quantum computers",
+    "abstract": "           With the quantum state diffusion measurement theory(QSD), the measurement problem in liquid nuclear magnetic resonance(NMR) quantum computers was addressed and then it was shown that due to statistical fluctuations, the measured magnetic moment value is comparable to noise for long times. Therefore, we suggested that the measurement time should be short to distinguish signal from noise.         ",
+    "url": "https://arxiv.org/abs/2502.15038",
+    "authors": [
+      "Omid Jalili",
+      "Mojgan Heidari Adl"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15042",
+    "title": "Magnetic Field-Controlled Mixed Modulation in Magnetoelectric Sensors",
+    "abstract": "           Magnetoelectric (ME) magnetic field sensors commonly rely on one of the two modulation principles: the nonlinear dependence of magnetostrictive strain on the applied field or the stress-induced change in magnetization susceptibility. While both effects coexist in any ME device, different readout schemes can be chosen to utilize one or the other effect for magnetic field sensing. This work demonstrates that both principles can be simultaneously implemented in a single electrically modulated ME sensor with inductive readout (a converse ME sensor). This mixed modulation approach significantly enhances low-frequency sensitivity while not affecting the sensitivity at higher frequencies. This leads to a nontrivial dependency of the sensor sensitivity on the frequency of the magnetic field to be measured and can effectively decrease the sensor bandwidth by up to an order of magnitude. We show that the contribution of the modulation from the nonlinearity of the magnetostrictive strain to the sensor sensitivity can be changed by applying a magnetic bias field, offering an additional dimension to the design of ME sensors, especially for potential applications in the unshielded environment.         ",
+    "url": "https://arxiv.org/abs/2502.15042",
+    "authors": [
+      "Elizaveta Spetzler",
+      "Benjamin Spetzler",
+      "Dennis Seidler",
+      "Johan Arbustini",
+      "Lars Thorm\u00e4hlen",
+      "Robert Rieger",
+      "Andreas Bahr",
+      "Dirk Meyners",
+      "Jeffrey McCord"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15164",
+    "title": "Quantum critical electro-optic and piezo-electric nonlinearities",
+    "abstract": "           Electro-optics, the tuning of optical properties of materials with electric fields, is key to a multitude of quantum and classical photonics applications. However, a major obstacle preventing many emerging use cases is inefficient modulation in cryogenic environments, as traditional tuning mechanisms degrade at low temperatures. Guided by the connection between phase transitions and nonlinearity, we identify the quantum paraelectric perovskite SrTiO$_3$ (STO) as the strongest cryogenic electro-optic photonic material. As a result of the unique quantum paraelectric phase of STO, we demonstrate a dynamically tunable linear Pockels coefficient ($r_{33}$) exceeding 500 pm/V at $T=5$ K, and study its full temperature and bias dependence. We also measure an enhanced piezo-electric coefficient ($d_{33}$) above 90 pC/N. Both of these coefficients exceed all previously reported values for cryogenic materials, including lithium niobate ($r_{33}\\approx24$ pm/V) and barium titanate ($r_{42}\\approx170$ pm/V). Furthermore, by tuning STO towards \\textit{quantum criticality} with oxygen isotope substitution we more than double the optical and piezo-electric nonlinearities, demonstrating a linear Pockels coefficient above 1100 pm/V. Our results probe the link between quantum phase transitions, dielectric susceptibility, and optical nonlinearities, unlocking opportunities in cryogenic optical and mechanical systems, and provide a framework for discovering new nonlinear materials.         ",
+    "url": "https://arxiv.org/abs/2502.15164",
+    "authors": [
+      "Christopher P. Anderson",
+      "Giovanni Scuri",
+      "Aaron Chan",
+      "Sungjun Eun",
+      "Alexander D. White",
+      "Geun Ho Ahn",
+      "Christine Jilly",
+      "Amir Safavi-Naeini",
+      "Kasper Van Gasse",
+      "Lu Li",
+      "Jelena Vu\u010dkovi\u0107"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15171",
+    "title": "Quantum Emitters in Flux Grown hBN",
+    "abstract": "           Hexagonal boron nitride (hBN) is an emerging material for use in quantum technologies, hosting bright and stable single photon emitters (SPEs). The B-center is one promising SPE in hBN, due to the near-deterministic creation methods and regular emission wavelength. However, incorporation of B-centers in high-quality crystals remains challenging, typically relying on additional post-growth methods to increase creation efficiency. Here, we have demonstrated controlled carbon doping of hBN during growth, using a metal flux based method to increase the efficiency of B-center creation. Importantly, single B-centers with $g^{(2)}(0) < 0.5$ were able to be generated in the as-grown hBN when carbon additions during growth exceeded 2.5 wt.% C. Resonant excitation measurements revealed linewidths of 3.5 GHz with only moderate spectral diffusion present, demonstrating the applicability of the as-grown hBN as a host for high quality B-centers.         ",
+    "url": "https://arxiv.org/abs/2502.15171",
+    "authors": [
+      "Evan Williams",
+      "Angus Gale",
+      "Jake Horder",
+      "Dominic Scognamiglio",
+      "Milos Toth",
+      "Igor Aharonovich"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.15533",
+    "title": "Scalable registration of single quantum emitters within solid immersion lenses through femtosecond laser writing",
+    "abstract": "           Optically active silicon-vacancy (V$_{Si}$) centers in silicon carbide (SiC) serve as qubits, interfacing spins via photons. This capability allows the encoding of photonic information within the spin state and facilitates on-demand readout, promising applications such as quantum memories. However, electron irradiation, a common technique for creating defects in SiC, lacks spatial selectivity, limiting scalability. We employed femtosecond laser writing within photonic structures to generate single (V$_{Si}$) centers, registering them to photonic structures and enhancing optical collection efficiency by a factor of 4.5. Characterization of 28 laser-written defects centers in solid immersion lenses (SILs) showed distributions relative to the photonic structure's center of 260 nm in the x-direction and 60 nm in the y-direction, with standard deviations of $\\pm 170$ nm and $\\pm 90$ nm, respectively. This method is scalable for developing integrated quantum devices using spin-photon interfaces in SiC.         ",
+    "url": "https://arxiv.org/abs/2502.15533",
+    "authors": [
+      "Alexander R. Jones",
+      "Xingrui Cheng",
+      "Shravan Kumar Parthasarathy",
+      "Roland Nagy",
+      "Patrick Salter",
+      "Jason Smith",
+      "Cristian Bonato",
+      "Christiaan Bekker"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.19416",
+    "title": "Lightweight Thermal Management Strategies for the Silicon Detectors of CBM at FAIR",
+    "abstract": "           Lightweight thermal management is central to the design of the all-silicon Inner Tracker of the Compressed Baryonic Matter Experiment (CBM) at the Facility for Antiproton and Ion Research (FAIR). This experiment aims to study strongly interacting matter at neutron star core densities through fixed-target Au-Au collisions ($\\sqrt{s_{NN}} = 2.9 - 4.9$\\,GeV; up to 10$^7$ beam-target interactions per second; polar angular acceptance of $2.5^{\\circ} \\leq \\Theta \\leq 25^{\\circ}$). Studies with thermal demonstrators for both the pixel-based Micro Vertex Detector and the strip-based Silicon Tracking System have validated their thermal management strategies, preparing them for series production now and global commissioning in 2028.         ",
+    "url": "https://arxiv.org/abs/2406.19416",
+    "authors": [
+      "Franz Matejcek",
+      "Kshitij Agarwal",
+      "CBM Collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.06168",
+    "title": "Optimal multipole center for subwavelength acoustic scatterers",
+    "abstract": "           The multipole expansion is a powerful framework for analyzing how subwavelength-size objects scatter waves in optics or acoustics. The calculation of multipole moments traditionally uses the scatterer's center of mass as the reference point. The theoretical foundation of this heuristic convention remains an open question. Here, we challenge this convention by demonstrating that a different, optimal multipole center can yield superior results. The optimal center is crucial -- it allows us to accurately express the scattering response while retaining a minimum number of multipole moments. Our analytical technique for finding the optimal multipole centers of individual scatterers, both in isolation and within finite arrays, is validated through numerical simulations. Our findings reveal that such an optimized positioning significantly reduces quadrupole contributions, enabling more accurate monopole-dipole approximations in acoustic calculations. Our approach also improves the computational efficiency of the T-matrix method, offering practical benefits for metamaterial design and analysis.         ",
+    "url": "https://arxiv.org/abs/2501.06168",
+    "authors": [
+      "Nikita Ustimenko",
+      "Carsten Rockstuhl",
+      "Alexander V. Kildishev"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.07231",
+    "title": "Exposing a Fatal Flaw in Sample-based Quantum Diagonalization Methods",
+    "abstract": "           Quantum Selected Configuration Interaction (QSCI) methods (also known as Sample-based Quantum Diagonalization, SQD) have emerged as promising near-term approaches to solving the electronic Schr\u00f6dinger equation with quantum computers. In this work, we show that QSCI methods face fundamental limitations that severely hinder their practical applicability in chemistry. Using the nitrogen molecule and the iron-sulfur cluster [2Fe-2S] as examples, we demonstrate that while QSCI can, in principle, yield high-quality CI expansions similar to classical SCI heuristics in some cases, the method struggles with inefficiencies in finding new determinants as sampling repeatedly selects already seen configurations. This inefficiency becomes especially pronounced when targeting high-accuracy results or sampling from an approximate ansatz. In cases where the sampling problem is not present, the resulting CI expansions are less compact than those generated from classical heuristics, rendering QSCI an overall more expensive method. Our findings suggest a fatal flaw in QSCI methods as the inescapable trade-off between finding sufficiently many determinants and generating compact, accurate CI expansions. This ultimately hinders utility in quantum chemistry applications as QSCI falls behind more efficient classical counterparts.         ",
+    "url": "https://arxiv.org/abs/2501.07231",
+    "authors": [
+      "Peter Reinholdt",
+      "Karl Michael Ziems",
+      "Erik Rosendahl Kjellgren",
+      "Sonia Coriani",
+      "Stephan P. A. Sauer",
+      "Jacob Kongsted"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.08048",
+    "title": "Efficiently Laser Driven Terahertz Surface Plasmon Polaritons on Long Metal Wire",
+    "abstract": "           We experimentally demonstrate a novel scheme for efficiently generating intense terahertz (THz) surface plasmon polaritons (SPPs) on a sub-wavelength-diameter meter-long metal wire. Driven by a subrelativistic femtosecond laser (a0=0.3, 3 mJ) focused at the wire's midpoint, single-cycle ten-megawatt THz SPPs are excited and propagating bidirectionally along it over 25 cm. The measured laser-to-SPPs energy conversion efficiency is reaching up to ~2.4%, which is the highest value at present. It is proved that the THz SPPs are excited by coherent transition radiation of the subrelativistic laser produced escaping electrons. Particle-in-cell together with CST simulations confirm the experimental observations. Our scheme of using readily available subrelativistic laser should thus be useful to applications requiring terawatt level single-cycle THz SPPs.         ",
+    "url": "https://arxiv.org/abs/2502.08048",
+    "authors": [
+      "Shuoting Shao",
+      "Xiangbing Wang",
+      "Rong Huang",
+      "Guangyue Hu",
+      "Min Chen",
+      "Huibo Tang",
+      "Longyu Kuang",
+      "Yuxi Liu",
+      "Yuqiu Gu",
+      "Yongkun Ding",
+      "Ruxin Li",
+      "Hongbin Zhuo",
+      "Mingyang Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.10075",
+    "title": "Critical nonreciprocity in gyrotropic coupled-waveguide system for TE-mode optical isolator and circulator",
+    "abstract": "           Photonic integrated circuits (PICs) increasingly require more advanced integrated functionalities and devices to meet the key application challenges. This evolution with the serial integration of optical functions in the same photonic circuit often results in internal reflections and optical feedback, which can specifically destabilize lasers. One solution to overcome this issue is to integrate an optical isolator at the output of the lasers. Among various proposed designs, magneto-optical-based isolators have significantly improved over the past decades in terms of compactness, insertion loss, isolation ratio, and spectral isolation bandwidth. Despite these improvements, the TE optical isolator still lacks in performance. This paper introduces a new operational principle for a TE optical isolator based on modal beating in a transverse magneto-optical Kerr effect (TMOKE) coupled-waveguide system. This approach combines evanescent-coupled silicon waveguides and the magneto-optical effect, resulting in a nonreciprocal propagation that can be optimized for optical isolation. This new concept shows promise in achieving a high-performing TE optical isolator, as it does not depend on resonance and is free from constraints associated with interferometers. Based on data from magneto-optical garnet materials, the simulated device has a length of 500 $\\mu$m and its 20 dB-isolation bandwidth is as high as 35 nm. With broadband and high isolation, this simulated device opens possibilities for miniaturizing complex photonic circuits used in optical communication, data communication, and optical sensing.         ",
+    "url": "https://arxiv.org/abs/2502.10075",
+    "authors": [
+      "Kimhong Chao",
+      "Vy Yam",
+      "Laurent Vivien",
+      "B\u00e9atrice Dagens"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2210.12110",
+    "title": "Coherent optical two-photon resonance tomographic imaging in three dimensions",
+    "abstract": "           Magnetic resonance imaging is a three-dimensional imaging technique, where a gradient of the magnetic field is used to interrogate spin resonances with spatial resolution. The application of this technique to probe the coherence of atoms with good three-dimensional resolution is a challenging application. We propose and demonstrate an optical method to probe spin resonances via a two-photon Raman transition, reconstructing the 3D-structure of an atomic ensemble's coherence, which is itself subject to external fields. Our method relies on a single time-and-space resolved heterodyne measurement, allowing the reconstruction of a complex 3D coherence profile. Owing to the optical interface, we reach a tomographic image resolution of $14\\times14\\times36$ $\\mu\\mathrm{m}^3$. The technique allows to probe any transparent medium with a resonance structure and provides a robust diagnostic tool for atom-based quantum information protocols. As such, it is a viable technique for application to magnetometry, electrometry, and imaging of electromagnetic fields.         ",
+    "url": "https://arxiv.org/abs/2210.12110",
+    "authors": [
+      "Mateusz Mazelanik",
+      "Adam Leszczy\u0144ski",
+      "Tomasz Szawe\u0142\u0142o",
+      "Micha\u0142 Parniak"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.00285",
+    "title": "Optimal Local Measurements in Single-Parameter Quantum Metrology",
+    "abstract": "           Quantum measurement plays a crucial role in quantum metrology. Due to the limitations of experimental capabilities, collectively measuring multiple copies of probing systems can present significant challenges. Therefore, the concept of locality in quantum measurements must be considered. In this work, we investigate the possibility of achieving the Quantum Cram\u00e9r-Rao Bound (QCRB) through local measurements (LM). We first demonstrate that if there exists a LM to saturate the QCRB for qubit systems, then we can construct another rank-1 local projective measurement to saturate the QCRB. In this sense, rank-1 local projective measurements are sufficient to analyze the problem of saturating the QCRB. For pure qubits, we propose two necessary and sufficient methods to determine whether and how a given parameter estimation model can achieve QCRB through LM. The first method, dubbed iterative matrix partition method (IMP) and based on unitary transformations that render the diagonal entries of a tracless matrix vanish, elucidates the underlying mathematical structure of LM as well as the local measurements with classical communications (LMCC), generalizing the result by [Zhou et al Quantum Sci. Technol. 5, 025005 (2020)], which only holds for the later case. We clarify that the saturation of QCRB through LM for the GHZ-encoded states is actually due to the self-similar structure in this approach. The second method, dubbed hierarchy of orthogonality conditions (HOC) and based on the parametrization of rank-1 measurements for qubit systems, allows us to construct several examples of saturating QCRB, including the three-qubit W states and $N$-qubit W states ($N \\geq 3$). Our findings offer insights into achieving optimal performance in quantum metrology when measurement resources are limited.         ",
+    "url": "https://arxiv.org/abs/2310.00285",
+    "authors": [
+      "Jia-Xuan Liu",
+      "Jing Yang",
+      "Hai-Long Shi",
+      "Sixia Yu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Information Theory (cs.IT)",
+      "Optimization and Control (math.OC)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.11126",
+    "title": "In Situ Optimization of an Optoelectronic Reservoir Computer with Digital Delayed Feedback",
+    "abstract": "           Reservoir computing (RC) is an innovative paradigm in neuromorphic computing that leverages fixed, randomized, internal connections to address the challenge of overfitting. RC has shown remarkable effectiveness in signal processing and pattern recognition tasks, making it well-suited for hardware implementations across various physical substrates, which promise enhanced computation speeds and reduced energy consumption. However, achieving optimal performance in RC systems requires effective parameter optimization. Traditionally, this optimization has relied on software modeling, limiting the practicality of physical computing approaches. Here, we report an \\emph{in situ} optimization method for an optoelectronic delay-based RC system with digital delayed feedback. By simultaneously optimizing five parameters, normalized mean squared error (NMSE) of 0.028, 0.561, and 0.271 is achieved in three benchmark tasks: waveform classification, time series prediction, and speech recognition outperforming simulation-based optimization (NMSE 0.054, 0.543, and 0.329, respectively) in the two of the three tasks. This method marks a significant advancement in physical computing, facilitating the optimization of RC and neuromorphic systems without the need for simulation, thus enhancing their practical applicability.         ",
+    "url": "https://arxiv.org/abs/2502.11126",
+    "authors": [
+      "Fyodor Morozko",
+      "Shadad Watad",
+      "Amir Naser",
+      "Antonio Cal`a Lesina",
+      "Andrey Novitsky",
+      "Alina Karabchevsky"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
