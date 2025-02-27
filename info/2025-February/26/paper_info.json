@@ -1,0 +1,331 @@
+[
+  {
+    "id": "arXiv:2502.17458",
+    "title": "A Constructor-Theoretic and Quantum Information Approach to the Three-Step Photoemission Model: A Theoretical Investigation",
+    "abstract": "           A novel theoretical reformulation of the conventional three-step photoemission model is presented by integrating the conceptual frameworks of constructor theory and quantum information theory. Each step of the photoemission process photon absorption, electron transport, and electron emission is formalized as a physical task (in the constructor-theoretic sense) and modeled by a quantum channel with an explicit operator-level description. This dual framework not only recovers the standard efficiency factorization n = A T D but also reveals new insights into the preservation of coherence and the interdependence of successive tasks. Furthermore, potential experimental setups and conditions under which the predicted phenomena could be observed are discussed. The motivation of this work is to pave the path for improved implementations of the current photoemission model and to contribute toward the realization of a universal constructor for quantum computation.         ",
+    "url": "https://arxiv.org/abs/2502.17458",
+    "authors": [
+      "Saransh Malhotra"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17505",
+    "title": "Inverse Surrogate Model of a Soft X-Ray Spectrometer using Domain Adaptation",
+    "abstract": "           In this study, we present a method to create a robust inverse surrogate model for a soft X-ray spectrometer. During a beamtime at an electron storage ring, such as BESSY II, instrumentation and beamlines are required to be correctly aligned and calibrated for optimal experimental conditions. In order to automate these processes, machine learning methods can be developed and implemented, but in many cases these methods require the use of an inverse model which maps the output of the experiment, such as a detector image, to the parameters of the device. Due to limited experimental data, such models are often trained with simulated data, which creates the challenge of compensating for the inherent differences between simulation and experiment. In order to close this gap, we demonstrate the application of data augmentation and adversarial domain adaptation techniques, with which we can predict absolute coordinates for the automated alignment of our spectrometer. Bridging the simulation-experiment gap with minimal real-world data opens new avenues for automated experimentation using machine learning in scientific instrumentation.         ",
+    "url": "https://arxiv.org/abs/2502.17505",
+    "authors": [
+      "Enrico Ahlers",
+      "Peter Feuer-Forson",
+      "Gregor Hartmann",
+      "Rolf Mitzner",
+      "Peter Baumg\u00e4rtel",
+      "Jens Viefhaus"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Artificial Intelligence (cs.AI)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17656",
+    "title": "High-Q, size-independent, and reconfigurable optical antennas via zero-index material dispersion engineering",
+    "abstract": "           Enhancing light-matter interactions at the nanoscale is foundational to nanophotonics, with epsilon near zero (ENZ) materials demonstrating significant this http URL-quality (Q) factor resonances maximizing these interactions are typically realized in photonic crystals requiring sub-50 nm precision nanofabrication over large areas, limiting scalability and increasing complexity. Mie resonances offer an alternative but are constrained by low Q factors due to the scarcity of high refractive index materials, necessitating large refractive index changes for effective resonance switching and limiting dynamic reconfigurability. We overcome these limitations by embedding Mie resonators within ENZ media, thereby enhancing Q- factors, mitigating geometric dispersion and fabrication challenges, and maximizing optical reconfigurability. We introduce three resonator-ENZ configurations - voids in AlN, Ge in $SiO_2$, and intrinsic InSb in doped InSb - spanning from low-loss phononic to lossy plasmonic ENZ this http URL novel epitaxial regrowth techniques, we achieve significant Q-factor improvements over non-embedded resonators. Notably, an air-based Mie resonator embedded in AlN supports resonant Q-factors exceeding 100, with negligible geometric dispersion across sizes from 800 nm to 2,800 nm. Additionally, we demonstrate dynamic reconfigurability of intrinsic InSb resonators by thermally tuning the ENZ wavelength over a 2$\\mu$m range in the mid-infrared (11-16 $\\mu$m) wavelength regime. These results showcase the potential of Mie resonators embedded in ENZ media for high-fidelity sensors, thermal emitters, and reconfigurable metasurfaces, bridging theoretical predictions with practical applications, advancing the development of dynamic, high-Q optical devices.         ",
+    "url": "https://arxiv.org/abs/2502.17656",
+    "authors": [
+      "Prasad P. Iyer",
+      "Mihir Pendharkar",
+      "Anchal Agrawal",
+      "Humberto Foronda",
+      "Mike Iza",
+      "Umesh K. Mishra",
+      "Shuji Nakamura",
+      "Steven DenBaars",
+      "Stacia Keller",
+      "Chris Palmstr\u00f8m",
+      "Jon A. Schuller"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17660",
+    "title": "Leveraging resonant frequencies of an optical cavity for spectroscopic measurement of gas temperature and concentration",
+    "abstract": "           We introduce a spectroscopic approach to primary gas thermometry, harnessing precise optical cavity resonance frequencies and ab initio molecular line intensity calculations. By utilizing CO (3-0) vibrational band lines and cavity mode dispersion spectroscopy, we achieve an uncertainty of 82 ppm (24 mK at 296 K) in line-intensity-ratio thermometry (LRT) - over an order of magnitude lower than any previously reported spectroscopic thermometry at gas pressures above 1.2 kPa. This method extends high-precision spectroscopic thermometry across a pressure range an order of magnitude larger than prior techniques, enabling a fully optical, non-contact, and molecule-selective primary amount-of-substance measurement. We further demonstrate sub-permille uncertainty in gas concentration measurements across pressures from 50 Pa to 20 kPa, significantly enhancing the precision and versatility of spectroscopic gas metrology.         ",
+    "url": "https://arxiv.org/abs/2502.17660",
+    "authors": [
+      "Daniel Lisak",
+      "Vittorio D'Agostino",
+      "Szymon W\u00f3jtewicz",
+      "Agata Cygan",
+      "Marcin Gibas",
+      "Piotr Wcis\u0142o",
+      "Roman Ciury\u0142o",
+      "Katarzyna Bielska"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17963",
+    "title": "ByteQC: GPU-Accelerated Quantum Chemistry Package for Large-Scale Systems",
+    "abstract": "           Applying quantum chemistry algorithms to large-scale systems requires substantial computational resources scaled with the system size and the desired accuracy. To address this, ByteQC, a fully-functional and efficient package for large-scale quantum chemistry simulations, has been open-sourced at this https URL, leveraging recent advances in computational power and many-body algorithms. Regarding computational power, several standard algorithms are efficiently implemented on modern GPUs, ranging from mean-field calculations (Hartree-Fock and density functional theory) to post-Hartree-Fock methods such as M\u00f8ller-Plesset perturbation theory, random phase approximation, coupled cluster methods, and quantum Monte Carlo methods. For the algorithmic approach, we also employ a quantum embedding method, which significantly expands the tractable system size while preserving high accuracy at the gold-standard level. All these features have been systematically benchmarked. For standalone algorithms, the benchmark results demonstrate up to a 60$\\times$ speedup when compared to 100-core CPUs. Additionally, the tractable system sizes have been significantly expanded: 1,610 orbitals for coupled cluster with single and double excitations (1,380 orbitals with perturbative triple excitations), 11,040 orbitals for M\u00f8ller-Plesset perturbation theory of second order, 37,120 orbitals for mean-field calculations under open boundary conditions, and over 100,000 orbitals for periodic boundary conditions. For the advanced quantum embedding feature, two representative examples are demonstrated: the water cluster problem (2,752 orbitals) and a water monomer adsorbed on a boron nitride surface (3,929 orbitals), achieving the gold-standard accuracy.         ",
+    "url": "https://arxiv.org/abs/2502.17963",
+    "authors": [
+      "Zhen Guo",
+      "Zigeng Huang",
+      "Qiaorui Chen",
+      "Jiang Shao",
+      "Guangcheng Liu",
+      "Hung Pham",
+      "Changsu Cao",
+      "Ji Chen",
+      "Dingshun Lv"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.18194",
+    "title": "Transformation-free generation of a quasi-diabatic representation from the state-average orbital-optimized variational quantum eigensolver",
+    "abstract": "           In the present work, we examine how the recent quantum-computing algorithm known as the state-average orbital-optimized variational quantum eigensolver (SA-OO-VQE), viewed within the context of quantum chemistry as a type of multiconfiguration self-consistent field (MCSCF) electronic-structure approach, exhibits a propensity to produce an ab initio quasi-diabatic representation ``for free'' if considered as a least-transformed block-diagonalization procedure, as alluded to in our previous work [S. Yalouz et al., J. Chem. Theory Comput. 18 (2022) 776] and thoroughly assessed herein. To this end, we introduce intrinsic and residual descriptors of diabaticity and re-explore the definition and linear-algebra properties - as well as their consequences on the vibronic nonadiabatic couplings - of an optimal diabatic representation within this context, and how much one may deviate from it. Such considerations are illustrated numerically on the prototypical case of formaldimine, which presents a well-known conical intersection between its ground and first-excited singlet electronic states.         ",
+    "url": "https://arxiv.org/abs/2502.18194",
+    "authors": [
+      "Silvie Ill\u00e9sov\u00e1",
+      "Martin Beseda",
+      "Saad Yalouz",
+      "Benjamin Lasorne",
+      "Bruno Senjean"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.18212",
+    "title": "Quantum implicit representation of vortex filaments in turbulence",
+    "abstract": "           Entangled vortex filaments are essential to turbulence, serving as coherent structures that govern nonlinear fluid dynamics and support the reconstruction of fluid fields to reveal statistical properties. This study introduces an quantum implicit representation of vortex filaments in turbulence, employing a level-set method that models the filaments as the intersection of the real and imaginary zero iso-surfaces of a complex scalar field. Describing the fluid field via the wave function offers distinct advantages in capturing complex structures, topological properties, and fluid dynamics, while opening new avenues for innovative solutions through quantum computing platforms. The representation is reformulated into an eigenvalue problem for Hermitian matrices, enabling the conversion of velocity fields into complex scalar fields that embed the vortex filaments. The resulting optimization is addressed using a variational quantum eigensolver, with Pauli operator truncation and deep learning techniques applied to improve efficiency and reduce noise. The proposed quantum framework achieves a near-linear time complexity and a exponential storage reduction while maintaining a balance of accuracy, robustness, and versatility, presenting a promising tool for turbulence analysis, vortex dynamics research, and machine learning dataset generation.         ",
+    "url": "https://arxiv.org/abs/2502.18212",
+    "authors": [
+      "Chenjia Zhu",
+      "Ziteng Wang",
+      "Shiying Xiong",
+      "Yaomin Zhao",
+      "Yue Yang"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.18340",
+    "title": "Impact and Interplay of Quantum Coherence and Dissipative Dynamics for Isotope Effects in Excited-State Intramolecular Proton Transfer",
+    "abstract": "           The quantum dynamics of Excited State Intramolecular Proton Transfer (ESIPT) is studied using a non-Markovian open quantum system perspective. Models of 2-(2-hydroxyphenyl) benzothiazole (HBT) and 10-hydroxybenzo[h]quinoline (HBQ) are adapted from Zhang et al. (ACS Phys. Chem. Au, 3, 107-118 (2023)) and simulated via the numerically exact TEDOPA Matrix Product State formalism, using a newly developed framework for continuous degrees of freedom subject to dissipation. The quantum treatment of the proton wave packet shows a counter-intuitive kinetic isotope effect, with strong isotope dependence for the barrierless potential surface of HBQ and no isotope effect in the double-well energy landscape of the HBT, in accordance with experimental results. Strikingly, for HBQ we find that changing laser pulse durations can even reverse the isotope effect on the proton transfer rate, revealing the role of vibration-assisted absorption in ESIPT. This study highlights the often neglected effect of excitation conditions on ESIPT, as well as the role of entangled, vibrationally assisted absorption processes that can be directly visualised in our multidimensional treatment of the full electro-vibronic-environment wave function.         ",
+    "url": "https://arxiv.org/abs/2502.18340",
+    "authors": [
+      "Brieuc Le D\u00e9",
+      "Simon Huppert",
+      "Riccardo Spezia",
+      "Alex W. Chin"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.18344",
+    "title": "Distributed acoustic sensing for ocean applications",
+    "abstract": "           Extensive monitoring of acoustic activities is important for many fields, including biology, security, oceanography, and Earth science. Distributed acoustic sensing (DAS) is an evolving technique for continuous, wide-coverage measurements of mechanical vibrations, which is suited to ocean applications. DAS illuminates an optical fiber with laser pulses and measures the backscattered wave due to small random variations in the refractive index of the material. Specifically, DAS uses coherent optical interferometry to measure the phase difference of the backscattered wave from adjacent locations along the fiber. External stimuli, such as mechanical strain due to acoustic wavefields impinging on the fiber-optic cable, modulate the backscattered wave. Hence, the differential phase measurements of the optical backscatter are proportional to the underlying physical quantities of the surrounding wavefield. Continuous measurement of the backscattered electromagnetic signal provides a distributed sensing modality that extends spatially along the fiber. We provide an overview of DAS technology and detail the underlying physics, from electromagnetic to mechanical and eventually acoustic quantities. We explain the effect of DAS acquisition parameters in signal processing and show the potential of DAS for sound source detection on data collected from the Ocean Observatories Initiative Regional Cabled Array this https URL.         ",
+    "url": "https://arxiv.org/abs/2502.18344",
+    "authors": [
+      "Angeliki Xenaki",
+      "Peter Gerstoft",
+      "Ethan Williams",
+      "Shima Abadi"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.18400",
+    "title": "Quantum Imaging of Photonic Spin Texture in an OAM Beam with NV Centers in Diamond",
+    "abstract": "           Photonic spin texture (PST), the spatial distribution of the spin angular momentum (SAM) of light, is connected to unique properties of light, such as optical skyrmions and topological optical N-invariants. There has been recent progress on the generation and manipulation of PST using various methodologies. However, a challenge remains for the sub-wavelength characterization of PST. Here, we demonstrate nitrogen-vacancy (NV) centers in diamond as nanoscale quantum sensors for imaging the PST of a beam with orbital angular momentum (OAM). Leveraging the coherent interaction between photon spin and NV center electron spin at cryogenic temperature (77 K), and using the Hahn-Echo magnetometry technique, we experimentally demonstrate the imprinting of the PST on the quantum phase of NV centers. Our work can lead to the development of a quantum imaging platform capable of characterization of the spin texture of light at sub-wavelength scales.         ",
+    "url": "https://arxiv.org/abs/2502.18400",
+    "authors": [
+      "Shoaib Mahmud",
+      "Wei Zhang",
+      "Farid Kalhor",
+      "Pronoy Das",
+      "Zubin Jacob"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17662",
+    "title": "Resonant Energy Transfer and Collectively Driven Emitters in Waveguide QED",
+    "abstract": "           Waveguide quantum electrodynamics (QED) has opened a new frontier in quantum optics, which enables the radiative coupling of distantly located emitters via the spatially extended waveguide mode. This coupling leads to modified emission dynamics and previous work has reported the observation of increased intensity correlations (an antidip) when probing the resonance response of multiple emitters. However, the interference between independent emitters has been shown to lead to a similar response. Here, we directly observe resonant energy transfer between two distant quantum emitters by recording an antidip in the intensity correlations, $g^{(2)}(\\tau)$, while driving only one of the emitters. Under the condition that only a single emitter is driven, the antidip in photon coincidences is a distinctive signature of emitter-emitter coupling, which enables the transfer of energy from the driven to the undriven emitter. Interestingly, the observed mechanism is a long-range and waveguide-engineered resonant version of resonant F\u00f6rster transfer, which is responsible for the transport of energy between chlorophylls in the photosynthesis. Building on the established coupling, we demonstrate collective driving of the coupled emitter pair. Specifically, we control the relative driving phase and amplitude of the emitters and apply this collective excitation scheme to selectively populate the long-lived subradiant state. This results in suppressed emission, i.e. the peculiar situation where driving two emitters as opposed to one effectively reduces the probability of photon emission. Our work presents novel emission regimes and excitation schemes for a multi-emitter waveguide QED system. These can be exploited to deterministically generate emitter-emitter entanglement and advanced photonic states providing robustness against losses for photonic quantum computation and quantum communication.         ",
+    "url": "https://arxiv.org/abs/2502.17662",
+    "authors": [
+      "Cornelis Jacobus van Diepen",
+      "Vasiliki Angelopoulou",
+      "Oliver August Dall'Alba Sandberg",
+      "Alexey Tiranov",
+      "Ying Wang",
+      "Sven Scholz",
+      "Arne Ludwig",
+      "Anders S\u00f8ndberg S\u00f8rensen",
+      "Peter Lodahl"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17790",
+    "title": "Quantum neural compressive sensing for ghost imaging",
+    "abstract": "           Demonstrating the utility of quantum algorithms is a long-standing challenge, where quantum machine learning becomes one of the most promising candidate that can be resorted to. In this study, we investigate a quantum neural compressive sensing algorithm for ghost imaging to showcase its utility. The algorithm utilizes the variational quantum circuits to reparameterize the inverse problem of ghost imaging and uses the inductive bias of the physical forward model to perform optimization. To validate the algorithm's effectiveness, we conduct optical ghost imaging experiments, capturing signals from objects at different physical sampling rates and detection signal-to-noise ratios. The experimental results show that our proposed algorithm surpasses conventional methods in both visual appearance and quantitative metrics, achieving state-of-the-art performance. Importantly, we observe that the quantum neural network, guided by prior knowledge of physics, effectively overcomes the challenge of barren plateau in the optimization process. The proposed algorithm demonstrates robustness against various quantum noise levels, making it suitable for near-term quantum devices. Our study leverages physical inductive bias guided variational quantum algorithm, underscoring the potential of quantum computation in tackling a broad range of optimization and inverse problems.         ",
+    "url": "https://arxiv.org/abs/2502.17790",
+    "authors": [
+      "Xinliang Zhai",
+      "Tailong Xiao",
+      "Jingzheng Huang",
+      "Jianping Fan",
+      "Guihua Zeng"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17828",
+    "title": "Photonic Lightsails: Fast and Stable Propulsion for Interstellar Travel",
+    "abstract": "           Lightsails are a highly promising spacecraft concept that has attracted interest in recent years due to its potential to travel at near-relativistic speeds. Such speeds, which current conventional crafts cannot reach, offer tantalizing opportunities to probe nearby stellar systems within a human lifetime. Recent advancements in photonics and metamaterials have created novel solutions to challenges in propulsion and stability facing lightsail missions. This review introduces the physical principles underpinning lightsail spacecrafts and discusses how photonics coupled with inverse design substantially enhance lightsail performance compared to plain reflectors. These developments pave the way through a previously inaccessible frontier of space exploration.         ",
+    "url": "https://arxiv.org/abs/2502.17828",
+    "authors": [
+      "Jadon Y. Lin",
+      "C. Martijn de Sterke",
+      "Ognjen Ilic",
+      "Boris T. Kuhlmey"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17849",
+    "title": "Termination of bottom-up interstellar aromatic ring formation at C6H5+",
+    "abstract": "           The aromatic molecule benzene is considered the essential building block for larger polycyclic aromatic hydrocarbons (PAHs) in space. Despite benzene's importance in the formation of PAHs, the formation mechanisms of interstellar benzene are not well understood. A single ion-molecule reaction sequence is considered when modeling the formation of benzene in the interstellar medium, beginning with the protonation of acetylene. Although this process has been used to model the initial steps for formation of PAHs, it has not been experimentally measured. To explore this reaction mechanism, we have carried out the first experimental study of sequential ion-molecule reactions beginning with protonation of acetylene at single-collision conditions. Surprisingly, we find that the reaction sequence does not result in benzene and instead terminates at C6H5+, which is unreactive toward both acetylene and hydrogen. This result disproves the previously proposed mechanism for interstellar benzene formation, critically altering our understanding of interstellar PAH formation.         ",
+    "url": "https://arxiv.org/abs/2502.17849",
+    "authors": [
+      "G. S. Kocheril",
+      "C. Zagorec-Marks",
+      "H. J. Lewandowski"
+    ],
+    "subjectives": [
+      "Astrophysics of Galaxies (astro-ph.GA)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.14349",
+    "title": "Engineering high Pockels coefficients in thin-film strontium titanate for cryogenic quantum electro-optic applications",
+    "abstract": "           Materials which exhibit the Pockels effect are notable for their strong electro-optic interaction and rapid response times and are therefore used extensively in classical electro-optic components for data and telecommunication applications. Yet many materials optimized for room-temperature operation see their Pockels coefficients at cryogenic temperatures significantly reduced - a major hurdle for emerging quantum technologies which have even more rigorous demands than their classical counterpart. A noted example is $\\mathrm{BaTiO_3}$, which features the strongest effective Pockels coefficient at room temperature, only to see it reduced to a third (i.e. $\\mathrm{r_{eff}} \\approx$ 170 pm/V) at a few Kelvin. Here, we show that this behaviour is not inherent and can even be reversed: Strontium titanate ($\\mathrm{SrTiO_3}$), a material normally not featuring a Pockels coefficient, can be engineered to exhibit an $\\mathrm{r_{eff}}$ of 345 pm/V at cryogenic temperatures - a record value in any thin-film electro-optic material. By adjusting the stoichiometry, we can increase the Curie temperature and realise a ferroelectric phase that yields a high Pockels coefficient, yet with limited optical losses - on the order of decibels per centimetre. Our findings position $\\mathrm{SrTiO_3}$ as one of the most promising materials for cryogenic quantum photonics applications.         ",
+    "url": "https://arxiv.org/abs/2502.14349",
+    "authors": [
+      "Anja Ulrich",
+      "Kamal Brahim",
+      "Andries Boelen",
+      "Michiel Debaets",
+      "Conglin Sun",
+      "Yishu Huang",
+      "Sandeep Seema Saseendran",
+      "Marina Baryshnikova",
+      "Paola Favia",
+      "Thomas Nuytten",
+      "Stefanie Sergeant",
+      "Kasper Van Gasse",
+      "Bart Kuyken",
+      "Kristiaan De Greve",
+      "Clement Merckling",
+      "Christian Haffner"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17310",
+    "title": "Hyperfine and Zeeman Optical Pumping and Transverse Laser Cooling of a Thermal Atomic Beam of Dysprosium Using a Single 421 nm Laser",
+    "abstract": "           We demonstrate the effect of Zeeman and hyperfine optical pumping and transverse laser cooling of a dysprosium (Dy) atomic beam on the $4f^{10}6s^2(J = 8) \\rightarrow 4f^{10}6s6p(J = 9)$ transition at 421.291 nm. For $^{163}$Dy, an electro-optic modulator is used to generate five frequency sidebands required to pump the atoms to the $F = 10.5$ ground state hyperfine level and the light polarization is chosen to pump the atoms to the $m_F = 10.5$ Zeeman sublevel. The atoms are simultaneously laser-cooled using a standing wave orthogonal to the atomic beam. The resulting polarized and cooled atomic beam will be used in fundamental physics experiments taking advantage of the accidental degeneracy of excited states in Dy including the ongoing measurement of parity violation in this system.         ",
+    "url": "https://arxiv.org/abs/2502.17310",
+    "authors": [
+      "Rohan Chakravarthy",
+      "Jonathan Agil",
+      "Arijit Sharma",
+      "Jung Bog Kim",
+      "Dmitry Budker"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17413",
+    "title": "Spatiotemporal optical vortex (STOV) polariton",
+    "abstract": "           We confirm the existence of the spatiotemporal optical vortex (STOV) polariton and the value of its tOAM, verifying our theory of transverse orbital angular momentum in a simple dispersive medium [S. W. Hancock et al., Phys. Rev. Lett. 127, 193901 (2021)]. We also develop a physical picture of the polariton as a structure driven by torques induced by the ponderomotive force of the light in the presence of material dispersion. This is a new type of spatiotemporal torque unanticipated in our recent work [S. W. Hancock et al., Phys. Rev. X 14, 011031 (2024)]. These results are accomplished by high resolution particle-in-cell (PIC) simulations of STOV pulse reflection from and transmission through a fully ionized hydrogen plasma slab. The linear theory matches the PIC simulations up to near-critical plasma densities and near-relativistic field strengths. For higher intensities, optical tOAM becomes invested in collective modes of the plasma.         ",
+    "url": "https://arxiv.org/abs/2502.17413",
+    "authors": [
+      "M. S. Le",
+      "S. W. Hancock",
+      "N. Tripathi",
+      "H. M. Milchberg"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.12324",
+    "title": "The Rouse ring chain with attractive harmonic potential of spherical symmetry",
+    "abstract": "           The static and dynamic properties of a cyclic Rouse chain modified by the introduction of an effective, spherically symmetric, attracting potential of entropic nature is studied. It is shown that a relatively weak potential can lead to a strong contraction of the polymer chain: the radius of gyration becomes much smaller compared to the size of free cyclic chain. The pronounced decrease in the terminal relaxation time of cyclic macromolecules compared to the Rouse relaxation time leads to a lengthening of the time interval for the transition to the normal, i.e. the Fickian, diffusion regime, generating a pseudo-plateau at increasing molecular mass for the time dependence of segmental mean squared segmental displacement.         ",
+    "url": "https://arxiv.org/abs/2501.12324",
+    "authors": [
+      "Nail Fatkullin",
+      "Carlos Mattea",
+      "Kevin Lindt",
+      "Siegfried Stapf",
+      "Margarita Kruteva"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
