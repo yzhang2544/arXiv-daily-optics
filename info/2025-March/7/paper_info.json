@@ -1,0 +1,575 @@
+[
+  {
+    "id": "arXiv:2503.03760",
+    "title": "Large area curved silicon modules for future trackers",
+    "abstract": "           For many years there has been an aspiration within the community to develop curved silicon detectors for particle physics applications. We present the results from 10 x 10cm low mass support modules as a part of the \"ZeroMass\" project that aims to minimise the material budget for tracking and vertexing systems for future colliders. We use 50 {\\mu}m thick DC coupled strip sensors from Micron Semiconductor Ltd., with a carbon composite support frame. Our current module demonstrators use a radius of curvature of 15cm, typical of that used for the outer parts of large pixel systems, or the inner part of strip trackers and the outer part of large radii vertex detectors. The material budget obtained varies from an $X_0$ of 0.05\\% in the active area to 0.62\\% in the support structure, with an average of 0.28\\%. There is further scope for material budget reduction in applying the concept and methods to large instruments for future detector systems, which we also discuss.         ",
+    "url": "https://arxiv.org/abs/2503.03760",
+    "authors": [
+      "Sam Moss",
+      "Zhidong Zhang",
+      "Adrian Bevan",
+      "Mark Bullough",
+      "Jens Dopke",
+      "Jag Mistry",
+      "Seth Zenz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.03928",
+    "title": "Hierarchical quantum embedding by machine learning for large molecular assemblies",
+    "abstract": "           We present a quantum-in-quantum embedding strategy coupled to machine learning potentials to improve on the accuracy of quantum-classical hybrid models for the description of large molecules. In such hybrid models, relevant structural regions (such as those around reaction centers or pockets for binding of host molecules) can be described by a quantum model that is then embedded into a classical molecular-mechanics environment. However, this quantum region may become so large that only approximate electronic structure models are applicable. To then restore accuracy in the quantum description, we here introduce the concept of quantum cores within the quantum region that are amenable to accurate electronic structure models due to their limited size. Huzinaga-type projection-based embedding, for example, can deliver accurate electronic energies obtained with advanced electronic structure methods. The resulting total electronic energies are then fed into a transfer learning approach that efficiently exploits the higher-accuracy data to improve on a machine learning potential obtained for the original quantum-classical hybrid approach. We explore the potential of this approach in the context of a well-studied protein-ligand complex for which we calculate the free energy of binding using alchemical free energy and non-equilibrium switching simulations.         ",
+    "url": "https://arxiv.org/abs/2503.03928",
+    "authors": [
+      "Moritz Bensberg",
+      "Marco Eckhoff",
+      "Raphael T. Husistein",
+      "Matthew S. Teynor",
+      "Valentina Sora",
+      "William Bro-J\u00f8rgensen",
+      "F. Emil Thomasen",
+      "Anders Krogh",
+      "Kresten Lindorff-Larsen",
+      "Gemma C. Solomon",
+      "Thomas Weymuth",
+      "Markus Reiher"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Biological Physics (physics.bio-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.03966",
+    "title": "Nuclear-electronic calculations need uncontracted basis sets on the quantum protons",
+    "abstract": "           An attractive way to calculate nuclear quantum effects is to describe select nuclei quantum mechanically at the same level as the electrons, requiring the solution of coupled Schr\u00f6dinger equations for the electrons and the quantum nuclei. This is commonly known as the nuclear-electronic orbital (NEO) method, but it also has many other names. Two types of basis sets are required: a nuclear basis set is required in addition to the usual electronic basis set. In this work, we demonstrate that while existing nuclear basis sets are sufficient for NEO density-functional calculations, many sets producing proton affinities converged within 0.1 kcal/mol of the complete basis set limit, NEO calculations should always use uncontracted electronic basis sets on the quantum protons, since the contraction coefficients in typical electronic basis sets have been derived for point nuclear charge distributions. Uncontracting the basis sets on the quantized protons leads to significantly faster convergence to the basis set limit, leading to improvements of 18 kcal/mol and 10 kcal/mol in proton affinities employing double-$\\zeta$ aug-pc-1 and triple-$\\zeta$ aug-pc-2 electronic basis sets, respectively, with little effect on the computational effort. The partially uncontracted aug-pc-3 electronic basis set already affords proton affinities converged beyond 0.1 kcal/mol from the complete basis set limit. Similar results are also obtained with Dunning's correlation-consistent cc-pVXZ basis sets, as well as the Karlsruhe def2-XZP basis sets, albeit at a somewhat slower rate of convergence. As the protonic basis sets yield fully converged values, we find the protonic basis sets to be unnecessarily large for ground state density functional calculations, as the error in the protonic basis set is not balanced with that for typical electronic basis sets.         ",
+    "url": "https://arxiv.org/abs/2503.03966",
+    "authors": [
+      "Luukas Nikkanen",
+      "Fabijan Pavo\u0161evi\u0107",
+      "Susi Lehtola"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04168",
+    "title": "Nanometer-scale Cavities for Far-infrared Radiation via Acoustic Phonon Polariton Resonators",
+    "abstract": "           Surface polaritons play a pivotal role in enabling and controlling strong light-matter interactions at the nanoscale due to their ability to carry large momentum, thus confining light to deep subwavelength dimensions. These polaritons are supported by materials with negative real-part permittivity, such as surface-plasmon-polaritons in metals, and plasmons in graphene, for example. A promising class of materials that exhibit negative permittivity is that of polar dielectrics, which can support surface phonon polaritons (SPhPs). While SPhPs offer significantly lower losses compared to other surface polaritons, their potential has been underutilized due to their limited ability to carry large momentum. In this work, we demonstrate the experimental realization of acoustic surface-phonon-polaritons (APhPs) - a hybridized SPhPs mode that can carry large momentum. We achieve this by realizing phononic resonators in a system composed of nanometric-sized silver cubes deposited on a SiC polar dielectric. The nanocube creates a mirror image of the SPhP, forming the hybridized APhP mode. We find that the APhPs resonators can confine far-infrared radiation to extremely small mode volumes, which are almost a billion times smaller than their free-space mode-volume. Moreover, we show that owing to their inherently low losses, APhPs exhibit quality factors that are an order of magnitude greater than those of surface plasmons or graphene plasmons, surpassing values of 180. Finally, we demonstrate that the spectral response and intensity of the APhP resonators can be precisely controlled by adjusting the size and concentration of the nanocubes. Our method is general, scalable, and applicable to any polar dielectric across a broad spectrum of materials and wavelengths, opening the path for controlling and manipulating strong light-matter interactions at the nanoscale in the long-wavelength range.         ",
+    "url": "https://arxiv.org/abs/2503.04168",
+    "authors": [
+      "Michael Klein",
+      "Alisa Perutski",
+      "Jean-Paul Hugonin",
+      "Itai Epstein"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04194",
+    "title": "Realization of a Dirac-vortex topological photonic crystal fiber",
+    "abstract": "           Photonic crystal fibers (PCFs) that trap and guide light using photonic bandgaps have revolutionized modern optics with enormous scientific innovations and technological applications spanning many disciplines. Recently, inspired by the discovery of topological phases of matter, Dirac-vortex topological PCFs have been theoretically proposed with intriguing topological properties and unprecedented opportunities in optical fiber communications. However, due to the substantial challenges of fabrication and characterization, experimental demonstration of Dirac-vortex topological PCFs has thus far remained elusive. Here, we report the experimental realization of a Dirac-vortex topological PCF using the standard stack-and-draw fabrication process with silica glass capillaries. Moreover, we experimentally observe that Dirac-vortex single-polarization single-mode bounds to and propagates along the fiber core in the full communication window (1260-1675nm). Our study pushes the research frontier of PCFs and provides a new avenue to enhance their performance and functionality further.         ",
+    "url": "https://arxiv.org/abs/2503.04194",
+    "authors": [
+      "Quanhao Niu",
+      "Bei Yan",
+      "Lei Shen",
+      "Hao Lin",
+      "Xi Zhang",
+      "Zhenyu Wan",
+      "Mutian Xu",
+      "Hui Zhang",
+      "Jie Luo",
+      "Lei Zhang",
+      "Perry Ping Shum",
+      "Zhen Gao",
+      "Jian Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04212",
+    "title": "Optical force and torque on a spinning dielectric sphere",
+    "abstract": "           Optical force can enable precise manipulations of small particles for various applications. It is well known that an isotropic lossless dielectric sphere is only subject to forward optical force under the illumination of an electromagnetic plane wave. By using rigorous full-wave simulations, we show that such a sphere can experience a lateral optical force and an optical torque besides the conventional longitudinal force, if it spins with a constant angular velocity. The emergence of the unusual optical force and torque is attributed to the breaking of mirror and cylindrical symmetries by the spinning motion. Using the multipole expansion in source representation, we illustrate how the spinning-induced effective bi-anisotropy generates the lateral force and torque on the sphere through the interference of electric and magnetic multipoles. We also uncover the effect of Sagnac frequency splitting on the optical force and torque. The results contribute to the understanding of the optical force and torque in moving media and can be applied to realize unconventional optical manipulations of small particles.         ",
+    "url": "https://arxiv.org/abs/2503.04212",
+    "authors": [
+      "Hengzhi Li",
+      "Wanyue Xiao",
+      "Tong Fu",
+      "Zheng Yang",
+      "Shubo Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04272",
+    "title": "New developments in 3D-trench electrode sensors",
+    "abstract": "           Future high-luminosity hadron collider experiments feature unprecedented levels of event pile-up and extreme radiation environments, calling for sensors capable of 4D tracking, even after significant radiation damage. To this purpose, 3D sensors represent a viable solution, since they provide excellent radiation tolerance and very good temporal resolution. In particular, owing to the uniform electric field and weighting field distributions, 3D-trench electrode sensors from the INFN TIMESPOT project have shown a temporal resolution of $\\sim$10 ps after irradiation fluences up to 1$\\times$10$^{17}$ 1-Mev n$_{eq}$/cm$^2$. In spite of the excellent performance of these sensors, 3D-trench pixel technology is not yet fully established and the fabrication yield is not yet adequate for the production of large size pixel sensors. To improve the potential of the 3D-trench concept for large-area sensors, a new batch of sensors was designed at the University of Trento and fabricated at FBK, as part of the AIDA Innova project. Besides introducing some process improvements, this batch includes two different sensor variants: the standard one with continuous ohmic trenches, and a modified one with dashed ohmic trenches. On-wafer electrical test results show that most of the sensors have low leakage current and high breakdown voltage. Moreover, the fabrication yield for the new design variant is higher than that of the standard design.         ",
+    "url": "https://arxiv.org/abs/2503.04272",
+    "authors": [
+      "Jixing Ye",
+      "Maurizio Boscardin",
+      "Matteo Centis Vignali",
+      "Francesco Ficorella",
+      "Omar Hammad Ali",
+      "Adriano Lai",
+      "Angelo Loi",
+      "Laura Parellada Monreal",
+      "Sabina Ronchin",
+      "Gian-Franco Dalla Betta"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04335",
+    "title": "Quantum interference and occupation control in high harmonic generation from monolayer $WS_2$",
+    "abstract": "           Two-dimensional hexagonal materials such as transition metal dichalcogenides exhibit valley degrees of freedom, offering fascinating potential for valley-based quantum computing and optoelectronics. In nonlinear optics, the K and K' valleys provide excitation resonances that can be used for ultrafast control of excitons, Bloch oscillations, and Floquet physics. Under intense laser fields, however, the role of coherent carrier dynamics away from the K/K' valleys is largely unexplored. In this study, we observe quantum interferences in high harmonic generation from monolayer $WS_2$ as laser fields drive electrons from the valleys across the full Brillouin zone. In the perturbative regime, interband resonances at the valleys enhance high harmonic generation through multi-photon excitations. In the strong-field regime, the high harmonic spectrum is sensitively controlled by light-driven quantum interferences between the interband valley resonances and intraband currents originating from electrons occupying various points in the Brillouin zone, also away from K/K' valleys such as $\\Gamma$ and M. Our experimental observations are in strong agreement with quantum simulations, validating their interpretation. This work proposes new routes for harnessing laser-driven quantum interference in two-dimensional hexagonal systems and all-optical techniques to occupy and read-out electronic structures in the full Brillouin zone via strong-field nonlinear optics, advancing quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2503.04335",
+    "authors": [
+      "Minjeong Kim",
+      "Taeho Kim",
+      "Anna Galler",
+      "Dasol Kim",
+      "Alexis Chacon",
+      "Xiangxin Gong",
+      "Yuhui Yang",
+      "Rouli Fang",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "B. J. Kim",
+      "Sang Hoon Chae",
+      "Moon-Ho Jo",
+      "Angel Rubio",
+      "Ofer Neufeld",
+      "Jonghwan Kim"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04366",
+    "title": "Twisted heterobilayer photonic crystal based on stacking and selective etching of 2D materials",
+    "abstract": "           Nanophotonic devices with moir\u00e9 superlattice is currently attracting broad interest due to the unique periodicity and high efficiency control of photons. Till now, experimental investigations mainly focus on the single layer device, i.e., two or more layers of photonic crystal patterns are merged and etched in a single layer of material. By comparison, twisted photonic crystal with multilayer materials raises challenges in the nanofabrication technology, because the growth of upper layer material usually requires a smooth bottom layer without nanostructures. Hereby, we fabricate twisted heterobilayer photonic crystal in the graphite/Si$_3$N$_4$ heterostructure. We use dry transfer method to stack the graphite on top of bottom Si$_3$N$_4$ with pre-etched photonic crystal patterns. Selective dry etching recipes are used to etch two photonic crystal layers individually, which improves the quality and accuracy in alignment. The cavity photonic mode at the visible wavelength $\\sim 700$ nm arsing from the moir\u00e9 site is clearly observed in experiment. These results reveal the experimental diagram of heterobilayer nanophotonic devices and open the way to design flexibility and control of photons in new degrees of freedom.         ",
+    "url": "https://arxiv.org/abs/2503.04366",
+    "authors": [
+      "Qing Wang",
+      "Yuhang Li",
+      "Shaofeng Wang",
+      "Shuo Cao",
+      "Xiulai Xu",
+      "Chenjiang Qian"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04368",
+    "title": "Limitations of the paraxial beam model in the study of quantum vacuum signals",
+    "abstract": "           Studies of nonlinear quantum vacuum signals often model the driving laser fields as paraxial beams. This in particular holds for analytic approaches. While this allows for reliable predictions in most situations, there are also notable exceptions. A prominent example is the overestimation of the polarization-flipped signal photon yield in the collision of two equally focused, parallel polarized laser beams by a factor of about six. In the present work, we identify the origin of this deficiency and devise a strategy to obtain accurate closed-form expressions also in cases challenging the conventional (leading order) paraxial beam model. We demonstrate the potential of our approach on the example of two linearly polarized laser pulses colliding at a generic collision angle.         ",
+    "url": "https://arxiv.org/abs/2503.04368",
+    "authors": [
+      "Felix Karbstein",
+      "Fabian Sch\u00fctze"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04402",
+    "title": "Mid-infrared laser chaos lidar",
+    "abstract": "           Chaos lidars detect targets through the cross-correlation between the back-scattered chaos signal from the target and the local reference one. Chaos lidars have excellent anti-jamming and anti-interference capabilities, owing to the random nature of chaotic oscillations. However, most chaos lidars operate in the near-infrared spectral regime, where the atmospheric attenuation is significant. Here we show a mid-infrared chaos lidar, which is suitable for long-reach ranging and imaging applications within the low-loss transmission window of the atmosphere. The proof-of-concept mid-infrared chaos lidar utilizes an interband cascade laser with optical feedback as the laser chaos source. Experimental results reveal that the chaos lidar achieves an accuracy better than 0.9 cm and a precision better than 0.3 cm for ranging distances up to 300 cm. In addition, it is found that a minimum signal-to-noise ratio of only 1 dB is required to sustain both sub-cm accuracy and sub-cm precision. This work paves the way for developing remote chaos lidar systems in the mid-infrared spectral regime.         ",
+    "url": "https://arxiv.org/abs/2503.04402",
+    "authors": [
+      "Kai-Li Lin",
+      "Peng-Lei Wang",
+      "Yi-Bo Peng",
+      "Shiyu Hu",
+      "Chunfang Cao",
+      "Cheng-Ting Lee",
+      "Qian Gong",
+      "Fan-Yi Lin",
+      "Wenxiang Huang",
+      "Cheng Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04450",
+    "title": "Inverse energy transfer in three-dimensional quantum vortex flows",
+    "abstract": "           Vortex reconnections play a fundamental role in this http URL increase the complexity of flow and develop small-scale this http URL this work, we report that in superfluids, they can also excite large scales. We numerically illustrate that during a superfluid vortex reconnection energy is injected into the thermal (normal) component of helium~II at small length scales, but is transferred nonlinearly to larger length scales, increasing the integral length scale of the normal fluid. We show that this inverse energy transfer is triggered by the helical imbalance generated in the normal fluid flow by the mutual friction force coupling the superfluid vortices and the normal component. We finally discuss the relevance of our findings to the problem of superfluid turbulence.         ",
+    "url": "https://arxiv.org/abs/2503.04450",
+    "authors": [
+      "Piotr Z. Stasiak",
+      "Andrew Baggaley",
+      "Carlo. F. Barenghi",
+      "Giorgio Krstulovic",
+      "Luca Galantucci"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04468",
+    "title": "Spectral dynamics in broadband frequency combs with overlapping harmonics",
+    "abstract": "           Optical frequency combs and their spectra of evenly spaced discrete laser lines are essential to modern time and frequency metrology. Recent advances in integrated photonic waveguides enable efficient nonlinear broadening of an initially narrowband frequency comb to multi-octave bandwidth. Here, we study the nonlinear dynamics in the generation of such ultra-broadband spectra where different harmonics of the comb can overlap. We show that a set of interleaved combs with different offset frequencies extending across the entire spectrum can emerge, which transform into a single evenly spaced ultra-broadband frequency comb when the initial comb is offset-free.         ",
+    "url": "https://arxiv.org/abs/2503.04468",
+    "authors": [
+      "Weichen Fan",
+      "Furkan Ayhan",
+      "Thibault Wildi",
+      "Mikhail Volkov",
+      "Ali Seer",
+      "Markus Ludwig",
+      "Thibault Voumard",
+      "Andreas Brodschelm",
+      "Victor Brasch",
+      "Guillermo L. Villanueva",
+      "Tobias Herr"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04469",
+    "title": "An artificially intelligent magnetic resonance spectroscopy quantification method: Comparison between QNet and LCModel on the cloud computing platform CloudBrain-MRS",
+    "abstract": "           Objctives: This work aimed to statistically compare the metabolite quantification of human brain magnetic resonance spectroscopy (MRS) between the deep learning method QNet and the classical method LCModel through an easy-to-use intelligent cloud computing platform CloudBrain-MRS. Materials and Methods: In this retrospective study, two 3 T MRI scanners Philips Ingenia and Achieva collected 61 and 46 in vivo 1H magnetic resonance (MR) spectra of healthy participants, respectively, from the brain region of pregenual anterior cingulate cortex from September to October 2021. The analyses of Bland-Altman, Pearson correlation and reasonability were performed to assess the degree of agreement, linear correlation and reasonability between the two quantification methods. Results: Fifteen healthy volunteers (12 females and 3 males, age range: 21-35 years, mean age/standard deviation = 27.4/3.9 years) were recruited. The analyses of Bland-Altman, Pearson correlation and reasonability showed high to good consistency and very strong to moderate correlation between the two methods for quantification of total N-acetylaspartate (tNAA), total choline (tCho), and inositol (Ins) (relative half interval of limits of agreement = 3.04%, 9.3%, and 18.5%, respectively; Pearson correlation coefficient r = 0.775, 0.927, and 0.469, respectively). In addition, quantification results of QNet are more likely to be closer to the previous reported average values than those of LCModel. Conclusion: There were high or good degrees of consistency between the quantification results of QNet and LCModel for tNAA, tCho, and Ins, and QNet generally has more reasonable quantification than LCModel.         ",
+    "url": "https://arxiv.org/abs/2503.04469",
+    "authors": [
+      "Meijin Lin",
+      "Lin Guo",
+      "Dicheng Chen",
+      "Jianshu Chen",
+      "Zhangren Tu",
+      "Xu Huang",
+      "Jianhua Wang",
+      "Ji Qi",
+      "Yuan Long",
+      "Zhiguo Huang",
+      "Di Guo",
+      "Xiaobo Qu",
+      "Haiwei Han"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04508",
+    "title": "Nonlinear Nanophotonics for High-Dimensional Quantum States",
+    "abstract": "           Quantum nanophotonics merges the precision of nanoscale light manipulation with the capabilities of quantum technologies, offering a pathway for enhanced light-matter interaction and compact realization of quantum devices. Here, we show how a recently-demonstrated nonlinear nanophotonic process can be employed to selectively create photonic high-dimensional quantum states (qudits). We utilize the nonlinearity on the surface of the nanophotonic device to dress, through the polarization of the pump field, the near-field modes carrying angular momentum and their superpositions. We then use this approach for the realization of a multilevel quantum key distribution protocol, which doubles the key rate compared to standard schemes. This idea is an important step towards experimental realizations of quantum state generation and manipulation through nonlinearity within nanophotonic platforms, and enables new capabilities for on-chip quantum devices.         ",
+    "url": "https://arxiv.org/abs/2503.04508",
+    "authors": [
+      "Liat Nemirovsky-Levy",
+      "Amit Kam",
+      "Meir Lederman",
+      "Meir Orenstein",
+      "Uzi Pereg",
+      "Guy Bartal",
+      "Mordechai Segev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04520",
+    "title": "Natural Frequency Dependency of Magneto-Mechanical Resonators on Magnet Distance",
+    "abstract": "           The precise derivation of physical quantities like temperature or pressure at arbitrary locations is useful in numerous contexts, e.g. medical procedures or industrial process engineering. The novel sensor technology of magneto-mechanical resonators (MMR), based on the interaction of a rotor and stator permanent magnet, allows for the combined tracking of the sensor position and orientation while simultaneously sensing an external measurand. Thereby, the quantity is coupled to the torsional oscillation frequency, e.g. by varying the magnet distance. In this paper, we analyze the (deflection angle-independent) natural frequency dependency of MMR sensors on the rotor-stator distance, and evaluate the performance of theoretical models. The presented sensors incorporate magnets of spherical and/or cylindrical geometry. We find the distance-frequency relationship to be well described by an adapted dipole model accounting for material and manufacturing uncertainties. Their combined effect can be compensated by an adjustment of a single parameter which drives the median model deviation generally below 0.2 %. Our depicted methods and results are important for the design and calibration process of new sensor types utilizing the MMR technique         ",
+    "url": "https://arxiv.org/abs/2503.04520",
+    "authors": [
+      "Jonas Faltinath",
+      "Fabian Mohn",
+      "Fynn Foerger",
+      "Martin M\u00f6ddel",
+      "Tobias Knopp"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04571",
+    "title": "Magnetic Permeability Time-varying Metamaterials at Microwave Frequencies",
+    "abstract": "           We demonstrate magnetic permeability time-varying metamaterials at GHz frequencies using ferromagnetic permalloy (Ni80Fe20; Py). We observe frequency up and down conversion of 4 GHz microwaves through the metamaterials, which is caused by the temporal modulation of permeability in the Py layer. Moreover, the efficiency of the up-conversion to a higher frequency is much larger than that of the down conversion to a lower frequency. These experimental results are reproduced well via numerical calculation, verifying that the significant up-conversion efficiency is traced back to nonlinear magnetization dynamics in the metamaterials. The present study opens a door to microwave sources toward the 6th-generation mobile communication system, four-dimensional metamaterials with spatio-temporal modulation, and nonlinear spintronics.         ",
+    "url": "https://arxiv.org/abs/2503.04571",
+    "authors": [
+      "Toshiyuki Kodama",
+      "Nobuaki Kikuchi",
+      "Takahiro Chiba",
+      "Seigo Ohno",
+      "Satoshi Okamoto",
+      "Satoshi Tomita"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04670",
+    "title": "Electrically-Small Rydberg Sensor for Three-Dimensional Determination of rf k-Vectors",
+    "abstract": "           We present an electrically-small Rydberg atom electric field sensor with the ability to extract the three-dimensional $k$-vector of an elliptically polarized radio frequency (rf) field. In most mediums, the $k$-vector (or wave vector) provides the direction of propagation of an electromagnetic wave. Our method uses a field vector measurement at a single point in space and is thus compatible with a sensor volume that is arbitrarily small compared to the carrier wavelength. We measure the $k$-vector of a circularly polarized signal field with average absolute errors in the polar and azimuthal angles of $33~\\text{mrad}$ and $43~\\text{mrad}$ respectively, and statistical noise of $1.3~\\text{mrad}/\\sqrt{\\text{Hz}}$ and $1.5~\\text{mrad}/\\sqrt{\\text{Hz}}$. Additionally, we characterize the performance of the sensor as a function of the ellipticity of the input field and the size of the sensing region. We find that the sensor works over a broad range of ellipticities and validate that an electrically-small sensing region is optimal.         ",
+    "url": "https://arxiv.org/abs/2503.04670",
+    "authors": [
+      "Peter K. Elgee",
+      "Kevin C. Cox",
+      "Joshua C. Hill",
+      "Paul D. Kunz",
+      "David H. Meyer"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04711",
+    "title": "Ultrahigh free-electron Kerr nonlinearity in all-semiconductor waveguides for all-optical nonlinear modulation of mid-infrared light",
+    "abstract": "           Nonlinear optical waveguides, particularly those harnessing the optical Kerr effect, are promising for advancing next-generation photonic technologies. Despite the Kerr effect`s ultrafast response, its inherently weak nonlinearity has hindered practical applications. Here, we explore free-electron-induced Kerr nonlinearities in all-semiconductor waveguides, revealing that longitudinal bulk plasmons (inherently nonlocal excitations) can generate exceptionally strong Kerr nonlinearities. We specifically develop a nonlinear eigenmode analysis integrated with semiclassical hydrodynamic theory to compute the linear and nonlinear optical responses originating from the quantum behavior of free electrons in heavily doped semiconductors. These waveguides achieve ultrahigh nonlinear coefficients exceeding 10$^7$ W$^{-1}$km$^{-1}$ and support long-propagating modes with propagation distances over 100 $\\mu$m. Additionally, we confirm the robustness of the nonlinear response under realistic conditions by considering viscoelastic and nonlinear damping mechanisms. Finally, we implement our all-semiconductor waveguides in a Mach-Zehnder interferometer, demonstrating efficient nonlinear modulation of the transmittance spectrum via the free-electron Kerr effect. This work evidences the transformative potential of free-electron nonlinearities in heavily doped semiconductors for photonic integrated circuits, paving the way for scalable on-chip nonlinear nanophotonic systems.         ",
+    "url": "https://arxiv.org/abs/2503.04711",
+    "authors": [
+      "Gonzalo \u00c1lvarez-P\u00e9rez",
+      "Huatian Hu",
+      "Fangcheng Huang",
+      "Tadele Orbula Otomalo",
+      "Michele Ortolani",
+      "Cristian Cirac\u00ec"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.03898",
+    "title": "Acoustic phonon phase gates with number-resolving phonon detection",
+    "abstract": "           Linear optical quantum computing (LOQC) provides a compelling approach to quantum information processing, with a short list of physical requirements; however, experimental implementations have faced significant challenges. Itinerant phonons in quantum acoustics, combined with superconducting qubits, offer a compelling alternative to the quantum optics approach. Here we demonstrate key advances in the ability to manipulate and measure acoustic phonon quantum states: First, we demonstrate deterministic phase control of itinerant one- and two-phonon qubit states, measured using an acoustic Mach-Zehnder interferometer. We implement phonon phase control using the frequency-dependent scattering of phonon states from a superconducting transmon qubit. The acoustic interferometer used to measure the resulting phonon phase achieves a noise-floor-limited Hong-Ou-Mandel (HOM) interference visibility of 98.1%, representing a significant improvement over our previous demonstration. Additionally, we propose and implement a multi-phonon detection scheme that enables coherent conversion between itinerant one- and two-phonon Fock states and transmon qutrit states, transforming for example the Hong-Ou-Mandel two-phonon entangled output state $|02\\rangle - |20\\rangle$ into the entangled state of two transmons. The tight integration of quantum acoustics with superconducting circuits native to our implementation promises further advances, including deterministic phonon quantum gates with direct applications to quantum computing.         ",
+    "url": "https://arxiv.org/abs/2503.03898",
+    "authors": [
+      "Hong Qiao",
+      "Zhaoyou Wang",
+      "Gustav Andersson",
+      "Alexander Anferov",
+      "Christopher R. Conner",
+      "Yash J. Joshi",
+      "Shiheng Li",
+      "Jacob M. Miller",
+      "Xuntao Wu",
+      "Haoxiong Yan",
+      "Liang Jiang",
+      "Andrew N. Cleland"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04312",
+    "title": "Quantum metric induced magneto-optical effects in $\\mathcal{PT}$-symmetric antiferromagnets",
+    "abstract": "           The magneto-optical effects (MOEs), as a fundamental physical phenomenon, can reveal the electronic structures of materials. The related probing methods are widely used in the study of magnetic materials. However, space-time inversion ($\\mathcal{PT}$) symmetric antiferromagnets were previously believed to be magneto-optically inactive. Here, we point out that this traditional understanding is incorrect. Based on our generic formulas and symmetry analysis, we find that in $\\mathcal{PT}$-symmetric antiferromagnets, it is the quantum metric, i.e., the real part of the quantum geometry, that induces MOEs. Combining a tight-binding model and first-principles calculations, we confirm this observation by showing MOEs in the $\\mathcal{PT}$-symmetric antiferromagnet. Our work demonstrates that $\\mathcal{PT}$-symmetric antiferromagnets previously thought to lack MOEs can indeed exhibit MOEs and greatly broaden the research on MOEs.         ",
+    "url": "https://arxiv.org/abs/2503.04312",
+    "authors": [
+      "Yongpan Li",
+      "Yichen Liu",
+      "Cheng-Cheng Liu"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04453",
+    "title": "Reproducibility Assessment of Magnetic Resonance Spectroscopy of Pregenual Anterior Cingulate Cortex across Sessions and Vendors via the Cloud Computing Platform CloudBrain-MRS",
+    "abstract": "           Given the need to elucidate the mechanisms underlying illnesses and their treatment, as well as the lack of harmonization of acquisition and post-processing protocols among different magnetic resonance system vendors, this work is to determine if metabolite concentrations obtained from different sessions, machine models and even different vendors of 3 T scanners can be highly reproducible and be pooled for diagnostic analysis, which is very valuable for the research of rare diseases. Participants underwent magnetic resonance imaging (MRI) scanning once on two separate days within one week (one session per day, each session including two proton magnetic resonance spectroscopy (1H-MRS) scans with no more than a 5-minute interval between scans (no off-bed activity)) on each machine. were analyzed for reliability of within- and between- sessions using the coefficient of variation (CV) and intraclass correlation coefficient (ICC), and for reproducibility of across the machines using correlation coefficient. As for within- and between- session, all CV values for a group of all the first or second scans of a session, or for a session were almost below 20%, and most of the ICCs for metabolites range from moderate (0.4-0.59) to excellent (0.75-1), indicating high data reliability. When it comes to the reproducibility across the three scanners, all Pearson correlation coefficients across the three machines approached 1 with most around 0.9, and majority demonstrated statistical significance (P<0.01). Additionally, the intra-vendor reproducibility was greater than the inter-vendor ones.         ",
+    "url": "https://arxiv.org/abs/2503.04453",
+    "authors": [
+      "Runhan Chen",
+      "Meijin Lin",
+      "Jianshu Chen",
+      "Liangjie Lin",
+      "Jiazheng Wang",
+      "Xiaoqing Li",
+      "Jianhua Wang",
+      "Xu Huang",
+      "Ling Qian",
+      "Shaoxing Liu",
+      "Yuan Long",
+      "Di Guo",
+      "Xiaobo Qu",
+      "Haiwei Han"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04664",
+    "title": "QE-CONVERSE: An open-source package for the Quantum ESPRESSO distribution to compute non-perturbatively orbital magnetization from first principles, including NMR chemical shifts and EPR parameters",
+    "abstract": "           Orbital magnetization, a key property arising from the orbital motion of electrons, plays a crucial role in determining the magnetic behavior of molecules and solids. Despite its straightforward calculation in finite systems, the computation in periodic systems poses challenges due to the ill-defined position operator and surface current contributions. The modern theory of orbital magnetization, implemented in the Density Functional Theory (DFT) framework, offers an accurate solution via the \"converse approach.\" Here, we introduce QE-CONVERSE, a refactored, modular implementation of this method, replacing outdated routines from Quantum ESPRESSO (version 3.2). QE-CONVERSE integrates modern computational libraries like scaLAPACK and ELPA, enhancing scalability, especially for large supercell calculations. This work focuses on providing the community with a reliable, accurate orbital magnetization package for properties such as Electron Paramagnetic Resonance (EPR) g-tensors and Nuclear Magnetic Resonance (NMR) chemical shifts, particularly where perturbative methods fail. We demonstrate QE-CONVERSE's effectiveness with benchmark cases, including the NMR shifts of ${}^{27}$Al in alumina and ${}^{17}$O and ${}^{29}$Si in $\\alpha$-quartz, as well as the EPR g-tensor for $_{ }^{n}\\Sigma(n\\geq 2)$ radicals and nitrogen defects in silicon. Results show excellent agreement with theoretical and experimental data, with improved accuracy in EPR calculations over linear response methods. QE-CONVERSE is fully compatible with recent Quantum ESPRESSO versions, enabling new possibilities for studying complex materials         ",
+    "url": "https://arxiv.org/abs/2503.04664",
+    "authors": [
+      "Simone Fioccola",
+      "Luigi Giacomazzi",
+      "Davide Ceresoli",
+      "Layla Martin-Samos",
+      "Anne Hemerick",
+      "Nicolas Richard"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.09627",
+    "title": "Simultaneous nonreciprocal and ultra-strong coupling in cavity magnonics",
+    "abstract": "           We demonstrate the simultaneous realization of nonreciprocal coupling and ultra-strong coupling in cavity magnonics. By replacing a copper cylinder with a yttrium iron garnet cylinder within the photonic crystal, we achieve an ultra-strong coupling strength of 1.18 GHz and a coupling efficiency of 10.9%. Nonreciprocal microwave transmission emerges within the photonic bandgap, due to the breaking of time-reversal symmetry through the gyromagnetic and Faraday effects. This work establishes a foundation for advanced nonreciprocal devices in hybrid cavity magnonic systems, with promising applications in quantum information processing and microwave isolation.         ",
+    "url": "https://arxiv.org/abs/2304.09627",
+    "authors": [
+      "Chi Zhang",
+      "Zhenhui Hao",
+      "Yongzhang Shi",
+      "Changjun Jiang",
+      "Xiling Li",
+      "C. K. Ong",
+      "Daqiang Gao",
+      "Guozhi Chai"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2406.18385",
+    "title": "Transverse Momentum Exchange in Optical Vector Beam Propagation: Theory and Experiment",
+    "abstract": "           In this work we present a model for the paraxial propagation of vector beams. Of particular importance is the appearance of a new transverse momentum term proportional to the linear polarization angle gradient imparted to the beam during the beam preparation process. The model predicts that during propagation, this new momentum will be exchanged for classical transverse momentum, thereby causing the beam to accelerate. We observe the momentum exchange in experiment by designing the polarization profile in such a way as to cause the beam centroid to follow a parabolic path through free space.         ",
+    "url": "https://arxiv.org/abs/2406.18385",
+    "authors": [
+      "J. M. Nichols",
+      "D. V. Nickel",
+      "F. Bucholtz"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.09318",
+    "title": "Quantum backreaction effect in optical solitons",
+    "abstract": "           Optical solitons classically are stationary solutions of the nonlinear Schr\u00f6dinger equation. We perform a quantum field theoretic treatment by quantising a linearised fluctuation field around the classical soliton solution which can be seen as providing a background spacetime for the field. The linearised fluctuation modifies the soliton background, which is often neglected, reminiscent of the nondepleted-pump approximation. Going beyond this approximation and by using a number-conserving Bogoliubov approach, we find unstable modes that grow as the soliton propagates. Eventually, these unstable modes induce a considerable (backreaction) effect in the soliton. We calculate the backreaction in the classical field fully analytically in the leading second order. The result is a quadratic local decrease of the soliton photon number in propagation due to the backreaction effect of the unstable mode. Provided the initial pulse is close to the classical soliton solution, the unstable mode contributions always become dominant. We also consider practical scenarios for observing this quantum-induced soliton distortion, in the spectral domain. The backreaction, which we expect to be present in bright and dark, discrete and continuous solitons and other nonlinear pulses plays an important role in future optical analogue gravity experiments, for soliton lasers, and optical communications.         ",
+    "url": "https://arxiv.org/abs/2407.09318",
+    "authors": [
+      "Sang-Shin Baak",
+      "Friedrich Koenig"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "General Relativity and Quantum Cosmology (gr-qc)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.09425",
+    "title": "Disordered Optical Metasurfaces: Basics, Properties, and Applications",
+    "abstract": "           Optical metasurfaces are conventionally viewed as organized flat arrays of photonic or plasmonic nanoresonators, also called metaatoms. These metasurfaces are typically highly ordered and fabricated with precision using expensive tools. However, the inherent imperfections in large-scale nanophotonic devices, along with recent advances in bottom-up nanofabrication techniques and design strategies, have highlighted the potential benefits of incorporating disorder to achieve specific optical functionalities. This review offers an overview of the key theoretical, numerical, and experimental aspects related to the exploration of disordered optical metasurfaces. It introduces fundamental concepts of light scattering by disordered metasurfaces and outlines theoretical and numerical methodologies for analyzing their optical behavior. Various fabrication techniques are discussed, highlighting the types of disorder they deliver and their achievable precision level. The review also explores critical applications of disordered optical metasurfaces, such as light manipulation in thin film materials and the design of structural colors and visual appearances. Finally, the article offers perspectives on the burgeoning future research in this field. Disordered optical metasurfaces offer a promising alternative to their ordered counterparts, often delivering unique functionalities or enhanced performance. They present a particularly exciting opportunity in applications demanding large-scale implementation, such as sustainable renewable energy systems, as well as aesthetically vibrant coatings for luxury goods and architectural designs.         ",
+    "url": "https://arxiv.org/abs/2408.09425",
+    "authors": [
+      "P. Lalanne",
+      "M Chen",
+      "C. Rockstuhl",
+      "A. Sprafke",
+      "A. Dmitriev",
+      "K. Vynck"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.14474",
+    "title": "On the Influence of Parallax Effects in Thick Silicon Sensors in Coherent Diffraction Imaging",
+    "abstract": "           Structure determination is a key application of XFELs and 4th generation synchrotron sources, particularly using the coherent and pulsed X-ray radiation from X-ray free-electron lasers (XFEL). Scientific interest focuses on understanding the physical, biological, and chemical properties of samples at the nanometer scale. The X-rays from XFELs enable Coherent X-ray Diffraction Imaging (CXDI), where coherent X-rays irradiate a sample, and a far-field diffraction pattern is captured by an imaging detector. By the nature of the underlying physics, the resolution, at which the sample can be probed with the CXDI technique, is limited by the wavelength of the X-ray radiation and the exposure time if a detector can record the diffraction pattern to very large scattering angles. The resolution that can be achieved under real experimental conditions, depends strongly on additional parameters. The Shannon pixel size, linked to the detector resolution, the coherent dose that can be deposited in the sample without changing its structure, the image contrast, and the signal-to-noise ratio of the detected scattered radiation at high $q$, i.e. at high scattering angles $2\\Theta$, have a strong influence on the resolution. The signal-to-noise ratio at high $q$ defines the \"effective\" maximum solid angle in a specific experiment setup up to which a detector can efficiently detect a signal and in consequence determines the achievable resolution. The image contrast defines how well bright image features can be distinguished from dark ones. We present the preliminary results of our study on the influence of the PSF on SNR, image contrast, position resolution, and achievable sample resolution for different pixel sizes.         ",
+    "url": "https://arxiv.org/abs/2410.14474",
+    "authors": [
+      "Markus Kuster",
+      "Robert Hartmann",
+      "Steffen Hauf",
+      "Peter Holl",
+      "Tonn R\u00fcter",
+      "Lothar Str\u00fcder"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.06611",
+    "title": "Seismic Traveltime Inversion with Quantum Annealing",
+    "abstract": "           This study demonstrates the application of quantum computing based quantum annealing to seismic traveltime inversion, a critical approach for inverting highly accurate velocity models. The seismic inversion problem is first converted into a Quadratic Unconstrained Binary Optimization problem, which the quantum annealer is specifically designed to solve. We then solve the problem via quantum annealing method. The inversion is applied on a synthetic velocity model, presenting a carbon storage scenario at depths of 1000-1300 meters. As an application example, we also show the capacity of quantum computing to handle complex, noisy data environments. This work highlights the emerging potential of quantum computing in geophysical applications, providing a foundation for future developments in high-precision seismic imaging.         ",
+    "url": "https://arxiv.org/abs/2412.06611",
+    "authors": [
+      "Hoang Anh Nguyen",
+      "Ali Tura"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.03718",
+    "title": "Robustness Optimization for Compact Free-electron Laser Driven by Laser Wakefield Accelerators",
+    "abstract": "           Despite the successful demonstration of compact free electron lasers (FELs) driven by laser wakefield accelerators (LWFAs), the shot-to-shot fluctuations inherent to LWFAs remain a major obstacle to realizing LWFA-driven FELs with high gain and robust operation. Here, we present a conceptual design for LWFA-driven FELs with enhanced robustness and reliability. By employing Bayesian optimization techniques, the beamline was optimized to achieve sufficient tolerance against these fluctuations under actual experimental conditions. Start-to-end simulations revealed that this systematic optimization significantly reduces the system's sensitivity to parametric variations. With the optimized configurations, the radiation energy can be maintained above 1 microjoule at a wavelength of approximately 25 nm, even when accounting for twice the root-mean-square (RMS) ranges of these inherent jitters. This proposed scheme represents a substantial advancement in the development of compact LWFA-driven FEL systems, enabling robust operation and paving the way for the realization of reliable and widely accessible sources.         ",
+    "url": "https://arxiv.org/abs/2503.03718",
+    "authors": [
+      "Hai Jiang",
+      "Ke Feng",
+      "Runshu Hu",
+      "Qiwen Zhan",
+      "Wentao Wang",
+      "Ruxin Li"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  }
+]
