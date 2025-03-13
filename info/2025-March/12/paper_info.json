@@ -1,0 +1,449 @@
+[
+  {
+    "id": "arXiv:2503.07838",
+    "title": "Design and characterization of a fast output amplifier for Silicon Photomultipliers",
+    "abstract": "           A voltage amplifier, based on the BFU500XRR NPN transistor in a common-emitter configuration, was developed for the readout of the fast output of an ONSEMI MicroFC-10035 Silicon Photomultiplier (SiPM). This amplifier was tested and characterized under dark and illuminated SiPM conditions. For the design presented in this work, a Gain of $(20.0 \\pm 0.7)$ dB and a rise time of $(768 \\pm 10)$ ps were achieved for one amplifier stage and a Gain of $(38.3 \\pm 0.7)$ dB and rise time of $(1155 \\pm 16)$ ps was achieved for two cascaded stages. In addition, the linearity of both topologies was verified and the measured Signal-to-Noise Ratio (SNR) was ($21.9 \\pm 0.4$) dB and ($18.8 \\pm 0.5$) dB for the one-stage and two-stage amplifiers, respectively. This design provides a cheap and scalable (weight and size) alternative to other fast output amplifiers that are used when operating SiPMs fast outputs. These characteristics make this design ideal for space applications.         ",
+    "url": "https://arxiv.org/abs/2503.07838",
+    "authors": [
+      "Felipe Soriano",
+      "Lucas Finazzi",
+      "Gabriel Sanca",
+      "Federico Golmar"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.07888",
+    "title": "An integrated widely tunable linear isolator based on electro-optic Autler-Townes splitting",
+    "abstract": "           Optical isolators are essential for laser protection and robust signal routing, but the incorporation of the necessary magneto-optic (MO) materials in foundries has remained a challenge. As an alternative, several integrated non-magnetic isolators based on acousto-optic (AO) and electro-optic (EO) spatio-temporal modulation have been proposed. Unlike MO isolators, these solutions are wavelength agnostic, though few published demonstrations reach performance that is comparable to MO devices. The most significant remaining concerns are on mitigating undesirable sidebands, lowering power consumption, achieving wide bandwidth or wide tunability, and having a design that is practical to deploy. Here we demonstrate a compact EO optical isolator, using thin film lithium niobate, that produces a very high isolation figure of merit (>32 dB contrast per dB of insertion loss) with THz-scale (8 nm) tunability and, due to its architecture, achieves linear operation with negligible sideband generation. The device uses a 20x smaller interaction length and consumes 64x less power compared to the state-of-the-art EO and AO architectures, without being subject to many of their technical constraints.         ",
+    "url": "https://arxiv.org/abs/2503.07888",
+    "authors": [
+      "Gwan In Kim",
+      "Violet Workman",
+      "O\u011fulcan E. \u00d6rsel",
+      "Jieun Yim",
+      "Gaurav Bahl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.07941",
+    "title": "Gain characterization of LGAD sensors with beta particles and 28-MeV protons",
+    "abstract": "           Low Gain Avalanche Diodes, also known as LGADs, are widely considered for fast-timing applications in high energy physics, nuclear physics, space science, medical imaging, and precision measurements of rare processes. Such devices are silicon-based and feature an intrinsic gain due to a $p{^+}$-doped layer that allows the production of a controlled avalanche of carriers, with multiplication on the order of 10-100. This technology can provide time resolution on the order of 20-30 ps, and variants of this technology can provide precision tracking too. The characterization of LGAD performance has so far primarily been focused on the interaction of minimum ionizing particles for high energy and nuclear physics applications. This article expands the study of LGAD performance to highly-ionizing particles, such as 28-MeV protons, which are relevant for several future scientific applications, e.g. in biology and medical physics, among others. These studies were performed with a beam of 28-MeV protons from a tandem Van de Graaff accelerator at Brookhaven National Laboratory and beta particles from a $^{90}{\\rm Sr}$ source; these were used to characterize the response and the gain of an LGAD as a function of bias voltage and collected charge. The experimental results are also compared to TCAD simulations.         ",
+    "url": "https://arxiv.org/abs/2503.07941",
+    "authors": [
+      "Hijas Mohamed Farook",
+      "Gabriele Giacomini",
+      "Gabriele DAmen",
+      "Giovanni Pinaroli",
+      "Enrico Rossi",
+      "Sally Seidel",
+      "Alessandro Tricoli"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Nuclear Experiment (nucl-ex)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08022",
+    "title": "Observation of Topological Armchair Edge States in Photonic Biphenylene Network",
+    "abstract": "           Edge states in 2D materials are vital for advancements in spintronics, quantum computing, and logic transistors. For graphene nanoribbons, it is well known that the zigzag edges can host edge states, but realization of armchair edge states has been challenging without breaking the time-reversal symmetry. Here, by using a photonic analog of recently synthesized graphene-like biphenylene network (BPN), we demonstrate topological in-gap edge states particularly at the armchair edges. Interestingly, several bulk states preserve the characteristics of edge states along the armchair boundaries, manifesting an unusual hybridization between the edge and bulk states. Experimentally, we observe both zigzag and armchair edge states in photonic BPN lattices written in a nonlinear crystal. Furthermore, we clarify the different features of the armchair boundary between the BPN and graphene lattices. Our results demonstrated here may be applicable to carbon-based BPNs and other artificial platforms beyond photonics, holding promise for expanding the application scope of 2D materials.         ",
+    "url": "https://arxiv.org/abs/2503.08022",
+    "authors": [
+      "Qi Zhong",
+      "Yongsheng Liang",
+      "Shiqi Xia",
+      "Daohong Song",
+      "Zhigang Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08039",
+    "title": "A quantum Monte Carlo algorithm for arbitrary high-spin Hamiltonians",
+    "abstract": "           We present a universal parameter-free quantum Monte Carlo algorithm for simulating arbitrary high-spin (spin greater than $1/2$) Hamiltonians. This approach extends a previously developed method by the authors for spin-$1/2$ Hamiltonians [Phys. Rev. Research 6, 013281 (2024)]. To demonstrate its applicability and versatility, we apply our method to the spin-$1$ and spin-$3/2$ quantum Heisenberg models on the square lattice. Additionally, we detail how the approach naturally extends to general Hamiltonians involving mixtures of particle species, including bosons and fermions. We have made our program code freely accessible on GitHub.         ",
+    "url": "https://arxiv.org/abs/2503.08039",
+    "authors": [
+      "Arman Babakhani",
+      "Lev Barash",
+      "Itay Hen"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08183",
+    "title": "Physics-based AI methodology for Material Parameter Extraction from Optical Data",
+    "abstract": "           We report on a novel methodology for extracting material parameters from spectroscopic optical data using a physics-based neural network. The proposed model integrates classical optimization frameworks with a multi-scale object detection framework, specifically exploring the effect of incorporating physics into the neural network. We validate and analyze its performance on simulated transmission spectra at terahertz and infrared frequencies. Compared to traditional model-based approaches, our method is designed to be autonomous, robust, and time-efficient, making it particularly relevant for industrial and societal applications.         ",
+    "url": "https://arxiv.org/abs/2503.08183",
+    "authors": [
+      "M. Koumans",
+      "J.L.M. van Mechelen"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08435",
+    "title": "Production of Spin-Polarized Molecular Beams via Microwave or Infrared Rotational Excitation",
+    "abstract": "           We show how small molecules in an intense and cold molecular beam can be highly nuclear-spin polarized via microwave or infrared rotational excitation schemes, followed by hyperfine-induced quantum beats. Repumping schemes can be used to achieve polarization above $90\\%$ in cases where single-pumping schemes are insufficient. Projected production rates in excess of $10^{21}$ ${\\text{s}^{-1}}$ allow applications including nuclear-magnetic-resonance signal enhancement, and spin-polarized nuclear fusion, where polarized nuclei are known to enhance D-T and D-$^3$He fusion cross sections by $50\\%$.         ",
+    "url": "https://arxiv.org/abs/2503.08435",
+    "authors": [
+      "C. S. Kannis",
+      "T. P. Rakitzis"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08513",
+    "title": "Experimental observation of recurrence and spectral asymmetry of the two-component Akhmediev breathers in a single mode optical fibre",
+    "abstract": "           We report the results of experimental studies of recurrent spectral dynamics of the two component Akhmediev breathers (ABs) in a single mode optical fibre. We also provide the theoretical analysis and numerical simulations of the ABs based on the two component Manakov equations that confirm the experimental data. In particular, we observed spectral asymmetry of fundamental ABs and complex spectral evolution of second-order nondegenerate ABs.         ",
+    "url": "https://arxiv.org/abs/2503.08513",
+    "authors": [
+      "Chong Liu",
+      "Le Li",
+      "Shao-Chun Chen",
+      "Xiankun Yao",
+      "Wen-Li Yang",
+      "Nail Akhmediev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Exactly Solvable and Integrable Systems (nlin.SI)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08584",
+    "title": "70 MW-level picosecond mid-infrared radiation generation by difference frequency generation in AgGaS2, BaGa4Se7, LiGaSe2, and LiGaS2",
+    "abstract": "           Comparative study of nonlinear crystals for picosecond difference frequency generation in mid-IR is presented. Nonlinear crystals of AgGaS$_2$, BaGa$_4$Se$_7$, LiGaSe$_2$, and LiGaS$_2$ were studied. Samples of AgGaS$_2$, BaGa$_4$Se$_7$, LiGaSe$_2$, and LiGaS$_2$ were tested in thee sets having lengths of 2, 4, or 8 mm. In order to investigate the dependence of efficiency on the crystal length, three sets of crystals with lengths of 2, 4, or 8 mm were tested. The developed tunable DFG system was driven by the 1.03 $\\mu$m, 1.8 ps, Yb:YAG thin-disk laser system operated at the repetition rate of 10 or 100 Hz. As the best result, picosecond mid-IR pulses at a wavelength of $\\sim$7 $\\mu$m with the energy up to 130 $\\mu$J corresponding to the peak power of $\\sim$72 MW were generated using the 8 mm long LiGaS$_2$ crystal. Using the BaGa$_4$Se$_7$ crystal, DFG tunability in the wavelength range from 6 up to 13 $\\mu$m was achieved.         ",
+    "url": "https://arxiv.org/abs/2503.08584",
+    "authors": [
+      "Michal Jel\u00ednek",
+      "Milan Frank",
+      "V\u00e1clav Kube\u010dek",
+      "Ond\u0159ej Nov\u00e1k",
+      "Jaroslav Huynh",
+      "Martin Cimrman",
+      "Michal Chyla",
+      "Martin Smr\u017e",
+      "Tom\u00e1\u0161 Mocek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08635",
+    "title": "Design and Construction of an Affordable Adjustable Repetition Rate Optical Frequency Comb",
+    "abstract": "           We designed and built an adjustable repetition rate optical frequency comb using off-the-shelf components with several improvements to an established erbium fiber design. This design, built fully by an undergraduate, was assembled at a fraction of the cost of a commercial comb. This comb has a repetition rate of roughly 100 MHz with a tuning range of 3 MHz. A stabilization control loop for $f_{rep}$ achieved long term drifts of < 1 Hz over several days. This comb will eventually be implemented for use in dual-comb spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2503.08635",
+    "authors": [
+      "Christopher E. Latchford",
+      "Daniel L. Maser"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.10940",
+    "title": "A BBGKY-like Hierarchy for Quantum Field Theories",
+    "abstract": "           We present a Hamiltonian method of constructing BBGKY-like hierarchies for quantum field theories. With suitable choices, our method creates a hierarchical system of evolution equations for the k-th order reduced density matrices. These equations can be closed at finite order using methods developed for the classical BBGKY hierarchy to give non-perturbative approximations for the full quantum equations of motion. Classical observables can then be numerically computed from these approximate equations, providing an analytically tractable method of modeling high-energy environments where quantum effects play a pronounced role.         ",
+    "url": "https://arxiv.org/abs/2310.10940",
+    "authors": [
+      "Michael Updike",
+      "Joshua Burby"
+    ],
+    "subjectives": [
+      "Mathematical Physics (math-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.07666",
+    "title": "Classical Mechanics as an Emergent Compression of Quantum Information",
+    "abstract": "           The correspondence principle states that classical mechanics emerges from quantum mechanics in the appropriate limits. However, beyond this heuristic rule, an information-theoretic perspective reveals that classical mechanics is a compressed, lower-information representation of quantum reality. Quantum mechanics encodes significantly more information through superposition, entanglement, and phase coherence, which are lost due to decoherence, phase averaging, and measurement, reducing the system to a classical probability distribution. This transition is quantified using Kolmogorov complexity, where classical systems require \\( O(N) \\) bits of information, while quantum descriptions require \\( O(2^N) \\), showing an exponential reduction in complexity. Further justification comes from Ehrenfest's theorem, which ensures that quantum expectation values obey Newton's laws, and path integral suppression, which eliminates non-classical trajectories when \\( S \\gg \\hbar \\). Thus, rather than viewing quantum mechanics as an extension of classical mechanics, we argue that classical mechanics is a lossy, computationally reduced encoding of quantum physics, emerging from a systematic loss of quantum correlations.         ",
+    "url": "https://arxiv.org/abs/2503.07666",
+    "authors": [
+      "Krzysztof Sienicki"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.08442",
+    "title": "Influence of Crystal Structure and Composition on Optical and Electronic Properties of Pyridinium-based Bismuth Iodide Complexes",
+    "abstract": "           This study investigates the impacts of structure and composition on the optical and electronic properties of a series of pyridinium-based bismuth iodide complexes. Organic substrates with various functional groups, such as 4-aminopyridine (4-Ampy), 4-methylpyridine (4-Mepy), 4-dimethyaminopyridine (4-Dmapy), and 4-pyridinecarbonitrile (4-CNpy) with different electron-donating and electron-withdrawing groups at the para position of the pyridine ring were employed. Crystallographic analysis reveals various bismuth iodide structures, including 1D chains and discrete 0D motifs. The optical band gap of these materials, identified via Diffuse reflectance spectroscopy (DRS) and verified with density functional theory (DFT) calculations, is influenced by the crystal packing and stabilising interactions. Through a comprehensive analysis, including Hirshfeld surface (HS) and void assessment, the study underscores the influence of noncovalent intermolecular interactions on crystal packing. Spectroscopic evaluations provide insights into electronic interactions, elucidating the role of electron donor and acceptor substituents within the lattice. Thermogravimetric differential thermal analysis (TG-DTA) indicates structural stability up to 250\u00b0C. Linear sweep voltammetry (LSV) reveals significant conductivity in the range of 10-20 mS/pixel at 298.15 K. X-ray absorption spectroscopy (XAS) at the Bi L3 edge indicates a similar oxidation state and electronic environment across all samples, underscoring the role of bismuth centres surrounded by iodides.         ",
+    "url": "https://arxiv.org/abs/2503.08442",
+    "authors": [
+      "Gisya Abdi",
+      "Marlena Gryl",
+      "Andrzej S\u0142awek",
+      "Ewelina Kowalewska",
+      "Tomasz Mazur",
+      "Agnieszka Podborska",
+      "Krzysztof Mech",
+      "Piotr Zawal",
+      "Anurag Pritam",
+      "Angelika Kmita",
+      "Lulu Alluhaibi",
+      "Alexey Maximenko",
+      "Chakkooth Vijayakumar",
+      "Konrad Szaci\u0142owski"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2301.13111",
+    "title": "Charge Transport at Atomic Scales in 1D-Semiconductors: A Quantum Statistical Model Allowing Rigorous Numerical Studies",
+    "abstract": "           There has been a recent surge of interest in understanding charge transport at atomic scales. The motivations are myriad, including understanding the conductance properties of peptides measured experimentally. In this study, we propose a model of quantum statistical mechanics which aims to investigate the transport properties of 1D-semiconductor at nanoscales. The model is a two-band Hamiltonian in which electrons are assumed to be quasi-free. It allows us to investigate the behaviour of current and quantum fluctuations under the influence of numerous parameters, showing the response with respect to varying voltage, temperature and length. We compute the current observable at each site and demonstrate the local behaviour generating the current.         ",
+    "url": "https://arxiv.org/abs/2301.13111",
+    "authors": [
+      "Roisin Dempsey Braddell",
+      "Jone Uria-Albizuri",
+      "Jean-Bernard Bru",
+      "Serafim Rodrigues"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.16348",
+    "title": "Demonstration of Real-Time Precision Optical Time Synchronization in a True Three-Node Architecture",
+    "abstract": "           Multi-node optical clock networks will enable future studies of fundamental physics and enable applications in quantum and classical communications as well as navigation and geodesy. We implement the first ever multi-node optical clock network with real-time, relative synchronization over free-space communication channels and precision on the order of 10 fs, realized as a three-node system in a hub-and-spoke topology. In this paper we describe the system and its performance, including a new, independent, out-of-loop verification of two-way optical time synchronization.         ",
+    "url": "https://arxiv.org/abs/2312.16348",
+    "authors": [
+      "Kyle W. Martin",
+      "Nader Zaki",
+      "Matthew S. Bigelow",
+      "Benjamin K. Stuhl",
+      "Nolan Matthews",
+      "John D. Elgin",
+      "Kimberly Frey"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.01238",
+    "title": "All-Optical Noise Quenching of An Integrated Frequency Comb",
+    "abstract": "           Integrated frequency combs promise transformation of lab-based metrology into disruptive real-world applications. These microcombs are, however, sensitive to stochastic thermal fluctuations of the integrated cavity refractive index, with its impact becoming more significant as the cavity size becomes smaller. This tradeoff between microcomb noise performance and footprint stands as a prominent obstacle to realizing applications beyond a controlled lab environment. Here, we demonstrate that small footprint and low noise become compatible through the all-optical Kerr-induced synchronization (KIS) method. Our study unveils that the phase-locking nature of the synchronization between the cavity soliton and the injected reference pump laser enables the microcomb to no longer be limited by internal noise sources. Instead, the microcomb noise is mostly limited by external sources, namely, the frequency noise of the two pumps that doubly pin the microcomb. First, we theoretically and experimentally show that the individual comb tooth linewidths of an octave-spanning microcomb remain within the same order-of-magnitude as the pump lasers, contrary to the single-pumped case that exhibits a more than two order-of-magnitude increase from the pump to the comb edge. Second, we theoretically show that intrinsic noise sources such as thermorefractive noise in KIS are quenched at the cavity decay rate, greatly decreasing its impact. Experimentally, we show that even with free-running lasers, the KIS microcomb can exhibit better repetition rate noise performance than the predicted thermorefractive noise limitation in absence of KIS.         ",
+    "url": "https://arxiv.org/abs/2405.01238",
+    "authors": [
+      "Gregory Moille",
+      "Pradyoth Shandilya",
+      "Jordan Stone",
+      "Curtis Menyuk",
+      "Kartik Srinivasan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.16392",
+    "title": "femto-PIXAR: a neural network method for reconstruction of femtosecond X-ray free electron laser pulse energy",
+    "abstract": "           X-ray Free Electron Lasers (X\\nobreakdash-FELs) operate in a wide range of lasing configurations for a broad variety of scientific applications at ultrafast time-scales such as structural biology, materials science, and atomic and molecular physics. Shot-by-shot characterization of the X-FEL pulses is crucial for analysis of many experiments as well as tuning the X-FEL performance. However, for the weak pulses found in advanced configurations, e.g. those needed for coherent, two-pulse studies of quantum materials, there is no current method for reliably resolving pulse profiles. Here we show that a physics-based U-net model can reconstruct the individual pulse power profiles for sub-picosecond pulse separation without the need for simulations. Using experimental data from weak X-FEL pulse pairs, we demonstrate we can learn the pulse characteristics on a shot-by-shot basis when conventional methods fail.         ",
+    "url": "https://arxiv.org/abs/2502.16392",
+    "authors": [
+      "Gesa Goetzke",
+      "Rajan Plumley",
+      "Gregor Hartmann",
+      "Tim Maxwell",
+      "Franz-Josef Decker",
+      "Alberto Lutman",
+      "Mike Dunne",
+      "Daniel Ratner",
+      "Joshua J. Turner"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.05415",
+    "title": "Beam test result and digitization of TaichuPix-3: A Monolithic Active Pixel Sensors for CEPC vertex detector",
+    "abstract": "           The Circular Electron-Positron Collider (CEPC), as the next-generation electron-positron collider, is tasked with advancing not only Higgs physics but also the discovery of new physics. Achieving these goals requires high-precision measurements of particles. Taichu seires, Monolithic Active Pixel Sensor (MAPS), a key component of the vertex detector for CEPC was designed to meet the CEPC's requirements. For the geometry of vertex detector is long barrel with no endcap, and current silicon lacks a complete digitization model, precise estimation of cluster size particularly causing by particle with large incident angle is needed. Testbeam results were conducted at the Beijing Synchrotron Radiation Facility (BSRF) to evaluate cluster size dependence on different incident angles and threshold settings. Experimental results confirmed that cluster size increases with incident angle. Simulations using the Allpix$^2$ framework replicated experimental trends at small angles but exhibited discrepancies at large angles, suggesting limitations in linear electric field assumptions and sensor thickness approximations. The results from both testbeam and simulations have provided insights into the performance of the TaichuPix chip at large incident angles, offering a crucial foundation for the establishment of a digital model and addressing the estimation of cluster size in the forward region of the long barrel. Furthermore, it offers valuable references for future iterations of TaichuPix, the development of digital models, and the simulation and estimation of the vertex detector's performance.         ",
+    "url": "https://arxiv.org/abs/2503.05415",
+    "authors": [
+      "Hancen Lu",
+      "Tianyuan Zhang",
+      "Chang Xu",
+      "Shuqi Li",
+      "Xinhui Huang",
+      "Jia Zhou",
+      "Ziyue Yan",
+      "Wei Wang",
+      "Hao Zeng",
+      "Xuewei Jia",
+      "Yiming Hu",
+      "Xiaoxu Zhang",
+      "Zhijun Liang",
+      "Wei Wei",
+      "Ying Zhang",
+      "Xiaomin Wei",
+      "Tianya Wu",
+      "Lei Zhang",
+      "Ming Qi",
+      "Jun Hu",
+      "Jinyu Fu",
+      "Hongyu Zhang",
+      "Gang Li",
+      "Linghui Wu",
+      "Mingyi Dong",
+      "Xiaoting Li",
+      "Raimon Casanova",
+      "Liang Zhang",
+      "Jianing Dong",
+      "Jia Wang",
+      "Ran Zheng",
+      "Weiguo Lu",
+      "Sebastian Grinstein",
+      "Jo\u00e3o Guimar\u00e3es da Costa"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.04512",
+    "title": "Entropy Computing: A Paradigm for Optimization in an Open Quantum System",
+    "abstract": "           Modern quantum technologies using matter are designed as closed quantum systems to isolate them from interactions with the environment. This design paradigm greatly constrains the scalability and limits practical implementation of such systems. Here, we introduce a novel computing paradigm, entropy computing, that works by conditioning a quantum reservoir thereby enabling the stabilization of a ground state. In this work, we experimentally demonstrate the feasibility of entropy computing by building a hybrid photonic-electronic computer that uses measurement-based feedback to solve non-convex optimization problems. The system functions by using temporal photonic modes to create qudits in order to encode probability amplitudes in the time-frequency degree of freedom of a photon. This scheme, when coupled with electronic interconnects, allows us to encode an arbitrary Hamiltonian into the system and solve non-convex continuous variables and combinatorial optimization problems. We show that the proposed entropy computing paradigm can act as a scalable and versatile platform for tackling a large range of NP-hard optimization problems.         ",
+    "url": "https://arxiv.org/abs/2407.04512",
+    "authors": [
+      "Lac Nguyen",
+      "Mohammad-Ali Miri",
+      "R. Joseph Rupert",
+      "Wesley Dyk",
+      "Sam Wu",
+      "Nick Vrahoretis",
+      "Irwin Huang",
+      "Milan Begliarbekov",
+      "Nicholas Chancellor",
+      "Uchenna Chukwu",
+      "Pranav Mahamuni",
+      "Cesar Martinez-Delgado",
+      "David Haycraft",
+      "Carrie Spear",
+      "Russell Huffman",
+      "Yong Meng Sua",
+      "Yuping Huang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.06046",
+    "title": "Quantum rotor in a two-dimensional mesoscopic Bose gas",
+    "abstract": "           We investigate a molecular quantum rotor in a two-dimensional Bose-Einstein condensate. The focus is on studying the angulon quasiparticle concept in the crossover from few- to many-body physics. To this end, we formulate the problem in real space and solve it with a mean-field approach in the frame co-rotating with the impurity. We show that the system starts to feature angulon characteristics when the size of the bosonic cloud is large enough to screen the rotor. More importantly, we demonstrate the departure from the angulon picture for large system sizes or large angular momenta where the properties of the system are determined by collective excitations of the Bose gas.         ",
+    "url": "https://arxiv.org/abs/2407.06046",
+    "authors": [
+      "Micha\u0142 Suchorowski",
+      "Alina Badamshina",
+      "Mikhail Lemeshko",
+      "Micha\u0142 Tomza",
+      "Artem G. Volosniev"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic and Molecular Clusters (physics.atm-clus)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.00760",
+    "title": "Synthetic-lattice Bloch wave dynamics in a single-mode microwave resonator",
+    "abstract": "           Frequency-based synthetic dimensions are a promising avenue to extend the dimensionality of photonic systems. In this work, we show how a tilted synthetic lattice is naturally realised by periodically modulating a single-mode resonator under a coherent monochromatic drive. We theoretically study the Bloch wave dynamics in the tilted synthetic lattice, which gives rise to peculiar features in the spectral distribution of the cavity field. Our predictions are experimentally confirmed using a planar tunable superconducting microwave resonator.         ",
+    "url": "https://arxiv.org/abs/2409.00760",
+    "authors": [
+      "F. Ahrens",
+      "N. Crescini",
+      "A. Irace",
+      "G. Rastelli",
+      "P. Falferi",
+      "A. Giachero",
+      "B. Margesin",
+      "R. Mezzena",
+      "A. Vinante",
+      "I. Carusotto",
+      "F. Mantegazzini"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.17406",
+    "title": "Parallelized telecom quantum networking with a ytterbium-171 atom array",
+    "abstract": "           The integration of quantum computers and sensors into a quantum network opens a new frontier for quantum information science. We demonstrate high-fidelity entanglement between ytterbium-171 atoms -- the basis for state-of-the-art atomic quantum processors and optical atomic clocks -- and optical photons directly generated in the telecommunication wavelength band where loss in optical fiber is minimal. We entangle the nuclear spin of the atom with a single photon in the time bin basis, and find an atom measurement-corrected (raw) atom-photon Bell state fidelity of $0.950(9)\\pm0.005(3)_\\text{bound}$ ($0.90(1)\\pm0.014(3)_\\text{bound}$). Photon measurement errors contribute $\\approx0.037$ to our infidelity and can be removed with straightforward upgrades. Additionally, by imaging our atom array onto an optical fiber array, we demonstrate a parallelized networking protocol that can provide an $N$-fold boost in the remote entanglement rate. Finally, we demonstrate the ability to preserve coherence on a memory qubit while performing networking operations on communication qubits. Our work is a major step towards the integration of atomic processors and optical clocks into a high-rate or long-distance quantum network.         ",
+    "url": "https://arxiv.org/abs/2502.17406",
+    "authors": [
+      "Lintao Li",
+      "Xiye Hu",
+      "Zhubing Jia",
+      "William Huie",
+      "Won Kyu Calvin Sun",
+      "Aakash",
+      "Yuhao Dong",
+      "Narisak Hiri-O-Tuppa",
+      "Jacob P. Covey"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.02460",
+    "title": "Quantum measurement fitting",
+    "abstract": "           Quantum measurements are not deterministic. For this reason quantum measurements are repeated for a number of shots on identically prepared systems. The uncertainty in each measurement depends on the number of shots and the expected outcome of the measurement. This information can be used to improve the fitting of models to quantum measurements. In this paper we analyse ordinary-least squares, weighted least squares and maximum-likelihood estimation. We show that using the information on the quantum measurement uncertainty can lead to improved estimation of system parameters. We also introduce the concept of model violation and demonstrate it can be a valuable tool to analyze model assumptions and performance of quantum systems.         ",
+    "url": "https://arxiv.org/abs/2503.02460",
+    "authors": [
+      "Pieter Thijs Eendebak"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  }
+]
