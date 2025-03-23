@@ -1,0 +1,363 @@
+[
+  {
+    "id": "arXiv:2503.15535",
+    "title": "Schematic Representation Method for Quantum Circuits: An Intuitive Approach to Quantum Gate Effects",
+    "abstract": "           In quantum circuits, qubits and the quantum gates acting on them have traditionally been analysed using matrix algebra and Dirac notation. While powerful, these can be unintuitive for conceptual understanding and rapid problem solving. In this work, a new schematic representation method is developed that visualizes the effects of quantum gates on qubits without relying on complex mathematical operations. In the new notation, quantum bits (qubits) are represented using black (0) and white (1) circles. When a quantum gate is applied to a qubit, the circle representing the qubit is visually modified. For example, a Hadamard gate transforms a solid black or white circle into a half-black and half-white circle representing superposition. The work shows how this method simplifies the visualization of quantum algorithms, entanglement, and multi-qubit operations. Thus, the effects of quantum circuits can be analysed with simple schematic representations without having to go into complex mathematical operations.         ",
+    "url": "https://arxiv.org/abs/2503.15535",
+    "authors": [
+      "Serkan Akkoyun"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15644",
+    "title": "Deep quantum Monte Carlo approach for polaritonic chemistry",
+    "abstract": "           Recent years have witnessed a surge of experimental and theoretical interest in controlling the properties of matter, such as its chemical reactivity, by confining it in optical cavities, where the enhancement of the light-matter coupling strength leads to the creation of hybrid light-matter states known as polaritons. However, ab initio calculations that account for the quantum nature of both the electromagnetic field and matter are challenging and have only started to be developed in recent years. We introduce a deep learning variational quantum Monte Carlo method to solve the electronic and photonic Schr\u00f6dinger equation of molecules trapped in optical cavities. We extend typical electronic neural network wavefunction ansatzes to describe joint fermionic and bosonic systems, i.e. electron-photon systems, in a quantum Monte Carlo framework. We apply our method to hydrogen molecules in a cavity, computing both ground and excited states. We assess their energy, dipole moment, charge density shift due to the cavity, the state of the photonic field, and the entanglement developed between the electrons and photons. When possible, we compare our results with more conventional quantum chemistry methods proposed in the literature, finding good qualitative agreement, thus extending the range of scientific problems that can be tackled using machine learning techniques.         ",
+    "url": "https://arxiv.org/abs/2503.15644",
+    "authors": [
+      "Yifan Tang",
+      "Gian Marcello Andolina",
+      "Alica Cuzzocrea",
+      "Mat\u011bj Mezera",
+      "P. Bern\u00e1t Szab\u00f3",
+      "Zeno Sch\u00e4tzle",
+      "Frank No\u00e9",
+      "Paolo A. Erdman"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15651",
+    "title": "Thermal Shrinkage-Induced Modifications in Photonic Band Gaps of Two-Photon Polymerized Bragg Reflectors",
+    "abstract": "           One-dimensional (1D) polymer-based photonic crystals (PhCs) in the $1.55~\\mu{}m$ wavelength range can be easily created using a two-photon direct laser writing system. To achieve shorter period structures, we report the use of thermal shrinkage of two-photon polymerized structures, at elevated temperatures, to eliminate unpolymerised material, leading to the uniform shrinkage of the distributed Bragg reflector (DBR) structures by a ratio of $\\sim$ 2.5 to 5. Our Finite Difference Time Domain (FDTD) simulation and the angle-resolved light scattering characterization technique using Fourier image spectroscopy (FIS) measurements show that the low order photonic bandgaps of DBRs blue-shift across the NIR-visible region (850 to 400 nm) as the shrinkage increases.         ",
+    "url": "https://arxiv.org/abs/2503.15651",
+    "authors": [
+      "Yu-Shao Jacky Chen",
+      "Mike P. C. Taverne",
+      "Kevin Chung-Che Huang",
+      "Ying-Lung Daniel Ho",
+      "John G. Rarity"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15690",
+    "title": "Arbitrary-velocity laser pulses in plasma waveguides",
+    "abstract": "           Space-time structured laser pulses feature an intensity peak that can travel at an arbitrary velocity while maintaining a near-constant profile. These pulses can propagate in uniform media, where their frequencies are correlated with continuous transverse wavevectors, or in structured media, such as a waveguide, where their frequencies are correlated with discrete mode numbers. Here, we demonstrate the formation and propagation of arbitrary-velocity laser pulses in a plasma waveguide where the intensity can be orders of magnitude higher than in a solid-state waveguide. The flexibility to control the velocity of the peak intensity in a plasma waveguide enables new configurations for plasma-based sources of radiation and energetic particles, including THz generation, laser wakefield acceleration, and direct laser acceleration.         ",
+    "url": "https://arxiv.org/abs/2503.15690",
+    "authors": [
+      "J.P. Palastro",
+      "K.G. Miller",
+      "M.R. Edwards",
+      "A.L. Elliott",
+      "L.S. Mack",
+      "D. Singh",
+      "A.G.R. Thomas"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15721",
+    "title": "Minimal material, maximum coverage: Silicon Tracking System for high-occupancy conditions",
+    "abstract": "           Silicon strip sensors have long been a reliable technology for particle detection. Here, we push the limits of silicon tracking detectors by targeting an unprecedentedly low material budget of 2%-7% $X_0$ in an 8-layer 4 m$^2$ detector designed for high-occupancy environments ($\\leq$ 10 MHz/cm$^2$). To achieve this, we employ Double-Sided Double Metal (DSDM) silicon microstrip sensors, coupled with readout electronics capable of precise timing and energy measurements. These 320 $\\mu$m thick sensors, featuring $2\\times 1024$ channels with a 58 $\\mu$m pitch, are connected via ultra-lightweight aluminium-polyimide microcables for signal transmission and integrated with a custom SMX readout ASIC, operating in free-streaming mode. This system enables the simultaneous measurement of time ($\\Delta t \\simeq 5$~ns) and charge deposition (0.1-100 fC), significantly enhancing the detector's capacity for high-precision track reconstruction in high-occupancy and harsh radiation field environments. The primary application of this technology is the Silicon Tracking System (STS) for the CBM experiment, with additional potential in projects like the J-PARC E16 experiment and future uses in medical physics, such as advanced imaging telescopes. In this contribution, we present the current status of CBM STS construction, with almost one-third of the modules produced and tested. We also discuss immediate applications and explore promising prospects in both scientific and medical fields.         ",
+    "url": "https://arxiv.org/abs/2503.15721",
+    "authors": [
+      "M. Teklishyn",
+      "L. M. Collazo S\u00e1nchez",
+      "U. Frankenfeld",
+      "J. M. Heuser",
+      "O. Kshyvanskyi",
+      "J. Lehnert",
+      "D. A. Ram\u00edrez Zaldivar",
+      "D. Rodr\u00edguez Garc\u00e9s",
+      "A. Rodr\u00edguez Rodr\u00edguez",
+      "C. J. Schmidt",
+      "P. Semeniuk",
+      "M. Shiroya",
+      "A. Sharma",
+      "A. Toia",
+      "O. Vasylyev"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15750",
+    "title": "Spatiotemporal Photonic Emulator of Potential-free Schr\u00f6dinger Equation",
+    "abstract": "           Photonic quantum emulator utilizes photons to emulate the quantum physical behavior of a complex quantum system. Recent study in spatiotemporal optics has enriched the toolbox for designing and manipulating complex spatiotemporal optical wavepackets, bringing new opportunities in building such quantum emulators. In this work, we demonstrate a new type of photonic quantum emulator enabled by spatiotemporal localized wavepackets with spherical harmonic symmetry. The spatiotemporal field distribution of these wavepackets has the same distributions of the wavefunction solutions to the potential-free Schr\u00f6dinger equation with two controllable quantum numbers. A series of such localized wavepackets are experimentally generated with their localized feature verified. These localized wavepackets can propagate invariantly in space-time like particles, forming a new type of photonic quantum emulator that may provide new insight in studying quantum physics and open up new applications in studying light-matter interactions and quantum optics.         ",
+    "url": "https://arxiv.org/abs/2503.15750",
+    "authors": [
+      "Qian Cao",
+      "Nianjia Zhang",
+      "Andy Chong",
+      "Qiwen Zhan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16113",
+    "title": "Event Soliton Formation in Mixed Energy-Momentum Gaps of Nonlinear Spacetime Crystals",
+    "abstract": "           We report the formation of a novel soliton, termed event soliton, in nonlinear photonic spacetime crystals (STCs). In these media, simultaneous spatiotemporal periodic modulation of the dielectric constant generates mixed frequency (${\\omega}$) and wavevector (k) gaps. Under Kerr nonlinearity, the event solitons emerge as fully localized entities in both spacetime and energy-momentum domains, providing a tangible demonstration of the concept of event in relativity. The ${\\omega}$k-gap mixture arises from the coexistence and competition between time reflected and Bragg reflected waves due to the spatiotemporal modulation. We propose a new partial differential equation to capture various spatiotemporal patterns and present numerical simulations to validate our theoretical predictions, reflecting a three-way balance among k-gap opening, ${\\omega}$-gap opening, and nonlinearity. Our work opens avenues for fundamental studies and fosters experimental prospects for implementing spacetime crystals in both time-varying photonics and periodically driven condensed matter systems.         ",
+    "url": "https://arxiv.org/abs/2503.16113",
+    "authors": [
+      "Liang Zhang",
+      "Zhiwei Fan",
+      "Yiming Pan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mathematical Physics (math-ph)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16249",
+    "title": "A GHz fiber comb on silica",
+    "abstract": "           We present a 1 GHz Yb-fiber laser frequency comb built on silica substrates, utilizing \"optical cubes\" to house all optical components, ensuring long-term stability and practical operation. Both the femtosecond laser and f-to-2f interferometer are constructed to silica bricks, with a compact footprint of 290 mm $\\times$ 250 mm, and a total weight of 1.8 kg. This system provides a stable repetition rate, offset frequency, and a supercontinuum spanning 460-1560 nm without requiring amplification. The carrier-envelop offset frequency exhibits exceptional stability, with a fractional frequency instability of $3.07\\times 10^{-18}$ at a 1 second averaging time, improving to $2.12\\times 10^{-20}$ at a 10,000 second, maintaining uninterrupted operation for over 60 hours. This work demonstrates a high-performance GHz fiber-based frequency comb, paving the way for applications beyond laboratory environments, including dual-comb spectroscopy, astronomical spectrograph calibration, and portable optical clocks.         ",
+    "url": "https://arxiv.org/abs/2503.16249",
+    "authors": [
+      "Ruoao Yang",
+      "Xingang Jin",
+      "Ya Wang",
+      "Minghe Zhao",
+      "Zhendong Chen",
+      "Xinpeng Lin",
+      "Fei Meng",
+      "Duo Pan",
+      "Qian Li",
+      "Jingbiao Chen",
+      "Aimin Wang",
+      "Zhigang Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16256",
+    "title": "Scalable Multiport Antenna Array Characterization with PCB-Realized Tunable Load Network Providing Additional \"Virtual\" VNA Ports",
+    "abstract": "           We prototype a PCB-realized tunable load network whose ports serve as additional \"virtual\" VNA ports in a \"Virtual VNA\" measurement setup. The latter enables the estimation of a many-port antenna array's scattering matrix with a few-port VNA, without any reconnections. We experimentally validate the approach for various eight-element antenna arrays in an anechoic chamber in the 700-900 MHz regime. We also improve the noise robustness of a step of the \"Virtual VNA\" post-processing algorithms by leveraging spectral correlations. Altogether, our PCB-realized VNA Extension Kit offers a scalable solution to characterize very large antenna arrays because of its low cost, small footprint, fully automated operation, and modular nature.         ",
+    "url": "https://arxiv.org/abs/2503.16256",
+    "authors": [
+      "Jean Tapie",
+      "Philipp del Hougne"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15642",
+    "title": "The classical limit of quantum mechanics through coarse-grained measurements",
+    "abstract": "           We address the classical limit of quantum mechanics, focusing on its emergence through coarse-grained measurements when multiple outcomes are conflated into slots. We rigorously derive effective classical kinematics under such measurements, demonstrating that when the volume of the coarse-grained slot in phase space significantly exceeds Planck's constant, quantum states can be effectively described by classical probability distributions. Furthermore, we show that the dynamics, derived under coarse-grained observations and the linear approximation of the quantum Hamiltonian around its classical values within the slots, is effectively described by a classical Hamiltonian following Liouville dynamics. The classical Hamiltonian obtained through this process is equivalent to the one from which the underlying quantum Hamiltonian is derived via the (Dirac) quantization procedure, completing the quantization-classical limit loop. The Ehrenfest time, marking the duration within which classical behavior remains valid, is analyzed for various physical systems. The implications of these findings are discussed in the context of both macroscopic and microscopic systems, revealing the mechanisms behind their observed classicality. This work provides a comprehensive framework for understanding the quantum-to-classical transition and addresses foundational questions about the consistency of the quantization-classical limit cycle.         ",
+    "url": "https://arxiv.org/abs/2503.15642",
+    "authors": [
+      "Fatemeh Bibak",
+      "Carlo Cepollaro",
+      "Nicol\u00e1s Medina S\u00e1nchez",
+      "Borivoje Daki\u0107",
+      "\u010caslav Brukner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15882",
+    "title": "Optical control of the moir\u00e9 twist angle",
+    "abstract": "           Moir\u00e9 multilayers offer a promising platform for engineering diverse functionalities in a single material via twist angle control. However, achieving reliable, high-precision control of the twist angle remains challenging. In this theoretical work, we propose an all-optical method for fast, precise manipulation of two-dimensional multilayers by transferring orbital angular momentum from phase-structured light (e.g. vortex beams) to a 2D material flake. We model the light-matter interaction, analyze the twist dynamics, and develop a phase diagram for optical twist angle switching -- transition to a neighboring metastable twist angle -- by mapping the system onto an impulsively forced nonlinear pendulum. Aided by pairwise classical potential estimates for the interlayer energy and numerical simulation, we demonstrate the feasibility of our approach with hexagonal boron nitride bilayers and extend the results to dichalcogenides with first-principles calculations. Our findings reveal a rich dynamical response -- from single-pulse twist angle control to high-order quasistable orbits pointing toward periodically driven chaotic dynamics -- and suggest a pathway for all-optical measurement of the twist potential energy. These results can be generalized to other 2D multilayers, paving the way for scalable and customizable moir\u00e9 electronics and photonics.         ",
+    "url": "https://arxiv.org/abs/2503.15882",
+    "authors": [
+      "Zhiren He",
+      "Prathap Kumar Jharapla",
+      "Nicolas Leconte",
+      "Jeil Jung",
+      "Guru Khalsa"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.15912",
+    "title": "Normal and inverse magnetocaloric effects in structurally disordered Laves phase Y$_{1-x}$Gd$_{x}$Co$_{2}$ (0 $\\leq$ x $\\leq$ 1) compounds",
+    "abstract": "           Magnetic and magnetocaloric properties of Y$_{1-x}$Gd$_{x}$Co$_{2}$ compounds, where x = 0.2, 0.4, 0.6, 0.8 and 1.0, were investigated experimentally and theoretically. Crystal structures were characterized by X-ray diffraction (Rietveld analysis) and investigated samples possess the MgCu$_{2}$-type single phase with Fd-3m space group. Melt-spinning process introduced a chemical and topological disorder, which directly affected the magnetic properties. Refrigerant capacity (RC), strictly connected to the full width at half maximum $\\delta$TFWHM of the $\\Delta$S$_M$(T) curve and the maximum of magnetic entropy changes $\\Delta$S$_{Mpk}$(T)(T,$\\Delta$H), increases from 29 to 148 J/kg with replacement of Y by Gd atoms from x = 0.2 to x = 0.8. RC and $\\delta$TFWHM indicate the presence of disorder. Temperature dependences of magnetic entropy change $\\Delta$S$_M$(T,$\\Delta$H) and RC were measured in as-quenched and annealed state for Y$_{0.4}$Gd$_{0.6}$Co$_{2}$. This particular composition was chosen for detailed investigation mainly due to its Curie point (T$_C$ = 282 K), which is close to the room temperature. After isothermal annealing ($\\tau_a$ = 60 min, Ta = 700$^o$C) RC decreased from 122 to 104 J/kg, which clearly indicates the homogenization of the heat treated sample. Furthermore, observed inverse magnetocaloric effect is associated with the presence of antiferromagnetically coupled Gd and Co magnetic moments. The phase transition temperature increases with increasing Gd content from 74 to 407 K for Y$_{0.8}$Gd$_{0.2}$Co$_{2}$ and GdCo2, respectively. Within the FPLO-LDA DFT method, the non-magnetic ground state for YCo$_{2}$ and the magnetic ground state for GdCo$_{2}$ are predicted in agreement with experiment. The dependence of calculated total and species-resolved magnetic moments on Gd concentration reasonably agrees with available experimental data.         ",
+    "url": "https://arxiv.org/abs/2503.15912",
+    "authors": [
+      "Natalia Pierunek",
+      "Zbigniew \u015aniadecki",
+      "Miros\u0142aw Werwi\u0144ski",
+      "Bartosz Wasilewski",
+      "Victorino Franco",
+      "Bogdan Idzikowski"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16062",
+    "title": "Constraint Phase Space Formulations for Finite-State Quantum Systems: The Relation between Commutator Variables and Complex Stiefel Manifolds",
+    "abstract": "           We have recently developed the \\textit{constraint} coordinate-momentum \\textit{phase space} (CPS) formulation for finite-state quantum systems. It has been implemented for the electronic subsystem in nonadiabatic transition dynamics to develop practical trajectory-based approaches. In the generalized CPS formulation for the mapping Hamiltonian of the classical mapping model with commutator variables (CMMcv) method [\\textit{J. Phys. Chem. A} \\textbf{2021}, 125, 6845-6863], each {connected} component of the generalized CPS is the \\textit{complex Stiefel manifold} labeled by the eigenvalue set of the mapping kernel. Such a phase space structure allows for exact trajectory-based dynamics for pure discrete (electronic) degrees of freedom (DOFs), where the equations of motion of each trajectory are isomorphic to the time-dependent Schr\u00f6dinger equation. We employ covariant kernels {within the generalized CPS framework} to develop two approaches that naturally yield exact evaluation of time correlation functions (TCFs) for pure discrete (electronic) DOFs. In addition, we briefly discuss the phase space mapping formalisms where the contribution of each trajectory to the integral expression of the {TCF} of population dynamics is strictly positive semi-definite. The generalized CPS formulation also indicates that the equations of motion in phase space mapping model I of our previous work [\\textit{J. Chem. Phys.} \\textbf{2016}, 145, 204105; \\textbf{2017}, 146, 024110; \\textbf{2019}, 151, 024105] lead to a complex Stiefel manifold $\\mathrm{U}(F)/\\mathrm{U}(F-2)$. It is expected that the generalized CPS formulation has implications for simulations of both nonadiabatic transition dynamics and many-body quantum dynamics for spins/bosons/fermions.         ",
+    "url": "https://arxiv.org/abs/2503.16062",
+    "authors": [
+      "Youhao Shang",
+      "Xiangsong Cheng",
+      "Jian Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Nuclear Theory (nucl-th)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16156",
+    "title": "Electromagnetically Induced Transparency Effect Improves Quantum Battery Lifetime",
+    "abstract": "           Quantum battery (QB) is an application of quantum thermodynamics which uses quantum effects to store and transfer energy, overcoming the limitations of classical batteries and potentially improving performance. However, due to the interaction with the external environment, it will lead to decoherence and thus reduce the lifetime of QBs. Here, we propose suppressing the environmental dissipation in the energy-storage process of the QB by exploiting the electromagnetically-induced transparency (EIT) and bound states. By constructing a hybrid system composed of a four-level atom and a coupled-cavity array, two bound states are formed in the system when the energy of the QB is in the energy band of the cavity array. Due to the bound states and the EIT effect, the ambient dissipation is significantly suppressed, which improves the lifetime of the QB. In addition, we show that when the energy of the QB is in resonance with the cavity, the ergotropy of the QB reaches the maximum. Furthermore, there exists an optimal coupling strength between two neighbouring cavities which helps improve the performance of the QB. These discoveries may shed the light on the design of high-efficiency QBs.         ",
+    "url": "https://arxiv.org/abs/2503.16156",
+    "authors": [
+      "Cheng-Ge Liu",
+      "Jin-Tian Zhang",
+      "Qing Ai"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16198",
+    "title": "Probing classical and quantum violations of the equivalence of active and passive gravitational mass",
+    "abstract": "           The equivalence of active and passive (EAP) gravitational mass is one of the most fundamental principles of gravity. But in contrast to the usual equivalence of inertial and (passive) gravitational mass, the EAP has not received much attention. Here we revisit this principle and show how it can be used to probe quantum gravity in laboratory-based experiments. We first examine how the dynamics under EAP violations affects classical systems and show that new laboratory tests can be performed, to improve over the current experimental bounds and to test new manifestations of EAP violations. We then extend the analysis to the quantum domain, where quantized energy contributes to mass and the EAP principle can thus shed light on how quantum source masses would gravitate. We show that experiments with cold polar molecules, and future experiments with nuclear atomic clocks, can test the quantum EAP in a regime where quantum gravity phenomenology could become relevant. Our results open new opportunities for fundamental tests of gravity in high-precision laboratory experiments that can shed light on foundational principles of gravity and its interface with quantum theory.         ",
+    "url": "https://arxiv.org/abs/2503.16198",
+    "authors": [
+      "Vasileios Fragkos",
+      "Igor Pikovski"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16215",
+    "title": "Quantum Metrology of Newton's Constant with Levitated Mechanical Systems",
+    "abstract": "           Newton's constant is the least well-measured among the fundamental constants of Nature, and, indeed, its accurate measurement has long served an experimental challenge. Levitated mechanical systems are attracting growing attention for their promising applications in sensing and as an experimental platform for exploring the intersection between quantum physics and gravitation. Here we propose a mechanical interferometric scheme of interacting levitated oscillators for the accurate estimation of Newton's constant. Our scheme promises to beat the current standard by several orders of magnitude.         ",
+    "url": "https://arxiv.org/abs/2503.16215",
+    "authors": [
+      "Francis J. Headley",
+      "Alessio Belenchia",
+      "Mauro Paternostro",
+      "Daniel Braun"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.08738",
+    "title": "An atlas of photonic and plasmonic materials for cathodoluminescence microscopy",
+    "abstract": "           Cathodoluminescence (CL) microscopy has emerged as a powerful tool for investigating the optical properties of materials at the nanoscale, offering unique insights into the behavior of photonic and plasmonic materials under electron excitation. We introduce an atlas of bulk CL spectra and intensity for a broad range of materials used in photonics and plasmonics. Through a combination of experimental CL microscopy and Monte Carlo simulations, we characterize spectra and intensity of coherent and incoherent CL, electron penetration depth and energy deposition, offering a foundational reference for interpreting CL signals and understanding material behavior under electron excitation. Our atlas captures CL signals across a wide range of materials, offering valuable insight into intrinsic emission properties for informed material selection and device design in photonics and plasmonics.         ",
+    "url": "https://arxiv.org/abs/2411.08738",
+    "authors": [
+      "Sven Ebel",
+      "Yonas Lebsir",
+      "Torgom Yezekyan",
+      "N. Asger Mortensen",
+      "Sergii Morozov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.18403",
+    "title": "Detectorless 3D terahertz imaging: achieving subwavelength resolution with reflectance confocal interferometric microscopy",
+    "abstract": "           Terahertz imaging holds great potential for non-destructive material inspection, but practical implementation has been limited by resolution constraints. In this study, we present a single-pixel THz imaging system based on a confocal microscope architecture, utilising a quantum cascade laser as both transmitter and phase-sensitive receiver. Our approach integrates laser feedback interferometry detection to achieve a two-fold improvement in lateral resolution and a two-order-of-magnitude enhancement in axial resolution over conventional imaging through precise interferometric phase measurements. This translates to a lateral resolution near $\\lambda/2$ and a depth of focus better than $\\lambda/5$, significantly outperforming traditional confocal systems. The system can produce a 0.5 Mpixel image in under two minutes, surpassing both raster-scanning single-pixel and multipixel focal-plane array-based imagers. Coherent operation enables simultaneous amplitude and phase image acquisition, and a custom visualisation method links amplitude to image saturation and phase to hue, enhancing material characterisation. A 3D tomographic analysis of a silicon chip reveals subwavelength features, demonstrating the system's potential for high-resolution THz imaging and material analysis. This work sets a new benchmark for THz imaging, overcoming key challenges and opening up transformative possibilities for non-destructive material inspection and characterisation.         ",
+    "url": "https://arxiv.org/abs/2412.18403",
+    "authors": [
+      "Jorge Silva",
+      "Martin Pl\u00f6schner",
+      "Karl Bertling",
+      "Mukund Ghantala",
+      "Tim Gillespie",
+      "Jari Torniainen",
+      "Jeremy Herbert",
+      "Yah Leng Lim",
+      "Thomas Taimre",
+      "Xiaoqiong Qi",
+      "Bogdan C. Donose",
+      "Tao Zhou",
+      "Hoi-Shun Lui",
+      "Dragan Indjin",
+      "Yingjun Han",
+      "Lianhe Li",
+      "Alexander Valavanis",
+      "Edmund H. Linfield",
+      "A. Giles Davies",
+      "Paul Dean",
+      "Aleksandar D. Raki\u0107"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17064",
+    "title": "Fast, accurate, and error-resilient variational quantum noise spectroscopy",
+    "abstract": "           Detecting and characterizing decoherence-inducing noise sources is critical for developing scalable quantum technologies and deploying quantum sensors that operate at molecular scales. Yet, existing methods for such noise spectroscopy face fundamental difficulties, including their reliance on severe approximations and the need for extensively averaged measurements. Here, we propose an alternative approach that processes the commonly performed dynamical decoupling-based coherence measurements using a novel self-consistent optimization framework to extract the noise power spectrum that characterizes the interaction between a qubit or quantum sensor and its environment. Our approach adopts minimal assumptions and is robust to the presence of measurement errors. We introduce a protocol to quantify confidence intervals and a physically motivated heuristic to determine which new dynamical decoupling measurement can improve spectral reconstruction. We employ our method to reconstruct the noise spectrum of a nitrogen-vacancy sensor in diamond, resolving previously undetected nuclear species at the diamond surface and revealing that the previous measurements of low-frequency noise had overestimated its strength by an order of magnitude. Our method's noise spectrum reconstructions uncover previously unsuspected structure and offer unprecedented accuracy, setting the stage for precision noise spectroscopy-based quantum metrology.         ",
+    "url": "https://arxiv.org/abs/2411.17064",
+    "authors": [
+      "Nanako Shitara",
+      "Andr\u00e9s Montoya-Castillo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.03399",
+    "title": "Symmetry Analysis of the Non-Hermitian Electro-Optic Effect in Crystals",
+    "abstract": "           Here, we investigate how crystal symmetry tailors the non-Hermitian electro-optic effect arising from the Berry curvature dipole. Specifically, we demonstrate the critical influence of the material's point group symmetry and external electric biases in shaping this effect, leading to current-induced optical gain and non-reciprocal optical responses. Through a symmetry-based analysis of the crystallographic point groups, we identify how different symmetries affect the electro-optic response, enabling the engineering of polarization-dependent optical gain without the need for gyrotropic effects. In particular, we demonstrate that the non-Hermitian electro-optic response in a broad class of crystals is characterized by linear dichroic gain. In this type of response, the eigenpolarizations that activate the gain or dissipation are linearly polarized. Depending on the point group symmetry, it is possible to achieve gain (or dissipation) for all eigenpolarizations or to observe polarization-dependent gain and dissipation. Weyl semimetals emerge as promising candidates for realizing significant non-Hermitian electro-optic effects and linear dichroic gain. We further examine practical applications by studying the reflectance of biased materials in setups involving mirrors, demonstrating how optical gain and attenuation can be controlled via symmetry and bias configurations.         ",
+    "url": "https://arxiv.org/abs/2502.03399",
+    "authors": [
+      "Sylvain Lanneb\u00e8re",
+      "Tatiana G. Rappoport",
+      "Tiago A. Morgado",
+      "Ivo Souza",
+      "M\u00e1rio G. Silveirinha"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
