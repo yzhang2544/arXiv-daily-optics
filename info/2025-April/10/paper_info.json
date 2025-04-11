@@ -1,0 +1,355 @@
+[
+  {
+    "id": "arXiv:2504.06501",
+    "title": "Equivalent Circuit Modeling of a Lumped-element Loaded Metasurface under Arbitrary Incidence and Polarization",
+    "abstract": "           In recent years, Reconfigurable Intelligent Surfaces (RIS) have emerged as a key technology for next-generation communication, offering real-time and dynamic control over electromagnetic wave characteristics. The scattering of an RIS unit cell can be effectively modeled using an equivalent circuit model (ECM) of a lumped RLC-loaded metasurface. However, existing ECMs, particularly those with square patches, often fail to generalize beyond specific configurations or integrate lumped elements, limiting their practical applicability to single polarization or normal incidence. In this work, we propose a simple yet robust ECM that accurately predicts the spectral response while maintaining adaptability across varying design parameters, including polarization, arbitrary angles of incidence, and physical dimensions of lumped elements. Our approach is built incrementally, starting from a 1x1 unit cell as the fundamental structure and extending to 2x1 and 2x2 cell configurations. The 2x2 cell structure allows for multifunctionality and reconfigurability in dual independent polarizations. These capabilities facilitate the realization of vector holographic metasurfaces. Validation with full-wave simulations demonstrates strong agreement, highlighting the efficiency and robustness of our model. This work lays the foundation for simplified and effective RIS modeling and optimization in advanced communication systems.         ",
+    "url": "https://arxiv.org/abs/2504.06501",
+    "authors": [
+      "Athanasios Nousiou",
+      "Nikolaos V. Kantartzis",
+      "Alexandros Pitilakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06520",
+    "title": "Multi-Frequency Reverberant Shear Waves for Assessing Tissue Dispersion in Optical Coherence Elastography",
+    "abstract": "           Optical coherence elastography (OCE) is a powerful non-invasive imaging technique for high-resolution assessment of tissue elasticity and viscoelasticity. Accurate characterization of viscoelastic properties requires estimating shear wave speed (SWS) across multiple frequencies, as dispersion induces frequency-dependent variations in wave speed. This study introduces a novel multi-frequency reverberant OCE (MFR-OCE) approach to enhance viscoelastic tissue characterization by simultaneously capturing shear wave dynamics over multiple frequencies. We present the theoretical framework, experimental setup, and validation of MFR-OCE through simulations and experiments on gelatin phantoms, ex vivo porcine cornea, and ex vivo bovine liver. Simulation results demonstrate that MFR-OCE estimates SWS with errors below 4% relative to ground truth, and phantom experimental results show that MFR-OCE and single-frequency OCE also yield closely matching SWS estimates, with differences below 3%. Furthermore, the frequency-dependent dispersion coefficients extracted from biological tissues and phantoms align with the theoretical viscoelastic power law model. The gelatin phantoms exhibit a low viscoelastic behavior with an exponent of 0.13 for the power law fit of SWS, while the ex vivo porcine cornea demonstrates intermediate viscoelastic behavior, with a power law exponent of 0.33. The liver tissue shows significant frequency dependence, with a power law exponent of 0.51. These findings demonstrate that MFR-OCE enables a more comprehensive understanding of tissue mechanics and holds the potential for improving diagnostic accuracy in clinical applications.         ",
+    "url": "https://arxiv.org/abs/2504.06520",
+    "authors": [
+      "Hamidreza Asemani",
+      "Panomsak Meemon",
+      "Gilmer Flores Barrera",
+      "Jannick P. Rolland",
+      "Kevin J. Parker"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06535",
+    "title": "Isolator-Free Laser Operation Enabled by Chip-Scale Reflections in Zero-Process-Change SOI",
+    "abstract": "           The isolation-free operation of photonic integrated circuits enables dense integration, reducing packaging costs and complexity. Most isolator replacements require a change in the silicon-on-insulator (SOI) foundry process and suffer from large insertion loss. Most solutions did not integrate the laser, leaving the verification incomplete, and measurements with modulated reflections have also been missing. In this work, we present, for the first time, a zero-process-change silicon photonic (SiP) circuit that, when paired with an integrated distributed-feedback laser (DFB), enhances the DFB's immunity to continuous-wave and modulated parasitic reflections from multiple reflectors. The circuit generates intentional, controlled self-injection to stabilize laser dynamics and maintain operation. The SiP circuit is complemented by an electro-optic feedback loop that dynamically adjusts the self-injection to preserve laser stability. The proposed circuit introduces an insertion loss of 1.5 dB and enables the DFB laser to tolerate back reflections as large as -7 dB and -12 dB from on-chip and off-chip reflectors, respectively. The DFB is hybrid integrated with the SiP chip using a photonic wire bond (PWB). The isolator-free operation of the integrated laser in a high-speed optical link has been demonstrated, highlighting its potential for data communication applications.         ",
+    "url": "https://arxiv.org/abs/2504.06535",
+    "authors": [
+      "Omid Esmaeeli",
+      "Lukas Chrostowski",
+      "Sudip Shekhar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06604",
+    "title": "Image registration of 2D optical thin sections in a 3D porous medium: Application to a Berea sandstone digital rock image",
+    "abstract": "           This study proposes a systematic image registration approach to align 2D optical thin-section images within a 3D digital rock volume. Using template image matching with differential evolution optimization, we identify the most similar 2D plane in 3D. The method is validated on a synthetic porous medium, achieving exact registration, and applied to Berea sandstone, where it achieves a structural similarity index (SSIM) of 0.990. With the registered images, we explore upscaling properties based on paired multimodal images, focusing on pore characteristics and effective elastic moduli. The thin-section image reveals 50 % more porosity and submicron pores than the registered CT plane. In addition, bulk and shear moduli from thin sections are 25 % and 30 % lower, respectively, than those derived from CT images. Beyond numerical comparisons, thin sections provide additional geological insights, including cementation, mineral phases, and weathering effects, which are not clear in CT images. This study demonstrates the potential of multimodal image registration to improve computed rock properties in digital rock physics by integrating complementary imaging modalities.         ",
+    "url": "https://arxiv.org/abs/2504.06604",
+    "authors": [
+      "Jaehong Chung",
+      "Wei Cai",
+      "Tapan Mukerji"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06959",
+    "title": "Temporal dynamics of GHz acoustic waves in chipscale phononic integrated circuits",
+    "abstract": "           Phononic integrated circuits, which manipulate GHz-frequency acoustic fields in {\\mu}m-scale waveguides, provide new degrees of freedom for routing and manipulation of microwaves in deeply sub-wavelength geometries with associated implications for chipscale sensing and signal processing. The combination of low propagation loss, long interaction lengths and slow speed of sound put together with the large measurement bandwidths and high frequency resolution available from modern vector network analyzers (VNA) makes it feasible to visualize the temporal dynamics of propagating acoustic fields in these devices and see the device in action. Two representative examples we discuss here are pulse circulation and ringdown in an acoustic microring resonator, and the observation of (parasitic) multipath interference effects in waveguide resonator geometries. In the absence of fast 3D acoustic field imaging modalities, such time domain reflectometry based methods provide the best alternative for mapping interface reflection and loss, which becomes increasingly critical as these devices start to scale in complexity.         ",
+    "url": "https://arxiv.org/abs/2504.06959",
+    "authors": [
+      "A. Fahad Malik",
+      "Mahmut Bicer",
+      "Krishna C. Balram"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06995",
+    "title": "Broadband Optical Modulation and Control at Millikelvin Temperatures",
+    "abstract": "           A universal experimental challenge when studying radiation effects on cryogenic devices is to precisely and accurately characterize the position-dependent device response very near the energy detection threshold. We have developed a compact cryogenic optical beam steering system that can be used to generate O({\\mu}s) pulses of small numbers of photons over the energy range of 1.2 - 4.5eV at room temperature, and deliver those photons via fiber optic to any specified location on the surface of a detector operating at cryogenic temperatures. This new system will allow for robust calibration of any photon-sensitive detector, including supercondcting devices. The system can be used efficiently to explore the physics of target materials, quantify the position sensitivity of different sensor designs, measure phonon transport, and study the effects of quasiparticle poisoning on detector operation. We describe the design of this pulsed calibration method and present first results obtained with a second-generation system operated at room temperature and sub-Kelvin temperatures.         ",
+    "url": "https://arxiv.org/abs/2504.06995",
+    "authors": [
+      "N. Tabassum",
+      "T. Aralis",
+      "J. Anczarski",
+      "D. Baxter",
+      "B. Cabrera",
+      "R. Chapla",
+      "N. Entin",
+      "L. Hsu",
+      "H.W. Magoon",
+      "A. Nunez",
+      "J.L. Ryan",
+      "M. Salatino",
+      "A. Simchony",
+      "Z.J. Smith",
+      "S. Stevens",
+      "G. Perez",
+      "H. Stueber",
+      "B.A. Young",
+      "N.A. Kurinsky",
+      "K. Stifter"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Nuclear Experiment (nucl-ex)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.07037",
+    "title": "VQE calculations on a NISQ era trapped ion quantum computer using a multireference unitary coupled cluster ansatz: application to the BeH$_2$ insertion problem",
+    "abstract": "           In this study, we employ the variational quantum eigensolver algorithm with a multireference unitary coupled cluster ansatz to report the ground state energy of the BeH$_2$ molecule in a geometry where strong correlation effects are significant. We consider the two most important determinants in the construction of the reference state for our ansatz. Furthermore, in order to carry out our intended 12-qubit computation on a noisy intermediate scale quantum era trapped ion hardware (the commercially available IonQ Forte-I), we perform a series of resource reduction techniques to a. decrease the number of two-qubit gates by 99.84% (from 12515 to 20 two-qubit gates) relative to the unoptimized circuit, and b. reduce the number of measurements via the idea of supercliques, while losing 2.69% in the obtained ground state energy (with error mitigation and post-selection) relative to that computed classically for the same resource-optimized problem setting.         ",
+    "url": "https://arxiv.org/abs/2504.07037",
+    "authors": [
+      "Palak Chawla",
+      "Disha Shetty",
+      "Peniel Bertrand Tsemo",
+      "Kenji Sugisaki",
+      "Jordi Riu",
+      "Jan Nogue",
+      "Debashis Mukherjee",
+      "V. S. Prasannaa"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06327",
+    "title": "Physics-informed KAN PointNet: Deep learning for simultaneous solutions to inverse problems in incompressible flow on numerous irregular geometries",
+    "abstract": "           Kolmogorov-Arnold Networks (KANs) have gained attention as a promising alternative to traditional Multilayer Perceptrons (MLPs) for deep learning applications in computational physics, especially within the framework of physics-informed neural networks (PINNs). Physics-informed Kolmogorov-Arnold Networks (PIKANs) and their variants have been introduced and evaluated to solve inverse problems. However, similar to PINNs, current versions of PIKANs are limited to obtaining solutions for a single computational domain per training run; consequently, a new geometry requires retraining the model from scratch. Physics-informed PointNet (PIPN) was introduced to address this limitation for PINNs. In this work, we introduce physics-informed Kolmogorov-Arnold PointNet (PI-KAN-PointNet) to extend this capability to PIKANs. PI-KAN-PointNet enables the simultaneous solution of an inverse problem over multiple irregular geometries within a single training run, reducing computational costs. We construct KANs using Jacobi polynomials and investigate their performance by considering Jacobi polynomials of different degrees and types in terms of both computational cost and prediction accuracy. As a benchmark test case, we consider natural convection in a square enclosure with a cylinder, where the cylinder's shape varies across a dataset of 135 geometries. We compare the performance of PI-KAN-PointNet with that of PIPN (i.e., physics-informed PointNet with MLPs) and observe that, with approximately an equal number of trainable parameters and similar computational cost, PI-KAN-PointNet provides more accurate predictions. Finally, we explore the combination of KAN and MLP in constructing a physics-informed PointNet. Our findings indicate that a physics-informed PointNet model employing MLP layers as the encoder and KAN layers as the decoder represents the optimal configuration among all models investigated.         ",
+    "url": "https://arxiv.org/abs/2504.06327",
+    "authors": [
+      "Ali Kashefi",
+      "Tapan Mukerji"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06498",
+    "title": "Quantum Magnetic J-Oscillators",
+    "abstract": "           We realize quantum oscillators operating at microhertz to tens of hertz frequencies based on nuclear scalar couplings in molecules in solution. The oscillators are implemented by coupling in situ hyperpolarized samples with programmable digital feedback that allows amplifying specific J-coupling transitions at zero field. Due to the fundamental insensitivity of J-couplings to magnetic field fluctuations, we achieve extremely stable coherent oscillations for longer than 3000 s, with a 337 uHz linewidth limited primarily by the measurement time. The ability to control the feedback delay and the external gain enabled us to resolve overlapping resonances, making possible on-demand spectral editing. Importantly, implementing active feedback allowed us to obviate the requirement of population inversion and relax the requirements on sample polarization. The quantum oscillator phenomenon demonstrated here for various chemical classes (nitriles, heterocycles, and organic acids) significantly improves resolution of zero-field NMR spectra, including for samples with natural isotopic abundance, and expands applications of J-spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2504.06498",
+    "authors": [
+      "Jingyan Xu",
+      "Raphael Kircher",
+      "Oleg Tretiak",
+      "Dmitry Budker",
+      "Danila A. Barskiy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06528",
+    "title": "Low-latency control system for feedback experiments with optical tweezer arrays",
+    "abstract": "           We present and characterize a modular, open-source system to perform feedback control experiments on configurations of atoms and molecules in arrays of optical tweezers. The system features a modular, cost-effective computer architecture with a motherboard and peripheral cards. It supports efficient data transfer to and from graphics processing units (GPUs) using Remote Direct Memory Access (RDMA), leveraging GPU efficiency in matrix multiplication and parallelism, while enabling direct data transfer between devices without involving the CPU. We first describe the architecture and workflow of the system, detailing its hardware components and software modules. We then evaluate the computational runtime for preparing defect-free chains and grids of atoms using efficient implementations of atom reconfiguration algorithms. Finally, we discuss timing bottlenecks and strategies to reduce latency. Beyond solving reconfiguration problems, the system can readily be used to implement adaptive and feedforward protocols, as well as digital quantum algorithms relying on particle displacement. Our results lay the groundwork for developing low-latency feedback control systems, benchmarking their performance, and advancing scalable quantum hardware.         ",
+    "url": "https://arxiv.org/abs/2504.06528",
+    "authors": [
+      "Amir H. Dadpour",
+      "Timur Khayrullin",
+      "Fouad Afiouni",
+      "Remy El Sabeh",
+      "Amer E. Mouawad",
+      "Izzat El Hajj",
+      "Alexandre Cooper"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06563",
+    "title": "Resistivity measurement for non-magnetic materials using high-order resonance mode of mfm-cantilever oscillation",
+    "abstract": "           A method to measure the electrical resistivity of materials using magnetic-force microscopy (MFM) is discussed, where MFM detects the magnetic field caused by the tip-oscillation-induced eddy current. To achieve high sensitivity, a high cantilever oscillation frequency is preferable, because it induces large eddy currents in the material. Higher-order resonance modes of the cantilever oscillation leads to higher frequency. To discuss such high-order-mode oscillation, a differential equation governing MFM cantilever oscillation in the high-order resonance mode is formulated, and an analytical solution of the phase difference is obtained. The result shows that the phase difference decreases at higher modes, because the effective spring constant increases faster than the force from the eddy current.         ",
+    "url": "https://arxiv.org/abs/2504.06563",
+    "authors": [
+      "Kazuma Okamoto",
+      "Takumi Imura",
+      "Satoshi Abo",
+      "Fujio Wakaya",
+      "Katsuhisa Murakami",
+      "Masayoshi Nagao"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06702",
+    "title": "Consensus-based qubit configuration optimization for variational algorithms on neutral atom quantum systems",
+    "abstract": "           In this work, we report an algorithm that is able to tailor qubit interactions for individual variational quantum algorithm problems. Here, the algorithm leverages the unique ability of a neutral atom tweezer platform to realize arbitrary qubit position configurations. These configurations determine the degree of entanglement available to a variational quantum algorithm via the interatomic interactions. Good configurations will accelerate pulse optimization convergence and help mitigate barren plateaus. As gradient-based approaches are ineffective for position optimization due to the divergent $R^{-6}$ nature of neutral atom interactions, we opt to use a consensus-based algorithm to optimize the qubit positions. By sampling the configuration space instead of using gradient information, the consensus-based algorithm is able to successfully optimize the positions, yielding adapted variational quantum algorithm ansatzes that lead to both faster convergence and lower errors. In this work, we show that these optimized configurations generally result in large improvements in the system's ability to solve ground state minimization problems for both random Hamiltonians and small molecules.         ",
+    "url": "https://arxiv.org/abs/2504.06702",
+    "authors": [
+      "Robert de Keijzer",
+      "Luke Visser",
+      "Oliver Tse",
+      "Servaas Kokkelmans"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06847",
+    "title": "Extended study of crystal structures, optical properties and vibrational spectra of polar 2-aminopyrimidinium hydrogen phosphite and bis(2-aminopyrimidinium) sulfate monohydrate and two 2-aminopyrimidinium hydrogen sulfate polymorphs",
+    "abstract": "           This study aimed primarily at completing and extending the characterization of the crystallographic, spectroscopic and optical properties of polar, biaxial, optically negative 2-aminopyrimidinium(1+) hydrogen phosphite. Besides the redetermination of the low-temperature crystal structure (space group P21), high-quality single crystals of this salt were grown from an aqueous solution, and their optical properties were studied. The determination of the refractive indices in the wavelength range of 435-1083 nm showed anomalous dispersion of the refractive indices, resulting in a point of uniaxiality. The crystal allows phase matching for collinear second harmonic generation (SHG) processes of both type I and type II in a broad wavelength range. SHG properties were studied for powdered size-fractioned samples and oriented single-crystal cuts. The optical damage threshold experiments confirmed excellent optical resistance - at least 220 TWm-2 and 70 TWm-2 for 800 and 1000 nm irradiation, respectively. The low-temperature crystallographic study was also extended for three monoclinic salts of 2-aminopyrimidine and sulfuric acid - i.e. bis(2-aminopyrimidinium(1+) sulfate monohydrate (space group P21/n) and two polymorphs of 2-aminopyrimidinium(1+) hydrogen sulfate (both with space group P21/c). The vibrational spectra of all title compounds were assigned using single-molecule quantum chemical computations (including Potential Energy Distribution analysis) in combination with the nuclear site group analysis. Spectroscopic results concerning sulfates of 2-aminopyrimidine provided valuable reference materials for the vibrational spectroscopic study and also addressed the question of their polymorphism. An optimal computational approach employing solid-state DFT calculations has also been sought to model the vibrational spectra of 2-aminopyrimidinium (1+) hydrogen phosphite crystals.         ",
+    "url": "https://arxiv.org/abs/2504.06847",
+    "authors": [
+      "Irena Matulkova",
+      "Ladislav Bohaty",
+      "Petra Becker",
+      "Ivana Cisarova",
+      "Robert Gyepes",
+      "Michaela Fridrichova",
+      "Jan Kroupa",
+      "Petr Nemec",
+      "Ivan Nemec"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.08236",
+    "title": "Enhancement of Rydberg Blockade via Microwave Dressing",
+    "abstract": "           Experimental control over the strength and angular dependence of interactions between atoms is a key capability for advancing quantum technologies. Here, we use microwave dressing to manipulate and enhance Rydberg-Rydberg interactions in an atomic ensemble. By varying the cloud length relative to the blockade radius and measuring the statistics of the light retrieved from the ensemble, we demonstrate a clear enhancement of the interaction strength due to microwave dressing. These results are successfully captured by a theoretical model that accounts for the excitation dynamics, atomic density distribution, and the phase-matched retrieval efficiency. Our approach offers a versatile platform for further engineering interactions by exploiting additional features of the microwave fields, such as polarization and detuning, opening pathways for new quantum control strategies.         ",
+    "url": "https://arxiv.org/abs/2411.08236",
+    "authors": [
+      "Deniz Kurdak",
+      "Patrick R. Banner",
+      "Yaxin Li",
+      "Sean R. Muleady",
+      "Alexey V. Gorshkov",
+      "S. L. Rolston",
+      "J. V. Porto"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.01195",
+    "title": "Towards Signed Distance Function based Metamaterial Design: Neural Operator Transformer for Forward Prediction and Diffusion Model for Inverse Design",
+    "abstract": "           The inverse design of metamaterial architectures presents a significant challenge, particularly for nonlinear mechanical properties involving large deformations, buckling, contact, and plasticity. Traditional methods, such as gradient-based optimization, and recent generative deep-learning approaches often rely on binary pixel-based representations, which introduce jagged edges that hinder finite element (FE) simulations and 3D printing. To overcome these challenges, we propose an inverse design framework that utilizes a signed distance function (SDF) representation combined with a conditional diffusion model. The SDF provides a smooth boundary representation, eliminating the need for post-processing and ensuring compatibility with FE simulations and manufacturing methods. A classifier-free guided diffusion model is trained to generate SDFs conditioned on target macroscopic stress-strain curves, enabling efficient one-shot design synthesis. To assess the mechanical response of the generated designs, we introduce a forward prediction model based on Neural Operator Transformers (NOT), which accurately predicts homogenized stress-strain curves and local solution fields for arbitrary geometries with irregular query meshes. This approach enables a closed-loop process for general metamaterial design, offering a pathway for the development of advanced functional materials.         ",
+    "url": "https://arxiv.org/abs/2504.01195",
+    "authors": [
+      "Qibang Liu",
+      "Seid Koric",
+      "Diab Abueidda",
+      "Hadi Meidani",
+      "Philippe Geubelle"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.05188",
+    "title": "Breakdown of Bulk-Radiation Correspondence in Radiative Photonic Lattices",
+    "abstract": "           The topological characteristics of energy bands in crystalline systems are encapsulated in the Berry curvature of the bulk Bloch states. In photonic crystal slabs, far-field emission from guided resonances naturally provides a non-invasive way to probe the embedded wavefunctions, raising the question of how the information carried by escaping photons relates to the band topology. We develop a non-Hermitian model to describe the guided and leaky modes of photonic crystal slabs with long-range couplings and non-local responses. Within this framework, radiation Berry curvature is defined from the far-field polarization and compared to the conventional bulk Berry curvature of the crystal Bloch modes. We investigate this bulk-radiation correspondence in the vicinity of the $\\Gamma$-point of the square lattice and the $K$-point of the honeycomb lattice. The results show that the comparability between the bulk topology and the radiation topology is not universal; the validity is contingent upon the specific bulk Bloch states. Notably, the correspondence completely breaks down surrounding the far-field singularities, while it can hold in smooth regions under special symmetry conditions, e.g., rotational symmetry. Besides, net Berry curvature concentration is captured at the valleys of the non-local honeycomb lattice, facilitating further exploration on generalized topological phases in photonic lattices beyond the regimes with localized couplings and Hermiticity.         ",
+    "url": "https://arxiv.org/abs/2504.05188",
+    "authors": [
+      "Xinyi Yuan",
+      "Lo\u00efc Malgrey",
+      "Helgi Sigur\u00f0sson",
+      "Hai Son Nguyen",
+      "Grazia Salerno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.02275",
+    "title": "Active laser cooling of a centimeter-scale torsional oscillator",
+    "abstract": "           Experimental tests of gravity's fundamental nature call for mechanical systems in the quantum regime while being sensitive to gravity. Torsion pendula, historically vital in studies of classical gravity, are ideal for extending gravitational tests into the quantum realm due to their inherently high mechanical quality factor, even when mass-loaded. Here, we demonstrate laser cooling of a centimeter-scale torsional oscillator to a temperature of 10 mK (average occupancy of 6000 phonons) starting from room temperature. This is achieved by optical radiation pressure forces conditioned on a quantum-noise-limited optical measurement of the torsional mode with an imprecision 9.8 dB below its peak zero-point motion. The measurement sensitivity is the result of a novel `mirrored' optical lever that passively rejects extraneous spatial-mode noise by 60 dB. The high mechanical quality ($1.4\\times 10^7$) and quantum-noise-limited measurement imprecision demonstrate the necessary ingredients for realizing the quantum ground state of torsional motion -- a pre-requisite for mechanical tests of gravity's alleged quantum nature.         ",
+    "url": "https://arxiv.org/abs/2409.02275",
+    "authors": [
+      "Dong-Chel Shin",
+      "Tina M. Hayward",
+      "Dylan Fife",
+      "Rajesh Menon",
+      "Vivishek Sudhir"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.20576",
+    "title": "Behavior of water and aqueous LiCl solutions confined in cylindrical silica pores: A wide temperature range molecular dynamics simulation study",
+    "abstract": "           We report here a molecular dynamics simulation study on water and aqueous LiCl solutions confined in 1.6 nm cylindrical pores of silica to investigate a dynamical cross-over, observed earlier experimentally, wherein LiCl slows down confined water at high temperatures but makes it faster at lower temperatures. The cross-over observed in the experiments is reproduced in the simulations, albeit at lower temperature. Moreover, the cross-over encompasses all aspects of dynamics including translation as well as rotation. Both addition of LiCl and confinement result in a breaking of hydrogen bond network in confined water, eliminating the need for long jumps via exchange of hydrogen bonded partner molecules. This lowers the activation energy for diffusion in the electrolyte solution compared to pure confined water and leads to the dynamical cross-over seen at lower temperatures. Our results thus provide an explanation to the experimentally observed phenomena and provide important insights on the interplay of confinement, temperature and presence of electrolytes on the dynamical behavior of nano-confined water.         ",
+    "url": "https://arxiv.org/abs/2410.20576",
+    "authors": [
+      "Siddharth Gautam",
+      "Lukas Vlcek",
+      "Eugene Mamontov",
+      "David Cole"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.00214",
+    "title": "SEMIDV: A Compact Semiconductor Device Simulator with Quantum Effects",
+    "abstract": "           In this paper, I present SEMIDV - a compact semiconductor device simulator incorporating quantum effects. SEMIDV solves the Poisson-Drift-Diffusion equations for semiconductor devices and provides a user-friendly Python interface for scripting and data analysis. Localization landscape theory is introduced to provide quantum corrections to the Drift-Diffusion equation. This theory directly solves the ground state of the Schrodinger equation without further approximation, offering an efficient solution for quantum effect modeling. Additionally, a compact mobility model considering ballistic transport is developed to capture the ballistic length dependence of mobility and the velocity overshoot effect in short-channel devices. Finally, a study on a nanosheet FET using SEMIDV is conducted. I analyze the electrical characteristics of a state-of-the-art GAA/RibbonFET with a 6 nm gate length and discuss the effects of velocity overshoot and quantum confinement on currents and capacitances. A design for an ultra-short-channel transistor with a gate length down to 4.5 nm with a Vdd = 0.45 V is proposed to push the boundaries of integrated circuit technology further.         ",
+    "url": "https://arxiv.org/abs/2504.00214",
+    "authors": [
+      "Chien-Ting Tung"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.05643",
+    "title": "Effective Method for Inverse Ising Problem under Missing Observations in Restricted Boltzmann Machines",
+    "abstract": "           Restricted Boltzmann machines (RBMs) are energy-based models analogous to the Ising model and are widely applied in statistical machine learning. The standard inverse Ising problem with a complete dataset requires computing both data and model expectations and is computationally challenging because model expectations have a combinatorial explosion. Furthermore, in many applications, the available datasets are partially incomplete, making it difficult to compute even data expectations. In this study, we propose a approximation framework for these expectations in the practical inverse Ising problems that integrates mean-field approximation or persistent contrastive divergence to generate refined initial points and spatial Monte Carlo integration to enhance estimator accuracy. We demonstrate that the proposed method effectively and accurately tunes the model parameters in comparison to the conventional method.         ",
+    "url": "https://arxiv.org/abs/2504.05643",
+    "authors": [
+      "Kaiji Sekimoto",
+      "Muneki Yasuda"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Machine Learning (cs.LG)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  }
+]
