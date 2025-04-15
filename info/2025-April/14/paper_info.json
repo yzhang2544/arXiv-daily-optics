@@ -1,0 +1,430 @@
+[
+  {
+    "id": "arXiv:2504.08193",
+    "title": "Adjoint-based optimization of the control boundaries of a microfluidic acoustic flow",
+    "abstract": "           In this study, we find the optimal control boundary (i.e., actuator velocity) that cancels the acoustic reverberations inside drop-on-demand inkjet printheads at a specific time. We formulate an optimization problem to minimize the total energy of the oscillating flow at a given time (i.e., the acoustic energy inside the microchannel and the surface energy of the droplet). We use the adjoint method to compute the gradient of the cost function with respect to the control boundary, and a gradient-based optimization algorithm to converge to the optimal solution. This methodology has been successfully applied to two generic inkjet printhead mechanisms: thin-film and bulk types. In both cases, the actuator first reduces the surface energy of the system by extracting fluid from the nozzle. In this process, acoustic waves also propagate through the channel and reverberate at the ends, which increases the acoustic energy of the system. The actuator then sends additional acoustic waves that cancel these reverberations. Both mechanisms have been able to reduce the total energy of the system by a factor of over 100 in comparison with the uncontrolled cases.         ",
+    "url": "https://arxiv.org/abs/2504.08193",
+    "authors": [
+      "Javier Lorente-Macias",
+      "Matthew P. Juniper"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08196",
+    "title": "Analytical design of acoustic metasurface cells incorporating meander-line and Helmholtz resonators",
+    "abstract": "           Gradient acoustic metasurfaces have shown strong potential for manipulation of acoustic waves across the audible and ultrasonic frequency ranges. The key challenge in designing acoustic metasurfaces is to create a series of sub-wavelength unit cells that match the desired phase response. The most commonly used geometry is a series of Helmholtz resonators, side-coupled to a narrow channel. Despite the existence of a closed-form solution for 3 side-coupled resonators, most reported designs instead make use of 4 or more resonators, which require opaque, optimization-based design approaches. We show that the limiting factor in designs based on side-coupled resonators is the requirement to use elements with a positive imaginary part of impedance, which implies a Helmholtz resonator operating above its fundamental resonance - contradicting the requirement for sub-wavelength volume. We show that by replacing some of the Helmholtz resonators with meander-line elements, the required impedance values can readily be realized within a sub-wavelength volume. The metasurface design approach is demonstrated for a lens operating at 3 kHz and verified numerically. Furthermore, incorporating meander-line elements leads to improved broadband focusing performance, even when no explicit dispersion engineering is included in the design. As this design includes narrow channels, we include the effects of thermo-viscous losses in our modeling, and confirm that our design still gives superior performance to the reference design using only Helmholtz resonators. Our design is expected to lead to more optimal performance of acoustic metasurface designs, and the ability to make use of a closed-form design formula is expected to facilitate the analysis of fundamental performance bounds and enable more explicit achromatic design processes.         ",
+    "url": "https://arxiv.org/abs/2504.08196",
+    "authors": [
+      "Dingcheng Yang",
+      "Yan Kei Chiang",
+      "David Powell"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08224",
+    "title": "All Optical Echo State Network Reservoir Computing",
+    "abstract": "           We propose an innovative design for an all-optical Echo State Network (ESN), an advanced type of reservoir computer known for its universal computational capabilities. Our design enables fully optical implementation of arbitrary ESNs, featuring complete flexibility in optical matrix multiplication and nonlinear activation. Leveraging the nonlinear characteristics of stimulated Brillouin scattering (SBS), the architecture efficiently realizes measurement-free operations crucial for reservoir computing. The approach significantly reduces computational overhead and energy consumption compared to traditional software-based methods. Comprehensive simulations validate the system's memory capacity, nonlinear processing strength, and polynomial algebra capabilities, showcasing performance comparable to software ESNs across key benchmark tasks. Our design establishes a feasible, scalable, and universally applicable framework for optical reservoir computing, suitable for diverse machine learning applications.         ",
+    "url": "https://arxiv.org/abs/2504.08224",
+    "authors": [
+      "Ishwar S Kaushik",
+      "Peter J Ehlers",
+      "Daniel Soh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08245",
+    "title": "Molecular Axis Distribution Moments in Ultrafast Transient Absorption Spectroscopy: A Path Towards Ultrafast Quantum State Tomography",
+    "abstract": "           In ultrafast experiments with gas phase molecules, the alignment of the molecular axis relative to the polarization of the interacting laser pulses plays a crucial role in determining the dynamics following this light-matter interaction. The molecular axis distribution is influenced by the interacting pulses and is intrinsically linked to the electronic coherences of the excited molecules. However, in typical theoretical calculations of such interactions, the signal is either calculated for a single molecule in the molecular frame or averaged over all possible molecular orientations to compare with the experiment. This averaging leads to the loss of information about anisotropy in the molecular-axis distribution, which could significantly affect the measured experimental signal. Here, we calculate the laboratory frame transient electronic first-order polarization ($P^{(1)}$) spectra in terms of separated molecular frame and laboratory frame quantities. The laboratory frame polarizations are compared with orientation-averaged Quantum Master Equation (QME) calculations, demonstrating that orientation-averaging captures only the isotropic contributions. We show that our formalism allows us to also evaluate the anisotropic contributions to the spectrum. Finally, we discuss the application of this approach to achieve ultrafast quantum state tomography using transient absorption spectroscopy and field observables in nonlinear spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2504.08245",
+    "authors": [
+      "Shashank Kumar",
+      "Eric Liu",
+      "Liang Z. Tan",
+      "Varun Makhija",
+      "Niranjan Shivaram"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08250",
+    "title": "Nonadiabatic Field: A Conceptually Novel Approach for Nonadiabatic Quantum Molecular Dynamics",
+    "abstract": "           Reliable trajectory-based nonadiabatic quantum dynamics methods at the atomic level are critical for understanding many important processes in real systems. The paper reports latest progress of nonadiabatic field (NaF), a conceptually novel approach for nonadiabatic quantum dynamics with independent trajectories. Substantially different from the mainstreams of Ehrenfest-like dynamics and surface hopping methods, the nuclear force in NaF involves the nonadiabatic force arising from the nonadiabatic coupling between different electronic states, in addition to the adiabatic force contributed by a single adiabatic electronic state. NaF is capable of faithfully describing the interplay between electronic and nuclear motion in a broad regime, which covers where the relevant electronic states keep coupled in a wide range or all the time and where the bifurcation characteristic of nuclear motion is essential. NaF is derived from the exact generalized phase space formulation with coordinate-momentum variables, where constraint phase space (CPS) is employed for discrete electronic-state degrees of freedom. We propose efficient integrators for the equations of motion of NaF in both adiabatic and diabatic representations. Since the formalism in the CPS formulation is not unique, NaF can in principle be implemented with various phase space representations of the time correlation function (TCF) for the time-dependent property. They are applied to a suite of representative gas-phase and condensed-phase benchmark models where numerically exact results are available for comparison. It is shown that NaF is relatively insensitive to the phase space representation of the electronic TCF and will be a potential tool for practical and reliable simulations of the quantum mechanical behavior of both electronic and nuclear dynamics of nonadiabatic transition processes in real systems.         ",
+    "url": "https://arxiv.org/abs/2504.08250",
+    "authors": [
+      "Baihua Wu",
+      "Bingqi Li",
+      "Xin He",
+      "Xiangsong Cheng",
+      "Jiajun Ren",
+      "Jian Liu"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Biological Physics (physics.bio-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08261",
+    "title": "High-brightness multimode fiber laser amplifier",
+    "abstract": "           Fiber lasers are widely used in various fields owing to their high efficiency, flexible transmission and excellent beam quality. In applications such as industrial manufacturing and defense systems, a higher output power is always desired. Nevertheless, the power scaling in fiber lasers is limited by nonlinear effects and transverse mode instability in conventional high-power fiber laser systems, where the laser is amplified within the fundamental fiber mode. A promising strategy to overcome these limitations is to utilize multimode fibers, which exhibit higher thresholds for both nonlinear effects and transverse mode instability, combined with wavefront shaping techniques to convert the output speckle pattern into a single concentrated spot. In this study, a high-power multimode fiber laser amplifier based on wavefront shaping is constructed and investigated, achieving a focused beam profile with a 168 W output power. The effects of objective function and the linewidth of seed laser on the system performance are also studied. Additionally, an all-fiber version of high-brightness multimode fiber laser amplifier is proposed. This work opens up new avenues for leveraging multimode fibers to achieve higher brightness in fiber lasers and may inspire other research based on wavefront shaping.         ",
+    "url": "https://arxiv.org/abs/2504.08261",
+    "authors": [
+      "Zhen Huang",
+      "Binyu Rao",
+      "Zefeng Wang",
+      "Chenxin Gao",
+      "Hu Xiao",
+      "Bokai Yi",
+      "Zilun Chen",
+      "Pengfei Ma",
+      "Jiajia Zeng",
+      "Dongran Shi",
+      "Baolai Yang",
+      "Xiaofei Ma",
+      "Xiangfei Zhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08333",
+    "title": "SI-Traceable Temperature Calibration Based on Optical Lattice Clocks",
+    "abstract": "           We present a SI-traceable temperature calibration apparatus utilizing optical lattice clocks for precision metrology. The system employs a dual-blackbody radiation shield chamber with independent temperature control, enabling synchronous differential measurements of blackbody radiation (BBR)-induced frequency shifts in atomic ensembles. By correlating these shifts with chamber temperature, we achieve absolute temperature determination traceable to the SI second through the optical clock frequency. Comprehensive uncertainty analysis demonstrates an absolute temperature uncertainty below 15 mK across the $200 \\sim 350$ K range based on $^{87}$Sr optical lattice clock, representing an improvement of two orders of magnitude over current temperature measurements based on BBR-induced Rydberg state transitions. This advancement in primary thermometry offers significant improvements in precision, reproducibility, and versatility, with potential applications in metrology, fundamental physics, and industrial processes.         ",
+    "url": "https://arxiv.org/abs/2504.08333",
+    "authors": [
+      "Jin Cao",
+      "Xiaotong Lu",
+      "Benquan Lu",
+      "Hong Chang"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08466",
+    "title": "Two-media laser threshold magnetometry: A magnetic-field-dependent laser threshold",
+    "abstract": "           Nitrogen-vacancy (NV) centers in diamond are a promising platform for high-precision magnetometry. In contrast to the use of spontaneous emission in a number of NV-magnetometers, laser threshold magnetometry (LTM) exploits stimulated emission of NV centers by placing an NV-doped diamond inside an optical cavity. The NV laser system is predicted to reach a high magnetic contrast and strong coherent signal strength, leading to an improved magnetic field sensitivity combined with a high linearity. Here, we consider a two-media setup where the cavity additionally includes a vertical external cavity surface emitting laser. This optically active material compensates cavity losses at 750 nm while still allowing for magnetic-field-dependent effects from the NV-diamond. We demonstrate a magnetic-field-dependent laser threshold and investigate the effects of pump laser induced absorption of the diamond. The experimental data is supported by an analytical simulation based on a rate model. Furthermore, we derive a generalized formula to compute the magnetic field sensitivity in the regime of high contrast yielding 33.79(23) pT/$\\sqrt{\\text{Hz}}$ for the present setup. Simulations with an optimized diamond suggest that values down to 4.9 fT/$\\sqrt{\\text{Hz}}$ are possible.         ",
+    "url": "https://arxiv.org/abs/2504.08466",
+    "authors": [
+      "Yves Rottstaedt",
+      "Lukas Lindner",
+      "Florian Schall",
+      "Felix A. Hahl",
+      "Tingpeng Luo",
+      "Florentin Reiter",
+      "Takeshi Ohshima",
+      "Alexander M. Zaitsev",
+      "Roman Bek",
+      "Marcel Rattunde",
+      "Jan Jeske",
+      "R\u00fcdiger Quay"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08476",
+    "title": "Ultrasensitive Alzheimer's Disease Biomarker Detection with Nanopillar Photonic Crystal Biosensors",
+    "abstract": "           The recent development of drugs able to mitigate neurodegenerative diseases has created an urgent need for novel diagnostics. Although biomarker detection directly in patients' blood is now possible, low-cost point-of-care tests remain a challenge, because relevant biomarkers, especially amyloid-\\beta (A$\\beta$) peptides, are small, they occur at very low concentrations, and detecting a single marker is insufficient. Here, we introduce an optical biosensor based on a nanopillar structure that employs a gold nanoparticle amplification strategy. The sensor is able to detect 20 pg/ml of A$\\beta$42 and A$\\beta$40 in undiluted serum, which is the clinically required level. We also show the detection of the A$\\beta$42/A$\\beta$40 ratio in the same channel, which is highly relevant for assessing disease progress and opens a route towards multiplexing. Alongside their simplicity and portability, these nanotechnology innovations make a major contribution to the ability to detect and monitor the progression of neurodegenerative diseases such as Alzheimer's.         ",
+    "url": "https://arxiv.org/abs/2504.08476",
+    "authors": [
+      "Guilherme S. Arruda",
+      "Katie Morris",
+      "Augusto Martins",
+      "Yue Wang",
+      "Sian Sloan-Dennison",
+      "Duncan Graham",
+      "Steven D. Quinn",
+      "Emiliano R. Martins",
+      "Thomas F. Krauss"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08582",
+    "title": "New Insights into Refractive Indices and Birefringence of Undoped and MgO-Doped Lithium Niobate Crystals at High Temperatures",
+    "abstract": "           The lithium niobate single crystal is a well-known optical material that has been employed in a wide range of photonic applications. To realize further applications of the crystal, the birefringence properties need to be determined over a large range of temperatures. We report refractive indices and birefringence properties of undoped and MgO-doped lithium niobate crystals with high accuracy using spectroscopic ellipsometry in the spectral range from 450 to 1700 nm and a temperature range from ambient temperature to 1000 \u00b0C. The birefringence results indicate a transition temperature, where the crystal transforms from an anisotropic to isotropic property, and the advance of MgO doping in the crystal, which is related to the optical damage threshold of the materials. In addition, the lattice dynamics of the crystals have been analyzed by revisiting the Raman spectroscopy. The results establish the foundation of optical properties of lithium niobate crystals, providing pathways for their photonic applications.         ",
+    "url": "https://arxiv.org/abs/2504.08582",
+    "authors": [
+      "Nina Hong",
+      "Jiarong R. Cui",
+      "Hyun Jung Kim",
+      "Ross G. Shaffer",
+      "Nguyen Q. Vinh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08643",
+    "title": "Optical vortex trajectories as probes for wavefront aberrations",
+    "abstract": "           Phase singularities, due to their high sensitivity to phase disturbances, are a promising tool for wavefront retrieval. Several methods have been proposed to exploit this property, one of which analyzes their trajectories (paths that singular points follow when shifted off-axis). Nevertheless, the relations between primary aberrations and trajectories remain unexploited. In this work, we aimed to address this gap by investigating how distinct aberrations influence vortex trajectory behavior. We performed numerical simulations of vortex trajectories under manually introduced aberrations and proposed metrics to describe their relationship. Our results show that defocus, coma, and astigmatism each produce a unique trajectory response, allowing differentiation between aberration types present in the beam. We proposed and experimentally validated an autofocusing algorithm that leverages the trajectory shape to identify the back focal plane of the optical system. This work presents a comprehensive study of optical vortex trajectories to further advance wavefront sensing based on phase singularities.         ",
+    "url": "https://arxiv.org/abs/2504.08643",
+    "authors": [
+      "Aleksandra K. Korzeniewska",
+      "Magdalena Lukowicz",
+      "Kamil Kalinowski",
+      "Karolina Gemza",
+      "Mateusz Szatkowski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08228",
+    "title": "Determining 3D atomic coordinates of light-element quantum materials using ptychographic electron tomography",
+    "abstract": "           Understanding quantum materials at the atomic scale requires precise 3D characterization of atomic positions and crystal defects. However, resolving the 3D structure of light-element materials (Z <= 8) remains a major challenge due to their low contrast and beam damage in electron microscopy. Here, we demonstrate ptychographic atomic electron tomography (pAET), achieving sub-angstrom 3D atomic precision (11 pm) in light elements, marking the first-ever experimental realization of 3D atomic imaging for light-element materials. Using twisted bilayer graphene as a model system, we determine the 3D atomic coordinates of individual carbon atoms, revealing chiral lattice distortions driven by van der Waals interactions that exhibit meron-like and skyrmion-like structures. These findings provide direct insights into the interplay between 3D chiral lattice deformation and electronic properties in moire materials. Beyond TBG, pAET offers a transformative approach for 3D atomic-scale imaging across quantum materials, 2D heterostructures, functional oxides, and energy materials.         ",
+    "url": "https://arxiv.org/abs/2504.08228",
+    "authors": [
+      "Na Yeon Kim",
+      "Hanfeng Zhong",
+      "Jianhua Zhang",
+      "Colum M. O'Leary",
+      "Yuxuan Liao",
+      "Ji Zou",
+      "Haozhi Sha",
+      "Minh Pham",
+      "Weiyi Li",
+      "Yakun Yuan",
+      "Ji-Hoon Park",
+      "Dennis Kim",
+      "Huaidong Jiang",
+      "Jing Kong",
+      "Miaofang Chi",
+      "Jianwei Miao"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08614",
+    "title": "Imaginary gauge potentials in a non-Hermitian spin-orbit coupled quantum gas",
+    "abstract": "           In 1996, Hatano and Nelson proposed a non-Hermitian lattice model containing an imaginary Peierls phase [Phys. Rev. Lett. 77 570-573 (1996)], which subsequent analyses revealed to be an instance of a new class of topological systems. Here, we experimentally realize a continuum analog to this model containing an imaginary gauge potential using a homogeneous spin-orbit coupled Bose-Einstein condensate (BEC). Non-Hermiticity is introduced by adding tunable spin-dependent loss via microwave coupling to a subspace with spontaneous emission. We demonstrate that the resulting Heisenberg equations of motion for position and momentum depend explicitly on the system's phase-space distribution. First, we observe collective nonreciprocal transport in real space, with a \"self-acceleration\" that decreases with the BEC's spatial extent, consistent with non-Hermitian Gross-Pitaevskii simulations. We then examine localized edge states: the relatively strong interactions in our BEC suppress the formation of topological edge states, yielding instead highly excited states localized by an interplay between self-acceleration and wavefunction spreading. Finally, we confirm that our non-Hermitian description remains valid at all times by comparing to a multi-level master-equation treatment.         ",
+    "url": "https://arxiv.org/abs/2504.08614",
+    "authors": [
+      "Junheng Tao",
+      "Emmanuel Mercado-Gutierrez",
+      "Mingshu Zhao",
+      "Ian Spielman"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.08677",
+    "title": "Multiparameter estimation with an array of entangled atomic sensors",
+    "abstract": "           In quantum metrology, entangled states of many-particle systems are investigated to enhance measurement precision of the most precise clocks and field sensors. While single-parameter quantum metrology is well established, many metrological tasks require joint multiparameter estimation, which poses new conceptual challenges that have so far only been explored theoretically. We experimentally demonstrate multiparameter quantum metrology with an array of entangled atomic ensembles. By splitting a spin-squeezed ensemble, we create an atomic sensor array featuring inter-sensor entanglement that can be flexibly configured to enhance measurement precision of multiple parameters jointly. Using an optimal estimation protocol, we achieve significant gains over the standard quantum limit in key multiparameter estimation tasks, thus grounding the concept of quantum enhancement of field sensor arrays and imaging devices.         ",
+    "url": "https://arxiv.org/abs/2504.08677",
+    "authors": [
+      "Yifan Li",
+      "Lex Joosten",
+      "Youcef Baamara",
+      "Paolo Colciaghi",
+      "Alice Sinatra",
+      "Philipp Treutlein",
+      "Tilman Zibold"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.00520",
+    "title": "OTCliM: generating a near-surface climatology of optical turbulence strength ($C_n^2$) using gradient boosting",
+    "abstract": "           This study introduces OTCliM (Optical Turbulence Climatology using Machine learning), a novel approach for deriving comprehensive climatologies of atmospheric optical turbulence strength ($C_n^2$) using gradient boosting machines. OTCliM addresses the challenge of efficiently obtaining reliable site-specific $C_n^2$ climatologies near the surface, crucial for ground-based astronomy and free-space optical communication. Using gradient boosting machines and global reanalysis data, OTCliM extrapolates one year of measured $C_n^2$ into a multi-year time series. We assess OTCliM's performance using $C_n^2$ data from 17 diverse stations in New York State, evaluating temporal extrapolation capabilities and geographical generalization. Our results demonstrate accurate predictions of four held-out years of $C_n^2$ across various sites, including complex urban environments, outperforming traditional analytical models. Non-urban models also show good geographical generalization compared to urban models, which capture non-general site-specific dependencies. A feature importance analysis confirms the physical consistency of the trained models. It also indicates the potential to uncover new insights into the physical processes governing $C_n^2$ from data. OTCliM's ability to derive reliable $C_n^2$ climatologies from just one year of observations can potentially reduce resources required for future site surveys or enable studies for additional sites with the same resources.         ",
+    "url": "https://arxiv.org/abs/2408.00520",
+    "authors": [
+      "Maximilian Pierzyna",
+      "Sukanta Basu",
+      "Rudolf Saathof"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.13290",
+    "title": "Coherent Nonlinear Optical Response for High-Intensity Excitation",
+    "abstract": "           Calculation of the coherent nonlinear response of a system is essential to correctly interpret results from advanced techniques such as two-dimensional coherent spectroscopy (2DCS). Usually, even for the simplest systems, such calculations are either performed for low-intensity excitations where perturbative methods are valid and/or by assuming a simplified pulse envelope, such as a $\\delta$-function in time. Here, we use the phase-cycling method for exact calculation of the nonlinear response without making the aforementioned approximations even for high-intensity excitation. We compare the simulation results to several experimental observations to prove the validity of these calculations. The saturation of the photon-echo signal from excitons in a semiconductor quantum well sample is measured. The excitation-intensity dependent measurement shows nonlinear contributions up to twelfth order. Intensity-dependent simulations reproduce this effect without explicitly considering higher-order interactions. Additionally, we present simulation results that replicate previously-reported experiments with high-intensity excitation of semiconductor quantum dots. By accurately reproducing a variety of phenomena such as higher-order contributions, switching of coherent signal, and changes in photon-echo transients, we prove the efficacy of the phase-cycling method to calculate the coherent nonlinear signal for high-intensity excitation. This method would be particularly useful for systems with multiple, well-separated peaks and/or large inhomogeneity.         ",
+    "url": "https://arxiv.org/abs/2411.13290",
+    "authors": [
+      "Rishabh Tripathi",
+      "Krishna K. Maurya",
+      "Pradeep Kumar",
+      "Bhaskar De",
+      "Rohan Singh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17028",
+    "title": "Longitudinal tapering in meter-scale gas jets for increased efficiency of laser plasma accelerators",
+    "abstract": "           Modern laser plasma accelerators (LPAs) often require plasma waveguides tens of cm long to propagate a high-intensity drive laser pulse. Tapering the longitudinal gas density profile in 10 cm scale gas jets could allow for single stage laser plasma acceleration well beyond 10 GeV with current petawatt-class laser systems. Via simulation and interferometry measurements, we show density control by longitudinally adjusting the throat width and jet angle. Density profiles appropriate for tapering were calculated analytically and via particle-in-cell (PIC) simulations, and were matched experimentally. These simulations show that tapering can increase electron beam energy using 19 J laser energy from ~9 GeV to >12 GeV in a 30 cm plasma, and the accelerated charge by an order of magnitude. This paper was published in Review of Scientific Instruments on April 11, 2025 DOI: this https URL ",
+    "url": "https://arxiv.org/abs/2411.17028",
+    "authors": [
+      "R. Li",
+      "A. Picksley",
+      "C. Benedetti",
+      "F. Filippi",
+      "J. Stackhouse",
+      "L. Fan-Chiang",
+      "H. E. Tsai",
+      "K. Nakamura",
+      "C. B. Schroeder",
+      "J. van Tilborg",
+      "E. Esarey",
+      "C. G. R. Geddes",
+      "A. J. Gonsalves"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.06168",
+    "title": "Optimal multipole center for subwavelength acoustic scatterers",
+    "abstract": "           The multipole expansion is a powerful framework for analyzing how subwavelength-size objects scatter waves in optics or acoustics. The calculation of multipole moments traditionally uses the scatterer's center of mass as the reference point. The theoretical foundation of this heuristic convention remains an open question. Here, we challenge this convention by demonstrating that a different, optimal multipole center can yield superior results. The optimal center is crucial -- it allows us to accurately express the scattering response while retaining a minimum number of multipole moments. Our analytical technique for finding the optimal multipole centers of individual scatterers, both in isolation and within finite arrays, is validated through numerical simulations. Our findings reveal that such an optimized positioning significantly reduces quadrupole contributions, enabling more accurate monopole-dipole approximations in acoustic calculations. Our approach also improves the computational efficiency of the T-matrix method, offering practical benefits for metamaterial design and analysis.         ",
+    "url": "https://arxiv.org/abs/2501.06168",
+    "authors": [
+      "Nikita Ustimenko",
+      "Carsten Rockstuhl",
+      "Alexander V. Kildishev"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.18525",
+    "title": "Magnetically assisted vorticity production in decaying acoustic turbulence",
+    "abstract": "           We study vorticity production in isothermal, subsonic, acoustic (nonvortical), and decaying turbulence due to the presence of magnetic fields. Using three-dimensional numerical simulations, we find that the resulting kinetic energy cascade follows the ordinary Kolmogorov phenomenology involving a constant spectral energy flux. The nondimensional prefactor for acoustic turbulence is larger than the standard Kolmogorov constant due to the inefficient dissipation of kinetic energy. We also find that the Lorentz force can drive vortical motions even when the initial field is uniform, by converting a fraction of the acoustic energy into vortical energy. This conversion is shown to be quadratic in the magnetic field strength and linear in the acoustic flow speed. By contrast, the direct production of vortical motions by a non-force-free magnetic field is linear in the field strength. Our results suggest that magnetic fields play a crucial role in vorticity production in cosmological flows, particularly in scenarios where significant acoustic turbulence is prevalent. We also discuss the implications of our findings for the early Universe, where magnetic fields may convert acoustic turbulence generated during cosmological phase transitions into vortical turbulence.         ",
+    "url": "https://arxiv.org/abs/2501.18525",
+    "authors": [
+      "Axel Brandenburg",
+      "Evan Scannapieco"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06520",
+    "title": "Multi-Frequency Reverberant Shear Waves for Assessing Tissue Dispersion in Optical Coherence Elastography",
+    "abstract": "           Optical coherence elastography (OCE) is a powerful non-invasive imaging technique for high-resolution assessment of tissue elasticity and viscoelasticity. Accurate characterization of viscoelastic properties requires estimating shear wave speed (SWS) across multiple frequencies, as dispersion induces frequency-dependent variations in wave speed. This study introduces a novel multi-frequency reverberant OCE (MFR-OCE) approach to enhance viscoelastic tissue characterization by simultaneously capturing shear wave dynamics over multiple frequencies. We present the theoretical framework, experimental setup, and validation of MFR-OCE through simulations and experiments on gelatin phantoms, ex vivo porcine cornea, and ex vivo bovine liver. Simulation results demonstrate that MFR-OCE estimates SWS with errors below 4% relative to ground truth, and phantom experimental results show that MFR-OCE and single-frequency OCE also yield closely matching SWS estimates, with differences below 3%. Furthermore, the frequency-dependent dispersion coefficients extracted from biological tissues and phantoms align with the theoretical viscoelastic power law model. The gelatin phantoms exhibit a low viscoelastic behavior with an exponent of 0.13 for the power law fit of SWS, while the ex vivo porcine cornea demonstrates intermediate viscoelastic behavior, with a power law exponent of 0.33. The liver tissue shows significant frequency dependence, with a power law exponent of 0.51. These findings demonstrate that MFR-OCE enables a more comprehensive understanding of tissue mechanics and holds the potential for improving diagnostic accuracy in clinical applications.         ",
+    "url": "https://arxiv.org/abs/2504.06520",
+    "authors": [
+      "Hamidreza Asemani",
+      "Panomsak Meemon",
+      "Gilmer Flores Barrera",
+      "Jannick P. Rolland",
+      "Kevin J. Parker"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.06604",
+    "title": "Image registration of 2D optical thin sections in a 3D porous medium: Application to a Berea sandstone digital rock image",
+    "abstract": "           This study proposes a systematic image registration approach to align 2D optical thin-section images within a 3D digital rock volume. Using template image matching with differential evolution optimization, we identify the most similar 2D plane in 3D. The method is validated on a synthetic porous medium, achieving exact registration, and applied to Berea sandstone, where it achieves a structural similarity index (SSIM) of 0.990. With the registered images, we explore upscaling properties based on paired multimodal images, focusing on pore characteristics and effective elastic moduli. The thin-section image reveals 50 % more porosity and submicron pores than the registered CT plane. In addition, bulk and shear moduli from thin sections are 25 % and 30 % lower, respectively, than those derived from CT images. Beyond numerical comparisons, thin sections provide additional geological insights, including cementation, mineral phases, and weathering effects, which are not clear in CT images. This study demonstrates the potential of multimodal image registration to improve computed rock properties in digital rock physics by integrating complementary imaging modalities.         ",
+    "url": "https://arxiv.org/abs/2504.06604",
+    "authors": [
+      "Jaehong Chung",
+      "Wei Cai",
+      "Tapan Mukerji"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.07948",
+    "title": "Pushing the Accuracy Limit of Foundation Neural Network Models with Quantum Monte Carlo Forces and Path Integrals",
+    "abstract": "           We propose an end-to-end integrated strategy to produce highly accurate quantum chemistry (QC) synthetic datasets (energies and forces) aimed at deriving Foundation Machine Learning models for molecular simulation. Starting from Density Functional Theory (DFT), a \"Jacob's Ladder\" approach leverages computationally-optimized layers of massively parallel GPU-accelerated software with increasing accuracy. Thanks to Exascale, this is the first time that the computationally intensive calculation of Diffusion Quantum Monte Carlo (QMC) forces, and the combination of multi-determinant QMC energies and forces with selected-CI wavefunctions, are computed at such scale at the complete basis-set-limit. To bridge the gap between accurate QC and condensed-phase molecular dynamics, we leverage transfer learning to improve the FeNNix-Bio1 DFT-based foundation model. The resulting approach is coupled to path integrals adaptive sampling quantum dynamics to perform nanosecond reactive simulations at unprecedented accuracy. These results demonstrate the promise of Exascale to deepen our understanding of the inner machinery of complex biosystems.         ",
+    "url": "https://arxiv.org/abs/2504.07948",
+    "authors": [
+      "Anouar Benali",
+      "Thomas Pl\u00e9",
+      "Olivier Adjoua",
+      "Valay Agarawal",
+      "Thomas Applencourt",
+      "Marharyta Blazhynska",
+      "Raymond Clay III",
+      "Kevin Gasperich",
+      "Khalid Hossain",
+      "Jeongnim Kim",
+      "Christopher Knight",
+      "Jaron T. Krogel",
+      "Yvon Maday",
+      "Maxime Maria",
+      "Matthieu Montes",
+      "Ye Luo",
+      "Evgeny Posenitskiy",
+      "Corentin Villot",
+      "Venkat Vishwanath",
+      "Louis Lagard\u00e8re",
+      "Jean-Philip Piquemal"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.11849",
+    "title": "Nanoscale Casimir Force Softening Originated from Quantum Surface Responses",
+    "abstract": "           Strong coupling between vacuum fields and quantum matter occurs at the nanoscale and broadens the horizon of light-matter interaction. Nanoscale Casimir force, as an exhibition of vacuum fields, inevitably experiences the influence of surface electrons due to their quantum character, which are ignorable in micron Casimir force. Here, we develop a three-dimensional conformal map method to tackle typical experimental configurations with surface electron contributions to Casimir force purposely and delicately included. Based on this method, we reveal that surface electrons can either enhance or suppress the nanoscale Casimir force, depending on materials and crystal facets. The mechanism is demonstrated to be the Casimir force softening, which results from surface electrons effectively altering the distance seen by the Casimir interaction. Our findings not only highlight the interaction between surface electrons and vacuum fields but also provide a recipe for theoretical and experimental investigation of nanoscale fluctuation-type problems.         ",
+    "url": "https://arxiv.org/abs/2403.11849",
+    "authors": [
+      "Hewan Zhang",
+      "Kun Ding"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
