@@ -1,0 +1,522 @@
+[
+  {
+    "id": "arXiv:2504.16978",
+    "title": "Scientific Spirit of Chien-Shiung Wu: From Quantum Entanglement to Parity Nonconservation",
+    "abstract": "           In 1950, Chien-Shiung Wu and her student published a coincidence experiment on entangled photon pairs that were created in electron-positron annihilation. This experiment precisely verified the prediction of quantum electrodynamics. Additionally, it was also the first instance of a precisely controlled quantum entangled state of spatially separated particles, although Wu did not know about this at the time. In 1956, Wu initiated and led the so-called Wu experiment, which discovered parity nonconservation, becoming one of the greatest experiments of the 20th century. As Chen Ning Yang said, Wu's experiments were well known for their precision and accuracy. Experimental precision and accuracy manifested Wu's scientific spirit, which we investigate here in some detail. This paper is the translated transcript of the speech the author made at the International Symposium Commemorating the 110th Anniversary of the Birth of Chien-Shiung Wu, on May 31, 2022. The above abstract is the translation of the original abstract of the speech.         ",
+    "url": "https://arxiv.org/abs/2504.16978",
+    "authors": [
+      "Yu Shi"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.16993",
+    "title": "Micro-Transfer Printed Continuous-Wave and Mode-Locked Laser Integration at 800 nm on a Silicon Nitride Platform",
+    "abstract": "           Applications such as augmented and virtual reality (AR/VR), optical atomic clocks, and quantum computing require photonic integration of (near-)visible laser sources to enable commercialization at scale. The heterogeneous integration of III-V optical gain materials with low-loss silicon nitride waveguides enables complex photonic circuits with low-noise lasers on a single chip. Previous such demonstrations are mostly geared towards telecommunication wavelengths. At shorter wavelengths, limited options exist for efficient light coupling between III-V and silicon nitride waveguides. Recent advances in wafer-bonded devices at these wavelengths require complex coupling structures and suffer from poor heat dissipation. Here, we overcome these challenges and demonstrate a wafer-scale micro-transfer printing method integrating functional III-V devices directly onto the silicon substrate of a commercial silicon nitride platform. We show butt-coupling of efficient GaAs-based amplifiers operating at 800 nm with integrated saturable absorbers to silicon nitride cavities. This resulted in extended-cavity continuous-wave and mode-locked lasers generating pulse trains with repetition rates ranging from 3.2 to 9.2 GHz and excellent passive stability with a fundamental radio-frequency linewidth of 519 Hz. These results show the potential to build complex, high-performance fully-integrated laser systems at 800 nm using scalable manufacturing, promising advances for AR/VR, nonlinear photonics, timekeeping, quantum computing, and beyond.         ",
+    "url": "https://arxiv.org/abs/2504.16993",
+    "authors": [
+      "Max Kiewiet",
+      "Stijn Cuyvers",
+      "Maximilien Billet",
+      "Konstantinos Akritidis",
+      "Valeria Bonito Oliva",
+      "Gaudhaman Jeevanandam",
+      "Sandeep Saseendran",
+      "Manuel Reza",
+      "Pol Van Dorpe",
+      "Roelof Jansen",
+      "Joost Brouckaert",
+      "G\u00fcnther Roelkens",
+      "Kasper Van Gasse",
+      "Bart Kuyken"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17077",
+    "title": "Physics-guided and fabrication-aware inverse design of photonic devices using diffusion models",
+    "abstract": "           Designing free-form photonic devices is fundamentally challenging due to the vast number of possible geometries and the complex requirements of fabrication constraints. Traditional inverse-design approaches--whether driven by human intuition, global optimization, or adjoint-based gradient methods--often involve intricate binarization and filtering steps, while recent deep learning strategies demand prohibitively large numbers of simulations (10^5 to 10^6). To overcome these limitations, we present AdjointDiffusion, a physics-guided framework that integrates adjoint sensitivity gradients into the sampling process of diffusion models. AdjointDiffusion begins by training a diffusion network on a synthetic, fabrication-aware dataset of binary masks. During inference, we compute the adjoint gradient of a candidate structure and inject this physics-based guidance at each denoising step, steering the generative process toward high figure-of-merit (FoM) solutions without additional post-processing. We demonstrate our method on two canonical photonic design problems--a bent waveguide and a CMOS image sensor color router--and show that our method consistently outperforms state-of-the-art nonlinear optimizers (such as MMA and SLSQP) in both efficiency and manufacturability, while using orders of magnitude fewer simulations (approximately 2 x 10^2) than pure deep learning approaches (approximately 10^5 to 10^6). By eliminating complex binarization schedules and minimizing simulation overhead, AdjointDiffusion offers a streamlined, simulation-efficient, and fabrication-aware pipeline for next-generation photonic device design. Our open-source implementation is available at this https URL.         ",
+    "url": "https://arxiv.org/abs/2504.17077",
+    "authors": [
+      "Dongjin Seo",
+      "Soobin Um",
+      "Sangbin Lee",
+      "Jong Chul Ye",
+      "Haejun Chung"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Artificial Intelligence (cs.AI)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17144",
+    "title": "Physics-informed Transformer Model for the Design of Wavelength-filtering Ring Resonator",
+    "abstract": "           We have developed a physics-informed transformer model to suggest design parameters in wavelength-filtering ring resonator, that suit a given pair of resonant wavelengths with <6 nm errors. The model provides a versatile method for rapid and accurate design of resonators corresponding to various resonant wavelengths.         ",
+    "url": "https://arxiv.org/abs/2504.17144",
+    "authors": [
+      "Yu Dian Lim",
+      "Feng Shuo Wan",
+      "Ren Jie Wan",
+      "Chuan Seng Tan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17230",
+    "title": "Single-mode InAs/GaAs quantum-dot DFB laser with oxidized aperture confined surface grating",
+    "abstract": "           InAs/GaAs quantum dot (QD) distributed feedback (DFB) lasers are promising candidates for next-generation photonic integrated circuits. We present a design that incorporates an oxidized aperture confined surface grating (OASG) structure, which reduces non-radiative recombination losses and surface optical losses sustained in device fabricated by conventionally fabrication methods including etching and regrowth. The OASG-DFB laser eliminates the need for ridge waveguide etching and avoids instability in sidewall grating coupling. Experimental results show stable single-mode operation, a maximum output power of 15.1 mW, a side-mode suppression ratio (SMSR) of 44 dB, and a narrow linewidth of 1.79 MHz. This approach simplifies fabrication, reduces costs, and enhances the scalability of GaAs-based QD DFB lasers for applications in optical communication and photonic integration.         ",
+    "url": "https://arxiv.org/abs/2504.17230",
+    "authors": [
+      "Zhengqing Ding",
+      "Anyao Zhu",
+      "Chaoyuan Yang",
+      "Kun Zhan",
+      "Yingxin Chen",
+      "Ying Yu",
+      "Siyuan Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17312",
+    "title": "Quantum diamond microscopy of individual vaterite microspheres containing magnetite nanoparticles",
+    "abstract": "           Biocompatible vaterite microspheres, renowned for their porous structure, are promising carriers for magnetic nanoparticles (MNPs) in biomedical applications such as targeted drug delivery and diagnostic imaging. Precise control over the magnetic moment of individual microspheres is crucial for these applications. This study employs widefield quantum diamond microscopy to map the stray magnetic fields of individual vaterite microspheres (3-10 um) loaded with Fe3O4 MNPs of varying sizes (5 nm, 10 nm, and 20 nm). By analyzing over 35 microspheres under a 222 mT external magnetizing field, we measured peak-to-peak stray field amplitudes of 41 uT for 5 nm and 10 nm superparamagnetic MNPs, reflecting their comparable magnetic response, and 12 uT for 20 nm ferrimagnetic MNPs, due to distinct magnetization behavior. Finite-element simulations confirm variations in MNP distribution and magnetization uniformity within the vaterite matrix, with each microsphere encapsulating thousands of MNPs to generate its magnetization. This high-resolution magnetic imaging approach yields critical insights into MNP-loaded vaterite, enabling optimized synthesis and magnetically controlled systems for precision therapies and diagnostics.         ",
+    "url": "https://arxiv.org/abs/2504.17312",
+    "authors": [
+      "Mona Jani",
+      "Hani Barhum",
+      "Janis Alnis",
+      "Mohammad Attrash",
+      "Tamara Amro",
+      "Nir Bar-Gill",
+      "Toms Salgals",
+      "Pavel Ginzburg",
+      "Ilja Fescenko"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17317",
+    "title": "Multipole nuclear shielding factors of hydrogen atom confined by a spherical cavity",
+    "abstract": "           Nuclear shielding factor is an important quantity to describe the response of an atom under the perturbation of an external field. In this work, we develop the sum-over-states numerical method and the Hylleraas variational perturbation approximation to calculate the multipole nuclear shielding factors for general one-electron systems and apply them to the model of the hydrogen atom confined by a spherical cavity. The generalized pseudospectral method is employed to solve the eigenstates of the unperturbed atom. The obtained dipole nuclear shielding factors are in good agreement with previous calculations and the higher-pole results are reported for the first time. The asymptotic behaviors of the multipole nuclear shielding factors in both the large- and small-confinement limits are analyzed with the assistance of variational perturbation theory. The free-atom values can be exactly reproduced by the second-order perturbation approximation and all multipole nuclear shielding factors in the small-confinement limit tend to zero by a linear law. The variational perturbation method manifests exponential convergence with increasing the order of approximation. The numerical and approximate methods developed in this work together pave the way for further investigation of the multipole nuclear shielding factors for general atomic systems.         ",
+    "url": "https://arxiv.org/abs/2504.17317",
+    "authors": [
+      "Yu Qing Dai",
+      "Zhi Ling Zhou",
+      "Henry E. Montgomery Jr.",
+      "Yew Kam Ho",
+      "Aihua Liu",
+      "Li Guang Jiao"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17335",
+    "title": "Generating isolated elliptically polarized attosecond pulse in gapped graphene using linearly polarized laser fields",
+    "abstract": "           We employ the two-band density-matrix equations to calculate high-order harmonic generation (HHG) and its ellipticity in gapped graphene irradiated by a femtosecond short-pulse laser under different orientation angles. The orientation-dependent harmonic spectra show obvious enhancement harmonics. We also focus on the ellipticity of these enhanced harmonics. Utilizing the recombination trajectory model, the enhanced harmonics are attributed to the caustic effect, whose orientation dependence originates from the inequivalence of $\\textrm{K}$ points during the electron ionization process for different orientation angles. In addition, the harmonic ellipticity can be well understood by the phase difference of saddle-point currents. Based on our theory, we design a two-color field scheme to generate elliptically polarized attosecond pulses in gapped graphene. This work may shed light on the generation of elliptically polarized attosecond pulses in two-dimensional materials.         ",
+    "url": "https://arxiv.org/abs/2504.17335",
+    "authors": [
+      "Xinru Song",
+      "Xiaoyu Bu",
+      "Xiaohui Zhao",
+      "Rongxiang Zhang",
+      "Shang Wang",
+      "Fulong Dong"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17339",
+    "title": "Bridging Optical Sensing and Wearable Health Monitoring: A Functionalized Plasmonic Nanopillar for Non-Invasive Sweat Glucose Detection",
+    "abstract": "           Continuous glucose monitoring (CGM) is vital for diabetes care, but current systems rely on invasive implants or electrochemical sensors that often cause discomfort and skin irritation. Non-invasive alternatives remain limited by low sensitivity and poor compatibility with complex sweat environments, highlighting the urgent need for a comfortable and reliable solution. Here, we report the development of a wearable optical sensor watch that integrates surface plasmon resonance (SPR) technology with a functionalized silver-coated silicon nanowire (Ag/SiNW) substrate for real-time, non-invasive glucose monitoring in sweat. The nanostructured sensor is functionalized with 4-mercaptophenylboronic acid (4-MPBA), enabling selective glucose capture and optical signal transduction through both Raman scattering and SPR shift. The dual-mode detection strategy was systematically optimized, and a miniaturized SPR system operating at 638 nm was successfully integrated into a wearable watch format with wireless data transmission to a mobile application. This wearable device demonstrated excellent sensitivity (LOD down to 0.12 mM) and high selectivity in detecting glucose within physiological sweat concentration ranges. Human subject trials confirmed its applicability in real-life scenarios. This study offers a promising non-invasive alternative to traditional CGM and highlights the potential of integrating nanophotonic sensors with wearable platforms for continuous health monitoring and personalized medicine.         ",
+    "url": "https://arxiv.org/abs/2504.17339",
+    "authors": [
+      "Ling Liu",
+      "Kuo Zhan",
+      "Joni Kilpij\u00e4rvi",
+      "Matti Kinnunen",
+      "Yuan Zhang",
+      "Mulusew Yaltaye",
+      "Yang Li",
+      "Artem Zhyvolozhnyi",
+      "Anatoliy Samoylenko",
+      "Seppo Vainio",
+      "Jianan Huang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17378",
+    "title": "Trapping microswimmers in acoustic streaming flow",
+    "abstract": "           The acoustofluidic method holds great promise for manipulating microorganisms. When exposed to the steady vortex structures of acoustic streaming flow, these microorganisms exhibit intriguing dynamic behaviors, such as hydrodynamic trapping and aggregation. To uncover the mechanisms behind these behaviors, we investigate the swimming dynamics of both passive and active particles within a two-dimensional acoustic streaming flow. By employing a theoretically calculated streaming flow field, we demonstrate the existence of stable bounded orbits for particles. Additionally, we introduce rotational diffusion and examine the distribution of particles under varying flow strengths. Our findings reveal that active particles can laterally migrate across streamlines and become trapped in stable bounded orbits closer to the vortex center, whereas passive particles are confined to movement along the streamlines. We emphasize the influence of the flow field on the distribution and trapping of active particles, identifying a flow configuration that maximizes their aggregation. These insights contribute to the manipulation of microswimmers and the development of innovative biological microfluidic chips.         ",
+    "url": "https://arxiv.org/abs/2504.17378",
+    "authors": [
+      "Xuyang Sun",
+      "Wenchang Tan",
+      "Yi Man"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17385",
+    "title": "Continuous coherent perfect absorption and lasing at an exceptional point of anti-parity-time symmetric photonic structures",
+    "abstract": "           We consider a type of hypothetical compound materials in which its refractive index in spatial distribution meet $n(-x)=-n^{*}(x)$, belonging to anti-parity-time (APT) symmetric structures. Additionally, we demand balanced real positive- and negative- permeabilities with $\\mu(-x)=-\\mu(x)$. By introducing parametrization into APT symmetric transfer matrix, together with reciprocity theorem, we propose a generic parametric space to display its associated scattering results including symmetry phase, exceptional point, and symmetry broken phase. The outcome is irrespective of any system complexity, geometries, materials, and operating frequency. With the parametric space, we find that APT symmetric system not only enables coherent perfect absorption or lasing occurred at an exceptional point, but also realize a simultaneous coherent perfect absorption-lasing. Since APT-symmetric system is constructed by balanced positive and negative index materials, the phase accumulated from optical path length is null, resulting in an assignment of mode order lost. To verify our analysis, several designed heterostructures are demonstrated to support our findings.         ",
+    "url": "https://arxiv.org/abs/2504.17385",
+    "authors": [
+      "Jeng Yi Lee"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17453",
+    "title": "Quantum simulation of CO$_2$ chemisorption in an amine-functionalized metal-organic framework",
+    "abstract": "           We perform a series of calculations using simulated QPUs, accelerated by NVIDIA CUDA-Q platform, focusing on a molecular analog of an amine-functionalized metal-organic framework (MOF) -- a promising class of materials for CO2 capture. The variational quantum eigensolver (VQE) technique is employed, utilizing the unitary coupled-cluster method with singles and doubles (UCCSD) within active spaces extracted from the larger material system. We explore active spaces of (6e,6o), (10e,10o), and (12e,12o), corresponding to 12, 20, and 24 qubits, respectively, and simulate them using CUDA-Q's GPU-accelerated state-vector simulator. Notably, the 24-qubit simulations -- among the largest of their kind to date -- are enabled by gate fusion optimizations available in CUDA-Q. While these active space sizes are among the largest reported in the context of CO2 chemisorption, they remain insufficient for a fully accurate study of the system. This limitation arises from necessary simplifications and scalability challenges of VQE, particularly the barren plateau problem. Nonetheless, this work demonstrates the application of VQE to a novel material system using large-scale simulated QPUs and offers a blueprint for future quantum chemistry calculations.         ",
+    "url": "https://arxiv.org/abs/2504.17453",
+    "authors": [
+      "Jonathan R. Owens",
+      "Marwa H. Farag",
+      "Pooja Rao",
+      "Annarita Giani"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17472",
+    "title": "Using multiple representations to improve student understanding of quantum states",
+    "abstract": "           One hallmark of expertise in physics is the ability to translate between different representations of knowledge and use the representations that make the problem-solving process easier. In quantum mechanics, students learn about several ways to represent quantum states, e.g., as state vectors in Dirac notation and as wavefunctions in position and momentum representation. Many advanced students in upper-level undergraduate and graduate quantum mechanics courses have difficulty translating state vectors in Dirac notation to wavefunctions in the position or momentum representation and vice versa. They also struggle when translating the wavefunction between the position and momentum representations. The research presented here describes the difficulties that students have with these issues and how research was used as a guide in the development, validation, and evaluation of a Quantum Interactive Learning Tutorial (QuILT) to help students develop a functional understanding of these concepts. The QuILT strives to help students with different representations of quantum states as state vectors in Dirac notation and as wavefunctions in position and momentum representation and with translating between these representations. We discuss the effectiveness of the QuILT from in-class implementation and evaluation.         ",
+    "url": "https://arxiv.org/abs/2504.17472",
+    "authors": [
+      "Emily Marshman",
+      "Alexandru Maries",
+      "Chandralekha Singh"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17487",
+    "title": "Investigation of student and faculty problem solving: An example from quantum mechanics",
+    "abstract": "           We describe a study focusing on students' and faculty members' reasoning about problems of differing cognitive complexity related to the double-slit experiment (DSE) with single particles. In the first phase of the study, students in advanced quantum mechanics courses were asked these questions in written form. Additionally, individual interviews were conducted with ten students in which they were asked follow-up questions to make their thought processes explicit on the challenging problems. Students did well on the straightforward problem, showing they had some knowledge of the DSE after traditional instruction, but they struggled on the more complex ones. Even if explicitly asked to do so in interviews, students were often uncomfortable performing calculations or making approximations and simplifications, instead preferring to stick with their gut feeling. In the second phase of the study, the problems were broken down into more pointed questions to investigate whether students had knowledge of relevant concepts, whether they would do calculations as part of their solution approach if explicitly asked, and whether they explicitly noted using their gut feeling. While the faculty members' responses suggest that they could seamlessly move between conceptual and quantitative reasoning, most students were unable to combine concepts represented by different equations to solve the problems quantitatively. We conclude with instructional implications.         ",
+    "url": "https://arxiv.org/abs/2504.17487",
+    "authors": [
+      "Alexandru Maries",
+      "Ryan Sayer",
+      "Chandralekha Singh"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17527",
+    "title": "Effective Rabi frequency in semiconductor lasers and the origin of self-starting harmonic frequency combs",
+    "abstract": "           Optical frequency combs have become a key research topic in optics and photonics. A peculiar comb state is the harmonic frequency comb (HFC), where optical lines are spaced by integer multiples of the cavity's free-spectral range. The spontaneous formation of HFCs has recently been observed in semiconductor lasers with fast gain recovery, such as Quantum Cascade Lasers (QCLs), although the underlying physical mechanism remains unclear. In this work, we provide a physical interpretation for the formation of HFCs in QCLs, based on a resonance phenomenon between an effective Rabi frequency and a mode of the laser cavity. This is corroborated by the results of the numerical integration of the effective semiconductor Maxwell-Bloch equations used to describe the multimode laser dynamics, as well as by the linear stability analysis of the continuous wave emission at threshold.         ",
+    "url": "https://arxiv.org/abs/2504.17527",
+    "authors": [
+      "Carlo Silvestri",
+      "Franco Prati",
+      "Massimo Brambilla",
+      "Mariangela Gioannini",
+      "Lorenzo Luigi Columbo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17715",
+    "title": "Operational experience and performance of the Silicon Vertex Detector after the first long shutdown of Belle II",
+    "abstract": "           In 2024, the Belle II experiment resumed data taking after the Long Shutdown 1, which was required to install a two-layer pixel detector and upgrade accelerator components. We describe the challenges of this shutdown and the operational experience thereafter. With new data, the silicon-strip vertex detector (SVD) confirmed the high hit efficiency, the large signal-to-noise ratio, and the excellent cluster position resolution. In the coming years, the SuperKEKB peak luminosity is expected to increase to its target value, resulting in a larger SVD occupancy caused by beam background. Considerable efforts have been made to improve SVD reconstruction software by exploiting the excellent SVD hit-time resolution to determine the collision time and reject off-time particle hits. A novel procedure to group SVD hits event-by-event, based on their time, has been developed using the grouping information during reconstruction, significantly reducing the fake rate while preserving the tracking efficiency. The front-end chip (APV25) is operated in the multi-peak mode, which reads six samples. A 3/6-mixed acquisition mode, based on the timing precision of the trigger, reduces background occupancy, trigger dead-time, and data size. Studies of the radiation damage show that the SVD performance will not seriously degrade during the lifetime of the detector, despite moderate radiation-induced increases in sensor current and strip noise.         ",
+    "url": "https://arxiv.org/abs/2504.17715",
+    "authors": [
+      "K. Ravindran",
+      "K. Adamczyk",
+      "H. Aihara",
+      "S. Bacher",
+      "S. Bahinipati",
+      "J. Baudot",
+      "P. K. Behera",
+      "S. Bettarini",
+      "T. Bilka",
+      "A. Bozek",
+      "F. Buchsteiner",
+      "G. Casarosa",
+      "C. Cheshta",
+      "L. Corona",
+      "S. B. Das",
+      "G. Dujany",
+      "C. Finck",
+      "F. Forti",
+      "M. Friedl",
+      "A. Gabrielli",
+      "V. Gautam",
+      "B. Gobbo",
+      "K. Hara",
+      "T. Higuchi",
+      "C. Irmler",
+      "A. Ishikawa",
+      "M. Kaleta",
+      "A. B. Kaliyar",
+      "K. H. Kang",
+      "T. Kohriki",
+      "R. Kumar",
+      "K. Lalwani",
+      "K. Lautenbach",
+      "J. Libby",
+      "V. Lisovskyi",
+      "L. Massaccesi",
+      "G. B. Mohanty",
+      "S. Mondal",
+      "K. R. Nakamura",
+      "Z. Natkaniec",
+      "Y. Onuki",
+      "F. Otani",
+      "A. Paladino",
+      "E. Paoloni",
+      "V. Raj",
+      "K. K. Rao",
+      "J. U. Rehman",
+      "I. Ripp-Baudot",
+      "G. Rizzo",
+      "Y. Sato",
+      "C. Schwanda",
+      "J. Serrano",
+      "T. Shimasaki",
+      "J. Suzuki",
+      "S. Tanaka",
+      "R. Thalmeier",
+      "T. Tsuboyama",
+      "Y. Uematsu",
+      "L. Vitale",
+      "S. J. Wang",
+      "Z. Wang",
+      "J. Wiechczynski",
+      "H. Yin",
+      "L. Zani",
+      "F. Zeng"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17726",
+    "title": "Optical to infrared mapping of vapor-to-liquid phase change dynamics using generative machine learning",
+    "abstract": "           Infrared thermography is a powerful tool for studying liquid-to-vapor phase change processes. However, its application has been limited in the study of vapor-to-liquid phase transitions due to the presence of complex liquid dynamics, multiple phases within the same field of view, and experimental difficulty. Here, we develop a calibration framework which is capable to studying one of the most complex two-phase heat transfer processes: dropwise condensation. The framework accounts for non-uniformities arising from dynamic two-phase interactions such as droplet nucleation, growth, coalescence, and departure, as well as substrate effects particularly observed on micro- and nanoengineered surfaces. This approach enables high-resolution temperature measurements with both spatial (12 $\\mu$m) and temporal (5 ms) precision, leading to the discovery of local temperature phenomena unobservable using conventional approaches. These observed temperature variations are linked to droplet statistics, showing how different regions contribute to local condensation heat transfer. We extend the developed method to quantify local thermal parameters by fusing it with a generative machine learning model to map visual images into temperature fields. The model is informed of the physical parameter by incorporating vapor pressure embedding as the conditional parameter. This work represents a significant step toward simplifying local temperature measurements for vapor-to-liquid phase change phenomena by developing a methodology as well as a machine learning approach to map local thermal phenomena using only optical images as the input.         ",
+    "url": "https://arxiv.org/abs/2504.17726",
+    "authors": [
+      "Siavash Khodakarami",
+      "Pouya Kabirzadeh",
+      "Chi Wang",
+      "Tarandeep Singh Thukral",
+      "Nenad Miljkovic"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17266",
+    "title": "Multipartite continuous-variable quantum nondemolition interaction and entanglement certification and monitoring",
+    "abstract": "           The quantum nondemolition (QND) measurement is one of the most studied quantum measurement procedures. Usually, such process involves the coupling of a single system of interest, called signal, with a single probe system, so that the relevant information in the signal system is indirectly measured by observing the probe system. Here, we extend the concept of quantum nondemolition interaction to the cases in which the signal and the probe systems are each one multipartite continuous-variable systems. Specifically, we propose a general scheme that performs the multipartite QND interactions, relying on beam-splitter couplings among the signal and probe modes with ancillary modes prepared off-line in squeezed states. The scheme is also composed by homodyne detections and feedforward modulations. The ancillary modes are detected in the process, providing photocurrents for post-modulation of the output systems, as well as sufficient information to calculate genuine multipartite entanglement conditions of the input systems and to monitor similar conditions of the output systems.         ",
+    "url": "https://arxiv.org/abs/2504.17266",
+    "authors": [
+      "Vin\u00edcius V. Seco",
+      "Alencar J. de Faria"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17731",
+    "title": "Synchronization of Quasi-Particle Excitations in a Quantum Gas with Cavity-Mediated Interactions",
+    "abstract": "           Driven-dissipative quantum systems can undergo transitions from stationary to dynamical phases, reflecting the emergence of collective non-equilibrium behavior. We study such a transition in a Bose-Einstein condensate coupled to an optical cavity and develop a cavity-assisted Bragg spectroscopy technique to resolve its collective modes. We observe dissipation-induced synchronization at the quasiparticle level, where two roton-like modes coalesce at an exceptional point. This reveals how dissipation microscopically drives collective dynamics and signals a precursor to a dynamical phase transition.         ",
+    "url": "https://arxiv.org/abs/2504.17731",
+    "authors": [
+      "Gabriele Natale",
+      "Alexander Baumg\u00e4rtner",
+      "Justyna Stefaniak",
+      "David Baur",
+      "Simon Hertlein",
+      "Dalila Rivero",
+      "Tilman Esslinger",
+      "Tobias Donner"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.17752",
+    "title": "Disaggregated Deep Learning via In-Physics Computing at Radio Frequency",
+    "abstract": "           Modern edge devices, such as cameras, drones, and Internet-of-Things nodes, rely on deep learning to enable a wide range of intelligent applications, including object recognition, environment perception, and autonomous navigation. However, deploying deep learning models directly on the often resource-constrained edge devices demands significant memory footprints and computational power for real-time inference using traditional digital computing architectures. In this paper, we present WISE, a novel computing architecture for wireless edge networks designed to overcome energy constraints in deep learning inference. WISE achieves this goal through two key innovations: disaggregated model access via wireless broadcasting and in-physics computation of general complex-valued matrix-vector multiplications directly at radio frequency. Using a software-defined radio platform with wirelessly broadcast model weights over the air, we demonstrate that WISE achieves 95.7% image classification accuracy with ultra-low operation power of 6.0 fJ/MAC per client, corresponding to a computation efficiency of 165.8 TOPS/W. This approach enables energy-efficient deep learning inference on wirelessly connected edge devices, achieving more than two orders of magnitude improvement in efficiency compared to traditional digital computing.         ",
+    "url": "https://arxiv.org/abs/2504.17752",
+    "authors": [
+      "Zhihui Gao",
+      "Sri Krishna Vadlamani",
+      "Kfir Sulimany",
+      "Dirk Englund",
+      "Tingjun Chen"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Emerging Technologies (cs.ET)",
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.03146",
+    "title": "Fundamentals of Antenna Bandwidth and Quality Factor",
+    "abstract": "           After a brief history of the development of quality factor, useful expressions are derived for the robust Qz(w) quality factor that accurately determines the VSWR input-impedance fractional bandwidth of antennas for isolated resonances and a small enough bandwidth power drop. For closely spaced multiple resonances/antiresonances, a definitive formula is given for the increase in fractional bandwidth enabled by Bode-Fano tuning. Methods are given for determining the conventional and complex-energy quality factors of antennas from RLC circuit models. New field-based quality factors Q(w) are derived for antennas with known fields produced by an input current. These Q(w) are remarkably robust because they equal Qz(w) when the input impedance is available. Like Qz(w), the field-based Q(w) is independent of the choice of origin of the antenna fields and is impervious to extra lengths of transmission lines and surplus reactances. These robust field-based quality factors are used to derive new lower bounds on the quality factors (upper bounds on the bandwidths) of spherical-mode antennas that improve upon the previous Chu/CR (Collin-Rothschild) lower bounds for spherical modes. A criterion for antenna supergain is found by combining the Harrington maximum gain formula with the recently derived formula for the reactive power boundaries of antennas. Maximum gain versus minimum quality factor for spherical antennas are determined using the improved lower bounds on quality factor for different values of electrical size ka. Lastly, reduced antenna quality factors allowed by dispersive tuning overcome the traditional Chu/CR lower bounds for lower radiation efficiencies and small enough bandwidth power drops.         ",
+    "url": "https://arxiv.org/abs/2501.03146",
+    "authors": [
+      "Arthur D. Yaghjian"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.19175",
+    "title": "A three-axis Nanopositioner based on Near-Field Acoustic Levitation and Electromagnetic Actuation",
+    "abstract": "           Near-field acoustic levitation (NFAL) enables nanometer-scale positioning resolution and bandwidth exceeding several hundred hertz specifically along the vertical (Z) direction, owing to its high acoustic stiffness and squeeze film damping. However, its application to horizontal (XY) positioning is limited by significantly lower acoustic stiffness and insufficient damping in horizontal directions, resulting in reduced resolution and bandwidth. Moreover, NFAL-based positioning systems typically lack multi-axis actuation capabilities due to challenges in generating multi-directional acoustic forces. This work presents a hybrid positioning approach that overcomes the mentioned limitations by integrating NFAL with electromagnetic actuation. A planar magnetic platform is acoustically levitated, while a coplanar current-carrying coil provides horizontal trapping stiffness more than three orders of magnitude higher than that achievable with acoustic forces alone. Additionally, the coil generates three-dimensional electromagnetic forces, enabling multi-axis positioning capability. Eddy currents induced in a thin copper sheet integrated with the coil enhance horizontal damping by 52 times. We experimentally demonstrate precise 3-axis linear motion with a root mean square (RMS) positioning resolution better than 20 nm along all axes. The system achieves an in-plane motion range of 1.42 mm with a bandwidth of 16 Hz and a Z-axis motion range of 40 micrometers with a positioning bandwidth of 171 Hz.         ",
+    "url": "https://arxiv.org/abs/2503.19175",
+    "authors": [
+      "K. S. Vikrant",
+      "Prosanto Biswas",
+      "S. O. Reza Moheimani"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.02218",
+    "title": "From short-sighted to far-sighted: A comparative study of recursive machine learning approaches for open quantum systems",
+    "abstract": "           Accurately modeling open quantum system dynamics is crucial for advancing quantum technologies, yet traditional methods struggle to balance accuracy and efficiency. Machine learning (ML) provides a promising alternative, particularly through recursive models that predict system evolution based on past history. While these models have shown success in predicting single observables, their effectiveness in more complex tasks, such as forecasting the full reduced density matrix (RDM), remains unclear. We extend history-based recursive ML approaches to complex quantum systems, comparing four physics-informed neural network (PINN) architectures: (i) single-RDM-predicting PINN (SR-PINN), (ii) SR-PINN with simulation parameters (PSR-PINN), (iii) multi-RDMs-predicting PINN (MR-PINN), and (iv) MR-PINN with simulation parameters (PMR-PINN). These models are applied to the spin-boson (SB) model and the Fenna-Matthews-Olson (FMO) complex. Our results show that SR-PINN and PSR-PINN, constrained by a narrow history window, fail to capture complex quantum evolution, leading to unstable long-term predictions, especially in nonlinear and highly correlated dynamics. In contrast, MR-PINN and PMR-PINN improve accuracy by extending the forecast horizon, incorporating long-range correlations, and reducing error propagation. Surprisingly, explicitly including simulation parameters such as temperature and reorganization energy in PSR-PINN and PMR-PINN does not consistently enhance accuracy and can even reduce performance, suggesting that these effects are already encoded in the RDM evolution. These findings highlight the limitations of short-sighted recursive forecasting and demonstrate the superior stability and accuracy of far-sighted approaches for long-term predictions.         ",
+    "url": "https://arxiv.org/abs/2504.02218",
+    "authors": [
+      "Arif Ullah"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.17374",
+    "title": "Effective Equilibrium Theory of Quantum Light-Matter Interaction in Cavities: Extended Systems and the Long Wavelength Approximation",
+    "abstract": "           When light and matter interact strongly, the resulting hybrid system inherits properties from both constituents, allowing one to modify material behavior by engineering the surrounding electromagnetic environment. This concept underlies the emerging paradigm of cavity materials engineering, which aims at the control of material properties via tailored vacuum fluctuations of dark photonic environments. The theoretical description of such systems is challenging due to the combined complexity of extended electronic states and quantum electromagnetic fields. Here, we derive an effective, non-perturbative theory for low-dimensional crystals embedded in a Fabry-P\u00e9rot resonator, within the long-wavelength limit. Our approach incorporates the multimode and dispersive nature of the cavity field and reduces it to an effective single-mode description by imposing the condition of negligible momentum transfer from light to matter. Importantly, the resulting effective mode is characterized by a finite mode volume-even in the limit of extended cavities-which is directly linked to realistic cavity parameters. This ensures that the light-matter coupling remains finite in bulk systems. By explicitly accounting for the finite reflectivity of cavity mirrors, our theory also avoids double counting the contribution from free-space light-matter coupling. Overall, our results provide a robust and realistic framework for describing cavity-matter interactions at the Hamiltonian level, incorporating the electromagnetic environment beyond the idealized perfect-mirror approximation.         ",
+    "url": "https://arxiv.org/abs/2312.17374",
+    "authors": [
+      "Mark Kamper Svendsen",
+      "Michael Ruggenthaler",
+      "Hannes H\u00fcbener",
+      "Christian Sch\u00e4fer",
+      "Martin Eckstein",
+      "Angel Rubio",
+      "Simone Latini"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2402.10267",
+    "title": "Identification is Pointless: Quantum Coordinates, Localisation of Events, and the Quantum Hole Argument",
+    "abstract": "           The study of quantum reference frames (QRFs) is motivated by the idea of taking into account the quantum properties of the reference frames used, explicitly or implicitly, in our description of physical systems. Like classical reference frames, QRFs can be used to define physical quantities relationally. Unlike their classical analogue, they relativise the notions of superposition and entanglement. Here, we explain this feature by examining how configurations or locations are identified across different branches in superposition. We show that, in the presence of symmetries, whether a system is in \"the same\" or \"different\" configurations across the branches depends on the choice of QRF. Hence, sameness and difference -- and thus superposition and entanglement -- lose their absolute meaning. We apply these ideas to the context of semi-classical spacetimes in superposition and use coincidences of four scalar fields to construct a comparison map between spacetime points in the different branches. This reveals that the localisation of an event is frame-dependent. We discuss the implications for indefinite causal order and the locality of interaction and conclude with a generalisation of Einstein's hole argument to the quantum context.         ",
+    "url": "https://arxiv.org/abs/2402.10267",
+    "authors": [
+      "Viktoria Kabel",
+      "Anne-Catherine de la Hamette",
+      "Luca Apadula",
+      "Carlo Cepollaro",
+      "Henrique Gomes",
+      "Jeremy Butterfield",
+      "\u010caslav Brukner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.08868",
+    "title": "Partitioned Quantum Subspace Expansion",
+    "abstract": "           We present an iterative generalisation of the quantum subspace expansion algorithm used with a Krylov basis. The iterative construction connects a sequence of subspaces via their lowest energy states. Diagonalising a Hamiltonian in a given Krylov subspace requires the same quantum resources in both the single step and sequential cases. We propose a variance-based criterion for determining a good iterative sequence and provide numerical evidence that these good sequences display improved numerical stability over a single step in the presence of finite sampling noise. Implementing the generalisation requires additional classical processing with a polynomial overhead in the subspace dimension. By exchanging quantum circuit depth for additional measurements the quantum subspace expansion algorithm appears to be an approach suited to near term or early error-corrected quantum hardware. Our work suggests that the numerical instability limiting the accuracy of this approach can be substantially alleviated in a parameter-free way.         ",
+    "url": "https://arxiv.org/abs/2403.08868",
+    "authors": [
+      "Tom O'Leary",
+      "Lewis W. Anderson",
+      "Dieter Jaksch",
+      "Martin Kiffner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.14614",
+    "title": "Measurement-device-independent quantum key distribution with asymmetric sources",
+    "abstract": "           Measurement-device-independent quantum key distribution (MDI-QKD), which eliminates all the attacks from the eavesdropper to the measurement party, has been one of the most promising technology for the implementation of end-to-end quantum networks. In practice, the asymmetry of both sources and channels is generally inevitable. Therefore, we propose a theory to analyze the performance when any two MDI users in networks communicates using asymmetric sources in distinct single or multiple temporal modes. As a specific application, we model to obtain the key rate of MDI-QKD with weak coherent pulse source and spontaneous parametric down-conversion source, and compare the performance to the cases with symmetric (i.e. identical) sources. The result demonstrates that the actual performance does not degrade due to the asymmetry of sources. In contrary, it maintains at a good level over the entire distance we study. This work provides a theoretical basis for analyzing and optimizing MDI-QKD networks with asymmetric sources, and thus paving the way for the practical deployment of completely asymmetric MDI-QKD networks.         ",
+    "url": "https://arxiv.org/abs/2504.14614",
+    "authors": [
+      "Jia-Jv Deng",
+      "Feng-Yu Lu",
+      "Zhen-Qiu Zhong",
+      "Xiao-Hai Zhan",
+      "Zhen-Qiang Yin",
+      "Shuang Wang",
+      "Wei Chen",
+      "De-Yong He",
+      "Guang-Can Guo",
+      "Zheng-Fu Han"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
