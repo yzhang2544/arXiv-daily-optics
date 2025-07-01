@@ -1,0 +1,542 @@
+[
+  {
+    "id": "arXiv:2506.21692",
+    "title": "Ultrastable nanophotonic microcavities via integrated thermometry",
+    "abstract": "           Integrated photonic devices that can be co-packaged with electronics and can operate in real-world environments will enable many important applications, such as optical interconnects, quantum information processing, precision measurements, spectroscopy, and microwave generation. Significant progress has been made over the past two decades on increasing the functional complexity of photonic chips. However, the most critical challenge that remains is the lack of scalable techniques to overcome perturbations arising from environmental thermal noise and thermal crosstalk from co-packaged electronics and other photonic devices sharing the same substrate. Here, we propose and demonstrate a fully-integrated scheme to monitor and stabilize the temperature of a high-Q microresonator in a Si-based chip. We show that when stabilized, the microresonator exhibits remarkable resilience against external thermal noise and can serve as a fully-integrated photonic frequency reference. By simply changing the temperature set-point, the cavity resonance frequency can be repeatably tuned without any hysteresis over several hours. We also show that the frequency of a distributed feedback (DFB) laser can be stabilized to this microresonator and realize a 48 dB reduction in its frequency drift, resulting in its center wavelength staying within +-0.5 pm of the mean over the duration of 50 hours in the presence of significant ambient fluctuations. This performance is superior to many commercial DFB systems and is highly suitable for use in data-communication systems. Finally, we demonstrate that the technique can be implemented to stabilize a soliton modelocked Kerr comb against significant ambient and crosstalk thermal noise, without the need for photodetection, paving the way for Kerr-comb-based photonic devices that can operate in the desired modelocked state indefinitely.         ",
+    "url": "https://arxiv.org/abs/2506.21692",
+    "authors": [
+      "Sai Kanth Dacha",
+      "Yun Zhao",
+      "Karl J. McNulty",
+      "Gaurang R. Bhatt",
+      "Michal Lipson",
+      "Alexander L. Gaeta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21702",
+    "title": "Focused Sampling for Low-Cost and Accurate Ehrenfest Modeling of Cavity Quantum Electrodynamics",
+    "abstract": "           An economic modeling approach for cavity quantum electrodynamics is provided by mean-field dynamics, wherein the optical field is described classically while a self-consistent interaction with quantum emitters is incorporated through the Ehrenfest theorem. However, conventional implementations of mean-field dynamics are known to suffer from a catastrophic leakage of zero-point energy, to lose accuracy in the short-cavity limit, and to require large numbers of trajectories to be sampled. Here, we address these three shortcomings within a single integrated approach. This approach builds on our recently-proposed modification of the Ehrenfest theorem, referred to as decoupled mean-field (DC-MF) dynamics, in combination with a focused sampling scheme that enforces zero-point energy at the single-trajectory level. The approach is shown to yield high accuracy in both short and long-cavity limits while reaching convergence within a minimal amount of trajectories.         ",
+    "url": "https://arxiv.org/abs/2506.21702",
+    "authors": [
+      "Ming-Hsiu Hsieh",
+      "Alex Krotz",
+      "Roel Tempelaar"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21748",
+    "title": "Inverse Design of Diffractive Metasurfaces Using Diffusion Models",
+    "abstract": "           Metasurfaces are ultra-thin optical elements composed of engineered sub-wavelength structures that enable precise control of light. Their inverse design - determining a geometry that yields a desired optical response - is challenging due to the complex, nonlinear relationship between structure and optical properties. This often requires expert tuning, is prone to local minima, and involves significant computational overhead. In this work, we address these challenges by integrating the generative capabilities of diffusion models into computational design workflows. Using an RCWA simulator, we generate training data consisting of metasurface geometries and their corresponding far-field scattering patterns. We then train a conditional diffusion model to predict meta-atom geometry and height from a target spatial power distribution at a specified wavelength, sampled from a continuous supported band. Once trained, the model can generate metasurfaces with low error, either directly using RCWA-guided posterior sampling or by serving as an initializer for traditional optimization methods. We demonstrate our approach on the design of a spatially uniform intensity splitter and a polarization beam splitter, both produced with low error in under 30 minutes. To support further research in data-driven metasurface design, we publicly release our code and datasets.         ",
+    "url": "https://arxiv.org/abs/2506.21748",
+    "authors": [
+      "Liav Hen",
+      "Erez Yosef",
+      "Dan Raviv",
+      "Raja Giryes",
+      "Jacob Scheuer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21806",
+    "title": "2D semiconductors as integrated light sources for plasmonic waveguides",
+    "abstract": "           2D materials are compatible with many material platforms as they adhere to other materials strictly by van der Waals interactions. This, together with the variety of band gaps found among transition metal dichalcogenides (TMDCs), makes them uniquely interesting to study for on-chip light sources, as the photonic integrated circuit (PIC) industry is developing into several material platforms depending on the application (gold, silicon, silicon nitride, indium phosphide, etc). 2D materials could thus potentially provide a universal on-chip light source (and detector) scheme for all PIC platforms in the future. Here we show recent results on how exfoliated monolayer TMDC flakes can be integrated with plasmonic slot-waveguides and plasmonic dipole antenna couplers to inject their photoluminescence into plasmonic waveguides as a first step towards future on-chip light sources for such systems.         ",
+    "url": "https://arxiv.org/abs/2506.21806",
+    "authors": [
+      "Christian Frydendahl",
+      "Torgom Yezekyan",
+      "Vladimir Zenin",
+      "Sergey I. Bozhevolnyi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21810",
+    "title": "Physics-informed neural network framework for solving forward and inverse flexoelectric problems",
+    "abstract": "           Flexoelectricity, the coupling between strain gradients and electric polarization, poses significant computational challenges due to its governing fourth-order partial differential equations that require C1-continuous solutions. To address these issues, we propose a physics-informed neural network (PINN) framework grounded in an energy-based formulation that treats both forward and inverse problems within a unified architecture. The forward problem is recast as a saddle-point optimization of the total potential energy, solved via the deep energy method (DEM), which circumvents the direct computation of high-order derivatives. For the inverse problem of identifying unknown flexoelectric coefficients from sparse measurements, we introduce an additional variational loss that enforces stationarity with respect to the electric potential, ensuring robust and stable parameter inference. The framework integrates finite element-based numerical quadrature for stable energy evaluation and employs hard constraints to rigorously enforce boundary conditions. Numerical results for both direct and converse flexoelectric effects show excellent agreement with mixed-FEM solutions, and the inverse model accurately recovers material parameters from limited data. This study establishes a unified, mesh-compatible, and scalable PINN approach for high-order electromechanical problems, offering a promising alternative to traditional simulation techniques.         ",
+    "url": "https://arxiv.org/abs/2506.21810",
+    "authors": [
+      "Hyeonbin Moon",
+      "Donggeun Park",
+      "Jinwook Yeo",
+      "Seunghwa Ryu"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21847",
+    "title": "Enhancement of J x B electron acceleration with the micro-structured target and picosecond high-contrast relativistic-intensity laser pulse",
+    "abstract": "           Efficient generation of multi-hundred-keV electrons is essential for isochoric heating and can influence ion acceleration. We investigated electron acceleration from copper-oleate foil targets, either planar or coated with a gold mesh structure (bar width $5,\\mu\\mathrm{m}$, spacing $7.5,\\mu\\mathrm{m}$, thickness $\\sim6,\\mu\\mathrm{m}$), irradiated by $1.5$-ps, $350$-J LFEX laser pulses. Two laser-contrast conditions were examined: high ($\\sim10^{10}$, with a plasma mirror) and low ($\\sim10^{8}$, without a plasma mirror). Using Cu-K$_\\alpha$ emission mapping, we found that under high-contrast irradiation the micro-structured target enhanced the laser-to-electron conversion efficiency from $4.9\\%$ to $14\\%$, attributed to multiple internal reflections that strengthen $J\\times B$ acceleration. In contrast, under low-contrast conditions the structures were filled with pre-plasma before the main pulse, and no enhancement was observed. These results demonstrate that both fine-scale structuring and high contrast are crucial for maximizing $J\\times B$-driven electron generation in laser-plasma interactions. Our findings suggest a practical approach to improving laser-plasma coupling efficiency by exploiting micro-structured surfaces and contrast-controlled irradiation.         ",
+    "url": "https://arxiv.org/abs/2506.21847",
+    "authors": [
+      "Ryunosuke Takizawa",
+      "Yuga Karaki",
+      "Hiroki Matsubara",
+      "Rinya Akematsu",
+      "Ryou Oomura",
+      "Law King Fai Farley",
+      "Hiroshi Azechi",
+      "Natsumi Iwata",
+      "Tomoyuki Johzaki",
+      "Yasuhiko Sentoku",
+      "Shinsuke Fujioka"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21979",
+    "title": "Generation of high power spatially-structured laser pulses via forward Raman amplification in plasma",
+    "abstract": "           Spatially-structured light with tunable intensity, wavelength, and spatiotemporal profiles has demonstrated significant potentials for fundamental and applied science, including the ultrafast and high-field physics. Nevertheless, the generation or amplification of such light towards extremely high power remains challenging due to the limitations of conventional gain media. Building upon our recently proposed forward Raman amplification (FRA) mechanism [Lei et al., Phys. Rev. Lett. 134, 255001 (2025)], here we develop a universal plasma-based amplification scheme that is capable of generating high-power structured laser beams, including vortex, Bessel, and Airy beams. Through theoretical modeling and multi-dimensional particle-in-cell simulations, we demonstrate that a near-infrared structured seed laser with an initial intensity of 1e12 W/cm2 can achieve 1e4~1e5-fold intensity amplification via FRA, and subsequently be self-compressed to sub-cycle duration with petawatt-level peak power. Benefiting from its exceptionally high amplification growth rate, the FRA process requires only femtosecond-scale interaction time and submillimeter propagation distance in plasma, effectively suppressing concomitant plasma instabilities. The high output intensity 1e17 W/cm2, compactness (<500 um), high temporal contrast, universal applicability to diverse structured beams, and relatively easy implementation with the co-propagating configuration combine to make the FRA a disruptive approach to the generation of petawatt-class spatially-structured light, enabling unprecedented applications in high-field physics and ultrafast science.         ",
+    "url": "https://arxiv.org/abs/2506.21979",
+    "authors": [
+      "Zhi-Yu Lei",
+      "Su-Ming Weng",
+      "Min Chen",
+      "Jie Zhang",
+      "Zheng-Ming Sheng"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21986",
+    "title": "Non-Hermitian Nested Hopf-Links and Conjoint Open-Arcs in Synthetic Non-Abelian Gauge Photonic Lattices",
+    "abstract": "           Non-Hermitian physics enriches the topological attributes of non-Abelian systems. Non-Abelian systems characterized by noncommutative braid patterns are associated with intriguing physical features and applications. Non-Abelian braiding of the non-Hermitian bands and anomalous skin mode localization may emerge due to a host of competing physical effects. The quest for the generality of their physical origin and the associated new phenomena, therefore, constitutes a pertinent question to consider. Here, we consider a synthetic gauge photonic lattice with competing sources of non-Hermiticity, i.e. NN and NNN hopping mismatches, non-Abelian SU(2) phases, and gain/loss processes. Formation of the distinctive braid patterns and nested Hopf-links is observed, which is followed by a non-Hermitian topological phase transition at EP and the opening of an imaginary gap beyond. The PBC and OBC eigenspectra and concomitant localization dynamics of the OBC eigenstates show rich physical features that are unattainable in their less complex counterparts. This includes the formation of the conjoint open-arcs in the OBC spectra which give rise to a completely localized purely dipole skin effect without any extended modes. This work sheds light on some of the key aspects of the synthetic non-Abelian gauge photonic systems in the presence of multiple competing non-Hermitian degrees of freedom that may stimulate further research in this direction.         ",
+    "url": "https://arxiv.org/abs/2506.21986",
+    "authors": [
+      "Samit Kumar Gupta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22077",
+    "title": "Design of Silicon Photonic microring resonators with complex waveguide cross-sections and minimal non-linearity",
+    "abstract": "           We present a model and a rigorous method to calculate the transmission coefficient of silicon micro-rings with complex waveguide cross-section including non-linear effects and self-heating, with very short simulation times. The method is applied to the design of MRRs in the SISCAP platform with high Q and reduced non-linearity, namely due to two photon absorption and free carrier absorption. We demonstrate that the free carrier diffusion in rib waveguides and Shockely-Read-Hall recombination play a fundamental role in reducing the impact of non-linearities in the ring.         ",
+    "url": "https://arxiv.org/abs/2506.22077",
+    "authors": [
+      "Stefania Cucco",
+      "Marco Novarese",
+      "Sebastian Romero Garcia",
+      "Jock Bovington",
+      "Mariangela Gioannini"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22124",
+    "title": "Narrow beam and low-sidelobe two-dimensional beam steering on thin-film lithium niobate optical phased array",
+    "abstract": "           Optical beam steering has become indispensable in free-space optical communications, light detection and ranging (LiDAR), mapping, and projection. Optical phased array (OPA) leads this field, yet conventional versions still suffer from a narrow steering field of view (FOV), insufficient sidelobe suppression, and limited angular resolution. Thin-film lithium niobate (LN), with its strong Pockels electro-optic (EO) effect, offers a powerful integrated-photonics platform to overcome these limitations. Here we present a two-dimensional (2D) EO-steered OPA based on a non-uniformly spaced X-cut thin-film LN ridge-waveguide array. A superlattice ridge design suppresses optical crosstalk to -20 dB, enabling low-sidelobe far-field radiation. Using particle swarm optimization (PSO) method, we transform a uniformly spaced array into an optimized non-uniform design, largely improving angular resolution while maintaining sidelobe suppression. When combined with a single-radiating trapezoidal end-fire emitter incorporating an etched grating, the device produces a main-lobe beam width of 0.99 degree*0.63 degree from an aperture of only 140 um*250 um, achieving a wide 2D steering range of 47 degree*9.36 degree with a 20 dB sidelobe-suppression ratio. These results highlight thin-film LN OPA as a compelling route toward heterogeneous, compact, and high-performance EO beam-steering modules and ultra-miniaturized optical modulators.         ",
+    "url": "https://arxiv.org/abs/2506.22124",
+    "authors": [
+      "Yang Li",
+      "Shiyao Deng",
+      "Xiao Ma",
+      "Ziliang Fang",
+      "Shufeng Li",
+      "Weikang Xu",
+      "Fangheng Fu",
+      "Xu Ouyang",
+      "Yuming Wei",
+      "Tiefeng Yang",
+      "Heyuan Guan",
+      "Huihui Lu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22151",
+    "title": "On efficiency of double ionization of a three-electron atom in moderate laser field intensities",
+    "abstract": "           We study double ionization in a one-dimensional model of a three-electron atom exposed to strong short laser fields. The corresponding ab initio simulations reveal a characteristic ``knee'' in the ionization yield at lower field intensities than in comparable two-electron systems. To understand the origin of this shift, a quantitative semi-analytic model for double ionization of a three-electron atom has been created. In this model, ionization is treated as a combination of different scenarios and channels. Each channel is simulated with either Quantitative Rescattering Theory (QRS) or two-electron ab initio model. Analysis of the semi-analytical results indicates that the shifted part of the ``knee'' is dominated by a recollision-excitation channel in which the rescattering electron initially escapes the parent atom from an inner orbital. This counterintuitive phenomenon is then discussed and explained.         ",
+    "url": "https://arxiv.org/abs/2506.22151",
+    "authors": [
+      "Dmitry Efimov"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22259",
+    "title": "Investigation of three-body F\u00f6rster resonance for various spatial configurations of the three interacting Rubidium Rydberg atoms",
+    "abstract": "           Three-body F\u00f6rster resonances controlled by a dc electric field are of interest for the implementation of three-qubit quantum gates with single atoms captured in optical traps and laser-excited into strongly interacting Rydberg states. In Ref. [P. Cheinet et al., Quantum Electronics 50(3), 213 (2020)], we proposed and analyzed a new type of three-body F\u00f6rster resonance ${\\rm 3}\\times nP_{3/2} \\to nS_{1/2} +(n+1)S_{1/2} +nP_{1/2}$ that can be realized with Rb Rydberg atoms for an arbitrary principal quantum number $n$. Its peculiarity is that the third atom goes into a state with a total angular moment $J=1/2$, which has no Stark structure, so two-body F\u00f6rster resonances are completely absent. In the present work, an extended theoretical study of this three-body F\u00f6rster resonance is performed for various spatial configurations of three interacting Rb Rydberg atoms and conditions for their experimental implementation are determined. It was found that one of the resonances has a weak dependence of the resonant electric field on the distance between atoms and is therefore most suitable for performing experiments to observe coherent oscillations of populations of collective three-body states and implement three-qubit quantum gates based on them.         ",
+    "url": "https://arxiv.org/abs/2506.22259",
+    "authors": [
+      "I.I.Ryabtsev",
+      "I.N.Ashkarin",
+      "I.I.Beterov",
+      "E.A.Yakshina",
+      "D.B.Tretyakov",
+      "V.M.Entin",
+      "P.Cheinet"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22265",
+    "title": "Quantum smell: tunneling mechanisms in olfaction",
+    "abstract": "           The mechanism by which odorants are recognized by olfactory receptors remains primarily unresolved. While charge transport is believed to play a significant role, its precise nature is still unclear. Here, we present a novel perspective by exploring the interplay between the intrinsic energy scales of odorant molecules and the gap states that facilitate intermolecular charge transport. We find that odorants act as weak tunneling conductors mainly because of the limited magnitude of electronic coupling. This behavior is further connected to electron-phonon interactions and reorganization energy, suggesting that physically meaningful values for these parameters emerge only in the deep off-resonant tunneling regime. These findings complement the swipe card model of olfaction, in which an odorant needs both the right shape to bind to a receptor and the correct vibrational frequency to trigger signal transduction. Moreover, they reveal that the underlying mechanisms are much more complex than previously assumed.         ",
+    "url": "https://arxiv.org/abs/2506.22265",
+    "authors": [
+      "Dominik Szcz\u0229\u015bniak",
+      "Ewa Drzazga-Szcz\u0229\u015bniak",
+      "Sabre Kais"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.13085",
+    "title": "Testing the quantum nature of gravity through interferometry",
+    "abstract": "           We propose a Michelson-type interferometric protocol for testing the quantum nature of gravity through testing the phenomenology of semi-classical gravity theory, which predicts a state-dependent Schrodinger-Newton (SN) evolution of the test mass. The protocol's feature lies in utilizing the asymmetry of two interferometric arms induced by SN self-gravity to create cross-talk between the common and differential motion of the test masses. This cross-talk is imprinted as a clean binary signature in the correlation measurements of the interferometer's output light fields. Our results demonstrate that, when assisted by 10 dB squeezed input states, 3 hours of aggregated measurement data can provide sufficient signal-to-noise ratio to conclusively test the SN theory in 1 Kelvin environment. This shows the strong feasibility of using such interferometric protocols to test if gravity operates quantum-mechanically.         ",
+    "url": "https://arxiv.org/abs/2506.13085",
+    "authors": [
+      "Yubao Liu",
+      "Yanbei Chen",
+      "Kentaro Somiya",
+      "Yiqiu Ma"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21640",
+    "title": "A Survey on Continuous Variable Quantum Key Distribution for Secure Data Transmission: Toward the Future of Secured Quantum-Networks",
+    "abstract": "           Quantum key distribution (QKD) represents a cornerstone of secure communication in the quantum era. While discrete-variable QKD (DV-QKD) protocols were historically the first to demonstrate secure key exchange, continuous-variable QKD (CV-QKD) has emerged as a more practical alternative due to its seamless compatibility with current telecommunications infrastructure. CV-QKD relies on coherent and squeezed states of light, offering significant advantages for integration into modern optical networks. This review comprehensively explores the theoretical underpinnings, technological advancements, and practical challenges of CV-QKD. Special attention is given to the role of photonic integrated circuits (PICs) in enabling scalable and efficient implementation of CV-QKD systems. Furthermore, recent advances in machine learning have been leveraged to optimize CV-QKD performance, with data-driven techniques enhancing noise estimation, parameter optimization, and system security. Additionally, tensor networks provide efficient computational tools for analyzing complex quantum correlations, improving the efficiency and robustness of quantum key distribution protocols. These developments, combined with ongoing improvements in quantum photonic integration, pave the way for the practical deployment of large-scale, high-speed quantum-secure networks.         ",
+    "url": "https://arxiv.org/abs/2506.21640",
+    "authors": [
+      "Mobin Motaharifar",
+      "Mahmood Hasani",
+      "Hassan Kaatuzian"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21952",
+    "title": "Physics-informed network paradigm with data generation and background noise removal for diverse distributed acoustic sensing applications",
+    "abstract": "           Distributed acoustic sensing (DAS) has attracted considerable attention across various fields and artificial intelligence (AI) technology plays an important role in DAS applications to realize event recognition and denoising. Existing AI models require real-world data (RWD), whether labeled or not, for training, which is contradictory to the fact of limited available event data in real-world scenarios. Here, a physics-informed DAS neural network paradigm is proposed, which does not need real-world events data for training. By physically modeling target events and the constraints of real world and DAS system, physical functions are derived to train a generative network for generation of DAS events data. DAS debackground net is trained by using the generated DAS events data to eliminate background noise in DAS data. The effectiveness of the proposed paradigm is verified in event identification application based on a public dataset of DAS spatiotemporal data and in belt conveyor fault monitoring application based on DAS time-frequency data, and achieved comparable or better performance than data-driven networks trained with RWD. Owing to the introduction of physical information and capability of background noise removal, the paradigm demonstrates generalization in same application on different sites. A fault diagnosis accuracy of 91.8% is achieved in belt conveyor field with networks which transferred from simulation test site without any fault events data of test site and field for training. The proposed paradigm is a prospective solution to address significant obstacles of data acquisition and intense noise in practical DAS applications and explore more potential fields for DAS.         ",
+    "url": "https://arxiv.org/abs/2506.21952",
+    "authors": [
+      "Yangyang Wan",
+      "Haotian Wang",
+      "Xuhui Yu",
+      "Jiageng Chen",
+      "Xinyu Fan",
+      "Zuyuan He"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22345",
+    "title": "Linearization Scheme of Shallow Water Equations for Quantum Algorithms",
+    "abstract": "           Computational fluid dynamics lies at the heart of many issues in science and engineering, but solving the associated partial differential equations remains computationally demanding. With the rise of quantum computing, new approaches have emerged to address these challenges. In this work, we investigate the potential of quantum algorithms for solving the shallow water equations, which are, for example, used to model tsunami dynamics. By extending a linearization scheme previously developed in [Phys. Rev. Research 7, 013036 (2025)] for the Navier-Stokes equations, we create a mapping from the nonlinear shallow water equation to a linear system of equations, which, in principle, can be solved exponentially faster on a quantum device than on a classical computer. To validate our approach, we compare its results to an analytical solution and benchmark its dependence on key parameters. Additionally, we implement a quantum linear system solver based on quantum singular value transformation and study its performance in connection to our mapping. Our results demonstrate the potential of applying quantum algorithms to fluid dynamics problems and highlight necessary considerations for future developments.         ",
+    "url": "https://arxiv.org/abs/2506.22345",
+    "authors": [
+      "Till Appel",
+      "Zofia Binczyk",
+      "Francesco Conoscenti",
+      "Petr Ivashkov",
+      "Seyed Ali Hosseini",
+      "Ricardo Garcia",
+      "Carmen Recio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22380",
+    "title": "Modeling the g-factors, hyperfine interaction and optical properties of semiconductor QDs: the atomistic and eight-band $k \\cdot p$ approaches",
+    "abstract": "           We present a detailed comparative study of two important theoretical approaches: atomistic sp$^3$d$^5$s$^*$ tight-binding and continuum eight-band $k \\cdot p$ methods, for modeling the spin and optical properties of quantum dots (QDs). Our investigation spans key physical observables, including single-particle energy levels, g-factors, exciton radiative lifetimes, and hyperfine-induced Overhauser field fluctuations. We perform our calculations for self-assembled InGaAs/GaAs QD systems as representative case studies. While both methods yield qualitatively consistent trends, quantitative discrepancies arise due to different treatment of atomistic details, strain effects, and confinement. We introduce targeted corrections to the eight-band $k \\cdot p$ framework, including a modified deformation potential scheme and adjusted remote-band contributions, to improve agreement with atomistic results, especially for electron g-factors and single-particle energies. Furthermore, we validate the eight-band implementation of hyperfine interactions by benchmarking it against the tight-binding model, showing reasonable convergence for both electrons and holes. Our results establish criteria for selecting the appropriate modeling framework based on the desired physical accuracy and computational efficiency in spin-optical studies of semiconductor QDs.         ",
+    "url": "https://arxiv.org/abs/2506.22380",
+    "authors": [
+      "Krzysztof Gawarecki",
+      "Alina Garbiec",
+      "Jakub Stanecki",
+      "Micha\u0142 Zieli\u0144ski"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22408",
+    "title": "Quantum-Classical Auxiliary Field Quantum Monte Carlo with Matchgate Shadows on Trapped Ion Quantum Computers",
+    "abstract": "           We demonstrate an end-to-end workflow to model chemical reaction barriers with the quantum-classical auxiliary field quantum Monte Carlo (QC-AFQMC) algorithm with quantum tomography using matchgate shadows. The workflow operates within an accelerated quantum supercomputing environment with the IonQ Forte quantum computer and NVIDIA GPUs on Amazon Web Services. We present several algorithmic innovations and an efficient GPU-accelerated execution, which achieves a several orders of magnitude speedup over the state-of-the-art implementation of QC-AFQMC. We apply the algorithm to simulate the oxidative addition step of the nickel-catalyzed Suzuki-Miyaura reaction using 24 qubits of IonQ Forte with 16 qubits used to represent the trial state, plus 8 additional ancilla qubits for error mitigation, resulting in the largest QC-AFQMC with matchgate shadow experiments ever performed on quantum hardware. We achieve a $9\\times$ speedup in collecting matchgate circuit measurements, and our distributed-parallel post-processing implementation attains a $656\\times$ time-to-solution improvement over the prior state-of-the-art. Chemical reaction barriers for the model reaction evaluated with active-space QC-AFQMC are within the uncertainty interval of $\\pm4$ kcal/mol from the reference CCSD(T) result when matchgates are sampled on the ideal simulator and within 10 kcal/mol from reference when measured on QPU. This work marks a step towards practical quantum chemistry simulations on quantum devices while identifying several opportunities for further development.         ",
+    "url": "https://arxiv.org/abs/2506.22408",
+    "authors": [
+      "Luning Zhao",
+      "Joshua J. Goings",
+      "Willie Aboumrad",
+      "Andrew Arrasmith",
+      "Lazaro Calderin",
+      "Spencer Churchill",
+      "Dor Gabay",
+      "Thea Harvey-Brown",
+      "Melanie Hiles",
+      "Magda Kaja",
+      "Matthew Keesan",
+      "Karolina Kulesz",
+      "Andrii Maksymov",
+      "Mei Maruo",
+      "Mauricio Mu\u00f1oz",
+      "Bas Nijholt",
+      "Rebekah Schiller",
+      "Yvette de Sereville",
+      "Amy Smidutz",
+      "Felix Tripier",
+      "Grace Yao",
+      "Trishal Zaveri",
+      "Coleman Collins",
+      "Martin Roetteler",
+      "Evgeny Epifanovsky",
+      "Arseny Kovyrshin",
+      "Lars Tornberg",
+      "Anders Broo",
+      "Jeff R. Hammond",
+      "Zohim Chandani",
+      "Pradnya Khalate",
+      "Elica Kyoseva",
+      "Yi-Ting Chen",
+      "Eric M. Kessler",
+      "Cedric Yen-Yu Lin",
+      "Gandhi Ramu",
+      "Ryan Shaffer",
+      "Michael Brett",
+      "Benchen Huang",
+      "Maxime R. Hugues",
+      "Tyler Y. Takeshita"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.22426",
+    "title": "Single-shot HDR using conventional image sensor shutter functions and optical randomization",
+    "abstract": "           High-dynamic-range (HDR) imaging is an essential technique for overcoming the dynamic range limits of image sensors. The classic method relies on multiple exposures, which slows capture time, resulting in motion artifacts when imaging dynamic scenes. Single-shot HDR imaging alleviates this issue by encoding HDR data into a single exposure, then computationally recovering it. Many established methods use strong image priors to recover improperly exposed image detail. These approaches struggle with extended highlight regions. We utilize the global reset release (GRR) shutter mode of an off-the-shelf sensor. GRR shutter mode applies a longer exposure time to rows closer to the bottom of the sensor. We use optics that relay a randomly permuted (shuffled) image onto the sensor, effectively creating spatially randomized exposures across the scene. The exposure diversity allows us to recover HDR data by solving an optimization problem with a simple total variation image prior. In simulation, we demonstrate that our method outperforms other single-shot methods when many sensor pixels are saturated (10% or more), and is competitive at a modest saturation (1%). Finally, we demonstrate a physical lab prototype that uses an off-the-shelf random fiber bundle for the optical shuffling. The fiber bundle is coupled to a low-cost commercial sensor operating in GRR shutter mode. Our prototype achieves a dynamic range of up to 73dB using an 8-bit sensor with 48dB dynamic range.         ",
+    "url": "https://arxiv.org/abs/2506.22426",
+    "authors": [
+      "Xiang Dai",
+      "Kyrollos Yanny",
+      "Kristina Monakhova",
+      "Nicholas Antipa"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Graphics (cs.GR)",
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.01499",
+    "title": "Manifold-based transformation of probability distributions: application to the inverse problem of reconstructing distributions from experimental data",
+    "abstract": "           Information geometry is a mathematical framework that elucidates the manifold structure of the probability distribution space (p-space), providing a systematic approach to transforming probability distributions (PDs). In this study, we utilized information geometry to address the inverse problems associated with reconstructing PDs from experimental data. Our initial finding is that the Kullback-Leibler divergence, often considered non-metric owing to its asymmetry, can serve as a valid metric under specific geometric conditions on the manifold. Based on this finding, we formulated the manifold-based gradient descent (MBGD) method, which was employed to visualize the internal structures -- represented as PDs -- of two types of systems: those with static constituent elements and those with dynamic state transitions. Through the application of MBGD, we successfully reconstructed the underlying PDs for both types of systems, outperforming the standard gradient descent methods that neglect the manifold structure of p-space. Therefore, the present results demonstrate the essentiality of accounting for the manifold structure of p-space in the inverse problems of reconstructing PDs. The ability of MBGD to accurately reconstruct PDs for systems with dynamic state transitions underscores its potential to provide valuable physical insights by visualizing internal structures.         ",
+    "url": "https://arxiv.org/abs/2410.01499",
+    "authors": [
+      "Tomotaka Oroguchi",
+      "Rintaro Inoue",
+      "Masaaki Sugiyama"
+    ],
+    "subjectives": [
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.06260",
+    "title": "Evaluation of Coincidence Time Resolution in a liquid xenon detector with silicon photomultipliers",
+    "abstract": "           This work explores the combination of liquid xenon as a scintillating medium and silicon photomultipliers as a readout in Positron Emission Tomography (PET) for enhanced Time-Of-Flight resolution. We present the results of our first prototype optimized to maximize light collection using high-PDE, VUV-sensitive sensors and to minimize time fluctuations. We report a coincidence time resolution of 281 $\\pm$ 2 ps FWHM, obtained using a $^{22}$Na calibration source. This result is competitive with the current state-of-the-art PET scanners and represents a significant step forward in the development of liquid xenon as a viable alternative to conventional scintillators in PET technology.         ",
+    "url": "https://arxiv.org/abs/2412.06260",
+    "authors": [
+      "N. Salor-Igui\u00f1iz",
+      "J.M. Benlloch-Rodr\u00edguez",
+      "R. Esteve",
+      "C. Romo-Luque",
+      "R.J. Aliaga",
+      "V. \u00c1lvarez",
+      "F. Ballester",
+      "R. Gadea",
+      "F. Monrabal",
+      "M. Querol",
+      "M. Rappaport",
+      "J. Rodr\u00edguez",
+      "J. Rodr\u00edguez-Ponce",
+      "S. Teruel-Pardo",
+      "J.F. Toledo",
+      "R. Torres-Curado",
+      "P. Ferrario",
+      "V. Herrero",
+      "J.J. G\u00f3mez-Cadenas"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.19352",
+    "title": "Topology optimization of a superabsorbing thin-film semiconductor metasurface",
+    "abstract": "           We demonstrate a computational inverse design method for optimizing broadband-absorbing metasurfaces made of arbitrary dispersive media. Our figure of merit is the time-averaged instantaneous power dissipation in a single unit cell within a periodic array. Its time-domain formulation allows capturing the response of arbitrary dispersive media over any desired spectral range. Employing the time-domain adjoint method within a topology optimization framework enables the design of complex metasurface structures exhibiting unprecedented broadband absorption. We applied the method to a thin-film Silicon-on-insulator configuration and explored the impact of structural and (time-domain inherent) excitation parameters on performance over the visible-ultraviolet. Since our incorporated material model can represent any linear material, the method can also be applied to other all-dielectric, plasmonic, or hybrid configurations.         ",
+    "url": "https://arxiv.org/abs/2502.19352",
+    "authors": [
+      "Johannes Gedeon",
+      "Izzatjon Allayarov",
+      "Emadeldeen Hassan",
+      "Antonio Cal\u00e0 Lesina"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.05188",
+    "title": "Breakdown of Bulk-Radiation Correspondence in Radiative Photonic Lattices",
+    "abstract": "           The topological characteristics of energy bands in crystalline systems are encapsulated in the Berry curvature of the bulk Bloch states. In photonic crystal slabs, far-field emission from guided resonances naturally provides a non-invasive way to probe the embedded wavefunctions, raising the question of how the information carried by escaping photons relates to the band topology. We develop a non-Hermitian model to describe the guided and leaky modes of photonic crystal slabs with long-range couplings and non-local responses. Within this framework, radiation Berry curvature is defined from the far-field polarization and compared to the conventional bulk Berry curvature of the crystal Bloch modes. We investigate this bulk-radiation correspondence in the vicinity of the $\\Gamma$-point of the square lattice and the $K$-point of the honeycomb lattice. The results show that the comparability between the bulk topology and the radiation topology is not universal; the validity is contingent upon the specific bulk Bloch states. Notably, the correspondence completely breaks down surrounding the far-field singularities, while it can hold in smooth regions under special symmetry conditions, e.g., rotational symmetry. Besides, net Berry curvature concentration is captured at the valleys of the non-local honeycomb lattice, facilitating further exploration on generalized topological phases in photonic lattices beyond the regimes with localized couplings and Hermiticity.         ",
+    "url": "https://arxiv.org/abs/2504.05188",
+    "authors": [
+      "Xinyi Yuan",
+      "Lo\u00efc Malgrey",
+      "Helgi Sigur\u00f0sson",
+      "Hai Son Nguyen",
+      "Grazia Salerno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.21388",
+    "title": "Broadband nonlinear optical microresonator array for topological second harmonic generation",
+    "abstract": "           Topological photonics enables robust light manipulation with third-order optical nonlinearity, yet integrating second-order optical nonlinearity into a topological system faces fundamental challenges: frequency-dependent topological bandgaps impede simultaneous edge states for pump and second harmonic photons at an octave. Here we present a broadband topological nonlinear photonic system via dual frequency topological bandgap engineering in a 2D nonlinear microresonator array. By designing a square lattice with synthetic magnetic fluxes, we achieve topological phase matching preserving unidirectional edge states for both frequencies while enabling efficient second-harmonic generation. The system exhibits flux-programmable SH chirality, where SH photons reverse propagation direction via Chern number transitions (e.g. C = -1 to +1) without sacrificing robustness. Moreover, we show that the design theoretically yields over 100 times higher SHG efficiency than single resonators at high powers via topology-enhanced coherent buildup. Our topological SHG works in a parameter regime that can be readily accessed by using existing low-loss integrated photon platforms like thin film lithium niobite.         ",
+    "url": "https://arxiv.org/abs/2506.21388",
+    "authors": [
+      "Ruoyu Wang",
+      "Yiming Pan",
+      "Xiaoqin Shen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2003.02181",
+    "title": "A Quantum Algorithm for Model-Independent Searches for New Physics",
+    "abstract": "           We propose a novel quantum technique to search for unmodeled anomalies in multidimensional binned collider data. We propose associating an Ising lattice spin site with each bin, with the Ising Hamiltonian suitably constructed from the observed data and a corresponding theoretical expectation. In order to capture spatially correlated anomalies in the data, we introduce spin-spin interactions between neighboring sites, as well as self-interactions. The ground state energy of the resulting Ising Hamiltonian can be used as a new test statistic, which can be computed either classically or via adiabatic quantum optimization. We demonstrate that our test statistic outperforms some of the most commonly used goodness-of-fit tests. The new approach greatly reduces the look-elsewhere effect by exploiting the typical differences between statistical noise and genuine new physics signals.         ",
+    "url": "https://arxiv.org/abs/2003.02181",
+    "authors": [
+      "Konstantin T. Matchev",
+      "Prasanth Shyamsundar",
+      "Jordan Smolinsky"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2309.01928",
+    "title": "Questionable and Unquestionable in Quantum Mechanics",
+    "abstract": "           According to the Kolmogorovian Censorship Hypothesis, everything that quantum theory says about the world in the language of the quantum mechanical Hilbert space formalism is actually about relationships between ordinary relative frequencies expressible in operational terms using classical Kolmogorovian probability theory. In other words, a quantum theoretical description of a system should in principle be translatable into a purely operational-probabilistic description. However, our goal in this paper is different; we do not want to deal with the problem how to translate the known theory of quantum mechanics into operational terms, or to reconstruct the theory from postulates which can be interpreted in operational terms. Our aim is somewhat broader and points in the opposite direction. We start with a general scheme for the operational description of an arbitrary physical system. The description is based solely on the notion of observable events (measurement operations and measurement results) and on general, empirically established simple laws concerning their relative frequency. These laws are so simple and fundamental that they apply equally to any physical system. In the first part of the paper, we outline the basic elements of such an operational-probabilistic theory. In the second part, we discuss how this operational-probabilistic description compares to the quantum mechanical description and to what extent the standard Hilbert space quantum mechanics can be regarded as a reformulation of the general operational-probabilistic theory.         ",
+    "url": "https://arxiv.org/abs/2309.01928",
+    "authors": [
+      "Laszlo E. Szabo",
+      "Marton Gomori",
+      "Zalan Gyenis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.05093",
+    "title": "A Hierarchical Approach to Quantum Many-Body Systems in Structured Environments",
+    "abstract": "           Open quantum systems that feature non-Markovian dynamics are routinely solved using techniques such as the Hierarchical Equations of Motion (HEOM). However, their usage of the entire system density-matrix renders them intractable for many-body systems. Here, we combine the HEOM with the Bogoliubov-Born-Green-Kirkwood-Yvon (BBGKY) hierarchy to achieve a rigorous description of open many-body systems in contact with structured photonic and phononic baths. We first rationalize that this stacked hierarchy accounts for spin-squeezing and superradiant emission despite its applicability to arbitrarily many emitters. The full potential of BBGKY-HEOM is then illustrated for two relevant applications: (i) the explicit treatment of vibrational modes provides access to resonant enhancements in few-emitter lasing, and (ii) the impact of phononic coupling and charge noise on many-body electronic systems embedded in host materials (e.g. molecules in organic crystals) is as relevant as electronic correlation. Our work establishes an accessible, yet rigorous, route between condensed matter and quantum optics, fostering the growth of a new domain at their interface.         ",
+    "url": "https://arxiv.org/abs/2405.05093",
+    "authors": [
+      "Kai M\u00fcller",
+      "Kimmo Luoma",
+      "Christian Sch\u00e4fer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.14359",
+    "title": "Information Dynamics in Quantum Harmonic Systems: Insights from Toy Models",
+    "abstract": "           This study explores quantum information dynamics using a toy model of coupled harmonic oscillators, focusing on the interplay between mutual information, synchronization, and circuit complexity. We examine how variations in coupling strength, detuning and external factors, such as a magnetic field, influence information flow and computational metrics. Through exact Gaussian methods we determine the circuit depth for generating target states, examine time-dependent effects, and show that increased fidelity corresponds to more regular behavior. In the context of ion transport, we compare sudden and adiabatic protocols, quantifying their fidelity-complexity through a nonadiabaticity metric. This analysis demonstrates the superior performance of smooth control sequences in minimizing operational errors. We also establish synchronization and mutual information as complementary but distinct measures of quantum correlations, with particularly divergent behavior in nonlinear regimes.         ",
+    "url": "https://arxiv.org/abs/2501.14359",
+    "authors": [
+      "Reza Pirmoradian",
+      "M Reza Tanhayi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
