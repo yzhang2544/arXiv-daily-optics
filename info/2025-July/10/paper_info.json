@@ -1,0 +1,612 @@
+[
+  {
+    "id": "arXiv:2507.06241",
+    "title": "Fully integrated automatic reusable microfluidic setup for immobilization, analysis and non-selective release of particles",
+    "abstract": "           We present a microfluidic device that enables trapping, analysis, and on-demand release of individual microparticles through membrane deformation driven by pneumatic actuation. Inspired by Pachinko-style architectures, the system features an array of traps supported by a deformable PDMS membrane, actuated via pressure control in a pneumatic chamber bonded above. Unlike conventional rigid designs, our configuration enhances membrane flexibility using a wide elliptical cavity and suspended rectilinear flow guides. Device characterization was performed using confocal microscopy to measure membrane deformation under controlled negative pressure. The displacement profiles obtained were compared to several theoretical models, showing strong agreement with a thick-membrane approximation. Vertical membrane displacement exceeded 120 $\\mu$m under -100 mbar, allowing release of 80 $\\mu$m particles. We demonstrated rapid and repeatable particle trapping and release by applying coordinated fluidic and pneumatic pressures. The system was further integrated with a Python-based control interface using $\\mu$Manager libraries, enabling automated sequences of particle trapping, imaging, and release. The protocol includes automated priming to eliminate air bubbles in the microchannels. This work introduces a robust and fully automated microfluidic platform capable of reversible microparticle immobilization. It is well suited for applications such as high-throughput screening, mechanobiology, or real-time imaging workflows that require precise control over individual object handling.         ",
+    "url": "https://arxiv.org/abs/2507.06241",
+    "authors": [
+      "Alexandre Chargueraud",
+      "Lars Kool",
+      "Jacques Fattaccioli"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06403",
+    "title": "Ultra-high-gain water-window X-ray laser driven by plasma photocathode wakefield acceleration",
+    "abstract": "           X-ray free-electron lasers are large and complex machines, limited by electron beam brightness. Here we show through start-to-end simulations how to realise compact, robust and tunable X-ray lasers in the water window, based on ultra-bright electron beams from plasma wakefield accelerators. First, an ultra-low-emittance electron beam is released by a plasma photocathode in a metre-scale plasma wakefield accelerator. By tuning the beam charge, space-charge forces create a balance between beam fields and wakefields that reduces beam energy spread and improves energy stability - both critical for beam extraction, transport, and focusing into a metre-scale undulator. Here, the resulting ultra-bright beams produce wavelength-tunable, coherent, femtosecond scale photon pulses at ultra-high gain. This regime enables reliable generation of millijoule-gigawatt-class X-ray laser pulses across the water window, offering tunability via the witness beam charge and robustness against variations in plasma wakefield strength. Our findings help democratise access to coherent, high-power, soft X-ray radiation.         ",
+    "url": "https://arxiv.org/abs/2507.06403",
+    "authors": [
+      "Lily H. A. Berman",
+      "David Campbell",
+      "Edgar Hartmann",
+      "Thomas Heinemann",
+      "Thomas Wilson",
+      "Bernhard Hidding",
+      "Ahmad Fahim Habib"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06420",
+    "title": "Equivalent circuit modelling as a design tool for particle accelerator RF components",
+    "abstract": "           This paper presents a comprehensive approach to generating and utilizing accurate equivalent circuits for structures commonly found in the particle accelerator domain. After a discussion of equivalent circuits in general, a systematic process for determining the appropriate circuit topology is outlined, and a method for finding circuit element values is introduced. The proposed methodology is demonstrated in detail, supported by four illustrative examples. Equivalent circuit element values are provided. An example of a decomposition strategy for handling complex structures is given. Additionally, a list of typical applications of equivalent circuits is provided with brief descriptions.         ",
+    "url": "https://arxiv.org/abs/2507.06420",
+    "authors": [
+      "Dieter Pelz",
+      "Mark Boland"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06468",
+    "title": "Resonant microtaper leaky-mode computational spectropolarimetry with tens of femtometers spectral resolution and full stokes measurement",
+    "abstract": "           Emerging computational measurement techniques for acquiring multi-dimensional optical field information, such as spectrum and polarization, are rapidly advancing and offer promising solutions for realizing high-performance miniature systems. The performance of these computational measurement approaches is critically influenced by the choice of random media, yet a general framework for evaluating different implementations remains absent. Here, we propose a universal analytical model for computational measurement systems and reveal that the system resolution is fundamentally determined by the maximum optical path difference (OPD) permitted within the random medium. Building on this theoretical foundation, we present a resonant leaky-mode (RLM) spectropolarimeter that achieves a record high resolution-footprint-product metric. The RLM spectropolarimeter leverages the complex coupling between leaky modes in a tapered coreless optical fiber and whispering-gallery modes (WGM) of microsphere to significantly enhance the maximum OPD within a compact footprint. We simultaneously achieve an ultrahigh spectral resolution of 0.02 pm, a spectral measurement bandwidth of 150 nm, and full-Stokes polarization measurement with an accuracy of $4.732 \\times 10^{-6}$, all within a sub-square-millimeter footprint. The proposed theoretical model clarifies the key factors governing the performance of computational measurement systems based on random media and may inspires novel design of advanced computational measurement systems for optical field. The demonstrated RLM spectropolarimeter offers a potential approach for highly integrated, high-performance multi-dimensional optical field measurement.         ",
+    "url": "https://arxiv.org/abs/2507.06468",
+    "authors": [
+      "Yangyang Wan",
+      "QianYu Zhou",
+      "Lin Ma",
+      "Xinyu Fan",
+      "Zuyuan He"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06473",
+    "title": "Expressive and Unclonable Photonic Circuits Based on Disordered Moir\u00e9 Quasicrystals",
+    "abstract": "           Structural symmetry in photonics has long been exploited to engineer devices with predictable, analytically describable behaviors. Yet this predictability often limits their expressivity, constraining complex interactions essential for advanced functionalities in computing, sensing, and security. Here we demonstrate how low symmetry integrated photonic circuits can unlock enhanced mode diversity and rich spectral complexity, enabling highly non-linear transformations of input signals into outputs. Our devices, physically unclonable moir\u00e9 quasicrystal interferometers integrated on a silicon photonics platform, exhibit aperiodic and reconfigurable spectral responses and are characterized by analyticity breaking and erasable mutual information. Using dynamic thermo-optic control to drive their complex spectral dynamics, we demonstrate that these devices function as reconfigurable physical unclonable functions (rPUFs). We also highlight their ability to perform high-dimensional input--output transformations, emulating reservoir-inspired information processing in a compact photonic platform. This work bridges the gap between engineered and natural complexity in photonic systems, revealing new opportunities for scalable, energy-efficient, and information-dense opto-electronics with applications in secure communications, hardware security, advanced sensing, and optical information processing. Our results establish low-symmetry integrated photonics as a powerful resource for complex signal manipulation in photonic systems.         ",
+    "url": "https://arxiv.org/abs/2507.06473",
+    "authors": [
+      "Farhan Bin Tarik",
+      "Yingjie Lao",
+      "Mustafa Hammood",
+      "Jonathan Barnes",
+      "Madeline Mahanloo",
+      "Lukas Chrostowski",
+      "Taufiquar Khan",
+      "Judson D. Ryckman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06480",
+    "title": "Periodic Korteweg-de Vries soliton potentials generate quasisymmetric magnetic field strength in a finite plasma-beta equilibrium",
+    "abstract": "           Quasisymmetry (QS) is a hidden symmetry of the magnetic field strength, B, that enables effective confinement of charged particles in a fully three-dimensional (3D) toroidal plasma equilibrium. Such equilibria are typically modeled by the ideal magnetohydrostatic (MHS) equation. The nonlinear, overdetermined nature of the quasisymmetric MHS equations severely complicates our understanding of the interplay between 3D shaping, equilibrium properties such as pressure and rotational transform, and B. Progress has been made through expansions near the magnetic axis; however, a more comprehensive theory is desirable. Using a combination of analysis and regression on a large dataset of numerically optimized quasisymmetric stellarators, we demonstrate that there is a hidden lower dimensionality of B on a magnetic flux surface with connections to the theory of periodic solitons. We show that $B$ on a flux surface is determined by three or at most four flux functions, each of which is a critical value of the derivative of B along the field line. While being consistent with the near-axis models, our results are global and hold even on the last closed flux surface.         ",
+    "url": "https://arxiv.org/abs/2507.06480",
+    "authors": [
+      "W. Sengupta",
+      "R. Madan",
+      "S. Buller",
+      "N. Nikulsin",
+      "E.J. Paul",
+      "R. Nies",
+      "A.A. Kaptanoglu",
+      "S.R. Hudson",
+      "A. Bhattacharjee"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06587",
+    "title": "Illuminating the Future: Nanophotonics for Future Green Technologies, Precision Healthcare, and Optical Computing",
+    "abstract": "           Nanophotonics, an interdisciplinary field merging nanotechnology and photonics, has enabled transformative advancements across diverse sectors including green energy, biomedicine, and optical computing. This review comprehensively examines recent progress in nanophotonic principles and applications, highlighting key innovations in material design, device engineering, and system integration. In renewable energy, nanophotonic allows light-trapping nanostructures and spectral control in perovskite solar cells, concentrating solar power, and thermophotovoltaics. That have significantly enhanced solar conversion efficiencies, approaching theoretical limits. For biosensing, nanophotonic platforms achieve unprecedented sensitivity in detecting biomolecules, pathogens, and pollutants, enabling real-time diagnostics and environmental monitoring. Medical applications leverage tailored light-matter interactions for precision photothermal therapy, image-guided surgery, and early disease detection. Furthermore, nanophotonics underpins next-generation optical neural networks and neuromorphic computing, offering ultra-fast, energy-efficient alternatives to von Neumann architectures. Despite rapid growth, challenges in scalability, fabrication costs, and material stability persist. Future advancements will rely on novel materials, AI-driven design optimization, and multidisciplinary approaches to enable scalable, low-cost deployment. This review summarizes recent progress and highlights future trends, including novel material systems, multidisciplinary approaches, and enhanced computational capabilities, to pave the way for transformative applications in this rapidly evolving field.         ",
+    "url": "https://arxiv.org/abs/2507.06587",
+    "authors": [
+      "Osama M. Halawa",
+      "Esraa Ahmed",
+      "Malk M. Abdelrazek",
+      "Yasser M. Nagy",
+      "Omar A. M. Abdelraouf"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)",
+      "Applied Physics (physics.app-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06703",
+    "title": "Optimizing the incident electron momentum for resonant few-photon Kapitza-Dirac scattering in bichromatic laser fields",
+    "abstract": "           Nonrelativistic Kapitza-Dirac scattering of electrons from counterpropagating bichromatic laser waves is studied in the resonant Bragg regime, taking the electron spin into account. We show that the intrinsic field-induced detuning, which arises in the Rabi oscillation dynamics between initial and scattering state of the electron, can be compensated by a suitable adjustment of its incident momentum. Analytical formulas of the optimized electron momentum for spin-dependent three-photon and spin-independent four-photon Kapitza-Dirac scattering are obtained from simplified model systems in reduced dimensionality, which preserve the characteristic properties of the process.         ",
+    "url": "https://arxiv.org/abs/2507.06703",
+    "authors": [
+      "Ingo Elsner",
+      "Carsten M\u00fcller"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06727",
+    "title": "Fast Forward and Inverse Thermal Modeling for Parameter Estimation of Multi-Layer composites -- Part I: Forward Modeling",
+    "abstract": "           This study presents fast and accurate analytical methods for transient thermal modeling in multi-layer composites with an arbitrary number of layers. The proposed approach accounts for internal heat generation and non-homogeneities in the heat diffusion equation. The separation of variables (SOV) method is employed to decouple spatial and temporal components, enabling the determination of eigenvalues. The orthogonal expansion (OE) technique is then applied to compute Fourier coefficients using 'natural' orthogonality. An analytical solution for composites with constant heat sources is developed by combining the SOV method and OE technique. Additionally, a Green's function (GF) based approach is formulated to handle transient heat sources and other non-homogeneous conditions, including temperature-dependent thermal conductivity. The results demonstrate that the proposed method offers significantly faster computations compared to finite element (FE) methods, while maintaining high accuracy. This forward modeling approach serves as an efficient basis for inverse modeling, aimed at estimating unknown material properties and geometric deformations, which are explored in Part II of this study.         ",
+    "url": "https://arxiv.org/abs/2507.06727",
+    "authors": [
+      "Gan Fu",
+      "Calina Ciuhu",
+      "Mitrofan Curti",
+      "Elena A. Lomonova"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06746",
+    "title": "Fast Forward and Inverse Thermal Modeling for Parameter Estimation of Multi-Layer Composites -- Part II: Inverse Modeling and Applications",
+    "abstract": "           A fast inverse heat conduction model (IHCM) is developed for estimating unknown properties of multi-layer composites considering internal heat generation. This work builds on the validated analytical forward models presented in Part I. Transient temperature at a single point is used as input, with the objective function minimized through an interior-point optimization algorithm. The IHCM accurately estimates thermal properties such as thermal conductivity, specific heat capacity, density, and heat transfer coefficient. It also identifies internal geometric variations and their locations, such as delamination caused by thermal expansion or mechanical motion. These predictions are validated through finite element (FE) simulations. Additionally, a sensorless strategy is introduced, providing a non-invasive inverse modeling approach. The feasibility, sensitivity and limitations of the proposed IHCM are evaluated across various scenarios. The results demonstrate strong potential for applications such as thermal performance monitoring, online defect detection, and real-time diagnostics in multi-layer composite systems.         ",
+    "url": "https://arxiv.org/abs/2507.06746",
+    "authors": [
+      "Gan Fu",
+      "Mitrofan Curti",
+      "Calina Ciuhu",
+      "Elena A. Lomonova"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06783",
+    "title": "Temperature-Dependent Emission Spectroscopy of Quantum Emitters in Hexagonal Boron Nitride",
+    "abstract": "           Color centers in hexagonal boron nitride (hBN) have attracted significant interest due to their potential applications in future optical quantum technologies. For most applications, scalable on-demand fabrication is a key requirement. Recent advances using localized electron irradiation have demonstrated near-identical emitters in the blue and yellow spectral regions. While the blue emitters have been demonstrated in cryogenic temperatures, the yellow emitters remain uncharacterized under such conditions. In this work, we therefore extended the study of yellow emitters to cryogenic temperatures. Initially, multiple spectral features were observed, prompting a systematic investigation that led to the identification of a defect emission centered around 547.5 nm with high brightness and excellent photostability. By tuning the excitation wavelength, we are able to distinguish Raman scattering peaks from the emitter emission. Further analysis of the vibronic emissions allowed us to identify an optical phonon mode, whose contribution becomes increasingly dominant at elevated temperatures. Photoluminescence excitation spectroscopy (PLE) reveals excitation through this phonon mode enhances the emission by almost 5-fold in cryogenic temperature. Temperature-dependent studies further elucidate the role of phonons in the emission process. These observations deepen our understanding of the nature of the emitters, opening new avenues for precise tuning of quantum light sources.         ",
+    "url": "https://arxiv.org/abs/2507.06783",
+    "authors": [
+      "Mouli Hazra",
+      "Manuel Rieger",
+      "Anand Kumar",
+      "Mohammad N. Mishuk",
+      "Chanaprom Cholsuk",
+      "Kabilan Sripathy",
+      "Viviana Villafa\u00f1e",
+      "Kai M\u00fcller",
+      "Jonathan J. Finley",
+      "Tobias Vogl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.07099",
+    "title": "Sensitivity and Topology of Exceptional Rings in Nonlinear Non-Hermitian Planar Optical Microcavities",
+    "abstract": "           Non-Hermitian systems hosting exceptional points (EPs) exhibit enhanced sensitivity and unconventional mode dynamics. Going beyond isolated EPs, here we report on the existence of exceptional rings (ERs) in planar optical resonators with specific form of circular dichroism and TE-TM splitting. Such exceptional rings possess intriguing topologies as discussed earlier for condensed matter systems, but they remain virtually unexplored in presence of nonlinearity, for which our photonic platform is ideal. We find that when Kerr-type nonlinearity (or saturable gain) is introduced, the linear ER splits into two concentric ERs, with the larger-radius ring being a ring of third-order EPs. Transitioning from linear to nonlinear regime, we present a rigorous analysis of spectral topology and report enhanced and adjustable perturbation response in the nonlinear regime. Whereas certain features are specific to our system, the results on non-Hermitian spectral topology and nonlinearity-enhanced perturbation response are generic and equally relevant to a broad class of other nonlinear non-Hermitian systems, providing a universal framework for engineering ERs and EPs in nonlinear non-Hermitian systems.         ",
+    "url": "https://arxiv.org/abs/2507.07099",
+    "authors": [
+      "Jan Wingenbach",
+      "Laura Ares",
+      "Xuekai Ma",
+      "Nai H. Kwong",
+      "Jan Sperling",
+      "Rolf Binder",
+      "Stefan Schumacher"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06308",
+    "title": "Fibonacci Waveguide Quantum Electrodynamics",
+    "abstract": "           Waveguide quantum electrodynamics (QED) provides a powerful framework for engineering quantum interactions, traditionally relying on periodic photonic arrays with continuous energy bands. Here, we investigate waveguide QED in a fundamentally different environment: A one-dimensional photonic array whose hopping strengths are structured aperiodically according to the deterministic Fibonacci-Lucas substitution rule. These \"Fibonacci waveguides\" lack translational invariance and are characterized by a singular continuous energy spectrum and critical eigenstates, representing a deterministic intermediate between ordered and disordered systems. We demonstrate how to achieve decoherence-free, coherent interactions in this unique setting. We analyze two paradigmatic cases: (i) Giant emitters resonantly coupled to the simplest aperiodic version of a standard waveguide. For these, we show that atom photon bound states form only for specific coupling configurations dictated by the aperiodic sequence, leading to an effective atomic Hamiltonian, which itself inherits the Fibonacci structure; and (ii) emitters locally and off-resonantly coupled to the aperiodic version of the Su-Schrieffer-Heeger waveguide. In this case the mediating bound states feature aperiodically modulated profiles, resulting in an effective Hamiltonian with multifractal properties. Our work establishes Fibonacci waveguides as a versatile platform, which is experimentally feasible, demonstrating that the deterministic complexity of aperiodic structures can be directly engineered into the interactions between quantum emitters.         ",
+    "url": "https://arxiv.org/abs/2507.06308",
+    "authors": [
+      "Florian B\u00f6nsel",
+      "Flore K. Kunst",
+      "Federico Roccati"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06337",
+    "title": "Integrated Open-Source Framework for Simulation of Transcatheter Pulmonary Valves in Native Right Ventricular Outflow Tracts",
+    "abstract": "           Background - Pulmonary insufficiency is a consequence of transannular patch repair in Tetralogy of Fallot (ToF), leading to late morbidity and mortality. Transcatheter native outflow tract pulmonary valve replacement (TPVR) has become common, but assessment of patient candidacy and selection of the optimal device remains challenging. We demonstrate an integrated open-source workflow for simulation of TPVR in image-derived models to inform device selection. Methods - Machine learning-based segmentation of CT scans was implemented to define the right ventricular outflow tract (RVOT). A custom workflow for device positioning and pre-compression was implemented in SlicerHeart. Resulting geometries were exported to FEBio for simulation. Visualization of results and quantification were performed using custom metrics implemented in SlicerHeart and FEBio. Results - RVOT model creation and device placement could be completed in under 1 minute. Virtual device placement using FE simulations visually mimicked actual device placement and allowed quantification of vessel strain, stress, and contact area. Regions of higher strain and stress were observed at the proximal and distal end locations of the TPVs where the devices impinge the RVOT wall. No other consistent trends were observed across simulations. The observed variability in mechanical metrics across RVOTS, stents, and locations in the RVOT highlights that no single device performs optimally in all anatomies, thereby reinforcing the need for simulation-based patient-specific assessment. Conclusions - This study demonstrates the feasibility of a novel open-source workflow for the rapid simulation of TPVR which with further refinement may inform assessment of patient candidacy and optimal device selection.         ",
+    "url": "https://arxiv.org/abs/2507.06337",
+    "authors": [
+      "Christopher N. Zelonis",
+      "Jalaj Maheshwari",
+      "Wensi Wu",
+      "Steve A. Maas",
+      "Seda Aslan",
+      "Kyle Sunderland",
+      "Stephen Ching",
+      "Ashley Koluda",
+      "Yuval Barak-Corren",
+      "Nicolas Mangine",
+      "Patricia M. Sabin",
+      "Andras Lasso",
+      "Devin W. Laurence",
+      "Christian Herz",
+      "Matthew J. Gillespie",
+      "Jeffrey A. Weiss",
+      "Matthew A. Jolley"
+    ],
+    "subjectives": [
+      "Tissues and Organs (q-bio.TO)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06348",
+    "title": "Quantum sensing with ultracold simulators in lattice and ensemble systems: a review",
+    "abstract": "           Sensing of parameters is an important aspect in all disciplines, with applications ranging from fundamental science to medicine. Quantum sensing and metrology is an emerging field that lies at the cross-roads of quantum physics, quantum technology, and the discipline in which the parameter estimation is to be performed. While miniaturization of devices often requires quantum mechanics to be utilized for understanding and planning of a parameter estimation, quantum-enhanced sensing is also possible that uses paradigmatic quantum characteristics like quantum coherence and quantum entanglement to go beyond the so-called standard quantum limit. The current review hopes to bring together the concepts related to quantum sensing as realized in ensemble systems, like spin ensembles, light-matter systems, and Bose-Einstein condensates, and lattice systems, like those which can be modelled by the Bose- and Fermi-Hubbard models, and quantum spin models.         ",
+    "url": "https://arxiv.org/abs/2507.06348",
+    "authors": [
+      "Keshav Das Agarwal",
+      "Sayan Mondal",
+      "Ayan Sahoo",
+      "Debraj Rakshit",
+      "Aditi Sen De",
+      "Ujjwal Sen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06371",
+    "title": "Terahertz field-induced metastable magnetization near criticality in FePS3",
+    "abstract": "           Controlling the functional properties of quantum materials with light has emerged as a frontier of condensed-matter physics, leading to the discovery of various light-induced phases of matter, such as superconductivity, ferroelectricity, magnetism and charge density waves. However, in most cases, the photoinduced phases return to equilibrium on ultrafast timescales after the light is turned off, limiting their practical applications. Here we use intense terahertz pulses to induce a metastable magnetization with a remarkably long lifetime of more than 2.5 milliseconds in the van der Waals antiferromagnet FePS3. The metastable state becomes increasingly robust as the temperature approaches the antiferromagnetic transition point, suggesting that critical order parameter fluctuations play an important part in facilitating the extended lifetime. By combining first-principles calculations with classical Monte Carlo and spin dynamics simulations, we find that the displacement of a specific phonon mode modulates the exchange couplings in a manner that favours a ground state with finite magnetization near the N\u00e9el temperature. This analysis also clarifies how the critical fluctuations of the dominant antiferromagnetic order can amplify both the magnitude and the lifetime of the new magnetic state. Our discovery demonstrates the efficient manipulation of the magnetic ground state in layered magnets through non-thermal pathways using terahertz light and establishes regions near critical points with enhanced order parameter fluctuations as promising areas to search for metastable hidden quantum states.         ",
+    "url": "https://arxiv.org/abs/2507.06371",
+    "authors": [
+      "Batyr Ilyas",
+      "Tianchuang Luo",
+      "Alexander von Hoegen",
+      "Emil Vi\u00f1as Bostr\u00f6m",
+      "Zhuquan Zhang",
+      "Jaena Park",
+      "Junghyun Kim",
+      "Je-Geun Park",
+      "Keith A. Nelson",
+      "Angel Rubio",
+      "Nuh Gedik"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06462",
+    "title": "Controlling quantum entanglement with classical non-separable light",
+    "abstract": "           Here we investigate the quantum frequency conversion of entangled photons driven by a classically non-separable laser beam. We show that the frequency conversion dynamics is described by a quantum channel that stems from the classical drive field through the channel-state duality - the quantum channel is dual to the classical coherence matrix of the drive field. This implies that the evolution of entanglement in the conversion process is bound by the classical non-separability of the drive field, a result that we confirm experimentally. Furthermore, we show that the conversion dynamics can be understood as a swapping operation between classical non-separability and entanglement, unveiling a physical connection between two fundamentally different concepts.         ",
+    "url": "https://arxiv.org/abs/2507.06462",
+    "authors": [
+      "R. F. Barros",
+      "A. L. S. Santos Junior",
+      "A. Z. Khoury",
+      "R. Fickler"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06699",
+    "title": "Electric-field-assisted phase switching for crystal phase quantum dot fabrication in GaAs nanowires",
+    "abstract": "           The occurrence of several crystal phases within nanostructures of a single material presents both challenges and opportunities. While unintended phase mixing can degrade optoelectronic performances, deliberate control of polytypism enables novel heterostructures with unique quantum properties, crystal phase quantum dots (CPQDs). However, since tailoring the formation of CPQDs is difficult, applications remain scarce. Here, we demonstrate electric-field-driven crystal phase switching in GaAs nanowires during vapor-liquid-solid growth, enabling precise control of crystal phases and creations of CPQDs with monolayer precision. Nanowires are epitaxially grown on custom-made silicon micro-substrates using chemical vapor deposition within an in-situ TEM. Real-time imaging reveals that the electric field switches instantaneously the crystal phase between zinc blende and wurtzite, creating atomically sharp interfaces. Numerical simulations are developed to investigate the impact of the electric field on the catalyst droplet geometry, which largely governs the crystal phase. This constitutes a key progress towards unlocking the potential of CPQDs.         ",
+    "url": "https://arxiv.org/abs/2507.06699",
+    "authors": [
+      "Qiang Yu",
+      "Khakimjon Saidov",
+      "Ivan Erofeev",
+      "Khalil Hassebi",
+      "Chen Wei",
+      "Charles Renard",
+      "Laetitia Vincent",
+      "Frank Glas",
+      "Utkur Mirsaidov",
+      "Federico Panciera"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06755",
+    "title": "Force sensing with a graphene nanomechanical resonator coupled to photonic crystal guided resonances",
+    "abstract": "           Achieving optimal force sensitivity with nanomechanical resonators requires the ability to resolve their thermal vibrations. In two-dimensional resonators, this can be done by measuring the energy they absorb while vibrating in an optical standing wave formed between a light source and a mirror. However, the responsivity of this method -- the change in optical energy per unit displacement of the resonator -- is modest, fundamentally limited by the physics of propagating plane waves. We present simulations showing that replacing the mirror with a photonic crystal supporting guided resonances increases the responsivity of graphene resonators by an order of magnitude. The steep optical energy gradients enable efficient transduction of flexural vibrations using low optical power, thereby reducing heating. Furthermore, the presence of two guided resonances at different wavelengths allows thermal vibrations to be resolved with a high signal-to-noise ratio across a wide range of membrane positions in free space. Our approach provides a simple optical method for implementing ultrasensitive force detection using a graphene nanomechanical resonator.         ",
+    "url": "https://arxiv.org/abs/2507.06755",
+    "authors": [
+      "Heng Lu",
+      "Tingting Li",
+      "Hui Hu",
+      "Fengnan Chen",
+      "Ti Sun",
+      "Ying Yan",
+      "Chinhua Wang",
+      "Joel Moser"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06820",
+    "title": "Soliton and traveling wave solutions in coupled one-dimensional condensates",
+    "abstract": "           Ultracold condensates provide a unique platform for exploring soliton physics. Motivated by the recent experiments realizing the sine-Gordon model in a split one-dimensional (1D) BEC, we demonstrate that this system naturally supports various density and phase solitons. We explore the physics using the bosonization technique, in which the phase and density are conjugate pairs, and determine its effective Language equation and the associated equation of motion. We show that in the presence of asymmetry between the two condensates, new solutions beyond those in the sine-Gordon model emerge. We calculate the traveling wave solutions and soliton solutions in this model and determine their corresponding energy densities analytically. Finally, we discuss the relevance of these solutions to the experiments and discuss their observations. This theory does not rely on the mechanism of quasi-particle excitation, which yields the Lee-Huang-Yang correction in higher dimensions, and is thus much more suitable to describe the physics in 1D systems. Since the physical models have already been realized in experiments, this work opens a new frontier for the realization of various soliton and periodic solutions using two coupled condensates.         ",
+    "url": "https://arxiv.org/abs/2507.06820",
+    "authors": [
+      "Zeyu Rao",
+      "Xiaoshui Lin",
+      "Jingsong He",
+      "Guangcan Guo",
+      "Ming Gong"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.06495",
+    "title": "Quantum control of a single $\\mathrm{H}_2^+$ molecular ion",
+    "abstract": "           Science is founded on the benchmarking of theoretical models against experimental measurements, with the challenge that for all but the simplest systems, the calculations required for high precision become extremely challenging. $\\mathrm{H}_2^+$ is the simplest stable molecule, and its structure is calculable to high precision. However, studying $\\mathrm{H}_2^+$ experimentally presents significant challenges: Standard control methods such as laser cooling are not applicable due to the long lifetimes of its rotational and vibrational states. Here we solve this issue by combining buffer gas cooling to quench the $\\mathrm{H}_2^+$ rovibrational excitation with quantum logic operations between $\\mathrm{H}_2^+$ and a co-trapped 'helper' ion to control the molecule's hyperfine structure. This enables us to perform pure quantum state preparation, coherent control, and non-destructive readout, which we use to demonstrate high-resolution microwave spectroscopy in the hyperfine structure of $\\mathrm{H}_2^+$ with a precision of 2 Hz. Our results pave the way for high precision spectroscopy of $\\mathrm{H}_2^+$ in both the microwave and optical domains. Due to the wide applicability of buffer gas cooling, our method provides a general tool for molecular ion species that are hard to control with quantum logic tools alone.         ",
+    "url": "https://arxiv.org/abs/2409.06495",
+    "authors": [
+      "David Holzapfel",
+      "Fabian Schmid",
+      "Nick Schwegler",
+      "Oliver Stadler",
+      "Martin Stadler",
+      "Alexander Ferk",
+      "Jonathan P. Home",
+      "Daniel Kienzler"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.13215",
+    "title": "Performance of an Optical TPC Geant4 Simulation with Opticks GPU-Accelerated Photon Propagation",
+    "abstract": "           We investigate the performance of Opticks, a NVIDIA OptiX API 7.5 GPU-accelerated photon propagation tool compared with a single-threaded Geant4 simulation. We compare the simulations using an improved model of the NEXT-CRAB-0 gaseous time projection chamber. Performance results suggest that Opticks improves simulation speeds by between 58.47+/-0.02 and 181.39+/-0.28 times relative to a CPU-only Geant4 simulation and these results vary between different types of GPU and CPU. A detailed comparison shows that the number of detected photons, along with their times and wavelengths, are in good agreement between Opticks and Geant4.         ",
+    "url": "https://arxiv.org/abs/2502.13215",
+    "authors": [
+      "NEXT Collaboration",
+      "I. Parmaksiz",
+      "K. Mistry",
+      "E. Church",
+      "C. Adams",
+      "J. Asaadi",
+      "J. Baeza-Rubio",
+      "K. Bailey",
+      "N. Byrnes",
+      "B.J.P. Jones",
+      "I.A. Moya",
+      "K.E. Navarro",
+      "D.R. Nygren",
+      "P. Oyedele",
+      "L. Rogers",
+      "F. Samaniego",
+      "K. Stogsdill",
+      "H. Almaz\u00e1n",
+      "V. \u00c1lvarez",
+      "B. Aparicio",
+      "A.I. Aranburu",
+      "L. Arazi",
+      "I.J. Arnquist",
+      "F. Auria-Luna",
+      "S. Ayet",
+      "C.D.R. Azevedo",
+      "F. Ballester",
+      "M. del Barrio-Torregrosa",
+      "A. Bayo",
+      "J.M. Benlloch-Rodr\u00edguez",
+      "F.I.G.M. Borges",
+      "A. Brodolin",
+      "S. C\u00e1rcel",
+      "A. Castillo",
+      "L. Cid",
+      "C.A.N. Conde",
+      "T. Contreras",
+      "F.P. Coss\u00edo",
+      "R. Coupe",
+      "E. Dey",
+      "G. D\u00edaz",
+      "C. Echevarria",
+      "M. Elorza",
+      "J. Escada",
+      "R. Esteve",
+      "R. Felkai",
+      "L.M.P. Fernandes",
+      "P. Ferrario",
+      "A.L. Ferreira",
+      "F.W. Foss",
+      "Z. Freixa",
+      "J. Garc\u00eda-Barrena",
+      "J.J. G\u00f3mez-Cadenas",
+      "J.W.R. Grocott",
+      "R. Guenette",
+      "J. Hauptman",
+      "C.A.O. Henriques",
+      "J.A. Hernando Morata",
+      "P. Herrero-G\u00f3mez",
+      "V. Herrero",
+      "C. Herv\u00e9s Carrete",
+      "Y. Ifergan",
+      "F. Kellerer",
+      "L. Larizgoitia",
+      "A. Larumbe",
+      "P. Lebrun",
+      "F. Lopez",
+      "N. L\u00f3pez-March",
+      "R. Madigan",
+      "R.D.P. Mano",
+      "A.P. Marques",
+      "J. Mart\u00edn-Albo",
+      "G. Mart\u00ednez-Lema",
+      "M. Mart\u00ednez-Vara",
+      "R.L. Miller",
+      "J. Molina-Canteras",
+      "F. Monrabal",
+      "C.M.B. Monteiro",
+      "F.J. Mora",
+      "P. Novella",
+      "A. Nu\u00f1ez",
+      "E. Oblak",
+      "J. Palacio",
+      "B. Palmeiro",
+      "A. Para",
+      "A. Pazos",
+      "J. Pelegrin",
+      "M. P\u00e9rez Maneiro",
+      "M. Querol",
+      "J. Renner",
+      "I. Rivilla",
+      "C. Rogero",
+      "B. Romeo",
+      "C. Romo-Luque",
+      "V. San Nacienciano",
+      "F.P. Santos",
+      "J.M.F. dos Santos",
+      "M. Seemann",
+      "I. Shomroni",
+      "P.A.O.C. Silva"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.05652",
+    "title": "Influence of Conical Wire Array Geometry on Flow and Temperature Profiles Measured via Thomson Scattering and Optical Techniques",
+    "abstract": "           Conical wire arrays with different opening angles are used as load of a 400kA, 1kA/ns generator. The differences in opening angle allow the study of the influence of the array geometry on the jet properties. The characterization of the jets is performed using a combination of advanced diagnostic techniques, including moir\u00e9 schlieren deflectometry, visible self-emission spectroscopy, and optical Thomson scattering. The results reveal that, under the experimental conditions, the plasma jets exhibit electron temperatures ranging from $8$ to $17$ eV, increasing along the axial direction. In contrast, the ion temperature decreases from approximately $35$ eV near the base of the jet to about $20$ eV at higher axial positions. The electron density profile peaks at $\\sim 4 \\times 10^{18}$ cm$^{-3}$ in the central lower region of the jet and decreases with height exponentially with a characteristic lenght $L_n = $2.86 mm. This behavior is reproducible and independent of the conical array geometry. However, the cone opening angle significantly affect the jet propagation velocity, with larger opening angles producing higher axial velocities ($V_{\\phi=40^\\circ} \\approx 125\\pm3$ km/s, $V_{\\phi=20^\\circ} \\approx 98\\pm5$ km/s), demonstrating that the cone geometry provides effective control over the jet propagation velocity.         ",
+    "url": "https://arxiv.org/abs/2507.05652",
+    "authors": [
+      "Luisa Izquierdo",
+      "Felipe Veloso",
+      "Miguel Escalona",
+      "Vicente Valenzuela-Villaseca",
+      "Gonzalo Avaria",
+      "Julio Valenzuela"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.01286",
+    "title": "Spectral Bounds on Entropy and Ergotropy via Statistical Effective Temperature in Classical Polarization and Quantum Thermal States",
+    "abstract": "           We formulate a unified definition of the statistical effective temperature (SET) for finite-dimensional classical and quantum systems using dimension-dependent indices of purity derived from the eigenvalue spectrum. This spectral approach bypasses the need for Hamiltonians or energy gaps and remains applicable to both quantum density matrices and classical polarization coherency matrices. The SET framework naturally describes the divergence of inverse temperature near pure, non-degenerate states, consistent with the third law. Using entropy-SET diagrams, we explore spectral bounds in two-, three-, and four-level systems, which reveal physically realizable entropy regions, rank-dependent constraints, and cusp-like features. A Hamiltonian-free parametric spectrum ansatz provides a universal reference curve within these bounds. Furthermore, we derive spectral bounds on ergotropy as a function of entropy and SET, which quantify the maximum extractable work under passive constraints and introduce the notion of structured-states, engineered spectral configurations that saturate these bounds. Our analysis shows that SET serves as a thermodynamically meaningful and operationally relevant quantity for bounding entropy and ergotropy in both classical polarization systems and quantum thermal states.         ",
+    "url": "https://arxiv.org/abs/2410.01286",
+    "authors": [
+      "Tariq Aziz",
+      "Meng-Long Song",
+      "Liu Ye",
+      "Dong Wang",
+      "Jos\u00e9 J. Gil",
+      "Sabre Kais"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.07767",
+    "title": "Two-color laser control of photocurrent and high harmonics in graphene",
+    "abstract": "           We comprehensively investigate two-color-laser-driven photocurrent and high harmonic generation (HHG) in graphene models. By numerically solving the quantum master equation, we uniformly explore a broad parameter regime including both the weak (perturbative) and intense-laser (nonperturbative) cases while considering the dissipation effects. We demonstrate that the HHG spectra can be drastically altered by tuning the real-space path traced by the laser electric field. This controllability is explained by the dynamical symmetry argument. We also show that both the magnitude and the direction of photocurrent (zeroth order harmonics) can be controlled by varying the frequency, intensity, ellipticity, and relative phase of the two-color laser. Furthermore, the nature of photocurrent is shown to be classified into shift- or injection-current types, depending on the phase of two-color laser. Our findings indicate that even in centrosymmetric electron systems, photocurrent and HHG can be quantitatively controlled by adjusting various external parameters if we utilize multicolor laser with a lower spatial or temporal symmetry.         ",
+    "url": "https://arxiv.org/abs/2410.07767",
+    "authors": [
+      "Minoru Kanega",
+      "Masahiro Sato"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.05935",
+    "title": "Plane-selective manipulations of nuclear spin qubits in a three-dimensional optical tweezer array",
+    "abstract": "           One of the central challenges for a practical fault-tolerant quantum computer is scalability. A three-dimensional structure of optical tweezer arrays offers the potential for scaling up neutral atom processors. However, coherent local operations, essential for quantum error correction, have yet to be explored for this platform. Here, we demonstrate plane-by-plane initialization of nuclear spin qubits of ${}^{171}\\mathrm{Yb}$ atoms in a three-dimensional atom array and plane-dependent coherent temporal evolution of qubits, as well as plane-selective qubit manipulation by exploiting the plane-selective excitation of the atoms from the ${}^1S_0$ to the ${}^3P_2$ state. This plane-selective manipulation technique paves the way for quantum computing and quantum simulation in three-dimensional multilayer architectures.         ",
+    "url": "https://arxiv.org/abs/2501.05935",
+    "authors": [
+      "Toshi Kusano",
+      "Yuma Nakamura",
+      "Rei Yokoyama",
+      "Naoya Ozawa",
+      "Kosuke Shibata",
+      "Tetsushi Takano",
+      "Yosuke Takasu",
+      "Yoshiro Takahashi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.09930",
+    "title": "Long-Lived Photon Blockade with Weak Optical Nonlinearity",
+    "abstract": "           In conventional photon blockade, the occupation of a cavity mode by more than one photon is suppressed via strong optical nonlinearity. An alternative, called unconventional photon blockade, can occur under weak nonlinearity by relying on quantum interference between fine-tuned cavities. A serious limitation is the very short antibunching time window, orders of magnitude less than the cavity lifetime. We present a method to achieve photon blockade over a large time window of several cavity lifetimes, even exceeding that of conventional photon blockade, while still requiring only weak nonlinearity. This ``long-lived photon blockade'' (LLPB) occurs when the single-photon Green's function exhibits a zero at a large cavity loss rate, which is satisfied by an exemplary configuration of four coupled cavities under weak driving. Our analytical results agree well with wavefunction Monte Carlo simulations. The LLPB phenomenon may aid the development of single-photon sources utilizing materials with weak optical nonlinearities.         ",
+    "url": "https://arxiv.org/abs/2502.09930",
+    "authors": [
+      "You Wang",
+      "Xu Zheng",
+      "Timothy C. H. Liew",
+      "Y. D. Chong"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.20723",
+    "title": "Variational Transformer Ansatz for the Density Operator of Steady States in Dissipative Quantum Many-Body Systems",
+    "abstract": "           The transformer architecture, known for capturing long-range dependencies and intricate patterns, has extended beyond natural language processing. Recently, it has attracted significant attention in quantum information and condensed matter physics. In this work, we propose the \\textit{transformer density operator ansatz} for determining the steady states of dissipative quantum many-body systems. By vectorizing the density operator as a many-body state in a doubled Hilbert space, the transformer encodes the amplitude and phase of the state's coefficients, with its parameters serving as variational variables. Our design preserves translation invariance while leveraging attention mechanisms to capture diverse long-range correlations. We demonstrate the effectiveness of our approach by numerically calculating the steady states of dissipative Ising and Heisenberg spin chain models, showing that our method achieves excellent accuracy in predicting mixed steady states.         ",
+    "url": "https://arxiv.org/abs/2502.20723",
+    "authors": [
+      "Lu Wei",
+      "Zhian Jia",
+      "Yufeng Wang",
+      "Dagomir Kaszlikowski",
+      "Haibin Ling"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
