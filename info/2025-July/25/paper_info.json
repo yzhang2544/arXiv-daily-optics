@@ -1,0 +1,520 @@
+[
+  {
+    "id": "arXiv:2507.17764",
+    "title": "Diffusion-Assisted Frequency Attention Model for Whole-body Low-field MRI Reconstruction",
+    "abstract": "           By integrating the generative strengths of diffusion models with the representation capabilities of frequency-domain attention, DFAM effectively enhances reconstruction performance under low-SNR condi-tions. Experimental results demonstrate that DFAM consistently outperforms both conventional reconstruction algorithms and recent learning-based approaches. These findings highlight the potential of DFAM as a promising solution to advance low-field MRI reconstruction, particularly in resource-constrained or underdeveloped clinical settings.         ",
+    "url": "https://arxiv.org/abs/2507.17764",
+    "authors": [
+      "Xin Xie",
+      "Yu Guan",
+      "Zhuoxu Cui",
+      "Dong Liang",
+      "Qiegen Liu"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Computer Vision and Pattern Recognition (cs.CV)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17881",
+    "title": "A Supervised Machine Learning Framework for Multipactor Breakdown Prediction in High-Power Radio Frequency Devices and Accelerator Components: A Case Study in Planar Geometry",
+    "abstract": "           Multipactor is a nonlinear electron avalanche phenomenon that can severely impair the performance of high-power radio frequency (RF) devices and accelerator systems. Accurate prediction of multipactor susceptibility across different materials and operational regimes remains a critical yet computationally intensive challenge in accelerator component design and RF engineering. This study presents the first application of supervised machine learning (ML) for predicting multipactor susceptibility in two-surface planar geometries. A simulation-derived dataset spanning six distinct secondary electron yield (SEY) material profiles is used to train regression models - including Random Forest (RF), Extra Trees (ET), Extreme Gradient Boosting (XGBoost), and funnel-structured Multilayer Perceptrons (MLPs) - to predict the time-averaged electron growth rate, ${\\delta}_{avg}$. Performance is evaluated using Intersection over Union (IoU), Structural Similarity Index (SSIM), and Pearson correlation coefficient. Tree-based models consistently outperform MLPs in generalizing across disjoint material domains. MLPs trained using a scalarized objective function that combines IoU and SSIM during Bayesian hyperparameter optimization with 5-fold cross-validation outperform those trained with single-objective loss functions. Principal Component Analysis reveals that performance degradation for certain materials stems from disjoint feature-space distributions, underscoring the need for broader dataset coverage. This study demonstrates both the promise and limitations of ML-based multipactor prediction and lays the groundwork for accelerated, data-driven modeling in advanced RF and accelerator system design.         ",
+    "url": "https://arxiv.org/abs/2507.17881",
+    "authors": [
+      "Asif Iqbal",
+      "John Verboncoeur",
+      "Peng Zhang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17940",
+    "title": "Oligonucleotide selective detection by levitated optomechanics",
+    "abstract": "           Here we examine the detection of oligonucleotide-specific signals in sensitive optomechanical experiments. Silica nanoparticles (SiNPs) were functionalized using ZnCl$_2$ and 25-mers of single-stranded deoxyadenosine and deoxythymidine monophosphate which were optically trapped by a 1550 nm wavelength laser in vacuum. In the optical trap, SiNPs behave as harmonic oscillators, and their oscillation frequency and amplitude can be precisely detected by optical interferometry. The data was compared across particle types, revealing differences in frequency, width and amplitude of peaks with respect to motion of the SiNPs which can be explained by a theoretical model. Data obtained from this platform was analyzed by fitting Lorentzian curves to the spectra. Linear discriminant analysis detected differences between the functionalized and non-functionalized SiNPs. Random forest modeling provided further evidence that the fitted data were different between the groups. Transmission electron microscopy was carried out, but did not reveal any visual differences between the particle types         ",
+    "url": "https://arxiv.org/abs/2507.17940",
+    "authors": [
+      "Timothy Wilson",
+      "Owen J. L. Rackham",
+      "Hendrik Ulbricht"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantitative Methods (q-bio.QM)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18108",
+    "title": "Ultrabroadband Integrated Photonics Empowering Full-Spectrum Adaptive Wireless Communications",
+    "abstract": "           The forthcoming sixth-generation (6G) and beyond (XG) wireless networks are poised to operate across an expansive frequency range from microwave, millimeter-wave to terahertz bands to support ubiquitous connectivity in diverse application scenarios. This necessitates a one-size-fits-all hardware solution that can be adaptively reconfigured within this wide spectrum to support full-band coverage and dynamic spectrum management. However, existing electrical or photonic-assisted wireless communication solutions see significant challenges in meeting this demand due to the limited bandwidths of individual devices and the intrinsically rigid nature of their system architectures. Here, we demonstrate adaptive wireless communications over an unprecedented frequency range spanning over 100 GHz, driven by a universal thin-film lithium niobate (TFLN) photonic wireless engine. Leveraging the strong Pockels effect and excellent scalability of the TFLN platform, we achieve monolithic integration of essential functional elements, including baseband modulation, broadband wireless-photonic conversion, and reconfigurable carrier/local signal generation. Powered by broadband tunable optoelectronic oscillators, our signal sources operate across a record-wide frequency range from 0.5 GHz to 115 GHz with high frequency stability and consistent coherence. Based on the broadband and reconfigurable integrated photonic solution, we realize, for the first time, full-link wireless communication across 9 consecutive bands, achieving record lane speeds of up to 100 Gbps. The real-time reconfigurability further enables adaptive frequency allocation, a crucial capability to ensure enhanced reliability in complex spectrum environments. Our proposed system marks a significant step towards future full-spectrum and omni-scenario wireless networks.         ",
+    "url": "https://arxiv.org/abs/2507.18108",
+    "authors": [
+      "Zihan Tao",
+      "Haoyu Wang",
+      "Hanke Feng",
+      "Yijun Guo",
+      "Bitao Shen",
+      "Dan Sun",
+      "Yuansheng Tao",
+      "Changhao Han",
+      "Yandong He",
+      "John Bowers",
+      "Haowen Shu",
+      "Cheng Wang",
+      "Xingjun Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18127",
+    "title": "Hybrid Quantum-Classical Inverse Design of Metasurfaces for Tailored Narrow Band Absorption",
+    "abstract": "           The inverse design of metasurfaces poses a considerable challenge because of the intricate interdependencies that exist between structural characteristics and electromagnetic responses. Traditional optimization methods require significant computational resources and frequently do not produce the most effective solutions. This study presents a hybrid quantum-classical machine learning approach known as Latent Style-based Quantum GAN (LaSt-QGAN). This method integrates a Variational Autoencoder (VAE) with a Quantum Generative Adversarial Network (QGAN) to enhance the optimization of metasurface designs aimed at achieving narrow-band absorption and unidirectionality. The proposed method results in a reduction of training time by one-third and a decrease in data requirements by 30\\% when compared to traditional GAN-based approaches. The produced metasurface designs demonstrate a high fidelity of 95\\% in relation to the target absorption spectra. Additionally, the integration of a material look-up table facilitates manufacturability by allowing for the substitution of predicted material properties with viable alternatives, all while preserving performance accuracy. Moreover the model is able to generate Q-factor upto the order of $10^4$, while the training dataset has Q-factor upto the order of $10^3$.         ",
+    "url": "https://arxiv.org/abs/2507.18127",
+    "authors": [
+      "Sreeraj Rajan Warrier",
+      "Jayasri Dontabhaktuni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18132",
+    "title": "Inverse Design using Physics-Informed Quantum GANs for Tailored Absorption in Dielectric Metasurfaces",
+    "abstract": "           High Q-factor narrow-band absorption exhibits high spectral selectivity enabling high-sensitive photodetectors, sensors and thermal emitters. All-dielectric metasurfaces are widely regarded as excellent candidates for giving rise to such narrow-band absorption. However, designing metasurfaces with specific functionalities remains a challenging task both experimentally and computationally, which is why inverse design methods are increasingly being explored. Inverse design process is highly complex due to its non-unique solutions and the higher dimensionality of the design space, making it challenging to precisely control the resonance wavelength, linewidth, and absorption intensity. In this paper, we present a novel hybrid methodology that integrates generative adversarial networks (GANs) (both classical and quantum) with physics-informed neural networks (PINNs) for the inverse design of narrow-band absorbing metasurfaces. By introducing a Fano-shaped absorption spectrum equation into the PINN loss function, we enforce physical constraints on the resonance behavior, ensuring outputs that are both spectrally accurate and physically consistent. The study presents a comparison between a conventional GAN + PINN framework and a PINN augmented by a hybrid quantum-classical GAN (QGAN). The findings indicate that the integrated PINN + QGAN model achieves faster convergence, requires 99.5\\% fewer training samples, and yields an order of magnitude lower MSE compared to conventional GANs. Remarkably, even though the training dataset only contains metasurfaces with Q-factors on the order of $10^3$, the model is able to generate highly asymmetric metasurface structures with Q-factors exceeding $10^5$. This study presents a novel framework that integrates quantum machine learning with physics-based modeling, providing a promising method for quantum-enhanced inverse design in nanophotonic systems.         ",
+    "url": "https://arxiv.org/abs/2507.18132",
+    "authors": [
+      "Sreeraj Rajan Warrier",
+      "Jayasri Dontabhaktuni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18228",
+    "title": "Electron acoustic shock and solitary waves in spin polarized dense rotating quantum plasmas",
+    "abstract": "           The propagation of electrostatic waves in a three-component electron positron ion astrophysical quantum plasma under the influence of uniform rotation is analysed, incorporating the effects of particle spin, Fermi pressure, and the quantum Bohm potential. Spin polarisation arising due to the alignment of particle spins under the influence of a strong external magnetic field leads to an imbalance in the population of spin-up and spin-down states. Additionally, key astrophysical factors such as rotation and gravitational influence have been considered. The coupled dispersion relations for electron, positron, and ion modes have been derived. Further, the electron acoustic shock wave is studied using the Korteweg de Vries Burgers method, and the shock wave solution has been obtained. Quantum effects are found to contribute to enhanced wave dispersion and modify the shock profile by broadening and stabilising the shock structure.         ",
+    "url": "https://arxiv.org/abs/2507.18228",
+    "authors": [
+      "Atherv Saxena",
+      "Punit Kumar"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18369",
+    "title": "Reducing suspension control noise with interferometric sensors -- an experimental concept",
+    "abstract": "           One of the limiting noise sources of ground-based gravitational wave detectors at frequencies below 30 Hz is control-induced displacement noise. Compact laser interferometric sensors are a prime candidate for improved local displacement sensing. In this paper we present the design of an experiment that aims to demonstrate the advantages of interferometric sensors over shadow sensors. We focus on the compact balanced readout interferometer (COBRI) - a sensor currently in development that is based on deep frequency modulation. We mount COBRIs on two HAM Relay Triple Suspension (HRTS) systems that suspend two mirrors forming an optical cavity. By measuring the length stability of this cavity relative to a stable reference we aim to probe the direct motion reduction when using COBRIs for active damping and we aim to investigate their behavior and auxiliary functions, such as absolute ranging, in the context of the 6 degree-of-freedom controls of the suspensions. Here we describe the design of the experiment and simulations of the achievable noise levels that were obtained using mechanical models of the HRTS suspensions. We discuss all relevant noise sources, the modeled influence of the interferometric sensor damping and the current limitations and necessary improvements of our testing facility in terms of seismic pre-isolation to achieve a shadow sensor limited noise at around 5 Hz, where, according to our simulations, we can demonstrate superior performance for COBRIs in the longitudinal degree of freedom.         ",
+    "url": "https://arxiv.org/abs/2507.18369",
+    "authors": [
+      "Nils Leander Weickhardt",
+      "Artem Basaleav",
+      "Oliver Gerberding"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18403",
+    "title": "An integrated theoretical, experimental, and numerical study of small-amplitude water waves",
+    "abstract": "           We introduce an inexpensive experimental setup for analyzing free-surface water waves: a $1\\,\\mathrm{m}$-long tabletop flume made from perspex, driven by a variable-frequency piston wavemaker built from Lego. Using mobile-phone video capture, we collect experimental data and compare it with predictions from linear gravity-capillary wave theory and with multiphase simulations performed in OpenFOAM. We find excellent quantitative agreement across all three approaches. Our setup may be valuable for students with a background in Mathematical Modelling who lack hands-on laboratory experience. To explore this, we report on a survey of students who completed an integrated theoretical, experimental, and computational project. While students found the experience enhanced their learning of Fluid Mechanics, they also noted the need for better support in setting up and running CFD simulations.         ",
+    "url": "https://arxiv.org/abs/2507.18403",
+    "authors": [
+      "Lennon \u00d3 N\u00e1raigh",
+      "Nicolas Farault",
+      "Nicola Young"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18599",
+    "title": "Laser micromachining of arbitrarily complex and overhang-free SiN nanomechanical resonators",
+    "abstract": "           Research on silicon nitride (SiN) nanomechanical resonators produces an exceptionally rich variety of resonator geometries, for which there is currently no available rapid prototyping solution. Experimental advances in nanobeam, trampoline, phononic bandgap, and soft-clamping structures all rely on conventional nanofabrication involving e-beam or photolithography, followed by various etching steps. These techniques are typically time-consuming, relatively inflexible, and often result in spurious residual SiN overhang that can degrade mechanical quality factors. In contrast, recent work has shown that simple resonant structures, such as nanobeams, can be prototyped by direct laser ablation of free-standing SiN membranes using a spatially distributed sequence of microholes that limits stress concentration. However, these early demonstrations were restricted to basic shapes, created by manually combining ablation routines for circles and straight lines. Here, we demonstrate the fabrication of arbitrarily complex geometries using an open-source software toolset--released with this publication--that automatically generates laser-ablated hole sequences directly from standard semiconductor layout files (i.e., GDSII). The software includes a layout alignment tool that compensates for the membrane orientation and dimensional variations, limiting material overhang to ~2 um. Using this toolset, we fabricate several resonator geometries, each in under 1 hour, two of which are exhaustively characterized as candidate structures for high-performance radiation sensing. The measured quality factors of these structures closely match finite element simulations and reach values up to 3.7 x 10^6. From these measurements, we extract material quality factors above 3700, which is on par with low-stress SiN unablated plain membranes and with comparable structures produced using conventional fabrication methods.         ",
+    "url": "https://arxiv.org/abs/2507.18599",
+    "authors": [
+      "Yahya Saleh",
+      "Zachary Louis-Seize",
+      "Timothy Hodges",
+      "David Girard",
+      "Mohammed Shakir",
+      "Mathis Turgeon-Roy",
+      "Francis Doyon-D'Amour",
+      "Chang Zhang",
+      "Arnaud Weck",
+      "Raphael St-Gelais"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17871",
+    "title": "Shallow quantum circuit for generating O(1)-entanged approximate state designs",
+    "abstract": "           Random quantum states have various applications in quantum information science, including quantum cryptography, quantum simulation, and benchmarking quantum devices. In this work, we discover a new ensemble of quantum states that serve as an $\\epsilon$-approximate state $t$-design while possessing extremely low entanglement, magic, and coherence. We show that those resources such quantum states can reach their theoretical lower bounds, $\\Omega\\left(\\log (t/\\epsilon)\\right)$, which are also proven in this work. This implies that for fixed $t$ and $\\epsilon$, those resources do not scale with the system size, i.e., $O(1)$ with respect to the total number of qubits $n$ in the system. Moreover, we explicitly construct an ancilla-free shallow quantum circuit for generating such states. To this end, we develop an algorithm that transforms $k$-qubit approximate state designs into $n$-qubit ones through a sequence of multi-controlled gates, without increasing the support size. The depth of such a quantum circuit is $O\\left(t [\\log t]^3 \\log n \\log(1/\\epsilon)\\right)$, which is the most efficient among existing algorithms without ancilla qubits. A class of shallow quantum circuits proposed in our work offers reduced cost for classical simulation of random quantum states, leading to potential applications in various quantum information processing tasks. As a concrete example for demonstrating utility of our algorithm, we propose classical shadow tomography using an $O(1)$-entangled estimator, which can achieve shorter runtime compared to conventional schemes.         ",
+    "url": "https://arxiv.org/abs/2507.17871",
+    "authors": [
+      "Wonjun Lee",
+      "Minki Hhan",
+      "Gil Young Cho",
+      "Hyukjoon Kwon"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17880",
+    "title": "Stability of Continuous Time Quantum Walks in Complex Networks",
+    "abstract": "           We investigate the stability of continuous time quantum walks (CTQWs) in a range of network topologies under different decoherence mechanisms, defining stability as the system's ability to preserve quantum properties over time. The networks studied range from homogeneous to heterogeneous structures, including cycle, complete, Erd\u0151s-R\u00e9nyi, small-world, scale-free, and star topologies. The decoherence models considered are intrinsic decoherence, Haken-Strobl noise, and quantum stochastic walks (QSWs). To assess quantum stability, we employ several metrics: node occupation probabilities, the $\\ell_1$-norm of coherence, fidelity with the initial state, quantum-classical distance, and von Neumann entropy. Our results reveal that the interplay of both network topology and decoherence model influences coherence preservation. Intrinsic decoherence results in the slowest decay of coherence, followed by Haken-Strobl noise, while QSW causes the most rapid loss of coherence. The stability ranking among network topologies varies depending on the decoherence model and quantifier used. For example, under Haken-Strobl and intrinsic decoherence, the quantum-classical distance ranks the cycle network more stable than scale-free networks, although other metrics consistently favour scale-free topologies. In general, heterogeneous networks, such as star and scale-free networks, exhibit the highest stability, whereas homogeneous topologies, such as cycle and Erd\u0151s-R\u00e9nyi networks, are more vulnerable to decoherence. The complete graph, despite its homogeneity, remains highly stable due to its dense connectivity. Furthermore, in heterogeneous networks, the centrality of the initialised node, measured by degree or closeness, has a pronounced impact on stability, underscoring the role of local topological features in quantum dynamics.         ",
+    "url": "https://arxiv.org/abs/2507.17880",
+    "authors": [
+      "Adithya L J",
+      "Johannes Nokkala",
+      "Jyrki Piilo",
+      "Chandrakala Meena"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17992",
+    "title": "Molecular Properties in Quantum-Classical Auxiliary-Field Quantum Monte Carlo: Correlated Sampling with Application to Accurate Nuclear Forces",
+    "abstract": "           We extend correlated sampling from classical auxiliary-field quantum Monte Carlo to the quantum-classical (QC-AFQMC) framework, enabling accurate nuclear force computations crucial for geometry optimization and reaction dynamics. Stochastic electronic structure methods typically encounter prohibitive statistical noise when computing gradients via finite differences. To address this, our approach maximizes correlation between nearby geometries by synchronizing random number streams, aligning orbitals, using deterministic integral decompositions, and employing a consistent set of classical shadow measurements defined at a single reference geometry. Crucially, reusing this single, reference-defined shadow ensemble eliminates the need for additional quantum measurements at displaced geometries. Together, these methodological choices substantially reduce statistical variance in computed forces. We validate the method across hydrogen chains, confirming accuracy throughout varying correlation regimes, and demonstrate significant improvements over single-reference methods in force evaluations for N$_2$ and stretched linear H$_4$, particularly in strongly correlated regions where conventional coupled cluster approaches qualitatively fail. Orbital-optimized trial wave functions further boost accuracy for demanding cases such as stretched CO$_2$, without increasing quantum resource requirements. Finally, we apply our methodology to the MEA-CO$_2$ carbon capture reaction, employing quantum information metrics for active space selection and matchgate shadows for efficient overlap evaluations, establishing QC-AFQMC as a robust framework for exploring complex reaction pathways.         ",
+    "url": "https://arxiv.org/abs/2507.17992",
+    "authors": [
+      "Joshua J. Goings",
+      "Kyujin Shin",
+      "Seunghyo Noh",
+      "Woomin Kyoung",
+      "Donghwi Kim",
+      "Jihye Baek",
+      "Martin Roetteler",
+      "Evgeny Epifanovsky",
+      "Luning Zhao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18172",
+    "title": "Silicon single-photon detector achieving over 84% photon detection efficiency with flexible operation modes",
+    "abstract": "           Silicon single-photon detectors (Si SPDs) play a crucial role in detecting single photons in the visible spectrum. For various applications, photon detection efficiency (PDE) is the most critical characteristic for effectively collecting photons. Here, we present a Si SPD with a remarkable PDE of up to 84.4% at 785 nm, supporting multiple operation modes. We design and fabricate a thick-junction Si single-photon avalanche diode (SPAD) that enhances the avalanche probability through a backside-illumination structure, while minimizing noise through the design of a doping-compensated avalanche region. To maximize PDE, we implement a readout circuit with a 50 V quenching voltage, enabling operation in free-running, gating, or hybrid modes. The SPAD, along with its readout circuits and affiliated circuits, is integrated into a compact SPD module. In free-running mode, the module achieves a maximum PDE of 84.4%, with a dark count rate of 260 cps, and an afterpulse probability of 2.9% at 268 K. This work provides a practical solution for applications requiring ultra-high-efficiency Si SPD with multiple operation modes.         ",
+    "url": "https://arxiv.org/abs/2507.18172",
+    "authors": [
+      "Dong An",
+      "Chao Yu",
+      "Ming-Yang Zheng",
+      "Anran Guo",
+      "Junsong Wang",
+      "Ruizhi Li",
+      "Huaping Ma",
+      "Xiu-Ping Xie",
+      "Xiao-Hui Bao",
+      "Qiang Zhang",
+      "Jun Zhang",
+      "Jian-Wei Pan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18180",
+    "title": "Real-time analog circuit for auto-correlative weak-value amplification in the time domain",
+    "abstract": "           The auto-correlative weak-value amplification (AWVA) technique demonstrates distinct advantages over standard weak-value amplification (SWVA) for quantum parameter estimation. To achieve enhanced precision in real-time parameter estimation, the AWVA requires additional resources compared to SWVA, namely real-time multiplication and integrator modules. We implemented a real-time analog circuit for AWVA using an AD835 multiplier and an NE5532 operational amplifier for the integrator. The circuit was tested using Gaussian pointers in the AWVA scheme, exhibiting sufficient sensitivity for Gaussian pointers with frequencies 200 Hz < f < 20kHz. Compared to SWVA, AWVA achieves higher accuracy and superior robustness against noise at signal-to-noise ratios (SNRs) of -12 dB < SNR < -4 dB. Beyond quantum metrology, the circuit is applicable to diverse detection schemes for correlated signals.         ",
+    "url": "https://arxiv.org/abs/2507.18180",
+    "authors": [
+      "Jing-Hui Huang",
+      "Guang-Jun Wang",
+      "Xiang-Yun Hu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2310.01554",
+    "title": "Light propagation in magnetoelectric materials: The role of optical coefficients in refractive index modulation",
+    "abstract": "           Investigations into optical phenomena associated with nonlinear magnetoelectric effects are attracting growing attention within the scientific community. Technologies constantly demand new materials capable of exhibiting precise and controllable responses to external electromagnetic fields. In this context, the optics of such materials is of remarkable importance. Here, working in a lossless and non-dispersive regime, electromagnetic wave propagation in materials presenting linear and nonlinear optical coefficients is investigated. We expand the discussion of the roles of nonlinear coefficients by examining special cases in which the contribution of the magnetoelectric optical coefficients $\\alpha_{ij}$, $\\beta_{ijk}$, and $\\gamma_{ijk}$ to birefringence and nonreciprocal phenomena is elucidated. Notably, expressions that directly connect the magnetoelectric coefficients to the refractive indices of the medium are fully derived. These expressions enable the direct measurement of all components of each nonlinear magnetoelectric coefficient, providing an advancement over previous works. This development bridges theoretical models with experimental applications, offering possibilities for the optical characterization of magnetoelectric effects.         ",
+    "url": "https://arxiv.org/abs/2310.01554",
+    "authors": [
+      "Vitorio A. De Lorenci",
+      "Lucas T. de Paula"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.04386",
+    "title": "Acoustic angular sorting of resonant subwavelength particles",
+    "abstract": "           We suggest a dynamical mechanism for angular sorting of subwavelength particles in accord with their resonances and sizes, realised with the forces imposed by acoustic (ultrasound) waves with different wavelengths. We analyse how the acoustic force acting on a small particle depends on its size relative to the ultrasound wavelength, and how the detuning between the two different beams influences the size range and angular distribution for unambiguous sorting outcomes for a given size range. We predict a range of scenarios depending on the particular materials and provide several feasible examples and discuss their practical realisation.         ",
+    "url": "https://arxiv.org/abs/2501.04386",
+    "authors": [
+      "Ivan Toftul",
+      "Yuri Kivshar",
+      "Mikhail Lapine"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.10740",
+    "title": "Commissioning of a radiofrequency quadrupole cooler-buncher for collinear laser spectroscopy",
+    "abstract": "           A RadioFrequency Quadrupole (RFQ) cooler-buncher system has been developed and implemented in a collinear laser spectroscopy setup. This system is dedicated to convert a continuous ion beam into short bunches, while enhancing beam quality and reducing energy spread. The functionality of the RFQ cooler-buncher has been verified through offline tests with stable rubidium and indium beam, delivered from a surface ion source and a laser ablation ion source, respectively. With a transmission efficiency exceeding 60\\%, bunched ion beams with a full width at half maximum of approximately 2~$\\mu$s in the time-of-flight spectrum have been successfully achieved. The implementation of the RFQ cooler-buncher system also significantly improves the overall transmission efficiency of the collinear laser spectroscopy setup.         ",
+    "url": "https://arxiv.org/abs/2502.10740",
+    "authors": [
+      "Yin-Shen Liu",
+      "Han-Rui Hu",
+      "Xiao-Fei Yang",
+      "Wen-Cong Mei",
+      "Yang-Fan Guo",
+      "Zhou Yan",
+      "Shao-Jie Chen",
+      "Shi-wei Bai",
+      "Shu-Jing Wang",
+      "Yong-Chao Liu",
+      "Peng Zhang",
+      "Dong-Yang Chen",
+      "Yan-Lin Ye",
+      "Qi-Te Li",
+      "Jie Yang",
+      "Stephan Malbrunot-Ettenauer",
+      "Simon Lechner",
+      "Carina Kanitz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Nuclear Experiment (nucl-ex)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.12655",
+    "title": "LArTPC hit-based topology classification with quantum machine learning and symmetry",
+    "abstract": "           We present a new approach to separate track-like and shower-like topologies in liquid argon time projection chamber (LArTPC) experiments for neutrino physics using quantum machine learning. Effective reconstruction of neutrino events in LArTPCs requires accurate and granular information about the energy deposited in the detector. These energy deposits can be viewed as 2-D images. Simulated data from the MicroBooNE experiment and a simple custom dataset are used to perform pixel-level classification of the underlying particle topology. Images of the events have been studied by creating small patches around each pixel to characterise its topology based on its immediate neighbourhood. This classification is achieved using convolution-based learning models, including quantum-enhanced architectures known as quanvolutional neural networks. The quanvolutional networks are extended to symmetries beyond translation. Rotational symmetry has been incorporated into a subset of the models. Quantum-enhanced models perform better than their classical counterparts with a comparable number of parameters but are outperformed by classical models, which contain an order of magnitude more parameters. The inclusion of rotation symmetry appears to benefit only large models and remains to be explored further.         ",
+    "url": "https://arxiv.org/abs/2503.12655",
+    "authors": [
+      "Callum Duffy",
+      "Marcin Jastrzebski",
+      "Stefano Vergani",
+      "Leigh H. Whitehead",
+      "Ryan Cross",
+      "Andrew Blake",
+      "Sarah Malik",
+      "John Marshall"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.20416",
+    "title": "Effects of the thin-film thickness on superconducting NbTi microwave resonators for on-chip cryogenic thermometry",
+    "abstract": "           Superconducting microwave resonators have recently gained a primary importance in the development of cryogenic applications, such as circuit quantum electrodynamics, electron spin resonance spectroscopy and particles detection for high-energy physics and astrophysics. In this work, we investigate the influence of the film thickness on the temperature response of microfabricated Nb50Ti50 superconducting resonators. S-shaped split ring resonators (S-SRRs), 20 nm to 150 nm thick, are designed to be electromagnetically coupled with standard Cu coplanar waveguides (CPWs) and their microwave properties are characterized at temperatures below 10 K. The combined contributions of the kinetic inductance LK(T) increase and the decreasing loaded quality factor QL, for thinner films, induce an optimum condition on the temperature sensitivity and resolution of the resonators. A noise equivalent temperature (NET) as low as 0.5 uK/Hz^(1/2), at 1 Hz, is reported for 100 nm thick resonators at 4.2 K. We also asses the possibility of implementing a multiplexed frequency readout, allowing for the simultaneous temperature tracking of several sensors along a single CPW. Such results demonstrate the possibility to perform a distributed cryogenic temperature monitoring, with a sub-mK resolution. Thus, the application of superconducting S-SRRs, eventually benefiting from an even higher LK(T), for a further miniaturization, as well as a back-end integration directly on-chip, can be envisioned for the accurate monitoring of localized temperature of devices operating in cryogenic conditions.         ",
+    "url": "https://arxiv.org/abs/2503.20416",
+    "authors": [
+      "Andr\u00e9 Chatel",
+      "Roberto Russo",
+      "Luca Mazzone",
+      "Quentin Boinay",
+      "Reza Farsi",
+      "J\u00fcrgen Brugger",
+      "Giovanni Boero",
+      "Hernan Furci"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.05709",
+    "title": "Low-loss terahertz negative curvature suspended-core fiber",
+    "abstract": "           Inspired by the design concept of negative curvature hollow-core fibers, this paper presents an innovative negative curvature suspended-core THz fiber. Compared to traditional suspended-core fibers, all structural units of this fiber are designed with circular boundaries, effectively avoiding the issues of insufficient mechanical strength and manufacturing difficulties associated with the wide and ultra-thin rectangular support arms in traditional structures. The numerical simulation using the full-vector finite element method shows that the optical fiber loss is as low as 0.0868dB/cm (0.02cm-1) in 0.4-0.9THz, and the low loss bandwidth is 0.43THz. In addition, by adjusting the structural parameters of the fiber, near zero flat dispersion of -0.15-0.05 ps/THz/cm can be achieved in the range of 0.4-0.9 THz. The fiber exhibits excellent characteristics of low loss, wide bandwidth, and low dispersion, theoretically opening a new research path for the design of low loss THz fibers. This will provide important component support for the application and development of THz technology in fields such as communication, sensing, and imaging.         ",
+    "url": "https://arxiv.org/abs/2507.05709",
+    "authors": [
+      "Jing Deng",
+      "Lei Fan",
+      "Qichao Hou",
+      "Xingfang luo",
+      "Chun-Fang Rao",
+      "Yuan-Feng Zhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.11983",
+    "title": "Berry Monopole Scattering in the Synthetic Momentum Space of a Bilayer Photonic Crystal Slab",
+    "abstract": "           Berry monopoles-quantized sources of Berry curvature-are fundamental to topological phases, yet their scattering remains unexplored. Here, we report for the first time the adiabatic scattering of Berry monopoles in a bilayer photonic crystal slab combining one genuine and one synthetic momentum. Two monopoles approach, collide, and scatter within this hybrid parameter space. The process is described by an effective coupled-mode model and confirmed by full-wave simulations. We further propose an experimental scheme using chiral edge states, opening a route to probe monopole interactions in synthetic photonic systems.         ",
+    "url": "https://arxiv.org/abs/2507.11983",
+    "authors": [
+      "Ngoc Duc Le",
+      "D.-H.-Minh Nguyen",
+      "Dung Xuan Nguyen",
+      "Hai Son Nguyen",
+      "Dario Bercioux"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17428",
+    "title": "Maximal optical chirality via mode coupling in bilayer metasurfaces",
+    "abstract": "           Recent advances in the physics of resonant optical metasurfaces allowed to realize the so-called maximum chirality of planar structures by engineering their geometric parameters. Here we employ bilayer membrane metasurfaces with a square lattice of rotated C$_4$-symmetric holes and uncover very different scenarios of chirality maximization by virtue of strong coupling of photonic eigenmodes of the membranes supplemented by smart engineering of dissipation losses. Our findings substantially expand the class of planar maximally chiral resonant surfaces feasible for widespread nanolithography techniques desired for metaphotonic applications in chiral sensing, chiral light emission, detection and polarization conversion.         ",
+    "url": "https://arxiv.org/abs/2507.17428",
+    "authors": [
+      "Brijesh Kumar",
+      "Ivan Toftul",
+      "Anshuman Kumar",
+      "Maxim Gorkunov",
+      "Yuri Kivshar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.12577",
+    "title": "Complex Frequency Fingerprint: Basic Concept and Theory",
+    "abstract": "           We introduce the complex frequency fingerprint (CFF), an experimentally accessible method for detecting the complex frequency Green's function (GF). Unlike the real frequency GF, where $\\omega$ is real, this complex frequency GF is shown to play a necessary role in both non-Hermitian and quantum many-body systems. For non-Hermitian systems, we will prove that our method detects complex energy spectra, eigenstates, and complex frequency GFs throughout the complex plane, providing necessary identification of the non-Hermitian skin effect. For quantum many-body systems, our method reveals quasiparticle peaks across the complex plane and intuitively illustrates interaction effects. This information is difficult to obtain with real frequency detection. Our method paves the way for exploring exotic phenomena in both non-Hermitian and quantum many-body systems, bridging theory and experiment across diverse physical areas.         ",
+    "url": "https://arxiv.org/abs/2411.12577",
+    "authors": [
+      "Juntao Huang",
+      "Kun Ding",
+      "Jiangping Hu",
+      "Zhesen Yang"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.03354",
+    "title": "Exact steady state of quantum van der Pol oscillator: critical phenomena and enhanced metrology",
+    "abstract": "           Quantum criticality of open many-body systems has attracted lots of interest for emergent phenomena and universality. Here we present the exact steady state of the quantum van der Pol oscillator using the complex $P$-representation. We show the threshold corresponds to a dissipative phase transition with abrupt changes of steady-state properties and enhanced metrology. The critical behaviors and finite-size effects are investigated through the analytical steady state. Moreover, we obtain divergent quantum Fisher information (QFI) in the thermodynamic limit both at the critical point and in the time crystal phase, but only the QFI at the critical point approaches the Heisenberg limit. We further prove that the steady-state photon number is the optimized estimated observable with the largest signal-to-noise ratio. We show that the Heisenberg-limited metrology originates from the larger enhancement of the susceptibility than the standard deviation of the photon number. Our work reveals the underlying relation between the time crystal, dissipative phase transition, and enhanced metrology.         ",
+    "url": "https://arxiv.org/abs/2412.03354",
+    "authors": [
+      "Yaohua Li",
+      "Xuanchen Zhang",
+      "Yong-Chun Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.11341",
+    "title": "The Integral Decimation Method for Quantum Dynamics and Statistical Mechanics",
+    "abstract": "           The solutions to many problems in the mathematical, computational, and physical sciences often involve multidimensional integrals. A direct numerical evaluation of the integral incurs a computational cost that is exponential in the number of dimensions, a phenomenon called the curse of dimensionality. The problem is so substantial that one usually employs sampling methods, like Monte Carlo, to avoid integration altogether. Here, we derive and implement a quantum algorithm to compress a multidimensional integrand into a product of matrix-valued functions - a spectral tensor train - changing the computational complexity of integration from exponential to polynomial. The algorithm compresses the integrand by applying a sequence of quantum gates to an unentangled quantum state, where each term corresponds to a body-ordered term in the potential. Because it allows for the systematic elimination of small contributions to the integral through decimation, we call the method integral decimation. The functions in the spectral basis are analytically differentiable and integrable, and in applications to the partition function, integral decimation numerically factorizes an interacting system into a product of noninteracting ones. We illustrate integral decimation by evaluating the absolute free energy and entropy of a chiral XY model as a continuous function of temperature. We also compute the nonequilibrium time-dependent reduced density matrix of a quantum chain with between two and forty levels, each coupled to colored noise. When other methods provide numerical solutions to these models, they quantitatively agree with integral decimation. When conventional methods become intractable, integral decimation can be a powerful alternative.         ",
+    "url": "https://arxiv.org/abs/2506.11341",
+    "authors": [
+      "Ryan T. Grimm",
+      "Alexander J. Staat",
+      "Joel D. Eaves"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.00159",
+    "title": "Broadband optical time-domain reflectometry for security analysis of quantum key distribution",
+    "abstract": "           In this paper, we present a method for security analysis against the Trojan-horse attacks (THA) launched to a practical fiber-based quantum key distribution (QKD) system across a wide spectral range. To achieve this, we utilize optical time-domain reflectometry (OTDR) for the spectral reflectance analysis in the near-infrared range 1100 - 1800 nm with centimeter-level resolution and with a noise floor down to -80 dB. Finally, the total theoretical-security analysis against the THA side channel considering the spectral reflectance and transmittance data over this spectral range is conducted. To the best of our knowledge, our OTDR setup and the corresponding results are the first of their kind in a wide spectral range.         ",
+    "url": "https://arxiv.org/abs/2507.00159",
+    "authors": [
+      "Klim D. Bondar",
+      "Ivan S. Sushchev",
+      "Daniil D. Bulavkin",
+      "Kirill E. Bugai",
+      "Anna S. Sidelnikova",
+      "Dmitriy M. Melkonian",
+      "Veronika M. Vakhrusheva",
+      "Dmitriy A. Dvoretskiy"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17250",
+    "title": "Quantum walks reveal topological flat bands, robust edge states and topological phase transitions in cyclic graphs",
+    "abstract": "           Topological phases, edge states, and flat bands in synthetic quantum systems are a key resource for topological quantum computing and noise-resilient information processing. We introduce a scheme based on step-dependent quantum walks on cyclic graphs, termed cyclic quantum walks (CQWs), to simulate exotic topological phenomena using discrete Fourier transforms and an effective Hamiltonian. Our approach enables the generation of both gapped and gapless topological phases, including Dirac cone-like energy dispersions, topologically nontrivial flat bands, and protected edge states, all without resorting to split-step or split-coin protocols. Odd and even-site cyclic graphs exhibit markedly different spectral characteristics, with rotationally symmetric flat bands emerging exclusively in $4n$-site graphs ($n\\in \\mathbf{N}$). We analytically establish the conditions for the emergence of topological, gapped flat bands and show that gap closings in rotation space imply the formation of Dirac cones in momentum space. Further, we engineer protected edge states at the interface between distinct topological phases in both odd and even cycle graphs. We numerically demonstrate that the edge states are robust against moderate static and dynamic gate disorder and remain stable against phase-preserving perturbations. This scheme serves as a resource-efficient and versatile platform for engineering topological phases, transitions, edge states, and flat bands in quantum systems, opening new avenues for fault-tolerant quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2507.17250",
+    "authors": [
+      "Dinesh Kumar Panda",
+      "Colin Benjamin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17591",
+    "title": "Using optical tweezers to simultaneously trap, charge and measure the charge of a microparticle in air",
+    "abstract": "           Optical tweezers are widely used as a highly sensitive tool to measure forces on micron-scale particles. One such application is the measurement of the electric charge of a particle, which can be done with high precision in liquids, air, or vacuum. We experimentally investigate how the trapping laser itself can electrically charge such a particle, in our case a $\\sim 1\\,\\mathrm{\\mu m\\;SiO_2}$ sphere in air. We model the charging mechanism as a two-photon process which reproduces the experimental data with high fidelity.         ",
+    "url": "https://arxiv.org/abs/2507.17591",
+    "authors": [
+      "Andrea Stoellner",
+      "Isaac C.D. Lenton",
+      "Artem G. Volosniev",
+      "James Millen",
+      "Renjiro Shibuya",
+      "Hisao Ishii",
+      "Dmytro Rak",
+      "Zhanybek Alpichshev",
+      "Gregory David",
+      "Ruth Signorell",
+      "Caroline Muller",
+      "Scott Waitukaitis"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
