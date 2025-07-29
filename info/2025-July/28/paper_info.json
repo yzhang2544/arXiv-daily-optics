@@ -1,0 +1,363 @@
+[
+  {
+    "id": "arXiv:2507.18644",
+    "title": "Interpretable inverse design of optical multilayer thin films based on extended neural adjoint and regression activation mapping",
+    "abstract": "           We propose an extended neural adjoint (ENA) framework, which meets six key criteria for artificial intelligence-assisted inverse design of optical multilayer thin films (OMTs): accuracy, efficiency, diversity, scalability, flexibility, and interpretability. To enhance the scalability of the existing neural adjoint method, we present a novel forward neural network architecture for OMTs and introduce a material loss function into the existing neural adjoint loss function, facilitating the exploration of material configurations of OMTs. Furthermore, we present the detailed formulation of the regression activation mapping for the presented forward neural network architecture (F-RAM), a feature visualization method aimed at improving interpretability. We validated the efficacy of the material loss by conducting an ablation study, where each component of the loss function is systematically removed and evaluated. The results indicated that the inclusion of the material loss significantly improves accuracy and diversity. To substantiate the performance of the ENA-based inverse design, we compared it against the residual network-based global optimization network (Res-GLOnet). The ENA yielded the OMT solutions of an inverse design with higher accuracy and better diversity compared to the Res-GLOnet. To demonstrate the interpretability, we applied F-RAM to diverse OMT structures with similar optical properties, obtained by the proposed ENA method. We showed that distributions of feature importance for various OMT structures exhibiting analogous optical properties are consistent, despite variations in material configurations, layer number, and thicknesses. Furthermore, we demonstrate the flexibility of the ENA method by restricting the initial layer of OMTs to SiO2 and 100 nm.         ",
+    "url": "https://arxiv.org/abs/2507.18644",
+    "authors": [
+      "Sungjun Kim",
+      "Jungho Kim"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18907",
+    "title": "Liquid crystal based tailoring of strong coupling in \\ch{WS2} metasurfaces: towards reconfigurable quantum photonics",
+    "abstract": "           Strong light-matter interactions in 2D materials have garnered significant interest for their potential in nonlinear optics and quantum photonics. Transition metal dichalcogenides (TMDCs), with their robust excitonic responses, serve as promising materials for exploring these interactions. Importantly, tailoring such strong coupling giving rise to tunable quantum and non-linear emissions are under explored. In this study, we propose a novel approach that employs liquid crystals (LCs) as a tunable medium to modulate the strong coupling between TMDC excitons and photonic modes and hence gives rise to tunable quantum emissions. LCs offer high birefringence and anisotropic optical properties, which can be dynamically tuned using external stimuli such as electric fields or temperature variations. By embedding TMDCs within an LC environment and coupling them to photonic quasi-bound states in the continuum (quasi-BIC), we demonstrate precise control over the exciton-photon interactions. The orientation of the LCs, governed by applied external fields, directly influences the coupling strength, enabling real-time modulation of exciton-polariton states and Rabi-splitting. Our system exhibits Rabi splitting energy of 182.5 MeV in air, and 139, 153.7, and 131 meV under different LC orientations. Additionally second order autocorrelation function calculated at zero delay yields \\( g^{(2)}(0) = 0.89 \\), demonstrating photon anti-bunching, confirming the quantum nature of emission. Our findings establish a versatile platform where TMDCs and LCs synergistically enable electrically controllable strong coupling, offering a scalable and responsive architecture for next-generation quantum photonic devices.         ",
+    "url": "https://arxiv.org/abs/2507.18907",
+    "authors": [
+      "Anu Koviloor Manian",
+      "Jayasri Dontabhaktuni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18994",
+    "title": "Enhanced photon-pair generation from a van der Waals metasurface",
+    "abstract": "           Quantum photon pairs play a pivotal role in many quantum applications. Metasurfaces, two-dimensional arrays of nanostructures, have been studied intensively to enhance and control pair generation via spontaneous parametric downconversion (SPDC). Van der Waals (VdW) layered materials have emerged as promising candidates for nonlinear materials in quantum light sources, owing to their high nonlinear susceptibility and compatibility with on-chip integration. In this work, we present the first demonstration of SPDC from a metasurface composed of the VdW material 3R-MoS2. The nanoresonators support quasi-bound states in the continuum (qBIC) with a quality factor of up to 120, enhancing light-matter interactions. This design achieves a 20-fold increase in SPDC rate compared to an unstructured film and significantly higher brightness, resulting in enhanced quantum photon-pair generation. This work establishes a new approach for utilizing van der Waals metasurfaces in the generation of quantum photon pairs, opening avenues for advanced quantum applications.         ",
+    "url": "https://arxiv.org/abs/2507.18994",
+    "authors": [
+      "Tongmiao Fan",
+      "Yilin Tang",
+      "Shaun Lung",
+      "Maximilian Weissflog",
+      "Jinyong Ma",
+      "Saniya Shinde",
+      "Sina Saravi",
+      "Mudassar Nauman",
+      "Wenkai Yang",
+      "Hao Qin",
+      "Shuyao Qiu",
+      "Andrey A. Sukhorukov",
+      "Yuerui Lu",
+      "Frank Setzpfandt"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19001",
+    "title": "Overcoming the indirect bandgap: efficient silicon emission via momentum-expanded photonic states",
+    "abstract": "           Silicon's inherently indirect bandgap severely limits its radiative efficiency, posing a fundamental challenge to the development of practical silicon-based light sources. While strategies such as nanoscale confinement of electrons and holes (quantum dots), Mie resonators, and hybrid plasmonic structures have improved emission, they typically require complex fabrication workflows. Here, we demonstrate a conceptually distinct and scalable approach to enable light emission from a bulk silicon wafer by decorating its surface with gold or copper nanoparticles. Remarkably, the effect is nearly identical for Au and Cu, with particle size emerging as the dominant factor. We show that strong luminescence from the bulk wafer emerges only when the nanoparticle diameter is below 2 nm. We attribute this effect to the formation of spatially confined photonic states with broadened momentum distributions, which must enable diagonal, phonon-independent optical transitions that bypass the limitations imposed by silicon's indirect bandgap. This mechanism yields broadband emission across the visible and near-infrared spectrum, with quantum efficiencies comparable to direct bandgap semiconductors, representing a 10^5-fold increase in integrated spectral intensity. This discovery challenges the conventional understanding of silicon's optical constraints and opens a practical pathway toward high-performance silicon-based optical and optoelectronic components.         ",
+    "url": "https://arxiv.org/abs/2507.19001",
+    "authors": [
+      "Aleksei I. Noskov",
+      "Alexander B. Kotlyar",
+      "Liat Katrivas",
+      "Zakhar Reveguk",
+      "Evan P. Garcia",
+      "V. Ara Apkarian",
+      "Christophe Galland",
+      "Eric O. Potma",
+      "Dmitry A. Fishman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19276",
+    "title": "Hybrid tensor network and neural network quantum states for quantum chemistry",
+    "abstract": "           Neural network quantum states (NQS) have emerged as a powerful and flexible framework for addressing quantum many-body problems. While successful for model Hamiltonians, their application to molecular systems remains challenging for several reasons. In this work, we introduce three innovations to overcome some of the key limitations. (1) We propose two novel ans\u00e4tzet hat hybridize tensor network and neural network states for addressing initialization challenges and enhancing the expressivity of tensor networks. First, we develop a bounded-degree graph recurrent neural network (BDG-RNN) ansatz that leverages graph-based updates, enabling applications to molecular electronic structure problems. Second, we introduce restricted Boltzmann machine (RBM) inspired correlators to further enhance expressivity and improve accuracy, without dramatically modifying the underlying variational Monte Carlo (VMC) optimization framework. (2) We introduce a semi-stochastic algorithm for local energy evaluation, which significantly reduces computational cost while maintaining high accuracy. Combining these advances, we demonstrate that our approaches can achieve chemical accuracy in challenging systems, including the one-dimensional hydrogen chain H50, the iron-sulfur cluster [Fe2S2(SCH3)4]^{2-}, and a three-dimensional $3 \\times 3 \\times 2$ hydrogen cluster H18. These methods are implemented in an open-source package - PyNQS (this https URL) to advance NQS methodologies for quantum chemistry.         ",
+    "url": "https://arxiv.org/abs/2507.19276",
+    "authors": [
+      "Zibo Wu",
+      "Bohan Zhang",
+      "Wei-Hai Fang",
+      "Zhendong Li"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19358",
+    "title": "Nonlinear Terahertz Polaritonics in a Quantum Paraelectric",
+    "abstract": "           Terahertz (THz) frequency range holds immense potential for high-speed data processing and signal manipulation. However, a fundamental challenge remains: the efficient and tunable control of THz electromagnetic fields. One promising approach is polaritonic engineering, which leverages hybrid light-matter excitations to manipulate THz fields at sub-wavelength scales. Here, we introduce quantum paraelectric materials as a powerful new platform for THz phonon-polaritonics, leveraging the pronounced nonlinearities of incipient ferroelectrics. These nonlinearities enable strong self- and cross-coupling between polaritons, facilitating all-optical, reconfigurable THz signal control. Using a novel space- and time-resolved imaging technique, we directly observe the ballistic propagation of bulk phonon-polaritons in SrTiO$_3$, and uncover soliton-like, dispersion-free transport in its low-temperature, quantum-fluctuation-dominated phase. Our results establish quantum paraelectric solids as a versatile and highly tunable medium for next-generation THz photonics and ultrafast information processing.         ",
+    "url": "https://arxiv.org/abs/2507.19358",
+    "authors": [
+      "Chao Shen",
+      "Carla Verdi",
+      "Serafim Babkin",
+      "Maksym Serbyn",
+      "Zhanybek Alpichshev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19414",
+    "title": "Probing Optical Magnetic Dipole Transitions in Eu$^{3+}$ using Structured Light and Nanoscale Sample Engineering",
+    "abstract": "           At optical frequencies, interactions of the electric field component of light with matter are dominating, whereas magnetic dipole transitions are inherently weak and challenging to access independently from electric dipole transitions. However, magnetic dipole transitions are of interest, as they can provide valuable complementary information about the matter under investigation. Here, we present an approach which combines structured light irradiation with tailored sample morphology for enhanced and highcontrast optical magnetic field excitation, and we test this technique on Eu$^{3+}$ ions. We generate spectrally tunable, narrowband, polarization-shaped ultrashort laser pulses, which are specifically optimized for the spectral and the spatial selective excitation of magnetic dipole and electric dipole transitions in Eu$^{3+}$ : Y$_2$O$_3$ nanostructures integrated into a metallic antenna. In the presence of the metallic antenna, the excitation with an azimuthally polarized beam is shown to provide at least a 3.0-4.5-fold enhancement of the magnetic dipole transition as compared to a radially polarized beam or a conventional Gaussian beam. Thus, our setup provides new opportunities for the spectroscopy of forbidden transitions.         ",
+    "url": "https://arxiv.org/abs/2507.19414",
+    "authors": [
+      "Elizaveta Gangrskaia",
+      "Thomas Schachinger",
+      "Christoph Eisenmenger-Sittner",
+      "Lorenz Gr\u00fcnewald",
+      "Sebastian Mai",
+      "Andrius Baltu\u0161ka",
+      "Audrius Pug\u017elys",
+      "Alessandra Bellissimo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19449",
+    "title": "A continuous-wave vacuum ultraviolet laser for the nuclear clock",
+    "abstract": "           The exceptionally low-energy isomeric transition in $^{229}$Th at around 148.4 nm offers a unique opportunity for coherent nuclear control and the realisation of a nuclear clock. Recent advances, most notably the incorporation of large ensembles of $^{229}$Th nuclei in transparent crystals and the development of pulsed vacuum-ultraviolet (VUV) lasers, have enabled initial laser spectroscopy of this transition. However, the lack of an intense, narrow-linewidth VUV laser has precluded coherent nuclear manipulation. Here we introduce and demonstrate the first continuous-wave laser at 148.4 nm, generated via four-wave mixing (FWM) in cadmium vapor. The source delivers 100 nW of power with a linewidth well below 100 Hz and supports broad wavelength tunability. This represents a five-orders-of-magnitude improvement in linewidth over all previous single-frequency lasers below 190 nm, marking a major advance in laser technology. We develop a spatially resolved homodyne technique to place a stringent upper bound on the phase noise induced by the FWM process and demonstrate sub-hertz linewidth capability. These results eliminate the final technical hurdle to a $^{229}$Th-based nuclear clock, opening new directions in quantum metrology, nuclear quantum optics and precision tests of the Standard Model. More broadly, they establish a widely tunable, ultranarrow-linewidth laser platform for applications across quantum information science, condensed matter physics, and high-resolution VUV spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2507.19449",
+    "authors": [
+      "Qi Xiao",
+      "Gleb Penyazkov",
+      "Xiangliang Li",
+      "Beichen Huang",
+      "Wenhao Bu",
+      "Juanlang Shi",
+      "Haoyu Shi",
+      "Tangyin Liao",
+      "Gaowei Yan",
+      "Haochen Tian",
+      "Yixuan Li",
+      "Jiatong Li",
+      "Bingkun Lu",
+      "Li You",
+      "Yige Lin",
+      "Yuxiang Mo",
+      "Shiqian Ding"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18700",
+    "title": "Adaptive Neural Quantum States: A Recurrent Neural Network Perspective",
+    "abstract": "           Neural-network quantum states (NQS) are powerful neural-network ans\u00e4tzes that have emerged as promising tools for studying quantum many-body physics through the lens of the variational principle. These architectures are known to be systematically improvable by increasing the number of parameters. Here we demonstrate an Adaptive scheme to optimize NQSs, through the example of recurrent neural networks (RNN), using a fraction of the computation cost while reducing training fluctuations and improving the quality of variational calculations targeting ground states of prototypical models in one- and two-spatial dimensions. This Adaptive technique reduces the computational cost through training small RNNs and reusing them to initialize larger RNNs. This work opens up the possibility for optimizing graphical processing unit (GPU) resources deployed in large-scale NQS simulations.         ",
+    "url": "https://arxiv.org/abs/2507.18700",
+    "authors": [
+      "Jake McNaughton",
+      "Mohamed Hibat-Allah"
+    ],
+    "subjectives": [
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Machine Learning (cs.LG)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18751",
+    "title": "Fully quantum description of the four-wave mixing contribution to correlated Stokes-anti-Stokes scattering",
+    "abstract": "           The process in which Raman scattering produces correlated Stokes and anti-Stokes radiation is known as Stokes-anti-Stokes (SaS) scattering. It has been shown recently that this process can generate entangled photon pairs, making it a promising tool for quantum optical technologies, but a proper quantum theoretical description was lacking. In this paper, a fully quantum derivation of the electric polarization in a medium with vibrational Raman response, with quantized electromagnetic fields, is developed. Using quantum perturbation theory for Heisenberg operators, we find the solution for the material electric polarization and show that the correlated SaS scattering appears in the first order of perturbation, corresponding to a four-wave mixing phenomenon. We also discuss how to construct the third-order non-linear optical susceptibility for the SaS scattering from the quantum formalism, and show that it coincides with the one derived for classical fields in stimulated Raman.         ",
+    "url": "https://arxiv.org/abs/2507.18751",
+    "authors": [
+      "Raul Corr\u00eaa",
+      "Marcelo F. Santos",
+      "Carlos H. Monken",
+      "Ado Jorio"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18850",
+    "title": "Estimating Sensitivity Maps for X-Nuclei Magnetic Resonance Spectroscopic Imaging",
+    "abstract": "           The purpose of this research is to estimate sensitivity maps when imaging X-nuclei that may not have a significant presence throughout the field of view. We propose to estimate the coil's sensitivities by solving a least-squares problem where each row corresponds to an individual estimate of the sensitivity for a given voxel. Multiple estimates come from the multiple bins of the spectrum with spectroscopy, multiple times with dynamic imaging, or multiple frequencies when utilizing spectral excitation. The method presented in this manuscript, called the L2 optimal method, is compared to the commonly used RefPeak method which uses the spectral bin with the highest energy to estimate the sensitivity maps. The L2 optimal method yields more accurate sensitivity maps when imaging a numerical phantom and is shown to yield a higher signal-to-noise ratio when imaging the brain, pancreas, and heart with hyperpolarized pyruvate as the contrast agent with hyperpolarized MRI. The L2 optimal method is able to better estimate the sensitivity by extracting more information from the measurements.         ",
+    "url": "https://arxiv.org/abs/2507.18850",
+    "authors": [
+      "Nicholas Dwork",
+      "Jeremy W. Gordon",
+      "Shuyu Tang",
+      "Peder E. Z. Larson"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Medical Physics (physics.med-ph)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.19316",
+    "title": "Human-AI Synergy in Adaptive Active Learning for Continuous Lithium Carbonate Crystallization Optimization",
+    "abstract": "           As demand for high-purity lithium surges with the growth of the electric vehicle (EV) industry, cost-effective extraction from lower-grade North American sources like the Smackover Formation is critical. These resources, unlike high-purity South American brines, require innovative purification techniques to be economically viable. Continuous crystallization is a promising method for producing battery-grade lithium carbonate, but its optimization is challenged by a complex parameter space and limited data. This study introduces a Human-in-the-Loop (HITL) assisted active learning framework to optimize the continuous crystallization of lithium carbonate. By integrating human expertise with data-driven insights, our approach accelerates the optimization of lithium extraction from challenging sources. Our results demonstrate the framework's ability to rapidly adapt to new data, significantly improving the process's tolerance to critical impurities like magnesium from the industry standard of a few hundred ppm to as high as 6000 ppm. This breakthrough makes the exploitation of low-grade, impurity-rich lithium resources feasible, potentially reducing the need for extensive pre-refinement processes. By leveraging artificial intelligence, we have refined operational parameters and demonstrated that lower-grade materials can be used without sacrificing product quality. This advancement is a significant step towards economically harnessing North America's vast lithium reserves, such as those in the Smackover Formation, and enhancing the sustainability of the global lithium supply chain.         ",
+    "url": "https://arxiv.org/abs/2507.19316",
+    "authors": [
+      "Shayan S. Mousavi Masouleh",
+      "Corey A. Sanz",
+      "Ryan P. Jansonius",
+      "Cara Cronin",
+      "Jason E. Hein",
+      "Jason Hattrick-Simpers"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Human-Computer Interaction (cs.HC)",
+      "Machine Learning (cs.LG)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2401.14290",
+    "title": "Quantum Electrometer for Time-Resolved Material Science at the Atomic Lattice Scale",
+    "abstract": "           The detection of individual charges plays a crucial role in fundamental material science and the advancement of classical and quantum high-performance technologies that operate with low noise. However, resolving charges at the lattice scale in a time-resolved manner has not been achieved so far. Here, we present the development of an electrometer with 60 ns acquisition steps, leveraging on the spectroscopy of an optically-active spin defect embedded in a solid-state material with a non-linear Stark response. By applying our approach to diamond, a widely used platform for quantum technology applications, we can distinguish the distinct charge traps at the lattice scale, quantify their impact on transport dynamics and noise generation, analyze relevant material properties, and develop strategies for material optimization.         ",
+    "url": "https://arxiv.org/abs/2401.14290",
+    "authors": [
+      "Gregor Pieplow",
+      "Cem G\u00fcney Torun",
+      "Charlotta Gurr",
+      "Joseph H. D. Munns",
+      "Franziska Marie Herrmann",
+      "Andreas Thies",
+      "Tommaso Pregnolato",
+      "Tim Schr\u00f6der"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.11362",
+    "title": "A boostlet transform for wave-based acoustic signal processing in space-time",
+    "abstract": "           Sparse representation systems that encode signal architecture have had a profound impact on sampling and compression paradigms. Remarkable examples are multi-scale directional systems, which, similar to our vision system, encode the underlying architecture of natural images with sparse features. Inspired by this philosophy, we introduce a representation system for wave-based acoustic signal processing in 2D space--time, referred to as the \\emph{boostlet transform}, which encodes sparse features of natural acoustic fields using the Poincar\u00e9 group and isotropic dilations. Boostlets are spatiotemporal functions parametrized with dilations, Lorentz boosts, and translations in space--time. Physically speaking, boostlets are supported away from the acoustic radiation cone, i.e., having broadband frequency with phase velocities other than the speed of sound, resulting in a peculiar scaling function. We formulate a discrete boostlet frame using Meyer wavelets and bump functions and examine its sparsity properties. An analysis with experimentally measured fields indicates that discrete boostlet coefficients decay significantly faster and attain superior reconstruction performance than wavelets, curvelets, shearlets, and wave atoms. The results demonstrate that boostlets provide a natural, compact representation system for acoustic waves in space-time.         ",
+    "url": "https://arxiv.org/abs/2403.11362",
+    "authors": [
+      "Elias Zea",
+      "Marco Laudato",
+      "Joakim And\u00e9n"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Signal Processing (eess.SP)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.09346",
+    "title": "Comprehensive Investigation of Fundamental Mode Profiles in Monolithic Nonplanar Ring Oscillators",
+    "abstract": "           Nonplanar ring oscillators (NPROs) are building blocks for high-performance single-frequency lasers and ring-laser gyroscopes that have profoundly improved the state-of-the-art laser technologies, fundamental research and precision measurements. However, a comprehensive investigation of fundamental mode profiles in monolithic NPROs has been a missing part even though they will affect the performance of the lasers or ring-laser gyroscopes. Here, we present a comprehensive finite-element modeling of the output beam profiles of monolithic NPROs by combining ABCD transmission matrix and generalized Huygens-Fresnel integral. We theoretically investigate the effects of geometric parameters of monolithic NPROs on their output mode profiles. In particular, we focus on the thermal effect inside the monolithic NPRO and calculate the equivalent focal-length of the thermal-lens by using a ray-tracing-method. Furthermore, we experimentally characterize the output laser beam profile, reconstruct the beam profile at the A-facet of the monolithic NPRO, and compare the experimental results with the simulation, thereby validating the accuracy and reliability of our model. The investigation may facilitate monolithic NPRO design and subsequently improve the performances of NPRO lasers and gyroscopes in the future.         ",
+    "url": "https://arxiv.org/abs/2503.09346",
+    "authors": [
+      "Weitong Fan",
+      "Chunzhao Ma",
+      "Wenxun Li",
+      "Danqing Liu",
+      "Zelong Huang",
+      "Jie Xu",
+      "Hsien-Chi Yeh",
+      "Changlei Guo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17940",
+    "title": "Oligonucleotide selective detection by levitated optomechanics",
+    "abstract": "           Here we examine the detection of oligonucleotide-specific signals in sensitive optomechanical experiments. Silica nanoparticles (SiNPs) were functionalized using ZnCl$_2$ and 25-mers of single-stranded deoxyadenosine and deoxythymidine monophosphate which were optically trapped by a 1550 nm wavelength laser in vacuum. In the optical trap, SiNPs behave as harmonic oscillators, and their oscillation frequency and amplitude can be precisely detected by optical interferometry. The data was compared across particle types, revealing differences in frequency, width and amplitude of peaks with respect to motion of the SiNPs which can be explained by a theoretical model. Data obtained from this platform was analyzed by fitting Lorentzian curves to the spectra. Linear discriminant analysis detected differences between the functionalized and non-functionalized SiNPs. Random forest modeling provided further evidence that the fitted data were different between the groups. Transmission electron microscopy was carried out, but did not reveal any visual differences between the particle types         ",
+    "url": "https://arxiv.org/abs/2507.17940",
+    "authors": [
+      "Timothy Wilson",
+      "Owen J. L. Rackham",
+      "Hendrik Ulbricht"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantitative Methods (q-bio.QM)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.18127",
+    "title": "Hybrid Quantum-Classical Inverse Design of Metasurfaces for Tailored Narrow Band Absorption",
+    "abstract": "           The inverse design of metasurfaces poses a considerable challenge because of the intricate interdependencies that exist between structural characteristics and electromagnetic responses. Traditional optimization methods require significant computational resources and frequently do not produce the most effective solutions. This study presents a hybrid quantum-classical machine learning approach known as Latent Style-based Quantum GAN (LaSt-QGAN). This method integrates a Variational Autoencoder (VAE) with a Quantum Generative Adversarial Network (QGAN) to enhance the optimization of metasurface designs aimed at achieving narrow-band absorption and unidirectionality. The proposed method results in a reduction of training time by 10X and a decrease in data requirements by 40X when compared to traditional GAN-based approaches. The produced metasurface designs demonstrate a high fidelity in relation to the target absorption spectra compared to the classical GAN based methods. Additionally, the integration of a material look-up table facilitates manufacturability by allowing for the substitution of predicted material properties with viable alternatives, all while preserving performance accuracy. Moreover the model is able to generate Q-factor upto the order of $10^4$, while the training dataset has Q-factor upto the order of $10^3$.         ",
+    "url": "https://arxiv.org/abs/2507.18127",
+    "authors": [
+      "Sreeraj Rajan Warrier",
+      "Jayasri Dontabhaktuni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2003.10722",
+    "title": "Theoretical correction methods for optical tweezers: Acquisition of potentials of mean forces between colloidal particles in a bulk and on a surface",
+    "abstract": "           It is known that line optical tweezers (LOT) can measure potential of mean force (PMF) between colloidal particles in the bulk. However, PMF obtained with LOT is empirically modified before showing the result of the final form in order to correct the potential rise at long distances. In the present letter, we derive theoretical correction methods for acquisition of PMF by using statistical mechanics. Using the new methods, PMF can be obtained without the empirical fitting equation. Through the new methods, external potential acting on the trapped two colloidal particles induced by LOT can also be obtained. As an additional study, we explain two methods for obtaining PMF between colloidal particles on a substrate surface, in which a normal single optical tweezers with a fixed focal point is used, and for obtaining PMF between colloidal particles trapped by dual-beam optical tweezers in the bulk. These methods can also obtain the external potential acting on the trapped two colloidal particles.         ",
+    "url": "https://arxiv.org/abs/2003.10722",
+    "authors": [
+      "Ken-ichi Amano",
+      "Rikako Suzuki",
+      "Madoka Takasu"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.00176",
+    "title": "Self-ion implantation and structural relaxation in amorphous silicon",
+    "abstract": "           Self-ion implantation amorphization is an established approach to study the structure and properties of amorphous silicon (a-Si). Fluctuation Electron Microscopy (FEM) has consistently observed Medium-Range Order (MRO) in this system that is not consistent with the Continuous Random Network (CRN) model. Using this technique we find that the degree of MRO first increases on thermal annealing and then decreases before finally recrystallizing. We discuss this new result in the light of previous experimental studies and recent theoretical observations on the favorability of the paracrystalline (PC) model over the CRN in a-Si. At ion doses far above the minimum required to amorphize, a high defect density is found in the PC phase, which anneals out at 500oC. The PC structure after 500oC annealing is independent of the initial implantation conditions and appears to represent a metastable and highly-ordered structure. Higher-temperature annealing causes a reduction in the degree of MRO and the structure approaches but does not reach a fully continuous random network before eventually crystallizing above 600oC. The effect of high dose implantation is to increase the defect density in the as-implanted state and the annealing of these defects is likely responsible for the large characteristic heat evolution at low temperature.         ",
+    "url": "https://arxiv.org/abs/2506.00176",
+    "authors": [
+      "J.M. Gibson",
+      "Robe Elliman",
+      "T. Susi",
+      "C. Mangler"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17339",
+    "title": "Quantum Beatings in Optical Cavities",
+    "abstract": "           Cavity polaritons, quasiparticles formed by coherent light-matter coupling, are at the heart of fundamental concepts of quantum optics. The quintessential signature of this coherent coupling is the Rabi oscillation, which results from the neglect of the counter-rotating-wave (CRW) effect in the weak-coupling regime. The goal of this letter is to predict resonant beatings that envelop the Rabi oscillation on the second or higher excitation manifold. These polariton beatings arise from the CRW term in the Dicke or Pauli-Fierz model and are directly correlated with the asymmetry in polariton eigenenergies. Our findings highlight the relevance of the CRW effect even in the weak-coupling regime, offer novel perspectives about coherent polariton dynamics, and shed new light on experiments of coupled quantum systems.         ",
+    "url": "https://arxiv.org/abs/2507.17339",
+    "authors": [
+      "Ishaan Ganti",
+      "Jianshu Cao"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
