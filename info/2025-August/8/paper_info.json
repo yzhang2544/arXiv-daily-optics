@@ -1,0 +1,335 @@
+[
+  {
+    "id": "arXiv:2508.04718",
+    "title": "Quantum panprotopsychism and a consciousness-centered universe",
+    "abstract": "           In previous publications, we have argued that a form of panprotopsychism based on quantum states and events offers a solution to the combination problem. This framework explains the emergence of complex phenomenal qualities and conscious subjects. Furthermore, the inherent openness of quantum mechanics allows consciousness and, more generally, phenomenal properties to exert a causal influence. If the view proposed by quantum panprotopsychism is valid, it suggests that we inhabit a consciousness-centered universe. A world whose fundamental nature is phenomenal. This is at odds with the current view about the human condition that was strongly influenced by a science based on classical mechanicism, and led to nihilism and existentialism in late 19th-century Europe, and more recently to the rise of anti-foundationalists perspectives. The centrality of consciousness resulting from the incorporation of a quantum ontology into our worldview leads us to reconsider the nihilistic view and conclude that we live in a world in which a precise physical order leads to people capable of accessing a transcendent phenomenal realm.         ",
+    "url": "https://arxiv.org/abs/2508.04718",
+    "authors": [
+      "Rodolfo Gambini"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05026",
+    "title": "Phase Noise Tolerance for Low-Pilot-Overhead OFDM Terahertz Links Beyond 64-QAM",
+    "abstract": "           THz wireless communications have garnered significant attention due to their unprecedented data rates enabled by the abundant untapped spectrum. However, advanced modulation formats beyond 64-QAM remain largely unexplored, as phase errors introduced during up/down-conversion severely limit system performance. Particularly, OFDM transmission is highly susceptible to aggravated ICI induced by phase noise, undermining the orthogonality of subcarriers. While PLLs and pilot-assisted compensation can mitigate phase errors, excessive pilot overhead compromises spectral efficiency and energy consumption, and white phase noise remains unrecoverable. Therefore, quantifying phase noise tolerance is essential for practical physical layer protocols. Here, we reveal the impact of phase noise in a 64-QAM, 2048-subcarrier OFDM THz transmission system. 3{\\sigma}-error estimation is proposed to quantify phase noise tolerance, indicating an intuitive EVM threshold of approximately 5%. This threshold further delineates the trade-offs among phase noise levels, SNR requirements, and pilot overhead. Moreover, by benchmarking representative oscillators with distinct phase noise spectra, microring resonators (MRRs) are identified as indispensable enablers for low-pilot-overhead OFDM THz links operating beyond 64-QAM.         ",
+    "url": "https://arxiv.org/abs/2508.05026",
+    "authors": [
+      "Bowen Liu",
+      "Takasumi Tanabe"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05076",
+    "title": "MetaDiT: Enabling Fine-grained Constraints in High-degree-of Freedom Metasurface Design",
+    "abstract": "           Metasurfaces are ultrathin, engineered materials composed of nanostructures that manipulate light in ways unattainable by natural materials. Recent advances have leveraged computational optimization, machine learning, and deep learning to automate their design. However, existing approaches exhibit two fundamental limitations: (1) they often restrict the model to generating only a subset of design parameters, and (2) they rely on heavily downsampled spectral targets, which compromises both the novelty and accuracy of the resulting structures. The core challenge lies in developing a generative model capable of exploring a large, unconstrained design space while precisely capturing the intricate physical relationships between material parameters and their high-resolution spectral responses. In this paper, we introduce MetaDiT, a novel framework for high-fidelity metasurface design that addresses these limitations. Our approach leverages a robust spectrum encoder pretrained with contrastive learning, providing strong conditional guidance to a Diffusion Transformer-based backbone. Experiments demonstrate that MetaDiT outperforms existing baselines in spectral accuracy, we further validate our method through extensive ablation studies. Our code and model weights will be open-sourced to facilitate future research.         ",
+    "url": "https://arxiv.org/abs/2508.05076",
+    "authors": [
+      "Hao Li",
+      "Andrey Bogdanov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05200",
+    "title": "Magnetic-free terahertz nonreciprocity via temporal dissipative barriers",
+    "abstract": "           Terahertz (THz) nonreciprocal devices are essential for advancing future fundamental science, wireless communications, imaging, and sensing. Current THz nonreciprocal devices mostly rely on magnetic materials, which, however, suffer from large volume, operation under an external magnetic field, and low-temperature environment, rendering them poorly compatible with miniaturized developments. Here,we propose an unconventional method for achieving THz nonreciprocity free from magnetic materials. The scheme relies on a temporal dissipative barrier, a transient loss variation generated by photoexcited carriers, and the nonreciprocity arises from the distinct coupling behavior for different polarizations with the barrier. The isolation efficiency correlates with the temporal barrier width, resonant mode detuning, and the working frequency, and has been significantly enhanced by introducing a dark mode. We experimentally confirm our method in a THz optically active metasurface with wave-flow isolation exceeding 20 dB across a bandwidth greater than 0.4 THz. Theoretical predictions indicate peak isolation surpassing 60 dB, with experimental results achieving over 30 dB at 0.7 THz. Our approach unlocks the potential of miniaturized, integrated, magnetic-free THz nonreciprocal devices for various applications.         ",
+    "url": "https://arxiv.org/abs/2508.05200",
+    "authors": [
+      "Mingyu Tong",
+      "Yuze Hu",
+      "Siyang Hu",
+      "Hongsheng Chen",
+      "Tian Jiang",
+      "Yihao Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05321",
+    "title": "Unsupervised learning for inverse problems in computed tomography",
+    "abstract": "           This study presents an unsupervised deep learning approach for computed tomography (CT) image reconstruction, leveraging the inherent similarities between deep neural network training and conventional iterative reconstruction methods. By incorporating forward and backward projection layers within the deep learning framework, we demonstrate the feasibility of reconstructing images from projection data without relying on ground-truth images. Our method is evaluated on the two-dimensional 2DeteCT dataset, showcasing superior performance in terms of mean squared error (MSE) and structural similarity index (SSIM) compared to traditional filtered backprojection (FBP) and maximum likelihood (ML) reconstruction techniques. Additionally, our approach significantly reduces reconstruction time, making it a promising alternative for real-time medical imaging applications. Future work will focus on extending this methodology to three-dimensional reconstructions and enhancing the adaptability of the projection geometry.         ",
+    "url": "https://arxiv.org/abs/2508.05321",
+    "authors": [
+      "Laura Hellwege",
+      "Johann Christopher Engster",
+      "Moritz Schaar",
+      "Thorsten M. Buzug",
+      "Maik Stille"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05363",
+    "title": "Towards ultracompact photonic chips using higher-order modes in closely spaced waveguides",
+    "abstract": "           Photonic integrated circuits are gaining traction in the field of telecommunications and information processing for their low-loss and high-throughput data transmission in comparison to electronic integrated circuits. However, they are still not used as widely as their electronic counterparts due to a relatively large footprint of photonic chips. One limiting factor to their size is the need to separate optical components by distances on the order of the working wavelength or larger to minimize optical crosstalk between them. In this work, we consider the fundamental and higher-order modes in closely spaced straight and bent waveguides with relatively small cross sections and find that higher-order modes allow one to substantially reduce the crosstalk in both cases. This can be used to considerably reduce the dimensions of photonic chips. We also propose on-chip components that allow selective excitation of higher-order modes. In addition, we design a directional coupler, a 3-dB splitter, and a Mach-Zehnder interferometer capable of operating on higher-order modes. Other ultracompact photonic-chip components, such as optical interconnects, switches, transceivers, and phased waveguide arrays for on-chip LiDAR scanners, can be designed as well based on similar principles.         ",
+    "url": "https://arxiv.org/abs/2508.05363",
+    "authors": [
+      "Fahmy Yousry",
+      "Panu Hild\u00e9n",
+      "Radoslaw Kolkowski",
+      "Andriy Shevchenko"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05412",
+    "title": "Extreme-ultraviolet laser generation at 118 nm via adaptive random additional periodic-phase engineering in a LiF crystal",
+    "abstract": "           Extreme ultraviolet (EUV) coherent sources below 120nm are of paramount significance for promoting next-generation nano-scale lithography,precision spectroscopy, and exploring the emerging physical phenomena in quantum materials. Nonlinear optical conversion serves as the only feasible approach to obtain solid state EUV lasers, yet the intrinsic strong absorption at EUV and giant phase mismatch among light waves have hindered the realization of highly-efficient EUV light sources. Herein, we propose a random additional periodic phase (RAPP) strategy in third-order nonlinear crystals to overcome these problems, that an artificially designed random phase grating at micrometer-scales is embedded in the homogeneous bulk crystal, thus adaptively compensating the phase mismatch between fundamental-wave and third-harmonic waves. For the first time, the EUV laser at 118nm is demonstrated in the RAPP lithium fluoride (LiF) crystals with wide period distributions, where the highest output power is over 90uW. To the best our knowledge, this is the shortest wavelength among all solid-state laser systems, which represents a significant advance in nonlinear optical materials and opens new roadmap toward high-brightness EUV sources.         ",
+    "url": "https://arxiv.org/abs/2508.05412",
+    "authors": [
+      "Yanling Cheng",
+      "Bin Zhang",
+      "Fei Liang",
+      "Haohai Yu",
+      "Huaijin Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05440",
+    "title": "3D DNA Origami-Enabled Molecularly Addressable Optical Nanocircuit",
+    "abstract": "           The optical nanocircuit concept provides a predictive framework analogous to an electric RLC circuit, where induced dipoles in plasmonic nanoparticle (NPs), ohmic losses in NPs, and dielectric gaps serve as inductors (L), capacitors (C), and resistors (R), respectively. This modular theory allows unprecedented design flexibility, expanding the range of achievable optical resonances in plasmonic clusters. However, existing experimental approaches, such as atomic force microscope tip-enabled nanomanipulation and electron-beam lithography, lack the critical accuracy in nanogap tuning and molecular loading required for applications like PRET. Here, we introduce a molecularly addressable optical nanocircuit enabled by DNA origami. First, we theoretically and experimentally confirmed that gold (Au) NPs and dye-loaded DNA origami can function as different circuit elements: R- and C-coupled L and R-coupled C, respectively. To assemble large Au NPs into designer optical nanocircuits, we utilized a mechanically robust 3D DNA origami design rather than conventionally used 2D origami sheet. This platform provided high reproducibility and accuracy in assembling a range of structures-from dimers to tetramers-with controlled symmetry, heterogeneity, and nanogap tunability. Together with ultrasmoothness and uniformity of Au NPs, we achieved the highest Q-factor for magnetic resonance of a nanoparticle-based optical nanocircuit (~19.2). Also, selective molecular cargo loading onto designated 3D DNA origami sites within plasmonic clusters enabled deterministic, predictive light-molecule coupling in optical nanocircuits. This resulted in 100-fold stronger PRET signal in dimeric clusters compared to monomeric NPs. Our approach opens promising directions in designing custom optical resonances for use in molecular sensing, nonlinear optics, and quantum photonics.         ",
+    "url": "https://arxiv.org/abs/2508.05440",
+    "authors": [
+      "Jaewon Lee",
+      "Hayun Ahn",
+      "Kyung Hun Rho",
+      "Shelley F. J. Wickham",
+      "William M. Shih",
+      "Seungwoo Lee"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05590",
+    "title": "Design and Analysis of a Vanadium Dioxide-Based Ultra-Broadband Terahertz Metamaterial Absorber",
+    "abstract": "           This paper presents a VO2-based metamaterial absorber optimized for ultra-broadband, polarization-insensitive performance in the terahertz (THz) frequency range. The absorber consists of a patterned VO2 metasurface, a low-loss MF2 dielectric spacer, and a gold ground plane. Exploiting the phase transition of VO2, the design enables dynamic control of electromagnetic absorption. Full-wave simulations show an average absorptance of 98.15% across a 5.38THz bandwidth (5.72-11.11THz) and over 99% absorption sustained across 3.35THz. The absorber maintains stable performance for varying polarization angles and both TE and TM modes under oblique incidence. Impedance analysis confirms strong matching to free space, reducing reflection and eliminating transmission. Parametric analysis investigates the influence of VO2 conductivity, MF2 thickness, and unit cell periodicity on performance. Compared to recent THz metamaterial absorbers, the proposed design achieves broader bandwidth, higher efficiency, and simpler implementation. These characteristics make it suitable for THz sensing, imaging, wireless communication, and adaptive photonic systems, and position it as a promising platform for tunable and reconfigurable THz modules.         ",
+    "url": "https://arxiv.org/abs/2508.05590",
+    "authors": [
+      "Robiul Hasan",
+      "Nafisa Anjum"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Systems and Control (eess.SY)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05611",
+    "title": "Mind the Gap: From Resolving Theoretical Foundations of Chiral(ity)-Induced Spin Selectivity to Pioneering Implementations in Quantum Sensing",
+    "abstract": "           The chiral(ity)-induced spin selectivity (CISS) effect, where electrons passing through a chiral medium acquire significant spin-polarization at ambient temperatures, has been widely observed experimentally, yet its theoretical foundations remain actively debated. Open questions persist regarding whether CISS originates from helical geometry or more general chirality, and whether a unified mechanism can account for phenomena across solid-state and soft-matter systems, mesoscopic films, and single molecules. Clarifying the interrelations between existing models is essential to determine if a universal picture of CISS can be found or whether system-specific models are required, and if so, where their common starting point should lie for a workable classification of CISS manifestations. Despite this theoretical fragmentation, recent studies of CISS effects in electron transfer systems, magnetic field sensitivity and coherence of radical pair reactions, polarized electroluminescence in chiral hybrid perovskites, DNA-based biosensors, and enantioselective detection, highlight its broad conceptual relevance and potential applications in spintronics, molecular sensors, and quantum information processing. In this review, we help bridge the gap between theory, experiment, and implementation, with a particular focus on prospects for quantum sensing and metrology. We outline fundamental frameworks of CISS, clarifying what constitutes the `chiral', the `induced', and the `spin-selectivity' that makes up CISS, before going on to survey key model realizations and their assumptions. We examine some of the emerging quantum sensing applications and assess the model-specific implications, in particular exemplifying these in the context of spin-correlated radical pairs, which offer a promising, tunable, and biomimetic platform for emerging molecular quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2508.05611",
+    "authors": [
+      "Yan Xi Foo",
+      "Aisha Kermiche",
+      "Farhan T. Chowdhury",
+      "Clarice D. Aiello",
+      "Luke D. Smith"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05331",
+    "title": "Quantum Circuit Benchmarking on IBM Brisbane: Performance Insights from Superconducting Qubit Models",
+    "abstract": "           This paper investigates quantum communication using superconducting qubits, emphasizing the simulation and control of quantum systems via IBM Brisbane quantum processor. We focus on implementing fundamental quantum gates and analyzing the evolution of entangled states, which are essential for secure and reliable information transfer. The study highlights the role of entanglement as a critical resource in quantum communication, enabling secure connectivity across quantum networks. Simulations incorporate realistic conditions, including decoherence and noise, to assess the practical viability of entangled state operations. Additionally, we explore the extension of these systems to simulate key quantum models such as the Jaynes Cummings and longitudinal Ising models, offering insight into complex interactions in superconducting architectures. The findings advance quantum information science by demonstrating the potential of superconducting qubit systems for both foundational research and real world applications in quantum communication.         ",
+    "url": "https://arxiv.org/abs/2508.05331",
+    "authors": [
+      "J. Thirunirai Selvam",
+      "S. Saravana Veni"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05339",
+    "title": "Material-Driven Optimization of Transmon Qubits for Scalable and Efficient Quantum Architectures",
+    "abstract": "           One of the most crucial steps in creating practical quantum computers is designing scalable and efficient superconducting qubits. Coherence times, connections between individual qubits, and reduction of environmental noise are critical factors in the success of these qubits. Because they can be lithographically fabricated and are less sensitive to charge noise, superconducting qubits, especially those based on the Transmon architecture, have emerged as top contenders for scalable platforms. In this work, we use a combination of design iteration, material analysis, and simulation to tackle the superconducting qubit optimization challenge. We created transmon-based layouts for 4 qubits and 8 qubits using Qiskit Metal and conducted an individual analysis for each qubit. We investigated anharmonicity and extracted eigenfrequencies, computing participation ratios across several design passes, and identifying the top five energy eigenstates using Ansys HFSS. We then created a 2D cross section of a single qubit design in COMSOL Multiphysics to evaluate how different materials affect performance. This enables us to assign various superconducting materials and substrates and investigate their effects on energy loss and electromagnetic properties. Qubit coherence and overall device quality are significantly influenced by the materials chosen. This integrated framework of material based simulation and circuit design offers a workable way to create reliable superconducting qubit systems and supports continued attempts to create scalable, fault-tolerant quantum computing.         ",
+    "url": "https://arxiv.org/abs/2508.05339",
+    "authors": [
+      "Jonnalagadda Gayatri",
+      "S.Saravana Veni"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05346",
+    "title": "Geometric quantum encoding of a turbulent field",
+    "abstract": "           The chaotic structure of multiscale systems presents a formidable challenge to their quantum encoding. We propose a three-stage hyperspherical encoding method for turbulent fields. This method comprises a symmetry-preserving perturbation of the ground state, a measurement-specific convolution, and a final deconvolution of observables. The latter two stages employ the Hopf fibration to map quantum observables onto vortex tubes, the building blocks of fluid turbulence. Using 27 qubits, we generate an instantaneous turbulent field at a Reynolds number of $\\mathit{Re} = 13900$ that reproduces the energy spectrum with Kolmogorov's five-thirds scaling, tangled vortex structures, and strong intermittency. The method only requires $\\mathcal{O}(\\log_2\\mathit{Re})$ qubits, which is asymptotically optimal for turbulent-field encoding. This yields an exponential memory reduction over classical methods, and enables state preparation for large-scale quantum simulation of multiscale systems.         ",
+    "url": "https://arxiv.org/abs/2508.05346",
+    "authors": [
+      "Zhaoyuan Meng",
+      "Yue Yang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chaotic Dynamics (nlin.CD)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05421",
+    "title": "LLM-based Multi-Agent Copilot for Quantum Sensor",
+    "abstract": "           Large language models (LLM) exhibit broad utility but face limitations in quantum sensor development, stemming from interdisciplinary knowledge barriers and involving complex optimization processes. Here we present QCopilot, an LLM-based multi-agent framework integrating external knowledge access, active learning, and uncertainty quantification for quantum sensor design and diagnosis. Comprising commercial LLMs with few-shot prompt engineering and vector knowledge base, QCopilot employs specialized agents to adaptively select optimization methods, automate modeling analysis, and independently perform problem diagnosis. Applying QCopilot to atom cooling experiments, we generated 10${}^{\\rm{8}}$ sub-$\\rm{\\mu}$K atoms without any human intervention within a few hours, representing $\\sim$100$\\times$ speedup over manual experimentation. Notably, by continuously accumulating prior knowledge and enabling dynamic modeling, QCopilot can autonomously identify anomalous parameters in multi-parameter experimental settings. Our work reduces barriers to large-scale quantum sensor deployment and readily extends to other quantum information systems.         ",
+    "url": "https://arxiv.org/abs/2508.05421",
+    "authors": [
+      "Rong Sha",
+      "Binglin Wang",
+      "Jun Yang",
+      "Xiaoxiao Ma",
+      "Chengkun Wu",
+      "Liang Yan",
+      "Chao Zhou",
+      "Jixun Liu",
+      "Guochao Wang",
+      "Shuhua Yan",
+      "Lingxiao Zhu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05538",
+    "title": "Model-based framework for automated quantification of error sources in quantum state tomography",
+    "abstract": "           High-quality quantum state generation is essential for advanced quantum information processing, including quantum communication, quantum sensing, and quantum computing. In practice, various error sources degrade the quality of quantum states, and quantum state tomography (QST) is a standard diagnostic tool. However, in QST, multiple error sources gather in a single density matrix, making it difficult to identify individual error sources. To address this problem, we propose an automated method for quantifying error sources by combining simulation and parameter optimization to reproduce the experimental density matrix. We focus on the experimental generation of time-bin entangled photon pairs, for which we model the relevant error sources and simulate the density matrix with adjustable model parameters, thereby optimizing the parameters and minimizing the trace distance to the experimental data. Optimization of the parameters reduced the trace distance from 0.177 to 0.024, indicating that our modeled error sources explain 86% of the errors. Reducing the predicted error sources improves the state quality, consistent with our predictions and thus validating the proposed method. In addition, the modular structure of this framework makes it applicable to other quantum platforms, such as superconducting qubits, atoms, and solid-state spins.         ",
+    "url": "https://arxiv.org/abs/2508.05538",
+    "authors": [
+      "Junpei Oba",
+      "Hsin-Pin Lo",
+      "Yasuhiro Yamada",
+      "Takayuki Matsui",
+      "Takuya Ikuta",
+      "Yuya Yonezu",
+      "Toshimori Honjo",
+      "Seiji Kajita",
+      "Hiroki Takesue"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.16394",
+    "title": "Propagation Performance of Terahertz Channels in Lunar Dust",
+    "abstract": "           The growing lunar exploration programs require robust communication systems for dust-laden environments, necessitating comprehensive understanding of channel propagation characteristics. We present an analysis of terahertz channel propagation through lunar dust environments, critical for reliable communication and sensing infrastructure. We develop an extended Mie scattering model incorporating unique properties of lunar dust particles from Apollo samples (10084, 14003, 70051), including irregular morphology, dielectric characteristics, and charge-dependent behavior. Through theoretical analysis and experimental verification, we examine power and bit error rate performance across varying dust conditions, revealing distinct relationships between particle characteristics and channel performance.         ",
+    "url": "https://arxiv.org/abs/2502.16394",
+    "authors": [
+      "Peian Li",
+      "Jiabiao Zhao",
+      "Mingxia Zhang",
+      "Yuheng Song",
+      "Wenbo Liu",
+      "Lingfeng Tian",
+      "Jianjun Ma"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.08287",
+    "title": "Enantioselective radical reactions can be induced by electron spin polarization: A quantum mechanism for Nature's emergent homochirality?",
+    "abstract": "           Biomolecules that constitute life on Earth are chiral, but the precise mechanism by which homochirality emerged remains a mystery. In this work it is demonstrated that reactions of radical pairs, where one of the radical electron spins is polarised, can be enantioselective. This phenomenon arises from transient coherent quantum dynamics of the radical pair electron spins, which is known to occur even in warm and noisy condensed phase environments, where energetic perturbations much smaller than thermal energy can have large effects on reactivity. A quantitative theory is presented based on the molecular theory of chirality induced spin selectivity (CISS), where electron exchange interactions and chirality-dependent spin-orbit coupling effects control enantioselectivity. This theory provides useful bounds on the maximum enantiomeric excess for these reactions, which are found to be consistent with previous experiments. The enantioseletive radical pair mechanism presented here provides an alternative mechanistic basis to a recent proposal that spin-polarised photoelectrons from magnetite provided the initial chiral symmetry breaking necessary for the inception of homochirality in Nature, as well as suggests a new strategy for asymmetric synthesis using spin-polarised electrons.         ",
+    "url": "https://arxiv.org/abs/2507.08287",
+    "authors": [
+      "Thomas P Fay"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.16299",
+    "title": "A phase-modulation interferometer for intense, ultrashort, near infrared laser pulses",
+    "abstract": "           The investigation of coherent phenomena in strong-field processes requires interferometric measurement schemes with high selectivity to disentangle the complex nonlinear response of the system. Interferometers combining acousto-optical phase modulation with lock-in detection feature excellent dynamic range and highly selective detection, thus providing a promising solution. However, acousto-optical modulators (AOMs) cause several issues when operated with intense, ultrashort, near infrared (NIR) laser pulses. The AOMs introduce temporal and angular dispersion, self-phase modulation and reduced acousto-optic efficiency at NIR wavelengths. Here, we present an acousto-optical phase modulation interferometer design that solves these issues. The presented solutions pave the way for the investigation of strong-field processes with phasemodulated interferometry and are also useful to improve the performance of phase-modulation interferometers in other applications.         ",
+    "url": "https://arxiv.org/abs/2507.16299",
+    "authors": [
+      "S. Ganeshamandiram",
+      "M. Niebuhr",
+      "F. Richter",
+      "U. Bangert",
+      "G. Sansone",
+      "F. Stienkemeier",
+      "L. Bruder"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.06639",
+    "title": "Stochastic Gradient-Descent Calibration of Pyragas Delayed-Feedback Control for Chaos Suppression in the Sprott Circuit",
+    "abstract": "           This paper explores chaos control in the Sprott circuit by leveraging Stochastic Gradient Descent (SGD) to calibrate Pyragas delayed feedback control. Using a third-order nonlinear differential equation, we model the circuit and aim to suppress chaos by optimizing control parameters (gain $K$, delay $T_{\\text{con}}$) and the variable resistor $R_v$. Experimental voltage data, extracted from published figures via WebPlotDigitizer, serve as the calibration target. We compare two calibration techniques: sum of squared errors (SSE) minimization via grid search and stochastic gradient descent (SGD) with finite differences. Joint optimization of $K$, $T_{\\text{con}}$, and $R_v$ using SGD achieves superior alignment with experimental data, capturing both phase and amplitude with high fidelity. Compared to grid search, SGD excels in phase synchronization, though minor amplitude discrepancies persist due to model simplifications. Phase space analysis confirms the model ability to replicate the chaotic attractor geometry, despite slight deviations. We analyze the trade-off between calibration accuracy and computational cost, highlighting scalability challenges. Overall, SGD-based calibration demonstrates significant potential for precise control of chaotic systems, advancing mathematical modeling and applications in electrical engineering.         ",
+    "url": "https://arxiv.org/abs/2506.06639",
+    "authors": [
+      "Adib Kabir",
+      "Onil Morshed",
+      "Oishi Kabir",
+      "Juthi Hira",
+      "Caitlin Hult"
+    ],
+    "subjectives": [
+      "Chaotic Dynamics (nlin.CD)",
+      "Optimization and Control (math.OC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.22461",
+    "title": "Proposal for realizing Heisenberg-type quantum-spin models in Rydberg atom quantum simulators",
+    "abstract": "           We investigate the magnetic-field dependence of the interaction between two Rydberg atoms, $|nS_{1/2}, m_J\\rangle$ and $|(n+1)S_{1/2}, m_J\\rangle$. In this setting, the effective spin-1/2 Hamiltonian takes the form of an {\\it XXZ} model. We show that the anisotropy parameter of the {\\it XXZ} model can be tuned by applying a magnetic field, and in particular, that it changes drastically near the F\u00f6rster resonance points. Based on this result, we propose experimental realizations of spin-1/2 and spin-1 Heisenberg-type quantum spin models in Rydberg atom quantum simulators, without relying on Floquet engineering. Our results provide guidance for future experiments of Rydberg atom quantum simulators and offer insight into quantum many-body phenomena emerging in the Heisenberg model.         ",
+    "url": "https://arxiv.org/abs/2507.22461",
+    "authors": [
+      "Masaya Kunimi",
+      "Takafumi Tomita"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
