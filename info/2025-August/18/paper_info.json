@@ -1,0 +1,330 @@
+[
+  {
+    "id": "arXiv:2508.11146",
+    "title": "Demonstration and Non-volatile Trimming of a Highly-Parallel, High-Capacity Silicon Microdisk Transmitter",
+    "abstract": "           Optical interconnects are the most promising solution to address the data-movement bottleneck in data centers. Silicon microdisks, benefiting from their compact footprint, low energy consumption, and wavelength division multiplexing (WDM) capability, have emerged as an attractive and scalable platform for optical modulation. However, microdisk resonators inherently exhibit low fabrication error tolerance, limiting their practical deployment. Here, utilizing a CMOS photonics platform, we demonstrate 1.2 Tb/s of off-die bandwidth through a 64 microdisk modulator system. In addition, we develop an automated, close-looped, non-reversible, low-loss, and picometer-precision permanent wavelength tuning technique using laser trimming. The trimming technique reduces 33 % of the energy consumption needed to thermally tune the microdisk resonant wavelength. Using this technique, we achieve a fully passive, 5-channel dense wavelength division multiplexing (DWDM, 50 GHz spacing) transmitter. The integration of the high speed (1.2 Tb/s), low energy consumption (29 fJ/bit) and the permanent wavelength trimming lays a robust foundation for next-generation optical interconnect systems, poised to facilitate scaling of future AI and computing hardware.         ",
+    "url": "https://arxiv.org/abs/2508.11146",
+    "authors": [
+      "Chao Luan",
+      "Alex Sludds",
+      "Chao Li",
+      "Ian Christen",
+      "Ryan Hamerly",
+      "Dirk Englund"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11148",
+    "title": "Generation of Ultrabrilliant Positron Beam via Superponderomotive Injection in Laser Wakefield Acceleration",
+    "abstract": "           Plasma-based acceleration of positrons attracts extensive interests due to the ultrahigh accelerating gradient and ultrashort duration, while generating wakefield positron beam by the inherent injection is still a great challenge. Here, we put forward a superponderomotive injection method of positrons in the blowout regime of laser wakefield acceleration. In this method, transverse laser fields facilitate the trapping of positrons into the laser-modulated longitudinal wakefield which dominates the subsequent energy gaining, that is distinct from the electrostatic induced superponderomotive electrons. Particle-in-cell simulations demonstrate that this method can be implemented by the collision between a donut wake and a pair jet, resulting in the multi-cycle positron beam with hundreds of pC charge and brightness of $10^{13}~\\rm{Am}^{-2}$. Such a collisional setup is available in the current laser-plasma experiments, and the generated positron beam is favorable for developing next generation of electron-positron collider, modeling the laboratory astrophysics and performing the ultrafast material diagnostics research.         ",
+    "url": "https://arxiv.org/abs/2508.11148",
+    "authors": [
+      "Ting Sun",
+      "Zhen-Ke Dou",
+      "Ya-Qing Huang",
+      "Feng Wan",
+      "Qian Zhao",
+      "Jian-Xing Li"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11157",
+    "title": "Thermal acoustic particle velocity sensor with structured microwires",
+    "abstract": "           Estimating the spatial distribution of the acoustic field is essential in communication, medical imaging and other varied industrial processes. Acoustic particle velocity sensor plays a key role in providing directional information of the sound field. We present a rigorous 3D numerical finite element analysis of MEMS based structurally modified thermal particle velocity sensor. The impact of diverse morphological structural optimization in comparison to the conventional straight wire structure is rigorously studied and analyzed in order to achieve maximum temperature deviation and, thereby, the sensitivity of the device primarily for low frequency applications.         ",
+    "url": "https://arxiv.org/abs/2508.11157",
+    "authors": [
+      "Ruby Jindal",
+      "Sushil Kumar Singh",
+      "Ravibabu Mulaveesala",
+      "Jolly Xavier"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11195",
+    "title": "The DeepFMKit Python package: A toolbox for simulating and analyzing deep frequency modulation interferometers",
+    "abstract": "           Deep Frequency Modulation Interferometry (DFMI) is an emerging laser interferometry technique for high-precision metrology, offering picometer-level displacement measurements and the potential for absolute length determination with sub-wavelength accuracy. However, the design and optimization of DFMI systems involve a complex interplay between interferometer physics, laser technology, multiple noise sources, and the choice of data processing algorithm. To address this, we present DeepFMKit, a new open-source Python library for the end-to-end simulation and analysis of DFMI systems. The framework features a high-fidelity physics engine that rigorously models key physical effects such as time-of-flight delays in dynamic interferometers, arbitrary laser modulation waveforms, and colored noise from user-defined $1/f^\\alpha$ spectral densities. This engine is coupled with a suite of interchangeable parameter estimation algorithms, including a highly-optimized, parallelized frequency-domain Non-linear Least Squares (NLS) for high-throughput offline analysis, and multiple time-domain Extended Kalman Filter (EKF) implementations for real-time state tracking, featuring both random walk and integrated random walk (constant velocity) process models. Furthermore, DeepFMKit includes a high-throughput experimentation framework for automating large-scale parameter sweeps and Monte Carlo analyses, enabling systematic characterization of system performance. DeepFMKit's modular, object-oriented architecture facilitates the rapid configuration of virtual experiments, providing a powerful computational tool for researchers to prototype designs, investigate systematic errors, and accelerate the development of precision interferometry.         ",
+    "url": "https://arxiv.org/abs/2508.11195",
+    "authors": [
+      "Miguel Dovale-\u00c1lvarez"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11237",
+    "title": "Tilted Material in an Optical Cavity: Light-Matter Moir\u00e9 Effect and Coherent Frequency Conversion",
+    "abstract": "           Exciton-polaritons formed inside optical cavities offer a highly tunable platform for exploring novel quantum phenomena. Here, we introduce and theoretically characterize a light-matter moir\u00e9 effect (LMME) that arises when a 2D material is tilted inside a planar optical cavity, in contrast to stacking multiple layers at a twist angle as is done in forming 2D moir\u00e9 hetero-structures. We show that this geometric tilt produces emergent periodicity in the light-matter coupling, yielding displaced replicas of the polariton dispersion and flat bands near the Brillouin-zone center. Through time-dependent quantum dynamical simulations, we demonstrate that LMME enables coherent frequency conversion and remains robust against phonon-induced decoherence. Our findings establish LMME as a new platform for engineering polariton band structures, the generation of flat bands and performing coherent frequency conversion relevant for developing polariton-based quantum devices.         ",
+    "url": "https://arxiv.org/abs/2508.11237",
+    "authors": [
+      "Arshath Manjalingal",
+      "Saeed Rahmanian Koshkaki",
+      "Logan Blackham",
+      "Arkajit Mandal"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11238",
+    "title": "Scaling Laws in Plasma Channels for Laser Wakefield Accelerators",
+    "abstract": "           Preformed plasma channels are essential for guiding high-power laser pulses over extended distances in laser wakefield accelerators, enabling the generation of multi-GeV electron beams for applications such as free-electron lasers and particle colliders. Above-threshold ionization heating provides a robust mechanism for creating laser-matched plasma channels across a wide parameter range, owing to its density- and geometry-independent heating effect. Establishing predictive scaling laws between channel parameters and formation conditions is critical for designing channels optimized for electron acceleration across energies spanning hundreds of MeV to tens of GeV. Through combined timescale analysis and numerical simulations, hydrodynamic expansion is identified as the dominant mechanism governing density profile evolution during ATI channel formation. Remarkably, this process maintains effective laser-guiding channel structures across a wide range of initial gas density, as evidenced by the persistent profile similarity observed despite these significant parameter variations. For parabolic channels matched to Gaussian laser drivers, rigorous scaling laws are established that, the on-axis density scales linearly with the initial gas density, while the matching radius has an exponential dependence on both the initial gas density and the ionization laser radius. These findings provide a systematic framework for the predictive design and optimization of plasma channels in high-efficiency and high-energy LWFA applications.         ",
+    "url": "https://arxiv.org/abs/2508.11238",
+    "authors": [
+      "Tianliang Zhang",
+      "Jianyi Liu",
+      "Shuang Liu",
+      "Ran Li",
+      "Fei Li",
+      "Jianfei Hua",
+      "Wei Lu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11370",
+    "title": "Apparent Resonance Splitting in Self-Coupled Excitonic Systems",
+    "abstract": "           Thin films of high-refractive-index excitonic materials enable self-coupling by simultaneously supporting intrinsic excitonic transitions and optical resonances. These optical resonances take the form of Fabry-Perot resonances in thick films and absorption resonances in ultrathin films placed on metallic substrates. Here, we investigate whether these optical resonances lead to true exciton-photon hybridization. Using far-field reflectance and spectrally resolved photocurrent measurements, we study tungsten disulfide (WS$_2$) flakes on both metallic and dielectric substrates across a range of thicknesses. While reflectance spectra for ultrathin flakes exhibit resonance splitting between excitons and absorption resonances, our photocurrent measurements reveal only excitonic peaks, indicating that no polaritons are formed. In contrast, thicker flakes exhibit Fabry-Perot resonances that strongly couple to excitons, resulting in clear splitting in both reflectance and photocurrent spectra, and providing evidence of polariton formation. We further show that the polariton resonances can be tuned through the reflection phase at the WS$_2$-substrate interface by changing the substrate material. In addition to coupling with the strong A-exciton, we observe polariton formation involving the weaker B-exciton at shorter wavelengths, as well as higher-order hybridization where both excitons interact simultaneously with a single Fabry-Perot resonance. These findings clarify the distinction between apparent and true strong coupling in excitonic materials and demonstrate how reflection phase and flake thickness can be used to engineer light-matter interactions.         ",
+    "url": "https://arxiv.org/abs/2508.11370",
+    "authors": [
+      "Avishek Sarbajna",
+      "Qitong Li",
+      "Dorte Rub\u00e6k Danielsen",
+      "Skyler Peitso Selvin",
+      "Duc Hieu Nguyen",
+      "Manh-Ha Doan",
+      "Peter B\u00f8ggild",
+      "Mark L. Brongersma",
+      "S\u00f8ren Raza"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11389",
+    "title": "The radial memory effect in multimode optical fibres",
+    "abstract": "           We present a study of a novel memory effect in multimode optical fibres, which manifests itself as an output ring of excess energy at the same radius as an input focussed spot. This effect is robust against fibre perturbations, and we discuss its possible use for spatial multiplexing.         ",
+    "url": "https://arxiv.org/abs/2508.11389",
+    "authors": [
+      "Ulas Gokay",
+      "Robert J. Kilpatrick",
+      "Simon A.R. Horsley",
+      "David B. Phillips",
+      "Jacopo Bertolotti"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11417",
+    "title": "Wavelength dependence of laser pulse filamentation around atomic resonances",
+    "abstract": "           We investigate the propagation and nonlinear self-focusing of TW power laser pulses that create 10-m-scale, highly homogeneous plasma channels in rubidium vapor. Using computational solutions of the relevant propagation equations, we study the effects of the ionizing pulse central wavelength in relation to the resonance frequencies of atomic rubidium. Recent experiments show that pulse propagation and plasma channel creation is distinctly different for 780 nm laser pulses (resonant with the rubidium $D_2$ line) and 810 nm laser pulses. We study pulse propagation in a $\\pm$30 nm range around the $D_2$ resonance and find that the results are distinctly different when tuning to sub-resonant wavelengths from those obtained for super-resonant wavelengths. For pulse wavelengths below the resonance the behavior is similar to the resonant case, characterized by strong self-focusing and a sharp plasma boundary. Pulse wavelengths above 780 nm on the other hand yield gradually weaker self-focusing and an increasingly diffuse plasma boundary. Our results suggest that the observed behavior can be attributed to an interplay between multiple factors: anomalous dispersion around atomic resonances, resonant transitions between excited states of Rb lying in the 740-780 nm range and wavelength-dependent multiphoton ionization rates.         ",
+    "url": "https://arxiv.org/abs/2508.11417",
+    "authors": [
+      "Gabor Demeter"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.10049",
+    "title": "Dynamic Synchronization and Resonance as a Universal Origin of 1/f Fluctuations -- Amplitude Modulation Across Music and Nature",
+    "abstract": "           We propose a universal physical mechanism for the emergence of 1/f fluctuations, observed across a wide range of systems. In particular, we verify this on acoustic cases. The mechanism is based on amplitude modulation (AM) and demodulation (DM), where the 1/f spectral law arises not in the raw waveform but in its demodulated amplitude envelope. Two distinct yet complementary processes generate the required AM: (i) stochastic synchronization among oscillators, modeled via an extended Kuramoto framework that captures perpetual synchronization-desynchronization cycles, and (ii) frequency-selective resonance, modeled by spectral accumulation of eigenmodes in acoustic or structural environments. Numerical simulations demonstrate that both mechanisms, acting separately or in combination, robustly produce 1/f spectra over several decades when DM is applied, and that the classical Kuramoto critical point is not necessary for their emergence. We demonstrate the cross-domain relevance of this AM/DM framework through analyses of musical performances, seismic records, and astrophysical time series, revealing a common underlying structure. This work establishes demodulation as a general route to 1/f fluctuations, providing a simple and scalable explanation for its ubiquity in both natural and engineered systems.  Keywords: 1/f fluctuation, amplitude modulation, synchronization, resonance, Kuramoto model, music, natural noise, demodulation         ",
+    "url": "https://arxiv.org/abs/2508.10049",
+    "authors": [
+      "Akika Nakamichi",
+      "Izumi Uesaka",
+      "Masahiro Morikawa"
+    ],
+    "subjectives": [
+      "Sound (cs.SD)",
+      "Adaptation and Self-Organizing Systems (nlin.AO)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.10953",
+    "title": "Tunable optical emissions of Eu3+ ions enabled by pressure-driven phase transition in ZnO",
+    "abstract": "           Controlling the optical properties of rare-earth ions in wide-bandgap semiconductors remains a major challenge in the development of next-generation photonic materials. Here, we show that external hydrostatic pressure modulates the structural characteristics of ZnO thin films and, in turn, tunes the optical emission behavior of embedded Eu3+ ions. By combining in situ synchrotron X-ray diffraction and photoluminescence spectroscopy under high-pressure conditions with first-principles calculations, we capture a pressure-induced phase transition from the hexagonal wurtzite to the cubic rocksalt structure near 10 GPa. This transformation is accompanied by complete quenching of the D0 - FJ Europium emissions near the transition threshold, followed by a partial recovery at higher pressures, likely associated with the emergence of structural disorder. Concurrently, the Stark components of the emission bands exhibit a redshift and significant broadening with increasing pressure, reflecting enhanced crystal field strength as interatomic distances decrease. Additional first-principles calculations support the observed pressure-induced shifts in the Eu-4f states and emphasize the influence of lattice symmetry on their electronic environment. These results show that hydrostatic pressure is an effective way to adjust the optical emissions of rare-earth ions by changing their symmetry and local environment, providing a basis for designing photonic devices and luminescent materials controlled by pressure.         ",
+    "url": "https://arxiv.org/abs/2508.10953",
+    "authors": [
+      "C. Ianhez-Pereira",
+      "U. F. Kaneko",
+      "A. D. Rodrigues",
+      "I. S. S. de Oliveira",
+      "M. P. F. de Godoy"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11191",
+    "title": "Quantum Control of Thermal Emission from Photonic Crystals with Two-Level Atoms",
+    "abstract": "           Thermal light engineering is a field of considerable interest and potential. We study quantum light-matter interactions in a one-dimensional photonic crystal with two-level atoms as the active medium, replacing classical oscillators in traditional blackbody models. In a thermal bath with pumping, these atoms modulate thermal emission via interactions with photonic modes. The model with quantum two-level systems enables the processes of spontaneous emission, stimulated absorption, and stimulated emission. Equilibrium and nonequilibrium regimes depend on competition between pumping and thermal relaxation rates. Strong light-matter interaction and photon decay govern dynamics and steady states. In equilibrium, with a high thermal relaxation rate, photon numbers are initially determined by spontaneous emission and later stabilize due to stimulated absorption, influenced by light-matter interaction strength. In-band-gap photons reach steady states at a time scale of one or two orders of magnitude longer than outside-band-gap photons. Interestingly, for a strong light-matter interaction, all photons in the equilibrium regimes show Planckian radiation, regardless of their frequencies in or out of the band gaps. Band-gap suppression of thermal emission is more pronounced with weaker light-matter interaction or larger photon decay. In the nonequilibrium regime, the dynamics of photon numbers exhibit a multi-time-scale process transitioning to steady states due to strong pumping and stimulated processes. Steady-state electron populations of two-level atoms deviate from the Fermi-Dirac distribution, and the steady-state photon numbers exhibit super-Planckian emission. These findings enable quantum control of thermal emission spectra, which is relevant for reducing thermal noise in quantum computing or enhancing radiative cooling.         ",
+    "url": "https://arxiv.org/abs/2508.11191",
+    "authors": [
+      "Chih-Wei Wang",
+      "Jhih-Sheng Wu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11207",
+    "title": "Sunlight-Excited Spontaneous Parametric Down-Conversion for Quantum Imaging",
+    "abstract": "           Quantum imaging, which harnesses quantum correlations to achieve imaging with multiple advantages over classical optics, has been in development for several years. Here, we explore sunlight, serving as the pump beam, to excite spontaneous parametric down-conversion to get the quantum correlation of two photons. Remarkably, our investigations disclose that the photon pairs produced from sunlight are well correlated in position such that they can be used for quantum imaging. Consequently, this demonstrates a latent application scenario in which the incoherent beam is harnessed as the pump source for quantum imaging. Our research is of substantial significance as it broadens the scope of available illumination options, such as using scattering light or non-traditional artificial incoherent light sources, for quantum information, a prime potential application being a space-based quantum information mechanism where this approach allows the system to operate independently of a laser.         ",
+    "url": "https://arxiv.org/abs/2508.11207",
+    "authors": [
+      "Ye Xing",
+      "Deifei Xu",
+      "Yuan Li",
+      "Wuhong Zhang",
+      "Lixiang Chen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.11296",
+    "title": "Unveiling the link between quantum ghost imaging and Grover's quantum searching algorithm",
+    "abstract": "           Photonic quantum technologies have become pivotal in the implementation of communication, imaging and computing modalities. Among these applications, quantum ghost imaging (GI) exploits photon correlations to surpass classical limits, with recent advances in spatial-mode encoding and phase imaging. In parallel, all-optical computing offers powerful, passive-light processing capabilities. Here, we explore the intersection of these domains, revealing a conceptual and operational link between GI and Grover's quantum search algorithm (GSA) which is designed to search for elements in an unstructured database. Here, the elements are encoded as phases in the position basis states of photons. To show this, we use entangled photon pairs, with one photon encoding the oracle features while the other photon is used to find the marked element.         ",
+    "url": "https://arxiv.org/abs/2508.11296",
+    "authors": [
+      "Neelan Gounden",
+      "Fazilah Nothlawala",
+      "Paola C. Obando",
+      "Thomas Konrad",
+      "Andrew Forbes",
+      "Isaac Nape"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2208.13977",
+    "title": "$\\mathcal{T}$-matrix method for computation of second-harmonic generation upon optical wave scattering from clusters of arbitrary particles: Application to nonlinear optical interaction of bound states in the continuum",
+    "abstract": "           We derive the $\\mathcal{T}$-matrix formalism tailored for numerical analysis of second-harmonic (SH) generation from arbitrarily shaped particles made of centrosymmetric optical materials. First, the transfer matrix of a single particle is computed via the extended boundary condition method, in which the electromagnetic fields both at fundamental frequency and SH are expanded in vector spherical wave functions, and the integral formulation is satisfied away from the surface of the scatterer. We allow for the accurate physical description of the SH sources by taking into account both local surface and nonlocal bulk polarization contributions to the nonlinear polarization density source responsible for the generation of the SH signal by a particle. This single-particle formalism is then extended to arbitrary distributions of particles by incorporating into the formalism linear and nonlinear electromagnetic wave scattering from the particles in the cluster. Importantly from a practical point of view, our method can be applied to particles of arbitrary shape made of optical materials characterized by general frequency-dispersion relations, so that it can describe the linear and nonlinear optical response of clusters of metallic, semiconductor, or polaritonic particles, as well as mixtures of such particles. The approach proposed here is faster and more memory-efficient than well-established numerical techniques, especially in the analysis of spheroidal particles, due to the favorable symmetries of spherical wave basis functions used in the wave scattering analysis.         ",
+    "url": "https://arxiv.org/abs/2208.13977",
+    "authors": [
+      "Ivan Sekulic",
+      "Ji Tong Wang",
+      "Jian Wei You",
+      "Nicolae C. Panoiu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.05310",
+    "title": "Optically-biased Rydberg microwave receiver enabled by hybrid nonlinear interferometry",
+    "abstract": "           The coupling of Rydberg vapour medium to both microwave and optical fields allows harnessing the merits of all-optical detection, e.g. weak disruption of the measured field and invulnerability to extremely strong fields, owing to the lack of a conventional antenna in the detector. However, the highest sensitivity in this approach is typically achieved by introducing an additional microwave field acting as a local oscillator, thereby compromising the all-optical nature of the measurement. Here we propose an alternative method, optical-bias detection, that allows truly all-optical operation, while retaining exceptional sensitivity. We tackle the issue of laser phase noise, emerging in this type of detection, via a simultaneous measurement of the laser phase noise in a nonlinear process and real-time data processing, which overall yields an improvement of $35\\ \\mathrm{dB}$ in terms of signal-to-noise ratio compared with the basic approach. We report the sensitivity of $176\\ \\mathrm{nV/cm/\\sqrt{Hz}}$ and reliable operation up to $3.5\\ \\mathrm{mV/cm}$ of $13.9\\ \\mathrm{GHz}$ electric field. We also demonstrate a quadrature-amplitude modulated data transmission, underlining the capability of the system to detect quadratures of the microwave field. This approach is thus directly comparable to the state-of-the-art superheterodyne, while retaining the merits of all-optical detection.         ",
+    "url": "https://arxiv.org/abs/2403.05310",
+    "authors": [
+      "Sebastian Bor\u00f3wka",
+      "Mateusz Mazelanik",
+      "Wojciech Wasilewski",
+      "Micha\u0142 Parniak"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.18982",
+    "title": "First direct search for light dark matter interactions in a transition-edge sensor",
+    "abstract": "           We propose the use of transition-edge sensor (TES) single-photon detectors as a simultaneous target and sensor for direct dark matter searches, and report results from the first search of this kind. We perform a 489 h science run with a TES device optimized for the detection of 1064 nm photons, with a mass of ~0.2 ng and an energy threshold of ~0.3 eV, and set new limits on dark matter interactions with both electrons and nucleons for dark matter with mass below the MeV scale. With their excellent energy resolution, TESs enable search strategies that are complementary to recent results from superconducting nanowire single-photon detectors and kinetic inductance detectors. We show that next-generation TES arrays hold promise to probe new regions of light dark matter parameter space.         ",
+    "url": "https://arxiv.org/abs/2506.18982",
+    "authors": [
+      "Christina Schwemmbauer",
+      "Guy Daniel Hadas",
+      "Yonit Hochberg",
+      "Katharina-Sophie Isleif",
+      "Friederike Januschek",
+      "Benjamin V. Lehmann",
+      "Axel Lindner",
+      "Adriana E. Lita",
+      "Manuel Meyer",
+      "Gulden Othman",
+      "Elmeri Rivasto",
+      "Jos\u00e9 Alejandro Rubiera Gimeno"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.08428",
+    "title": "Incoherent Light-Driven Nonlinear Optical Extreme Learner via Data Reverberation",
+    "abstract": "           Artificial neural networks have revolutionized fields from computer vision to natural language processing, yet their growing energy and computational demands threaten future progress. Optical neural networks promise greater speed, bandwidth, and energy efficiency, but suffer from weak optical nonlinearities. Here, we demonstrate a low-power, incoherent-light-driven optical extreme learner that leverages 'data nonlinearity' from optical pattern reverberation, eliminating reliance on intrinsic nonlinear materials. By encoding input data in the spatial polarization distribution of a tailored optical cavity and allowing light to pass through it multiple times, we achieve nonlinear transformations at extremely low optical power. Coupled with a simple trainable readout, our optical learner consistently outperforms linear digital networks in standard image classification tasks and XOR benchmarks, delivering accuracy matching fully nonlinear digital models. Our compact, energy-efficient approach significantly reduces complexity, cost, and energy consumption, paving the way for practical, scalable all-optical machine learning platforms.         ",
+    "url": "https://arxiv.org/abs/2508.08428",
+    "authors": [
+      "Bofeng Liu",
+      "Xu Mei",
+      "Sadman Shafi",
+      "Tunan Xia",
+      "Iam-Choon Khoo",
+      "Zhiwen Liu",
+      "Xingjie Ni"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2408.08867",
+    "title": "Quantum Annealing for Enhanced Feature Selection in Single-Cell RNA Sequencing Data Analysis",
+    "abstract": "           Feature selection is a machine learning technique for identifying relevant variables in classification and regression models. In single-cell RNA sequencing (scRNA-seq) data analysis, feature selection is used to identify relevant genes that are crucial for understanding cellular processes. Traditional feature selection methods often struggle with the complexity of scRNA-seq data and suffer from interpretation difficulties. Quantum annealing presents a promising alternative approach. In this study, we implement quantum annealing-empowered quadratic unconstrained binary optimization (QUBO) for feature selection in scRNA-seq data. Using data from a human cell differentiation system and an anticancer drug resistance study, we demonstrate that QUBO feature selection effectively identifies genes whose expression patterns reflect critical cell state transitions associated with differentiation and drug resistance development. Our findings indicate that quantum annealing-powered QUBO reveals complex gene expression patterns potentially missed by traditional methods, thereby enhancing scRNA-seq data analysis and interpretation.         ",
+    "url": "https://arxiv.org/abs/2408.08867",
+    "authors": [
+      "Selim Romero",
+      "Shreyan Gupta",
+      "Victoria Gatlin",
+      "Robert S. Chapkin",
+      "James J. Cai"
+    ],
+    "subjectives": [
+      "Genomics (q-bio.GN)",
+      "Emerging Technologies (cs.ET)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  }
+]
