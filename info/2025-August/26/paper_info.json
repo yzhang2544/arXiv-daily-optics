@@ -1,0 +1,686 @@
+[
+  {
+    "id": "arXiv:2508.16640",
+    "title": "Generative Latent Diffusion Model for Inverse Modeling and Uncertainty Analysis in Geological Carbon Sequestration",
+    "abstract": "           Geological Carbon Sequestration (GCS) has emerged as a promising strategy for mitigating global warming, yet its effectiveness heavily depends on accurately characterizing subsurface flow dynamics. The inherent geological uncertainty, stemming from limited observations and reservoir heterogeneity, poses significant challenges to predictive modeling. Existing methods for inverse modeling and uncertainty quantification are computationally intensive and lack generalizability, restricting their practical utility. Here, we introduce a Conditional Neural Field Latent Diffusion (CoNFiLD-geo) model, a generative framework for efficient and uncertainty-aware forward and inverse modeling of GCS processes. CoNFiLD-geo synergistically combines conditional neural field encoding with Bayesian conditional latent-space diffusion models, enabling zero-shot conditional generation of geomodels and reservoir responses across complex geometries and grid structures. The model is pretrained unconditionally in a self-supervised manner, followed by a Bayesian posterior sampling process, allowing for data assimilation for unseen/unobserved states without task-specific retraining. Comprehensive validation across synthetic and real-world GCS scenarios demonstrates CoNFiLD-geo's superior efficiency, generalization, scalability, and robustness. By enabling effective data assimilation, uncertainty quantification, and reliable forward modeling, CoNFiLD-geo significantly advances intelligent decision-making in geo-energy systems, supporting the transition toward a sustainable, net-zero carbon future.         ",
+    "url": "https://arxiv.org/abs/2508.16640",
+    "authors": [
+      "Zhao Feng",
+      "Xin-Yang Liu",
+      "Meet Hemant Parikh",
+      "Junyi Guo",
+      "Pan Du",
+      "Bicheng Yan",
+      "Jian-Xun Wang"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.16668",
+    "title": "Low Power, Scalable Nanofabrication via Photon Upconversion",
+    "abstract": "           Micro- and nanoscale fabrication, which enables precise construction of intricate three-dimensional structures, is of foundational importance for advancing innovation in plasmonics, nanophotonics, and biomedical applications. However, scaling fabrication to industrially relevant levels remains a significant challenge. We demonstrate that triplet-triplet annihilation upconversion (TTA-UC) offers a unique opportunity to increase fabrication speeds and scalability of micro- and nanoscale 3D structures. Due to its nonlinearity and low power requirements, TTA-UC enables localized polymerization with nanoscale resolutions while simultaneously printing millions of voxels per second through optical parallelization using off-the-shelf light-emitting diodes and digital micromirror devices. Our system design and component integration empower fabrication with a minimum lateral feature size down to 230 nm and speeds up to 112 million voxels per second at a power of 7.0 nW per voxel. This combination of high resolution and fast print speed demonstrates that TTA-UC is a significant advancement in nanofabrication technique, evidenced by the fabrication of hydrophobic nanostructures on a square-centimeter scale, paving the way for industrial nanomanufacturing.         ",
+    "url": "https://arxiv.org/abs/2508.16668",
+    "authors": [
+      "Qi Zhou",
+      "Hao-Chi Yen",
+      "Qizhen Lan",
+      "Arynn O. Gallegos",
+      "Manchen Hu",
+      "Kyle Frohna",
+      "Hannah Niese",
+      "Da Lin",
+      "Natalia Murrietta",
+      "Pournima Narayanan",
+      "Tracy H. Schloemer",
+      "Linda Pucurimay",
+      "Sebastian Fern\u00e1ndez",
+      "Michael Seitz",
+      "Daniel N. Congreve"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.16704",
+    "title": "Stability analysis of Euler's elastica ring using harmonic balance",
+    "abstract": "           The stability analysis of elastic rings subjected to various loading conditions is examined, focusing on stable and unstable configurations. The harmonic balance method is employed to investigate the stability range under different loading conditions. This method provides improved accuracy in results and yields a smooth, stable range of values for all modes of symmetry. Additionally, the bifurcation analysis technique of linearization is utilized to identify unstable regions, and it demonstrates good agreement with the results obtained using the harmonic balance method.         ",
+    "url": "https://arxiv.org/abs/2508.16704",
+    "authors": [
+      "Muhammad Sami Siddiqui"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.16758",
+    "title": "Features of Surface Structuring of Direct and Indirect Band Gap Semiconductors by Femtosecond Laser",
+    "abstract": "           The impact of femtosecond (fs) laser radiation on semiconductors with direct (ZnSe, GaAs, CdZnTe) band gap, with the structurally induced direct-to-indirect band gap transition (PbI2, GaSe) and indirect band gap (Si) has been studied. The fs-laser treatment of semiconductors has been performed in the multi-pulse regime in air environment. The influence of fs-laser radiation parameters on surface morphology of the semiconductors has been analysed by scanning electron microscopy (SEM) and 2D Fourier transform of SEM images, optical photoluminescence spectroscopy. Under the treatment with the fundamental fs-laser radiation (800 nm, about 130-150 fs) both low spatial frequency LIPSS and high spatial frequency LIPSS have been observed. Specific features of LIPSS of two types (low spatial frequency LIPSS and high spatial frequency LIPSS) and other structure peculiarities (grooves, grains, different defects in periodic structure, i.e. loops, strip breaks, and ablation products) have been also analysed. The formation mechanisms of LIPSS are also considered within the scope of two approaches,namely an electromagnetic approach and matter reorganization processes.         ",
+    "url": "https://arxiv.org/abs/2508.16758",
+    "authors": [
+      "N. I. Berezovska",
+      "I. M. Dmitruk",
+      "Ye. S. Hrabovskyi",
+      "R. S. Kolodka",
+      "O. P. Stanovyi",
+      "A. M. Dmytruk",
+      "I. V. Blonskyi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17274",
+    "title": "Femtojoule-per-operation photonic computer for the subset sum problem",
+    "abstract": "           Energy-efficient computing is becoming increasingly important in the information era. However, electronic computers with von Neumann architecture can hardly meet the challenge due to the inevitable energy-intensive data movement, especially when tackling computationally hard problems or complicated tasks. Here, we experimentally demonstrate an energy-efficient photonic computer that solves intractable subset sum problem (SSP) by making use of the extremely low energy level of photons (~10^(-19) J) and a time-of-flight storage technique. We show that the energy consumption of the photonic computer maintains no larger than 10^(-15) J per operation at a reasonably large problem size N=33, and it consumes 10^(8) times less energy than the most energy-efficient supercomputer for a medium-scale problem. In addition, when the photonic computer is applied to deal with real-life problems that involves iterative computation of the SSP, the photonic advantage in energy consumption is further enhanced and massive energy can be saved. Our results indicate the superior competitiveness of the photonic computer in the energy costs of complex computation, opening a possible path to green computing.         ",
+    "url": "https://arxiv.org/abs/2508.17274",
+    "authors": [
+      "Tian-Yu Zhang",
+      "Xiao-Yun Xu",
+      "Wen-Hao Zhou",
+      "Xiao-Wei Wang",
+      "Chu-Han Wang",
+      "Yi-Jun Chang",
+      "Ying-Yue Yang",
+      "Jie Ma",
+      "Ka-Di Zhu",
+      "Xian-Min Jin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17440",
+    "title": "Programmable k-local Ising Machines and all-optical Kolmogorov-Arnold Networks on Photonic Platforms",
+    "abstract": "           We unify k-local Ising optimization and optical KAN function learning on a single photonic platform, establishing a critical convergence point in optical computing that enables interleaved discrete-continuous workflows. We introduce a single spacial light modulator (SLM)-centric primitive that realizes, in one stroke, all-optical k-local Ising interactions and fully optical Kolmogorov-Arnold network (KAN) layers. The central idea is to convert structural nonlinearity of a nominally linear photonic scatterer into a per-window computational resource by adding one relay pass through the same spatial light modulator. A folded 4f relay reimages the first Fourier plane onto the SLM so that each chosen spin clique or ridge channel occupies a disjoint window with its own second-pass phase patch. Propagation remains linear in the optical field, yet the measured intensity in each window becomes a freely programmable polynomial of the clique sum or projection amplitude. This yields native, per-clique k-local couplings without nonlinear media and, in parallel, the many independent univariate nonlinearities required by KAN layers, all with in-situ physical gradients for training using two-frame (forward and adjoint) physical gradients. We outline implementation on spatial photonic Ising machines, injection-locked VCSEL arrays, and the Microsoft analog optical computers. In all cases the hardware change is one extra lens and a fold (or an on-chip 4f loop), enabling a minimal overhead, massively parallel route to high-order optical Ising optimization and trainable, all-optical KAN processing.         ",
+    "url": "https://arxiv.org/abs/2508.17440",
+    "authors": [
+      "Nikita Stroev",
+      "Natalia G. Berloff"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17495",
+    "title": "Design of broadband optical gain in GaSb-based waveguide amplifiers with asymmetric quantum wells",
+    "abstract": "           A design strategy for achieving broadband optical gain in GaSb-based semiconductor amplifiers operating beyond 2 \\mu m is presented. By employing asymmetric GaInSb/AlGaAsSb quantum wells (QWs) of varying thicknesses, a flat and wide gain spectrum is demonstrated. The approach leverages carrier density and transition energy tuning across QWs to access various energy levels at specific current densities. Simulations using \"Harold\" self-consistent environment predict a full-width at half-maximum (FWHM) gain bandwidth exceeding 340 nm for a structure comprising one 7 nm and three 13 nm-thick QWs. The modelling parameters were validated against experimental data, ensuring a robust framework for designing broadband amplifiers and superluminescent diodes for mid-infrared applications.         ",
+    "url": "https://arxiv.org/abs/2508.17495",
+    "authors": [
+      "Ifte Khairul Alam Bhuiyan",
+      "Joonas Hilska",
+      "Markus Peil",
+      "Jukka Viheriala",
+      "Mircea Guina"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17506",
+    "title": "The Impact of Thermal Fields on Rydberg Atom Radio Frequency Sensors",
+    "abstract": "           Rydberg atom radio frequency sensors are unique in a number of ways, including possessing extraordinary carrier bandwidth, self-calibration and accuracy. In this paper, we examine the impact of thermal radiation on Rydberg atom sensors. Antennas are limited by their thermal background, while Rydberg atom sensors are coherent sensors. Incoherent thermal radiation does not limit Rydberg atom sensors in the same way as an antenna. The primary consequence of a thermal radiation field on Rydberg atom sensors is to decrease their coherence, as the decay rates of the Rydberg states used for sensing the radio frequency field are increased due to the thermal field, i.e. blackbody, modification of the atomic decay rates. Thermal and coherent field excitation are fundamentally different in that thermal fields produce statistically independent excitations with well-defined frequency, polarization, and propagation direction, while coherent states are coherent superpositions of photon number states. Consequently, thermal fields do not contribute to the coherences of the density matrix that are used for Rydberg atom sensing, except for damping them.         ",
+    "url": "https://arxiv.org/abs/2508.17506",
+    "authors": [
+      "Channprit Kaur",
+      "Pinrui Shen",
+      "Donald Booth",
+      "Andrew Todd",
+      "James P. Shaffer"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17829",
+    "title": "Temperature-dependent Optical and Polaritonic Properties of hBN-encapsulated Monolayer TMDs",
+    "abstract": "           Monolayer transition metal dichalcogenides (TMDs) support robust excitons in the visible to near-infrared spectral range. Their reduced dielectric screening results in large binding energies, and combined with a direct bandgap in monolayer form, these excitons dominate the optical response of TMDs. In this work, we present a comprehensive investigation of the temperature-dependent optical and polaritonic properties of high-quality, flux-grown $\\mathrm{WS_2}$, $\\mathrm{MoS_2}$, $\\mathrm{WSe_2}$, and $\\mathrm{MoSe_2}$ monolayers, encapsulated by hBN, in the full temperature range between $5-300 \\mathrm{K}$. Using reflection spectroscopy measurements, we evaluate and compare the optical and polaritonic constituents of the TMD excitons in terms of oscillator strength, linewidth and negative permittivity. We find that it is $\\mathrm{MoSe_2}$ that exhibits the most pronounced optical and polaritonic response, stemming from its rapid linewidth narrowing at low temperatures, as compared to the temperature-dependent response of the other TMDs. In addition, we find that all four TMDs exhibits a temperature-dependent negative real part permittivity, thus supporting surface-exciton-polaritons. We derive their dispersion relation, confinement factors and losses, similarly revealing that $\\mathrm{MoSe_2}$ exhibit enhanced polaritonic properties. These findings establish a comparative framework for understanding the optical and polaritonic properties of monolayer TMDs, with implications on their utilization in optoelectronic devices based on 2D semiconductors.         ",
+    "url": "https://arxiv.org/abs/2508.17829",
+    "authors": [
+      "Matan Meshulam",
+      "Anabel Atash Kahlon",
+      "Yonatan Gershuni",
+      "Thomas Poirier",
+      "Thomas Poirier",
+      "Seth Ariel Tongay",
+      "Itai Epstein"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17887",
+    "title": "Electrically switchable photonic diode empowered by chiral resonance",
+    "abstract": "           The on-chip integration of nonreciprocal optical devices remains a critical challenge for modern optoelectronics, as conventional magneto-optic approaches suffer from material incompatibility and excessive optical losses. Nonlinear photonic diodes have emerged as a promising magnet-free alternative, yet their widespread adoption has been constrained by inherent limitations in reconfigurability. Here, we present an all-silicon, electrically tunable photonic diode leveraging engineered chiral resonances in an ultra-compact microring architecture. The pronounced asymmetric modal coupling enables nonreciprocal transmission with two distinct operation modes at threshold powers down to -5 dBm. The chirality further enables unprecedented control over self-pulsation dynamics, manifesting in propagation-direction-dependent oscillation thresholds and temporal signatures. Crucially, post-fabrication electrical reconfigurability allows dynamic switching between forward, backward, and disabled states. This work represents a significant advancement in integrated nonreciprocal photonics, offering a CMOS-compatible solution with transformative potential for optical interconnects, photonic neural networks, and signal processing systems.         ",
+    "url": "https://arxiv.org/abs/2508.17887",
+    "authors": [
+      "Jiaqi Zhao",
+      "Kexun Wu",
+      "Xuecheng Yan",
+      "Jiewen Li",
+      "Xiaochuan Xu",
+      "Ke Xu",
+      "Yu Li",
+      "Linjie Zhou",
+      "Yan Chen",
+      "Jiawei Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17891",
+    "title": "One pocket to activate them all: Efforts on understanding the modulator pocket in K2P channels",
+    "abstract": "           The modulator pocket is a cryptic site discovered in the TREK1 K2P channel that accommodates agonists capable of increasing the channel's activity. Since its discovery, equivalent sites in other K2P channels have been shown to bind various ligands, both endogenous and exogenous. In this review, we attempt to elucidate how the modulator pocket contributes to K2P channel activation. To this end, we first describe the gating mechanisms reported in the literature and rationalize their modes of action. We then highlight previous experimental and computational evidence for agonists that bind to the modulator pocket, together with mutations at this site that affect gating. Finally, we elaborate how the activation signal arising from the modulator pocket is transduced to the gates in K2P channels. In doing so, we outline a potential common modulator pocket architecture across K2P channels: a largely amphipathic structure -consistent with the expected properties of a pocket exposed at the interface between a hydrophobic membrane and the aqueous solvent- but still with some important channel-sequence-variations. This architecture and its key differences can be leveraged for the design of new selective and potent modulators.         ",
+    "url": "https://arxiv.org/abs/2508.17891",
+    "authors": [
+      "Edward Mendez-Otalvaro",
+      "Wojciech Kopec",
+      "Marcus Schewe",
+      "Bert L. de Groot"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Biomolecules (q-bio.BM)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17963",
+    "title": "Enhanced Terahertz Generation via Oblique Incidence of Unipolar Laser Pulses on Plasma",
+    "abstract": "           We investigate terahertz (THz) radiation generation at the vacuum-plasma interface driven by the oblique incidence of s-polarized Gaussian laser pulse(s) on a semi-infinite underdense plasma.~Extending beyond the conventional single-frequency bipolar pulse (B-pulse), this work focuses on leveraging two-color mixed-frequency pulse-- (M-pulse) excitation to enhance THz performance in terms of strength and broadening that can be tuned through controlled amplitude and phase of the constituent pulses of the M-pulse. A new expression for the ponderomotive force (PF) -- which acts as the main driver of THz radiation at the vacuum-plasma boundary -- is derived to capture the hitherto unexplored effects of phase asymmetry intrinsic to the M-pulse, in contrast to a single B-pulse where its phase is irrelevant. This PF formulation captures the underlying cycle-to-cycle symmetry-breaking for the M-pulse field, responsible for efficient THz emission. We demonstrate analytically that such M-pulses of the same total energy as a B-pulse may generate significantly enhanced PF, leading to THz yields several orders of magnitude higher. With a judicious choice of low-frequency to high-frequency ratio, the M-pulse configuration is shown to emerge as a highly efficient, phase-controllable driver of THz radiation and offers a promising route for optimizing THz source design via tailored two-color laser-plasma interactions.         ",
+    "url": "https://arxiv.org/abs/2508.17963",
+    "authors": [
+      "Anjana K P",
+      "Rohit Kumar Srivastav",
+      "Mrityunjay Kundu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18015",
+    "title": "First stave results towards mitigating sensor fracturing with interposers in the ATLAS ITk strips barrel",
+    "abstract": "           At the conclusion of Run 3 of the Large Hadron Collider (LHC) at CERN, the accelerator complex will be upgraded to the High-Luminosity LHC (HL-LHC), allowing it to increase the dataset sizes of LHC experiments by about a factor of 20. This significant increase in dataset size will improve the sensitivity and precision of all physics analyses from LHC experiments, but will come with a more challenging data-taking environment. In order to handle this, the ATLAS detector will undergo a substantial upgrade, including an upgrade of its inner tracker to an all-silicon tracker called the Inner Tracker (ITk), made of pixel and strip sub-detectors. During the pre-production phase of the ITk strips, it was discovered that thermally cycling modules loaded onto local support structures led to physical fractures in silicon sensors due to the induced thermal stress. This is understood to be the result of several factors, including the difference in coefficients of thermal expansion between the different module layers, and the close proximity of the module electrical components. Several mitigation strategies were tested to reduce the rate of module fracturing. This paper describes the assembly setup, testing setups, and electrical testing results of ITk strips barrel modules loaded onto local support structures. 69 of 70 modules with an in-built additional kapton layer were found to survive testing down to -70\u00b0C.         ",
+    "url": "https://arxiv.org/abs/2508.18015",
+    "authors": [
+      "G. D'Amen",
+      "D. Dewhurst",
+      "E. Dibley",
+      "J. Dopke",
+      "E. Duden",
+      "G. Hawker",
+      "B. Gallop",
+      "N. Ghorbanian",
+      "P. Jacobson",
+      "M. Kurth",
+      "A. Li",
+      "D. Lynn",
+      "A. Petersen",
+      "P. Phillips",
+      "D. Russell",
+      "C. Sawyer",
+      "C. Solaz",
+      "W. Sorger",
+      "S. Stucci",
+      "A. Tishelman-Charny",
+      "A. Tricoli",
+      "G. van Nieuwenhuizen"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18200",
+    "title": "Emergence of Vorticity and Viscous Stress in Finite Scale Quantum Hydrodynamics",
+    "abstract": "           The Madelung equations offer a hydrodynamic description of quantum systems, from single particles to quantum fluids. In this formulation, the probability density is mapped onto the fluid density and the phase is treated as a scalar potential generating the velocity field. As examples of potential flows, quantum fluids described in this way are inherently irrotational, but quantum vortices may arise at discrete points where the phase is undefined. In this paper, starting from this irrotational description of a quantum fluid, a coarse-graining procedure is applied to arrive at a macroscopic description of the quantum fluid in which the role of velocity is played by a Favre average of the microscopic velocity field, allowing for finite vorticity at any point in the fluid. It is shown that this vorticity obeys a similar equation to the vorticity equation in classical hydrodynamics and includes a vortex-stretching term. This coarse-graining procedure also gives rise to novel stress terms in the fluid equations, which in the appropriate limit appear analogous to artificial viscous stresses from computational fluid dynamics.         ",
+    "url": "https://arxiv.org/abs/2508.18200",
+    "authors": [
+      "Christopher Triola"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18219",
+    "title": "Three-dimensional hyperspectral imaging with optical microcombs",
+    "abstract": "           Optical frequency combs have revolutionised time and frequency metrology [1, 2]. The advent of microresonator-based frequency combs ('microcombs' [3-5]) is set to lead to the miniaturisation of devices that are ideally suited to a wide range of applications, including microwave generation [6, 7], ranging [8-10], the precise calibration of astronomical spectrographs [11], neuromorphic computing [12, 13], high-bandwidth data communications[14], and quantum-optics [15, 16] platforms. Here, we introduce a new microcomb application for three-dimensional imaging. Our method can simultaneously determine the chemical identity and full three-dimensional geometry, including size, shape, depth, and spatial coordinates, of particulate matter ranging from micrometres to millimetres in size across nearly $10^5$ distinct image pixels. We demonstrate our technique using millimetre-sized plastic specimens (i.e. microplastics measuring less than 5 mm). We combine amplitude and phase analysis and achieve a throughput exceeding $1.2~10^6$ pixels per second with micrometre-scale precision. Our method leverages the defining feature of microcombs - their large line spacing - to enable precise spectral diagnostics using microcombs with a repetition frequency of 1 THz. Our results suggest scalable operation over several million pixels and nanometre-scale axial resolution. Coupled with its high-speed, label-free and multiplexed capabilities, our approach provides a promising basis for environmental sensing, particularly for the real-time detection and characterisation of microplastic pollutants in aquatic ecosystems [17].         ",
+    "url": "https://arxiv.org/abs/2508.18219",
+    "authors": [
+      "Stephan Amann",
+      "Edoardo Vicentini",
+      "Bingxin Xu",
+      "Weiqiang Xie",
+      "Yang He",
+      "Qiang Lin",
+      "John Bowers",
+      "Theodor W. H\u00e4nsch",
+      "Kerry Vahala",
+      "Nathalie Picqu\u00e9"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Chemical Physics (physics.chem-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17170",
+    "title": "Predict open quantum dynamics with data-informed quantum-classical dynamics",
+    "abstract": "           We introduce a data-informed quantum-classical dynamics (DIQCD) approach for predicting the evolution of an open quantum system. The equation of motion in DIQCD is a Lindblad equation with a flexible, time-dependent Hamiltonian that can be optimized to fit sparse and noisy data from local observations of an extensive open quantum system. We demonstrate the accuracy and efficiency of DIQCD for both experimental and simulated quantum devices. We show that DIQCD can predict entanglement dynamics of ultracold molecules (Calcium Fluoride) in optical tweezer arrays. DIQCD also successfully predicts carrier mobility in organic semiconductors (Rubrene) with accuracy comparable to nearly exact numerical methods.         ",
+    "url": "https://arxiv.org/abs/2508.17170",
+    "authors": [
+      "Pinchen Xie",
+      "Ke Wang",
+      "Anupam Mitra",
+      "Yuanran Zhu",
+      "Xiantao Li",
+      "Wibe Albert de Jong",
+      "Chao Yang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17443",
+    "title": "Pulsed laser synthesis of mesoporous metal chalcogenide thin films",
+    "abstract": "           Mesoporous films of the metal chalcogenide $\\beta$-FeSe were grown on MgO substrates by KrF pulsed laser deposition (PLD) in an argon background. At 100 mTorr, gated intensified charge-coupled device imaging and ion probe measurements showed that the plasma plume responsible for crystal growth initially comprised three components, with distinct expansion velocities. Plume interactions with the substrate heater and ablation target gave rise to complex dynamics, including collisions between the charged leading edge -- rebounding between the substrate and the target -- and slower-moving species in the plume interior. Film growth was dominated by species with kinetic energies $\\le$0.5 eV/atom. X-ray reflectivity and atomic force microscopy revealed that films grown in this environment -- with a substrate temperature of 350$^\\circ$C, a laser fluence of 1.0 J cm$^{-2}$, and a 7.5 mm$^2$ spot area -- formed a porous framework with 15% porosity and pore sizes below 100 nm. X-ray diffraction indicated that the porous films were epitaxial with respect to the substrate and likely grew by oriented-attachment of gas-phase molecular clusters or very small nanoparticles, in contrast to the conventional epitaxy of vacuum films from atomic constituents. The in-plane orientation of the mesoporous films was $\\beta$-FeSe[100]$\\parallel$[110]MgO, attributed to the soft landing of pre-formed crystallites on the MgO substrates, where protruding Se rows of $\\beta$-FeSe aligned with corrugations of the MgO surface. This work implies that growth of candidate electrocatalyst materials by PLD in inert gas background may allow mesoporous frameworks with a single crystallographic orientation that expose specific crystal facets for electrochemical reactions and active site engineering.         ",
+    "url": "https://arxiv.org/abs/2508.17443",
+    "authors": [
+      "Dorien E. Carpenter",
+      "Zahra Nasiri",
+      "Nithesh R. Palagiri",
+      "Kamron L. Strickland",
+      "Sumner B. Harris",
+      "David B. Geohegan",
+      "Renato P. Camata"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17514",
+    "title": "Structured Quantum Baths with Memory: A QuTiP Framework for Spectral Diagnostics and Machine Learning Inference",
+    "abstract": "           We introduce a compact simulation framework for modeling open quantum systems coupled to structured, memory-retaining baths using QuTiP. Our method models the bath as a finite set of layered qubits with adjustable connections, interpreted either as a physical realization or as a conceptual representation, rather than as a continuum. This explicit modeling enables direct control over non-Markovian dynamics and allows spectral diagnostics via Fast Fourier Transform (FFT) of system observables. Using a triangle-based bath motif and its extension to a six-qubit anisotropic fractal-like architecture, we demonstrate how spectral fingerprints encode bath topology and memory depth. Standard machine learning tools such as Principal Component Analysis (PCA) and gradient boosting can then be employed to infer bath parameters and estimate proximity to exceptional points (EPs). The results suggest that spectral analysis can serve as a unifying, quantum-platform agnostic tool across theory, simulation, and experiment, offering both a student-accessible and experimentally relevant approach to understanding coherence loss and memory flow in quantum hardware. Rather than treating noise as an adversary to be eliminated, our approach views structured baths as collaborative partners, enabling controlled memory and delocalized memory and information flow for engineered quantum dynamics. In addition to its diagnostic power, the framework offers a modular and reproducible platform for teaching open quantum systems. Ultimately, we frame this as a pedagogical tool: students can pair FFT-based spectral features with lightweight ML (e.g., PCA and gradient boosting) to extract data-rich, interpretable signatures of open-system and non-Hermitian dynamics.         ",
+    "url": "https://arxiv.org/abs/2508.17514",
+    "authors": [
+      "Ridwan Sakidja"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17538",
+    "title": "Probing the spectral width of the 12.4-keV solid-state $^{45}$Sc isomeric resonance",
+    "abstract": "           The $^{45}$Sc nuclear transition from the ground to the isomeric state at 12.389~keV, with a lifetime of 0.46~s, exhibits an extraordinarily narrow natural width of 1.4~feV and a quality factor $\\simeq 10^{19}$ -- surpassing those of the most precise atomic clocks -- making $^{45}$Sc a compelling platform for advanced metrology and nuclear clocks. Here we investigate how closely the spectral width and quality factor of the solid-state $^{45}$Sc resonance can approach these natural limits. Using the European X-ray Free-Electron Laser, we confirm the isomer's lifetime via time-delayed incoherent $K_{\\alpha,\\beta}$ fluorescence and observe previously unreported elastic fluorescence, yielding a partial internal conversion coefficient of 390(60). The absence of a clear nuclear forward scattering signal beyond a 2-ms delay implies environmental broadening of at least $500~\\Gamma_{0}$ under experimental conditions, placing bounds on solid-state decoherence mechanisms. These findings set new experimental benchmarks for solid-state nuclear clock development.         ",
+    "url": "https://arxiv.org/abs/2508.17538",
+    "authors": [
+      "Peifan Liu",
+      "Miriam Gerharz",
+      "Berit Marx-Glowna",
+      "Willi Hippler",
+      "Jan-Etienne Pudell",
+      "Alexey Zozulya",
+      "Brandon Stone",
+      "Deming Shu",
+      "Robert Loetzsch",
+      "Sakshath Sadashivaiah",
+      "Lars Bocklage",
+      "Christina Boemer",
+      "Shan Liu",
+      "Vitaly Kocharyan",
+      "Dietrich Krebs",
+      "Tianyun Long",
+      "Weilun Qin",
+      "Matthias Scholz",
+      "Kai Schlage",
+      "Ilya Sergeev",
+      "Hans-Christian Wille",
+      "Ulrike Boesenberg",
+      "Gianluca Aldo Geloni",
+      "J\u00f6rg Hallmann",
+      "Wonhyuk Jo",
+      "Naresh Kujala",
+      "Anders Madsen",
+      "Angel Rodriguez-Fernandez",
+      "Rustam Rysov",
+      "Kelin Tasca",
+      "Tomasz Kolodziej",
+      "Xiwen Zhang",
+      "Markus Ilchen",
+      "Niclas Wieland",
+      "G\u00fcnter Huber",
+      "James H. Edgar",
+      "J\u00f6rg Evers",
+      "Olga Kocharovskaya",
+      "Ralf R\u00f6hlsberger",
+      "Yuri Shvyd'ko"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Nuclear Experiment (nucl-ex)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.17810",
+    "title": "Kinetic contribution to the arbitrary order odd frequency moments of the dynamic structure factor",
+    "abstract": "           An exact expression is derived for the kinetic contribution to the odd (arbitrary order) frequency moments of the dynamic structure factor via a finite summation that features averages of even (all lower orders) powers of the momentum over the exact momentum distribution. The derivation is carried out for the non-interacting Fermi gas and generalized to the interacting case based on the conjecture that averages over the Fermi distribution can be substituted with averages over the exact distribution. The expression is validated against known results (first, third frequency moments) and new explicit calculations (fifth, seventh frequency moments).         ",
+    "url": "https://arxiv.org/abs/2508.17810",
+    "authors": [
+      "Panagiotis Tolias",
+      "Tobias Dornheim",
+      "Jan Vorberger"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18010",
+    "title": "Optical formation of ultracold NaK$_2$ ground state molecules",
+    "abstract": "           We study the rovibronic transitions in NaK$_2$ between its electronic ground state $1^2A'$ and its second excited state $3^2A'$, to identify possible pathways for the creation of ultracold ground-state triatomic molecules. Our methodology relies on the computation of potential energy surfaces and transition dipole moment surfaces for the relevant electronic states using ab initio methods. Rovibrational energy levels and wave functions are determined using the discrete variable representation approach. A double-well structure of the potential energy surface is identified for both states, and the related transition strengths between the rovibrational levels are derived. Our calculations show that the formation of ultracold ground-state NaK$_2$ molecules is expected when starting from an excited electronic state of NaK$_2$, which can be created by photoassociation of NaK and K observed by optical means by Cao et al. (Phys. Rev. Lett. 2024, 132, 093403).         ",
+    "url": "https://arxiv.org/abs/2508.18010",
+    "authors": [
+      "Baraa Shammout",
+      "Leon Karpa",
+      "Silke Ospelkaus",
+      "Eberhard Tiemann",
+      "Olivier Dulieu"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18145",
+    "title": "Spiral Tuning of Wire-metamaterial Cavity for Plasma Haloscope",
+    "abstract": "           Axions are hypothetical particles that provide a compelling solution to two major mysteries in modern physics: the strong CP problem and the nature of dark matter. The plasma haloscope has been proposed as a promising approach for probing the higher-mass regime for dark matter axions by employing a periodic arrangement of conducting wires. In this study, we present a novel tuning mechanism for such wire-based structures by bundling the wires into a spiral configuration. This design enables continuous frequency tuning of approximately 25% with a single central rotation while maintaining the form factor. To validate this concept, we fabricated a prototype cavity comprising six spiral arms and experimentally demonstrated its feasibility, achieving results in good agreement with numerical simulations.         ",
+    "url": "https://arxiv.org/abs/2508.18145",
+    "authors": [
+      "Jacob Lindahl",
+      "Rustam Balafendiev",
+      "Gagandeep Kaur",
+      "Gaganpreet Singh",
+      "Andrea Gallo Rosso",
+      "Jan Conrad",
+      "Jon Gudmundsson",
+      "Junu Jeong"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.18147",
+    "title": "A Scalable Heuristic for Molecular Docking on Neutral-Atom Quantum Processors",
+    "abstract": "           Molecular docking is a critical computational method in drug discovery used to predict the binding conformation and orientation of a ligand within a protein's binding site. Mapping this challenge onto a graph-based problem, specifically the Maximum Weighted Independent Set (MWIS) problem, allows it to be addressed by specialized hardware such as neutral-atom quantum processors. However, a significant bottleneck has been the size mismatch between biologically relevant molecular systems and the limited capacity of near-term quantum devices. In this work, we overcome this scaling limitation by the use of a novel divide-and-conquer heuristic introduced in Cazals et al. This algorithm enables the solution of large-scale MWIS problems by decomposing a single, intractable graph instance into smaller sub-problems that can be solved sequentially on a neutral-atom quantum emulator, incurring only a linear computational overhead. We demonstrate the power of this approach by solving a 540-node MWIS problem representing the docking of an inhibitor to the Tumor necrosis factor-$\\alpha$ Converting Enzyme--thiol-containing Aryl Sulfonamide (TACE-AS) complex. Our work enables the application of quantum methods to more complex and physically realistic molecular systems than previously possible, paving the way for tackling large-scale docking challenges on near-term quantum hardware.         ",
+    "url": "https://arxiv.org/abs/2508.18147",
+    "authors": [
+      "Mathieu Garrigues",
+      "Victor Onofre",
+      "Wesley Coelho",
+      "S. Acheche"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.20100",
+    "title": "Physical Formalism Of Directional Quantum Evolution Theory",
+    "abstract": "           Here, we introduce the Directional Quantum Evolution Theory (DQET), a covariant reformulation of quantum mechanics where evolution takes place along a four-vector-defined arbitrary timelike direction. This method restores space-time symmetry and provides a geometric interpretation of energy as a frame-dependent projection by substituting a directional derivative for the traditional time derivative. DQET establishes a conserved probability current, supports proper-time evolution, and recovers the Schrodinger in suitable bounds. It provides a covariant solution to the quantum twin conundrum and predicts observable phase discrepancies between systems traveling along distinct trajectories. With encouraging extensions to curved spacetime, the theory offers a cohesive framework for relativistic quantum evolution.         ",
+    "url": "https://arxiv.org/abs/2504.20100",
+    "authors": [
+      "Tarek Yehia"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.01862",
+    "title": "Modeling the Optical Properties of Biological Structures using Symbolic Regression",
+    "abstract": "           We present a Machine Learning approach based on Symbolic Regression to derive, from either numerically generated or experimentally measured spectral data, closed-form expressions that model the optical properties of biological materials. To evaluate the performance of our approach, we consider three case studies with the aim of retrieving the refractive index of the materials that constitute the biological structures considered. The results obtained show that, in addition to retrieving readable and dimensionally homogeneous dispersion models, the expressions found have a physical meaning and their algebraic form is similar to that of the models used to characterize the dispersive behavior of transparent dielectrics in the visible region.         ",
+    "url": "https://arxiv.org/abs/2506.01862",
+    "authors": [
+      "Julian Sierra-Velez",
+      "Alexandre Vial",
+      "Marina Inchaussandague",
+      "Diana Skigin",
+      "Demetrio Mac\u00edas"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.17195",
+    "title": "Operation and performance of the CMS silicon strip tracker with proton-proton collisions at the CERN LHC",
+    "abstract": "           Salient aspects of the commissioning, calibration, and performance of the CMS silicon strip tracker are discussed, drawing on experience during operation with proton-proton collisions delivered by the CERN LHC. The data were obtained with a variety of luminosities. The operating temperature of the strip tracker was changed several times during this period and results are shown as a function of temperature in several cases. Details of the system performance are presented, including occupancy, signal-to-noise ratio, Lorentz angle, and single-hit spatial resolution. Saturation effects in the APV25 readout chip preamplifier observed during early Run 2 are presented, showing the effect on various observables and the subsequent remedy. Studies of radiation effects on the strip tracker are presented both for the optical readout links and the silicon sensors. The observed effects are compared to simulation, where available, and they generally agree well with expectations.         ",
+    "url": "https://arxiv.org/abs/2506.17195",
+    "authors": [
+      "CMS Collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.11593",
+    "title": "Characterizing the Delivered Spill Structure of Medical Proton and Carbon-Ion Beams at MedAustron using a High Frequency Silicon Carbide Readout",
+    "abstract": "           Medical synchrotrons are often used for testing instrumentation in high-energy physics or non-clinical research in medical physics. In many applications of medical synchrotrons, such as microdosimetry and ion imaging, precise knowledge of the spill structure and instantaneous particle rate is crucial. Conventional ionization chambers, while omnipresent in clinical settings, suffer from limitations in charge resolution and integration time, making single-particle detection at high dose rates unfeasible. To address these limitations, we present a beam detection setup based on a silicon carbide (SiC) sensor and a monolithic microwave integrated circuit (MMIC), capable of detecting single particles with a full width at half maximum (FWHM) pulse duration of 500 ps. At the MedAustron ion therapy center, we characterized the spill structure of proton and carbon-ion beams delivered to the irradiation room beyond the timescale of the maximum ion revolution frequency in the synchrotron. The resulting data offer valuable insights into the beam intensity at small time scales and demonstrate the capabilities of SiC-based systems for high-flux beam monitoring.         ",
+    "url": "https://arxiv.org/abs/2507.11593",
+    "authors": [
+      "Matthias Knopf",
+      "Andreas Gsponer",
+      "Matthias Kausel",
+      "Simon Waid",
+      "Sebastian Onder",
+      "Stefan Gundacker",
+      "Daniel Radmanovac",
+      "Giulio Magrin",
+      "Thomas Bergauer",
+      "Albert Hirt"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.21855",
+    "title": "Strong-coupling and high-bandwidth cavity electro-optic modulation for advanced pulse-comb synthesis",
+    "abstract": "           Cavity electro-optic (EO) modulation plays a pivotal role in optical pulse and frequency comb synthesis, supporting a wide range of applications including communication, computing, ranging, and quantum information. The ever-growing demand for these applications has driven efforts in enhancing modulation coupling strength and bandwidth towards advanced pulse-comb synthesis. However, the effects of strong-coupling and high-bandwidth cavity EO modulation remain underexplored, due to the lack of a general, unified model that captures this extreme condition. In this work, we present a universal framework for pulse-comb synthesis under cavity EO modulation, where coupling strength and modulation bandwidth far exceed the cavity's free spectral range (FSR). We show that, under such intense and ultrafast driving conditions, EO-driven frequency combs and pulses exhibit rich higher-order nonlinear dynamics, including temporal pulse compression and comb generation with arbitrary pump detuning. Leveraging this framework, we reveal a direct link between the higher-order dynamics of EO pulse-comb generation and the band structure of synthetic dimension. Furthermore, we demonstrate arbitrary comb shaping via machine-learning-based inverse microwave drive design, achieving a tenfold enhancement in cavity electro-optic comb flatness by exploring the synergistic effects of high-bandwidth driving and detuning-induced frequency boundaries. Our findings push cavity electro-optic modulation into a new frontier, unlocking significant potential for universal and machine-learning-programmable electro-optic frequency combs, topological photonics, as well as photonic quantum computing in the strong-coupling and high-bandwidth regimes.         ",
+    "url": "https://arxiv.org/abs/2507.21855",
+    "authors": [
+      "Tianqi Lei",
+      "Yunxiang Song",
+      "Yanyun Xue",
+      "Qihuang Gong",
+      "Marko Lon\u010dar",
+      "Yaowen Hu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05611",
+    "title": "Mind the Gap: From Resolving Theoretical Foundations of Chiral(ity)-Induced Spin Selectivity to Pioneering Implementations in Quantum Sensing",
+    "abstract": "           The chiral(ity)-induced spin selectivity (CISS) effect, where electrons passing through a chiral medium acquire significant spin-polarization at ambient temperatures, has been widely observed experimentally, yet its theoretical foundations remain actively debated. Open questions persist regarding whether CISS originates from helical geometry or more general chirality, and whether a unified mechanism can account for phenomena across solid-state and soft-matter systems, mesoscopic films, and single molecules. Clarifying the interrelations between existing models is essential to determine if a universal picture of CISS can be found or whether system-specific models are required, and if so, where their common starting point should lie for a workable classification of CISS manifestations. Despite this theoretical fragmentation, recent studies of CISS effects in electron transfer systems, magnetic field sensitivity and coherence of radical pair reactions, polarized electroluminescence in chiral hybrid perovskites, DNA-based biosensors, and enantioselective detection, highlight its broad conceptual relevance and potential applications in spintronics, molecular sensors, and quantum information processing. In this review, we help bridge the gap between theory, experiment, and implementation, with a particular focus on prospects for quantum sensing and metrology. We outline fundamental frameworks of CISS, clarifying what constitutes the `chiral', the `induced', and the `spin-selectivity' that makes up CISS, before going on to survey key model realizations and their assumptions. We examine some of the emerging quantum sensing applications and assess the model-specific implications, in particular exemplifying these in the context of spin-correlated radical pairs, which offer a promising, tunable, and biomimetic platform for emerging molecular quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2508.05611",
+    "authors": [
+      "Yan Xi Foo",
+      "Aisha Kermiche",
+      "Farhan T. Chowdhury",
+      "Clarice D. Aiello",
+      "Luke D. Smith"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.06560",
+    "title": "Experimental plasmonic sensing of malaria using an aluminum metasurface",
+    "abstract": "           A wide range of methods currently exist for testing the presence of malaria, each with its own advantages and disadvantages. New technologies are urgently needed to develop more effective diagnosis tools to fight and eradicate malaria. Optical biosensors that employ surface plasmon resonance (SPR) techniques are a promising category of devices for detecting malaria biomarkers. One such biomarker is plasmodium lactate dehydrogenase (pLDH), a protein produced during the life cycle of the malaria parasite, which is a metabolic enzyme found in all plasmodium species, including the most widespread falciparum. This work reports on the design, probing, and experimental performance of an optical biosensor for detecting pLDH based on SPR and extraordinary optical transmission. The biosensor is composed of an aluminum metasurface made from an array of nanoholes. The sensor operates in the visible spectral region and achieves label-free sensing of plasmodium falciparum LDH (pfLDH) spiked in phosphate-buffered saline. The sensor has a spectral sensitivity of 360 nm/RIU and an LOD of 1.3 nM, equivalent to 45.6 ng/mL of pfLDH. This type of optical biosensor may offer a cost-effective and high sensitivity method for active infection diagnosis.         ",
+    "url": "https://arxiv.org/abs/2508.06560",
+    "authors": [
+      "A. S. Kiyumbi",
+      "M. S. Tame"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.07103",
+    "title": "Acoustic Holography in the Megahertz Frequency Range with Optimal Lens Topologies and Nonlinear Acoustic Feedback",
+    "abstract": "           Acoustic holography in the megahertz frequency range can impact numerous applications, including manufacturing, non-destructive testing, and transcranial ultrasound. However, designing lens topologies for complex acoustic holograms in the megahertz range poses a significant challenge, as weave propagation effects through the lens cannot be ignored. Here, we show that the inherent ability of heterogeneous angular spectrum approach to incorporate in plane varying speed-of-sound maps and support rapid differentiable optimization of lens thickness profiles can generate lens topologies for high fidelity acoustic holography. Crucially, we show that this framework can also account for wavefront aberrations in the propagation media, providing the opportunity to reconfigure this disruptive technology for high precision neuro-interventions. Our investigations also revealed that low frequency acoustic feedback generated by nonlinear mixing of high frequency waves allows attaining accurate skull-compensating lens alignment and creates the possibility to monitor CSF fluid build-up and removal in hydrocephalus. Together, our findings support the design of simple, economical, and high-performance ultrasound systems.         ",
+    "url": "https://arxiv.org/abs/2508.07103",
+    "authors": [
+      "Pradosh Pritam Dash",
+      "Costas D. Arvanitis"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.07612",
+    "title": "Instantaneous optical selection rule for independent control of valley currents",
+    "abstract": "           We reveal an instantaneous optical valley selection rule that illuminates the coupling between the instantaneous optical chirality of the driving laser field and the chirality of valley systems. Building on this principle, we propose and demonstrate that a single chirality-separated optical field, in which oppositely signed instantaneous optical chiralities are separated within an optical cycle, enables independent manipulation of currents from K and K' valleys. Based on this scheme, we highlight two key example applications: (1) complete separation of currents from different valleys, yielding 100%-purity valley-polarized currents, and (2) generation of pure valley current with zero net charge flow. Our work offers a robust and highly controllable all-optical strategy for ultrafast engineering valley currents in the optical cycle timescale, paving a new avenue for valleytronics and quantum information technologies.         ",
+    "url": "https://arxiv.org/abs/2508.07612",
+    "authors": [
+      "Wanzhu He",
+      "Xiaosong Zhu",
+      "Liang Li",
+      "Di Wu",
+      "Xiaotong Zhu",
+      "Pengfei Lan",
+      "Peixiang Lu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.13521",
+    "title": "AI-Augmented Photon-Trapping Spectrometer-on-a-Chip on Silicon Platform with Extended Near-Infrared Sensitivity",
+    "abstract": "           We present a compact, noise-resilient reconstructive spectrometer-on-a-chip that achieves high-resolution hyperspectral imaging across an extended near-infrared (NIR) range up to 1100nm. The device integrates monolithically fabricated silicon photodiodes enhanced with photon-trapping surface textures (PTST), enabling improved responsivity in the low-absorption NIR regime. Leveraging a fully connected neural network, we demonstrate accurate spectral reconstruction from only 16 uniquely engineered detectors, achieving <0.05 RMSE and 8nm resolution over a wide spectral range of 640nm to 1100nm. Our system outperforms conventional spectrometers, maintaining signal-to-noise ratio above 30dB even with 40dB of added detector noise; extending functionality to longer wavelengths up to 1100nm, while the traditional spectrometers fail to perform beyond 950nm due to poor detector efficiency and noise performance. With a footprint of 0.4mm2, dynamic range of 50dB, ultrafast time response (57ps), and high photodiode gain (>7000), this AI-augmented silicon spectrometer is well-suited for portable, real-time, and low-light applications in biomedical imaging, environmental monitoring, and remote sensing. The results establish a pathway toward fully integrated, high-performance hyperspectral sensing in a CMOS-compatible platform.         ",
+    "url": "https://arxiv.org/abs/2508.13521",
+    "authors": [
+      "Ahasan Ahamed",
+      "Htet Myat",
+      "Amita Rawat",
+      "Lisa N McPhillips",
+      "M Saif Islam"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.16342",
+    "title": "SpinAdaptedSecondQuantization.jl 1.0 -- A Simple and Pedagogical Approach to Symbolic Quantum Chemistry",
+    "abstract": "           The development of new electronic structure methods is a very time consuming and error prone process when done by hand. SpinAdaptedSecondQuantization is an open-source Julia package we have developed for working with automated electronic structure theory development. The code focuses on being user-friendly and extensible, allowing for easy use of both user- and pre-defined fermionic and/or bosonic operators, tensors, and orbital spaces. This allows the code to be used to efficiently investigate and prototype new electronic structure methods for many different types of systems. This includes both exotic systems with wave functions consisting of different kinds of particles at once, as well as new parametrizations for traditional many-electron systems. The code is spin-adapted, working directly with spin-adapted fermionic operators, and can easily be used to derive common electronic structure theory equations and expressions, such as the coupled cluster energy, ground and excited state equations, one- and two-electron density matrices, etc. Additionally, the code can translate expressions into code, accelerating the process of going from ideas to implemented methods.         ",
+    "url": "https://arxiv.org/abs/2508.16342",
+    "authors": [
+      "Marcus T. Lexander",
+      "Tor S. Haugland",
+      "Federico Rossi",
+      "Henrik Koch"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.00056",
+    "title": "Toward Knowledge-Guided AI for Inverse Design in Manufacturing: A Perspective on Domain, Physics, and Human-AI Synergy",
+    "abstract": "           Artificial intelligence (AI) is reshaping inverse design in manufacturing, enabling high-performance discovery in materials, products, and processes. However, purely data-driven approaches often struggle in realistic manufacturing settings characterized by sparse data, high-dimensional design spaces, and complex constraints. This perspective proposes an integrated framework built on three complementary pillars: domain knowledge to establish physically meaningful objectives and constraints while removing variables with limited relevance, physics-informed machine learning to enhance generalization under limited or biased data, and large language model-based interfaces to support intuitive, human-centered interaction. Using injection molding as an illustrative example, we demonstrate how these components can operate in practice and conclude by highlighting key challenges for applying such approaches in realistic manufacturing environments.         ",
+    "url": "https://arxiv.org/abs/2506.00056",
+    "authors": [
+      "Hugon Lee",
+      "Hyeonbin Moon",
+      "Junhyeong Lee",
+      "Seunghwa RYu"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.15691",
+    "title": "Trotter-based quantum algorithm for solving transport equations with exponentially fewer time-steps",
+    "abstract": "           The extent to which quantum computers can simulate physical phenomena and solve the partial differential equations (PDEs) that govern them remains a central open question. In this work, one of the most fundamental PDEs is addressed: the multidimensional transport equation with space- and time-dependent coefficients. We present a quantum numerical scheme based on three steps: quantum state preparation, evolution, and measurement of relevant observables. The evolution step combines a high-order centered finite difference with a time-splitting scheme based on product formula approximations, also known as Trotterization. We introduce novel vector-norm analysis and prove that the number of time-steps can be reduced by a factor exponential in the number of qubits compared to previously established operator-norm analysis, thereby significantly lowering the projected computational resources. We also present efficient quantum circuits and numerical simulations that confirm the predicted vector-norm scaling. We report results on real quantum hardware for the one-dimensional convection equation, and solve a non-linear ordinary differential equation via its associated Liouville equation, a particular case of transport equations. This work provides a practical framework for efficiently simulating transport phenomena on quantum computers, with potential applications in plasma physics, molecular gas dynamics and non-linear dynamical systems, including chaotic systems.         ",
+    "url": "https://arxiv.org/abs/2508.15691",
+    "authors": [
+      "Julien Zylberman",
+      "Thibault Fredon",
+      "Nuno F. Loureiro",
+      "Fabrice Debbasch"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  }
+]
