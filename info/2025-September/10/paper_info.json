@@ -1,0 +1,371 @@
+[
+  {
+    "id": "arXiv:2509.07161",
+    "title": "THz-PINNs: Time-Domain Forward Modeling of Terahertz Spectroscopy with Physics-Informed Neural Networks",
+    "abstract": "           Terahertz time-domain spectroscopy (THz-TDS) is a powerful tool for extracting optical and electrical parameters, as well as probing internal structures and surface morphology of materials. However, conventional simulation techniques, such as the finite element method (FEM) and finite-difference time-domain (FDTD), face challenges in accurately modeling THz wave propagation. These difficulties arise from the broad operating bandwidth of THz-TDS (~0.1-10 THz), which demands extremely high temporal resolution to capture pulse dynamics and fine spatial resolution to resolve microstructures and interface effects. To address these limitations, we introduce physics-informed neural networks (PINNs) into THz-TDS modeling for the first time. Through a comprehensive analysis of forward problems in the time domain, we demonstrate the feasibility and potential of PINNs as a powerful framework for advancing THz wave simulation and analysis.         ",
+    "url": "https://arxiv.org/abs/2509.07161",
+    "authors": [
+      "Pengfei Zhu",
+      "Xavier Maldague"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07214",
+    "title": "Optical field characterization at the fundamental limit of spatial resolution with a trapped ion",
+    "abstract": "           Optical systems capable of generating fields with sub-wavelength spatial features have become standard in science and engineering research and industry. Pertinent examples include atom- and ion-based quantum computers and optical lithography setups. So far, no tools exist to characterize such fields - both intensity and polarization - at sub-wavelength length scales. We use a single trapped atomic ion, confined to approximately 40 nm X 40 nm X 180 nm to sense a laser light field at a wavelength of 370 nm. With its spatial extent smaller than the absorption cross-section of a resonant detector, the ion-sensor operates at the fundamental limit of spatial resolution. Our technique relies on developing an analytical model of the ion-light interaction and using the model to extract the intensity and polarization. An important insight provided in this work is also that the inverse of this model can be learned, in a restricted sense, on a deep neural network, speeding up the intensity and polarization readout by five orders of magnitude. This speed-up makes the technique field-deployable to characterize optical instruments by probing light at the sub-wavelength scale.         ",
+    "url": "https://arxiv.org/abs/2509.07214",
+    "authors": [
+      "Nikhil Kotibhaskar",
+      "Sainath Motlakunta",
+      "Anthony Vogliano",
+      "Lewis Hahn",
+      "Rajibul Islam"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07223",
+    "title": "Readout noise of digital frequency multiplexed TES detectors for CUPID",
+    "abstract": "           Superconducting transition-edge sensor (TES) detectors have been the standard in Cosmic Microwave Background experiments for almost two decades and are now being adapted for use in nuclear physics, such as neutrinoless double beta decay searches. In this paper we focus on a new high-bandwidth frequency multiplexed TES readout system developed for CUPID, a neutrinoless double beta decay experiment that will replace CUORE. In order to achieve the high energy resolution requirements for CUPID, the readout noise of the system must be kept to a minimum. Low TES operating resistance and long wiring between the readout SQUID and the warm electronics are needed for CUPID, prompting a careful consideration of the design parameters of this application of frequency multiplexing. In this work, we characterize the readout noise of the newly designed frequency multiplexed TES readout system for CUPID and construct a noise model to understand it. We find that current sharing between the SQUID coil impedance and other branches of the circuit, as well as the long output wiring, worsen the readout noise of the system. To meet noise requirements, a SQUID with a low input inductance, high transimpedance and/or low dynamic impedance is needed, and the wiring capacitance should be kept as small as possible. Alternatively, the option of adding a cryogenic low-noise amplifier at the output of the SQUID should be explored.         ",
+    "url": "https://arxiv.org/abs/2509.07223",
+    "authors": [
+      "Michel Adami\u010d",
+      "Joseph Camilleri",
+      "Chiara Capelli",
+      "Matt Dobbs",
+      "Tucker Elleflot",
+      "Yury G. Kolomensky",
+      "Daniel Mayer",
+      "Joshua Montgomery",
+      "Valentine Novosad",
+      "Vivek Singh",
+      "Graeme Smecher",
+      "Aritoki Suzuki",
+      "Bradford Welliver"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07233",
+    "title": "High-Performance Wavelength Division Multiplexers Enabled by Co-Optimized Inverse Design",
+    "abstract": "           Wavelength division multiplexers are fundamental to the functioning and performance of integrated photonic circuits, with applications ranging from optical interconnects to sensing and quantum technologies. Current solutions are limited by trade-offs between channel spacing, crosstalk, insertion loss, and device footprint. Here, we develop a novel design approach that co-optimizes inverse-designed wavelength division multiplexers and distributed Bragg gratings to achieve ultra-low crosstalk without compromising insertion loss. We experimentally demonstrate less than -40 dB crosstalk for wavelength channel spacing of 15 nm in foundry-compatible silicon devices across the telecommunications C- and L-bands. Our design process is highly adaptable, allowing for seamless scaling to a greater number of output channels, different spectral windows, and easy translation across various material platforms.         ",
+    "url": "https://arxiv.org/abs/2509.07233",
+    "authors": [
+      "Sydney Mason",
+      "Geun Ho Ahn",
+      "Jakob Grzesik",
+      "Sungjun Eun",
+      "Jelena Vu\u010dkovi\u0107"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07302",
+    "title": "Disorder-mediated synchronization resonance in coupled semiconductor lasers",
+    "abstract": "           The interplay between disorder and synchronization in nonlinear oscillator networks has long been known to give rise to counterintuitive phenomena, such as disorder-enhanced coherence. We uncover a frequency-disorder mediated synchronization resonance in coupled external-cavity semiconductor diode lasers. Specifically, we find that intrinsic random frequency detuning among the lasers can enhance synchronization, reaching a maximum at an optimal coupling strength in the weak-coupling regime. The resonance is genuinely disorder-mediated, as it vanishes in the corresponding disorder-free system. To explain this phenomenon, we develop a physical theory based on an effective thermodynamic potential, which also accounts for the associated scaling behavior. Our results establish semiconductor laser arrays as a versatile experimental platform for investigating disorder-driven collective dynamics, with potential implications for a broad class of nonlinear systems.         ",
+    "url": "https://arxiv.org/abs/2509.07302",
+    "authors": [
+      "Li-Li Ye",
+      "Nathan Vigne",
+      "Fan-Yi Lin",
+      "Hui Cao",
+      "Ying-Cheng Lai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07340",
+    "title": "Model Order Reduction for Quantum Molecular Dynamics",
+    "abstract": "           Molecular dynamics simulations are indispensable for exploring the behavior of atoms and molecules. Grounded in quantum mechanical principles, quantum molecular dynamics provides high predictive power but its computational cost is dominated by iterative high-fidelity electronic structure calculations. We propose a novel model order reduction approach as an alternative to high-fidelity electronic structure calculation. By learning a low-dimensional representation of the electronic solution manifold within the Kohn-Sham density functional theory framework, our model order reduction approach determines the ground state electronic density by projecting the problem onto a low-dimensional subspace, thereby avoiding the computationally expensive iterative optimization of electronic wavefunctions in the full space. We demonstrate the capability of our method on a water molecule, showing excellent agreement with high-fidelity simulations for both molecular geometry and dynamic properties, highlighting the generalizability through carefully designed parametrization and systematic sampling.         ",
+    "url": "https://arxiv.org/abs/2509.07340",
+    "authors": [
+      "Siu Wun Cheung",
+      "Youngsoo Choi",
+      "Jean-Luc Fattebert",
+      "Daniel Osei-Kuffuor"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07547",
+    "title": "Membrane phononic integrated circuits",
+    "abstract": "           Phononic circuits constructed from high tensile stress membranes offer a range of desirable features such as high acoustic confinement, controllable nonlinearities, low mass, compact footprint, and ease of fabrication. This tutorial presents a systematic approach to modelling and designing phononic integrated circuits on this platform, beginning with acoustic confinement, wave propagation and dispersion, mechanical and actuation nonlinearities, as well as resonator dynamics. By adapting coupled mode theory from optoelectronics to suspended membranes, and validating this theory with several numerical techniques (finite element modelling, finite difference time domain simulations, and the transfer matrix method), we then provide a comprehensive framework to engineer a broad variety of phononic circuit building blocks. As illustrative examples, we describe the implementation of several acoustic circuit elements including resonant and non-resonant variable-ratio power splitters, mode converters, mode (de)multiplexers, and in-line Fabry-Perot cavities based on evanescent tunnel barriers. These building blocks lay the foundation for phononic integrated circuits with applications in sensing, acoustic signal processing, and power-efficient and radiation-hard computing.         ",
+    "url": "https://arxiv.org/abs/2509.07547",
+    "authors": [
+      "Timothy M.F. Hirsch",
+      "Nicolas P. Mauranyapin",
+      "Erick Romero",
+      "Glen Harris",
+      "Xiaoya Jin",
+      "Nishta Arora",
+      "Warwick P. Bowen",
+      "Christopher G. Baker"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07671",
+    "title": "Full-scale Microwave SQUID Multiplexer Readout System for Magnetic Microcalorimeters",
+    "abstract": "           The deployment of large cryogenic detector arrays, comprising hundreds to thousands of individual detectors, is highly beneficial for various cutting-edge applications, requiring large statistics, angular resolution or imaging capabilities. The readout of such arrays, however, presents a major challenge in terms of system complexity, parasitic heat load, and cost, which can be overcome only through multiplexing. Among the various multiplexing approaches, microwave SQUID multiplexing currently represents the state of the art, in particular for magnetic microcalorimeter (MMC) readout. In this work, we demonstrate the successful operation of the latest generation of our microwave SQUID multiplexer-based readout system, based on a SQUID multiplexer tailored for MMC readout and a custom full-scale software-defined radio (SDR) electronics, capable of handling up to 400 channels. The system operates reliably across the entire 4-8 GHz frequency band and achieves sufficiently low flux noise levels in flux-ramp-demodulated readout. Our results confirm that our system is fully functional and provides a scalable path towards future large-scale, high-resolution MMC experiments.         ",
+    "url": "https://arxiv.org/abs/2509.07671",
+    "authors": [
+      "M. Neidig",
+      "T. Muscheid",
+      "R. Gartmann",
+      "L. E. Ardila Perez",
+      "M. Wegner",
+      "O. Sander",
+      "S. Kempf"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Superconductivity (cond-mat.supr-con)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07699",
+    "title": "Spectral localization of single-nanoparticle plasmons through photonic substrate engineering",
+    "abstract": "           Surface plasmon resonances (SPRs) are crucial for confining light beyond the diffraction limit, yet heavy metal losses often limit their spectral localization. Here, we propose a practical strategy for enabling the spectral localization of single-nanoparticle SPRs through photonic substrate engineering, which creates distinct optical pathways (OPs) to tailor the electromagnetic environments around plasmonic nanoparticles. By analyzing the multiplication factor spectrum of the projected local density of states, we can trace and control these OPs, enabling strong spatial and spectral confinement of single-nanoparticle SPRs. Simulations reveal that a photonic crystal substrate can reduce the mode volume by fivefold and boost the quality factor by over 80 times compared to a metal nanoparticle on a dielectric substrate. Proof-of-concept experiments using two types of leaking Fabry-Perot photonic substrates demonstrate active manipulation of SPRs in both \"open\" and \"closed\" OP states. This multidimensional photonic substrate engineering establishes a customizable platform for single-nanoparticle plasmonics, potentially transforming applications that were previously limited by spectral localization.         ",
+    "url": "https://arxiv.org/abs/2509.07699",
+    "authors": [
+      "Shihao Feng",
+      "Juan-Feng Zhu",
+      "Xinyi Fan",
+      "Jindong Ai",
+      "Wenjie Zhou",
+      "Guangxin Liu",
+      "Jing-Feng Liu",
+      "Renming Liu",
+      "Wei Li",
+      "Lijun Guo",
+      "Lin Wu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07753",
+    "title": "Selective excitation of molecular vibrations via a two-mode cavity Raman scheme",
+    "abstract": "           The experimental realization of strong light-matter coupling with molecules initiated the rapidly evolving field of molecular polaritonics. Most studies focus on how exciton polaritons, which combine electronic excitations with confined light modes, alter photochemistry. In this paper, we investigate their use in selectively exciting molecular vibrational states in the ground state. Selectively exciting molecules to high vibrational states with infrared lasers to catalyze ground-state chemical reactions is a challenging task. Here, we propose a two-cavity mode setup in the electronic strong coupling regime inspired by the process of Stimulated Raman Adiabatic Passage (STIRAP) to selectively populate excited vibrational states. One cavity mode actively pumps the molecular system, while the other provides a highly effective and tunable decay channel via photon leakage. We demonstrate the ability to selectively populate vibrational states for coherent and incoherent light sources using a molecular model system. Our initial findings show high efficiency and suggest a possible route to steering and controlling chemical reactions in the electronic ground state based on electronic strong coupling.         ",
+    "url": "https://arxiv.org/abs/2509.07753",
+    "authors": [
+      "Lucas Borges",
+      "Thomas Schnappinger",
+      "Markus Kowalewski"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07833",
+    "title": "A framework for continuous superradiant laser operation via sequential transport of atoms",
+    "abstract": "           We perform a theoretical study of a continuous superradiant laser supporting its experimental realization at FEMTO-ST using two sequentially-emitting ensembles of ${}^{171}\\mathrm{Yb}$ atoms coupled to the same Fabry-Perot cavity. Using an open quantum system approach, we identify for the simplest case the parameter space where the laser reaches tens of picowatts of power with a sub-millihertz linewidth. Studying the impact of inhomogeneous frequency broadening and variations in atom-cavity coupling on the superradiant emission, we find the laser properties robust with respect to such perturbations, also thanks to the occurrence of synchronization of the atomic dipoles. We then consider a two-site configuration, in which atoms in each site are equally coupled to the cavity and have equal detunings, with different values for the two ensembles. We find for balanced and imbalanced atom numbers that synchronization leads in a certain parameter space to a single narrow spectral line whose central frequency follows the weighted average frequency. This result indicates that sequential loading can enable continuous superradiant emission for metrological applications, provided that the relative frequencies of the two ensembles are controlled to the level required by the target stability.         ",
+    "url": "https://arxiv.org/abs/2509.07833",
+    "authors": [
+      "Jana El Badawi",
+      "Marion Delehaye",
+      "Bruno Bellomo"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07669",
+    "title": "On-chip microwave sensing of quasiparticles in tantalum superconducting circuits on silicon for scalable quantum technologies",
+    "abstract": "           The performance and scalability of superconducting quantum circuits are fundamentally constrained by non-equilibrium quasiparticles, which induce microwave losses that limit resonator quality factors and qubit coherence times. Understanding and mitigating these excitations is therefore central to advancing scalable quantum technologies. Here, we demonstrate on-chip microwave sensing of quasiparticles in high-Q {\\alpha}-tantalum coplanar waveguide resonators on silicon, operated in the single-photon regime. Temperature-dependent measurements reveal persistent non-equilibrium quasiparticles at millikelvin temperatures, producing a measurable suppression of the internal quality factor (Qi) relative to theoretical expectations. By benchmarking across materials, we find that the quasiparticle density in {\\alpha}-Ta is approximately one-third that of NbN at equivalent normalised temperatures (T/Tc), directly correlating with reduced microwave loss. Our methodology establishes a scalable platform for probing quasiparticle dynamics and points towards new routes for engineering superconducting circuits with improved coherence, with impact on qubit readout resonators, kinetic-inductance detectors, and emerging quantum processors and sensors.         ",
+    "url": "https://arxiv.org/abs/2509.07669",
+    "authors": [
+      "Shima Poorgholam-Khanjari",
+      "Paniz Foshat",
+      "Mingqi Zhang",
+      "Valentino Seferai",
+      "Martin Weides",
+      "Kaveh Delfanazari"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Emerging Technologies (cs.ET)",
+      "Systems and Control (eess.SY)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.07890",
+    "title": "Quantum Walks for Chemical Reaction Networks",
+    "abstract": "           We lay the foundation for a quantum algorithmic framework to analyse fixed-structure chemical reaction networks (CRNs) using quantum random walks (QRWs) via electrical circuit theory. We model perturbations to CRNs, such as, species injections that shift steady-state concentrations, while keeping the underlying species-reaction graph fixed. Under physically meaningful mass-action constraints, we develop quantum algorithms that (i) decide reachability of target species after perturbation, (ii) sample representative reachable species, (iii) approximate steady-state fluxes through reactions, and (iv) estimate total Gibbs free-energy consumption. Our approach offers new tools for analysing the structure and energetics of complex CRNs, and opens up the prospect of scalable quantum algorithms for chemical and biochemical reaction networks.         ",
+    "url": "https://arxiv.org/abs/2509.07890",
+    "authors": [
+      "Seenivasan Hariharan",
+      "Sebastian Zur",
+      "Sachin Kinge",
+      "Lucas Visscher",
+      "Kareljan Schoutens",
+      "Stacey Jeffery"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.20845",
+    "title": "Exact Formulation of the Resonant Coupling of a Deep-Subwavelength Particle in a Rectangular Conducting Cavity: Beyond the Jaynes-Cummings Model",
+    "abstract": "           We investigate the resonant interaction between a deep-subwavelength particle and a perfectly conducting rectangular cavity, with potential applications in cavity classical and quantum electrodynamics and wave physics. The particle may behave as a harmonic oscillator, such as a semiconductor plasmonic nanoparticle, a ferrite particle, or as a two-level system, such as a Rydberg atom or trapped ion operating in the microwave regime, where metals can be modeled as perfect conductors at microwave frequencies. Our primary objective is to determine the joint resonances (eigenfrequencies) of the coupled cavity-particle system without imposing restrictions on the coupling strength. Unlike conventional quantum optics models, such as the Jaynes-Cummings model, which typically consider interactions with a limited number of cavity modes and may suffer from causality violations, our formulation fully accounts for the complete mode spectrum of the cavity, ensuring strict causality. From a mathematical standpoint, we introduce a novel singularity extraction technique (renormalization) for the local field Green's function, $G^{\\text{loc}}(r)$, which represents the field at the particle's location due to backscattering of its own radiation. This function is defined as the difference between the cavity Green's function and its free-space counterpart, resulting in a numerically challenging $\\infty - \\infty$ form. To precisely calculate this limit, we develop a stable and efficient recursive approach tailored for a rectangular cavity, which can be easily applied to other structured cavities and waveguides [...]         ",
+    "url": "https://arxiv.org/abs/2410.20845",
+    "authors": [
+      "Koffi-Emmanuel Sadzi",
+      "Yakir Hadad"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.14311",
+    "title": "Performance envelope of laser wakefield accelerators",
+    "abstract": "           Laser wakefield accelerator experiments have made enormous progress over the past $\\sim 20$ years, but their promise to revolutionize high-energy particle sources is only beginning to be realized. To make the next step toward engineering LWFAs for different accelerator outcomes, we need more reliable and quantitative models to predict performance. Using the data from $>50$ published experiments, we estimate scalings and the performance envelope. We compare the observed scalings with several models in the literature. We find that the total beam energy (centroid energy times beam charge) scales almost linearly with laser energy, supporting the value of investment in progressively higher energy driver lasers. The dataset includes pulse durations from 8 to 160 fs, but only laser wavelengths of 800 nm and 1 \\si{\\micro\\meter}, meaning we could not check proposed wavelength scalings for alternative laser technologies. As a benchmark next-generation case, the observed scalings suggest that achieving a 100-GeV LWFA stage will require a $\\gtrsim 30$ PW laser operating at electron density $<10^{17}/$cm$^3$.         ",
+    "url": "https://arxiv.org/abs/2412.14311",
+    "authors": [
+      "Lance Labun",
+      "Miguel Gracia-Linares",
+      "Ou Z. Labun",
+      "Stephen V. Milton"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.20464",
+    "title": "Quantum annealing eigensolver as a NISQ era tool for probing strong correlation effects in quantum chemistry",
+    "abstract": "           The quantum-classical hybrid variational quantum eigensolver (VQE) algorithm is arguably the most popular noisy intermediate-scale quantum (NISQ) era approach to quantum chemistry. We consider the underexplored quantum annealing eigensolver (QAE) algorithm as a worthy alternative. We use a combination of numerical calculations for a system where strong correlation effects dominate, and conclusions drawn from our preliminary scaling analysis for QAE and VQE to make the case for QAE as a NISQ era contender to VQE for quantum chemistry. For the former, we pick the representative example of computing avoided crossings in the H4 molecule in a rectangular geometry, and demonstrate that we obtain results to within about 1.2% of the full configuration interaction value on the D-Wave Advantage system 4.1 hardware. We carry out analyses on the effect of the number of shots, anneal time, and the choice of Lagrange multiplier on our obtained results. Following our numerical results, we carry out a detailed yet preliminary analysis of the scaling behaviours of both the QAE and the VQE algorithms. We analyze the non-recurring and recurring costs involved in both the algorithms and arrive at their net scaling behaviours.         ",
+    "url": "https://arxiv.org/abs/2412.20464",
+    "authors": [
+      "Aashna Anil Zade",
+      "Kenji Sugisaki",
+      "Matthias Werner",
+      "Ana Palacios",
+      "Jordi Riu",
+      "Jan Nogue",
+      "Artur Garcia-Saez",
+      "Arnau Riera",
+      "V. S. Prasannaa"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.06623",
+    "title": "Neural Operators for Forward and Inverse Potential-Density Mappings in Classical Density Functional Theory",
+    "abstract": "           Neural operators are capable of capturing nonlinear mappings between infinite-dimensional functional spaces, offering a data-driven approach to modeling complex functional relationships in classical density functional theory (cDFT). In this work, we evaluate the performance of several neural operator architectures in learning the functional relationships between the one-body density profile $\\rho(x)$, the one-body direct correlation function $c_1(x)$, and the external potential $V_{ext}(x)$ of inhomogeneous one-dimensional (1D) hard-rod fluids, using training data generated from analytical solutions of the underlying statistical-mechanical model. We compared their performance in terms of the Mean Squared Error (MSE) loss in establishing the functional relationships as well as in predicting the excess free energy across two test sets: (1) a group test set generated via random cross-validation (CV) to assess interpolation capability, and (2) a newly constructed dataset for leave-one-group CV to evaluate extrapolation performance. Our results show that FNO achieves the most accurate predictions of the excess free energy, with the squared ReLU activation function outperforming other activation choices. Among the DeepONet variants, the Residual Multiscale Convolutional Neural Network (RMSCNN) combined with a trainable Gaussian derivative kernel (GK-RMSCNN-DeepONet) demonstrates the best performance. Additionally, we applied the trained models to solve for the density profiles at various external potentials and compared the results with those obtained from the direct mapping $V_{ext} \\mapsto \\rho$ with neural operators, as well as with Gaussian Process Regression (GPR) combined with Active Learning by Error Control (ALEC), which has shown strong performance in previous studies.         ",
+    "url": "https://arxiv.org/abs/2506.06623",
+    "authors": [
+      "Runtong Pan",
+      "Xinyi Fang",
+      "Kamyar Azizzadenesheli",
+      "Miguel Liu-Schiaffini",
+      "Mengyang Gu",
+      "Jianzhong Wu"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Statistics Theory (math.ST)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.05192",
+    "title": "Exploring Quantum Responsible Innovation efforts in Canada and the world",
+    "abstract": "           The global landscape for quantum technologies (QTs) is rapidly changing, and proper understanding of their impact and subsequent regulations need to match this pace. A Responsible Innovation (RI) approach and guiding principles have been proposed to accompany this development. We examine practical efforts globally and in Canada, from industry to research to governments, and analyze the current status of quantum technological advances under the RI framework. We analyze and compare what is being done internationally, identify gaps in the Canadian strategy, propose initiatives to fill those gaps, and highlight areas where Canada is leading or where more work is needed.         ",
+    "url": "https://arxiv.org/abs/2507.05192",
+    "authors": [
+      "Ria Chakraborty",
+      "Bruna S. de Mendon\u00e7a",
+      "Katya Driscoll",
+      "Rodolfo R. Soldati",
+      "Ray Laflamme"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.04264",
+    "title": "Quantum Machine Learning of Molecular Energies with Hybrid Quantum-Neural Wavefunction",
+    "abstract": "           Quantum computational chemistry holds great promise for simulating molecular systems more efficiently than classical methods by leveraging quantum bits to represent molecular wavefunctions. However, current implementations face significant limitations in accuracy due to hardware noise and algorithmic constraints. To overcome these challenges, we introduce a hybrid framework that learns molecular wavefunction using a combination of an efficient quantum circuit and a deep neural network. This approach enhances computational efficiency and accuracy, surpassing traditional quantum computational chemistry methods. Numerical benchmarking on molecular systems shows that our hybrid quantum-neural wavefunction approach achieves near-chemical accuracy, comparable to advanced quantum and classical techniques. Experimental validation on a superconducting quantum computer, using the isomerization reaction of cyclobutadiene, further demonstrates its practical applicability, with high accuracy in energy estimation and significant resilience to noise.         ",
+    "url": "https://arxiv.org/abs/2501.04264",
+    "authors": [
+      "Weitang Li",
+      "Shi-Xin Zhang",
+      "Zirui Sheng",
+      "Cunxi Gong",
+      "Jianpeng Chen",
+      "Zhigang Shuai"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.21573",
+    "title": "Position-correlated biphoton wavefront sensing for quantum adaptive imaging",
+    "abstract": "           Quantum imaging with spatially entangled photons offers advantages such as enhanced spatial resolution, robustness against noise, and counter-intuitive phenomena, while a biphoton spatial aberration generally degrades its performance. Biphoton aberration correction has been achieved by using classical beams to detect the aberration source or scanning the correction phase on biphotons if the source is unreachable. Here, a new method named position-correlated biphoton Shack-Hartmann wavefront sensing is introduced, where the phase pattern added on photon pairs with a strong position correlation is reconstructed from their position centroid distribution at the back focal plane of a microlens array. Experimentally, biphoton phase measurement and adaptive imaging against the disturbance of a plastic film are demonstrated. This single-shot method is a more direct and efficient approach toward quantum adaptive optics, suitable for integration into quantum microscopy, remote imaging, and communication.         ",
+    "url": "https://arxiv.org/abs/2504.21573",
+    "authors": [
+      "Yi Zheng",
+      "Zhao-Di Liu",
+      "Jian-Shun Tang",
+      "Jin-Shi Xu",
+      "Chuan-Feng Li",
+      "Guang-Can Guo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.13855",
+    "title": "Nonlinear-linear duality for multipath quantum interference",
+    "abstract": "           In quantum optics, the postselection amplitude of a nondegenerate parametric down-conversion (PDC) process is linked to a beamsplitter (BS) via partial time reversal, up to a normalization coefficient which is related to the parametric gain [Proc. Natl. Acad. Sci. USA 117, 33107 (2020)]. A special example where the gain is low is reminiscent of Klyshko's advanced-wave picture in quantum imaging. Here, we propose and prove a generalized duality for multiple spatial paths connecting a quantum nonlinear interference setup consisting of nondegenerate PDCs and linear optical systems to a linear one, where the PDCs are directly replaced by hypothetical wavelength-shifting BSs. This replacement preserves the geometry of the original setup, and cascaded PDCs become optical cavities whose calculation involves the Redheffer star product. Additional terms in the normalization coefficient are related to the contribution of looping photons inside the cavities. Then, we discuss the case of coherent state input and postselection for $Q$-function calculation. This theorem will be helpful in the development of quantum photonic devices beyond the low-gain limit.         ",
+    "url": "https://arxiv.org/abs/2508.13855",
+    "authors": [
+      "Yi Zheng",
+      "Jin-Shi Xu",
+      "Chuan-Feng Li",
+      "Guang-Can Guo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
