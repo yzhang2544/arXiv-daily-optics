@@ -1,0 +1,511 @@
+[
+  {
+    "id": "arXiv:2510.07348",
+    "title": "Bioinspired Tapered-Spring Turbulence Sensor for Underwater Flow Detection",
+    "abstract": "           This paper presents a bio-inspired underwater whisker sensor for robust hydrodynamic disturbance detection and efficient signal analysis based on Physical Reservoir Computing (PRC). The design uses a tapered nylon spring with embedded accelerometers to achieve spatially distributed vibration sensing and frequency separation along the whisker. Towing-tank experiments and computational fluid dynamics simulations confirmed that the whisker effectively distinguishes vortex regimes across different fin angles and maintains Strouhal scaling with flow velocity, where higher speeds increase vibration intensity without affecting the dominant frequencies. Frequency-domain analysis, Shannon entropy, and machine learning further validated the sensing performance: vortex shedding frequencies were identified with less than 10\\% error, entropy captured the transition from coherent vortex streets to turbulence, and logistic regression achieved 86.0\\% classification accuracy with millisecond-level inference. These results demonstrate that structurally encoded whisker sensing provides a scalable and real-time solution for underwater perception, wake tracking, and turbulence-aware navigation in autonomous marine robots.         ",
+    "url": "https://arxiv.org/abs/2510.07348",
+    "authors": [
+      "Xiao Jin",
+      "Zhenhua Yu",
+      "Thrishantha Nanayakkara"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Robotics (cs.RO)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07483",
+    "title": "Factorized electron-nuclear dynamics with effective complex potential: on-the-fly implementation for H$_2^+$ in a laser field",
+    "abstract": "           Conventional theoretical and computational approaches to fully coupled quantum molecular dynamics, i.e. when both the electrons and nuclei are treated as quantum-mechanical particles, are impractical for all but the smallest chemical systems. In this paper we describe the formalism and implementation of the Factorized Electron Nuclear Dynamics (FENDy) with effective complex potential [J. Chem. Theory Comput. 19 (2023), pp 1393-1408], which goes beyond the established framework of the Born-Oppenheimer approximation or Born-Huang expansion of the molecular wavefunction. This method is based on the exact factorization of the molecular wavefunction, with the nuclei evolving under a complex time-dependent potential which captures the key features of dynamics in the nuclear subspace. The complementary electronic component of the molecular wavefunction is normalized to one for all nuclear configurations. We implement and employ FENDy to model the dynamics of H$_2^+$ molecular ion under a femtosecond laser pulse. The electronic wavefunction is represented within the standard electronic structure bases without referencing the electronic eigenstates. The nuclear wavefunction is represented as a quantum-trajectory ensemble, which in principle circumvents the exponential scaling of the numerical cost with the system size. The challenging evaluation of the gradients on unstructured grids is performed by projection on auxiliary bases.         ",
+    "url": "https://arxiv.org/abs/2510.07483",
+    "authors": [
+      "Julian Stetzler",
+      "Sophya Garashchuk",
+      "Vitaly A. Rassolov"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07522",
+    "title": "Airy Resonances in Photonic Crystal Superpotentials",
+    "abstract": "           Airy wavefunctions are associated with one of the simplest scenarios in wave mechanics: a quantum bouncing ball. In other words, they are the eigenstates of the time-independent Schrodinger equation with a linear potential. In the domain of optics, laser beams that are spatially shaped as Airy functions (`Airy beams') have been shown to exhibit a prominent lobe that follows a curved path, rather than propagating in a straight line, and which has self-healing properties in the presence of obstacles. Here, we observe the presence of Airy resonances in two-dimensional photonic crystals composed of a lattice of holes in a silicon slab. Analogously to electrons in a linear potential, these Airy resonances arise due to a linear spatial variation in the lattice constant of the holes. We map the electromagnetic description of the photonic crystal onto a 2D non-Hermitian Schrodinger equation with a linear potential, which we call a `superpotential'. The non-Hermiticity appears in the form of a complex effective mass due to out-of-plane radiation and fundamentally alters the collective optical response of the Airy resonances.         ",
+    "url": "https://arxiv.org/abs/2510.07522",
+    "authors": [
+      "Zeyu Zhang",
+      "Brian Gould",
+      "Maria Barsukova",
+      "Mikael C. Rechtsman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07531",
+    "title": "Single and Multi-Objective Optimization of Distributed Acoustic Sensing Cable Layouts for Geophysical Applications",
+    "abstract": "           We present a systematic approach to optimise distributed acoustic sensing (DAS) fibre-optic cable layouts using global optimisation techniques. Our method represents cable geometries using splines, enabling efficient exploration of layouts while respecting physical deployment constraints. The use of evolutionary algorithms enables single and multi-objective optimisation, taking into account complex design constraints such as terrain, accesibility, exclusion zones and cable length, while allowing efficient parallelisation of the optimisation process. We demonstrate the approach on a real-world case study, optimising the layout of a DAS cable for monitoring slope stability in the Cuolm da Vi area of Switzerland. We adapt design criteria for seismic source location problems, and for ambient noise surface wave tomography, to account for the unique characteristics of DAS, such as directional sensitivity patterns. The results show significant potential for improvements in source location accuracy and surface wave tomographic resolution by optimising cable layouts, highlighting the potential of this approach for optimising DAS deployments in various geophysical applications.         ",
+    "url": "https://arxiv.org/abs/2510.07531",
+    "authors": [
+      "Dominik Strutz",
+      "Tjeerd Kiers",
+      "Andrew Curtis"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07598",
+    "title": "High-Q and Compact Fabry-Perot Microresonators on Thin-Film Lithium Niobate",
+    "abstract": "           Thin-film lithium niobate (TFLN) has played a pivotal role in the advancement of integrated photonics, by supporting a diverse range of applications including nonlinear optics, electro-optics, and piezo-optomechanics. The effective realization and enhancement of these interactions rely heavily on the implementation of high quality photonic microresonators. The pursuit of novel resonator architectures with optimized properties thus represents a central research area in TFLN photonics. In this work, we design and fabricate TFLN Fabry-Perot microresonators, by placing a straight section of waveguide between a pair of tapered photonic crystal mirrors. The resonator features a high quality factor of 600k at 1530 nm and a compact length of 100 um. The functionality of the device is further demonstrated by integrating on-chip electrodes for high-frequency piezo-optomechanical modulation. Our device can serve as an appealing candidate for developing high-performance photonic components on the TFLN platform.         ",
+    "url": "https://arxiv.org/abs/2510.07598",
+    "authors": [
+      "Likai Yang",
+      "Chunzhen Li",
+      "Jiacheng Xie",
+      "Hong X. Tang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07714",
+    "title": "Twisted bi-layer magnetic photonic crystals",
+    "abstract": "           In photonics, twisted bi-layer systems have demonstrated unprecedented control over light-matter interactions, primarily through the modulation of photonic band structures and the formation of Moir\u00e9 patterns. Meanwhile, magnetic photonic crystals have served as cornerstone platforms for manipulating light propagation, facilitating key applications such as Faraday rotation-based isolators and non-reciprocal devices. Nevertheless, the synergistic integration of twist engineering and magneto-optical effects in bi-layer architectures remains unexplored. This work introduces twisted magnetic bi-layer photonic crystal slabs as a novel platform to unify these degrees of freedom. By continuously tuning the twist angle between two magneto-active photonic layers, the giant circular dichroism is observed, and the transmitted waves can be perfectly linearly polarized and rotated. These effects arise from the interplay between resonant properties of the Moir\u00e9 cell and magnetization-dependent coupling of circularly polarized states. This work establishes a foundation for magnetic topological photonics, bridging twistronics and magneto-optics to unlock new mechanisms for dynamic light control in compact and reconfigurable devices.         ",
+    "url": "https://arxiv.org/abs/2510.07714",
+    "authors": [
+      "You-Ming Liu",
+      "Shi-Kai Lin",
+      "Pei-Shi Li",
+      "Yi-Ran Hao",
+      "Biao Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07767",
+    "title": "Voxel-scale quantum state control in nanorod ensembles using reconfigurable needle beams",
+    "abstract": "           Precisely addressing single nanostructures inside dense ensembles remains a bottleneck for scalable photonic and quantum information devices. Here we demonstrate, through comprehensive finite element and variational Monte-Carlo modelling, that a reconfigurable three-dimensional array of needle shaped beams can selectively switch the quantum optical response of individual InAs nanorods embedded in GaAs. By tuning the local non resonant intensity pattern the exciton and biexciton energies were calculated, electromagnetically induced transparency (EIT) windows were examined, and correspondingly near-field diffraction carpets were dynamically reshaped. A single parameter the activation ratio between illuminated and dark nanorods provides continuous control over photoluminescence peak position (80 meV) and EIT bandwidth (six times). We further predict fully programmable Talbot self-imaging in nanorod arrays with sub-wavelength pitch. Importantly, the observed Talbot carpets enable spatially resolved identification of which nanorods were excited, offering a powerful diagnostic for verifying structured-light activation schemes. The concept offers a low crosstalk, wafer scale route toward reconfigurable quantum emitters, tunable diffractive optics and on-chip slow-light components.         ",
+    "url": "https://arxiv.org/abs/2510.07767",
+    "authors": [
+      "G. A. Mantashian",
+      "D. B. Hayrapetyan",
+      "P. A. Mantashyan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07792",
+    "title": "Aluminum-Based Superconducting Tunnel Junction Sensors for Nuclear Recoil Spectroscopy",
+    "abstract": "           The BeEST experiment is searching for sub-MeV sterile neutrinos by measuring nuclear recoil energies from the decay of $^7$Be implanted into superconducting tunnel junction (STJ) sensors. The recoil spectra are affected by interactions between the radioactive implants and the sensor materials. We are therefore developing aluminum-based STJs (Al-STJs) as an alternative to existing tantalum devices (Ta-STJs) to investigate how to separate material effects in the recoil spectrum from potential signatures of physics beyond the Standard Model. Three iterations of Al-STJs were fabricated. The first had electrode thicknesses similar to existing Ta-STJs. They had low responsivity and reduced resolution, but were used successfully to measure $^7$Be nuclear recoil spectra. The second iteration had STJs suspended on thin SiN membranes by backside etching. These devices had low leakage current, but also low yield. The final iteration was not backside etched, and the Al-STJs had thinner electrodes and thinner tunnel barriers to increase signal amplitudes. These devices achieved 2.96 eV FWHM energy resolution at 50 eV using a pulsed 355 nm (~3.5 eV) laser. These results establish Al-STJs as viable detectors for systematic material studies in the BeEST experiment.         ",
+    "url": "https://arxiv.org/abs/2510.07792",
+    "authors": [
+      "Spencer L. Fretwell",
+      "Connor Bray",
+      "Inwook Kim",
+      "Andrew Marino",
+      "Benjamin Waters",
+      "Robin Cantor",
+      "Ad Hall",
+      "Pedro Amaro",
+      "Adrien Andoche",
+      "David Diercks",
+      "Abigail Gillespie",
+      "Mauro Guerra",
+      "Cameron N. Harris",
+      "Jackson T. Harris",
+      "Leendert M. Hayen",
+      "Paul Antoine Hervieux",
+      "Geon Bo Kim",
+      "Annika Lennarz",
+      "Vincenzo Lordi",
+      "Jorge Machado",
+      "Peter Machule",
+      "David McKeen",
+      "Xavier Mougeot",
+      "Francisco Ponce",
+      "Chris Ruiz",
+      "Amit Samanta",
+      "Jos\u00e9 Paulo Santos",
+      "Joseph Smolsky",
+      "Caitlyn Stone-Whitehead",
+      "Joseph Templet",
+      "William K. Warburton",
+      "K. G. Leach",
+      "S. Friedrich"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07998",
+    "title": "Accurate and Noise-Robust Wavefront Reconstruction with an Optical Vortex Wavefront Sensor",
+    "abstract": "           The term wavefront sensor refers to the entire class of devices capable of measuring the optical wavefront of the incoming beam. Although numerous solutions have been proposed so far, recent advances in structured light have opened new development possibilities through controlled modification of optical field amplitude and phase. We present an alternative approach to angle-based sensing, introducing optical vortices stable phase singularities within each subaperture of the Shack-Hartmann (S-H) architecture. Rather than changing the fundamental angle-based operating principle, it transforms the tracked quantity and its detection method. The presence of a singularity enables a dedicated tracking algorithm that outperforms conventional methods without increasing computational complexity. We evaluated its performance against the conventional S-H across a broad SNR range (from 2 to 22), corresponding to shot noise limited to high saturation regimes, demonstrating lower mean residual phase variance across all conditions. This work demonstrates that structured beam shaping can extend the capabilities of traditional S-H architectures without requiring fundamental redesign.         ",
+    "url": "https://arxiv.org/abs/2510.07998",
+    "authors": [
+      "Magdalena \u0141ukowicz",
+      "Aleksandra Korzeniewska",
+      "Kamil Kalinowski",
+      "Rafa\u0142 Cichowski",
+      "Rosario Porras-Aguilar",
+      "Mateusz Szatkowski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08100",
+    "title": "Enhanced Optical Kerr Effect in Metasurfaces Featuring Arrays of Rotated Rectangular Holes via Trapped-Mode Resonances",
+    "abstract": "           Recent advances in nanophotonics have demonstrated that various optical resonances in nanostructures can achieve strong field confinement with substantially suppressed scattering. This study investigates the optical Kerr effect (OKE) enhancement in high-refractive-index metasurfaces featuring non-BIC trapped-mode resonances, using gallium phosphide (GaP) as a model material. Three-dimensional finite-difference time-domain simulations reveal a significant enhancement of the effective second-order refractive index, reaching values up to 700 times greater than bulk GaP. The numerical results show strong electromagnetic field localization at the trapped-mode resonance, characterized by a wide transmittance dip (low Q-factor) and near-unity reflectance. Remarkable stability is observed, with the OKE enhancement maintaining less than 5\\% variation for moderate polarization angles and tolerating random nanohole rotations that model fabrication imperfections. Compared to bound states in the continuum (BIC), the non-BIC trapped mode demonstrates superior robustness to structural disorder while achieving comparable nonlinear enhancement. These findings suggest promising applications in reflective nonlinear optics, particularly for high harmonic generation and polarization-insensitive photonic devices.         ",
+    "url": "https://arxiv.org/abs/2510.08100",
+    "authors": [
+      "Andrey V. Panov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08136",
+    "title": "Kirigami-based Flexible Metasurface with Reconfigurable Intrinsic Chirality from Zero to Near-unity",
+    "abstract": "           Chiral responses in electromagnetic metasurfaces are typically categorized as extrinsic, resulting from asymmetric interactions between the structure and incident waves, and intrinsic, arising from three-dimensional symmetry breaking of the unit cell. However, most existing metasurface designs target only one type of chirality and lack a unified, continuously tunable platform for broader chiroptical control. To address this limitation, the designed kirigami-based flexible metasurface is proposed for dynamic, continuous modulation of chirality, which expands the control scope to both extrinsic and intrinsic chiral responses within a single, reconfigurable platform. Initially, the unfolded metasurface exhibits extrinsic chirality under oblique incidence. By introducing well-designed kirigami-based cuts and folds, the metasurface transitions from a planar and achiral configuration to a three-dimensional chiral geometry that breaks the mirror symmetry, thereby exhibiting tunable intrinsic chirality and asymmetric extrinsic chirality. As the folding angle increases, the resulting deformation enables continuous tuning of the chiral response, with circular dichroism and its asymmetry under oblique incidences progressively increasing and reaching pronounced levels across the X-band. Our work provides a lightweight, easy-fabricated, and mechanically reconfigurable metasurface, which offers strong potential for future development in adaptive photonic systems and advanced chiroptical technologies.         ",
+    "url": "https://arxiv.org/abs/2510.08136",
+    "authors": [
+      "Yiyi Yao",
+      "Shijie Kang",
+      "Aoning Luo",
+      "Jiusi Yu",
+      "Ken Qin",
+      "Xiexuan Zhang",
+      "Jiayu Fan",
+      "Xusheng Xia",
+      "Haitao Li",
+      "Xiaoxiao Wu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08170",
+    "title": "Proposal for Forward Brillouin Inter-Modal Scattering in Non-suspended Lithium Niobate Waveguides at Visible Wavelengths",
+    "abstract": "           Thin-film lithium niobate on sapphire provides an excellent platform for simultaneously confining acoustic and optical modes without suspended structures, enabling efficient acousto-optic modulation through strong piezoelectric coupling. Here, we identify the challenges in realizing the forward Brillouin interaction at visible wavelengths, and overcome the limitation by introducing a quasi-phase-matching scheme through periodic waveguide width modulation. We predict a complete inter-modal optical conversion over 1.1 mm using only 1 mW acoustic power. Our study paves the way for high-performance visible-wavelength acousto-optic devices on integrated platforms.         ",
+    "url": "https://arxiv.org/abs/2510.08170",
+    "authors": [
+      "Jia-Lin Chen",
+      "Yuan-Hao Yang",
+      "Zheng-Xu Zhu",
+      "Jia-Qi Wang",
+      "Xin-Biao Xu",
+      "Ming Li",
+      "Zheng-Fu Han",
+      "Guang-Can Guo",
+      "Wei Chen",
+      "Chang-Ling Zou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08285",
+    "title": "Simulation of the thermoelectric effect in a multi-metallic superconducting cavity",
+    "abstract": "           Superconducting radio frequency accelerating cavities made with different material layers, such as copper, Nb or Nb3Sn, are susceptible to thermoelectric effects due to differences in Seebeck coefficients between the metals. A temperature gradient across the surfaces can drive thermoelectric currents, which may impact the cavity performance. A layered Cu/Nb/Nb3Sn single cell cavity was tested with cryocoolers in 2022. Three heaters were mounted on the cavity surface at different locations and three single axis cryogenic fluxgate magnetometers were attached close to the cavity equator. A linear increase in the magnetic field was measured while increasing the heaters power. The cavity setup was analysed with COMSOL and the results showed a trend similar to that observed in the experiment. This contribution details the approach chosen for the simulation and some of the challenges encountered.         ",
+    "url": "https://arxiv.org/abs/2510.08285",
+    "authors": [
+      "N. K. Raut",
+      "N. Stilin",
+      "J. Vennekate",
+      "S. Wang",
+      "G. Ciovati"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08441",
+    "title": "Silicon Wafer Fracture Stress for Tracking Sensors in Particle Physics Experiments",
+    "abstract": "           For the construction of the ATLAS Inner Tracker strip detector, silicon strip sensor modules are glued directly onto carbon fibre support structures using a soft silicone gel. During tests at temperatures below \\unit[-35]{$^{\\circ}$C}, several of the sensors were found to crack due to a mismatch in coefficients of thermal expansion between polyimide circuit boards with copper metal layers (glued onto the sensor) and the silicon sensor itself. While module assembly procedures were developed to minimise variations between modules, cold tests showed a wide range of temperatures at which supposedly comparable modules failed. The observed variance (fracture temperatures between \\unit[-35]{\\textcelsius} and \\unit[-70]{\\textcelsius}) for supposedly comparable modules suggests an undetected variation between modules suspected to be intrinsic to the silicon wafer itself. Therefore, a test programme was developed to investigate the fracture stress of representative sensor wafer cutoffs. This paper presents results for the fracture stress of silicon sensors used in detector modules.         ",
+    "url": "https://arxiv.org/abs/2510.08441",
+    "authors": [
+      "Haider Abidi",
+      "Vitaliy Fadeyev",
+      "Tim Jones",
+      "Akhil Kumar",
+      "Tom Lee",
+      "Luise Poley",
+      "Craig Sawyer",
+      "Giorgio Vallone",
+      "Sven Wonsak"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07413",
+    "title": "Quantum Grid Path Planning Using Parallel QAOA Circuits Based on Minimum Energy Principle",
+    "abstract": "           To overcome the bottleneck of classical path planning schemes in solving NP problems and address the predicament faced by current mainstream quantum path planning frameworks in the Noisy Intermediate-Scale Quantum (NISQ) era, this study attempts to construct a quantum path planning solution based on parallel Quantum Approximate Optimization Algorithm (QAOA) architecture. Specifically, the grid path planning problem is mapped to the problem of finding the minimum quantum energy state. Two parallel QAOA circuits are built to simultaneously execute two solution processes, namely connectivity energy calculation and path energy calculation. A classical algorithm is employed to filter out unreasonable solutions of connectivity energy, and finally, the approximate optimal solution to the path planning problem is obtained by merging the calculation results of the two parallel circuits. The research findings indicate that by setting appropriate filter parameters, quantum states corresponding to position points with extremely low occurrence probabilities can be effectively filtered out, thereby increasing the probability of obtaining the target quantum state. Even when the circuit layer number p is only 1, the theoretical solution of the optimal path coding combination can still be found by leveraging the critical role of the filter. Compared with serial circuits, parallel circuits exhibit a significant advantage, as they can find the optimal feasible path coding combination with the highest probability.         ",
+    "url": "https://arxiv.org/abs/2510.07413",
+    "authors": [
+      "Jun Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Mathematical Physics (math-ph)",
+      "Optimization and Control (math.OC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07427",
+    "title": "SEPhIA: <1 laser/neuron Spiking Electro-Photonic Integrated Multi-Tiled Architecture for Scalable Optical Neuromorphic Computing",
+    "abstract": "           Research into optical spiking neural networks (SNNs) has primarily focused on spiking devices, networks of excitable lasers or numerical modelling of large architectures, often overlooking key constraints such as limited optical power, crosstalk and footprint. We introduce SEPhIA, a photonic-electronic, multi-tiled SNN architecture emphasizing implementation feasibility and realistic scaling. SEPhIA leverages microring resonator modulators (MRMs) and multi-wavelength sources to achieve effective sub-one-laser-per-spiking neuron efficiency. We validate SEPhIA at both device and architecture levels by time-domain co-simulating excitable CMOS-MRR coupled circuits and by devising a physics-aware, trainable optoelectronic SNN model, with both approaches utilizing experimentally derived device parameters. The multi-layer optoelectronic SNN achieves classification accuracies over 90% on a four-class spike-encoded dataset, closely comparable to software models. A design space study further quantifies how photonic device parameters impact SNN performance under constrained signal-to-noise conditions. SEPhIA offers a scalable, expressive, physically grounded solution for neuromorphic photonic computing, capable of addressing spike-encoded tasks.         ",
+    "url": "https://arxiv.org/abs/2510.07427",
+    "authors": [
+      "Mat\u011bj Hejda",
+      "Aishwarya Natarajan",
+      "Chaerin Hong",
+      "Mehmet Berkay On",
+      "S\u00e9bastien d'Herbais de Thun",
+      "Raymond G. Beausoleil",
+      "Thomas Van Vaerenbergh"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07616",
+    "title": "Reconfigurable dissipative entanglement between many spin ensembles: from robust quantum sensing to many-body state engineering",
+    "abstract": "           An attractive approach for stabilizing entangled many-body spin states is to employ engineered dissipation. Most existing proposals either target relatively simple collective spin states, or require numerous independent and complex dissipative processes. Here, we show a surprisingly versatile scheme for many-body reservoir engineering that relies solely on fully collective single-excitation decay, augmented with local Hamiltonian terms. Crucially, all these ingredients are readily available in cavity QED setups. Our method is based on splitting the spin system into groups of sub-ensembles, and provides an easily tunable setup for stabilizing a broad family of pure, highly entangled states with closed-form analytic descriptions. Our results have immediate application to multi-ensemble quantum metrology, enabling Heisenberg-limited sensing of field gradients and curvatures. Notably, the generated states have robustness against common-mode phase noise, and only require simple Ramsey-style measurements. The same setup also allows the stabilization of entangled states in a 1D chain of spin ensembles with symmetry-protected topological (SPT) order, and have a direct connection to the outputs of sequential unitary circuits. In particular, we present an efficient method for engineering the celebrated spin-1 Affleck-Kennedy-Lieb-Tasaki (AKLT) state.         ",
+    "url": "https://arxiv.org/abs/2510.07616",
+    "authors": [
+      "Anjun Chu",
+      "Mikhail Mamaev",
+      "Martin Koppenh\u00f6fer",
+      "Ming Yuan",
+      "Aashish A. Clerk"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.07831",
+    "title": "Three-Dimensional Electrostatic and Quantum-Confinement Modeling of Silicon Nanowire Double Quantum Dots",
+    "abstract": "           We present a three-dimensional simulation study of silicon nanowire double quantum dots with leads, which extends beyond traditional effective-mass or quasi-1D and quasi-2D approaches typically applied to bulk or planar geometries. Using the Sentaurus QTX, we self-consistently couple a 3-D Poisson solver with two-dimensional Schr\u00f6dinger solutions along the strongly confined width * thickness cross-sections normal to the transport direction, yielding bound-state energies and wavefunctions across the device cross-section. This method captures wavefunction evolution, subband formation, and valley splitting while retaining the full three-dimensional electrostatics of the device. Our results show that narrow quantum dots (width = 5 nm) provide strong confinement, enhanced valley splitting, and robust single-electron localization, whereas wider quantum dots (width = 20 nm) allow single-electron occupation at lower gate voltages but with shallower quantum wells and additional higher-order modes in the wavefunction. Importantly, the quantum dot width also plays a key role in tunnel coupling: smaller channel widths enhance wavefunction overlap across the barrier, resulting in higher tunnel coupling, whereas increasing the width reduces coupling, which eventually saturates once the width is approximately twice the plunger-gate length. By systematically varying the quantum dot width together with plunger- and barrier-gate lengths, we investigate their combined influence on the conduction-band profile and interdot coupling. Together, these simulations provide design guidelines for geometry-driven control of confinement, valley splitting, and tunnel coupling in silicon nanowire double quantum dots.         ",
+    "url": "https://arxiv.org/abs/2510.07831",
+    "authors": [
+      "Nilesh Pandey",
+      "Dipanjan Basu",
+      "Leonard F Register",
+      "Sanjay K Banerjee"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08220",
+    "title": "Dominant scattering mechanisms and mobility peak in cryogenic 2D electron transport in Silicon (110) confinement by high-k oxides",
+    "abstract": "           The performance of silicon nano-devices at cryogenic temperatures is critical for quantum computing technologies. Through multi-valley Monte Carlo simulations of Si (110) systems, we reveal a fundamental shift in electron transport physics at low temperatures. Phonon scattering becomes negligible, and mobility is instead dictated by a competition between remote Coulomb scattering (RCS) at low carrier densities and surface roughness scattering (SRS) at high densities. This competition creates a distinct peak in electron mobility. Furthermore, we demonstrate a critical design trade-off for high-$\\kappa$ dielectrics like $\\mathrm{HfO_2}$: while enhancing gate control, they introduce strong remote phonon scattering, which can suppress mobility. These findings provide essential guidelines for the material selection and design of next-generation cryogenic nano-devices.         ",
+    "url": "https://arxiv.org/abs/2510.08220",
+    "authors": [
+      "Hsin-Wen Huang",
+      "Xi-Jun Fang",
+      "Edward Chen",
+      "Yuh-Renn Wu"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.08430",
+    "title": "When Less is More: Approximating the Quantum Geometric Tensor with Block Structures",
+    "abstract": "           The natural gradient is central in neural quantum states optimizations but it is limited by the cost of computing and inverting the quantum geometric tensor, the quantum analogue of the Fisher information matrix. We introduce a block-diagonal quantum geometric tensor that partitions the metric by network layers, analogous to block-structured Fisher methods such as K-FAC. This layer-wise approximation preserves essential curvature while removing noisy cross-layer correlations, improving conditioning and scalability. Experiments on Heisenberg and frustrated $J_1$-$J_2$ models show faster convergence, lower energy, and improved stability.         ",
+    "url": "https://arxiv.org/abs/2510.08430",
+    "authors": [
+      "Ahmedeo Shokry",
+      "Alessandro Santini",
+      "Filippo Vicentini"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2307.07943",
+    "title": "Panoramic Voltage-Sensitive Optical Mapping of Contracting Hearts using Cooperative Multi-View Motion Tracking with 12 to 24 Cameras",
+    "abstract": "           Voltage-sensitive fluorescence imaging is widely used to image action potential waves in the heart. However, while the electrical waves trigger mechanical contraction, imaging needs to be performed with pharmacologically contraction-inhibited hearts, limiting studies of the coupling between cardiac electrophysiology and tissue mechanics. Here, we introduce a high-resolution multi-camera optical mapping system with which we image action potential waves at high resolutions across the entire ventricular surface of the beating and strongly deforming heart. We imaged intact isolated rabbit hearts inside a soccer-ball shaped imaging chamber facilitating even illumination and panoramic imaging. Using 12 high-speed cameras, ratiometric voltage-sensitive imaging, and three-dimensional (3D) multi-view motion tracking, we reconstructed the entire 3D deforming ventricular surface and performed corresponding voltage-sensitive measurements during sinus rhythm, paced rhythm, and ventricular fibrillation. Our imaging setup defines a new state-of-the-art in the field and can be used to study the heart's electromechanical physiology during health and disease at unprecedented resolutions. For instance, we measured electrical activation times and observed mechanical strain waves following electrical activation fronts during pacing, observed electromechanical vortices during ventricular fibrillation, and measured action potential duration and contractile changes in response to pharmacological blockage of potassium ion channels.         ",
+    "url": "https://arxiv.org/abs/2307.07943",
+    "authors": [
+      "Shrey Chowdhary",
+      "Jan Lebert",
+      "Shai Dickman",
+      "Charles Gordon",
+      "Jan Christoph"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Image and Video Processing (eess.IV)",
+      "Biological Physics (physics.bio-ph)",
+      "Tissues and Organs (q-bio.TO)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.17422",
+    "title": "Stabilizing the free spectral range of a large ring laser",
+    "abstract": "           A ring laser is defined by its perimeter, which directly enters the conversion factor between measured Sagnac frequency and the actual rotation rate. Large ring lasers employed in geodesy and fundamental physics require stability of the perimeter at or below the parts-per-billion level. We present two complementary approaches to actively control the perimeter length of such ring lasers, reaching a relative length stability of $4\\times 10^{-10}$. One of these approaches is based on a phase detection between the beat of two resonances of different longitudinal mode index and a stable local oscillator. The other approach employs a highly stable wavelength meter to measure the absolute frequency of the laser light. These methods can readily be implemented and bring the stability of heterolithic devices on par with monolithic designs.         ",
+    "url": "https://arxiv.org/abs/2411.17422",
+    "authors": [
+      "Jannik Zenner",
+      "Karl Ulrich Schreiber",
+      "Simon Stellmer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.01869",
+    "title": "Dual formulation of the maximum entropy method applied to analytic continuation of quantum Monte Carlo data",
+    "abstract": "           Many fields of physics use quantum Monte Carlo techniques, but struggle to estimate dynamic spectra via the analytic continuation of imaginary-time quantum Monte Carlo data. One of the most ubiquitous approaches to analytic continuation is the maximum entropy method (MEM). We supply a dual Newton optimization algorithm to be used within the MEM and provide analytic bounds for the algorithm's error. The MEM is typically used with Bryan's controversial algorithm [Rothkopf, \"Bryan's Maximum Entropy Method\" Data 5.3 (2020)]. We present new theoretical issues that are not yet in the literature. Our algorithm has all the theoretical benefits of Bryan's algorithm without these theoretical issues. We compare the MEM with Bryan's optimization to the MEM with our dual Newton optimization on test problems from lattice quantum chromodynamics and plasma physics. These comparisons show that in the presence of noise the dual Newton algorithm produces better estimates and error bars; this indicates the limits of Bryan's algorithm's applicability. We use the MEM to investigate authentic quantum Monte Carlo data for the uniform electron gas at warm dense matter conditions and further substantiate the roton-type feature in the dispersion relation.         ",
+    "url": "https://arxiv.org/abs/2501.01869",
+    "authors": [
+      "Thomas Chuna",
+      "Nicholas Barnfield",
+      "Tobias Dornheim",
+      "Michael P. Friedlander",
+      "Tim Hoheisel"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "High Energy Physics - Lattice (hep-lat)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.16249",
+    "title": "Practical 1-um GHz fiber comb on silica-based platform",
+    "abstract": "           We present a fully stabilized 1-GHz Yb-fiber laser frequency comb built on silica substrates, utilizing \"optical cubes\" to house all optical components, ensuring long-term stability and practical operation. Both the femtosecond laser and f-to-2f interferometer are constructed to silica bricks, with a compact footprint of 290 mm * 250 mm, and a total weight of 1.8 kg. This system provides a stable repetition rate, offset frequency, and a supercontinuum spanning 460-1560 nm without requiring amplification. The carrier-envelop offset frequency exhibits exceptional in-loop stability, with a fractional frequency instability of 3.07* 10^(-18) at a 1 second averaging time, improving to 2.12*10^(-20) at a 10,000 second, maintaining uninterrupted operation for over 60 hours. This work demonstrates a high-performance GHz fiber-based frequency comb, paving the way for applications beyond laboratory environments, including dual-comb spectroscopy, astronomical spectrograph calibration, and portable optical clocks.         ",
+    "url": "https://arxiv.org/abs/2503.16249",
+    "authors": [
+      "Ruoao Yang",
+      "Xingang Jin",
+      "Ya Wang",
+      "Minghe Zhao",
+      "Zhendong Chen",
+      "Xinpeng Lin",
+      "Fei Meng",
+      "Duo Pan",
+      "Qian Li",
+      "Jingbiao Chen",
+      "Aimin Wang",
+      "Zhigang Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.12689",
+    "title": "An optical centrifuge with zero rotational acceleration",
+    "abstract": "           An optical centrifuge is a laser pulse which enables controlled rotational excitation of molecules. Centrifuged molecules rotating with well-defined angular frequencies are ideal candidates to probe many-body quantum systems at the nanoscale. Because the interaction with the quantum environment increases the effective moment of inertia of the embedded molecular probes, the required rotational acceleration of the optical centrifuge must be lowered to accommodate adiabatic spinning. We demonstrate a new design of an optical centrifuge, based on the method of spectral focusing, which enables extremely low, down to zero, rotational accelerations. We discuss the potential of using such constant frequency centrifuge to investigate molecular rotation inside helium nanodroplets.         ",
+    "url": "https://arxiv.org/abs/2507.12689",
+    "authors": [
+      "K. Wang",
+      "A. Hardikar",
+      "A. A. Milner",
+      "V. Milner"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.24464",
+    "title": "Sinc basis set for molecular orbitals calculation of cavity in 1D",
+    "abstract": "           We develop a numerical approach based on the sinc basis set for first-principles electronic structure calculations in one-dimensional systems. The method exploits the inherent accuracy and non-local character of the sinc functions to handle long-range couplings effectively. As a proof of principle, we provide a computational study of a molecule in an optical cavity, with our code directly calculating the emergence of the energy level splitting in the spectrum.         ",
+    "url": "https://arxiv.org/abs/2509.24464",
+    "authors": [
+      "Xueyuan Yan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.08392",
+    "title": "Multicomponent one-dimensional quantum droplets across the mean-field stability regime",
+    "abstract": "           The Lee-Huang-Yang (LHY) energy correction at the edge of the mean-field stability regime is known to give rise to beyond mean-field structures in a wide variety of systems. In this work, we analytically derive the LHY energy for two-, three- and four-component one-dimensional bosonic short-range interacting mixtures across the mean-field stability regime. For varying intercomponent attraction in the two-component setting, quantitative deviations from the original LHY treatment emerge being imprinted in the droplet saturation density and width. On the other hand, for repulsive interactions an unseen early onset of phase-separation occurs for both homonuclear and heteronuclear mixtures. Closed LHY expressions for the fully-symmetric three- and four-component mixtures, as well as for mixtures comprised of two identical components coupled to a third independent component are provided and found to host a plethora of mixed droplet states. Our results are expected to inspire future investigations in multicomponent systems for unveiling exotic self-bound states of matter and unravel their nonequilibrium quantum dynamics.         ",
+    "url": "https://arxiv.org/abs/2502.08392",
+    "authors": [
+      "I. A. Englezos",
+      "P. Schmelcher",
+      "S. I. Mistakidis"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.16480",
+    "title": "The Quantum Formalism Revisited",
+    "abstract": "           For the simple system of a point-like particle confined to a straight line, I compile, initially in a concise table, the structural elements of quantum mechanics and contrast them with those of classical (statistical) mechanics. Despite many similarities, there are the well-known fundamental differences, resulting from the algebraic non-commutativity in the quantal structure. The latter was discovered by Werner Heisenberg (1901-1976) in June 1925 on the small island of Helgoland in the North Sea, as a consequence of understanding atomic spectral data within a matrix scheme consistent with energy conservation. I discuss the differences and exemplify their quantifications by the variance and entropic indeterminacy inequalities, by (pseudo-)classical bounds on quantum canonical partition functions, and by the correlation inequalities of John Bell (1928-1990) and others.         ",
+    "url": "https://arxiv.org/abs/2506.16480",
+    "authors": [
+      "Hajo Leschke"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.13855",
+    "title": "Nonlinear-linear duality for multipath quantum interference",
+    "abstract": "           In quantum optics, the postselection amplitude of a nondegenerate parametric down-conversion (PDC) process is linked to a beamsplitter (BS) via partial time reversal, up to a normalization coefficient which is related to the parametric gain [Proc. Natl. Acad. Sci. USA 117, 33107 (2020)]. A special example where the gain is low is reminiscent of Klyshko's advanced-wave picture in quantum imaging. Here, we propose and prove a generalized duality for multiple spatial paths connecting a quantum nonlinear interference setup consisting of nondegenerate PDCs and linear optical systems to a linear one, where the PDCs are directly replaced by hypothetical wavelength-shifting BSs. This replacement preserves the geometry of the original setup, and cascaded PDCs become optical cavities whose calculation involves the Redheffer star product. Additional terms in the normalization coefficient are related to the contribution of looping photons inside the cavities. Then, we discuss the case of coherent state input and postselection for $Q$-function calculation. This theorem will be helpful in the development of quantum photonic devices beyond the low-gain limit.         ",
+    "url": "https://arxiv.org/abs/2508.13855",
+    "authors": [
+      "Yi Zheng",
+      "Jin-Shi Xu",
+      "Chuan-Feng Li",
+      "Guang-Can Guo"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
