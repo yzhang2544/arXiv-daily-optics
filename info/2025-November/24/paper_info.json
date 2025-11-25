@@ -1,0 +1,598 @@
+[
+  {
+    "id": "arXiv:2511.16684",
+    "title": "PlatonSPAD: A novel SPAD sensor for large-scale high-resolution particle detectors",
+    "abstract": "           High-resolution 3D tracking with sub-nanosecond timing is required for the detection of elementary particles, such as neutrinos. Conventional detectors, which utilize analog silicon photomultipliers, face challenges in balancing spatial resolution and scalability. To address this issue, a CMOS single-photon avalanche diode (SPAD)-based high-resolution particle detector is being developed. This work presents a study on SPAD layout optimization and a 4x4 SPAD macropixel module, fabricated in 110 nm CIS technology. Measurement results confirm that high-fill-factor designs improve photon detection efficiency without significant noise degradation. Furthermore, event-driven photon mapping and time stamping, enabled by time-to-digital converters and dedicated pixel circuits integrated into the 4x4 SPAD macropixel, were successfully demonstrated. This work is an essential step towards a sensor that detects probabilistic particle interactions and it lays the groundwork for the development of future large-scale SPAD-based particle detectors.         ",
+    "url": "https://arxiv.org/abs/2511.16684",
+    "authors": [
+      "Kodai Kaneyasu",
+      "Till Dieminger",
+      "Matthew Franks",
+      "Davide Sgalaberna",
+      "Claudio Bruschini",
+      "Edoardo Charbon"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Image and Video Processing (eess.IV)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16686",
+    "title": "A compact, easy-to-use leak detector for vacuum systems based on the MQ-8 sensor",
+    "abstract": "           This paper presents the development of a compact leak detector for vacuum systems that operates using hydrogen as a tracer gas, detected by a semiconductor MQ-8 sensor. The sensor is connected to an Arduino microcontroller, enabling digital signal processing and real-time visualization through the Processing software environment. The designed device is capable of detecting even small hydrogen leaks caused by imperfect sealing of vacuum connections. It is characterized by simplicity, low manufacturing cost, and suitability for laboratory use as an alternative to helium leak detectors. Experimental tests confirmed the effectiveness and stability of the developed leak detector during long-term measurements.         ",
+    "url": "https://arxiv.org/abs/2511.16686",
+    "authors": [
+      "S.M. Kovalov",
+      "I.V. Beznosenko",
+      "A.V. Vasyliev",
+      "G.V. Sotnikov"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16701",
+    "title": "Catalytic Resonance Theory: Kinetics and Frequency Response of Light-Promoted Catalysis",
+    "abstract": "           The illumination of catalytic surfaces with a continuous or pulsed stream of photons dynamically modulates surface chemistry for faster rates, higher conversion, or product selectivity control. To establish fundamental principles of dynamic photon-modulated catalysis, the photocatalytic conversion of a generic surface reaction was simulated to understand the kinetic implications of an independent stream of photons promoting surface product desorption. Simulations were conducted via the microkinetic model and kinetic Monte Carlo methods for the scenarios of a Poisson distribution, constant spacing between photons, and coordinated on/off pulsing of photon sources. The time-averaged photocatalytic rate at differential conditions for varying photon flux and temperatures indicated three kinetic regimes described by product thermal desorption control, surface reaction control, and an intermediate kinetic regime with a zero slope Arrhenius plot, consistent with a degree of rate control dominated by the photon arrival frequency (i.e., per-site photon flux). The maximum photocatalytic rate occurred orders of magnitude above the Sabatier limit at the resonance frequency, identified as the photon arrival frequency that matched the surface reaction rate constant. Non-equilibrium photocatalytic conversion occurred when the rate of photon-promoted product desorption was comparable to the rate of thermal product desorption. Results indicated the general utility of photon-promoted catalysis, with negligible benefit for rate enhancement and quantum yield with photon source pulsing or chopping due to the inherent dynamic nature of photons from light sources.         ",
+    "url": "https://arxiv.org/abs/2511.16701",
+    "authors": [
+      "Paul J Dauenhauer"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16894",
+    "title": "Broadband telecom single-photon emissions from InAs/InP quantum dots grown by MOVPE droplet epitaxy",
+    "abstract": "           The development of quantum materials for single-photon emission is crucial for the advancement of quantum information technology. Although significant advancement has been witnessed in recent years for single photon sources in near infrared band ({\\lambda}~700-1000 nm), several challenges have yet to be addressed for ideal single photon emission at the telecommunication band. In this study, we present a droplet-epitaxy strategy for O-band to C-band single-photon source based semiconductor quantum dots (QDs) using metal-organic vapor-phase epitaxy (MOVPE). Via investigating the growth conditions of the epitaxial process, we have successfully synthesized InAs/InP QDs with narrow emission lines spanning a broad spectral range of {\\lambda}~1200-1600 nm. The morphological and optical properties of the samples were characterized using atomic force microscopy and micro photoluminescence spectroscopy. The recorded single-photon purity of a plain QD structure reaches (g(2)(0) = 0.16), with a radiative recombination lifetime as short as 1.5 ns. This work provides a crucial platform for future research on integrated microcavity enhancement techniques and coupled QDs with other quantum photonics in the telecom bands, offering significant prospects for quantum network applications.         ",
+    "url": "https://arxiv.org/abs/2511.16894",
+    "authors": [
+      "Shichen Zhang",
+      "Li Liu",
+      "Kai Guo",
+      "Xingli Mu",
+      "Yuanfei Gao",
+      "Junqi Liu",
+      "Fengqi Liu",
+      "Quanyong Lu",
+      "Zhiliang Yuan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16984",
+    "title": "Quantum Jump Approach for Photosynthetic Energy Transfer with Chemical Reaction and Fluorescence Loss",
+    "abstract": "           Recently, the coherent modified Redfield theory (CMRT) has been widely used to simulate the excitation-energy-transfer (EET) processes in photosynthetic systems. However, the numerical simulation of the CMRT is computationally expensive when dealing with large-scale systems, e.g. photosystem I (PSI) and II (PSII). On the other hand, the chemical reaction and fluorescence loss traditionally treated by the non-Hermitian Hamiltonian approach may result in significantly error in a wide range of parameters. To address these issues, we introduce a quantum jump approach (QJA) based on the CMRT to simulate the evolution of photosynthetic complexes including both the chemical reaction and fluorescence loss. The QJA shows higher accuracy and efficiency in simulating the EET processes. The QJA-CMRT approach may provide a powerful tool to design and optimize artificial photosynthetic systems, which benefits future innovation in the field of energy.         ",
+    "url": "https://arxiv.org/abs/2511.16984",
+    "authors": [
+      "Rui Li",
+      "Yi Li",
+      "Kai-Ya Zhang",
+      "Qing Ai"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17141",
+    "title": "Distributed Acoustic Fiber Sensing for Research Campuses and Large Scientific Infrastructures -- The Hamburg WAVE proto-network",
+    "abstract": "           Here, we demonstrate and investigate how Distributed Acoustic Sensing (DAS) can be utilized on research campuses and in large scientific infrastructures to study environmental vibrations and reduce their impact on high-precision experiments. We first discuss the potential of DAS in the context of particle accelerators, gravitational wave detection experiments and research campuses. Next, we present the results of our seismic measurement campaign conducted with our proto-network, which involved the probing of over 12 km of fiber, in May 2021. This campaign was conducted by the Hamburg WAVE initiative in Science City Hamburg Bahrenfeld and included DESY, the European XFEL, PETRA III and the University of Hamburg. Our proto-network confirms the ability to observe natural, anthropogenic, and infrastructural vibrations and how and where these couple into different parts of the heterogeneously set up fiber network. We also present results on a study of noise and motion coupling aspects of DAS probing double-redundant fiber loops in a unique environment, the European XFEL. Our results show that DAS greatly benefits research campuses and large scientific infrastructures and they highlight the opportunities and challenges of implementing and operating such seismic networks.         ",
+    "url": "https://arxiv.org/abs/2511.17141",
+    "authors": [
+      "Oliver B\u00f6lt",
+      "Luigia Cristiano",
+      "Sandy Croatto",
+      "Dirk Gajewski",
+      "Erik Genthe",
+      "Oliver Gerberding",
+      "C\u00e9line Hadziioannou",
+      "Conny Hammer",
+      "Markus Hoffmann",
+      "Katharina-Sophie Isleif",
+      "Antonia Kiel",
+      "Charlotte M. Krawczyk",
+      "Regina Maass",
+      "Ingra Barbosa",
+      "Norbert Meyners",
+      "Reinhardt Rading",
+      "Holger Schlarb",
+      "Roman Schnabel",
+      "Wanda Vossius",
+      "Christopher Wollin"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17192",
+    "title": "From Cantilevers to Membranes: Advanced Scanning Protocols for Magnetic Resonance Force Microscopy",
+    "abstract": "           Magnetic Resonance Force Microscopy (MRFM) enables three-dimensional imaging of nuclear spin densities in nanoscale objects. Based on numerical simulations, we evaluate the performance of strained SiN resonators as force sensors and show that their out-of-plane oscillation direction improves the quality of the reconstructed sample. We further introduce a multislice, compressed-sensing scan protocol that maximizes the information obtained for a given measurement time. Our simulations predict that these new scanning protocols and optimized algorithms can shorten the total acquisition time by up to two orders of magnitude while maintaining the reconstruction fidelity. Our results demonstrate that combining advanced scanning protocols with state-of-the-art resonators is a promising path toward high-resolution MRFM for volumetric imaging of biological nanostructures.         ",
+    "url": "https://arxiv.org/abs/2511.17192",
+    "authors": [
+      "Nils Prumbaum",
+      "Christian L. Degen",
+      "Alexander Eichler"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17218",
+    "title": "Teaching quantum computing to computer science students: Review of a hands-on quantum circuit simulation practical",
+    "abstract": "           We present a practical course targeting graduate students with prior knowledge of the basics of quantum computing. The practical aims to deepen students' understanding of fundamental concepts in quantum computing by implementing quantum circuit simulators. Through hands-on experience, students learn about different methods to simulate quantum computing, including state vectors, density matrices, the stabilizer formalism, and matrix product states. By implementing the simulation methods themselves, students develop a more in-depth understanding of fundamental concepts in quantum computing, including superposition, entanglement, and the effects of noise on quantum systems. This hands-on experience prepares students to do research in the field of quantum computing and equips them with the knowledge and skills necessary to tackle complex research projects in the field. In this work, we describe our teaching approach and the structure of our practical, and we discuss evaluations and lessons learned.         ",
+    "url": "https://arxiv.org/abs/2511.17218",
+    "authors": [
+      "Florian Kr\u00f6tz",
+      "Xiao-Ting Michelle To",
+      "Korbinian Staudacher",
+      "Dieter Kranzlm\u00fcller"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Emerging Technologies (cs.ET)",
+      "Quantum Algebra (math.QA)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17317",
+    "title": "Aspects of quantum geometry in photonic time crystals",
+    "abstract": "           We develop a geometric description of quantum light in photonic time crystals on the SU(1,1) coherent-state manifold. In a projective picture, the evolution of each mode appears as a M\u00f6bius isometry on the Poincar\u00e9 disk, where topologies of trajectories distinguish stable, unstable, and critical regimes. The geometric phase is related to the hyperbolic area enclosed by cyclic paths in the complex projective Hilbert space. This framework offers an intuitive view of stability and topology in quantum photonic time crystals.         ",
+    "url": "https://arxiv.org/abs/2511.17317",
+    "authors": [
+      "Karthik Subramaniam Eswaran",
+      "Ali Emami Kopaei",
+      "Krzysztof Sacha"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17327",
+    "title": "High system efficiency nonlinear frequency conversion on thin-film lithium niobate",
+    "abstract": "           Integrated photonic platforms can greatly enhance the efficiency of nonlinear frequency conversion processes by tightly confining light on a sub-micron scale. However, this advantage is often reduced by large fiber-to-chip coupling losses which drastically reduce the overall performance. Here we demonstrate a highly efficient thin-film lithium niobate frequency converter based on periodically poled waveguides combined with direct laser written out-of-plane couplers. Including on-chip and fiber-to-chip losses we obtain a conversion efficiency of 152 %/W, thus demonstrating a promising approach for future scalable integrated devices.         ",
+    "url": "https://arxiv.org/abs/2511.17327",
+    "authors": [
+      "Philipp Lohmann",
+      "Daniel Wendland",
+      "Francesco Lenzini",
+      "Wolfram H.P. Pernice"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17431",
+    "title": "Radial Mode Lithium Niobate Rosen Transformer",
+    "abstract": "           In this work, we demonstrate the first two-port radial-mode Rosen transformer based on 36$^{\\circ}$Y-cut lithium niobate (LN) for piezoelectric power conversion. The device achieves a high transformation ratio (TF) of 16, a high electromechanical coupling factor ($k^2$) of 16.8\\% and a quality factor ($Q$) of 2500, yielding an outstanding figure of merit (FoM = $Q \\cdot k^2$) of 420. The fabricated transformer features a large effective turns ratio of 16 and delivers an open-circuit voltage gain of 45.56 (unloaded) and 40.57 with a load of 1 M$\\Omega$ in parallel with 0.1 pF, validating its ability to provide efficient passive voltage amplification. An equivalent circuit model was developed to accurately fit both finite-element-simulated and measured admittance spectra, enabling reliable parameter extraction. These results establish LN radial-mode resonators as a promising high-performance, magnetic-less transformer platform.         ",
+    "url": "https://arxiv.org/abs/2511.17431",
+    "authors": [
+      "Ziqian Yao",
+      "Heather Chang",
+      "Eric Stolt",
+      "Clarissa Daniel",
+      "Tzu-Hsuan Hsu",
+      "Juan Rivas-Davila",
+      "Ruochen Lu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17474",
+    "title": "Residual Stress Anisotropy In Thin-Film Lithium Niobate For Stress-Managed MEMS",
+    "abstract": "           In this work, we present the first experimental study of residual stress and post-release beam deflection in 128-degree Y-cut thin-film lithium niobate (TFLN) on Si, revealing pronounced stress anisotropy with in-plane orientation. Using optical profilometry with curvature fitting, we extract the stress gradient (sigma1) and generate orientation-resolved stress maps across multiple film thicknesses (100 nm, 220 nm, and 460 nm). For films in the 220 to 460 nm range, we identify stress-free in-plane orientations near approximately 55 degrees and 125 degrees, enabling extremely flat suspended beams. In contrast, ultra-thin 100 nm films exhibit shifted stress-free orientations near approximately 20 degrees and 160 degrees. Leveraging these orientations, we demonstrate very long suspended beams up to 2 cm in length, 10 micrometers in width, and 460 nm in thickness without collapse. These results establish in-plane stress anisotropy and thickness selection in TFLN as practical design levers for mechanically stable, scalable, and stress-managed microelectromechanical systems (MEMS).         ",
+    "url": "https://arxiv.org/abs/2511.17474",
+    "authors": [
+      "Byeongjin Kim",
+      "Ian Anderson",
+      "Tzu-Hsuan Hsu",
+      "Ziqian Yao",
+      "Mihir Chaudhari",
+      "Sinwoo Cho",
+      "Ruochen Lu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17493",
+    "title": "Ultrafast optical Kerr Gate at 1 GHz repetition rate by focusing on BBS glass",
+    "abstract": "           Efficient detection of ultrafast phenomena is central to modern optical sciences, driving advances in quantum science and technology, physical chemistry, and nanophotonics. When processes occur on sub-picosecond timescales, time-resolved methods such as transient absorption, up-conversion, and optical Kerr gating (OKG) can be utilized to probe these dynamics, though they are typically applied to ensembles rather than single emitters. The OKG technique offers high detection efficiency over a broad spectral range, making it particularly promising for ultrafast single-photon detection at high-repetition-rates. Here, we present an ultrafast scheme based on the third-order nonlinearity of bismuth borosilicate (BBS) glass, operating at a 1 GHz repetition rate with less than 1 nJ pulse energy under focusing, and achieving a time resolution down to 175 fs. BBS glass was selected for its high nonlinear coefficient, which enhances detection efficiency, sub-ps response time, and its compatibility with standard microscopy platforms.         ",
+    "url": "https://arxiv.org/abs/2511.17493",
+    "authors": [
+      "Amr Farrag",
+      "Assegid M. Flatae",
+      "Lenorah M. Stott",
+      "Alessandro Jagatti",
+      "Andrea Lapini",
+      "Doris M\u00f6ncke",
+      "Mario Agio"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16724",
+    "title": "Navigating the Quantum Resource Landscape of Entropy Vector Space Using Machine Learning and Optimization",
+    "abstract": "           We present a machine learning framework to study the dynamics of entropy vectors and quantum resources, including entanglement and magic, focusing on violations of entropy inequalities. Using a reinforcement learning agent formulated as a Markov decision process, we identify quantum circuits that optimally navigate the entropy vector space to generate violations of Ingleton's inequality. We complement this approach with a classical optimization algorithm to produce arbitrary numbers of Ingleton-violating states, with tunable degrees of violation, and empirically determine the maximal attainable violation for Ingleton's inequality. Our analysis reveals characteristic patterns of quantum resources that accompany Ingleton violation. A comprehensive statistical analysis shows that Ingleton-violating states occupy sharply-defined, isolated regions of the Hilbert space, and are extremely rare. Together, these results establish a unified computational toolkit for studying entropy vector dynamics, tracking quantum resource evolution, and engineering circuits with controlled information-theoretic features.         ",
+    "url": "https://arxiv.org/abs/2511.16724",
+    "authors": [
+      "Nothando Khumalo",
+      "Aman Mehta",
+      "William Munizzi",
+      "Prineha Narang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "High Energy Physics - Theory (hep-th)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16738",
+    "title": "Scalable Quantum Computational Science: A Perspective from Block-Encodings and Polynomial Transformations",
+    "abstract": "           Significant developments made in quantum hardware and error correction recently have been driving quantum computing towards practical utility. However, gaps remain between abstract quantum algorithmic development and practical applications in computational sciences. In this Perspective article, we propose several properties that scalable quantum computational science methods should possess. We further discuss how block-encodings and polynomial transformations can potentially serve as a unified framework with the desired properties. We present recent advancements on these topics including construction and assembly of block-encodings, and various generalizations of quantum signal processing (QSP) algorithms to perform polynomial transformations. We also highlight the scalability of QSP methods on parallel and distributed quantum architectures. Promising applications in simulation and observable estimation in chemistry, physics, and optimization problems are presented. We hope this Perspective serves as a gentle introduction of state-of-the-art quantum algorithms to the computational science community, and inspires future development on scalable quantum computational science methodologies that bridge theory and practice.         ",
+    "url": "https://arxiv.org/abs/2511.16738",
+    "authors": [
+      "Kevin J. Joven",
+      "Elin Ranjan Das",
+      "Joel Bierman",
+      "Aishwarya Majumdar",
+      "Masoud Hakimi Heris",
+      "Yuan Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.16945",
+    "title": "Spectroscopy on a single nonlinear mode recognizes quantum states",
+    "abstract": "           Characterising optical quantum states is essential for the development of quantum technologies. While traditional approaches to perform full quantum state tomography are often experimentally demanding, neuromorphic architectures may provide an effective alternative. In this work, we demonstrate how a quantum nonlinear driven-dissipative mode is sufficient to act as a quantum reservoir. By analyzing the occupations at different frequencies in the emission spectrum, a linear regression suffices in many cases to recognize the relevant parameters of incident squeezed states. Beyond highlighting the general potential of this approach under continuous driving, we illustrate its effectiveness in an explicit nontrivial example where the source is a degenerate optical parametric oscillator (OPO), coupled to a nonlinear polariton microcavity.         ",
+    "url": "https://arxiv.org/abs/2511.16945",
+    "authors": [
+      "Wouter Verstraelen",
+      "Stanis\u0142aw \u015awierczewski",
+      "Andrzej Opala",
+      "Andrew Haky",
+      "Matteo Gadani",
+      "Huawen Xu",
+      "Oleksandr Kyriienko",
+      "Micha\u0142 Matuszewski",
+      "Alberto Bramati",
+      "Timothy C.H. Liew"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17244",
+    "title": "Optical Entanglement Facilitated by Opto-Mechanical Cooling",
+    "abstract": "           Optomechanical generation of entangled optical beams is usually hindered by thermal noise. We present a theoretical study of low frequency entanglement generation between two optical harmonics emitted from a cavity optomechanical system operating in the resolved-sideband regime. The system comprises three nearly equidistant optical modes in a high-finesse cavity, with the central mode coherently driven. This configuration enables radiation-pressure interactions that generate strong quantum correlations between the two sideband modes. Remarkably, these correlations persist even at large numbers of thermal quanta if one properly engineers the optical cooling rate of the mechanical mode. Our findings demonstrate the feasibility of robust entanglement under ambient conditions, opening new avenues for hybrid quantum technologies based on mechanical interfaces and continuous-variable quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2511.17244",
+    "authors": [
+      "Alexandr V. Karpenko",
+      "Andrey B. Matsko",
+      "Sergey P. Vyatchanin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.17278",
+    "title": "Enhancing Infrared Laser Dissociation of Molecules with the Electromagnetic Vacuum",
+    "abstract": "           Controlling bond breaking is a long-standing goal in molecular physics. Infrared nanocavities are currently being developed for reaching exotic coupling regimes of cavity QED with a few molecules, but it is not well understood how chemical reactions would proceed in such systems. To address this, we study infrared laser photodissociation of a single CS$_{2}$ molecule with a stretching mode that strongly interacts with a resonant infrared vacuum, subject to a strong laser field that either resonantly drives the molecule at its fundamental vibration frequency or injects photons at the cavity resonance. We show that the intensities required for photodissociation are significantly lower inside the cavity than in free space, with a strong dependence on the type of driving condition. By directly injecting photons into the cavity, the molecule dissociates with two orders of magnitude less laser energy than by directly driving the vibrational mode. This photodissociation enhancement is a purely quantum mechanical effect that cannot be captured semi-classically. The intracavity ladder climbing dynamics is substantially modified relative to free space due to vacuum-induced admixing a large number of vibrational quantum numbers and the cavity field acting as a surrogate molecular mode that strongly interacts with the dissociative vibrational motion. Our work provides fundamental mechanistic understanding of chemical dynamics that can be used for designing new types of nanophotonics experiments that probe single-molecule chemistry.         ",
+    "url": "https://arxiv.org/abs/2511.17278",
+    "authors": [
+      "Johan F. Triana",
+      "Felipe Herrera"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.24363",
+    "title": "Topological Phase Transition and Geometrical Frustration in Fourier Photonic Simulator",
+    "abstract": "           XY models with continuous spin orientation play a pivotal role in understanding topological phase transitions and emergent frustration phenomena, such as superconducting and superfluid phase transitions. However, the complex energy landscapes arising from frustrated lattice geometries and competing spin interactions make these models computationally intractable. To address this challenge, we design a programmable photonic spin simulator capable of emulating XY models with tunable lattice geometries and spin couplings, allowing systematic exploration of their statistical behavior. We experimentally observe the Berezinskii-Kosterlitz-Thouless (BKT) transition in a square-lattice XY model with nearest-neighbor interactions, accurately determining its critical temperature. Expanding to frustrated systems, we implement the approach in triangular and honeycomb lattices, uncovering sophisticated phase transitions and frustration effects, which are consistent with theoretical predictions. This versatile platform opens avenues for probing unexplored XY model phenomena across diverse geometries and interaction schemes, with potential applications in solving complex optimization and machine learning problems.         ",
+    "url": "https://arxiv.org/abs/2503.24363",
+    "authors": [
+      "Yuxuan Sun",
+      "Weiru Fan",
+      "Xingqi Xu",
+      "Da-Wei Wang",
+      "Hai-Qing Lin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.22540",
+    "title": "A Graph-Based Laser Path Solver Algorithm for Virtual Reality Laboratory Simulations",
+    "abstract": "           femtoPro is an interactive virtual reality (VR) laser laboratory balancing the contrasting challenges of accuracy and computational efficiency in optics simulations. It can simulate linear and nonlinear optical phenomena in real time, a task that pushes the boundaries of current consumer hardware. This paper details the concept, implementation, and evaluation of a dynamic graph-based solution tailored to the specific requirements and challenges of the simulation. Resource usage is optimized through a selective updating strategy that identifies and preserves laser paths unchanged between simulation frames, eliminating the need for unnecessary recalculations. Benchmarking of real-world scenarios confirms that our approach delivers a smooth user experience, even on mobile VR platforms with limited computing power. The methodologies, solutions and insights outlined in this paper may be applicable to other interactive, dynamic graph-based real-time simulations.         ",
+    "url": "https://arxiv.org/abs/2505.22540",
+    "authors": [
+      "Andreas M\u00fcller",
+      "Stefan Mueller",
+      "Tobias Brixner",
+      "Sebastian von Mammen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.24845",
+    "title": "A Planar Huygens Antenna Utilizing Crossed Electric and Magnetic Dipoles",
+    "abstract": "           The natural source of a magnetic dipole in antennas is typically an electrically small loop, which can be utilized in conjunction with an electric dipole to realize an electrically small Huygens' antenna. However, these antennas suffer from low radiation efficiency and their theoretical directivity limit is 4.8 dBi. Magnetic dipoles with an electrical size larger than 0.5lambda are highly desirable for high-gain applications. This paper builds on the development of a magnetic dipole source that utilizes a 0.5lambda slot positioned near a printed dipole with a length twice that of the slot. Such a combination of electric and magnetic dipoles yields a highly directive radiation pattern, resulting in a higher gain than a uniformly illuminated antenna of similar size. The prototype is designed to operate at 4.5 GHz, with a directivity of up to 8.37 dBi. The analytical, numerical, and measured results agree fully. This high-gain superdirective antenna is highly desirable due to its excellent features, including being low-profile, PCB compatible, and having a low-complexity feeding topology, compared to the existing approach of the two-element end-fire array.         ",
+    "url": "https://arxiv.org/abs/2505.24845",
+    "authors": [
+      "Muhammad Rizwan Akram",
+      "Abbas Semnani"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.11463",
+    "title": "Characterisation of the first wafer-scale prototype for the ALICE ITS3 upgrade: the monolithic stitched sensor (MOSS)",
+    "abstract": "           This paper presents the characterisation and testing of the first wafer-scale monolithic stitched sensor (MOSS) prototype developed for the ALICE ITS3 upgrade that is to be installed during the LHC Long Shutdown 3 (2026-2030). The MOSS chip design is driven by the truly cylindrical detector geometry that imposes that each layer is built out of two wafer-sized, bent silicon chips. The stitching technique is employed to fabricate sensors with dimensions of 1.4 $\\times$ 25.9 cm, thinned to 50 $\\mu$m. The chip architecture, in-pixel front-end, laboratory and in-beam characterisation, susceptibility to single-event effects, and series testing are discussed. The testing campaign validates the design of a wafer-scale stitched sensor and the performance of the pixel matrix to be within the ITS3 requirements. The MOSS chip demonstrates the feasibility of the ITS3 detector concept and provides insights for further optimisation and development.         ",
+    "url": "https://arxiv.org/abs/2510.11463",
+    "authors": [
+      "Omar Abdelrahman",
+      "Gianluca Aglieri Rinella",
+      "Luca Aglietta",
+      "Giacomo Alocco",
+      "Matias Antonelli",
+      "Roberto Baccomi",
+      "Francesco Barile",
+      "Pascal Becht",
+      "Franco Benotto",
+      "Stefania Maria Beol\u00e8",
+      "Marcello Borri",
+      "Daniela Bortoletto",
+      "Naseem Bouchhar",
+      "Giuseppe Eugenio Bruno",
+      "Matthew Daniel Buckland",
+      "Szymon Bugiel",
+      "Paolo Camerini",
+      "Francesca Carnesecchi",
+      "Marielle Chartier",
+      "Domenico Colella",
+      "Angelo Colelli",
+      "Giacomo Contin",
+      "Giuseppe De Robertis",
+      "Wenjing Deng",
+      "Antonello Di Mauro",
+      "Vittorio Di Trapani",
+      "Maurice Donner",
+      "Ana Dorda Martin",
+      "Piotr Dorosz",
+      "Floarea Dumitrache",
+      "Lars D\u00f6pper",
+      "Gregor Hieronymus Eberwein",
+      "Domenico Elia",
+      "Simone Emiliani",
+      "Laura Fabbietti",
+      "Tommaso Fagotto",
+      "Xiaochao Fang",
+      "Henrik Fribert",
+      "Roman Gernh\u00e4user",
+      "Piero Giubilato",
+      "Laura Gonella",
+      "Karl Gran Grodaas",
+      "Ola Slettevoll Groettvik",
+      "Vladimir Gromov",
+      "Malte Gr\u00f6nbeck",
+      "Philip Hauer",
+      "Hartmut Hillemanns",
+      "Guen Hee Hong",
+      "Yu Hu",
+      "Minyoung Chris Hwang",
+      "Marc Alain Imhoff",
+      "Barbara Jacak",
+      "Daniel Matthew Jones",
+      "Antoine Junique",
+      "Filip K\u0159\u00ed\u017eek",
+      "Jetnipit Kaewjai",
+      "Anouk Kaiser",
+      "Jesper Karlsson Gumprecht",
+      "Markus Keil",
+      "Bernhard Ketzer",
+      "Jiyoung Kim",
+      "Lena Kirchner",
+      "Kritsada Kittimanapun",
+      "Alex Kluge",
+      "Chinorat Kobdaj",
+      "Artem Kotliarov",
+      "Thanushan Kugathasan",
+      "Marc K\u00f6nig",
+      "Paola La Rocca",
+      "Natthawut Laojamnongwong",
+      "Lukas Lautner",
+      "Corentin Lemoine",
+      "Long Li",
+      "Beatrice Eva Liang-Gilman",
+      "Francesco Licciulli",
+      "Sanghoon Lim",
+      "Bong-Hwi Lim",
+      "Jian Liu",
+      "Flavio Loddo",
+      "Matteo Lupi",
+      "Magnus Mager",
+      "Philipp Mann",
+      "Georgios Mantzaridis",
+      "Davide Marras",
+      "Paolo Martinengo",
+      "Silvia Masciocchi",
+      "Annalisa Mastroserio",
+      "Soniya Mathew",
+      "Serena Mattiazzo",
+      "Marius Wilm Menzel",
+      "Nicola Minafra",
+      "Frederic Morel",
+      "Alice Mulliri",
+      "Anjali Ila Nambrath",
+      "Rajendra Nath Patra",
+      "Iaroslav Panasenko",
+      "Styliani Paniskaki",
+      "Caterina Pantouvakis",
+      "Cosimo Pastore",
+      "Stefania Perciballi"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.27662",
+    "title": "Towards a mobile quantitative phase imaging microscope with smartphone phase-detection sensors",
+    "abstract": "           Quantitative phase imaging (QPI) enables visualization and quantitative extraction of the optical phase information of transparent samples. However, conventional QPI techniques typically rely on multi-frame acquisition or complex interferometric optics. In this work, we introduce Quad-Pixel Phase Gradient Imaging ($QP^{2}GI$), a single-shot quantitative phase imaging method based on a commercial quad-pixel phase detection autofocus (PDAF) sensor, where each microlens on the sensor covers a $2\\times2$ pixel group. The phase gradients of the sample induce focal spot displacements under each microlens, which lead to intensity imbalances among the four pixels. By deriving the phase gradients of the sample from these imbalances, $QP^{2}GI$ reconstructs quantitative phase maps of the sample from a single exposure. We establish a light-propagation model to describe this process and evaluate its performance in a customized microscopic system. Experiments demonstrate that quantitative phase maps of microbeads and biological specimens can be reconstructed from a single acquisition, while low-coherence illumination improves robustness by suppressing coherence-related noise. These results reveal the potential of quad-pixel PDAF sensors as cost-effective platforms for single-frame QPI.         ",
+    "url": "https://arxiv.org/abs/2510.27662",
+    "authors": [
+      "Xiangjiang Bao",
+      "Lucas Kreiss",
+      "Josh Lerner",
+      "Roarke Horstmeyer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.04403",
+    "title": "Experimental observation of quantum interferences in CO-H$_2$ rotational energy transfer at room temperature",
+    "abstract": "           Using time-resolved infrared-vacuum-ultraviolet double-resonance spectroscopy, experimental room temperature measurements of state-to-state rate coefficients for rotational energy transfer within the X $^1\\Sigma^+(v=2)$ vibrational state of CO due to H$_2$ collisions have been compared to accurate 4-D close-coupling quantum calculations. Theoretically predicted quantum interferences in the CO-H$_2$ collisional system are experimentally observed for the first time at room temperature, and excellent agreement between theory and experiment is observed. These results provide a valuable benchmark for validating the anisotropic part of the potential energy surface, thereby supporting the theoretical modeling of CO emission in warm astrophysical environments such as photodissociation regions.         ",
+    "url": "https://arxiv.org/abs/2504.04403",
+    "authors": [
+      "Hamza Labiad",
+      "Alexandre Faure",
+      "Ian R. Sims"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.08776",
+    "title": "Dissipationless tune-out trapping for a lanthanide-alkali quantum gas mixture",
+    "abstract": "           Quantum gas mixtures offer a wide field of research, ranging from few-body physics of impurities to many-body physics with emergent long-range interactions and ultracold molecular gases. Achieving precision control of mixtures is much harder than for single-component gases and, consequently, the respective techniques are less developed. Here we report on a decisive step forward in this direction by realizing dissipationless and fully differential optical control of the motional degrees of freedom of one of the species without affecting the other. This is achieved in a novel Bose-Fermi mixture with extreme mass imbalance, erbium-166 and lithium-6. Our experiments pave the way to a new generation of precision many-body experiments with quantum gas mixtures with unprecedented long lifetimes and low temperatures.         ",
+    "url": "https://arxiv.org/abs/2506.08776",
+    "authors": [
+      "Alexandre De Martino",
+      "Florian Kiesel",
+      "Jonas Auch",
+      "Kirill Karpov",
+      "Christian Gross"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06337",
+    "title": "Integrated Open-Source Framework for Simulation of Transcatheter Pulmonary Valves in Native Right Ventricular Outflow Tracts",
+    "abstract": "           Background - Pulmonary insufficiency is a consequence of transannular patch repair in Tetralogy of Fallot (ToF), leading to late morbidity and mortality. Transcatheter native outflow tract pulmonary valve replacement (TPVR) has become common, but assessment of patient candidacy and selection of the optimal device remains challenging. We demonstrate an integrated open-source workflow for simulation of TPVR in image-derived models to inform device selection. Methods - Machine learning-based segmentation of CT scans was implemented to define the right ventricular outflow tract (RVOT). A custom workflow for device positioning and pre-compression was implemented in SlicerHeart. Resulting geometries were exported to FEBio for simulation. Visualization of results and quantification were performed using custom metrics implemented in SlicerHeart and FEBio. Results - RVOT model creation and device placement could be completed in under 1 minute. Virtual device placement using FE simulations visually mimicked actual device placement and allowed quantification of vessel strain, stress, and contact area. Regions of higher strain and stress were observed at the proximal and distal end locations of the TPVs where the devices impinge the RVOT wall. No other consistent trends were observed across simulations. The observed variability in mechanical metrics across RVOTS, stents, and locations in the RVOT highlights that no single device performs optimally in all anatomies, thereby reinforcing the need for simulation-based patient-specific assessment. Conclusions - This study demonstrates the feasibility of a novel open-source workflow for the rapid simulation of TPVR which with further refinement may inform assessment of patient candidacy and optimal device selection.         ",
+    "url": "https://arxiv.org/abs/2507.06337",
+    "authors": [
+      "Christopher N. Zelonis",
+      "Jalaj Maheshwari",
+      "Wensi Wu",
+      "Steve A. Maas",
+      "Seda Aslan",
+      "Kyle Sunderland",
+      "Stephen Ching",
+      "Ashley Koluda",
+      "Yuval Barak-Corren",
+      "Nicolas Mangine",
+      "Patricia M. Sabin",
+      "Andras Lasso",
+      "Devin W. Laurence",
+      "Christian Herz",
+      "Matthew J. Gillespie",
+      "Jeffrey A. Weiss",
+      "Matthew A. Jolley"
+    ],
+    "subjectives": [
+      "Tissues and Organs (q-bio.TO)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.04727",
+    "title": "Qumode-Based Variational Quantum Eigensolver for Molecular Excited States",
+    "abstract": "           We introduce the Qumode Subspace Variational Quantum Eigensolver (QSS-VQE), a hybrid quantum-classical algorithm for computing molecular excited states using the Fock basis of bosonic qumodes in circuit quantum electrodynamics (cQED) devices. This approach harnesses the native universal gate sets of qubit-qumode architectures to construct highly expressive variational ansatze, offering potential advantages over conventional qubit-based methods. In QSS-VQE, the electronic structure Hamiltonian is first mapped to a qubit representation and subsequently embedded into the Fock space of bosonic qumodes, enabling efficient state preparation and reduced quantum resource requirements. We demonstrate the performance of QSS-VQE through simulations of molecular excited states, including dihydrogen and a conical intersection in cytosine. Additionally, we explore a bosonic model Hamiltonian to assess the expressivity of qumode gates, identifying regimes where qumode-based implementations outperform purely qubit-based approaches. These results highlight the promise of leveraging bosonic degrees of freedom for enhanced quantum simulation of complex molecular systems.         ",
+    "url": "https://arxiv.org/abs/2509.04727",
+    "authors": [
+      "Rishab Dutta",
+      "Cameron Cianci",
+      "Alexander V. Soudackov",
+      "Yuchen Wang",
+      "Chuzhi Xu",
+      "David A. Mazziotti",
+      "Lea F. Santos",
+      "Victor S. Batista"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.06022",
+    "title": "Quantum optics in the turbulent atmosphere: Fundamental issues and applications",
+    "abstract": "           Quantum light propagation through turbulent atmosphere has become a subject of intensive research, spanning both theoretical and experimental studies. This interest is driven by its important applications in free-space quantum communication, remote quantum sensing, and environmental monitoring. At the same time, this phenomenon itself poses an intriguing fundamental problem. A consistent theoretical description typically makes explicit assumptions about the measurement scheme at the receiver station and/or the method of quantum-information encoding. A common and straightforward approach encodes the information in quantum states of a quasi-monochromatic mode, representing a pulsed Gaussian beam. Atmospheric turbulence induces random distortions of the pulse shape and, consequently, random fluctuations of the transmittance through the receiver aperture. These fluctuations, characterized by the probability distribution of transmittance (PDT), directly affect the quantum state of the received light. In this paper we examine various analytical models of the PDT, validate them through numerical simulations, and assess their range of applicability. Furthermore, we extend the analysis beyond the standard ensemble-averaging approach, recognizing that realistic experiments typically involve time averaging. This requires a detailed examination of the underlying random process, including the study of temporal correlations and their impact on nonclassical properties of electromagnetic radiation.         ",
+    "url": "https://arxiv.org/abs/2509.06022",
+    "authors": [
+      "A. A. Semenov",
+      "M. Klen",
+      "I. Pechonkin"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
