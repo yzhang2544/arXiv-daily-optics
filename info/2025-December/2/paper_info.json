@@ -1,0 +1,913 @@
+[
+  {
+    "id": "arXiv:2512.00141",
+    "title": "High schoolers excel at Oxford quantum course using pictorial mathematics",
+    "abstract": "           We are at the dawn of the second quantum revolution, where our ability to create and control individual quantum systems is poised to drive transformative advancements in basic science, computation, and everyday life. However, quantum theory has long been conceived as notoriously hard to learn, creating a significant barrier to workforce development, informed decision-making by stakeholders and policymakers, and broader public understanding. This paper is concerned with Quantum Picturalism, a novel visual mathematical language for quantum physics. Originally developed over two decades ago to explore the foundational structure of quantum theory, this rigorous diagrammatic framework has since been adopted in both academia and industry as a powerful tool for quantum computing research and software development. Here, we demonstrate its potential as a transformative educational methodology. We report the findings from a pilot study involving 54 UK high school students, randomly selected from a pool of 734 volunteers across the UK. Despite the absence of advanced mathematical prerequisites, these students demonstrated a strong conceptual grasp of key quantum principles and operations. On an assessment comprising university graduate-level exam questions, participants achieved an 82% pass rate, with 48% obtaining a distinction-level grade. These results pave the way for making quantum more inclusive, lowering traditional cognitive and demographic barriers to quantum learning. This approach has the potential to broaden participation in the field and provide a promising new entry point for stakeholders, future experts, and the general public.         ",
+    "url": "https://arxiv.org/abs/2512.00141",
+    "authors": [
+      "Bob Coecke",
+      "Aleks Kissinger",
+      "Stefano Gogioso",
+      "Selma D\u00fcndar-Coecke",
+      "Caterina Puca",
+      "Lia Yeh",
+      "Muhammad Hamza Waseem",
+      "Emmanuel M. Pothos",
+      "Sieglinde Pfaendler",
+      "Vincent Wang-Mascianica",
+      "Thomas Cervoni",
+      "Ferdi Tomassini",
+      "Vincent Anandraj",
+      "Peter Sigrist",
+      "Ilyas Khan"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Logic in Computer Science (cs.LO)",
+      "Category Theory (math.CT)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00419",
+    "title": "Hardware-aware Lightweight Photonic Spiking Neural Network for Pattern Classification",
+    "abstract": "           There exists a significant scale gap between photonic neural network integrated chips and neural networks, which hinders the deployment and application of photonic neural network. Here, we propose hardware-aware lightweight spiking neural networks (SNNs) architecture tailored to our photonic neuromorphic chips, and conducts hardware-software collaborative computing for solving patter classification tasks. Here, we employed a simplified Mach-Zehnder interferometer (MZI) mesh for performing linear computation, and 16-channel distributed feedback lasers with saturable absorber (DFB-SA) array for performing nonlinear spike activation. Both photonic neuromorphic chips based on the MZI mesh and DFB-SA array were designed, optimized and fabricated. Furthermore, we propose a lightweight spiking neural network (SNN) with discrete cosine transform to reduce input dimension and match the input/output ports number of the photonic neuromorphic chips. We demonstrated an end-to-end inference of an entire layer of the lightweight photonic SNN. The hardware-software collaborative inference accuracy is 90% and 80.5% for MNIST and Fashion-MNIST datasets, respectively. The energy efficiency is 1.39 TOPS/W for the MZI mesh, and is 987.65 GOPS/W for the DFB-SA array. The lightweight architecture and experimental demonstration address the challenge of scale mismatch between the photonic chip and SNN, paving the way for the hardware deployment of photonic SNNs.         ",
+    "url": "https://arxiv.org/abs/2512.00419",
+    "authors": [
+      "Shuiying Xiang",
+      "Yahui Zhang",
+      "Shangxuan Shi",
+      "Haowen Zhao",
+      "Dianzhuang Zheng",
+      "Xingxing Guo",
+      "Yanan Han",
+      "Ye Tian",
+      "Liyue Zhang",
+      "Yuechun Shi",
+      "Yue Hao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00731",
+    "title": "New record in optical gain and room-temperature nanolasers in multiple wavelengths in 2D ErOCl single crystals",
+    "abstract": "           Erbium-based materials have long been recognized for their important telecom-band applications, yet their widespread adoption in integrated optoelectronics has been hindered by two fundamental limitations: the difficulty in achieving high erbium density without concentration quenching which leads to small optical gain in doped materials, and the difficulty in fabricating a practical device with single crystal nanowires that demonstrated high optical gain previously1,2. Here, we overcome these limitations by synthesizing 2D single crystal ErOCl that has an Er density of 1.75*1022 cm-3. The high-quality single crystal material significantly reduces the density-related quenching effect that dominates in randomly doped materials with high Er concentration. This results in a record optical gain coefficient over 1500 dB/cm at 1536 nm band, at least larger by an order of magnitude than the previous gain record in Er materials. Leveraging this exceptional gain medium, we demonstrate room-temperature continuous-wave lasing operation by integrating with a photonic crystal microcavity, achieving a record-low threshold of 7 {\\mu}W with the most compact size of any Er-based lasers. Furthermore, the unique Stark splitting characteristics of ErOCl provide optical gain in three wavelength bands and lead to lasing in these wavelengths by engineering the cavity. This is the first time that optical gain has been shown in three different wavelength bands in Er materials, together with the smallest size of laser cavity, could have many important applications in on-chip sensing and optical communication.         ",
+    "url": "https://arxiv.org/abs/2512.00731",
+    "authors": [
+      "Shipeng Yao",
+      "Hao Sun",
+      "Zhang Liang",
+      "Zhen Wang",
+      "Lin Gan",
+      "Jinhua Wu",
+      "Zhangyu Hou",
+      "Cun-Zheng Ning"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00781",
+    "title": "Photonic chip-based Reconfigurable Radar Compound Jamming Signal Generator",
+    "abstract": "           Microwave photonics (MWP) serves as a powerful bridge between the radio-frequency and optical worlds, unlocking unprecedented bandwidth and speed for critical information systems. Recently, MWP-based radar jamming has demonstrated significant potential in overcoming electronic bottlenecks; however, existing solutions rely heavily on bulky discrete components and generate deterministic symmetric waveforms that are vulnerable to advanced counter-countermeasures. Here, we break this status quo by demonstrating the first monolithic photonic chip-based reconfigurable radar compound jamming signal generator. Implemented on a compact 25 mm2 silicon photonic footprint, our system features high integration and electrical reconfigurability, supporting agile switching among four distinct jamming modes. Crucially, we introduce a composite jamming mechanism that exploits time-frequency coupling to break the inherent symmetry of traditional deceptive jamming, generating controllable asymmetric false-target clusters. The on-chip system exhibits an operating bandwidth exceeding 20 GHz and is capable of generating over 20 high-fidelity false targets simultaneously. This work establishes a fully functional platform combining broad bandwidth, multi-mode flexibility, and asymmetric deception, paving the way for miniaturized, intelligent photonic solutions in next-generation electronic warfare.         ",
+    "url": "https://arxiv.org/abs/2512.00781",
+    "authors": [
+      "Senyu Zhang",
+      "Wei Luo",
+      "Shuang Zheng",
+      "Yunlong Li",
+      "Yiqiang Ou",
+      "Qi Tian",
+      "Yifei Chong",
+      "Zihang Yang",
+      "Li Shen",
+      "Minming Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00806",
+    "title": "Entropy-Driven Sensor Deployment and Source Detection in Hypergraphs",
+    "abstract": "           Identifying the diffusion source in complex networks is critical for understanding and controlling epidemic spread. In realistic settings, full observation of node states is rarely available, making sensor-based source detection a practical alternative. However, existing sensor-based methods are often confined to simple networks, failing to capture the higher-order group dynamics of real-world spreading process. By deploying a limited number of sensors to monitor the diffusion process, one can infer the origin from partial observations. Yet, determining optimal sensor placement is challenging, i.e., poor deployment leads to redundant or noisy data, while optimal placement must balance coverage diversity and information value under limited resources. To address these challenges, we propose a dedicated framework termed Sensor-based Source Detection in Hypergraphs (SSDH). Specifically, we introduce a novel entropy-driven sensor deployment strategy that effectively captures critical early-stage diffusion signals by maximizing information gain under limited resources. Furthermore, we develop a source localization algorithm that quantifies propagation uncertainty through a newly defined path uncertainty-based score. By integrating this score with topological distance, SSDH enables accurate and robust source identification. Extensive experiments on both synthetic and empirical hypergraphs demonstrate that SSDH consistently outperforms competing algorithms by 5%--30% across different sensor ratios, final spreading ratios, and infection probabilities. These results validate the effectiveness of SSDH and highlight its superior capability to tackle source localization in complex systems characterized by higher-order interactions.         ",
+    "url": "https://arxiv.org/abs/2512.00806",
+    "authors": [
+      "Qiao Ke",
+      "Chengjun Zhang",
+      "Chuang Liu",
+      "Mingxia Jing",
+      "Suoyi Tan",
+      "Xiu-Xiu Zhan"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00954",
+    "title": "A C-band microwave rectenna using aperture-coupled antenna array and novel Class-F rectifier with cavity",
+    "abstract": "           A rectenna (rectifying antenna) is usually applied to a microwave power transmission (MPT) system as a terminal, which receives microwave (MW) power and converts them into DC power. A 5.8 GHz aperture-coupled patch antenna array is developed with a gain of 19.5 dBi, which is a part of the rectenna. A novel Class-F rectifier with a series diode is proposed to achieve a high rectifying efficiency based on harmonic termination techniques. The input circuit of the proposed rectifier is taken into consideration to reach the Class-F condition, while mostly only the output circuit is involved in conventional Class-F designs. A low-pass filter based on defected ground structure is implemented, which not only blocks the harmonics produced in rectifying but also presents desired impedance at harmonics. The current and voltage waveforms on the diode are well enforced. The radiation feature of the rectifier is presented as well. It shows that an optimized cavity, which shields the parasite radiation, may achieve a 5% enhancement on the MW-to-DC conversion efficiency. A C-band rectifier based on HSMS-286 Schottky diode is fabricated and measured. A MPT simple demo system is constructed with the proposed rectifier and antenna. A measured maximum MW-to-DC conversion efficiency of 72% is achieved on the rectifier. The design method is extremely valuable in a high conversion efficiency rectenna design based on harmonic termination techniques.         ",
+    "url": "https://arxiv.org/abs/2512.00954",
+    "authors": [
+      "C Yu",
+      "F Tan",
+      "C Liu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00981",
+    "title": "Decomposition of the total wave aberration in generalized optical systems",
+    "abstract": "           The increasing use of freeform optical surfaces raises the demand for optical design tools developed for generalized systems. In the design process surface-by-surface aberration contributions are of special interest. The expansion of the wave aberration function into field and pupil dependent coefficients is an analytical method used for that purpose. An alternative numerical approach utilizing data from the trace of multiple ray sets is proposed. The optical system is divided into segments of the optical path measured along the chief ray. Each segment covers one surface and the distance to the subsequent surface. Surface contributions represent the change of the wavefront that occurs due to propagation through individual segments. Further, the surface contributions are divided with respect to their phenomenological origin into intrinsic, induced and transfer components. Each component is determined from a separate set of rays. The proposed method does not place any constraints on the system geometry or the aperture shape. However, here we concentrate on near-circular apertures and specify the resulting wavefront error maps using an expansion into Zernike polynomials. Hence, for the first time additive surface Zernike contributions are obtained.         ",
+    "url": "https://arxiv.org/abs/2512.00981",
+    "authors": [
+      "Mateusz Oleszko",
+      "Ralf Hambach",
+      "Herbert Gross"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01110",
+    "title": "Sub-second A-scan Acquisition Using Marginal Spectral-Domain Quantum Optical Coherence Tomography",
+    "abstract": "           We report an optimized implementation of spectral-domain quantum optical coherence tomography (SD-QOCT) capable of acquiring axial scans (A-scans) of multilayer samples without in the absence of mechanical scanning, at an unprecedented speed. We demonstrate a proof-of-concept system that integrates a diffraction grating, a high-resolution intensified CCD camera, and a high-flux photon-pair source operating in the VIS-NIR region (810 nm). This configuration enables the acquisition of an entire marginal SD-QOCT interferogram in a single camera exposure, yielding a transverse A-scan with a record acquisition time of 100 ms and a penetration depth of 4 mm. The measured interferometric response shows excellent agreement with the theoretical model. These results represent a decisive step toward the practical deployment of SD-QOCT as a competitive imaging modality for biomedical applications.         ",
+    "url": "https://arxiv.org/abs/2512.01110",
+    "authors": [
+      "P. D. Yepiz-Graciano",
+      "D. Salamanca-Rold\u00e1n",
+      "H. Cruz-Ram\u00edrez",
+      "A. B. U'Ren",
+      "R. Ram\u00edrez-Alarc\u00f3n"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01120",
+    "title": "Variational quantum algorithm for anion exchange across electrolyzer membrane",
+    "abstract": "           We present a variational quantum algorithm that solves the one-dimensional diffusion problem with a space-dependent diffusion constant $D(x)$. This problem is relevant for the exchange of hydroxide ions across a multi-layer membrane in an alkaline electrolyzer. We use $16$ to $64$ grid points across the membrane, resulting from $n=4$ to $6$ data qubits for the ideal quantum simulations that are based on the Qiskit software. For these qubit numbers, the depth of the parametric quantum circuit has been chosen to ensure sufficient expressibility. The state preparation requires particular attention since the diffusivity $D$ is piecewise constant in the different layers with discontinuities at the interface. Furthermore, we compare different classical optimization schemes with respect to their convergence in the VQA method. We demonstrate the applicability of the quantum algorithm to a problem with non-trivial boundary conditions and jump conditions of the diffusion constant and outline possible extensions of the proof-of-concept application case of quantum computing.         ",
+    "url": "https://arxiv.org/abs/2512.01120",
+    "authors": [
+      "Timur Gubaev",
+      "Philipp Pfeffer",
+      "Christian Dre\u00dfler",
+      "J\u00f6rg Schumacher"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01180",
+    "title": "Metasurface Holography on a Relative-Phase Manifold for Stable and High Fidelity Tweezer-Array Generation",
+    "abstract": "           We present a new holographic approach for generating large scale, polarization resolved optical tweezer arrays. By analyzing the ideal Jones fields that realize a target pattern, we identify that the fundamental degrees of freedom are the relative phases of the individual tweezers, rather than the full spatial phase profile. Leveraging this insight, we formulate a reverse projection optimization that adjusts only a small set of phase parameters to approximate the ideal operator within the physical constraints of a metasurface. This produces significantly higher fidelity and robustness than Gerchberg_Saxton type algorithms. Experimentally, we demonstrate H, V, L, and R polarized tweezer arrays using a single layer metasurface. A key advantage of our method is its phase stability, yielding strong resistance to optical aberrations and enabling coherent global phase modulation such as forming vortex tweezer lattice, without degrading trap quality. This framework provides a conceptually clear and experimentally powerful route for scalable optical field synthesis.         ",
+    "url": "https://arxiv.org/abs/2512.01180",
+    "authors": [
+      "Yichen Zhu",
+      "Zifeng Li",
+      "Xiaopeng Li",
+      "Jiacheng Sun",
+      "Baichuan Yang",
+      "Yi Cui",
+      "Tao Li"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01215",
+    "title": "Near-field perturbation of laser filament enabling simultaneous far-field THz diagnosis and broadband calculus processing",
+    "abstract": "           Terahertz (THz) wave manipulation based on laser filaments-plasma channels formed by femtosecond laser-induced air ionization-has emerged as a promising platform for free-space THz applications. However, in-situ characterization of the spatially confined THz modes within filaments faces significant challenges due to the plasma's ultra-high intensity, which not only hinders direct near-field probing but also limits reliance on indirect far-field reconstruction. Here, we introduce a non-invasive near-field modulation scheme where a metal plate approaches the filament at submillimeter distances (comparable to THz wavelengths), perturbing the dielectric environment to convert the symmetric annular THz mode into an asymmetric state. This controlled transition enables far-field detection of broadband calculus behaviors (first- and second-order differentiation/integration) on time-domain THz waveforms and characteristic spectral transfer functions with 1/f, 1/f^2, f or f^2 dependency (where f is the THz frequency), thereby diagnosing the near-field THz mode confinement. Hence, the proposed approach synergizes near-field modulation efficiency with far-field detection robustness, advancing fundamental understanding of plasma-THz interactions and enabling novel all-optical signal processing for filament-based THz technologies.         ",
+    "url": "https://arxiv.org/abs/2512.01215",
+    "authors": [
+      "Jiayu Zhao",
+      "Yifu Tian",
+      "Linlin Yuan",
+      "Jiajun Yang",
+      "Xiaofeng Li",
+      "Li Lao",
+      "Alexander Shkurinov",
+      "Yan Peng",
+      "Yiming Zhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01399",
+    "title": "Modeling high-order harmonic generation in quantum dots using a real-space tight-binding approach",
+    "abstract": "           Recently, the size-dependence of high-order harmonic generation (HHG) in quantum dots has been investigated experimentally. In particular, for longer driving wavelengths and QDs smaller than 3\\,nm, HHG was strongly suppressed, however, there is no computational model capable of describing the strong-field response of such systems. In this work, we introduce a computationally efficient three-dimensional real-space tight-binding model specifically designed for the simulation of HHG in confined systems. The model parameters are meticulously derived from density functional theory (DFT) calculations for the semiconductor bulk, followed by a process of Wannierization. Our findings demonstrate that the proposed model accurately captures the observed dependency of the HHG yield on the quantum dot size. Additionally, we simulate the HHG yield for elliptically polarized pulses for different QD-sizes and driving wavelengths up to $5\\,\\mu{\\mathrm{m}}$. The herein proposed model fills the theoretical void in simulating HHG within medium-sized nanostructures, which cannot be described by methods applied for periodic solids or small molecules or atoms.         ",
+    "url": "https://arxiv.org/abs/2512.01399",
+    "authors": [
+      "Martin Th\u00fcmmler",
+      "Alexander Croy",
+      "Ulf Peschel",
+      "Stefanie Gr\u00e4fe"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01416",
+    "title": "Acoustic helical dichroism enhanced by chiral quasi-bound states in the continuum",
+    "abstract": "           Acoustic helical dichroism (HD) arises from the interaction between vortex beams carrying orbital angular momentum (OAM) and chiral media, yet such chiral sound-matter interactions are typically weak. Here, we employ quasi-bound states in the continuum (QBICs) in acoustic meta-cavities composed of coupled Helmholtz resonators to enhance acoustic HD. We design both achiral and chiral meta-cavities that support QBICs in the form of vortex states with high Q-factors. Using full-wave numerical simulations, we show that the QBICs in the achiral meta-cavities cannot enhance acoustic HD due to the absence of a chiral wavefront. In contrast, the chiral meta-cavity exhibits a pronounced HD enhancement through the QBICs with a 3D helical wavefront, which can be excited by incident waves either with or without OAM. Our work identifies two essential requirements for enhancing acoustic HD effect via QBICs: a high Q-factor of the states and 3D chirality of the state fields, which usually compromise each other in conventional acoustic resonators. The findings open new avenues for achieving strong chiral sound-matter interactions, with potential applications in acoustic chiral sensing and acoustic OAM manipulation.         ",
+    "url": "https://arxiv.org/abs/2512.01416",
+    "authors": [
+      "Qing Tong",
+      "Tong Fu",
+      "Yuqiong Cheng",
+      "Shubo Wang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01417",
+    "title": "Active Force Dynamics in Red Blood Cells Under Non-Invasive Optical Tweezers",
+    "abstract": "           Red blood cells (RBCs) sustain mechanical stresses associated with microcirculatory flow through ATP-driven plasma membrane flickering. This is an active phenomenon driven by motor proteins that regulate interactions between the spectrin cytoskeleton and the lipid bilayer; it is manifested in RBC shape fluctuations reflecting the cell's mechanical and metabolic state. Yet, direct quantification of the forces and energetic costs underlying this non-equilibrium behavior remains challenging due to the invasiveness of existing techniques. Here, a minimally invasive method that combines bead-free, low-power optical tweezers with high-speed video microscopy was employed to track local membrane forces and displacements in single RBCs during the same time window. This independent dual-channel measurement enabled the construction of a mechano-dynamic phase space for RBCs under different chemical treatments, that allowed for differentiating between metabolic and structural states based on their fluctuation-force signatures. Quantification of mechanical work during flickering demonstrated that membrane softening enhanced fluctuations while elevating energy dissipation. The proposed optical tweezers methodology provides a robust framework for mapping the active mechanics of living cells, enabling precise probing of cellular physiology and detection of biomechanical dysfunction in diseases.         ",
+    "url": "https://arxiv.org/abs/2512.01417",
+    "authors": [
+      "Arnau Dorn",
+      "Clara Luque-Rioja",
+      "Macarena Calero",
+      "Diego Herr\u00e1ez-Aguilar",
+      "Francisco Monroy",
+      "Niccol\u00f2 Caselli"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Biomolecules (q-bio.BM)",
+      "Cell Behavior (q-bio.CB)",
+      "Subcellular Processes (q-bio.SC)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01441",
+    "title": "Effects of thermal annealing and film thickness on the structural and optical properties of indium-tin-oxide thin films",
+    "abstract": "           Indium-tin oxide (ITO) has been leveraged as a crucial functional layer in the optoelectronic frameworks, such as non-volatile color display thin films based on the ITO/phase-change material (PCM)/ITO/reflective metal multilayer structures on a silicon substrate. In addition to non-volatile color tuning by PCMs, phase transition of ITO may pose a substantial impact on display performances. Yet, a comprehensive colormap of ITO thin films as functions of annealing temperature and film thickness is missing. In this work, we systematically investigate properties of ITO films based on X-ray diffraction, spectroscopic ellipsometry and ultraviolet-visible spectrophotometry measurements. We provide a colormap of the ITO/platinum/silicon structure in terms of the annealing temperature (150-350 \u00b0C) and thickness (5-100 nm) for the non-volatile color display, and we observe strong color changes under 250 \u00b0C annealing treatment for the 50-nm and 100-nm-thick ITO films. We suggest that the intrinsic change in colors of the ITO functional thin-film layers should also be taken into account, when the PCM-based reconfigurable color devices are used in practice.         ",
+    "url": "https://arxiv.org/abs/2512.01441",
+    "authors": [
+      "Ding Xu",
+      "Wen Zhou",
+      "Yuxin Du",
+      "Junying Zhang",
+      "Wei Zhang",
+      "Jiangjing Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01449",
+    "title": "A new dual RF sensor in gas detection and humidity influence",
+    "abstract": "           In this paper, we propose to study the influence of moisture on passive radiofrequency (RF) sensors associated with poly (3,4-ethylenedioxythiophene) polystyrene sulfonate - multi walled carbon nanotubes (PEDOT:PSS-MWCNT) as a sensitive material. The designed sensor consists of a copper ring resonator and two PEDOT:PSS-MWCNT stubs located in the maximum electric fields of the fundamental resonant mode operating at 3.94 GHz. For performing a differential analysis, experiments are conducted by considering the resonant structure with and without a sensitive layer. Our experiments show the high interference of humidity on the sensor's performances and highlight the importance of differential study to decorrelate physical and chemical surrounding parameters. This differential innovative structure paves the way for a very high sensitive passive RF sensor dedicated for gas sensing.         ",
+    "url": "https://arxiv.org/abs/2512.01449",
+    "authors": [
+      "Julien George",
+      "Hamida Hallil",
+      "Corinne Dejous",
+      "Eric Cloutet",
+      "Aur\u00e9lien Perigaud",
+      "St\u00e9phane Bila",
+      "Dominique Baillargeat"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01619",
+    "title": "An Open-Path Eddy-Covariance Laser Spectrometer for Simultaneous Monitoring of CO$_2$, CH$_4$, and H$_2$O",
+    "abstract": "           We present E-CAHORS $-$ a compact mid-infrared open-path diode-laser spectrometer designed for the simultaneous measurement of carbon dioxide, methane, and water vapor concentrations in the near-surface atmospheric layer. These measurements, combined with simultaneous data from a three-dimensional anemometer, can be used to determine fluxes using the eddy-covariance method. The instrument utilizes two interband cascade lasers operating at 2.78 $\\mu$m and 3.24 $\\mu$m within a novel four-pass M-shaped optical cell, which provides high signal power and long-term field operation without requiring active air sampling. Two detection techniques $-$ tunable diode laser absorption spectroscopy (TDLAS) and a simplified wavelength modulation spectroscopy (sWMS) $-$ were implemented and evaluated. Laboratory calibration demonstrated linear responses for all gases (R$^2$ $\\approx$ 0.999) and detection precisions at 10 Hz of 311 ppb for CO$_2$, 8.87 ppb for CH$_4$, and 788 ppb for H$_2$O. Field tests conducted at a grassland site near Moscow showed strong correlations (R = 0.91 for CO$_2$ and H$_2$O, R = 0.67 for CH$_4$) with commercial LI-COR LI-7200 and LI-7700 analyzers. The TDLAS mode demonstrated lower noise and greater stability under outdoor conditions, while sWMS provided baseline-free spectra but was more sensitive to power fluctuations. E-CAHORS combines high precision, multi-species sensing capability with low power consumption (10 W) and a compact design (4.2 kg).         ",
+    "url": "https://arxiv.org/abs/2512.01619",
+    "authors": [
+      "Viacheslav Meshcherinov",
+      "Iskander Gazizov",
+      "Bogdan Pravuk",
+      "Viktor Kazakov",
+      "Sergei Zenevich",
+      "Maxim Spiridonov",
+      "Shamil Gazizov",
+      "Gennady Suvorov",
+      "Olga Kuricheva",
+      "Yuri Lebedev",
+      "Imant Vinogradov",
+      "Alexander Rodin"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01624",
+    "title": "A Platform for Evanescently Trapping Rb-87 Using Silicon Nitride Strip Waveguides Buried in Silica",
+    "abstract": "           Cold-atom systems have emerged as a highly promising avenue for quantum-enhanced position, navigation, and timing applications. However, their wider adoption is currently hampered in part by the large footprint of the systems. In leveraging the miniaturisation possible through photonic integrated circuits, cold-atom sensors would be able to reach much wider commercial adoption. In this paper, we introduce a platform for evanescently trapping 87Rb using strip silicon nitride waveguides buried in silica using red- and blue-detuned fundamental and higher-order modes, providing a three-dimensional adjustable trap for BEC-based, chip-scale work in quantum science and technologies.         ",
+    "url": "https://arxiv.org/abs/2512.01624",
+    "authors": [
+      "Sam Harding",
+      "Carrie Weidner"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01700",
+    "title": "Approaching the Low Optical Loss Limit of Plasmonics using Potassium Metals",
+    "abstract": "           Plasmonics enables the miniaturization of photonic devices beyond the optical diffraction limit,yet its potential is hindered by inherently large ohmic losses. Hence, it is prudent to explore low loss alternatives to the current mainstay of plasmonics-the noble metals. In this work, we demonstrate the potential of potassium as a plasmonic material with intrinsically low losses in the optical region. The ultraflat, high quality potassium film, fabricated via a rapid slipping-assisted oxide-free crystallization process, achieves an experimentally observed optical damping rate of 3.7 meV,with a measured imaginary permittivity of approximately 0.1 across the entire visible to near-infrared range (400-2000 nm). Near field optical spectroscopic measurements further confirmed the reduced losses by revealing deeply subwavelength confinement of optical modes. This result enhances our understanding of the factors governing plasmonic materials and devices and establishes a new platform for exploring extreme light-matter interactions in a variety of plasmonic systems.         ",
+    "url": "https://arxiv.org/abs/2512.01700",
+    "authors": [
+      "Yuhan Yang",
+      "Yi Zhang",
+      "Yuhong Shi",
+      "PengCheng Yao",
+      "Hanyu Fu",
+      "Jacob B. Khurgin",
+      "Fengrui Hu",
+      "Jia Zhu",
+      "Shining Zhu",
+      "Lin Zhou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01704",
+    "title": "Optical modulation of Gate-Induced Electron Trapping via Persistent Photoconductivity in STO/Al Heterostructures",
+    "abstract": "           The dynamic interplay between light and electric field control of charge states lies at the heart of developing multifunctional optoelectronic devices. While persistent photoconductivity (PPC) and gate-voltage (VG)-induced electron trapping are well-known phenomena in oxide heterostructures, their mutual coupling remains poorly explored. Here, we report that the non-equilibrium state established by PPC can effectively modulate the efficacy of VG-induced electron trapping in a STO/Al heterostructure. The PPC, characterized by a slow relaxation (8.5 hours at 4 K) after sub-illumination, originates from the re-trapping of photoexcited carriers into deep-level states. In contrast, VG-induced trapping, governed by shallow states, exhibits much faster dynamics ({100 - 400 s). Crucially, we discover that the strength of VG-induced trapping is not constant but is dynamically modulated by the PPC relaxation process. The trapping amplitude is strongly amplified after illumination and recovers only after the deep-level states are substantially refilled, precisely following the PPC relaxation time constant. Furthermore, the electron trapping effect diminishes with increasing temperature and vanishes near the ferroelastic phase transition of STO (110 K), confirming that ferroelastic twin walls and associated oxygen vacancy clusters are the physical origin of the traps. Our findings reveal a novel optical gating mechanism for electron trapping, paving the way for designing non-volatile, optically programmable electronic devices.         ",
+    "url": "https://arxiv.org/abs/2512.01704",
+    "authors": [
+      "Peiwen Luo",
+      "Huizhong Zeng",
+      "Bin Peng",
+      "Wanli Zhang",
+      "Wenxu Zhang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01737",
+    "title": "Injection and Acceleration of Electrons by Radially Polarized Laser Pulses in a Plasma Channel",
+    "abstract": "           We consider injection and subsequent acceleration of electrons in narrow plasma channels irradiated by linearly and radially polarized ultraintense laser pulses. Using three-dimensional particle-in-cell simulations, we show that radially polarized beams significantly promote electron release from the channel walls and lead to enhanced injection. We compare an f/10 linearly polarized laser beam with two radially polarized cases: one focused more tightly (f/5) to match peak intensity, and one at equal f/10 to capture polarization effects. The radially polarized f/10 case injects approximately one-third more charge than the linearly polarized case, while the f/5 radially polarized case outperforms the linearly polarized one by about a factor of two in terms of maximum electron energy. These results highlight polarization and focusing geometry as key parameters for optimizing laser-driven electron acceleration setups.         ",
+    "url": "https://arxiv.org/abs/2512.01737",
+    "authors": [
+      "P. Hadjisolomou",
+      "P. Valenta",
+      "R. Shaisultanov",
+      "T. M. Jeong",
+      "D. Gorlova",
+      "C. P. Ridgers",
+      "S. V. Bulanov"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01749",
+    "title": "Buoy observation of high frequency ocean wave energy: accuracy, consistency, and concerns for predictive applications",
+    "abstract": "           Observational data from buoys are of primary importance during the development, calibration, and evaluation of ocean wave models, and these data are also used to make real-time corrections to operational models via data assimilation. By association, systematic inaccuracies in any buoy data are equally important, and thus when two buoy types provide systematically inconsistent information, this is a concern for anyone using an ocean wave model. This report is concerned with the accuracy of the high frequency portion of the ocean wave spectrum commonly observable by buoys, roughly 0.2 to 0.6 Hz. We evaluate four buoy types (two moored, two drifting) using two quantitative measures. The first involves comparing each type with a co-located ocean wave model. The second method involves evaluation of high frequency energy level as a function of wind speed. Both evaluation methods suggest that the Datawell Waverider (DWR) buoys have a strong tendency to report higher energy levels than the other three buoy types. We evaluate high frequency energy level using three different metrics (mean square slope, energy in a band of high frequencies, and spectral density at a single, specific band, 0.4 Hz), and the conclusions are found to be insensitive to the parameter used.         ",
+    "url": "https://arxiv.org/abs/2512.01749",
+    "authors": [
+      "W. Erick Rogers"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01762",
+    "title": "Characterization of cutting-edge CMOS Active Pixel sensors within the CYGNO Experiment",
+    "abstract": "           Time Projection Chambers equipped with Gas Electron Multipliers and optical readout by scientific CMOS cameras are a promising technology for low-energy particle detection, as demonstrated by the CYGNO experiment. To help identify the optimal CYGNO detector configuration, we performed a detailed characterization of two state-of-the-art scientific CMOS sensors, focusing on dark-signal behavior across different exposure times and on detection sensitivity, assessed using the well-defined X-ray emissions from a 55Fe source, which reproduce the low-light conditions expected in CYGNO. CYGNO currently employs a very low-noise Hamamatsu sensor, the ORCA-Fusion, for testing and validation of its detection system. Hamamatsu has recently introduced two new sensors that may be of interest for future upgrades. The first is an improved version of the current model, the ORCA-Fusion-BT, featuring a back-illuminated design that reaches a quantum efficiency of up to 95% at 550 nm. The second is a next-generation sensor, the ORCA-Quest. Although its peak quantum efficiency is not as high as that of the Fusion-BT, it offers high sensitivity over a broader spectral range, extending into the ultraviolet region, and provides ultra-low readout noise of 0.27 electrons, about 2.6 times lower than that of the Fusion family. These two sensors therefore represent a significant opportunity to enhance the performance of scientific experiments, including those conducted by the CYGNO collaboration. This document presents a comprehensive characterization of these sensors to evaluate their relevance for experiments operating in photon-limited environments and their suitability for integration into the CYGNO detector system.         ",
+    "url": "https://arxiv.org/abs/2512.01762",
+    "authors": [
+      "B.D. Almeida",
+      "F.D. Amaro",
+      "R. Antonietti",
+      "E. Baracchini",
+      "L. Benussi",
+      "S. Bianco",
+      "C. Capoccia",
+      "M. Caponero",
+      "L.G.M. de Carvalho",
+      "G. Cavoto",
+      "I.A. Costa",
+      "A. Croce",
+      "M. D'Astolfo",
+      "G. D'Imperio",
+      "E. Dane",
+      "G. Dho",
+      "E. Di Marco",
+      "J.M.F. Dos Santos",
+      "D. Fiorina",
+      "F. Iacoangeli",
+      "Z. Islam",
+      "E. Kemp",
+      "H.P. Lima Jr.",
+      "G. Maccarrone",
+      "R.D.P. Mano",
+      "D.J.G. Marques",
+      "G. Mazzitelli",
+      "P. Meloni",
+      "A. Messina",
+      "C.M.B. Monteiro",
+      "R.A. Nobrega",
+      "I.F. Pains",
+      "E. Paoletti",
+      "F. Petrucci",
+      "S. Piacentini",
+      "D. Pierluigi",
+      "D. Pinci",
+      "F. Renga",
+      "R.J.C. Roque",
+      "A. Russo",
+      "G. Saviano",
+      "P.A.O.C. Silva",
+      "N.J. Spooner",
+      "R. Tesauro",
+      "S. Tomassini",
+      "D. Tozzi"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01825",
+    "title": "Simultaneous optical and multi-band terahertz imaging using an atomic quantum sensor",
+    "abstract": "           We demonstrate simultaneous imaging at 0.549 THz and 1.012 THz with an optical overlay using a two-species atomic-vapour-based technique. The atomic vapour, comprising laser-pumped rubidium and caesium atoms contained within the same cell, is used to convert two narrowband terahertz signals to optical frequencies which can then be detected using standard CMOS sensors. We use the system to image and perform spectral analysis of material samples. As atomic vapour is optically transparent, by using optically-transparent terahertz lenses, we can achieve simultaneous optical imaging, allowing for potential integration of terahertz sensitivity into a range of optical imaging devices.         ",
+    "url": "https://arxiv.org/abs/2512.01825",
+    "authors": [
+      "Andrew Rae MacKellar",
+      "C. Stuart Adams",
+      "Kevin J. Weatherill"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01972",
+    "title": "Laser Structured Optical Interposer for Ultra-dense Vertical Coupling of Multi-core Fibers to Silicon Photonic Chip",
+    "abstract": "           Femtosecond laser writing in glass was harnessed to fabricate photonic circuits comprised of waveguides, micro-mirrors, and fiber sockets, in an optical interposer chip. The compact design enabled ultra-dense routing of 40 optical channels from six multi-core fibers, in a two-layer array, vertically coupling onto a 2D grid of silicon photonic grating couplers. Various photonic circuit designs were explored and tested, achieving an average single-pass insertion loss of 5.0 dB for the fully packaged system, with a minimum loss of 3.2 dB. The reasonably low loss and low-profile, compact package make such interposers an attractive option for densifying interconnects to address bottlenecks in optical networks, datacenters, and optical computing applications.         ",
+    "url": "https://arxiv.org/abs/2512.01972",
+    "authors": [
+      "Gligor Djogo",
+      "Amir Rahimnouri",
+      "Peter R Herman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00132",
+    "title": "An Operational Quantum Information Framework for Experimental Studies on Color Perception",
+    "abstract": "           Starting from the foundational axiomatization of the perceptual color space initiated by Schr\u00f6dinger in 1920 and eventually refined by Resnikoff in 1974, Berthier, Provenzi and their collaborators have recently proposed a reformulation of perceptual color attributes within the framework of quantum information. Their work is based on the Jordan algebra formalism of quantum theories and, more specifically, on a quantum system described by a spin factor over the field of real numbers. This theoretical framework is not that of ordinary quantum mechanics, mainly because it requires dealing with rebits, whereas the latter uses qubits. The aim of this paper is to show that this difference in no way hinders the implementation of experimental protocols for testing the validity of the predictions of the color perception model. In particular, we show how to compute the quantum information based perceptual attributes of perceived colors in terms of qubit density matrices.         ",
+    "url": "https://arxiv.org/abs/2512.00132",
+    "authors": [
+      "Roberto Leporini",
+      "Edoardo Provenzi",
+      "Michel Berthier"
+    ],
+    "subjectives": [
+      "Neurons and Cognition (q-bio.NC)",
+      "Mathematical Physics (math-ph)",
+      "Physics and Society (physics.soc-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00252",
+    "title": "DAISI: Data Assimilation with Inverse Sampling using Stochastic Interpolants",
+    "abstract": "           Data assimilation (DA) is a cornerstone of scientific and engineering applications, combining model forecasts with sparse and noisy observations to estimate latent system states. Classical DA methods, such as the ensemble Kalman filter, rely on Gaussian approximations and heuristic tuning (e.g., inflation and localization) to scale to high dimensions. While often successful, these approximations can make the methods unstable or inaccurate when the underlying distributions of states and observations depart significantly from Gaussianity. To address this limitation, we introduce DAISI, a scalable filtering algorithm built on flow-based generative models that enables flexible probabilistic inference using data-driven priors. The core idea is to use a stationary, pre-trained generative prior to assimilate observations via guidance-based conditional sampling while incorporating forecast information through a novel inverse-sampling step. This step maps the forecast ensemble into a latent space to provide initial conditions for the conditional sampling, allowing us to encode model dynamics into the DA pipeline without having to retrain or fine-tune the generative prior at each assimilation step. Experiments on challenging nonlinear systems show that DAISI achieves accurate filtering results in regimes with sparse, noisy, and nonlinear observations where traditional methods struggle.         ",
+    "url": "https://arxiv.org/abs/2512.00252",
+    "authors": [
+      "Martin Andrae",
+      "Erik Larsson",
+      "So Takao",
+      "Tomas Landelius",
+      "Fredrik Lindsten"
+    ],
+    "subjectives": [
+      "Machine Learning (stat.ML)",
+      "Machine Learning (cs.LG)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00282",
+    "title": "Multi-Mode Quantum Memories for High-Throughput Satellite Entanglement Distribution",
+    "abstract": "           Quantum networking seeks to enable global entanglement distribution through terrestrial and free space channels; however, the exponential loss in these channels necessitates quantum repeaters with efficient, long lived quantum memories (QMs). Space based architectures, particularly satellite assisted links, offer a path to truly global connectivity, yet they demand QMs that are compatible with orbital factors such as infrared radiation and the unique challenges of operating aboard a satellite. In this work, we propose a multimode quantum memory (MMQM) for low Earth orbit (LEO) repeaters based on the atomic frequency comb (AFC) protocol. Our design integrates a hybrid alkali noble gas ensemble in an optical cavity, using alkali atoms for strong photon matter coupling and noble gas nuclear spins for minutes to hours coherence, all without the need for cryogenics. The architecture natively supports temporal and spectral multiplexing, enabling the storage of 100 modes to parallelize probabilistic operations and overcome light limited round trip times. Representative link budgets at $h = 500$ km with realistic apertures, $\\eta_{\\text{mem}}\\gtrsim 70%$, and $t_{\\text{buffer}}$ of several minutes predict improvements of up to two orders of magnitude in per pass success probability and instantaneous SKR relative to a memoryless dual downlink, with clear scaling in $N$. Our contributions are (i) a non cryogenic, space ready multimode memory, (ii) a systems analysis coupling mode count, storage time, and orbital geometry to achievable rate, and (iii) a near term implementation roadmap. Together, these results indicate feasibility with current to near term technology and provide a practical path toward a high rate, space enabled quantum internet.         ",
+    "url": "https://arxiv.org/abs/2512.00282",
+    "authors": [
+      "Connor Casey",
+      "Albert Williams",
+      "Catherine McCaffrey",
+      "Eugene Rotherham",
+      "Nathan Darby"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00427",
+    "title": "Hardware-Software Collaborative Computing of Photonic Spiking Reinforcement Learning for Robotic Continuous Control",
+    "abstract": "           Robotic continuous control tasks impose stringent demands on the energy efficiency and latency of computing architectures due to their high-dimensional state spaces and real-time interaction requirements. Conventional electronic computing platforms face computational bottlenecks, whereas the fusion of photonic computing and spiking reinforcement learning (RL) offers a promising alternative. Here, we propose a novel computing architecture based on photonic spiking RL, which integrates the Twin Delayed Deep Deterministic policy gradient (TD3) algorithm with spiking neural network (SNN). The proposed architecture employs an optical-electronic hybrid computing paradigm wherein a silicon photonic Mach-Zehnder interferometer (MZI) chip executes linear matrix computations, while nonlinear spiking activations are performed in the electronic domain. Experimental validation on the Pendulum-v1 and HalfCheetah-v2 benchmarks demonstrates the system capability for software-hardware co-inference, achieving a control policy reward of 5831 on HalfCheetah-v2, a 23.33% reduction in convergence steps, and an action deviation below 2.2%. Notably, this work represents the first application of a programmable MZI photonic computing chip to robotic continuous control tasks, attaining an energy efficiency of 1.39 TOPS/W and an ultralow computational latency of 120 ps. Such performance underscores the promise of photonic spiking RL for real-time decision-making in autonomous and industrial robotic systems.         ",
+    "url": "https://arxiv.org/abs/2512.00427",
+    "authors": [
+      "Mengting Yu",
+      "Shuiying Xiang",
+      "Changjian Xie",
+      "Yonghang Chen",
+      "Haowen Zhao",
+      "Xingxing Guo",
+      "Yahui Zhang",
+      "Yanan Han",
+      "Yue Hao"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00634",
+    "title": "Resonant states and nuclear dynamics in solid-state systems: the case of silicon-hydrogen bond dissociation",
+    "abstract": "           Bond breaking in the presence of highly energetic carriers is central to many important phenomena in physics and chemistry, including radiation damage, hot-carrier degradation, activation of dopant-hydrogen complexes in semiconductors, and photocatalysis. Describing these processes from first principles has remained an elusive goal. Here we introduce a comprehensive theoretical framework for the dissociation process, emphasizing the need for a non-adiabatic approach. We benchmark the results for the case of silicon-hydrogen bond dissocation, a primary process for hot-carrier degradation. Passivation of Si dangling bonds by hydrogen is vital in all Si devices because it eliminates electrically active mid-gap states; understanding the mechanism for dissociation of these bonds is therefore crucial for device technology. While the need for a non-adiabatic approach has been previously recognized, explicitly obtaining diabatic states for solid-state systems has been an outstanding challenge. We demonstrate how to obtain these states by applying a partitioning scheme to the Hamiltonian obtained from first-principles density functional theory. Our results demonstrate that bond dissociation can occur when electrons temporarily occupy the antibonding states, generating a highly repulsive excited-state potential that causes the hydrogen nuclear wavepacket to shift and propagate rapidly. Based on the Menzel-Gomer-Redhead (MGR) model, we show that after moving on this excited-state potential on femtosecond timescales, a portion of the nuclear wavepacket can continue to propagate even after the system relaxes back to the ground state, allowing us to determine the dissociation probability. Our results provide essential insights into the fundamental processes that drive carrier-induced bond breaking in general, and specifically elucidate hydrogen-related degradation in Si devices.         ",
+    "url": "https://arxiv.org/abs/2512.00634",
+    "authors": [
+      "Woncheol Lee",
+      "Mark E. Turiansky",
+      "Dominic Waldh\u00f6r",
+      "Byounghak Lee",
+      "Tibor Grasser",
+      "Chris G. Van de Walle"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00959",
+    "title": "Fundamental Advances in Short-Circuit Measurement: A Novel Time-Resolved Diode-Clamp Circuit Paradigm",
+    "abstract": "           Conventional electrical fault models, which rely on static thresholds and instantaneous trip mechanisms, fail to capture the time-evolving dynamics of real faults, creating vulnerabilities in modern power systems. This paper introduces a diode-clamp circuit architecture that reconceives short-circuits as governed, sustained processes and establishes a physics-consistent, measurement system. An Arduino-based data acquisition system recorded continuous fault evolution across multiple input voltages and durations. Multi-resolution sampling at 10ms, 50ms, and 100ms enabled high-fidelity capture of both transients and sustained-state dynamics. The clamped mechanism constrained the circuit to a bounded regime, enabling repeatable observation. Experiments yielded definitive, measurable minima and maxima for voltage, current, and resistance, empirically refuting the classical assumption of instantaneous, unbounded current. Newly introduced metrics quantify this performance: the Sustained-to-Capacitive Energy Ratio (SCER ~1.53x10^12) proves fault energy originates from sustained dynamics, not transient discharge. The Sustained Fault Efficiency (SFE>1) demonstrates that governed fault power can exceed nominal operating power. This work provides the first fully validated short-circuit quantification system, yielding empirical data for next-generation battery management, adaptive grid protection, and fault-tolerant electronics.         ",
+    "url": "https://arxiv.org/abs/2512.00959",
+    "authors": [
+      "Alex Mwololo Kimuya",
+      "Dickson Mwenda Kinyua"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00987",
+    "title": "Exact quantum dynamics of Fermi--Hubbard systems using the Gaussian phase-space representation with diffusion gauges",
+    "abstract": "           We use the Gaussian Phase-Space Representation to solve the real-time dynamic of interacting fermions in 1D, 2D, and 3D systems. The method is exact up to a spiking point, which represents a limit on the practical simulation time. The spiking can be delayed, and the practical simulation time extended, by adjusting the gauges of the representation, resulting in different equivalent stochastic differential equations. Here, we work on the so-called diffusion gauge and propose an algorithm to find efficiently new implementations of the noise terms. Compared with our initial results [F. Rousse \\textit{et al.} 2024, J. Phys. A: Math. Theor. \\textbf{57}, 015303], the new method achieves a significantly longer practical simulation time and can be applied to significantly larger systems.         ",
+    "url": "https://arxiv.org/abs/2512.00987",
+    "authors": [
+      "F Rousse",
+      "M Fasi",
+      "A Dmytryshyn",
+      "M Gulliksson",
+      "J F Corney",
+      "M Ogren"
+    ],
+    "subjectives": [
+      "Mathematical Physics (math-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01125",
+    "title": "Quantum magnetic imaging of current density in lithium-ion batteries",
+    "abstract": "           The projected rapid growth of battery cell production over the next decade demands advanced diagnostic tools for quality control, ageing prediction, and recycling. Most existing techniques lack the spatial and temporal resolution required to capture internal electrochemical processes non-invasively. Here, we present magnetic imaging of current densities in battery cells, a sensitive quantum-magnetometry method that uses optically pumped magnetometers (OPMs) to perform real-time imaging of internal dynamics in open-circuit configuration. We demonstrate this approach for monitoring relaxation processes in 6000 mA h lithium-ion cells following pulsed discharges across a range of pulse durations and currents as well as states of charge. The measurement results are benchmarked against superconducting-quantum-interference-device (SQUID) magnetometry and validated with three-dimensional finite element simulations. Equivalent circuit models are employed to interpret the relaxation profiles, revealing spatially resolved features and transient magnetic-field signatures that are inaccessible with complementary non-invasive techniques such as electrochemical impedance spectroscopy (EIS). This work establishes OPM-based magnetic imaging of battery current density as a powerful diagnostic tool with potential impact on cell development, manufacturing quality assurance, and second-life assessment.         ",
+    "url": "https://arxiv.org/abs/2512.01125",
+    "authors": [
+      "W. Evans",
+      "T. Coussens",
+      "M. T. M. Woodley",
+      "A. M. Fabricant",
+      "G. D. Kendall",
+      "M. Sonnet",
+      "D. Wasylowski",
+      "D. U. Sauer",
+      "F. Oru\u010devi\u0107",
+      "P. Kr\u00fcger"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01263",
+    "title": "Inductive van der Waals Force between Two Quantum Loops",
+    "abstract": "           We study the van der Waals-London force, which is typically associated with fluctuating dipoles in atoms, in a mesoscopic circuit consisting of two inductively coupled superconducting loops. We investigate the ``inductive\" van der Waals-London interaction using both semiclassical and quantum electrodynamic (QED) approaches. The semiclassical model predicts a repulsive interaction due to anticorrelated current fluctuations. In contrast, the QED framework, which incorporates virtual photon exchange, reveals a predominantly attractive force. A key contribution comes from a state-independent two-photon exchange, which is absent in the semiclassical description and undetectable by spectroscopy. Our study introduces a new experimental platform for measuring the van der Waals force between individual artificial atoms via controlled mesoscopic circuits.         ",
+    "url": "https://arxiv.org/abs/2512.01263",
+    "authors": [
+      "Kicheon Kang"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01671",
+    "title": "Formal equivalence between Maxwell equations and the de Broglie-Bohm theory for two-dimensional optical microcavities",
+    "abstract": "           We analyze the formal equivalence between the electromagnetic energy conservation law derived from Maxwell's equations in an optical microcavity and the conservation of a probability fluid associated with the de Broglie-Bohm theory for an effective massive particle describing a photon in this cavity. This work is part of a critical analysis of recent experiments [Nature \\textbf{643}, 67-72 (2025)] carried out with a view to refuting the de Broglie-Bohm theory. Furthermore, the consequences of our analysis for microphotonics go far beyond these experiments. In particular, extensions that take into account photon spin and stochastic aspects associated with radiative or absorption losses are considered.         ",
+    "url": "https://arxiv.org/abs/2512.01671",
+    "authors": [
+      "Aur\u00e9lien Drezet",
+      "Bernard Michael Nabet"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01777",
+    "title": "Macroscopic Quantum Resonators Path Finder (MAQRO-PF) White Paper",
+    "abstract": "           Optically levitated particles are used in a wide range of experiments to explore both fundamental physics and to act as sensors to a variety of external forces. One field of particular interest that these particles can be used to investigate is quantum mechanics. Previous research has yet to set an absolute upper bound on the size of objects that can be prepared in a quantum superposition. Exploring this limit involves allowing ever-larger objects to freely and coherently evolve to assess if their behaviour matches quantum or classical theoretical predictions. However, the long free evolution times required for these behaviours to be visible result in the experiments being gravitationally limited. Space based platforms therefore become the next key step in these investigations. In this white paper, we shall discuss our proposal for an optical levitation experiment in space that will explore the fundamental upper size limits of quantum mechanics. We shall cover the scientific motivation behind these investigations, then summarize the current status of our designs for the satellite. We will then review the aspects of the payload that require further development, then summarize the current estimates of the payload's requirements.         ",
+    "url": "https://arxiv.org/abs/2512.01777",
+    "authors": [
+      "Jack Homans",
+      "Laura da Palma Barbara",
+      "Jakub Wardak",
+      "Elliot Simcox",
+      "Tim M. Fuchs",
+      "Hendrik Ulbricht"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.01982",
+    "title": "A Heptalemma for Quantum Mechanics",
+    "abstract": "           We present a seven-pronged no-go result for quantum mechanics: a \"heptalemma\". It shows that seven initially plausible theses about physical reality are jointly inconsistent with the predictions of quantum mechanics, while any six are jointly consistent. We must then decide which theses to retain and which to give up. Since different interpretations of quantum mechanics entail different responses to the heptalemma, we get a novel taxonomy of such interpretations. Beyond the application to quantum mechanics, the heptalemma offers a general diagnostic criterion for determining whether a given scientific domain should count as classical or not, and if not, how it departs from classicality.         ",
+    "url": "https://arxiv.org/abs/2512.01982",
+    "authors": [
+      "John B. DeBrota",
+      "Christian List"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.01175",
+    "title": "Phase Matching Free Sensing with Undetected Light Using a Nonlinear Thin-Film Metasurface",
+    "abstract": "           In this article, we report classical sensing with undetected light using octave spanning stimulated four-wave mixing from a plasmonic metasurface. The bidirectional nonlinear scattering due to inherent reflections from such thin nonlinear materials modifies their operation within a nonlinear interferometer. The theoretical model for visibility accounting for such bidirectionality as well as pulsed illumination accurately predicts visibility in the system as a function of transmission in the near-infrared seed (idler) arm. Spectrally resolving the visible signal emission evaluates the total dispersion within the interferometer, highlighting the prospect of ultrafast sensing with undetected photons.         ",
+    "url": "https://arxiv.org/abs/2506.01175",
+    "authors": [
+      "Toby Severs Millard",
+      "Nathan Gemmell",
+      "Ross C. Schofield",
+      "Mohsen Rahmani",
+      "Alex S. Clark",
+      "Chris C. Phillips",
+      "Rupert F. Oulton"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.08609",
+    "title": "Optimizing Aperture Geometry in THz-TDS for Accurate Spectroscopy of Quantum Materials",
+    "abstract": "           Terahertz time-domain spectroscopy (THz-TDS) provides a powerful platform for investigating low-energy excitations in quantum materials. Because these materials are often limited in size, experimental setups typically rely on tightly focused beams and metallic holders with small apertures. In this work, we perform a systematic study of how aperture geometry influences THz signal transmission in a standard free-space configuration. By analyzing time- and frequency-domain data for circular apertures of varying diameters and thicknesses, we quantify the spatial and spectral filtering effects imposed by aperture size. We show that small apertures progressively attenuate low-frequency components of the transmitted signal, while higher-frequency content remains comparatively unaffected. These effects become especially significant for apertures smaller than typical THz beam waists, resulting in amplitude suppression and phase distortions that compromise the accuracy of frequency-domain analysis and optical parameter retrieval. To validate these observations, additional measurements were performed on a representative quantum material, confirming the practical relevance of the identified aperture effects. The transmitted intensity as a function of aperture diameter also provides a straightforward method for estimating the beam waist at the focus. In contrast, standard aperture thicknesses do not introduce measurable distortions, confirming the adequacy of treating thick, non-resonant apertures as dielectric slabs. These findings establish practical guidelines for aperture selection in THz-TDS and underscore the importance of preserving low-frequency response for reliable characterization of quantum materials.         ",
+    "url": "https://arxiv.org/abs/2507.08609",
+    "authors": [
+      "Laura O. Dias",
+      "Eduardo D. Stefanato",
+      "Nicolas M. Kawahala",
+      "Felix G. G. Hernandez"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.11704",
+    "title": "Heralded Emission Detection in InAs/ZnSe Quantum Dot Solids Using Time-Correlated Photons",
+    "abstract": "           Harnessing quantum correlations between photons is an emerging frontier in optical spectroscopy, yet experimental demonstrations have largely remained limited to molecular systems at room temperature. Here, we investigate heralded emission detection (HED) under continuous-wave entangled-photon excitation of near-infrared (NIR)-emitting colloidal III-V quantum dot (QD) solids at low temperatures. We demonstrate the advantages of superconducting nanowire single-photon detectors (SNSPDs) for high time resolution ($\\sim$72 ps) and large-area NIR avalanche photodiodes (APDs) for high emission count rates ($\\sim$2000 cps). Second-order photon-correlation analysis reveals exciton lifetimes and fine-structure energy splittings. These results establish NIR colloidal QDs as a bright, tunable model system for quantum-light spectroscopy and highlight their compatibility with optical cavities as a further experimental control parameter.         ",
+    "url": "https://arxiv.org/abs/2509.11704",
+    "authors": [
+      "Chieh Tsao",
+      "Xiang Li",
+      "Alex Hinkle",
+      "Yifan Chen",
+      "Elvar Oskarsson",
+      "Uri Banin",
+      "Hendrik Utzat"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.16000",
+    "title": "Frequency domain laser ultrasound microscopy for nanometric layer thickness imaging with GHz elastic plate resonances",
+    "abstract": "           Nanometric layer thickness imaging is crucial for fundamental research and characterization of micro fabricated devices. Here, we assess the potential of a non-contact opto-acoustic frequency domain laser ultrasound (FreDomLUS) microscopy technique for imaging nanometric thickness variations via GHz zero-group velocity (ZGV) elastic plate resonances. The method exploits the ZGV's lateral energy confinement that leads to sharp resonance peaks which can be effectively probed with the FreDomLUS technique at GHz acoustic frequencies. For demonstration purposes we introduced sub-10 nm height variation patterns in the topmost layer of solidly mounted bulk-acoustic wave resonators with a design frequency of around 1.7 GHz. They are raster-scanned to retrieve ZGV-frequencies from local acoustic spectra as a contrast quantity for imaging. We show how to retrieve quantitative height information by numerically calibrating the factor which inversely relates ZGV frequency change with the layer thickness change. Height variations in stacks with nominal thickness changes of 8 nm, 4 nm, and 1 nm can be resolved and indicate sub-nanometer depth resolution capabilities. The lateral resolution is studied by measuring the method's step edge function and it is found to be in the micrometer range. Atomic force microscopy imaging is used to validate the results.         ",
+    "url": "https://arxiv.org/abs/2510.16000",
+    "authors": [
+      "Martin Ryzy",
+      "Guqi Yan",
+      "Istv\u00e1n Veres",
+      "Thomas Berer",
+      "Ivan Ali\u0107",
+      "Clemens Gr\u00fcnsteidl",
+      "Georg Watzl",
+      "Georg Gramse",
+      "Susanne Kreuzer"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.27662",
+    "title": "Towards a mobile quantitative phase imaging microscope with smartphone phase-detection sensors",
+    "abstract": "           Quantitative phase imaging (QPI) enables visualization and quantitative extraction of the optical phase information of transparent samples. However, conventional QPI techniques typically rely on multi-frame acquisition or complex interferometric optics. In this work, we introduce Quad-Pixel Phase Gradient Imaging ($QP^{2}GI$), a single-shot quantitative phase imaging method based on a commercial quad-pixel phase detection autofocus (PDAF) sensor, where each microlens on the sensor covers a $2\\times2$ pixel group. The phase gradients of the sample induce focal spot displacements under each microlens, which lead to intensity imbalances among the four pixels. By deriving the phase gradients of the sample from these imbalances, $QP^{2}GI$ reconstructs quantitative phase maps of the sample from a single exposure. We establish a light-propagation model to describe this process and evaluate its performance in a customized microscopic system. Experiments demonstrate that quantitative phase maps of microbeads and biological specimens can be reconstructed from a single acquisition, while low-coherence illumination improves robustness by suppressing coherence-related noise. These results reveal the potential of quad-pixel PDAF sensors as cost-effective platforms for single-frame QPI.         ",
+    "url": "https://arxiv.org/abs/2510.27662",
+    "authors": [
+      "Xiangjiang Bao",
+      "Zheng-da Hu",
+      "Lucas Kreiss",
+      "Josh Lerner",
+      "Roarke Horstmeyer"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.11274",
+    "title": "Polarization-Sensitive Module for Optical Coherence Tomography Instruments",
+    "abstract": "           Polarization-sensitive optical coherence tomography (PS-OCT) extends OCT by analyzing the polarization states of backscattered light to quantify tissue birefringence. However, conventional implementations require polarization-diverse detection and are therefore incompatible with most commercial OCT systems. As a result, PS-OCT has largely remained restricted to specialized research groups, limiting its broader scientific and clinical use. Here, we present a modular PS-OCT framework that integrates with a standard spectral-domain OCT platform through a detachable rotating achromatic half-wave plate in the sample arm. This waveplate modulates both incident and reflected polarization states. Three or more repeated measurements at distinct waveplate orientations enable reconstruction of the sample's round-trip Jones matrix and the corresponding polarization properties. To mitigate random phase variations between repeated measurements, we introduce a retarder-constrained phase optimization strategy. We validate the framework with imaging of birefringent phantoms and the human retina in vivo, demonstrating reliable reconstruction of retardance and optic axis orientation. This approach requires only minimal hardware modification and is readily deployable on mainstream OCT systems. Lowering technical barriers paves the way for rapid and widespread deployment of PS-OCT across diverse biomedical applications in both research and clinical environments.         ",
+    "url": "https://arxiv.org/abs/2511.11274",
+    "authors": [
+      "Po-Yi Lee",
+      "Chuan-Bor Chueh",
+      "Milen Shishkov",
+      "Tai-Ang Wang",
+      "Hsiang-Chieh Lee",
+      "Teresa Chen",
+      "Brett E. Bouma",
+      "Martin Villiger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.09593",
+    "title": "Monte Carlo approach for finding optimally controlled quantum gates with differential geometry",
+    "abstract": "           A unitary evolution in time may be treated as a curve in the manifold of the special unitary group. The length of such a curve can be related to the energetic cost of the associated computation, meaning a geodesic curve identifies an energetically optimal path. In this work, we employ sub-Riemannian geometry on the manifold of the unitary group to obtain optimally designed Hamiltonians for generating single-qubit gates in an environment with the presence of dephasing noise as well as a two-qubit gate under a time-constant crosstalk interaction. The resulting geodesic equation involves knowing the initial conditions of the parameters that cannot be obtained analytically. We then introduce a random sampling method combined with a minimization function and a cost function to find initial conditions that lead to optimal control fields. We also compare the optimized control fields obtained from the solutions of the geodesic equation with those extracted from the well-known Krotov method. Both approaches provide high fidelity values for the desired quantum gate implementation, but the geodesic method has the advantage of minimizing the required energy to execute the same task. These findings bring new insights for the design of more efficient fields in the arsenal of optimal control theory.         ",
+    "url": "https://arxiv.org/abs/2503.09593",
+    "authors": [
+      "Adonai Hil\u00e1rio da Silva",
+      "Leonardo Kleber Castelano",
+      "Reginaldo de Jesus Napolitano"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.04865",
+    "title": "Multiresonator quantum memory with atomic ensembles",
+    "abstract": "           The theory of multiresonator quantum memory with atomic ensembles has been developed. Using the obtained analytical solutions, the basic physical properties of such memory are analyzed and optimal conditions for its implementation are determined. Advantages of this quantum memory and its experimental implementation in integrated optical schemes are discussed.         ",
+    "url": "https://arxiv.org/abs/2507.04865",
+    "authors": [
+      "S.A.Moiseev"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.15519",
+    "title": "Correlating on-the-fly Electrical and Optical Skyrmion Readout",
+    "abstract": "           Magnetic skyrmions, topologically stabilized spin textures, are promising candidates for future memory devices and non-conventional computing applications due to their enhanced stability, non-linear interactions, and low-power manipulation capabilities. Despite their significant potential, the reliable electrical readout of individual skyrmions remains a fundamental challenge. While magnetic tunnel junctions and anomalous Hall effect (AHE)-based techniques have demonstrated skyrmion detection capabilities, they currently fail to reliably detect single moving skyrmions as required for applications. Our approach leverages thermally activated skyrmions, where a low constant drive current simultaneously generates both skyrmion motion and the Hall voltage necessary for detection. We demonstrate the reliability of this method through real-time correlation between measured Hall voltage signals and direct Kerr microscopy imaging. Two consecutive Hall crosses allow for determining the skyrmion velocity, in accordance to Kerr microscopy videos. We present an analytical formula for the skyrmion AHE readout signal, demonstrating scalability from micrometer to nanometer skyrmions. These advances establish a robust platform for skyrmion-based sensors, counters and unconventional computing systems that depend on precise individual skyrmion control and detection.         ",
+    "url": "https://arxiv.org/abs/2508.15519",
+    "authors": [
+      "Grischa Beneke",
+      "Kilian Leutner",
+      "Nikhil Vijayan",
+      "Fabian Kammerbauer",
+      "Duc Minh Tran",
+      "Sachin Krishnia",
+      "Johannes G\u00fcttinger",
+      "Armin Satz",
+      "Robert Fr\u00f6mter",
+      "Mathias Kl\u00e4ui"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.04859",
+    "title": "Global-to-local image quality assessment in optical microscopy via fast and robust deep learning predictions",
+    "abstract": "           Optical microscopy is one of the most widely used techniques in research studies for life sciences and biomedicine. These applications require reliable experimental pipelines to extract valuable knowledge from the measured samples and must be supported by image quality assessment (IQA) to ensure correct processing and analysis of the image data. IQA methods are implemented with variable complexity. However, while most quality metrics have a straightforward implementation, they might be time consuming and computationally expensive when evaluating a large dataset. In addition, quality metrics are often designed for well-defined image features and may be unstable for images out of the ideal domain. To overcome these limitations, recent works have proposed deep learning-based IQA methods, which can provide superior performance, increased generalizability and fast prediction. Our method, named $\\mathrm{\\mu}$DeepIQA, is inspired by previous studies and applies a deep convolutional neural network designed for IQA on natural images to optical microscopy measurements. We retrained the same architecture to predict individual quality metrics and global quality scores for optical microscopy data. The resulting models provide fast and stable predictions of image quality by generalizing quality estimation even outside the ideal range of standard methods. In addition, $\\mathrm{\\mu}$DeepIQA provides patch-wise prediction of image quality and can be used to visualize spatially varying quality in a single image. Our study demonstrates that optical microscopy-based studies can benefit from the generalizability of deep learning models due to their stable performance in the presence of outliers, the ability to assess small image patches, and rapid predictions.         ",
+    "url": "https://arxiv.org/abs/2510.04859",
+    "authors": [
+      "Elena Corbetta",
+      "Thomas Bocklitz"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Quantitative Methods (q-bio.QM)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.06403",
+    "title": "Exploring Replica Symmetry Breaking and Topological Collapse in Spin Glasses with Quantum Annealing",
+    "abstract": "           Replica symmetry breaking (RSB) underlies the complex organization of disordered systems, yet quantitative validation beyond $N \\sim 100$ spins has remained computationally challenging. We use quantum annealing to access ground states of the Sherrington-Kirkpatrick model up to $N = 4000$ spins, enabling the most extensive test of Parisi's Nobel Prize-winning RSB solution to date. Five independent observables confirm RSB predictions: ground-state energies converge to Parisi's value with characteristic $N^{-2/3}$ corrections, energy fluctuations scale as $N^{-3/4}$ ($\\gamma = 0.739 \\pm 0.036$), the chaos exponent $\\theta = 0.51 \\pm 0.02$ ($R^2 = 0.989$) confirms mean-field universality, the overlap distribution exhibits hierarchical structure ($\\sigma_q = 0.19$), and the complexity remains invariant under 36\\% network dilution. Beyond a critical threshold $0.8 < D_c < 0.9$, the hierarchy collapses discontinuously through a cooperative avalanche that converts the entire system to vacancies within a narrow parameter window $\\Delta D = 0.1$. These findings establish quantum computation as a tool for probing emergent many-body phenomena and uncover the topological foundations of complexity in disordered systems, with implications for neural networks, optimization, and materials science.         ",
+    "url": "https://arxiv.org/abs/2511.06403",
+    "authors": [
+      "Kumar Ghosh"
+    ],
+    "subjectives": [
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.14782",
+    "title": "A synchronization-free one-way ranging observable for detecting and characterizing coherent orbital-period systematics in GRACE-FO laser ranging data",
+    "abstract": "           We present a synchronization-free differential observable for one-way inter-satellite laser ranging, designed to suppress first-order Doppler effects without requiring clock synchronization between spacecraft. The observable is constructed from successive pulse-interval differences, which isolate time-varying signatures while eliminating static and slowly varying biases. Applied to GRACE-FO Laser Ranging Interferometer (LRI) Level-1B data over four seasonal epochs in 2019, the method reveals a stable, spectrally narrow modulation at the orbital frequency. The amplitude and phase of the detected signature remain consistent across all datasets, demonstrating a deterministic, mission-internal origin. The detection is independently confirmed through synthetic-signal injection, shuffle-based significance testing, and cross-comparison with K-band ranging data. These results show that the proposed observable provides a sensitive diagnostic for identifying coherent orbital-period systematics that may remain hidden in conventional range-rate analysis. The method offers a pathway toward improved characterization of instrument and dynamical effects in current and future satellite gravity missions.         ",
+    "url": "https://arxiv.org/abs/2511.14782",
+    "authors": [
+      "S. H. Wassegh"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  }
+]
