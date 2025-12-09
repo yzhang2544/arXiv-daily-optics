@@ -1,0 +1,322 @@
+[
+  {
+    "id": "arXiv:2512.05174",
+    "title": "Quantum open system description of a hybrid plasmonic cavity",
+    "abstract": "           We present a unified quantum open system framework for lossy plasmonic cavities in which coherent dynamics, relaxation, dephasing, and irreversible absorption are treated on equal footing. The Dyson equation for the cavity photon propagator in the random-phase approximation yields a complex self-energy S that accounts for both the renormalization and the damping of hybrid plasmon-photon modes (polaritons, in a quasi-particle description). Tracing out the electronic and photonic environments leads to a Liouvillian for the upper (UP) and lower (LP) polaritonic branches, incorporating leakage through the imaginary part of the self-energy, internal UP-LP scattering rates, and dephasing. Time evolution equations for polariton populations, interbranch coherence, and driven amplitudes in closed form also provide analytic expressions for their steady-state values, the quench rate of UP-LP oscillations and polaritonic lineshapes, valid in the limit of low polaritonic density, but covering light-matter ultrastrong coupling. The theory establishes a self-consistent description of dissipative polariton dynamics in plasmonic and nanophotonic cavities, directly applicable to response spectra, time-domain measurements, and dissipation engineering.         ",
+    "url": "https://arxiv.org/abs/2512.05174",
+    "authors": [
+      "Marco Vallone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05181",
+    "title": "Development of a Modular ODMR Setup for Optical Experiments in a Variable Temperature Insert",
+    "abstract": "           We developed an optically detected magnetic resonance (ODMR) setup designed for compatibility with a widely used, commercially available helium bath cryostat equipped with a variable temperature insert. The optical path extends nearly two meters, spanning the full length of the cryostat insert, enabling excitation of the nitrogen-vacancy (NV) centers and detection of the resulting fluorescence from outside the cryostat. The setup preserves optical alignment and beam quality along this extended path allowing integration into existing cryogenic systems without significant modifications. We demonstrate the setup's performance by measuring the temperature dependence of the resonance signal and its behavior under small applied magnetic fields, as well as the magnetic transition of a SrRuO$_3$ sample, thereby showcasing the feasibility of NV magnetometry on a sample in constrained cryogenic environments.         ",
+    "url": "https://arxiv.org/abs/2512.05181",
+    "authors": [
+      "Anh Tong",
+      "Andreas Bauer",
+      "Markus Kleinhans",
+      "James S. Schilling",
+      "Christian H. Back",
+      "Karl D. Briegel",
+      "Fabian A. Freire-Moschovitis",
+      "Dominik B. Bucher",
+      "Christian Pfleiderer"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Strongly Correlated Electrons (cond-mat.str-el)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05413",
+    "title": "Microwave electrometry with quantum-limited resolutions in a Rydberg atom array",
+    "abstract": "           Microwave (MW) field sensing is foundational to modern technology, yet its evolution, reliant on classical antennas, is constrained by fundamental physical limits on field, temporal, and spatial resolutions. Here, we demonstrate an MW electrometry that simultaneously surpasses these constraints by using individual Rydberg atoms in an optical tweezer array as coherent sensors. This approach achieves a field sensitivity within 13% of the standard quantum limit, a response time that exceeds the Chu limit by more than 11 orders of magnitude, and in-situ near-field mapping with {\\lambda}/3000 spatial resolution. This work establishes Rydberg-atom arrays as a powerful platform that unites quantum-limited sensitivity, nanosecond-scale response time, and sub-micrometer resolution, opening new avenues in quantum metrology and precision electromagnetic field imaging.         ",
+    "url": "https://arxiv.org/abs/2512.05413",
+    "authors": [
+      "Yao-Wen Zhang",
+      "De-Sheng Xiang",
+      "Ren Liao",
+      "Hao-Xiang Liu",
+      "Biao Xu",
+      "Peng Zhou",
+      "Yijia Zhou",
+      "Kuan Zhang",
+      "Lin Li"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05532",
+    "title": "CryoDE: a Digital Cryogenic Detector Emulator for Microwave SQUID Multiplexed Systems",
+    "abstract": "           Simultaneous readout of large-scale cryogenic detector arrays relies on multiplexing schemes such as the FDM (Frequency-Division Multiplexing) with microwave SQUID multiplexers and highly customized readout electronics. In traditional detector systems, where mixed-signal ASICs are used in detector front-ends and typically provide a digital interface, HIL (Hardware-in-the-Loop) testing can be readily implemented by reusing the existing digital logic of the front-end for emulation purposes. Such straightforward emulation is not possible for FDM low-temperature detectors, where the sensor signal is encoded in a high-frequency microwave carrier via a two-stage modulation scheme depending on the cryogenic resonators and the SQUID response. To address this challenge, we present CryoDE, a digital cryogenic-detector emulator for microwave SQUID multiplexed detector systems. CryoDE generates the encoded detector signals, including realistic pulse responses, enabling full HIL testing of the room-temperature DAQ system without requiring the cryogenic hardware. This resource-efficient FPGA-based detector twin integrates seamlessly into existing DAQ systems and allows experiment-specific adjustment of detector-signal parameters. We describe the internal architecture and capabilities of CryoDE within our custom HIL framework and demonstrate its use in evaluating the performance of real-time signal processing firmware optimized for different microwave SQUID multiplexed cryogenic-detector experiments.         ",
+    "url": "https://arxiv.org/abs/2512.05532",
+    "authors": [
+      "Timo Muscheid",
+      "Daniel Crovo",
+      "Robert Gartmann",
+      "Eduardo Gerlein",
+      "Oliver Sander",
+      "Sebastian Kempf",
+      "Luis E. Ardila-Perez"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05541",
+    "title": "How to measure laser chirp rate at single-emitter excitation energies",
+    "abstract": "           We present a simple and direct method for measuring laser chirp rate, i.e., group delay dispersion (GDD) of ultrashort laser pulses at power levels compatible with single-quantum-emitter excitation. Traditional pulse characterization techniques rely on nonlinear optical processes that require high peak powers, making them unsuitable for the attojoule-to-femtojoule regime relevant to quantum photonics. Our approach utilizes a wavelength-to-time mapping method in which the arrival times of spectrally filtered components of a broadband pulse are recorded using a superconducting nanowire single-photon detector and correlated via a high-resolution time-tagging system. The resulting linear relationship between wavelength and arrival time directly yields the dispersion parameter and, subsequently, the GDD. Beyond single-emitter excitation, this technique can be applied in areas such as single-photon spectroscopy, ultralow-power optical communications, and time-domain quantum control, where linear and non-destructive dispersion characterization is essential.         ",
+    "url": "https://arxiv.org/abs/2512.05541",
+    "authors": [
+      "Timoth\u00e9e Mounier",
+      "Moritz Kaiser",
+      "Mert Tuncel",
+      "Iker Avila Arenas",
+      "Ren\u00e9 Schwarz",
+      "Ria G. Kr\u00e4mer",
+      "Stefan Nolte",
+      "Florian Kappe",
+      "Yusuf Karli",
+      "Gregor Weihs",
+      "Vikas Remesh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05697",
+    "title": "Measurement and assignment of E-symmetry states in the 6010-6110 cm$^{-1}$ and 8940-9150 cm$^{-1}$ ranges of methane using optical frequency comb double-resonance spectroscopy",
+    "abstract": "           We use sub-Doppler optical-optical double-resonance (OODR) spectroscopy with a 3.3 ${\\mu}$m single-frequency pump and a cavity-enhanced 1.65 ${\\mu}$m comb probe to measure 33 ladder-type (3${\\nu}$${_3}$ ${\\leftarrow}$ ${\\nu}$${_3}$) and 8 V-type (2${\\nu}$${_3}$) transitions in the 5880-6090 cm$^{-1}$ range of methane, reaching states with rotational E symmetry in the region of the P6 and P4 polyads, respectively. We assign the ladder-type transitions using new Hamiltonian predictions and the ExoMol line list, and the V-type transitions using the new Hamiltonian, ExoMol, HITRAN2020, and the WKLMC line lists. While 7 of the states in the 3${\\nu}$${_3}$ range have been previously observed either in earlier OODR work (without cavity enhancement) with 1.5 MHz accuracy or in FTIR measurements of cold bands with 150 MHz resolution, the states reported here have uncertainties down to 150 kHz (5 $\\times$ 10$^{-6}$ cm$^{-1}$). The E-symmetry states exhibit first-order Stark splitting, which will be reported in our future work.         ",
+    "url": "https://arxiv.org/abs/2512.05697",
+    "authors": [
+      "Adrian Hj\u00e4lt\u00e9n",
+      "Vinicius Silva de Oliveira",
+      "Michael Rey",
+      "Isak Silander",
+      "Kevin K. Lehmann",
+      "Aleksandra Foltynowicz"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05741",
+    "title": "On the role of nuclear quantum effects on the stability of peptides",
+    "abstract": "           Nuclear quantum effects (NQEs) arising from the light mass of hydrogen can influence the structure and stability of hydrogen-bonded biomolecules, yet their role in determining peptide and protein folding remains unclear. Experiments show that substituting H$_2$O with D$_2$O often stabilizes folded states, but the microscopic mechanism associated with this phenomena remains unresolved. Through ab initio-level path-integral molecular dynamics simulations enabled by machine-learning interatomic potentials, we address the fundamental question of the role of NQEs in peptides by investigating both their overall impact and isotope substitution effects. Overall, NQEs systematically destabilize compact three-dimensional structures across peptide systems, independent of secondary structure type or side-chain interactions. Contrary to the conventional picture that places central importance on hydrogen bonds, we find that the dominant destabilization instead arises from the quantum C-H vibrations. In addition, we reveal microscopic insights into the stabilization of folded peptides upon H$_2$O to D$_2$O substitution, showing that the H/D isotope substitution of active peptide hydrogens, previously considered unimportant, produces free-energy changes within the range of experimentally observed shifts. These findings provide a new interpretation of isotope effects in biological systems, indicating that seemingly small H$\\to$D substitutions within peptides can be as important as, or even outweigh, solvent contributions.         ",
+    "url": "https://arxiv.org/abs/2512.05741",
+    "authors": [
+      "Jing Shen",
+      "Ming-Zheng Du",
+      "Dong H. Zhang",
+      "Venkat Kapil",
+      "Wei Fang"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05781",
+    "title": "Simulating non-trivial incompressible flows with a quantum lattice Boltzmann algorithm",
+    "abstract": "           Quantum algorithms have been identified as a potential means to accelerate computational fluid dynamics (CFD) simulations, with the lattice Boltzmann method (LBM) being a promising candidate for realizing quantum speedups. Here, we extend the recent quantum algorithm for the incompressible LBM to account for realistic fluid dynamics setups by incorporating walls, inlets, outlets, and external forcing. We analyze the associated complexity cost and show that these modifications preserve the asymptotic scaling, and potential quantum advantage, of the original algorithm. Moreover, to support our theoretical analysis, we provide a classical numerical study illustrating the accuracy, complexity, and convergence of the algorithm for representative incompressible-flow cases, including the driven Taylor-Green vortex, the lid-driven cavity flow, and the flow past a cylinder. Our results provide a pathway to accurate quantum simulation of nonlinear fluid dynamics, and a framework for extending quantum LBM to more challenging flow configurations.         ",
+    "url": "https://arxiv.org/abs/2512.05781",
+    "authors": [
+      "David Jennings",
+      "Kamil Korzekwa",
+      "Matteo Lostaglio",
+      "Paul Mannix",
+      "Richard Ashworth",
+      "Emanuele Marsili",
+      "Stephen Rolston"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05811",
+    "title": "Optical Tautochrone and Squeezing Dynamics in Non-uniform Lattices",
+    "abstract": "           We present exact analogies between the tautochrone problem of mechanics and the squeezed states of quantum optics, to optical lattices. Both phenomena emerge in the same physical system, that of waveguide arrays with non-uniform couplings. Extension to two dimensions yields Lissajous-type trajectories and multidirectional tautochrone focusing. Furthermore, we investigate the impact of Kerr nonlinearity and show that it determines the diffraction behavior, namely coherent-state-like or squeezed propagation. These quantum inspired classical lattices highlight the role of the coupling coefficients to beam engineering and light control in complex media.         ",
+    "url": "https://arxiv.org/abs/2512.05811",
+    "authors": [
+      "Ioannis Kiorpelidis",
+      "Matthias Heinrich",
+      "Alexander Szameit",
+      "Georgios Siviloglou",
+      "Konstantinos G. Makris"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05834",
+    "title": "Enhanced quantum transport in bilayer two-dimensional materials",
+    "abstract": "           Two-dimensional (2D) materials have been proposed, among many other applications, as a efficient tool for the separation of atomic and molecular species and their corresponding isotopes, given the confinement provided by their subnanometric dimensions. In this work we present three dimensional quantum wave packet calculations revealing an enhancement in the quantum transport in bilayer over monolayer graphdiyne membranes, one of the most popular 2D materials which is commonly employed for this purpose. Besides, resonances emerge superimposed over the typical monolayer profile for transmission probabilities, a feature that is general to other bilayer nanoporous 2D heterostructures and that shows a strong dependence on the interlayer separation.         ",
+    "url": "https://arxiv.org/abs/2512.05834",
+    "authors": [
+      "Jos\u00e9 Campos-Mart\u00ednez",
+      "Marta I. Hern\u00e1ndez"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05846",
+    "title": "Design of a High-Power and High-Efficiency GaN-HEMT VCO Based on an Inverse Class-F Amplifier",
+    "abstract": "           This letter proposes a high-power and high-efficiency GaN-HEMT voltage-controlled oscillator. The VCO consists of a coupled-line coupler, an inverse class-F amplifier, and a novel frequency-tunable stepped-impedance resonator. Using a harmonic control circuit and a parasitic parameter compensation circuit, the power amplifier operates in the inverse class-F state to achieve high efficiency. The feedback circuit uses a coupled-line coupler instead of the traditional coupling capacitor to control feedback power precisely. The measurement results show that the VCO with an oscillation frequency of 2.41-2.45 GHz achieves a maximum conversion efficiency of 74.5% at 2.44 GHz and an output power of 40.2 dBm. It is a candidate for the microwave source in a wireless power transmission system.         ",
+    "url": "https://arxiv.org/abs/2512.05846",
+    "authors": [
+      "Junlin Mi",
+      "Ruinan Fan",
+      "Liping Yan",
+      "Yuhao Feng",
+      "Changjun Liu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05897",
+    "title": "Deep-Space Optical Communication Receiver Based on Single Photon Coherent Beam Combination",
+    "abstract": "           We introduce an alternative receiver architecture for deep-space optical communication, in which a single large aperture is replaced by an array of smaller ones with outputs combined coherently, employing phase stabilization based on photon counting events. We show that it allows to increase the signal to noise ratio, thus potentially attaining higher information transmission rates in the regime of large noise, typical for daytime communication. We analyze its practical performance by simulating pulse position modulation-based communication from the recently launched Psyche mission. Under nighttime conditions the achieved performance is comparable to that offered by a single large aperture, whereas in daytime conditions the single photon coherent beam combination architecture provides an advantage in the information transmission rate.         ",
+    "url": "https://arxiv.org/abs/2512.05897",
+    "authors": [
+      "Antoni Mikos-Nuszkiewicz",
+      "Karol \u0141ukanowski",
+      "Konrad Banaszek",
+      "Marcin Jarzyna"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05164",
+    "title": "From Kinematics to Interference: Operational Requirements for the Quantum Principle of Relativity",
+    "abstract": "           The quantum principle of relativity (QPR) puts forward an ambitious idea: extend special relativity with a formally superluminal branch of Lorentz-type maps, and treat the resulting consistency constraints as hints about why quantum theory has the structure it does [1]. The discussion that followed has emphasized a basic point: writing down coordinate maps is not the same thing as providing a physical theory. In particular, quantum superposition is not operationally defined by drawing multiple paths on paper: it is defined by what happens when alternatives recombine in an interference loop [2, 3]. In parallel, careful 1+1 analyses have clarified how sign conventions and time-orientation choices enter the superluminal formulas [4]. Finally, tachyonic QFT proposals suggest a possible mathematical bridge via an enlarged (twin) Hilbert space [5], although this proposal remains contested (e.g., on commutator covariance and microcausality grounds) [6]. The aim of this short note is organizational. We keep three layers separate: (K) kinematics (which maps exist and what they preserve), (O) operational content (what an experiment must actually reproduce, especially closed-loop interference), and (D/B) dynamics and bridges (how amplitudes and probabilities are generated, and how subluminal and superluminal sectors might be linked). The goal is not relativity derives quantum theory, but a clear checklist of what must be added for that ambition to become a well-posed programme.         ",
+    "url": "https://arxiv.org/abs/2512.05164",
+    "authors": [
+      "Miko\u0142aj Sienicki",
+      "Krzysztof Sienicki"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05477",
+    "title": "Quantum geometry and $X$-wave magnets with $X=p,d,f,g,i$",
+    "abstract": "           Quantum geometry is a differential geometry based on quantum mechanics. It is related to various transport and optical properties in condensed matter physics. The Zeeman quantum geometry is a generalization of quantum geometry including the spin degrees of freedom. It is related to electromagnetic cross responses. Quantum geometry is generalized to non-Hermitian systems and density matrices. Especially, the latter is quantum information geometry, where the quantum Fisher information naturally arises as quantum metric. We apply these results to the $X$-wave magnets, which include $d$-wave, $g$-wave and $i$-wave altermagnets as well as $p$-wave and $f$-wave magnets. They have universal physics for anomalous Hall conductivity, tunneling magneto-resistance and planar Hall effect. We obtain various analytic formulas based on the two-band Hamiltonian.         ",
+    "url": "https://arxiv.org/abs/2512.05477",
+    "authors": [
+      "Motohiko Ezawa"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mathematical Physics (math-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05630",
+    "title": "Squeezing Classical Antiferromagnets into Quantum Spin Liquids via Global Cavity Fluctuations",
+    "abstract": "           Cavity quantum electrodynamics with atomic ensembles is typically associated with collective spin phenomena, such as superradiance and spin squeezing, in which the atoms evolve collectively as a macroscopic spin ($S\\sim N/2$) on the Bloch sphere. Surprisingly, we show that the tendency toward a collective spin description need not imply collective spin phenomena; rather, it can be exploited to generate new forms of strongly correlated quantum matter. The key idea is to use uniform cavity-mediated interactions to energetically project the system into the total-spin singlet sector ($S=0$) - a highly entangled subspace where the physics is governed entirely by cavity fluctuations. Focusing on Rydberg atom arrays coupled to a single-mode cavity, we show that global cavity fluctuations can effectively squeeze classical antiferromagnets into quantum spin liquids, characterized by non-local entanglement, fractionalized excitations, and emergent gauge fields. This work suggests that cavity QED can be a surprising resource for inducing strongly correlated phenomena, which could be explored in the new generation of hybrid tweezer-cavity platforms.         ",
+    "url": "https://arxiv.org/abs/2512.05630",
+    "authors": [
+      "Charlie-Ray Mann",
+      "Mark A. Oehlgrien",
+      "B\u0142a\u017cej Jaworowski",
+      "Giuseppe Calaj\u00f3",
+      "Jamir Marino",
+      "Kyung S. Choi",
+      "Darrick E. Chang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.05683",
+    "title": "Physics-Informed Graph Neural Network with Frequency-Aware Learning for Optical Aberration Correction",
+    "abstract": "           Optical aberrations significantly degrade image quality in microscopy, particularly when imaging deeper into samples. These aberrations arise from distortions in the optical wavefront and can be mathematically represented using Zernike polynomials. Existing methods often address only mild aberrations on limited sample types and modalities, typically treating the problem as a black-box mapping without leveraging the underlying optical physics of wavefront distortions. We propose ZRNet, a physics-informed framework that jointly performs Zernike coefficient prediction and optical image Restoration. We contribute a Zernike Graph module that explicitly models physical relationships between Zernike polynomials based on their azimuthal degrees-ensuring that learned corrections align with fundamental optical principles. To further enforce physical consistency between image restoration and Zernike prediction, we introduce a Frequency-Aware Alignment (FAA) loss, which better aligns Zernike coefficient prediction and image features in the Fourier domain. Extensive experiments on CytoImageNet demonstrates that our approach achieves state-of-the-art performance in both image restoration and Zernike coefficient prediction across diverse microscopy modalities and biological samples with complex, large-amplitude aberrations. Code is available at this https URL.         ",
+    "url": "https://arxiv.org/abs/2512.05683",
+    "authors": [
+      "Yong En Kok",
+      "Bowen Deng",
+      "Alexander Bentley",
+      "Andrew J. Parkes",
+      "Michael G. Somekh",
+      "Amanda J. Wright",
+      "Michael P. Pound"
+    ],
+    "subjectives": [
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.04920",
+    "title": "First observation and measurement of the ${}^{198}\\text{Hg}$ bosonic transition in an optical lattice clock",
+    "abstract": "           We report the first observation of the magnetic-field-induced (5d10 6s2)1S0-(5d10 6s6p)3P0 transition in a bosonic isotope of mercury, 198Hg, realized in an optical lattice clock. We characterize this new isotope, determining key features such as the quadratic Zeeman shift, the probe light shift, and the magic frequency. We also report a first comparison between the 198Hg optical lattice clock and 87Sr. In this comparison, the 198Hg clock has a relative frequency stability of 6x10-16/sqrt(tau/s) and a total relative systematic uncertainty of 6.9x10-16. This comparison yields the first direct determination of the 198Hg/87Sr optical frequency ratio: 198Hg/87Sr = 2.629 315 734 684 118 1, with the same relative uncertainty.         ",
+    "url": "https://arxiv.org/abs/2512.04920",
+    "authors": [
+      "Clara Zyskind",
+      "Thomas Laupr\u00eatre",
+      "Haosen Shang",
+      "Benjamin Pointard",
+      "Rodolphe Le Targat",
+      "J\u00e9r\u00f4me Lodewyck",
+      "S\u00e9bastien Bize"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.12779",
+    "title": "Application of Quantum Annealing to Computation of Molecular Properties",
+    "abstract": "           We present the results of our quantum annealing computations of the permanent electric dipole moments of several molecules. By applying an electric field as a perturbation and measuring the corresponding energy responses, the molecular electric dipole moments are obtained numerically through the finite field method. The ground-state electronic wavefunctions and energies are obtained using the quantum annealer eignsolver algorithm. This work provides a pathway for the computation of molecular properties in the quantum annealing paradigm.         ",
+    "url": "https://arxiv.org/abs/2508.12779",
+    "authors": [
+      "Pradyot Pritam Sahoo",
+      "V. S. Prasannaa",
+      "B. P. Das"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
