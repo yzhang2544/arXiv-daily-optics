@@ -1,0 +1,793 @@
+[
+  {
+    "id": "arXiv:2512.22230",
+    "title": "A Unified Pore-Scale Multiphysics Model for the Integrated Soot Transport-Deposition-Oxidation in Catalytic Diesel Particulate Filters",
+    "abstract": "           Understanding the intricate interplay between soot dynamics and chemical reactions within catalytic diesel particulate filters (CDPF) is crucial for enhancing both filtration efficiency and regeneration performance. In this paper, we establish a unified pore-scale multiphysics model based on the Eulerian-Lagrangian framework to comprehensively resolve the transport, deposition, and oxidation of soot. Distinguishing itself from conventional empirical correlations and stochastic-based approximations, the system models soot deposition through fundamental physical principles, integrating elastic deformation and surface adhesion mechanics at the particle-wall interface. Simultaneously, it incorporates a robust oxidation model that accounts for the competitive kinetics of both $\\textrm{O}_2$ and $\\textrm{NO}_2$ pathways, enabling comprehensive coverage of all CDPF operating regimes. Validated against three classical benchmark cases, the model demonstrates superior accuracy in capturing interfacial mass transfer and particle-wall interactions. Simulation under a typical CDPF low-temperature operating condition emphasizes the pivotal role of $\\textrm{NO}_2$ and catalyst in promoting regeneration and reveals complex synergistic and competitive effects between distinct reaction pathways. Notably, the reaction rate of direct $\\textrm{O}_2$ pathway is accelerated by a factor of 87 in the presence of the catalyst. For ultra-fine soot particles ($50~\\mathrm{nm}$), the Brownian motion and thermophoretic forces directly dictate the deposition efficiency. Their strong thermal sensitivity also underscores the necessity for an integrated soot transport-deposition-oxidation framework. To support further research, the model implementation can be accessed at this https URL.         ",
+    "url": "https://arxiv.org/abs/2512.22230",
+    "authors": [
+      "Yujing Zhang",
+      "Yunhua Zhang",
+      "Liang Fang",
+      "Diming Lou",
+      "Piqiang Tan",
+      "Zhiyuan Hu"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22292",
+    "title": "Quantitative acoustic monitoring of ensembles of weakly nonlinear microbubble oscillations in optically inaccessible environments",
+    "abstract": "           A growing class of ultrasound-mediated diagnostic and therapeutic technologies, including sonoporation and blood-brain barrier modulation, relies on microbubble contrast agents, where precise control of microbubble dynamics governs biological responses, efficiency, and safety. However, quantitative monitoring of microbubble oscillations in the stable, weakly nonlinear regime remains challenging, particularly in optically opaque and deep-tissue environments. Here, we introduce a linear acoustic wave propagation and superposition (LAWPS) framework that reconstructs microbubble radius-time dynamics directly from passively recorded acoustic emissions. By coupling Fourier-series representations of weakly nonlinear oscillations with linear monopole radiation theory, LAWPS extends classical monopole models to establish a reversible relationship between multi-frequency acoustic emissions and underlying radial bubble dynamics. Extending this framework to monodisperse microbubble ensembles, we derive optimal excitation and receive configurations and population-level correction factors that enable quantitative reconstruction of the ensemble-averaged microbubble dynamics. Using simultaneous optical and acoustic measurements, we demonstrate recovery of microbubble oscillations with ~5% relative error for oscillation amplitudes up to ~15% of equilibrium radius. Finally, we show that oscillations within the framework's operating regime (20% oscillation) generate sonoporation-relevant mechanical stress in vesicles as small as 10 micrometers (capillary number > 0.01), under physiologically relevant conditions. Together, this work establishes a quantitative framework for acoustic emission-based monitoring of weakly nonlinear microbubble oscillations in clinically relevant, optically inaccessible environments to enable improved control of emerging ultrasound diagnostic and therapeutic technologies.         ",
+    "url": "https://arxiv.org/abs/2512.22292",
+    "authors": [
+      "Hohyun Lee",
+      "Reza Pakdaman Zangabad",
+      "Chulyong Kim",
+      "Victor Menezes",
+      "Juyoung Park",
+      "F. Levent Degertekin",
+      "Costas Arvanitis"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22468",
+    "title": "Quantum attomicroscopy: imaging quantum chemistry in action",
+    "abstract": "           How quantum electron and nuclei motions affect biomolecular chemical reactions remains a central challengeable question at the interface of quantum chemistry and biology. Ultrafast charge migration in deoxyribonucleic acid (DNA) has long been hypothesized to play a critical role in photochemistry, genome stability, and long-range biomolecular signaling, however, direct real-time observation of these electronic processes has remained elusive. Here, we present a theoretical investigation and propose the concept of future experimental measurements of laser-driven charge dynamics in the canonical DNA nucleobase pairs thymine_adenine and cytosine_guanine. Attosecond-resolved simulations employing high-level ab initio methods reveal base-dependent ionization mechanisms, directional charge migration pathways, and electronic coherences that govern sub-femtosecond redistribution of electron density across hydrogen-bonded nucleobase interfaces. Accordingly, we propose the concept of a quantum attosecond scanning electron microscope, termed the quantum attomicroscope (Q-attomicroscope), a capable of imaging photoinduced quantum chemistry reactions in attosecond temporal resolution and sub-nanometer spatial precision. As a proof of principle, we propose to image the charge migrations dynamics in DNA which we studied theoretically. Together, our preceptive bridges theory, instrumentation, and control, outlining a pathway toward laser mediated manipulation of DNA structure with implications for repair processes, chemical reactivity, and future personalized medicine.         ",
+    "url": "https://arxiv.org/abs/2512.22468",
+    "authors": [
+      "Nikolay V. Golubev",
+      "Mohammed Th. Hassan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22586",
+    "title": "Feed-forward Perturbation-based Compensation for Nonlinear Optical Transmission",
+    "abstract": "           We propose the feed-forward perturbation-based nonlinearity compensation method using the received signal, which outperforms conventional decision-based ones and eliminates the need for decision feedback. Additionally, combining half-half dispersion compensation with pre-/ post-compensation yields further performance gains.         ",
+    "url": "https://arxiv.org/abs/2512.22586",
+    "authors": [
+      "Chuang Xu",
+      "Alan Pak Tao Lau"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22607",
+    "title": "Experimental Multiport-Network Parameter Estimation for a Dynamic Metasurface Antenna",
+    "abstract": "           Most use cases of reconfigurable antennas require an accurate forward model mapping configuration to radiated field (and reflections at feeds). Emerging dynamic metasurface antennas (DMAs) confront the conventional approach of extracting such a model from a numerical simulation with multiple challenges. First, the cost of accurately simulating an intricate and electrically large DMA architecture might be prohibitive. Second, the model-reality mismatch due to fabrication inaccuracies might be substantial, especially at higher frequencies and for DMA architectures leveraging strong inter-element mutual coupling (MC) to maximize their tunability. These considerations motivate an experimental parameter estimation for DMA forward models. The main challenge lies in the forward model's non-linearity due to inter-element MC. Multiport network theory (MNT) can accurately capture MC but the MC parameters cannot be measured directly. In this article, we demonstrate the experimental estimation of a high-accuracy proxy MNT model for a 19-GHz DMA with 7 feeds and 96 elements, where all feeds and elements are strongly coupled via a chaotic cavity. For a given DMA configuration and excitation, our proxy MNT model predicts the reflected field at the feeds and the radiated field with accuracies of 40.3 dB and 37.7 dB, respectively. A simpler, MC-unaware benchmark model only achieves 2.6 dB and 3.3 dB, respectively. We systematically examine the influence of the number of feeds and measured DMA configurations on the model accuracy, motivating the inclusion of \"auxiliary calibration feeds\" to facilitate the parameter estimation when the intended DMA operation is limited to a single feed. Finally, we measure DMA configurations optimized based on our proxy MNT model.         ",
+    "url": "https://arxiv.org/abs/2512.22607",
+    "authors": [
+      "Jean Tapie",
+      "Philipp del Hougne"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22618",
+    "title": "Actual Physics, Observation, and Quantum Theory",
+    "abstract": "           Since its inception, quantum theory has been the subject of fierce interpretive controversy, which persists to this day. Disputed topics include the basic ontology and dynamics of the theory, the role (if any) of measurement, the meaning of probability, and the issue of non-locality. But there is yet another problem that has been largely ignored: how the theory makes contact with observational data. The problem is endemic to physics, and was discussed by Einstein in several places. In this essay, I discuss Einstein's general approach, how it applied to some quantum-mechanical phenomena, and why a central aspect of the solution might lead to novel and important new predictions.         ",
+    "url": "https://arxiv.org/abs/2512.22618",
+    "authors": [
+      "Tim Maudlin"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22735",
+    "title": "On the vortex ring formation and mixing in thin films upon droplet impact",
+    "abstract": "           When a droplet impacts a liquid film, a vortex ring form and govern momentum and species transport. We experimentally investigate vortex ring formation, propagation and instability during droplet impact onto liquid films, with particular emphasis on vortex ring-wall interactions. Particle image velocimetry and laser-induced fluorescence are used to study the effects of Reynolds number Re, Weber number We and dimensionless film thickness \\delta over ranges Re \\leq 3900, We \\leq 61 and 0.09 \\leq \\delta \\leq 1.35. As film thickness decreases, a transition from a single axisymmetric vortex ring to azimuthally unstable, multi-vortex structures is observed. A regime map in Re-\\delta space is constructed, showing that vortex ring instabilities occur at lower Re for thinner films, while no instabilities are detected for thick films up to the highest Re studied. The azimuthal wave number increases with Re and decreases with \\delta. Thinner films exhibit faster decay of primary vortex ring circulation due to wall interactions, accompanied by the formation of secondary vortex ring at lower Re. An empirical model is proposed to predict the temporal evolution of total vortex ring circulation, accounting for both generation and decay.         ",
+    "url": "https://arxiv.org/abs/2512.22735",
+    "authors": [
+      "Hatim Ennayar",
+      "Juan Camilo Due\u00f1as Torres",
+      "Philipp Brockmann",
+      "Hyoungsoo Kim",
+      "Jeanette Hussong"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22752",
+    "title": "Microcomb-referenced photonic stabilization of resonant tunneling diode terahertz oscillators",
+    "abstract": "           We demonstrate a compact stabilization scheme for terahertz (THz) sources by exploiting the complementary advantages of microresonator-based optical frequency combs (microcombs) and resonant tunneling diodes (RTDs). A microcomb-driven photomixing THz signal is employed as the master for injection locking of an RTD, enabling faithful transfer of the microcomb stability into the RTD. Using this approach, the free-running RTD linewidth of 50 MHz was narrowed to 165 Hz, while the single-sideband phase noise reached -80 dBc/Hz at a 10 kHz offset with a locking range of 80 MHz. Compared with conventional electronic frequency multiplier or fiber-comb-based schemes, this method avoids high-order frequency multiplication and associated noise penalties, offering a compact and practical alternative. The dual functionality of linewidth narrowing and power scalability highlights the potential of microcomb-assisted injection locking as a route toward chip-scale, spectrally pure THz sources for beyond-5G/6G wireless communication and radar, with prospects for future extension to time-frequency metrology and precision sensing.         ",
+    "url": "https://arxiv.org/abs/2512.22752",
+    "authors": [
+      "Miezel Talara",
+      "Yu Tokizane",
+      "Tatsunoshin Mori",
+      "Ryota Shikata",
+      "Masayuki Higaki",
+      "Eiji Hase",
+      "Isao Morohashi",
+      "Safumi Suzuki",
+      "Naoya Kuse",
+      "Takeshi Yasui"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22779",
+    "title": "High-Q Lithium Niobate Microring Resonator with Electro-Optically Reconfigurable Coupling Strength",
+    "abstract": "           The development of sophisticated integrated photonic circuits demands microresonators that combine exceptional optical confinement with dynamic operational flexibility. Here, we demonstrate a racetrack resonator on the thin-film lithium niobate platform that achieves an electro-optically tunable coupling strength while maintaining a stable, high intrinsic Q factor on the order of 10^6. By incorporating a Mach-Zehnder interferometer into the coupling region, the device facilitates a continuous and reversible transition across the entire coupling spectrum from under-coupling and critical coupling to deep over-coupling. To ensure high spectral purity, we employ Euler bends to facilitate an adiabatic transition between the straight and curved waveguide sections. This design effectively suppresses the excitation of higher-order modes, resulting in a clean transmission spectrum characterized by exclusive fundamental mode operation. At the critical coupling point, the resonator exhibits a high extinction ratio exceeding 30 dB. The integration of stable ultra-high Q, single-mode purity, and full-range coupling reconfigurability positions this device as a vital component for adaptive microwave photonics, high-efficiency nonlinear optics, and programmable quantum photonic networks.         ",
+    "url": "https://arxiv.org/abs/2512.22779",
+    "authors": [
+      "Yuan Ren",
+      "Yong Zheng",
+      "Ruixue Liu",
+      "Boyang Nan",
+      "Ziyao Zhuang",
+      "Rongbo Wu",
+      "Min Wang",
+      "Ya Cheng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22920",
+    "title": "Overcoming Computational Bottlenecks in Quantum Hydrodynamics: A Volume-Based Integral Formalism",
+    "abstract": "           Mesoscopic models of the optical response of metals have emerged as fundamental building blocks in quantum plasmonics, in principle overcoming the computational bottlenecks of ab initio techniques by implementing aspects of the atomistic description of the metal in otherwise classical calculations. Nonetheless, even these approaches are eventually hindered by demanding computations due to sophisticated material response. Here, this issue is addressed for the advanced Self-Consistent Hydrodynamic Drude Model (SC-HDM), which captures both nonlocal electron dynamics and electron spill-out, through a Volume Integral Equation (VIE) method. Adopting an IE-based method shifts perspective from the commonly employed Differential Equation (DE)-based ones, demonstrating significant computational efficiency. The VIE approach is a valuable methodological scaffold: It addresses SC-HDM and simpler models, but can also be adapted to more advanced ones. For spherical nanoparticles (NPs), using the inherent symmetries, similar performance for three increasingly complicated material models is achieved, breaking the taboo that increased sophistication in material response requires taxing simulations. Mesoscopic material-response functions can be readily extracted from the VIE implementation, thus circumventing the need for lengthy microscopic calculations. This method opens a new way of modeling quantum hydrodynamic NPs and will serve as essential benchmarking tool for recipes addressing more complicated geometries.         ",
+    "url": "https://arxiv.org/abs/2512.22920",
+    "authors": [
+      "Christos Mystilidis",
+      "Christos Tserkezis",
+      "Guy A. E. Vandenbosch",
+      "N. Asger Mortensen",
+      "Xuezhi Zheng"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23094",
+    "title": "Mutation in DNA: A quantum mechanical non-adiabatic model",
+    "abstract": "           We propose a new analytical potential function to model proton transfer in the adenine-thymine base pair and develop a non-adiabatic quantum mechanical framework to calculate genetic mutation probabilities. This potential has been used to calculate the probability of mutation in a non-adiabatic process. The results of the new model have been shown to be consistent with the findings of other researchers.         ",
+    "url": "https://arxiv.org/abs/2512.23094",
+    "authors": [
+      "Hossien Hossieni"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23105",
+    "title": "Event Horizons, Spacetime Geometry, and the Limits of Integrated Consciousness",
+    "abstract": "           What happens to a unified conscious field when its physical implementation straddles a black hole event horizon? This paper addresses that question for integration-based theories, including Integrated Information Theory, Global Workspace Theory, and Predictive Processing. These views share a structural commitment: unity requires a single strongly connected component (SCC) in an effective causal graph over a finite integration window $\\tau$. Using the standard black hole causal structure, I show that no SCC can span an event horizon. Any theory that ties unity to strong connectivity must therefore accept that a single conscious field cannot remain numerically identical and unified across such a configuration. From the perspective of the theories themselves, the outcome is bifurcation: each causally connected subsystem continues to satisfy the very structural criteria the theory declared necessary for a unified field. On any such view, the number and boundaries of unified conscious fields are therefore fixed not by the substrate alone but by the conjunction of its internal architecture with the relativistic causal structure of the spacetime it occupies, a dependency that ordinary spacetime conceals by supplying it so abundantly, but which an event horizon abruptly withdraws.         ",
+    "url": "https://arxiv.org/abs/2512.23105",
+    "authors": [
+      "Jonathon Sendall"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23275",
+    "title": "Study of Ni-Zn battery by coupling strain gauge measurements and acoustic emission",
+    "abstract": "           Two different non-destructive techniques of characterization were coupled to study the mechanical behavior of materials inside a battery during operation: measurement of the deformation of a battery casing by strain gauge and acoustic emission due to the release of mechanical stress inside the battery materials. Experiments were conducted on a commercial Ni-Zn AA-type battery and, particularly, phenomena occurring during overcharge were considered. Beyond the example of this study on a Ni-Zn battery, these two techniques offer complementary information that can be very useful for the monitoring and management of different type of batteries.         ",
+    "url": "https://arxiv.org/abs/2512.23275",
+    "authors": [
+      "F Degret",
+      "Sylvain Lespinats",
+      "N Guillet",
+      "M Alias",
+      "P.-X Thivel"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23393",
+    "title": "Electro-optical modulation of light polarization in a nonlocal lithium niobate metasurface",
+    "abstract": "           We report the experimental realization of a LiNbO3 metasurface for electro-optic modulation of light polarization in the telecommunication band. High-Q quasi-bound states in the continuum are emploied to enhance the modulation of amplitude and phase of an impinging beam by a driving electric field, leading to efficient polarization rotation and conversion. We quantified modulation effects under a CMOS-compatible bias at 1 MHz frequency, achieving a variation of 5% in the Stokes parameters and a variation of the polarization ellipse angles of about 3\u00b0 for the transmitted light. These results demonstrate that dynamic polarization and phase modulation can be attained in a compact platform, highlighting the potential of high-Q resonant LiNbO3 metasurfaces for enhanced light-matter interaction in subwavelength electro-optic devices.         ",
+    "url": "https://arxiv.org/abs/2512.23393",
+    "authors": [
+      "Agostino Di Francescantonio",
+      "Alessandra Sabatti",
+      "Eleni Prountzou",
+      "Maria Antonietta Vincenti",
+      "Luca Carletti",
+      "Attilio Zilli",
+      "Michele Celebrano",
+      "Rachel Grange",
+      "Marco Finazzi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23466",
+    "title": "Accelerated Topological Pumping in Photonic Waveguides Based on Global Adiabatic Criteria",
+    "abstract": "           Adiabatic topological pumping promises robust transport of energy and information, but its speed is fundamentally limited by the instantaneous adiabatic condition, which demands prohibitively slow parameter variations. Here we develop a paradigm shift from instantaneous to global adiabaticity. We derive a global adiabatic criterion (GAC), which sets an absolute fidelity bound by controlling the root-mean-square value of nonadiabaticity factor. We further introduce a fluctuation-suppression acceleration criterion, which minimizes spatial inhomogeneity and allows us to safely increase the mean nonadiabaticity. Experimentally, we implement this principle in femtosecond-laser-written photonic Su-Schrieffer-Heeger waveguide arrays via scalable power-law coupling modulation. Our accelerated topological pumping achieves >0.95 fidelity over a fivefold reduced device length compared to the conventional scheme, exhibits the predicted linear scaling with the system size, and maintains robust performance across a >400 nm bandwidth. This principle of GAC provides a universal design rule for fast, compact, and robust adiabatic devices across quantum and classical topological platforms.         ",
+    "url": "https://arxiv.org/abs/2512.23466",
+    "authors": [
+      "Kai-Heng Xiao",
+      "Jin-Lei Wu",
+      "Zhi-Yong Hu",
+      "Jin-Kang Guo",
+      "Xu-Lin Zhang",
+      "Jia Li",
+      "Shi-Lei Su",
+      "Xiang Ni",
+      "Qi-Dai Chen",
+      "Zhen-Nan Tian"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23538",
+    "title": "Fisher Information as an Operational Metric for Structured Optical Beams",
+    "abstract": "           Structured optical beams possess rich spatial features that are commonly characterized using entropic measures of field complexity. However, such measures do not directly quantify the operational usefulness of optical structure for parameter estimation and sensing. Here we introduce Fisher information as an operational metric to assess the metrological content of structured optical fields. By treating the measured intensity distribution as a statistical object, we define Fisher information with respect to physically relevant parameters, such as transverse displacement. We demonstrate that optical modes with comparable Shannon entropy can exhibit markedly different Fisher information, revealing sensitivity features associated with nodal structure and local curvature. Using Hermite--Gaussian modes as minimal test cases, we show that increasing modal order systematically enhances Fisher information. We then extend the analysis to two widely used families in structured light: Laguerre--Gaussian vortex beams and finite-energy Bessel--Gauss beams. Across these representative families, Fisher information provides a unified and experimentally accessible criterion for comparing structured optical fields in sensing applications.         ",
+    "url": "https://arxiv.org/abs/2512.23538",
+    "authors": [
+      "J.Sumaya-Martinez",
+      "J. Mulia-Rodriguez"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23558",
+    "title": "A NEAT Approach to Evolving Neural-Network-based Optimization of Chiral Photonic Metasurfaces: Application of a Neuro-Evolution Pipeline",
+    "abstract": "           The design of chiral metasurfaces with tailored optical properties remains a central challenge in nanophotonics due to the highly nonlinear relationship between geometry and chiroptical response. Machine-learning-assisted optimization pipelines have recently emerged as efficient tools to accelerate this process, yet their performance strongly depends on the choice of neural-network (NN) architecture. In this work, we integrate the NeuroEvolution of Augmenting Topologies (NEAT) algorithm into an established deep-learning optimization framework for dielectric chiral metasurfaces. NEAT autonomously evolves both network topology and connection weights, enabling task-specific architectures without manual tuning, whereas the reinforcement-learning strategy in our framework evolves knowledge of the solution space and fine-tunes a model's weights in parallel. Using a pipeline-produced dataset of 9,600 simulated GaP metasurface geometries, we evaluate NEAT under varying input dimensionalities, feature-scaling methods, and data sizes. With standardized feature scaling yielding the most consistent performance for both examined output dimensionalities, the relatively compact NEAT-evolved NN models, when integrated into the full optimization pipeline, achieve similar or improved predictive accuracy and generalization compared to initially employed dense few-layer perceptrons. Accordingly, these resource-efficient models successfully perform inference of metasurfaces exhibiting strong circular dichroism in the visible spectrum, allowing for transfer learning between simulated and experimental data. This approach demonstrates a scalable path toward adaptive, self-configuring machine-learning frameworks for automated photonic design both standalone and as building block for agentic artificial intelligence (AI).         ",
+    "url": "https://arxiv.org/abs/2512.23558",
+    "authors": [
+      "Davide Filippozzi",
+      "Arash Rahimi-Iman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23559",
+    "title": "Low loss switchable topological photonic crystal enabled by submicron-scale patterning and phase-change of Sb2Se3",
+    "abstract": "           Photonic topological insulators (PTIs) offer robust platforms for light manipulation, but reconfigurable control of their topological properties without degrading performance remains a major challenge. While phase-change materials (PCMs) provide large refractive index modulation, widely used materials such as Ge2Sb2Te5 (GST) have been successfully deployed in commercial applications including optical data storage. However, they exhibit significant optical absorption in their crystalline state, which poses a challenge for transmissive photonic devices such as PTIs where high transparency is essential. Here, we overcome this fundamental limitation by integrating the ultra-low-loss PCM antimony triselenide (Sb2Se3) onto a silicon-based 2D PTI. We achieve submicron-scale selective patterning of Sb2Se3 on a photonic crystal for the first time, and demonstrate a topological phase transition induced by the material phase change. Owing to the transparency of Sb2Se3 in both its amorphous and crystalline states, a high Q-factor on the order of 10^3 is preserved-representing nearly an order-of-magnitude improvement over previous GST-based devices. This work resolves the absorption-loss bottleneck in reconfigurable PTIs and paves the way for practical, low-loss, tunable topological photonic devices.         ",
+    "url": "https://arxiv.org/abs/2512.23559",
+    "authors": [
+      "Takahiro Uemura",
+      "Yuto Moritake",
+      "Eiichi Kuramochi",
+      "Masaaki Ono",
+      "Hisashi Sumikura",
+      "Masaya Notomi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2312.05341",
+    "title": "Three-dimensional imaging of single atoms in an optical lattice via helical point-spread-function engineering",
+    "abstract": "           We demonstrate a method for determining the three-dimensional location of single atoms in a quantum gas microscopy system using a phase-only spatial light modulator to modify the point-spread function of the high-resolution imaging system. Here, the typical diffracted spot generated by a single atom as a point source is modified to a double spot that rotates as a function of the atom's distance from the focal plane of the imaging system. We present and numerically validate a simple model linking the rotation angle of the point-spread function with the distance to the focal plane. We show that, when aberrations in the system are carefully calibrated and compensated for, this method can be used to determine an atom's position to within a single lattice site in a single experimental image, extending quantum simulation with microscopy systems further into the regime of three dimensions.         ",
+    "url": "https://arxiv.org/abs/2312.05341",
+    "authors": [
+      "Tangi Legrand",
+      "Falk-Richard Winkelmann",
+      "Wolfgang Alt",
+      "Dieter Meschede",
+      "Andrea Alberti",
+      "Carrie A. Weidner"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22176",
+    "title": "Field strength-dependent performance variability in deep learning-based analysis of magnetic resonance imaging",
+    "abstract": "           This study quantitatively evaluates the impact of MRI scanner magnetic field strength on the performance and generalizability of deep learning-based segmentation algorithms. Three publicly available MRI datasets (breast tumor, pancreas, and cervical spine) were stratified by scanner field strength (1.5T vs. 3.0T). For each segmentation task, three nnU-Net-based models were developed: A model trained on 1.5T data only (m-1.5T), a model trained on 3.0T data only (m-3.0T), and a model trained on pooled 1.5T and 3.0T data (m-combined). Each model was evaluated on both 1.5T and 3.0T validation sets. Field-strength-dependent performance differences were investigated via Uniform Manifold Approximation and Projection (UMAP)-based clustering and radiomic analysis, including 23 first-order and texture features. For breast tumor segmentation, m-3.0T (DSC: 0.494 [1.5T] and 0.433 [3.0T]) significantly outperformed m-1.5T (DSC: 0.411 [1.5T] and 0.289 [3.0T]) and m-combined (DSC: 0.373 [1.5T] and 0.268[3.0T]) on both validation sets (p<0.0001). Pancreas segmentation showed similar trends: m-3.0T achieved the highest DSC (0.774 [1.5T], 0.840 [3.0T]), while m-1.5T underperformed significantly (p<0.0001). For cervical spine, models performed optimally on same-field validation sets with minimal cross-field performance degradation (DSC>0.92 for all comparisons). Radiomic analysis revealed moderate field-strength-dependent clustering in soft tissues (silhouette scores 0.23-0.29) but minimal separation in osseous structures (0.12). These results indicate that magnetic field strength in the training data substantially influences the performance of deep learning-based segmentation models, particularly for soft-tissue structures (e.g., small lesions). This warrants consideration of magnetic field strength as a confounding factor in studies evaluating AI performance on MRI.         ",
+    "url": "https://arxiv.org/abs/2512.22176",
+    "authors": [
+      "Muhammad Ibtsaam Qadir",
+      "Duane Schonlau",
+      "Ulrike Dydak",
+      "Fiona R. Kolbinger"
+    ],
+    "subjectives": [
+      "Image and Video Processing (eess.IV)",
+      "Artificial Intelligence (cs.AI)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22235",
+    "title": "Partial Collapse and Ensemble Invariance under Continuous Quantum Measurement",
+    "abstract": "           Wavefunction collapse is often regarded as an unavoidable consequence of quantum measurement. Here we show that in driven-dissipative quantum systems, continuous measurement can extract information without disturbing the physical steady-state ensemble. Using the stochastic master equation formalism, we identify measurement-invariant steady states whose unconditional density matrix remains unchanged under continuous monitoring, despite the presence of measurement-induced collapse at the level of individual quantum trajectories. This separation between conditional collapse and ensemble invariance leads to a regime of partial collapse, in which measurement-induced localization is transient and continuously counteracted by dissipation and drive. We establish a necessary and sufficient condition for steady-state invariance under continuous measurement and show-that it holds over a finite range of measurement strengths. Our results clarify how information gain and measurement backaction can be dynamically decoupled in open quantum systems, with implications for continuous quantum sensing and the foundations of nonprojective measurement.         ",
+    "url": "https://arxiv.org/abs/2512.22235",
+    "authors": [
+      "Shalender Singh",
+      "Santosh Kumar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22421",
+    "title": "Differentiable Inverse Modeling with Physics-Constrained Latent Diffusion for Heterogeneous Subsurface Parameter Fields",
+    "abstract": "           We present a latent diffusion-based differentiable inversion method (LD-DIM) for PDE-constrained inverse problems involving high-dimensional spatially distributed coefficients. LD-DIM couples a pretrained latent diffusion prior with an end-to-end differentiable numerical solver to reconstruct unknown heterogeneous parameter fields in a low-dimensional nonlinear manifold, improving numerical conditioning and enabling stable gradient-based optimization under sparse observations. The proposed framework integrates a latent diffusion model (LDM), trained in a compact latent space, with a differentiable finite-volume discretization of the forward PDE. Sensitivities are propagated through the discretization using adjoint-based gradients combined with reverse-mode automatic differentiation. Inversion is performed directly in latent space, which implicitly suppresses ill-conditioned degrees of freedom while preserving dominant structural modes, including sharp material interfaces. The effectiveness of LD-DIM is demonstrated using a representative inverse problem for flow in porous media, where heterogeneous conductivity fields are reconstructed from spatially sparse hydraulic head measurements. Numerical experiments assess convergence behavior and reconstruction quality for both Gaussian random fields and bimaterial coefficient distributions. The results show that LD-DIM achieves consistently improved numerical stability and reconstruction accuracy of both parameter fields and corresponding PDE solutions compared with physics-informed neural networks (PINNs) and physics-embedded variational autoencoder (VAE) baselines, while maintaining sharp discontinuities and reducing sensitivity to initialization.         ",
+    "url": "https://arxiv.org/abs/2512.22421",
+    "authors": [
+      "Zihan Lin",
+      "QiZhi He"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Machine Learning (cs.LG)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22532",
+    "title": "Operational entanglement of collective quantum modes at room temperature",
+    "abstract": "           Quantum entanglement is commonly assumed to be fragile at ambient temperature and over macroscopic distances, where thermal noise and dissipation are expected to rapidly suppress nonclassical correlations. Here we show that this intuition fails for collective quantum modes whose dynamics is governed by reduced open-system channels rather than by microscopic thermal equilibrium. For two spatially separated collective modes, we derive an exact entanglement boundary based on the positivity of the partial transpose, valid in the symmetric resonant limit. From this result we obtain an explicit minimum collective fluctuation amplitude, expressed entirely in measurable noise, bandwidth, dissipation, and distance-dependent coupling parameters, required to sustain steady-state entanglement at finite temperature. We further show that large collective occupation suppresses but does not eliminate quantum phase diffusion, so the steady state remains phase symmetric and does not collapse to a classical mean-field despite macroscopic signal amplitudes. Stochastic simulations of the reduced open-system dynamics, together with matched classical correlated-noise null models analyzed through an identical pipeline, confirm that entanglement witnesses are violated only in the quantum regime. Our results establish a minimal, platform-independent framework connecting collective-mode dynamics, noise injection, distance, and operational certification of macroscopic entanglement.         ",
+    "url": "https://arxiv.org/abs/2512.22532",
+    "authors": [
+      "Shalender Singh",
+      "Santosh Kumar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22559",
+    "title": "Modeling Noise in Quantum Computing of Scalar Convection",
+    "abstract": "           Quantum computing holds potential for accelerating the simulation of fluid dynamics. However, hardware noise in the noisy intermediate-scale quantum era significantly distorts simulation accuracy. Although error magnitudes are frequently quantified, the specific physical effects of quantum noise on flow simulation results remain largely uncharacterized. We investigate the influence of gate noise on the quantum simulation of one-dimensional scalar convection. By employing a quantum spectral algorithm where ideal time advancement affects only Fourier phases, we isolate and analyze noise-induced artifacts in spectral magnitudes. We derive a theoretical transition matrix based on Hamming distances between computational basis states to predict spectral decay, and then validate this model against density-matrix simulations and experiments on a superconducting quantum processor. Furthermore, using data-driven sparse regression, we demonstrate that quantum noise manifests in the effective partial differential equation primarily as artificial diffusion and nonlinear source terms. These findings suggest that quantum errors can be modeled as deterministic physical terms rather than purely stochastic perturbations.         ",
+    "url": "https://arxiv.org/abs/2512.22559",
+    "authors": [
+      "Jiahua Yang",
+      "Zhen Lu",
+      "Yue Yang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22569",
+    "title": "Fast collisional $\\sqrt{\\mathrm{SWAP}}$ gate for fermionic atoms in an optical superlattice",
+    "abstract": "           Collisional gates in optical superlattices have recently achieved record fidelities, but their operation times are typically limited by tunneling. Here we propose and analyze an alternative route to a fast $\\sqrt{\\mathrm{SWAP}}$ gate for two fermionic atoms in an optical superlattice based on optimized, time-dependent control of the short and long lattice depths. The gate is implemented by transiently releasing the atoms into a quasi-harmonic confinement centered between the two sites. With an appropriately chosen contact interaction strength, a controlled collision accumulates the exchange phase required for $\\sqrt{\\mathrm{SWAP}}$ and generates entanglement. We employ a continuum, time-dependent Schr\u00f6dinger-equation simulation that goes beyond a two-site Fermi--Hubbard description and benchmark it against experimentally implemented tunneling-based protocols, reproducing the observed single-particle tunneling and spin-exchange dynamics. For experimentally accessible lattice depths, we find that the proposed gate operates in $\\sim 21\\,\\mu\\mathrm{s}$, more than an order of magnitude faster than tunneling-based implementations, while achieving fidelities $\\gtrsim 99\\%$. We further analyze sensitivity to lattice-depth variations and show that a composite sequence improves robustness. Our results establish fast, collision-mediated entangling gates in superlattices as a promising building block for scalable neutral-atom quantum computation.         ",
+    "url": "https://arxiv.org/abs/2512.22569",
+    "authors": [
+      "Rafi Weill",
+      "Jonathan Nemirovsky",
+      "Yoav Sagi"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22572",
+    "title": "Variational quantum eigensolver for chemical molecules",
+    "abstract": "           Solving interacting multi-particle systems is a central challenge in quantum chemistry and condensed matter physics. In this work, we investigate the computation of ground states and ground-state energies for the He-H+ and H2O molecules using quantum computing techniques. We employ the variational quantum eigensolver (VQE), implemented both on a quantum computer simulator and on an IBM quantum device. The resulting energies are benchmarked against exact ground-state energies obtained via classical methods. Simulations of the H2O molecule were performed on Nottingham's High Performance Computing (HPC) facilities.         ",
+    "url": "https://arxiv.org/abs/2512.22572",
+    "authors": [
+      "Luca Ion",
+      "Adam Smith"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22634",
+    "title": "1d-qt-ideal-solver: 1D Idealized Quantum Tunneling Solver with Absorbing Boundaries",
+    "abstract": "           We present 1d-qt-ideal-solver, an open-source Python library for simulating one-dimensional quantum tunneling dynamics under idealized coherent conditions. The solver implements the split-operator method with second-order Trotter-Suzuki factorization, utilizing FFT-based spectral differentiation for the kinetic operator and complex absorbing potentials to eliminate boundary reflections. Numba just-in-time compilation achieves performance comparable to compiled languages while maintaining code accessibility. We validate the implementation through two canonical test cases: rectangular barriers modeling field emission through oxide layers and Gaussian barriers approximating scanning tunneling microscopy interactions. Both simulations achieve exceptional numerical fidelity with machine-precision energy conservation over femtosecond-scale propagation. Comparative analysis employing information-theoretic measures and nonparametric hypothesis tests reveals that rectangular barriers exhibit moderately higher transmission coefficients than Gaussian barriers in the over-barrier regime, though Jensen-Shannon divergence analysis indicates modest practical differences between geometries. Phase space analysis confirms complete decoherence when averaged over spatial-temporal domains. The library name reflects its scope: idealized signifies deliberate exclusion of dissipation, environmental coupling, and many-body interactions, limiting applicability to qualitative insights and pedagogical purposes rather than quantitative experimental predictions. Distributed under the MIT License, the library provides a deployable tool for teaching quantum mechanics and preliminary exploration of tunneling dynamics.         ",
+    "url": "https://arxiv.org/abs/2512.22634",
+    "authors": [
+      "Sandy H. S. Herho",
+      "Siti N. Kaban",
+      "Rusmawan Suwarman",
+      "Iwan P. Anwar",
+      "Nurjanna J. Trilaksono"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Physics Education (physics.ed-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22912",
+    "title": "Controlling Nonadiabatic Transitions Through Engineered Ultrafast Laser Fields at Conical Intersections",
+    "abstract": "           In this paper, we investigate coherent control of nonadiabatic dynamics at a conical intersection (CI) using engineered ultrafast laser pulses. Within a model vibronic system, we tailor pulse chirp and temporal profile and compute the resulting wave-packet population and coherence dynamics using projections along the reaction coordinate. This approach allows us to resolve the detailed evolution of wave-packets as they traverse the degeneracy region with strong nonadiabatic coupling. By systematically varying pulse parameters, we demonstrate that both chirp and pulse duration modulate vibrational coherence and alter branching between competing pathways, leading to controlled changes in quantum yield. Our results elucidate the dynamical mechanisms underlying pulse-shaped control near conical intersections and establish a general framework for manipulating ultrafast nonadiabatic processes.         ",
+    "url": "https://arxiv.org/abs/2512.22912",
+    "authors": [
+      "Xuanchao Zhang",
+      "Yang-Cheng Ye",
+      "Panpan Zhang",
+      "Xiangmei Duan",
+      "R.J.Dwayne Miller",
+      "Fulu Zheng",
+      "Ajay Jha",
+      "Hong-Guang Duan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.22965",
+    "title": "Comment on \"There is No Quantum World\" by Jeffrey Bub",
+    "abstract": "           In a recent preprint [1] Jeffrey Bub presents a discussion of neo-Bohrian interpretations of quantum mechanics, and also of von Neumann's work on infinite tensor products [2]. He rightfully writes that this work provides a theoretical framework that deflates the measurement problem and justifies Bohr's insistence on the primacy of classical concepts. But then he rejects these ideas, on the basis that the infinity limit is \"never reached for any real system composed of a finite number of elementary systems\". In this note we present opposite views on two major points: first, admitting mathematical infinities in a physical theory is not a problem, if properly done; second, the critics of [3,4,5] comes with a major misunderstanding of these papers: they don't ask about \"the significance of the transition from classical to quantum mechanics\", but they start from a physical ontology where classical and quantum physics need each other from the beginning. This is because they postulate that a microscopic physical object (or degree of freedom) always appears as a quantum system, within a classical context. Here we argue why this (neo-Bohrian) position makes sense.         ",
+    "url": "https://arxiv.org/abs/2512.22965",
+    "authors": [
+      "Philippe Grangier"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23156",
+    "title": "Emergence of nonclassical radiation in strongly laser-driven quantum systems",
+    "abstract": "           Nonclassical light sources are central to emerging quantum technologies, yet current platforms offer limited tunability and typically operate at low photon numbers. In parallel, strong-field physics provides widely tunable, bright coherent radiation through high-order harmonic generation (HHG), but its quantum optical character has remained largely unexplained. While recent experiments have revealed signatures of entanglement, squeezing, and quantum-state modification in both the driving and generated fields, a unified theoretical framework capable of identifying the origin and controllability of these effects has been missing. Here we introduce a fully quantum, analytically tractable theory of intense light-matter interaction that rigorously captures the emergence of nonclassicality in HHG. Our approach employs a parametric factorization of the coupled electron-field system into a driven electronic state and a dynamically perturbed quantum optical field, derived directly from the time-dependent Schr\u00f6dinger equation without requiring conditioning, homodyne detection, or mode-selection techniques. We show how quantum correlations, squeezing, and Wigner-function negativity arise intrinsically from the interaction dynamics, and we identify the precise conditions under which specific nonclassical features are amplified or suppressed. The theory enables predictive design of bright, high-photon-number quantum states at tunable frequencies, and we demonstrate its utility by outlining realistic conditions for generating bright nonclassical ultraviolet light. Our results establish a comprehensive foundation for strong-field quantum optics and open new avenues toward tabletop quantum light sources for sensing, communication, and photonic quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2512.23156",
+    "authors": [
+      "Ivan Gonoskov",
+      "Christian H\u00fcnecke",
+      "Stefanie Gr\u00e4fe"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23248",
+    "title": "Quantum Phase Transitions in Coherent Ising Machines: XY Model for Demonstration",
+    "abstract": "           Quantum phase transitions (QPTs) in coherent Ising machines (CIMs) are studied via a spectral mapping between the one-dimensional XY spin model and a network of degenerate optical parametric oscillators (DOPOs). This exact correspondence reveals that the DOPO network faithfully reproduces the quantum critical behavior of the XY model across its anisotropic, isotropic, and transverse-field Ising regimes. The ground-state energy density and its derivatives are analyzed to reveal second-order QPTs characterized by singularities in magnetic susceptibility at critical points. These results show that CIMs do not only serve as powerful platforms for solving combinatorial optimization problems but also provide a versatile optical simulator for studying universal quantum critical phenomena, bridging quantum-spin models and photonic quantum systems.         ",
+    "url": "https://arxiv.org/abs/2512.23248",
+    "authors": [
+      "Jing-Yi-Ran Jin",
+      "Shuang-Quan Ma",
+      "Qing Ai"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23368",
+    "title": "Soliton formation in a bound state in the continuum GaN waveguide polariton laser",
+    "abstract": "           We study polaritonic bound states in the continuum (BIC) created in GaN waveguides. The existence of symmetry-protected BICs is confirmed by the suppression of light emission and the observation of a polarization vortex in momentum space. Upon increasing the pumping, polariton population accumulates at the BIC and we observe polariton lasing from the blueshifted BIC states. The assessment of the polariton BIC emission energy and of its momentum broadening as a function of pumping power, i.e. of polariton density, indicates the formation of a bright soliton above the lasing threshold. Soliton formation at the BIC is induced by the combination of negative mass BIC and of repulsive polariton-polariton interactions.         ",
+    "url": "https://arxiv.org/abs/2512.23368",
+    "authors": [
+      "V. Develay",
+      "O. Bahrova",
+      "I. Septembre",
+      "D. Bobylev",
+      "C. Brimont",
+      "L. Doyennette",
+      "B. Alloing",
+      "H. Souissi",
+      "E. Cambril",
+      "S. Bouchoule",
+      "J. Z\u00fa\u00f1iga-P\u00e9rez",
+      "D. Solnyshkov",
+      "G. Malpuech",
+      "T. Guillet"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23484",
+    "title": "Cavity-Free $\u0394$-Type Coherent Population Trapping for Microwave Sensing",
+    "abstract": "           We investigated experimentally and theoretically a cavity-free microwave field that couples the two ground states of a {\\Lambda}-type atomic system, thereby forming a closed {\\Delta} configuration. In this regime, the absence of cavity-imposed phase matching leads to a strong sensitivity of the ground-state coherence to the microwave field parameters. We observe that the coherent population trapping (CPT) resonance exhibits a pronounced dependence on the microwave power and detuning, resulting in measurable changes in resonance contrast, linewidth, and center frequency. To explain these effects, we develop a numerical density-matrix model in which the ground-state coherence explicitly incorporates the microwave coupling strength, capturing the essential physics of this no-phase-matching {\\Delta} system. The excellent agreement between theory and experiment establishes a simple and robust framework for microwave control of cavity-free {\\Delta}-type atomic systems, with direct implications for compact atomic clocks and quantum-enhanced quantum sensing platforms.         ",
+    "url": "https://arxiv.org/abs/2512.23484",
+    "authors": [
+      "Ido Fridman",
+      "Shemuel Sternklar",
+      "Eliran Talker"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23554",
+    "title": "An integrated quantitative single-objective light-sheet microscope for subcellular dynamics in embryos and cultured multicellular systems",
+    "abstract": "           Quantitative imaging of subcellular processes in living embryos, stem-cell systems, and organoid models requires microscopy platforms that combine high spatial resolution, fast volumetric acquisition, long-term stability, and minimal phototoxicity. Single-objective light-sheet approaches based on oblique plane microscopy (OPM) are well suited for live imaging in standard sample geometries, but most existing implementations lack the optical calibration, timing precision, and end-to-end integration required for reproducible quantitative measurements. Here we present a fully integrated and quantitatively characterized OPM platform engineered for dynamic studies of transcription and nuclear organization in embryos, embryonic stem cells, and three-dimensional culture systems. The system combines high numerical aperture remote refocusing with tilt-invariant light-sheet scanning and hardware-timed synchronization of laser excitation, galvo scanning, and camera readout. We provide a comprehensive characterization of the optical performance, including point spread function, sampling geometry, usable field of view, and system stability, establishing a well-defined framework for quantitative volumetric imaging. To support high-throughput operation, we developed a unified acquisition and reconstruction pipeline that enables real time volumetric imaging at hardware-limited rates while preserving deterministic timing and reproducible geometry. Using this platform, we demonstrate quantitative three-dimensional imaging of MS2-labeled transcription sites in living Drosophila embryos, cultured mouse embryonic stem cells, and mESC-derived gastruloids, enabling extraction of transcriptional intensity traces across diverse biological contexts. This work establishes OPM as a robust and quantitatively calibrated single-objective light-sheet platform for transcription imaging in complex living systems.         ",
+    "url": "https://arxiv.org/abs/2512.23554",
+    "authors": [
+      "Armin Shoushtarizadeh",
+      "Michele Cerminara",
+      "Corinne Chureau",
+      "Leah Friedman",
+      "Deepthi Kailash",
+      "Thomas Gregor"
+    ],
+    "subjectives": [
+      "Quantitative Methods (q-bio.QM)",
+      "Biological Physics (physics.bio-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23624",
+    "title": "Physics-Informed Neural Networks for Device and Circuit Modeling: A Case Study of NeuroSPICE",
+    "abstract": "           We present NeuroSPICE, a physics-informed neural network (PINN) framework for device and circuit simulation. Unlike conventional SPICE, which relies on time-discretized numerical solvers, NeuroSPICE leverages PINNs to solve circuit differential-algebraic equations (DAEs) by minimizing the residual of the equations through backpropagation. It models device and circuit waveforms using analytical equations in time domain with exact temporal derivatives. While PINNs do not outperform SPICE in speed or accuracy during training, they offer unique advantages such as surrogate models for design optimization and inverse problems. NeuroSPICE's flexibility enables the simulation of emerging devices, including highly nonlinear systems such as ferroelectric memories.         ",
+    "url": "https://arxiv.org/abs/2512.23624",
+    "authors": [
+      "Chien-Ting Tung",
+      "Chenming Hu"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.23708",
+    "title": "Quantum Geometric Bounds in Non-Hermitian Systems",
+    "abstract": "           We identify quantum geometric bounds for observables in non-Hermitian systems. We find unique bounds on non-Hermitian quantum geometric tensors, generalized two-point response correlators, conductivity tensors, and optical weights. We showcase these findings in topological systems with non-Hermitian Chern numbers. We demonstrate that the non-Hermitian geometric constraints on response functions naturally arise in open quantum systems governed by out-of-equilibrium Lindbladian dynamics. Our findings are relevant to experimental observables and responses under the realistic setups that fall beyond the idealized closed-system descriptions.         ",
+    "url": "https://arxiv.org/abs/2512.23708",
+    "authors": [
+      "Milosz Matraszek",
+      "Wojciech J. Jankowski",
+      "Jan Behrends"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.19109",
+    "title": "Notes on Quantum Computing for Thermal Science",
+    "abstract": "           This document explores the potential of quantum computing in Thermal Science. Conceived as a living document, it will be continuously updated with experimental findings and insights for the research community in Thermal Science. By experiments, we refer both to the search for the most effective algorithms and to the performance of real quantum hardware. Those are fields that are evolving rapidly, driving a technological race to define the best architectures. The development of novel algorithms for engineering problems aims at harnessing the unique strengths of quantum computing. Expectations are high, as users seek concrete evidence of quantum supremacy - a true game changer for engineering applications. Among all heat transfer mechanisms (conduction, convection, radiation), we start with conduction as a paradigmatic test case in the field being characterized by a rich mathematical foundation for our investigations.         ",
+    "url": "https://arxiv.org/abs/2503.19109",
+    "authors": [
+      "Pietro Asinari",
+      "Nada Alghamdi",
+      "Paolo De Angelis",
+      "Giulio Barletta",
+      "Giovanni Trezza",
+      "Marina Provenzano",
+      "Matteo Maria Piredda",
+      "Matteo Fasano",
+      "Eliodoro Chiavazzo"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.18425",
+    "title": "Spatial, Spectral and Temporal Response of High Intensity Laser Plasma Mirrors- Direct Observation of the Ponderomotive Push",
+    "abstract": "           Plasma-based optics have emerged as a powerful platform for manipulating and amplifying ultra-intense laser pulses. However, the inherently nonlinear and dynamic nature of plasma leads to significant spatial, spectral, and temporal modulations when driven at relativistic intensities. These modifications can dramatically alter the structure of the reflected laser pulses, posing challenges for their use in applications such as vacuum ultraviolet (VUV) and X-ray generation, as well as relativistic particle acceleration. Comprehensive, multidimensional diagnostics are essential to accurately characterize these so-called `plasma mirrors' (PMs). We present a direct, \\textit{in situ} measurement of the three-dimensional plasma surface evolution during femtosecond laser irradiation, achieved through simultaneous analysis of the wavefront, spectrum, and temporal profile of the reflected light. Our measurements reveal surface deformations on the order of a few hundred nanometers at relativistic intensities, in agreement with three-dimensional particle-in-cell (3D-PIC) simulations. Additionally, the PM induces substantial modifications to the pulse spectrum and temporal profile, introducing spatio-temporal couplings.         ",
+    "url": "https://arxiv.org/abs/2506.18425",
+    "authors": [
+      "Sk Rakeeb",
+      "Animesh Sharma",
+      "Sagar Dam",
+      "Ameya Parab",
+      "Amit Lad",
+      "Yash.M. Ved",
+      "Amita Das",
+      "G. Ravindra Kumar"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.04118",
+    "title": "Unified Effective Field Theory for Nonlinear and Quantum Optics",
+    "abstract": "           Predicting phenomena that mix few-photon quantum optics with strong field nonlinear optics is hindered by the use of separate theoretical formalisms for each regime. We close this gap with a unified effective field theory valid for frequencies lower than the material-dependent cutoff set by the band gap, plasma frequency, or similar scale. The action couples the electromagnetic gauge field to vector polarisation modes. An isotropic potential generates the optical susceptibilities, while a higher-dimension axion-like term captures magnetoelectric effects; quantisation on the Schwinger-Keldysh contour with doubled BRST ghosts preserves gauge symmetry in dissipative media. One-loop renormalisation-group equations reproduce the measured dispersion of the third-order susceptibility from terahertz to near-visible frequencies after matching a single datum per material. Real-time dynamics solved with a matrix-product-operator engine yield good agreement with published results for GaAs polariton cavities, epsilon-near-zero indium-tin-oxide films and superconducting quarton circuits. The current formulation is limited to these 1-D geometries and sub-cut-off frequencies; higher-dimensional or above-cut-off phenomena will require additional degrees of freedom or numerical methods.         ",
+    "url": "https://arxiv.org/abs/2511.04118",
+    "authors": [
+      "Xiaochen Liu",
+      "Ken-Tye Yong"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.11191",
+    "title": "Three-dimensional gravity-capillary standing waves: computation, resonance and instability",
+    "abstract": "           We present a numerical study of three-dimensional gravity-capillary standing waves by using cubic and quintic truncated Hamiltonian formulations and the Craig-Sulem expansion of the Dirichlet-Neumann operator (DNO). The resulting models are treated as triply periodic boundary-value problems and solved via a spatio-temporal collocation method without executing initial-value calculations. This approach avoids the numerical stiffness associated with surface tension and numerical instabilities arising from time integration. We reduce the number of unknowns significantly by exploiting the spatio-temporal symmetries for three types of symmetric standing waves. Comparisons with existing asymptotic and numerical results illustrate excellent agreement between the models and the full potential-flow formulation. We investigate typical bifurcations and standing waves that feature square, hexagonal, and more complex flower-like patterns under the three-wave resonance. These solutions are generalisations of the classical Wilton ripples. Temporal simulations of the computed three-dimensional standing waves exhibit perfect periodicity and reveal an instability mechanism based on the reported oblique instability in two-dimensional standing waves.         ",
+    "url": "https://arxiv.org/abs/2512.11191",
+    "authors": [
+      "Xin Guan"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.12660",
+    "title": "Quantum Correlation and Synchronisation-Enhanced Energy Transfer in Driven-Dissipative Light-Harvesting Dimers",
+    "abstract": "           Quantum synchronisation has recently been proposed as a mechanism for electronic excitation energy transfer in light-harvesting complexes, yet its robustness in driven-dissipative settings remains under active investigation. Here, we revisit this mechanism in cryptophyte photosynthetic antennae using an exciton--vibrational dimer model. By comparing the full open quantum dynamics with semi-classical rate equations for electronic density-matrix elements and vibrational observables, we demonstrate that quantum correlations between electronic and vibrational degrees of freedom, beyond the semi-classical factorised limit, underpin the emergence of quantum synchronisation. Furthermore, we introduce an environment-assisted transfer mechanism arising as a nonlinear, non-Condon correction to the dipole--dipole interaction. This mechanism enables long-lived quantum coherence and continuous, synchronisation-enhanced energy transfer in a driven-dissipative regime, thereby suggesting new avenues for investigating photosynthetic energy-transfer dynamics.         ",
+    "url": "https://arxiv.org/abs/2512.12660",
+    "authors": [
+      "Wenhao Xu"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.18465",
+    "title": "Microscale selective laser sintering of Cu nanoparticles with a short-wavelength nanosecond laser",
+    "abstract": "           Microscale additive manufacturing of reflective copper is becoming increasingly important for microelectronics and microcomputers, due to its excellent electrical and thermal conductivity. Yet, it remains challenging for state-of-the-art commercial metal 3D printers to achieve sub-100-micron manufacturing. Two aspects are sub-optimal using commercial laser powder bed fusion systems with infrared (IR) lasers (wavelength of 1060-1070 nm): (1) IR laser has a low absorption rate for Cu, which is energy-inefficient for manufacturing; (2) short wavelength lasers can potentially offer higher resolution processing due to the diffraction-limited processing. On the other hand, laser sintering or melting typically uses continuous wave (CW) lasers, which may reduce the manufacturing resolution due to a large heat-affected zone. Based on these facts, this study investigates the UV (wavelength of 355 nm) nanosecond (ns) laser sintering of Cu nanoparticles. Different laser processing parameters, as well as different nanoparticle packing densities, are studied. Our results show that a short-wavelength laser can reduce the required energy for sintering with decent morphology, and a densified nanoparticle powder bed favors continuous melting. We further show that sub-20 micron printing can be readily achieved with a UV ns laser. These findings provide new insights into short-wavelength laser-metal nanoparticle interactions, which may pave the way to achieve high-resolution micro and nano-scale additive manufacturing.         ",
+    "url": "https://arxiv.org/abs/2512.18465",
+    "authors": [
+      "Youwen Liang",
+      "Bo Shen",
+      "Wan Shou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2410.10615",
+    "title": "Adaptive, symmetry-informed Bayesian metrology for precise quantum technology measurements",
+    "abstract": "           High precision measurements are essential to solve major scientific and technological challenges, from gravitational wave detection to healthcare diagnostics. Quantum sensing delivers greater precision, but an in-depth optimisation of measurement procedures has been overlooked. Here we present a systematic strategy for parameter estimation in the low-data limit that integrates experimental control parameters and natural symmetries. The method is guided by a Bayesian quantifier of precision gain, enabling adaptive optimisation tailored to the experiment. We provide general expressions for optimal estimators for any parameter. The strategy's power is demonstrated in a quantum technology experiment, in which ultracold caesium atoms are confined in a micromachined hole in an optical fibre. We find a five-fold reduction in the fractional variance of the estimated parameter, compared to the standard measurement procedure. Equivalently, our strategy achieves a target precision with a third of the data points previously required. Such enhanced device performance and accelerated data collection will be essential for applications in quantum computing, communication, metrology, and the wider quantum technology sector.         ",
+    "url": "https://arxiv.org/abs/2410.10615",
+    "authors": [
+      "Matt Overton",
+      "Jes\u00fas Rubio",
+      "Nathan Cooper",
+      "Daniele Baldolini",
+      "David Johnson",
+      "Janet Anders",
+      "Lucia Hackerm\u00fcller"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.07951",
+    "title": "Stark Tuning and Charge State Control in Individual Telecom C-Band Quantum Dots",
+    "abstract": "           Telecom wavelength quantum dots (QDs) are emerging as a promising solution for generating deterministic single photons compatible with existing fiber optic infrastructure. Emission in the low loss C band minimizes transmission losses, making them ideal for long distance quantum communication. In this work, we present a demonstration of both Stark tuning and charge state control of individual InAs/InP QDs operating within the telecom C-band. These QDs are grown by droplet epitaxy and embedded in an InP based n++-i-n+ heterostructure fabricated using MOVPE. The gated architecture enables the tuning of emission energy via the quantum confined Stark effect, with a tuning range exceeding 2.4 nm. It also allows for control over the QD charge occupancy, enabling access to multiple discrete excitonic states. Electrical tuning of the fine structure splitting is further demonstrated, opening a route to entangled photon pair generation at telecom wavelengths. The single photon character is confirmed via second order correlation measurements. These advances enable QDs to be tuned into resonance with other systems, such as cavity modes and emitters, marking a critical step toward scalable, fiber compatible quantum photonic devices.         ",
+    "url": "https://arxiv.org/abs/2506.07951",
+    "authors": [
+      "N.J. Martin",
+      "A.J. Brash",
+      "A. Tomlinson",
+      "E.M. Sala",
+      "E.O. Mills",
+      "C.L. Phillips",
+      "R. Dost",
+      "L. Hallacy",
+      "P. Millington-Hotze",
+      "D. Hallett",
+      "K.A. O'Flaherty",
+      "J. Heffernan",
+      "M.S. Skolnick",
+      "A.M Fox",
+      "L.R. Wilson"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.06348",
+    "title": "Quantum sensing with ultracold simulators in lattice and ensemble systems: a review",
+    "abstract": "           Sensing of parameters is an important aspect in all disciplines, with applications ranging from fundamental science to medicine. Quantum sensing and metrology is an emerging field that lies at the cross-roads of quantum physics, quantum technology, and the discipline in which the parameter estimation is to be performed. While miniaturization of devices often requires quantum mechanics to be utilized for understanding and planning of a parameter estimation, quantum-enhanced sensing is also possible that uses paradigmatic quantum characteristics like quantum coherence and quantum entanglement to go beyond the so-called standard quantum limit. The current review hopes to bring together the concepts related to quantum sensing as realized in ensemble systems, like spin ensembles, light-matter systems, and Bose-Einstein condensates, and lattice systems, like those which can be modeled by the Bose- and Fermi-Hubbard models, and quantum spin models.         ",
+    "url": "https://arxiv.org/abs/2507.06348",
+    "authors": [
+      "Keshav Das Agarwal",
+      "Sayan Mondal",
+      "Ayan Sahoo",
+      "Debraj Rakshit",
+      "Aditi Sen De",
+      "Ujjwal Sen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.03450",
+    "title": "Macroscopic entanglement between localized domain walls inside a cavity",
+    "abstract": "           We present a scheme for generating stable and tunable entanglement between two localized Bloch domain walls in nanomagnetic strips kept inside a chiral optical cavity. The entanglement is mediated by the effective optomechanical interaction between the cavity photons and the two macroscopic, collective modes of the pinned domain walls. By controlling the pinning potential and optical driving frequency, the robust, steady-state entanglement between the two macroscopic domain walls can survive beyond the typical milli-Kelvin temperature range.         ",
+    "url": "https://arxiv.org/abs/2508.03450",
+    "authors": [
+      "Rahul Gupta",
+      "H.Y. Yuan",
+      "Himadri Shekhar Dhar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.00959",
+    "title": "A Bidirectional Diode-Clamp Circuit Paradigm for Time-Resolved Measurement of Electrical Short-Circuits",
+    "abstract": "           Conventional electrical fault models, which rely on static thresholds and instantaneous trip mechanisms, fail to capture the time-evolving dynamics of real faults, creating vulnerabilities in modern power systems. This paper introduces a diode-clamp circuit architecture that reconceives short-circuits as governed, sustained processes and establishes a physics-consistent, measurement system. An Arduino-based data acquisition system recorded continuous fault evolution across multiple input voltages and durations. Multi-resolution sampling at 10ms, 50ms, and 100ms enabled high-fidelity capture of both transients and sustained-state dynamics. The clamped mechanism constrained the circuit to a bounded regime, enabling repeatable observation. Experiments yielded definitive, measurable minima and maxima for voltage, current, and resistance, empirically refuting the classical assumption of instantaneous, unbounded current. Newly introduced metrics quantify this performance: the Sustained-to-Capacitive Energy Ratio (SCER ~1.53x10^12) proves fault energy originates from sustained dynamics, not transient discharge. The Sustained Fault Efficiency (SFE>1) demonstrates that governed fault power can exceed nominal operating power. This work provides the first fully validated short-circuit quantification system, yielding empirical data for next-generation battery management, adaptive grid protection, and fault-tolerant electronics.         ",
+    "url": "https://arxiv.org/abs/2512.00959",
+    "authors": [
+      "Alex Mwololo Kimuya",
+      "Dickson Mwenda Kinyua"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.19051",
+    "title": "The energy-speed relationship of quantum particles challenges Bohmian mechanics?",
+    "abstract": "           Recently, Sharoglazova et al. claimed to have proven a violation of the basic tenet of Bohmian mechanics, namely the phase-speed relation $\\vec{v}(\\vec{r},t)=\\frac{\\hbar}{m}\\vec{\\nabla}S(\\vec{r},t)$. Here, $S(\\vec{r},t)$ is the (real) phase of the wave function $\\psi(\\vec{r},t)=\\rho^{\\frac{1}{2}}(\\vec{r},t)e^{iS(\\vec{r},t)}$. In a nutshell, they have measured the speed of a claimed evanescent wave, which is real and therefore must have $\\vec{\\nabla}S=\\vec{0}$. However, Fig. 2 clearly shows a density motion from one waveguide to the other, implying a nonzero density current, $\\vec{j}(\\vec{r},t)=\\frac{\\hbar}{m}\\Im(\\psi^*\\vec{\\nabla}\\psi)$. If we combine this evidence with the mathematical identity $\\vec{\\nabla}S=\\frac{m}{\\rho}\\vec{j}$, we should instead conclude that $\\vec{\\nabla}S\\neq\\vec{0}$. So, where does this apparent inconsistency come from?         ",
+    "url": "https://arxiv.org/abs/2512.19051",
+    "authors": [
+      "S. Di Matteo",
+      "C. Mazzoli"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
