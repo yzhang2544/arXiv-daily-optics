@@ -1,0 +1,465 @@
+[
+  {
+    "id": "arXiv:2601.09797",
+    "title": "Free-space Optical Diffraction and the Fisher Information",
+    "abstract": "           Using the transport-of-intensity approach for free-space optical propagation in the paraxial regime, we show that diffraction is fundamentally related to the Fisher information associated with models of the transverse intensity distribution. By interpreting intensity as a probability density, we show that a) free-space diffraction will always act to flatten the intensity distribution as the beam propagates, and consequently b) diffraction will monotonically minimize the Fisher Information with respect to any parameterization of the intensity distribution model that depends on propagation distance.         ",
+    "url": "https://arxiv.org/abs/2601.09797",
+    "authors": [
+      "Jonathan M. Nichols",
+      "Frank Bucholtz"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.09802",
+    "title": "Programmable on-chip synthesis and reconstruction of partially coherent two-mode optical fields",
+    "abstract": "           Partially coherent light is typically studied in the context of freely propagating continuous fields. Recent developments have indicated the existence of a `coherence advantage' in multimode optical communications, where partially coherent light outperforms coherent light. However, exploiting partial coherence in such applications requires manipulating multimode field coherence in programmable on-chip platforms. We present here the first example of on-chip synthesis and characterization of two-mode optical fields in an integrated on-chip hexagonal mesh of Mach-Zehnder interferometers. Starting with incoherent two-mode light, we adjust the degree of coherence on the chip with non-unitary transformations, construct $2\\times2$ unitary transformations to synthesize prescribed coherence matrices, and reconstruct the coherence matrices via measurements of the spatial Stokes parameters. These results indicate the possibility of deploying programmable photonics for producing large-dimensional structured partially coherent light for applications in communications, cryptography, sensing, and spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2601.09802",
+    "authors": [
+      "Amin Hashemi",
+      "Abbas Shiri",
+      "Bahaa E. A. Saleh",
+      "Andrea Blanco-Redondo",
+      "Ayman F. Abouraddy"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.09845",
+    "title": "Stability and Vibrations of Proteins in Vacuum and Water: Bridging Quantum Accuracy and Force-Field Efficiency",
+    "abstract": "           Predicting biomolecular thermodynamics and spectroscopy requires accurate relative energies of metastable states and local curvatures on the potential-energy surface. We show that the general-purpose SO3LR machine-learned force field (MLFF) reproduces PBE0+MBD density-functional theory with unprecedented fidelity across bio-relevant molecules spanning sizes and complexities far beyond its training dataset. For 23 small molecules, SO3LR captures harmonic and anharmonic vibrational features, including frequencies, displacement patterns, and IR spectra. We perform detailed dynamical studies of the amino acid oF-Phe+, folding of the alanine-15 peptide, and assembly of monomeric p53 transactivation domains into tetramers, in vacuum and water. SO3LR consistently reproduces DFT-level potential-energy surfaces, vibrational densities of states, and mode eigenvectors, capturing anharmonicity, polarization, and medium-range environment-driven interactions crucial for proteins. Our results establish that MLFF-driven dynamics provide a quantum-accurate picture of metastable minima and vibrational properties, achieving DFT-level accuracy at force-field computational cost and opening new possibilities for the computational study of biomolecules.         ",
+    "url": "https://arxiv.org/abs/2601.09845",
+    "authors": [
+      "Sergio Su\u00e1rez-Dou",
+      "Miguel Gallegos",
+      "Kyunghoon Han",
+      "Florian N. Br\u00fcnig",
+      "Joshua T. Berryman",
+      "Alexandre Tkatchenko"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.09885",
+    "title": "Variable coherence model for free-electron laser pulses",
+    "abstract": "           We introduce the variable coherence model (VCM) for simulating free-electron laser (FEL) pulses generated through self-amplified spontaneous emission. Building on the established partial coherence model of [T. Pfeifer et. al, Opt. Lett. 35, 3441 (2010)], we demonstrate that the implementation of a variable coherence width allows for continuous control over the pulses' characteristic noise, while keeping the average pulse parameters such as the bandwidth fixed. We demonstrate this through systematic statistical analyses of the intensity and number of sub-pulses in VCM pulses, in both time and frequency. In particular, we analyze how the sub-pulse statistics are affected by the coherence width parameter. We perform our analyses across three distinct regimes of FEL parameters and demonstrate how the VCM can generate pulses that range from maximally random to fully coherent. Finally, we illustrate the effect of the VCM variable coherence width on an absorption simulation.         ",
+    "url": "https://arxiv.org/abs/2601.09885",
+    "authors": [
+      "Austin Bartunek",
+      "Nils H. Sommerfeld",
+      "Francois Mauger"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10002",
+    "title": "Hybrid Quantum Algorithms for Computational Chemistry: Application to the Pyridine-Li ion Complex",
+    "abstract": "           Accurately capturing electron correlation in large-scale molecular systems remains one of the foremost challenges in quantum chemistry and a primary driver for the development of quantum algorithms. Classical configuration-interaction methods, while rigorous, suffer from exponential scaling, rendering them impractical for large or strongly correlated systems. Overcoming this limitation is central to realizing the promise of quantum computing in chemistry. Here, we investigate the pyridine-Li ion complex using three quantum algorithms: the variational quantum eigensolver (VQE), the subspace quantum diagonalization (SQD) method, and the recently introduced handover iterative VQE (HI-VQE). Our results demonstrate how new generations of hybrid quantum-classical frameworks overcome the scalability and noise sensitivity that constrain conventional VQE approaches. SQD and HI-VQE achieve ground-state energy calculations for problem sizes inaccessible to classical computation, marking a clear advance toward quantum advantage. In particular, HI-VQE enables calculations within active spaces as large as (24e,22o), requiring 44 qubits-well beyond the reach of classical CASCI and VQE. This capability provides a systematic pathway for incorporating increasing numbers of electrons into quantum treatment, thereby approaching exact molecular energies. Importantly, both SQD and HI-VQE exhibit robustness against hardware noise, a critical improvement over earlier approaches. By enabling quantum simulations of molecular systems previously deemed intractable, SQD and HI-VQE offer a realistic route toward practical quantum advantage in computational chemistry. The comparison between HI-VQE and SQD shows that optimizing circuit parameters is crucial for accurate simulation.         ",
+    "url": "https://arxiv.org/abs/2601.10002",
+    "authors": [
+      "Fatemeh Ghasemi",
+      "Yousung Kang",
+      "Yukio Kawashima",
+      "Kyungsun Moon"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10287",
+    "title": "Quantum bianisotropy in light-matter interaction",
+    "abstract": "           Quantum bianisotropy and chirality are fundamental concepts in light matter interaction that describe how materials with broken symmetries respond to electromagnetic fields at the level of macroscopic quantum electrodynamics. In quantum bianisotropy, magnetoelectric (ME) energy plays a critical role in mediating and enhancing light matter interactions. This concept is essential for bridging the gap between classical electromagnetics (where bianisotropy often involves field nonlocality) and quantum mechanics in metamaterials. The precise manipulation of a quantum emitter's properties at a subwavelength scale is due to near fields, which effectively function as a tunable environment. We show that the ME near field, interpreted as a structure combining the effect of bianisotropy (chirality) with a quantum atmosphere, is a nonMaxwellian field with spacetime symmetry breaking. Quantum ME fields arise from the dynamic modulation and topological coupling of magnetization and electric polarization within ME meta atoms, specific subwavelength structural elements with magnetic and dielectric subsystems in magnetic insulators.         ",
+    "url": "https://arxiv.org/abs/2601.10287",
+    "authors": [
+      "E. O. Kamenetskii"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10327",
+    "title": "Neural-network-based high-speed and high-definition full-field dynamic optical coherence tomography",
+    "abstract": "           A neural-network (NN)-based method for high-speed, high-definition dynamic optical coherence tomography (DOCT) using full-field swept-source optical coherence microscopy (FF-SS-OCM) is demonstrated. FF-SS-OCM provides high-definition OCT images, but, particularly in DOCT imaging, it results in a significant enlargement of the data size and subsequently long data streaming and processing time, which prevents high-throughput imaging. We address this issue by introducing an NN-based DOCT method that generates high-definition logarithmic intensity variance (LIV) -based DOCT images from only four OCT volumes, whereas the conventional method required 32 volumes. The NN model successfully generates an LIV image that is qualitatively and quantitatively similar to the LIV image computed from 32 volumes. This approach significantly reduces data size, transfer time, and processing time for DOCT imaging by a factor of eight. Specifically, these were reduced from 42 GB to 5.3 GB, 7 min to 55 s, and 4 hours to 30 min, respectively.         ",
+    "url": "https://arxiv.org/abs/2601.10327",
+    "authors": [
+      "Suzuyo Komeda",
+      "Nobuhisa Tateno",
+      "Yusong Liu",
+      "Rion Morishita",
+      "Xibo Wang",
+      "Ibrahim Abd El-Sadek",
+      "Atsuko Furukawa",
+      "Satoshi Matsusaka",
+      "Shuichi Makita",
+      "Yoshiaki Yasuno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10363",
+    "title": "A compact Optical Liquid Argon Facility at Roma Tre",
+    "abstract": "           In this paper we present a compact test facility for the measurement of optical properties of liquid argon as scintillation detector. The setup is under preparation at Roma Tre and it has a volume of 40 L liquid argon, which is liquefied from argon gas with a purity of $\\ge 99.9999\\%$ vol. To readout the scintillation photons from liquid argon with the highest intensity near 127 nm, we use the vacuum ultraviolet silicon photomultipliers from Hamamatsu. By submerging the photon detectors directly inside the liquid argon, we can eliminate the systematics from the wave length shifter and light guides which have been commonly used to detect the scintillation photons of liquid argon.         ",
+    "url": "https://arxiv.org/abs/2601.10363",
+    "authors": [
+      "Hexi Shi",
+      "Valerio D'Andrea",
+      "Krzysztof Szczepaniec",
+      "Giuseppe Salamanna",
+      "Diego Tagnani"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10546",
+    "title": "Spatio-spectrally tailored multimode metasurface lasers in the visible range",
+    "abstract": "           Spectrally engineered multifrequency nanolasers are highly desirable for on-chip photonics, multiplexed biosensing, and display technologies; yet, achieving them within a single compact platform remains challenging. Here, we demonstrate multimode lasing from symmetry-broken TiO2 metasurfaces integrated with an SU8 slab waveguide containing Rhodamine 6G. By co-engineering guided-mode resonances, surface lattice resonances near Rayleigh anomalies, and quasi-bound states in the continuum, we realize complementary high-Q feedback pathways that overlap with the gain spectrum. The direction of the lasing emission is tailored through outcoupling via second-order Bragg diffraction and Rayleigh anomaly conditions, supporting both normal and oblique emission. Experiments reveal discrete lasing outputs across ~100 nm bandwidth (548-648 nm), spanning nearly the full Rhodamine 6G emission band, with thresholds as low as ~7 nJ per pulse (35.7 uJ/cm^2) and up to four concurrent lasing peaks from a single device. These results establish a metasurface-dye platform for multifrequency and angle-selective lasing, opening new opportunities for compact, multifunctional nanophotonic sources.         ",
+    "url": "https://arxiv.org/abs/2601.10546",
+    "authors": [
+      "Ayesheh Bashiri",
+      "Aleksandr Vaskin",
+      "Katsuya Tanaka",
+      "Muyi Yang",
+      "Thomas Pertsch",
+      "Isabelle Staude"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10575",
+    "title": "Electro-optic frequency comb Doppler thermometry",
+    "abstract": "           We demonstrate a Doppler thermometer based on direct optical frequency comb spectroscopy of an $^{85}$Rb vapor with a chirped electro-optic frequency comb (EOFC). The direct EOFC Doppler thermometer is accurate to within its approximately 1 K statistical uncertainty. We experimentally compare direct EOFC spectroscopy with conventional Doppler spectroscopy using a single-frequency, step-scanned laser probe. Our results show that direct EOFC spectroscopy mitigates transit-induced optical pumping distortion of the atomic lineshape, which is the dominant systematic temperature shift in alkali atom Doppler thermometry. Optical Bloch equation simulations of conventional and direct EOFC Doppler spectroscopy confirm that EOFC spectroscopy can use higher optical power to reduce statistical noise without optical pumping distortion. Our results indicate that EOFC Doppler thermometry is a promising approach to realizing a primary thermometer with size and measurement rate sufficient for applications including pharmaceutical manufacturing and nuclear waste monitoring.         ",
+    "url": "https://arxiv.org/abs/2601.10575",
+    "authors": [
+      "Sean M. Bresler",
+      "Erin M. Adkins",
+      "Stephen P. Eckel",
+      "Tobias K. Herman",
+      "David A. Long",
+      "Benjamin J. Reschovsky",
+      "Daniel S. Barker"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10695",
+    "title": "Quantum geometry of the rotating shallow water model",
+    "abstract": "           The rotating shallow water equations (RSWE) are a mainstay of atmospheric and oceanic modeling, and their wave dynamics has close analogues in settings ranging from two-dimensional electron gases to active-matter fluids. While recent work has emphasized the topological character of RSWE wave bands, here we develop a complementary quantum-geometric description by computing the full quantum geometric tensor (QGT) for the linearized RSWE on an $f$-plane. The QGT unifies two pieces of band geometry: its real part defines a metric that quantifies how rapidly wave polarization changes with parameters, while its imaginary part is the Berry curvature that controls geometric phases and topological invariants. We obtain compact, symmetry-guided expressions for all three bands, highlighting the transverse structure of the metric and the monopole-like Berry curvature that yields Chern numbers for the Poincar\u00e9 bands. Finally, we describe a feasible route to probing this geometry in rotating-tank experiments via weak, time-periodic parametric driving.         ",
+    "url": "https://arxiv.org/abs/2601.10695",
+    "authors": [
+      "Sriram Ganeshan",
+      "Alan T. Dorsey"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.09854",
+    "title": "Multi-level quantum emitter in an optical waveguide: paradoxes and resolutions",
+    "abstract": "           We theoretically investigate the optical dipole interaction between a multi-level quantum system and a single-mode optical waveguide of any local polarisation. We investigate several paradoxical seeming situations, for example we find a situation in which there exist two non-orthogonal quantum states, each of which results in a photon flux in the opposite direction to the other. We show how, despite appearances, this does not break the unitary requirements of quantum mechanics. We also find that an isotropic quantum emitter can be either reflective or transmissive to light depending on the waveguide polarisation at the emitter location, indeed in the zero loss limit such a system changes from 100% transmission to 100% reflection due to an infinitesimal polarisation rotation. An example case for a four level system is also considered, which is found to operate as a non-destructive parity measurement of the photon number.         ",
+    "url": "https://arxiv.org/abs/2601.09854",
+    "authors": [
+      "Ben Lang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10118",
+    "title": "Casimir interactions as a probe of broadband optical response",
+    "abstract": "           Casimir forces arise from quantum electromagnetic fluctuations and depend on the dielectric response of interacting materials across the entire frequency spectrum. Although this dependence is central to Lifshitz theory of the Casimir effect, the formulation of the force in terms of dielectric functions evaluated at imaginary frequencies has largely obscured its connection to real-frequency optical properties, limiting the use of Casimir interactions as a probe of materials. Here we demonstrate that Casimir force measurements encode sufficient information to reconstruct a material's broadband optical response. Using supervised machine learning to invert Lifshitz theory, we determine the complex permittivity of a material over more than seven orders of magnitude in frequency from a single force-distance curve. We show that measurements at different separations selectively constrain distinct frequency ranges of the dielectric response, providing direct physical insight into how quantum fluctuations sample the electromagnetic spectrum. These results establish Casimir interactions as a physically constrained, broadband spectroscopic tool and open new opportunities for optical characterization in regimes inaccessible to conventional techniques.         ",
+    "url": "https://arxiv.org/abs/2601.10118",
+    "authors": [
+      "Calum F. Shelden",
+      "Jeremy N. Munday"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10166",
+    "title": "Computing Statistical Properties of Velocity Fields on Current Quantum Hardware",
+    "abstract": "           Quantum algorithms are gaining attention in Computational Fluid Dynamics (CFD) for their favorable scaling, as encoding physical fields into quantum probability amplitudes enables representation of two to the power of n spatial points with only n qubits. A key challenge in Quantum CFD is the efficient readout of simulation results, a topic that has received limited attention in literature. This work presents methods to extract statistical properties of spatial velocity fields, such as central moments and structure functions, directly from parameterized ansatz circuits, avoiding full quantum state tomography. As a proof of concept, we implement our approach for 1D velocity fields, encoding 16 spatial points with 4 qubits, and analyze both a sine wave signal and four snapshots from Burgers' equation evolution. Using Qedma's error mitigation software QESEM, we demonstrate that such computations achieve high accuracy on current quantum devices, specifically IBMQ's Heron2 system ibm_fez.         ",
+    "url": "https://arxiv.org/abs/2601.10166",
+    "authors": [
+      "Miriam Goldack",
+      "Yosi Atia",
+      "Ori Alberton",
+      "Karl Jansen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10194",
+    "title": "Autonomous Quantum Simulation through Large Language Model Agents",
+    "abstract": "           We demonstrate that large language model (LLM) agents can autonomously perform tensor network simulations of quantum many-body systems, achieving approximately 90% success rate across representative benchmark tasks. Tensor network methods are powerful tools for quantum simulation, but their effective use requires expertise typically acquired through years of graduate training. By combining in-context learning with curated documentation and multi-agent decomposition, we create autonomous AI agents that can be trained in specialized computational domains within minutes. We benchmark three configurations (baseline, single-agent with in-context learning, and multi-agent with in-context learning) on problems spanning quantum phase transitions, open quantum system dynamics, and photochemical reactions. Systematic evaluation using DeepSeek-V3.2, Gemini 2.5 Pro, and Claude Opus 4.5 demonstrates that both in-context learning and multi-agent architecture are essential. Analysis of failure modes reveals characteristic patterns across models, with the multi-agent configuration substantially reducing implementation errors and hallucinations compared to simpler architectures.         ",
+    "url": "https://arxiv.org/abs/2601.10194",
+    "authors": [
+      "Weitang Li",
+      "Jiajun Ren",
+      "Lixue Cheng",
+      "Cunxi Gong"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10401",
+    "title": "A comparison of simulation tools for Muon-Induced X-ray Emission (MIXE) in thin films: a study case with lithium batteries",
+    "abstract": "           We present a comparative study of three Monte Carlo simulation frameworks -SRIM, GEANT4, and PHITS- for modeling the transport, stopping, and atomic cascade of negative muons in micrometer-scale, multilayer systems relevant to Muon-Induced X-ray Emission (MIXE) experiments at the Paul Scherrer Institute (PSI). Using a lithium-ion battery as a benchmark target, simulated implantation profiles are compared with experimental data from the GIANT spectrometer. All three codes reproduce the overall muon depth distributions with good consistency, even across sharp density contrasts. SRIM provides reliable implantation estimates for compact geometries, whereas PHITS reproduces GEANT4 results with comparable accuracy and additionally generates muonic X-ray spectra. These spectra, however, exhibit a systematic energy offset in the K-line transitions of medium- and high-Z elements relative to theoretical and experimental values. Despite this bias, PHITS accurately captures relative intensities and spectral shapes, enabling element-specific line identification. The results demonstrate that SRIM and PHITS constitute practical tools for rapid estimation of muon implantation and stopping profiles, and that PHITS holds strong potential for predictive MIXE spectroscopy once its transition-energy bias is corrected.         ",
+    "url": "https://arxiv.org/abs/2601.10401",
+    "authors": [
+      "Maxime Lamotte",
+      "Michael W. Heiss",
+      "Thomas Prokscha",
+      "Alex Amato"
+    ],
+    "subjectives": [
+      "High Energy Physics - Experiment (hep-ex)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10588",
+    "title": "Searching for Quantum Effects in the Brain: A Bell-Type Test for Nonclassical Latent Representations in Autoencoders",
+    "abstract": "           Whether neural information processing is entirely classical or involves quantum-mechanical elements remains an open question. Here we propose a model-agnostic, information-theoretic test of nonclassicality that bypasses microscopic assumptions and instead probes the structure of neural representations themselves. Using autoencoders as a transparent model system, we introduce a Bell-type consistency test in latent space, and ask whether decoding statistics obtained under multiple readout contexts can be jointly explained by a single positive latent-variable distribution. By shifting the search for quantum-like signatures in neural systems from microscopic dynamics to experimentally testable constraints on information processing, this work opens a new route for probing the fundamental physics of neural computation.         ",
+    "url": "https://arxiv.org/abs/2601.10588",
+    "authors": [
+      "I. K. Kominis",
+      "C. Xie",
+      "S. Li",
+      "M. Skotiniotis",
+      "G. P. Tsironis"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Machine Learning (cs.LG)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10689",
+    "title": "Mitigating nonlinear transduction noise in high-cooperativity cavity optomechanics",
+    "abstract": "           Coupling mechanical motion to an optical resonator enables displacement measurements approaching the standard quantum limit (SQL). However, increasing the optomechanical coupling strength will inevitably lead to probing of the nonlinear response of the optical resonator. Thermal intermodulation noise (TIN) arising from the nonlinear mixing of thermomechanical motion can further increase the imprecision well above the SQL and has hitherto been canceled up to second order of nonlinearity via operation at the \"magic detuning\". In this work, we record the output of a membrane-in-the-middle microcavity system operating at room temperature and achieving high cooperativity, $C>n_\\text{th}$, and apply a nonlinear transform that removes all orders of TIN, improving the mechanical signal-to-noise ratio by nearly 10 dB. Our results can be applied to experiments affected by third-order TIN, which we expect to be the dominating intrinsic source of noise in high-cooperativity room-temperature cavity optomechanical systems.         ",
+    "url": "https://arxiv.org/abs/2601.10689",
+    "authors": [
+      "Daniel Allepuz-Requena",
+      "Zohran Ali",
+      "Dennis H\u00f8j",
+      "Yingxuan Chen",
+      "Luiz Couto Correa Pinto Filho",
+      "Alexander Huck",
+      "Ulrik L. Andersen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.14478",
+    "title": "Towards Quantum Accelerated Large-scale Topology Optimization",
+    "abstract": "           We present a new method that efficiently solves TO problems and provides a practical pathway to leverage quantum computing to exploit potential quantum advantages. This work targets on large-scale, multi-material TO challenges for three-dimensional (3D) continuum structures, beyond what have been addressed in prior studies. Central to this new method is the modified Dantzig-Wolfe (MDW) decomposition, which effectively mitigates the escalating computational cost associated with using classical Mixed-Integer Linear Programming (MILP) solvers to solve the master problems involved in TO, by decomposing the MILP into local and global sub-problems. Evaluated on 3D bridge designs, our classical implementation achieves comparable solution quality to state-of-the-art TO methods while reducing computation time by orders of magnitude. It also maintains low runtimes even in extreme cases where classical MILP solvers fail to converge, such as designs involving over 50 million variables. The computationally intensive local sub-problems, which are essentially Binary Integer Programming (BIP) problems, can potentially be accelerated by quantum computing via their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations. Enabled by the MDW decomposition, the resulting QUBO formulation requires only sparse qubit connectivity and incurs a QUBO construction cost that scales linearly with problem size, potentially accelerating BIP sub-problem solutions by an additional order of magnitude. All observed and estimated speedups become increasingly significant with larger problem sizes and when moving from single-material to multi-material designs. This suggests that this new method, along with quantum computing, will play an increasingly valuable role in addressing the scale and complexity of real-world TO applications.         ",
+    "url": "https://arxiv.org/abs/2507.14478",
+    "authors": [
+      "Zisheng Ye",
+      "Wenxiao Pan"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.17521",
+    "title": "Single-photon loading of polar molecules into an optical trap",
+    "abstract": "           We propose a scheme to transfer molecules from a slow beam into an optical trap using only a single photon absorption and emission cycle. The efficiency of such a scheme is numerically explored for BaF using realistic experimental parameters. The technique makes use of the state-dependent potential in an external electric field to trap molecules from an initial velocity of order 10 m/s. A rapid optical transition at the point where the molecules come to a standstill in the electric field potential irreversibly transfers them into a ~7 mk optical lattice trap. For a pulsed Stark decelerated beam, we estimated the per-shot efficiency to be ~0.52% or up to ~10$^4$ molecules, with a potential factor 2 improvement when the fields are synchronously modulated with the arriving velocity components. The irreversibility of the scheme allows for larger numbers to be built up over time. Since this scheme does not rely on a closed cycling transition for laser cooling, it broadens the range of molecules that can be used for research on cold molecular chemistry, quantum information, and fundamental interactions in optical traps.         ",
+    "url": "https://arxiv.org/abs/2507.17521",
+    "authors": [
+      "Bart J. Schellenberg",
+      "Eifion H. Prinsen",
+      "Janko Nauta",
+      "Luk\u00e1\u0161 F. Pa\u0161teka",
+      "Anastasia Borschevsky",
+      "Steven Hoekstra"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.08575",
+    "title": "Bridging Quantum Mechanics to Organic Liquid Properties via a Universal Force Field",
+    "abstract": "           Molecular dynamics (MD) simulations are essential tools for unraveling atomistic insights into the structure and dynamics of condensed-phase systems. However, the universal and accurate prediction of macroscopic properties from ab initio calculations remains a significant challenge, often hindered by the trade-off between computational cost and simulation accuracy. Here, we present ByteFF-Pol, a graph neural network (GNN)-parameterized polarizable force field, trained exclusively on high-level quantum mechanics (QM) data. Leveraging physically-motivated force field forms and training strategies, ByteFF-Pol exhibits exceptional performance in predicting thermodynamic and transport properties for a wide range of small-molecule liquids and electrolytes, outperforming state-of-the-art (SOTA) classical and machine learning force fields. The zero-shot prediction capability of ByteFF-Pol bridges the gap between microscopic QM calculations and macroscopic liquid properties, enabling the exploration of previously intractable chemical spaces. This advancement holds transformative potential for applications such as electrolyte design and custom-tailored solvent, representing a pivotal step toward data-driven materials discovery.         ",
+    "url": "https://arxiv.org/abs/2508.08575",
+    "authors": [
+      "Tianze Zheng",
+      "Xingyuan Xu",
+      "Zhi Wang",
+      "Zhenze Yang",
+      "Yuanheng Wang",
+      "Xu Han",
+      "Lei Chen",
+      "Zhenliang Mu",
+      "Ziqing Zhang",
+      "Siyuan Liu",
+      "Sheng Gong",
+      "Kuang Yu",
+      "Wen Yan"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.21583",
+    "title": "Systematic Study of Amorphous ABC Heterostructures at the Atomic Scale as a Second-Order Nonlinear Optical Metamaterial",
+    "abstract": "           Systematic exploration of amorphous ABC heterostructures revealed that nanoscale morphological modifications markedly improved their artificial bulk second-order susceptibility. These amorphous birefringent heterostructures were fabricated through plasma-enhanced atomic layer deposition of three oxides, effectively breaking the centrosymmetry on the nanoscale. We observe a dependence of the optical nonlinearity on the thickness variation of three constituent materials, SiO$_2$, TiO$_2$, and Al$_2$O$_3$, ranging from tens of nanometers to the atomic scale, and these thin films exhibit second-order susceptibility at their interfaces. Our findings reveal that the enhancement of nonlinear optical properties is strongly correlated with a high density of layers and superior interface quality, where the interface second-order nonlinearity transitions to bulk-like second-harmonic generation. An effective bulk second-order susceptibility of $\\chi_{zzz} = 2.0 \\pm 0.2$~pm/V at the wavelength of 1032~nm is achieved, comparable to typical values for conventional monocrystalline nonlinear materials.         ",
+    "url": "https://arxiv.org/abs/2509.21583",
+    "authors": [
+      "Martin Mi\u010dulka",
+      "Jinsong Liu",
+      "Sebastian Beer",
+      "Raihan Rafi",
+      "Denys Sevriukov",
+      "Sergiy Yulin",
+      "Vladimir Roddatis",
+      "Stephan Gierth",
+      "Stefan Nolte",
+      "Sven Schr\u00f6der",
+      "Isabelle Staude",
+      "Andreas T\u00fcnnermann",
+      "Adriana Szeghalmi"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.16135",
+    "title": "Unravelling inter-channel quantum interference in below-threshold nonsequential double ionization with statistical measures",
+    "abstract": "           We present a systematic study of interchannel quantum interference in laser-induced nonsequential double ionization (NSDI) within the strong-field approximation. Focusing on the below-threshold intensity regime where the recollision-excitation with subsequent ionization (RESI) pathway dominates, we derive analytical phase conditions governing interference between distinct excitation channels for arbitrary driving fields. To quantify the interplay between channels resulting from a vast number of interfering processes, we introduce statistical metrics based on the Earth Mover's Distance, allowing us to assess the relative weight of each channel's contribution to the two-electron photoelectron momentum distributions (PMDs). We identify key factors that determine whether interchannel interference is appreciable such as comparable channel intensities, strong spatial overlap between the excited-state wavefunctions and the energy difference between contributing channels. We demonstrate that for linearly polarized few-cycle pulses, the typical intrachannel interference features associated with exchange, temporal shifts and combined exchange-temporal interference are retained with interchannel interference. Our findings establish a hierarchy of interference mechanisms in RESI and may provide practical guidelines for enhancing or suppressing interference in different regions of the momentum plane. The toolkit presented in this work is transferable to a wide range of interferometric schemes involving different excitation channels.         ",
+    "url": "https://arxiv.org/abs/2510.16135",
+    "authors": [
+      "S. Hashim",
+      "C. Figueira de Morisson Faria"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.26540",
+    "title": "Patch-MLP-Based Predictive Control: Simulation of Upstream Pointing Stabilization for PHELIX Laser System",
+    "abstract": "           High-energy laser facilities such as PHELIX at GSI require excellent beam pointing stability for reproducibility and relative independence for future experiments. Beam pointing stability has been traditionally achieved using simple proportional-integral-derivative (PID) control which removes the problem of slow drift, but is limited because of the time delay in knowing the diagnosis and the inertia in the mechanical system associated with mirrors. In this work, we introduce a predictive control strategy where the forecasting of beam pointing errors is performed by a patch-based multilayer perceptron (Patch-MLP) designed to capture local temporal patterns for more robust short-term jitter prediction. The subsequent conversion of these predicted errors into correction signals is handled by a PID controller. The neural network has been trained on diagnostic time-series data to predict beam pointing error. Using the feed-forward controller compensates for system delays. Simulations with a correction mirror placed upstream of the PHELIX pre-amplifier bridge confirm that the predictive control scheme reduces residual jitter compared to conventional PID control. Over a 10-hour dataset the controller maintained stable performance without drift, while standard pointing metrics showed consistent improvements of the order of 10 to 20 percent. The predictive controller operates without drift, and therefore may improve reproducibility and operational efficiency in high energy, low repetition rate laser experiment conditions.         ",
+    "url": "https://arxiv.org/abs/2510.26540",
+    "authors": [
+      "Jiaying Wang",
+      "Jonas Benjamin Ohland",
+      "Yen-Yu Chang",
+      "Vedhas Pandit",
+      "Stefan Bock",
+      "Andrew-Hiroaki Okukura",
+      "Udo Eisenbarth",
+      "Arie Irman",
+      "Michael Bussmann",
+      "Ulrich Schramm",
+      "Jeffrey Kelling"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.08255",
+    "title": "The 1/3 Geometric Constant: Scale Invariance and the Origin of \"Missing Energy\" in 3D Quantum Fragmentation",
+    "abstract": "           We report a fundamental geometric constraint on the detection of kinetic energy release (KER) in three-dimensional quantum fragmentation. By investigating the sudden dissociation of Slater-type orbitals, physically motivated basis for localized states, we demonstrate that the ratio of the peak detected energy to the integrated mean, $R_E = E_{\\text{peak}}/\\langle E \\rangle$, is strictly bounded below $0.5$ for all physical parameter spaces. We systematically map the behavior of $R_E$ across the orbital localization ($\\zeta$) and effective repulsive charge ($Q$) landscape. Our results show that while $R_E$ exhibits sensitivity to the force-field geometry at atomic scales, it converges to a remarkably stable, scale-invariant constant of $\\approx 0.33$ in the high-localization limit ($M \\propto \\zeta$) characteristic of subatomic ground states ($n=1$,$Q=1$). This $1/3$ geometric constant provides a provocative first-principles interpretation of the historical ``missing energy'' problem in nuclear physics. We suggest that the $1/3$ average energy ratio observed in Beta decay spectra may be a topological artifact of the $4\\pi r^2$ volume weighting inherent to 3D wavefunctions, rather than exclusively a signature of undetected mass. This work establishes $R_E < 0.5$ as a universal geometric baseline for quantum simulations and offers a new framework for reconstructing the true energy budget in subatomic calorimetry by correcting for the intrinsic masking effects of 3D radial geometry.         ",
+    "url": "https://arxiv.org/abs/2601.08255",
+    "authors": [
+      "Jinzhen Zhu"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.08261",
+    "title": "Terahertz Communications Using Effective-Medium-Slot Waveguides",
+    "abstract": "           All-dielectric effective-medium-clad waveguides have been widely exploited in terahertz communications owing to their extremely low loss, low dispersion, and broad bandwidth. In this work, we propose a substrateless effective-medium-slot waveguide. Additionally, we introduce a taper-free interface that allows terahertz waves to directly couple from a metallic hollow waveguide without requiring dielectric insertion. By engineering slot couplers with an effectivemedium channel for impedance and modal matching, the waveguide achieves a fractional 3-dB bandwidth of 40% with a maximum coupling efficiency of 90% in the WR-2.2 band (330-500 GHz). By employing a broadband uni-traveling-carrier photodiode transmitter and sub-harmonic mixer receivers, we achieve an aggregated data rate of 0.8 Tbit/s with quadrature amplitude modulation schemes across 14 channels from 330-600 GHz. The effective-medium-slot waveguide platform yields robust broadband coupling with enhanced mechanical protection, offering reliable interconnects for ultra-high-speed terahertz integrated systems.         ",
+    "url": "https://arxiv.org/abs/2601.08261",
+    "authors": [
+      "Nguyen H. Ngo",
+      "Weijie Gao",
+      "Guillaume Ducournau",
+      "Hadjer Nihel Khelil",
+      "Rita Younes",
+      "Pascal Szriftgiser",
+      "Hidemasa Yamane",
+      "Yoshiharu Yamada",
+      "Shuichi Murakami",
+      "Withawat Withayachumnankul",
+      "Masayuki Fujita"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2010.13502",
+    "title": "Theoretical Design of Effective Multilayer Optical Coatings Using Oxyhydride Thin Films",
+    "abstract": "           Rare-earth metal oxyhydride compositions are currently attracting increasing attention to develop materials with unusual optical responses. Herein, using computer simulations of the electronic and optical properties, the optical responses of two stable yttrium oxyhydride compounds, Y4H10O and YHO, are studied for the visible light range. The emphasis is on modeling macroscopic optical characteristics, which are numerically derived within a conventional scheme using refractive indices, and absorption, transmittance, and reflection spectra. The main goal is twofold: first, to simulate spectral behavior of different single-phase and two-phase oxyhydride compositions and second, to conduct a comparative analysis that could explain the features of the transmission spectra measured for different samples. Based on the obtained results, models of new optical coatings are proposed in which yttrium oxyhydrides play the key role. In the context of nonlinear optics, the frequency profile of the second-order susceptibility for the noncentrosymmetric cubic structure of Y4H10O is evaluated and it is shown that this system could exhibit large optical nonlinearity.         ",
+    "url": "https://arxiv.org/abs/2010.13502",
+    "authors": [
+      "E. Strugovshchikov",
+      "A. Pishtshev",
+      "S. Karazhanov"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
