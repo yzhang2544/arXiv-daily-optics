@@ -1,0 +1,394 @@
+[
+  {
+    "id": "arXiv:2602.16851",
+    "title": "MxDiffusion: A Physics-Aware Maxwells Law-Guided Diffusion Model Strategy for Inverse Photonic Metasurface Design",
+    "abstract": "           We introduce MxDiffusion, a hybrid physics- and data-driven diffusion-based framework that enables efficient and highly accurate generation of photonic structures from target optical properties. The improved accuracy is achieved through a two-stage generation strategy, in which the first diffusion model is explicitly trained with Maxwells equation-based loss to embed physical insight directly into the inverse design process, while the second model maps the physically consistent intermediate representation to the final structural geometry with significantly higher fidelity than solely data-driven approaches. The performance of MxDiffusion is validated on two representative applications: gold nanostructures patterned on a silica substrate and a highly tunable bandpass filter based on phase change material. In both cases, the proposed framework consistently outperforms a conventional data-driven diffusion model benchmark, particularly for out-of-training-distribution design targets and highly constrained resonance conditions. These results demonstrate the efficacy and superiority of MxDiffusion as a general physics-guided inverse design paradigm.         ",
+    "url": "https://arxiv.org/abs/2602.16851",
+    "authors": [
+      "Sujoy Mondal",
+      "Taehyuk Park",
+      "Sudipta Biswas",
+      "Alan X. Wang",
+      "Wenshan Cai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.16884",
+    "title": "Enhanced Hot Electron Preheat Observed in Magnetized Laser Direct-Drive Implosions",
+    "abstract": "           Hard x-ray emission, associated with hot electron preheat, in direct-drive implosions was observed to be enhanced by a factor of $1.5\\pm0.1$ by application of a $10$ T magnetic field. The applied magnetic field reaches a quasi steady-state aligned with the ablation flow prior to the onset of laser-plasma instabilities in the corona. Hot electrons that would otherwise escape the corona and lead to capsule charging in unmagnetized implosions are confined in a mirror-mode of the magnetic field in magnetized implosions. These hot electrons are shown to subsequently pitch-angle scatter from the mirror onto the capsule, thereby leading to the observed hard x-ray generation in magnetized implosions. Consequently, the energy of charged-fusion products, associated with the capsule charging, are observed to decrease when the implosion is magnetized. These results intensify the need to mitigate laser-plasma instabilities -- particularly for magnetized implosions -- to maximize fusion gain and implosion efficiency.         ",
+    "url": "https://arxiv.org/abs/2602.16884",
+    "authors": [
+      "M. Cufari",
+      "M. Gatu Johnson",
+      "C.K. Li",
+      "J.A. Frenje",
+      "P.W. Moloney",
+      "A.J. Crilly",
+      "P.V. Heuer",
+      "J.R. Davies"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17024",
+    "title": "Integrated Photonic Polarization Synthesizer and Analyzer",
+    "abstract": "           Polarization-resolved control and measurement of the optical field are essential for a wide range of photonic systems, including coherent communication, polarimetric sensing, and quantum information processing. We present a photonic integrated circuit that enables the generation and analysis of arbitrary polarization states. The device provides reconfigurable access to the full polarization degree of freedom of coherent light within a single integrated platform. We experimentally demonstrate arbitrary polarization state generation spanning the Poincare sphere, as well as Stokes vector measurement on chip. Unlike conventional Stokes measurements that rely on direct detection, polarization analysis utilizing this architecture is intrinsically non-destructive, preserving the optical signal for further optical domain processing. The devices are fabricated in a commercial foundry using CMOS-compatible processes, enabling scalable and reproducible integration. By combining polarization generation and analysis in a compact and stable photonic circuit, this work eliminates the need for external polarization optics and provides a foundation for robust, polarization-enabled photonic integrated systems.         ",
+    "url": "https://arxiv.org/abs/2602.17024",
+    "authors": [
+      "Carson G. Valdez",
+      "Anne R. Kroo",
+      "Anna J. Miller",
+      "Charles Roques-Carmes",
+      "David A. B. Miller",
+      "Olav Solgaard"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17042",
+    "title": "Quantum cascade laser roadmap",
+    "abstract": "           Quantum cascade lasers (QCLs) are unipolar semiconductor lasers first demonstrated in 1994. Since then, they have played a central role in advancing mid-infrared and terahertz photonics, becoming among the most reliable light sources in these regions of the electromagnetic spectrum. Their importance is further reinforced by their ability to generate self-starting optical frequency combs, whose investigation is motivated both by fundamental physics and by a wide range of applications, including molecular spectroscopy and free-space optical communications. This Roadmap provides a unified overview of current advances and emerging directions in QCL research. The chapters are organized into three main sections: device design and technology; frequency combs and pulse formation; and applications of QCLs. Each chapter reviews the relevant background, summarizes the current state of the art, and identifies key challenges and future directions within its specific research area.         ",
+    "url": "https://arxiv.org/abs/2602.17042",
+    "authors": [
+      "Carlo Silvestri",
+      "Aleksandar D. Raki\u0107",
+      "Dragan Indjin",
+      "Ali Khalatpour",
+      "Christian Jirauschek",
+      "Aleksandar Demic",
+      "Zoran Ikonic",
+      "Paul Dean",
+      "Nikola Vukovi\u0107",
+      "Jelena Radovanovi\u0107",
+      "Lianhe Li",
+      "Edmund Linfield",
+      "Michael Jaidl",
+      "Karl Unterrainer",
+      "Giacomo Scalari",
+      "J\u00e9r\u00f4me Faist",
+      "Lorenzo Luigi Columbo",
+      "Massimo Brambilla",
+      "Marco Piccardo",
+      "Sukhdeep Dhillon",
+      "Mithun Roy",
+      "David Burghoff",
+      "Karl Bertling",
+      "Jari Torniainen",
+      "Xiaoqiong Qi",
+      "Thomas Taimre",
+      "Olivier Spitz",
+      "Fr\u00e9d\u00e9ric Grillot",
+      "Marilena Giglio",
+      "Angelo Sampaolo",
+      "Pietro Patimisco",
+      "Vincenzo Spagnolo",
+      "Eva A. A. Pogna",
+      "Xiao Guo",
+      "Rainer Hillenbrand",
+      "Mengkun Liu",
+      "Michael Br\u00fcnig",
+      "Adrian Cernescu",
+      "Alexander A. Govyadinov",
+      "Tecla Gabbrielli",
+      "Jacopo Pelini",
+      "Irene La Penna",
+      "Alessia Sorgi",
+      "Paolo De Natale",
+      "Davide Mazzotti",
+      "Iacopo Galli",
+      "Luigi Consolino",
+      "Francesco Cappelli",
+      "Simone Borri"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17061",
+    "title": "Full-Field Metasurface Characterization with Polarization Sensitive Coherent Modulation Imaging",
+    "abstract": "           Characterizing the intensity, phase, and polarization of engineered light is fundamental to understanding and applying metasurfaces. However, existing characterization frameworks are hindered by several limitations, most notably their inability to account for the polarization of the field. Here, we report polarization sensitive coherent modulation imaging (PS-CMI), a light-weight but robust, high-resolution platform for the full-field characterization of metasurface-modulated light. By supplementing the orthogonal x- and y- complex amplitude components with an additional 45\u00b0-component, this approach calculates the retardance between two orthogonal polarization components while eliminating phase offsets, thereby enabling the subsequent recovery of the complete polarization state. We demonstrate the versatility of our method by characterizing light fields produced by a United States Air Force (USAF) target, two kinds of complex polarization field, and a metalens. This compact solution addresses a critical gap in metasurface metrology and is broadly applicable to other fields requiring the mapping of complex, polarized light distributions.         ",
+    "url": "https://arxiv.org/abs/2602.17061",
+    "authors": [
+      "Xinjie Sun",
+      "Xin Liu",
+      "Zixin Cai",
+      "Yanghui Li",
+      "Xu Liu",
+      "Xiang Hao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17081",
+    "title": "Fluid viscoelasticity controls acoustic streaming via shear waves",
+    "abstract": "           Control of acoustic streaming can significantly impact fluid and particle transport in microfluidics. We report enhancement, suppression, and reversal of acoustic streaming inside a rectangular microchannel by controlling the fluid viscoelastic properties. Our study reveals that the streaming regimes depend on Deborah number ($De$) and viscous diffusion number ($Dv$), expressed in terms of a Streaming Coefficient ($C_s$). We find streaming is enhanced when $C_s>1$, suppressed for $0\\leq C_s\\leq1$, and reversed when $C_s<0$. We explain the regimes in terms of the interplay between the Reynolds and viscoelastic stresses that collectively drive fluid motion. Remarkably, we discover the role of viscoelastic shear waves in acoustic streaming transition characterized by the ratio of acoustic attenuation length and shear wavelength. We gain deeper insight into the streaming transition by examining energy dynamics in terms of the loss and storage moduli. Our study may find applications in acousto-microfluidics systems for particle handling and fluid pumping/mixing.         ",
+    "url": "https://arxiv.org/abs/2602.17081",
+    "authors": [
+      "T. Sujith",
+      "A. K. Sen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17158",
+    "title": "Stochastic tensor contraction for quantum chemistry",
+    "abstract": "           Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.         ",
+    "url": "https://arxiv.org/abs/2602.17158",
+    "authors": [
+      "Jiace Sun",
+      "Garnet Kin-Lic Chan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17313",
+    "title": "Far-field heat transfer and monochromatic thermal currents in a cylindrical nonreciprocal cavity",
+    "abstract": "           Breaking Kirchhoff's law of thermal radiation yields new opportunities in one-way radiative thermal transport and circuitry. We investigate its consequences in the far-field regime in cylindrical cavities, by employing a specular ray-tracing algorithm. At thermal equilibrium, we show that violation of Kirchhoff's law yields non-vanishing heat rectification coefficients within different sections of the cavity, which can be tuned for perfect rectification and circulation, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under nonequilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by appropriately combining reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.         ",
+    "url": "https://arxiv.org/abs/2602.17313",
+    "authors": [
+      "Guillem Masdemont",
+      "Julien Legendre",
+      "Georgia T. Papadakis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17325",
+    "title": "Formation of Hydroxyl Anion via a 2-Particle 1-Hole Feshbach Resonance in DEA to 2-Propanol: A Joint Experimental and Theoretical Study",
+    "abstract": "           Absolute cross sections for the formation of OH- from 2-propanol (CH3CH(OH)CH3) via dissociative electron attachment (DEA) are reported in the incident electron energy range of 3.5-13 eV. Four fragment anions are observed: OH-, C2H2O-, C2H4O-, and C3H7O-. The OH- yield exhibits a pronounced resonance centered at 8.2 eV together with a broader structure extending over the 8-10 eV region. Equation-of-Motion Coupled-Cluster (electron attached) calculations with Singles and Doubles combined with a Complex Absorbing Potential (CAP/EOM-EA-CCSD) assign this feature to a two-particle-one-hole (2p-1h) core-excited Feshbach resonance. Potential energy curves along the C-OH dissociation coordinate reveal that core-excited anion states in this energy range promote efficient cleavage of the hydroxyl group. Analysis of Dyson orbitals and resonance widths demonstrates that only states with repulsive antibonding sigma(C-OH) character and sufficiently long lifetimes contribute significantly to the observed OH- production. These results provide fundamental insight into the DEA dynamics of secondary alcohols and highlight the role of multi-electron-attached resonances in site-specific bond rupture induced by low-energy electrons.         ",
+    "url": "https://arxiv.org/abs/2602.17325",
+    "authors": [
+      "Siddique Ali",
+      "Meeneskhi Rana",
+      "Soumya Ghosh",
+      "Narayan Kundu",
+      "Aryya Ghosh",
+      "Dhananjay Nandi"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17368",
+    "title": "All-optical reconfiguration of far-field singularities in a photonic-crystal laser",
+    "abstract": "           Singular optics has emerged as an important research area with diverse applications, yet controlling optical singularities in nanophotonic emitters is typically limited by fixed subwavelength geometries and diffraction-limited control. Here, we circumvent this limitation and demonstrate an all-optical mechanism for reconfiguring far-field singularities in a photonic crystal laser. The underlying principle involves optical pumping, which creates a mesoscopic potential landscape whose spatial variations are slow compared to the lattice period. Such a potential localizes a Bloch band into trapped states whose envelope functions, and thus far-field singularity textures, are defined by the pump geometry. Using a honeycomb photonic crystal that supports a symmetry-protected bound state in the continuum, we achieve room-temperature telecom-band lasing with real-space polarisation singularities that are reconfigurable in both number and position, while the intrinsic momentum-space singularity at the $\\Gamma$-point is preserved. The experimental observations align quantitatively with an analytical framework that combines the Bloch mode of the structure and envelope function theory, establishing envelope engineering as a versatile route to programmable singular-light emission in active photonic lattices.         ",
+    "url": "https://arxiv.org/abs/2602.17368",
+    "authors": [
+      "Abhishek Padhy",
+      "Zhiyi Yuan",
+      "Mohammed Hamdad",
+      "Panagiotis Nianios",
+      "Romane Houvenaghel",
+      "Aziz Benamrouche",
+      "Nicolas Roy",
+      "Thanh Phong Vo",
+      "Christian Seassal",
+      "Xavier Letartre",
+      "Lotfi Berguiga",
+      "Micha\u00ebl Lobet",
+      "S\u00e9gol\u00e8ne Callard",
+      "Hai Son Nguyen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17000",
+    "title": "Power attenuation in millimeter-wave and terahertz superconducting rectangular waveguides: linear response, TLS loss, and Higgs-mode nonlinearity",
+    "abstract": "           Superconducting waveguides are a promising platform for ultralow-loss transmission in the millimeter-wave to terahertz band under cryogenic conditions, with potential applications in astronomical instrumentation and emerging quantum technologies. We develop a framework, based on microscopic superconductivity theory, to evaluate the power-flow attenuation constant $\\alpha$ of superconducting rectangular waveguides in the $100~\\mathrm{GHz}$--THz range, applicable to arbitrary electronic mean free paths $\\ell$ from the dirty limit $\\ell\\ll\\xi_0$ to the clean limit $\\ell\\gg\\xi_0$. We also derive an analytical expression for two-level-system (TLS)-induced attenuation $\\alpha_{\\rm TLS}$ in thin native oxide layers within the standard TLS model. Using this framework, we perform numerical evaluations of $\\alpha$ for representative materials over standard waveguide sizes from WR15 to WR1. In the high-frequency regime $f \\gtrsim 0.5 \\Delta/h$, low attenuation favors the clean regime $\\ell\\gtrsim\\xi_0$, indicating that high-purity materials can achieve very low attenuation below their gap frequency. For the TLS contribution, using parameter values representative of native Nb oxides, we find that $\\alpha_{\\rm TLS}$ can become relevant at sufficiently low temperatures $T/T_c\\lesssim 0.1$-0.2, where quasiparticle dissipation is exponentially suppressed. Finally, we extend the discussion to the strong-excitation regime using a recently developed nonlinear-response theory within the Keldysh--Usadel framework of nonequilibrium superconductivity and show that nonlinear dissipation produces a Higgs-mode peak in $\\alpha$ near $f\\simeq \\Delta/h$ via a Kerr-type nonlinearity of the dissipative conductivity. This peak provides a distinct hallmark of the Higgs mode that has been largely overlooked so far.         ",
+    "url": "https://arxiv.org/abs/2602.17000",
+    "authors": [
+      "Takayuki Kubo"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "Accelerator Physics (physics.acc-ph)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17212",
+    "title": "Phonon-enhanced strain sensitivity of quantum dots in two-dimensional semiconductors",
+    "abstract": "           Two-dimensional semiconductors have attracted considerable interest for integration into emerging quantum photonic networks. Strain engineering of monolayer transition-metal dichalcogenides (ML-TMDs) enables the tuning of light-matter interactions and associated optoelectronic properties, and generates new functionalities, including the formation of quantum dots (QDs). Here, we combine spatially resolved micro-photoluminescence ($\\mu$-PL) spectroscopy from cryogenic (4$\\text{-}$94 K) to room temperature with micro-Raman spectroscopy at room temperature to investigate the strain-dependent emission energies of thousands of individual QDs in ML-WS$_2$ and ML-WSe$_2$, integrated across multiple heterostructures and a piezoelectric device. Compared with delocalized excitons, QDs in both materials exhibit enhanced strain sensitivities of their emission energies $-$ approximately fourfold in WS$_2$ and twofold in WSe$_2$ $-$ leading to pronounced broadening of the ensemble emission linewidth. Temperature-dependent $\\mu$-PL spectroscopy combined with dynamic strain tuning experiments further reveal that the enhanced strain sensitivity of individual QDs originates from strengthened interactions with low-energy phonons induced by quantum confinement. Our results demonstrate a versatile strain-engineering approach with potential for spectral matching across solid-state, atomic, and hybrid quantum photonic networks, and provide new insights into phonon-QD interactions in two-dimensional semiconductors.         ",
+    "url": "https://arxiv.org/abs/2602.17212",
+    "authors": [
+      "Sumitra Shit",
+      "Yunus Waheed",
+      "Jithin Thoppil Surendran",
+      "Indrajeet Dhananjay Prasad",
+      "Kenji Watanabe",
+      "Takashi Taniguchi",
+      "Santosh Kumar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17496",
+    "title": "Tracking the Brownian motion of DNA-functionalized magnetic nanoparticles for conformation analysis beyond the optical resolution limit",
+    "abstract": "           Brownian motion provides access to hydrodynamic properties of nanoscale objects independent of their optical resolvability. Here, we present a diffusion-based approach to infer effective particle size distributions of DNA-functionalized magnetic nanoparticles (MNPs), consisting of a magnetic core and a polystyrene shell, in a regime where direct geometric sizing is limited by optical diffraction. Using multi-particle tracking microscopy, we analyze the Brownian dynamics of MNPs grafted with double-stranded DNA (dsDNA) of varying contour length under low-salt conditions. A physically motivated model is introduced that relates dsDNA contour length to an effective hydrodynamic diameter via an attenuated corona description. The measured diffusion coefficient distributions exhibit a systematic and monotonic dependence on dsDNA length in quantitative agreement with the model. While the tracked objects are predominantly dsDNA-mediated agglomerates rather than isolated nanoparticles, clustering does not obscure the length-dependent signal. Instead, the dsDNA corona determines the hydrodynamic scaling, whereas agglomeration mainly introduces an offset and distribution broadening. These results demonstrate that Brownian dynamics enables robust readout of biomolecular length scales even far below the optical resolution limit. The distribution-based approach is inherently tolerant to polydispersity and aggregation, making diffusion-based tracking a simple and promising strategy for future biotechnological and biomedical assays.         ",
+    "url": "https://arxiv.org/abs/2602.17496",
+    "authors": [
+      "Christian Janzen",
+      "Fabian Schmid-Michels",
+      "Yahya Shubbak",
+      "Melanie Wegener",
+      "Karl-Josef Dietz",
+      "Inga Ennen",
+      "Rico Huhnstock",
+      "Arno Ehresmann",
+      "Andreas H\u00fctten"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17527",
+    "title": "Perturbative sensing of nanoscale materials with millimeter-wave photonic crystals",
+    "abstract": "           We introduce millimeter-wave silicon photonic crystal cavities as a versatile platform for the perturbative sensing of nanoscale materials. This dielectric-based platform is compatible with strong magnetic fields, opening avenues for studying quantum materials in extreme environments where superconducting cavities cannot operate. To establish the platform's performance, we cryogenically characterize a silicon photonic crystal cavity at 4.3 K, achieving a total quality factor exceeding $10^5$ for a 96 GHz mode. As a proof-of-concept for its sensing capabilities, we position a hexagonal boron nitride-multilayer graphene (hBN-MLG) heterostructure at an electric-field antinode of the cavity and measure the perturbative response at room temperature. The heterostructure induces a significant change in the cavity's resonance, from which we extract a total sample conductivity of approximately $5.1\\times10^6$~S/m. These results establish silicon photonic crystal cavities as a promising platform for sensitive, on-chip spectroscopy of nanoscale materials at millimeter-wave frequencies.         ",
+    "url": "https://arxiv.org/abs/2602.17527",
+    "authors": [
+      "Kevin K. S. Multani",
+      "Zhurun Ji",
+      "Wentao Jiang",
+      "Siyuan Qi",
+      "Akasha G. Hayden",
+      "Gitanjali Multani",
+      "Sharon Ruth S. Platt",
+      "Emilio A. Nanni",
+      "Zhi-Xun Shen",
+      "Amir H. Safavi-Naeini"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.23617",
+    "title": "Quasi-continuous sub-$\u03bc$K strontium source without a high-finesse cavity stabilized laser",
+    "abstract": "           We demonstrate a quasi-continuous sub-$\\mu$K strontium source achieved without the use of a high-finesse cavity-locked laser. Our frequency reference is based on a dispersion-optimized, fiber-based frequency comb that enables sub-kHz linewidths. The long-term stability of the comb is defined by an external RF reference: either a 10 MHz RF signal from the Dutch Metrology Institute (VSL), or a tunable RF source whose long-term stability is maintained by monitoring and stabilizing the position of a narrow-line magneto-optical trap (MOT). The comb-stabilized system is benchmarked against a conventional cavity-locked laser and achieves comparable performance in broadband and single-frequency MOTs using the narrow $^1$S$_0$ $\\rightarrow$ $^3$P$_1$ laser cooling transition. We generate high-flux, sub-$\\mu$K samples of all three bosonic strontium isotopes and demonstrate quasi-continuous outcoupling from the MOT. These results highlight the system's suitability for compact, robust, and field-deployable continuous cold atom devices.         ",
+    "url": "https://arxiv.org/abs/2507.23617",
+    "authors": [
+      "Sana Boughdachi",
+      "Benedikt Heizenreder",
+      "Ananya Sitaram",
+      "Erik Dierikx",
+      "Yan Xie",
+      "Sander Klemann",
+      "Paul Klop",
+      "Jeroen Koelemeij",
+      "Rafa\u0142 Wilk",
+      "Florian Schreck",
+      "Andreas Brodschelm"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.18047",
+    "title": "Laser interferometry as a robust neuromorphic platform for machine learning",
+    "abstract": "           We present a method for implementing an optical neural network using only linear optical resources, namely field displacement and interferometry applied to coherent states of light. The nonlinearity required for learning in a neural network is realized via an encoding of the input into phase shifts allowing for far more straightforward experimental implementation compared to previous proposals for, and demonstrations of, $\\textit{in situ}$ inference. Beyond $\\textit{in situ}$ inference, the method enables $\\textit{in situ}$ training by utilizing established techniques like parameter shift rules or physical backpropagation to extract gradients directly from measurements of the linear optical circuit. We also investigate the effect of photon losses and find the model to be very resilient to these.         ",
+    "url": "https://arxiv.org/abs/2601.18047",
+    "authors": [
+      "Amanuel Anteneh",
+      "Kyungeun Kim",
+      "J. M. Schwarz",
+      "Israel Klich",
+      "Olivier Pfister"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.04598",
+    "title": "Arbitrary state preparation in quantum harmonic oscillators using neural networks",
+    "abstract": "           Preparing quantum states is a fundamental task in various quantum algorithms. In particular, state preparation in quantum harmonic oscillators (HOs) is crucial for the creation of qudits and the implementation of high-dimensional algorithms. In this work, we develop a methodology for preparing quantum states in HOs. The HO is coupled to an auxiliary qubit to ensure that any state can be prepared in the oscillator [J. Math. Phys. 59, 072101]. By applying a sequence of square pulses to both the qubit and the HO, we drive the system from an initial state to a target state. To determine the required pulses, we use a neural network that predicts the pulse parameters needed for state preparation. Specifically, we present results for preparing qubit and qutrit states in the HO, achieving average fidelities of 99.9% and 97.0%, respectively.         ",
+    "url": "https://arxiv.org/abs/2502.04598",
+    "authors": [
+      "Nicolas Parra-A",
+      "Vladimir Vargas-Calder\u00f3n",
+      "Herbert Vinck-Posada"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.16480",
+    "title": "The Quantum Formalism Revisited",
+    "abstract": "           For the simple system of a point-like particle confined to a straight line, I compile, initially in a concise table, the structural elements of quantum mechanics and contrast them with those of classical (statistical) mechanics. Despite many similarities, there are the well-known fundamental differences, resulting from the algebraic non-commutativity in the quantal structure. The latter was discovered by Werner Heisenberg (1901-1976) in June 1925 on the small island of Helgoland in the North Sea, as a consequence of understanding atomic spectral data within a matrix scheme consistent with energy conservation. I discuss the differences and exemplify their quantifications by the variance and entropic indeterminacy inequalities, by (pseudo-)classical bounds on quantum canonical partition functions, and by the correlation inequalities of John Bell (1928-1990) and others.         ",
+    "url": "https://arxiv.org/abs/2506.16480",
+    "authors": [
+      "Hajo Leschke"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.04865",
+    "title": "Multiresonator quantum memory with atomic ensembles",
+    "abstract": "           The theory of multiresonator quantum memory with atomic ensembles has been developed. Using the obtained analytical solutions, the basic physical properties of such memory are analyzed and optimal conditions for its implementation are determined. Advantages of this quantum memory and its experimental implementation in integrated optical schemes are discussed.         ",
+    "url": "https://arxiv.org/abs/2507.04865",
+    "authors": [
+      "S.A.Moiseev"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.04583",
+    "title": "Instance-Wise Adaptive Sampling for Dataset Construction in Approximating Inverse Problem Solutions",
+    "abstract": "           We propose an instance-wise adaptive sampling framework for constructing compact and informative training datasets for supervised learning of inverse problem solutions. Typical learning-based approaches aim to learn a general-purpose inverse map from datasets drawn from a prior distribution, with the training process independent of the specific test instance. When the prior has a high intrinsic dimension or when high accuracy of the learned solution is required, a large number of training samples may be needed, resulting in substantial data collection costs. In contrast, our method dynamically allocates sampling effort based on the specific test instance, enabling significant gains in sample efficiency. By iteratively refining the training dataset conditioned on the latest prediction, the proposed strategy tailors the dataset to the geometry of the inverse map around each test instance. We demonstrate the effectiveness of our approach in the inverse scattering problem under two types of structured priors. Our results show that the advantage of the adaptive method becomes more pronounced in settings with more complex priors or higher accuracy requirements. While our experiments focus on a particular inverse problem, the adaptive sampling strategy is broadly applicable and readily extends to other inverse problems, offering a scalable and practical alternative to conventional fixed-dataset training regimes.         ",
+    "url": "https://arxiv.org/abs/2509.04583",
+    "authors": [
+      "Jiequn Han",
+      "Kui Ren",
+      "Nathan Soedjak"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Numerical Analysis (math.NA)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
