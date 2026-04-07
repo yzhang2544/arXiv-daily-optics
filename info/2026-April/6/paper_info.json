@@ -1,0 +1,364 @@
+[
+  {
+    "id": "arXiv:2604.02364",
+    "title": "Topological Anderson Random Laser",
+    "abstract": "           Topological lasers and random lasers embody two contrasting strategies for disorder management in photonics: the former suppresses disorder via protected edge transport, while the latter exploits multiple scattering for feedback. Here, we theoretically demonstrate that these seemingly incompatible paradigms can be unified through a topological Anderson random laser (TARL), where disorder itself induces a topological phase that enables robust lasing. Starting from a trivial photonic lattice, we show that engineered disorder drives the system into a topological Anderson insulator regime, generating emergent chiral edge states that serve as boundary-selective lasing channels. Remarkably, the TARL exhibits rapid mode selection toward a single edge state, producing an ultranarrow emission spectrum and enhanced slope efficiency optimized near disorder strength with maximal topological mobility gap. Furthermore, they exhibit single-mode-like coherence properties, deviating from Kardar-Parisi-Zhang behavior in conventional chiral topological lasers, while remaining significantly more robust against local perturbations than conventional random lasers. Our findings establish a disorder-enabled flexible route to topologically protected single-mode lasing and introduce a fundamentally new design principle for robust, high-coherence photonic light sources.         ",
+    "url": "https://arxiv.org/abs/2604.02364",
+    "authors": [
+      "Hang-Zheng Shen",
+      "Xian-Hao Wei",
+      "Xi-Wang Luo",
+      "Zheng-Wei Zhou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02494",
+    "title": "Simultaneous plane illumination and detection in confocal microscopy using a mode-selective photonic lantern",
+    "abstract": "           Confocal microscopy is the cornerstone of cellular biology and biomedical research due to its non-destructive imaging, compatibility with live cells, sensitivity, optical sectioning, and subcellular resolution. To meet the demand for rapid three-dimensional imaging, we propose a novel approach using a mode-selective photonic lantern (MSPL). This fiber-based device transforms single-mode light into multiple linearly polarized modes, allowing simultaneous detection of multiple planes. Using a four-port MSPL to manipulate three group modes (LP$_{01}$, LP$_{11}$, and LP$_{21}$), we demonstrate high-throughput imaging simultaneously with multiple planes. This technique exploits differences in focus sections across modes, enabling individual multi-plane detection via a spatial division multiplexer, with some trade-off in resolution and field of view.         ",
+    "url": "https://arxiv.org/abs/2604.02494",
+    "authors": [
+      "Rodrigo Itzamn\u00e1 Becerra-Deana",
+      "Simon Desrochers",
+      "Rapha\u00ebl Maltais-Tariant",
+      "Simon Brais-Brunet",
+      "Guillaume Ramadier",
+      "St\u00e9phane Virally",
+      "Lucien E. Weiss",
+      "Caroline Boudoux"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02517",
+    "title": "Tunable Asymmetric Acoustic Absorption in Ventilated Metasurfaces",
+    "abstract": "           Asymmetric sound absorption is essential for advanced acoustic manipulation. However, current frequency modulation and broadbanding highly depend on geometric reconfiguration, leading to inevitable structural complexity that impedes their practical applications. Here, we propose a tunable, highly efficient, asymmetric ventilated acoustic system comprising two heterogeneous resonators. Specifically, it couples a highly dissipative space-coiling resonator (SCR) as a dark mode for energy consumption, alongside a weakly damped Helmholtz resonator as a bright mode acting as a reflective soft boundary. Theoretical and numerical analyses reveal strong asymmetry within the deep-subwavelength region (with a resonator size of approximately \\lambda/9.4), achieving 99% absorption for left-incident waves and 98% reflection for right-incident ones. Furthermore, the SCR introduces an interesting degree of freedom for acoustic tuning. Simply rotating the resonator induces a 92% absorption drop (~11 dB attenuation), functioning as an \"Acoustic Switch\". Moreover, this rotation significantly shifts the operating band. By parallel-coupling multi-angle isomorphic resonators, we achieve efficient broadband absorption (>0.8) from 325 to 375 Hz, offering an attractive paradigm for tunable acoustic metasurfaces and ventilated absorbers.         ",
+    "url": "https://arxiv.org/abs/2604.02517",
+    "authors": [
+      "Keqiang Lyu",
+      "Mohamed Farhat",
+      "Ying Wu"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02519",
+    "title": "On the White-Noise Limit of the Colored Linear Inverse Model",
+    "abstract": "           A recent paper by Lien et al. (2025) introduces the \"colored linear inverse model\" (colored LIM), in which stochastic forcing is modeled using Ornstein-Uhlenbeck colored noise rather than idealized white noise. In that work, it is shown that the derivative-based identification formulas used to estimate model parameters do not admit a regular white-noise limit due to the loss of differentiability of the lag-correlation function at zero lag. Here we revisit the white-noise limit from the perspective of the underlying stochastic differential equations. Treating the colored LIM as an augmented Ornstein-Uhlenbeck system, we show that as the correlation time tau -> 0 the colored-noise-driven system reduces to the classical LIM, and the corresponding stationary covariance satisfies the standard fluctuation-dissipation relation. Re-examining the same linear system used by Lien et al. (2025), we illustrate this convergence numerically. These results highlight a distinction between the singular behavior of derivative-based identification formulas and the regular limiting behavior of the underlying stochastic model. Taken together with recent results showing convergence of estimated parameters in the white-noise limit, they provide a consistent interpretation in which the colored LIM recovers the classical LIM at the level of stochastic dynamics even though certain estimation procedures become ill-defined in that limit.         ",
+    "url": "https://arxiv.org/abs/2604.02519",
+    "authors": [
+      "Cristian Martinez-Villalobos"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)",
+      "Probability (math.PR)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02520",
+    "title": "Neural posterior estimation for scalable and accurate inverse parameter inference in Li-ion batteries",
+    "abstract": "           Diagnosing the internal state of Li-ion batteries is critical for battery research, operation of real-world systems, and prognostic evaluation of remaining lifetime. By using physics-based models to perform probabilistic parameter estimation via Bayesian calibration, diagnostics can account for the uncertainty due to model fitness, data noise, and the observability of any given parameter. However, Bayesian calibration in Li-ion batteries using electrochemical data is computationally intensive even when using a fast surrogate in place of physics-based models, requiring many thousands of model evaluations. A fully amortized alternative is neural posterior estimation (NPE). NPE shifts the computational burden from the parameter estimation step to data generation and model training, reducing the parameter estimation time from minutes to milliseconds, enabling real-time applications. The present work shows that NPE calibrates parameters equally or more accurately than Bayesian calibration, and we demonstrate that the higher computational costs for data generation are tractable even in high-dimensional cases (ranging from 6 to 27 estimated parameters), but the NPE method can lead to higher voltage prediction errors. The NPE method also offers several interpretability advantages over Bayesian calibration, such as local parameter sensitivity to specific regions of the voltage curve. The NPE method is demonstrated using an experimental fast charge dataset, with parameter estimates validated against measurements of loss of lithium inventory and loss of active material. The implementation is made available in a companion repository (this https URL).         ",
+    "url": "https://arxiv.org/abs/2604.02520",
+    "authors": [
+      "Malik Hassanaly",
+      "Corey R. Randall",
+      "Peter J. Weddle",
+      "Paul J. Gasper",
+      "Conlain Kelly",
+      "Tanvir R. Tanim",
+      "Kandler Smith"
+    ],
+    "subjectives": [
+      "Data Analysis, Statistics and Probability (physics.data-an)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02541",
+    "title": "A perfect crystal neutron loop cavity",
+    "abstract": "           Coherent control of neutrons via Bragg diffraction forms the foundation of perfect crystal neutron interferometry, facilitating both fundamental tests of quantum mechanics and applications in quantum information science. In cavity geometries, perfect crystals enable neutron confinement and have been employed in precision measurements of spin-orbit interactions and for neutron electric dipole moment (nEDM) searches. However, in these conventional configurations, neutrons undergo a single pass through the crystal geometry, placing a physical constraint on both crystal and in-flight interaction times and measurement sensitivity. In this work, we introduce a neutron loop cavity that coherently recirculates neutrons through repeated Bragg reflections between perfect silicon crystal blades. This structure is predicted to achieve a neutron survival probability of $\\sim64~\\%$ for 10,000 Bragg reflections, corresponding to confinement times on the order of seconds. We propose a Schwinger interaction measurement that achieves a $\\pi$ spin rotation in 800 Bragg reflections, representing more than a tenfold improvement in sensitivity over recent measurements. Further applications include high-sensitivity nEDM searches targeting the $10^{-27}~$e$\\cdot$cm scale, as well as competitive experimental tests of neutron parity violation, the neutron lifetime, and the quantum Zeno effect with neutrons.         ",
+    "url": "https://arxiv.org/abs/2604.02541",
+    "authors": [
+      "Owen Lailey",
+      "Dusan Sarenac",
+      "David G. Cory",
+      "Michael G. Huber",
+      "Dmitry A. Pushin"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02551",
+    "title": "Construction and characterisation of the DarkSide-20k veto silicon photo-multiplier tiles",
+    "abstract": "           Silicon photo-multipliers (SiPMs) are state-of-the-art sensors capable of detecting a single photoelectron under cryogenic conditions, with potentially lower radioactivity than widely used photomultiplier tubes. The DarkSide-20k experiment, designed to perform direct dark matter searches using liquid argon as the target material, employs SiPM technology to detect interactions in the active detector volumes, including the central dual-phase Time Projection Chamber and the Inner and Outer Veto volumes. The vetoes are designed to discriminate against radiogenic neutron and cosmic muon backgrounds associated with the dark matter search. This paper describes the completed production and test protocols for the \"Veto Tiles\" (called vTiles, arrays of 24 SiPMs integrated on a printed circuit board providing the power distribution and signal amplification); 16 vTiles are grouped into \"Veto Photo-Detector Units\" to instrument the Inner Veto volume. Each vTile underwent detailed testing at room and cryogenic temperatures, confirming stable operation, high signal-to-noise ratio, and low radioactive contamination, demonstrating the robustness of the proposed design for cryogenic conditions. The final production yield exceeded 87%, surpassing the 80% requirement and corresponding to 1920 Veto Tiles to populate 120 Veto Photo-Detector Units, plus an additional 6% as spares.         ",
+    "url": "https://arxiv.org/abs/2604.02551",
+    "authors": [
+      "DarkSide-20k collaboration"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02624",
+    "title": "Wavelength-multiplexed massively parallel diffractive optical information storage and image projection",
+    "abstract": "           We introduce a wavelength-multiplexed massively parallel diffractive information storage platform composed of dielectric surfaces that are structurally optimized at the wavelength scale using deep learning to store and project thousands of distinct image patterns, each assigned to a unique wavelength. Through numerical simulations in the visible spectrum, we demonstrated that our wavelength-multiplexed diffractive system can store and project over 4,000 independent desired images/patterns within its output field-of-view, with high image quality and minimal crosstalk between spectral channels. Furthermore, in a proof-of-concept experiment, we demonstrated a two-layer diffractive design that stored six distinct patterns and projected them onto the same output field of view at six different wavelengths (500, 548, 596, 644, 692, and 740 nm). This diffractive architecture is scalable and can operate at various parts of the electromagnetic spectrum without the need for material dispersion engineering or redesigning its optimized diffractive layers. The demonstrated storage capacity, reconstruction image fidelity, and wavelength-encoded massively parallel read-out of our diffractive platform offer a compact and fast-access solution for large-scale optical information storage, image projection applications.         ",
+    "url": "https://arxiv.org/abs/2604.02624",
+    "authors": [
+      "Che-Yung Shen",
+      "Yuhang Li",
+      "Cagatay Isil",
+      "Jingxi Li",
+      "Leon Lenk",
+      "Tianyi Gan",
+      "Guangdong Ma",
+      "Fazil Onuralp Ardic",
+      "Mona Jarrahi",
+      "Aydogan Ozcan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computer Vision and Pattern Recognition (cs.CV)",
+      "Neural and Evolutionary Computing (cs.NE)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02757",
+    "title": "Wave-appropriate reconstruction of compressible flows: physics-constrained acoustic dissipation and rank-1 entropy wave correction",
+    "abstract": "           The wave-appropriate reconstruction approach decomposes the reconstruction procedure into characteristic wave families, centralizing non-acoustic waves to minimize dissipation while retaining an upwind bias for acoustic waves. In previous implementations, the acoustic upwind parameter $\\eta_a$ was fixed at its maximum value of $1.0$; however, this choice is conservative and motivated a systematic search for the minimum value that is robust across flow regimes. To this end, the CFD solver is treated as a black box within a bounded scalar minimization, which minimizes an accuracy objective for the subsonic inviscid TGV subject to a stability constraint enforced by the supersonic viscous TGV. Because the wave-appropriate framework leaves $\\eta_a$ as the sole degree of freedom, the optimization converges in approximately 25 evaluations. The resulting optimal values generalize without retuning across a wide range from subsonic turbulence to hypersonic flows with shocks and contact discontinuities. The second contribution focuses on eliminating the need for an explicit contact-discontinuity detector, which is commonly required in flows involving both shock waves and contact discontinuities. In such cases, the reconstruction deficiency appears solely within the entropy characteristic wave and can be corrected by a rank-1 update along the entropy right eigenvector. The proposed algorithm relies only on the Ducros sensor and is limiter-agnostic, facilitating direct use in other schemes, such as WENO. This approach reduces wall time by $29$--$41\\%$ compared to full characteristic decomposition. To further demonstrate the method's generality, introducing a controlled acoustic bias exclusively to the normal momentum in a KEP scheme eliminates spurious vortices in periodic shear layers, confirming that the acoustic stability mechanism operates independently of the discretization framework.         ",
+    "url": "https://arxiv.org/abs/2604.02757",
+    "authors": [
+      "Amareshwara Sainadh Chamarthi"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03041",
+    "title": "Spatial mapping of quantum-dot dynamics across multiple timescales at low temperature using remote asynchronous optical sampling",
+    "abstract": "           Quantum dots (QDs) offer significant potential for applications in quantum information and optoelectronic devices; however, conventional time-resolved spectroscopy cannot generally simultaneously extract both long-lived relaxation dynamics and short-lived quantum beats from ensemble measurements. This limitation arises from the inherent trade-off between temporal resolution and total acquisition time. Here, we demonstrate that asynchronous optical sampling based on a fiber-delivered frequency comb enables simultaneous observation of QD dynamics across multiple timescales. By integrating a galvanometric scanner, we achieve spatial mapping over a $1 \\times 1$-\\si{\\milli\\meter}$^2$ area at 441 discrete points in 30.1~min, a measurement that would otherwise require more than 12~days. At each location, both quantum beats and relaxation lifetimes are resolved, giving physical insights into QD ensembles that were previously inaccessible and paving the way for rapid feedback in device fabrication.         ",
+    "url": "https://arxiv.org/abs/2604.03041",
+    "authors": [
+      "Gen Asambo",
+      "Riku Shibata",
+      "Yushiro Takahashi",
+      "Kouichi Akahane",
+      "Shinichi Watanabe",
+      "Junko Ishi-Hayase"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03052",
+    "title": "Ho:YAG Thin-Disk Laser with 230 W Multimode and 150 W Single-Mode Output",
+    "abstract": "           We report a continuous-wave Ho:YAG thin-disk laser operating at the hundred-watt power level. In multimode operation, the laser delivers a maximum output power of 230 W, with a slope efficiency of 35.9% and an optical-to-optical conversion efficiency of 35.3%. In single-mode operation, an output power of 152.3 W is achieved, with beam quality factors M2 of 1.08 and 1.06 in the horizontal and vertical directions, respectively.         ",
+    "url": "https://arxiv.org/abs/2604.03052",
+    "authors": [
+      "Xiyi Wang",
+      "Xudong Yan",
+      "Weichao Yao",
+      "Yuxin Leng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03133",
+    "title": "Understanding the complexity of frequency and phase angle fluctuations in power grids",
+    "abstract": "           Power grids must modernize to meet climate goals while maintaining reliable and stable operating conditions. Yet progress is hindered by a limited understanding of the stochastic processes underlying grid frequency and phase-angle fluctuations, which are induced by the growing penetration of renewable generation, consumer demand fluctuations, and market trading. This issue is particularly acute in Africa, where grids often face weak investment. Here, we present results from a newly collected, large-scale, high-resolution dataset of grid frequency and phase angles for the United Kingdom and South Africa, comprising close to one billion data points. Using superstatistical modeling, we treat market-driven power fluctuations as a slowly varying parameter driving grid dynamics and incorporate nonlinear frequency control. As a result, we derive an analytical model that reproduces multimodal frequency distributions previously obtained from numerical simulations, as well as heavy-tailed fluctuations and double-exponential frequency autocorrelation decays, all in excellent agreement with experimental measurements. Beyond frequency, we also address the so far largely overlooked problem of characterizing spatial phase-angle fluctuations. By comparing our predictions with measurement data, we demonstrate that a low-dimensional effective grid model accurately fits South African data despite the grid's complexity. We also highlight significant differences between the grids of South Africa and the United Kingdom. Our results clarify how energy markets and control policies shape grid dynamics across countries with contrasting infrastructure maturity.         ",
+    "url": "https://arxiv.org/abs/2604.03133",
+    "authors": [
+      "Alessandro Lonardi",
+      "Jacques M. Maritz",
+      "Leonardo Rydin Gorj\u00e3o",
+      "Christian Beck"
+    ],
+    "subjectives": [
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03153",
+    "title": "Wideband integrated high-speed graphene-silicon slot-waveguide electro-absorption modulator at 2 \u03bcm and 1.5 \u03bcm wavebands",
+    "abstract": "           The 2-{\\mu}m waveband, emerging as a highly promising candidate for optical communication, offers an extended wavelength window for high-speed optical transmission. Despite its potential, the development of integrated electro-optic (E/O) modulators operating at this wavelength range has been limited. Such E/O modulators are crucial for high-speed optical communication systems at the 2-{\\mu}m waveband. In this work, we propose and experimentally demonstrate high-performance E/O absorption modulators based on a graphene-silicon slot waveguide. Our approach enables wideband, high-speed, efficient, robust and compact modulators at both 2-{\\mu}m and 1.5-{\\mu}m wavebands. This work represents a significant advancement towards the realization of high-speed integrated E/O modulators for optical communication systems operating at the 2-{\\mu}m wavelength range.         ",
+    "url": "https://arxiv.org/abs/2604.03153",
+    "authors": [
+      "Chao Luan",
+      "Deming Kong",
+      "Yunhong Ding",
+      "Hao Hu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03221",
+    "title": "Fast and Accurate Inverse Blood Flow Modeling from Minimal Cuff-Pressure Data via PINNs",
+    "abstract": "           Accurate assessment of central hemodynamics is essential for diagnosis and risk stratification, yet it still relies largely on invasive measurements or on indirect reconstructions built from population-averaged transfer functions. While conventional methods are valuable in clinical practice, they face limitations, particularly in personalized medicine. Physics-informed methods address these by integrating physical principles, reducing the need for extensive data. In this work, a fully noninvasive, patient-specific framework is developed that combines a validated 1-D model of the systemic arterial tree with physics-informed neural networks (PINNs). This model performs the inverse solution of the flow and pressure fields within the arterial network, given minimal noninvasive measurements of pressure from a cuff reading and trains in 4000 iterations, at least 10x faster than the current state-of-the-art models due to several model enhancements. We validate the model predictions against our 1-D solver, yielding a near perfect correlation, and perform additional tests on a clinical dataset for the identification of important central hemodynamic parameters of cardiac output $CO$ and central systolic blood pressure $cSBP$, with correlations of $r=0.847$ and $r=0.951$, respectively. Moreover, the model is able to tune the patient-specific coefficients of the terminal resistance $R_T$ and compliance $C_T$ while training, treating them as learnable parameters. The inverse PINN model is able to solve the entire tree of 8 arteries with a single network, costing 5-10 minutes of computational time. This significant performance boost compared to traditional iterative inverse methods holds promise towards applications of personalized cardiac output monitoring and hemodynamic assessment via noninvasive approaches like wearable devices.         ",
+    "url": "https://arxiv.org/abs/2604.03221",
+    "authors": [
+      "Sokratis J. Anagnostopoulos",
+      "Georgios Rovas",
+      "Lydia Aslanidou",
+      "Vasiliki Bikia",
+      "Nikolaos Stergiopulos"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.03229",
+    "title": "A scalable infrastructure for strontium optical clocks with integrated photonics",
+    "abstract": "           Optical atomic clocks provide exceptionally accurate and precise signals for timekeeping and precision measurements, but they require high-power, free-space laser configurations that limit scalability. We introduce and explore a scalable infrastructure for strontium (Sr) optical-lattice clocks that incorporates co-design of atomic-beam slowing and a magneto-optical trap (MOT) from an effusion source, generation of complex, three-dimensional free-space laser configurations with a photonic integrated circuit (PIC) and metasurface (MS) optics, and laser stabilization to a frequency-comb supercontinuum generated with integrated nonlinear photonics. With these elements, we realize MOTs of all stable strontium isotopes ($^{84}$Sr, $^{86}$Sr, $^{87}$Sr, $^{88}$Sr) with populations commensurate with natural abundances, demonstrating precise beam control and robustness. Access to laser-cooled alkaline-earth atoms with scalable integrated photonics enables system engineering for optical clocks, quantum sensing, and quantum information, and our experiments demonstrate extensible technologies that advance toward a Sr optical clock largely free of bulk optics.         ",
+    "url": "https://arxiv.org/abs/2604.03229",
+    "authors": [
+      "Zheng Luo",
+      "Travis C. Briles",
+      "Zachary L. Newman",
+      "Aidan R. Jones",
+      "Andrew R. Ferdinand",
+      "Sindhu Jammi",
+      "Grisha Spektor",
+      "David R. Carlson",
+      "Akash Rakholia",
+      "Dan Sheredy",
+      "Parth Patel",
+      "Martin M. Boyd",
+      "Chad Ropp",
+      "Daron Westly",
+      "Vladimir A. Aksyuk",
+      "Wenqi Zhu",
+      "Junyeob Song",
+      "Amit Agrawal",
+      "Scott B. Papp"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.02429",
+    "title": "Photonic convolutional neural network with pre-trained in-situ training",
+    "abstract": "           Photonic computing is a computing paradigm which have great potential to overcome the energy bottlenecks of electronic von Neumann architecture. Throughput and power consumption are fundamental limitations of Complementary-metal-oxide-semiconductor (CMOS) chips, therefore convolutional neural network (CNN) is revolutionising machine learning, computer vision and other image based applications. In this work, we propose and validate a fully photonic convolutional neural network (PCNN) that performs MNIST image classification entirely in the optical domain, achieving 94 percent test accuracy. Unlike existing architectures that rely on frequent in-between conversions from optical to electrical and back to optical (O/E/O), our system maintains coherent processing utilizing Mach-Zehnder interferometer (MZI) meshes, wavelength-division multiplexed (WDM) pooling, and microring resonator-based nonlinearities. The max pooling unit is fully implemented on silicon photonics, which does not require opto-electrical or electrical conversions. To overcome the challenges of training physical phase shifter parameters, we introduce a hybrid training methodology deploying a mathematically exact differentiable digital twin for ex-situ backpropagation, followed by in-situ fine-tuning via Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm. Our evaluation demonstrates significant robustness to thermal crosstalk (only 0.43 percent accuracy degradation at severe coupling) and achieves 100 to 242 times better energy efficiency than state-of-the-art electronic GPUs for single-image inference.         ",
+    "url": "https://arxiv.org/abs/2604.02429",
+    "authors": [
+      "Saurabh Ranjan",
+      "Sonika Thakral",
+      "Amit Sehgal"
+    ],
+    "subjectives": [
+      "Emerging Technologies (cs.ET)",
+      "Machine Learning (cs.LG)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.24197",
+    "title": "A synergistic approach to optical modeling of PCSELs through rigorous methods and the coupled-wave theory",
+    "abstract": "           A wide range of numerical and semi-analytical approaches has been developed for optical modeling of photonic-crystal surface-emitting lasers (PCSELs). However, a systematic framework for comparing their predictive capabilities and identifying their respective validity limits remains largely unexplored. In this work, we introduce a comparative methodology in which four representative methods-including rigorous numerical and effective-index-based approaches-are analyzed and partially hybridized within a coupled-wave-theory framework. Using single- and double-lattice PCSELs as representative models, we demonstrate that this approach not only reveals fundamental differences between predictions of rigorous methods and the coupled-wave-theory framework, but also captures leaky and symmetry-broken phases of bound states in the continuum (BICs) relevant for laser operation.         ",
+    "url": "https://arxiv.org/abs/2602.24197",
+    "authors": [
+      "Arstan Bisianov",
+      "Andreas Waag"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.11887",
+    "title": "Compact sub-10 ps Resolution Radio Frequency Photomultiplier Tube",
+    "abstract": "           Experimental measurements of the radial spreading of photoelectrons emitted from a multi-alkali photocathode in a MCP-based photomultiplier tube have shown that, for photon wavelengths of 455 nm, 515 nm and 625 nm, the maximum initial energies of the emitted photoelectrons are approximately 0.3 eV, 0.2 eV and 0.1 eV respectively. Combining these experimental results with simulations performed using the SIMION simulation package, a compact radio-frequency photoelectron multiplier tube with a temporal resolution better than 10 ps is proposed. The device would be suitable for applications in several fields, particularly in medical optical instruments employing time-correlated single-photon counting.         ",
+    "url": "https://arxiv.org/abs/2603.11887",
+    "authors": [
+      "Sergey Abrahamyan",
+      "Simon Zhamkochyan",
+      "Hasmik Rostomyan",
+      "Amur Margaryan",
+      "Hayk Elbakyan",
+      "Aram Kakoyan",
+      "Artashes Papyan",
+      "Anna Safaryan",
+      "John Annand",
+      "Kenneth Livingston",
+      "Rachel Montgomery",
+      "Patrick Achenbach",
+      "Josef Pochodzalla",
+      "Dimiter Balabanski",
+      "Satoshi Nakamura",
+      "Viatcheslav Sharyy",
+      "Dominique Yvon",
+      "Ani Aprahamian",
+      "Vanik Kakoyan"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.16257",
+    "title": "Computational quantum transport: a scattering approach perspective",
+    "abstract": "           This review is devoted to the different techniques that have been developed to compute the phase-coherent transport properties of quantum nanoelectronic systems connected to electrodes. Beside a review of the different algorithms proposed in the literature, we provide a comprehensive and pedagogical derivation of the two formalisms on which these techniques are based: the scattering approach and the (nonequilibrium) Green's function approach. We show that the scattering problem can be formulated as a system of linear equations and that different existing algorithms for solving this scattering problem amount to different sequences of Gaussian elimination. We explicitly prove the equivalence of the two formalisms. We discuss the stability and numerical complexity of the existing methods. The review ends with a selection of a few applications where numerical calculations were instrumental in shaping our understanding of the physics.         ",
+    "url": "https://arxiv.org/abs/2407.16257",
+    "authors": [
+      "Xavier Waintal",
+      "Michael Wimmer",
+      "Anton Akhmerov",
+      "Christoph Groth",
+      "Branislav K. Nikolic",
+      "Mathieu Istas",
+      "T\u00f3mas \u00d6rn Rosdahl",
+      "Daniel Varjas"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.12724",
+    "title": "Advances in Josephson Junction Materials and Processes Toward Practical Quantum Computing",
+    "abstract": "           The Josephson junction is the fundamental nonlinear building block of superconducting quantum technologies. Its macroscopic quantum tunneling physics underpins superconducting quantum computing, sensing, and communication, but scaling these platforms to utility-scale architectures places increasingly stringent demands on junction materials, interfaces, and fabrication. In quantum computing, these demands include high reproducibility, low dissipation, tunability, compact device footprint, and resilience to noise and defects. This review surveys how advances in materials science, device characterization, and nanofabrication are addressing these challenges and redefining the figures of merit for next-generation Josephson junctions. We also examine the evolution of fabrication strategies, from conventional multi-angle evaporation to foundry-compatible superconducting processes and the integration of emerging junction materials. Progress along these directions will determine how rapidly Josephson junctions move from laboratory-scale components to the foundation of industrial-scale quantum processors.         ",
+    "url": "https://arxiv.org/abs/2505.12724",
+    "authors": [
+      "Hyunseong Kim",
+      "Gyunghyun Jang",
+      "Seungwon Jin",
+      "Dongbin Shin",
+      "Hyeon-Jin Shin",
+      "Jie Luo",
+      "Akel Hashim",
+      "Irfan Siddiqi",
+      "Yosep Kim",
+      "Long B. Nguyen",
+      "Hoon Hahn Yoon"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
