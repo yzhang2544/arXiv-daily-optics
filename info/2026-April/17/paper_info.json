@@ -1,0 +1,374 @@
+[
+  {
+    "id": "arXiv:2604.14188",
+    "title": "Grading the Unspoken: Evaluating Tacit Reasoning in Quantum Field Theory and String Theory with LLMs",
+    "abstract": "           Large language models have demonstrated impressive performance across many domains of mathematics and physics. One natural question is whether such models can support research in highly abstract theoretical fields such as quantum field theory and string theory. Evaluating this possibility faces an immediate challenge: correctness in these domains is layered, tacit, and fundamentally non-binary. Standard answer-matching metrics fail to capture whether intermediate conceptual steps are properly reconstructed or whether implicit structural constraints are respected. We construct a compact expert-curated dataset of twelve questions spanning core areas of quantum field theory and string theory, and introduce a five-level grading rubric separating statement correctness, key concept awareness, reasoning chain presence, tacit step reconstruction, and enrichment. Evaluating multiple contemporary LLMs, we observe near-ceiling performance on explicit derivations within stable conceptual frames, but systematic degradation when tasks require reconstruction of omitted reasoning steps or reorganization of representations under global consistency constraints. These failures are driven not only by missing intermediate steps, but by an instability in representation selection: models often fail to identify the correct conceptual framing required to resolve implicit tensions. We argue that highly abstract theoretical physics provides a uniquely sensitive lens on the epistemic limits of current evaluation paradigms.         ",
+    "url": "https://arxiv.org/abs/2604.14188",
+    "authors": [
+      "Xingyang Yu",
+      "Yinghuan Zhang",
+      "Yufei Zhang",
+      "Zijun Cui"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Computation and Language (cs.CL)",
+      "High Energy Physics - Theory (hep-th)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14361",
+    "title": "Magnet-Free Nonreciprocal frequency conversion using Sequential Temporal modulation: Theory and Simulations",
+    "abstract": "           Nonreciprocal conversion is essential for protecting sources and enabling unidirectional signal routing in photonic, phononic, electronics, and quantum systems, yet conventional implementations rely on magnetic bias that could be challenging to integrate on chip. We propose a magnet-free scheme for frequency-domain nonreciprocity based on sequential, time-gated couplings in a three-mode system. By activating interactions in a fixed temporal order, the forward and reverse frequency conversion pathways acquire unequal dwell times in a lossy intermediate mode, producing strong nonreciprocity without requiring nonlinearities or magnetic materials. Using a harmonic-balance formulation and a Dyson-Born expansion, we derive a compact analytical expression for the isolation ratio that reveals the roles of Floquet sidebands, duty-cycle control, modulation frequency, and dissipation. The results are confirmed by direct time-domain simulations over a wide parameter range. From these results, we extract practical design rules for optimizing isolation through temporal sequencing, loss engineering, and modulation timing. The framework is general and directly applicable to integrated platforms in photonics, phononics, microwave electronics, and superconducting circuits.         ",
+    "url": "https://arxiv.org/abs/2604.14361",
+    "authors": [
+      "Arya G. Pour",
+      "Jun Ji",
+      "Linbo Shao"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14466",
+    "title": "Design and Verification of a Terahertz Bandpass Filter using a Spoof Surface Plasmon Polariton Waveguide with Gapped Unit Cells",
+    "abstract": "           This paper presents the experimental verification of a planar guided-wave terahertz (THz) spoof surface plasmon polariton (SSPP) bandpass filter (BPF) using a coplanar stripline (CPS) with internal grooves and periodic gaps. The proposed BPF operates by combining the low-pass behavior from the SSPP's band edge and the high-pass behavior from the gaps that act as series capacitors. The higher and lower cut-off frequencies can be tailored by the appropriate selection of the unit cell geometry. For demonstration, a BPF with a center frequency of approximately 1 THz and a bandwidth of 0.25 THz was designed, fabricated, and experimentally validated. The passband around 1 THz is observed in the measurements, along with the lower and higher cut-off frequencies at approximately 0.91 THz and 1.16 THz, respectively, in agreement with simulation results.         ",
+    "url": "https://arxiv.org/abs/2604.14466",
+    "authors": [
+      "Mohsen Haghighat",
+      "Ali Dehghanian",
+      "Levi Smith"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14491",
+    "title": "Measurements and modeling of swimming speed dependence on stroke frequency in scyphozoan jellyfish",
+    "abstract": "           Scyphozoan jellyfish exhibit the highest locomotive efficiency in the animal kingdom making them of particular interest in fluid dynamics and bioinspired robotics. Despite this prevalent analytical models of jellyfish swimming have been based on the swimming traits of hydrozoan jellyfish which utilize jet propulsion, rather than scyphozoan jellyfish which utilize paddling propulsive methods. Additionally, while stroke frequency is a driving variable in speeds achieved by undulatory swimmers, a similar dependence has not been previously explored for jellyfish. This work investigates the relationship between stroke frequency and swimming speeds in two species of scyphozoan jellyfish, Aurelia aurita and Cassiopea xamachana. An experimental study was conducted using a biohybrid technique that controls the muscle contraction frequency of freely swimming, live jellyfish with portable, implanted microelectronics. Swimming speeds were measured from video recordings in a 2.4 m tall water tank. It was found that despite differences in their natural swimming frequencies, the Aurelia and Cassiopea displayed similar speed-frequency relationships with peak swimming speeds occurring at 0.55 +/- 0.05 Hz and 0.50 +/- 0.05 Hz respectively. The difference in natural stroke frequency displayed by scyphomedusea despite the shared relationship between swimming speed and stroke frequency in these two species, suggests that natural stroke frequency may be more related to other functions such as filter feeding, rather than locomotion. A new analytical model developed for scyphozoan, paddling jellyfish was shown to have closer agreement with the experimental results than existing models based on jet propulsion. The model demonstrated the driving factors in the relationship between swimming speed and stroke frequency to be the speed of the jellyfish bell margin and changes in body kinematics with stroke frequency.         ",
+    "url": "https://arxiv.org/abs/2604.14491",
+    "authors": [
+      "Noa K. Yoder",
+      "John O. Dabiri"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14494",
+    "title": "A wearable electrical hemodynamic imaging ring",
+    "abstract": "           Continuous ambulatory monitoring of peripheral vascular perfusion could enable earlier detection of vascular dysfunction in individuals with diabetes mellitus and more timely management of cardiovascular disease. Clinical imaging modalities provide high-fidelity vascular information but are impractical for ambulatory use, whereas most wearable devices are limited to single-modality sensing and do not provide imaging. Electrical bioimpedance has the potential to bridge this gap by enabling rapid spatial and temporal imaging while remaining sensitive to hemodynamic changes. Here, we introduce a wearable ring with 8 electrodes and 32-channel bioimpedance sensing for finger blood flow imaging. In 96 healthy participants measured at rest and during autonomic maneuvers, we resolve conductivity images in the digital arteries associated with pulsatile blood flow and train neural network models for continuous cuffless blood pressure waveform estimation. We demonstrate the feasibility of bioimpedance imaging in a ring form factor, supporting its potential for ambulatory cuffless hemodynamic monitoring.         ",
+    "url": "https://arxiv.org/abs/2604.14494",
+    "authors": [
+      "Gia-Bao Ha",
+      "Lucas Takanori Sanchez Shiromizu",
+      "Jaehyeon Song",
+      "Zhuyun Xie",
+      "Henry Crandall",
+      "Dinali Assylbek",
+      "Alexandra Boyadzhiev",
+      "Huanan Zhang",
+      "Fernando Guevara Vasquez",
+      "Ramakrishna Mukkamala",
+      "Michael Widlansky",
+      "Shamim Nemati",
+      "Jesse Capecelatro",
+      "C. Alberto Figueroa",
+      "Benjamin Sanchez"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14664",
+    "title": "Scaling Photonic Tensor Cores with Unary and Homodyne Designs",
+    "abstract": "           We analyze five photonic microring tensor core designs with a common optical power model. The results show that circuit ordering, unary encoding, and homodyne accumulation shape scalability, with the last two offering the strongest path to higher parallelism.         ",
+    "url": "https://arxiv.org/abs/2604.14664",
+    "authors": [
+      "Oluwaseun Alo",
+      "Ishan Thakkar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Hardware Architecture (cs.AR)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14728",
+    "title": "Time Delay Distribution and Laser Stability in Arbitrary Detuning Asynchronous Optical Sampling",
+    "abstract": "           Arbitrary Detuning ASynchronous OPtical Sampling (ADA-SOPS) is an emerging technique for extending standard pump--probe experiments performed with two femtosecond lasers to multitimescale experiments, which are of great interest for the study of complex systems. Although no specific requirements are needed for laser repetition rates, their ratio determines the achievable delay distribution and therefore is strongly related to the temporal resolution of the technique. We report a detailed theoretical analysis of measurement performances with respect to laser repetition rates, and we validate our model with experimental data. In the case of amplified laser systems, we demonstrate that achieved delays are inherently correlated to the time interval between amplified pulses, which affects the pulse energy and can generate artifacts. Nevertheless, a deep understanding of the origin of such artifacts allows to suggest several compensation strategies, either during data analysis or at the conception of the experimental setup. Finally we present a new algorithm integrated into the ADASOPS device: by selecting pairs of probe pulses having the same elapsed time with respect to the previous pulse, it automatically compensates any effect of energy fluctuation.         ",
+    "url": "https://arxiv.org/abs/2604.14728",
+    "authors": [
+      "Laura Antonucci",
+      "A. Bonvalet",
+      "X. Solinas",
+      "M. Joffre"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14744",
+    "title": "Inverse design of exceptional points in a single-resonance two-port network",
+    "abstract": "           Exceptional points (EPs) in non-Hermitian photonic systems enable unconventional control of wave amplitude and phase. However, identifying the EPs in multidimensional parameter space of a system can be nontrivial and, in some cases, even infeasible. Here we propose an inverse-design method to efficiently locate the scattering EPs for a two-port resonant system supporting a single mode. The proposed method provides a direct guide for tuning of geometric parameters to realize scattering EPs, as confirmed by both full-wave simulation and equivalent circuit model. In principle, our method is compatible with multi-mode system, making it broadly applicable to a broad class of resonant systems.         ",
+    "url": "https://arxiv.org/abs/2604.14744",
+    "authors": [
+      "Y.F. Li",
+      "Biao Chen",
+      "Y. Wu",
+      "Y. Liu",
+      "H. Lin",
+      "Bin Zhou"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14836",
+    "title": "Low voltage and high-bandwidth thin-film lithium tantalate modulator on a silicon dioxide substrate",
+    "abstract": "           Modern communication networks demand ever-increasing transmission bandwidth, placing stringent requirements on low-cost, high-performance electro-optic modulators. Substantial advances have been made in integrated photonics employing lithium niobate on insulator. In contrast, photonic integrated circuits based on lithium tantalate -- a material already commercially adopted for wireless filters -- have been developed, offering reduced DC drift, higher optical power handling, and lower birefringence. These advantages enable more complex and dense photonic integrated circuits, and make lithium tantalate a promising material platform for next-generation integrated electro-optic modulators. However, in contrast to the extensively studied thin-film lithium niobate platform, thin-film lithium tantalate modulators have only been explored on silicon substrates. Here, we report the first fabrication and characterization of thin-film lithium tantalate electro-optic modulators manufactured on a 4-inch (100 mm) fused-silica substrate for adapting a low-loss slow-wave microwave electrode to improve the electro-optic bandwidth. By employing a slow-wave electrode design to achieve velocity matching between microwave and optical signals, the demonstrated modulator achieves a 3-dB electro-optic bandwidth of 64 GHz with a low half-wave voltage of 1.53 V, with potential to operate at the measured 100 GHz electrical bandwidth, if the employed spectral biasing is removed. The modulator moreover exhibits low bias drift, with a constant switching voltage down to 10 mHz. This performance enables high-speed data transmission comparable to state-of-the-art lithium niobate modulators fabricated on quartz substrates. Using the fabricated devices, a net single lane data rate of 440.6 Gbps is achieved using PAM8 signaling.         ",
+    "url": "https://arxiv.org/abs/2604.14836",
+    "authors": [
+      "Zihan Li",
+      "Alexander Kotz",
+      "Adrian Schwarzenberger",
+      "Christian Koos",
+      "Tobias J. Kippenberg"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14901",
+    "title": "End-to-End Inverse Designed Metasurfaces for Snapshot RGB-Achromatic Full-Stokes Polarization Imaging",
+    "abstract": "           Snapshot full-Stokes polarimetry across multiple wavelengths remains challenging because conventional architectures rely on multiplexed measurements and bulky optics. We present an end-to-end framework that reconstructs RGB full-Stokes images from a single monochrome sensor measurement. The system combines a differentiable 4f optical frontend with a U-Net backend for joint optimization. Notably, a metasurface modeled by the multilayer perceptron (MLP) is employed to encode the full-Stokes polarization information. We implement the design in two stages: first in a hybrid metasurface-refractive 4f architecture, and then in a pure meta-optic configuration. On a real-world dataset, the hybrid metasurface-refractive system achieves 30.00 dB peak signal-to-noise ratio (PSNR) and 0.8291 structural similarity index measure (SSIM) for monochromatic imaging in the visible range, and 26.71 dB and 0.7044 for RGB-achromatic imaging. The pure meta-optic system yields 26.94 dB/0.7184 for the monochromatic case and 24.10 dB/0.6015 for the RGB-achromatic case. These results show that end-to-end optical-digital co-design enables compact snapshot full-Stokes polarimetric imaging at a high compression ratio of 12.         ",
+    "url": "https://arxiv.org/abs/2604.14901",
+    "authors": [
+      "Xingyu Chai",
+      "Jirong Bao",
+      "Haining Yang",
+      "Mengdi Sun"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14992",
+    "title": "Toroidal Plasmonic Nanodimers for Enhanced Near-Infrared Emission in Heterostructured InP Quantum Dots",
+    "abstract": "           Near-infrared (NIR) emitters operating in the 650-900 nm range are highly attractive for imaging and sensing in turbid media; however, cadmium-free InP-based quantum dots (QDs) often suffer from limited brightness due to nonradiative pathways and inefficient photon outcoupling. In particular, heterostructured InP QDs can exhibit band alignments that induce partial spatial separation of charge carriers, leading to reduced electron-hole wavefunction overlap. This modifies intrinsic recombination dynamics and enhances the sensitivity of their emission to the surrounding photonic environment. Here, we investigate silver toroidal plasmonic nanoantenna dimers (Ag TPNDs) through finite-difference-time-domain (FDTD) simulations as a geometry-tunable platform for enhancing NIR emission of heterostructured InP-based QDs. The coupled toroidal geometry supports strongly confined bonding modes that generate intense nanogap hotspots, while its resonance can be systematically tuned through the toroid aspect ratio. By spectrally aligning the antenna response with QD emission bands (675-845 nm), we achieve large Purcell enhancements together with high quantum efficiencies, demonstrating efficient conversion of enhanced decay rates into radiative emission. We further show that nanometer-scale variations in emitter-antenna separation strongly modulate the radiative rates and spectral response. These results establish toroidal plasmonic nanodimers as a topology-driven platform for controlling emission in NIR quantum emitters and for advancing NIR nanophotonic applications.         ",
+    "url": "https://arxiv.org/abs/2604.14992",
+    "authors": [
+      "Arda Gulucu",
+      "Emre Ozan Polat"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.15066",
+    "title": "Optical Modulation Due to Energy Exchange Between Photonic and Exciton Modes in the Intermediate Coupling Regime",
+    "abstract": "           Actively tunable photonic devices are vital for next-generation optoelectronics requiring rapid switching and high bandwidth. Although organic optoelectronic devices have found wide application, their use as optical modulators has been limited by low absorption in the critical near-infrared (NIR) region, slow response time, and weak nonlinearities. To address these limitations, we developed a scheme based on intermediate exciton-photon coupling in a NIR absorbing squaraine-dye based photonic structure. Using energy-momentum resolved pump-probe spectroscopy, we show that the sign and magnitude of the optical response of our system depends strongly on the energy detuning between the excitonic and photonic modes. These data are analyzed using temporal coupled-mode theory to show that near resonance, a distinct energy exchange process emerges in the cross-over regime between strong and weak light-matter coupling. This effect enables dynamical control over the photoinduced response, providing a pathway for broadband optical signal modulation extending into the NIR spectral region.         ",
+    "url": "https://arxiv.org/abs/2604.15066",
+    "authors": [
+      "Evripidis Michail",
+      "Sander A. Mann",
+      "Kamyar Rashidi",
+      "Christoph Lambert",
+      "Vinod M. Menon",
+      "Andrea Alu",
+      "Matthew Y. Sfeir"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.15137",
+    "title": "Deformation of Bacterial Cell Membranes by Action of Metal Surface under Plasmon Resonance Condition",
+    "abstract": "           This paper is devoted to studies of the mechanical deformation of the S. aureus cell wall. The bacterium is modelled as a thin elastic membrane containing cytoplasm, which is treated as an incompressible fluid. Deformation occurs via Van der Waals interactions between the bacterium and a solid metallic surface, both with and without the influence of surface plasmon resonance (SPR). Our modelling results indicate that the excitation of surface plasmons significantly increases the effective interaction area between the bacterial membrane and the nanostructured surface. The elastic and dielectric properties of the bacterium's components are uninvestigated. Therefore, theoretical calculations are performed in wide, physically meaningful ranges. Thus, the results of studies give only a qualitative estimation. However, they are novel and, with further experiments, can solve the inverse problem of obtaining physical properties. The paper highlights the potential of SPR to enhance antibacterial strategies, inspiring further research and innovation.         ",
+    "url": "https://arxiv.org/abs/2604.15137",
+    "authors": [
+      "Taras Vasyliev",
+      "Saulius Juodkazis",
+      "Valeri Lozovski"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14234",
+    "title": "Consciousness, Quantum Mechanics, and the Limits of Scientific Objectivism",
+    "abstract": "           Consciousness and quantum mechanics are among the most puzzling phenomena studied in the sciences. Some scholars suggest they are related, though others think this claim commits a \"minimization of mystery\" fallacy. The aim of this programmatic paper is to draw attention to a less widely discussed parallel between consciousness and quantum mechanics: both challenge the classical objectivist worldview of science. Under certain assumptions, they are each in tension with a package of metaphysical theses -- \"non-relationalism\", \"non-fragmentation\", and \"one world\" -- that jointly make up that worldview. This points to three distinct non-objectivist responses: the \"relationalist\", \"fragmentalist\", and \"many-subjective-worlds\" ones. We will map out their pros and cons.         ",
+    "url": "https://arxiv.org/abs/2604.14234",
+    "authors": [
+      "John B. DeBrota",
+      "Christian List"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14443",
+    "title": "Ultra-high-vacuum cluster tool for epitaxial synthesis and optical spectroscopy of reactive 2D materials",
+    "abstract": "           The large-area synthesis of high-crystalline-quality two-dimensional (2D) materials is at the core of novel material integration for semiconductor technology. This effort relies on developing fabrication and characterization techniques that can uncover the material's intrinsic properties by preserving its pristine conditions. In this article, we present an all ultra-high-vacuum cluster for the growth using molecular beam epitaxy of 2D semiconductors that are unstable under ambient conditions and optical spectroscopy using low temperature (20 K) photoluminescence and Raman scattering. The optical chamber of the setup provides micrometer scale spatial resolution and the ability to scan the entire wafer. The performance of its setup regarding spatial resolution, temperature control over a temperature range of 20-300 K using a closed-cycle cryostat and long-term preservation are demonstrated using as-grown post-transition metal monochalcogenides. Furthermore, we introduce a deconvolution-based algorithm to recover spatial information under vibration using a system-specific point-spread function. This enables in situ analysis of the structural and optoelectronic properties of as-grown materials in their pristine form, providing rich and reproducible feedback for both fundamental studies and the optimization of scalable 2D material growth toward integration in advanced devices.         ",
+    "url": "https://arxiv.org/abs/2604.14443",
+    "authors": [
+      "M. Dembecki",
+      "J. Schabesberger",
+      "M. Bissolo",
+      "A. Thurn",
+      "A. Ulhe",
+      "P. Avdienko",
+      "J. Ulrichs",
+      "H. Riedl",
+      "G. Koblm\u00fcller",
+      "E. Zallo",
+      "J.J. Finley"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14485",
+    "title": "Direct laser micromachining of superconducting terahertz Josephson plasma emitters",
+    "abstract": "           We demonstrate a rapid, maskless fabrication method for superconducting terahertz Josephson plasma emitters (JPEs) based on direct ultraviolet laser micromachining of Bi$_2$Sr$_2$CaCu$_2$O$_{8+\\delta}$ (Bi-2212) single crystals. Although machining debris is formed near the processed regions, uniform stacks of intrinsic Josephson junctions are preserved inside the crystal, enabling stable terahertz emission. Devices fabricated with Ag, Cu, and Cr electrodes all exhibited terahertz radiation, with Cu electrodes showing performance comparable to Ag while offering a low-cost alternative. Spectroscopic and polarization analyses indicate that the emitted radiation is elliptically polarized and dominated by the geometrical cavity resonance mode. Structural and electrical characterizations reveal that the machining width and depth are not limited by the optical spot size but are governed by the anisotropic thermal conductivity of Bi-2212, consistent with a thermally dominated laser ablation process. This direct laser micromachining approach provides a fast and versatile fabrication technique for JPEs and is broadly applicable to superconducting electronics and terahertz devices.         ",
+    "url": "https://arxiv.org/abs/2604.14485",
+    "authors": [
+      "Reo Yamaguchi",
+      "Takuma Sakurai",
+      "Kazuhiro Yamaki",
+      "Akinobu Irie",
+      "Junichiro Kato",
+      "Taichiro Nishio",
+      "Shigeyuki Ishida",
+      "Hiroshi Eisaki",
+      "Manabu Tsujimoto"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14609",
+    "title": "El Agente Forjador: Task-Driven Agent Generation for Quantum Simulation",
+    "abstract": "           AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. However, most of the current generation of agentic systems depend on static, hand-curated toolsets that hinder adaptation to new domains and evolving libraries. We present El Agente Forjador, a multi-agent framework in which universal coding agents autonomously forge, validate, and reuse computational tools through a four-stage workflow of tool analysis, tool generation, task execution, and iterative solution evaluation. Evaluated across 24 tasks spanning quantum chemistry and quantum dynamics on five coding agent setups, we compare three operating modes: zero-shot generation of tools per task, reuse of a curriculum-built toolset, and direct problem-solving with the coding agents as the baseline. We find that our tool generation and reuse framework consistently improves accuracy over the baseline. We also show that reusing a toolset built by a stronger coding agent can reduce API cost and substantially raises the solution quality for weaker coding agents. Case studies further demonstrate that tools forged for different domains can be combined to solve hybrid tasks. Taken together, these results show that LLM-based agents can use their scientific knowledge and coding capabilities to autonomously build reusable scientific tools, pointing toward a paradigm in which agent capabilities are defined by the tasks they are designed to solve rather than by explicitly engineered implementations.         ",
+    "url": "https://arxiv.org/abs/2604.14609",
+    "authors": [
+      "Zijian Zhang",
+      "Aiwei Yin",
+      "Amaan Baweja",
+      "Jiaru Bai",
+      "Ignacio Gustin",
+      "Varinia Bernales",
+      "Al\u00e1n Aspuru-Guzik"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14921",
+    "title": "Split-Evolution Quantum Phase Estimation for Particle-Conserving Hamiltonians",
+    "abstract": "           We present a hardware demonstration and resource analysis of split-evolution quantum phase estimation (SE-QPE) on a Quantinuum System Model H2 quantum computer. SE-QPE is a modification to canonical QPE for particle-conserving Hamiltonians in which controlled time evolution is replaced by CSWAP-based interference between a target register and a reference register. For factorizations of time evolution with a shared eigenbasis, SE-QPE preserves the phase-register outcome distribution of canonical QPE and, unlike with compute--uncompute substitutions, it remains compatible with non-exact eigenstates. The substitution removes controlled-simulation overhead and enables parallel evolution on two registers, reducing the depth of each phase-kickback block. Resource analysis for Trotterized double-factorized chemistry Hamiltonians shows that the substitution becomes increasingly favorable at higher phase powers, as such combining QPE and SE-QPE implementations can be a useful option. Over a range of FeMoco active spaces, SE-QPE reduces time evolution resources, with asymptotic reductions of about 33% in CX count, 25% in $T$ count, and an asymptotic depth ratio of $3/N$ for CX layers. On Quantinuum H2-2, a four-qubit model ethylene demonstration with explicit inverse QFT and repeated phase-kickback steps up to 6 phase bits yields distinct energies and shows the auxiliary registers provide useful error detection filters.         ",
+    "url": "https://arxiv.org/abs/2604.14921",
+    "authors": [
+      "Megan Cerys Rowe",
+      "Carlo A. Gaggioli",
+      "Ludmila Szulakowska",
+      "David Mu\u00f1oz Ramo",
+      "David Zsolt Manrique"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.10288",
+    "title": "Cumulative Fidelity of LMT Clock Atom Interferometers in the Presence of Laser Noise",
+    "abstract": "           Clock atom interferometry is an emerging technique in precision measurements that is particularly well suited for sensitivity enhancement through large momentum transfer (LMT). While current systems have demonstrated momentum separations of several hundreds of photon momenta, next-generation quantum sensors are targeting an LMT enhancement factor beyond $10^4$. However, the viability of LMT clock interferometers has recently come into question due to the potential impact of laser frequency noise. Here, we resolve this concern by analyzing the cumulative fidelity of sequential state inversions in an LMT atom interferometer. We show that the population error from $n$ pulses applied from alternating directions scales linearly with $n$. This is a significant advantage over the $n^2$ scaling that occurs when probing a two-level system $n$ times from the same direction. We further show that contributions to the interferometer signal from parasitic paths generated by imperfect pulses are negligible, for any loss mechanism. These results establish that laser frequency noise is not a practical limitation for the development of high-fidelity LMT clock atom interferometers.         ",
+    "url": "https://arxiv.org/abs/2508.10288",
+    "authors": [
+      "Yijun Jiang",
+      "Jan Rudolph",
+      "Jason M. Hogan"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.13677",
+    "title": "Open-shell frozen natural orbital approach for quantum eigensolvers",
+    "abstract": "           We present an open-shell frozen natural orbital (FNO) approach, which utilizes the second-order Z-averaged perturbation theory (ZAPT2), to reduce the restricted opten-shell Hartree-Fock virtual space size with controllable accuracy. Our ZAPT2 frozen natural orbital (ZAPT-FNO) selection scheme significantly outperforms the canonical molecular orbital virtual space truncation scheme based on Hartree-Fock orbital energies, especially when using large multiple-polarized and augmented basis sets. We demonstrate that the ZAPT-FNO-selected virtual orbitals lead to a systematic convergence of the correlation energies, but more importantly to the singlet-triplet T$_1$-S$_ 0$ energy gaps with respect to the complete active space (CAS) [occupied + virtual] size. We confirm our findings by simulating T$_1$-S$_ 0$ gaps in H$_2$O$_2$ and O$_2$ molecules using the traditional complete active space configuration interaction (CASCI) approach, as well as in stretched CH$_2$, for which we also employed the iterative qubit coupled cluster (iQCC) method as a quantum eigensolver. Finally, we applied the iQCC method with ZAPT-FNO-selected active space to the phosphorescent Ir(ppy)$_3$ complex with 260 electrons, where extended basis sets are required to achieve chemical (ca. 1 m$E_h$) accuracy. In this case, CASCI results are not available; however, the iQCC-computed T$_1$-S$_ 0$ gaps show robust convergence with enlarging basis set and CAS size, approaching the experimental value. Thus, the ZAPT-FNO method is very promising for improving the accuracy of quantum chemical modelling in a resource-efficient manner, and opens the door to simulating open-shell states of large materials within realistic active space sizes and without compromising on basis-set quality.         ",
+    "url": "https://arxiv.org/abs/2511.13677",
+    "authors": [
+      "Angela F. Harper",
+      "Xiaobing Liu",
+      "Scott N. Genin",
+      "Ilya G. Ryabinkin"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.02630",
+    "title": "Acoustic Analogy of Quantum Baldin Sum Rule for Optimal Causal Scattering",
+    "abstract": "           The mass law is a cornerstone in predicting sound transmission loss, yet it neglects the constraints of causal dispersion. Current causality-based theories, such as the Rozanov limit, are applicable only to one-port reflective absorbers. Here, we derive a universal sum rule governing causal scattering in acoustic systems, establishing a rigorous analogy to the Baldin sum rule in quantum field theory. This relation reveals that the integral of the extinction cross-section is fundamentally locked by the scatterer's static effective mass and stiffness, which is validated numerically using seminal examples of underwater metamaterials. Furthermore, the proposed sum rule predicts an optimal condition for an anomalously broadened transmission loss bandwidth, as experimentally observed through the spectral shaping effect of an acoustic Fano resonator. Our findings open up an unexplored avenue for enhancing the scattering bandwidth of passive metamaterials.         ",
+    "url": "https://arxiv.org/abs/2601.02630",
+    "authors": [
+      "Sichao Qu",
+      "Zixiong Yu",
+      "Erqian Dong",
+      "Min Yang",
+      "Nicholas X. Fang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Classical Physics (physics.class-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2501.11146",
+    "title": "An efficient explicit implementation of a near-optimal quantum algorithm for simulating linear dissipative differential equations",
+    "abstract": "           We propose an efficient block-encoding technique for the implementation of the Linear Combination of Hamiltonian Simulations (LCHS) for simulating dissipative initial-value problems. This algorithm approximates a target nonunitary operator as a weighted sum of Hamiltonian evolutions, thereby emulating a dissipative problem by mixing various time scales. We introduce an efficient encoding of the LCHS into a quantum circuit based on a simple coordinate transformation that turns the dependence on the summation index into a trigonometric function. Classically, this method is equivalent to the use of a highly accurate Fej\u00e9r-Clenshaw-Curtis quadrature formula. Quantumly, this significantly simplifies block-encoding of a dissipative problem and allows one to perform an exponential number of Hamiltonian simulations by a single Quantum Signal Processing (QSP) circuit. The resulting LCHS circuit has high success probability and the selector scales logarithmically with the number of terms in the LCHS sum and linearly with time. Careful analysis of error convergence proves that this method is more efficient than other LCHS circuits that have recently appeared in the literature. We verify the quantum circuit and its scaling by simulating it on a digital emulator of fault-tolerant quantum computers and, as a test problem, solve the advection-diffusion equation. The proposed algorithm can be used for modeling a wide class of nonunitary initial-value problems including the Liouville equation with added dissipation and linear embeddings of nonlinear systems, such as the Koopman-von Neumann and Carleman embeddings.         ",
+    "url": "https://arxiv.org/abs/2501.11146",
+    "authors": [
+      "Ivan Novikau",
+      "Ilon Joseph"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  }
+]
