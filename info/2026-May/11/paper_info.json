@@ -1,0 +1,647 @@
+[
+  {
+    "id": "arXiv:2605.06748",
+    "title": "Dynamic thermal sensitivity of microwave cryogenic sapphire resonator",
+    "abstract": "           We have discovered a memory effect in the temperature sensitivity of a cryogenic sapphire microwave resonator, at the heart of the ultra-stable Cryogenic Sapphire Oscillators (CSOs). Such effect is due to the relaxaxtion time of Cr3+ impurities, and results in hysteresis in the frequency vs temperature behavior, These paramagnetic impurities, always present in synthetic sapphire, produce a temperature turning point which is necessary to achieve ultimate frequency stability. The practical implication on the CSO is that the sapphire resonators's frequency depends on the rate of temperature change. This dynamical thermal sensitivity results in a wide bump in the Allan deviation at 10 s integration time, where the frequency stability is degraded. The actual degradation depends on the specie and on the amount of the dominant paramagnetic impurity.         ",
+    "url": "https://arxiv.org/abs/2605.06748",
+    "authors": [
+      "Mohamed-Yacine Hachani",
+      "Christophe Fluhr",
+      "Benoit Dubois",
+      "Guillaume Le T\u00eatu",
+      "Gonzalo Cabodevila",
+      "Vincent Giordano"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.06808",
+    "title": "A 0.08 pJ/bit 56 GBaud Monolithic Optical Receiver Front End for IMDD Photonic Links",
+    "abstract": "           We present the design, fabrication, and measurement of a monolithically integrated optical receiver analog front end, where low power operation is a primary consideration with a goal of supporting 56 Gbaud intensity modulated direct detect transceivers. The need for low-power consumption and low-noise operation motivates a monolithic, layout driven design approach which begins with circuit topology selection and analysis. Various transistor unit cell layout configurations are explored, minimizing parasitics, enabling wide analog bandwidth and reduced input referred noise. The post-layout analog front end achieves a 28.9 GHz bandwidth with a low-frequency gain of 61.7 dB{\\Omega}. This circuit was designed within the GlobalFoundries FotonixTM monolithic silicon photonics platform. The fabricated device is characterized by its DC operation, noise characteristics, and time domain behavior. The final design was validated by on-off keyed and PAM-4 electrical eye diagram measurements to 64 GBaud, consuming 9.22 mW of power from a 1.2 V supply with less than 737 nA RMS integrated input referred noise current and 0.08 pJ/bit.         ",
+    "url": "https://arxiv.org/abs/2605.06808",
+    "authors": [
+      "Robert P. Pesch",
+      "Arjun Khurana",
+      "Joshua J. Wong",
+      "Joel Slaby",
+      "Stephen E. Ralph"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.06929",
+    "title": "Physics-Based Flow Matching for Full-Field Prediction of Silicon Photonic Devices",
+    "abstract": "           Designing photonic integrated circuits requires accurate electromagnetic field simulations, which remain computationally expensive even for simple device geometries. We present PIC-Flow, a generative neural surrogate that predicts electromagnetic field distributions for photonic devices given their geometry and operating wavelength as an alternative to costly finite-difference time-domain (FDTD) simulations. Our approach combines three key ideas: (i) conditional flow matching as the generative framework, learning a velocity field that transports Gaussian noise to physically valid field solutions; (ii) a real-valued U-Net operating on split real and imaginary field channels; and (iii) physics-constrained training through a Helmholtz residual loss enforcing $\\nabla^2 E_z + k_0^2 \\varepsilon E_z = 0$. We introduce an interface-aware masking scheme for the Helmholtz residual that excludes dielectric boundary pixels where finite-difference stencil errors dominate, yielding a physically meaningful compliance metric. The data set consists of 22,500 ground-truth FDTD simulations split evenly between multimode interferometers, Y-branches, and directional couplers at $\\lambda=1.55\\,\\mu$m in an 80/10/10 split between training, validation, and test sets. We evaluate ablations on the network against the held out test devices and also show that the model generalizes to held out device classes such as S-bends, tapers, and cascaded Y-branches. Rather than a drop-in replacement for FDTD, this work establishes a foundation that, with broader data coverage, more compute, and further training optimization, could scale toward broadband, device-agnostic field prediction with dramatically improved runtime for rapid design-space exploration of complex photonic devices and circuits.         ",
+    "url": "https://arxiv.org/abs/2605.06929",
+    "authors": [
+      "Joseph Quaratiello",
+      "Anthony Rizzo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07047",
+    "title": "Accelerating integrated modeling with surrogate-based optimization: the MAESTRO workflow",
+    "abstract": "           This paper introduces the MAESTRO workflow, that enables the coupling of the PORTALS framework [P. Rodriguez-Fernandez et al, Nucl. Fusion 2024] with external solvers for the plasma equilibrium, pedestal physics, divertor constraints and heating. The surrogate-based optimization nature of the transport solver is ideally suited for external coupling, allowing efficient steady-state predictions of plasma profiles with full physics models. Improvements in the surrogate modeling of quasilinear transport models with PORTALS are presented, which enable the efficient handling of discontinuities in the transport fluxes that can arise from numerical issues or physical instabilities with extreme stiffness. The combination of physics-informed methods and advanced numerical techniques allows the MAESTRO workflow to provide accurate and efficient predictions of steady-state plasma profiles, which are critical for fusion reactor design and optimization.         ",
+    "url": "https://arxiv.org/abs/2605.07047",
+    "authors": [
+      "P. Rodriguez-Fernandez",
+      "N. T. Howard",
+      "J. Hall",
+      "A. Saltzman",
+      "A. Martin-Sanabria",
+      "A. Ho",
+      "G. Snoep",
+      "J. Pimentel-Aldaz",
+      "C. Holland",
+      "M. Muraca",
+      "P. de Lara Montoya",
+      "K. Yanna",
+      "A. E. White",
+      "T. Body",
+      "A. J. Creely",
+      "J. C. Hillesheim",
+      "P. B. Snyder"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07092",
+    "title": "Fragility of Unidirectional Transport in Weakly Disordered Photonic Chern Insulators",
+    "abstract": "           Photonic Chern insulators enable unidirectional light transport protected by nontrivial band topology -- essential for robust photonic integrated circuits and error-free communication. However, disorder from impurities or defects inevitably exists in practical applications, yet how weak disorder affects topological chiral edge states remains insufficiently understood. Here, we reveal a previously unrecognized mechanism by which weak disorder can disrupt robust propagation of chiral edge states in photonic Chern insulators, despite the preservation of global topological invariants. By randomly replacing a small number of magnetized rods with nonmagnetized impurities in a magnetic photonic crystal, we find that when the excitation frequency approaches the single impurity defect state frequency, weak coupling between spatially extended defect states forms a topologically trivial impurity band inside the topological gap. This enables coexistence and coupling of defect states and chiral edge states. The reciprocal \"necklace state\" transport channels formed by coupled defect states break the expected unidirectional propagation in topological Chern insulators with weak disorder. Our work reveals that topological chiral edge state and disorder interactions are more intricate than previously understood and provides new insights into stability and control of topological transport in realistic applications.         ",
+    "url": "https://arxiv.org/abs/2605.07092",
+    "authors": [
+      "Xiaoxuan Shi",
+      "Tiantao Qu",
+      "Xianbin Wu",
+      "Mudi Wang",
+      "Lei Zhang",
+      "Jun Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07281",
+    "title": "Scalable Liquid-Crystal Integrated Silicon Nitride Photonic Circuits for Reconfigurable Quantum Interference",
+    "abstract": "           Integrated quantum photonics requires compact, efficient, and low-power phase modulators. While silicon nitride (SiN) is a promising platform, existing modulators suffer from high power consumption, thermal crosstalk, or high driving voltages. Liquid crystal (LC) offers a compelling alternative because of the large index changes and industrial maturity. However, their suitability for supporting various applications in the photonic quantum system has not been experimentally this http URL, we report the first experimental demonstration that LC-based phase modulators integrated on a SiN platform show highly visible quantum interference. We fabricated a liquid-crystal integrated Mach-Zehnder interferometer (LC-MZI) that achieved CMOS-compatible performance with V_pi * L < 1 V-mm. In two-photon interference experiments, the devices exhibited high-visibility quantum interference (~98.5%) with voltage-tunable phase control. Furthermore, we validated the scalability of our approach by demonstrating wafer-scale fabrication using stepper lithography. This work establishes LC-integrated SiN photonics as a scalable, reconfigurable, and energy-efficient platform for quantum photonic circuits.         ",
+    "url": "https://arxiv.org/abs/2605.07281",
+    "authors": [
+      "Chunghyun Ahn",
+      "Yongjin Hwang",
+      "Sangbaek Lee",
+      "Jinil Lee",
+      "Hyunjin Ko",
+      "Sunghyun Moon",
+      "Hojoong Jung",
+      "Hyun-Yong Yu",
+      "Se-Um Kim",
+      "Hyounghan Kwon"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07406",
+    "title": "Design and Characterization of Racetrack 3D-Trench Silicon Sensor Based on 8-Inch Process with Excellent Time Resolution",
+    "abstract": "           In the extreme environments of high-luminosity colliders, traditional planar silicon sensors suffer severe radiation-induced performance degradation and fail to satisfy the stringent demands of high-precision tracking and high-speed timing in particle physics. 3D silicon sensors enhance radiation hardness by shortening charge collection distance, yet conventional designs with columnar or square-cell trench electrodes exhibit non-uniform electric fields, including saddle points and low-field regions, which degrade charge collection efficiency and timing resolution. This work presents a novel racetrack 3D-trench silicon sensor with continuous racetrack electrodes surrounding a long central collection electrode, aiming to eliminate electric field inhomogeneities. For the first time, a 23 $\\mu $m shallow-etched device was fabricated on an 8-inch platform, which provides a promising basis for its subsequent mass production and engineering applications. The device performance was systematically evaluated through theoretical analysis, 3D TCAD simulations, and characterization using semiconductor parameter analyzers and transient current technique (TCT) measurements. The sensor achieves leakage current below 0.2 nA, breakdown voltage above 110 V, full depletion voltage as low as a few volts, capacitance as low as 650 fF, collected charge of 4 fC, time response of about 640 ps, and time resolution of 50 ps. This large-scale manufacturable, shallow-etched racetrack 3D-trench silicon sensor provides a competitive device solution for portable radiation detection and next-generation 4D tracking under high-radiation and high-event-rate conditions.         ",
+    "url": "https://arxiv.org/abs/2605.07406",
+    "authors": [
+      "Huimin Ji",
+      "Manwen Liu",
+      "Kuo Ma",
+      "Chuan Liao",
+      "Yanwen Liu",
+      "Zheng Li",
+      "Zhihua Li",
+      "Jun Luo"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07423",
+    "title": "Characterization of a Two-Channel Optical and Near-infrared Transition Edge Sensor System for Rare-Event Searches",
+    "abstract": "           Transition edge sensors (TESs) are superconducting energy-resolving microcalorimeters that have demonstrated low background rates as well as quantum efficiencies close to unity for photons at optical and near-infrared wavelengths. This makes these detectors well suited for rare-event searches. We report on the comprehensive characterization of a two-channel detector module consisting of two tungsten TESs optimized for the detection of photons with a wavelength of 1064nm. The devices achieve a system detection efficiency of $(86\\pm1)$%, an energy resolution better than 7%, and a background dark-count rate of photon-like events below 6mHz when coupled to an optical fiber. Using an unbinned likelihood framework, we find the dark count rate to be compatible with blackbody radiation from the room-temperature laboratory environment. Thanks to the energy resolution of the TESs, we show that it is possible to detect monochromatic signals at 1064nm with photon rates $\\geqslant 2.7_{-0.6}^{+0.8} \\times10^{-5}$Hz, which corresponds to a power of $\\geqslant(5.0_{-1.1}^{+1.4})\\times10^{-24}$W, within 20 days of measurement time at the 5$\\sigma$ confidence level. This makes our detectors well suited for searches for hypothetical axions and axion-like particles with experiments such as the Any Light Particle Search II (ALPS II) or axion interferometers. The developed methodologies are not only applicable to axion searches, but are also relevant for rare-event searches with TESs in general.         ",
+    "url": "https://arxiv.org/abs/2605.07423",
+    "authors": [
+      "Manuel Meyer",
+      "Katharina-Sophie Isleif",
+      "Friederike Januschek",
+      "Axel Lindner",
+      "Gulden Othman",
+      "Elmeri Rivasto",
+      "Jose Alejandro Rubiera Gimeno",
+      "Christina Schwemmbauer"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07567",
+    "title": "Boundary-dominated optomechanics in silicon metamaterial membranes",
+    "abstract": "           Stimulated Brillouin scattering in integrated photonic waveguides enables coherent coupling between optical photons and gigahertz acoustic phonons, providing a powerful mechanism for on-chip microwave photonics and opto-acoustic signal processing. Despite theoretical predictions of ultra-strong Brillouin interactions arising from enhanced light-sound coupling at device boundaries, most state-of-the-art integrated demonstrations remain governed by bulk photoelastic effects. This limitation stems from trade-offs between optical loss, interaction with waveguide boundaries and accessible phonon frequencies associated with the use of transverse-electric optical modes coupled to horizontally breathing mechanical modes. Here we demonstrate a new approach based on transverse-magnetic optical modes coupled to vertically breathing mechanical modes in suspended silicon membranes engineered with subwavelength metamaterial claddings. In this geometry, the interaction is dominated by the moving-boundary effect occurring at smooth top and bottom interfaces, while the phonon frequency is set primarily by the membrane thickness rather than its width. We observe forward Brillouin interactions at a record frequency of 12 GHz with a gain of 7200 W$^{-1}$ m$^{-1}$ and a mechanical quality factor of 620, yielding the highest Brillouin gain-to-quality-factor ratio reported in silicon waveguides. The devices exhibit net Brillouin amplification in millimeter-scale waveguides with pump powers below 15 mW, establishing a scalable platform for high-frequency integrated opto-acoustic signal processing.         ",
+    "url": "https://arxiv.org/abs/2605.07567",
+    "authors": [
+      "David Gonz\u00e1lez-Andrade",
+      "Paula Nu\u00f1o Ruano",
+      "Jianhao Zhang",
+      "Paul Joseph Robin",
+      "Hiba El Batoul Ferhat",
+      "Samson Edmond",
+      "Pavel Cheben",
+      "Daniele Melati",
+      "Eric Cassan",
+      "Laurent Vivien",
+      "Delphine Marris-Morini",
+      "Norberto Daniel Lanzillotti-Kimura",
+      "Carlos Alonso-Ramos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07681",
+    "title": "Test-Beam Performance of the AstroPix Silicon Sensor for Imaging Calorimetry",
+    "abstract": "           AstroPix is a high-voltage CMOS HVCMOS monolithic active pixel sensor MAPS developed for future space-based gamma-ray missions. It is also a candidate technology for the imaging layer of the Barrel Imaging Calorimeter BIC in the ePIC experiment at the future Electron-Ion Collider EIC. We report the first AstroPix test-beam results obtained at the KEK Photon Factory Advanced Ring PF-AR and the CERN Proton Synchrotron PS T10 beam line in 2025, using the third prototype AstroPix-v3. AstroPix-v3 sensors were operated as both standalone tracking layers and imaging layers interleaved with prototype lead/scintillating-fiber Pb/SciFi calorimeter modules, using electron and hadron beams in the few-GeV/c momentum range. Event synchronization between the continuous readout of AstroPix-v3 and the trigger-based readout of the Pb/SciFi calorimeter was achieved using a common timestamp. The AstroPix-v3 sensors exhibit stable performance, reaching a maximum hit efficiency of 68 percent at a bias voltage of -400 V under pion-dominated beam conditions. When combined with the Pb/SciFi calorimeter, the AstroPix layers successfully capture the development of electromagnetic showers. Using Cherenkov-based particle identification, electron-induced events exhibit significantly higher hit multiplicities and broader spatial distributions than pion-induced events, thereby providing clear discrimination between electromagnetic and hadronic showers. These results demonstrate that AstroPix-v3 provides effective, high-granularity imaging of shower development and is well suited as an imaging layer in future calorimeter systems for both collider and space-based experiments.         ",
+    "url": "https://arxiv.org/abs/2605.07681",
+    "authors": [
+      "Yoonha Hong",
+      "Jeongsu Bok",
+      "Geunpil An",
+      "Joonsuk Bae",
+      "Yunseul Bae",
+      "Regina Caputo",
+      "Yun Eo",
+      "Wooseok Ham",
+      "Woohyeon Heo",
+      "Yoonha Hong",
+      "Manoj Jadhav",
+      "Seo Yun Jang",
+      "Jinryong Jeong",
+      "Hyon-Suk Jo",
+      "Sylvester Joosten",
+      "Beomkyu Kim",
+      "Bobae Kim",
+      "Chong Kim",
+      "Dongguk Kim",
+      "Minsuk Kim",
+      "Shin Hyung Kim",
+      "Woojong Kim",
+      "Wonjun Ko",
+      "Changhui Lee",
+      "Hyungjun Lee",
+      "Jason Sang Hun Lee",
+      "Jongwon Lee",
+      "Kyeongpil Lee",
+      "Sehwook Lee",
+      "Sangwoo Park",
+      "Jaehyeok Ryu",
+      "Bogyeong Seo",
+      "Jessica Metcalfe",
+      "Minsub Shim",
+      "Junseop Shin",
+      "Hwidong Yoo",
+      "Maria \u017burek",
+      "Sanghoon Lim"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07713",
+    "title": "High-Q Fano resonance in all-dielectric metasurfaces for molecular fingerprint detection",
+    "abstract": "           We present and numerically investigate a high-quality factor (high-Q) meta-atom with Fano resonance. Numerical simulations indicate that the designed meta-atom has a single sharp Fano resonance in the 1350-1750 1/cm range. Moreover, the frequency of the single resonance can be tuned in this frequency range by scaling the meta-atom. We exploit these properties to design a pixelated metasurface for spectrometer-less molecular fingerprint retrieval. The proposed meta-atom with an average quality factor of 2000 makes it possible to decrease the scaling step of metapixels without introducing any resonance overlap between the metapixels leading to higher precision in label-free and non-destructive identification of the molecular fingerprints.         ",
+    "url": "https://arxiv.org/abs/2605.07713",
+    "authors": [
+      "S. Hadi Badri",
+      "M. M. Gilarlue",
+      "Sanam Saeidnahaei",
+      "Jong Su Kim"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07716",
+    "title": "Transmission resonances in silicon subwavelength grating slot waveguide with functional host material for sensing applications",
+    "abstract": "           A highly sensitive and selective CO2 gas sensor is presented based on a subwavelength grating (SWG) slot waveguide. Polyhexamethylene biguanide (PHMB) as a functional material fills the slot gap as well as the space between the silicon pillars of the SWG structure. Beyond the photonic bandgap of the SWG slot waveguide, there are transmission resonances sensitive to the refractive index changes of PHMB due to the infiltration of CO2 molecules into the functional material. The numerical simulations indicate that the sensitivity of the structure is S=12.9 pm/ppm which is considerably higher than the previously designed gas sensors based on functional materials. The higher sensitivity of the proposed sensor is attributed to the strong confinement of the light in the slot gap filled with functional material while previous designs have limited light-matter interaction by placing the functional material in the cladding. The proposed structure may be used to design various sensors by utilizing different functional material sensitive to the desired analyte.         ",
+    "url": "https://arxiv.org/abs/2605.07716",
+    "authors": [
+      "S. Hadi Badri"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07901",
+    "title": "Vortex ring formation from the interaction of a cavitation bubble with a confined air bubble: experiments and a timing criterion",
+    "abstract": "           We study vortex ring formation arising from the interaction between a cavitation bubble and a confined air bubble in a cylindrical blind hole, using high-speed shadowgraphy imaging. As the cavitation bubble grows above the hole, it drives a downward flow that compresses the air bubble at the base. The air bubble subsequently expands, expelling the overlying liquid column upward as a coherent slug; impact of this slug on the far boundary of the collapsing cavitation bubble produces a vortex ring. Parametric experiments across the dimensionless stand-off distance $\\mathcal{H} = h/R_{\\max}$ and the air bubble fill fraction $\\mathcal{B} = (d_\\text{hole} - d_\\text{top})/d_\\text{hole}$ identify three regimes: (i) liquid column impact during collapse, producing a vortex ring ($\\mathcal{H} \\lesssim 0.5$, $\\mathcal{B} \\lesssim 0.5$); (ii) late impact near the end of collapse (large $\\mathcal{H}$); and (iii) direct air bubble impact after bypassing the liquid column (large $\\mathcal{B}$), with neither (ii) nor (iii) producing a ring. Two one-dimensional models, based on the Rayleigh-Plesset equation and isentropic air bubble expansion, predict the liquid column impact location and its speed $U_\\text{lc}$, respectively. A dimensionless timing parameter $\\Pi = (h + R_{\\max}) / (U_\\text{lc} \\cdot t_\\text{cav}/2)$, comparing the liquid column travel time to the cavitation collapse half-period, distinguishes the three regimes: ring formation occurs for $1 \\lesssim \\Pi \\lesssim 1.5$. The ring propagates from the hole at an initial speed of $5$ m/s, decelerating quadratically, and breaks apart via azimuthal instabilities at $Re \\approx 4500$.         ",
+    "url": "https://arxiv.org/abs/2605.07901",
+    "authors": [
+      "Charul Gupta",
+      "Yashwant Singh",
+      "Lakshmana D Chandrala",
+      "Harish N Dixit",
+      "Badarinath Karri"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07966",
+    "title": "Bubble jetting in acoustic microdroplet vaporization",
+    "abstract": "           Acoustic droplet vaporization denotes the phase-change of micron- and sub-micron-sized droplets upon the application of high-amplitude ultrasound. The asymmetric collapse of the incepted vapor bubbles within the droplets can give rise to high-speed liquid microjets. Here, we describe acoustically-driven and bubble-pair jetting arising within the vaporizing droplet, observed experimentally with ultra-high-speed imaging at the microscale. The existence of complex pressure fields due to the continued acoustic wave-droplet interaction and the nucleation of multiple bubbles within the droplet leads to rich dynamics, with the jets presenting behavioral self-similarity to millimetric bubbles under comparable conditions. Evaporative instabilities that develop during bubble growth impede jet formation during bubble collapse. Furthermore, the ability of the jets to pierce the droplet interface and penetrate into the surrounding fluid is discussed. These powerful microjets could be harnessed to induce cell permeabilization for targeted drug delivery and treatment of cancerous tissue.         ",
+    "url": "https://arxiv.org/abs/2605.07966",
+    "authors": [
+      "Anunay Prasanna",
+      "Samuele Fiorini",
+      "Gazendra Shakya",
+      "Outi Supponen"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.08041",
+    "title": "Hot biexcitons driven by extreme optical confinement",
+    "abstract": "           A powerful means to understanding condensed matter that possesses a multi-constituent, non-isolated, and complex nature, with a preeminent example being two-dimensional (2D) materials, is studying many-body interactions. However, experimentally observing high-order many-body interactions is a daunting task due to its heavy reliance on the abundance of low-order complexes. Here, we report the observation of four-body hot biexcitons in an energetically unfavorable bilayer of tungsten disulfide (WS2) through creating extreme optical confinement. Specifically, we integrate a non-radiative bound state in the continuum (BIC) into a photonic crystal (PhC) defect cavity, forming a quasi-three-dimensional (q-3D) but open confinement for photons at the driving frequency. The extremely confined photons in both reciprocal and physical spaces then excite inherently unproductive two-body hot excitons situated slightly above the indirect bandgap so efficiently that they form overwhelmed higher-order four-body hot biexcitons. Distinctively, these hot biexcitons exhibit substantial valley polarization and coherence at room temperature, which we attribute to the topological nature of BICs and the associated q-3D confinement with an orbital angular momentum. Besides achieving room-temperature biexcitons, the q-3D confinement could be valuable for higher-order interactions, such as triexcitons, and many other many-body phenomena, including Bose-Einstein condensation.         ",
+    "url": "https://arxiv.org/abs/2605.08041",
+    "authors": [
+      "Xinyi Wang",
+      "Kaushik Kudtarkar",
+      "Wenjing Wu",
+      "Yunjo Jeong",
+      "Yuxuan Cosmi Lin",
+      "Xiaofeng Qian",
+      "Junichiro Kono",
+      "Shengxi Huang",
+      "Shoufeng Lan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.18665",
+    "title": "Coupling an elastic string to an active bath: the emergence of inverse damping",
+    "abstract": "           We consider a slow elastic string with Klein-Gordon dynamics coupled to a bath of run-and-tumble particles. We derive and solve the induced Langevin-Klein-Gordon string dynamics with explicit expressions for the streaming term, friction coefficient, and noise variance. These parameters are computed exactly in a weak coupling expansion. The induced friction is a sum of two terms: one entropic, proportional to the noise variance as in the Einstein relation for a thermal equilibrium bath, and a frenetic contribution that can take both signs. The frenetic part wins for higher bath persistence, making the total friction negative, and hence creating a wave instability akin to inverse Landau damping. However, this acceleration decreases and eventually disappears when the propulsion speed of the active particles becomes much higher. Detailed simulations confirm the initial growth driven by this anti-damping.         ",
+    "url": "https://arxiv.org/abs/2505.18665",
+    "authors": [
+      "Aaron Beyen",
+      "Christian Maes",
+      "Ji-Hui Pei"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07090",
+    "title": "Decoherence without the state: A causal quantum Darwinist approach",
+    "abstract": "           The consistent histories formalism can be used to describe histories comprised of events across many systems, times, and places, plausibly rich enough to describe our experiences of the classical world; however, many consistent history sets are nonclassical and thus not obviously relevant to our experiences. Meanwhile, the program of environmentally induced decoherence identifies dynamically privileged classical degrees of freedom, but provides no general account of when or how many such degrees of freedom consistently combine to form histories. This work shows that the strengths of these two approaches can be combined by adopting a dynamics-first perspective on decoherence. Inspired by quantum causal models and quantum Darwinism, we define the process of decoherence in terms of the causal influences through unitary dynamics required for the proliferation of information about observables. We characterise decoherence as a property of the unitary dynamics, without presupposing the existence of any quantum state. Instead, we show that the state emerges from dual decoherence, related to decoherence by time-reversal of the unitary dynamics. Indeed, for any set of systems in an arbitrary unitary circuit, decoherence and its dual single out a privileged consistent history set -- and we demonstrate through examples that states emerge from dual decoherence while outcomes emerge from decoherence. Hence the idea that quantum states emerge from the process of decoherence turns out to be the key missing ingredient for unifying environmentally induced decoherence and consistent histories. Taking this idea ontologically seriously leads to a recently proposed causal interpretation of quantum theory or a dynamics-first version of the Everett interpretation. The causal approach also sheds light on the suppression of off-diagonal terms, time asymmetry, and robustness of the pointer basis.         ",
+    "url": "https://arxiv.org/abs/2605.07090",
+    "authors": [
+      "Nick Ormrod",
+      "Tein van der Lugt",
+      "Y\u00ecl\u00e8 Y\u012bng",
+      "Jaros\u0142aw K. Korbicz"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07216",
+    "title": "Formulation of testing gravitational redshift based on Laser Time link between China Space Station and a ground station",
+    "abstract": "           This paper presents a high-precision gravitational redshift test using the China Space Station (CSS) Laser Time Transfer (CLT) system. We develop a comprehensive observation equation based on a c^{-3} order relativistic model for space-ground clock comparison. While the CSS optical clock system is currently in the orbital debugging phase, our simulation using actual CSS orbit data achieves a gravitational redshift verification precision of (1.8 \\pm 47)*10^{-7} -- approximately one order of magnitude improvement over previous experiments. Our work represents the first application of laser-based time transfer for gravitational redshift verification at such precision, and the first use of the CSS CLT link for testing this fundamental aspect of General Relativity. Unlike microwave-based methods, our laser approach avoids ionospheric effects and first-order Doppler shifts. Residual analysis identifies tropospheric delay variations and atmospheric turbulence as the primary remaining uncertainty contributors. The achieved precision enables gravitational potential difference measurements with 0.1 m^2/s^2 precision -- offering new capabilities for both fundamental physics investigations and geodetic applications including intercontinental height transfer. This work establishes a new benchmark for high-precision tests of relativistic physics and demonstrates the transformative potential of space-based optical time transfer.         ",
+    "url": "https://arxiv.org/abs/2605.07216",
+    "authors": [
+      "Rui Xu",
+      "Wenbin Shen",
+      "Hok Sum Fok",
+      "Pengfei Zhang",
+      "Lihong Li",
+      "Lei Wang",
+      "Kuangchao Wu",
+      "An Ning",
+      "Youchao Xie",
+      "Ziyu Shen",
+      "Lingxuan Wang",
+      "Yongqi Zhao",
+      "Kai Liu",
+      "Yuanjin Pan"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07539",
+    "title": "Exciton-mediated optical control of liquid-solid friction",
+    "abstract": "           Interfacial friction in nanofluidic systems can arise from fluctuation-induced coupling between liquid charge fluctuations and the internal excitations of the confining solid. Here, we develop a microscopic theory of exciton-mediated solid-liquid friction based on the coupling between optically generated excitons and charge fluctuations in water. We distinguish between static excitons, localized by disorder or functionalization, and dynamic excitons, which interact with water through polarization fluctuations. In both cases, we derive analytical formulas for the excitonic friction, which is experimentally tunable and can significantly reduce the slip length and thereby the hydraulic permeability of nanochannels. Applying our framework to carbon nanotubes, we quantitatively reproduce the recent measurements of Kistwal et al., showing a reduction of nanotube diffusion under optical excitation, without fitting parameters. More broadly, our results establish excitons as a mechanism to optically control nanofluidic transport and suggest that excitonic photoluminescence could provide an optical probe of flow velocity inside nanochannels.         ",
+    "url": "https://arxiv.org/abs/2605.07539",
+    "authors": [
+      "Timur Pryadilin",
+      "Alexey Kavokin",
+      "Baptiste Coquinot"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07621",
+    "title": "Entanglement-informed distributed wavefunction approach to scalable quantum many-body systems",
+    "abstract": "           We show that the entanglement structure of quantum many-body states defines a natural and optimal distributed representation for their simulation. An arbitrary entanglement cut induces a bipartite decomposition of the wavefunction, mapping its distribution onto that of the entanglement spectrum. In this representation the Hamiltonian application, the core of Krylov-subspace methods, reduces to local contractions and communication-optimal operations. Using benchmarks from different methods and models, we demonstrate near-linear scaling for sufficiently large systems and identify entanglement spectrum fragmentation as a key factor controlling computational cost. This establishes entanglement as an organizing principle and unified, method-independent, route for scaling up quantum many-body simulations.         ",
+    "url": "https://arxiv.org/abs/2605.07621",
+    "authors": [
+      "Adriano Amaricci"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07685",
+    "title": "Ground states of quantum XY dipoles on the Archimedean lattices",
+    "abstract": "           We report numerical ground states for the dipolar XY spin model, which describes extended antiferromagnetic interactions in two-dimensional arrays of polar molecules and two-level Rydberg atoms. Carrying out large-scale density matrix renormalization group (DMRG) calculations, we compute ground state properties on nine of the eleven Archimedean lattices--tilings of the plane by regular polygons. Four of these host trivial paramagnets, while another four develop collinear Neel magnetic order, as was found previously for the square lattice. For the ordered states, we calculate the hydrodynamic parameters (magnetization, susceptibility, and stiffness) and compare to linear spin wave theory. We also investigate the triangular lattice, for which we find several competing phases including coplanar magnetism, stripe density wave order, and a possible spin liquid; their relative stability is sensitive to the long-range couplings present in our dipolar model. Finally, the Archimedean classification is completed by the kagome lattice, which we argue in a companion work is likely to be a Dirac spin liquid.         ",
+    "url": "https://arxiv.org/abs/2605.07685",
+    "authors": [
+      "Marcus Bintz",
+      "Ahmed Khalifa",
+      "Vincent S. Liu",
+      "Johannes Hauschild",
+      "Michael P. Zaletel",
+      "Shubhayu Chatterjee",
+      "Norman Y. Yao"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.07948",
+    "title": "Energy-Resolved Quantum Geometry from St\u0159eda Response: Driven-Dissipative Bosonic Lattices and Disordered Systems",
+    "abstract": "           The St\u0159eda formula links the Hall conductivity of an insulator to the magnetic-field response of its particle density, providing a local and universal probe of the topological Chern number. Beyond this quantized response, an energy-resolved St\u0159eda marker can be defined from the magnetic response of the density of states, revealing detailed features of the quantum geometry of Bloch bands. We show that driven-dissipative bosonic lattices provide direct access to both the integrated and energy-resolved St\u0159eda responses. Our scheme uses controlled pumping with uniform strength and random phases across the lattice, together with uniform loss, to yield a Lorentzian filter of eigenmode occupations. For generic dispersive bands, this enables reconstruction of a coarse-grained energy-resolved St\u0159eda response, establishing these platforms as versatile probes of anomalous spectral flow and energy-resolved quantum geometry. As a striking application, we show that this marker elucidates the fate of topological bands under strong disorder, capturing the quantum-geometric structure underlying topological Anderson insulators.         ",
+    "url": "https://arxiv.org/abs/2605.07948",
+    "authors": [
+      "Ana\u00efs Defossez",
+      "Baptiste Bermond",
+      "Lucila Peralta Gavensky",
+      "Nathan Goldman"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2304.09037",
+    "title": "Carnap on Quantum Mechanics",
+    "abstract": "           This entry reviews Rudolf Carnap's philosophical views on the quantum mechanics of his time. It also offers some thoughts on how Carnap might have reacted to some recent developments in the foundations of quantum mechanics.         ",
+    "url": "https://arxiv.org/abs/2304.09037",
+    "authors": [
+      "Sebastian Horvat",
+      "Iulian D. Toader"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.17617",
+    "title": "Inverse Design of Multi-Layered Manufacturable Pixelated Diplexers Through Optimized Geometrical Configuration and Meshing Strategy in MoM",
+    "abstract": "           This paper presents a fast inverse design framework for complex multilayered, multiport pixelated surfaces - a class of structures largely unexplored in current research. Leveraging a method-of-moments (MoM) electromagnetic (EM) solver, the framework enables the rapid synthesis of pixelated device designs. A novel matrix reconstruction technique, based on pre-labeling matrix entries as \"inter-pixel\" or \"inner-pixel,\" accelerates simulations for each variation of the pixelated structure. To mitigate the cubic increase in computation time associated with additional layers, GPU acceleration is employed. Further enhancing convergence speed, a stochastic multi-pixel flipping search algorithm is integrated into the framework. The effectiveness of this approach is demonstrated through the design of a diplexer achieving a -3-dB bandwidth for one channel spanning 5.23-5.94 GHz and another covering 6.17-7.15 GHz, validated by a full-wave solver.         ",
+    "url": "https://arxiv.org/abs/2412.17617",
+    "authors": [
+      "Woojun Lee",
+      "Jungmin Lee",
+      "Jeffrey S. Walling"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.15938",
+    "title": "Differentiable graph neural network simulator for forward and inverse modeling of multi-layered slope system with multiple material properties",
+    "abstract": "           Graph neural network simulators (GNS) have emerged as a computationally efficient tool for simulating granular flows. Previous efforts have been limited to simplified homogeneous geometries characterized only by the friction angle, which does not reflect the complexity of realistic slopes encountered in engineering practice. This study introduces a differentiable GNS framework designed for multi-layered slope systems comprising both forward and inverse modeling components. The forward component relies on a fine-tuned GNS that incorporates both friction angle and cohesion. Its performance is demonstrated through column collapse and multi-layered slope runout simulations, where the GNS replicates multi-material flow dynamics while achieving significant computational speedup over the Material Point Method (MPM). The inverse modeling component leverages the trained GNS, reverse-mode automatic differentiation, and L-BFGS-B optimization to infer material properties from a target runout geometry. Its performance is demonstrated by back-calculating the material strengths that led to failure-induced runout in a dam system composed of multiple materials. Results are obtained within minutes and show good agreement with the target strength values. The framework introduced in this study provides an efficient approach for forward runout assessments and inverse strength back-calculation in realistic slope systems.         ",
+    "url": "https://arxiv.org/abs/2504.15938",
+    "authors": [
+      "Yongjin Choi",
+      "Jorge Macedo",
+      "Chenying Liu"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.17930",
+    "title": "Self-induced transparency and optical transients in atomic vapors",
+    "abstract": "           The rapid turn-on of a strong, resonant, continuous wave laser field may trigger the formation of a transient oscillation akin to a train of damped solitons, before the vapor-field system relaxes into a stationary state. We study this transient dynamic on theoretical models of a rubidium vapor. We also consider doubly resonant V-systems, for which the transients take the form of trains of damped simultons. We compute the propagating field(s) by solving the Maxwell-Bloch equations, taking homogeneous broadening, Doppler broadening and the full hyperfine structure of the atoms into account. We also compare the actual fields to the stationary dnoidal fields predicted by the Maxwell-Bloch equations in conditions of self-induced transparency. A similar dynamics is expected to occur in any atomic vapor at the turn-on of a strong resonant continuous wave field provided the turn-on is sufficiently fast compared to relaxation.         ",
+    "url": "https://arxiv.org/abs/2505.17930",
+    "authors": [
+      "B. S. Cartwright",
+      "S. A. Wrathmall",
+      "R. M. Potvliege"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.15264",
+    "title": "Calibration Methods of Silicon Photomultiplier for JUNO-TAO Central Detector",
+    "abstract": "           The Taishan Antineutrino Observatory (TAO or JUNO-TAO) is a satellite observatory for the Jiangmen Underground Neutrino Observatory (JUNO), located 44 meters away from the No.1 reactor of the Taishan Nuclear Power Plant. TAO can measure the reactor antineutrino energy spectrum with excellent energy resolution (better than 2% at 1 MeV) using state-of-the-art Silicon Photomultipliers (SiPMs) operated at low temperature. To achieve this goal, the SiPMs (together with their readout electronics) must be well calibrated. This paper presents the channel-level calibration methods for the dark count rate (DCR), relative photon detection efficiency (PDE), time offset, gain, and internal optical crosstalk (IOCT) of the SiPMs based on charge and time information of the collected events. For the tile-level calibration of the external optical crosstalk (EOCT), in terms of its rate and emission angle distribution, a novel method is proposed by switching on and off different groups of SiPMs with an LED placed in the detector. Using one million simulated events, the expected calibration biases are evaluated for all the aforementioned parameters: relative PDE (~3%), IOCT (1.4%), DCR (0.4%), EOCT Rate (<0.1%), gain (<0.1%), time offset (<0.2 ns). The emission angle distribution of the EOCT photons could be measured with a bias of less than 4% in the main angular range. With the this calibration accuracy, the overall impacts of SiPM parameter uncertainties and calibration biases on vertex precision and energy resolution are limited, with relative degradation below 2% and 3%, respectively. It verifies the validity of the calibration method for the JUNO-TAO detector.         ",
+    "url": "https://arxiv.org/abs/2512.15264",
+    "authors": [
+      "Jiayang Xu",
+      "Yichen Li",
+      "Zhan Liang",
+      "Guofu Cao",
+      "Zelin Chen"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.17158",
+    "title": "Stochastic tensor contraction for quantum chemistry",
+    "abstract": "           Many computational methods in ab initio quantum chemistry are formulated in terms of high-order tensor contractions, whose cost determines the size of system that can be studied. We introduce stochastic tensor contraction to perform such operations with greatly reduced cost, and present its application to the gold-standard quantum chemistry method, coupled cluster theory with up to perturbative triples. For total energy errors more stringent than chemical accuracy, we reduce the computational scaling to that of mean-field theory, while starting to approach the mean-field absolute cost, thereby challenging the existing cost-to-accuracy landscape. Benchmarks against state-of-the-art local correlation approximations further show that we achieve an order-of-magnitude improvement in both total computation time and error, with significantly reduced sensitivity to system dimensionality and electron delocalization. We conclude that stochastic tensor contraction is a powerful computational primitive to accelerate a wide range of quantum chemistry.         ",
+    "url": "https://arxiv.org/abs/2602.17158",
+    "authors": [
+      "Jiace Sun",
+      "Garnet Kin-Lic Chan"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.09238",
+    "title": "Optical readout of MPGDs with solid wavelength shifters",
+    "abstract": "           Optical readout of MicroPattern Gaseous Detectors (MPGDs) makes use of the high granularity of imaging sensors to achieve good spatial resolution for radiation imaging and particle detection. CF4 is widely used as a scintillating gas because its emission lies in the visible range, where optical sensors are most sensitive. However, to reduce reliance on greenhouse gas, such as CF4, which also has limited availability, alternative gas mixtures emitting scintillation light in the ultraviolet range can be used in combination with wavelength shifters. We investigate the spatial resolution achievable with optically read out Gaseous Electron Multipliers (GEMs) and Micromegas when using solid wavelength shifter layers such as Tetraphenyl butadiene (TPB). TPB coatings on the anode of glass Micromegas achieve the best spatial resolution of 0.22 mm owing to the minimal distance between the origin of the scintillation light and the wavelength shifter. Nevertheless, TPB layers were also shown to achieve moderate spatial resolution in combination with optically read out GEMs.         ",
+    "url": "https://arxiv.org/abs/2604.09238",
+    "authors": [
+      "F.M. Brunbauer",
+      "A. Cools",
+      "M. Cortesi",
+      "E. Fasoula",
+      "E. Ferrer-Ribas",
+      "K.J. Fl\u00f6thner",
+      "F. Garcia",
+      "D. Janssens",
+      "M. Lisowska",
+      "P. Sviatopolk Mirsky",
+      "H. M\u00fcller",
+      "J. Nummi",
+      "E. Oliveri",
+      "G. Orlandini",
+      "T. Papaevangelou",
+      "D. Pfeiffer",
+      "E. Pollacco",
+      "L. Ropelewski",
+      "F. Sauli",
+      "J. Samarati",
+      "L. Scharenberg",
+      "M. van Stenis",
+      "R. Veenhof"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.23745",
+    "title": "Bridging the Sensitivity Gap in Precipitation Estimates from Spaceborne Radars using Passive Microwave Observations",
+    "abstract": "           Current global precipitation estimates from spaceborne precipitation radars are limited by their sensitivity to light and frozen precipitation, leading to systematic underestimation of precipitation at high latitudes. Because passive microwave retrievals (PMW) are commonly trained using these radar observations as reference data, this limitation is propagated into PMW This study introduces a novel PMW oceanic precipitation retrieval, GPROF-NN eXtended Precipitation Regime (XPR), that combines reference estimates from a cloud radar and a precipitation radar to overcome the sensitivity limitations of current spaceborne precipitation radars. The retrieval is trained to estimate light precipitation from CloudSat observations and moderate-to-heavy precipitation using observations from the GPM Dual-Frequency Precipitation Radar. The two estimates are combined using a fusion scheme to obtain a consistent precipitation estimate across precipitation regimes. Validation against in situ measurements from shipborne disdrometers shows a 26% improvement in the detection skill for high-latitude precipitation in terms of the critical success index and a reduction in the underestimation of high-latitude and frozen precipitation by more than 50% compared to retrievals constrained only by precipitation radar data. However, the fused retrieval does not improve the precision of instantaneous precipitation estimates, which is likely due to significant random errors in the CloudSat-based reference estimates of liquid precipitation. These results demonstrate that PMW retrievals can leverage the complementary sensitivities of cloud and precipitation radars to provide more consistent precipitation estimates across precipitation regimes than either reference instrument alone. The proposed retrieval provides a pathway to improve the representation of oceanic precipitation in future GPM precipitation products.         ",
+    "url": "https://arxiv.org/abs/2604.23745",
+    "authors": [
+      "Simon Pfreundschuh",
+      "Christian D. Kummerow"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.05649",
+    "title": "Self-organized photonic time quasicrystal from a single imposed clock",
+    "abstract": "           A photonic time crystal usually writes a clock into a medium. Here one clock does more than program the medium: it seeds a quasiperiodic temporal order that the nonlinear medium selects for itself. In a guided-wave lattice of nonlinear dipoles, a single-tone pump modulates the polarization sector, while Maxwell--polarization back-action selects two response frequencies whose only resolved low-order relation is the pump-locked sum condition. Their sum phase locks to the pump and the complementary phase winds, producing a photonic discrete time quasicrystal with torus-like phase dynamics and a discrete combination spectrum. Site-resolved measurements show locked-phase coherence across the measured lattice sites over a finite control-parameter window. These results establish a route from externally programmed time-varying media to self-organized temporal order in nonlinear photonic systems.         ",
+    "url": "https://arxiv.org/abs/2605.05649",
+    "authors": [
+      "Minwook Kyung",
+      "Kyungmin Lee",
+      "Yung Kim",
+      "Eun-Gook Moon",
+      "Joonhee Choi",
+      "Bumki Min"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.06199",
+    "title": "Data-driven reconstruction of band dispersion and quantum geometry via Koopman dynamical mode decomposition",
+    "abstract": "           We present a data-driven framework for reconstructing band structures using Koopman operator analysis and dynamic mode decomposition (Koopman-DMD). Instead of deriving spectra from an explicit Hamiltonian, the approach reconstructs band dispersion and modal dynamics directly from spatiotemporal data, including wavefunctions and observables. This framework establishes a correspondence between Hamiltonian Floquet-Bloch decomposition and Koopman-DMD, whereby the extracted DMD modes encode frequencies, decay or growth rates, spatial profiles and projection weights. These quantities allow the reconstruction of spectral functions, local density of states, and delocalized-to-localized measures such as the inverse participation ratio. Also, these extended DMD modes enable inference of quantum-geometric and topological properties, including the quantum metric, Berry curvature and geometric phases. Applications to prototypical one- and two-dimensional tight-binding models, including disordered Su-Schrieffer-Heeger model and its Floquet and non-Hermitian variants, graphene and Haldane models, demonstrate that Koopman-DMD provides a unified route for the data-driven analysis of wave propagation, localization, and topological phases in condensed matter, photonics, and related fields.         ",
+    "url": "https://arxiv.org/abs/2605.06199",
+    "authors": [
+      "Yiming Pan",
+      "Jinze He",
+      "Jiapeng Yang",
+      "Zhiwei Fan"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.16119",
+    "title": "Microring Perceptron Sensing for Low-Power Radio-Frequency Detection with Quantum-Compatible Photonic Preprocessing",
+    "abstract": "           Radio-frequency (RF) sensing underpins applications ranging from radar and wireless communication to biomedical and quantum measurement, where detection sensitivity at low signal-to-noise ratio (SNR) directly limits the achievable range, resolution, and information capacity. Machine learning has been widely applied to enhance sensing performance, but predominantly as post-detection analysis of already-acquired data. At low SNR, however, the information missing from acquired data cannot be recovered downstream, making pre-detection processing essential. Here we introduce microring perceptron (MiRP) sensing, a framework that exploits RF-photonic transduction in a microring resonator, where a programmable optical pump performs three-wave mixing to implement a learned mapping from the incoming RF signal to optical feature signals prior to detection. The transducer front end and digital neural-network back end are jointly optimized within a single end-to-end training pipeline, allowing the sensing system to learn an encoding that preserves task-relevant information through detection. Across benchmark tasks, MiRP sensing achieves substantially higher task performance than conventional processing at low input RF power levels where detection noise dominates. The algorithmic gain reported here offers an orthogonal axis of improvement that composes with, and amplifies the impact of, existing and future advances along complementary dimensions, including hardware efficiency and quantum-enhanced optical sensing.         ",
+    "url": "https://arxiv.org/abs/2504.16119",
+    "authors": [
+      "Bo-Han Wu",
+      "Shi-Yuan Ma",
+      "Mahmoud Jalali Mehrabad",
+      "Mingran Jia",
+      "Sri Krishna Vadlamani",
+      "Hyeongrak Choi",
+      "Dirk Englund"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.02397",
+    "title": "Dynamical universality in a driven quantum fluid of light",
+    "abstract": "           Universal scaling near phase transitions is one of the central ideas of physics, linking the growth of spatial correlations to the slowing down of dynamics. So far, direct experimental access to this critical behavior has remained largely confined to equilibrium many-body systems, and especially to static critical behavior. Here we probe how universality emerges in a driven quantum fluid of light formed by exciton--polaritons in a semiconductor microcavity. By probing the fluctuation-dominated disordered phase below the condensation threshold, we directly measure both the static growth of the correlation length $\\xi$ and the dynamical slowing down of the relaxation time $\\tau$. We find that these quantities obey the universal relation $\\tau \\propto \\xi^{z}$ with dynamical exponent $z \\approx 2$, revealing diffusive dynamics of a non-conserved order parameter. Our results extend the physics of critical dynamics from equilibrium matter to driven optical systems, bridging quantum condensates and lasers.         ",
+    "url": "https://arxiv.org/abs/2605.02397",
+    "authors": [
+      "Ivan Gnusov",
+      "Paolo Comaron",
+      "Antonio Gianfrate",
+      "Dimitrios Trypogeorgos",
+      "Marzena Szymanska",
+      "Paolo Cazzato",
+      "Milena De Giorgi",
+      "Daniele Sanvitto",
+      "Dario Ballarini"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
