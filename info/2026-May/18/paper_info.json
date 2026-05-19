@@ -1,0 +1,352 @@
+[
+  {
+    "id": "arXiv:2605.15211",
+    "title": "Modeling Optical Polarization Evolution in Myelinated Axon Waveguides with Realistic Imperfections",
+    "abstract": "           Biophotonic signaling via axons has been proposed as a potential mode of neural communication, where information might be encoded not only in photon number and wavelength but also in polarization. Although earlier computational studies have examined how structural imperfections influence optical transmission, their effects on polarization fidelity remain unexplored; previous modeling of polarization fidelity in myelinated axons has largely focused on idealized geometries. This study incorporates three structural imperfections characteristic of axons in vivo: variation in myelin thickness, non-circular cross-sectional geometry, and axonal bending, within a model that includes four nodes of Ranvier. We find that variation in myelin thickness alone has minimal impact on fidelity, while non-circular cross-sections show strong mode dependence. Axonal bending has the most significant influence, generating large fluctuations and deep fidelity dips. When all imperfections are combined in a single axon model, the simulations show substantial drops in fidelity, yet certain modes exhibit recovery, with repeated revivals reaching values of around 0.8, which exceeds the revivals observed in the single imperfection cases. Overall, the results indicate that although structural imperfections affect polarization, polarization-based biophotonic signals might remain recoverable even in realistic axons, lending support to the plausibility of polarization-based biophotonic signaling in the brain.         ",
+    "url": "https://arxiv.org/abs/2605.15211",
+    "authors": [
+      "Ethan Davies",
+      "Rishabh",
+      "Christoph Simon"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15632",
+    "title": "About Time: Observation of Time-Reflection at Optical Frequencies",
+    "abstract": "           Time-reflection occurs when a wave is propagating in a medium undergoing a large and abrupt change in its properties: the original wave splits into a time-refracted wave and a time-reflected wave, each displaying different features. The time-refracted wave continues along its original course but experiences a frequency shift, whereas the time-reflected wave is propagating backwards in space with a reversed phase, also with a shifted frequency. These phenomena are fundamental to any wave system, but the most interesting are electromagnetic (EM) waves, specifically at optical frequencies, where they can couple to light-matter interactions. However, time-reflection of EM waves was thus far observed only at RF frequencies, never at optical frequencies. This is because time-reflection requires an order-unity variation of the refractive index occurring faster than a single wave cycle, and conventional optical nonlinearities are either too weak or too slow by orders of magnitude. Here, we present the first observation of time-reflection at optical frequencies. We induce an order-unity refractive-index change with sub-cycle duration, observe the time-reflection, and study its fundamental properties. These results provide an experimental pathway to experimenting with time-interfaces, generating photonic time-crystals and exploring new regimes of light-matter interaction in time-varying media.         ",
+    "url": "https://arxiv.org/abs/2605.15632",
+    "authors": [
+      "Ohad Segal",
+      "Noa Konforty",
+      "Oded Schiller",
+      "Maxwell J. Tolchin",
+      "Tony Yasniger",
+      "Michael Birk",
+      "Alexander Palatnik",
+      "Soham Saha",
+      "Pavel Sidorenko",
+      "Jon-Paul Maria",
+      "Yonatan Plotnik",
+      "Mordechai Segev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15716",
+    "title": "Nonlocal Optical Response and Surface Susceptibilities: A Systematic Derivation via Spatial Moment Expansion",
+    "abstract": "           We present a systematic theory connecting the nonlocal response kernel of a homogeneous medium to its effective surface susceptibilities for an arbitrary curved interface. Starting from the most general tensorial nonlocal constitutive relation and combining a spatial moment expansion with a distributional thin-layer limit, we show that the full complexity of the interfacial response condenses, at leading order, into a single scalar: the surface susceptibility $\\chi^s$, equal for the tangential and normal components of the electric field. These quantities provide a constructive generalization of the Feibelman $d$-parameters to interfaces of arbitrary curvature, and the curvature corrections, proportional to the geometric invariants $H$ (mean curvature) and $K$ (Gaussian curvature), are derived explicitly. The formalism is illustrated on a comprehensive set of analytically tractable cases (planar, spherical, cylindrical, and ellipsoidal interfaces) for several kernel choices (Gaussian, Yukawa, tensorial Lorentz). Generalized Maxwell boundary conditions are established and compared with the classical Fresnel results.         ",
+    "url": "https://arxiv.org/abs/2605.15716",
+    "authors": [
+      "Fr\u00e9d\u00e9ric Zolla"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Mathematical Physics (math-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15900",
+    "title": "Optimized near-field optical response via adaptive tip illumination",
+    "abstract": "           The performance of tip-enhanced optical microscopy is often limited by inefficient coupling of the excitation field to the plasmonic tip apex, as well as by thermal drift and optical aberrations. Here, we demonstrate that adaptive wavefront shaping based on Zernike mode provides a practical approach to achieving robust near-field optimisation at the tip apex. Using a sequential feedback algorithm, initially using the near-field signal, we narrow the illumination point-spread function and suppress sidelobes. This demonstrates that Zernike-mode control can be used for both aberration correction and field engineering. In tip-enhanced Raman measurements of a Janus MoSSe monolayer, conventional near-field optimisation increases the signal intensity by around 1.4 fold. A second optimisation step based directly on the Raman-band intensity yields a further 5 to 15 fold enhancement, depending on the specific tips used. These results establish a systematic, optics-based strategy for optimising tip fields, providing a transferable framework for improving tip-enhanced and related near-field spectroscopies.         ",
+    "url": "https://arxiv.org/abs/2605.15900",
+    "authors": [
+      "Tao Chen",
+      "Wei Wang",
+      "Ziyang Gan",
+      "Daniel Repp",
+      "Jinxin Zhan",
+      "Antony George",
+      "Henrik Schneidewind",
+      "Ulf Peschel",
+      "Andrey Turchanin",
+      "Volker Deckert"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.16031",
+    "title": "Physics-Aware Machine-Learning-Driven Inverse Design of Broadband Ultra-Open Acoustic Metamaterials",
+    "abstract": "           Ventilated acoustic silencers combing sound attenuation with high ventilation are pivotal for advanced noise control. However, balancing attenuation, bandwidth, openness, and thickness remains a high-dimensional challenge. Here, we report a physics-aware machine-learning-driven inverse design framework for ultra-open acoustic silencers (UAS). By leveraging Green's function-based parameterization, we physically decouple the design space into spectral and radial parameters, ensuring physical interpretability while reducing complexity. We introduce a two-stage forward prediction architecture that captures broadband envelopes and sharp resonant features via a coarse-to-fine strategy. Coupled with a population-based, hybrid-objective parallel (PHP) inverse strategy, our framework enables rapid exploration of non-convex landscapes, identifying hundreds of optimized candidates within seconds. Crucially, this framework uncovers hidden linear design rules that govern high-performance monolithic designs, acting as geometric proxies for optimal impedance-matching. We experimentally validate a family of prototypes: UAS-2 demonstrates the monolithic limit with high ventilation ratio, while UAS-3 demonstrates versatility in multi-mode interactions. To circumvent the trade-off ceiling of single-unit resonators, a parallel-composite architecture (UAS-4) is introduced to enhance performance through spatial interference distribution. Results confirm a broadband bandwidth exceeding 830 Hz achieved with an ultra-thin profile (0.1-0.2{\\lambda}) and 80% ventilation. This work establishes a data-driven paradigm for discovering design principles in functional metamaterials.         ",
+    "url": "https://arxiv.org/abs/2605.16031",
+    "authors": [
+      "Zhiwei Yang",
+      "Mengyu Li",
+      "Xiaohang Xie",
+      "Ao Chen",
+      "Thomas G. Bifano",
+      "Xin Zhang"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15366",
+    "title": "Measurement-Efficient Variational Quantum Linear Solver for Carleman-Linearized Nonlinear Dynamics",
+    "abstract": "           We present hybrid quantum-classical pipelines for solving the Duffing equation that leverage Carleman linearization and the Variational Quantum Linear Solver (VQLS). First, we demonstrate that Carleman linearization accurately approximates the weakly nonlinear Duffing equation, with errors diminishing as the truncation order increases. Next, across IBM and Xanadu platforms, we deploy VQLS with symmetry-grouped Hadamard Test evaluations under both global and local cost formulations, compare distinct Hermitianization within a common cost framework, and benchmark hardware-efficient ansatz architectures under a fixed Hermitianization. Across block-banded test cases, each method achieves near-unity fidelity and vanishing relative residuals. These results show that topology-agnostic ansatz, optimized Hermitianization, and efficient cost formulation enable VQLS to recover quantum states proportional to classical solutions for Carleman-structured systems, providing a portable recipe for quantum-in-the-loop simulation of nonlinear dynamics.         ",
+    "url": "https://arxiv.org/abs/2605.15366",
+    "authors": [
+      "Yunya Liu",
+      "Pai Wang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15389",
+    "title": "Radio-frequency reflectometry in silicon carbide large-area transistors",
+    "abstract": "           Radio-frequency (RF) reflectometry is widely used for high-bandwidth readout of semiconductor quantum devices at cryogenic temperatures, but its application has mainly been limited to nanoscale structures with relatively small capacitances. Here, we investigate RF readout in a different regime by applying gate-based reflectometry to a large-area silicon carbide transistor with parasitic capacitances orders of magnitude larger than those of typical quantum devices, conditions normally expected to hinder RF readout. We observe a gate-dependent RF response which degrades and eventually vanishes as temperature is lowered, although MOSFET operation in DC transport is maintained down to deep cryogenic temperatures. We attribute this behaviour to impedance changes introduced by carrier freeze-out in the transistor drift region, and propose a modified circuit configuration designed to restore sensitivity under these conditions. These results establish how parasitic pathways and device geometry can limit RF readout, providing insight into the design of scalable cryogenic-CMOS quantum systems.         ",
+    "url": "https://arxiv.org/abs/2605.15389",
+    "authors": [
+      "Alexander Zotov",
+      "Conor McGeough",
+      "Megan Powell",
+      "Alessandro Rossi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15784",
+    "title": "Quantum compressed sensing",
+    "abstract": "           How many measurements are fundamentally required to capture a signal. Shannon's information theory established the bedrock of this question in 1948, the Nyquist Shannon theorem set the first answer, and compressed sensing (CS) rewrote it in 2006 by reducing the required measurement number to M = O(Klog(N/K)) for a K sparse signal. Here, we propose quantum compressed sensing (QCS), a paradigm that reframes signal acquisition as a unitary quantum evolution. By encoding high dimensional signal information into a single quantum probe state, then introducing domain-alignment evolution,a physically realizable unitary transformation that maps the sparse basis directly onto the measurement basis. QCS executes the support-set search at the quantum level without consuming measurement trials. The logarithmic penalty vanishes, compressing the required measurement number from the classical bound to M =O(K) and reducing reconstruction from ill posed optimization to linear estimation. We experimentally validate QCS using frequency and time domain sparse signals, confirming that the measurement number scales linearly with sparsity and decouples entirely from the signal dimension. Our work provides a physical pathway toward ultimate information acquisition efficiency, with broad implications for sensing, imaging, and communication.         ",
+    "url": "https://arxiv.org/abs/2605.15784",
+    "authors": [
+      "Jianyong Hu",
+      "Wei Li",
+      "Shuxiao Wu",
+      "Liwen Zhang",
+      "Yongchuang Sun",
+      "Jiazhao Tian",
+      "Guosheng Feng",
+      "Zhixing Qiao",
+      "Jianqiang Liu",
+      "Changgang Yang",
+      "Ruiyun Chen",
+      "Chengbing Qin",
+      "Guofeng Zhang",
+      "Liantuan Xiao",
+      "Suotang Jia"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.15935",
+    "title": "Dynamic Plasma Shape Control with Arbitrary Sensor Subsets",
+    "abstract": "           Plasma shape control in tokamaks requires a real-time controller that tracks dynamically changing shape targets while tolerating diagnostic failures. Classical approaches decompose the problem into equilibrium reconstruction followed by a linear controller, and assume a fixed, fully operational sensor set. We present a reinforcement learning agent that addresses both limitations simultaneously. The agent is trained in NSFsim, a high-fidelity tokamak simulator configured for DIII-D, on a curated dataset of 120 experimental plasma shapes. The shape targets are resampled as random step changes every 0.25 s, exposing the agent to diverse transitions across the full shape envelope. At test time the agent zero-shot tracks dynamic shape sequences; on a held-out static configuration in simulation it achieves a mean shape error of 2.01 cm, and dynamic trajectory following is demonstrated qualitatively in simulation and on the physical device. Diagnostic dropout randomly masks 30% of magnetic sensors per episode, yielding a single policy robust to arbitrary sensor subsets without backup controllers or mode-switching logic. An asymmetric actor-critic architecture with privileged equilibrium information improves value estimation under partial observability; an auxiliary shape reconstruction head on the actor enables end-to-end shape reconstruction from raw diagnostics and serves as an interpretability tool for policy analysis. The policy transfers to experimental DIII-D shots, where it directly commands the coil actuators on two dynamic shape maneuvers, and to the independent GSevolve simulator.         ",
+    "url": "https://arxiv.org/abs/2605.15935",
+    "authors": [
+      "D. Sorokin",
+      "M. Stokolesov",
+      "A. Granovskiy",
+      "I. Prokofyev",
+      "E. Adishchev",
+      "M. Nurgaliev",
+      "E. Khayrutdinov",
+      "G. Subbotin",
+      "R. Clark",
+      "D. Orlov"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Systems and Control (eess.SY)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.16044",
+    "title": "Quantum Feature Amplification Network (QFAN) as An Autoregressive Quantum Generative Model",
+    "abstract": "           Direct-register quantum generative models for calorimeter shower simulation tie the quantum output dimension to the image dimension, so the required register size grows with the full image. Recent quantum-assisted methods reduce this pressure only by moving part of the generative task into hybrid latent-variable models. Consequently, current quantum demonstrations remain far below detector-scale geometries used in high-energy physics. We introduce the Quantum Feature Amplification Network (QFAN), which removes this register-size bottleneck by generating an image as a sequence of blocks. Each block is produced by the same small parameterized quantum circuit, conditioned on a compressed summary of the pixels already generated. Reusing the circuit fixes the qubit requirement by block size rather than full image size, while the per-step quantum processing cost is independent of image size for the Pauli-observable family used here. We derive a conservative worst-case bound on shot-noise propagation through the generation chain and give an empirical decoder-capacity heuristic for the reachable sequential depth. A three-qubit circuit with twelve shared variational parameters, closed-form ridge decoders, and a post-hoc residual sampler reproduces per-pixel intensity distributions, inter-pixel correlations, and total energy distributions of calorimeter showers on both simulator and IBM quantum hardware. At this scale, the hardware-simulator gap is consistent with optimization-budget limits dominating over device noise, although the experiments do not causally separate these effects. The results establish a hardware-compatible proof of principle and motivate, but do not validate, larger-scale extrapolations within this circuit family.         ",
+    "url": "https://arxiv.org/abs/2605.16044",
+    "authors": [
+      "Jamal Slim",
+      "Saverio Monaco",
+      "Florian Rehm",
+      "Dirk Kruecker",
+      "Kerstin Borras"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.16101",
+    "title": "Quantum Measurement without Ontology",
+    "abstract": "           Measurement is an important scientific activity. In most of science, including classical physics, is may be understood as a way of finding out about the physical world and representing the results numerically. No-go theorems show that measurement of quantum observables is not like that: the recorded outcome is typically created rather than revealed in a quantum measurement, in which case there is no objective fact about the observable's prior value. Other no-go theorems show that unitary quantum theory can generally neither explain nor even represent a unique recorded outcome, thereby threatening that outcome's objectivity. Methodological norms inherent in quantum physical practice nevertheless institute the objectivity, not only of unique recorded outcomes of quantum measurements, but also of non-quantum features of the world that physicists and other scientists take their models to represent.         ",
+    "url": "https://arxiv.org/abs/2605.16101",
+    "authors": [
+      "Richard Healey"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.16189",
+    "title": "Quantum Solvers for Nonlinear Matrix Equations in Quantum Chemistry",
+    "abstract": "           We present a quantum algorithm for solving algebraic Riccati equations, with applications to quantum-chemical random-phase approximation (RPA) and higher-order RPA theories. Our method block-encodes stabilizing Riccati solutions via Riesz projectors onto invariant subspaces of an associated non-normal matrix, implemented using contour-integral resolvents and quantum singular value transformations. Applied to $m$-particle, $m$-hole RPA, our algorithm yields a block-encoding of the amplitude solution and estimates the electronic correlation-energy density with it. Under localized-orbital sparsity assumptions, the end-to-end cost scales linearly with system size and polynomially with excitation rank $m$, suggesting an exponential advantage in $m$ over plausible classical local-correlation heuristics. More broadly, this work provides a framework for quantum algorithms for nonlinear matrix equations in quantum chemistry and opens a possible route toward developing quantum algorithms for coupled-cluster theory.         ",
+    "url": "https://arxiv.org/abs/2605.16189",
+    "authors": [
+      "Pablo Rodenas-Ruiz",
+      "Andrew Zhao",
+      "Joonho Lee"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.16236",
+    "title": "Acoustic spin resonance in polariton condensates",
+    "abstract": "           We theoretically investigate acoustic spin resonance in a spatially homogeneous spinor polariton condensate. A longitudinal acoustic wave generates a time-periodic strain-induced effective magnetic field acting on the condensate pseudospin. When this field is transverse to the static in-plane linear-polarization splitting, it resonantly drives polarization oscillations. We show that spin-dependent interactions shift the resonance and produce nonlinear line shapes, while gain, reservoir dynamics, and spin relaxation make the response dissipative and history-dependent, producing amplitude hysteresis. In the presence of lifetime anisotropy, the condensate can develop a bifurcated stationary state with finite circular polarization, and a resonant acoustic drive can switch between the corresponding out-of-plane branches. A Zeeman splitting provides an additional conservative knob for tuning the resonance frequency. Our results identify coherent acoustic driving as a route to resonant, nonlinear, and switchable control of polariton pseudospin dynamics.         ",
+    "url": "https://arxiv.org/abs/2605.16236",
+    "authors": [
+      "D. A. Saltykova",
+      "A. Kudlis",
+      "A. V. Yulin",
+      "I. A. Shelykh"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2306.08793",
+    "title": "Adaptive Optical Multi-Spectral Matrix Approach for Label-free High-resolution Imaging through Complex Scattering Media",
+    "abstract": "           Imaging through complex scattering media is severely limited by aberrations and scattering which obscure images and reduce resolution. Confocal and temporal gatings partly filter out multiple scattering but are severely degraded by wavefront distortions. Adaptive optics restore resolution by correcting low-order aberrations and matrix-based imaging enables more complex wavefront corrections. However, they struggle to undo high-order aberrations under strong scattering, preventing imaging at greater depths. To address these challenges, we present Scattering Matrix Tomography (SMT), an approach that makes full use of the wavefront engineering capability of scattering matrix and extreme adaptive optics. SMT reformulates imaging through complex media as a numerical optimization and employs Zernike-mode wavefront regularization and coarse-to-fine nonconvex optimization strategy to reverse severe aberrations, enabling noninvasive high-resolution volumetric imaging in multiple scattering regime. Based on the spectrally-resolved matrix measurement, SMT achieves a depth-over-resolution ratio above 900 beneath $ex~vivo$ mouse brain tissue and volumetric imaging at over three transport mean free paths inside an opaque colloid, where conventional methods fail to correct strong aberrations under these challenging conditions. SMT is noninvasive, label-free, and works both inside and outside the scattering media, making it suitable for various applications, including medical imaging, biological science, device inspection, and colloidal physics.         ",
+    "url": "https://arxiv.org/abs/2306.08793",
+    "authors": [
+      "Yiwen Zhang",
+      "Minh Dinh",
+      "Zeyu Wang",
+      "Tianhao Zhang",
+      "Tianhang Chen",
+      "Chia Wei Hsu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.23351",
+    "title": "Laser-Enhanced Contact Optimization in Silicon Photovoltaics: Mechanisms, Reliability, and Predictive Process Design",
+    "abstract": "           Laser-enhanced contact optimization (LECO) has emerged as an important method for simultaneously reducing contact resistivity and metallization-induced recombination in advanced crystalline silicon solar cells, thereby enabling concurrent gains in fill factor and open-circuit voltage, particularly in TOPCon devices. However, broader industrial transferability remains constrained by the need to preserve these gains within a narrow process window and by unresolved, architecture-dependent questions regarding the kinetic stability of some LECO-modified interfaces. LECO is therefore examined in this review as a coupled multiphysics process that links localized electrothermal activation and microstructural evolution to device-level electrical signatures through an instantaneous regime map and a reliability classification based on time-dependent drift. A predictive workflow is outlined that couples transient electrothermal modeling with reduced state metrics, including effective diffusion depth and local areal energy density, and propagates calibrated thresholds across the recipe space. The framework separates stable optimization from marginal activation and latent damage, while explaining why fine-line scaling and copper-containing contact stacks can tighten stability margins through current localization and diffusion-barrier constraints. These insights provide a basis for reliability-aware process-window design and future digital-twin-assisted optimization of LECO for scalable, high-efficiency silicon photovoltaics.         ",
+    "url": "https://arxiv.org/abs/2603.23351",
+    "authors": [
+      "Donald Intal",
+      "Abasifreke U. Ebong"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.29509",
+    "title": "Quantum Sensing with Triplet Pair States: A Theoretical Study",
+    "abstract": "           Molecular quantum sensors represent a promising frontier for the detection of nuclear magnetic resonance signals and alternating current magnetic fields at the nanoscale, potentially reaching single-proton sensitivity. Although the triplet states of molecular pentacene provide a viable sensing architecture, the triplet pair states produced by singlet fission of pentacene dimers could enable more flexible quantum manipulations through entanglement. In this work, we model the quantum sensing efficacy of a spin-polarized quintet manifold in a photoexcited pentacene dimer generated via intramolecular singlet fission. Using a Lindblad master equation approach, we simulate the evolution of the triplet pair state under standard dynamical decoupling sequences, including spin echo, XY4, and XY8 and provide a direct performance comparison to the traditional pentacene monomer benchmark. While both architectures exhibit comparable sensitivity for isolated single-spin detection, our findings indicate that the dimer architecture provides a superior interaction cross-section for detecting small ensembles of nuclear spins. Analytical expressions derived for fluorescence modulation demonstrate that sensitivity is optimized in the low-magnetic field regime and scales with the number of pulses in the sensing protocol. This study establishes a theoretical baseline for utilizing high-spin multi-excitonic states as chemically tunable, high-sensitivity quantum probes.         ",
+    "url": "https://arxiv.org/abs/2603.29509",
+    "authors": [
+      "Maria Grazia Concilio",
+      "Yiwen Wang",
+      "Siyuan Wang",
+      "Xueqian Kong"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.12848",
+    "title": "Dispersion Engineered Frequency Tunable Delay Platform based on Magnetostatic Surface Waves",
+    "abstract": "           Reconfigurable radio-frequency front ends in modern radar and wireless systems require delay elements that simultaneously offer low-loss, low noise, compact form factor, and wideband frequency agility. However, electromagnetic, acoustic, photonic, and active-circuit delay technologies each fail to deliver this combination. Here we report a microwave delay platform based on magnetostatic surface waves (MSSWs) in microfabricated 18 $\\mu$m yttrium iron garnet (YIG) waveguides, in which co-engineering the spin wave dispersion with the radiation impedance of meander-line transducers grants pitch-controlled access to distinct dispersive or near-constant group-delay regimes. Tuned continuously from 6 to 19.6 GHz under magnetic bias, the delay lines deliver group delays of 3.3 to 42.8 ns at insertion losses of 2.5 to 10.1 dB and nonreciprocal isolation of 24 to 39 dB, all measured directly into 50 $\\Omega$ without external impedance matching. Length-resolved characterization yields unit-time propagation losses of 56 to 109 dB/$\\mu$s and propagation Q-factors that rise monotonically from 3002 to 4893 across the operating range, exceeding state-of-the-art fixed frequency acoustic delay lines at every benchmarked frequency. These results establish microfabricated YIG as a versatile, low-loss microwave platform for next-generation reconfigurable RF signal processing.         ",
+    "url": "https://arxiv.org/abs/2605.12848",
+    "authors": [
+      "Chin-Yu Chang",
+      "Xingyu Du",
+      "Shun Yao",
+      "Tao Wang",
+      "Shuxian Wu",
+      "Roy H. Olsson III"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.19053",
+    "title": "Quantum sensing of high-frequency gravitational waves with ion crystals",
+    "abstract": "           A detection method for high-frequency gravitational waves using two-dimensional ion crystals is investigated. Gravitational waves can resonantly excite the drumhead modes of the ion crystal, particularly the parity-odd modes. In the optical dipole force protocol, entanglement between the drumhead modes and the collective spins transfers the excitation of the drumhead modes to the rotation of the total spin. Furthermore, gravitational wave detection beyond the standard quantum limit becomes possible as a squeezed spin state is generated through this entanglement. The sensitivity gets better with a larger ions crystals as well as a larger number of the ions. Future realization of large ion crystals can significantly improve the sensitivity to gravitational waves in the 10 kHz to 10 MHz region.         ",
+    "url": "https://arxiv.org/abs/2512.19053",
+    "authors": [
+      "Asuka Ito",
+      "Ryuichiro Kitano",
+      "Wakutaka Nakano",
+      "Ryoto Takai"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.22541",
+    "title": "Optimizing Doppler laser cooling protocols for quantum sensing with 3D ion crystals in a Penning trap",
+    "abstract": "           Large, 3D trapped ion crystals offer improved sensitivity in quantum sensing protocols, and are expected to be implemented as platforms in near-future experiments. However, numerical techniques used to study the laser cooling of such crystals are inefficient as the number of ions, $N$, in the crystal increases. Here we develop a powerful numerical framework to simulate laser cooling of up to $10^5$ ions stored in a Penning trap. We apply this framework to characterize and optimize the cooling of ellipsoidal 3D crystals. We document new pathways to enhanced cooling based on the addition of an axial component to the potential energy-dominated $\\boldsymbol{E}\\times\\boldsymbol{B}$ modes. Furthermore, we observe greatly enhanced cooling of the perpendicular kinetic energy to below 1 mK in prolate ion crystals, enabling a simplified cooling beam setup for such crystals. We propose specific values of trap and laser beam parameters which lead to optimal cooling in a variety of examples. This work illustrates the feasibility of preparing large 3D crystals for high-sensitivity quantum science protocols, motivating their use in future experiments.         ",
+    "url": "https://arxiv.org/abs/2602.22541",
+    "authors": [
+      "John Zaris",
+      "Wes Johnson",
+      "Athreya Shankar",
+      "John J. Bollinger",
+      "Allison L. Carter",
+      "Daniel H.E. Dubin",
+      "Scott E. Parker"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.09796",
+    "title": "Resist-free shadow deposition using silicon trenches for Josephson junctions in superconducting qubits",
+    "abstract": "           Superconducting qubit fabrication innovations continue to be explored to achieve higher performance. Despite improvements to base layer fabrication and processing, resist-based Josephson junction (JJ) schemes have largely remained unchanged. The polymer mask during deposition causes chemical contamination and limits in situ and ex situ surface preparation, junction materials, and scalability. Here, we demonstrate a resist-free approach to junction fabrication based on etched silicon trenches that is CMOS compatible and easily integrated into existing innovations in qubit base layer fabrication and chemical processing. We fabricate Al-AlOx-Al JJs and qubits using this method, measuring median energy relaxation times up to 184 microseconds. We find minimal contamination at the substrate-metal interface and fluctuations of energy relaxation on a 35 hour timescale that are narrow and normally distributed. The method widens the process window for substrate preparation and new materials platforms.         ",
+    "url": "https://arxiv.org/abs/2604.09796",
+    "authors": [
+      "Tathagata Banerjee",
+      "Stephen Daniel Funni",
+      "Saswata Roy",
+      "Judy J. Cha",
+      "Valla Fatemi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
