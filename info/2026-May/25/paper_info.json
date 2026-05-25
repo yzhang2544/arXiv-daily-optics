@@ -1,0 +1,389 @@
+[
+  {
+    "id": "arXiv:2605.23051",
+    "title": "General-Purpose Photonic Computing Primitive for Contemporary Artificial Intelligence",
+    "abstract": "           Photonic computing offers a promising route to accelerating artificial intelligence (AI) by providing high analog bandwidth, low latency, and low energy consumption. However, existing optical neural networks (ONNs) struggle with substantial hardware overhead and limited support for the dynamic, arbitrary matrix operations essential for modern AI architectures. Here we present the dynamic universal encoding tensorcore (DUET), a general-purpose photonic computing paradigm based on vectorized operand differential interferometric cells (VODICs). By exploiting inherent structural symmetry, this design provides a full-range linear encoding interface that directly accommodates signed operands. This approach eliminates the sign-based path splitting, nonlinear remapping, and auxiliary preprocessing typically required in conventional ONNs, thereby reducing latency and minimizing hardware and memory overhead. We further implement a hardware-aware training (HAT) strategy to alleviate the impact of on-chip non-idealities and ensure stable inference. DUET is experimentally validated across diverse architectures and application domains, ranging from image classification and medical segmentation to Transformer-based content generation, demonstrating competitive performance. By extending optical computing to universal, full-range operators across diverse model architectures, DUET provides a viable pathway toward general-purpose optical acceleration for contemporary AI workloads.         ",
+    "url": "https://arxiv.org/abs/2605.23051",
+    "authors": [
+      "Shupeng Ning",
+      "Chenghao Feng",
+      "Zhenxiang Xu",
+      "Hanqing Zhu",
+      "David Z. Pan",
+      "Jiaqi Gu",
+      "Ray T. Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23153",
+    "title": "Mid-infrared single-pixel imaging via two-photon optical encoding",
+    "abstract": "           Mid-infrared (MIR) imaging offers powerful capabilities for label-free chemical analysis, yet its practical deployment remains hindered by the high cost and cryogenic complexity of conventional cameras. Two-photon absorption (TPA) provides a promising route to room-temperature MIR detection, but existing TPA imagers based on raster scanning or array detectors are constrained by slow acquisition speed or limited detection sensitivity. Here we present a scanning-free MIR single-pixel imaging approach based on non-degenerate TPA in a silicon detector. The involved spatial encoding is realized by a near-infrared structured pump with a resolution of 7 $\\mu$m, thus allowing high-fidelity MIR optical modulation through the phase-matching-free nonlinear interaction. Consequently, the spatially modulated TPA response is intrinsically integrated in the single-element photodetector, which favors computational reconstruction of the impinging MIR image by correlating measured intensities and predetermined patterns. Notably, the use of advanced algorithms of compressed sensing and deep learning facilitate image recovery under sub-Nyquist sampling with a compression ratio of 10\\% and photon-starved illumination with an incident light flux of 0.5 pJ/pulse. Furthermore, a multispectral imaging over 2.5-3.8 $\\mu$m is manifested for chemical discrimination of plastic films. The presented architecture would offer a broadband and sensitive alternative for MIR imaging in various fields ranging from biomedical diagnostics to material inspection.         ",
+    "url": "https://arxiv.org/abs/2605.23153",
+    "authors": [
+      "Huijie Ma",
+      "Kun Huang",
+      "Jianan Fang",
+      "Ziyu He",
+      "Yan Liang",
+      "Heping Zeng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23295",
+    "title": "Accelerating ground state search of spatial photonic Ising machines with genetic-simulated annealing hybrid algorithm",
+    "abstract": "           Spatial photonic Ising machines (SPIMs) based on spatial light modulators (SLMs) have emerged as highly effective solvers for many tasks, including combinatorial optimization problems and spin-glass simulations. However, traditional SPIMs relying solely on the simulated annealing algorithm require a large number of measurement-feedback iterations to find a relatively optimal solution in complex energy landscapes, suffering from slow convergence and high time cost. Here, we propose an optical genetic-simulated annealing hybrid algorithm to accelerate the ground-state search of SPIMs. GA conducts a global coarse-grained search in the early iteration stage, while SA performs fine-grained local refinement in the late stage. Numerical simulations show that our method enables a higher solution quality of full-rank Max-Cut problems than pure GA or SA at different scales. We also experimentally demonstrate its superiority over conventional algorithms on a gauge-transformation time-division multiplexing SPIM for high-rank optimization problems under the same iteration budget. Our approach can be further developed with other advanced metaheuristic algorithms toward intelligent optical Ising computing systems.         ",
+    "url": "https://arxiv.org/abs/2605.23295",
+    "authors": [
+      "Ze Zheng",
+      "Ruhui Ni",
+      "Jingyi Zhao",
+      "Xiaojian Hu",
+      "Wen Jiang",
+      "Yuegang Li",
+      "Hang Xu",
+      "Tailong Xiao",
+      "Guihua Zeng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23361",
+    "title": "Approaching physical limits of latent dimensionality in optical computing",
+    "abstract": "           The physical implementation of artificial intelligence requires mapping computational processes onto the dynamic physical processes of the underlying computing platform. The photonic processors offer an intrinsically parallel and low energy framework for this mapping, however, a mismatch between the potential computing capability of a bounded optical domain and the human accessible manipulation range sets a hard integration density ceiling on existing architectures. Here, we address this challenge by investigating the integration density limits in photonic processors through exploring the fundamental physical limits on the latent dimensionality for maximum expressivity of a bounded optical domain. These physical limits potentially serve as universal metrics for evaluating optical computing capacity. To validate these, we design and realize ultracompact multimode photonic processors approaching these limits: a 2.2 um by 8 um processor achieves 86.7 % accuracy in experiment for iris flower classification, and a 20.6 um by 44.8 um processor reaches 92.9% accuracy in handwritten digit recognition. Finally, we scale this architecture to highly complex tasks by implementing a generative diffusion model for image synthesis. By grounding photonic processor design in the wave physics origin of latent dimensionality, our results supply the missing theoretical reference point for optical computing architecture.         ",
+    "url": "https://arxiv.org/abs/2605.23361",
+    "authors": [
+      "Zhenyu Zhao",
+      "Zijun Qiu",
+      "Xuan Hu",
+      "Yao Zhou",
+      "Jinlong Xiang",
+      "Youlve Chen",
+      "Chaojun Xu",
+      "Yuchen Yin",
+      "Tao Lin",
+      "Yikai Su",
+      "Xuhan Guo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23394",
+    "title": "Spatial dealiasing of classical geomagnetic survey data through use of a microfabricated wearable quantum magnetometer",
+    "abstract": "           Geomagnetic surveys provide insight into the subsurface for a range of applications, from fundamental understanding of geological processes, to mineral exploration and locating unexploded ordnance. A persistent challenge in performing such geomagnetic surveys is the joint problem of anthropogenic noise rejection and spatial aliasing, where the limited bandwidth (< 10 Hz) of traditional surveying instruments introduces artefacts into the surveyed field. Optically Pumped Magnetometers (OPMs) exploit quantum mechanical effects to achieve highly sensitive and stable magnetic field measurements at comparatively high bandwidths. Recent advances in manufacturing have enabled OPMs to be packaged in compact and lightweight systems (approx. 1kg), that are ideal for geomagnetic surveying. Here, we show how an OPM can directly contribute to the reduction of spatial aliasing in traditional PPM data. We carry both a PPM and OPM over a 20 km long transect across the Highland Boundary Fault (HBF) in Scotland. We leverage the continuous acquisition of the OPM sampling at 90 Hz, equivalent to every approx. 1 cm at walking pace (1 m/s) versus every approx. 200 m for our PPM (which had to be stationary for measurements) to reject magnetic noise and identify new small-scale (< 200 m) geological structures. Further, we discuss the logistical advantages of the hybrid survey in terms of portability, survey delivery, data density, and data quality.         ",
+    "url": "https://arxiv.org/abs/2605.23394",
+    "authors": [
+      "Stirling Scholes",
+      "Alissa Forsythe",
+      "Courtney Dyer",
+      "Amy Gilligan",
+      "Karen Lythgoe",
+      "Jenny Jenkins",
+      "Marcin Mrozowski",
+      "Jack-Andrew Smith",
+      "Stuart Ingleby"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23401",
+    "title": "Development of a system for testing full-size CMS LGAD sensors",
+    "abstract": "           Low-Gain Avalanche Diode (LGAD) sensors, offering timing resolutions of the order of tens of picoseconds, are being widely adopted in particle physics experiments and related applications. As these applications scale to large numbers of sensors with varying pixel geometries, conventional manual characterization techniques become inadequate for large-scale quality control. We present a modular probe card system for automated electrical characterization of pixelated LGAD sensors, consisting of a probe card, a switching board, precision measurement instruments, and control software. The system supports arbitrary pixel selection and flexible measurement config16 urations, including single-pixel, grouped, row-wise, and inter-pixel measurements. Its performance is demonstrated through current-voltage (I-V) and capacitance-voltage (C-V) measurements of a $16 \\times 16$ LGAD array. A rapid row-wise current-voltage (I-V) scan of the full array is completed in approximately 20 minutes, while a pixel-by-pixel current-voltage (I-V) scan from 0 to 300 V with a 1 V step requires about 340 minutes. The switching matrix introduces less than 1 nA of leakage current even in a conservative worst-case configuration, remaining small compared with the leakage current of a normal LGAD pixel. The modular architecture and automation capability make the system a practical and scalable solution for large-scale LGAD sensor quality control and distributed testing environments.         ",
+    "url": "https://arxiv.org/abs/2605.23401",
+    "authors": [
+      "Kyungmin Lee",
+      "Hoyong Jeong",
+      "Junho Kim",
+      "Seokhyeon Lee",
+      "Jaebak Kim",
+      "Jae Hyeok Yoo"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23439",
+    "title": "Enhancing broadband second harmonic generation in a thin film lithium niobate racetrack resonator with tunable-coupling",
+    "abstract": "           Second harmonic generation in thin film periodically poled lithium niobate (PPLN) is constrained by an efficiency-bandwidth trade-off and fabrication-sensitive scaling. We demonstrate a racetrack resonator incorporating a short PPLN section and a tunable Mach-Zehnder interferometer coupler that enables in situ control of the coupling condition, compensating fabrication tolerances and stabilizing operation near critical coupling. The telecom pump is resonantly enhanced, while the near-infrared second harmonic is generated in single pass, eliminating dual-resonance requirements. The device achieves a 35 times efficiency enhancement over a non-resonant structure while maintaining a 7 nm bandwidth. This architecture provides a robust platform for broadband integrated frequency doubling.         ",
+    "url": "https://arxiv.org/abs/2605.23439",
+    "authors": [
+      "Olivia Hefti",
+      "Jean-Etienne Tremblay",
+      "Andrea Volpini",
+      "Jannis Holzer",
+      "Alberto Della Torre",
+      "Homa Zarebidaki",
+      "Charles Ca\u00ebr",
+      "Hamed Sattari",
+      "Camille-Sophie Br\u00e8s",
+      "Davide Grassani"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23620",
+    "title": "From Optical Breakdown to Bubble Inception: A Coupled Plasma-Thermal Framework for Nanosecond Laser-Induced Cavitation in Water",
+    "abstract": "           Laser-induced cavitation under nanosecond optical breakdown is central to applications such as laser-induced forward transfer, microsurgery, and microfluidic actuation, yet the physical origin of the earliest cavity and its connection to subsequent bubble growth remain unresolved. Existing models typically describe bubble formation either as a plasma-driven mechanical response or as a thermally driven nucleation process, without resolving how these mechanisms interact during inception. Here, we developed a coupled plasma-thermal framework that unifies free-electron dynamics, plasma absorption, thermoelastic acoustic response, residual thermal energy retention, and post-inception bubble evolution within a single description. The model shows that bubble inception is governed primarily by plasma-induced thermoelastic acoustic relaxation, which generates transient tensile rarefaction pressures sufficient for cavitation on nanosecond timescales, while residual thermal energy sustains subsequent bubble growth. Because energy deposition is spatially anisotropic under moving breakdown conditions, the initial cavity inherits the plasma morphology rather than emerging as a spherical nucleus. Comparison with time-resolved experiments demonstrates that the coupled framework captures both early time cavity formation and longtime bubble expansion more accurately than plasma-only or thermal-only models. These results establish a predictive link between breakdown-scale energy deposition and continuum bubble dynamics, providing physically grounded initial conditions for multiscale modeling and improved control of laser driven material transport processes.         ",
+    "url": "https://arxiv.org/abs/2605.23620",
+    "authors": [
+      "Shuqi Zhou",
+      "Abdol Hadi Mokarizadeh",
+      "Ben Xu"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23688",
+    "title": "Adjoint inverse design of microresonator frequency combs",
+    "abstract": "           Microresonator frequency combs are key components for integrating optical devices into photonic circuits. They provide high stability, coherence, and low noise, even without external stabilization. Yet microcomb design remains largely heuristic: waveguide and resonator parameters are typically swept manually or semi-empirically, and the resulting spectra are evaluated only afterwards. This forward-design workflow is computationally costly, relies heavily on designer intuition, and does not generally identify optimal solutions. Here, we present an adjoint-based inverse-design framework for microresonator frequency combs that directly optimizes the comb spectrum with respect to pre-defined objectives. We demonstrate the power and flexibility of this approach by addressing three challenging problems: designing spectrally flat combs, synthesizing arbitrarily shaped comb spectra, and enforcing several performance metrics simultaneously through multi-objective optimization. Our results show that inverse design offers a systematic and efficient route to compact on-chip light sources with properties tailored to diverse applications.         ",
+    "url": "https://arxiv.org/abs/2605.23688",
+    "authors": [
+      "Andrei Chuchalin",
+      "Alexey Tikan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23724",
+    "title": "Democratising Optical Orbital Angular Momentum: a Set of Cost-Effective Tools",
+    "abstract": "           Classical and quantum optical communication has gained popularity and momentum in recent years, with growing investment and innovation in quantum technologies. However, the main teaching method in the education of quantum mechanics include mathematically intensive derivations or abstract analogies for the complex systems. We propose a \"poor man's\" spatial light modulator experiment that is an engaging and interactive learning aid for teaching quantum mechanics and optical orbital angular momentum. Fork diffraction gratings were created on photographic slide film by outsourcing to an external company, and so the gratings were easy and cheap to produce. A simple setup with a fork diffraction grating and a laser pointer successfully produces vortex beams that possess orbital angular momentum, allowing for orbital angular momentum to be easily observed and investigated in a teaching environment. How the tools can be used effectively to enhance learning is discussed, either as a demonstration or as an investigative scientific learning environment activity.         ",
+    "url": "https://arxiv.org/abs/2605.23724",
+    "authors": [
+      "Natasha Bierrum",
+      "Lyuxuan Chen",
+      "Ananya Kudaloor",
+      "Lok Kan Wan",
+      "Shupeng Yang",
+      "Yancen Hou",
+      "Xiwen Dong",
+      "Muskan Tuli",
+      "Richard Taylor",
+      "Petros Androvitsaneas",
+      "Carrie Weidner",
+      "Edmund Harbord"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23730",
+    "title": "Enhanced magneto-optical intensity effect in a helicity-preserving all-dielectric metasurface at Mie resonances and the anapole state",
+    "abstract": "           Nanophotonic structures provide an efficient route to enhancing magneto-optical effects by concentrating electromagnetic fields at subwavelength scales. In this work, we propose and experimentally demonstrate a helicity-preserving all-dielectric metasurface for enhancing magnetization-induced transmission modulation under circularly polarized excitation. The optical response of the structure is governed by the Mie resonances of silicon nanodisks and by a spectral feature associated with the anapole state. In the spectral regions of the Mie resonances, the metasurface exhibits a pronounced enhancement of the magneto-optical intensity response relative to a bare magnetic film of the same thickness, with the normalized magneto-optical intensity effect increased by a factor of about 2-3. A strong response is also observed in the spectral region associated with the anapole state, manifested as a local transmission maximum. In this regime, the normalized magneto-optical intensity effect exceeds that of the bare magnetic film by about 30%, while the metasurface transmission remains as high as around 80%. The enhanced response in this spectral region is preserved over a broad range of incidence angles. These results demonstrate that all-dielectric metasurfaces combining Mie resonances with the spectral feature associated with the anapole state provide an efficient platform for magneto-optical intensity modulation of circularly polarized light at high transmission.         ",
+    "url": "https://arxiv.org/abs/2605.23730",
+    "authors": [
+      "P. V. Zorina",
+      "I. O. Ignatyeva",
+      "A. E. Bezmenova",
+      "A. N. Kalish",
+      "S. Xia",
+      "L. Bi",
+      "V. I. Belotelov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23860",
+    "title": "TCAD + Allpi$\\text{x}^2$ Simulation study of MALTA2, a Depleted Monolithic Active Pixel Sensor for future tracking",
+    "abstract": "           In this work, a hybrid simulation framework combining TCAD and Allpi$\\text{x}^2$ is presented to investigate the sensor properties of MALTA2, a depleted monolithic active pixel sensor designed for future tracking. The study starts from 3D modeling and transient simulations in TCAD, with generic doping profiles and simple well structures. The resulting doping profiles and electric field are extracted and fed into Allpi$\\text{x}^2$ for high-statistics Monte Carlo simulations in both DUT-only and full-telescope mode. Simulations reveal a strong dependence of sensor performance, specifically the detection efficiency and cluster size, on the doping concentration of the N-type blanket at the sensor surface. The doping concentration is then optimized by comparing simulations with measurement data. The active depth of the depleted region of the MALTA2 sensor is estimated in both simulations and measurements using a grazing angle method, in which the sensor is positioned at various inclinations relative to the beam, covering angles from 0 to 60 degrees. Excellent agreement on active depth is obtained with the optimal doping concentration, showing a deviation of 2\\% from the measured value at a threshold of 450\\,$\\text{e}^-$. Consequently, the framework offers a generic toolkit for sensor studies without requiring proprietary information.         ",
+    "url": "https://arxiv.org/abs/2605.23860",
+    "authors": [
+      "L. Li",
+      "P. Behera",
+      "D.V. Berlea",
+      "D. Bortoletto",
+      "C. Buttar",
+      "T. Chembakan",
+      "V. Dao",
+      "G. Dash",
+      "Y. Enari",
+      "L. Fasselt",
+      "S. Haberl",
+      "T. Inada",
+      "F.K. Isik",
+      "C. Issever",
+      "X. Li",
+      "Y. Okazaki",
+      "H. Pernegger",
+      "P. Riedler",
+      "W. Snoeys",
+      "C.A Solans Sanchez",
+      "A. Swoboda",
+      "I. Turk Cakir",
+      "M. van Rijnbach",
+      "A. Vijay",
+      "S. Worm"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.22861",
+    "title": "Statistical Characterization of Wind-Induced Beam Refraction in Water-to-Air Optical Channels",
+    "abstract": "           Direct water-to-air (W2A) optical communications experience strong beam refraction at the dynamic sea surface. This letter proposes a novel and tractable statistical channel model for a vertical W2A link between an underwater node and an unmanned aerial vehicle under varying wind speeds, modeling wind-induced pointing errors with a Beta mixture fitted via the Expectation-Maximization algorithm. By accounting for link interruptions due to total internal reflection (TIR) and receiver field-of-view limitations, we derive closed-form expressions for the channel distribution and link outage probability. Our analysis reveals a fundamental TIR-induced outage floor limiting link reliability and providing insight for robust W2A system design.         ",
+    "url": "https://arxiv.org/abs/2605.22861",
+    "authors": [
+      "Mohamed Nennouche",
+      "Ikenna Chinazaekpere Ijeh",
+      "Mohammad-Ali Khalighi"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23001",
+    "title": "Nonlinear Wave Propagation in 1D Polycatenated Ring Chains",
+    "abstract": "           We study the nonlinear wave dynamics of one-dimensional chains of polycatenated rings. These interlocked structures support amplitude-dependent nonlinear wave propagation driven by tensile activation and internal structural flexibility, unlike traditional granular crystals. Through dynamic impact experiments, finite-element modeling, and discrete-particle simulations of vertical chains pretensioned by gravity, we observe and explain nonlinear waves characterized by a compact leading wavefront followed by persistent trailing oscillations, which arise from energy partitioning into the rings' internal bending modes. Further, we demonstrate that the system's nonlinearity is not a fixed material constant. By altering the rings' geometric aspect ratio and contact angles, we can tune the effective contact exponent and the amplitude scaling of the wave speed. This work builds upon nonlinear wave propagation in classical granular crystals and establishes polycatenated systems as a highly tunable and designable platform to study and control nonlinear dynamics.         ",
+    "url": "https://arxiv.org/abs/2605.23001",
+    "authors": [
+      "Xiaoxiao Xiong",
+      "Reo Yanagi",
+      "Tingtao Zhou",
+      "Chiara Daraio"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Pattern Formation and Solitons (nlin.PS)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23625",
+    "title": "Atom-Photon Bound States in Fractal Photonic Lattices: Localization Length and Anomalous Diffusion",
+    "abstract": "           We study atom-photon bound states seeded by two-level emitters coupled to self-similar photonic lattices. By expressing the photonic Green's function through the heat kernel, we show that the far-field localization length obeys $\\xi \\sim \\Delta^{-1/d_w}$, with the detuning $\\Delta$ from the lower spectral edge and the walk dimension $d_w$ of the underlying fractal. This scaling is controlled by anomalous diffusion and does not rely on translational invariance or a band-edge effective-mass approximation. Exact diagonalization on Sierpi\u0144ski gaskets, pyramids, Vicsek graphs, and Sierpi\u0144ski carpets confirms the far-field prediction once the bath Hamiltonian is rendered Laplacian-like by compensating the local inhomogeneity in the connectivities with on-site potentials. In the near field, the bound-state amplitude exhibits an additional algebraic variation. For nested finitely ramified fractals, the corresponding exponent agrees with the classical resistance/ first-passage scaling, whereas Sierpi\u0144ski carpets display clear deviations from this simple law. Our results extend structured-bath waveguide QED to self-similar non-periodic geometries and connect bound-state profiles to transport exponents of the underlying fractal lattice.         ",
+    "url": "https://arxiv.org/abs/2605.23625",
+    "authors": [
+      "Florian B\u00f6nsel",
+      "Flore K. Kunst",
+      "Federico Roccati"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.22647",
+    "title": "Agentic metasurface design with self-correcting language-model systems",
+    "abstract": "           Automated metasurface design is increasingly important, and recent advances in language-model systems are opening a route toward agentic optical design. Yet modern metasurface applications, from metalenses and holography to optical computing, require long design chains spanning modeling, simulation, coding, optimization and evaluation. These chains are error-prone, whereas existing language-model-based metasurface tools remain largely limited to simple objectives, predefined pipelines or language-to-layout generation. Here we introduce MetaDesigner, a self-correcting language-model system for agentic metasurface design. From a natural-language optical objective, MetaDesigner plans the design route, retrieves domain knowledge, invokes simulation and optimization tools, generates missing tool code and identifies errors through a dedicated Verifier. We demonstrate three tasks of increasing complexity: an RGB metalens with three independent focal spots, a six-plane full-color hologram with an average structural similarity index measure (SSIM) of 0.97, and an optoelectronic hybrid neural network for image style transfer. These tasks require 74, 136 and 90 reasoning steps, respectively, and the system self-corrects errors in frequency mapping, numerical aperture estimation, network-parameter counting and loss-function description. These results establish MetaDesigner as a self-correcting route to agentic metasurface design, where language-model systems can not only execute optical design tasks but also extend, inspect and repair the design process itself.         ",
+    "url": "https://arxiv.org/abs/2605.22647",
+    "authors": [
+      "Bei Wu",
+      "Bo Xiong",
+      "Haiyao Luo",
+      "Yaqi Li",
+      "Li Zhang",
+      "Qiaolu Chen",
+      "Hongsheng Chen",
+      "Yihao Yang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.01513",
+    "title": "Theory of quantum comb enhanced interferometry",
+    "abstract": "           Optical frequency combs, named for their comb-like peaks in the spectrum, are essential for various sensing applications. As the technology develops, its performance has reached the standard quantum limit dictated by the quantum fluctuations of coherent light field. Quantum combs, with their quantum fluctuation engineered via squeezing and entanglement, are the necessary ingredient for overcoming such limits. We develop the theory for designing and analyzing quantum combs, focusing on dual-comb interferometric measurement. Our analyses cover both squeezed and entangled quantum combs with division receivers and heterodyne receivers, leading to four protocols with quantum advantages scalable with squeezing/entanglement strength. In the spectroscopy of a single absorption line, the division receiver with the squeezed comb suffers from entanglement-mismatching-induced amplified noise, while the other three protocols demonstrate a surprising robustness to loss at a few comb lines. Such a unique loss-robustness of a scalable quantum advantage has not been found in any traditional quantum sensing protocols.         ",
+    "url": "https://arxiv.org/abs/2508.01513",
+    "authors": [
+      "Haowei Shi",
+      "Quntao Zhuang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.22324",
+    "title": "Excited state preparation on a quantum computer through adiabatic light-matter coupling",
+    "abstract": "           Quantum computing has the potential to transform simulations of quantum many-body problems at the heart of electronic structure theory. Efficient quantum algorithms to compute the eigenstates of fermionic Hamiltonians, such as quantum phase estimation, rely critically on high-accuracy initial state preparation. While several state preparation algorithms have been proposed for fermionic ground states, the preparation of excited states remains a major challenge, limiting the applicability of quantum algorithms to photochemistry and photophysics. In this contribution, we describe a physically motivated adiabatic state preparation technique for low-lying bright excited states using the explicit coupling between electrons and photons. Our approach systematically converges to the first bright excited state and can target different symmetry sectors by changing the photon polarization. We demonstrate the preparation of high-fidelity excited states for the Hubbard model and methylene molecule across a range of correlation regimes, and perform a successful hardware implementation for a model Hamiltonian.         ",
+    "url": "https://arxiv.org/abs/2511.22324",
+    "authors": [
+      "Hugh G. A. Burton",
+      "Maria-Andreea Filip"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.10118",
+    "title": "Casimir-force spectroscopy of broadband optical response",
+    "abstract": "           Broadband optical response governs light-matter interactions across photonics, plasmonics, thermal radiation, and quantum fluctuation electrodynamics, yet determining a continuous dielectric function over many decades in frequency typically requires combining multiple spectroscopies, extrapolations, and material models. Here we show that quantum-fluctuation forces provide a route to broadband optical characterization. Casimir interactions depend on the dielectric response of materials across the electromagnetic spectrum, but this information is encoded through Lifshitz theory in a spectrally weighted and nontrivial way. By training physics-constrained supervised learning models on synthetic dielectric spectra and their corresponding Casimir force curves, we invert this relationship and reconstruct the complex permittivity of materials over more than seven orders of magnitude in frequency from force-distance data. The reconstruction reveals a direct separation-frequency correspondence: large separations constrain low-frequency free-carrier response, whereas shorter separations encode higher-frequency resonant structure. Applying the method to measured force gradients identifies the current experimental limits imposed by measurement noise, restricted separation range, and model complexity. These results establish fluctuation-induced forces as a spectrally weighted route to broadband optical characterization and define the experimental and physical limits that govern what spectral information is accessible from near-field quantum electromagnetic measurements.         ",
+    "url": "https://arxiv.org/abs/2601.10118",
+    "authors": [
+      "Calum F. Shelden",
+      "Jeremy N. Munday"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.24048",
+    "title": "Saturable nonlinearities in a driven-dissipative bosonic quantum battery",
+    "abstract": "           We investigate the charging of a nonlinear quantum battery consisting of a single bosonic mode subject to a saturable nonlinearity, coherent driving, and dissipation. In contrast to Kerr-type anharmonicities, the saturable interaction induces a bounded and nonlinear distortion of the energy spectrum, leading to a progressive increase in the density of energy levels. We analyze the time evolution of the energy and ergotropy of the battery by solving a Lindblad master equation and show that the nonlinear spectral structure significantly affects both transient charging behavior and steady-state properties. Our results reveal that, for a broad range of parameters, the saturable nonlinearity enhances the maximum stored energy and modifies the ergotropy generation in the presence of losses. The interplay between dissipation and bounded spectral nonlinearity provides a controllable mechanism to tune energy storage and work extraction in bosonic quantum batteries.         ",
+    "url": "https://arxiv.org/abs/2602.24048",
+    "authors": [
+      "Jo\u00e3o P. R. Leonel",
+      "Paulo A. Brand\u00e3o"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.17025",
+    "title": "Quantum Optical Soliton Dynamics Beyond Linearization: An Open-System Approach",
+    "abstract": "           We introduce two approaches to modeling the quantum dynamics of optical $\\chi^{(3)}$ solitons. Taking an open-system viewpoint, we project the underlying quantum field into system (soliton) and residual reservoir components. The reservoir is treated as either (i) a discrete ``Lanczos supermode'' (LSM) expansion which localizes dynamics to a few-supermode basis, or (ii) a non-local environment which can be traced out by deriving a Markovian master equation (ME). Using these methods, we analyze and identify the quantum structure of both the soliton's stability and its hierarchy of perturbations. Through numerical simulations, we confirm both methods effectively capture quantum-induced soliton phase shifts in a concise few-mode (single-mode for ME) basis, and the LSM approach also captures photon loss which arises from non-Markovian dispersive couplings. As neither method is limited to the linearized regime, our approaches provide powerful computational tools to analyze complex non-Gaussian quantum dynamics of solitons where other commonly-used methods fail, providing insight into such non-perturbative regimes. We also investigate radiation that occurs in the presence of higher-order dispersion with ultrashort pulses, deriving a ME that predicts photon loss consistent with classical theory, but find that both classical and ME theory dramatically underestimate the actual amount of dissipation, which we explain in terms of dispersive coupling-induced soliton broadening.         ",
+    "url": "https://arxiv.org/abs/2605.17025",
+    "authors": [
+      "Chris Gustin",
+      "Ryotatsu Yanagimoto",
+      "Edwin Ng",
+      "Hideo Mabuchi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
