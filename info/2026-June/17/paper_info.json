@@ -1,0 +1,412 @@
+[
+  {
+    "id": "arXiv:2606.17085",
+    "title": "Quantum field theory in the Weyl-Wigner representation",
+    "abstract": "           The Wigner representation for quantum mechanics of particles is generalized to Bose fields. The standard Hilbert space quantization becomes, via the Weyl transform, a quantization method that consists of adding a Gaussian zeropoint field distribution to the vacuum. I comment on the possible advantages of the method in order to study quantum fields in curved spaces. I study a unified formulation of non-relativistic quantum electrodynamics in the Weyl-Wigner formalism, in terms of (classical-like) c-numbers.         ",
+    "url": "https://arxiv.org/abs/2606.17085",
+    "authors": [
+      "Emilio Santos"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17095",
+    "title": "Variational Quantum Eigensolver-Based Quantum Bootstrap Embedding for Molecules",
+    "abstract": "           Simulating strongly correlated molecular systems on near-term quantum hardware remains challenging due to modern hardware's limited quantum volume and moderate-fidelity qubits. One potential way to circumvent this challenge is through bootstrap embedding (BE). Bootstrap embedding breaks molecules into smaller fragments that are then embedded into the \"bath\" of other fragments in an iterative way. Bootstrap embedding is appealing for quantum simulation because fragmenting the system reduces the qubit requirements for any given fragment. In this work, we develop a quantum bootstrap embedding (QBE) workflow that uses variational quantum eigensolver (VQE) fragment solvers and study the algorithmic choices that determine the overall VQE-QBE algorithm's success. To improve efficiency, we introduce FastAdaptVQE, a sparse matrix-accelerated form of the adaptive variational quantum eigensolver (ADAPT-VQE) that replaces symbolic commutator evaluation with direct statevector linear algebra, and MatrixFreeAdaptVQE, a matrix-free extension that removes the sparse-matrix memory bottleneck that appears when treating larger fragments. We also modify the ADAPT-VQE operator selection step by replacing the purely greedy choice with a look-ahead strategy. Benchmarks on $H_4$ and $F_2$ reach chemical accuracy, within 1 kcal/mol of bootstrap embedding results using a full configuration interaction (FCI) solver. These results show that combining QBE with VQE can accurately calculate energies of molecular systems. This research lays the foundation for extending energy calculations to larger molecular systems and quantum materials on near-term quantum hardware.         ",
+    "url": "https://arxiv.org/abs/2606.17095",
+    "authors": [
+      "Derek Peng"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17102",
+    "title": "Quantum Cinema: An Interactive Cinematic Exploration of Quantum Computing Hardware via Generative World Models",
+    "abstract": "           Quantum computing promises transformative advances across science and industry, yet the physical hardware that enables these computations remains invisible to the public: quantum processors operate inside sealed dilution refrigerators at temperatures near absolute zero, making direct observation impossible. This \"imagination gap\" between quantum computing's growing societal impact and the public's ability to visualize it represents a significant barrier to quantum literacy and workforce development. We present Quantum Cinema, an open-source, browser-based interactive application that closes this gap by transforming invisible quantum hardware into explorable, cinematic experiences using generative world models. Quantum Cinema guides users through a four-act narrative -- from the foundational Nobel Prize-winning science of quantum entanglement, through curated video introductions to three major quantum computing architectures (trapped-ion, neutral-atom, and superconducting systems), into immersive three-dimensional generative worlds that make invisible quantum phenomena observable, and finally to interactive radar-chart comparisons grounded in real quantum device specifications. All three-dimensional environments are generated using WorldLabs' generative world model platform and are scientifically grounded in curated metrics from Amazon Web Services (AWS) Braket quantum hardware. Quantum Cinema requires no installation, no specialized hardware, and no quantum computing background. It is designed to serve two distinct communities: scholars and developers seeking to replicate or extend the platform, and educators, researchers, and science communicators seeking an intuitive tool for explaining quantum hardware to diverse audiences. This paper describes the system architecture, the generative world model pipeline, use cases for both communities, and directions for future work.         ",
+    "url": "https://arxiv.org/abs/2606.17102",
+    "authors": [
+      "Aoyu Zhang",
+      "Dongping Liu",
+      "Luyao Zhang"
+    ],
+    "subjectives": [
+      "Popular Physics (physics.pop-ph)",
+      "Artificial Intelligence (cs.AI)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17195",
+    "title": "Optical Emission Spectroscopy Measurements of keV Apparent Ion Temperatures in Avalanche Energy's Centrifugal Mirror Machine",
+    "abstract": "           Newly formed ions in $E \\times B$ devices are rapidly accelerated by strong radial electric fields and execute large cycloidal orbits in the presence of an axial magnetic field. At locations where these orbits intersect, ions originating from different birth radii arrive with substantially different velocities, producing a non-Maxwellian velocity distribution with a large velocity variance. Through Coulomb collisions and collective interactions, this distribution relaxes toward a drifting Maxwellian in the rotating frame. Here, we present the first optical emission spectroscopy (OES) measurements of the line-of-sight-convolved ion-velocity distribution, from which an apparent ion temperature is determined, in Avalanche Energy's centrifugal mirror machine. High-resolution $H_\\alpha$ spectra obtained along five chordal lines-of-sight spanning the plasma radius are analyzed using two complementary models representing limiting cases of the ion dynamics: a collisionless cycloidal model based on the ion-velocity distribution arising from deterministic single-particle orbits, and a rotating Gaussian model based on collisions and collective processes that fully randomize the cycloidal motion into a drifting Maxwellian in the rotating frame. Combined, these approaches bracket the possible degree of velocity-space relaxation and provide a stringent test of the inferred ion energies. Both models reproduce the measured spectra relatively well and yield density-weighted apparent ion temperatures of $1.40\\pm0.43$ keV for the rotating Gaussian model and $1.55\\pm0.24$ keV for the cycloidal model. These results provide direct spectroscopic evidence that strong $E \\times B$ rotation in a device only a few centimeters in size can generate ion populations with keV energy spreads.         ",
+    "url": "https://arxiv.org/abs/2606.17195",
+    "authors": [
+      "M. Affolter",
+      "E. C. Hayes",
+      "A. Helson",
+      "E. McKee",
+      "A. Gargone",
+      "S. Hepner",
+      "R. Langtry"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17226",
+    "title": "220-GBd optical coherent waveform generation using temporal unitary transforms",
+    "abstract": "           We use temporal unitary transforms to generate 16-QAM up to 220 GBd using only 50-GHz electrical bandwidth. The technique is theoretically lossless and can generate arbitrary optical waveforms beyond the bandwidth of the constituent modulators.         ",
+    "url": "https://arxiv.org/abs/2606.17226",
+    "authors": [
+      "Callum Deakin",
+      "Xi Chen",
+      "Di Che"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17635",
+    "title": "Principle of Entangled-Photon Thermometry for Ultrafast Laser Processing",
+    "abstract": "           A quantum-enhanced approach for fast temperature diagnostics in ultrashort laser surface processing is introduced. The goal is to overcome limitations of existing methods, such as plasma emission, emissivity changes during ablation, and the need for time-consuming pump-probe measurements. The proposed method exploits polarization anisotropy in entangled photon pairs. The idler photon interacts with the laser-affected material surface, while its entangled counterpart is detected in a remote optical arm. Temperature-dependent changes in the complex refractive index modify the reflectance of p- and s-polarizations on the idler path, altering the coincidence-resolved polarization statistics of the signal photons. Using a Qiskit-based model incorporating experimental pump-probe reflectometry data, remote reconstruction of rapid thermal dynamics during femtosecond laser ablation is demonstrated. Although based on simulation, the model employs literature data to represent realistic material behavior. Due to the discrete nature of single-photon events, classical sliding-window analysis suffers from shot noise and temporal inertia. To overcome this limitation, a multilayer perceptron (MLP) regression network is applied to extract implicit anisotropy information from the photon bitstream. Compared with the classical approach, the neural-network method improves reconstruction robustness, reduces temperature noise, enhances the signal-to-noise ratio (SNR), and enables nanosecond-scale tracking of thermal dynamics. The results indicate that entangled-photon polarization anisotropy combined with machine-learning analysis is a promising approach for remote, background-rejected, high-speed temperature diagnostics in laser-matter interaction studies.         ",
+    "url": "https://arxiv.org/abs/2606.17635",
+    "authors": [
+      "Denys Moskal",
+      "Jiri Martan",
+      "Simon Kos",
+      "Miroslav Holecek",
+      "Milan Honner",
+      "Vladislav Lang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17694",
+    "title": "Multipolar optical binding in focus",
+    "abstract": "           The optical binding of gold nanoparticles has conventionally been explored within the Rayleigh limit using dipole approximations. But the field is increasingly focusing on the Mie regime for particles in the 100-500 nm range, where the dipole approximation is insufficient, and a complex landscape of multipolar resonances must be considered. This can be leveraged to engineer more complex forms of optical matter. To this end, we computationally study the optical binding force landscapes experienced by a pair of AuNPs using generalized multiparticle Mie theory. We calculate the total optical binding forces and mechanical trap stiffness values ($dF_i/di$) at the specific resonance wavelengths where the electric dipole, quadrupole, or octupole modes reach their respective scattering peaks and dominate the mechanical response. We demonstrate that the plasmonic mode symmetry greatly influences the spatial distribution of zero-force nodes and the rigidity of the optically bound dimer. By aligning these multipolar phenomena with standard experimental configurations, this work provides a mechanical framework for programmable metafluids and reconfigurable micromachines, bridging the gap between fundamental electrodynamics and reconfigurable nanomanipulation.         ",
+    "url": "https://arxiv.org/abs/2606.17694",
+    "authors": [
+      "Ashutosh Shukla",
+      "Sneha Boby",
+      "G V Pavan Kumar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Soft Condensed Matter (cond-mat.soft)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17761",
+    "title": "Constrained Optimization Algorithms for Orbital Optimization in Quantum Chemistry",
+    "abstract": "           We present a modular constrained-orbital-optimization framework for quantum chemistry. The formulation separates the correlated electronic-structure solver from the orbital optimizer: the solver supplies one- and two-particle reduced density matrices, while the molecular orbitals are updated on the orthonormality-constrained Stiefel manifold with an implicit steepest-descent algorithm. Because the orbital optimizer only requires reduced density matrices, MP2, CASCI, and DMRG can be treated within the same interface. For CASCI solvers, the approach is closely related to optimal-orbital full configuration interaction and CASSCF\\cite{helgaker_MulticonfigurationalSelfConsistentField_2000a}, but uses a solver-independent constrained-optimization update rather than CAS-specific orbital-rotation equations. When conventional CASSCF orbital-rotation iterations converge to higher-energy local solutions, CO-CAS can recover lower-energy stationary solutions. We also introduce a modified direct inversion in the iterative subspace procedure to accelerate macro-iteration convergence and a dynamical-weighting scheme to improve state-averaged excited-state calculations. Applications to LiF, H$_2$O, and pyrazine show that orbital optimization lowers energies relative to fixed-orbital MP2, CASCI, and DMRG references while improving convergence and potential-energy-curve smoothness.         ",
+    "url": "https://arxiv.org/abs/2606.17761",
+    "authors": [
+      "Junzhe Zhang",
+      "Shuoyi Hu",
+      "Bing Gu"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17959",
+    "title": "A High-Precision Frequency Locking Method Based on All-Phase FFT Demonstrated on a Crystal Oscillator with Rubidium Clock Reference",
+    "abstract": "           This article proposes a novel frequency-locking method based on frequency-domain unbiased phase estimation (FDUPE) for high-precision frequency control. By performing weighted recombination of the acquired data followed by Fourier-transform processing, the phase at the center of the data segment can be estimated without bias, making the method suitable for frequency-locking applications. The principle of the proposed method is analyzed, and an electronic prototype is developed to experimentally validate its feasibility. In the prototype, analog-to-digital converters (ADCs) are used for signal digitization, and a field-programmable gate array (FPGA) is used to implement the FDUPE algorithm. A digital proportional-integral-derivative (PID) controller is also implemented on the FPGA to provide feedback for accurate frequency locking. In the experiment, a (10~\\mathrm{MHz}) voltage-controlled oscillator (VCO) with a free-running Allan deviation of (1 \\times 10^{-9}) at (1~\\mathrm{s}) is used as the device under test (DUT), while a rubidium atomic clock with an Allan deviation of (2 \\times 10^{-11}) at (1~\\mathrm{s}) serves as the high-stability reference source. Experimental results show that the proposed system achieves excellent locking performance, reducing the standard deviation of frequency fluctuations from (12.75~\\mathrm{mHz}) root-mean-square (rms) in the free-running state to (0.88~\\mu\\mathrm{Hz}) rms after locking. Correspondingly, the Allan deviation at (10~\\mathrm{s}) is reduced from (9.6 \\times 10^{-10}) to (1.45 \\times 10^{-14}), representing a five-order-of-magnitude improvement in frequency stability.         ",
+    "url": "https://arxiv.org/abs/2606.17959",
+    "authors": [
+      "Qibin Zheng",
+      "Kang Xu",
+      "Jiacheng Yang",
+      "Liguo Zhou",
+      "Li Ding",
+      "Xianfeng Jiang",
+      "Zhaohui Bu"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17988",
+    "title": "Optimization of vacuum acceleration with radially polarized laser beams having phase aberrations",
+    "abstract": "           The strong electric fields from tightly-focused and ultrashort laser beams have always been discussed as a way to accelerate charged particles without any need for a medium or external cavity. Radially-polarized light is one way to do this, motivated by the emergence of longitudinal electrical fields with tight focusing. However, the laser pulse will generally quickly overtake the electrons under its influence, and every-other half-cycle will decelerate the electrons in effect partially reversing the acceleration. In this work we present the effect of optical aberrations, primarily spherical aberration, and how despite their purely spatial nature they can significantly optimize the net acceleration, and advantageously allow for longer pulses to drive this optical field-based process. We discuss the optical physics responsible for this increase in performance and find optimal aberration profiles using a stochastic algorithm.         ",
+    "url": "https://arxiv.org/abs/2606.17988",
+    "authors": [
+      "Spencer W. Jolly"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.18067",
+    "title": "Kerr Soliton Generation in Ultra-Compact Photonic Devices",
+    "abstract": "           Chip-based nonlinear photonics offer the capability to integrate devices with all the requisite photonic components (e.g., filters, couplers, detectors) into highly compact form factors. This offers the possibility of making the devices scalable, robust, and manufacturable. Such integrated photonic devices will enable applications in optical communications, precision metrology, microwave generation, and LIDAR. However, thermal instabilities represent a major hurdle in the deterministic operation of nonlinear optical processes in such integrated resonant structures such as microresonators. In this work we demonstrate deterministic and highly stable Kerr soliton comb generation in tight-spiral microresonators with comb spacings as low as 16 GHz. We perform a comprehensive experimentally-validated thermal model of such compact microresonators and reveal non-trivial thermally-driven instabilities governing the cavity soliton dynamics. We design and implement a fast feedback loop on the devices to overcome thermal perturbations and stabilize cavity-soliton states, including those that are otherwise unstable, and to allow for controlled transitions between the soliton states. Our approach enables the realization of thermally-stable highly compact soliton microcomb devices in a wide variety of photonic platforms.         ",
+    "url": "https://arxiv.org/abs/2606.18067",
+    "authors": [
+      "Garrett J. Beals",
+      "Yun Zhao",
+      "Sai Kanth Dacha",
+      "James Eckstein",
+      "Karl McNulty",
+      "Michal Lipson",
+      "Alexander L. Gaeta"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.18149",
+    "title": "How Sparse and How Noisy? Systematic Benchmarking of Inverse Physics-Informed Neural Networks for Manning Friction Estimation in Shallow Water Equations",
+    "abstract": "           Physics-informed neural networks (PINNs) offer a promising framework for inverse hydrodynamic modeling by combining sparse observations with governing physical constraints. However, their reliability for estimating hydraulic parameters under data limitations remains insufficiently characterized. This study benchmarks inverse PINN recovery of the Manning friction coefficient in the shallow water equations under controlled variations in observation sparsity, noise, and observed variable type. Two cases are considered: a one-dimensional MacDonald subcritical channel with an analytical steady reference solution, and a two-dimensional sloped channel with a parabolic transverse bed generated using a balanced finite-volume solver. The Manning coefficient is treated as a trainable positive scalar and recovered jointly with the flow field using a two-phase strategy that first fits observations and then incorporates the physics residual. Results show that the two-dimensional case achieves robust friction recovery, with errors below 5% when at least 10 depth and velocity observations are available and noise is at or below 10% of the field standard deviation. Recovery remains stable up to 20% noise with 50 observations, but becomes unreliable with only five observations. In contrast, the one-dimensional case shows a persistent positive bias of about 15% that is largely insensitive to observation count and noise, indicating a structural identifiability limitation rather than a data-density limitation. Observation-type ablation shows that recovery degrades substantially when only depth or velocity is observed, demonstrating that joint depth-velocity information is essential for reliable inverse identification. Overall, the results provide a reproducible benchmark for assessing when inverse PINNs can and cannot reliably estimate Manning friction from sparse and noisy shallow-water observations.         ",
+    "url": "https://arxiv.org/abs/2606.18149",
+    "authors": [
+      "Soheil Radfar"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Computational Physics (physics.comp-ph)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17422",
+    "title": "Broadband High-Level Squeezed Light using Waveguide Optical Parametric Amplifiers with External Dispersion Compensation",
+    "abstract": "           We demonstrate broadband phase-sensitive amplification (PSA) measurement of squeezed light generated by a waveguide optical parametric amplifier (OPA) with external dispersion compensation. In broadband systems, group velocity dispersion (GVD) induces a frequency-dependent rotation of the squeezing axis, which limits the observable bandwidth in PSA measurements. To overcome this limitation, we introduce external dispersion compensation between two OPAs and suppress the quadrature rotation over a wide frequency range. As a result, we observe a maximum squeezing of 5.9 dB near the carrier frequency and more than 5 dB of squeezing up to a frequency offset of 4.5 THz from the carrier. Furthermore, squeezing below the shot-noise level is confirmed up to a frequency offset of 6 THz from the carrier, corresponding to the accessible phase-matching bandwidth of the waveguide OPA. Our results establish a practical method for broadband characterization of squeezed light and provide a key step toward ultrafast continuous-variable quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2606.17422",
+    "authors": [
+      "Takumi Suzuki",
+      "Shotaro Oki",
+      "Kazuki Hirota",
+      "Takaya Hoshi",
+      "Ryuhoh Ide",
+      "Takahiro Kashiwazaki",
+      "Taichi Yamashima",
+      "Asuka Inoue",
+      "Takeshi Umeki",
+      "Mamoru Endo",
+      "Akira Furusawa"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17445",
+    "title": "Toward Controllable Catalyst Inverse Design via Large-Scale Autoregressive Pretraining",
+    "abstract": "           Inverse design of heterogeneous catalysts remains challenging because catalyst surfaces exhibit substantial structural complexity with coupled surface-adsorbate interactions across a vast chemical space that is difficult to explore efficiently through conventional screening alone. Although machine learning-based high-throughput screening has accelerated catalyst discovery, its efficiency inevitably declines as the search space grows, motivating the development of generative models that can directly construct catalysts with target properties. Here, we present a conditional catalyst generative model based on the Generative Pretrained Transformer architecture with a numerical embedding layer that enables the generation of catalyst structures conditioned on both categorical and continuous properties within a single autoregressive framework. The model was pretrained on 133 million catalyst structures and subsequently fine-tuned on approximately 460,000 optimized structures with associated categorical properties and binding energies for conditional generation. The resulting model achieved 98% structural validity, 95% optimization validity, and high categorical condition fidelity, with a 93 % joint match rate for adsorbate type and composition. For binding energy conditioning, the match rate of approximately 20% represents a four-fold improvement over the baseline training distribution, and the generated distributions shift systematically toward the target values, enabling a 1.5 to 4-fold improvement in screening efficiency for reaction-targeted catalyst discovery without additional fine-tuning. These results show that large-scale autoregressive pre-training, combined with explicit property conditioning, provides a practical route toward controllable catalyst generation and accelerated catalysts discovery.         ",
+    "url": "https://arxiv.org/abs/2606.17445",
+    "authors": [
+      "Dong Hyeon Mok",
+      "Jonggeol Na",
+      "Seoin Back"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17498",
+    "title": "Vorticity Induced by Non-frontal Collisions of Quantum Droplets",
+    "abstract": "           The rotational dynamics induced by the non-frontal binary collisions of quantum droplets composed of ultracold alkali atoms are analyzed. A theoretical study is presented within the extended Gross-Pitaevskii equation framework, using experimentally feasible conditions. Numerical experiments elucidate a rich landscape of possible topological excitations in the system that are robust towards measurements. The collision of heteronuclear quantum droplets composed of $^{41}$K and $^{87}$Rb atoms in the incompressible regime, gives rise to dynamical instabilities that spontaneously generate topological defects: vortex rings, dislocation lines, and vortices in one species. Their presence depends on the Weber number and the impact parameter. An experimental proposal for vortex detection in both real and Fourier space using interaction ramps is described.         ",
+    "url": "https://arxiv.org/abs/2606.17498",
+    "authors": [
+      "J. E. Alba-Arroyo",
+      "Santiago F. Caballero-Benitez",
+      "Rocio J\u00e1uregu"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17547",
+    "title": "Beyond the interface: Persistent Hopping Transport and Frequency Dispersion in Strong-inversion Cryogenic MOSFETs",
+    "abstract": "           Cryogenic complementary metal-oxide-semiconductor (cryo-CMOS) technology is essential for quantum computing interfaces, which require precise modeling of dynamic device behavior. The output impedance of MOS field-effect transistors (MOSFETs) is frequency dependent, which has been conventionally attributed to extrinsic parasitics. Here, we report an intrinsic frequency dispersion in the channel impedance of cryogenic MOSFETs that persists deep into the strong-inversion region. Through a Cole-Cole analysis, we characterize this dispersion as a depressed semicircle in the impedance plane and attribute its behavior to variable-range hopping through band-tail localized states. Unlike conventional models where band-tail states are confined to the oxide interface, we demonstrate that in MOSFETs with high channel doping the band-tail states are induced by ionized impurities and distributed throughout the depletion region. Our paradigm accounts for frequency dispersion under strong inversion. This work demonstrates that ionized-impurities-induced hopping governs the dynamic response of cryo-MOSFETs channel impedance even when drift conduction dominates, offering critical insights for accurate small-signal modeling and high-frequency cryo-CMOS circuit design.         ",
+    "url": "https://arxiv.org/abs/2606.17547",
+    "authors": [
+      "Keito Yoshinaga",
+      "Wataru Miyagi",
+      "Ryo Toyoshima",
+      "Munehiro Tada",
+      "Ken Uchida"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.17855",
+    "title": "Higher-order topological metasurface based on split-ring resonators with dipole-quadrupole couplings",
+    "abstract": "           Photonic higher-order topological insulators (HOTI) are characterized by a hierarchy of topologically-protected states with different dimensionalities, making them especially interesting for potential applications that combine strong localization of electromagnetic fields and their robust waveguiding. However, their practical implementation often requires expensive processing techniques and is limited by accessible material parameters. In this paper, we demonstrate that a radio-frequency photonic HOTI can be implemented as a metasurface composed of split-ring resonators with couplings between dipole and quadrupole modes. We verify, by numerical simulations and experimentally at frequencies of 1.5-1.7 GHz, that a proposed metasurface supports corner- and edge-localized states. Our results reveal a scalable and easily reconfigurable GHz-range platform that employs printed circuit board technology, thus making crucial steps required for further experimental studies of photonic HOTI and the development of their microwave applications.         ",
+    "url": "https://arxiv.org/abs/2606.17855",
+    "authors": [
+      "Alina D. Rozenblit",
+      "Nikita A. Olekhno"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2502.20686",
+    "title": "Development of a Neutron Imager using CMOS Pixelated Sensor",
+    "abstract": "           We acquired an image of the Siemens Star Chart using the 10B-INTPIX4 CMOS pixelated imager at J-PARC MLF BL21 (NOVA). The image blurriness, characterized by a root mean square (rms) value of 17 um in the line spread function, corresponds to an rms beam divergence of 2.7 mrad. for the neutron beam. This is equivalent to the effective geometrical ratio (L/D ratio) of 370. The contrast of the image was analyzed as a function of structural scale of the chart, and based on this contrast, the modulation transfer function (MTF) of the imaging system was evaluated. The results indicate that the structure corresponding to the 50% cutoff is 12 line-space pairs per mm.         ",
+    "url": "https://arxiv.org/abs/2502.20686",
+    "authors": [
+      "Yoshio Kamiya",
+      "Hidetoshi Ohshita",
+      "Ryutaro Nishimura",
+      "Toshiya Muto",
+      "Shingo Mitsui",
+      "Tomohiro Seya",
+      "Izumi Umegaki",
+      "Yasuo Arai"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2507.09150",
+    "title": "Linear and nonlinear characteristics of high frequency electrostatic drift waves in absence of collisions",
+    "abstract": "           High frequency electrostatic drift waves are shown as hybrid modes generated by mixing with cyclotron dynamics and grow at the expense of cyclotron modes due to mode coupling effects. The role of density gradient is to break the symmetry between the two cyclotron branches with strong values of the gradient causing the branch modified by drift to overlap with the cyclotron branch leading to a mode coupling instability. The analysis is carried out in the framework oof a fluid model without invoking collisional or finite Larmor radius effects. A second order nonlinear equation with variable coefficients has been derived to govern the dynamics of high frequency electrostatic drift waves in a moving frame of (2+1) spatio-temporal dimensions to show the wave characteristics in various parameter ranges. The possibilities of excitation of the high frequency electrostatic drift waves have been explored in the context of certain laboratory and astrophysical plasma systems including tokamaks and solar corona where the existence of steeper density gradients is more probable.         ",
+    "url": "https://arxiv.org/abs/2507.09150",
+    "authors": [
+      "Siba Prasad Acharya",
+      "M. S. Janaki"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.18448",
+    "title": "Stability and optical quality of \"windmill\"-formed 8CB liquid crystal films for replenishable plasma mirrors",
+    "abstract": "           Liquid crystal (LC) film plasma mirrors (PMs) based on 4-octyl-4'-cyanobiphenyl (8CB) are an enabling technology for reflecting high-fluence laser pulses. These freestanding LC films can achieve high optical quality and are well-suited for rep-rated applications, as motorized devices continuously replenish films over an aperture following each destructive laser shot. However, a systematic characterization of film quality as a function of seminal operating conditions had not yet been performed for the LC \"windmill\" version of the device, which aims to match the repetition rate of an existing \"spinning disk\" (SDI) version and the angular stability of the \"linear slider\" (LSTI) version. We determined the 8CB film quality using low-power wavefront measurements, and studied the film-to-film wavefront stability and formation reliability. The film-formation reliability of 8CB LC films demonstrated >97% formation success at 2.7 mm/s film-forming speeds, but decreased to 45% at 10.8 mm/s. These reliability numbers will inform future designs to reach Hz-level repetition rates and beyond. Depending on area-of-interest within the 10 mm diameter film, the added wavefront root-mean-squared (RMS) variation was as small as 12 nm for a 2 mm diameter region, and <50 nm for a 3 mm diameter region. Within the optimal 21-22 degrees C operating regime, pointing fluctuations remained at or below 0.5 mrad. With a maximum effective film formation frequency of approximately 0.25 Hz, these results establish windmill-formed 8CB films as promising candidates to pursue next-iteration improvements towards rep-rated plasma-mirror operation.         ",
+    "url": "https://arxiv.org/abs/2509.18448",
+    "authors": [
+      "A. Vazquez",
+      "A. Jewell",
+      "M. Cole",
+      "A. Abdi",
+      "T. K. Le",
+      "A. McIlvenny",
+      "N. Czapla",
+      "L. Russell",
+      "A. Picksley",
+      "A. J. Gonsalves",
+      "K. Nakamura",
+      "D. W. Schumacher",
+      "Z. Eisentraut",
+      "F. Mazzini",
+      "C. B. Schroeder",
+      "J. van Tilborg",
+      "J. Osterhoff",
+      "E. Esarey",
+      "L. Obst-Huebl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.04089",
+    "title": "From Paper to Program: Knowledge Externalization for AI-Assisted Quantum Many-Body Code Generation",
+    "abstract": "           Large language models can write scientific code, but direct paper-to-program translation remains fragile when correctness depends on tacit conventions in the literature. We identify this bottleneck as \\textbf{knowledge externalization}: converting implicit computational assumptions -- index conventions, gauge choices, fermionic signs, contraction order, and memory constraints -- into an explicit technical specification before implementation. We evaluate a multi-stage, human-in-the-loop workflow that inserts such a specification, with validation and stop gates, between theory extraction and code generation. The workflow is tested on two algorithmically distinct quantum many-body tasks: variational sweep-based Density-Matrix Renormalization Group (DMRG) from a pedagogical review and constructive Pfaffian conversion of Hartree--Fock--Bogoliubov states to matrix product states from the five-page Letter by Jin et al., Phys. Rev. B 105, L081101 (2022), for which no public code is available. For DMRG, all 16 specification-guided model pairings in a $4\\times4$ grid satisfy physics-validation criteria, compared with 6/13 direct attempts. A prose-specification ablation indicates that externalized content, not \\LaTeX{} formatting, is the essential ingredient. For Pfaffian-MPS, the workflow succeeds in 11/26 archived attempts, whereas direct prompting yields zero audited passes. Cross-specification transfer is asymmetric: non-GPT specifications implemented by GPT~5.5 pass 4/4, while GPT~5.5 specifications implemented by weaker models fail 4/4, indicating a residual implementation-model bottleneck. The resulting \\emph{Paper-to-Program Many-Body} skill provides an auditable protocol for AI-assisted implementation of many-body algorithms and for diagnosing where externalization succeeds or fails.         ",
+    "url": "https://arxiv.org/abs/2604.04089",
+    "authors": [
+      "Yi Zhou"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Artificial Intelligence (cs.AI)",
+      "Human-Computer Interaction (cs.HC)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.13992",
+    "title": "Monolithic axial InGaAs quantum dot emitters in GaAs-based nanowires via Sb-mediated facet engineering",
+    "abstract": "           GaAs-based nanowires hosting active quantum heterostructures provide a promising route toward monolithic integration of single-photon sources on silicon, a key requirement for scalable quantum photonics. However, ultrathin axial quantum-emitter formation is often hindered by facet-dependent growth dynamics and rotational twins, which induce lateral overgrowth and compromise interface abruptness. Here, we develop InGaAs-based quantum emitters by tailoring facet evolution via dilute Sb incorporation, which efficiently suppresses twins and promotes confined axial insertion at the growth-front facet. This approach significantly enhances the probability of obtaining abrupt, few-nanometer-thin quantum dots at the nanowire tip. Single-nanowire optical spectroscopy reveals intense, spatially localized emission from the active region with lifetimes as short as (0.51 $\\pm$ 0.02) ns, and second-order photon-correlation measurements consistently exhibit pronounced antibunching with $g^{(2)}(0)<0.4$, confirming single-photon emission. These results establish a strong correlation between twin density and axial heterostructure formation, identifying defect control as a key factor in realizing monolithically integrated nanowire single-photon sources.         ",
+    "url": "https://arxiv.org/abs/2605.13992",
+    "authors": [
+      "Hyowon W. Jeong",
+      "Aris Koulas-Simos",
+      "Imad Limame",
+      "Markus D\u00f6blinger",
+      "Sang Kyu Kim",
+      "Chirag C. Palekar",
+      "Jonathan J. Finley",
+      "Stephan Reitzenstein",
+      "Gregor Koblm\u00fcller"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.29951",
+    "title": "Negative Electronic Friction and Non-Markovianity in Nonequilibrium Quantum Systems",
+    "abstract": "           We address the connection between negative electronic friction and non-Markovian effects in the nonadiabatic vibrational dynamics of molecules interacting with metal surfaces under nonequilibrium conditions. We show that a generic nonequilibrium mechanism leading to negative Markovian electronic friction, where molecular vibrations couple directly to inelastic electronic transitions, also introduces significant non-Markovian contributions to the electronic friction. To demonstrate these ideas, we investigate nonequilibrium charge transport through a molecular nanojunction containing a vibrationally coupled donor-acceptor model, where negative electronic friction reflects driving of the vibrational mode beyond standard Joule heating. By comparison to numerically exact, fully quantum hierarchical equations of motion simulations, we verify that these non-Markovian effects have a significant impact on the nonequilibrium dynamics and even on the stability of the resulting Langevin equation.         ",
+    "url": "https://arxiv.org/abs/2603.29951",
+    "authors": [
+      "Riley J. Preston",
+      "Samuel L. Rudge",
+      "Daniel S. Kosov",
+      "Michael Thoss"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.15383",
+    "title": "Quantum optimal control of steady orbits",
+    "abstract": "           Periodically driven dissipative systems can settle into steady orbits - fixed loops on their dynamical manifolds. In quantum mechanics, steady orbits occur in cooling engines (used to initialise quantum devices), coherent oscillators (such as lasers and masers), precision metrology devices (atomic clocks, optical and spin magnetometers), and magnetic resonance (steady state free precession, dynamic nuclear polarisation). Steady orbits and stroboscopic steady states are a promising target for quantum optimal control, but the numerical complexity is prohibitive: the infinite loop defeats gradient ascent pulse engineering (GRAPE) which relies on explicit numerical propagation in the time domain. Here we propose an efficient quantum control strategy for stroboscopic steady states and limit cycles that are approached asymptotically when a control sequence is repeated infinitely many times. The formalism is different from Floquet-Lindblad state engineering and effective Hamiltonian theories: it finds control sequences that drive a dissipative quantum system towards a steady orbit passing through user-specified waypoints. The software implementation (same numerical complexity scaling as GRAPE) is done for the Spinach library.         ",
+    "url": "https://arxiv.org/abs/2606.15383",
+    "authors": [
+      "Shebha Anandhi Jegadeesan",
+      "Yujie Zhao",
+      "Robert Hunter",
+      "Hassane El Mkami",
+      "Maximilian Keitel",
+      "Callum Musselwhite",
+      "Graham Smith",
+      "Guinevere Mathies",
+      "Ilya Kuprov"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mathematical Physics (math-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
