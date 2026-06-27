@@ -1,0 +1,452 @@
+[
+  {
+    "id": "arXiv:2606.26159",
+    "title": "Microparticles manipulation with a three-dimensional closed optical trap",
+    "abstract": "           Gaussian optical tweezers have strong phototoxicity to bioactive substances and it is difficult to achieve capture and manipulation of multiple particles. Moreover, vortex optical tweezers face several challenges, such as weak axial confinement and dependence on complex optical elements like a spatial light modulator (SLM). Therefore, we design and construct a novel three-dimensional (3D) \"optical spindle trap\" (OST) system that does not require a SLM. By employing intracavity mode modulation and a simple extra-cavity lens modulation, we generate a fully enclosed 3D dark potential well with zero central intensity. Experimental results demonstrate that the system achieves stable trapping of single or multiple micrometer-sized particles with excellent 3D confinement and enables the trapping of mouse hepatocytes under low-power conditions. The system exhibits high physical stability. Its closed dark-field structure can also reduce phototoxic damage to biological samples. Furthermore, the dimensions of the optical trap can be flexibly tuned to suit various application scenarios. This study provides a novel, highly efficient, gentle, and low-cost optical trap platform for biomedicine and micro/nanoscale manipulation.         ",
+    "url": "https://arxiv.org/abs/2606.26159",
+    "authors": [
+      "Chunyu Zhang",
+      "Xinran Fang",
+      "Pengcheng Mao",
+      "Dongxu Zhao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26271",
+    "title": "Routes to Chaos in Class-B laser Dimer Necklaces",
+    "abstract": "           Linear $\\mathcal{PT}$-symmetric dimer necklaces use cyclic coupling to organize phase-locked modes, while class-B laser--resonator dimers use carrier inversion to destabilize gain--loss dynamics and produce routes to chaos. We study a cyclic necklace of class-B laser--resonator dimers to determine how inter-dimer coupling and cyclic phase constraints modify carrier-mediated instabilities. The carrier inversion turns the necklace into an amplitude--phase--carrier system whose active-site gain controls intensities, while the linewidth-enhancement factor shifts phases. We derive the real dynamical equations, identify uniform fixed points above threshold, and classify their phase configurations under cyclic closure. Even necklaces support full synchronization, a uniform $\\pi$ shift, and two alternating phase configurations; odd necklaces support only the first two. Linear stability of these configurations partitions the coupling plane into sixteen possible regions, including one region with no stable uniform fixed point. Long-time simulations for representative two- and three-dimer necklaces show stable lasing, multistability, and irregular lasing controlled by pump ratio and coupling strengths. Increasing the pump ratio expands stable domains and suppresses the region without stable uniform fixed points.         ",
+    "url": "https://arxiv.org/abs/2606.26271",
+    "authors": [
+      "J. Diaz-Avila",
+      "A. A. Macias Infante",
+      "B. R. Jaramillo-Avila",
+      "B. M. Rodriguez-Lara"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26306",
+    "title": "Fiber Bragg grating-based acoustic sensing system enabled by ML-trained, sub-picometer-tunable hybrid III-V/SiN lasers",
+    "abstract": "           Distributed acoustic emission (AE) sensing is critical for early detection of structural degradation, yet conventional electrical sensors are difficult to scale and fiber-based approaches are limited by interrogation complexity and resolution. Here, we report an intelligent fiber Bragg grating (FBG) sensing system enabled by machine learning (ML)-trained hybrid III-V/SiN tunable lasers that achieve uniform, mode-hop-free, sub-picometer wavelength control. A supervised gradient-descent algorithm is used to learn the nonlinear electro-thermal tuning space of Vernier-based external-cavity lasers, enabling continuous tuning with <0.1 pm resolution and <0.5 dB power variation. This capability allows precise alignment to FBG reflection slopes for high-sensitivity acoustic detection. We demonstrate a four-laser interrogation system monitoring 16 FBG sensors distributed across multiple metallic structures, operating over a 35 nm wavelength span. The system autonomously identifies sensor resonances, dynamically tracks spectral shifts, and reconfigures interrogation wavelengths in response to localized acoustic events. Using pencil-lead break tests as calibrated AE sources, we show simultaneous multi-channel detection and adaptive spatial localization. The combination of narrow linewidth (<10 kHz), wide tunability, and ML-driven calibration enables robust, scalable, and high-resolution sensing. This approach establishes a pathway toward fully autonomous, distributed photonic sensing networks for real-time structural health monitoring.         ",
+    "url": "https://arxiv.org/abs/2606.26306",
+    "authors": [
+      "Prabhav Gaur",
+      "Premanand Chandramani",
+      "Mohammed Alshamari",
+      "Yufei Chu",
+      "Abu Mitul",
+      "John Simons",
+      "Ibrahim G. Yayla",
+      "Ming Han",
+      "Ashok V. Krishnamoorthy"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Systems and Control (eess.SY)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26393",
+    "title": "Consistent Initial States with Constant Circuit Depth for Quantum Computational Chemistry",
+    "abstract": "           Variational quantum eigensolvers have been extensively studied, yet there are still no methods that offer black-box applicability with consistent performance. Separable pair approximations promise to be candidates for such methods: they compile to shallow constant-depth quantum circuits with linear gate count and parameter dependence and circumvent most bottlenecks of variational quantum algorithms through their classical simulability. At the same time, they seamlessly integrate into prominent more general circuit designs and subspace strategies. So far, their capability as a consistent method has only been indicated and demonstrations have been restricted to manually designed model systems. In this work, we extensively evaluate the consistency of SPA states for hydrogen chains, alkanes, and small molecules within an orbital-optimized VQE framework. Our benchmarks demonstrate consistent approximations with classical complexity comparable to Hartree-Fock. Our open-source implementation within the Tequila framework allows convenient use of the algorithms as a standalone method or as a subpart of more extensive procedures. Our results underpin the potential of SPA circuits as scalable, chemically motivated low-depth circuits with various applications and validate their usage as a chemically consistent method.         ",
+    "url": "https://arxiv.org/abs/2606.26393",
+    "authors": [
+      "Lily Barta",
+      "Jakob S. Kottmann"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26760",
+    "title": "An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction",
+    "abstract": "           Accurately solving the electronic Schr\u00f6dinger equation for strongly correlated systems remains a central challenge in quantum chemistry, where the exponential growth of configuration space limits the applicability of exact methods. Selected Configuration Interaction (SCI) algorithms address this challenge by adaptively constructing compact determinantal expansions, yet their efficiency depends critically on the quality of the sampling strategy used to identify chemically important configurations. Here we introduce the Handover Iterative Neural Quantum State (HI-NQS) algorithm, which embeds a classically trained autoregressive Transformer neural quantum state within the iterative sample--diagonalize--update framework of Sample-Based Quantum Diagonalization. A dual-channel Transformer architecture with explicit spin-up/spin-down cross-attention encodes fermionic spin structure as an architectural inductive bias, enabling expressive and physically informed wavefunction representations. After each subspace diagonalization, the resulting eigenvector is distilled back into the network through a factorized spin-marginal teacher signal, establishing a closed feedback loop between generative sampling and exact diagonalization. Benchmarks across a range of small molecules and a systematic nitrogen active-space series demonstrate that HI-NQS achieves chemical accuracy on all systems tested, with determinant-count scaling substantially more favorable than conventional CIPSI-based SCI for all but the smallest active spaces. All calculations are performed on GPU hardware without quantum computing resources, establishing HI-NQS as an efficient and scalable purely classical approach to the selected configuration interaction problem.         ",
+    "url": "https://arxiv.org/abs/2606.26760",
+    "authors": [
+      "Jen-Yu Chang",
+      "Yi-Chun Chang",
+      "Yu-Jui Lin",
+      "Ming-Chun Yang",
+      "Hsiu-Chi Tsai",
+      "Tai-Yue Li",
+      "Nan Yow Chen",
+      "Tsung-Wei Huang",
+      "En-Jui Kuo"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26830",
+    "title": "pyDOF: a Python library for the design of discrete forward and inverse filters",
+    "abstract": "           In this work, we present pyDOF, a Python-based software library which provides a domain-specific framework for the design of symmetric, physical-space, forward as well as inverse discrete filters. pyDOF is based on a constrained optimisation framework developed in our previous work [1, 2]. This framework allows the user to impose a wide range of constraints on the discrete filter transfer-function such as monotonicity, positivity, value-fixing, gradient-smoothing etc. amongst many others. pyDOF additionally includes an adaptive filter stencil selection option, and a van Cittert-based inverse-filter design with a user-controlled reconstruction order. The filter coefficients are computed automatically, and saved to a plain text file which can be readily parsed by any programming language. pyDOF can be used to design a wide range of low-pass, high-pass, multi band-pass/band-stop etc. discrete filters. In addition, due to its generality and abstraction, pyDOF can be used to design specific filters for user-defined target filter transfer functions. Although developed primarily for application to computational fluid dynamics simulations, pyDOF can be used to design discrete filters for a wide range of signal processing applications.         ",
+    "url": "https://arxiv.org/abs/2606.26830",
+    "authors": [
+      "Z. Nikolaou",
+      "P. Domingo",
+      "L. Vervisch",
+      "D. Drikakis"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Mathematical Software (cs.MS)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26860",
+    "title": "Low-Threshold Degenerate Optical Parametric Oscillations in Bichromatically-Pumped Normal-Dispersion Photonic-Crystal Microresonator",
+    "abstract": "           The process of excitation of degenerate optical parametric oscillations via bichromatic pump is studied numerically in normal-dispersion photonic-crystal microresonator. It is demonstrated that the photonic-crystal structure with two split modes placed symmetrically at the particular interval from the pumped modes provides significant reduction in pump power threshold for the considered process. The parameter range for this phenomenon is determined. Introduction of mode splitting at the signal mode located in the center between pumped modes leads to an increase in the generation threshold.         ",
+    "url": "https://arxiv.org/abs/2606.26860",
+    "authors": [
+      "Valery E. Lobanov",
+      "Nadezhda S. Tatarinova",
+      "Artem E. Shitikov",
+      "Olga V. Borovkova",
+      "Igor A. Bilenko",
+      "Dmitry A. Chermoshentsev"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26908",
+    "title": "High order harmonic Optical Reconstruction by delayed time-depeNdent Ellipticity perturbaTion: HORNET",
+    "abstract": "           We present and demonstrate an all-optical \\textit{in situ} method for temporal characterisation of high-order harmonics generated in gas with a linearly polarised intense infrared (IR) laser. By using a delayed cross-polarised replica of the IR pulse with a lower amplitude, we introduce a weak and time-dependent ellipticity in the IR driving field. Since the XUV emission is very sensitive to the ellipticity of the driving field, it is perturbed precisely at the times when ellipticity is significant. The detected emission is then reduced only if the unperturbed XUV emission is substantial at these times. Perturbed XUV spectra are recorded for several delays and exhibit changes both in amplitude and in their spectral content. An iterative ptychographic algorithm is used to retrieve the electric field of individual harmonics in a very robust way. Experimental measurements are in good agreement with simulations. The reconstructed temporal profiles show a steady evolution of the XUV pulse duration and chirp with the harmonic order. The highest harmonics exhibit a positive chirp and are emitted in the rising front of the IR driving pulse, while the lowest ones exhibit a negative chirp and are emitted throughout the entire pulse.         ",
+    "url": "https://arxiv.org/abs/2606.26908",
+    "authors": [
+      "Lucas Perez",
+      "Corentin Picot",
+      "Stefan Skupin",
+      "Fabrice Catoire",
+      "Eric Constant"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26995",
+    "title": "Quantum statistics on atom-ion Feshbach resonances",
+    "abstract": "           We investigate three-body recombination in a hybrid atom-ion system consisting of a single trapped Ba$^+$ ion immersed in a two-component Fermi gas of Li atoms near an atom-ion Feshbach resonance. By tuning the spin composition at constant density and temperature, we isolate the role of quantum statistics in atom-atom-ion collisions. The measured ion loss rate exhibits a pronounced nonlinear dependence on spin polarization, revealing a reduced contribution of recombination pathways involving identical fermions already at the level of experimental observables. The observations are consistent with a two-step recombination picture and an adiabatic hyperspherical approach, where antisymmetrization restricts the available entrance channels and gives rise to interference between indistinguishable recombination pathways. Our work establishes atom-ion systems as a platform for controlling three-body collisions via quantum statistics and demonstrates that exchange-symmetry effects remain robust even under thermal averaging that obscures the underlying threshold-law behavior.         ",
+    "url": "https://arxiv.org/abs/2606.26995",
+    "authors": [
+      "Joachim Siemund",
+      "Fabian Thielemann",
+      "Jonathan Grieshaber",
+      "Wei Wu",
+      "Patrick Mullan",
+      "Panagiotis Giannakeas",
+      "Krzysztof Jachymski",
+      "Tobias Schaetz"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Gases (cond-mat.quant-gas)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.27099",
+    "title": "Neural Networks for Inverse Design of Cascaded-Mode Near-Field Landscapes",
+    "abstract": "           Structuring optical near-fields is important for applications in microscopy and nanoparticle manipulation. Traditionally, near-fields are structured using antenna nanostructures that locally convert propagating far-fields into bound near-fields. Recently, a remote structuring approach was proposed using cascaded mode interference in a multimode waveguide. However, determining the complex coefficients of the optimal modal combination needed to obtain specific near-fields remains a challenge. We address this inverse design problem using artificial neural networks. We model the relationship between the design parameters and near-field landscapes using multilayer neural networks. After training, these networks are used for gradient-based optimization to reconstruct target near-field profiles. We implement this methodology to design longitudinal and lateral field variations. Our approach designs simple and complex longitudinal landscapes, demonstrating accurate prediction and flexibility. Lateral field reconstruction is more challenging but improved with training data selection and augmentation. This work establishes deep learning as an efficient and scalable framework for cascaded-mode near-field inverse design.         ",
+    "url": "https://arxiv.org/abs/2606.27099",
+    "authors": [
+      "Wannes Luts De Martelaere",
+      "Joeri Lenaerts",
+      "Vincent Ginis"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.27160",
+    "title": "Real Quantum Chemistry With Complex Orbitals",
+    "abstract": "           We follow up our study of basis set truncation errors for atoms in magnetic fields [\u00c5str\u00f6m and Lehtola, J. Phys. Chem. A, 2023, 127, 10872]. Our previous study employed an approximate real-valued model. In this work, we implement a scheme to allow the use of complex basis functions and the true, complex Hamiltonian with linear molecules in a parallel magnetic field within the usual real-basis machinery of quantum chemistry. Our method performs additional unitary transformations before and after a conventional Fock build, thus allowing the reuse of existing software methods and algorithms. We apply our approach to calculations on low-lying configurations of the atoms $Z \\leq 18$ in static magnetic fields up to 0.6 $B_0$. The calculations employ the uncontracted aug-cc-pVTZ and the benchmarking quality AHGBSP3-9 Gaussian-type orbital basis sets. We compare total energies obtained with real and complex orbitals using these basis sets to fully numerical ones at the complete basis set limit. We see that the states of the real-valued Hamiltonian are superpositions of the true eigenstates that are correctly captured by the complex calculations. Our results show that the complex basis machinery is necessary for targeting states with the correct symmetry for the studied range of magnetic field strengths. The novel tool is key for future work where we aim to optimize basis sets for finite-field calculations.         ",
+    "url": "https://arxiv.org/abs/2606.27160",
+    "authors": [
+      "Hugo \u00c5str\u00f6m",
+      "Susi Lehtola"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.27267",
+    "title": "Sparse Sensor Placement for Reducing Forecast Errors in Ensemble Kalman Filtering",
+    "abstract": "           Designing efficient observation networks for reducing forecast errors is a fundamental challenge in numerical weather prediction. Data-driven sparse sensor placement (SSP) and ensemble-based data assimilation via the Ensemble Kalman Filter (EnKF) have each addressed this challenge independently, yet their mathematical connections have not been systematically formalized. This study presents a unified theoretical framework integrating SSP and EnKF through optimal experimental design, providing new theoretical and algorithmic results. While conventional SSP methods aim to reduce analysis errors, this study extends the SSP to target forecast error reduction by using a tangent linear model approximated by an ensemble forecast. We derive the Fisher information matrices in the ensemble and model spaces for the EnKF, and clarify the mathematical interpretations of A-, D-, and E-optimality in terms of forecast error reduction. A-optimality in the model space minimizes the mean forecast error variance; D-optimality is ill-defined in the model space due to rank deficiency and is therefore formulated in the ensemble space, where it maximizes the Shannon information content of assimilated observations; and E-optimality in the model space minimizes the worst-case forecast error variance. We further propose a fast greedy algorithm for selecting observation locations under A-optimality in the model space, avoiding matrix inversion at each greedy step and substantially reducing computational cost. Numerical experiments using the Lorenz-96 model support these theoretical findings. Among the three optimality criteria, A-optimality in the model space most consistently reduces forecast spread and root-mean-square error, and yields stable incremental improvements consistent with post-assimilation observation impact diagnostics.         ",
+    "url": "https://arxiv.org/abs/2606.27267",
+    "authors": [
+      "Takumi Saito",
+      "Shunji Kotsuki"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.27331",
+    "title": "Unpinning of trapped oil droplets via non-resonant acoustic streaming in capillary tubes",
+    "abstract": "           We establish a self-consistent analytical model demonstrating that trapped non-wetting liquid phases in narrow capillary channels can be successfully unpinned via non-resonant, second-order acoustic streaming (acoustic wind) coupled with background static drive gradients. Moving away from boundary-guided or resonant mechanisms, our approach exploits the bulk acoustic-wind force density generated by the steady-state momentum flux of attenuated first-order linear wave interactions. By expanding the hydrodynamic equations up to second order, we determine the critical assisted acoustic wave amplitude required to break capillary pinning thresholds and derive an explicit formulation for steady transport velocity under viscous wall constraints. Furthermore, incorporating both boundary-layer wall effects and bulk core thermo-viscous dissipation reveals a natural mathematical optimum condition where the spatial absorption coefficient matches half the inverse distance to the target droplet ($\\alpha = 1/2x_0$). This condition is then numerically validated and cross-correlated against legacy industrial frequency baselines, providing a fundamental theoretical framework for minimizing transducer power requirements while maximizing localized mobilization velocities in geological pore networks. Finally, we demonstrate that this optimal operational frequency scales inversely with the transmission distance, providing an analytical framework to optimize downhole acoustic tools according to the spatial damping constraints of the specific formation rather than relying on rigid hardware parameters.         ",
+    "url": "https://arxiv.org/abs/2606.27331",
+    "authors": [
+      "D. Tsiklauri"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Applied Physics (physics.app-ph)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26303",
+    "title": "Mechanisms governing photon-pair generation and emission directionality in quantum metasurfaces",
+    "abstract": "           Metasurfaces are emerging as a promising platform for photon-pair generation through spontaneous parametric down-conversion, thanks to their compactness, integrability, and intrinsic multifunctionality, which enables the engineering of complex quantum states. However, their full potential remains only partially exploited because the physical mechanisms governing key properties of the generated photon pairs, such as generation efficiency and emission directionality, are not yet fully understood. As a result, metasurface designs and experimental configurations are often optimized through trial-and-error procedures. Here, we theoretically investigate the main mechanisms that control photon-pair generation and detection by studying how different pump configurations and measurement geometries affect the generation efficiency, emission directionality, and collection efficiency of the emitted photon pairs. This framework allows us to interpret existing experimental results and to provide general guidelines for the design of metasurfaces and the choice of experimental configurations in future experiments. Finally, we show that substrate thickness and multilayer configurations represent additional degrees of freedom for quantum metasurface design and can be engineered to enhance the generation efficiency and control the emission directionality, providing a new route for the optimization of photon-pair sources based on metasurfaces.         ",
+    "url": "https://arxiv.org/abs/2606.26303",
+    "authors": [
+      "Alberto Paniate",
+      "Ivano Ruo-Berchera",
+      "Francesco Monticone"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.26910",
+    "title": "An ultralow-loss integrated photonic platform for discrete-variable quantum information processing",
+    "abstract": "           Photonic integrated circuits offer a scalable and robust route toward quantum information technologies by consolidating photon sources and linear optical networks onto compact, wafer-manufacturable chips. Although silicon photonics has enabled diverse discrete-variable quantum breakthroughs -- spanning multiphoton entanglement, quantum networking, and photonic qubit fusion for quantum computing -- scaling these platforms beyond proof-of-principle demonstrations remains severely constrained by a critical system-level bottleneck. Optical loss compounds rapidly across photon generation, routing, and state analysis, causing multiphoton generation probabilities to plummet exponentially as circuit depth and complexity grow. Here we overcome this rate-loss barrier by demonstrating a monolithic, ultralow-loss silicon nitride (Si$_3$N$_4$) integrated photonic platform engineered for high-performance discrete-variable quantum information processing. Our architecture seamlessly integrates narrowband photon-pair sources with low-loss qubit-fusion circuits and reconfigurable state-analysis interferometers. The on-chip sources prepare Einstein-Podolsky-Rosen (EPR) states with a fidelity of 0.9875(3) and exhibit near-unity photon indistinguishability, yielding a heralded Hong-Ou-Mandel interference visibility of 0.990(6). By executing on-chip fusion of two EPR states, we synthesize and characterize four-photon Greenberger-Horne-Zeilinger states with a record fidelity of 0.943(8) and a fourfold count rate of 27 Hz -- more than two orders of magnitude higher than previous silicon-photonic implementations. Combined with standard CMOS-compatible fabrication on 150-mm-diameter wafers, these results establish ultralow-loss Si$_3$N$_4$ integrated photonics as a definitive, manufacturable platform for deployable, large-scale quantum information processors.         ",
+    "url": "https://arxiv.org/abs/2606.26910",
+    "authors": [
+      "Yi-Han Luo",
+      "Ruiyang Chen",
+      "Zeying Zhong",
+      "Sanli Huang",
+      "Sicheng Zeng",
+      "Zhenyuan Shang",
+      "Yue Hu",
+      "Zhen Chen",
+      "Yuan Chen",
+      "Xue Bai",
+      "Junqiu Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.27249",
+    "title": "Quantum computer architecture with ions in tweezer arrays",
+    "abstract": "           We propose a quantum computer architecture based on ions confined in optical tweezer arrays, combining the long coherence times of trapped-ion qubits with the reconfigurability and parallel operation enabled by tweezer platforms. Selected ions are transported to local interaction zones, where excitation to an auxiliary state with a displaced optical potential generates a controllable effective electric dipole. We develop and analyze entangling-gate mechanisms mediated by the Coulomb interaction between such effective dipoles, and show that they enable precise, temperature-robust closure of the center-of-mass and relative motional trajectories, leaving no residual entanglement between the qubits and the motion. We further outline a concrete implementation with barium ions based on state-selective polarizability, and study the suppression of cross-talk during parallel gate execution, with relevance to transversal gates in quantum error correction. Our results thereby establish a realistic route toward scalable ion-tweezer quantum processors.         ",
+    "url": "https://arxiv.org/abs/2606.27249",
+    "authors": [
+      "Benjamin F. Schiffer",
+      "Christopher Monroe",
+      "Peter Zoller",
+      "J. Ignacio Cirac"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.03152",
+    "title": "Optical vortex generation by magnons with spin-orbit-coupled light",
+    "abstract": "           Light possesses both spin and orbital angular momentum. In spatially asymmetric optical fields, these properties undergo spontaneous coupling, referred to as optical spin-orbit coupling. The study of the coupling has recently become central in modern optics due to its substantial applications in communications, sensing, and quantum control. A key challenge is to clarify the relationship between the origins of spatially asymmetric optical fields and the resulting spin-orbit coupling. Current research focuses on materials and configurations exhibiting spatial asymmetry, such as focusing lenses, interfaces, inhomogeneous media, and metasurfaces. However, Maxwell's equations indicate that matter can introduce both spatial and temporal asymmetry into optical fields. For instance, magnetic ordering breaks the time-reversal symmetry of interacting optical fields via the magneto-optic effect, introducing nonreciprocity in the resulting optical phenomena. Despite the importance, optical phenomena involving both spatially and temporally asymmetric optical fields remain unexplored. Here, we demonstrate that breaking time and spatial symmetries through magnons and light focusing, respectively, transforms an input Gaussian beam into a specific optical vortex beam in a nonreciprocal manner. This phenomenon is quantitatively explained by integrating the physics of magnon-induced Brillouin light scattering with optical spin-orbit coupling. The observed conservation of total angular momentum, encompassing both magnons and photons, further indicates that magnons can control both spin and orbital angular momentum of light. Finally, we outline future research directions enabled by asymmetric optical fields in both space and time.         ",
+    "url": "https://arxiv.org/abs/2505.03152",
+    "authors": [
+      "Ryusuke Hisatomi",
+      "Alto Osada",
+      "Kotaro Taga",
+      "Haruka Komiyama",
+      "Takuya Takahashi",
+      "Shutaro Karube",
+      "Yoichi Shiota",
+      "Teruo Ono"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.16564",
+    "title": "A Robust Strontium Tweezer Apparatus for Quantum Computing",
+    "abstract": "           Neutral atoms for quantum computing applications show promise in terms of scalability and connectivity. We demonstrate the realization of a versatile apparatus capable of stochastically loading a 5x5 array of optical tweezers with single $^{88}$Sr atoms featuring flexible magnetic field control and excellent optical access. A custom-designed oven, spin-flip Zeeman slower, and deflection stage produce a controlled flux of Sr directed to the science chamber. In the science chamber, featuring a vacuum pressure of $3 \\times 10^{-11}$ mbar, the Sr is cooled using two laser cooling stages, resulting in $\\sim 3 \\times 10^5$ atoms at a temperature of 5(1) $\\mu$K. The optical tweezers feature a $1/e^2$ waist of 0.81(2) $\\mu$m, and loaded atoms can be imaged with a fidelity of $\\sim 0.997$ and a survival probability of $0.99^{+0.01}_{-0.02}$. The atomic array presented here forms the core of a full-stack quantum computing processor targeted for quantum chemistry computational problems.         ",
+    "url": "https://arxiv.org/abs/2601.16564",
+    "authors": [
+      "Marijn Venderbosch",
+      "Rik van Herk",
+      "Zhichao Guo",
+      "Jes\u00fas del Pozo Mellado",
+      "Max Festenstein",
+      "Deon Janse van Rensburg",
+      "Ivo Knottnerus",
+      "Yu Chih Tseng",
+      "Alexander Urech",
+      "Robert Spreeuw",
+      "Florian Schreck",
+      "Rianne Lous",
+      "Edgar Vredenbregt",
+      "Servaas Kokkelmans"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.06588",
+    "title": "Band-Ensemble Spectral Proper Orthogonal Decomposition with Frequency Attribution",
+    "abstract": "           This study presents band-ensemble Spectral Proper Orthogonal Decomposition (bSPOD). The approach is inspired by frequency smoothing, a method used to reduce estimator variance in power spectral density estimates, and is here extended to SPOD. The algorithm estimates SPOD modes from consecutive Fourier coefficients obtained from a single Fourier transform of the full time record and thus avoids time segmentation. In this study, bSPOD is applied to artificial test data and to a PIV data set of a broadband-tonal cavity flow. Compared to the more commonly used Welch-based SPOD formulation, bSPOD reduces spectral leakage, permits increased frequency resolution, and retains frequency information of tonal components at comparable computational cost. These features enable reduced estimator variance while maintaining low bias for tonal components, making bSPOD particularly effective for broadband-tonal flows.         ",
+    "url": "https://arxiv.org/abs/2602.06588",
+    "authors": [
+      "Jakob G.R. von Saldern",
+      "Oliver T. Schmidt",
+      "Philipp Godbersen",
+      "J. Moritz Reumsch\u00fcssel",
+      "Tim Colonius"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.13845",
+    "title": "Optical Resonances: From Eigenmodes to Scattering Features",
+    "abstract": "           Electromagnetic resonances play a central role in nanophotonics by enabling efficient confinement of electromagnetic energy and enhanced light-matter interaction. Traditionally, resonant phenomena have been described using platform-specific concepts developed within distinct research communities, including photonic crystals, plasmonics, and dielectric metasurfaces. In this Perspective, we propose a unified framework that distinguishes electromagnetic resonances as eigenmodes of open systems from their experimentally observed manifestations as scattering features. We show how resonances evolve from isolated particles to coupled oligomers and periodic structures, highlighting the roles of geometry, material response, and dimensionality. Particular attention is given to interference-driven phenomena such as bound states in the continuum, lattice resonances, anapoles, and superscattering, some of which cannot always be associated with a single eigenmode. By clarifying the relationship between eigenmodes, scattering channels, and interference effects, this Perspective provides a coherent language for interpreting resonant phenomena and identifies key challenges and opportunities for designing robust resonant photonic systems.         ",
+    "url": "https://arxiv.org/abs/2603.13845",
+    "authors": [
+      "Ilya Karavaev",
+      "Kirill Koshelev",
+      "Andrey Bogdanov"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.06476",
+    "title": "Blue Organic Light-Emitting Diodes with External Quantum Efficiencies over 20% Based on Europium(II) Emitters",
+    "abstract": "           The realization of blue electroluminescence with high efficiency and lifetime remains a long-standing hurdle for organic light-emitting diode (OLED) technology to overcome. Divalent Europium [Europium(II)] complexes offer a fundamentally distinct pathway toward this goal, as their atomic 4f-5d transitions yield single-Gaussian, spectrally pure emission with theoretical 100% exciton utilization in electroluminescence and no involvement of fragile organic bonds in the emissive process. Here, we present a rigid aza-crown europium(II) complex (Eu5NHCrown) that achieves near-unity photoluminescence quantum yield with bright, pure-blue emission and its incorporation in OLEDs. The emitter complex sublimes without decomposition and can be processed by industry-standard vacuum deposition. A bottom-emitting, single-host OLED architecture delivers an external quantum efficiency (EQE) of 20.7% with minimal roll-off (19.3% at 1000 cd m${}^{-2}$ ) and a narrowband electroluminescence with Commission Internationale de l'Eclairage (CIE) coordinates of (0.12, 0.25). This ligand design provides enhanced steric shielding of the Eu(II) center, enabling the highest reported efficiency among vacuum-deposited Eu(II)- based blue OLEDs while maintaining performance at high luminance. These results reveal the true potential of divalent Europium 4f-5d transitions for high-efficiency blue OLEDs, establishing a molecular design concept that bridges atomic-transition efficiency with the processability of organic materials.         ",
+    "url": "https://arxiv.org/abs/2604.06476",
+    "authors": [
+      "Mahmoud Soleimani",
+      "Toni B\u00e4rschneider",
+      "Felix Kaden",
+      "Roman Tkachov",
+      "Sebastian Schellhammer",
+      "Sebastian Reineke",
+      "Carsten Rothe"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.15066",
+    "title": "Optical Modulation Due to Energy Exchange Between Photonic and Exciton Modes in the Intermediate Coupling Regime",
+    "abstract": "           Actively tunable photonic devices are vital for next-generation optoelectronics requiring rapid switching and high bandwidth. Although organic optoelectronic devices have found wide application, their use as optical modulators has been limited by low absorption in the critical near-infrared (NIR) region, slow response time, and weak nonlinearities. To address these limitations, we developed a scheme based on intermediate exciton-photon coupling in a NIR absorbing squaraine-dye based photonic structure. Using energy-momentum resolved pump-probe spectroscopy, we show that the sign and magnitude of the optical response of our system depends strongly on the energy detuning between the excitonic and photonic modes. These data are analyzed using temporal coupled-mode theory to show that near resonance, a distinct energy exchange process emerges in the cross-over regime between strong and weak light-matter coupling. This effect enables dynamical control over the photoinduced response, providing a pathway for broadband optical signal modulation extending into the NIR spectral region.         ",
+    "url": "https://arxiv.org/abs/2604.15066",
+    "authors": [
+      "Evripidis Michail",
+      "Sander A. Mann",
+      "Kamyar Rashidi",
+      "Christoph Lambert",
+      "Vinod M. Menon",
+      "Andrea Alu",
+      "Matthew Y. Sfeir"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.22980",
+    "title": "Large-Area Patternable Solar-Powered Bistable Organic Crystalline Film for Nonlinear Optical Communication",
+    "abstract": "           Reversible control of crystal symmetry offers a powerful route to programmable optical functionality. However, achieving solid-state bistability between centrosymmetric and non-centrosymmetric crystalline phases remains a formidable challenge; examples of materials that enable stable switching of second-order nonlinear optical (NLO) responses are exceptionally rare. Here we report a solar-powered, symmetry-bistable organic material based on the photoisomerizable molecule (E/Z)-2-(4-(4-bromophenyl)thiazol-2-yl)-3-(4- (dimethylamino)phenyl)acrylonitrile (E/Z-BTDPA). The crystallizable E- and Z-isomers adopt distinct molecular packing arrangements that reversibly toggle between these states, controlling second-order NLO activity. The E-form exhibits strong second-harmonic generation (SHG), whereas the Z-form is SHG-inactive and displays twophoton luminescence. This bistable behavior is retained in flexible thin films, where sunlight-driven photoisomerization enables reversible photoswitching of the second-order electric susceptibility (\\c{hi} 2), large-area optical patterning, and real-time NLO communication via waveform generation and text-string transcription at telecommunication wavelengths. This sustainable strategy bypasses rigid inorganic architectures, establishing photoinduced symmetry bistability as a scalable paradigm for all-optical computing and advanced communication networks.         ",
+    "url": "https://arxiv.org/abs/2606.22980",
+    "authors": [
+      "Ankur Khapre",
+      "Avulu Vinod Kumar",
+      "Haseeba Nasreen Punathil",
+      "Biswajit Kumar Barman",
+      "Bedanta Kumar Deka",
+      "Shilpa Mangalassery",
+      "Sri Ram G Naraharishetty",
+      "Rajadurai Chandrasekar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.22429",
+    "title": "Macroscopic Quantum Electrodynamics with Gain: Modified Fluctuations and Their Consequences",
+    "abstract": "           Macroscopic quantum electrodynamics (MQED) provides a unified framework for describing quantum electromagnetic fields in arbitrary macroscopic environments. Central to this theory is the field correlation, which governs both radiative (e.g., Lamb shifts and the Purcell effect) and mechanical phenomena, such as van der Waals and Casimir forces. In this tutorial, we provide an overview of MQED and its extension to active media, highlighting fluctuation-induced forces as manifestations of gain-modified field correlations.         ",
+    "url": "https://arxiv.org/abs/2602.22429",
+    "authors": [
+      "Daigo Oue"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.03500",
+    "title": "FPGA Based Feedforward System for Photonic Quantum Computing Applications",
+    "abstract": "           Field-programmable gate arrays provide a high-performance solution for real-time signal processing in emerging quantum and photonic technologies. We present an FPGA-based fast feedforward system, that incorporates a high quantum efficiency fully fibre based homodyne detector, to enable low-latency signal processing critical for continuous variables (CV) measurement-based quantum information processing (MB-QIP) protocols. CV MB-QIP typically relies on adaptive measurements and/or displacements via feedforward to achieve scalability and universality, but existing implementations typically handle these operations in post-processing, limiting real-time applicability. Our system performs signal acquisition, conditioning, and logic operations in real-time, meeting the tight latency requirements of photonic quantum computing protocols. The detector exhibits a large clearance of 15 dB at 1 GHz with 4 mW linear oscillator and quantum efficiencies of >95% with a total system latency of 196 ns. This work highlights the role of FPGAs in bridging the gap between theoretical models and physical implementations in photonics-based technologies         ",
+    "url": "https://arxiv.org/abs/2606.03500",
+    "authors": [
+      "Daniel Duggan",
+      "Simon Filgis",
+      "Axel B. Bregnsbo",
+      "J\u00fcrgen Saalm\u00fcller",
+      "Jonas S. Neergaard-Nielsen",
+      "Tobias Wintermantel",
+      "Ulrik L. Andersen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.18408",
+    "title": "Characterization of nested Walsh parity-check filters in a single-photon eight-mode register on a cloud photonic processor",
+    "abstract": "           We characterize two nested Walsh parity-check filters implemented on Quandela's Belenos cloud photonic processor in a single-photon eight-mode spatial register. The modes are indexed by the vertices of the cube $Q_3$. The filters realize the classical $[8,7,2]$ single-parity-check code, the zero-sum neutral subspace $\\mathcal{N}$ and the $[8,4,4]$ extended Hamming code, the parity-checked subspace $\\mathcal{S}\\subset\\mathcal{N}$ with one DC and three face-parity syndrome channels. These are first-quantized path/mode encodings of classical codes: the experiment verifies leakage suppression and syndrome routing, not error correction or protection against photon loss, and all probabilities are conditional on postselected single-photon detections. Across more than 340,000 detections, neutral inputs show residual DC-port leakage of $0.02\\%$-$1.1\\%$ (mean $0.6\\%$), corresponding to $\\approx21\\times$ suppression relative to the ideal $0.125$ DC-capture baseline and $31.6\\times$ relative to the measured non-neutral control. Injected DC contamination gives a monotonic soft error signal, and the three face-parity syndrome channels route to their predicted ports with $94$-$99\\%$ selectivity. A sector-preserving unitary core keeps leakage far below non-neutral controls over one to three applications, with differences dominated by calibration and compilation systematics rather than gate-cycle physics. We quantify these limits, including fixed-pattern separator bias, $\\pm 0.02$ calibration offsets, and compilation scatter near the $10^{-3}$ leakage level, and report a Hong-Ou-Mandel degradation episode in which suppression vanished and recovered after recalibration.         ",
+    "url": "https://arxiv.org/abs/2606.18408",
+    "authors": [
+      "Emma Tully",
+      "Jonathan Washburn",
+      "Megan Simons"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
