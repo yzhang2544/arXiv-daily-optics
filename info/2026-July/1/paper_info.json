@@ -1,0 +1,540 @@
+[
+  {
+    "id": "arXiv:2606.30744",
+    "title": "Adaptive Eigenvector Continuation for Full-Vector Photonic Waveguide Mode Emulation",
+    "abstract": "           Photonic waveguide design often requires repeated full-vector Maxwell eigenmode solves over wavelength, geometry, and material parameters. We present an adaptive eigenvector-continuation framework for accelerating and stabilizing these modal sweeps. The method constructs a reduced basis from selected full-order modal snapshots, solves projected Maxwell eigenproblems at new query points, reconstructs the modal fields, and monitors accuracy with a full operator residual. We demonstrate three regimes. In fixed-geometry wavelength sweeps of a strip waveguide, well-distributed snapshots reproduce the target modal branch with low residual and low effective-index error. In a multimode ridge waveguide, a shared reduced basis containing several modal families enables robust broadband mode-family tracking and residual-guided adaptive enrichment. In geometry-dependent width sweeps, the method gives accurate effective-index predictions and high field overlap, but the residual reveals moving-boundary errors caused by non-smooth changes of the discrete operator on a fixed Cartesian grid. These results show that adaptive eigenvector continuation is an operator-consistent modal emulator and diagnostic tool for photonic waveguide sweeps.         ",
+    "url": "https://arxiv.org/abs/2606.30744",
+    "authors": [
+      "Daniel Rod\u00edguez-Guill\u00e9n",
+      "Lorena Vel\u00e1zquez-Ibarra"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.30873",
+    "title": "Interplay of the channel-closing and bound-bound transition resonances in multiphoton ionization and harmonic generation in intense laser pulses",
+    "abstract": "           In this paper, using a simplified model of the xenon atom, we numerically study the possibilities of efficient generation of coherent pulses in the XUV range through the resonant interaction of atoms with a moderate-intensity laser field, leading to the generation of its harmonics. We demonstrate the interplay of two systems of resonances affecting the harmonic generation efficiency. One is the channel-closing resonances, which arise when the sum of ionization and ponderomotive energies is equal to the energy of an integer number of laser photons. The second is the bound-bound transition resonances corresponding to an integer number of photons with a total energy equal to the energy gap between the Stark-shifted ground and excited states. The harmonic yields in the range of laser parameter values where both resonances occur exhibit a peculiar behavior, namely, near the intersection point of the resonances, a pronounced dip is observed, while the regions of increased generation efficiency due to the combined contribution of both enhancement mechanisms are slightly shifted from this point. We argue that this behavior, which is somewhat similar to the well-known phenomenon of 'avoided crossings', is associated with the formation of Fano-type resonant spectral lines. In contrast to 'avoided crossing' phenomena known in molecular physics, in the found interplay the contribution of one resonance system can be controlled, which is useful for experiments.         ",
+    "url": "https://arxiv.org/abs/2606.30873",
+    "authors": [
+      "A. D. Krupin",
+      "V. V. Strelkov",
+      "M. Yu. Ryabikin"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31060",
+    "title": "Optical Amplification with Large Goos-H$\\ddot{a}$nchen Shift Driven by Non-Hermitian Bilayer Meta-Grating",
+    "abstract": "           Optical Goos-H$\\ddot{a}$nchen shifts can be enhanced by resonant mode with high quality factor, such as quasi-bound states in the continuum in meta-grating. Coexistence of gain and loss in bilayer meta-grating with parity-time symmetry could transfer bound states in the continuum into lasing threshold modes with real resonant frequencies and non-zero far-field radiation. When the incident frequency approaches the resonant frequency of a lasing threshold mode, the reflected and transmitted beams are strongly amplified and undergo large Goos-H$\\ddot{a}$nchen shifts. The amplitude of the Goos-H$\\ddot{a}$nchen shifts, including the magnitude and sign, are proportional to the reciprocal of the imaginary part of the resonant frequencies. As the incident frequency scan across the resonant frequency of a lasing threshold mode, the imaginary part flip sign, so that the Goos-H$\\ddot{a}$nchen shifts diverge as well as flip sign. Simulations of optical responses under incident of Gaussian beams with finite beam width exhibit the sign flipping of the Goos-H$\\ddot{a}$nchen shift with large magnitude by fine tuning the incident frequency across the resonant frequency of a lasing threshold mode.         ",
+    "url": "https://arxiv.org/abs/2606.31060",
+    "authors": [
+      "Ma Luo",
+      "Xueyi Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31104",
+    "title": "Relaxation of Incommensurate Structures via Quantum Models",
+    "abstract": "           Accurately modeling structural relaxation in incommensurate systems is intrinsically challenging due to the absence of global translational symmetry. In this work, we develop a variational quantum framework for structural relaxation in incommensurate Schr\u00f6dinger models, where displacement fields are formulated on the configuration space and the electronic Hamiltonian is represented in reciprocal space. This yields well-defined relaxed energy, local density of states, and forces through thermodynamic limits. We propose an anisotropic scattering-channel approximation, and prove exponential convergence of the approximate equilibria. Numerical experiments are performed to support the analysis and show that the model captures domain-wall formation and its impact on the electronic spectrum.         ",
+    "url": "https://arxiv.org/abs/2606.31104",
+    "authors": [
+      "Mengfan Tu",
+      "Huajie Chen",
+      "Daniel Massatt"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31117",
+    "title": "Radical-Fragment Many-Body Expansion for Linear Alkane Quantum Chemistry",
+    "abstract": "           We introduce a radical-fragment many-body expansion at the two-body level (MBE2) for quantum chemistry of linear alkanes. Instead of heterolytic bond cleavage with hydrogen capping atoms and electrostatic embedding like in Fragment Molecular Orbital (FMO), we perform homolytic C-C bond cleavage to produce open-shell radical fragments (CH3, CH2) treated with restricted open-shell Hartree-Fock (ROHF) in isolation. The two-body MBE2 assembly formula reconstructs total alkane energies from only four unique fragment calculations regardless of chain length, reducing the maximum qubit requirement. We benchmark this framework against five energy solvers (RHF, CCSD, VQE, ADAPT-VQE, and SQD) across 11 linear alkanes from butane (C4H10) to hexacosane (C26H54). The MBE2 decomposition achieves a 12.3x qubit reduction for C26H54 (from 368 to 30 qubits) and a 12.8x reduction in unique calculations via symmetry exploitation. MBE2-VQE and MBE2-SQD (executed on IBM quantum hardware) closely track their respective classical MBE2 references, demonstrating that fragmentation-based quantum chemistry is viable for scaling quantum solvers to large molecular systems.         ",
+    "url": "https://arxiv.org/abs/2606.31117",
+    "authors": [
+      "Daniel Sierra-Sosa",
+      "Jorge Saavedra",
+      "Santiago Solares",
+      "Gregorio Toscano-Pulido"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31138",
+    "title": "The Role of Edge Resonant Magnetic Perturbations in Edge-Localized-Mode Suppression and Density Pump-out in low-collisionality DIII-D Plasmas",
+    "abstract": "           Two-fluid nonlinear MHD simulations using the TM1 code demonstrate that the formation of magnetic islands at the top and bottom of the H-mode pedestal, together with the strong screening of resonant fields in the gradient region of the pedestal, can account for ELM suppression and density pump-out by n = 2 Resonant Magnetic Perturbations (RMPs) in low-collisionality DIII-D ITER Similar Shape (ISS) plasmas. Using experimentally relevant transport coefficients, neoclassical resistivity, electron collisionality, and RMP amplitudes, nonlinear MHD simulations reproduce the observed level of density reduction (density pump-out) in DIII-D due the formation of narrow magnetic islands and resulting enhanced collisional transport in the resistive foot of pedestal. For large amplitude RMPs (Br/Bt>1*10-4) simulations predict field penetration and pressure reduction at the top of the pedestal consistent with experimental observations at the onset of ELM suppression. The predicted reduction in the height and width of the pedestal by magnetic island enhanced transport provides a quantitative mechanism for the stabilization of the Peeling-Ballooning Mode (PBM). Importantly, these simulations predict strong screening of resonant fields in the steep gradient region of the pedestal due to strong ExB and diamagnetic flows. However, if the plasma resistivity is made artificially larger (~10X) than neoclassical, the simulations predict magnetic stochasticity throughout the plasma edge and the collapse of the pedestal due to the reduction in the penetration threshold with increasing resistivity. A scaling relation for resonant field penetration at the pedestal top, using several hundred nonlinear simulations, reproduces the density and ExB dependence of the ELM suppression threshold observed in DIII-D.         ",
+    "url": "https://arxiv.org/abs/2606.31138",
+    "authors": [
+      "Q.M. Hu",
+      "R. Nazikian",
+      "B.A. Grierson",
+      "N.C. Logan",
+      "C. Paz-Soldan",
+      "Q. Yu"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31212",
+    "title": "Unresolved-Sideband Optomechanics with Hexagonal Boron Nitride: Induced Transparency, Gain, and Frequency Combs",
+    "abstract": "           Optomechanically induced transparency (OMIT) is usually modeled and studied in the resolved-sideband regime, but many compact microcavity platforms operate in the unresolved-sideband limit $(\\kappa \\gg \\Omega_m)$. Here we investigate OMIT in this regime using a tunable fiber-based Fabry-Perot microcavity coupled to a suspended hexagonal boron nitride (hBN) drum resonator in a membrane-in-the-middle geometry. The system achieves a large single-photon coupling rate of $g_0/2\\pi \\sim 180$ kHz and exhibits strong radiation-pressure backaction. By measuring OMIT spectra as a function of pump power and cavity detuning, we observe a crossover from a transparency-like dip to a gain feature in the reflected response. These maps are quantitatively reproduced by the full linearized optomechanical response, demonstrating the breakdown of the standard rotating-wave approximation used in the resolved-sideband limit. Finally, we drive the system into a nonlinear regime to generate optomechanical frequency combs. These results establish hBN fiber-cavities as a versatile architecture for unresolved-sideband optomechanics, nonlinear dynamics, and hybrid device integration.         ",
+    "url": "https://arxiv.org/abs/2606.31212",
+    "authors": [
+      "Francesco Fogliano",
+      "Thibaud Ruelle",
+      "David Jaeger",
+      "Martino Poggio"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31235",
+    "title": "Effect of externally applied resonant magnetic perturbations on resistive tearing modes",
+    "abstract": "           Static resonant magnetic perturbations (RMPs) generated by saddle coil current have been applied in J-TEXT tokamak experiments in order to study their effects on tearing mode instabilities. With increasing the RMP amplitude in time during the discharge, the mode stabilization is first observed, but a large locked mode follows if the RMP amplitude is increased to a too large value, indicating that the RMP amplitude is important in determining the plasma response and the tearing mode behavior. By careful adjustment of the RMP amplitude, the (partial) stabilization of the m/n =2/1 tearing mode by RMPs of moderate amplitude has been achieved without causing mode locking (m and n are the poloidal and toroidal mode numbers). To compare with experimental results, nonlinear numerical modeling based on reduced MHD equations has been carried out. With experimental parameters as input, both the mode locking and mode stabilization by RMPs are also obtained from numerical modeling. Further calculations have been carried out to study the plasma parameters affecting the mode stabilization by RMPs, including the plasma rotation frequency, viscosity, Alfv\u00e9n velocity, and the RMPs amplitude. It is found that the suppression of the tearing mode by RMPs of moderate amplitude is possible for a sufficiently high ratio of plasma rotation velocity to the Alfv\u00e9n speed. A larger plasma viscosity enhances the mode stabilization.         ",
+    "url": "https://arxiv.org/abs/2606.31235",
+    "authors": [
+      "Qiming Hu",
+      "Q. Yu",
+      "Bo Rao",
+      "Yonghua Ding",
+      "Xiwei Hu",
+      "Ge Zhuang"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31333",
+    "title": "Toward a local manipulation of DNA by quantum fields",
+    "abstract": "           Hydrogen bonds are the fundamental backbone for deoxyribo-nucleic acid (DNA) stability. In this letter we propose a new strategy based on plasmonic cavities to perform a local manipulation of hydrogen bonds in DNA. The analysis is performed using state-of-the-art Quantum Electrodynamics Coupled Cluster calculations (QED-CC). We demonstrate that in standard strong coupling regimes, small but appreciable local modifications of the nucleotide bases' interactions can be induced in a totally non-intrusive manner. The effect can eventually be enhanced if ultra-strong coupling conditions can be reached. Our strategy provides an alternative approach to methodologies based on a collective coupling to perform optical DNA manipulation.         ",
+    "url": "https://arxiv.org/abs/2606.31333",
+    "authors": [
+      "Tommaso Cenci",
+      "Riccardo Alessandro",
+      "Enrico Ronca"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31337",
+    "title": "Fundamentals of Optical Fiber Sensing Schemes Based on Coherent Optical Time Domain Reflectometry: Signal Under Dynamic Temperature Conditions",
+    "abstract": "           We present a theoretical, algorithmic, and experimental study of temperature sensing using $\\phi$-OTDR with coherent detection. A physics-based model is developed to relate the measured Rayleigh backscattered signal to temperature variations along the fiber, showing that the phase evolution encodes the cumulative temperature change between the interrogator and the sensing location, while the amplitude exhibits only local sensitivity. Based on this insight, we propose robust algorithms for temperature-event detection and temperature-profile reconstruction. Experimental results demonstrate reliable recovery of temperature-induced perturbations in standard single-mode fibers using coherently detected $\\phi$-OTDR.         ",
+    "url": "https://arxiv.org/abs/2606.31337",
+    "authors": [
+      "Roman Ermakov",
+      "Huwei Wang",
+      "Florian Azendorf",
+      "Andr\u00e9 Sandmann",
+      "Juan M. Marin",
+      "Francesco Da Ros",
+      "Darko Zibar"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31438",
+    "title": "Plasmonic-cavity Modulator for the Mid-IR with a Semi-transparent and Nonlinear Heavily-doped Semiconductor Mirror",
+    "abstract": "           We present a free-space plasmonic modulator based on a single heavily-doped semiconductor layer. We investigate its ability to modulate both the linear and nonlinear response at mid-infrared frequencies slightly below the plasma frequency of the semiconductor. We demonstrate electric control of the linear transmittance and reflectance, and of the efficiency of third-harmonic generation with a field-effect gate structure. We discuss further performance optimization of the device in terms of modulation speed and depth towards a fast modulator with very simple active material requirements. Our results establish a viable route toward practical plasmonic modulators and mixers operating in the mid-infrared atmospheric window available for free-space communications at wavelengths between 8 and 12 um.         ",
+    "url": "https://arxiv.org/abs/2606.31438",
+    "authors": [
+      "Tommaso Venanzi",
+      "Raffaella Polito",
+      "Andrea Rossetti",
+      "Markus Ludwig",
+      "Daniele Brida",
+      "Adel Bousseksou",
+      "Isabelle Sagnes",
+      "Gregoire Beaudoin",
+      "Raffaele Colombelli",
+      "Antonio Valletta",
+      "Andrea Notargiacomo",
+      "Francesco Mattioli",
+      "Gonzalo Alvarez-P\u00e9rez",
+      "Cristian Cirac\u00ec",
+      "Valeria Giliberti",
+      "Marialilia Pea",
+      "Michele Ortolani",
+      "Huatian Hu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31559",
+    "title": "The Dynamics of Quantum Gravity: the Missing Piece in the Spacetime Emergentist Account",
+    "abstract": "           Quantum gravity suggests that spacetime may not be fundamental, and it has been argued that we can understand a theory without a fundamental spacetime if we are able to claim that spacetime `emerges' from some non-spatiotemporal entities. In this sense, strategies like functionalism have been deployed to claim that this emergence is possible and plausible, both in principle and in practice for current approaches to quantum gravity. In this article I argue that this analysis is incomplete, as it tends to overlook the way the dynamics of these theories is `quantum' in a way that differs from standard quantum theory. The challenge for the emergentist (and for the quantum gravity theorist) is to give an interpretation not only to the kinematical and classical aspects of these theories, but to the dynamical and quantum ones, and to show how the spacetime roles can be fulfilled, if possible at all. Therefore, I argue that some current approaches to quantum gravity seem to fail to provide meaningful theories, that spacetime functionalism is of no help, and that the position of the spacetime emergentists is weakened, as they lack any example of a successful reduction of spacetime to some truly quantum non-spatiotemporal stuff.         ",
+    "url": "https://arxiv.org/abs/2606.31559",
+    "authors": [
+      "\u00c1lvaro Mozota Frauca"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "General Relativity and Quantum Cosmology (gr-qc)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31932",
+    "title": "Resonant and collective modification of London dispersion interactions under vibrational strong coupling",
+    "abstract": "           Experiments have shown that, by tuning a microcavity to resonance with a vibrational mode of the molecules contained within it, one can modify chemical properties, such as reaction rates. This gives rise to the exciting prospect of steering chemical reactivity, just by placing a pair of carefully spaced mirrors around the reaction mixture. However, a decade after the first demonstration, the mechanism behind this effect remains ill-understood. Here, we show how vibrational strong coupling can lead to resonant modification of vibrationally-resolved London dispersion interactions. Employing a mixed quantum-classical dynamics scheme, we then show how this in turn can give rise to resonant rate enhancement in the case of two molecules strongly coupled to the cavity mode, for all regimes of solvent friction. The resonant changes of the London dispersion interaction seem to persist when increasing the number of molecules. Whether this also leads to altered reaction rates in the experimentally relevant collective limit remains an open question, as this regime falls outside the range of applicability of our mixed quantum-classical dynamics approach. Nevertheless, the framework presented here offers an exciting new avenue to explore, and hopefully bring us a step closer towards explaining the mechanism behind vibropolaritonic chemistry.         ",
+    "url": "https://arxiv.org/abs/2606.31932",
+    "authors": [
+      "Marit R. Fiechter",
+      "Jeremy O. Richardson"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.30680",
+    "title": "Locker-based Truck-Drone Routing with Integrated Considerations of Pickups, Deliveries, and No-Fly Zones",
+    "abstract": "           Truck-drone delivery is an emerging last-mile logistics mode combining the long-haul capacity of trucks with the flexible service capability of drones. In locker-based operations, smart lockers serve not only as temporary parcel storage facilities but also as automated drone docking and service nodes. These automated nodes support drone takeoff, landing, parcel handover, and battery replacement, thereby significantly extending the service range and operational flexibility of drone-assisted delivery networks. However, practical locker-based delivery systems face complex real-world challenges, requiring the integrated coordination of not only parcel delivery, return pickup, battery-constrained and load-dependent drone flights, but also necessary detours around restricted airspace. To address this practical and multifaceted challenge, this paper introduces a locker-based truck-drone routing problem with integrated considerations of pickups, deliveries, and no-fly zones (LTDRP-PDNF), with the objective of minimizing the total operational cost of a fleet of drone-equipped trucks. We formulate the route construction process as a Markov Decision Process and develop a two-stage deep reinforcement learning-based neural heuristic. The first stage utilizes an attention-based encoder and a Bidirectional Gated Recurrent Unit decoder to solve the truck-only routing problem, formulated as a capacitated vehicle routing problem. The second stage combines a policy-transfer strategy with a hybrid dispatch assignment heuristic to construct fully coordinated truck and drone routes for LTDRP-PDNF. Experiments on instances of different scales demonstrate that the proposed method outperforms metaheuristic and neural heuristic baselines in most cases while maintaining exceptionally short computation times, offering an effective, scalable solution framework under practical operational constraints.         ",
+    "url": "https://arxiv.org/abs/2606.30680",
+    "authors": [
+      "Xuanyu Liu",
+      "Hui Hu",
+      "Jiao Zhao",
+      "Ziliang Wang",
+      "Zhengbing He"
+    ],
+    "subjectives": [
+      "Robotics (cs.RO)",
+      "Artificial Intelligence (cs.AI)",
+      "Machine Learning (cs.LG)",
+      "Physics and Society (physics.soc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.30924",
+    "title": "Role of polarity in the growth of cubic GaN within silicon inverted pyramids",
+    "abstract": "           A lack of spontaneous internal polarization makes cubic GaN (c-GaN) a well-suited material for emerging micro-LED-based short-range communication, where c-GaN promises increased speed over conventional hexagonal GaN (h-GaN). Although c-GaN is metastable, there are well-established methods for growing it in Si V- or U-grooves; the logical step is to truncate these grooves to wedges or inverted pyramids for small devices. There are limited reports of GaN grown in inverted pyramid templates, and the results are contradictory. To study this process, we perform selective area growth of GaN using organometallic vapor phase epitaxy (OMVPE) on Si inverted pyramidal templates and analyze our samples by cross-sectional TEM. We find that polarity is critical to understanding the growth of c-GaN in this four-fold geometry, in contrast to the growth in long grooves. This effect fits within the broader set of challenges of polar-on-nonpolar heteroepitaxy; the c-GaN inside the four-fold symmetric template has its symmetry reduced by polarity to be two-fold. In typical growth conditions -- where the underlying h-GaN polarity is uniform -- we find this implies that two h-GaN to c-GaN grain boundaries will have a polarity inversion. We observe two different structures at these inverting boundaries, including a previously unreported inversion domain boundary along the basal plane of the undoped h-GaN. These findings show that for small devices -- such as micro-LEDs -- the polarity-inverting interfaces must be prevented, for example by suppressing the growth of h-GaN on two facets of the template or by locally controlling the h-GaN polarity.         ",
+    "url": "https://arxiv.org/abs/2606.30924",
+    "authors": [
+      "David Lister",
+      "Melissa Radford",
+      "Sara Fortin",
+      "Bilal Janjua",
+      "Mohsen Asad",
+      "Karen Kavanagh",
+      "Simon Watkins"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31005",
+    "title": "Quantum Imaging via Kurtosis-Difference Weighted Covariance on 2D Camera",
+    "abstract": "           Camera-based quantum imaging detects spatially correlated photon pairs from spontaneous parametric down-conversion (SPDC). Conventional covariance methods typically require tens of thousands of frames to extract weak correlations from noise. While thick crystals can increase photon flux, they generate photon pairs from multiple emission positions within the crystal, producing multiple correlation centers with complex pairing geometries. In addition, conventional covariance methods assume a single pre-selected correlation center and cannot fully exploit these distributed correlations. We demonstrate that kurtosis difference, a fourth-order statistic measuring tail similarity, effectively discriminates correlated pixel pairs even when correlation coefficients remain low. Weighting covariance by an exponential function of absolute kurtosis difference can select symmetric pixels while preserving true coincidences. This kurtosis weighting automatically identifies correlated pairs within a broad search region and accommodates multiple pairing geometries without requiring precise correlation center calibration. At 5000 frames, our method yields a contrast-to-noise ratio (CNR) exceeding 7, whereas standard covariance remains below 2. Compared with standard covariance, the method reduces the acquisition time by 40-fold and could enable practical quantum imaging in sparse correlated-photon regimes.         ",
+    "url": "https://arxiv.org/abs/2606.31005",
+    "authors": [
+      "Zhe He",
+      "Yanli Shi",
+      "Hui Wu",
+      "Qun Cao",
+      "Weidong Zheng",
+      "Zheng Cui"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31195",
+    "title": "Pauli Weight Hamiltonian Term Selection for Optimized Machine Learning Based Quantum Error Mitigation",
+    "abstract": "           Machine learning provides a scalable solution for quantum error mitigation. However, the selection of appropriate Pauli strings for inclusion in training data remains a challenge. Current methods rely on heuristic or uniform random sampling, requiring data for every Pauli string in the Hamiltonian, a process that scales linearly with measurements and grows with system size. To address this, we introduce quantum error mitigation with prior knowledge of Pauli weights (Pauli weight quantum error mitigation (Pi-QEM)), a systematic framework that selects training observables based on Pauli weight. By leveraging the relationship between variance and locality in parameterized quantum circuits, Pi-QEM trains on a small subset of dominant, low-weight Pauli strings. In numerical simulations of molecular systems on a noisy IBM quantum backend, Pi-QEM reduces ground-state energy estimation error by up to 34.01% using just a single dominant local observable, offering an efficient, scalable pathway for high-precision error mitigation on NISQ devices.         ",
+    "url": "https://arxiv.org/abs/2606.31195",
+    "authors": [
+      "Fadhil Fatih Shiddiq",
+      "Darell Timothy Tarigan",
+      "Hadyan Luthfan Prihadi",
+      "Jusak S. Kosasih",
+      "Yanoar P. Sarwono",
+      "Leong-Chuan Kwek",
+      "Freddy Permana Zen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31656",
+    "title": "Mesoscopic simulations of linear and ring polymer solutions with explicit hydrodynamics under good and poor solvent conditions",
+    "abstract": "           We employ large-scale Dissipative Particle Dynamics simulations to investigate dilute solutions of linear polymers and unknotted, non-concatenated ring polymers in explicit solvent. By systematically varying solvent quality, we examine the interplay between hydrodynamic interactions, chain architecture, and intermolecular association. Under good solvent conditions, both linear and ring polymers remain expanded and well dispersed, displaying center-of-mass dynamics consistent with normal diffusion. In poor solvents, attractive polymer-polymer interactions drive the formation of irregular aggregates characterized by partial chain collapse, substantial interpenetration, and slower dynamics. Despite their different topologies, the two polymer architectures exhibit remarkably similar structural and dynamical responses across the solvent conditions considered. These results indicate that solvent quality largely determines the organization and transport properties of dilute polymer solutions, whereas topological effects remain comparatively weak in the investigated regime.         ",
+    "url": "https://arxiv.org/abs/2606.31656",
+    "authors": [
+      "Ashish Kumar Singh",
+      "Angelo Rosa"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2409.00782",
+    "title": "Optimal displacement detection of arbitrarily-shaped levitated dielectric objects using optical radiation",
+    "abstract": "           Optically-levitated dielectric objects are promising for precision force, acceleration, torque, and rotation sensing due to their extreme environmental decoupling. While many levitated optomechanics experiments employ spherical objects, for some applications non-spherical geometries offer advantages. For example, rod-shaped or dumbbell shaped particles have been demonstrated for torque and rotation sensing and high aspect ratio plate-like particles can exhibit reduced photon recoil heating and may be useful for high-frequency gravitational wave detection or as high bandwidth accelerometers. To achieve optimal sensitivity, cooling, and quantum control in these systems, it is beneficial to achieve optimal displacement detection using scattered light. We describe and numerically implement a method based on Fisher information that is applicable to suspended particles of arbitrary geometry. We demonstrate the agreement between our method and prior methods employed for spherical particles, both in the Rayleigh and Lorentz-Mie regimes. As practical examples, we analyze the optical detection limits of an optically-levitated high-aspect-ratio disc-like dielectric object and a rod-shaped object for configurations recently realized in experimental work.         ",
+    "url": "https://arxiv.org/abs/2409.00782",
+    "authors": [
+      "Shaun Laing",
+      "Shelby Klomp",
+      "George Winstone",
+      "Alexey Grinin",
+      "Andrew Dana",
+      "Zhiyuan Wang",
+      "Kevin Seca Widyatmodjo",
+      "James Bateman",
+      "Andrew A. Geraci"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.13840",
+    "title": "Quantum modeling of radical pair magnetic sensor based on electric dipole moment",
+    "abstract": "           Photoreduction of cryptochrome protein in the retina is a well-known mechanism of navigation of birds through the geomagnetic field, yet the biosignal nature of the mechanism remains unclear. The absorption of blue light by the flavin adenine dinucleotide (FAD) chromophore can alter the distribution of electrons in cryptochrome and create radical pairs with separated charges. In this study, the spin dynamics of electrons in the radical pair including its spin-orbit coupling were investigated by quantum mechanical modeling. Spin-orbit coupling is negligible relative to other terms and has no significant role in the dynamics. However, it engages the spatial states of the radical pair and make possible to study spatial related observables. Several interactions were considered in the presence of an external magnetic field, and the resulting electric dipole moment in cryptochrome was computed as the quantity emerging from this coupling. The computations show the induced electric dipole moment clearly depend on the characteristics of the applied magnetic field even after considering dissipative effects. In fact, our findings indicate that the radical pair in cryptochrome protein is a magnetic biosensor, in the sense that in the presence of the geomagnetic field, variations in spin states can influence its electric dipole moment, which may be interpreted via the bird as an orientation signal. The results can be used in the advancement of bio-inspired technologies which replicate animal magnetic sensitivity.         ",
+    "url": "https://arxiv.org/abs/2510.13840",
+    "authors": [
+      "Mahboobe Sehati",
+      "Ali Soltanmanesh",
+      "Shabnam Abutalebi",
+      "Abolfazl Bahrampour",
+      "Naser Haeri",
+      "Sareh Rostami",
+      "Alireza Bahrampour"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.20622",
+    "title": "Laser Synchronisation Over One Hundred Kilometers With Stabilityat Picosecond Scale",
+    "abstract": "           Large-scale systems, such as very large accelerators used for fundamental research, require the implementation of precise timing and synchronization systems over distances of several kilometers. Femtosecond synchronisation has been reached by the implementation of costly and complex clock distribution systems. However, many devices, such as accelerator diagnostics or detectors for physics at colliders, only require picosecond stability and, in some cases, similar accuracy. An approach that is based on the CERN White Rabbit protocol, deployed on an electronic system capable of generating arbitrary frequencies with Hertz precision, is proposed here. Results of performance tests for the synchronization of a laser system, typically employed as a diagnostic for electron/positron beam polarimetry in accelerators, are provided in this Paper. We demonstrate that the system can synchronize a pulsed laser with picosecond stability over one hundred kilometers on the short-term. The long-term stability over half a day is found to be of 5.5 ps for the 100 km link. The accuracy of the phase difference corresponding to $\\pm$20 ps is obtained. This work paves the way for the deployment of White-Rabbit-based synchronization systems for accelerator components, such as lasers, but also for large-scale detectors.         ",
+    "url": "https://arxiv.org/abs/2602.20622",
+    "authors": [
+      "Alice Renaux",
+      "Ronic Chiche",
+      "A. Martens",
+      "Antoine Back",
+      "Paul-\u00c9ric Pottie",
+      "Daniel Charlet"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.02265",
+    "title": "The infinitesimal environmental dust as a photonic bath at infinity",
+    "abstract": "           In far-field thermal radiation, electromagnetic waves emitted by an object propagate to infinity, requiring the far region to be modeled as an effective thermal bath. This bath was proposed as infinitesimal environmental \"dust\", but explicit calculations with such distributed dust involve integrals over infinite space that are difficult to evaluate. In this work, we map this environmental dust to a photonic bath at infinity within the nonequilibrium photonic Green's function formalism. By explicitly evaluating the spatial integral over the dust, we show that its contribution reduces to a simple local self-energy, for which we derive analytical expressions for both three-dimensional objects and planar systems. We further demonstrate that the bath behaves as a black body and clarify its role in far-field thermal radiation. An alternative derivation based on the surface Green's function framework is also provided, demonstrating the theoretical consistency of the results without invoking the dust model. The photonic bath at infinity provides a convenient framework for both analytical and numerical calculations in far-field thermal radiation.         ",
+    "url": "https://arxiv.org/abs/2605.02265",
+    "authors": [
+      "Gaomin Tang",
+      "Yuhua Ren",
+      "Jian-Sheng Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.27613",
+    "title": "Longitudinal beam dynamics with active cavity systems",
+    "abstract": "           In storage-ring-based light sources, harmonic cavities are commonly employed to lengthen the bunch, thereby mitigating collective effects and increasing beam lifetime. While this dual-RF configuration provides important benefits, it also introduces additional challenges. In particular, the impedance of the fundamental cavity modes can drive the beam into a longitudinal coupled-bunch unstable regime. To mitigate this effect, low-level RF (LLRF) feedback is introduced to reduce the effective impedance experienced by the beam. This work investigates longitudinal beam dynamics in the PETRA-IV dual-RF system with normal-conducting cavities, explicitly accounting for the LLRF feedback loop. Both analytical modeling and numerical simulations are used to characterize the onset and growth of coupled-bunch instabilities. The results show that, with appropriately chosen LLRF parameters, the destabilizing effect of the cavity fundamental mode can be effectively suppressed, enabling stable operation of the storage ring at the design beam current. This work highlights the critical role of RF feedback systems in ensuring robust longitudinal stability, thereby supporting the realization of PETRA-IV design goals and contributing to the development of next-generation synchrotron light sources, where high brilliance and operational reliability are essential.         ",
+    "url": "https://arxiv.org/abs/2605.27613",
+    "authors": [
+      "Chao Li",
+      "Yong-Chul Chae",
+      "Sven Pfeiffer",
+      "Chris Christou"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2503.04312",
+    "title": "Quantum metric-induced generalized magneto-optical effects in $\\mathcal{PT}$-symmetric antiferromagnets",
+    "abstract": "           The magneto-optical effects (MOEs), as fundamental physical phenomena, can reveal the electronic structures of materials. The related probing methods are widely used in the study of magnetic materials. The conventional MOEs are understood to arise from the Berry curvature (the imaginary part of the quantum geometry). Within the framework of conventional MOEs, space-time inversion ($\\mathcal{PT}$) symmetric antiferromagnets are magneto-optically inactive. Here, we propose quantum metric (the real part of the quantum geometry) induced generalized MOEs and build generic formulas with quantum metric for Kerr and Faraday angles in three-dimensional and two-dimensional $\\mathcal{PT}$-symmetric antiferromagnets. Combining the tight-binding model and first-principles calculations, we demonstrate the quantum metric-induced generalized MOEs in the $\\mathcal{PT}$-symmetric antiferromagnets. Our theory broadens the research on MOEs and also provides a microscopic understanding of experimentally observed Kerr rotations in $\\mathcal{PT}$-symmetric antiferromagnets. Our theory overcomes the zero-net-moment limitation preventing (conventional) MOEs from detecting magnetic phase transitions and spin orderings in $\\mathcal{PT}$-symmetric antiferromagnets -- enabling non-destructive spin-state tomography in $\\mathcal{PT}$-symmetric antiferromagnets and creating new quantum metric-based pathways toward ultrafast magneto-optical applications, such as memories and sensors.         ",
+    "url": "https://arxiv.org/abs/2503.04312",
+    "authors": [
+      "Yongpan Li",
+      "Yichen Liu",
+      "Cheng-Cheng Liu"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.04294",
+    "title": "Filtered Quantum Phase Estimation",
+    "abstract": "           Accurate state preparation is a critical bottleneck in many quantum algorithms, particularly those for ground-state energy estimation. Even in fault-tolerant quantum computing, preparing a quantum state with sufficient overlap with the desired eigenstate remains a major challenge. To address this, we develop a unified cost-aware framework for filtered-state preparation that enhances the overlap of a given input state through spectral filtering. The framework covers polynomial and trigonometric realizations of filters and makes explicit the trade-off among overlap amplification, preparation success probability, and filter-implementation cost. As representative examples, we analyze Gaussian filters and introduce a modified Krylov-subspace-based filter that improves the success-probability/overlap trade-off relevant to filtered state preparation. Within this framework, we study a filtered variant of quantum phase estimation (FQPE) that mitigates the unfavorable dependence on the initial overlap present in standard QPE. Numerical experiments on Fermi-Hubbard models show that FQPE reduces the total runtime by more than two orders of magnitude in the high-precision regime, with overlap amplification exceeding a factor of one hundred.         ",
+    "url": "https://arxiv.org/abs/2510.04294",
+    "authors": [
+      "Gwonhak Lee",
+      "Minhyeok Kang",
+      "Jungsoo Hong",
+      "Stepan Fomichev",
+      "Joonsuk Huh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.19729",
+    "title": "Coupling of neutrino beam-driven MHD waves and resonant instabilities in rotating magnetoplasmas with neutrino two-flavor oscillations",
+    "abstract": "           We present an analysis of neutrino-driven magnetohydrodynamic (MHD) waves and instabilities in a rotating magnetoplasma with weak neutrino interactions. We show that neutrino-driven shear Alfv{\u00e9}n and oblique magnetosonic waves can be coupled by the Coriolis force, forming new wave modes affected by this force, as well as neutrino beam and two neutrino flavor oscillations. Our work extends previous theories by demonstrating that shear Alfv{\u00e9}n waves are influenced by neutrino effects and by identifying instabilities resulting from resonant interactions with both a streaming neutrino beam and flavor oscillations. We find that the Coriolis force, plasma density, and magnetic field strength significantly affect the profiles of instability growth rates. Such a growth rate for magnetosonic waves appears much higher than the Alfv{\u00e9}n wave, implying that magnetosonic waves provide a superior mechanism for energy extraction from the neutrino beam. For typical parameters relevant to the protoneutron star surface, the instability time for magnetosonic waves may vary in the range 0.09-0.14 s, which is within the predicted time of the neutrino-driven explosion (0.3 s after bounce) reported in the recent three-dimensional MHD simulations of core-collapse supernovae. Our findings may shed new light on the physical mechanisms underlying core-collapse supernovae.         ",
+    "url": "https://arxiv.org/abs/2510.19729",
+    "authors": [
+      "Jyoti Turi",
+      "Amar P. Misra"
+    ],
+    "subjectives": [
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.12235",
+    "title": "Transition from Statistical to Hardware-Limited Scaling in Photonic Quantum State Reconstruction",
+    "abstract": "           The theoretical efficiency of classical shadow tomography is predicated on a perfect Haar-random unitary ensemble, yet this mathematical ideal remains physically unattainable in near-term hardware. Here, we report the experimental discovery of a fundamental accuracy bound on integrated photonic processors: a ``Hardware Horizon'' where the reconstruction error undergoes a sharp phase transition. While the error initially obeys the predicted statistical scaling $\\mathcal{O}(M^{-1/2})$, it abruptly saturates at a floor determined by the spectral distortions of the realized unitary group. By deriving a phenomenological error model, we decouple the competing mechanisms of static coherent spectral distortion and dynamic decoherence, demonstrating that this intrinsic noise floor imposes a hard bound that statistical accumulation cannot overcome. These findings establish that the utility of shadow tomography on NISQ (noisy intermediate-scale quantum) hardware is defined by a specific scaling law involving hardware parameters, necessitating active compensation strategies to bridge the gap between theoretical purity and the noisy reality of integrated photonics.         ",
+    "url": "https://arxiv.org/abs/2603.12235",
+    "authors": [
+      "Attila Baumann",
+      "Zsolt Kis",
+      "J\u00e1nos Koltai",
+      "G\u00e1bor Vattay"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Emerging Technologies (cs.ET)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.12538",
+    "title": "Graphs on chip: a silicon photonics platform",
+    "abstract": "           We present a versatile photonic waveguide network platform implementing quantum (wave) graphs, proposed by Kottos \\& Smilansky [Phys. Rev. Lett. \\textbf{79}, 4794 (1997)] to investigate ray-wave correspondence and quantum chaos. Realized on a silicon-on-insulator chip at telecom wavelengths, it enables a unique capability: the direct, non-invasive imaging of individual optical wave functions with unprecedented resolution via third-harmonic generation in silicon, which we use to study the localization of intensity distributions. Furthermore, by investigating two graphs with contrasting classical dynamics -- one strongly chaotic, the other one ergodic, but non-mixing -- we reveal strikingly different spectral statistics, in quantitative agreement with random matrix theory and a minimal unitary quantum-map model. This establishes silicon photonics networks as a versatile and scalable platform for investigating quantum chaos and non-linear graphs, and paves the way for optical quantum computing in complex networks.         ",
+    "url": "https://arxiv.org/abs/2605.12538",
+    "authors": [
+      "H. Girin",
+      "X. Ch\u00e9coury",
+      "B. Odouard",
+      "S. Bittner",
+      "J.-R. Coudevylle",
+      "B. Dietz",
+      "C. Lafargue",
+      "M. Lebental"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.13482",
+    "title": "Site-selective preparation of two-dimensional dipolar quantum gases in an optical beat-note lattice",
+    "abstract": "           High-resolution microscopy of two-dimensional dipolar quantum gases requires selecting individual atomic layers, a task complicated for strongly magnetic lanthanide atoms by the limited applicability of standard magnetic-gradient techniques. We present an all-optical method for the deterministic spatial selection of single- and bilayer samples of cold dipolar atoms using spatially selective parametric heating within a beat-note superlattice. By utilizing a high-resolution microscope objective as a common retroreflector for both optical frequency components, the lattice planes are passively stabilized. This renders their positions exceptionally robust against experimental drifts and structure-borne vibrations, even eliminating the need for active laser stabilization over millimeter-scale separations from the reflecting surface. We validate this approach by demonstrating the robust isolation of one or two atomic layers in precise coincidence with the focal plane of our objective. This enables future single-atom-resolved studies of long-range interacting systems.         ",
+    "url": "https://arxiv.org/abs/2605.13482",
+    "authors": [
+      "Niclas H\u00f6llrigl",
+      "Marian Kreyer",
+      "Rudolf Grimm",
+      "Emil Kirilov"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.18397",
+    "title": "A matrix free action of the Ashtekar-Lewandowski volume operator of loop quantum gravity",
+    "abstract": "           The Ashtekar-Lewandowski (AL) volume operator of loop quantum gravity is central to the Hamiltonian constraint, but its vertex action is usually obtained from dense spectral decompositions of finite recoupling matrices, obstructing numerical analysis on large kinematical Hilbert spaces or high-valence vertices. We formulate a matrix free action of the $SU(2)$ AL vertex volume operator in standard recoupling basis, making use of the Brunnemann-Thiemann expression for the oriented AL volume density $Q_{v}$ whose matrix elements can be generated locally from recoupling theory without forming the full matrix. Based on the Balakrishnan-Stieltjes representation of $(Q_{v}^{2})^{1/4}$ we approximate the volume by shifted-resolvent quadrature (SRQ). The resulting action uses only repeated applications of $Q_{v}$ and shifted positive linear solves, making it compatible with multi-shift Krylov methods. We prove exact preservation of the volume kernel, provide operator-norm and residual error estimates, discuss sector-wise scaling bounds, and validate the method on an embedded $K_{5}$ graph at small spin cutoffs against exact dense local-block operators. Numerical simulations show rapid convergence of vertex expectation values, controlled dependence on bound parameters, and exact preservation of zero-volume modes. We further demonstrate matrix free Monte Carlo estimates at doubled-spin cutoff $2j=250000$ beyond dense materialisation, and show that SRQ can be combined with stochastic Lanczos quadrature to estimate fixed-sector volume spectral measures without dense volume matrices.         ",
+    "url": "https://arxiv.org/abs/2606.18397",
+    "authors": [
+      "Waleed Sherif"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "High Energy Physics - Theory (hep-th)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.19649",
+    "title": "Optimized Quantum States for Sensing in the Presence of Loss and Phase Noise",
+    "abstract": "           Squeezed vacuum lets gravitational-wave detectors and other quantum sensors surpass the standard quantum limit, and is optimal in the loss-limited regime; phase noise breaks this optimality. Numerically optimizing the quantum Fisher information across the loss and phase-noise landscape, we identify non-Gaussian states that outperform any Gaussian state. These fall into three classes: Fock-like, cubic-phase-like, and states with discrete rotational symmetry. Limiting the average number of photons in the input state to $\\bar{n}=5$, with $1-\\eta = 5\\%$ photon loss and 200 mrad phase noise, the non-Gaussian advantage reaches up to 2.2 dB. Furthermore, we observe that the non-Gaussian advantage can persist even when the measurement strategy is homodyne detection.         ",
+    "url": "https://arxiv.org/abs/2606.19649",
+    "authors": [
+      "Shruti Maliakal",
+      "Zachary Mann",
+      "Christopher Wipf",
+      "Rana X Adhikari",
+      "Su Direkci",
+      "Yanbei Chen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.21357",
+    "title": "Quantum Beam-Splitter Cooling and Thermometry in Large Trapped-Ion Crystals",
+    "abstract": "           We propose and characterize a protocol for rapid near-ground state cooling of the center-of-mass (c.m.) mode of a large trapped ion crystal. When the initial mean thermal occupation of the mode $\\bar{n}_i$ is small compared to the number of ions $N$, a red sideband drive implements a beam-splitter type SWAP operation between the mode and the collective spin of the $N$ ions, with the latter effectively serving as a quantum harmonic oscillator. Subsequently, a reset of the spins removes the entropy, leading to near-ground state cooling of the c.m. mode. We term this protocol as quantum beam-splitter cooling (QBSC). We analyze the impact of several practical imperfections on the final temperature achievable under QBSC, including finite ion number, off-resonant carrier and blue-sideband contributions, and the impact of the sideband drives arising from spectator modes. In addition, we outline practical strategies to eliminate the carrier drive. Furthermore, we show that measuring the population statistics of the ions at the end of the SWAP operation can enable near-optimal quantum beam-splitter thermometry (QBST), with the classical Fisher information approaching the quantum Fisher information of a thermal state. We discuss the connection of QBSC with continuous sideband cooling and compare QBST with a recently proposed rapid adiabatic passage-based thermometry scheme. Our work constitutes an example of harnessing many-body effects to open new routes to laser cooling and thermometry in large trapped ion crystals.         ",
+    "url": "https://arxiv.org/abs/2606.21357",
+    "authors": [
+      "Kirthik Rajakumar",
+      "Ansh Das",
+      "Abhinay Pandey",
+      "Athreya Shankar"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  }
+]
