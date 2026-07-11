@@ -1,0 +1,498 @@
+[
+  {
+    "id": "arXiv:2607.07965",
+    "title": "NSF Future Manufacturing Data Challenge: A Multimodal DED Dataset for Probabilistic Local Geometry Prediction in Laser Tracks",
+    "abstract": "           We introduce a multimodal directed energy deposition (DED) dataset for predicting the probabilistic local geometric variation of single laser tracks produced on stainless-steel 316L substrates. The dataset supports the NSF Future Manufacturing Data Challenge and contains three complementary modalities: in-situ thermal image sequences from a Stratonics ThermaViz melt-pool sensor, scanning electron microscopy (SEM) images acquired using a Zeiss EVO MA10 system, and full-field height maps acquired using a Bruker ContourGT-K white-light 3D optical profilometer. Each experiment is a bead-on-plate scan at one of four laser powers, 200, 300, 350, and 400 W, with a fixed scan speed of 10 mm/s. The release includes starter notebooks, participant-facing code, and a multimodal coordinate convention that links thermal, SEM, and height-map measurements over a common physical 20-100 mm window.         ",
+    "url": "https://arxiv.org/abs/2607.07965",
+    "authors": [
+      "Abhishek Hanchate",
+      "Himanshu Balhara",
+      "Satish T. S. Bukkapatnam"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08159",
+    "title": "Nyquist-Sampled Time-Domain Adjoint FDTD for Memory-Efficient Broadband Nanophotonic Inverse Design",
+    "abstract": "           Adjoint optimization is a cornerstone of broadband nanophotonic inverse design, but conventional time-domain implementations face a severe memory bottleneck because they retain forward-field histories at every finite-difference time-domain (FDTD) time step. Here, we show that this full time-step storage is unnecessary for band-limited design objectives. By storing forward fields only at Nyquist-compliant temporal intervals and using the resulting sparse field history during the reverse-time adjoint pass, the proposed method enables on-the-fly gradient accumulation without retaining full forward- or adjoint-field histories. This Nyquist-sampled adjoint FDTD framework preserves the two-simulation scaling of time-domain adjoint optimization while substantially reducing the dominant field-storage cost. Gradient verification confirms that Nyquist-compliant sampling reproduces conventional full-storage adjoint gradients with negligible error, whereas undersampling beyond the Nyquist limit produces aliasing-induced gradient degradation. Across four two-dimensional broadband nanophotonic benchmarks and a fully three-dimensional metalens, the method maintains gradient fidelity and optimized device performance while reducing dominant field-storage memory by up to 107x. These results suggest that the principal memory barrier in broadband time-domain adjoint FDTD is not an intrinsic requirement of gradient evaluation, but a consequence of redundant temporal field storage, opening a practical route to large-scale three-dimensional nanophotonic inverse design.         ",
+    "url": "https://arxiv.org/abs/2607.08159",
+    "authors": [
+      "Mingyu Park",
+      "Owen D. Miller",
+      "Haejun Chung"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08266",
+    "title": "Ion-Implanted Silicon Nanoregions Enable Ultra-Low-Loss Trimming of Cladded Photonic Integrated Circuits",
+    "abstract": "           Photonic integrated circuits (PICs) have emerged as a key platform for information processing, including optical communication and computing. As PIC complexity increases, fabrication-induced response deviations accumulate, making post-fabrication trimming critical for unlocking their full potential. Here, we demonstrate that silicon ion implantation enables scalable, ultra-low-loss trimming of cladded PICs by locally forming a high-index silicon-rich region. Structural characterization confirms that the silicon-implanted nanoregion is confined to the cladding without observable damage to the underlying waveguide. The implantation-induced excess loss is below 0.001 dB per {\\pi} phase shift, while the optical response remains stable over a four-month observation period. Automated trimming is demonstrated on a photonic crossbar array, reducing the average channel output variation from 78.5% to 5.9%. These results establish a practical route towards automated, ultra-low-loss post-fabrication trimming for large-scale cladded PICs.         ",
+    "url": "https://arxiv.org/abs/2607.08266",
+    "authors": [
+      "Zhongyu Tang",
+      "Shabnam Taheriniya",
+      "Seongmin Jo",
+      "Xinyu Ma",
+      "Akhil Varri",
+      "Anna P. Ovvyan",
+      "Vincent Spreter",
+      "Liam McRae",
+      "Xiansong Meng",
+      "Wolfram H. P. Pernice",
+      "Rongyang Xu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08360",
+    "title": "Inverse-designed meta processing units for multi-task near-field photonic computing",
+    "abstract": "           Integrated photonic neural networks require optical operators that are simultaneously compact, matrix-general and compatible with task-level reconfigurability. Here we introduce a meta processing unit (MPU), an inverse-designed near-field photonic device that implements local complex matrix transformations within a shallow-etched silicon region. Each 2x2 operator occupies 9.6 umx4.8 um and is designed as a reusable passive matrix primitive that can be combined with reconfigurable MZI neurons. We demonstrate a 3-bit quantized MZI-equivalent unitary device library with an effective reconstruction precision of 3.32 bits. Beyond unitary operators, we validate arbitrary complex 2x2 matrix fitting and a cascaded 4x4 matrix operation with 92.7% fidelity. We further integrate the MPU with active photonic components and hardware-in-the-loop training, achieving test accuracies of 83.5% and 80.9% on dual-task vowel recognition. In large-scale EMNIST simulations, a fine-grained neuron-level MPU replacement strategy reaches 87.64% average accuracy at 90% shared-MPU replacement, outperforming a layer-level baseline by 7.26 percentage points. These results establish inverse-designed MPUs as compact passive matrix operators for heterogeneous, hardware-adaptive photonic neural networks.         ",
+    "url": "https://arxiv.org/abs/2607.08360",
+    "authors": [
+      "Chu Wu",
+      "Zeyu Cai",
+      "Songtao Yang",
+      "Ruoyu Shen",
+      "Yinan Zhao",
+      "Haiou Zhang",
+      "Wei Chu",
+      "Xing Lin"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Signal Processing (eess.SP)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08392",
+    "title": "Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings",
+    "abstract": "           Amortized neural inverse design typically remains closed-world: component choices are fixed vocabulary tokens, coordinate grids are frozen at training time, and continuous variables are discretized into sequence tokens. Multilayer optical coatings are an industrially important instance, coupling material sequence, layer thickness and wavelength-dependent response. We present IrisFlow, a query-based, open-vocabulary flow-matching framework instantiated in coatings: the target reflectance/transmittance spectrum, wavelength grid, candidate-material optical constants and layer count are supplied at query time. Candidate materials enter as wavelength-aware optical tokens rather than learned identities; material sequences are sampled by discrete flow matching over the query's candidate bank, thicknesses by continuous flow matching without discretization. A single 136M-parameter model designs 2-100-layer stacks. Across a 224-task benchmark it reconstructs in-distribution targets faithfully and retains same-order accuracy on a 15-material held-out bank without retraining; it reconstructs bands up to 1100 nm beyond its training envelope, designs against analytic application specifications and outperforms an autoregressive baseline on that baseline's material library. With optical constants calibrated to our deposition process, IrisFlow designs four color-displaying coolers, fabricated by ion-assisted evaporation: the three chromatic devices reach a CIEDE2000 color error of 3.1-5.2 while retaining 93-95% solar near-infrared reflectance, demonstrating open-vocabulary design carried through to fabricated coatings.         ",
+    "url": "https://arxiv.org/abs/2607.08392",
+    "authors": [
+      "Zhiyi Li",
+      "Yuheng Jin",
+      "Yidan Huang",
+      "Nan Chen",
+      "Hongyan Fu",
+      "Yikun Bu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Machine Learning (cs.LG)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08430",
+    "title": "Doubly resonant enhancement of second-harmonic generation with in-plane phase matching in plasmonic metasurfaces on an AlInP slab waveguide",
+    "abstract": "           Nonlinear metasurfaces have attracted significant interest by offering the possibility to circumvent conventional phase-matching requirements of bulk nonlinear crystals, opening the way to efficient frequency conversion over ultrashort propagation distances. Here, we experimentally demonstrate metasurfaces in which second-harmonic generation is strongly enhanced by in-plane phase matching of high-Q guided-mode resonances. To achieve this enhancement, we use hybrid metasurfaces composed of periodic arrays of gold nanodiscs on a slab waveguide made of aluminum indium phosphide (AlInP) - a low-loss epitaxial III-V semiconductor material. The metasurfaces are found to exhibit guided-mode resonances with Q factors exceeding 400 and 900 at the visible and near-infrared wavelengths, respectively, demonstrating the unique capabilities of hybrid metal-dielectric structures to support high-Q resonances despite the presence of lossy plasmonic components. Moreover, our frequency and momentum-resolved measurements demonstrate a two-orders-of-magnitude enhancement of second-harmonic generation at doubly resonant conditions. We reproduce the experimental results using numerical simulations, showing that the in-plane phase matching and spatial mode overlap are the main factors governing the enhancement. Our findings demonstrate a promising strategy to realize efficient metasurface-based frequency converters, enabling their potential applications in compact photonic systems.         ",
+    "url": "https://arxiv.org/abs/2607.08430",
+    "authors": [
+      "Timo Stolt",
+      "Huayu Bai",
+      "Seyed Ahmad Shahahmadi",
+      "Jani Oksanen",
+      "Andriy Shevchenko",
+      "Radoslaw Kolkowski"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08558",
+    "title": "Broadband silicon photonic phase shifters driven by gradient optical forces",
+    "abstract": "           While initially deployed for optical interconnects, silicon photonics is increasingly being explored as a hardware platform for programmable optical systems, including linear optical processors, neuromorphic photonic networks, quantum photonic circuits and multiplexed sensor arrays. Common to most existing implementations is that light is controlled with electronics, and even basic demonstrations wherein light directly controls light remain limited. Here we demonstrate a broadband all-optical silicon photonic phase shifter based on an optomechanically mediated light-light interaction arising from the gradient optical force. Our device concept relies on slot-mode waveguides suspended by subwavelength gratings, which provide mechanical support while preserving optical confinement. We demonstrate all-optical phase shifting using a guided pump beam co-propagating with the signal beam, with only 60 $\\mu$W required to achieve a $\\pi$ phase shift in a 178.6 $\\mu$m-long device. In addition, we measure the required pump power across a wide parameter space and find quantitative agreement with a lumped force-equilibrium model. Since the actuation relies on an all-optical geometric deformation rather than on material-index tuning, the approach avoids local electrical connections to the active element, carries no Kramers-Kronig absorption penalty, and is naturally compatible with cryogenic quantum photonic platforms.         ",
+    "url": "https://arxiv.org/abs/2607.08558",
+    "authors": [
+      "Guillermo Arregui",
+      "Sander J\u00e6ger Linde",
+      "Magnus Vejby Nielsen",
+      "Bingrui Lu",
+      "Nikolaj B. Hougs",
+      "Babak Vosoughi Lahijani",
+      "S\u00f8ren Stobbe"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08673",
+    "title": "Inverse Transfer and Coherence in Rotating Stratified Flow with Clouds and Phase Transitions",
+    "abstract": "           Inverse energy transfer to large-scale coherent structures in idealized models of geophysical flows has been of interest for over four decades. Extensive knowledge exists regarding inverse transfer in rotating and stratified dry dynamics, characterized by the Rossby number and a single dry Froude number. The current study includes effects of water and phase changes, with dynamics characterized by the Rossby number and two Froude numbers for unsaturated and saturated environments. Using numerical computations with random forcing, inverse energy transfer is examined for a model with a Boussinesq dynamical core, incorporating water vapor and liquid water in the limit of asymptotically-fast cloud microphysics. Besides kinetic energy, total energy includes buoyant potential energies from each phase, and latent moist energy responsible for potential energy transfer at phase boundaries. The rotation and stratification terms are large and comparable, such that the dry version of the evolution equations is dominated by inverse transfer of pseudo potential vorticity(PV). For fixed Rossby and dry (unsaturated) Froude numbers, compared to dry dynamics, there is a reduction in energy transfer rate, associated with the larger Froude number of saturated regions. The upscale transfer to moist PV is influenced by nonlinear waves at lowest order resulting from nonlinear buoyancy near phase interfaces. These nonlinear waves lead to coherent updrafts and downdrafts roughly aligned with fuzzy, large-scale phase boundaries identified by the time average of a cloud indicator function. Statistical relationships between phase boundaries, updrafts/downdrafts and moist PV are explored in flow regions dominated by moist PV-vortices.         ",
+    "url": "https://arxiv.org/abs/2607.08673",
+    "authors": [
+      "Yeyu Zhang",
+      "Yingshuo Peng",
+      "Leslie M. Smith"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.07848",
+    "title": "Quantum Sensors for Chemistry and Materials Science",
+    "abstract": "           The advancement of chemistry and materials science relies on transformative analytical tools which can overcome the sensitivity, spatial resolution, and throughput limitations of conventional techniques. This review explores the application of quantum sensors - specifically optically pumped magnetometers (OPMs) and nitrogen-vacancy (NV) centers in diamond - as robust platforms for molecular and materials analysis. We contrast the extreme magnetic sensitivity of macroscopic OPM ensembles with the atomic-scale resolution and multimodal capabilities of solid-state NV centers. We highlight their deployment in zero- to ultralow-field and nanoscale NMR spectroscopy, real-time reaction monitoring, and transient radical and pH detection. Furthermore, we discuss their integration into high-throughput chemical assays and non-destructive materials diagnostics, such as operando battery monitoring. With the ongoing commercialization of these technologies and advances in quantum-enhanced sensitivities, quantum sensors are poised to routinely address complex real-world analytical challenges.         ",
+    "url": "https://arxiv.org/abs/2607.07848",
+    "authors": [
+      "Piotr Put",
+      "Arjun Pillai",
+      "Xuan Hoang Le",
+      "Mikhail D. Lukin",
+      "Hongkun Park"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.07871",
+    "title": "Quantum Dot Moir\u00e9 from Crossed MoS2 Nanoribbons",
+    "abstract": "           Twisted atomically thin layers have attracted much attention for Moir\u00e9 potential and correlated quantum phenomena. However, existing Moir\u00e9 superlattices have largely been limited to extensive wavefunction without lateral confinement. Here we introduce a new platform where 1D nanoribbons of 2D MoS2 grown by vapor deposition can be easily superposed at various angles from stacking and transferring, to form Moir\u00e9 quantum dots at their intersections with unique exciton physics. Angle-dependent Moir\u00e9 intersections show enhanced exciton emission at commensurate angle 22 deg, which demonstrates faster relaxation at the cryogenic temperature. A size-dependent study further exhibits a reduced exciton energy and soften out-of-plane interlayer coupling for smaller Moir\u00e9 areas. Our results reveal exciton physics turnability via precise overlapping of 1D nanoribbons.         ",
+    "url": "https://arxiv.org/abs/2607.07871",
+    "authors": [
+      "Xinting Shuai",
+      "Hao Zhang",
+      "Wenjing Wu",
+      "Chongning Wu",
+      "Maryam Amiri",
+      "T. A. M. Ragib Shahriar",
+      "Dian Pan",
+      "Zhi Kai Ng",
+      "Tymofii Pieshkov",
+      "Leeza Dutta",
+      "Yijun Zhou",
+      "Rohith Narra",
+      "Luke Van Leeuwen",
+      "Jishnu Murukeshan",
+      "Luyao Shi",
+      "Jiawei Lai",
+      "Atin Pramanik",
+      "Bipin Kumar Gupta",
+      "Edwin Hang Tong Teo",
+      "Robert Vajtai",
+      "Xiang Zhang",
+      "Hanyu Zhu",
+      "Shengxi Huang",
+      "Aditya D. Mohite",
+      "Pulickel M. Ajayan"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.07932",
+    "title": "Gate induced strain on a two-dimensional hole gas in silicon",
+    "abstract": "           We show the effect of gate-induced strain on the valence band of a silicon (Si) metal oxide semiconductor (MOS) confined two-dimensional hole gas (2DHG). Increasing aluminum gate thickness, and thereby the strain in the channel, results in the onset of a second subband contributing to Shubnikov-de Haas oscillations. Temperature-dependent magnetotransport measurements reveal distinct cyclotron masses of $m_c^*=(0.36\\pm0.04)m_0$ and $m_c^*=(0.49\\pm0.02)m_0$. The measured cyclotron masses differ from those expected for an idealized heavy-hole (HH)/light-hole (LH) picture, reflecting the combined influence of quantum confinement, strain, and HH-LH mixing on the valence band.         ",
+    "url": "https://arxiv.org/abs/2607.07932",
+    "authors": [
+      "D. van der Bovenkamp",
+      "C.S.A. M\u00fcller",
+      "B.D. Pantiru",
+      "I. Bo\u0161njak",
+      "M. Cignoni",
+      "Q. Torrent Nicolau",
+      "M.E. Bal",
+      "S. Wiedmann",
+      "J. Ridderbos",
+      "F.A. Zwanenburg"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08037",
+    "title": "Robust Quantum Learning through Hamiltonian Reservoir Computing",
+    "abstract": "           Quantum learning provides a versatile paradigm for information processing by exploiting the intrinsic representational capacity of high-dimensional Hilbert spaces. Here, we investigate a Hamiltonian-encoding framework for quantum reservoir computing that simultaneously addresses three key challenges in quantum learning: trainability, hardware efficiency, and information stability. In this framework, input data are directly mapped onto a fixed Hamiltonian and transformed into expressive nonlinear features through quantum dynamical evolution. By employing the reservoir-computing paradigm, the approach naturally circumvents the barren plateau problem in quantum learning landscapes. We validate the framework across two complementary platforms: an analog superconducting array processor and a digital gate-based quantum circuit implementation. Despite their fundamentally different realizations, both platforms exhibit comparable representational power and achieve competitive learning performance, establishing a unified framework for cross-platform quantum learning. While both implementations achieve comparable performance, the analog processor may offer a more hardware-efficient realization by bypassing the temporal overhead of gate-based decomposition and thereby making more effective use of finite coherence times, albeit at the expense of universality. Furthermore, we find that finite dissipation suppresses quantum-scrambling-induced instabilities at long evolution times and can enhance learning performance, revealing a constructive role for environmental coupling in stabilizing quantum learning dynamics. Collectively, these results establish Hamiltonian-encoded reservoir computing as a compact, expressive, and hardware-efficient paradigm for quantum learning on current-generation quantum platforms.         ",
+    "url": "https://arxiv.org/abs/2607.08037",
+    "authors": [
+      "Youya Xu",
+      "Chengyong Yu",
+      "Sanjib Ghosh"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08220",
+    "title": "Quantum linear solvers for quantum chemistry: prospects of exponential quantum advantage",
+    "abstract": "           Quantum linear solvers (QLSs) can offer the potential for exponential quantum advantage in solving quantum chemical problems, but its assessment hinges on determining the condition number ($\\kappa$) scaling, which itself is computationally challenging. While a recent work applied the Harrow-Hassidim-Lloyd (HHL) algorithm to single-reference linearized coupled cluster equations (SRLCC), the validity of the HHL-SRLCC framework is restricted to weakly correlated regimes. A general treatment requires a formulation that can access strongly correlated regions. We thus begin by extending the QLS-SRLCC framework to its multi-reference form, which is based on the internally contracted multi-reference LCC method (QLS-icMRLCC). We then analyze $\\kappa$ scaling using three complementary diagnostics that range from explicit computations to use of indirect structural indicators: (i) direct calculations of $\\kappa$, (ii) scaling of the ratio of maximum to minimum diagonal entries of an A matrix, and (iii) structural analyses of the A matrices based on a recently proposed conjecture, which we adapt to the QLS-LCC problem. The three approaches yield consistent predictions, indicating a polylogarithmic $\\kappa$ scaling in system size. This finding, when combined with our arguments on sub-linear scaling of sparsity, supports the prospects of exponential advantage using QLSs for the LCC problem. Finally, numerical calculations on potential energy curves of model systems containing up to four atoms recover the ground state energies with errors relative to benchmark classical methods not exceeding 0.009$\\%$.         ",
+    "url": "https://arxiv.org/abs/2607.08220",
+    "authors": [
+      "Peniel Bertrand Tsemo",
+      "Kenji Sugisaki",
+      "Ishita Bhattacharjee",
+      "V. S. Prasannaa"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08235",
+    "title": "Full-Spectrum Quantum Simulation for the Nuclear Shell Model",
+    "abstract": "           The nuclear shell model is a general way of expressing the many-body nuclear Hamiltonian and deciphering the underlying nuclear structure. In today's era of modern and high-power computation, the primary limitation of the nuclear shell model is the enormous dimensionality of its Hilbert space, which far exceeds available storage capacity and prevents the diagonalization of the full Hamiltonian matrix in that space. Quantum computing offers a scalable solution to bypass this curse of dimensionality. In this work, we introduce a single-run quantum simulation capable of obtaining multiple shell-model eigenstates simultaneously. The nuclear Hamiltonian is transformed from a bit to a qubit basis using the Jordan-Wigner transformation, explicitly preserving fermionic anti-commutation. We employ a Subspace Search Variational Quantum Eigensolver (SSVQE) along with an Adaptive Derivative-Assembled Pseudo-Trotter (ADAPT) ansatz to construct the quantum circuit required to solve the shell-model problem. The ADAPT-SSVQE algorithm uses a symmetry-preserving single and double-excitation operator pool and optimizes a weighted energy sum to obtain the simultaneous convergence of all eigenstates within a targeted MJ subspace, eliminating the need for post-processing efforts to extract excited spectra. We benchmark this approach by solving the problem for two and three identical nucleons in a j = 9/2 orbital, successfully extracting five and ten mutually orthogonal states, respectively, within a 10-qubit active space. The algorithm achieves spectroscopic accuracy, in simulation, relative to exact diagonalization and intrinsically restores total angular momentum (\\hat{J}^2) symmetry.         ",
+    "url": "https://arxiv.org/abs/2607.08235",
+    "authors": [
+      "B. Maheshwari",
+      "P. Stevenson",
+      "P. Van Isacker"
+    ],
+    "subjectives": [
+      "Nuclear Theory (nucl-th)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08350",
+    "title": "Grokking and epoch-wise double descent in quantum neural networks",
+    "abstract": "           Grokking, the delayed transition from memorization to generalization, is a fundamental phenomenon in gradient-based learning, yet its dynamics within variational quantum machine learning (QML) remain largely unexamined. In this work, we report the empirical observation of both the grokking transition and epoch-wise double descent in a two-qubit quantum neural network (QNN) under a complete parameterization of the SU(4) manifold. We demonstrate that overparameterization via increased circuit depth improves the probability of successful generalization. Notably, these architectures frequently exhibit an epoch-wise double descent in test error, degrading at a critical epoch before recovering into a generalizing state. Crucially, we identify a generalization decay in late-stage training, where the test error increases significantly despite a stagnant training loss. Bridging this behavior with algorithmic stability theory, our analysis reveals that this decay correlates with an unconstrained increase of the weight-norm, drifting away from sparse, phase-aligned harmonic solutions toward overfitted solutions in the Hilbert space. We analyze the underlying temporal dynamics of this transition, demonstrating how the onset of generalization is linked to optimization hyperparameters such as learning rate and weight decay. Finally, to mitigate late-stage decay, we introduce a weak explicit weight-norm regularization into the loss function. We demonstrate that this structural anchor stabilizes the post-grokking phase and permanently preserves generalization gains, providing a robust framework for training overparameterized quantum circuits.         ",
+    "url": "https://arxiv.org/abs/2607.08350",
+    "authors": [
+      "Daniel Pranji\u0107",
+      "Marco Roth",
+      "Christian Tutschku"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08355",
+    "title": "Bright and Dark Excitons in CrSBr: Local Ligand-Field Character and Band-Coherent Optical Selection Rules",
+    "abstract": "           Magnetic van der Waals semiconductors such as CrSBr host an intricate exciton landscape whose physical interpretation has converged only recently. A many-body Feynman diagrammatic approach based on quasiparticle self-consistent GW with electron-hole ladder vertex corrections to the screened Coulomb interaction has established the electronic band gap, excitonic orbital character, real-space extent, binding energies, and bosonic-coupling signatures of the bright XA exciton near 1.34 eV and the higher XB manifold near 1.8 eV. These results agree well with ARPES and magneto-optical experiments and supersede the early Rydberg-like assignment of the excitons. What has remained unresolved is why these intense bright excitons coexist, within a few tens of meV, with companion states that are several orders of magnitude darker despite drawing from essentially the same single-particle transition manifold. Here we show that brightness is a band-coherent property of the excitonic eigenfunctions: bright and dark partners are sublattice-symmetric and sublattice-antisymmetric superpositions of the same ligand-field-like Bloch transitions across the two Cr atoms of the orthorhombic primitive cell. The commonly used Frenkel and Wannier-Mott labels describe what an exciton is made of, but brightness requires a symmetry-adapted interference rule between transition dipoles. Disentangling this bare excitonic structure is a prerequisite for interpreting the optical response of CrSBr once magnon, phonon, and photon couplings are included.         ",
+    "url": "https://arxiv.org/abs/2607.08355",
+    "authors": [
+      "Swagata Acharya",
+      "Jessica McDivitt",
+      "Dimitar Pashov",
+      "Mark van Schilfgaarde",
+      "Justin C. Johnson",
+      "Jeffrey L. Blackburn"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.08668",
+    "title": "Microwave Studies of Single Crystal TeO2 at Cryogenic Temperatures",
+    "abstract": "           We use whispering-gallery-mode analysis to characterise the microwave dielectric properties of single-crystal TeO$_2$ at cryogenic temperatures and compare its loss performance with other low-loss dielectric materials. Finite-element modelling is combined with measurements at room temperature, 4 K, and 20 mK to develop accurate cryogenic simulations and extract the anisotropic dielectric permittivities, giving $\\varepsilon_\\parallel=25.75\\pm0.08$ and $\\varepsilon_\\perp=20.90\\pm0.07$. Loss measurements reveal quality factors as high as $9\\times10^6$ and minimum loss tangents approaching $3\\times10^{-8}$, placing TeO$_2$ among promising low-loss dielectrics for cryogenic microwave applications. Electron-spin-resonance spectroscopy further indicates a clean spin environment, while identifying distinct spin systems consistent with the known properties of the crystal.         ",
+    "url": "https://arxiv.org/abs/2607.08668",
+    "authors": [
+      "Timothy Holt",
+      "Maxim Goryachev",
+      "William Campbell",
+      "Michael E. Tobar"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2407.14721",
+    "title": "Laser Cooling and Hyperfine Measurements of Radium-225 Ions",
+    "abstract": "           $^{225}$Ra$^+$ ions (nuclear spin $I=1/2$) have transitions that are first-order insensitive to magnetic field noise, which is advantageous for optical clocks and quantum information science. We report on laser cooling and trapping of $^{225}$Ra$^+$ ions and hyperfine splitting measurements of the ion's $\\mathrm{7s}$ $^2\\mathrm{S}_{1/2}$, $\\mathrm{7p}$ $^2\\mathrm{P}_{1/2}$, and $\\mathrm{6d}$ $^2\\mathrm{D}_{3/2}$ states. We measured the ground state hyperfine constant, $A(\\mathrm{S}_{1/2}) =$ $-27.684511052(5)$ $\\mathrm{GHz}$, and the quadratic Zeeman coefficient, $C_2 =$ $142.3(1.0)$ $\\mathrm{Hz\\ G}^{-2}$, of the $^2\\mathrm{S}_{1/2} (F=0, m_F = 0) \\leftrightarrow~^2\\mathrm{S}_{1/2} (F=1, m_{F} = 0)$ transition. Our result addresses a discrepancy in the literature for the ground state hyperfine splitting. We measured the hyperfine constants of the $^2\\mathrm{P}_{1/2}$ state, $A(\\mathrm{P}_{1/2}) =$ $-5.447(4)$ $\\mathrm{GHz}$, and the $^2\\mathrm{D}_{3/2}$ state, $A(\\mathrm{D}_{3/2}) =$ $-619.7(1.1)$ $\\mathrm{MHz}$. We also performed state preparation and measurement using the ground state hyperfine levels and realized a fidelity of $0.9951(9)$.         ",
+    "url": "https://arxiv.org/abs/2407.14721",
+    "authors": [
+      "Roy Ready",
+      "Haoran Li",
+      "Spencer Kofford",
+      "Robert Kwapisz",
+      "Huaxu Dan",
+      "Akshay Sawhney",
+      "Mingyu Fan",
+      "Craig Holliman",
+      "Xiaoyang Shi",
+      "Luka Sever-Walter",
+      "A. N. Gaiser",
+      "J. R. Griswold",
+      "A. M. Jayich"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.02837",
+    "title": "Spatiotemporal Optical Vortices From All-Dielectric Bilayer Metagratings",
+    "abstract": "           Spatiotemporal optical vortices (STOVs) carry transverse orbital angular momentum within the space-time domain, rendering them powerful tools for constructing high-dimensional and quantum optical fields. However, most existing approaches rely on highly lossy metallic structures or complex pulse-shaping systems. Here, we propose an all-dielectric route to STOV generation based on symmetry-protected bound states in the continuum (BICs) in a bilayer metagrating and provide proof-of-concept validation of its key momentum-frequency signatures. By simply introducing a lateral shift between the upper and lower layers of the vertical slots on the dielectric metagrating, the {\\Gamma}-point BIC transforms into a quasi-BIC (qBIC) with momentum-dependent directional radiation and asymmetric coupling. This qBIC further leads to an isolated zero-transmission dip associated with a clear phase singularity and branch cut in the momentum-frequency response, enabling stable STOV generation under excitation by a spatiotemporal Gaussian pulse. The multipole analysis of the qBIC reveals the key role of the Kerker-type interference between its electric and magnetic dipoles and associated asymmetric coupling in the STOV generation. Experimentally, free-space transmission measurements reveal a transmission zero and a branch cut that agree excellently with theoretical analysis. Therefore, our work provides an experimentally validated, scalable route for manipulating spatiotemporal optical fields on low-loss all-dielectric metasurfaces via only gliding offsets, with potential applications in directional coupling of quantum light sources and spatiotemporal shaping of single-photon wave packets.         ",
+    "url": "https://arxiv.org/abs/2603.02837",
+    "authors": [
+      "Ken Qin",
+      "Shijie Kang",
+      "Aoning Luo",
+      "Yiyi Yao",
+      "Xiexuan Zhang",
+      "Hanchuan Chen",
+      "Yahan Xiao",
+      "Yangsong Ye",
+      "Junqing Shi",
+      "Xusheng Xia",
+      "Haitao Li",
+      "Xiaoxiao Wu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.05426",
+    "title": "Quantum Dynamical and isotopic effects for Hydrogen isotopes scattering at W(110) surface",
+    "abstract": "           We investigate the scattering of hydrogen isotopes at the W(110) surface using both classical and quantum dynamics approaches to elucidate the role of quantum effects in this system. To characterize the scattering process we focus on key observables, including the absorption probability and diffraction channels that we evaluate at the quasi-classical and quantum levels. The quantum dynamics reveal pronounced resonance structures in the absorption curve that we rationalize in terms of diffraction-mediated selective adsorption and focused sticking mechanisms. Diffraction probabilities for reflected trajectories exhibit strong quantum effects at low incident energies, where classical dynamics underestimate the back scattering probability. These effects become less pronounced with increasing isotope mass, from hydrogen to tritium, however discrepancies between the classical and quantum description persist at low incident energies.         ",
+    "url": "https://arxiv.org/abs/2603.05426",
+    "authors": [
+      "Ra\u00fal Bomb\u00edn",
+      "Oihana Galparsoro",
+      "Daniel Pel\u00e1ez",
+      "Jean Christophe Tremblay",
+      "C\u00e9dric Crespos",
+      "Pascal Larregaray"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.29613",
+    "title": "Design, Fabrication and Characterization of Microwave Multiplexing SQUID Prototype",
+    "abstract": "           The readout system with a high multiplexing ratio has become a bottleneck limiting the application of large-scale Transition Edge Sensor (TES) detector arrays. In recent years, the microwave superconducting quantum interference device (SQUID) multiplexer has emerged as a key technology for effectively reading large-scale cryogenic detector arrays. Currently, the microwave SQUID multiplexer is being adopted by an increasing number of experiments due to its capability of achieving a multiplexing ratio of 2000:1 within the readout bandwidth. In this study, we developed and fabricated a 32-channel microwave SQUID multiplexer prototype. And we measured 8 channels of the prototype. The measured equivalent noise current of the prototype reached 42 pA/$\\sqrt{Hz}$.         ",
+    "url": "https://arxiv.org/abs/2603.29613",
+    "authors": [
+      "Mengjie Song",
+      "Yixian Deng",
+      "Zhengwei Li",
+      "He Gao",
+      "Zhouhui Liu",
+      "Yudong Gu",
+      "XiangXiang Ren",
+      "Nan Li",
+      "Guofu Liao",
+      "Qinglei Xiu",
+      "Yu Xu",
+      "Mengqi Jiang",
+      "Xufang Li",
+      "Yaqiong Li",
+      "Shibo Shu",
+      "Yongjie Zhang",
+      "Congzhan Liu"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.16347",
+    "title": "Hit-rate capability of a silicon strip detector module for decay positron detection in the J-PARC muon $g-2$/EDM experiment",
+    "abstract": "           In the J-PARC muon $g-2$/EDM experiment, a silicon strip detector will be used to detect positrons from muon decays. The detector consists of planes of detector modules arranged radially. The expected maximum hit rate reaches 1.4~MHz per sensor strip, and achieving high detection efficiency even under such hit-rate conditions is a key performance requirement. We have developed the smallest unit of the detector module, and its performance was evaluated using a muon beam at the J-PARC MLF H-line. The specifications of the detector module and the evaluated hit-rate capability are described in this article.         ",
+    "url": "https://arxiv.org/abs/2606.16347",
+    "authors": [
+      "Ryuto Azuma",
+      "Katsunori Awa",
+      "Shunsuke Doi",
+      "Yowichi Fujita",
+      "Seiso Fukumura",
+      "Yu Goto",
+      "Ryotaro Honda",
+      "Sohtaro Kanda",
+      "Tetsuichi Kishishita",
+      "Tatsuya Kume",
+      "Tsutomu Mibe",
+      "Yukiharu Murata",
+      "Shoichiro Nishimura",
+      "Shinji Ogawa",
+      "Yuta Okazaki",
+      "Naohito Saito",
+      "Maki Sakakibara",
+      "Osamu Sasaki",
+      "Taiki Sato",
+      "Yutaro Sato",
+      "Yoshiaki Seino",
+      "Hiroshi Sendai",
+      "Koichiro Shimomura",
+      "Shohei Shirabe",
+      "Masayoshi Shoji",
+      "Patrick Strasser",
+      "Taikan Suehara",
+      "Shiori Sugahara",
+      "Junichi Suzuki",
+      "Toshikazu Takatomi",
+      "Manobu M. Tanaka",
+      "Junji Tojo",
+      "Hiroyuki A. Torii",
+      "Takashi Yamanaka",
+      "Hiroshi Yamaoka",
+      "Takayuki Yamazaki",
+      "Tamaki Yoshioka"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.25555",
+    "title": "Broadband Rydberg Atomic Microwave Sensing with 44.6$\\,$MHz Instantaneous Bandwidth",
+    "abstract": "           Rydberg atoms have become a promising novel type of microwave sensor due to their excellent physical properties -- broad frequency coverage and large electric dipole moments. High sensitivity and broad instantaneous bandwidth are two indispensable requirements for deployable Rydberg microwave sensors. However, enabling broadband operation while retaining high sensitivity has been a longstanding barrier limiting their applications. We propose and experimentally demonstrate a Rydberg microwave sensor whose instantaneous bandwidth is significantly enhanced via an auxiliary microwave field. By finely modulating the Rydberg energy levels with this field, we broaden the bandwidth substantially while retaining the sensor's inherent high sensitivity. An instantaneous bandwidth of 44.6$\\,$MHz ($\\pm$22.3$\\,$MHz) with a sensitivity of 225.7$\\,$nV$\\,$cm$^{-1}\\,$Hz$^{-1/2}$ is realized in a thermal \\(^{87}\\)Rb vapor with the local microwave frequency of 16.03$\\,$GHz. Our work delivers concurrent broad instantaneous bandwidth and high sensitivity for Rydberg microwave sensors, paving a technically viable path for their practical deployment in broadband microwave metrology, radar, and wireless communication.         ",
+    "url": "https://arxiv.org/abs/2606.25555",
+    "authors": [
+      "Yuhan Yan",
+      "Xuejie Li",
+      "Jinyin Wan",
+      "Xing Xia",
+      "Haojie Zhao",
+      "Binghong Yu",
+      "Jianliao Deng",
+      "Huadong Cheng",
+      "L. Q. Chen"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.31117",
+    "title": "Radical-Fragment Many-Body Expansion for Linear Alkane Quantum Chemistry",
+    "abstract": "           We introduce a radical-fragment many-body expansion at the two-body level (MBE2) for quantum chemistry of linear alkanes. Instead of heterolytic bond cleavage with hydrogen capping atoms and electrostatic embedding like in Fragment Molecular Orbital (FMO), we perform homolytic C-C bond cleavage to produce open-shell radical fragments (CH3, CH2) treated with restricted open-shell Hartree-Fock (ROHF) in isolation. The two-body MBE2 assembly formula reconstructs total alkane energies from only four unique fragment calculations regardless of chain length, reducing the maximum qubit requirement. We benchmark this framework against five energy solvers (RHF, CCSD, VQE, ADAPT-VQE, and SQD) across 11 linear alkanes from butane (C4H10) to hexacosane (C26H54). The MBE2 decomposition achieves a 12.3x qubit reduction for C26H54 (from 368 to 30 qubits) and a 12.8x reduction in unique calculations via symmetry exploitation. MBE2-VQE and MBE2-SQD (executed on IBM quantum hardware) closely track their respective classical MBE2 references, demonstrating that fragmentation-based quantum chemistry is viable for scaling quantum solvers to large molecular systems.         ",
+    "url": "https://arxiv.org/abs/2606.31117",
+    "authors": [
+      "Daniel Sierra-Sosa",
+      "Jorge Saavedra",
+      "Santiago Solares",
+      "Gregorio Toscano-Pulido"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  }
+]
