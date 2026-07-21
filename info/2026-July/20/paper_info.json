@@ -1,0 +1,573 @@
+[
+  {
+    "id": "arXiv:2607.15425",
+    "title": "Electronic Structure Calculations from Occupation Numbers on Quantum Computers",
+    "abstract": "           We present a quantum-classical algorithm for electronic structure calculations that dramatically reduces the quantum measurement cost of variational quantum eigensolver (VQE) approaches. While conventional VQE methods require measurements scaling as O(M^4) with system size M, the proposed occupation-number VQE (ON-VQE) reduces this cost to O(M/2) by avoiding reduced density matrix (RDM) measurements and relying exclusively on ONs. The method exploits only the diagonal elements of the one-particle RDM in the natural orbital representation, where occupations are obtained directly from computational-basis measurement outcomes. By restricting the variational ansatz to double excitations within orbital subspaces associated with electron pairs, the required measurements can be grouped into a small number of qubit-wise commuting observables, yielding an efficient and scalable measurement strategy. The approach is validated through simulations and executions on quantum hardware for the cubic H$_8$ cluster, demonstrating the feasibility of extracting accurate ONs from quantum measurements and evaluating electronic energies within the natural orbital functional (NOF) framework. Across representative molecular systems, the extracted ONs enable accurate energy evaluation with state-of-the-art NOFs while maintaining a dramatically reduced measurement cost. These results establish a scalable route toward quantum simulation of strongly correlated electronic systems, demonstrating that accurate electronic energies can be obtained from quantum measurements of ONs alone.         ",
+    "url": "https://arxiv.org/abs/2607.15425",
+    "authors": [
+      "Edison X. Salazar",
+      "Juan Felipe Huan Lew-Yee",
+      "and Mario Piris"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15526",
+    "title": "Enhanced Third-Harmonic Generation in Diamond Photonic Crystal Slabs via Doubly Resonant Quasi-Bound States in the Continuum",
+    "abstract": "           We propose and numerically demonstrate doubly resonant third-harmonic generation (THG) in a diamond photonic crystal (PhC) slab, in which the fundamental harmonic (FH) and the third harmonic (TH) modes are simultaneously resonant within the same membrane. A hexagonal-lattice slab with triangular air holes is designed so that a K-point band-edge FH mode and a $\\Gamma$-point quasi-bound-state-in-the-continuum (quasi-BIC) TH mode satisfy the frequency-tripling condition $3\\omega_1\\approx\\omega_3$. Modifying the hole shape from circular to equilateral triangular breaks the in-plane symmetry that otherwise forces the nonlinear coupling to vanish, thereby converting a TH mode with negligible overlap into one with finite while simultaneously reducing the required slab thickness. Guided by a closed-form expression for THG efficiency derived from coupled-mode theory, we design the unit cell and a PhC heterostructure cavity. Three-dimensional simulations of the designed cavity yield a normalized THG efficiency $\\eta=2.7\\times10^{-7}~\\mathrm{W}^{-2}$ under moderate quality factors, which is projected to reach ~$0.034~\\mathrm{W}^{-2}$ at the fabrication-limited quality factor (Q = 200,000). Because the operating wavelength is set by the lattice constant, this design, combined with the ultra-wide transparency window of diamond, can map a single geometry across various fabricable wavelengths, spanning from telecommunication bands to color-center-resonant visible and deep-UV outputs. These results establish a robust route toward efficient, monolithic on-chip frequency conversion in an all-diamond platform for quantum and nonlinear photonics.         ",
+    "url": "https://arxiv.org/abs/2607.15526",
+    "authors": [
+      "Sangmin Ji",
+      "Satoshi Iwamoto",
+      "Hideki Gotoh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15783",
+    "title": "Electromagnetically induced transparency lasing in distributed resonant feedback system",
+    "abstract": "           We demonstrate a loss-enabled mechanism that can realize single electromagnetically induced transparency (EIT) analogue in periodic waveguide-resonator structures. Unlike previously reported passband-based EIT analogues, which arise from compressed passbands in the intrinsic-loss-free limit, the proposed mechanism exploits resonator intrinsic loss to generate an isolated transparency mode within the original bandgap. The resulting EIT state remains immune to finite-size mode discretization, enabling robust single-frequency lasing through distributed resonant feedback while requiring a threshold modal gain lower than that of an equally long Fabry-Perot laser. Our findings extend classical EIT analogues from passive spectral phenomena to active laser operation.         ",
+    "url": "https://arxiv.org/abs/2607.15783",
+    "authors": [
+      "Yaoyao Liang",
+      "Xinyue Wang",
+      "Hongyi Tian",
+      "Yulong Fan",
+      "Qi Qin",
+      "Feihu Wang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15788",
+    "title": "Alignment and Timing Jitter in Flying-Focus Inverse Compton Scattering",
+    "abstract": "           Flying-focus laser pulses can extend the effective interaction length in inverse Compton sources by controlling the trajectory of the focal intensity. Their practical advantage, however, depends on tolerance to shot-to-shot electron--laser alignment and synchronization errors. We develop a semi-analytical model for the shot-averaged total photon yield in head-on inverse Compton scattering of an axisymmetric Gaussian electron bunch with a flying-focus laser pulse. The model includes finite electron-beam emittance, laser diffraction, transverse laser-centroid jitter, longitudinal focus-position jitter, and laser arrival-time jitter at the nominal interaction point. The ensemble averaging over these independent Gaussian errors and the integration over the longitudinal electron and laser coordinates are performed analytically, reducing the overlap problem to a single positive numerical quadrature. This formulation enables rapid evaluation of jitter-robust operating points and provides a compact tool for defining alignment and synchronization tolerances in flying-focus inverse Compton sources.         ",
+    "url": "https://arxiv.org/abs/2607.15788",
+    "authors": [
+      "S.G. Rykovanov",
+      "I. Dubinkin",
+      "M.P. Malakhov",
+      "A.M. Fedotov",
+      "A.S. Samsonov",
+      "I.Yu. Kostyukov"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15793",
+    "title": "Triple-Resonance Spectroscopy Using a Cavity-Enhanced Frequency Comb Probe",
+    "abstract": "           Accurate experimentally verified models of molecular hot-band transitions are essential for interpreting high-temperature spectra in environments ranging from exoplanetary atmospheres to combustion systems. However, line-resolved measurements of infrared hot-band transitions reaching highly excited vibrational states above 10000 cm$^{-1}$ are missing because these transitions are too weak to observe at room temperature and become spectrally congested at elevated temperatures. Here, we introduce a nonlinear spectroscopic approach that enables simultaneous measurement of individual infrared hot-band transitions between four vibrational bands up to 12000 cm$^{-1}$ over a broad spectral range with sub-Doppler resolution and sub-MHz frequency accuracy (10$^{-10}$ relative line position accuracy). The methods is based on an all-optical triple-resonance (AOTR) scheme that combines stepwise mid-infrared pumping using an optical-frequency-comb-stabilized, double-seeded continuous-wave optical parametric oscillator with broadband highly sensitive near-infrared probing using a cavity-enhanced optical frequency comb. As a proof of principle, we measure transitions between high polyads (P) of methane - groups of strongly interacting, near-degenerate vibrational energy states arising from couplings between the C-H stretching and bending modes. In a single probe spectrum, we simultaneously resolve sub-Doppler P4$\\leftarrow$P0, P6$\\leftarrow$P2 and P8$\\leftarrow$P4 transitions, reaching the poorly understood polyad P8 near 12000 cm$^{-1}$ and providing the first set of 41 experimentally observed lines in the P8$\\leftarrow$P4 spectral this http URL-based AOTR spectroscopy opens a new route for broadband exploration of highly excited molecular states, delivering extensive high-accuracy spectroscopic data needed to refine molecular models and improve predictions of high-temperature spectra.         ",
+    "url": "https://arxiv.org/abs/2607.15793",
+    "authors": [
+      "Qinxue Nie",
+      "Vinicius Silva de Oliveira",
+      "Adrian Hj\u00e4lt\u00e9n",
+      "Isak Silander",
+      "Kevin K. Lehmann",
+      "Aleksandra Foltynowicz"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15910",
+    "title": "Precision positioning in free-space optical communication systems via PID control tuned by RL",
+    "abstract": "           Accurate positioning of optical components is essential for maintaining beam alignment in free-space optical (FSO) communication systems. This work investigates reinforcement-learning-assisted tuning of cascaded position and velocity PID controllers for an optical deflector that moves the end of an optical fiber in the focal plane of an optical system. A Deep Deterministic Policy Gradient (DDPG) agent adjusts six PID coefficients through interaction with a physical experimental stand. The stand supports target-coordinate updates of up to $12$ kHz, while the agent and the controlled device are located approximately $200$ km apart and exchange data over UDP. After $5000$ training sessions, two fixed coefficient sets are selected and compared with a manually tuned baseline. For a pseudo-random target trajectory, the best RL-tuned set reduces the range of the radial positioning error from $119$ to $82$, corresponding to a $31\\%$ reduction, and decreases its standard deviation from $15$ to $12$. For a constant zero target, the RL-tuned sets do not improve the radial error range. The results demonstrate the potential of DDPG for experimental PID tuning in dynamic positioning tasks and indicate the need for multi-regime optimization to achieve consistent performance under different operating conditions.         ",
+    "url": "https://arxiv.org/abs/2607.15910",
+    "authors": [
+      "K. Prikhodko",
+      "S. Kuznetsov",
+      "S. Vorobey",
+      "A. Katanskiy",
+      "V. Balakirev",
+      "A. Reutov"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15925",
+    "title": "Sub-microsecond conformational dynamics in an optical nanocavity",
+    "abstract": "           Microsecond conformational changes underlie many protein functions, but ensemble averaging has been needed to observe them without labels. Single-shot measurements on individual proteins have had insufficient speed, while protein Brownian-motion has obscured signals. Here, we report a fibre-integrated silicon-photonic sensor that overcomes these barriers, resolving protein dynamics at sub-microsecond speeds in continuous single-shot measurements that can extend over minutes. This is achieved by combining far-sub-wavelength optical field confinement with high optical field uniformity that suppresses protein Brownian-motion by a factor of sixty. In single-shot measurements on ferritin molecules, we observe tens of thousands of transitions consistent with conformational fluctuations of the ferritin shell, resolving them over timescales as short as 400 ns. The ability to continuously monitor transitions over long times reveals switching kinetics, memory effects and molecular heterogeneity hidden in ensemble averages. This opens a new path to improved mechanistic understanding of protein function.         ",
+    "url": "https://arxiv.org/abs/2607.15925",
+    "authors": [
+      "Heehun Sung",
+      "Sam C Scholten",
+      "Pavlina Sasheva",
+      "Igor Marinkovic",
+      "Warwick P Bowen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15943",
+    "title": "A Hydrogenated Amorphous Silicon Photodiode indirect flexible device for radiation flux measurements at low intensities",
+    "abstract": "           The objective of the Photo-HASPIDE experiment is the construction and test of an indirect a-Si:H (Hydrogenated Amorphous Silicon) photo-detector plus scintillator device on a flexible substrate for the detection and measurement of particles fluxes (X-rays, electrons and protons) and for dosimetric measurements. The idea behind this experimental project lies in the utilization of Hydrogenated Amorphous Silicon (a-Si:H) as photodiode material; owing to its notable attributes of radiation hardness, light detection capability and mechanical flexibility. After the implementation of the HASPIDE experiment, which explored direct radiation detection using a-Si:H devices on a polyimide (PI) substrate, we aim to delve into indirect detection by employing these devices in conjunction with flexible and rad-hard scintillators like polysiloxane. The indirect detector design holds promise for improved responsiveness to low radiation fluxes compared to direct detection methods. The indirect a-Si:H detector should be composed of arrays of small (about 5 x 5 mm2) scintillator crystals read by a-Si:H photodiodes. Through optimization of the scintillator and detector thicknesses, we expect to achieve a better performance for low minimum detectable fluxes compared to direct detection methodologies. This new detector will find application in in-vivo dosimetry during radiotherapy or hadron-therapy and also, due to its expected fast response, in FLASH therapy. Another important application will be also in Solar Physics using these devices to measure particle fluxes in solar energetic particle events.         ",
+    "url": "https://arxiv.org/abs/2607.15943",
+    "authors": [
+      "Mauro Menichelli",
+      "Aishah Bashiri",
+      "Marco Bizzarri",
+      "Lucio Calcagnile",
+      "Mirco Caprai",
+      "Domenico Caputo",
+      "Anna P. Caricato",
+      "Sara M. Carturan",
+      "Massimo Cazzanelli",
+      "Andrea Cesarini",
+      "Marco Cinausero",
+      "Federico Cittadini",
+      "Tommaso Croci",
+      "Sylvain Dunand",
+      "Michele Fabi",
+      "Giorgia Franchin",
+      "Benedetta Gianfelici",
+      "Antonella Giuri",
+      "Catia Grimani",
+      "Hamza Hasnaoui",
+      "Giacomo Insero",
+      "Maria Ionica",
+      "Keida Kanxheri",
+      "Nicola Lovecchio",
+      "Gianluigi Maggioni",
+      "Giuseppe Maruccio",
+      "Anna G. Monteduro",
+      "Arianna Morozzi",
+      "Augusto Nascetti",
+      "Stefania Pallotta",
+      "Andrea Papi",
+      "Daniele Passeri",
+      "Maddalena Pedio",
+      "Marco Petasecca",
+      "Pisana Placidi",
+      "Matteo Polo",
+      "Marta Ponzecchi",
+      "Alberto Quaranta",
+      "Gianluca Quarta",
+      "Walter Raniero",
+      "Silvia Rizzato",
+      "Aurora Rizzo",
+      "Federico Sabbatini",
+      "Rabia Sandhu",
+      "Leonello Servoli",
+      "Cinzia Talamonti",
+      "Alberto Verdini",
+      "Mattia Villani",
+      "Nicolas Wyrsch"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15976",
+    "title": "Harnessing resonant dipolar interactions in a hybrid atom-molecule quantum system",
+    "abstract": "           Hybrid quantum systems offer a route to combining the complementary strengths of distinct quantum platforms while mitigating their limitations. A particularly promising architecture combines neutral atoms and polar molecules: atoms provide fast, controllable interactions through excitation to Rydberg states, while molecules possess long-lived rotational states that are attractive for quantum memories and qudits. Although dipolar interactions between atoms and molecules have been observed in gas-phase and beam experiments, they have not previously been explored in a scalable optical tweezer platform that enables the controlled coherent interactions needed for quantum state transfer and entanglement. Here, we realise this goal, demonstrating coherent dipolar interactions between an individual Rydberg atom and an individual polar molecule. The separation of the particles is controlled using species-specific optical tweezers and their dipolar interactions are made strongly state-dependent by tuning two atom-molecule pair states into resonance. We exploit these interactions to demonstrate atom-mediated state readout of a molecular qubit, observe coherent spin exchange between the particles, and generate entanglement using a blockade-based controlled-NOT operation. Together, these results establish a coherent atom-molecule interface in which long-lived molecular quantum information can be rapidly mapped onto internal states of a Rydberg atom for readout or onward coherent transfer. This platform can be scaled to realise hybrid quantum processors utilising atom-mediated readout and entanglement of molecular qubits and mixed-species quantum simulators of dipolar systems.         ",
+    "url": "https://arxiv.org/abs/2607.15976",
+    "authors": [
+      "Daniel K. Ruttley",
+      "Tom R. Hepworth",
+      "Juan M. Garc\u00eda-Garrido",
+      "Caleb J. H. Rich",
+      "Rosario Gonz\u00e1lez-F\u00e9rez",
+      "Alexander Guttridge",
+      "Simon L. Cornish"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16048",
+    "title": "Collinear Laser Spectroscopy on a Fast Atomic Beam of Boron Generated by Photodetachment of Accelerated B- Ions",
+    "abstract": "           Atomic beams for collinear laser spectroscopy are typically produced via charge exchange reactions in an in-beam vapor cell. This process is accompanied by the formation of a considerable amount of longer-lived excited state population, which is not accessible for spectroscopy and also induces fluorescence background to photon detectors. We present an alternative method to produce an atomic beam, consisting exclusively of ground-state atoms. Negative ions are neutralized in-flight by photodetachment and are subsequently used for fluorescence spectroscopy. As a test candidate, a negative boron ion beam was produced in a cesium sputtering source and superimposed with a co-propagating high-power pulsed infrared laser. The neutral atoms were subsequently excited along the $2s^2 2p\\,{}^{2\\!}P_{1/2,3/2} \\rightarrow 2s^2 3s\\,{}^{2\\!}S_{1/2}$ transitions by a continuous-wave laser at about 250 nm. The statistics and efficiency were limited by the combination of a continuous ion beam with a low-repetition-rate laser, but a clear route for the improvement combining existing techniques is presented, which can then be applied to other elements as well as negative molecular ions.         ",
+    "url": "https://arxiv.org/abs/2607.16048",
+    "authors": [
+      "L. Renth",
+      "P. Imgram",
+      "B. Maass",
+      "D. Hanstorp",
+      "J. Kr\u00e4mer",
+      "D. Koestel",
+      "D. Lu",
+      "W. N\u00f6rtersh\u00e4user",
+      "T. Walther"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16067",
+    "title": "Optical Control of Chirality by Ultrafast Symmetry Breaking in Membrane Metasurfaces",
+    "abstract": "           Chirality Chirality underpins a wide range of light-matter interactions, yet methods for its dynamic control in photonic systems remain limited. Here, we demonstrate ultrafast all-optical control of chirality in silicon metasurfaces through transient symmetry breaking. Our approach exploits photonic eigenstates of opposite spatial parity engineered to be highly susceptible to symmetry perturbations. Optical excitation generates free carriers that establish a transient refractive-index gradient across the membrane thickness, breaking out-of-plane mirror symmetry and facilitating hybridization of the parity-opposite modes into chiral photonic states. This enables the reversible creation and modulation of chirality on a 10-100 ps timescale, manifested by pronounced changes in the metasurface circular dichroism. By dynamically reconfiguring a fundamental symmetry property of the photonic structure rather than merely its optical response, our work establishes a route towards ultrafast control of chiral light-matter interactions and opens opportunities for active nanophotonic and information processing technologies.         ",
+    "url": "https://arxiv.org/abs/2607.16067",
+    "authors": [
+      "Nikita Glebov",
+      "Alena Mamonova",
+      "Olesia Pashina",
+      "Felix Ulrich Brikh",
+      "Aleksei Ezerskii",
+      "Sergey V. Makarov",
+      "Mihail Petrov",
+      "Maxim Gorkunov",
+      "Ivan Sinev",
+      "Hatice Altug"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16129",
+    "title": "Nonadiabatic excited-state dynamics with quantum Monte Carlo-trained machine learning: azomethane as a stringent test",
+    "abstract": "           We introduce quantum Monte Carlo (QMC)-trained multi-state machine-learned (ML) force fields for nonadiabatic excited-state dynamics, targeting photochemical processes in which the electronic character changes along the reaction path and a consistent correlated description is required. In this framework, variational Monte Carlo wave functions combine compact selected configuration-interaction expansions with a Jastrow factor that explicitly accounts for dynamical correlation, while neural networks convert the stochastic QMC data into smooth potential energy surfaces for large surface-hopping ensembles. We apply this approach to azomethane, a demanding test case involving torsional relaxation through conical-intersection regions and C--N bond dissociation on the hot ground state. Benchmark calculations support the accuracy of the QMC reference data and show robust force convergence across isomerization and dissociation geometries. The QMC-trained dynamics preserves the expected photoisomerization mechanism, strongly reduces the excessive C--N breaking obtained with complete active space self-consistent field, and predicts a small but non-negligible prompt dissociation component after internal conversion, with a timescale consistent with femtosecond-resolved mass-spectrometry experiments. These results establish QMC-ML as a practical route to nonadiabatic photochemical dynamics with accurate wave-function reference data.         ",
+    "url": "https://arxiv.org/abs/2607.16129",
+    "authors": [
+      "Alfonso Annarelli",
+      "Emiel Slootman",
+      "Claudia Filippi"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16157",
+    "title": "Broadband Multi-Aperture Passive Scholte-Wave Imaging Using Seabed Distributed Acoustic Sensing",
+    "abstract": "           Shallow-water ocean forcing provides strong broadband passive Scholte-wave illumination along a seabed distributed acoustic sensing cable on the Texas Gulf Coast. We exploit this illumination through direct processing of the uncorrelated wavefield, long-duration frequency-wavenumber stacking, and a multi-aperture strategy that preserves high-frequency spatial localization while resolving low-frequency modes. Constant-wavenumber slices enable spatially consistent multimode tracking across successive array centers. The resulting dispersion spans approximately 0.3-4.5 Hz and supports 400 one-dimensional inversions along a 51-km cable segment. These profiles form a pseudo-2D shear-wave velocity model extending from the near seafloor to approximately 2 km depth. Broad shallow low-velocity intervals are consistent with softer incised-valley fill within stiffer Pleistocene deposits. The results demonstrate that existing seabed fiber infrastructure, when coupled with strong shallow-water passive illumination, can deliver broadband regional shear-wave imaging, while higher-frequency active sources remain necessary to resolve the uppermost several meters.         ",
+    "url": "https://arxiv.org/abs/2607.16157",
+    "authors": [
+      "Anna Titova",
+      "Andrey Bakulin"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16176",
+    "title": "Quantum scanning synthetic optical holography",
+    "abstract": "           Synthetic optical holography (SOH) introduced holographic reconstruction into scanning optical microscopy, enabling quantitative phase imaging with sequential acquisition and point detection. Here, we extend this concept to the quantum regime by implementing SOH within quantum imaging with undetected light (QIUL). By integrating a controlled synthetic phase carrier into a scanning QIUL implementation, we retrieve amplitude and phase images of objects probed by mid-infrared (MIR) photons while detecting only their visible partners. We demonstrate the method on binary, transparent, and biological samples, showing complex-field reconstruction in a scanning quantum imaging system. This approach decouples spatial resolution from photon-pair spatial correlations and establishes a route toward diffraction-limited, label-free MIR phase imaging with visible-wavelength detection.         ",
+    "url": "https://arxiv.org/abs/2607.16176",
+    "authors": [
+      "Josu\u00e9 R. Le\u00f3n-Torres",
+      "Byron Caiza",
+      "Nadia Baumann",
+      "Sebastian T\u00f6pfer",
+      "Anna M\u00fchlig",
+      "Orlando Guntinas-Lichius",
+      "Karin Burger",
+      "Frank Setzpfandt",
+      "Markus Gr\u00e4fe",
+      "Valerio Flavio Gili"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.15365",
+    "title": "Induction-heated resonant reactors for electrified thermochemistry",
+    "abstract": "           We present induction-heated resonant reactors, a new concept in electrified thermochemistry in which the reactor itself serves as a volumetric electromagnetic resonator heated through resonant wireless power transfer. We use the Swiss roll resonator as a model system and show that it can be designed to support uniform volumetric heating profiles and enhanced heat transfer characteristics, creating opportunities for process intensification in scaled systems. Compared to conventional (i.e., non-resonant) induction heating systems, resonant reactors can achieve exceptionally high system efficiencies through the combination of near-unity power-to-heat efficiencies and low thermal losses, both enabled by the utilization of resonant energy transfer. These concepts demonstrate how the integration of electromagnetic power transduction with thermochemical reaction engineering enables new opportunities for utilizing green electricity in sustainable chemical conversion.         ",
+    "url": "https://arxiv.org/abs/2607.15365",
+    "authors": [
+      "Connor Cremers",
+      "Chenghao Wan",
+      "Calvin H. Lin",
+      "Zhennan Ru",
+      "Kesha Tamakuwala",
+      "Ariana B. Hofelmann",
+      "Dolly Mantle",
+      "Matthew W. Kanan",
+      "Juan Rivas-Davila",
+      "Jonathan A. Fan"
+    ],
+    "subjectives": [
+      "Systems and Control (eess.SY)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16011",
+    "title": "Negative quantum friction in nanoscale water flows: the Wigner picture",
+    "abstract": "           We explore the phenomenon of \"quantum\" friction based on a single-particle model patterned after the Wigner equation describing electrons flow in a solid wall confining nanoscale water flows. The numerical simulations show a clear signature of negative quantum friction, namely a net momentum transfer from the electrons in the solid wall to the flowing water molecules. Such net momentum transfer results into a sizeable reduction of the water friction, up to forty percent, depending on the strength of the coupling between classical and quantum fluctuations. Our results offer the prospect of a theoretical framework bridging classical and quantum description by using continuum kinetic theories and particle-based simulations.         ",
+    "url": "https://arxiv.org/abs/2607.16011",
+    "authors": [
+      "Adriano Tiribocchi",
+      "Marco Lauricella",
+      "Efthimios Kaxiras",
+      "Sauro Succi"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.16070",
+    "title": "Operator Entanglement in Quantum Dynamics Simulations: Formalism and Analysis Tools",
+    "abstract": "           We review the framework of operator Hilbert space and introduce the one- and two-particle super reduced density matrices (1-SRDMs and 2-SRDMs), as well as the super mutual information (SMI). The eigenvectors of the 1-SRDMs define what we term natural single particle operator bases, and provide a way to compress vibrational and vibronic Hamiltonians with controlled error. The SMI is defined from the operator entanglement entropy of the 1-SRDMs and 2-SRDMs, and captures the correlation between operators acting on different one-mode subspaces, which may be used to reveal and quantify both direct and indirect couplings that might otherwise be difficult to extract. Efficient numerical approaches for the calculation of SRDMs and the SMI are developed and applied to a set of prototypical vibrational and vibronic Hamiltonians, as well as approximations to the corresponding time-evolution operators. Through this, we demonstrate that: (i) commonly used vibronic Hamiltonians are amenable to extremely high levels of compression without compromising accuracy, and; (ii) SMI analysis can be used to systematically and quantitatively reveal both direct and indirect couplings that might otherwise be difficult to extract, including indirect couplings of vibrational modes via intermediary electronic-vibrational interactions.         ",
+    "url": "https://arxiv.org/abs/2607.16070",
+    "authors": [
+      "Tzu Yu Wang",
+      "Michael Schuurman",
+      "Simon Neville"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2505.19909",
+    "title": "Empowering Neural Network-based Quantum Monte Carlo with Local Pseudopotentials",
+    "abstract": "           Neural Network-based Quantum Monte Carlo (NNQMC), an emerging method for solving many-body quantum systems with high accuracy, has been mainly applied to small systems due to demanding computation requirements. In this work, we introduce a framework based on local pseudopotentials to break through such limitation, improving the computational efficiency and scalability of NNQMC. The incorporation of local pseudopotentials reduces the number of electrons treated in neural network and also achieves better relative energy accuracy than all electron NNQMC calculations for complex systems. This counterintuitive outcome is made possible by the distinctive characteristics inherent to NNQMC. Notably, by avoiding costly integration terms, this approach is also substantially more efficient than its widely used semilocal counterparts. Our approach enables the reliable treatment of large and challenging systems, such as the $\\text{Fe}_4 \\text{S}_4 (\\text{SCH}_3)_4$ iron-sulfur cluster. Overall, our findings demonstrate that the synergy between NNQMC and local pseudopotentials substantially expands the scope of accurate ab initio calculations.         ",
+    "url": "https://arxiv.org/abs/2505.19909",
+    "authors": [
+      "Weizhong Fu",
+      "Ryunosuke Fujimaru",
+      "Ruichen Li",
+      "Yuzhi Liu",
+      "Xuelan Wen",
+      "Xiang Li",
+      "Kenta Hongo",
+      "Liwei Wang",
+      "Tom Ichibha",
+      "Ryo Maezono",
+      "Ji Chen",
+      "Weiluo Ren"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.05321",
+    "title": "Unsupervised Deep Learning for Inverse Problems in Computed Tomography",
+    "abstract": "           Assume you encounter an inverse problem that shall be solved for a large number of data, but no ground-truth data is available. To emulate this, in this study we assume it is unknown how to solve the imaging problem of Computed Tomography. We introduce an unsupervised deep learning framework that leverages the inherent similarities between iterative reconstruction, Deep Image Prior (DIP), and unrolled optimization schemes. Our specific contribution is a training framework for amortized reconstruction: After training on a dataset without any image-domain ground truth, reconstruction of an unseen scan reduces to a single network forward pass. We demonstrate the feasibility of reconstructing images from measurement data by pure network inference, without additional gradient steps for unseen samples. Our method is evaluated on the two-dimensional 2DeteCT dataset. Within a controlled, geometry-matched benchmark, our reconstructions are competitive with, or better than, filtered back-projection, maximum-likelihood reconstruction, and a supervised network of identical architecture. Compared to a per-image DIP baseline, our method reaches similar quality while replacing the costly per-instance optimization with a single forward pass, yielding a speed-up of about four orders of magnitude. This makes it a promising candidate for time-critical imaging applications. Future work will address multi-dataset adaptability, counter-measures against over-smoothing, advanced uncertainty quantification, and further medical-imaging inverse problems.         ",
+    "url": "https://arxiv.org/abs/2508.05321",
+    "authors": [
+      "Laura Hellwege",
+      "Johann Christopher Engster",
+      "Moritz Schaar",
+      "Thorsten M. Buzug",
+      "Maik Stille"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.21428",
+    "title": "Atomic clock frequency ratios with fractional uncertainty $\\leq 3.2 \\times 10^{-18}$",
+    "abstract": "           We report high-precision frequency ratio measurements between optical atomic clocks based on $^{27}$Al$^+$, $^{171}$Yb, and $^{87}$Sr. With total fractional uncertainties at or below $3.2 \\times 10^{-18}$, these measurements meet an important milestone criterion for redefinition of the second in the International System of Units. Discrepancies in $^{87}$Sr ratios at approximately $1\\times10^{-16}$ and the Al$^+$/Yb ratio at $1.6\\times10^{-17}$ in fractional units compared to our previous measurements underscore the importance of repeated, high-precision comparisons by different laboratories. A key innovation in this work is the use of a common ultrastable reference delivered to all clocks via a 3.6 km phase-stabilized fiber link between two institutions. Derived from a cryogenic single-crystal silicon cavity, this reference improves comparison stability by a factor of 2 to 3 over previous systems, with an optical lattice clock ratio achieving a fractional instability of $1.3 \\times 10^{-16}$ at 1 second. By enabling faster comparisons, this stability will improve sensitivity to non-white noise processes and other underlying limits of state-of-the-art optical frequency standards.         ",
+    "url": "https://arxiv.org/abs/2512.21428",
+    "authors": [
+      "Alexander Aeppli",
+      "Willa J. Arthur-Dworschack",
+      "Kyle Beloy",
+      "Caitlin M. Berry",
+      "Tobias Bothwell",
+      "Angela Folz",
+      "Tara M. Fortier",
+      "Tanner Grogan",
+      "Youssef S. Hassan",
+      "Zoey Z. Hu",
+      "David B. Hume",
+      "Benjamin D. Hunt",
+      "Kyungtae Kim",
+      "Amanda Koepke",
+      "Dahyeon Lee",
+      "David R. Leibrandt",
+      "Ben Lewis",
+      "Andrew D. Ludlow",
+      "Mason C. Marshall",
+      "Nicholas V. Nardelli",
+      "Harikesh Ranganath",
+      "Daniel A. Rodriguez Castillo",
+      "Jeffrey A. Sherman",
+      "Jacob L. Siegel",
+      "Suzanne Thornton",
+      "William Warfield",
+      "Jun Ye"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.10622",
+    "title": "Sub-Hz Stability and Correlation in Pair-Generated Primary Kerr Comb Tones",
+    "abstract": "           Kerr microcombs provide a compact route to broadband optical frequency grids, yet the primary comb states formed at the onset of Kerr-comb generation have received little attention as metrological objects. Here we characterize the coherence and frequency stability of pair-generated primary-comb tones in a silicon nitride microresonator using synchronized multi-channel frequency counting referenced to a hydrogen-maser-stabilized difference-frequency comb, enabling direct measurement of temporal fluctuations and correlations among the pump, signal, and idler tones. We show that the generated tones are strongly constrained by parametric energy conservation: under weakly locked conditions with MHz-level frequency excursions, the residual deviation from $2f_p=f_s+f_i$ remains sub-hertz in the mean, and the signal-idler regression deviates from the ideal $-1$ response by only $2.4\\times10^{-9}$. When two of the three tones are tightly phase-locked, the energy-conservation residual of the full pump-signal-idler triad, equivalently the deviation of the measured idler from the value inferred from the locked pump and signal, reaches a fractional-instability floor near $6 \\times 10^{-16}$ at $\\tau\\approx100~\\mathrm{s}$. This demonstrates metrological-level preservation of the parametric constraint while revealing subtle mode-dependent noise transfer. Together, these results establish primary Kerr tones as a strongly correlated chip-scale parametric frequency triad suitable for demanding precision-frequency applications.         ",
+    "url": "https://arxiv.org/abs/2607.10622",
+    "authors": [
+      "Konstantin Khrizman",
+      "Andrei Diakonov",
+      "Liron Stern"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.14691",
+    "title": "Summary of quality control (QC) of ATLAS18 production ITk strip sensors",
+    "abstract": "           To address the demanding operational requirements of the High-Luminosity upgrade of the Large Hadron Collider (HL-LHC), the ATLAS experiment is replacing its current Inner Detector with a new all-silicon Inner Tracker (ITk). The ITk will feature an active area of 165 m2, with its outer tracking layers populated by approximately 18,000 ATLAS18 n+-in-p silicon strip sensors. The silicon sensors, available in eight geometries tailored to two barrel and six endcap types, respectively, are designed to tolerate fluences of up to 1.6 x 10^15 neq/cm2 and ionizing doses of 66 Mrad. A comprehensive, multi-year Quality Control (QC) program is underway across multiple international institutes to evaluate these ITk strip sensors for mechanical and electrical conformity. The QC process includes IV/CV characterization, full strip tests, long-term current stability monitoring, visual inspection, and metrology tests. To manage the high throughput of about 500 sensors per month, the collaboration has implemented standardized test procedures, software packages for data monitoring and integrity checks, unified data formats, and automated analysis tools. The standardization ensures consistent pass/fail evaluation and centralized data handling that enables effective identification of trends and anomalies at all sites during the production. This contribution presents an overview of the ITk strip sensor production and QC framework, along with key findings throughout the whole production, such as charge-up of sensors, stability of the leakage currents, nonrecoverable IV breakdown, and low inter-strip isolation within wafers. It provides insights into sensor yield, quality trends, and reviews specific case studies, such as p-stop doping non-uniformity. Over 91% of the production, totaling over 590 batches, were tested and accepted. Six batches were rejected. These account for 2.8% of the total tested sensors.         ",
+    "url": "https://arxiv.org/abs/2607.14691",
+    "authors": [
+      "P. Federi\u010dov\u00e1a",
+      "A. Affolder",
+      "K. Affolder",
+      "A. Awais",
+      "G.A. Beck",
+      "A. J. Bevan",
+      "Z. Chen",
+      "J. Dandoy",
+      "I. Dawson",
+      "V. Fadeyev",
+      "J. Fernandez-Tejero",
+      "E. C. Hill",
+      "S. Hirose",
+      "L. Hommels",
+      "T. Ivison",
+      "C. Jessiman",
+      "K. Kariyapperuma",
+      "S. Katznelson",
+      "J. Keller",
+      "C. T. Klein",
+      "T. Koffas",
+      "I. Kopsalis",
+      "J. Koz\u00e1kov\u00e1",
+      "J. Kroll",
+      "M. K\u016ftov\u00e1",
+      "J. Kvasni\u010dka",
+      "K. Maeyama",
+      "R.R. Marcelo Gregorio",
+      "F. Martinez-Mckinney",
+      "M. Mike\u0161t\u00edkov\u00e1",
+      "P. S. Miyagawa",
+      "L. Morelos-Zaragoza",
+      "K. Nakamura",
+      "Q. Paddock",
+      "K. Sato",
+      "E. Staats",
+      "P. T\u016fma",
+      "M. Ullan",
+      "Y. Unno",
+      "Y. Zhao",
+      "S. C. Zenz"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2405.05093",
+    "title": "Hierarchical approach to quantum many-body systems in non-Markovian environments",
+    "abstract": "           Quantum many-body systems in cavities combine the rich physics of condensed matter systems or quantum chemistry with strong coupling to the surrounding electromagnetic field. In these systems, large Hilbert spaces, many-body interactions and strong system-environment coupling are all fundamental, posing a significant barrier for established methods in quantum optics and condensed matter physics. Here we propose a novel method based on a combination of the Bogoliubov-Born-Green-Kirkwood-Yvon (BBGKY) hierarchy and the Hierarchical Equations of Motion (HEOM) to achieve a rigorous description of open many-body systems in contact with structured photonic and phononic baths. We rationalize that this stacked hierarchy accounts for spin-squeezing and superradiant emission despite its applicability to arbitrarily many emitters. The potential of BBGKY-HEOM is then demonstrated for many-body electronic systems embedded in host materials (e.g. molecules in organic crystals). We show that the impact of phononic coupling and charge noise can be as relevant as electronic correlation. Our work establishes an accessible, yet rigorous, route between condensed matter and quantum optics, fostering the growth of a new domain at their interface.         ",
+    "url": "https://arxiv.org/abs/2405.05093",
+    "authors": [
+      "Kai M\u00fcller",
+      "Kimmo Luoma",
+      "Christian Sch\u00e4fer"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.22158",
+    "title": "Quantum Simulation of Ligand-like Molecules through Sample-based Quantum Diagonalization in Density Matrix Embedding Framework",
+    "abstract": "           The accurate treatment of electron correlation in extended molecular systems remains computationally challenging using classical electronic structure methods. Hybrid quantum-classical algorithms offer a potential route to overcome these limitations; however, their practical deployment on existing quantum computers requires strategies that both reduce problem size and mitigate hardware noise. In this work, we investigate ground-state energy calculations of ligand-like molecules using Sample-based Quantum Diagonalization (SQD) within the Density Matrix Embedding Theory (DMET) framework, focusing on low-symmetry systems with diverse bonding motifs that exhibit subsystem-dependent variations in fragment-environment entanglement. These entanglement-based variations directly influence bath orbital construction, impurity sizes, and the structure of the embedded Hamiltonians, posing nontrivial challenges for both embedding and quantum sampling. By combining DMET fragmentation with SQD-based construction of reduced configuration spaces through quantum sampling and iterative configuration recovery, we perform quantum simulations on IBM's Eagle R3 (IBM Sherbrooke) and IBM's Heron R3 (IBM Boston) superconducting quantum hardware thereby, showing that the entanglement structure across embedding subsystems plays a central role in determining the efficiency and accuracy of the simulations. Despite these complexities, we show that the DMET-SQD framework yields ground-state energies in strong agreement with DMET-FCI benchmarks, achieving chemical accuracy (1 kcal/mol) across all systems studied. These results demonstrate that SQD-based quantum simulations can be robustly extended to low-symmetry, chemically realistic, industry relevant molecules, and highlight the importance of entanglement-aware embedding strategies for scalable quantum electronic structure calculations.         ",
+    "url": "https://arxiv.org/abs/2511.22158",
+    "authors": [
+      "Ashish Kumar Patra",
+      "Anurag K. S. V.",
+      "Sai Shankar P.",
+      "Ruchika Bhat",
+      "Raghavendra V.",
+      "Rahul Maitra",
+      "Jaiganesh G"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.12045",
+    "title": "Quantum Matrix-Element Estimators for Spin-Coupled Generalized Valence Bond Wavefunctions (SCGVB)",
+    "abstract": "           Valence-bond wavefunctions such as spin-coupled generalized valence bond (SCGVB) provide compact and chemically interpretable descriptions of strong correlation, but their nonorthogonal determinant structure makes quantum evaluation of overlaps and Hamiltonian matrix elements difficult. Here we introduce an ancilla-free, measurement-driven framework that reformulates these quantities as vacuum expectation values of Pauli-string operators, enabling evaluation with shallow circuits, local Clifford rotations, and computational-basis measurements, without controlled operations. We validate the method for H$_4$ along a dissociation pathway and for a 70-determinant C$_2$ active-valence benchmark. The reconstructed matrices agree with the classical L{\u00f6}wdin-based reference, while Chirgwin-Coulson weights remain chemically consistent. These results establish the proposed estimators as a low-depth, circuit-compatible formulation for evaluating SCGVB matrix elements, while making no claim of quantum computational advantage.         ",
+    "url": "https://arxiv.org/abs/2603.12045",
+    "authors": [
+      "Bruna Gabrielly"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.10987",
+    "title": "Microscopic mechanism for resonant light-enhanced pair correlations in K$_3$C$_{60}$",
+    "abstract": "           Recent experiments on K3C60 revealed a giant enhancement of the light-induced superconducting-like optical response for pump frequencies near 10 THz, with an efficiency roughly two orders of magnitude larger than for off resonant excitation. Here we show that a resonant enhancement of pair correlations arises naturally in a driven purely electronic model of K$_3$C$_{60}$ with ab initio parameters. The underlying mechanism is a symmetry constrained two-photon pathway: the first photon drives the system from the even-parity ground state to an intermediate odd-parity manifold, while the second photon induces a transition to an even-parity excited state with enhanced pair correlations. Larger-cluster calculations show that the corresponding resonance energy is strongly renormalized downward with system size and connectivity, reflecting the kinetic-energy gain of delocalized photo-excited doublon-holon configurations. A simplified single-orbital model reproduces this scaling trend and reaches a 14-site fcc cluster, where the resonant peak is pushed to 30 THz, with a trend compatible with a further reduction toward the experimental 10 THz scale in larger systems. Varying the Hubbard coupling strength, we find that the resonance is lowest and the pairing enhancement strongest near intermediate couplings, where doublon-holon excitations are both well defined and mobile. Our results establish a purely electronic mechanism for resonant light-enhanced pair correlations in K$_3$C$_{60}$ and support the interpretation of the experimental 10 THz resonance as optical access to a paired many-body excited state rather than improved metallicity. More broadly, they suggest that related resonant pathways may arise in other intermediate-coupling Hubbard materials.         ",
+    "url": "https://arxiv.org/abs/2604.10987",
+    "authors": [
+      "Juan I. Aranzadi",
+      "Joseph Tindall",
+      "Paul Fadler",
+      "Michael A. Sentef"
+    ],
+    "subjectives": [
+      "Superconductivity (cond-mat.supr-con)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.14308",
+    "title": "An end-to-end quantum algorithm for weakly nonlinear plasma physics with superquadratic speedup",
+    "abstract": "           Nonlinear kinetic plasma simulation is high-dimensional and classically demanding, while quantum algorithms face different bottlenecks: embedding nonlinear dynamics into a linear computation, loading dense field-interaction data, and efficiently extracting information. We present an end-to-end quantum algorithm, with rigorous convergence guarantees, for a weakly nonlinear kinetic plasma model. The system describes a 3D electron-ion plasma with adiabatic electrons, kinetic ions, Debye screening, and Krook relaxation. After Fourier-Hermite truncation, the dynamics reduces to a high-dimensional quadratic ordinary differential equation. To tackle quantum bottlenecks we combine three key ingredients. First, we use a plasma free energy to identify a Lyapunov transform under which a Carleman linear embedding converges exponentially in the truncation order within a certified weakly nonlinear regime. Second, we develop a hierarchical block-encoding protocol for dense matrices, exploiting the spatial decay of the field to avoid polynomial overhead from sparse access encodings. Third, we introduce a subroutine for information extraction that exploits nonlinear components encoded in the full Carleman history state to improve the estimation of linear observables. We construct a quantum algorithm to estimate the spacetime-averaged kinetic energy using $\\widetilde{O}\\!\\left( N_F N_H^{1/2} \\operatorname{polylog}\\!\\left(\\frac{T}{\\epsilon}\\right)\\frac{1}{\\epsilon}\\right)$ gates and $\\widetilde{O}\\!\\left(\\log\\!\\left(N_F N_H^{1/2}T\\right)\\log\\!\\left(\\frac{1}{\\epsilon}\\right)\\right)$ qubits, where $N_F$ and $N_H$ are the Fourier and Hermite cutoffs. Relative to a Fourier-Hermite spectral solver, this yields exponential memory savings and superquadratic improvements in time. Together, these results establish a controlled nonlinear plasma benchmark for quantum simulation.         ",
+    "url": "https://arxiv.org/abs/2607.14308",
+    "authors": [
+      "Bjorn K. Berntson",
+      "David Jennings",
+      "Matteo Lostaglio",
+      "Scott Parker"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  }
+]
