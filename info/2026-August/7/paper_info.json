@@ -1,0 +1,499 @@
+[
+  {
+    "id": "arXiv:2608.05252",
+    "title": "Reduction of intrinsic losses in nanomechanical silicon nitride resonators through thermal treatment in ultrahigh vacuum",
+    "abstract": "           Since the discovery of dissipation dilution, silicon nitride (SiN) nanomechanical resonators have set the benchmark for ultracoherent mechanical systems, with geometry and strain engineering driving remarkable gains in the $f \\cdot Q$ product. Surface loss, however, has remained the dominant and largely unaddressed dissipation channel. Here, we demonstrate a geometry-independent approach that directly targets surface loss: thermal treatment in ultrahigh vacuum. Treatment at 1000$^{\\circ}$C enhances the intrinsic quality factor of dissipation-diluted SiN membrane resonators by up to a factor of 20, reduces the surface loss eightfold, and simultaneously increases the tensile stress. Photothermal infrared spectroscopy and $\\textit{in situ}$ X-ray photoelectron spectroscopy trace the enhancement to thermally activated silanol condensation - the conversion of surface hydroxyl terminations into siloxane bridges - and the reversibility of both quality factor and stress under controlled humidity confirms the surface-chemical origin. These results establish surface chemistry as a tunable parameter for next-generation ultracoherent nanomechanical resonators.         ",
+    "url": "https://arxiv.org/abs/2608.05252",
+    "authors": [
+      "Nicola Cavalleri",
+      "Ariane Giesriegl",
+      "Robert G. West",
+      "Kostas Kanellopulos",
+      "Saeed Rasouli",
+      "Daniele Nazzari",
+      "Pedram Sadeghi",
+      "Sebastian Alberti",
+      "Antonius Armanious",
+      "Silvan Schmid"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05488",
+    "title": "Inverse mask design for interference lithography using automatic differentiable wave propagation",
+    "abstract": "           Interference lithography (IL) is powerful for fabricating high-resolution periodic nanostructures, but designing masks to produce non-periodic patterns remains challenging. We introduce a gradient-based optimization framework for binary IL mask design using automatic differentiation. The forward model is implemented using the differentiable angular spectrum method (ASM). The inverse mask design is formulated as an optimization problem, where the mask logits are updated through backpropagation of the loss between the simulated field amplitude and the target pattern. We optimize a mask that reproduces a target pattern with only 0.1% isolated pixel-level defects, resolving features at half the mask pixel pitch. To scale mask optimization, we employ the shifted ASM, which partitions the mask into patches that are propagated independently and summed at the image plane. For a 3.84 mm$\\times$3.84 mm mask, shifted ASM with 16 patches reduces peak GPU memory by 3.8$\\times$ at only 1.3$\\times$ runtime cost relative to standard ASM. With gradient checkpointing, peak memory is reduced by 7.4$\\times$ at 2$\\times$ runtime. Distributing across multiple GPUs further accelerates the optimization. This work establishes a physics-informed, machine learning-driven approach for IL mask design, moving a step further towards complex, non-periodic patterns. The source code is available at this https URL .         ",
+    "url": "https://arxiv.org/abs/2608.05488",
+    "authors": [
+      "Chuntian Cao",
+      "Jangwoon Sung",
+      "Jack Griffiths",
+      "Yuan Gao",
+      "Xi Yu",
+      "Paul Baity",
+      "Nikhil Tiwale",
+      "Zhitian Shi",
+      "Juhong Ahn",
+      "Shinjae Yoo",
+      "Yong S. Chu",
+      "Chang-Yong Nam"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05590",
+    "title": "X-ray Driven Trihydrogen Formation on Silica Nanosurfaces",
+    "abstract": "           The trihydrogen cation ($\\mathrm{H_3^+}$) initiates the ion-molecule reactions that build molecular complexity in interstellar space. Whether its canonical formation reaction, $\\mathrm{H_2^+ + H_2 \\rightarrow H_3^+ + H}$, proceeds on inorganic surfaces under radiation-driven ionization has remained untested. Here we drive $\\mathrm{H_3^+}$ formation on hydrated silica nanoparticles using intense 1.88 keV X-ray pulses, combining ion velocity map imaging, electron time-of-flight spectroscopy, and single-particle coherent diffractive imaging to resolve this chemistry on individual particles. The self-induced surface electric field on the V/nm scale drives interfacial charge transfer and water fragmentation. This field is the dominant parameter governing the relative yields of $\\mathrm{H^+}$, $\\mathrm{H_2^+}$, and $\\mathrm{H_3^+}$ across particle size, composition, and aggregation. Density functional theory and nonadiabatic quantum molecular dynamics simulations trace this field-driven charge transfer, directly analogous to band bending at semiconductor photoelectrodes. These results establish surface-field-driven charge transfer as a unifying mechanism between radiation dominated astrophysical environments and field-driven surface catalysis.         ",
+    "url": "https://arxiv.org/abs/2608.05590",
+    "authors": [
+      "Samuel Sahel-Schackis",
+      "Adam Summers",
+      "Ritika Dagar",
+      "Alexandra Feinberg",
+      "Martin Grassl",
+      "Simon Dold",
+      "Rebecca Boll",
+      "Yevheniy Ovcharenko",
+      "Chris Aikens",
+      "Cesar Costa Vera",
+      "Alberto De Fanis",
+      "Avijit Duley",
+      "Felix Gerke",
+      "Daniel Jost",
+      "Regina Leiner",
+      "Michael Meyer",
+      "Ilana J. P. Molesky",
+      "Razib Obaid",
+      "Jeffrey Powell",
+      "Nils Rennhack",
+      "Bj\u00f6rn Senfftleben",
+      "Hendrik Tackenberg",
+      "Paul Tuemmler",
+      "Sergey Usenko",
+      "Christian Peltz",
+      "Thomas Fennel",
+      "Markus Gallei",
+      "Eckart R\u00fchl",
+      "Artem Rudenko",
+      "Daniel Rolles",
+      "Thomas Linker",
+      "Matthias F. Kling"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Astrophysics of Galaxies (astro-ph.GA)",
+      "Atomic and Molecular Clusters (physics.atm-clus)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05652",
+    "title": "Spectrally flat and broadband doublepumped fiber optical parametric amplifiers",
+    "abstract": "           We study theoretically and experimentally spectrally flat and broadband double-pumped fiber-optical parametric amplifiers (2P-FOPAs). Closed formulas are derived for the gain ripple in 2P-FOPAs as a function of the pump wavelength separation and power, and the fiber non-linearity and fourth order dispersion coefficients. The impact of longitudinal random variations of the zero dispersion wavelength $\\lambda_0$ on the gain flatness is investigated. Our theoretical findings are substantiated with experiments using conventional dispersion shifted fibers and highly nonlinear fibers (HNLFs). By using a HNLF having a low variation of $\\lambda_0$ we demonstrate high gain and flat spectrum ($25 \\pm 1.5\\text{ dB}$) over $115\\text{ nm}$.         ",
+    "url": "https://arxiv.org/abs/2608.05652",
+    "authors": [
+      "J. M. Chavez Boggio",
+      "J. D. Marconi",
+      "S. R. Bickham",
+      "H. L. Fragnito"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05932",
+    "title": "Harnessing thermo-optic dynamics for frequency-agile soliton microcombs",
+    "abstract": "           Dissipative Kerr soliton microcombs enable compact and scalable frequency comb sources for precision metrology, spectroscopy, communications and coherent LiDAR, where broad and reliable frequency tuning is essential. Thermo-optic response can support thermal locking during soliton operation, enabling resonance tracking and thereby extending the tuning range, albeit modestly. However, it also induces pronounced thermal instability during soliton initiation, hindering reliable access to this extended operating regime and limiting practical deployment in applications requiring frequency agility. Here we show that strong mode coupling reshapes the effective detuning trajectory governing soliton formation, establishing a distinct operating regime in which thermo-optic response is significantly reinforced and constructively harnessed. In this regime, soliton formation proceeds without the thermal instability inherent to conventional operation, enabling robust soliton generation in material platforms previously limited by strong thermal effects. Importantly, the enhanced thermo-optic response strengthens thermal locking during soliton operation, enabling more effective resonance tracking and substantially extending the tuning range. Leveraging this regime in AlGaAs-on-insulator multimode microresonators, we demonstrate soliton generation with a tuning range approaching 100 GHz at a pump power of 32 mW. The same mechanism further enables frequency-agile operation through direct pump-frequency tuning without auxiliary stabilization, allowing massively parallel chirped comb generation with more than 90 channels exhibiting frequency excursions exceeding 10 GHz. These results establish a general operating principle for transforming thermo-optic effects from a limiting factor into an active resource, enabling robust and frequency-agile integrated soliton microcombs.         ",
+    "url": "https://arxiv.org/abs/2608.05932",
+    "authors": [
+      "Yang Liu",
+      "Suwan Sun",
+      "Yueguang Zhou",
+      "Yanjing Zhao",
+      "Chaochao Ye",
+      "Xinda Lu",
+      "Yi Zheng",
+      "Leif Kastuo Oxenl\u00f8we",
+      "Kresten Yvind",
+      "Hairun Guo",
+      "Minhao Pu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06160",
+    "title": "Simulation of positronium laser cooling using the Lindblad master equation",
+    "abstract": "           We present a formulation and numerical results for positronium (Ps) laser cooling. The formulation is based on the Lindblad master equation and follows the time evolution of the density matrix of Ps atoms. It therefore accounts for atomic coherence, which is necessary to describe the interaction of Ps with the train of short laser pulses generated by the system developed by Shu $\\textit{et al.}$ [K. Shu $\\textit{et al.}$, Phys. Rev. A $\\textbf{109}$, 043520 (2024)]. Using this formulation, we calculate the time evolution of the populations in each internal and momentum state and thereby quantitatively predict the momentum distribution after laser cooling. We present the representative time evolution of the internal-state populations and momentum distribution, together with a comprehensive scan of the laser parameters used to optimize the cooling efficiency. A prominent feature of the simulated distributions is sub-recoil cooling through velocity-selective coherent population trapping, a coherent effect captured by the quantum-mechanical treatment.         ",
+    "url": "https://arxiv.org/abs/2608.06160",
+    "authors": [
+      "Kenji Shu",
+      "Sohma Shiraishi",
+      "Kosuke Yoshioka"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06169",
+    "title": "Dual-Faraday-laser-pumped cesium beam clock with $7.7\\times 10^{-13}/\\sqrt\u03c4$ frequency stability",
+    "abstract": "           Compact cesium beam clocks are major frequency references for deployable timing systems. However, further improvement of their short-term frequency stability is limited by the clock signal-to-noise ratio (SNR). Although two-laser optical pumping can increase the effective atomic utilization, the achievable clock SNR has long been limited by laser-induced frequency-to-amplitude noise conversion. Here, we demonstrate a compact dual-Faraday-laser-pumped (DFP) Cs beam clock enabled by a low-frequency-noise atom-referenced laser architecture. The intracavity Faraday anomalous dispersion optical filter provides inherent alignment to the Cs D$_2$ resonances, while modulation transfer spectroscopy offers suppressed frequency noise and drift. The resulting laser system supports robust turnkey operation with a Lorentzian linewidth of 2.12 kHz. The DFP Cs clock achieves a clock SNR of 46,365 in a 1-Hz bandwidth and a fractional Allan deviation of $7.7\\times 10^{-13}/\\sqrt\\tau$ , with Hadamard deviation reaching $7.7\\times 10^{-15}$ at 10,000 s. This work pushes the fractional frequency stability of a compact Cs beam clock into the $10^{-13}/\\sqrt\\tau$ regime, providing a pathway toward high-performance Cs frequency references for field-deployable precision timing, navigation, and synchronization.         ",
+    "url": "https://arxiv.org/abs/2608.06169",
+    "authors": [
+      "Xiaomin Qin",
+      "Suyang Wei",
+      "Haijun Chen",
+      "Yufei Yan",
+      "Qiang Wei",
+      "Hangbo Shi",
+      "Zhiyang Wang",
+      "Zheng Xiao",
+      "Zijie Liu",
+      "Tiantian Shi",
+      "Jingbiao Chen"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06185",
+    "title": "Differentiable eigendecomposition-free rigorous coupled-wave analysis for general photonic structures",
+    "abstract": "           For periodic photonic structures with full permittivity and permeability tensors and arbitrarily oriented optical axes, we present, to the best of our knowledge, the first anisotropic rigorous coupled-wave analysis framework that supports automatic differentiation and efficient GPU acceleration. The method formulates intralayer propagation as a boundary-value problem and directly constructs the scattering matrix using the precise integration method, thereby avoiding eigendecomposition of large non-Hermitian matrices. At comparable accuracy, the proposed method achieves a 25-fold speedup over the eigendecomposition-based approach. Its compatibility with automatic differentiation further demonstrates strong potential for topology optimization of anisotropic photonic structures. This framework provides an efficient computational tool for both forward analysis and inverse design of complex anisotropic devices.         ",
+    "url": "https://arxiv.org/abs/2608.06185",
+    "authors": [
+      "Enbo Yang",
+      "Qiang Song",
+      "Weiwei Cai"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06356",
+    "title": "Structured coherence: A modern perspective on optical coherence as a resource",
+    "abstract": "           Optical coherence is a well-established branch of physical optics in which the statistical properties of fluctuating optical fields are described in terms of correlation functions over continuous spatial and temporal degrees of freedom (DoFs). Nevertheless, in any practical setting, only discrete DoFs are ever accessible. In these scenarios, the modes are fixed, stable, and deterministic, and partial coherence arises from random relative complex amplitudes, a configuration we refer to as 'structured coherence'. Advances in structured coherence have recently unveiled new conceptual ground in optical communications and information processing in which partial coherence may be preferable to full coherence, which we call a 'coherence advantage'. We formulate structured coherence in terms of coherence matrices to investigate these recent theoretical and experimental breakthroughs. We first review optical fields characterized by a binary DoF via 2x2 Hermitian coherence matrices and introduce key concepts that take on new significance for larger-dimensional modal sets. Next, we examine the structured coherence of two binary DoFs, which can be described by 4x4 coherence matrices. We introduce the concept of coherence rank, entropy swapping, and optical cross-purity. In the perspective outlined here, coherence is viewed as a 'resource', which can be exchanged between DoFs, concentrated into a DoF or into particular modes, or spread over the DoFs. We then examine larger-dimensional modal sets, which allow for more versatile applications in optical information processing. The formulation presented here lends itself particularly to the manipulation of partial optical coherence in integrated photonic platforms, thereby opening myriad avenues for novel fundamental investigations of structured coherence and exploiting the coherence advantage in optical communications and information processing.         ",
+    "url": "https://arxiv.org/abs/2608.06356",
+    "authors": [
+      "Ayman F. Abouraddy",
+      "Bahaa E. A. Saleh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05314",
+    "title": "Machine learning for sample-based quantum diagonalization: generative configuration recovery and the classical-simulability frontier",
+    "abstract": "           Sample-based quantum diagonalization (SQD), equivalently quantum-selected configuration interaction (QSCI), has in two years become a pragmatic centre of gravity of pre-fault-tolerant quantum chemistry: a quantum processor samples electronic configurations, and the many-electron Hamiltonian is diagonalized classically in the resulting determinant subspace. Its accuracy is set entirely by which configurations enter that subspace, a selection problem for machine learning made acute by a coupon-collector bottleneck. We critically review the ecosystem of generative and learned selectors, organizing it by the object each method generates and the importance signal it exploits, and expose one conspicuous gap: a reward-proportional generative-flow-network proposer built for tail discovery. We then confront the field's central question -- whether the quantum sampler beats classical selected configuration interaction -- and report a carefully scoped negative: across published same-active-space comparisons, strong classical selected CI matches or beats the quantum-sampled subspace, and the flagship single-layer circuits now admit polynomial-time classical energy estimation. We distil a benchmarking standard and turn the negative into a regime map, then test it with FCI-exact experiments that confirm one prediction and refute another: the cheap prior's rank correlation with the exact weights declines with multireference character (a usable coordinate), but a controlled single-molecule noise sweep shows the one generative advantage we find, robustness to valid-shot starvation, to be generic rather than the multireference-specific effect a confounded contrast first suggested. Finally, we flag learning from quantum experiments, whose classical sample-complexity lower bound is an unconditional theorem, as the one adjacent frontier where a quantum advantage is provable but not yet bridged to chemistry.         ",
+    "url": "https://arxiv.org/abs/2608.05314",
+    "authors": [
+      "Nicol\u00e1s Bonilla Vargas"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05503",
+    "title": "Generating two-mechanical mode entangled cat states, and steady-state entanglement, in cavity optomechanics in the presence of dissipation",
+    "abstract": "           We investigate a dissipation-engineering approach to produce a phase-dependent collective-mode Schr\u00f6dinger cat state involving two modes. Our model features a single cavity mode that interacts with two spectrally identical mechanical oscillators. Both oscillators are coupled through a phase-dependent hopping interaction. We demonstrate that by adjusting the phase of the phonon-hopping interaction, one can control the bipartite entanglement of the phase-dependent two-mode cat state during its generation. Additionally, our study reveals that phonon interactions act as a tunable parameter, enabling the manipulation of steady-state entanglement between the bare mechanical modes, even in the presence of environmental effects and thermal excitations. Our scheme provides a feasible approach for the phase-dependent multi mode non-Gaussian states preparation.         ",
+    "url": "https://arxiv.org/abs/2608.05503",
+    "authors": [
+      "Sanket Das",
+      "Jason Twamley"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05990",
+    "title": "OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents",
+    "abstract": "           Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. It represents experimental actions as optical operators and evaluates their outcomes using physically interpretable residuals. Operators specify executable changes to measurement, control or reconstruction, while residuals report departures from specified physical conditions. The agent uses both to select, combine or generate operators, and physical performance is evaluated independently against a withheld reference. Across three optical tasks, score-only feedback produced score increases without physical improvement in 23.6--39.0\\% of decisions, compared with 0.9--1.9\\% for operator-residual feedback. Operator-residual feedback increased the probability of reaching and maintaining task targets and reduced experimental budgets. Protocols selected in digital twins were transferred to three optical instruments, and repeated experiments showed a lower projection budget in structured-light reconstruction. Together, operators and residuals guide autonomous decisions using measurable physical evidence.         ",
+    "url": "https://arxiv.org/abs/2608.05990",
+    "authors": [
+      "Ning Xu",
+      "Xiang Zheng",
+      "Fuqiang Zhong",
+      "Huadong Wang",
+      "Xiaolong Wu",
+      "Zhiyuan Liu",
+      "Hui Ning"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Applied Physics (physics.app-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06189",
+    "title": "Quantum transport in a non-Hermitian 1D synthetic lattice: from quantum Zeno reflection to near-perfect absorption",
+    "abstract": "           We experimentally explore the absorption of a propagating wavepacket impinging upon a dissipative region in an engineered quantum system. We employ a 1D non-Hermitian synthetic lattice with an abrupt interface between dissipative and non-dissipative subchains, using the states of the electronic ground-state hyperfine manifold in a $^{87}$Rb Bose-Einstein condensate as sites. By tuning the dissipation rate, we observe a progression from ballistic propagation, to near-perfect absorption, to quantum Zeno reflection. Guided by numerical simulations, we identify that optimal absorption occurs when tunneling and dissipation are properly matched, and find qualitative agreement with an idealized semi-infinite model across all dissipation regimes. Our results establish synthetic lattices as a versatile Quantum simulation platform for dissipation-engineered quantum transport and highlight controlled dissipation as a resource for tailoring quantum dynamics.         ",
+    "url": "https://arxiv.org/abs/2608.06189",
+    "authors": [
+      "Emmanuel. D. Mercado-Guti\u00e9rrez",
+      "W. Xu",
+      "E. Gvozdiovas",
+      "A. M. Pi\u00f1eiro",
+      "Javier Arg\u00fcello-Luengo",
+      "W. D. Phillips",
+      "Q. Zhou",
+      "I. B. Spielman"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.06198",
+    "title": "Numerical Model of a Multiple-Input-Multiple-Output Distributed Acoustic Sensing System with Joint Phase and Birefringence Estimation",
+    "abstract": "           In this work, we introduce and experimentally validate a numerical model for a Multiple-Input-Multiple-Output Distributed Acoustic Sensing (MIMO-DAS) system that accounts for dynamic perturbations of fiber birefringence and of the common optical phase of the backscattered signal (or polarization-averaged phase, shared by both polarization tributaries). The MIMO-DAS system probes the fiber using polarization-multiplexed constant-power coded sequences that are suited for coexistence of DAS with WDM data transmission over the same fiber. We study the effect of both axisymmetric and anisotropic events on the two quantities. We demonstrate, through numerical simulations and lab experiments, the estimation of effective birefringence magnitude in static conditions, and the joint estimation of common phase and effective birefringence magnitude in the case of dynamic longitudinal strain and anisotropic transverse strain. This allows for event discrimination and increased sensitivity to disturbances that act transversely on the fiber, since polarization will be responsive to perturbations that break cylindrical symmetry, while the phase will strongly respond to longitudinal strain.         ",
+    "url": "https://arxiv.org/abs/2608.06198",
+    "authors": [
+      "Diane Prato",
+      "Mehran Mokhtari Sheramin",
+      "Renaud Gabet",
+      "Elie Awwad"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2511.22680",
+    "title": "Integrated polarization-entangled photon source for wavelength-multiplexed quantum networks",
+    "abstract": "           Entangled photons are fundamental resources for quantum communication, computing, and networking. Among them, polarization-entangled photon pairs play an important role due to their straightforward state manipulation and direct use in quantum key distribution, teleportation, and network protocols. However, realizing compact, efficient, and scalable polarization-entangled sources that meet the requirements of practical deployment remains a major challenge. Here, we present a simple yet high-performance on-chip polarization-entangled photon-pair source on thin-film lithium niobate (TFLN). Our device employs dual quasi-phase matching (D-QPM) that sequentially supports type-0 and type-I spontaneous parametric down-conversion in a single nanophotonic waveguide, eliminating the need for interferometers, polarization rotators, or other complex circuits. The source directly produces high-fidelity Bell states with broad bandwidth, high brightness, and low noise. Using this integrated platform, we realize wavelength-multiplexed entanglement distribution in a four-user quantum network deployed over metropolitan fiber links up to 50 km. These results establish a robust and scalable pathway toward practical quantum communication systems and multi-user quantum mesh networks based on integrated photonics.         ",
+    "url": "https://arxiv.org/abs/2511.22680",
+    "authors": [
+      "Xiaodong Shi",
+      "Yue Li",
+      "Jinyi Du",
+      "Lin Zhou",
+      "Ran Yang",
+      "En Teng Lim",
+      "Sakthi Sanjeev Mohanraj",
+      "Mengyao Zhao",
+      "Xu Chen",
+      "Xiaojie Wang",
+      "Guangxing Wu",
+      "Hao Hao",
+      "Veerendra Dhyani",
+      "Sihao Wang",
+      "Alexander Ling",
+      "Di Zhu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.19105",
+    "title": "Segmentation-Engineered Ge4Sb6Te7 Switch on SOI Platform for Multilevel Non-Volatile Photonic Neural Inference",
+    "abstract": "           Phase-change materials (PCMs) have emerged as key enablers of non-volatile, ultra-compact photonic switches for energy-efficient deep neural network (DNN) applications. In this work, we investigate the recently discovered $\\mathrm{Ge_{4}Sb_{6}Te_{7}}$ (GST-467) as a high-contrast optical PCM and demonstrate its suitability for multi-level photonic computing. The complex refractive indices of amorphous and crystalline GST-467 were experimentally extracted and used to propose a segmented silicon-on-insulator photonic switch optimized at 1550 nm. Three-dimensional FDTD simulations reveal that segmentation significantly enhances the extinction ratio while maintaining low insertion loss, resulting in a more than seven times higher design figure of merit than an unsegmented design. Laser-induced thermo-optical simulations further establish efficient, reversible switching with sub-nJ energy requirements for crystallization and amorphization. Compared with established GST, GSST, and GSS compositions, GST-467 provides the largest transmission contrast and supports up to 48 resolvable optical states. When deployed as multi-level weights in photonic DNN architectures, the GST-467 switch achieves superior classification accuracy on EMNIST and Fashion-MNIST benchmarks. These results position GST-467 as a highly promising PCM for scalable, low-energy photonic computing and neuromorphic hardware.         ",
+    "url": "https://arxiv.org/abs/2512.19105",
+    "authors": [
+      "Arpan Sur",
+      "Sudipta Saha",
+      "Chih-Yu Lee",
+      "Ichiro Takeuchi"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.00393",
+    "title": "Dual-space posterior sampling for Bayesian inference in constrained inverse problems",
+    "abstract": "           Inverse problems constrained by partial differential equations are often ill-conditioned due to noisy, incomplete data or inherent non-uniqueness. A prominent example is full waveform inversion (FWI), which estimates Earth's subsurface properties by fitting seismic measurements subject to the wave equation, where ill-conditioning stems from noisy, band-limited, finite-aperture measurements and complex geological structures. A Bayesian framework describes the solution more comprehensively: instead of a single estimate, a posterior distribution of plausible solutions characterizes the non-uniqueness and can be sampled to quantify uncertainty. However, no clear procedure exists for translating hard physical constraints, such as the wave equation, into priors amenable to existing sampling techniques. We address this by sampling the posterior in the dual space via an augmented Lagrangian formulation, which converts hard constraints into penalties suited to sampling algorithms while enforcing them progressively through multiplier updates, so they are satisfied in the limit. We integrate the alternating direction method of multipliers (ADMM) with Stein variational gradient descent (SVGD), a particle-based sampler: the constraint is relaxed at each iteration and the multiplier updates progressively enforce its satisfaction. This enables posterior sampling under hard constraints while inheriting the favorable conditioning of dual-space solvers, where partial constraint relaxation permits productive updates even when the current model is far from the true solution. We validate the method on a stylized Rosenbrock conditional inference problem and on frequency-domain FWI for a Gaussian anomaly model and the Marmousi II benchmark, demonstrating physically consistent uncertainty estimates and posterior contraction with increasing data coverage.         ",
+    "url": "https://arxiv.org/abs/2603.00393",
+    "authors": [
+      "Ali Siahkoohi",
+      "Kamal Aghazade",
+      "Ali Gholami"
+    ],
+    "subjectives": [
+      "Geophysics (physics.geo-ph)",
+      "Machine Learning (cs.LG)",
+      "Machine Learning (stat.ML)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.02978",
+    "title": "The Informational Observer in Relational Quantum Mechanics",
+    "abstract": "           Relational Quantum Mechanics (RQM) treats quantum states as observer-dependent facts rather than absolute properties. While this relational stance is conceptually attractive, it raises concerns about empirical confirmation, particularly in multi-observer scenarios. Existing responses within RQM focus on securing agreement between observers by strengthening the status, stability, or accessibility of recorded outcomes. However, they leave open a more basic question: what grounds the persistence of an observer across time? Scientific observation presupposes stable records and the capacity to relate outcomes across successive measurements. We argue that the minimal definition of the observer in RQM as a merely interacting physical system is insufficient to support this requirement. We propose a complementary account of the observer that distinguishes physical interaction from informational coherence, and show how this distinction supports empirical confirmation in Wigner's friend-type scenarios.         ",
+    "url": "https://arxiv.org/abs/2603.02978",
+    "authors": [
+      "Bethany Terris"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.14083",
+    "title": "Distributional Inverse Homogenization",
+    "abstract": "           For many materials, macroscopic mechanical behavior is determined by an intricate microstructure. Understanding the relation between these two scales helps scientists and engineers design better materials. The relation which maps microstructure to bulk material properties can be understood via the well-established theory of homogenization. However inverting the homogenization process, to recover microstructural information from measured macroscopic properties, is fraught with difficulties because of the averaging processes that underlie homogenization. Therefore, scientists and engineers usually need recourse to more invasive, often highly localized, investigations to estimate the microstructure. In this work, we develop a noninvasive methodology by which one can leverage large collections of measured bulk material properties to infer information about the statistics of microstructure at a global level. We call this, distributional inverse homogenization. We study this problem in one and two dimensions, considering both periodic and stochastic homogenization. We demonstrate the methodology in the context of 2D Voronoi constructions and underpin the observed empirical success with theory in 1D. We also show how the natural spatial variability of microstructure can be exploited to gather data that enables distributional inversion. And we concurrently learn a surrogate model, approximating the homogenization map, that accelerates the resulting computations in this setting. The work formulates a new class of inverse problems, bridging ideas from probability and homogenization to facilitate the inference of microstructural material variability from macroscopic measurements.         ",
+    "url": "https://arxiv.org/abs/2604.14083",
+    "authors": [
+      "Arnaud Vadeboncoeur",
+      "Mark Girolami",
+      "Kaushik Bhattacharya",
+      "Andrew M. Stuart"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Computation (stat.CO)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23971",
+    "title": "Physics-Guided Concentration Inference from Resistance Transients in a Mixed-Phase SnO-SnO$_2$ Carbon Monoxide Sensor with p-n Switching",
+    "abstract": "           This work presents a physics-guided machine-learning framework for carbon monoxide concentration inference from experimentally measured resistance transients of a mixed-phase SnO-SnO$_2$ material gas sensor exhibiting temperature-dependent p-n switching behavior. Cycle-level transient responses are represented through physically interpretable descriptors and complemented by compact fast Fourier transform (FFT) and discrete wavelet transform (DWT)-based summaries. Using leakage-aware grouped cross-validation, we study both multi-class concentration classification and continuous concentration regression for the p-type and n-type sensing regimes separately. Across both regimes, fused features provide the strongest overall performance, while the physics-guided descriptor block remains highly competitive, indicating that the dominant concentration information is already encoded in physically meaningful transient dynamics. The p-type branch shows the best concentration-class discrimination, with the fused Random Forest classifier reaching approximately $96.5\\%$ accuracy, whereas the n-type branch yields the best quantitative concentration estimation, with the fused Random Forest regressor achieving an MAE$\\approx 1.48$ ppm and an R$^2$ $\\approx 0.992$. These results reveal a clear dual-regime behavior: p-type sensing is particularly favorable for classification, whereas n-type sensing is more favorable for high-fidelity regression. More broadly, the study demonstrates that leakage-aware, cycle-level, physics-guided machine learning can extend conventional gas-sensing analysis beyond single-response metrics while preserving physical interpretability         ",
+    "url": "https://arxiv.org/abs/2605.23971",
+    "authors": [
+      "Sani Biswas",
+      "Preetam Singh",
+      "Amit Kumar Gangwar"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Machine Learning (cs.LG)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.26540",
+    "title": "Domain-Gated Latent Diffusion: Generative Inverse Design of HMX-Class Energetic Materials with First-Principles Validation",
+    "abstract": "           Energetic materials power mining, demolition, propulsion and airbags, yet today's compounds were designed decades ago. A successor must combine high energy release, low sensitivity to accidental initiation and a practical synthesis route, found within an astronomically large molecular space. Generative models are the natural search tool, but their training data are mostly untrustworthy: of approximately 66,000 molecules with recorded properties, only approximately 3,000 were measured or computed from first principles. Models trained on all of them imitate the rough estimates and propose molecules that collapse under real physics. We introduce Domain-Gated Latent Diffusion (DGLD), a diffusion model that treats data reliability as an explicit design parameter: labels are sorted into four trust tiers, and only trustworthy ones steer generation, while the unreliable majority still teaches the model what a plausible molecule looks like. Learned controls tune performance, safety and viability independently, and every proposal passes a four-stage screen ending in a quantum-chemical DFT audit. DGLD proposes 10 molecules unknown to PubChem that survive this screen. The best, 3,4,5-trinitro-1,2-isoxazole, matches the benchmark explosives HMX and PETN in calculated detonation performance, is unlike molecules in its training set, and has a four-step synthesis route. Trust gating is chemistry-independent and can be applied wherever abundant weak data surround a reliable core.         ",
+    "url": "https://arxiv.org/abs/2605.26540",
+    "authors": [
+      "Yehudit Aperstein",
+      "Alexander Apartsin"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.14495",
+    "title": "Microwave Resonant Discharges for Spatiotemporally Selective Plasma Breakdown Near Surfaces",
+    "abstract": "           Generating non-equilibrium plasmas close to surfaces remains a significant challenge for conventional plasma sources. Existing plasma generation schemes create volumetric discharges with limited spatial selectivity that lead to inefficient energy deposition and poor coupling between reactive intermediates and nearby surfaces. This work establishes tailored resonant field enhancement as a mechanism for prescribing where plasma forms near dielectric surfaces through microwave excitation. In this approach, the geometry, refractive index, and packing configuration of dielectric materials define resonant field structures that interfere constructively and amplify electric fields locally. Plasma forms only within these resonant volumes where the amplified fields exceed the local breakdown threshold, while the surrounding gas remains below breakdown. Microwave pulse shaping then provides dynamic control over these modes and can be used to excite different families of resonances, determine where breakdown occurs, and reconfigure what locations microplasmas occupy from one pulse to the next. We validate this framework through theory, electromagnetic simulations, and experiments using a pair of high-permittivity dielectric resonators. These studies identify multiple resonant mode families, demonstrate dynamic repositioning of microplasmas between prescribed breakdown sites, quantify the ignition characteristics of each mode, and confirm that multiple resonant microplasmas remain confined to localized field-enhancement regions during a microwave pulse. Together, these results establish a framework for designing resonant dielectric materials that localize, reconfigure, and control atmospheric-pressure plasmas near surfaces.         ",
+    "url": "https://arxiv.org/abs/2607.14495",
+    "authors": [
+      "Arnav Mohapatra",
+      "Joshua K. Goodrich",
+      "Usman Humayun",
+      "Thomas C. Underwood"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.02249",
+    "title": "Phase-Drift Limits and Adaptive Quadrature Readout in Programmable Photonic Processors",
+    "abstract": "           Phase fluctuations between optical inputs limit programmable photonic processors because their output powers depend on coherent interference. We study the phase-drift penalty that arises when sine and cosine quadratures are measured sequentially rather than simultaneously. The analysis is motivated by measurements from an eight-mode programmable photonic processor, including 35 free-running recordings of 300 s acquired at approximately 125 samples per second per channel. These recordings provide an empirical route for estimating the phase-increment variance at a selected reconfiguration interval. The estimate is defined at the time of the second measurement. For fixed quadrature order, perturbation of the atan2 reconstruction gives $e_{C\\to S}=-\\delta_\\tau\\sin^2\\phi_0+O(\\delta_\\tau^2)$ and $e_{S\\to C}=-\\delta_\\tau\\cos^2\\phi_0+O(\\delta_\\tau^2)$. Writing $Q_\\tau=\\operatorname{Var}(\\delta_\\tau)$, uniform phase averaging gives the first-order drift mean-square error $3Q_\\tau/8$. A phase-predicted ordering rule measures the locally less informative quadrature first and the more informative quadrature second. Its uniform first-order penalty is $(3/8-1/\\pi)Q_\\tau$, which is 84.9 percent below the fixed-order value. We also derive an increment-aware estimator from a local state-space model. Marginalizing the unknown phase increment increases the variance of a stale phase observation by $Q_\\tau$, reducing its Fisher information from $I$ to $I/(1+IQ_\\tau)$. For ideal balanced Poisson detection, the Fisher information of each quadrature equals its detected signal-photon number. This yields dimensionless architecture boundaries in spatial information and phase-increment variance. Nonlinear Monte Carlo simulations validate the perturbative laws, quantify robustness to prediction error, and compare simultaneous, fixed-order, increment-aware, and adaptive receivers under a common noise model.         ",
+    "url": "https://arxiv.org/abs/2608.02249",
+    "authors": [
+      "G\u00f6khan Elmas",
+      "Igor A. Litvin",
+      "Janis N\u00f6tzel"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.04863",
+    "title": "Prior-Based Multi-Voltage Threshold Sampling as a Structured Inverse Problem",
+    "abstract": "           Prior-based Multi-Voltage Threshold (MVT) sampling reconstructs pulse parameters from sparse threshold-crossing times rather than full waveforms, making parameter recovery inherently a model-dependent inverse problem. However, prior-based MVT has lacked a formal mathematical statement, leaving identifiability, stochastic error propagation, and threshold design without a unified theoretical foundation. We formalize prior-based MVT for strictly unimodal pulse families as a structured inverse problem. On that foundation, we develop the first unified theory of prior-based MVT, comprising deterministic identifiability conditions, a stochastic timing-error model with leading-order mismatch bias, and a nuisance-profiled threshold-design theory centered on an effective-information equation for robust single-event and partial-trigger multi-event operation. We instantiate the framework for the bi-exponential pulse model, derive executable design recipes, and validate the resulting predictions on a 10,000-pulse $^{22}$Na/LYSO/SiPM dataset. The experiments confirm that the framework yields useful threshold designs in the photopeak regime while also revealing the regime boundary at which partial triggering and model mismatch limit the predictive power of Fisher-guided optimization. These results provide the first unified mathematical foundation for prior-based MVT and recast it from an empirical threshold heuristic as a principled inferential framework.         ",
+    "url": "https://arxiv.org/abs/2608.04863",
+    "authors": [
+      "Ao Qiu",
+      "Qingguo Xie"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Signal Processing (eess.SP)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.03014",
+    "title": "Convergence and efficiency proof of quantum imaginary time evolution for bounded order systems",
+    "abstract": "           Many current and near-future applications of quantum computing utilise parametric families of quantum circuits and variational methods that can suffer from obstacles including non-convergence to the global minimum due to local minima, critical slowing down, or exponential resource scaling. Here we show that quantum imaginary time evolution can overcome these obstacles if the underlying physical system satisfies a set of conditions. This includes many relevant applications such as ground state preparation for local theories in physics or chemistry, combinatorial optimisation problems, or quantum machine learning. In particular, we analyse the quantum imaginary time evolution showing convergence guarantees to the global minimum without critical slowing down and providing a priori estimates on the required evolution time which scale linearly in system size and inverse energy gap. Furthermore, a provided complexity analysis shows that quantum imaginary time evolution can be efficiently compiled into a parametric quantum circuit, finding the optimal parameters included, for a large class of physically relevant problems.         ",
+    "url": "https://arxiv.org/abs/2506.03014",
+    "authors": [
+      "Tobias Hartung",
+      "Karl Jansen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2601.17459",
+    "title": "Qhronology: A Python package for studying quantum models of closed timelike curves",
+    "abstract": "           Qhronology is a novel scientific-computing package for studying quantum models of closed timelike curves (CTCs) and simulating general quantum information processing and computation. Written in Python, the program provides a comprehensive framework for analyzing quantum theories of antichronological time travel, including functionality to calculate quantum resolutions to temporal paradoxes. It also operates as a complete quantum circuit simulator, enabling the examination of quantum algorithms and protocols in both numerical and symbolic capacities. In this paper, we formally introduce Qhronology, beginning with discussion on aspects of its design philosophy and architecture. An overview of its basic usage is then presented, along with a collection of examples demonstrating its various capabilities within a variety of distinct contexts. Lastly, the performance of the package's circuit simulation component is characterized by way of some simple empirical benchmarking.         ",
+    "url": "https://arxiv.org/abs/2601.17459",
+    "authors": [
+      "Lachlan G. Bishop"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.06772",
+    "title": "Fundamental Limits of Quantum Sensors for Gravitational Wave Detection",
+    "abstract": "           Recent advances in quantum sensing---optical clocks, frequency-dependent squeezing below the standard quantum limit, and quantum magnetometers---raise a natural question: can these technologies detect gravitational waves directly, or enhance existing detectors? We show that the answer is set primarily by the \\emph{coupling mechanism} between wave and sensor. From the tidal Hamiltonian in Fermi normal coordinates we identify three physically distinct mechanisms by which a gravitational wave couples directly to a quantum system, and derive their transducer gains within linearized general relativity and non-relativistic quantum mechanics. Internal atomic coupling yields a transducer gain $G_A = 2.4\\times 10^{-20}$, with vanishing first-order energy shifts for all $J=0$ clock states---a $\\sim\\!10^{35}$ deficit relative to laser interferometry. Center-of-mass (Doppler) coupling reaches strain sensitivities of $\\sim\\!10^{-18}$, still $10^4$ above LISA requirements. Only light-propagation coupling provides the enormous transducer gain that makes laser and atom interferometry viable. For detectors of this third kind we quantify the quantum enhancement accessible through the noise architecture: LISA's noise budget is predominantly classical, capping the combined enhancement at $\\mathcal{E}\\approx 1.04$, while ground-based detectors in the shot-noise-dominated regime achieve $\\mathcal{E}=1.6$--$2.1$. Atom interferometers exploit the same mechanism to target the 0.01--10~Hz band.         ",
+    "url": "https://arxiv.org/abs/2603.06772",
+    "authors": [
+      "Sergio Gaudio"
+    ],
+    "subjectives": [
+      "General Relativity and Quantum Cosmology (gr-qc)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.01121",
+    "title": "Polynomial Time Quantum Approximation Schemes for Constrained Optimisation",
+    "abstract": "           When does a noisy quantum sampler yield an end-to-end polynomial-time optimization algorithm with performance guarantees? Building on finite-depth and finite-shot guarantees for Constraint-Enhanced QAOA, we show that inverse-polynomial ideal probability on the optimal set, together with independent sampling, polynomial-time feasibility repair, and scoring, produces an exact-hit fully polynomial randomized approximation scheme, which we call an FPRASq. This guarantee survives device noise within an instance-dependent window. For effective circuit depth linear in the product of layer count and problem size, preserving an inverse-depth fraction of the ideal optimal mass increases the required shot complexity by one power of the problem size. Beyond this window, deterministic repair guarantees feasibility and provides an instance-dependent approximation guarantee whenever the induced objective inflation is controlled. The resulting NP-HQ algorithm fits the Chen-Cotler-Huang-Li oracle model. On any NP-hard kernel-admissible promise family, reproducing its inverse-polynomial optimal overlap with a polynomial-time classical sampler would imply that NP is contained in BPP, even with identical repair and perfect access to the constraint structure. Thus, the separation lies in generating the sampling distribution. We further introduce Heavy-Hitter QAOA, which preserves these conditional guarantees while reducing the retained candidate set and classical post-processing cost by one power of the problem size. Hardware experiments on IBM Eagle r3 processors cover instances with up to one hundred logical variables and match or improve every tested QOptlib reference tour.         ",
+    "url": "https://arxiv.org/abs/2608.01121",
+    "authors": [
+      "Chinonso Onah",
+      "Kristel Michielsen"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Complexity (cs.CC)",
+      "Discrete Mathematics (cs.DM)",
+      "Mathematical Physics (math-ph)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  }
+]
