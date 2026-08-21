@@ -1,0 +1,436 @@
+[
+  {
+    "id": "arXiv:2608.18206",
+    "title": "Teaching Quantum Design Automation with Block-Based Programming",
+    "abstract": "           As quantum circuits grow beyond small toy examples, preparing them for execution on physical devices becomes increasingly complex. Design automation is therefore essential for scalable quantum computing: Compilation procedures optimize resource requirements and transform circuits to a format compatible with specific hardware; resource estimation evaluates execution cost; verification methods prove circuit correctness. However, these concepts present a steep learning curve for novices, particularly when quantum circuits are introduced through low-level textual representations. To address this, we present a block-based programming framework for quantum design automation, implemented as an extension to the Scratch programming platform. This system allows users to build quantum circuits as a sequence of blocks and embed them in classical control logic to perform evaluations, compare simulation results, and directly apply different design automation techniques. We evaluated the approach in a user study with computer science students, who completed guided exercises using the platform and provided structured feedback in the form of self-reports and short knowledge assessments. Results demonstrate strong understanding and confidence in quantum design automation concepts, suggesting that the block-based approach successfully lowers the entry barrier to quantum design automation. The implemented framework is open-source and available at this https URL.         ",
+    "url": "https://arxiv.org/abs/2608.18206",
+    "authors": [
+      "Damian Rovara",
+      "Robert Wille"
+    ],
+    "subjectives": [
+      "Physics Education (physics.ed-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18247",
+    "title": "A compact low-frequency optomechanical triaxial inertial sensor",
+    "abstract": "           Triaxial optomechanical accelerometers offer compact, ground-testable alternatives to electrostatic sensors for satellite geodesy, seismometry, and various other applications. We demonstrate a low-CSWaP triaxial sensor using monolithic fused-silica resonators with dual heterodyne interferometric readout. The X axis reaches a 60~pico-g/$\\sqrt{\\mathrm{Hz}}$ readout noise floor, and the in-plane axes resolve ambient seismic ground motion in agreement with a co-located commercial seismometer from 4~mHz to 8~Hz. The Z axis exhibits higher noise under $1g$ loading due to gravity-induced geometric stiffening (44.45~Hz versus 11.07~Hz in a 0g-equivalent configuration), with measurements indicating in-orbit performance on par with the in-plane sensors. These results support the feasibility of triaxial optomechanical accelerometry for space missions and ground-based applications.         ",
+    "url": "https://arxiv.org/abs/2608.18247",
+    "authors": [
+      "Daniel George",
+      "Jose D. Hernandez Rivero",
+      "Moritz Mehmet",
+      "Ramses Miranda Espino",
+      "Xiangyu Guo",
+      "Andrea Nelson",
+      "Jose Sanjuan",
+      "Felipe Guzman"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18295",
+    "title": "Ultra-broadband integrated optical parametric amplifier for quantum sensing",
+    "abstract": "           Although thin-film lithium niobate (TFLN) facilitates efficient signal generation and nonlinear and quantum interactions, the realization of optical parametric amplification (OPA) that can provide simultaneous ultra-broadband and high-gain operation in an integrated chip continues to pose a challenge. Here we demonstrate continuous-wave-pumped OPA in an X-cut MgO-doped, dispersion-engineered, and adaptively-poled TFLN waveguide of 1.6 cm length, achieving a flat-top profile covering a 450 nm-wide optical wavelength window, corresponding to a 3-dB gain bandwidth of about 56 THz. Among reported TFLN platforms, our device exhibits the broadest 3-dB gain bandwidth. The same device can be pumped either directly at visible wavelengths through second-order x(2) interactions or in the telecom band through cascaded x(2) processes, the latter eliminating the need for a high-power visible pump laser. We achieve maximum gains of 8.87 +- 0.39 dB and 10.79 +- 0.43 dB at on-chip pump powers of 74 mW and 170 mW for the direct and cascaded schemes, respectively. We further directly probe OPA gain across the 1650-1900 nm wavelength range, where experimental gain measurements have remained scarce. With a normalized on-chip gain of 1.21 dB per W per mm, our device sets a new benchmark among reported cascaded x(2) nonlinear processes. This work advances the realization of integrated optical parametric amplifiers, offering high efficiency, robust gain, ultra-broadband bandwidth, and continuous-wave operation, thereby enabling new capabilities for next-generation quantum sensing and photonic systems.         ",
+    "url": "https://arxiv.org/abs/2608.18295",
+    "authors": [
+      "Kai-Chi Chang",
+      "Tushar Sanjay Karnik",
+      "Chun-Ho Lee",
+      "Kiyoung Ko",
+      "Xinyi Ren",
+      "Ian Christen",
+      "Reshma Kopparapu",
+      "Clayton Cheung",
+      "Kiwon Kwon",
+      "Kamila Kunes",
+      "Zaijun Chen",
+      "Mengjie Yu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18304",
+    "title": "Numerical investigations of low-latitude ground magnetic fields due to cavity mode oscillations",
+    "abstract": "           Pi2 oscillations have been known to be associated with cavity mode oscillations (CMOs) in the inner magnetosphere at low latitudes. CMOs can also be excited by interplanetary shocks on the dayside. We present results from a global linear MHD wave model in spherical coordinates that allows us to analyse these waves at equatorial latitudes. We see that the model reproduces some of the principal CMO harmonics. The standing wave cavity modes are set up due to a dense plasmasphere. The CMOs associated with interplanetary shocks are compared with ground observations from the EMMA array at mid-latitudes. In accordance with observations of Pi2 pulsations, we also see a small phase difference between compressional mode Alfv\u00e9n waves at midnight at low altitudes and on the noon ground, both at equatorial latitudes. This supports the finding that upon being excited in the nightside inner magnetosphere, these waves travel quickly around to the dayside. We compare our results to observations of the night-to-day time delay of ground Pi2 pulsations.         ",
+    "url": "https://arxiv.org/abs/2608.18304",
+    "authors": [
+      "Khilav Majmudar",
+      "Robert L. Lysak",
+      "Kazue Takahashi"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Space Physics (physics.space-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18333",
+    "title": "Bayesian Optimization for Practical H2 Sensors: Inverse Design of Pd-based Plasmonic Metasurfaces",
+    "abstract": "           Hydrogen detection is becoming increasingly important as its use grows across energy and industrial systems. Optical sensing platforms based on palladium (Pd) nanoparticles are attractive for this task because hydrogen uptake directly alters their plasmonic response. Organizing such nanoparticles into periodic two-dimensional arrays, known as metasurfaces, further enhances their optical response through collective resonances. However, the large design space presented by chemical composition, nanoparticle geometry, and array structure calls for systematic approaches for optimizing complex nanoalloy metasurface geometries. Here, we develop an inverse-design framework based on Bayesian optimization that couples first-principles dielectric functions with electromagnetic simulations to identify high-performance PdAu nanodisk arrays for hydrogen sensing in the 1 to 100 mbar range where the flammability of H2 becomes a concern. We use our approach to search a five-dimensional design space, comprising nanodisk height and radius, array pitch, polymer coating thickness, and Au fraction in order to maximize the H-induced change in extinction at a single wavelength of choice. The results show that integrating first-principles optical models with data-efficient optimization yields experimentally feasible nanoparticle metasurfaces tailored for targeted hydrogen pressures, while providing a pathway to future multiobjective sensor design. They also reveal remaining gaps in the modeling methodologies that still limit the quantitative reliability of the approach.         ",
+    "url": "https://arxiv.org/abs/2608.18333",
+    "authors": [
+      "Pernilla Ekborg-Tanner",
+      "Athanasios Theodoridis",
+      "Joachim Fritzsche",
+      "Christoph Langhammer",
+      "Andrea Baldi",
+      "Paul Erhart"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18393",
+    "title": "Directional Hydrogen Migration in Acetonitrile Dication in Asymmetric Ultrashort Intense Laser Fields",
+    "abstract": "           We investigate intramolecular hydrogen migration in acetonitrile dication in phase-controlled $\\omega$-$2\\omega$ intense laser fields (800 and 400 nm, 3.3$\\times$10$^{14}$ W/cm$^2$) using three-dimensional coincidence ion momentum imaging. The two-body Coulomb explosion pathway, CH$_3$CN$^{2+}$ $\\rightarrow$ CH$_3^+$ + CN$^+$, exhibits a clear phase-dependent fragment asymmetry along the laser polarization direction, showing that the tunnel ionization preferentially prepares the acetonitrile dication with the methyl group pointing toward the smaller amplitude side of the laser electric fields. The Coulomb explosion pathway occurring after the migration of a single hydrogen atom, CH$_3$CN$^{2+}$ $\\rightarrow$ CH$_2^+$ + HCN$^+$, shows a pronounced reduction in the fragment asymmetry. A clear deuteration effect observed for the asymmetry of the hydrogen-migration pathway suggests that the two-color asymmetric laser field has a significant impact on directionality of intramolecular hydrogen migration in acetonitrile dication.         ",
+    "url": "https://arxiv.org/abs/2608.18393",
+    "authors": [
+      "Sato Miyasaka",
+      "Yuki Ono",
+      "Hiroka Hasegawa",
+      "Runa Kuroda",
+      "Akitaka Matsuda",
+      "Akiyoshi Hishikawa"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18641",
+    "title": "Physics-informed neural network for inverse modeling of granular flows",
+    "abstract": "           Granular flows are ubiquitous in natural and industrial systems, yet their complex dynamics remain difficult to characterize. For inverse problems involving unknown inlet, outlet, and wall boundary conditions, where CFD simulations are challenging, reconstructing complete flow fields from sparse observations constitutes a challenging inverse problem. In this study, a physics-informed neural network framework driven by both physical mechanisms and measurement data is developed to reconstruct the steady-state full-field distribution of granular flows in a pipe. The proposed approach integrates sparse measurement data with governing equations and constitutive relations and is trained using high-fidelity datasets generated by CFD solutions of a continuum model. The framework incorporates a dimensionless loss formulation, physics-informed initialization, dynamic global weighting, and a locally weighted granular temperature data-loss strategy. These treatments enable accurate reconstruction of the complete flow-field evolution. This work establishes a robust methodological framework for flow-field reconstruction in complex granular flow systems.         ",
+    "url": "https://arxiv.org/abs/2608.18641",
+    "authors": [
+      "Bing Wan",
+      "Bidan Zhao",
+      "Junwu Wang"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18692",
+    "title": "Nonlinear collective dynamics and microwave comb generation in a diamond maser",
+    "abstract": "           Optically pumped room temperature masers are a promising platform for driven dissipative spin photon physics beyond steady state emission. Here we observe a sequence of dynamical thresholds in a room temperature nitrogen vacancy diamond maser as the optical pump is increased above the conventional masing threshold. The first threshold yields narrow-line continuous wave emission, while a second threshold produces a periodic train of microwave pulses whose repetition rate generates a frequency comb spectrum. At higher pump power, a third threshold gives rise to pulses with an oscillatory, frequency chirped decay. Time-resolved measurements link the comb directly to self-pulsing dynamics and Fourier analysis of individual bursts reveals a broad distribution of frequencies consistent with collective spin-resonator dynamics in an inhomogeneously broadened ensemble. These results establish the diamond maser as a room temperature platform for nonlinear nonequilibrium light matter dynamics and microwave comb generation.         ",
+    "url": "https://arxiv.org/abs/2608.18692",
+    "authors": [
+      "Christoph W. Zollitsch",
+      "Jonas N. Bach",
+      "Christopher W.M. Kay",
+      "Jonathan D. Breeze"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18718",
+    "title": "Comparative study of nonperturbative electron-positron pair production by intense laser fields colliding with either bremsstrahlung $\u03b3$-rays or relativistic ions",
+    "abstract": "           It is well known that electron-positron pairs can be created in the strong-field environments formed by (i) a high-intensity laser field and a high-energy $\\gamma$-photon (nonlinear Breit-Wheeler process) or (ii) a high-intensity laser field and a nuclear Coulomb field (nonlinear Bethe-Heitler process). Both of these processes are particularly interesting in the interaction regime where the laser field enters nonperturbatively. Various experimental collaborations are currently aiming at detecting for the first time the nonperturbative Breit-Wheeler process, by exploiting high-intensity laser pulses and $\\gamma$-ray sources based on bremsstrahlung. In contrast, an experimental observation of the nonlinear, nonperturbative Bethe-Heitler process still lies further ahead in the future because its technical realization appears at present more challenging. Our comparative study shows, however, that the physical properties of the total rates for the processes (i) and (ii) can become remarkably similar when the parameters for the bremsstrahlung-driven nonperturbative Breit-Wheeler process are properly chosen. In this sense, the upcoming experiments on the nonlinear Breit-Wheeler process could also be used to closely ``simulate'' the currently hard to observe nonlinear Bethe-Heitler process.         ",
+    "url": "https://arxiv.org/abs/2608.18718",
+    "authors": [
+      "S. Remme",
+      "A. B. Voitkiv",
+      "S. Villalba-Ch\u00e1vez",
+      "C. M\u00fcller"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "High Energy Physics - Phenomenology (hep-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18750",
+    "title": "Seeded SU(1,1) interferometry for Fourier-domain optical coherence tomography",
+    "abstract": "           We demonstrate Fourier-domain optical coherence tomography (FD-OCT) based on a seeded SU(1,1) interferometer. Multilayer objects are probed with broadband light centered at 1550nm, while depth-resolved 3D images are reconstructed from photon flux measurements centered at 810nm. We show that, in the low parametric-gain regime, seeding increases the photon flux, enabling volumetric imaging with a spectrometer rather than single-photon detectors. Our analysis further shows that, under the conditions considered, seeding provides a more effective route to sensitivity enhancement than increasing the parametric gain.         ",
+    "url": "https://arxiv.org/abs/2608.18750",
+    "authors": [
+      "Alejandra A. Padilla",
+      "Valentina Gacha",
+      "Daniel F. Urrego",
+      "Juan P. Torres"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18829",
+    "title": "Hidden Variables in Quantum Mechanics: A Journey Into de Broglie-Bohm Pilot-Wave Theory",
+    "abstract": "           This work provides an introduction to the most influential hidden-variable interpretation of the quantum formalism, i.e., the de Broglie-Bohm pilot-wave theory. As the reader will see, the chapter offers a detailed discussion of the main formulations of the theory. Moreover, cogent topics such as the origin of the Born rule, the interpretation of probability, the nature of the wave function, the status of spin, as well as extensions of the pilot-wave approach beyond non-relativistic quantum mechanics will be examined. This essay, however, not only reviews existing relevant literature but also contributes new insights about (i) the existence of spin in the context of pilot-wave theory, and (ii) whether the latter framework is formally and conceptually simpler than standard quantum mechanics.         ",
+    "url": "https://arxiv.org/abs/2608.18829",
+    "authors": [
+      "Andrea Oldofredi"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18857",
+    "title": "Invertible mapping between structured light and vector terahertz emission",
+    "abstract": "           Terahertz (THz) radiation provides a powerful platform for ultrafast spectroscopy, imaging, and communication, yet deterministic control over its spatial and polarization structure remains challenging. Here we establish a unified framework for generating and synthesizing vectorial THz beams through coherent control of ultrafast photocurrents in semiconductors. By exploiting quantum interference between one- and two-photon excitation pathways driven by femtosecond vector beams, we demonstrate that the spatial phase and polarization structure of the optical fields can be directly mapped onto the magnitude and orientation of injected currents. This structured charge motion acts as a programmable THz antenna, enabling tailored far-field emission. Beyond forward modeling of THz generation from cylindrical vector beams and full Poincar\u00e9 beams, we introduce an inverse-design methodology that reconstructs the required current distribution--and corresponding excitation beam profiles--from a desired THz field pattern. This invertible mapping transforms coherent photocurrent control into a systematic design strategy for THz beam shaping. Our results bridge structured light and THz photonics, providing a route toward compact, all-optical, and reconfigurable THz sources with engineered amplitude, phase, and polarization profiles.         ",
+    "url": "https://arxiv.org/abs/2608.18857",
+    "authors": [
+      "Amirreza Sadeghpour",
+      "Daryoush Abdollahpour"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.19156",
+    "title": "Characterisation of Commercially Available NUV-MT Silicon Photomultipliers",
+    "abstract": "           Silicon Photomultipliers (SiPMs) based on NUV-MT technology offer improved photo-detection efficiency and reduced correlated noise compared to earlier designs, making them increasingly attractive for particle and astroparticle physics applications. We present a systematic characterisation of commercially available Broadcom AFBR-S4N series NUV-MT SiPMs over a wide range of temperatures and overvoltages, from -85oC to 23oC and from 10-16V overvoltage (VoV). Key performance parameters are measured, including breakdown voltage, gain, signal-to-noise ratio, dark count rate, afterpulsing probability, and both internal and external optical crosstalk. At 12Vov and 23oC a dark noise of 107.2+/-2.1 kcps/mm^2 is measured, consistent with manufacturer specifications. At 12Vov and -30oC the measurements yielded an average dark noise of 1.69+/-0.12 kcps/mm^2, an average gain of (6.88+/-0.15)x10^6, an average signal to noise ratio of 13.6+/-0.9, an average afterpulsing probability of (0.59+/-0.06)%, an average direct crosstalk probability of (26.49+/-0.28)%, an average delayed crosstalk probability of (0.72+/-0.10)%, and an average external crosstalk probability of (0.10+/-0.04)%.         ",
+    "url": "https://arxiv.org/abs/2608.19156",
+    "authors": [
+      "T. Avgitas",
+      "Z. Balmforth",
+      "I. Manthos",
+      "K. Nikolopoulos",
+      "C. Toukmenidis"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18153",
+    "title": "Fixed-order postselected CHSH reference acquisition for parity-constrained spatial-mode qubits on a commercial cloud photonic processor",
+    "abstract": "           We report a fixed-order Clauser-Horne-Shimony-Holt (CHSH) acquisition and reporting protocol for two encoded photonic qubits on Quandela's commercial, cloud-accessible Belenos processor, executed end-to-end by external users through the public cloud interface. Each logical qubit is a two-dimensional spatial-mode subspace in the seven-dimensional zero-sum sector of an eight-mode single-photon register, and a target postselected linear-optical controlled-$Z$ (ideal success probability $1/9$) couples the registers on $16$ of $24$ modes. The primary quantity is the operational CHSH score $S$ on accepted logical coincidences, with each complete four-setting pass as the experimental unit. Eight sequential same-day passes each gave a raw score above $2$; session means were $2.40$ and $2.58$ (sample standard deviations $0.15$ and $0.03$), with excess dispersion $Q/\\nu=6.1$ ($\\nu=7$). Count-pooled secondary descriptors are $S_{\\mathrm{count}}=2.485\\pm0.019$ and a fixed-ratio efficiency-reweighted model scenario $S^{\\mathrm{rw}}_{\\mathrm{count}}=2.380\\pm0.021$, whose weakest reweighted pass ($2.040\\pm0.062$) overlapped $2$ within $1\\sigma$. The reweighting is an archived-metadata model scenario, not a corrected platform score; an ad hoc $\\kappa\\in[1.2,1.8]$ stress scan (not a calibrated uncertainty band) spans $2.341$-$2.441$. Setting order was fixed, the compiled mapping was not returned, and residual remote-setting marginals remain, so the data support an operational reference acquisition rather than an entanglement-witness or cross-platform benchmarking claim. The parity-check terminology labels the encoding subspace; no syndrome measurement was performed. Count records, job identifiers, circuit-construction code, and analysis are openly archived with content hashes for the submitted targets.         ",
+    "url": "https://arxiv.org/abs/2608.18153",
+    "authors": [
+      "Emma Tully",
+      "Jonathan Washburn",
+      "Megan Simons"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18159",
+    "title": "Quantum Processes under Epistemic Constraints",
+    "abstract": "           This doctoral dissertation on the foundations of quantum theory isolates and then formalizes a physically relevant concept that I have called \"Epistemic Constraint.\" Here, epistemic constraints are the definite, intersubjectively agreeable, ordinary-language conditions under which experiments are described. The usual formulation of the quantum measurement problem, which I call the Schrodingerian measurement problem, has the structure of an anomaly: if we take quantum theory at face value, we expect no definite values, and yet we see definite values in experiments. The responses to this problem have been either to solve it or to dissolve it. These responses, which have taken the form of interpretation, modification, or reconstruction of quantum mechanics, seek either to derive (conceptually or mathematically) epistemic constraints from within quantum mechanics or suitable modifications of it, as is the case with certain interpretations and modifications, or to posit the epistemic constraint, or parts of it, as a primitive assumption with the goal of deriving quantum mechanics, as is the case in some reconstruction programs. In contrast to the Schrodingerian measurement problem, which had the structure of an anomaly, this dissertation develops the Bohrian Program, which (for lack of a better comparison) has a structure similar to the problem historically associated with Euclid's fifth postulate. It seeks to keep epistemic constraints as primitive in an onto-epistemic sense. It then seeks new physical conclusions from the joint consideration of quantum mechanics and epistemic constraints, without seeking to derive one from the other. Among other results, this leads to a notion of the probability of instantiability of the Born Rule that specifies when to apply the Born Rule and when to apply a unitary transformation to a quantum state.         ",
+    "url": "https://arxiv.org/abs/2608.18159",
+    "authors": [
+      "Varun Immanuel"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "History and Philosophy of Physics (physics.hist-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18382",
+    "title": "Optical Voltage Profiling of 2D Semiconductors via Proximal Exciton Sensing",
+    "abstract": "           High contact resistances in atomically thin semiconductors often mask intrinsic electrical transport properties, particularly at low carrier densities where exotic correlated states emerge. We introduce optical voltage profiling, a noninvasive wide-field technique that replaces local voltage probes with a proximal monolayer MoSe$_2$ exciton sensor. Isolated by thin hexagonal boron nitride, this sensor converts the target's local electrostatic potential into spatially resolved modulations of exciton reflectance. Through pixel-wise in situ calibration, these signals yield quantitative two-dimensional voltage maps of an actively biased semiconductor device. Using this method, we demonstrate the carrier-density-driven metal-insulator transition in bilayer MoSe$_2$ and obtain channel resistances below 1 k$\\Omega$ despite M$\\Omega$-scale two-terminal resistances in the metallic region. The optically derived resistance exhibits a metal-insulator crossover near the resistance quantum $h/e^2$, and the voltage maps and reconstructed local conductivity reveal pronounced spatial heterogeneity in both insulating and metallic regimes. Beyond resolving channel resistance under high contact-resistance conditions, the technique provides spatially resolved access to microscopic transport heterogeneity in functional van der Waals devices.         ",
+    "url": "https://arxiv.org/abs/2608.18382",
+    "authors": [
+      "Ha-Leem Kim",
+      "Hyungbin Lim",
+      "Yuanyi Yang",
+      "Ruishi Qi",
+      "Ruichen Xia",
+      "Can Uzundal",
+      "Takashi Taniguchi",
+      "Kenji Watanabe",
+      "Feng Wang"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18763",
+    "title": "On the temperature dependence of the optical band gap in the material system of lithium niobate and lithium tantalate",
+    "abstract": "           Lithium niobate and lithium tantalate see widespread use in optics and electronics, and are increasingly used for cryogenic applications. Despite their broad deployment, their optical band gap and its relation to the crystal stoichiometry are not well characterised as a function of temperature. In this work, we study the optical absorption properties of congruent, stoichiometric, MgO-doped and Er-doped lithium niobate as well as congruent lithium tantalate across the temperature range between 7~K and 1000~K by means of optical transmission spectroscopy. Our results demonstrate that the difference of the optical band gap typically observed at room temperature between different stoichiometries is not primarily attributable to the intrinsic electronic structure, but rather to different electron-phonon couplings and the average phonon energies. Additionally, we exemplarily study the temperature shift of the 523 nm absorption line in Er-doped lithium niobate due to the increased interest in optically active dopants. To facilitate future analyses, we present the open-source software suite PhoQS-Treat (Tauc Regression Edge Analysis Tool), which enables automated Tauc regressions alongside additional analytical capabilities. This work advances the development of high-performance lithium niobate-based devices.         ",
+    "url": "https://arxiv.org/abs/2608.18763",
+    "authors": [
+      "Maximilian Henneke",
+      "Michael Ruesing",
+      "Nina A. Lange",
+      "Timon Schapeler",
+      "Noah Spiegelberg",
+      "Ernst-Lukas Kuhlmann",
+      "Elke Beyreuther",
+      "Philipp Mues",
+      "Ludmila Eisner",
+      "Lukas M. Eng",
+      "Laura Padberg",
+      "Donat J. As",
+      "Klaus-Dieter Becker",
+      "Tim J. Bartley",
+      "Christine Silberhorn",
+      "Christof Eigner"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.18941",
+    "title": "Quantum-Enhanced Atomic Sensor via Spin Nonequilibrium Criticality",
+    "abstract": "           The sensitivity of quantum sensors is fundamentally constrained by the standard quantum limit (SQL) arising from intrinsic quantum fluctuations. While non-classical resources like squeezing or entanglement can surpass this limit, their utility is often restricted by the extreme fragility of entangled states and the complexity of their preparation. Quantum criticality offers a compelling alternative by harnessing divergent susceptibility to amplify signals without requiring fragile non-classical resources. However, the practical benefit of this approach has remained controversial due to the potential for the simultaneous amplification of quantum noise. Here, we demonstrate a universal protocol for noiseless critical sensing by engineering a light-driven atomic ensemble near a dynamical critical point. Analogous to a Kapitza pendulum near its inverted orientation, the spin system enters a non-equilibrium regime where the signal susceptibility diverges while the quantum noise periodically recedes to its coherent baseline. We exploit this ``noise ebbing'' to create a built-in noiseless amplifier, demonstrating a 3.3 dB metrological gain over the SQL in an atomic magnetometer. Our implementation exhibits intrinsic robustness against common experimental imperfections such as detection losses, establishing non-equilibrium critical dynamics as a practical and versatile paradigm for surpassing the fundamental limits of quantum sensing.         ",
+    "url": "https://arxiv.org/abs/2608.18941",
+    "authors": [
+      "Ding Huang",
+      "Minwei Shi",
+      "Guzhi Bao",
+      "Keye Zhang",
+      "Weiping Zhang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.19028",
+    "title": "Sign-problem-resilient singular-value probe in determinant quantum Monte Carlo",
+    "abstract": "           The sign problem limits determinant quantum Monte Carlo studies of strongly correlated fermion systems. In the spin-channel Hubbard-Stratonovich decoupling, spin correlations are exactly related to auxiliary-field correlations. This relation implies that an antiferromagnetic transition reorganizes auxiliary-field configurations and thereby changes the statistical structure of the resulting fermion matrices. We use the adjacent gap ratio of low-lying singular values of the space-time fermion matrix to probe interaction-driven transitions in two half-filled honeycomb-lattice Hubbard models. In the sign-free honeycomb Hubbard model, the statistic tracks the established transition from a Dirac semimetal to an antiferromagnetic Mott insulator. In the complex-weight Haldane-Hubbard model, the transition-sensitive feature remains visible in the phase-quenched reference ensemble and occurs near previous estimates of the transition. Moreover, phase reweighting only weakly modifies the gap ratio over the regimes investigated, despite the rapid suppression of the average phase. These results establish singular-value statistics as a sign-problem-resilient probe of interaction-driven transitions in determinant quantum Monte Carlo.         ",
+    "url": "https://arxiv.org/abs/2608.19028",
+    "authors": [
+      "Wen Chen",
+      "Rubem Mondaini"
+    ],
+    "subjectives": [
+      "Strongly Correlated Electrons (cond-mat.str-el)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.19057",
+    "title": "Distinct Modes of Quantum Information Transfer in Power-Law Long-Range Spin Networks",
+    "abstract": "           We identify different regimes of quantum state transfer in long-range coupled spin-$\\frac{1}{2}$ systems, where naturally occurring power-law interactions enable rapid, high-fidelity transfer with minimal engineering. Across a broad range of interaction profiles, from effectively nearest-neighbour coupling to Coulomb interactions, we show how long-range connectivity fundamentally reshapes the mechanisms underlying information propagation within such systems. For effectively short-range interactions, transfer follows familiar ballistic transfer dynamics: an initially localised excitation spreads across many eigenmodes concentrated within the approximately linear region of the spectrum, enabling robust wavepacket motion. In contrast, increasing long-distance interactions via lowering the power-law exponent $\\alpha$ ($\\alpha=1-2$) drives a striking transformation, where the initial state becomes confined to progressively fewer eigenmodes, ultimately reducing the dynamics to the coherent participation of only a few states corresponding to the highest eigenenergies. This spectral localization gives rise to emergent long-range oscillations between distant sites, revealing a distinct -- and faster -- transfer mechanism arising from the intrinsic structure of long-range quantum interactions rather than from full-system engineering pathways.         ",
+    "url": "https://arxiv.org/abs/2608.19057",
+    "authors": [
+      "E.E. Marshall",
+      "C.C. Nelmes",
+      "T.J.G. Apollaro",
+      "T.P. Spiller",
+      "I. D'Amico"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Other Condensed Matter (cond-mat.other)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.19176",
+    "title": "Effects of manufacturing tolerances on the performance of metamaterial microwave anti-reflection coatings",
+    "abstract": "           Metamaterial anti-reflection coatings (ARC) are used in a variety of applications, including: lenses, filters, and absorbers. Typically, the design of a given ARC is done within an infinite medium approximation, which presupposes that every unit cell on the interface is identical. However, in realistic applications, the geometry of a given ARC usually has some degree of variability, be it due to the shape of the surface inherent to the application, like in a lens, or manufacturing tolerances. This variation may alter the performance of the optical element in unanticipated ways, by creating additional scattering, enabling diffractive maxima that would normally be absent and, most crucially, changing the transparency of the ARC as a function of frequency. In this work we utilize full-wave modeling of finite samples of plastic which are matched with free space using a metamaterial ARC on both of their interfaces. By adding a degree of randomness to the ARC geometry we attempt to characterize the extent to which a given variation affects the expected performance of an ARC.         ",
+    "url": "https://arxiv.org/abs/2608.19176",
+    "authors": [
+      "Rustam Balafendiev",
+      "Miranda Eiben",
+      "Jon E. Gudmundsson"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.23910",
+    "title": "Spectral structure and controlled energy linearization of Feshbach effective Hamiltonians in a molecular quantum quench",
+    "abstract": "           We establish spectral conditions under which a first-order energy linearization of a projected Feshbach Hamiltonian is controlled. When the support of the induced self-energy spectral measure lies entirely above or below the target energy window, the self-energy curvature and linearization remainder have fixed sign in the semidefinite (L\u00f6wner) order. The remainder then decreases monotonically under model-space enlargement by complete complementary-space spectral subspaces, and the minimax linearization energy is determined by the endpoint norms. Far-separated asymptotics and the near-boundary divergence caused by an approaching pole are obtained explicitly. The theory is validated by a numerically exact sudden-quench calculation for the two-electron system $HT$ -> $^3HeH^+$: all 56 nontrivially coupled basis-geometry cases have support separated above the target window, while seven cc-pVTZ cases are exactly decoupled by construction and serve as numerical control cases. The same remainder controls the projected resolvent and, through source dressing, the full prepared-state response, with resolvent amplification governing the near-pole sensitivity. These results provide a practical criterion for controlled downfolding in molecular electronic structure and for final-state analyses in neutrino-mass experiments.         ",
+    "url": "https://arxiv.org/abs/2604.23910",
+    "authors": [
+      "Georgii V. D'yakonov"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.02224",
+    "title": "A subsurface array of photonic crystal slabs produces green stripes in a scarab beetle",
+    "abstract": "           Vivid colours in nature often arise from photonic nanostructures that have inspired diverse technologies. Yet most known examples fall within a limited set of structural themes. Here, we describe a biologically and optically novel structure in the bright green, violin-shaped stripes of the fiddler beetle Eupoecila australasiae. The green colour is produced by a composite, hierarchical structure comprising dense arrays of microscopic, fin-like elements located beneath the cuticle. Each vertical fin, patterned with complementary lattices of nanospheres and indentations, can be approximated by two photonic crystal slabs mounted on a solid central core. Optical modelling shows that the fins are strongly iridescent, reflecting light with longer wavelengths near the normal and light with shorter wavelengths at oblique angles. However, disorder in fin orientation and filtering by the overlying cuticle converts the opaline cyan appearance of the fins into the bright diffuse green seen externally. Our work expands the known diversity of biological photonic nanostructures and offers new inspiration for biomimetic designs.         ",
+    "url": "https://arxiv.org/abs/2608.02224",
+    "authors": [
+      "Laura Ospina-Rozo",
+      "Nicola S. Kubzdela",
+      "Zezheng Zhu",
+      "James A. Hutchison",
+      "Mia Wansbrough",
+      "Nanfang Yu",
+      "Devi Stuart-Fox"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.14979",
+    "title": "Quantum Boltzmann Equation Self-Consistent-Field for the Entropic Regularization of Mean-Field Singularities",
+    "abstract": "           We present a Quantum Boltzmann Equation self-consistent-field (QBE-SCF) formulation for molecular electronic structure in which the one-electron reduced density matrix is propagated in an atomic orbital basis and relaxed by a Bhatnagar-Gross-Krook collision operator toward a Fermi-Dirac equilibrium defined by the instantaneous Fock matrix. At stationarity, the converged density and Fock matrices satisfy $[\\mathbf{F},\\mathbf{P}]=0$, the Hartree-Fock condition. While the zero-temperature equilibrium target reduces to the integer Aufbau projector, the damped collision operator ensures the steady-state density matrix is not necessarily idempotent. This kinetic relaxation affords a dual pathway to resolve mean-field singularities. For spatial degeneracies, such as H$_3$ symmetric dissociation, zero-temperature kinetic ergodicity fractionalizes the active space to recover the Generalized Valence Bond (GVB) limit. For the conical intersection in BeH$_2$ and the H$_4$ structural distortion ($D_{2h} \\rightarrow D_{4h} \\rightarrow D_{2h}$), finite-temperature entropic regularization recovers correlated adiabatic surfaces from a real-valued single-reference density. By maintaining stable numerical convergence across basis-set hierarchies and resolving static correlation without multi-reference wavefunctions, these results establish kinetic relaxation as a synthesis of single-reference electronic structure and quantum statistical mechanics.         ",
+    "url": "https://arxiv.org/abs/2608.14979",
+    "authors": [
+      "Romit Chakraborty"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.16811",
+    "title": "Fabrication-Aware Inverse Design of Nanophotonic Devices for 3D Laser-Nanoprinting",
+    "abstract": "           Advances in 3D laser-nanoprinting enable us to fabricate 3D nanophotonic devices with a wide range of functionalities on demand. By exploiting all three spatial dimensions, an enormous design space becomes available for these nanophotonic devices. However, such an immense design space is impossible to explore efficiently by intuition alone, especially when designing free-form nanophotonic devices. Density- based topology optimization offers a natural tool for 3D nanophotonic design by allowing the efficient design of devices with millions of degrees of freedom. Traditional density-based topology optimization relies on heuristic measures to account for limitations imposed by the fabrication method. Indeed, the fabrication method is rarely considered as part of the forward model in the design pipeline. In this work, we introduce an inverse design method that explicitly models the direct-laser-writing process used in 3D nanoprinting. Incorporating a differentiable formulation of the direct-laser-writing model allows us to design 3D nanophotonic devices within the experimentally available design space and to precompensate for fabrication-specific effects. Optimizing inside the experimentally available design space ensures that the constraints we put on the optimization are given by our parametrization of the fabrication method and not by heuristic methods, which might over- or underconstrain the optimization problem. Furthermore, modeling the 3D laser-nanoprinting process explicitly allows us to not only take fabrication-specific effects, such as the proximity effect, into account but also enables the optimization to actively make use of these fabrication-specific effects to increase the functionality of the device.         ",
+    "url": "https://arxiv.org/abs/2608.16811",
+    "authors": [
+      "Oliver Kuster",
+      "Tim Alletzh\u00e4usser",
+      "Carsten Rockstuhl",
+      "Martin Wegener",
+      "Thomas Jebb Sturges"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.17460",
+    "title": "MolDStruct: benchmarking a hybrid Monte Carlo/Molecular Dynamics model for X-ray free-electron laser ionisation and fragmentation dynamics",
+    "abstract": "           Single Particle Imaging with intense X-ray free-electron laser pulses requires modelling of the resulting ionisation and Coulomb explosion dynamics of biomolecules to optimise experimental parameters and enable correct structural reconstruction, yet simulating the complete dynamics at protein scale is beyond the reach of quantum-mechanical methods. To address this, we developed \\moldstruct, a hybrid Monte Carlo/Molecular Dynamics code built on GROMACS that couples high intense X-ray ionisation dynamics modelled through a Monte Carlo module with classical Molecular Dynamics for atomic propagation. Benchmarked against quantum mechanical calculations for di-alanine, MolDStruct agrees in fragmentation patterns above a mean charge per atom of $\\bar{z} \\approx 1.35$. Compared with Coulomb explosion imaging experimental data for 2-iodopyridine, simulated momentum distributions reproduce the experimental Newton plots in fragment direction and fall within the range of experimental absolute momenta, with a moderate overestimation. We further apply MolDStruct to Protein Explosion Imaging, a method that classifies molecular structures from explosion ion maps recorded on a detector, demonstrating via dimensionality reduction that conformers of the 16-residue peptide $\\mathrm{Ala}_16$ and five chromophore-labelled ubiquitin mutants are distinguishable. These results establish MolDStruct as a practical tool for simulating radiation damage and Coulomb explosion dynamics of biomolecules at protein scale, where quantum-mechanical methods are computationally infeasible.         ",
+    "url": "https://arxiv.org/abs/2608.17460",
+    "authors": [
+      "Friederike Kr\u00fcger",
+      "Simon Liljeblad",
+      "Sebastian Cardoch",
+      "M\u00e5ns Rosenbaum",
+      "Lasse Eisenach",
+      "Ibrahim Dawod",
+      "Nicu\u015for T\u00eemneanu",
+      "Carl Caleman",
+      "Tomas Andr\u00e9"
+    ],
+    "subjectives": [
+      "Biological Physics (physics.bio-ph)"
+    ]
+  }
+]
