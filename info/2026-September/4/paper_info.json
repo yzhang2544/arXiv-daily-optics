@@ -1,0 +1,351 @@
+[
+  {
+    "id": "arXiv:2609.02929",
+    "title": "Scaling Neural Network Quantum States for Ab Initio Quantum Chemistry",
+    "abstract": "           Neural-network quantum states (NNQSs) can represent many-electron wave functions without explicitly enumerating the determinant space, but their accuracy depends jointly on model size and variational-optimization effort. Here we characterize this dependence for a physics-conditioned autoregressive NNQS trained separately on two six-molecule source benchmarks. Across eight model sizes and five optimization milestones, we find that model size and optimization steps jointly shape the energy error. The capacity advantage of larger models becomes more apparent with sufficient optimization, while the returns from additional optimization vary with model size. We capture this coupling using an interaction scaling law and quantify the cumulative compute of each evaluated configuration. The resulting error-compute Pareto frontiers provide a practical decision rule for jointly selecting model size and optimization steps under a given compute budget within the evaluated range. Furthermore, we find that this beneficial scaling trend persists during fine-tuning on held-out N$_2$. Pretrained models show decreasing error with increasing model size, with a steeper reduction following pretraining on the Hard benchmark. Together, these results place autoregressive neural quantum states within the broader landscape of empirical neural scaling and open a quantitative route toward the systematic scaling of neural quantum solvers for ab initio quantum chemistry.         ",
+    "url": "https://arxiv.org/abs/2609.02929",
+    "authors": [
+      "Chenxi Yu",
+      "Hanlin Kong",
+      "Jianan Wei",
+      "Lizhong Fu",
+      "Honghui Shang",
+      "Wenguan Wang",
+      "Jinlong Yang"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03196",
+    "title": "Grammar-based topology search for reconfigurable integrated photonic spectrometers",
+    "abstract": "           Reconfigurable integrated photonic spectrometers can generate exponentially increasing measurement states from a small number of switching elements, making them a promising design class for high-performance portable spectroscopy. However, selecting a circuit architecture remains largely intuition driven. We introduce a grammar-based topology optimization framework that composes standard photonic building blocks, canonicalizes and physically prunes candidate circuits, and jointly searches topology and component parameters using a coherent scattering-matrix model. Designs are screened by a decoder-independent architecture objective that combines absolute singular-value noise gain with multi-line conditioning, thereby accounting for response diversity and optical throughput. Direct held-out spectrum reconstruction confirms that this surrogate is a strong predictor of reconstruction quality at high incident signal-to-noise ratio (SNR). Across the nonresonant and resonator-augmented design spaces examined, dFT and its variants offer the best balanced performance; increased component loss favors a shallower dFT variant in which one differential-delay stage is replaced by an analog optical phase shifter. Passive and active rings provide no robust advantage attributable to resonant amplitude coding. The results identify balanced complementary interferometric responses, efficient terminal collection, and limited lossy circuit depth as central design rules, and establish a systematic route for selecting task-optimized photonic circuit topologies under technology-specific constraints.         ",
+    "url": "https://arxiv.org/abs/2609.03196",
+    "authors": [
+      "Juejun Hu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03479",
+    "title": "Dependence of self-injected bunch parameters on the plasma density gradient and laser pulse amplitude at LWFA in a conical plasma channel",
+    "abstract": "           Laser wakefield acceleration (LWFA) is an advanced method of high gradient acceleration of charged particles with wakefield excited in plasma by laser pulse. A distinctive feature of this method is the ability to create and accelerate so-called self-injected bunches with unique parameters - charge, energy, emittance, and geometric dimensions - without the need for an external injector of the required bunches for their subsequent acceleration to higher energies. Self-injected bunches emerge due to the plasma electrons trapping by the excited wakefield (self-injection phenomenon). For many applications, self-injected bunches can be used directly in relevant experiments. In this paper the dependence of the self-injected bunch parameters on the laser pulse amplitude and longitudinal gradient of plasma density in tapered plasma channel is investigated using numerical simulation with the WarpX code. At the laser amplitude $a_0=E_0(m_{e0}c\\omega/e)^{-1}=3.6$ in a conical channel with the radius decreasing from $4.0\\,c/\\omega_{pe}$ to $2.16\\,c/\\omega_{pe}$ and with the plasma density increasing linearly from $n_e=2.61\\cdot10^{19}$ cm$^{-3}$ at the channel entrance to $3n_e$ at the exit, a self-injected bunch is obtained with the charge $32.1\\,\\mu$C/m, the mean longitudinal momentum $111.9\\,m_ec$, the length $5.10\\,\\mu$m, the area $5.3\\,\\mu$m$^2$, the transverse emittance $1.6\\cdot10^{-2}$ mm$\\cdot$mrad.         ",
+    "url": "https://arxiv.org/abs/2609.03479",
+    "authors": [
+      "D. S. Bondar",
+      "V. I. Maslov",
+      "I. N. Onishchenko"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)",
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03642",
+    "title": "Machine learning-assisted design and explainable optimization of CdSnP2-based integrated solar-photodetector devices",
+    "abstract": "           CdSnP2-based integrated solar cell-photodetector (SC-PD) devices employing CdS and CuGaSe2 (CGS) as the window and back surface field (BSF) layers, respectively are investigated using a hybrid machine learning (ML)-assisted SCAPS-1D framework. Device optimization is performed by varying the thickness, doping concentration, and defect density of individual layers. SCAPS-generated data are used to train six ML models and one deep learning model, with ensemble-based algorithms exhibiting the highest predictive accuracy. The ML-guided optimization identifies the n-CdS/p-CdSnP2 (CTP)/p+-CGS architecture as the optimum configuration among thirteen candidate structures. Incorporation of a 200 nm CGS BSF layer significantly enhances both photovoltaic and photodetection performance, increasing the efficiency from 20.67% to 32.69%, responsivity from 0.53 AW-1 to 0.72 AW-1, and detectivity from 2.51x1014 Jones to 1.78x1016 Jones. SHapley Additive exPlanations (SHAP) analysis reveales that band-offset engineering, particularly at the window/absorber and absorber/BSF interfaces, together with absorber properties, governs device performance. These findings demonstrate the potential of CdSnP2 and the proposed data-driven SCAPS-ML framework for the accelerated design of high-efficiency multifunctional optoelectronic devices.         ",
+    "url": "https://arxiv.org/abs/2609.03642",
+    "authors": [
+      "Md. Alamin Hossain Pappu",
+      "Kazi Abrar Shafin",
+      "Mainul Hossain",
+      "Jaker Hossain"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03850",
+    "title": "Thermal Noise in Optical Coatings: A Rigorous Opto-Mechanical Comparison of Nanolaminates and Isotropic Mixtures",
+    "abstract": "           We investigate whether a perfectly ordered periodic nanolaminate is intrinsically less mechanically dissipative than an isotropic co-sputtered mixture designed to provide the exact same optical function. Focusing on a room-temperature SiO2/TiO2 system, we compare coating Brownian dissipation under strict parity of optical thickness and effective refractive index. Amorphous phases are modeled using complex Young's moduli and real Poisson's ratios. The comparison is highly non-trivial: while the nanolaminate is optically optimal, its structural anisotropy forces in-plane shear to operate at the highly dissipative Voigt upper bound, mechanically penalizing it against an isotropic medium. The nanolaminate is treated via exact optical (Wiener) and mechanical (Backus) relations. The isotropic mixture is described by optical closures (Lorentz--Lorenz, Bruggeman) coupled to a complex mechanical self-consistent scheme. To assess uncertainty from the unknown co-sputtered morphology, we explore rigorous optical and mechanical admissible regions in the complex plane. Owing to the small intrinsic losses of SiO2/TiO2, these regions collapse into extremely narrow lenses, strictly limiting microstructural uncertainty. Across all realistic isotropic closures, the nanolaminate systematically exhibits lower mechanical dissipation than the co-sputtered mixture. Even against the thermodynamic lower bound of the isotropic state, this topological advantage remains valid for high effective refractive indices. We prove the ordered architecture exploits the optical upper bound to minimize the required volume fraction of the highly dissipative high-index phase, overwhelmingly overcompensating for its intrinsic mechanical anisotropy penalty.         ",
+    "url": "https://arxiv.org/abs/2609.03850",
+    "authors": [
+      "Vincenzo Pierro",
+      "Vincenzo Fiumara",
+      "Veronica Granata",
+      "Guerino Avallone"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03997",
+    "title": "Magnetic Dipole Hyperfine Constants of 15 Energy Levels in $^{169}$Tm II Determined by Collinear Laser Fluorescence Spectroscopy",
+    "abstract": "           We present measurements of the hyperfine structure, transition frequencies and relative intensities in 14 lines of 169Tm+ ions starting from the $4f^{13}({}^2\\!F^o_{7/2})6s_{1/2} (7/2, 1/2)_{3,4}^o$ levels. The magnetic dipole hyperfine ($A$) constant of all 15 involved ionic levels are determined, 14 of which have sub-MHz accuracy. For five levels no previous measurements were reported, while all others are in excellent agreement with the literature and improve on the previous accuracy by typically 1 - 2 orders of magnitude. We compare transition strengths and include improved transition frequencies. These results are useful for the quantum computing community, modelling of Tm$^+$ abundances in stellar spectra, as well as for an ongoing measurement program on short-lived Tm isotopes at ISOLDE/CERN.         ",
+    "url": "https://arxiv.org/abs/2609.03997",
+    "authors": [
+      "Hendrik Bodnar",
+      "Kristian K\u00f6nig",
+      "Wilfried N\u00f6rtersh\u00e4user"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.04027",
+    "title": "Cavity Ring-Down Spectroscopy at Benchmark-Level Sub-Permille Accuracy Enabled by a System-Level Detection Transfer Function",
+    "abstract": "           Cavity ring-down spectroscopy (CRDS) is widely used for sensitive optical absorption measurements, but its quantitative accuracy can be limited at the few-percent level by systematic distortions originating in the CRDS detection system, particularly at short ring-down times. These limitations can restrict demanding spectroscopic applications requiring sub-permille accuracy, including atmospheric sensing, tests of ab initio theory and fundamental physics, and quantum-based optical gas standards. Here we develop a methodology based on a system-level detection transfer function describing the complete CRDS detection-system response, including detector, electronics, and digitization stages, and use it to correct previously unaccounted-for instrumental distortions in retrieved absorption. We demonstrate the method on a CO absorption line measured down to very short ring-down times using multiple independent CRDS detection configurations, initially exhibiting line-area biases of up to 14%. After applying the transfer-function correction, all systems converge to a common value, with the bias relative to the most accurate ab initio-validated reference data reaching the sub-permille level and the accuracy improving by a factor of 41--87. The proposed framework brings well-established CRDS to the level of the most accurate reference methods without requiring specialized measurement schemes or external calibration standards, making benchmark-quality measurements more widely accessible.         ",
+    "url": "https://arxiv.org/abs/2609.04027",
+    "authors": [
+      "Rajesh Chell",
+      "Marcin Gibas",
+      "Szymon W\u00f3jtewicz",
+      "Jakub \u0141asocha",
+      "Daniel Lisak",
+      "Agata Cygan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.04042",
+    "title": "Testbeam characterization of a 3D silicon sensor read out by Timepix4",
+    "abstract": "           Testbeam results from a $300\\,\\mu\\mathrm{m}$-thick 3D silicon sensor bump-bonded to a Timepix4 ASIC, are presented. The hit detection efficiency, spatial resolution, and timing performance of the 3D sensor are studied for several track angles, bias voltages and charge thresholds. The time measurements are corrected for Timepix4 clock-frequency variations and timewalk, while for the spatial studies, nonlinear charge-sharing corrections are determined. At perpendicular incidence, the time resolution of the 3D detector is equal to $245\\,\\mathrm{ps}$ with a $97\\%$ hit detection efficiency. An optimal angle of $8^\\circ$ with respect to the beam direction of the 3D detector was found, in which the time resolution improves by $6\\%$ compared to normal incidence, while the hit detection efficiency reaches above $99\\%$ and the spatial resolution is approximately $7\\,\\mu\\mathrm{m}$. Intrapixel studies show that a time resolution of $153\\,\\mathrm{ps}$ at the most probable value of the signal charge can be achieved for hits between the electrodes at normal incidence, while the timing performance of these best-performing regions deteriorate upon sensor rotation. The timing properties at different depths of the 3D sensor have been investigated with tracks at grazing-angle incidence, revealing a dependence of the time resolution along the sensor depth.         ",
+    "url": "https://arxiv.org/abs/2609.04042",
+    "authors": [
+      "E. Chatzianagnostou",
+      "M. J. Madurai",
+      "K. Akiba",
+      "D. Bacher",
+      "R. Bates",
+      "M. van Beuzekom",
+      "T. Bischoff",
+      "V. Coco",
+      "R. Dumps",
+      "T. Evans",
+      "K. Heijhoff",
+      "D. Johnson",
+      "U. Kr\u00e4mer",
+      "E. Lemos Cid",
+      "D. Oppenhuis",
+      "T. Pajero",
+      "E. Rodr\u00edguez Rodr\u00edguez",
+      "D. Rolf"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.04171",
+    "title": "Twin-photon generation in a silicon nitride microresonator",
+    "abstract": "           Photonic chips with silicon nitride ($\\mathrm{Si_3N_4}$) microring resonators are well established as heralded single-photon sources, but their operation as frequency-degenerate twin-photon sources has not previously been demonstrated. Here, we realise a twin-photon source at telecommunication wavelengths in a $\\mathrm{Si_3N_4}$ ring microresonator via an inverse four-wave mixing (FWM) process, in which two photons from spectrally distinct pumps are converted into a pair of identical twin photons. The measurements show a maximum coincidence-to-accidental ratio (CAR) of $5.4\\pm0.6$. In addition, the microresonator functions as a heralded single-photon source through pump-degenerate spontaneous four-wave mixing (SFWM), exhibiting a spectral purity of $P=0.67\\pm0.05$ and a heralded anti-bunching of $g^{(2)}_h(0)=0.0042\\pm0.0015$. Together, these results demonstrate both photon-generation schemes on a single integrated $\\mathrm{Si_3N_4}$ platform, highlighting its potential for scalable, tailored quantum light generation.         ",
+    "url": "https://arxiv.org/abs/2609.04171",
+    "authors": [
+      "Franz Pacher",
+      "Haochen Yan",
+      "Alekhya Ghosh",
+      "Arghadeep Pal",
+      "Toby Bi",
+      "Hao Zhang",
+      "Lixing You",
+      "Hao Li",
+      "Daniela Salvoni",
+      "Shuangyou Zhang",
+      "Pascal Del'Haye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.02957",
+    "title": "Decoherence-controlled collective criticality in a two-dimensional quantum Stag Hunt",
+    "abstract": "           Physical decoherence can preserve the microscopic strategic neutrality condition of a quantum game while changing the thermodynamic regime of the corresponding interacting population. We demonstrate this for an Eisert--Wilkens--Lewenstein (\\textit{EWL}) Stag Hunt embedded as independent nearest neighbor encounters on a square lattice. For the restricted strategies $\\mathsf{Q}=i\\mathbb{Z}$ and $\\mathsf{D}=i\\mathbb{Y}$, noisy two-player payoff matrices are determined for phase damping, depolarization, and amplitude damping and mapped exactly to channel dependent Ising parameters $\\mathfrak{J}(\\Gamma,p)$ and $\\mathfrak{H}(\\Gamma,p)$. Phase damping and depolarization show the clearest contrast: they share the same microscopic neutrality branch $\\mathfrak{H}=0$, while only depolarization suppresses the interaction as $(1-p)^2$. At $\\beta=1$, this produces an exact depolarization-driven square-lattice critical point at $p_{*}\\approx 0.233460\\ldots$, whereas phase damping remains in the ordered coexistence regime along the same neutrality branch. Monte Carlo finite size scaling is consistent with two-dimensional Ising criticality and distinguishes field driven coexistence below $p_{*}$ from a smooth crossover above it. Amplitude damping additionally reveals a strong dependence on channel placement: the post-strategy neutrality branch reaches $\\Gamma=0$ at $p=1/3$ and then disappears. Resource negativity further shows that microscopic two-qubit entanglement and collective interaction strength are distinct quantities. The resulting extended lattice remains an ordinary classical Ising system.         ",
+    "url": "https://arxiv.org/abs/2609.02957",
+    "authors": [
+      "Rajdeep Tah"
+    ],
+    "subjectives": [
+      "Statistical Mechanics (cond-mat.stat-mech)",
+      "Mathematical Physics (math-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03100",
+    "title": "Distilling deep optical flow stereo methods to retrieve dense three-dimensional wind fields",
+    "abstract": "           Geostationary atmospheric motion vectors (AMVs) provide the dense horizontal wind vectors (u,v) and heights ingested into data assimilation systems. Traditional AMVs track features using window-based cross-correlation and estimate heights via infrared brightness temperatures paired with numerical weather prediction (NWP) background states, creating a circular dependency that yields inaccurate heights, high computational cost, and sparse retrievals. Stereo winds from GEO-GEO and GEO-LEO geometrically resolve heights from parallax shifts across different poses, eliminating NWP dependence and improving accuracy, but they remain computationally heavy with limited coverage. In this work, we replace window-based tracking in stereo matching with deep optical flow for efficient, improved retrieval. Fine-tuning balances a self-supervised geometric residual loss with supervised radiosonde reconstruction. To eliminate multi-satellite overlap requirements, we distill the stereo teacher into a single-satellite student model. Chi-square and height uncertainties from the teacher are emulated by the student for quality assurance. The student generates winds across full-disk GEO imagery globally. Validation compares stereo and student models against radiosondes, operational AMVs, ERA5 reanalysis, and EarthCARE cloud profiles. Results through triple collocation show that stereo winds improve performance beyond operational AMVs for water vapor bands (6.2, 6.9, and 7.3 {\\mu}m), wit degradation in the long-wave infrared (11.2 {\\mu}m) band.         ",
+    "url": "https://arxiv.org/abs/2609.03100",
+    "authors": [
+      "Thomas J. Vandal",
+      "Dong L. Wu",
+      "James L. Carr",
+      "Derek J. Posselt",
+      "Elise Penn",
+      "Tristan Ballard",
+      "August Posch",
+      "Kate Duffy"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.03625",
+    "title": "Quantum Quasi-Monte Carlo: a window for pre-asymptotic quantum advantage",
+    "abstract": "           Numerical integration with Monte Carlo methods is a central computational task in many scientific and industrial applications, including financial derivative pricing and risk management. Classical Monte Carlo algorithms are computationally demanding: achieving an accuracy $\\epsilon$ typically requires a number of function evaluations scaling as $O(1/\\epsilon^2)$. Quantum-accelerated Monte Carlo methods based on quantum amplitude estimation can in principle quadratically improve this dependence. However, \\textit{quasi}-Monte Carlo methods have not been explored in the quantum context. In this work, we introduce a quantum quasi-Monte Carlo algorithm that combines low-discrepancy nets with quantum amplitude estimation. The proposed method prepares the quasi-random point set coherently in superposition. The method does not yield an asymptotic improvement over classical quasi-Monte Carlo, since the total error separates into a discretization error, determined by the finite net, and a quantum estimation error. Instead, we explore a pre-asymptotic advantage window: for a target accuracy that would classically require $2^q$ low discrepancy points, one can prepare a higher-resolution net of size $2^Q$, with $Q>q$, in superposition and reach the same accuracy using significantly fewer function queries. This window can be controlled by tuning the circuit resolution and amplitude-estimation parameters, making the approach relevant for practical regimes where the number of queries is finite rather than asymptotically large.         ",
+    "url": "https://arxiv.org/abs/2609.03625",
+    "authors": [
+      "Paolo Recchia",
+      "Zhan Yu",
+      "Kelvin Koor",
+      "Patrick Rebentrost"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.04157",
+    "title": "Spurious quantum correlations",
+    "abstract": "           In his seminal paper, Bell [Physics Physique Fizika 1, 195 (1964)] considers the correlations that result from space-like separated measurements on a pair of entangled particles. He uses relativity theory to motivate the Bell causal structure, then shows the existence of quantum correlations that cannot be explained classically within this causal structure. Classical explanations of such quantum correlations are possible in alternative causal structures, for instance, those that allow superluminal causal influences, but, as shown in [New Journal of Physics 17 033002 (2015)], all such alternative explanations require fine tuning (causation without correlation). Here we discuss the existence of spurious quantum correlations --- correlations that look quantum in one causal structure, but have a natural classical explanation in another. More precisely, there are causal structures that admit non-classical quantum correlations, but for which the same correlations have a classical explanation in another causal structure without fine tuning. The realisation in the other causal structure can also be achieved without breaking any natural constraints on the causal structure that follow from relativity theory. However, similarly to non-classical quantum correlations in the Bell causal structure, we find other causal structures with non-classical quantum correlations that do not have a classical causal explanation in any alternative causal structure without fine tuning.         ",
+    "url": "https://arxiv.org/abs/2609.04157",
+    "authors": [
+      "Shashaank Khanna",
+      "Matthew F. Pusey",
+      "Roger Colbeck"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Statistics Theory (math.ST)",
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2412.06309",
+    "title": "FoV and Efficiency Optimization for Resonant Beam SLIPT with Telescope Integration",
+    "abstract": "           Meeting the large bandwidth demands of wireless communication for mobile Internet of Things (IoT) devices while enhancing their endurance is a significant challenge. Simultaneous lightwave information and power transfer (SLIPT) technology offers the potential to realize wireless charging and signal transfer, making it suitable for supporting autonomous vehicles and drones. The resonant beam system (RBS) leverages the self-aligning property of a spatially distributed laser resonator (SSLR), allowing energy transmission from the transmitter to the receiver without mechanical alignment. However, the existing resonant beam SLIPT system exhibits a limited field of view (FoV) and transmission efficiency, facing challenges in practical applications. In this paper, we propose a resonant beam SLIPT system enhanced by incorporating an internal telescope and optimizing the communication, energy transfer, and FoV performance by solving the Pareto front set of the system's achievable performance region. The results indicate that the optimized FoV is increased by $17\\%$, reaching $\\pm26.8^\\circ$, while its average end-to-end efficiency is improved by $145\\%$, achieving $5.4\\%$.         ",
+    "url": "https://arxiv.org/abs/2412.06309",
+    "authors": [
+      "Shun Han",
+      "Mingliang Xiong",
+      "Mengyuan Xu",
+      "Zeqian Guo",
+      "Wen Fang",
+      "Qingwen Liu"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.31146",
+    "title": "Integrated Microwave Photonics: From Material Platforms to Systems-on-Chip",
+    "abstract": "           In this paper, recent advances in integrated microwave photonics (IMWP) are reviewed, including material platforms, integration technologies, and system functionalities. Emerging opportunities and future perspectives are discussed. Silicon (Si) and silicon nitride (SiN) provide dense routing, programmable filtering, and low-loss delay; indium phosphide (InP) supplies optical gain, light generation, and high-speed photodetection; thin-film lithium niobate (TFLN) offers linear and broadband electro-optic conversion; and photonic integration is emerging as a practical path to synergize complementary capabilities. Recent work shows a marked shift from isolated modulators, filters, and delay lines toward chip- and module-level systems, ranging from signal processing engines, real-time spectrum sensing, to full-spectrum wireless links, fiber-wireless conversion, silicon beamforming, integrated radar, programmable processors, and photonic convolution engines with on-chip sources and detectors. As these demonstrations become more mature and complete, the key questions move beyond bandwidth and efficiency toward system integration, microwave packaging, calibration stability, analog link performance, and application-level validation.         ",
+    "url": "https://arxiv.org/abs/2608.31146",
+    "authors": [
+      "Jiejun Zhang",
+      "Jianping Yao"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.01178",
+    "title": "Reaching the optical propagation limit in temporal analog computing",
+    "abstract": "           A central goal of optical computing is to perform calculations on the timescale of light propagation. Yet many analog photonic solvers require feedback, storage or field build-up before the answer becomes available, introducing additional latency that limits real-time operation. Here we introduce the concept of two-time modulation for temporal analog computing, in which the material response is independently modulated along two temporal directions, allowing the computational operator to be constructed continuously as the waveform propagates. The solution can therefore form during optical transit, without an additional solution-formation timescale. This form of temporal control allows identical copies of a waveform separated only in time to reach entirely different target outputs within a single spatial channel, and enables nonlocal integral-equation solving in a single passage. The resulting framework brings compact, programmable, real-time analog computation within reach for ultrafast optical information processing.         ",
+    "url": "https://arxiv.org/abs/2609.01178",
+    "authors": [
+      "Zeki Hayran"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.01960",
+    "title": "Mesoscopic Light Localization and Inverse Participation Ratio Analysis of Tissue Structural Disorder for Optical Cancer Detection",
+    "abstract": "           We introduce a mesoscopic physics-based framework that transforms conventional transmission optical micrographs into quantitative maps of tissue structural heterogeneity using the Inverse Participation Ratio (IPR). For the first time, to our knowledge, IPR-based light-localization analysis is applied to cancer tissue imaging to quantify nano- to submicron-scale structural alterations through spatial fluctuations in tissue mass density or refractive index. Unlike conventional morphology-based assessment, this physics-driven approach provides objective structural biomarkers from label-free or routinely stained tissue images. The method establishes a scalable, reproducible platform for quantitative computational pathology and enhanced cancer diagnosis by integrating mesoscopic optical physics with standard optical microscopy.         ",
+    "url": "https://arxiv.org/abs/2609.01960",
+    "authors": [
+      "Santanu Maity",
+      "Mousa Alrubayan",
+      "Prabhakar Pradhan"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Biological Physics (physics.bio-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2411.19310",
+    "title": "Solving the Nonlinear Vlasov Equation on a Quantum Computer",
+    "abstract": "           The practical applicability of a recent Carleman-linearization-based quantum algorithm for solving ordinary differential equations (ODEs) with quadratic nonlinearities is investigated for the nonlinear electrostatic Vlasov equation with Krook-type collision operators. The equation is discretized on a (1+1)-dimensional phase-space grid and mapped onto the input of the quantum algorithm. Upper bounds for the query and gate complexities are derived in the limit of large grid sizes and found to be polynomially larger than the time complexity of the corresponding classical algorithms, primarily due to the dimension, sparsity, and norm of the Carleman-linearized evolution matrix. The convergence criteria are shown to impose severe restrictions on physically relevant plasma applications, requiring dissipation levels far exceeding those provided by the Krook operator.         ",
+    "url": "https://arxiv.org/abs/2411.19310",
+    "authors": [
+      "Tam\u00e1s Vaszary",
+      "Animesh Datta",
+      "Tom Goffrey",
+      "Brian Appelbe"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2508.00052",
+    "title": "Learning shadows to predict quantum ground state correlations",
+    "abstract": "           We introduce a variational scheme inspired by classical shadow tomography to compute ground state correlations of quantum spin Hamiltonians. Shadow tomography allows for efficient reconstruction of expectation values of arbitrary observables from a bag of repeated, randomized measurements, called snapshots, on copies of the state $\\rho$. The prescription allows one to infer expectation values of $M$ $k-$local observables to accuracy $\\epsilon$ using just $N \\sim 3^k \\text{log}M /\\epsilon^2$ snapshots when measurements are performed in locally random bases. Turning this around, a bag of snapshots can be considered an efficient representation of the state $\\rho$, particularly for estimating low-weight observables, such as terms in a local Hamiltonian needed to estimate the energy. Inspired by this, we consider a variational scheme wherein a bag of $N$ parametrized snapshots is used to represent the putative ground state of a desired local spin Hamiltonian and optimized to lower the energy with respect to it. Additional constraints in the form of positivity of reduced density matrices, motivated by work in quantum chemistry, are employed to ensure compatibility of the predicted correlations with the underlying Hilbert space. Despite the limited set of imposed constraints, we show that the optimized ensemble of snapshots yields fairly accurate estimates of the ground state energy and other correlations, including those that do not appear in the set of constraints used in optimization.         ",
+    "url": "https://arxiv.org/abs/2508.00052",
+    "authors": [
+      "Pierre-Gabriel Rozon",
+      "Kartiek Agarwal"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.23571",
+    "title": "Quantum Skyrmions in Mixed States of Light and Their Nested Topology",
+    "abstract": "           Topological quasiparticles of light, such as classical and quantum optical skyrmions, have so far relied on fully coherent or pure quantum states whose topology is encoded in the entanglement between polarization and two-dimensional spatial modes. Here we show that skyrmionic topology can emerge directly within the density matrix of a mixed quantum state. We introduce a framework in which a coherence-Stokes vector defines a topological texture over the density matrix, enabling the realization of quantum skyrmions using only a pseudospin and a real or synthetic one-dimensional space of modes. For a single photon, the density matrix is analogous to the coherence matrix of classical light, and can be encoded using partially coherent electromagnetic fields. We further analyze the topological texture encoded in a bipartite entangled photon pair, showing how skyrmions arise not only in the full bi-photon system, but also in its reduced subspaces with any pseudospin-mode combination simultaneously. We then explore the robustness of such skyrmions to environmental noise, and discover their persistence in mixed-quantum states of multiple photons. Finally, we propose a feasible experimental route to generate and measure such skyrmions using integrated photonic networks, and suggest avenues for similar implementations in other quantum systems. Our work paves the way for robustly encoding classical information on partially coherent light or on mixed quantum states and for encoding topological charges on many-body quantum systems.         ",
+    "url": "https://arxiv.org/abs/2604.23571",
+    "authors": [
+      "Amit Kam",
+      "Charles Roques-Carmes",
+      "Shai Tsesses",
+      "Aviv Karnieli"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.21248",
+    "title": "Tailoring optical Schr\u00f6dinger cat states via orientation-dependent high-harmonic generation in $\\rm{H}_2^+$",
+    "abstract": "           We theoretically demonstrate that the molecular orientation angle $\\theta$ provides a structurally intrinsic, continuously tunable control parameter for engineering optical Schr\u00f6dinger cat states via high-harmonic generation (HHG) in H$_2^+$. Coupling time-dependent Schr\u00f6dinger equation simulations to the fully quantized HHG framework, we evaluate the Wigner functions of the post-selected harmonic-mode states under two complementary conditioning strategies. Conditioning on resonance-enhanced low-order harmonics exploits the complementary dipole selection rules of the $1\\sigma_g\\to1\\sigma_u$ and $1\\sigma_g\\to1\\pi_u$ transitions, driving a kitten-cat crossover whose direction is opposite in the two channels as $\\theta$ is varied. Conditioning on plateau harmonics instead exploits two-center destructive interference, producing a reentrant cat$\\to$kitten$\\to$cat transition controlled by the order-dependent interference angle $\\theta^*(q)$. In both cases the crossover is decoupled from the laser intensity, focal geometry, and molecular density, offering a degree of control with no counterpart in atomic targets.         ",
+    "url": "https://arxiv.org/abs/2607.21248",
+    "authors": [
+      "Ziyang Gan",
+      "Ahai Chen",
+      "Yuhai Jiang"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
