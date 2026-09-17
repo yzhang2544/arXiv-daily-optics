@@ -1,0 +1,499 @@
+[
+  {
+    "id": "arXiv:2609.17821",
+    "title": "Silicon avalanche transition edge bolometer: approaching the thermodynamic limit for uncooled long-wave infrared detection",
+    "abstract": "           Bolometers transduce incident electromagnetic radiation into measurable electrical signals via radiation-induced heating in thermo-resistive materials. They are uniquely capable of detecting low-energy photons without cryogenic cooling, and are widely deployed for uncooled long-wave infrared (LWIR) radiation detection and thermal imaging. Although their fundamental detection limit is set by the thermodynamic fluctuations, state-of-the-art uncooled bolometers still operate well above this limit due to the presence of Johnson noise, 1/f noise and noises from the readout circuits. Here, we address this challenge by introducing a new uncooled LWIR bolometer concept---the silicon avalanche transition edge (SATE) bolometer. Operating near the steep current transition edge associated with avalanche breakdown, the device exhibits an ultra-high, positive temperature coefficient of resistance (TCR) of 330 %/K, greatly suppressing the impacts of other noise sources. Even without any thermal insulation structures, the SATE bolometer delivers a high room-temperature responsivity up to 160 mA/W for 9.5 $\\mu$m radiation, a noise equivalent power of 370 pW/$\\sqrt{\\mathrm{Hz}}$, and a strong electro-thermal feedback enlarged bandwidth of 77 kHz---performance unattainable with conventional bolometer materials with a TCR of $-1\\sim-3\\%$/K. Our work establishes a promising thermo-electric transduction mechanism toward high-sensitivity, high-speed room-temperature thermal imaging and infrared spectroscopy using CMOS technology.         ",
+    "url": "https://arxiv.org/abs/2609.17821",
+    "authors": [
+      "Wenjun Deng",
+      "Renwen Yu",
+      "Guanyu Han",
+      "Ziyao Feng",
+      "Yu Wang",
+      "Shanhui Fan",
+      "Qiushi Guo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.17976",
+    "title": "Environmental qualification and performance of a CubeSat-scale dual optical frequency comb payload for space applications",
+    "abstract": "           We report the environmental qualification and performance of CombSat, a dual optical frequency comb payload designed for deployment on a 12U CubeSat in low Earth orbit. The payload integrates two self-referenced, 200 MHz hybrid fiber-waveguide frequency combs, a narrow-linewidth optical reference, a heterodyne beat detection unit, and FPGA-based control electronics in a total mass of 8.3 kg and volume of 5.7 L, and nominal power consumption of 21W. We describe the mechanical, thermal, and radiation-tolerant design features of the system and present the results of random vibration, storage temperature cycling, and thermal-vacuum testing conducted in accordance with NASA's General Environmental Verification Standard. We show that key comb performance metrics including oscillator and amplifier output power, frep, fCEO, and fopt signal-to-noise ratios, and integrated phase noise, remain within specification after environmental exposure, and we discuss observed failure modes and design modifications that improved robustness. These results demonstrate that compact, low power, fully stabilized, autonomous dual-comb systems can be engineered and qualified for spaceflight on CubeSat platforms, providing a path forward for future low-cost comb-based space applications.         ",
+    "url": "https://arxiv.org/abs/2609.17976",
+    "authors": [
+      "Stephanie D. Leifer",
+      "Matthew J. Kelley",
+      "Natalie Walsh",
+      "Ziba Shahriary",
+      "Paul Steinvurzel",
+      "Chrissy Fortuna",
+      "Geoffrey Maul",
+      "Adam Darley",
+      "Ian Coddington",
+      "Laura C. Sinclair",
+      "Ariel Berman",
+      "Victor Chin",
+      "Henry Timmers",
+      "Kevin Knabe",
+      "Jason Pinon",
+      "Andrew Attar",
+      "Cole Smith",
+      "Cyrus Bry",
+      "Davis S. Kun",
+      "Stan Stanev",
+      "Nicole Thai",
+      "Bennett Sodergren",
+      "Daniel Deveraux",
+      "Grant Capan",
+      "Will McIntyre",
+      "Manas Choure"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18109",
+    "title": "Fully differentiable framework for inverse identification of geometry and material parameters with application to determining stress-free configuration of soft tissues",
+    "abstract": "           Medical images of soft tissues typically depict loaded configurations rather than true unloaded (stress-free) states, which can bias biomechanical simulations and inverse material identification. A gradient-based inverse finite element framework is presented that jointly reconstructs an effective unloaded reference geometry and estimates hyperelastic material parameters from two or more observed deformed configurations. The formulation is fully differentiable and leverages exact end-to-end gradients to enable unified, simultaneous optimization of geometry and constitutive parameters. The objective function combines a nodal-position misfit with a deformation-gradient-based mismatch term, improving robustness under large deformations. Benchmark studies quantify the influence of loading diversity and observation count and demonstrate reduced sensitivity to poor material initialization. Finally, application to an MRI-derived breast model shows accurate recovery of the unloaded configuration and constitutive parameters from multiple gravity-loaded states. The framework provides a unified and scalable tool for inverse biomechanics with potential applications in personalized modeling, elastography, and surgical planning.         ",
+    "url": "https://arxiv.org/abs/2609.18109",
+    "authors": [
+      "Hyunoh Bae",
+      "Tianyi Hu",
+      "Adrian Buganza Tepole",
+      "Hector Gomez"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18137",
+    "title": "Ultralow Mean Transverse Energy and High Quantum Efficiency Cryogenic Bialkali Photocathode for MHz-Repetition-Rate Electron Sources",
+    "abstract": "           Simultaneously achieving high quantum efficiency (QE), ultralow mean transverse energy (MTE), and robust long-term operation under conditions relevant to continuous-wave (CW) X-ray free-electron lasers (XFELs) remains a central challenge for semiconductor photocathodes. This challenge arises from the trade-off between QE and MTE, as well as the difficulty of maintaining stable operation in high-field CW electron guns. Here we demonstrate a cryogenic K2CsSb photocathode that simultaneously achieves high QE, ultralow MTE, and robust long-term operation in a CW gun under XFEL-relevant operating conditions. Under cryogenic operation, the photocathode achieves an MTE of 50 meV while sustaining a QE of 5.4%. Milliampere-level CW current, including operation at 5 mA, was demonstrated together with an approximately 20-day operational history. The observations are consistent with improved carrier survival and/or surface escape in photocathodes prepared using the optimized recipe. These results show that the practical QE-MTE trade-off can be substantially mitigated in cryogenic bialkali photocathodes and provide a practical pathway toward high-brightness electron sources for CW XFELs and energy-recovery linacs.         ",
+    "url": "https://arxiv.org/abs/2609.18137",
+    "authors": [
+      "D. Wang",
+      "S. Liu",
+      "J. Liu",
+      "Y. Dai",
+      "Z. Hong",
+      "J. Wang",
+      "Y. Shi",
+      "M. Tai",
+      "L. Feng",
+      "H. Xu",
+      "L. Lin",
+      "F. Wang",
+      "F. Zhu",
+      "J. Hao",
+      "S. Quan",
+      "K. Liu",
+      "H. Xie",
+      "S. Huang"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18155",
+    "title": "Wavelength-Multiplexed Nonlinear Computing with a Single-Layer Diffractive Optical Processor",
+    "abstract": "           Diffractive optical processors provide a promising platform for high-throughput, low-latency analog computing by exploiting engineered wave propagation to transform optical fields. However, implementing nonlinear mappings in optical hardware remains challenging. Here, we introduce a wavelength-multiplexed encoding-and-decoding (E+D) diffractive processor that exploits multiple illumination wavelengths to enhance the nonlinear function-approximation capability of a compact single-layer diffractive architecture, without cascading multiple diffractive layers or increasing the trainable degrees of freedom. Under sequential wavelength scanning, each wavelength-detector channel implements a distinct nonlinear function at the output of the diffractive processor. Numerical simulations using 100 wavelength channels and 10,000 spatial detector regions at the output of the diffractive processor demonstrate the implementation of one million distinct nonlinear functions through wavelength multiplexing. We also demonstrate a simultaneous multiwavelength illumination configuration in which the E+D diffractive processor performs wavelength-division multiplexing and nonlinear function approximation concurrently. This multiwavelength illumination configuration is experimentally validated by optically implementing 64 distinct nonlinear functions under simultaneous illumination at eight wavelengths from 495 to 635 nm. Through numerical simulations and visible-light experimental demonstrations, our results indicate that this wavelength-multiplexed nonlinear function approximation framework provides a scalable route toward compact, high-capacity diffractive processors for large-scale analog optical computing and optical information processing.         ",
+    "url": "https://arxiv.org/abs/2609.18155",
+    "authors": [
+      "Yongkang Cheng",
+      "Che-Yung Shen",
+      "Yuntian Wang",
+      "Shiqi Chen",
+      "Aydogan Ozcan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18362",
+    "title": "Topological photonic cavities based on dissimilar Bragg gratings",
+    "abstract": "           Topological photonic cavities offer a powerful route to robust optical confinement and enhanced light-matter interactions. Interface states that emerge at the boundary between one-dimensional periodic structures with distinct topological phases, enable cavities with ultra-small mode volumes and intrinsic protection against disorder. Existing implementations typically create the trivial and topological phases by redefining the unit cell on either side of the cavity, so that both periodic structures share the same band structure. This constraint limits design flexibility and the range of accessible devices. Here we introduce a fundamentally different strategy for realizing topological cavities based on combining periodic waveguides with distinct band structures. By exploiting bandgap closing and band inversion in Bragg gratings, we independently control the topological phase and bandgap width of each structure. We experimentally realize silicon topological cavities formed by two different Bragg gratings without period shifting, and observe topological modes despite significant differences between the two gratings. Our results establish a new route to topological photonic cavity design, demonstrating that band inversion between dissimilar Bragg gratings enables cavity formation beyond symmetric constraints and provides a mechanism to engineer optical confinement via mirror asymmetry.         ",
+    "url": "https://arxiv.org/abs/2609.18362",
+    "authors": [
+      "Alejandro S\u00e1nchez-S\u00e1nchez",
+      "Jos\u00e9 Manuel Luque-Gonz\u00e1lez",
+      "Gauthier Krizman",
+      "Dorian Oser",
+      "Paula Nu\u00f1o Ruano",
+      "David Gonz\u00e1lez-Andrade",
+      "David Medina Quiroz",
+      "Samson Edmond",
+      "Alejandro Ortega-Mo\u00f1ux",
+      "Jens H. Schmid",
+      "Pavel Cheben",
+      "Laurent Vivien",
+      "I\u00f1igo Molina-Fern\u00e1ndez",
+      "J. Gonzalo Wang\u00fcemert-P\u00e9rez",
+      "Carlos Alonso-Ramos"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18468",
+    "title": "Improved systematic uncertainty evaluation of the $^{171}$Yb optical lattice clock NMIJ-Yb1 with uncertainty of $2.6\\times10^{-17}$",
+    "abstract": "           We report a systematic uncertainty evaluation of the $^{171}$Yb optical lattice clock NMIJ-Yb1 (NMIJ: National Metrology Institute of Japan) with a fractional frequency uncertainty of $2.6\\times10^{-17}$, improved by a factor of 3.8 compared with our previous uncertainty. The uncertainty of the lattice light shift is reduced to $1.6\\times10^{-17}$ by preparing axially sideband-cooled atoms in a shallow optical lattice. Different models to calculate the lattice light shift are compared, taking account of possible model-dependent biases due to the treatment of the radial motion of atoms trapped in the optical lattice. The uncertainty of the blackbody radiation shift reaches $7.0\\times10^{-18}$ by measuring the radiative temperature at the position of atoms with an in-vacuum temperature sensor. We also demonstrate the nearly continuous operation of NMIJ-Yb1 with an uptime of 91.3 $\\%$ for 10 days, showing the potential for future improvement of the calibration uncertainty of International Atomic Time.         ",
+    "url": "https://arxiv.org/abs/2609.18468",
+    "authors": [
+      "Takumi Kobayashi",
+      "Akiko Nishiyama",
+      "Ikuhiko Saito",
+      "Daisuke Akamatsu",
+      "Akio Kawasaki",
+      "Shintaro Nagase",
+      "Masami Yasuda"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18495",
+    "title": "Impact of Phase Unwrapping on Multitarget Acoustic Lenses for Transcranial Holography",
+    "abstract": "           Acoustic lenses have been introduced recently to compensate for the phase distortions induced by the propagation across a human skull for ultrasonic deep-brain stimulation in humans. In this study, we present bifocal lenses that compensate for human skull aberrations and allow simultaneous targeting of multiple structures deep in the brain. We investigated the impact of phase unwrapping in the design of the lenses and how this process improves the distribution of pressure produced in N=5 human skulls for two different spatial arrangements of the targets. The results show that unwrapping the phase computed during the design increases the fidelity of the pressure field generated across the human skulls. The spatial precision is on average improved by 73%, and out of target energy deposition is on average reduced by 58%. The results presented in this study highlight the importance of phase unwrapping to optimize the safety and efficacy of future transcranial ultrasound stimulations targeting multiple regions.         ",
+    "url": "https://arxiv.org/abs/2609.18495",
+    "authors": [
+      "D. Attali",
+      "T. Tiennot",
+      "M. Tanter",
+      "Jean-Francois Aubry"
+    ],
+    "subjectives": [
+      "Classical Physics (physics.class-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18567",
+    "title": "Terahertz Radar Inversion for Range-Resolved Solids Concentration Profiling in Gas--Solid Flows",
+    "abstract": "           A stable inversion method is developed to reconstruct millimeter-scale solids-concentration profiles in particulate suspensions from monostatic sub-terahertz frequency-modulated continuous-wave (FMCW) radar measurements. In industrial particulate flows, cumulative attenuation renders the direct inversion of the path-integrated volume-scattering radar equation ill-conditioned. The method resolves this by an ensemble-averaged Mie-scattering closure coupled to a stable backward-integration scheme, yielding an analytical solution for the range-resolved solids concentration without case-specific parameter fitting against reference concentration measurements. The required range-dependent system response is determined by absolute near- and far-field calibration via external substitution with an electrically large metallic sphere. The method was evaluated against solids-volume-fraction estimates derived from differential-pressure measurements in a 3.1 m-tall circulating fluidized-bed riser operated with ambient air and copper powder (median diameter 32.6 $\\mu$m, density 8920 kg m$^{-3}$). The radar-derived and pressure-derived profiles agreed well across three superficial gas velocities producing distinct axial solids distributions, and the radar indicates sensitivity down to solids volume fractions of order $10^{-6}$.         ",
+    "url": "https://arxiv.org/abs/2609.18567",
+    "authors": [
+      "Philip Kjaer Jepsen",
+      "Albert Monteith",
+      "Diana Carolina Gu\u00edo-P\u00e9rez",
+      "Lars Ulander",
+      "Tomas Bryllert",
+      "Henrik Str\u00f6m",
+      "David Pallar\u00e8s"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18640",
+    "title": "Dual-comb generated in single thin-film lithium niobate microrings",
+    "abstract": "           Dual-comb technology has emerged as an essential tool for high-precision spectroscopy, real-time ranging, and high-sensitivity sensing. Integrating dual-comb sources into a single microresonator would substantially reduce pump power, footprint, system complexity, and cost, yet this remains a significant challenge. Here, we demonstrate, for the first time, integrated dual-comb generation in a single thin-film lithium niobate (TFLN) microring, under single continuous-wave laser pumping. Rather than regarding TFLN's strong Raman nonlinearity as detrimental, as conventionally viewed, we harness it constructively. By engineering the dispersion of TFLN microrings, we leverage the fundamental and first-order transverse-electric mode families with loaded Q factors exceeding 5X10^6, comparable repetition rates, and suitable dispersion profiles, and bridge them through stimulated Raman scattering (SRS) processes. Pumping a first-order mode at 1551.28 nm initially excites both Stokes and anti-Stokes SRS in the fundamental mode family at low thresholds, and subsequently produces two independent, spectrally separated combs at a pump power of 320 mW via direct Kerr and Raman-assisted Kerr effects, respectively. The two combs span broad bandwidths, exhibit repetition rates of ~102 GHz with a slight difference of ~624 MHz, and do not merge spectrally. The broadest spectrum spans 654 nm, and the Raman-Kerr comb has a 3-dB bandwidth exceeding 29 nm. Further characterization confirms that the comb lines exhibit low phase noise, with an intrinsic linewidth of 410 Hz. This work establishes a robust pathway for on-chip dual-comb generation in a single-laser pumped microring, significantly advancing dual-comb systems toward simplified architectures, enhanced robustness, and scalable integration, while accelerating their practical deployment.         ",
+    "url": "https://arxiv.org/abs/2609.18640",
+    "authors": [
+      "Renhong Gao",
+      "Qifeng Hou",
+      "Xinzhi Zheng",
+      "Bin Li",
+      "Guanghui Zhao",
+      "Yingnuo Qiu",
+      "Xinke Xing",
+      "Boyang Nan",
+      "Yixuan Yang",
+      "Saisai Sun",
+      "Kunpeng Jia",
+      "Zhenda Xie",
+      "Jintian Lin",
+      "Shining Zhu",
+      "Ya Cheng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18725",
+    "title": "Coherent collective amplification of terahertz microbunching seeded by laser frequency beating in relativistic electron beams",
+    "abstract": "           High-power, continuously tunable terahertz sources based on free-electron lasers require precise control of electron-beam microstructures. Quantitative prediction of the modulation amplitude across a broad frequency range remains challenging because the laser-induced distribution and its collective evolution must be treated together. To describe this coupled evolution, a nonlinear model is developed for microbunching seeded by a frequency-beating laser heater. The non-Gaussian heater-exit distribution is obtained by optical phase averaging and propagated through multistage compression in six-dimensional phase space. Source-induced correlations are retained, with space charge, coherent synchrotron radiation, and radio-frequency wakefields evaluated self-consistently. The wavelength-dependent bunching response is thereby connected to the laser beat frequency, laser power, and compression partition. The short-wavelength double peak is found to be governed mainly by longitudinal space charge, while bunching near a selected wavelength can be enhanced by redistributing compression at fixed total compression. The predicted source modulation and downstream response are benchmarked against Elegant and IMPACT-Z, respectively. Experimental measurements of the wavelength-dependent bunching factor at different laser pulse energies are found to agree well with the trends predicted by theory and simulation. The resulting framework provides a computationally efficient and predictive route to optimizing electron-beam microbunching for tunable, high-power terahertz generation at free-electron-laser facilities.         ",
+    "url": "https://arxiv.org/abs/2609.18725",
+    "authors": [
+      "Wencai Cheng",
+      "Yin Kang",
+      "Kaiqing Zhang",
+      "Zhen Wang",
+      "Duan Gu",
+      "Guangling Chen",
+      "Chao Feng",
+      "Haixiao Deng"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18775",
+    "title": "Kilojoule-scale laser acceleration enabling efficient generation of electron-positron and muon beams",
+    "abstract": "           Despite many experimental attempts, laboratory pair-beam sources have not yet reached the charge, collimation, and density needed to observe kinetic pair-plasma instabilities. Here we show that an optimised direct-laser-acceleration (DLA) regime in a gas target can close this gap in the regime of kilojoule-class petawatt lasers. Quasi-3D PIC and Geant4 simulations show that DLA-accelerated electron bunches carry tens of nC at GeV-scale energies with low divergence. Converted in a high-Z target, they generate up to 3x10^12 positrons with tunable energy spectra and transverse sizes of several skin depths in the beam rest frame. A proof-of-principle PIC simulation of the pair beam propagating through background gas shows the growth of a current-filamentation instability. This provides direct numerical evidence that kinetic pair dynamics are within reach of near-term facilities such as ELI-L4. The same electron driver also generates 6.5x10^5 Bethe-Heitler muons per shot, at up to 580 muons/J. We derive a scaling law for the muon yield and validate it against Geant4 simulation. Above a modest driver-energy threshold, the yield depends on the total energy delivered to the electron beam rather than on its peak energy - a design principle for future laser-based muon sources. These results establish DLA-driven secondary sources as a practical, near-term pathway to laboratory pair plasmas, high-yield muon beams, and lepton-accelerator injectors.         ",
+    "url": "https://arxiv.org/abs/2609.18775",
+    "authors": [
+      "R. Babjak",
+      "M. Pouyez",
+      "C. Badiali",
+      "T. Grismayer",
+      "M. Vranic"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.19103",
+    "title": "Correlation geometry and topology of structured optical beams",
+    "abstract": "           Correlation geometry and topology in a random, scalar beam carrying Orbital Angular Momentum (OAM) in $L$ modes are shown to be linked to the real and imaginary parts, respectively, of its orbitalization matrix (OM). The OM is obtained by filtering the cross-spectral density in the polar Fourier basis at a given cross-section and radius for each pair of OAM indices. The symmetric real part of the OM has the diagonal canonical form, specifying the ellipsoid-like correlation geometry of the beam. The skew-symmetric imaginary part of the OM has the Darboux canonical form, enabling decomposition into $N\\leq L/2$ mutually orthogonal circulation states and $L-2N$ trivial circulation-free states, mutually orthogonal and $L-2N$ trivial circulation states thereby defining the $N$-dimensional orbitalization torus associated with the correlation topology of the beam. The canonical forms are then used to define the degrees of linear and circular orbital anisotropy and stability, and the degrees of linear and circular orbitalization, in analogy with corresponding quantities in 2D and 3D polarization theory. These results demonstrate the emergence of fundamentally new correlation structures in random multimode OAM-carrying light, not accessible in lower-dimensional systems and absent in the deterministic limit.         ",
+    "url": "https://arxiv.org/abs/2609.19103",
+    "authors": [
+      "Jyrki Laatikainen",
+      "Olga Korotkova"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.17661",
+    "title": "1D PIC Simulations of Resonant Scattering-Driven Pair Cascades in Magnetar Magnetospheres",
+    "abstract": "           Hard X-rays in persistent magnetar emission originate from radiative processes in pair-loaded magnetospheric plasma, yet self-consistent kinetic simulations of such radiation-rich systems remain limited. We perform 1D particle-in-cell simulations of pair creation mediated by resonant inverse Compton scattering (RICS) along isolated field lines in twisted magnetospheres, capturing particle acceleration and radiative drag from first principles. The drag force, which strongly depends on the particle Lorentz factor and location, plays a key role in the magnetospheric circuit. Strong RICS drag impedes the flow of electrons and positrons, particularly along extended field lines. Nevertheless, the plasma sustains the circuit by self-organizing into a single accelerating gap near the star in one hemisphere. The accelerated plasma flow from the gap becomes loaded with copious electron-positron pairs in extended RICS zones, and also carries ions extracted from the star and accelerated in the gap. When radiative drag stops the pair-loaded flow at the magnetic equator, the ion component transfers momentum through streaming instabilities, delivering a small lepton population into the opposite hemisphere and sustaining the circuit. The gap confined to a single (anode) hemisphere implies asymmetric hard X-ray production, possibly detectable in phase-resolved magnetar spectra.         ",
+    "url": "https://arxiv.org/abs/2609.17661",
+    "authors": [
+      "Jens F. Mahlmann",
+      "Alexander A. Philippov",
+      "Adrien Soudais",
+      "Andrei M. Beloborodov",
+      "Lorenzo Sironi"
+    ],
+    "subjectives": [
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18327",
+    "title": "Quantum electrodynamics of equilibrium systems: A rigorous Maxwell-regularized functional-theoretic formulation",
+    "abstract": "           A framework for quantum electrodynamics of equilibrium systems is proposed that takes the Maxwell equations as foundational and links them to the structure of density-functional theory for the quantum system. By switching from purely internal observables like the one-particle density to combined internal and external quantities, the external sources and their energy are taken into account. A fully regularized functional theory emerges that avoids the usual representability problems. With the Kohn-Sham construction that links to an auxiliary uncoupled system, the ultra-violet cutoff can be removed and one arrives at a fully renormalized and non-perturbative light-matter description. Regularized forms of density-functional theory with and without magnetic fields appear as boundary cases, while the emergent physical picture reproduces the macroscopic Maxwell equations.         ",
+    "url": "https://arxiv.org/abs/2609.18327",
+    "authors": [
+      "Markus Penz",
+      "Christian J\u00f6ns",
+      "Michael Ruggenthaler",
+      "Angel Rubio"
+    ],
+    "subjectives": [
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18347",
+    "title": "Optical Quantum Computing",
+    "abstract": "           Under the label of optical quantum computing, there are a variety of protocols and experiments that use the quantum properties of light to achieve a computational advantage over classical computing machines. In this review, we describe some of the main implementations, which differ in the type of encoding and in how the computation is performed, whether using gates or cluster states. For each protocol, we describe advantages and challenges with an overview of the experimental results obtained, summarized in tables. Because of the great relevance achieved in this field, there is a section dedicated to non-universal quantum computation with photons, where boson sampling, variational quantum eigensolvers, and quantum machine learning applications are described. The aim is to give the reader the broadest overview of the applications where photons and their quantum properties play a key role in computation.         ",
+    "url": "https://arxiv.org/abs/2609.18347",
+    "authors": [
+      "Hamza Hasnaoui",
+      "Leonardo Limongi",
+      "Taira Giordani",
+      "Beatrice Polacchi",
+      "Alberto Quaranta",
+      "Martino Bernard",
+      "Fabio Sciarrino",
+      "Mirko Lobino"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18575",
+    "title": "Filter-Free Indistinguishable Photon Generation from Continuous-Wave-Driven Integrated Microresonators",
+    "abstract": "           Quantum networks require scalable photon sources combining narrow linewidth, high efficiency, and high indistinguishability. Microresonator photon-pair sources are promising candidates, yet a source-only description based on the joint spectral amplitude (JSA) predicts near-zero Hong-Ou-Mandel (HOM) interference visibility between photons generated by independent, CW-driven microresonators. In this work, we show that the observed HOM interference is not determined by the JSA alone. By combining finite-time detection with cavity-enhanced spontaneous four-wave mixing, we characterize a detector-conditioned heralded state governed by the idler-photon detection window. We further demonstrate that independently optimizing the idler and signal detection windows allows both heralded-photon indistinguishability and intrinsic heralding efficiency to approach unity, without spectral filtering or complex source engineering. Utilizing integrated high-$Q$ silicon nitride microresonators, we achieve HOM visibilities of 0.992(8) and 0.942(12), without background subtraction, at fourfold count rates of 4.5(3) and 12.2(6) Hz, respectively. Our work establishes CW-driven high-$Q$ microresonators as a robust and scalable platform for quantum-network primitives.         ",
+    "url": "https://arxiv.org/abs/2609.18575",
+    "authors": [
+      "Ruiyang Chen",
+      "Sicheng Zeng",
+      "Yuan Chen",
+      "Sanli Huang",
+      "Zeying Zhong",
+      "Zhen Chen",
+      "Xue Bai",
+      "Yi-Han Luo",
+      "Junqiu Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18867",
+    "title": "Liouvillian exceptional points in the emergence of quantum synchronization",
+    "abstract": "           The coupling between self-sustained oscillators, such as lasers or polariton condensates, leads to different steady-states in different regimes. Weak coupling allows the oscillators to behave independently, with different frequencies and uncorrelated phases, while stronger coupling can produce synchronization. In classical or semiclassical theories transitions between these steady-states correspond to changes in the topology of the phase space attractors and occur at generalized exceptional points. We investigate the corresponding changes in a quantum theory of coupled lasers or condensates. We show how the different steady-state regimes of the classical limit give rise to distinct forms for the spectra and eigenmatrices of the slow modes of the Liouvillian. By following the spectral flow between the different regimes we show that the synchronization transition is controlled by cascades of exceptional points in these slow modes, protected by a generalized PT symmetry. Our results show how singularities of the quantum Liouvillian control the different dynamical regimes, and give rise to experimental signatures of the synchronization transition which remain well-defined in the few-particle regime dominated by quantum effects.         ",
+    "url": "https://arxiv.org/abs/2609.18867",
+    "authors": [
+      "Carlos Ortega Taberner",
+      "Rosalind E. Cotton",
+      "Paul R. Eastham"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.18972",
+    "title": "Ancilla-assisted dark-state quantum gates in ultracold polar molecules",
+    "abstract": "           High-fidelity entangling gates are useful for circuit-based quantum computing, yet their realization in a scalable platform is challenging. Optically trapped ultracold polar molecules offer a potentially scalable platform. Here, we introduce a two-qubit molecular entangling gate via a novel ancilla-assisted dark-state mechanism, where high fidelity is achievable. In particular, we find that by using appropriate qubit states for the ancilla and the data qubits, dark states can appear, and entanglement can emerge by driving the ancilla only. It is also feasible to extend the two-qubit gate to a multi-qubit gate via the same dark-state mechanism.         ",
+    "url": "https://arxiv.org/abs/2609.18972",
+    "authors": [
+      "Yan Lu",
+      "Xiao-Feng Shi"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Applied Physics (physics.app-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.19018",
+    "title": "Quantum-Classical Effective Fragment Potential Embedding for Condensed-Phase Quantum Chemistry",
+    "abstract": "           Quantum simulation of chemistry in realistic environments is constrained by the orbital cost of explicit solvent, ions, and other surroundings. We present the quantum-classical effective fragment potential (Q-EFP) method, in which a chemically active region is treated with a quantum algorithm and the environment is represented by the effective fragment potential (EFP) in GAMESS. Coulomb and polarization potentials enter the active-region one-electron Hamiltonian, while EFP-EFP and short-range environment contributions are assembled classically. Statevector UCCSD/STO-3G benchmarks for LiH in a mixed water/methanol environment, H2O in a five-water environment, and BeH2 in an ammonium/nitrate environment differ from matched classical CCSD/EFP calculations by 0.03, 0.38, and 0.01 kcal/mol, respectively. The active calculations require 4 to 8 qubits, compared with estimated full-system counts of approximately 84 to 246 qubits, corresponding to register reductions of about 10-fold to 35-fold. These proof-of-concept results validate the embedded Hamiltonian and Q-GAMESS workflow while separating environmental size from quantum-register size. Q-EFP is complementary to real-space Q-EFMO fragmentation and virtual-orbital Q-FVO reduction, enabling a layered route to larger solvated systems.         ",
+    "url": "https://arxiv.org/abs/2609.19018",
+    "authors": [
+      "Federico Zahariev",
+      "Vassiliki-Alexandra Glezakou",
+      "Mark S. Gordon"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2506.00214",
+    "title": "Diff-SPORT: Diffusion-based Sensor Placement Optimization and Reconstruction of Turbulent flows in urban environments",
+    "abstract": "           Rapid urbanization demands efficient monitoring of turbulent wind and pollutant dispersion, yet existing reconstruction and sensor placement strategies fail under realistic sparsity constraints. Here, we introduce Diff--SPORT, a diffusion-based framework that combines a generative diffusion prior with maximum a posteriori inference and Shapley-value attribution for high-fidelity flow reconstruction and optimal sensor placement. By training a diffusion prior model once over a domain, Diff--SPORT enables non-linear optimal sensor placement and near-real-time flow reconstruction from sparse measurements orders of magnitude faster than RANS or LES simulations, consistently outperforming state-of-the-art methods. The framework also extends, without algorithmic modification, to experimental passive scalar concentration dataset, a direct proxy for pollutant dispersion, measured in a 1:2400 scale water-flume model of the Beijing Haidian neighbourhood under realistic urban flow conditions. Shapley-guided sensor placement achieves up to 57\\% lower reconstruction error than randomly placed sensors at extreme sparsity, identifying compact and physically interpretable configurations. These results establish Diff--SPORT as a modular foundation offering a zero-shot alternative to retraining-intensive downstream strategies, supporting scalable urban flow monitoring for air quality management and resilient city design.         ",
+    "url": "https://arxiv.org/abs/2506.00214",
+    "authors": [
+      "Abhijeet Vishwasrao",
+      "Sai Bharath Chandra Gutha",
+      "Andres Cremades",
+      "Klas Wijk",
+      "Aakash Patil",
+      "H.D. Lim",
+      "Christina Vanderwel",
+      "Catherine Gorle",
+      "Beverley J McKeon",
+      "Hossein Azizpour",
+      "Ricardo Vinuesa"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)",
+      "Artificial Intelligence (cs.AI)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.05150",
+    "title": "Foil-Mediated Mutual-Impedance in Microwave Cavities with Enhanced Phase Response",
+    "abstract": "           We formulate and validate an equivalent circuit model describing mutual coupling between three microwave cavity resonators interconnected via thin metallic foils. Each cavity is represented as a lumped LCR circuit, while the foils act as interfaces that mediate energy exchange via mutual impedance. This coupling mechanism produces interference effects and a controllable antiresonance when the input resonators are amplitude- and phase-balanced, while enabling coupling across a continuous metallic interface without direct antenna or aperture coupling. All three resonators operated in the TM$_{010}$ mode, where two input resonators each excited the third via a thin copper foil. Analytical expressions are derived for the mutual impedance and coupling coefficient of these foils in this geometry. Under balanced conditions, a sharp antiresonance emerges with a several-fold enhanced phase sensitivity at the resonant frequency of the output cavity, consistent with model predictions. The experimentally extracted normalised mutual coupling coefficients, $\\Delta_{13}=(10.8\\pm0.3)\\times10^{-6}$ and $\\Delta_{23}=(8.6\\pm0.2)\\times10^{-6}$, fall within the calculated range $\\Delta_{n3}\\approx(7\\text{--}17)\\times10^{-6}$ derived from the foil's electromagnetic properties, where the spread is dominated by the estimated foil thickness uncertainty of $(8.9\\pm0.4)\\,\\mu\\mathrm{m}$. These results demonstrate a foil-mediated physical implementation of weak mutual coupling across a metallic interface spanning multiple skin depths, providing a distinct route for engineering controlled interference in three-dimensional multi-resonator systems.         ",
+    "url": "https://arxiv.org/abs/2603.05150",
+    "authors": [
+      "Michael T. Hatzon",
+      "Graeme R. Flower",
+      "Robert C. Crew",
+      "Ethan Han",
+      "Ben T. McAllister",
+      "Jeremy F. Bourhill",
+      "Michael E. Tobar"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.27087",
+    "title": "A theoretical and experimental assessment of adiabatic losses in force-gradient-detected magnetic resonance of nitroxide spin labels",
+    "abstract": "           We recently introduced a new theoretical description of Landau--Zener--St\u00fcckelberg--Majorana (LZSM) transitions that accounts for both adiabatic and spin-dephasing losses during sweeps through resonance. Here, we use this new description to assess signal loss due to cantilever tip motion in magnetic resonance force microscopy experiments on electron spins. We derive equations for spin-induced cantilever frequency shifts that account for the time-dependent magnetization present during cantilever-synchronized periods of irradiation and relaxation. We show that a frequency shift can be created by either a force- or force-gradient coupling mechanism, depending on the periodicity and timing of the microwave irradiation; the frequency shift decreases when the spin-lattice relaxation time becomes shorter than the cantilever oscillation period. Equations were validated by comparing with the magnetization computed by numerically integrating the time-dependent Bloch equations. Numerical simulations incorporating the new equations were compared to frequency-shift electron-spin signals collected as a function of magnetic field, tip-sample separation, microwave power, and microwave timing. The simulations quantitatively describe the observed signals with essentially no free parameters. Finally, motivated by our new frequency-shift equations, we present a new experimental spin-excitation protocol that eliminates spurious signals arising from direct microwave excitation of the cantilever in a magnetic resonance force microscope experiment.         ",
+    "url": "https://arxiv.org/abs/2603.27087",
+    "authors": [
+      "Michael C. Boucher",
+      "Peter Sun",
+      "Eric W. Moore",
+      "John A. Marohn"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.10767",
+    "title": "Passive optical superresolution at the quantum limit",
+    "abstract": "           For more than a century, the diffraction limit has defined the resolution achievable by passive optical imaging systems. Although some resolution improvement can be gained through classical data processing of the image, it is limited by the noise arising from quantum nature of light. Minimizing the effect of this noise requires quantum treatment of optical imaging. By reformulating imaging as a problem of quantum measurement and estimation, it becomes possible to identify optimal detection strategies that recover spatial information previously thought inaccessible. This review summarizes the theoretical framework that underpins this development, from the formulation of quantum Cramer-Rao bounds and Chernoff bounds to the construction of receivers that attain them, such as those based on spatial-mode demultiplexing. We show how these methods can beat conventional imaging in the classification, localization, and imaging of sub-Rayleigh incoherent sources. We then discuss extensions to multiparameter and partially coherent scenarios, and highlight the unifying connections between estimation and discrimination tasks. Finally, we survey recent experimental demonstrations that approach quantum-limited resolution and outline emerging applications in microscopy, astronomy, and optical sensing.         ",
+    "url": "https://arxiv.org/abs/2605.10767",
+    "authors": [
+      "A. I. Lvovsky",
+      "Michael R. Grace",
+      "Saikat Guha",
+      "Mankei Tsang",
+      "Gerardo Adesso",
+      "Nicolas Treps"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2607.29342",
+    "title": "Information limits of photonic lantern wavefront sensing: a Fisher- and quantum-Fisher-information framework and its relation to Fourier-filtering sensitivity limits",
+    "abstract": "           The photonic lantern is an all-photonic wavefront sensor native to single-mode-fibre-fed instruments, but its performance is almost always quoted through a specific reconstruction algorithm, obscuring how much wavefront information the device itself encodes. We develop, from first principles, the Fisher-information and Cramer-Rao theory of the photonic-lantern wavefront sensor, benchmark it against the quantum Cramer-Rao bound via an explicit multi-parameter quantum-Fisher-information calculation, and relate it to two established frameworks: the Fourier-filtering noise-propagation model of Chambouleyron et al (2023) and the classical/quantum sensitivity limit of Haffert et al (2023). Treating the lantern as a deterministic map from aberration coefficients to N output intensities, we derive the Poisson and read-noise Fisher information matrices (FIM), the per-mode CRLB, the per- photon Fisher-Rao geometry on the intensity simplex, and a flux- and estimator-independent sensitivity metric beta with quantum ceiling beta = 2. The lantern CRLB scales as N_ph^(-1/2) and is bounded, mode by mode, by the quantum limit of 1/2 rad rms per photon. That multi-parameter bound is jointly saturable: the phase generators are real and commuting, so the mean Uhlmann curvature vanishes and wavefront sensing carries no quantum incompatibility between simultaneously estimated modes, extending Haffert et al's single-mode ceiling to all low-order modes at once. We further show that the photon-noise sensitivity s_gamma of Chambouleyron et al is exactly the diagonal of our per- photon FIM, whereas the CRLB uses the diagonal of its inverse; the two coincide only for a diagonal FIM, so s_gamma is optimistic for a mode-mixing lantern. The framework is device-agnostic: it returns estimator-independent sensitivities comparable on a common beta <= 2 scale with pyramid, Zernike and PIAA-ZWFS sensors.         ",
+    "url": "https://arxiv.org/abs/2607.29342",
+    "authors": [
+      "Kalaga Madhav"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.02552",
+    "title": "Magnetic Skyrmion Interacting with Optical Skyrmion",
+    "abstract": "           Magnetic skyrmions (MSks) and optical skyrmions (OSks) embody topology in matter and in light, respectively. Here we investigate the interaction between a single MSk and an OSk beam. Three distinct nonlinear dynamical modes are identified: rotation, skipping, and trochoidal motion. By decomposing the optical driving force into gradient, orbital-angular-momentum, and spin-angular-momentum contributions, we clarify their respective roles of radial confinement, azimuthal drift, and precessional modulation. The skipping motion arises from the azimuthal asymmetry of the OSk beam and exhibits spatial selectivity originating from the magnetization-polarization coupling between the MSk and OSk. In three dimensions, the coupling acquires a propagation-dependent phase dominated by the differential Gouy phase, which yields $z$-asymmetric skipping trajectories. These results bridge topological particles and topological fields within a unified framework, offering helicity-selective and phase-programmable routes to optomagnonic control.         ",
+    "url": "https://arxiv.org/abs/2608.02552",
+    "authors": [
+      "Lan Bo",
+      "Jian Chen",
+      "Xichao Zhang",
+      "Yan Zhou",
+      "Chengwei Qiu",
+      "Masahito Mochizuki"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
