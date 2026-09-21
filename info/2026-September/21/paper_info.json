@@ -1,0 +1,443 @@
+[
+  {
+    "id": "arXiv:2609.20837",
+    "title": "Dual-Mode SERS and Colorimetric Sensor for Lung Cancer VOC-Biomarker Detection Using Hydrogel Patches",
+    "abstract": "           Hexanal, a volatile organic compound (VOC), is a potential biomarker for the early detection of lung cancer. In this study, we developed a dual-mode flexible biosensor that integrates surface-enhanced Raman scattering (SERS) and colorimetric detection for the quantitative analysis of hexanal in human exhaled breath. The biosensor employs Ag nanocubes wrapped with Co-Ni layered double hydroxide (AgNCs@Co-Ni LDH) as a functional matrix, offering both superior SERS enhancement and efficient VOC adsorption properties. To achieve selective detection, AgNCs@Co-Ni LDH were incorporated into agarose hydrogels along with 3-methyl-2-benzothiazolinone hydrazone (MBTH). The resulting MBTH-AgNCs@Co-Ni LDH/hydrogel-patch facilitate the oxidation of hexanal, enabling simultaneous colorimetric and SERS signal generation, while producing acrizine, a blue-colored reaction product. This hydrogel-based dual-mode sensing platform exhibits high selectivity, excellent stability, and precision in SERS-based hexanal detection. The detection limit for the SERS method was determined to be as low as 3.34x10-13 M. Furthermore, developed and optimized compact CNN-based multi-terminal intelligent recognition system for enhanced hydrogel-patch detection through AI-driven, portable, and real-time colorimetric analysis. Therefore, this work not only enables the effective detection of hexanal in the exhaled breath of suspected lung cancer patients, underscoring its potential for early lung cancer screening, but also establishes a foundation for the development of multimodal hydrogel biosensors for broader applications in disease diagnosis.         ",
+    "url": "https://arxiv.org/abs/2609.20837",
+    "authors": [
+      "Jialin Li",
+      "Shaowei Liu",
+      "Amil Aligayev",
+      "Hao Jiang",
+      "Muhammad",
+      "Xin Yu",
+      "Jin Tao",
+      "Jiaqi Wang",
+      "Agnieszka Jastrz\u0119bska",
+      "Qing Huang"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.20862",
+    "title": "Towards a picture of the natural world derived from relativity and quantum theory",
+    "abstract": "           I contend that physics should provide a coherent account of reality, in addition to be an efficient algorithm for the prediction of empirical results. This article offers pictures of reality derived from theories of modern physics. In particular it is shown that Bose quantum fields may be interpreted as pure wave fields via the Weyl-Wigner representation. The most relevant result being the existence of a stochastic vacuum field, corresponding to the quantum vacuum fluctuations of the standard, canonical, formulation of field theory. That field provides explanations for the particle (photons) behaviour of the electromagnetic field. Also a realistic interpretation is offered for the interference experiments with actual particles, like atoms. The interpretation of classical general relativity is standard but emphasis is made on the principle of equivalence. Problems like the spacetime singularities (black holes) and the empirical violation of Bell inequalities are touched but slightly. Asides from these problems the main incompleteness of the article is the absence of a realistic interpretation of Fermi fields.         ",
+    "url": "https://arxiv.org/abs/2609.20862",
+    "authors": [
+      "Emilio Santos"
+    ],
+    "subjectives": [
+      "General Physics (physics.gen-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.20868",
+    "title": "Automated Physics-Informed Neural-Networks-Based Calibration of Highly Segmented Silicon Telescopes",
+    "abstract": "           Transfer and multi-nucleon transfer reactions are essential tools for probing nuclear structure and reaction dynamics, requiring precise determination of the identity, energy, and emission angles of reaction products. The increasing granularity of modern silicon telescope arrays enhances experimental capabilities but challenges detector calibration, as conventional channel-by-channel approaches become inefficient and difficult to scale. In this work, we present a fully automated, physics-informed calibration framework based on neural networks, specifically designed for highly segmented silicon detector arrays. The method formulates calibration as a global optimization problem, in which detector gains and geometrical corrections are determined simultaneously by minimizing the width of the reconstructed excitation energy under two-body kinematics constraints. The approach relies exclusively on experimental data and well-established physical principles, without requiring explicit modeling of detector response. A distinctive feature is the use of multiple neural network sub-models sharing a common loss function with embedded physics constraints, enabling coherent and self-consistent calibration across all detector channels. This strategy ensures scalability, robustness, and reproducibility, making it particularly suitable for next-generation detector systems with increasing complexity. The performance of the method is demonstrated using experimental data from the Particle-Identification Silicon-Telescope Array (PISTA) in high-resolution fission studies in inverse kinematics. The results show excellent agreement with theoretical kinematics, high-quality particle identification, and a significant improvement in calibration efficiency. The proposed framework provides a general and adaptable solution for the calibration of complex detector systems in modern nuclear physics experiments.         ",
+    "url": "https://arxiv.org/abs/2609.20868",
+    "authors": [
+      "M. Rejmund",
+      "A. Lemasson",
+      "P. Morfouace",
+      "D. Ramos",
+      "J. Taieb",
+      "J. D. Frankland"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "Machine Learning (cs.LG)",
+      "Nuclear Experiment (nucl-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.20948",
+    "title": "Physics-aware hyper-reduction for full-vector photonic waveguide mode solvers",
+    "abstract": "           Photonic waveguide design often requires repeated full-vector Maxwell eigenmode solves over wavelength and geometry, where the subpixel smoothing needed at dielectric interfaces makes operator assembly a substantial part of the cost. We present a physics-aware hyper-reduction framework for accelerating this assembly. The method exploits an exact affine dependence of the discrete operators on the locally sampled inverse-permittivity tensor, and chooses its strategy from how a parameter acts on the interface cells. We demonstrate two regimes. In wavelength sweeps at fixed geometry, tensor values change on a fixed set of cells, and proper orthogonal decomposition with matrix discrete empirical interpolation reproduces the operators from few snapshots. In moving-boundary sweeps, interface information relocates across the grid, and event-driven dynamic local sampling updates only the coefficients a geometric step changes, reproducing full assembly exactly. These results show that operator assembly can be reduced by more than an order of magnitude without approximating the moving boundary, shifting the cost of a photonic mode sweep to the eigensolver.         ",
+    "url": "https://arxiv.org/abs/2609.20948",
+    "authors": [
+      "Daniel Rodr\u00edguez-Guill\u00e9n",
+      "Lorena Vel\u00e1zquez-Ibarra"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21106",
+    "title": "Magnetic Field of Firing Neuron in Humans: Measurable by Quantum Sensing MRI?",
+    "abstract": "           Firing neurons generate action potentials that propagate along axons to transmit signals supporting cognitive functions. These electrical currents generate magnetic fields, yet direct detection of these neuronal magnetic fields by MRI remains elusive. This Mini Review investigates why this goal has been proven difficult to achieve and whether an emerging approach, quantum sensing MRI, can overcome the challenge.         ",
+    "url": "https://arxiv.org/abs/2609.21106",
+    "authors": [
+      "Yongxian Qian"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21331",
+    "title": "Metasurface-integrated VCSEL designed for polarization control in optical Ising machines",
+    "abstract": "           The orthogonal polarization states of vertical-cavity surface-emitting lasers (VCSELs) can be used to describe candidate solutions to the Ising Hamiltonian, which is useful for solving quadratic unconstrained binary optimization problems. However, the natural anisotropy of VCSELs tends to overly favor one polarization state, which impedes the system from working as desired. In this work, we have designed and fabricated a metasurface, which may lead to a VCSEL with reduced undesired anisotropy. By changing the geometric size of nano-structures in the metasurface, the polarization state of the output light can be altered. Based on the injection-locking theory and spin-flip model, we numerically show that VCSELs with lowered anisotropy are more easily affected by the injection locking needed in Ising systems. Additionally, we numerically study the evolution of a 3-bit VCSEL-based Ising system and verify that the computational accuracy of the photonic Ising machine can be improved to more than twice that of its counterpart with higher anisotropy.         ",
+    "url": "https://arxiv.org/abs/2609.21331",
+    "authors": [
+      "Wenjie Chen",
+      "Zifeng Yuan",
+      "Hong-Lin Lin",
+      "Luo Qi",
+      "Jiaru Chu",
+      "Aaron Danner",
+      "Yuhang Chen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21375",
+    "title": "Topological Optical Frequency Combs",
+    "abstract": "           Optical frequency combs (OFCs) are revolutionary light sources characterized by discrete and equally spaced spectral lines, and they have found widespread applications in metrology, spectroscopy, and communications. In the early stages, OFCs were realized using mode-locked lasers. With advancements in the fabrication of high-quality factor ($Q$) microresonators and the increasing demand for miniaturized and integrable photonic chips, microresonator-based OFCs, commonly referred to as microcombs, have been developed. Although early studies of microcombs primarily focused on single microresonators or a few resonators, a significant breakthrough occurred in 2021 when it was theoretically predicted that light propagating in the topological edge channel of an array of ring resonators could generate nested frequency combs known as topological OFCs. Since then, the field of topological OFCs has progressed rapidly, with experimental observations made in 2024. This Perspective will introduce the history of OFCs, placing particular emphasis on the emergence and development of topological OFCs, as well as exploring the research challenges and opportunities associated with them.         ",
+    "url": "https://arxiv.org/abs/2609.21375",
+    "authors": [
+      "Rujiang Li",
+      "Wenfu Zhang"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Pattern Formation and Solitons (nlin.PS)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21429",
+    "title": "Mechanism of Ionization Avalanche in Tokamak Microwave Gas Breakdown",
+    "abstract": "           Microwave breakdown driven by electron cyclotron (EC) waves provides a non-inductive route to plasma initiation in reactor-scale tokamaks. We introduce a three-dimensional Monte Carlo simulation that, for the first time, self-consistently treats nonlinear wave-particle interactions, atomic collisions, and guiding-center transport. The Monte Carlo simulation unveils the key role of parallel Brownian motion in the ionization avalanche mechanism. The predicted breakdown boundary is validated against KSTAR experiments. This work concludes that microwave gas breakdown will be successful under ITER-relevant conditions at a D$_2$ prefill pressure near 2 mPa with 1 MW of injected EC power.         ",
+    "url": "https://arxiv.org/abs/2609.21429",
+    "authors": [
+      "Jinwoo Gwak",
+      "Yeongsun Lee",
+      "Jeongwon Lee",
+      "Won Ik Jeong",
+      "Hyun-Tae Kim",
+      "Yong-Seok Hwang",
+      "Min-Gu Yoo",
+      "Yong-Su Na"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21440",
+    "title": "Topological characterization of a reconfigurable synthetic-frequency SSH lattice on an integrated lithium-niobate platform",
+    "abstract": "           Synthetic frequency dimensions provide a powerful and highly reconfigurable platform for topological photonics. However, experimentally identifying their topological phases remains challenging because these systems do not naturally provide well-defined boundaries or readily accessible edge-state signatures. Here, we realize a reconfigurable Su-Schrieffer-Heeger (SSH) lattice in a synthetic frequency dimension using an integrated thin-film lithium-niobate photonic molecule and directly measure its topology. Electro-optic coupling between staggered resonator supermodes enables independent control of the effective intra-cell and inter-cell hopping strengths, enabling dynamic switching between trivial and non-trivial topological phases on the same chip. We validate the transition through two independently derived bulk topological invariants: direct retrieval of Zak phase from time-resolved synthetic-dimension band-structure spectroscopy; and extraction of the winding number using mean-chiral-displacement method from site-resolved steady-state measurements. Both approaches consistently identify the topological transition and agree closely with theoretical predictions. Our results demonstrate experimentally accessible, boundary-independent methods for characterizing topology in synthetic-frequency lattices. More broadly, the integrated and dynamically reconfigurable photonic platform provides a scalable framework for bulk topological characterization and programmable topological photonic systems.         ",
+    "url": "https://arxiv.org/abs/2609.21440",
+    "authors": [
+      "Hiep Xuan Dinh",
+      "Armandas Bal\u010dytis",
+      "Guanghui Ren",
+      "Mei Xian Low",
+      "Arnan Mitchell",
+      "Thach G. Nguyen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21506",
+    "title": "Mechanical Activation of Terahertz Tunneling in Metallic Nanogaps",
+    "abstract": "           Metallic nanogaps concentrate terahertz (THz) fields into deep subwavelength volumes and support field-driven electron tunneling when the insulating barrier becomes sufficiently narrow. Here, we demonstrate mechanical control of tunneling-mediated nonlinear THz transmission in a flexible nanogap metasurface. The metasurface consists of Au/PMMA/Au nanogaps fabricated on a polyethylene terephthalate substrate, enabling continuous tuning of the gap geometry through macroscopic bending. In the flat state, the resonant transmission exhibits only a weak dependence on the incident THz field strength. Upon bending, increasing the incident field strength induces pronounced resonance suppression accompanied by saturation of the voltage developed across the nanogaps. This nonlinear response is consistent with the opening of a field-dependent tunneling conduction channel through the mechanically narrowed PMMA barriers. Simmons-model calculations illustrate the strong increase in tunneling current density and the associated dissipative gap response as the local gap width approaches the few-nanometer regime. These results establish mechanical deformation as a macroscopic means of controlling tunneling-mediated THz nonlinearities in flexible metasurfaces.         ",
+    "url": "https://arxiv.org/abs/2609.21506",
+    "authors": [
+      "Dasom Kim",
+      "Dukhyung Lee",
+      "Young-Mi Bahk",
+      "Dai-Sik Kim"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21727",
+    "title": "Symmetry Properties of Bound States in the Continuum in Hexagonal Lattice Photonic Crystal Slabs",
+    "abstract": "           Bound states in the continuum (BICs) within photonic crystal (PhC) cavities realise the full confinement of light despite lying within the continuum of radiation modes. While their diverse practical applications has attracted considerable research interest, developing the fundamental understanding of BICs is important for the design of future devices. This paper uses a group theoretical approach to determine the basis functions of the irreducible representations (irreps) of a PhC with the symmetry of the $C_{6v}$ space group, from which the spatial distribution of the electromagnetic fields within the cavity can be determined. Furthermore, the reflection parity of the electric field and a $k \\cdot p$ perturbation theory approach are used to determine the far-field polarisation of each irrep. The $k \\cdot p$ perturbation explains why the $E_2$ irrep has a topological charge of $-2$, as well as showing that a topological charge does not necessarily indicate the presence of a BIC. Additionally, it is found that the quality factor of the modes do not necessarily scale as $Q \\propto 1/|k|^{2|q|}$, but are instead dependent on the coupling to the radiative mode in the $k \\cdot p$ perturbation, which is determined from the symmetry of each irrep.         ",
+    "url": "https://arxiv.org/abs/2609.21727",
+    "authors": [
+      "Rhys Jones",
+      "Sang Soon Oh"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Other Condensed Matter (cond-mat.other)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21781",
+    "title": "When Integrated Photonics Should Be Wavy",
+    "abstract": "           Increasing demand for high-performance optical devices drives the search for improved fabrication and design paradigms. While photonic circuits have traditionally used structures with two discrete 'binary' height levels, grayscale 'wavy' interfaces, or optical Fourier surfaces, have recently become possible. They provide precise control over the Fourier components that govern the optical response. This capability raises the question: When does a wavy device improve performance and why? Here, we show that wavy integrated processors exhibit superior accuracy and efficiency to binary analogs. Inverse-designed wavy interferometers have the design freedom to minimize outscattering to free space and backreflections. They reach a five-fold lower transmission error than binary counterparts and enable bandwidths up to 300 nm. We formalize these findings for other distinct integrated devices, such as photonic crystals, nanocavities, and beam emitters. A Fourier-optics analysis identifies a trade-off: wavy profiles manipulate light more accurately, whereas binary profiles excel in interaction strength. As such, tailored wavy profiles emit high-quality beams. However, binary profiles remain preferable in photonic crystals and nanocavities, where maximal index contrast is required and binarization-induced higher harmonics are benign. Thus, for quantum information, optical computing, and sensing, optical Fourier surfaces offer a route to miniaturized integrated circuits with improved performance.         ",
+    "url": "https://arxiv.org/abs/2609.21781",
+    "authors": [
+      "Oliver R. M\u00fcller",
+      "J. J. Erik Maris",
+      "Yannik M. Glauser",
+      "Sander J. W. Vonk",
+      "David J. Norris"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21830",
+    "title": "Performance of Capacitively Loaded RF Electrodes on SiO2/Si Substrates for High-Speed Electro-Optic Modulators",
+    "abstract": "           We experimentally investigate conventional and capacitively loaded traveling-wave RF electrodes fabricated on thermally grown SiO$_2$ on high-resistivity silicon substrates for high-speed electro-optic modulators. The capacitively loaded electrodes exhibit RF attenuation coefficients as low as approximately $0.23~\\mathrm{dB/cm}/\\sqrt{\\mathrm{GHz}}$, comparable to values reported for electrodes fabricated on insulating quartz substrates, while retaining the silicon handle and avoiding substrate removal or undercut processing. By varying the SiO$_2$ buried-oxide (BOX) thickness and the capacitive-loading geometry, the microwave effective index can be engineered over a broad range while maintaining low RF propagation loss. This enables microwave-optical velocity matching over a wide range of optical wavelengths, from the ultraviolet to the telecom C-band. These results demonstrate that thermally oxidized silicon provides a simple and scalable substrate platform for low-loss traveling-wave electrodes in thin-film lithium niobate and thin-film lithium tantalate electro-optic modulators, as well as for high-speed RF interconnects in integrated transceivers and co-packaged optical systems.         ",
+    "url": "https://arxiv.org/abs/2609.21830",
+    "authors": [
+      "Ayed Sayem",
+      "Ting-Chen Hu",
+      "Mark Cappuzzo",
+      "Alaric Tate",
+      "Rose Kopf",
+      "Mark Earnshaw"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.22006",
+    "title": "All-Optical Control over Nonlocality for Ultrafast Image Processing with an Excitonic Metasurface",
+    "abstract": "           Image processing lies at the foundation of many modern technologies, such as augmented reality and autonomous driving, yet conventional digital approaches remain energy-intensive and limited in speed. Nonlocal metasurfaces - 2D structures engineered at the nanoscale to support delocalized, dispersion engineered resonances - provide a fast, energy-efficient and ultrathin platform to perform image processing directly on the light path. Introducing tunability in this platform is an outstanding challenge, and would enable dynamic real-time control over the implemented processing operation, facilitating flexible integration into adaptive and multifunctional photonic architectures. Here, we demonstrate optically tunable edge detection at ultrafast speeds by integrating a dielectric nonlocal metasurface with multilayer WS2, whose strong exciton-driven optical response enables dynamic control of the metasurface nonlocality at sub-ps speeds. Using resonant optical pumping of the A-exciton in WS2, the metasurface transfer function is rapidly switched from edge detection to bright-field imaging by tuning its spatial nonlocality. Operating in the visible spectral range at a wavelength around 700 nm, the device shows ultrafast switching times and reaches an amplitude modulation depth of 11.5 dB for normal incident light. This approach provides a reconfigurable, ultrathin, all-optical platform for adaptive optical computing systems and highlights the potential of the highly nonlinear properties of 2D materials for active metasurfaces at ultrafast speeds.         ",
+    "url": "https://arxiv.org/abs/2609.22006",
+    "authors": [
+      "Bernardo S. Dias",
+      "Romain Tirole",
+      "Michele Guizzardi",
+      "Andrea Cordaro",
+      "Albert Polman",
+      "Andrea Al\u00f9",
+      "Jorik van de Groep"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.22015",
+    "title": "Optical Mode Sorting with a Programmable Diffractive Neural Network",
+    "abstract": "           Programmable diffractive optical processors are particularly attractive for spatial light manipulation because their optical transformations can be dynamically reconfigured and adapted without modifying the physical hardware. However, their practical performance is often limited by the gap between simulation and experiment caused by optical aberrations, alignment errors, and nonideal phase responses. In this paper, we introduce a hybrid optimization framework that combines high-dimensional numerical design with low-dimensional hardware-in-the-loop calibration, enabling programmable diffractive optical networks to compensate experimentally for mismatch without retraining their underlying optical transformations. We demonstrate a programmable optical diffractive neural network (ODNN) designed by back-propagation to spatially sort six linearly polarized modes supported by a multimode fiber. The experimental distortions are represented using a truncated Zernike basis with only 19 correction coefficients per layer. These coefficients are optimized directly on the physical system using stochastic parallel gradient descent, avoiding re-optimization of the full pixelated phase masks. Experimentally, the proposed calibration yields an SNR improvement of approximately 3.26 dB, and a decrease in amplitude error of 0.04. This separation of high-dimensional optical-function design from low-dimensional physical calibration provides a scalable route towards adaptive and reconfigurable spatial-mode processors for optical router on spatial modes and wavelengths, programmable photonic computer systems and quantum information processing.         ",
+    "url": "https://arxiv.org/abs/2609.22015",
+    "authors": [
+      "Qian Zhang",
+      "Shiyue Chen",
+      "Juergen W Czarske"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21473",
+    "title": "Development of a Temperature-Variable Cold Blackbody Calibrator for Millimeter and Submillimeter Wave Detectors",
+    "abstract": "           We report the design, fabrication, and characterization of a cryogenic blackbody calibrator intended for laboratory-based detector characterization, providing multi-temperature calibration of millimeter- and submillimeter-wave detectors over a temperature range of 4 K to ~10 K. The device employs a Stycast/SiC absorber shaped for uniform array illumination and mounted on a phosphor-bronze substrate with optimized thermal links. Measured thermal conductance and heat capacity show the expected temperature dependence, although the conductance was lower than estimated, yielding a thermal time constant of 8.5 s at 10 K versus the 3.7 s design estimate. The response remains practical, demonstrating the calibrator's effectiveness as a stable reference source for precise calibration of detector arrays.         ",
+    "url": "https://arxiv.org/abs/2609.21473",
+    "authors": [
+      "Kazuki Watanabe",
+      "Taiki Sato",
+      "Shuhei Inoue",
+      "Shinsuke Uno",
+      "Tatsuya Takekoshi",
+      "Tai Oshima"
+    ],
+    "subjectives": [
+      "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21488",
+    "title": "Rydberg excitons in core-shell nanostructures I. Optical properties",
+    "abstract": "           Optical properties of Cu$_2$O-metal core-shell nanostructures containing Rydberg excitons are examined. Calculations of electron and hole eigenfunctions and eigenenergies are used to calculate exciton energy and its dependence on system geometry and dimensionality. The limits of very small and very large structures are discussed, making the results applicable to low principal quantum number excitons as well as to Rydberg states. The Real Density Matrix Approach method is used to calculate the optical properties of the studied systems.         ",
+    "url": "https://arxiv.org/abs/2609.21488",
+    "authors": [
+      "Sylwia Zieli\u0144ska-Raczy\u0144ska",
+      "Gerard Czajkowski",
+      "David Ziemkiewicz"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21796",
+    "title": "Parameter-Decoupled Quantum Superresolution without Multiparameter Estimation",
+    "abstract": "           Quantum superresolution promises to resolve closely spaced sources beyond the diffraction limit, but existing approaches generally rely on idealized source properties or require simultaneous estimation of multiple coupled parameters of realistic sources. Here we introduce a parameter-decoupled measurement that determines the separation of realistic passive sources without estimating their unknown brightness imbalance, mutual coherence, or relative phase. A complete four-parameter quantum Fisher information analysis identifies the separation information that remains accessible in the presence of these nuisance parameters. We then construct a directly measurable log-probability invariant from projection channels whose conditional statistics depend only on the separation. Broad classes of channel pairs satisfy the resulting decoupling condition. For a Gaussian point-spread function, the lowest-order implementation asymptotically attains the four-parameter quantum limit per incident signal in the sub-Rayleigh regime. This approach converts a realistic multiparameter imaging problem into an operationally single-parameter measurement, providing a practical route toward quantum-enhanced resolution of passive spatial, temporal, and spectral signals.         ",
+    "url": "https://arxiv.org/abs/2609.21796",
+    "authors": [
+      "X.-F. Qian"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.21961",
+    "title": "Single-atom-based asynchronous photonic interconnect for scalable modular quantum computing",
+    "abstract": "           Scaling quantum computation beyond the capacity of a single quantum processing unit requires quantum interconnects between modular processors. Optical photons are natural carriers for distributing entanglement between these processors. Most loss-resilient protocols use photonic Bell-state measurements based on the linear-optics type-II fusion gate. The resulting entanglement rate scales quadratically with each processor's typically low photon-delivery probability. Here we analyze a memory-assisted quantum interconnect using a near-deterministic, robust photon--atom controlled-$Z$ gate via a single atom trapped in a high-finesse cavity. Detecting and measuring a photon from one processor heralds entanglement between that processor and the atom. This entanglement is preserved while the process repeats with the second processor until the second photon is detected and measured. Reading out the atomic qubit finalizes the entanglement between the processors. As the entanglement is mediated by the atom, the photons from both processors do not need to be indistinguishable, removing a major source of infidelity. Furthermore, by removing the simultaneous photon-arrival requirement, the protocol allows the entanglement rate to scale linearly rather than quadratically with photon-arrival probability over a wide parameter range. We derive entanglement rates under realistic parameters, accounting for decay of the atom's entanglement with the first processor and for decoherence caused by unheralded photon interactions. The nanosecond-scale of the gate and read-out operations leads to orders-of-magnitude entanglement-rate gain over linear optics, removing a key bottleneck in modular quantum computing.         ",
+    "url": "https://arxiv.org/abs/2609.21961",
+    "authors": [
+      "J\u00e9r\u00e9my Raskop",
+      "Nadav Kandel",
+      "Yaniv Amichy",
+      "Yaron Jarach",
+      "Tal Kanonich",
+      "Andrei Militaru",
+      "Johannes Fink",
+      "Barak Dayan"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.22046",
+    "title": "Persistent Quantum-Enhanced Frequency Sensing with T^{-3/2} Scaling",
+    "abstract": "           Quantum sensing uses nonclassical states to improve measurement sensitivity, but the same states that provide metrological gain also decohere more rapidly. This limits the usable interrogation time and, in practice, often precludes improvement in ultimate sensitivity - realized useful quantum advantage has consequently remained rare. Here, we restore persistent quantum advantage by embedding Fock-state enhancement within a quantum heterodyne (Qdyne) protocol, decoupling sensitivity from the decoherence-limited interrogation time {\\tau}. Measurements are acquired at short {\\tau} where the quantum-enhanced gain is optimal, while precision accumulates with the total measurement time. Demonstrated on the motional mode of a trapped 40Ca+ ion, we observe quantum-enhanced precision that persists to measurement times seven orders of magnitude beyond the dephasing limit, scaling as T^{-3/2} with no indication of saturation. Using the n=3 Fock state, we reach a frequency precision of 0.5uHz relative to an 86MHz carrier, achieving a fractional precision ~6x10^{-15}. This represents a quantum-enhanced gain of 7.1(10) dB over the n=0 state, in agreement with Fisher information predictions. This is the first demonstration of Qdyne beyond solid-state spin-defects. Further, by using the quantum harmonic oscillator to perform frequency mixing, we extend operation beyond 1GHz, two orders of magnitude above the ceiling of pulsed dynamical-decoupling implementations. These results recover quantum advantage at the long timescales required to improve ultimate sensitivity, with direct implications for nanoscale NMR and quantum logic spectroscopy.         ",
+    "url": "https://arxiv.org/abs/2609.22046",
+    "authors": [
+      "Clayton Z.C. Ho",
+      "Hao Wu",
+      "Grant D. Mitts",
+      "Joshua A. Rabinowitz",
+      "Eric R. Hudson"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.23860",
+    "title": "TCAD + Allpi$\\text{x}^2$ Simulation study of MALTA2, a Depleted Monolithic Active Pixel Sensor for future tracking",
+    "abstract": "           In this work, a hybrid simulation framework combining TCAD and Allpi$\\text{x}^2$ is presented to investigate the sensor properties of MALTA2, a depleted monolithic active pixel sensor designed for future tracking. The study starts from 3D modeling and transient simulations in TCAD, with generic doping profiles and simple well structures. The resulting doping profiles and electric field are extracted and fed into Allpi$\\text{x}^2$ for high-statistics Monte Carlo simulations in both DUT-only and full-telescope mode. Simulations reveal a strong dependence of sensor performance, specifically the detection efficiency and cluster size, on the doping concentration of the N-type blanket at the sensor surface. The doping concentration is then optimized by comparing simulations with measurement data. The active depth of the depleted region of the MALTA2 sensor is estimated in both simulations and measurements using a grazing angle method, in which the sensor is positioned at various inclinations relative to the beam, covering angles from 0 to 60 degrees. Excellent agreement on active depth is obtained with the optimal doping concentration, showing a deviation of 2\\% from the measured value at a threshold of 450\\,$\\text{e}^-$. Consequently, the framework offers a generic toolkit for sensor studies without requiring proprietary information.         ",
+    "url": "https://arxiv.org/abs/2605.23860",
+    "authors": [
+      "L. Li",
+      "P. Behera",
+      "D.V. Berlea",
+      "D. Bortoletto",
+      "C. Buttar",
+      "T. Chembakan",
+      "V. Dao",
+      "G. Dash",
+      "Y. Enari",
+      "L. Fasselt",
+      "S. Haberl",
+      "T. Inada",
+      "F.K. Isik",
+      "C. Issever",
+      "X. Li",
+      "Y. Okazaki",
+      "H. Pernegger",
+      "P. Riedler",
+      "W. Snoeys",
+      "C.A Solans Sanchez",
+      "A. Swoboda",
+      "I. Turk Cakir",
+      "M. van Rijnbach",
+      "A. Vijay",
+      "S. Worm"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.13794",
+    "title": "Intracavity THz generation using a thin lithium niobate plate in a compact Kerr-lens mode-locked Yb:CALGO bulk oscillator",
+    "abstract": "           We demonstrate intracavity terahertz (THz) generation via optical rectification in a 50-m-thick lithium niobate crystal placed inside a compact diode-pumped Kerr-lens mode-locked (KLM) Yb:CALGO bulk oscillator. The oscillator operates at a repetition rate of 85 MHz and delivers 83-fs pulses with up to 71 W of average intracavity power, obtained with only 21.4 W of low-cost multimode diode pump power. We generate single-cycle THz pulses with a spectrum extending up to 3 THz, detected by electro-optic sampling with 60 dB dynamic range within 156 s of measurement time (313 averaged traces) and up to 120 W of THz average power. This work combines the high damage threshold, power-handling capability, and cost-effectiveness of thin LN plates with simplicity, compactness, and low-cost multimode diode-pumped solid-state bulk lasers, offering an attractive alternative for high-repetition-rate THz time-domain spectroscopy systems.         ",
+    "url": "https://arxiv.org/abs/2608.13794",
+    "authors": [
+      "Mohsen Khalili",
+      "Jok\u016bbas Pimp\u0117",
+      "Yicheng Wang",
+      "Julius Vengelis",
+      "Kore Hasse",
+      "Sergiy Suntsov",
+      "Detlef Kip",
+      "Clara J. Saraceno"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.21527",
+    "title": "Femtosecond Laser Induced Metallization in Silicon via Photon Momentum Mediated Band Transition",
+    "abstract": "           Silicon-based technology has been at the forefront of electronic and photonic research since the dawn of the electronic revolution. However, silicon is fundamentally an indirect-bandgap semiconductor: the conduction band minimum and valence band maximum occur at different points in momentum space, so optical transitions require phonon assistance to conserve crystal momentum. This three-body electron-photon-phonon interaction renders silicon an inefficient material for light-absorbing applications such as solar cells and optoelectronic devices. In this work, we build on an established nanoscale photon-momentum confinement mechanism, which broadens the photon momentum distribution and enables phonon-free absorption in silicon, by subsequently applying a high-intensity femtosecond pulsed excitation that injects hot carriers beyond the Mott density, collapsing the bandgap and inducing a reversible semiconductor-to-metal transition. While nanoscale photon-momentum confinement itself has been previously established, the central contribution of this work is this subsequent, carrier density-driven stage, which drives the momentum-enhanced region into a reversible transient metallic phase. Our simulations report highly negative permittivity, enhanced optical power absorption, a large absorption coefficient, and low skin depth, with carrier densities reaching a notable value, far exceeding the Mott threshold. We have shown carrier driven metallization with stable operation below melting threshold of silicon. These results establish a general mechanism for dynamically inducing metallic states in silicon, offering a potential pathway toward monolithically integrated active photonic components and dynamically reconfigurable electro-optical devices within conventional CMOS platforms.         ",
+    "url": "https://arxiv.org/abs/2608.21527",
+    "authors": [
+      "Ehatasham Haque",
+      "Sunjana Tarannum",
+      "Jannatul Shahrin Shoshi",
+      "Mahdy Rahman Chowdhury"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2504.12096",
+    "title": "Max Cut graph driven quantum circuit design for geometrically frustrated planar spin systems with spin glass like energy landscapes",
+    "abstract": "           Finding the ground state of geometrically frustrated spin systems is a challenging problem with broad implications. Many hard optimization problems, including NP-complete problems, can be mapped, for instance, to frustrated Ising models, where competing interactions produce rugged, spin glass like energy landscapes. The difficulty is particularly pronounced in the weak-field regime, where geometrical frustration dominates, and the spectral gap becomes exponentially small, making it hard to identify the true ground state. In this work, we consider planar frustrated lattices constructed from the triangular motif, the minimal unit of geometrical frustration. We present a graph-based approach that allows for accurate state initialization of a frustrated triangular spin lattice with up to 20 sites while avoiding barren plateaus. To optimize circuit efficiency and trainability, we employ a clustering strategy that organizes qubits into distinct groups based on the maximum cut technique, which divides the lattice into two maximally disconnected subsets. We provide evidence that this Max Cut based lattice division offers a robust framework for optimizing circuit design and effectively modeling frustrated systems at polynomial cost. All simulations are performed within the variational quantum eigensolver (VQE) formalism, the current paradigm for noisy intermediate-scale quantum (NISQ) devices, but can be extended beyond. Our results underscore the potential of hybrid quantum classical methods in addressing complex optimization problems.         ",
+    "url": "https://arxiv.org/abs/2504.12096",
+    "authors": [
+      "Seyed Ehsan Ghasempouri",
+      "Gerhard W. Dueck",
+      "Stijn De Baerdemacker"
+    ],
+    "subjectives": [
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Chemical Physics (physics.chem-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2512.13502",
+    "title": "Arrival Time\\textemdash Classical Parameter or Quantum Operator?",
+    "abstract": "           The question of how to interpret and compute arrival-time distributions in quantum mechanics remains unsettled, reflecting the longstanding tension between treating time as a quantum observable or as a classical parameter. While recent studies have primarily contrasted arrival-time predictions across different interpretations of quantum mechanics, here we investigate this ambiguity within the standard quantum-mechanical framework itself. Moreover, most previous studies have focused on the single-particle case in the far-field regime, where these distinct approaches yield very similar arrival-time distributions and a semi-classical analysis typically suffices. Recent advances in atom-optics technologies now make it possible to experimentally investigate arrival-time distributions for entangled multi-particle systems in the near-field regime, where a deeper analysis beyond semi-classical approximations is required. Even in the far-field regime, due to quantum non-locality, the semi-classical approximation cannot generally hold in multi-particle systems. Therefore, in this work, two fundamental approaches to the arrival-time problem---namely, the time-parameter and time-operator approaches---are extended to multi-particle systems. Using these extensions, we propose a feasible two-particle arrival-time experiment and numerically evaluate the corresponding joint distributions. Our results reveal regimes in which the two approaches yield inequivalent predictions, highlighting conditions under which experiments could shed new light on distinguishing between competing accounts of time in quantum mechanics. Our findings also provide important insights for the development of quantum technologies that use entanglement in the time domain, including non-local temporal interferometry, temporal ghost imaging, and temporal state tomography in multi-particle systems.         ",
+    "url": "https://arxiv.org/abs/2512.13502",
+    "authors": [
+      "MohammadJavad Kazemi",
+      "MohammadHossein Barati",
+      "Ghadir Jafari",
+      "S. Shajidul Haque",
+      "Saurya Das"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.05314",
+    "title": "Machine learning for sample-based quantum diagonalization: a review of generative configuration recovery and the classical-simulability frontier",
+    "abstract": "           Sample-based quantum diagonalization (SQD), equivalently quantum-selected configuration interaction (QSCI), has become a centre of gravity of pre-fault-tolerant quantum chemistry: a processor samples electronic configurations and the Hamiltonian is diagonalized classically in the resulting subspace. Accuracy is governed entirely by which configurations enter it -- a machine-learning selection problem, made acute by a coupon-collector bottleneck. We review the generative and learned selectors by what each generates and the signal it exploits, and identify one gap: no reward-proportional generative-flow-network proposer has been built for tail discovery. On the field's central question -- whether the quantum sampler beats classical selected CI -- the negative verdict is not ours to claim: priority belongs to Reinholdt et al. [JCTC 21, 6811 (2025)], and polynomial-time classical estimation of the flagship circuits has reinforced it. We state that verdict at the precision a falsifiable claim requires -- it concerns reproducible, same-active-space comparisons on molecular electronic structure -- and weigh the claims outside those qualifiers. We show that alpha-string weights are not invariant under rotations inside degenerate orbital shells, so determinant counts are undefined until the orbital gauge is declared. We distil a ten-element benchmarking standard and apply it to our own deposit, which returned defects that changed numbers printed here and retracted one from v1. FCI-exact experiments confirm one prediction and refute another: the single generative advantage we find keeps no consistent sign along the dissociation coordinate at device-calibrated noise and reverses under a symmetric readout model. It does beat a noise-matched classical recovery loop on N2 by a margin five seeds cannot resolve, and loses by over a factor of two to a classical selector that needs no sampler.         ",
+    "url": "https://arxiv.org/abs/2608.05314",
+    "authors": [
+      "Nicol\u00e1s Bonilla Vargas"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
