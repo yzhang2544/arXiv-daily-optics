@@ -1,0 +1,364 @@
+[
+  {
+    "id": "arXiv:2609.28696",
+    "title": "A general no-go theorem for loss-free optical torque, and its enantiomer-differential escape route",
+    "abstract": "           We show that an isotropic, lossless dipolar particle, locally embedded in a homogeneous, lossless host, cannot experience axial optical torque under any illumination, in any photonic environment, whatever its own chirality--a general identity extending the sphere-in-free-space result to arbitrary chiral and substrate-coupled environments. Shape anisotropy is the essential escape route, and the resulting torque is not generic: closed-form, radiative-reaction-dressed polarizabilities for a chiral dielectric ellipsoid show its loss-free \"optical spanner\" torque changing by an order of magnitude between enantiomers (\\kappa \\to -\\kappa), a mechanical response impossible for any sphere. Above a high-index or lossy substrate like gold or silicon, standing-wave enhancement, or simply a larger particle at a near-contact gap, brings it beyond optical-torque-wrench thresholds.         ",
+    "url": "https://arxiv.org/abs/2609.28696",
+    "authors": [
+      "Juanjuan Ren",
+      "Reuven Gordon",
+      "Stephen Hughes"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29325",
+    "title": "Monte Carlo sampling of first-order QED processes in laser and pulsar plasmas",
+    "abstract": "           Monte Carlo sampling of strong-field quantum electrodynamics processes underpins simulations of high-intensity laser experiments and of astrophysical compact-object magnetospheres. Sampling an event requires the total rate of the process together with the cumulative probability that determines how energy is partitioned between the produced particles. Simulations typically tabulate both in advance and invert the tabulated probability numerically. Here we replace this procedure with elementary-function approximations for synchrotron radiation and the nonlinear Breit--Wheeler process. For each process, we approximate the auxiliary function that sets the total rate, as well as the cumulative probability, with Pad\u00e9 approximants chosen so that the inversion reduces to a quartic equation. This yields the sampled quantum parameter---electron $\\chi_e$ or photon $\\chi_\\gamma$---in closed form. The approximations and the particle spectra sampled from them agree with the exact results to within $1\\%$. The procedure requires no lookup tables, no interpolation, and no numerical root finding, and can be inserted directly into radiative particle-in-cell codes.         ",
+    "url": "https://arxiv.org/abs/2609.29325",
+    "authors": [
+      "Verneri Sarjomaa",
+      "Joonas N\u00e4ttil\u00e4"
+    ],
+    "subjectives": [
+      "Computational Physics (physics.comp-ph)",
+      "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29352",
+    "title": "Frequency-inference method for reduced modeling of energetic particle modes (EPM) utilizing resonant auto-optimization remnants of imperfect time-scale separation",
+    "abstract": "           Integrated codes simulating interactions between Alfv\u00e9n waves and fast ions in tokamak plasmas use perturbative models for the relatively slow processes of instability growth, saturation, chirping and bursting, and transport. Faster processes by which an Alfv\u00e9n mode's spatiotemporal structure forms are assumed to have been completed within the mode's oscillation period, $\\tau_0 \\equiv 2\\pi/\\omega_0$. This separation of time scales underlies the computational efficiency of perturbative models, where the Alfv\u00e9n mode's time-dependence is reduced to that of a scalar signal $s(t) = A(t)\\sin(-\\omega_0 t - \\phi(t))$ with variable amplitude $A(t)$ and phase $\\phi(t)$. For this, accurate input data in the form of a mode's spatial structure $\\delta\\Phi({\\mathbf x})$, damping rate $\\gamma_{\\rm d}$, and initial frequency $\\omega_0$ are required. For modes residing in dense or continuous spectra, $\\delta\\Phi$ and $\\gamma_{\\rm d}$ could be estimated from the form of the continua and fast ion orbits, but it is difficult to guess the seed frequency $\\omega_0$. Here, we report results of numerical experiments showing that it is possible to find $\\omega_0$ using a prompt frequency shift that occurs during the first few $100$ time steps of a simulation. Restarts with the shifted frequency iteratively converge to a value of $\\omega_0$ that seems to maximize the resonant drive, suggesting an auto-optimization process. The need for iteration is attributed to the fact that the terms required for rapid frequency adjustments were truncated when deriving the perturbative model. Meanwhile, the fact that partial auto-optimization is possible at all is attributed to the fact that series truncation alone (without filter) does not strictly enforce slowness. Remnants of and cross-talk with faster dynamics still occur in numerical implementations. This entails potential for both uncertainty and utility.         ",
+    "url": "https://arxiv.org/abs/2609.29352",
+    "authors": [
+      "Andreas Bierwage",
+      "Vin\u00edcius N. Duarte",
+      "Pablo Oyola",
+      "Kouji Shinohara",
+      "Roscoe B. White"
+    ],
+    "subjectives": [
+      "Plasma Physics (physics.plasm-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29415",
+    "title": "Vertical microcavities with optical Kerr materials",
+    "abstract": "           Optical Kerr nonlinearity is central to optical bistability in high-Q microcavities. Here, we show that optical Kerr nonlinearities in Fabry Perot resonators can also result in self-focusing effects, that can substantially modify the Q-factors of the resonators. For the studied cavities, up to five-fold increase in Q-factors is predicted, attributed to reduction of sidewall leakage, confirmed via simulations performed on curved cavities. We also show that for high Q-factor cavities, the higher-order Kerr effect can become relevant already at modest input intensities scaling inversely with Q-factor for a particular n2/n4 ratio. We investigate numerically the role of higher-order Kerr effect on optical bistability responses and find that its inclusion can shift the bistability threshold to higher input intensities than predicted by the standard n2-only model.         ",
+    "url": "https://arxiv.org/abs/2609.29415",
+    "authors": [
+      "Riya Varghese",
+      "Ali Panahpour",
+      "Marco Ornigotti",
+      "Mikko J Huttunen"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29420",
+    "title": "Fully passive monolithic silicon quantum photonic circuit for entangled photon-pair generation",
+    "abstract": "           Integrated quantum photonic circuits are a key enabling technology for the scalability of quantum information systems. Among the available platforms, silicon photonics offers an unrivalled capability for the large-scale integration of photonic components within compact footprints. However, the strong index contrast that enables ultra-compact silicon devices also makes them highly sensitive to fabrication imperfections. As circuit complexity increases, active tuning is generally required to maintain spectral alignment among the different components, leading to significant power consumption that ultimately limit scalability. Here, we demonstrate a fully integrated silicon quantum photon-pair source operating without active tuning of any component. The circuit combines photon-pair generation in a micro-ring resonator, pump rejection using Bragg filters, and signal/idler demultiplexing through modal add-drop filters with building blocks engineered to minimize sensitivity to fabrication variations. The resulting circuit achieves excellent experimental quantum performance. Coincidence rates up to 4000 counts s^-1 with coincidence-to-accidental ratios as high as 100 are obtained across the generated spectrum, while separate two-photon interference measurements yield raw visibilities exceeding 93% for individually selected ITU wavelength-channel pairs. By eliminating the need for active spectral tuning while maintaining high quantum performance, this work addresses a major bottleneck in the scaling of complex silicon quantum photonic circuits.         ",
+    "url": "https://arxiv.org/abs/2609.29420",
+    "authors": [
+      "David E. Medina",
+      "Paul J. Robin",
+      "Romain Dalidet",
+      "S\u00e9bastien Tanzilli",
+      "Anthony Martin",
+      "Segolene Olivier",
+      "Quentin Wilmart",
+      "Laurent Vivien",
+      "Laurent Labonte",
+      "Carlos Alonso-Ramos",
+      "Eric Cassan"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29776",
+    "title": "Real-Time Event-Based Optical Camera Communication at 80 kbit/s over a 320 m Outdoor Link with 120\u00b0 Field-of-View",
+    "abstract": "           We demonstrate an event-based optical camera communication system using a 120\u00b0 field-of-view sensor. In daylight, three transmitting nodes achieve an aggregate 240 kbit/s, with individual links reaching 106 kbit/s at 1 m and 80 kbit/s at 320 m. Our results, establish a new baseline for event-OCC.         ",
+    "url": "https://arxiv.org/abs/2609.29776",
+    "authors": [
+      "Francesco Nardo",
+      "Peter Kr\u00f6tz",
+      "Ricardo Barrios",
+      "Sebastian Randel"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29829",
+    "title": "Fiber-based scanning levitated nanoparticle force sensor near a metalized membrane",
+    "abstract": "           We describe a fiber-based dual-beam trap for dielectric nanospheres with the ability to transfer the trapped particles into a retro-reflective standing-wave trap within micron-range distances of a metallic mirror surface. We illustrate its capability for three dimensional scanning force sensing over a several square micron area of an ultra-thin gold-coated silicon nitride mirror-membrane with a total thickness of approximately 370~nm. We also demonstrate three-dimensional laser feedback cooling and zeptonewton force resolution in high-vacuum at micron range from the membrane, showing promise for future improved tests of gravity at short distances and other surface force investigations. By using charged nanospheres, we expect the method may be useful for studying fluctuating patch potentials and electric field noise in the vicinity of a surface in the $\\sim$ kHz to $\\sim 100$ kHz frequency regime.         ",
+    "url": "https://arxiv.org/abs/2609.29829",
+    "authors": [
+      "Andrew M. Dana",
+      "Samuel J. Borden",
+      "Nia Burrell",
+      "Chethn Galla",
+      "Alexey Grinin",
+      "Mark Nguyen",
+      "Kristina Menon",
+      "Shafaq Elahi",
+      "Katarina Boskovic Guy",
+      "Andrew Laeuger",
+      "Evan Weisman",
+      "Gambhir Ranjit",
+      "Andrew A. Geraci"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.30039",
+    "title": "TorchFDTD: GPU-accelerated finite-difference time-domain simulation with discrete adjoints and host-streamed execution for photonic inverse design",
+    "abstract": "           Gradient-based photonic design needs full-wave derivatives with respect to millions of parameters, but on a single GPU workstation the time-domain adjoint is limited by device memory and by the incompatibility of fused update kernels with automatic differentiation. Here, we present TorchFDTD, an open-source finite-difference time-domain (FDTD) package that addresses both limits. Its Yee, absorber and dispersion updates execute as fused CUDA kernels captured in a CUDA graph, and every kernel is paired with a transpose kernel derived from its update, so material and geometry derivatives are obtained by a discrete adjoint that PyTorch chains with differentiable objectives built from the supported observations. The adjoint recovers forward states by checkpoint replay or, for lossless periodic problems, by time reversal. For problems that exceed the device, a streamed mode advances the domain one causal slab at a time and keeps the global state and the checkpoints in host memory, which lowers the device allocation while preserving the resident discretization. We validate the package against analytic solutions, against Meep, FDTDX and a rigorous coupled-wave solver, and against automatic differentiation and finite differences. On an A100 the fused path completes full forward solves of eight test scenes 9.0 to 17.1 times faster than the PyTorch FDTD package it extends, and its double-precision solves are 49 to 59 times faster than those of Meep on a workstation CPU. On an RTX 3060, host streaming of $256^3$ and $320^3$ adjoints costs 3.1 and 2.7 times the resident time and lowers the peak device allocation by 56% and 65%. A 54-million-cell pillar-array lens coupled to an angular-spectrum objective yields an adjoint derivative within 0.78% of a central difference. The time-domain adjoint of a device with tens of millions of cells thus becomes available on a single workstation GPU.         ",
+    "url": "https://arxiv.org/abs/2609.30039",
+    "authors": [
+      "Hyoseok Park"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.30040",
+    "title": "Ultrabroadband Optical Pulses with Quadratic Spectral Phase Part I: Temporal Form",
+    "abstract": "           A time-domain representation for ultrabroadband optical pulses that includes chirp, stretching, and absolute phase is presented. This is accomplished by holomorphic Fourier transform of a class of spectra that include spectral phase up to second order, resulting in derivatives of the Faddeeva function $w(\\zeta)$. Relating the real part of this pulse to physical quantities, its shape is investigated. The derivative order $\\eta$ is shown to dictate relative spectral bandwidth. The absolute phase determines the mixing of more localized (Gaussian decay) and less localized (algebraic decay) components of $w(\\zeta)$. Second order spectral phase accounts for linear dispersion and is shown to cause a sheering of the Wigner-Ville distribution of the pulse, akin to the linear chirp that would be seen in the quasi-monochromatic case. Along with $\\eta$ it determines the pulse length and number of oscillations. A correspondence with the slowly varying envelope approximation is derived for large order $\\eta$, although the algebraic decay persists.         ",
+    "url": "https://arxiv.org/abs/2609.30040",
+    "authors": [
+      "George A. Hine"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.30224",
+    "title": "Efficient simulation of millimeter-scale complex-modulated integrated Bragg gratings via hierarchical locally periodic eigenmode expansion",
+    "abstract": "           We propose a structure-aware, hierarchical locally periodic eigenmode expansion (HLP-EME) framework for efficiently simulating millimeter-scale integrated Bragg gratings (IBGs) with complex modulation on silicon-on-insulator platforms. HLP-EME discretizes continuously varying grating parameter profiles into piecewise-constant blocks and exploits the resulting local periodicity of the physical grating structure by reusing the S-matrix of a representative period within each block. This strategy reduces full-device simulation times for millimeter-scale IBGs to a few minutes, providing a speedup exceeding three orders of magnitude over conventional 3D-FDTD simulations. The method accommodates diverse IBG configurations, including intra-mode gratings, mode-converting multimode gratings and grating-assisted contra-directional couplers. Experimental results validate the predicted reflection spectra of several complex-modulated IBGs and the reflection phase response of one representative design. The framework is further extended to curved waveguides and successfully captures curvature-induced spectral distortions in millimeter-long, Gaussian-apodized spiral IBGs. Combining full-vectorial modeling with high computational efficiency, HLP-EME provides a powerful tool for designing and optimizing long, complex IBG-based photonic devices.         ",
+    "url": "https://arxiv.org/abs/2609.30224",
+    "authors": [
+      "Rui Cheng",
+      "Jia Meng",
+      "Ping Yu",
+      "Jihao Wang",
+      "Zikun Xie"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.28538",
+    "title": "Spectral shaping of Gaussian white noise for synthetic axion signal generation in microwave cavity haloscopes",
+    "abstract": "           Microwave cavity haloscopes search for dark-matter axions through the weak electromagnetic field generated by axion-photon conversion in a static magnetic field. Realistic synthetic signals are essential for end-to-end calibration of the receiver, validation of the analysis pipeline, measurement of signal recovery efficiency, and blind-injection studies. Here, we present a general method for producing stochastic synthetic axion waveforms by shaping Gaussian white noise in the frequency domain. The target axion power spectral density is imposed directly on the Fourier coefficients, and arbitrarily long continuous time streams are generated efficiently using an overlap-save implementation. The method reproduces both the ensemble-averaged spectral line shape and the time-domain fluctuations expected for a classical axion field, while providing direct control of the total injected power. Because the spectral model enters only through a replaceable transfer function, the routine can accommodate the Standard Halo Model as well as nonstandard velocity distributions and narrow substructure.         ",
+    "url": "https://arxiv.org/abs/2609.28538",
+    "authors": [
+      "D. Vattolo",
+      "D. Ahn",
+      "G. Carugno",
+      "R. Di Vora",
+      "D. Maiello",
+      "A. Ortolan",
+      "G. Ruoso",
+      "G. Sardo Infirri",
+      "C. Braggio"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "Instrumentation and Detectors (physics.ins-det)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29024",
+    "title": "Growth-Inspired Graph Generation and Inverse Design of Mechanical Lattices via Dot Matrices Database Augmentation and GCNN",
+    "abstract": "           Natural load-bearing and transport networks are not assembled in a single step; they emerge through a temporally ordered process of growth, branching, reinforcement, and loop formation. Inspired by this developmental logic, this work introduces a morphogenetic graph-generation framework for mechanical lattices in which a discrete dot matrix provides potential nodes and the final architecture is created by sequential cross-layer and intra-layer growth. The same rule is visualized in two dimensions as a leaf-vein-like developmental sequence and implemented in three dimensions on a 3x3x3 nodal matrix containing 27 candidate nodes. A dataset of distinct three-dimensional lattices was evaluated by beam-based finite element analysis and represented directly as graphs. A graph convolutional neural network (GCNN) with three graph-convolution layers and dual global pooling learns the topology-property mapping and predicts effective compressive stiffness. Coupling the GCNN surrogate with rapid structural sampling enables inverse design: for a target stiffness of 1000 MPa, the selected design was predicted at 1042.43 MPa and validated by finite element analysis at 1027.49 MPa. Beyond straight members, the framework has also been extended to parameterized horseshoe-shaped curved beams made of nonlinear materials, enabling topology-geometry design toward prescribed deformation shapes. Our work provides a paradigm for augmenting the database of mechanical metamaterials, and the resulting perspective links biological morphogenesis, graph learning, and nonlinear shape programming in a unified generative design framework for architected materials.         ",
+    "url": "https://arxiv.org/abs/2609.29024",
+    "authors": [
+      "Weiyun Xu",
+      "Jiamu Liu"
+    ],
+    "subjectives": [
+      "Machine Learning (cs.LG)",
+      "Materials Science (cond-mat.mtrl-sci)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29565",
+    "title": "Frequency sorting in graded dispersive resonator arrays via volume-interaction matrices",
+    "abstract": "           We study graded arrays of highly dispersive subwavelength resonators through their volume-potential matrix reduction. The reduction gives a finite-dimensional nonlinear resonance problem whose diagonal entries encode the local dispersive response and whose off-diagonal entries encode volume-mediated coupling between distinct resonators. We show that monotone material grading turns this matrix into an analytically controllable frequency sorter. When graded detuning dominates coupling in the reduced characteristic matrix, the characteristic vectors localize near individual resonators; under an explicit half-lattice-site localization condition, this localization becomes a monotone frequency-position map. We also prove a constructive inverse-design statement: prescribed monotone target frequencies can be realized by choosing the local dispersive parameters, with robustness under sufficiently small grading errors. Numerical experiments, whose parameters and algorithms are recorded in an appendix, illustrate localized resonances, designed frequency-position maps, disorder stability, spacing dependence, and a resolved physical Lippmann-Schwinger validation beyond the leading logarithmic quadrature model.         ",
+    "url": "https://arxiv.org/abs/2609.29565",
+    "authors": [
+      "Konstantinos Alexopoulos"
+    ],
+    "subjectives": [
+      "Analysis of PDEs (math.AP)",
+      "Mathematical Physics (math-ph)",
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.29786",
+    "title": "Microscopic theory of the collective optical response of dilute atomic clouds at finite temperature",
+    "abstract": "           At low temperature, collective light-induced dipole-dipole interactions are known to strongly reshape the optical response of atomic clouds, revealing the breakdown of the independent-scattering picture as the density increases. While thermal motion is generally believed to progressively suppress these interactions, the microscopic mechanisms behind this suppression remain largely unexplored. Here, we develop a microscopic theory of the optical response of a dilute atomic gas at finite temperature, explicitly accounting for atomic ballistic motion during the recurrent-scattering events associated with the collective corrections. Using a diagrammatic approach for scalar light, we derive the collective contribution to the optical permittivity and characterize its behavior across the full temperature range. We find that thermal corrections scale as $\\sim T$ at low temperature, while recurrent-scattering contributions are suppressed as $\\sim T^{-3/2}$ at high temperature. Our predictions are confirmed by extensive coupled-dipole simulations that explicitly account for atomic motion. These simulations also reveal the inaccuracy of the modified frozen-dipole approximation commonly used to treat thermal effects. Finally, extending our theory to vector light, we provide a complete picture of how the resonance shift continuously evolves from the collective Lamb shift at low temperatures to the classical Lorentz-Lorenz shift at high temperatures.         ",
+    "url": "https://arxiv.org/abs/2609.29786",
+    "authors": [
+      "Tanja Schoger",
+      "Romain Pierrat",
+      "Nicolas Cherroret"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2509.20995",
+    "title": "Three Dimensional Theory of the Ion Channel Laser",
+    "abstract": "           The ion channel laser (ICL) is a plasma-based alternative to the free electron laser (FEL) that uses the electric field of a uniform-density ion channel rather than the magnetic field of an undulator to induce transverse oscillations of electrons in an ultrarelativistic bunch and thereby produce coherent radiation via a collective electromagnetic instability. The powerful focusing of the ion channel generally yields significantly higher gain parameters in the ICL as compared to the FEL. This permits lasing in extremely short distances using electron bunches with an energy spread as large as a few percent; a value readily achievable with current plasma-based accelerators. ICLs, however, impose stringent transverse phase space requirements on the electron bunch beyond what is required in FELs. In this work, we present a novel 3D theory of the planar off-axis configuration of the ICL that accounts for a number of effects including diffraction, transverse radiation profile, frequency and betatron phase detuning, and nonzero spread in energy and undulator parameter. We derive the ICL pendulum and field equations, which we use to write down the 3D Maxwell-Klimontovich equations. After linearizing, we obtain an integro-differential equation describing the $z$-evolution of the radiation field. The 3D ICL dispersion relation is obtained using a Van Kampen normal mode expansion. We numerically solve the $z$-evolution equation to compute radiation power growth rates and transverse radiation profiles over a range of different ICL parameters. We examine the gain reduction due to 3D effects, energy spread, and emittance. Electron bunch phase space and emittance requirements for lasing are derived. Finally, we make general observations about the performance and feasibility of the ICL and discuss future prospects.         ",
+    "url": "https://arxiv.org/abs/2509.20995",
+    "authors": [
+      "Claire Hansel",
+      "Agostino Marinelli",
+      "Zhirong Huang",
+      "Michael Litos"
+    ],
+    "subjectives": [
+      "Accelerator Physics (physics.acc-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2602.05427",
+    "title": "Geometric Phases and Holonomy in Structured Optical Fields",
+    "abstract": "           Geometric phases are widely used in modern optics, yet their meaning and underlying geometry depend on the actual physical settings, which can substantially differ from one another. This tutorial article introduces geometric phases in nanophotonic systems, focusing on the interaction of structured light with nanostructures or metaatoms. We compare the present setting with conventional geometric phases of structured-light optics and show that similar phase laws may correspond to genuinely different underlying geometries. Our aim is to provide a pedagogical bridge between the mathematical language of geometric phases and experimentally relevant examples from nanophotonics.         ",
+    "url": "https://arxiv.org/abs/2602.05427",
+    "authors": [
+      "Kristina Frizyuk",
+      "Evgenii Menshikov",
+      "Mauro Spera"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2605.26466",
+    "title": "Selective Biexciton Generation Under Energy-Time Entangled Quantum Light in Quantum Dots",
+    "abstract": "           Quantum light provides new opportunities for controlling multiphoton absorption beyond classical limits. Here, we investigate biexciton generation in nanocrystal quantum dots driven by energy-time-entangled photon pairs generated via spontaneous parametric down-conversion. We show that frequency-time correlations between paris of photons increase the population of biexcitons over excitons, thereby lending specificity to the excitation of many-body states. By employing a three-level model, we demonstrate that biexciton generation depends nontrivially on the photon entanglement time and the pump bandwidth. We find that maximizing efficiency requires an optimally shaped entangled photon field rather than simply scaling parameters for a monotonic improvement. Extending to a realistic CdSe/CdS core-shell quantum dot containing many excitonic states coupled to the quantum field, we demonstrate that increasing the bi-photon arrival-time entanglement (closer arrival time) enhances constructive pathway interference and expands accessible excitation channels while preserving better energy-conservation excitation than classical light when generating biexcitons. Furthermore, tuning the time correlation properties enables selective excitation of closely spaced biexciton states. These results establish entangled photons as a new tool for selective excitation and control of higher-order excited states in quantum-confined systems.         ",
+    "url": "https://arxiv.org/abs/2605.26466",
+    "authors": [
+      "Kaiyue Peng",
+      "Chieh Tsao",
+      "Hendrik Utzat",
+      "Eran Rabani"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Materials Science (cond-mat.mtrl-sci)"
+    ]
+  },
+  {
+    "id": "arXiv:2606.21437",
+    "title": "Induced Directional Switching of Platicon Microcombs in Photonic Crystal Ring Resonators",
+    "abstract": "           Microcombs in normal-dispersion photonic crystal ring resonators (PhCRs) are versatile building blocks for next-generation integrated photonic circuits, but their inherent backward-propagation bias necessitates optical circulators or complex filtering for comb extraction, creating a significant bottleneck for full on-chip integration and precluding self-injection locking schemes. In this work, we introduce Side-mode Induced Forward Forcing (SIFF), a robust method to control and reverse this directionality. By engineering auxiliary mode splittings on resonances adjacent to the pump, we steer the nonlinear dynamics to favor stable, forward-propagating platicon states. We identify an optimal coupling condition that ensures forward-comb dominance across a wide parameter range. Our findings, validated numerically and experimentally, enable circulator-free, integrated normal-dispersion microcombs compatible with self-injection locking, offering a scalable architecture for compact telecommunications and sensing systems.         ",
+    "url": "https://arxiv.org/abs/2606.21437",
+    "authors": [
+      "Erwan Lucas",
+      "Su-Peng Yu",
+      "Jizhao Zang",
+      "Scott B. Papp"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2608.23516",
+    "title": "Extreme-ultraviolet spectroscopy using quantum logic: a feasibility study for the 1S-2S transition in singly-ionized helium",
+    "abstract": "           Extreme-ultraviolet (XUV) spectroscopy represents an important new direction in precision physics, with potential applications ranging from the metrology of fundamental constants to tests of physics beyond the Standard Model. However, the application of quantum control methods for precision spectroscopy remains an open challenge in the XUV range. Here we present a novel quantum logic (QL) spectroscopy method for precision spectroscopy of weak XUV transitions, and numerically validate its feasibility for the $1S-2S$ transition at 40.81\\,eV in singly-ionized helium (He$^{+}$). We propose a scheme based on a single He$^{+}$ ion co-trapped with a Be$^{+}$ ion in a Paul trap, and He$^{+}$ excitation with pairs of frequency-comb (FC) laser pulses upconverted to the XUV via High-Harmonic Generation (HHG). We investigate a nondestructive QL scheme to detect $1S-2S$ excitation, and compare its performance with a destructive readout based on state-selective ionization. Phase coherence of the XUV light is modelled and an optical cavity is used to filter the FC pulses prior to HHG. We model the motional excitation dynamics of trapped ions outside the Lamb-Dicke regime, and numerically validate a scheme we proposed in \\cite{Grundeman} to cancel the first-order Doppler broadening and the recoil shift by synchronizing the ion's secular period with the time delay between the two excitation pulses. We show that precision spectroscopy of the $1S-2S$ transition in He$^{+}$ at the 10 kHz level is feasible, for improved tests of quantum electrodynamics (QED), a measurement of the Rydberg constant $R_{\\infty}$ independent of hydrogen measurements, or an improved determination of the alpha particle and helion charge radii. The proposed method may also be applied to XUV spectroscopy of other ions outside the Lamb-Dicke regime.         ",
+    "url": "https://arxiv.org/abs/2608.23516",
+    "authors": [
+      "A. Mart\u00ednez de Velasco",
+      "V.P.J. Barb\u00e9",
+      "E.L. Gr\u00fcndeman",
+      "A. D\u00edaz Calder\u00f3n",
+      "M. Collombon",
+      "J.J. Krauth",
+      "C.F. Roth",
+      "M. Favier",
+      "R. Taieb",
+      "T.E. Mehlst\u00e4ubler",
+      "P.O. Schmidt",
+      "L.S. Dreissen",
+      "K.S.E. Eikema"
+    ],
+    "subjectives": [
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2510.19627",
+    "title": "Twisted Superconducting Quantum Diodes for High Fidelity Anharmonic Qubits",
+    "abstract": "           In superconducting circuits, bidirectional signal propagation can cause back-reflections and back-action that couple environmental noise back to coherent elements, degrading fidelity. Nonreciprocal superconducting diodes provide an intrinsic route to suppress such backscattering at the circuit level. However, their diode efficiency and quantum integration remain limited. Here, we realize a quantum diode in twisted NbSe2 under in-plane and out-of-plane magnetic fields. A mere 1 degree twist yields an efficiency enhancement over pristine devices, reaching 27.6 percent. Quantum simulations reveal that this intermediate efficiency, well below 100 percent ideal, is both experimentally practical and optimal for preserving qubit anharmonicity and stabilizing two-level systems. These findings show that maximal rectification is not always beneficial for quantum information, establishing a new principle for designing the fundamental properties of twisted superconductors towards low-power, high-fidelity quantum circuits.         ",
+    "url": "https://arxiv.org/abs/2510.19627",
+    "authors": [
+      "Han Zhong",
+      "Denis Kochan",
+      "Igor Zutic",
+      "Yingying Wu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.16536",
+    "title": "Structure-Driven Inversion: A New Paradigm for Solving Inverse Problems",
+    "abstract": "           Inverse problems are predominantly solved within the optimization-driven paradigm, which formulates the problem as objective-function minimization and approaches the solution by iterative search. Though universal, it suffers from limitations in efficiency, interpretability, and multi-parameter decoupling. This paper proposes a new paradigm---Structure-Driven Inversion (SDI). Instead of iterative search, SDI identifies and exploits the intrinsic structure of the problem to construct a solution method. It has two types of structure---mathematical structure and physical structure---and two corresponding driving inversion types: Mathematical Structure-Driven Inversion (MSDI) and Physical Structure-Driven Inversion (PSDI). The current representative method of MSDI is Mathematical Structure-Driven Pseudo-Inverse Inversion (MSDPII), which constructs a pseudo-inverse in the spectral domain via unitary diagonalization. The current representative methods of PSDI are Physical Structure-Driven Waveform Inversion Imaging (PSDWII), which performs inversion through virtual-source projection, and Physical Structure-Driven Back-Propagation (PSDBP), which implements three structural projections for deep neural networks via physical-system analogy. SDI is not a rejection but a complement and extension of Optimization-Driven Inversion (ODI). To the best of the author's knowledge, no existing study has systematically presented structure-driven inversion as an independent paradigm; this paper aims to fill that gap.         ",
+    "url": "https://arxiv.org/abs/2609.16536",
+    "authors": [
+      "Shengchang Chen"
+    ],
+    "subjectives": [
+      "Numerical Analysis (math.NA)",
+      "Geophysics (physics.geo-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2609.27621",
+    "title": "SHRAV: State-Hypothesis-Reason-Action-Verify Framework for Physical Modeling and Inverse Design",
+    "abstract": "           Physical modeling and inverse design require computation that can continue from reusable state. We introduce SHRAV, an architecture-independent computational framework organized around State, Hypothesis, Reason, Action, and Verify. Its central mechanism is a state-continuation core with declared reuse boundaries and explicit roles for learned evolution and numerical quantities. Forward configurations evolve predictive state and read out physical responses; inverse-design configurations additionally generate target-directed modifications and consume evaluator feedback. Electromagnetic world-model studies are mapped to forward configurations, with selected readout and reuse diagnostics reported here. Computational lithography demonstrates an inverse-design configuration: four fixed-weight design updates improve thresholded aerial-image intersection-over-union from 0.5313 to 0.8153 under independent scalar-pupil replay, with a maximum absolute IoU difference of approximately 0.000824 between predictor estimates and independent replay.         ",
+    "url": "https://arxiv.org/abs/2609.27621",
+    "authors": [
+      "Ziheng Guo",
+      "Yang Bu"
+    ],
+    "subjectives": [
+      "Artificial Intelligence (cs.AI)",
+      "Computational Engineering, Finance, and Science (cs.CE)",
+      "Computational Physics (physics.comp-ph)",
+      "Optics (physics.optics)"
+    ]
+  }
+]
