@@ -1,0 +1,514 @@
+[
+  {
+    "id": "arXiv:2610.30387",
+    "title": "Foundry-Fabricated Silicon Nitride Grating Arrays with Uniform Power Distribution at Visible Wavelengths",
+    "abstract": "           Multiplexed optical biosensors are widely deployed to read out many biological targets in parallel. However, their channel count and integration density are limited by the photonic network that delivers light to individual sensing sites. Existing on-chip networks have been largely developed for phased arrays and image projection, where performance is assessed through an aggregate radiation pattern rather than the local intensity at each output. In this Letter, we demonstrate a novel bus-and-tap network architecture for massively parallel multiplexed optical delivery. The network uses cascaded directional couplers with individually designed interaction lengths, allowing for arbitrary, user-defined illumination patterns not possible with conventional binary tree architectures. We experimentally validated our proposed architecture with 46 visible-wavelength grating emitter channels designed for uniform illumination at 40 $\\mu$m pitch in a commercial 300-mm silicon nitride foundry process, achieving an emitted-intensity coefficient of variation of 9.3% at 530 nm, and 8.8% under band-integrated illumination from 550 nm to 650 nm. These results provide a route to scalable visible-light delivery for sensing, imaging, neural interfaces, and parallel optical addressing in quantum systems.         ",
+    "url": "https://arxiv.org/abs/2610.30387",
+    "authors": [
+      "Amged Alquliah",
+      "Xiaoxin Wang",
+      "Jifeng Liu",
+      "Anthony Rizzo"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30398",
+    "title": "QuDPy-FDGF: A Python-Based Tool for Computing Ultrafast Nonlinear Optical Responses Using Frequency Domain Green's Functions",
+    "abstract": "           We present QuDPy-FDGF, an open-source Python framework that evaluates Liouville-space pathways as hybrid chains of time propagators and frequency-domain Green's functions. Frequency-resolved intervals are computed directly through shifted linear systems, without time propagation followed by a Fourier transform, while other intervals may remain in the time domain. A model-agnostic block interface separates the physical model from pathway construction, numerical propagation, and detection. The released implementation provides an explicit dense Liouville-space backend for reference calculations and a sector-resolved sparse backend using matrix-free generator actions, Krylov time propagation, and generalized minimal residual (GMRES) resolvent solves. Its observable layer reuses propagated pathway responses to evaluate operator expectation values, action-detected readout interactions, instantaneous jump rates, and integrated mean jump counts. The framework is assessed on an analytically solvable open two-level system and on two examples of increasing complexity: the complete third-order rephasing response, with its eight sequences, of a thermally initialized anisotropic Heisenberg (XXZ) spin chain with unequal excitation sectors, and two coupled dissipative anharmonic modes whose spectra depend on the detected observable, with the fifth-order double-quantum response of their closed limit. The calculations reproduce the analytical two-level response, check the matrix-free sparse evaluation against the dense assembly of the generator, and recover the harmonic-limit cancellation of the fifth-order signal when the required three-excitation manifold is retained. QuDPy-FDGF therefore provides a unified framework for pathway- and observable-resolved nonlinear spectroscopy in finite or truncated Hilbert spaces with unitary or Markovian Gorini--Kossakowski--Sudarshan--Lindblad (GKSL) dynamics.         ",
+    "url": "https://arxiv.org/abs/2610.30398",
+    "authors": [
+      "Mathieu Desmarais",
+      "Sim\u00f3n Paiva-Ortega",
+      "F\u00e9lix Brunell",
+      "Eric R. Bittner",
+      "Hao Li",
+      "Carlos Silva-Acu\u00f1a"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)",
+      "Computational Physics (physics.comp-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30407",
+    "title": "Predicting droplet landing in angle-controlled surface acoustic wave jetting",
+    "abstract": "           Nozzle-free droplet generation eliminates the need for a dispensing orifice, but useful printing also requires control over where droplets are deposited. Here we demonstrate predictable droplet deposition using a nozzle-free, angle-controlled surface acoustic wave jetting platform. Opposing focused interdigital transducers steer droplets from a pendant parent drop toward a collection substrate, with the ejection angle set by the time-integrated acoustic acceleration imbalance. The overall acceleration ratio identifies the operating window for single-droplet ejection and separates it from no-ejection, satellite-droplet, and multiple-droplet regimes. We then connect ejection angle to landing position through a geometric deposition model referenced to a balanced shot in each experiment. At a 5.2 mm parent-drop-to-substrate spacing, 80 steered shots across twenty experiments show strongly anisotropic relative placement scatter: 0.59 mm in the steering direction and 0.06 mm transverse to it. In tests conducted independently over several days, a model calibrated on six earlier collection dates predicted landing positions on two later dates with a root-mean-square error of 0.71 mm; bootstrap resampling placed the 95% confidence range for this error between 0.41 and 1.01 mm. The results establish a practical framework for predicting relative droplet landing in angle-controlled surface acoustic wave jetting and identify the limits imposed by steering angle, separation distance, and actuation regime from an orifice-free, clog-free droplet ejection method.         ",
+    "url": "https://arxiv.org/abs/2610.30407",
+    "authors": [
+      "Md Aminul",
+      "Sara Adibi",
+      "James Friend"
+    ],
+    "subjectives": [
+      "Fluid Dynamics (physics.flu-dyn)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30424",
+    "title": "Comparing local and global optimization reveals untapped hybrid potentials for machine learning-based inverse planning",
+    "abstract": "           Machine learning (ML) models for normal tissue complication probability (NTCP) can be embedded directly into inverse treatment planning, but the resulting optimization problems are generally nonconvex, and the choice between global and local optimization involves a trade-off between optimality guarantees and computational cost. Two open-source frameworks for ML-based inverse planning were compared: OptiCL (global mixed-integer optimization via constraint learning) and pyanno4rt (local nonlinear optimization via end-to-end differentiation). Logistic regression, linear support vector machine, and feed-forward neural network NTCP models for grade 2+ xerostomia and grade 2+ radiation pneumonitis were embedded. Plan optimization was performed for eight head-and-neck (HN) photon cases and seven lung proton cases. The plans were compared by target coverage, OAR dose metrics, spatial dose agreement, post-hoc predicted NTCP, and runtime. A projection-based gradient approximation was introduced to embed decision trees. In addition to that, warm-starting, constraint strengthening, and pruning were investigated as hybrid strategies for combining local and global optimization. Comparing OptiCL and pyanno4rt across the HN and lung treatment plans revealed broadly consistent dose distributions. Mean differences (OptiCL}$-$pyanno4rt [95% CI]) were small: for HN cases, -0.16 Gy [-0.37, 0.06] (parotid) and -0.00 Gy [-0.01, 0.00] (PTV); for lung cases, -0.52 Gy [-1.10, 0.06] (total lung) and -0.04 Gy [-0.07, -0.01] (PTV). Mean NTCP differences amounted to -0.08 p.p. [-0.49, 0.33] (HN) and -1.73 p.p. [-2.68, -0.77] (lung). OptiCL tended toward lower OAR doses and predicted NTCP, but required higher wall-clock runtime. Hybridization of the decision tree-based HN plan eliminated 80% of binary decision variables without compromising plan quality.         ",
+    "url": "https://arxiv.org/abs/2610.30424",
+    "authors": [
+      "Tim Ortkamp",
+      "Florian Leininger",
+      "Zhongxing Liao",
+      "Niklas Wahl",
+      "Ali Ajdari"
+    ],
+    "subjectives": [
+      "Medical Physics (physics.med-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30532",
+    "title": "Laser with $7\\times10^{-18}$ stability",
+    "abstract": "           We report a laser with record frequency stability, based on a 21 cm cryogenic silicon cavity. For best short-term stability, the cavity operates at 6 K to minimize Brownian thermal noise and achieves a fractional stability of $7\\times10^{-18}$ between 2 to 50 s of averaging time and 2.5 mHz linewidth. For best long-term stability the cavity operates at 16 K, where silicon has a zero-crossing of thermal expansion. Slightly increased thermal noise limits the performance to $9\\times10^{-18}$, consistent with the expected temperature scaling, but the long-term performance is improved. The laser then has a linewidth of 2.9 mHz and long-term frequency drift less than 4 {\\mu}Hz s$^{-1}$. The laser is used to enhance the performance of a state-of-the-art Sr lattice clock, operating with Rabi and Ramsey interrogation times beyond 10 s.         ",
+    "url": "https://arxiv.org/abs/2610.30532",
+    "authors": [
+      "Ben Lewis",
+      "Zoey Z. Hu",
+      "Dahyeon Lee",
+      "Kyungtae Kim",
+      "William Warfield",
+      "Kai Zhou",
+      "Daniele Nicolodi",
+      "Thomas Legero",
+      "Uwe Sterr",
+      "Fritz Riehle",
+      "Jun Ye"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30600",
+    "title": "Alignment-Free Optical Combining with Scalar-Message Expectation Propagation Detection for Distributed Multi-Aperture Coherent Reception",
+    "abstract": "           We propose an alignment-free distributed multi-aperture optical receiver with a single coherent front end, in which the differential delays between apertures are large. The branch signals are optically combined without inter-branch delay or phase alignment. Large differential delays produce separated tap clusters, forming a sparse ISI channel with long memory. Scalar-message expectation propagation exploits this sparsity to recover the transmitted symbols. Simulations show lower BER than equal-area single-aperture reception and no clear BER degradation over the tested delay spans. As the maximum differential delay increases from 100.5 to 200.5 symbol periods, the channel span nearly doubles, while the factor-graph edge count increases by only about 1.5\\%. The trade-off is higher BER than ideal coherent combining schemes in exchange for fewer coherent front ends than digital combining and no inter-branch delay or phase alignment before optical combining.         ",
+    "url": "https://arxiv.org/abs/2610.30600",
+    "authors": [
+      "Mingwen Zhu",
+      "Yiqun Zhang",
+      "Liyu Sun",
+      "Ming Liu",
+      "Changwei Wang",
+      "Jiayin Xue"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30610",
+    "title": "Metasurface engineering of transient photothermal responses for vibrational imaging at living interfaces",
+    "abstract": "           Chemical transformations at biological interfaces are central to cellular function, yet the weak vibrational signals associated with subtle molecular changes limit their spatially resolved observation. Here, we present metasurface-driven mid-infrared photothermal imaging (MetaMIP), which uses resonantly engineered metasurfaces to amplify molecular temperature modulation while retaining rapid thermal recovery. Visible-light detection converts this response into submicrometre maps of individual nanoparticles and biological cells. In living cells, MetaMIP resolves spatially distinct chemical changes during enzymatic lipid conversion across the cell membrane. These results demonstrate the potential of engineered photothermal interfaces for mapping chemical composition and tracking its evolution during reactions.         ",
+    "url": "https://arxiv.org/abs/2610.30610",
+    "authors": [
+      "Zhibin Hu",
+      "Tianrun Zhang",
+      "Jiayu Ding",
+      "Pengcheng Fu",
+      "Ziyang Huang",
+      "Bo Chen",
+      "Bangjie Song",
+      "Minglu Li",
+      "Xinyu Deng",
+      "Quan D. Zhou",
+      "Delong Zhang",
+      "Siying Peng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30757",
+    "title": "Reconfigurable Free-Space Optical Interconnects",
+    "abstract": "           Free-space optical interconnects can support many low-data-rate channels while avoiding the cost, energy consumption, and packaging constraints of optical waveguide- or fiber-based systems that are widely used today. We propose a free-space optical interconnect system based on reconfigurable micromirror arrays, and show that it scales favorably due to its two-dimensional scaling. We discuss the channel count scaling model, compare our demonstration with theory, and project a channel count above 10,000 to achieve 100 Tbps with slow channels (e.g., <10 Gbps). In a proof-of-concept system with a piston-motion micromirror array, we demonstrate nine channels that are simultaneously optimized. The optimization enables -21.7 dB of average worst-case crosstalk for a channel pitch equal to twice the beam radius, a smaller channel spacing than that required in flat tip-tilt mirrors. The optimization flow is further investigated for different channel spacings, simultaneous illumination, and different numbers of outputs, which generally achieve smaller worst-case crosstalk than the flat tip-tilt mirror case. Overall, the work demonstrates the advantage of piston-motion micromirrors in the proposed optical interconnects.         ",
+    "url": "https://arxiv.org/abs/2610.30757",
+    "authors": [
+      "Jaekwon Lee",
+      "Carson G. Valdez",
+      "Anne R. Kroo",
+      "David A. B. Miller",
+      "Olav Solgaard"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30857",
+    "title": "All-photonic millimeter-wave and terahertz signal core at room and cryogenic temperatures",
+    "abstract": "           Millimeter-wave and terahertz technologies offer new opportunities for high-capacity communications, sensing, and quantum systems, but electronic signal chains above 100 GHz are limited by weak sources, noisy receivers, and lossy interconnects. Photonic approaches mitigate these constraints by enabling chip-scale high-frequency components, yet existing implementations generally retain lossy off-chip electrical or free-space links, hindering dense and compact integration for cryogenic or space-constrained settings. Here, we show a monolithic lithium tantalate photonic chip, termed a signal core, which generates, modulates, routes, and detects continuous-wave signals at discrete frequencies between 100 GHz and 2.5 THz. The architecture integrates high-frequency functional modules on chip and uses exclusively fiber-based optical interfaces. Bidirectional coherent electro-optic conversion enables signal generation, detection, and nanosecond-scale amplitude and phase modulation, while micro-coplanar striplines interconnect the modules into an end-to-end signal chain on a single chip. Our modules achieve single-photon electro-optic coupling rates of g_0/2\\pi=10 kHz and peak drive-power-normalized photon-flux conversion efficiencies of 1.0%/mW for generation and 0.5%/mW for detection. It also operates at 4 K in a dilution refrigerator through the same fiber-only optical links. Together, these capabilities establish an all-photonic platform for millimeter-wave-to-terahertz systems and offer a broadly applicable architecture for applications constrained by electrical-interconnect loss, heat load, and footprint.         ",
+    "url": "https://arxiv.org/abs/2610.30857",
+    "authors": [
+      "Jiawen Liu",
+      "Chengli Wang",
+      "Aleksei Gaier",
+      "Tianyi Zhang",
+      "Gabriel J\u00fclg",
+      "Yazan Lampert",
+      "Andr\u00e9 Garcia Primo",
+      "Alessandro Tomasino",
+      "Hua Li",
+      "Xin Ou",
+      "Ileana-Cristina Benea-Chelmus"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30897",
+    "title": "Laser-design methodology for extending an available wavelength range of dual-wavelength injection-seeded laser",
+    "abstract": "           This paper describes a method for expanding the applicable wavelength range of dual-wavelength oscillation injection-locked lasers. Special focus is placed on the laser design that enables simultaneous oscillations at both the gain center and gain tail, requiring the most stringent requirements. We show that a sufficient performance can be achieved by introducing a wavelength-dependence property onto the output coupling mirror, without giving any losses in the laser resonator. We also show how we can determine such wavelength-dependent property on the basis of experimental measurements. Using the designed output-coupler, in practices, we demonstrate simultaneous oscillations with an equal output power, across a variety of wavelength combinations of near the gain center and around the gain tail in which the wavelength separation amounts 60 nm at the most.         ",
+    "url": "https://arxiv.org/abs/2610.30897",
+    "authors": [
+      "Ayaka Hashimoto",
+      "Tetsuto Watanabe.Sota Kobayashi",
+      "Megumi Otose",
+      "Ken'ichi Nakagawa",
+      "Masayuki Katsuragawa"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30898",
+    "title": "Intrinsic Angular Momentum Contribution to the Sagnac Response of a Rotating Helical Optical Fiber",
+    "abstract": "           We investigate rotation-induced phase accumulation of structured light in a mechanically rotating uniform helical optical fiber using a four-component optical Dirac-like equation. In the paraxial and weak-geometry regime, the intrinsic dynamics contain a torsion-induced geometric coupling and a mechanical rotation--angular-momentum coupling. We show that, in a common-path mirror-reflection geometry, both the torsion-induced geometric phase and the conventional area-dependent Sagnac contribution cancel over a complete round trip, whereas the intrinsic rotation--angular-momentum phase survives. The surviving phase depends on the intrinsic total angular momentum of the structured optical mode and provides a common-path interferometric route for probing intrinsic angular momentum effects in rotational sensing.         ",
+    "url": "https://arxiv.org/abs/2610.30898",
+    "authors": [
+      "Lili Yang",
+      "Pengming Zhang",
+      "Longlong Feng"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30998",
+    "title": "A Personal History in Quantum Foundations: an Oral History Interview",
+    "abstract": "           This oral history interview provides Yakir Aharonov's personal and conceptual recollections from the 1950s to the 2000s, focusing on his academic trajectory, some of his major contributions to quantum foundations, and his perspective on the development of the field. The interview traces Aharonov's academic career through the Technion, University of Bristol, Brandeis University, Yeshiva University, University of South Carolina, Tel Aviv University, George Mason University, and Chapman University. The interview also traces the development of Aharonov's work and collaborations on the EPR paradox, time-energy uncertainty relations, quantum measurement theory, quantum frames of reference, the two-state vector formalism, weak values, protective measurements, and several other contributions. It includes recollections of meetings and discussions with David Bohm, Niels Bohr, John Clauser, Paul Dirac, Rudolf Peierls, Aage Petersen, and Abner Shimony. Also mentioned: David Albert, Jeeva Anandan, Peter Bergmann, Gideon Carmi, Avshalom Elitzur, Dave Finkelstein, Vladimir Fock, Itzhak Kalugai, Ed Lerner, Joel Lebowitz, Stanley Mandelstam, Yuval Ne'eman, Sandu Popescu, Maurice Pryce, Daniel Rohrlich, Nathan Rosen, Joseph Safko, Paul Singer, Daniele Struppa, Leonard Susskind, Lev Vaidman, Chien-Shiung Wu.         ",
+    "url": "https://arxiv.org/abs/2610.30998",
+    "authors": [
+      "Guy Hetzroni",
+      "Yakir Aharonov"
+    ],
+    "subjectives": [
+      "History and Philosophy of Physics (physics.hist-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31045",
+    "title": "The Mechanism of Chirality in Plasmonic Structures: Asymmetric Resonance Modes",
+    "abstract": "           This study presents a theoretical framework for understanding the mechanism of chirality generation and circular dichroism (CD) in chiral nanostructures, with a particular focus on the role of asymmetric plasmon resonance mode distributions. Although previous studies have linked chiroptical properties to resonance differences, the specific nature and origin of these differences have not been fully elucidated. Here, we provide a more detailed explanation by quantitatively analyzing the asymmetric electric-field components arising from mode asymmetry. Specifically, we examine the near-field symmetry of individual nanorods and corner-stacked coupled structures (CSCS). The results demonstrate that chirality arises from asymmetric electric-field distributions, which give rise to distinct phase and amplitude responses of the electromagnetic fields in the composite structure under right-handed circularly polarized (RCP) and left-handed circularly polarized (LCP) illumination. The absorption and CD spectra, which exhibit distinct features around $910\\,\\mathrm{nm}$, support this mechanism and provide valuable insights into the design of chiroptical materials. The proposed mechanism is not restricted to a specific chiral structure or resonance and offers a broader explanation for the generation of circular dichroism.         ",
+    "url": "https://arxiv.org/abs/2610.31045",
+    "authors": [
+      "Abduweli Abdukerim"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31077",
+    "title": "In situ performance of the Vertex Silicon Plane in the BM@N experiment during Run 9",
+    "abstract": "           The Vertex Silicon Plane (VSP) was commissioned and operated for the first time as the most upstream tracking station of the Baryonic Matter at Nuclotron (BM@N) experiment at the NICA accelerator complex during Run 9. The station consisting of six double-sided silicon microstrip modules based on the CBM-BM@N detector technology was installed about 8 cm downstream from the target inside the SP-41 analyzing magnet. The in situ module performance was characterized in terms of the signal-to-noise ratio, time resolution, and Lorentz drift in the magnetic field. The most probable cluster signal-to-noise ratio ranges from 15.5 to 33.2, while the time resolution relative to the trigger pulse is about 12 ns. The tracking performance was evaluated using track-hit residuals and hit-matching efficiency; two independent reference configurations based on the Forward Silicon Detector (FSD) and Gas Electron Multiplier (GEM) tracking systems give consistent efficiencies of about 95%. The contribution of the VSP to the BM@N tracking performance was further studied through the transverse track impact parameter and the reconstruction of short VSP-GEM tracklets. Owing to its position close to the target and its coverage at large polar angles, the VSP provides an additional near-target tracking point and makes it possible to extend the geometrical acceptance beyond that of the FSD- and GEM-based central tracking system.         ",
+    "url": "https://arxiv.org/abs/2610.31077",
+    "authors": [
+      "D. Dementev",
+      "M. Shitenkov",
+      "A. Kolozhvari",
+      "V. Leontyev",
+      "A. Sheremetev",
+      "D. Andreev",
+      "R. Arteche Diaz",
+      "D. Baranov",
+      "C. Ceballos Sanchez",
+      "I. Gabdrakhmanov",
+      "I. Gorelikov",
+      "T. Lygdenova",
+      "I. Osokin",
+      "S. Reyes Pe\u00f1a",
+      "I. Rufanov",
+      "E. Tsapulina",
+      "A. Voronin",
+      "Yu. Murin"
+    ],
+    "subjectives": [
+      "Instrumentation and Detectors (physics.ins-det)",
+      "High Energy Physics - Experiment (hep-ex)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31207",
+    "title": "Shaping Near Fields of Photonic Modes into Topological Textures",
+    "abstract": "           Topological textures of light, such as optical vortices and skyrmions, are attractive for high-density information encoding and light-matter interactions. In the near field, topologies have primarily been realized using polaritonic platforms that inherently tie the platform to the material dispersion, limiting their footprint due to propagation losses and restricting their operating spectral region. Here, we introduce a route to shape near-field topologies through the geometric engineering of a dielectric metasurface supporting a quasi-bound state in the continuum resonance, without the need for polaritonic surface waves. In-plane deformation of our metasurface bars conserves their resonance-driven near-fields locally, so that the metasurface geometry and the polarization of the illuminating light dictate the generated topology. By shaping silicon unit cells into geometries with rotational symmetry, we create optical topologies with controllable topological charge. Using phase-resolved scattering-type near-field optical microscopy, we experimentally characterize high-purity resonance-locked topologies such as vortices in concentric rings and topological charge doublets in Archimedean spirals. In contrast to conventional topological textures, our purely photonic mode-based field textures are stationary standing waves in the radial direction, without relying on surface-wave propagation or polaritonic dispersion, establishing a spectrally and spatially scalable platform for near-field topological photonics.         ",
+    "url": "https://arxiv.org/abs/2610.31207",
+    "authors": [
+      "Jonas Biechteler",
+      "Michael Hirler",
+      "Connor Heimig",
+      "Martin Barkey",
+      "Haoran Ren",
+      "Stefan A. Maier",
+      "Enrico Ba\u00f9",
+      "Andreas Tittl"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31243",
+    "title": "Second- and third-order nonlinearities in silicon nitride waveguides via heterogeneous integration of lithium niobate membranes",
+    "abstract": "           Thick, dispersion-engineered silicon nitride is a leading platform for integrated third-order nonlinear optics, supporting supercontinuum and frequency comb generation. However, it lacks the second-order nonlinearity required by many applications. Here we bond pre-fabricated x-cut thin-film lithium niobate membranes onto finished silicon nitride waveguides as a back-end step, compatible with commercially fabricated waveguides. A single silicon nitride waveguide generates an octave-spanning supercontinuum and, through the lithium niobate membrane, concurrent second-harmonic, sum- and difference-frequency generation. These results open new possibilities for thick silicon nitride photonics, from visible light generation to on-chip $f$-$2f$ comb self-referencing, a key step towards miniaturised timing and navigation quantum technologies.         ",
+    "url": "https://arxiv.org/abs/2610.31243",
+    "authors": [
+      "Natale G. Pruiti",
+      "Cosmin Suciu",
+      "Eugenio Di Gaetano",
+      "Jonathan M. Silver",
+      "Douglas J. Paul",
+      "Marc Sorel"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31424",
+    "title": "Analytical Modeling of Modulated Heating for Three-Dimensional Anisotropic Optical Thermometry of Multilayered Cylinders",
+    "abstract": "           Thermally relevant cylindrical geometries are used in a plethora of applications with thermal property differences depending significantly on material complexity. Manu- facturing processes also induce substantial anisotropy ratios resulting in directionally dependent thermal transport. However, for cylindrical specimens, current thermal metrology resolves only isotropic thermal properties, assumes perfect thermal inter- faces, and offers no formulation for temperature spatial dependence. In this work, we present an analytical framework that models the frequency dependent thermal transport of orthotropic arbitrary layered cylinders to be used as a forward model for existing optical thermometry techniques. This formulation captures the effects of non-negligible thermal boundary conductance and offers the first closed-form solution of a projected Gaussian laser, a common form of heating in thermal metrology, hav- ing a finite elliptic spot size on a curved surface. The novel anisotropic cylindrical model was compared with literature derivations involving two-dimensional isotropic transport for cylinders by applying simplifying assumptions. For single- and two- layerisotropicsamples, thethree-dimensionalmodelagreedwithestablishedsolutions with negligible error, while predictions for orthotropic multilayer samples agreed with finite-element simulations within 1.5% across a range of material properties and laser geometries. Comparison with anisotropic planar models identified conditions under which a planar approximation can reduce computation time. These results estab- lish the first forward model for noncontact characterization of anisotropic thermal properties in arbitrarily layered cylinders.         ",
+    "url": "https://arxiv.org/abs/2610.31424",
+    "authors": [
+      "William Spirnock",
+      "Dihui Wang",
+      "Heng Ban"
+    ],
+    "subjectives": [
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31426",
+    "title": "Unifying Time-Independent and Time-Dependent Franck--Condon Pictures in Quantum Mechanochemistry via the Linear Coupling Approximation",
+    "abstract": "           Quantum chemistry has achieved impressive results in modeling and interpreting mechanochemical transformations at the molecular level. An essential question, the time profile of force application, has however attracted less attention. Here, the Franck--Condon theory of quantum mechanochemistry, previously formulated for the sudden-force limit, is generalized to arbitrary time-dependent force profiles using the linear-coupling approximation. Solving the driven harmonic oscillator yields a closed-form, time-dependent effective Huang--Rhys factor: a natural measure of vibrational excitations upon force application. It is governed by the Fourier transform of the force derivative and recovers the sudden- and fixed-force limits. At the conceptual level, this linear coupling picture links mechanochemistry to vibronic spectroscopy and Marcus electron theory. For a shock-front force ramp, vibrational excitation is shown to be suppressed in frequency, only low-frequency modes being excited under realistic laser-shock-peening conditions.         ",
+    "url": "https://arxiv.org/abs/2610.31426",
+    "authors": [
+      "Vladimir V. Rybkin"
+    ],
+    "subjectives": [
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31452",
+    "title": "Nanopillar metasurfaces uniting high optical reflectivity with ultracoherent nanomechanics",
+    "abstract": "           Mechanically compliant mirrors are key components in cavity optomechanics. However, the requirements to achieve the best optical and mechanical performance are usually in direct competition. A high reflectivity for tightly focused beams entails thick reflectors, whereas ultracoherent flexural nanomechanics necessitates thin membranes. We eliminate this trade-off by introducing high-refractive-index nanopillar metasurfaces on top of a thin membrane. We pattern a 50 micrometer-diameter array of nanopillars to form a photonic crystal. The flat band behavior of guided resonances in the photonic crystal enables a reflectivity of 99.82(1)% for a tightly focused beam of 7 micrometer waist. The combination of two guided resonances creates a 100 nanometer-wide high-reflectivity band around 1550 nanometer. Simultaneously, the nanopillar patterning realizes a density-modulated phononic crystal that isolates an ultracoherent localized mechanical mode with a $Q\\cdot f$-product of $2\\cdot 10^{14}$Hz. The demonstrated nanopillar metasurfaces enable lightweight mirrors for room-temperature quantum optomechanics and for use as levitated mirrors or lightsails.         ",
+    "url": "https://arxiv.org/abs/2610.31452",
+    "authors": [
+      "Alexander Jung",
+      "Anastasiia Ciers",
+      "Hannes Pfeifer",
+      "Albert Hansson",
+      "Johanna \u00d6rg\u00e5rd",
+      "Daniel Stachanow",
+      "Viktor A. Lilja",
+      "Philippe Tassin",
+      "Witlef Wieczorek"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Applied Physics (physics.app-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30245",
+    "title": "Sequential SBI for Resonance Searches at the LHC",
+    "abstract": "           Neural simulation-based inference has been shown to extract significantly more information from LHC data than histogram-based analyses. So far, it has mostly been applied to couplings, for which the polynomial structure of the scattering amplitude can be exploited. Masses and widths instead move and deform the signal in phase space, and learning their likelihood requires many event samples covering the continuous theory parameter space. We show how sequential simulation-based inference can address this by iteratively concentrating the simulations where the observed data points. Using a parton-level example with an exact reference likelihood and reconstruction-level analyses of $A\\to ZH\\to \\ell\\ell b\\bar b$ and $Y\\to HH\\to (t\\bar t)(t\\bar t)$, we demonstrate that sequential training produces significantly more accurate and better calibrated likelihoods than single round training with the same amount of training events.         ",
+    "url": "https://arxiv.org/abs/2610.30245",
+    "authors": [
+      "Henning Bahl",
+      "Ranit Das"
+    ],
+    "subjectives": [
+      "High Energy Physics - Phenomenology (hep-ph)",
+      "High Energy Physics - Experiment (hep-ex)",
+      "Data Analysis, Statistics and Probability (physics.data-an)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30401",
+    "title": "Semblance Distance Analysis for Channel Quality Assessment in Distributed Acoustic Sensing",
+    "abstract": "           Distributed Acoustic Sensing (DAS) enables dense, kilometer-scale measurements for seismic and environmental monitoring, but its performance is limited by spatially heterogeneous noise and fiber to ground coupling. Identifying high-quality sensing channels remains a challenge, particularly in nonstationary and complex noise environments where conventional signal to noise ratio (SNR) or correlation based approaches are insufficient. In this work, we introduce a statistical framework for DAS channel quality assessment based on a semblance distance metric, which quantifies the deviation of individual channels from a locally coherent reference signal. Unlike traditional pairwise similarity measures, the proposed method formulates channel selection as a distance estimation problem in a coherence enhanced signal space, enabling identification of incoherent noise and coupling induced distortions without requiring prior knowledge of installation conditions or noise statistics. The method is validated using multiple independent datasets, including recordings of the 2023 Turkish-Syrian earthquakes, a controlled seismic source experiment, and long-term continuous measurements. Across all scenarios, the approach identifies regions of low noise and strong coupling, with results that correlate with independent SNR and root mean square error (RMSE) metrics. Furthermore, the method detects subtle sub-decibel temporal variations in coupling conditions over seasonal timescales, demonstrating its capability for continuous fiber health monitoring. These results establish semblance distance analysis as a physically interpretable tool for DAS channel selection with direct applications in seismic imaging, structural health monitoring, and noise mitigation in high sensitivity systems such as gravitational wave detectors.         ",
+    "url": "https://arxiv.org/abs/2610.30401",
+    "authors": [
+      "Reinhardt Rading",
+      "Markus Hoffmann",
+      "Norbert Meyners",
+      "Holger Schlarb",
+      "C\u00e9line Hadziioannou",
+      "Oliver Gerberding",
+      "Katharina-Sophie Isleif"
+    ],
+    "subjectives": [
+      "Signal Processing (eess.SP)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30453",
+    "title": "Orientation-selective microwave heating of laser-graphitized diamond at 2.45 GHz",
+    "abstract": "           Pristine diamond couples negligibly to a 2.45 GHz field. We show that femtosecond-laser inscription of a buried graphitic (sp2) architecture makes a 4 x 4 x 2 mm^3 N-doped (100 ppm) high-pressure high- temperature (HPHT) crystal absorb strongly, and that the absorption is switched by the orientation of the inscribed structure relative to the cavity electric field. With the 1.8 mm depth of a concentric grating along E, stepped power gave a smooth staircase to an indicated ~500C at 80 W followed, at 90 W, by an abrupt excursion to an indicated ~900C with surface roughening and terraced oxidation. Rotating the same sample so that the grating diameter lay along E, and an unmodified crystal in either orientation, gave no signal above the ~40C floor. We account for this by the depolarisation factors L of the sub-wavelength tracks, collapsed into one screening parameter S = L{\\sigma}/({\\omega}{\\epsilon}0{\\epsilon}h), here, {\\sigma} conductivity, {\\omega} - cyclic frequency, {\\epsilon}h,0 - permittivity of host and vacuum, respectively. The model turns element length, diameter and writing regime into design variables for microwave absorption in a transparent host.         ",
+    "url": "https://arxiv.org/abs/2610.30453",
+    "authors": [
+      "Massimiliano Zamengo",
+      "Meguya Ryu",
+      "Haoran Mu",
+      "Hsin-Hui Huang",
+      "Nguyen Hoai An Le",
+      "Tomas Katkus",
+      "Darius Gailevi\u010dius",
+      "Junko Morikawa",
+      "Saulius Juodkazis"
+    ],
+    "subjectives": [
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30627",
+    "title": "Emergent Entropic Forces Drive Inverse and Reentrant Phase Transitions in Condensates of Intrinsically Disordered Proteins",
+    "abstract": "           We present a phenomenological, mean-field model for condensates of intrinsically disordered proteins that describes inverse phase transitions and qualitatively predicts reentrant phase behavior as a function of salt concentration. The model is based on a matrix-based formulation of the Flory-Huggins free energy, in which the enthalpic interaction parameter and the protein valence, defined here as the number of effective \"sticky patches\", are treated as free parameters. Its central insight is that integrating out dynamics of fast-moving molecular species generates an effective entropic force that increases the free-energy barrier to mixing, even within a mean-field description. We account for this by linking Gaussian integration of co-solutes to the Schur complement of the matrix-based Flory-Huggins free energy. This provides a general thermodynamic framework illustrating how enthalpic interactions that increase the number of available microstates necessarily induce effective entropic forces. We demonstrate the expressiveness and predictive power of the model by qualitatively reproducing recent experimental observations on the rabies virus phosphoprotein.         ",
+    "url": "https://arxiv.org/abs/2610.30627",
+    "authors": [
+      "David A. Herrera-Mart\u00ed",
+      "Marc Jamin"
+    ],
+    "subjectives": [
+      "Soft Condensed Matter (cond-mat.soft)",
+      "Biological Physics (physics.bio-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.30741",
+    "title": "Localization Contrast As a Fundamental Limit of Radiative Quantum Efficiency",
+    "abstract": "           Disorder can localize valence- and conduction-band states to different degrees, yet whether such localization contrast has observable consequences remains poorly understood. Here, we show that localization contrast strongly impacts competing carrier-recombination channels. We illustrate this behavior in random In$_x$Ga$_{1-x}$N alloys. Increasing the In content from $x=13.5\\%$ to $x=22\\%$ progressively localizes the valence-band maximum state while leaving the conduction-band minimum state comparatively delocalized. This contrasting localization decreases the interband optical momentum matrix element underlying radiative recombination. For Auger-Meitner recombination, however, localization alone does not determine the coupling; atomic-scale disorder also breaks primitive-cell translational symmetry and modifies the momentum-space and phase structure of the states. This generates additional low-$Q$ components and enhances the Auger coupling by more than five orders of magnitude relative to pristine GaN. Thus, we provide a microscopic explanation for the competing trends in radiative and Auger recombination. More broadly, our results establish localization contrast as a mechanism through which disorder can control optical and carrier-carrier interactions in semiconductors.         ",
+    "url": "https://arxiv.org/abs/2610.30741",
+    "authors": [
+      "Arsineh Apelian",
+      "Tanay Tak",
+      "Xuance Jiang",
+      "Tsung-Yin Tsai",
+      "James S. Speck",
+      "Vojtech Vlcek"
+    ],
+    "subjectives": [
+      "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+      "Applied Physics (physics.app-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31185",
+    "title": "Realization of a Superleak in a Quantum Gas",
+    "abstract": "           Ultracold quantum gases offer a controllable and microscopically accessible platform for understanding and engineering superfluidity. Yet, realizing a superleak that selectively transports the superfluid while suppressing normal flow has remained elusive. Here, we harness an optical superlattice to realize such a superleak through dynamical selectivity. The superfluid undergoes coherent Josephson transport, whereas the normal component exhibits slow, thermodynamically limited response, resulting in a flow-rate contrast of 500(49). Exploiting this contrast, we demonstrate repeated filtering of the normal component and dynamical purification of the superfluid, while sustaining coherent driven oscillations for up to 100 cycles. Our results establish a controllable atomic superleak and open possibilities for manipulating transport and thermodynamics in quantum fluids.         ",
+    "url": "https://arxiv.org/abs/2610.31185",
+    "authors": [
+      "Wan-Ling Yang",
+      "Shao-Bo Liu",
+      "Xiang Luo",
+      "Chao Yang",
+      "Hai-Lin Li",
+      "Yu-Zhou Yang",
+      "Yong-Kui Wang",
+      "Bing Yang"
+    ],
+    "subjectives": [
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Atomic Physics (physics.atom-ph)",
+      "Quantum Physics (quant-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2610.31507",
+    "title": "Macroscopic Nuclear Resonance Energy Transfer Mediated by Coherent Magnons",
+    "abstract": "           Phonon-mediated nuclear Resonance Energy Transfer (RET) in metal deuterides is severely constrained by inertial rest-mass dilution, lattice fracture limits, and thermal nuclear spin cancellation. Extending the generalized nuclear Dicke model to Ferromagnetic Resonance (FMR) magnons eliminates mass dilution via hyperfine-amplified M1 coupling while unlocking relativistic Dirac M2 coupling via Overhauser spin polarization. We derive a Suhl-clamped FMR scaling law predicting 14.2 MeV (Pd-106) and 11.4 MeV (Ni-58) breakup neutrons, 19.9 MeV alpha particles, and reconciled sub-keV fusion anomalies.         ",
+    "url": "https://arxiv.org/abs/2610.31507",
+    "authors": [
+      "Ryan Weed"
+    ],
+    "subjectives": [
+      "Nuclear Experiment (nucl-ex)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)",
+      "Nuclear Theory (nucl-th)",
+      "Atomic Physics (physics.atom-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2603.03691",
+    "title": "A Photonic Tautochrone: Spatiotemporal Beam Focusing for Enhanced Nonlinear Response",
+    "abstract": "           We propose to implement an optical analogue of the tautochrone property of the cycloid to allow the focusing of ultrashort pulses inside photonic systems. This allows to enhance nonlinear effects, resulting in orders of magnitude increase of nonlinearity-induced phase shifts, while employing low irradiances. Building upon the optical-mechanical analogy, we show how to produce optical limiters for temporal light pulses, and how to implement temporal bistability and even multistability with large numbers of states. Finally, we move this concept to the quantum realm and predict a tautochrone quantum blockade regime with a stronger antibunching.         ",
+    "url": "https://arxiv.org/abs/2603.03691",
+    "authors": [
+      "W. Verstraelen",
+      "S. Zanotti",
+      "N. W. E. Seet",
+      "J. Zhao",
+      "D. Sanvitto",
+      "J. Zu\u00f1iga-Perez",
+      "K. Dini",
+      "Y. G. Rubo",
+      "T. C. H. Liew"
+    ],
+    "subjectives": [
+      "Optics (physics.optics)",
+      "Mesoscale and Nanoscale Physics (cond-mat.mes-hall)"
+    ]
+  },
+  {
+    "id": "arXiv:2604.09346",
+    "title": "OTProf: estimating high-resolution profiles of optical turbulence ($C_n^2$) from reanalysis using deep learning",
+    "abstract": "           Accurate, high-resolution vertical profiles of optical turbulence ($C_n^2$), which reflect local meteorology and topography, are crucial for ground-based optical astronomy and free-space optical communication. However, measuring these profiles or generating them with numerical weather models requires substantial operational or computational effort. In this work, we present OTProf, a deep-learning method that estimates high-resolution $C_n^2$ profiles from widely available coarse-resolution ERA5 reanalysis data. OTProf is based on the Squeezeformer architecture, modified for super-resolution by introducing grid-agnostic interpolation in the latent space. We train and evaluate OTProf in the Netherlands using high-resolution $C_n^2$ data obtained from the Weather Research and Forecasting (WRF) model. The commonly used Hufnagel-Valley model serves as the baseline. Overall, OTProf reproduces the vertical structure of WRF-based $C_n^2$ more accurately than Hufnagel-Valley and yields more accurate estimates of the Fried parameter $r_0$ and the scintillation index $\\sigma_I^2$. Out-of-domain performance is assessed using a smaller WRF-based $C_n^2$ dataset covering the Canary Islands. Initial results indicate a performance drop because the orography differs markedly from the training domain. We show that output bias correction based on a few local simulations can help OTProf to adapt, but more work for domain adaptation is needed. OTProf is therefore primarily recommended for in-domain applications, e.g., generating $C_n^2$ climatologies from long ERA5 records.         ",
+    "url": "https://arxiv.org/abs/2604.09346",
+    "authors": [
+      "Maximilian Pierzyna",
+      "Sukanta Basu",
+      "Rudolf Saathof"
+    ],
+    "subjectives": [
+      "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ]
+  },
+  {
+    "id": "arXiv:2403.04572",
+    "title": "Quantum theory of molecular orientation",
+    "abstract": "           We formulate a quantum phase space for rotational and nuclear-spin states of rigid molecules. For each nuclear spin isomer, we re-derive the isomer's admissible angular momentum states from molecular geometry and nuclear-spin data, introduce its angular position states using quantization theory, and develop a generalized Fourier transform converting between the two. We classify molecules into three types -- asymmetric, rotationally symmetric, and perrotationally symmetric -- with the last type having no macroscopic analogue due to nuclear-spin statistics constraints. We discuss two general features in perrotationally symmetric state spaces that are Hamiltonian-independent and induced solely by symmetry and spin statistics. First, we quantify when and how an isomer's state space is completely rotation-spin entangled, meaning that it does not admit any separable states. Second, we identify isomers whose position states house an internal pseudo-spin or \"fiber\" degree of freedom, and the fiber's Berry phase or matrix after adiabatic changes in position yields naturally robust operations, akin to braiding anyonic quasiparticles or realizing fault-tolerant quantum gates. We outline how the fiber can be used as a quantum error-correcting code and discuss scenarios where these features can be experimentally probed         ",
+    "url": "https://arxiv.org/abs/2403.04572",
+    "authors": [
+      "Victor V. Albert",
+      "Eric Kubischta",
+      "Mikhail Lemeshko",
+      "Lee R. Liu"
+    ],
+    "subjectives": [
+      "Quantum Physics (quant-ph)",
+      "Quantum Gases (cond-mat.quant-gas)",
+      "Representation Theory (math.RT)",
+      "Atomic Physics (physics.atom-ph)",
+      "Chemical Physics (physics.chem-ph)"
+    ]
+  }
+]
